@@ -1,0 +1,124 @@
+﻿row,plant,before,after,confidence,note
+10,アルケミラ　モリス (レディースマントル),弱,中,中,MBG: average medium moisture well-drained、湿った場所で良好だが根付けば乾燥にそこそこ耐える(『good drought tolerance once established』)。ただし高温乾燥では葉が焼けやすく午後の日陰・保湿を要し極端な乾燥は嫌う。現状『弱』はやや過小、中が妥当。適湿は整合。
+24,カンパニュラ　タケシマナ ‘ビューティフルトラスト’,中,弱,中,種takesimanaはMBGで『needs regular moisture』で乾燥耐性は弱。マスタは同種の行23を弱としており当行の『中』は不整合。鬱陵島固有・湿潤性のため乾燥耐性=弱に修正推奨。品種固有情報なく種の値を適用。
+36,ジギタリス　マートネンシス ‘マートンストロベリー’,弱,中,中,RHS Moisture=Moist but well-drained。腐植質で湿り気ある土を好むが waterlogged を嫌い、湿地・水辺植物ではない＝湿潤寄りは過大、適湿が適切。林縁性で根付けば一定の乾燥に耐える（drought tolerant once established）ため乾燥耐性は弱→中へ。猛暑乾風では萎れるため中止まり。
+38,ジプソフィラ　レペンス ‘ホワイト’,中,強,中,中南欧山地の乾いた石灰質斜面が自生。excellent drainage 必須で重い土は根腐れ、冬の過湿を嫌う。痩せ地・heat・drought に強く根付けば少灌水で越夏＝乾燥耐性は中→強へ（同種'Rosea'は強表記でありデータ内不整合）。品種固有情報なく種の生態を採用。
+70,ヒューケラ　サンギネア ‘ファイヤーフライ’,強,中,高,要修正。MBG: medium moisture・腐植質・排水良好（岩礫質は可、重粘土は不可）。定着後はやや耐乾だが夏は定期灌水が必要で、日向で乾くとscorch/葉衰退。→ 乾燥耐性は強でなく中。排水は重視するが水分要求はmedium(適湿)であり、乾燥に強い『排水必須』区分は過大。適湿・中に修正。クラウン腐れ防止に排水良好は要件だが乾燥好みではない点をnote化。
+71,ビンカ　ミノール ‘アトロプルプレア’,中,強,高,要修正。MBG: dry〜medium・排水良好、full sun〜ほぼ full shadeまで順応、定着後はdry soil・drought tolerant。湿潤な腐植土も可という広い適応性を持つ強健グラウンドカバー。→ 土壌水分は適湿より『幅広く適応』が適切、耐乾性は中でなく強。両項目を修正。
+72,ビンカ　ミノール （ビンカミノール　ムラサキ）,中,強,中,"MBG Water=Dry to Medium、'easily grown in average, dry to medium, well-drained soil'。根付けば drought tolerant（乾燥に強い強健グラウンドカバー）。日陰では湿った腐植質も好むが乾～中湿まで順応するため幅広く適応が妥当。乾燥耐性は定着後強。"
+74,ビンカ　ミノール‘アルバ’ （ビンカミノール白花）,中,強,中,花色違いで水分生態は種と同一。MBG dry to medium・定着後drought tolerant。乾～中湿に順応する強健グラウンドカバーのため幅広く適応・乾燥耐性強。
+81,フクシャ マジェラニカ‘バリエガータ’ （フクシャ マジェラニカ 斑入り）,中,弱,高,母種と同じ水分生態。常に湿った土を要し乾燥非耐性のため乾燥耐性=弱が妥当（現行'中'は過大評価）。斑入り種はむしろ水切れに弱い傾向。TSVの原産地欄はヨーロッパ等とあるが実際は南米南部(要別途修正)。湿潤寄りは一致。
+89,ヘデラ‘ヘンリエッタ’,弱,中,中,MBG: 幅広い土壌に順応、最良の葉色は常湿だが『ある程度の乾燥に耐える』。乾いた日陰の被覆植物として推奨される強健常緑つる。土壌=幅広く適応で一致。乾燥耐性は定着後そこそこ強いため弱→中に修正。
+91,ヘメロカリス‘ファイナルタッチ’,中,強,中,品種固有の一次情報なし。ヘメロカリスは属として定着後の乾燥耐性が高く（Water=Medium、幅広い土壌、暑さ乾燥に強い）、'Stella de Oro'同様に扱うのが妥当。土壌=適湿は一致、乾燥耐性は中→強に修正（属の値を適用）。
+95,ベルゲニア　コーディフォリア,強,中,中,"MBG Water=Medium, average medium moisture well-drained, prefers consistently moist organically rich soils。厚い革質常緑葉と根茎で日陰の一時的乾燥にはある程度耐えるが、自生は湿った岩礫斜面で『常時湿潤を好む』ため乾燥地型の『強』は過大。中へ修正。土壌区分は適湿で一致"
+98,ベロニカ　スピカータ  （花：ブルー）,強,中,高,"MBG Water=Medium。average medium moisture well-drained、『shallow roots, generally intolerant of dry soil conditions』、consistent regular moisture＋sharp drainageで最良。浅根で乾燥に弱いため乾燥寄り→適湿、乾燥耐性強→中に修正（定着後は中程度の耐乾のみ）"
+99,ベロニカ　スピカータ ‘ブルーブーケ’,強,中,高,V. spicata 園芸種。種同様 MBG Water=Medium、shallow roots・intolerant of dry soil、consistent moistureを要す。乾燥寄り→適湿、強→中に修正
+103,ポテンチラ　アトロサンギネア,強,中,中,"MBG: average, moist but well-drained soils／established plants have respectable drought tolerance。ヒマラヤ原産で冷涼地向き（zone7以南の高温多湿で不調）。sharp drainage/過湿嫌いの記述はなく『moist but well-drained』のため排水必須より適湿が妥当。乾燥耐性は『respectable（中程度）』で強→中に修正。"
+104,ポテンチラ　ネパレンシス ‘ミスウィルモット’,強,中,中,"MBG: average, medium, well-drained soils／medium moisture。乾燥地向きというより中庸の水分を好み、根付けば減水に耐える程度。適湿で整合、乾燥耐性は中が妥当（TSVは中と記載でdry一致だがcur_dry欄=中を採用）。品種固有情報が乏しく種・近縁品種値を援用。"
+130,スカビオサ　コウカシカ ‘コンプリメント’,強,中,中,MBG: light well-drained soil、good drainage が要、過湿・冬の湿りで根腐れ→排水必須は妥当。ただし『tolerant of drought but does best with moderate watering』かつ高温多湿に弱いため、無灌水で夏越しの強ではなく中へ修正（境界的）。
+131,ゲラニウム‘ジョンソンズブルー’,強,中,高,"MBG Water=Medium、average medium moisture well-drained、prefers moist organic soils。親のG. pratenseは湿った草原。根付けば多少の乾燥に耐えるが『performs best with regular watering, particularly during dry spells』。適湿は妥当だが乾燥耐性は強ではなく中へ修正。"
+138,ビンカ　ミノール‘ダブルパープル’ （ビンカミノール　ダブルフラワー）,中,強,高,"MBG=dry to medium, well-drained、drought-tolerant once established。moist humusyを好むが定着後は乾燥に強いグラウンドカバー。土壌=適湿は妥当だが乾燥耐性は中→強へ修正。"
+140,フロックス　パニキュラータ ‘ハーレークィーン’,中,弱,高,"同種Norah Leighと同基準。MBG=medium moisture, well-drained（湿地性ではない）→湿潤寄りから適湿へ。intolerant of drought、水切れで葉焼け・下葉落ち→中から弱へ修正。"
+142,ベロニカ　スピカータ‘ローズ’,強,中,高,"MBG Water=Medium（average, medium moisture, well-drained）で適湿は妥当。ただし浅根で乾いた土に弱く、根付けば中程度の耐乾のみ→強は過大評価、中が適切。冬の停滞湿害には注意。"
+143,ペンステモン　ジギタリス ‘ハスカーレッド’,強,中,中,MBG=dry to mediumかつ定着後は一時的な乾燥と冠水の両方に耐える→幅広く適応は妥当。ただし『tolerant of occasional drought』かつ『prefers consistently moist soils』の記述で、無灌水越夏（強）までは断定できず中が妥当。
+154,クロコスミア‘ソルファテール’,強,中,中,"MBG: medium moisture, well-drained soil。球茎で一時的乾燥は凌ぐが本来は生育期に適度な水分を好み、過湿を強く嫌う地中海性ではない。品種固有情報なく属の値を適用。排水を要すが『排水必須(過湿即腐敗)』ではなく適湿寄り、乾燥耐性は中が妥当→要修正。"
+162,リシマキア　プンクタータ ‘アレキサンダー’,中,弱,中,"MBG=moist, humusy, well-drained／moisture-loving perennial, sensitive to drought。斑入り'Alexander'は乾くと葉縁が茶変（variegated foliage browns when too dry）。土壌は湿潤寄りで一致。乾燥耐性は原種は痩地乾土にも耐えるが斑入り品種は水切れで傷むため中→弱に修正。"
+171,カレックス‘バッドヘアーデイズ’,弱,中,中,品種名の細く垂れる糸状葉（hairlike mop）・北米原産・USDA4-8・半日陰から、Carex appalachica（アパラチアンセッジ）系と同定（品種固有情報なく種で判定）。自生は湿潤〜乾の上部林床で、dry shadeに非常に強く drought tolerant once established、逆に過湿・排水不良は嫌う。よって湿潤寄り→適湿（乾き気味の半日陰に適応、well-drained必須）、弱→中に修正。※品種同定の確度により確信度中、要再照合。
+174,ゲラニウム　サンギネウム‘アルバム’,強,中,中,MBG Water=Medium、average medium moisture well-drained。'tolerates some drought but most vigorous in moist humusy soils'＝乾燥は耐えるが好むのは適湿。自生は乾いた石灰質草原・砂丘で乾燥適応は高め（中〜強の上限寄り）だが、一次記述に沿い適湿／中と判定。現行の乾燥寄り・強はやや過大。
+178,カンパニュラ　プンクタータ ‘フラッシングライト’,弱,中,中,"東シベリア〜中国〜日本原産。rich, moist, well-drained soilで regular moistureを好み、猛暑夜温高で不調。ただし根茎で旺盛に広がる強健種で中程度の乾燥には耐える→乾燥耐性=中が妥当。現行の弱はやや過小（湿地・浅根の弱とは異なる）。適湿は一致。"
+183,カンパニュラ　プンクタータ ‘ボールオブチェリー’,弱,中,中,"MBG「average, medium, well-drained soil」で適湿は一致。東アジア・シベリア産の根茎で旺盛に広がる強健種（しばしば繁茂）で、水切れですぐ枯れ込む浅根湿地植物ではない。猛暑夜温には弱いが平年は可→乾燥耐性は弱でなく中が妥当。"
+191,ホスタ‘リトルオーロラ’,弱,中,中,品種固有記述は乏しいためホスタ属のMBG値を適用（tokudama系の肉厚小型黄金葉）。属としてWater=Medium・適湿、定着後は乾いた日陰にある程度耐える=乾燥中。湿地性ではないため湿潤寄りは不適→適湿。小型黄金葉で日焼けしやすく弱寄りの余地はあるが属基準で中。
+192,カラマグロスティス‘オーバーダム’,強,中,中,"MBG Water=Medium to wet。『rich, consistently moist soils that do not dry out』を好み、湿地・レインガーデン・重粘土にも耐える。乾燥は不得手で常灌水寄り。現行『強』は過大→乾燥耐性=中に修正（根付けば一時的乾燥は可だが水切れで倒伏・葉焼け）。土壌は適湿で妥当。"
+196,フィソステギア　バージニアーナ ‘バリエガータ’,弱,中,中,"MBG: 自生は湿った草地・河畔・プレーリー、湿った肥沃土でよく広がる→湿潤寄りで妥当。ただしMBGは『wonderfully adaptable, tolerating both drought and poor drainage』とし乾燥も許容。現行『弱』は過小→乾燥耐性=中に修正（斑入り品種はやや葉焼けしやすい点を考慮し強とはしない）。"
+197,ベロニカ　スピカータ ‘レッドフォックス’,強,中,中,"MBG『average, medium moisture, well-drained』。浅根で本来は乾いた土に弱く、過湿・排水不良で根腐れ、特に冬の停滞湿度を嫌う→適湿を好むが排水最優先=排水必須が最適合（乾燥寄りは過大）。乾燥は根付けば耐えるが浅根ゆえ猛暑乾風で水切れ→強ではなく中。"
+204,ギレニア　トリフォリエータ （ミツバシモツケ）,強,中,中,"MBG=best in fertile, moist, well-drained soils／北米東部の林床性。乾燥耐性は『tolerant of OCCASIONAL drought once established』止まりで無灌水越夏の『強』は過大。定着後の一時的乾燥に耐える『中』が妥当。"
+226,モリニア　カエルレア ‘バリエガータ’,弱,中,高,"MBG: average, medium to wet, well-drained; prefers consistent moisture（湿原・ムーア原産で湿潤寄りは妥当）。ただし活着後は generally drought-tolerant、極端な猛暑・長期乾燥で傷む＝乾燥耐性は弱より中が適切。→乾燥耐性を弱→中に修正。"
+229,アジュガ　レプタンス‘ロゼア’,弱,中,高,"MBG: average, medium moisture, well-drained; 湿ったフムス土を好むが moderately dry にも耐え、活着後は fairly drought-tolerant で短期乾燥に耐える強健なグランドカバー。現行の湿潤寄り/弱は湿潤側に寄り過ぎ。→土壌=適湿、乾燥耐性=中に修正（矛盾組み合わせ）。"
+254,パルサティラ　ブルガリス ‘ホワイトベル’,強,中,中,"MBG=fertile, humusy, gritty, medium moisture, well-drained soils、good drainage essential、will not tolerate standing water（排水必須一致）。drought tolerant once established だが hot summer climates では needs consistent moisture、best in cool climates。水分区分Medium・過湿嫌いだが真の乾燥地植物ではないため乾燥耐性は強→中に修正。"
+260,トラディスカンティア ‘コンコードグレープ’,弱,中,中,水range=normal〜moist、keep soil evenly moist（湿り気を好む→湿潤寄り一致）。ただし drought tolerance がcharacteristicsに挙がり、深根化で established後は中程度耐乾（乾燥時は葉が乱れ休眠するが回復する強健種）。弱→中に修正。
+261,ポリゴネータム　オドラタム （アマドコロ),強,中,中,"MBG=moist, humusy, organically rich, well-drained soils、part to full shade。湿り気ある林床で排水良好→適湿一致。moderately drought tolerant once established but happiest with steady moisture、dislikes hot summer, water during dry spells。乾いた日陰にはある程度耐えるが強は過大→中に修正。"
+263,カリオプテリス　ディバリカータ ‘スノーフェアリー’（カリガネソウ）,強,中,中,"MBG Water=Medium: average, medium moisture, well-drained; 定着後は耐乾だが過湿・排水不良を嫌う。自生は東アジア（日本カリガネソウ）の山地林縁のやや湿った環境で、斑入り葉は乾燥で葉焼けしやすく真の乾燥地植物ではない。乾燥寄り→適湿、乾燥耐性は強→中（過湿は嫌うが乾き過ぎも不可）へ修正。"
+277,クロコスミア‘エンバーグロウ’,弱,中,中,'Ember Glow'固有のMBG無し、種・属の値を適用。moist but well-drained、過湿・停滞水で球茎腐敗。定着後は比較的耐乾（在来は南アフリカ）。ただし極端な乾燥で生育・開花が減る。適湿は一致。耐乾は「弱」より「中」（定着後は少灌水で越夏可）が妥当。
+280,エリゲロン‘ピンクジュエル’ （'ロサジュエル’),強,中,中,Erigeron speciosus系交配。乾湿両方に順応するが停滞水は不可、要排水。RHSは夏に乾かさない方が株が充実＝一貫湿りで良化。定着後は多少耐乾だが「drought resistantではなく乾天時は灌水要」。乾燥寄り/強は過大評価→幅広く適応（要排水）/中が妥当。
+282,デルフィニウム ‘アストラット’,中,弱,高,"MBG: fertile, humus rich, medium moisture, well-drained soils。常に多肥・多湿を好む thirsty plant で水切れに弱い。過湿の立水は crown/root rot を招くため排水は要るが、生態は『排水必須（乾燥に強い地中海型）』ではなく medium moisture=適湿。乾燥耐性は弱（consistent moisture 必須）に修正。"
+284,ルピナス　ペレニス,中,強,中,自生はオークサバンナ・パインバレン・砂丘・砂質原野の dry sandy soils。establish 後は drought tolerant（『water only during extended drought』）→乾燥耐性は強へ。粘土・過湿を嫌う。ただし定植初年は regular moisture が必要な点に注意。乾燥寄りは一致。
+294,ロニセラ　テルマニアーナ （ハニーサックル）,強,中,中,"RHS: fertile humus-rich, moist but well-drained soil（＝適湿）。根は日陰の湿った土を好み、乾き過ぎを嫌う。定着後はある程度耐乾との記述もあるが乾季は灌水要のため強ではなく中が適切。"
+296,カレックス　マスキングメンシス ‘リトルミッジ’,中,弱,中,MBG: 北米原産で wooded swamps・river flood plains 自生、medium to wet soil、浅水（3-4in）でも可。‘リトルミッジ’は矮性栽培品だが生態同じ。湿地性で水切れ時に葉先が枯れやすく乾燥耐性は弱（半日陰の平均土なら中程度に順応するが本質は要湿潤）。
+302,ユーパトリム　ルゴサム ‘チョコレート’,強,中,高,"MBG=average, medium to wet, well-drained（適湿でよい）。北米東部の湿った半日陰の林床原産。日向では十分な水分がないと葉が焼ける／根腐れにも注意。乾き気味でも育つが水切れで葉焼けするため乾燥耐性は強でなく中が妥当。"
+310,トロリウス　チネンシス ‘ゴールデンクィーン’,中,弱,高,南シベリア〜中国北部の湿った草地・沢沿い原産の湿性植物。腐植質で常に湿った土、ボグガーデン・池畔向き（medium to wet）。乾かすと傷むため乾燥耐性は中でなく弱が妥当（湿潤寄り＝乾燥弱の対応）。土壌区分は一致。
+318,ベロニカ‘ピンクダマスク’,強,弱,中,MBG: 生育期は regular moisture を好み、shallow roots で intolerant of dry soil。冬期のみ sharp drainage が必要。現行=強は過大。MBGの浅根・乾燥不耐に照らすと乾燥耐性は弱〜中。整合上は弱寄り（要修正）。土壌は適湿で整合。
+321,ホスタ‘シルバーハロー’,弱,中,中,"Hosta属はMBGで evenly moist, well-drained・過湿に弱く根腐れ・定着後 some dry shade tolerance。自生は日本の湿った林床だが常湿ではなく適湿が正確。銀葉系は厚葉で乾燥耐性は中程度。現行の湿潤寄り/弱は過大評価で要修正。品種固有MBGなく属＋二次情報を適用。"
+344,アスター デュモーサス`ウッズピンク',強,中,中,"average, medium moisture, well-drained を好む(=適湿で整合)。根付けば drought tolerant だが、夏の水切れで花小・下葉が crispy 化、乾きすぎで うどんこ病。無灌水で夏越し(=強)には及ばず中が妥当。湿・乾両耐性あるが好むのは中湿。"
+353,レウカンセマム×スーパーバム (ｼｬｽﾀｰﾃﾞｰｼﾞｰ)‛スノードリフト’,強,中,中,MBG Water=Dry to medium、Tolerate: Drought/Dry Soil、ただし『Good soil drainage is essential. Wet soils in winter can be fatal』。園芸交雑種で乾燥地原産ではなく生育期は中程度の水分を好むが冬の過湿で致命的→分類は排水必須が適切（乾燥寄り→修正）。MBGは乾燥耐性ありと記すが多くの生産者情報では猛暑時に深水やりを要する中程度→強→中に修正（中〜強の境界）。
+364,アスター　ノビベルギ‘ジェニー’,弱,中,高,自生は湿ったメドウ・沿岸湿地・岸辺。moist rich soils preferredで湿潤寄りは妥当。ただしMBG『moderate drought tolerance／一時的乾燥にも冠水にも耐える』のため乾燥耐性は弱ではなく中が実態（品種固有記載なく種で判定）
+388,トリフォリウム　オクロレウカム,強,中,中,石灰質草原の在来（サルファークローバー）、保水性のある白亜質・粘土に多く moist but well-drained を好む。マメ科で一定の乾燥は耐えるが『乾燥地の乾燥強』というより適湿寄りで、乾燥耐性は中へ修正。
+394,ヘメロカリス‘シカゴアパッチ’,強,中,中,"デイリリーは適応性が高く『幅広く適応』も一理あるが、MBG一次記述はaverage/medium moisture, well-drainedで適湿が妥当。乾燥は生存するが浅根で猛暑時に葉が傷むため乾燥耐性は中が適切（品種固有記述なし、属値を採用）。"
+395,ヘメロカリス‘デイビッドカークホフ’,強,中,中,MBG=medium moisture well-drainedで土壌は適湿一致。デイリリーは浅根で乾燥を生き延びるが葉焼け・生育低下しやすく、好調維持には潅水必要→乾燥耐性は中が妥当（強はやや過大、品種固有記述なし属値採用）。
+403,リアトリス　スピカータ ‘フローリスタンホワイト’,弱,中,中,MBG Water=Medium、average/medium/well-drained、冬の過湿を嫌う。自生は湿った低地/草地/湿地縁で他Liatrisより湿り好みだが、根付けば深根で乾燥耐性あり（MBG: tolerate drought）。乾いても傷む湿潤寄りではなく適湿が妥当。同種'Violet'は乾燥耐性中で、白のみ弱は過小→中に修正。品種固有記載なく種の値を適用。
+413,クロコスミア‘コンスタンス’,強,中,中,"MBG=medium moisture, well-drained。根付けば相対的に乾燥耐性ありだが『very dry soilsでは生育停滞・開花減』とあり無灌水越夏は不安定→中が妥当。冬の過湿で球茎腐敗に注意。品種固有情報なく種の値を適用。"
+415,ヘメロカリス ‘クリムソン　パイレート’,中,強,中,MBG Water=Medium。ヘメロカリスは根付けば高温・乾燥に強く少灌水で越夏可能な強健種のため乾燥耐性=強に引き上げ（同属412と整合）。品種固有情報なく属・近縁品種の値を適用。
+418,アムソニア　フブリックティー (フブリヒティ）（チョウジソウ）,中,強,中,MBG Water=Medium（適湿で一致）。深い直根をもち根付けば乾燥・痩地・岩礫地に強く、無灌水で越夏可（アーカンソーの礫質・岩場自生、Plant of the Yearで強健さ有名）→乾燥耐性=強に引き上げ。
+424,ｱﾈﾓﾈ　ﾊﾟﾌﾟｴﾝｼｽ　var.ジャポニカ ‘パミナ’（シュウメイギク）,弱,中,中,"MBG: average, medium moisture, well-drained（Water=Medium）。湿地植物ではなく腐植質の適湿地を好む。乾かし過ぎ厳禁だが冬の過湿も嫌う。定着後は半日陰の乾き気味も可。湿潤寄り→適湿、乾燥弱→中に修正。"
+436,ロニセラ‘ハニーベビー’ （ハニーサックル）　,弱,中,中,"MBG: humusy, medium moisture, well-drained・some drought tolerance once established。現行「弱」はやや過小。林縁性で根元は冷涼湿潤を好むが定着後は一時的乾燥に耐える＝中に修正。土壌は適湿で一致。"
+440,サンギソルバ　ハクサネンシス （カライトソウ）,中,弱,中,日本・韓国の亜高山帯稜線〜草地（雪解け・霧で常時湿潤）自生。栽培記述: consistently moist・even moisture with regular water。Sanguisorba属は水切れに弱く、現行「中」は過大→「弱」に修正。土壌は湿潤寄りで一致。
+443,ジーアム（ゲウム） ‘ブレージングサンセット’,強,中,中,"Walters(育種元)『prefers dry to average moisture, very well-drained soil; will often die in standing water; 冬の過湿は致命的』→排水必須で一致。ただしGeumは真夏の水切れで葉焼け・傷みしやすく無灌水越夏は困難なため乾燥耐性は強→中に補正。"
+451,モリニア　カエルレア ‘トランスペアレント’,中,弱,中,英国・アイルランドの湿ったヒース・湿原・ボグに自生するパープルムーアグラス。『avoid very dry soils／too dryを嫌う』常時湿りを要する。水切れに弱く乾燥地では不調→湿潤寄りは一致だが乾燥耐性は中→弱に補正(自生地生態と整合)。
+456,フロックス　パニキュラータ ‘ブルーパラダイス’　,中,弱,中,"MBG「prefers rich, moist, organic soils / intolerant of drought, needs watering in dry spells」。湿潤好みは整合。ただし『乾燥に不耐・水切れ注意』のため乾燥耐性は中→弱に修正。品種固有記述なく種の値を適用。"
+464,ネペタ　ファッシニアイ ‘ドロップモア’,強,中,中,MBG Water=Dry to Medium、well-drained必須で過湿(wet/poorly drained)はcrown rotを招く→排水必須で一致。ただしMBGは『他の多くのNepetaほど耐乾性は高くない(not as drought tolerant as many other Nepetas)』と明記→乾燥耐性は強ではなく中に修正。
+473,ベロニカ ‘アトミック　アメジスト　レイ’,強,中,中,"MBG Water=Medium, average medium moisture well-drained soil。ただし shallow roots で intolerant of dry soil、drought tolerant once established どまり。浅根で水切れに注意のため乾燥耐性は強→中に修正。"
+477,リシマキア　ブルガリス （クサレダマ）,中,弱,中,"MBG: moist to wet, well-drained soils, can grow in water; wetland perennial, does not like to dry out。湿地性で水切れを嫌うため乾燥耐性は中→弱に修正（強健で拡がるが乾燥適性は低い）。"
+478,オミナエシ　ヒメオミナエシ （ﾊﾟﾄﾘﾆｱ　ｽｶﾋﾞｵｼﾌｫﾘｱ‘ﾅﾅ’）,強,中,中,"MBG Water=Medium, average medium well-drained soil, prefers rich humusy soils, tolerant of hot/humid summers。PFAFはevenly moist・週2回灌水を推奨で顕著な耐乾性の記述なし。適湿は一致、乾燥耐性は強→中に修正（種固有値、'Nana'は矮性選抜）。"
+490,カンパニュラ　グロメラータ ‘ベルフルールホワイト’（ﾔﾂｼﾛｿｳ）,弱,中,中,品種固有情報なく種C. glomerataの値を適用。MBG medium moisture/well-drained＝適湿は妥当。乾燥期は灌水を要すが強健でやや旺盛に広がる種のため乾燥耐性は弱ではなく中が適切（同種の'Genti Twisterbell'=中と整合、要修正）。
+491,カンパニュラ　グロメラータ ‘ベルフルールブルー’（ﾔﾂｼﾛｿｳ）,弱,中,中,品種固有情報なく種C. glomerataの値を適用。MBG medium moisture/well-drained＝適湿は妥当。乾燥期は灌水を要すが強健な種で乾燥耐性は弱ではなく中が適切（同種'Genti Twisterbell'=中と整合、要修正）。
+492,カンパニュラ　ポルテンスクラジアーナ ‘ブルーマジック’,強,中,中,"ダルマチア山脈の石灰岩岩隙原産。MBG=average, medium moisture, well-drained。常時過湿で株腐れ→排水必須は妥当。ただしMBGは『overly dry で品質低下・開花遅延、consistent moisture が必要』とし完全な乾燥地植物ではない。定着後はある程度耐乾するが真夏の水切れで傷むため乾燥耐性=中が適切（現‘強’は過大）。"
+499,シダルセア‘ロザリー’,強,中,中,北米西海岸の草地・湿った牧草地/沿岸プレーリー原産。moist but well-drained を好み、生育期は定期灌水を要し土壌を均一に湿らせる。真夏の高温乾燥で傷みやすく完全耐乾ではない→乾燥耐性=中が妥当（現‘強’は過大）。土壌は適湿で整合。品種固有情報は乏しく種・近縁品種の値を採用。
+511,ベロニカ　ロンギフォリア ‘ピンクイブリン’,弱,中,中,MBG: medium、rich moist を好むが土質適応幅広く、drought-tolerant once established。湿潤寄りは妥当だが、耐乾は弱でなく定着後は中が適切と判断（水切れ注意種ではあるが完全な弱ではない）。
+523,アキレジア‘ノラバロー’,弱,中,中,"MBG: average, medium moisture, well-drained soil。土壌水分は適湿で整合。乾燥耐性は現状=弱だが、欧州の草地・林縁性で常時湿潤を要さず、乾燥時は夏季休眠して生き延びる強健種。湿地性植物ではないため弱は過小、猛暑時に灌水要の『中』が妥当と判断。"
+525,アキレジア　カナデンシス ‘ピンクランタン’,中,強,中,品種固有情報なく種 A. canadensis の値を適用。MBG: drought tolerant once established、岩礫地自生。現状=中だが同種の‘コルベット’(524)は強とされ社内不整合。種として乾燥耐性強が妥当のため強に修正。土壌は適湿で整合。
+532,アムソニア‘ブルーアイス’ （チョウジソウ）,弱,中,中,MBG: Water=Medium、average medium well-drained soilで容易に栽培、'prefers moist loamy soils but tolerates some drought (once established)'。自生は湿ったプレーリー/流れ沿いだが順応性が高く、根付けば乾燥に耐える。湿地専用ではないため『湿潤寄り→適湿』『弱→中』へ修正。
+542,コレオプシス‘レッドシフト’,強,中,中,"MBG: dry to medium, well-drained soils／crown rot may occur in moist, poorly drained soils→過湿で根腐れのため排水必須寄り。乾燥は『tolerant of some drought』=中（強とまでは言えず）。Big Bangシリーズの交配種。"
+547,スカビオサ‘ビビッドバイオレット’,強,中,中,Scabiosa columbaria系。well-drained必須、過湿で根腐れ、冬の湿った土に弱い＝排水必須で一致。ただし乾燥は『survive short periods of drought／長い乾燥時は灌水を要す』＝中（強は過大）。
+552,ファラリス　アランディナセア ‘トリカラー’（トワダアシ）,強,中,中,湿地性(河岸・沼沢・湿草地の自生種)で本来は湿った土を好む→湿潤寄りは妥当。MBGは『wet(数inchの水中)〜dry、砂〜粘土まで幅広く順応』と記載し順応性は高いが、乾くと葉が褐変・夏枯れしやすく地上部の観賞価値が落ちるため乾燥耐性は強→中に下方修正(生存はするが要灌水)。
+553,ネペタ　ファッシニアイ ‘フェリックス’,強,中,高,"MBG『dry to medium, well-drained』、過湿・停滞湿でcrown rot→排水必須で一致。ただしMBGは『他の多くのNepetaほど乾燥耐性は高くない』と明記。定着後は乾燥に耐えるが猛暑・乾風時は灌水を要するため強→中に修正。品種固有情報乏しく種基準で判定。"
+564,プリムラ　ベリス（カウスリップ）,弱,中,中,"MBG: average, medium moisture, well-drained（Water=Medium）。適湿は妥当。ただし自生は石灰質草原・牧草地で夏の乾燥に耐え『fairly drought tolerant once established』。他プリムラより乾燥に強く弱→中へ修正。"
+565,プルモナリア‘コットンクール’,中,弱,高,"MBG: medium moisture, well-drained だが『soils must not dry out』『dry すると夏に休眠』not drought tolerant。適湿は妥当だが乾燥耐性は中→弱へ修正。"
+567,フロックス　パニキュラータ ‘ブルーキャンディ’,弱,中,中,"MBG: moderately fertile, medium moisture, well-drained（Water=Medium）。湿地植物ではなく適湿が妥当。乾燥は苦手だが『needs watering in dry spells』で常時湿潤要求までは無く弱→中。種基準（品種固有記述なし）。"
+574,ペルシカリア　アンプレクシカウリス ‘ディッケフロスク’,中,弱,中,品種固有ページ無し、種の値を適用。MBG Water=Medium to wet、Tolerates wet soils、consistent moisture推奨、水切れで傷む。湿潤寄りは正、乾燥耐性は現行『中』より『弱』が妥当（水切れに弱い湿性種）。
+577,ベロニカ　スピカータ‘アルバ’,強,中,中,"MBG Water=Medium、well-drained。ただし『shallow roots, generally intolerant of dry soil conditions』『root rot in wet poorly-drained soils』。浅根で乾燥にはさほど強くない。適湿は正、乾燥耐性は現行『強』は過大評価で『中』が妥当（矛盾例）。"
+582,ポテンチラ　アトロサンギネア　 var.アルジロフィラ,強,中,中,"MBG: average, moist but well-drained soils in full sun=適湿。ヒマラヤ山腹原産。'Established plants have respectable drought tolerance'＝定着後は相応の耐性だが強とまでは言えず中に下方修正。var.argyrophyllaは基本種の値を援用。"
+583,ポリゴナム　ビストータ ‘スーパーバム’（イブキトラノオ）,中,弱,高,"MBG: organically rich, consistently moist, moisture-retentive soils＝湿潤寄り。湿った草地・湿性を好み水切れで傷むため耐性は弱に修正。"
+594,レウシア‘リトルラズベリー’,中,強,中,‘Little Mango’と同一種L. longipetala系の‘Little’シリーズ交配種。生態・栽培要件は同じ(sharp drainage、活着後near-zero summer irrigation)。乾燥耐性は本来同一のはずで、Mango=強に対しRaspberry=中は横並び不整合。多肉質根で乾燥に強いため強へ修正推奨。土壌=排水必須は一致。
+613,スピレア　ジャポニカ（シモツケ） ‘マジックカーペット’,強,中,中,MBG: average/medium moisture/well-drained、rich moist loams を好む。適湿は妥当。ただし乾燥耐性はMBGで特筆されず定着後に中程度どまり（湿ったローム土を好む）→ 強は過大評価とみて中に修正。
+622,ヘレニウム‘マルディグラ’,中,弱,中,H. autumnale系交配種。MBG=medium to wet、rich moist soilsを好み『intolerant of dry soils』。自生は川辺・湿った草地・湿原。根付けば一時的乾燥に多少耐えるが本質は水切れで萎れる湿性種のため乾燥耐性は弱に修正。
+640,アンジェリカ　パキカルパ,強,中,中,RHS Moisture=Moist but well-drained／Well-drained。深く湿った肥沃なローム土を好み『常に湿り気を保ち乾季は灌水』。moisture-lovingで現行『排水必須／強』は生態と矛盾。海岸性ゆえ定着後は中程度の耐乾はあるが乾燥強ではない→適湿・中へ修正。
+642,カルーナ　ブルガリス ‘ロックターレット’,強,中,中,"MBG Water=Medium。『regular and consistent moisture, should not be allowed to dry out』で乾燥不耐。ただし酸性・砂礫質の非常に良い排水を要し過湿を嫌う＝moist but well-drained型。現『排水必須/強』は乾燥耐性を過大評価。実態は適湿(良排水)＋乾燥耐性=中(猛暑期は灌水要)。"
+660,ヒューケラ‘ウェンディ’,強,中,中,品種固有情報なく属の値を適用。Heucheraは medium moisture well-drained を好み、乾くと葉焼け(scorch)。排水は要るが乾燥に強くないため『排水必須+乾燥強』の組合せは過大。soilは適湿、乾燥耐性は中が妥当。
+668,ベロニカ　アンブロサ ‘ジョージアブルー’,強,中,中,"MBG Water=Medium。average, medium, well-drained soil、even moisture / regular water、avoid wet poorly drained soils。コーカサスの林縁性常緑グラウンドカバーで、地中海礫地型の『排水必須（sharp drainage・耐乾強）』ではない。過湿は嫌うが中湿を好み定着後の耐乾は中程度→適湿/中に修正。"
+699,アスター　ノバエアングリアエ ‘バイブラントドーム’(ネバリノギク),弱,中,中,"MBG: 湿ったプレーリー・草原・沢沿い原産、prefers moist rich soils だが栽培は average, medium, well-drained soil で容易、『although drought tolerant』と明記。乾燥時は下葉を落とすが枯死せず。湿地性ではなく庭土で栽培可のため『適湿』に、MBGの drought tolerant 記述と矛盾する『弱』を『中』に修正。"
+710,バーノニア　ノベボラセンシス ‘ホワイトライトニング’,中,弱,中,細葉の斑入り選抜だが水分生態は基本種と同じで川岸・湿地性、水切れで葉焼け・萎れしやすい→乾燥耐性は弱が妥当で現行「中」を弱に修正。ただし確立株は普通の庭土でも育つとの記述もあり中との境界的。土壌水分は湿潤寄りで一致。
+717,ミント　スペアミント,中,弱,中,"MBG: rich, moist soils、medium to wet、池畔・湿った低地に帰化。乾いた土は苦手（adapts to all soils except dry）で水切れするとすぐ萎れる。湿潤寄りは妥当。乾燥耐性は生態上『弱』が適切で現行『中』から修正（ただし地下茎で強健に再生はする）。"
+721,カラマグロスティス　 エピジジョス（ヤマアワ）,中,強,中,ユーラシア広域の強健グラス。砂丘〜湿原〜林〜攪乱地まで極めて幅広い環境に適応（幅広く適応で整合）。RHS/複数ソースで『tough and very drought tolerant once established』、乾いた砂質土でも生育し自然降雨で灌水不要。乾燥耐性は『強』が適切で現行『中』から修正。
+726,モリニア　カエルレア ‘ムアヘックス’,中,弱,中,subsp. caerulea（湿地型）。MBGはconsistent moisture要求・medium to wet。品種固有の乾燥耐性データなく、moor/bog生態から乾燥耐性は弱が妥当（現行『中』を弱へ修正）。湿潤寄りは維持。
+739,コルヌス　アルバ ‘エレガンティシマ’(ｷﾞﾝﾌﾐｽﾞｷ),弱,中,中,MBG: 有機質に富む常に湿った肥沃土を好み、一時的な滞水にも耐える湿地適性→『湿潤寄り』一致。ただし定着株は『some dry soils』にも耐える適応性の高い低木のため乾燥耐性は『弱』より『中』が妥当（斑入りのため乾風・強日で葉焼けはしやすく、若木は要灌水）。
+747,スズラン　野生種 （コンバラリア　ケイスケイ）,弱,中,中,東アジア産の日本自生スズラン。腐植質・常時湿潤の林床を好むため土壌水分=湿潤寄りは妥当。ただしスズラン類は定着後は乾いた日陰・夏の乾燥に耐える強健地被で、複数一次情報が『tolerant of summer drought and dry soils』とする。乾燥耐性は弱でなく中が適切。品種固有記述が乏しく近縁 C. majalis を援用。
+754,セラトスティグマ　プラムバジノイズ （ルリマツリモドキ）,強,中,中,MBG Water=Medium、average/medium/well-drained。wet・排水不良のみ不可で他は幅広く順応。drought tolerant once establishedだが最良の開花には乾期の灌水を要する。乾燥寄り→適湿、強→中に修正（過大な耐乾評価を是正）。
+758,ネペタ　ネルボサ ‘ピンクキャット’　,強,中,中,well-drained土壌で根付けば耐乾・耐暑。ただしヒマラヤ産で他のネペタ（faassenii等）よりやや水を好み、盛夏乾風時は灌水を要する場面あり。排水必須は一致、耐乾は強→中に微修正。品種固有MBG無のためNepeta属知見併用。
+773,ミスカンサス　シネンシス　 f.グラシリマス（イトススキ）,弱,中,高,"MBG: average, medium moisture, well-drained soil（Water=Medium）。定着後は耐乾性があり真夏の乾燥時以外は無〜少灌水で越夏（tolerates drought, dry soil）。ただし冬の停滞湿は嫌う。乾燥耐性は弱ではなく中が妥当。"
+775,ミント　 ケンタッキーカーネルミント,中,弱,中,"MBG: rich, moist soils, medium to wet（Water=Medium to Wet）。池畔・湿った林縁に帰化。乾いた土は苦手（adapts to wide range except dry ones）。水切れで萎れ葉焼けするため乾燥耐性は弱（地下茎から再生はするが即時の耐乾は低い）。"
+782,ロサ‘アデレードフードレス’ （バラ）,強,中,中,カナダ・パークランド系の極寒地バラ。「average to evenly moist を好み、停滞水は不可」＝適湿で一致。乾燥耐性は『定着後は乾期にある程度耐える』程度の含みのある記述で、バラ一般同様に開花維持には灌水が要るため強→中に修正。
+786,スカビオサ　コウカシカ ‘パーフェクタ’（ﾌﾞﾙｰﾊﾟｰﾌｪｸｼｮﾝ）,強,中,中,MBG『良排水が要、過湿(特に冬)で根腐れ、intolerant of wet soils in winter』＝排水必須で一致。乾燥耐性は『定着株はより耐乾だが長い乾期には定期灌水を好む』でコーカサス草地性ゆえ真の乾燥地並みでない。強→中に修正。
+790,ミント　ニホンハッカ　ホクト,中,弱,中,沢沿い・湿地縁・湿った耕地の湿性植物、moist〜wet を好む。湿潤寄りで一致。水切れで葉が急速に萎れる湿地性のため乾燥中→弱に修正（地下茎で旺盛に再生はするが地上部の耐乾は弱い）。
+791,ゲラニウム　エンドレッシー,弱,中,中,ピレネー原産のフウロソウ。『適湿〜やや排水良い土を好む、過湿地は避ける』＝適湿で一致。『乾いた日陰に極めて適したグラウンドカバー』で定着後は耐乾性あり、弱→中に修正（好条件は適湿だが乾燥にも順応）。
+792,アストランティア　マヨール ‘シャギー’,中,弱,高,"MBG: organically rich, medium to wet but well-drained soils; soils must be kept uniformly moist and not allowed to dry out。湿った林床性で水切れに弱く、乾燥耐性は中でなく弱が妥当。"
+806,ベロニカ‘サニーボーダーブルー’,強,中,中,"MBG：average, medium moisture, well-drained／best performance with CONSISTENT regular moisture and sharp drainage。過湿（特に冬）を嫌う一方で、乾燥より一定の湿りを好むため現行『強』はやや過大。乾燥耐性は中が妥当（猛暑・乾風時は灌水要）。土壌は適湿で一致。"
+807,ポテンチラ ‘アーカンシエル’,中,強,中,"複数一次情報：drought tolerant once established／thrives in very light and dry soils, areas with little rain／will not tolerate standing water。乾燥地・日向を好む乾燥強タイプで現行『中』は過小、乾燥耐性=強が妥当。土壌は『average to moist but well-drained』で適湿寄り（滞水嫌い＝排水必須の性格も併せ持つ）だが適湿で一致とした。品種固有RHS記述を優先。"
+814,パニカム バーゲタム ‘ブルージャイアント’,中,強,高,"MBG: average, medium to wet soils, tolerates wide range incl. dry、occasional flooding、深根10ft、drought-tolerant once established。湿～乾を選ばない＝幅広く適応で整合。乾燥耐性は同種815(強)と揃え強が妥当＝中はやや過小のためdry_agree=false。"
+818,アルケミラ セリカータ ‘ゴールドストライク’,弱,中,中,"品種固有情報乏しく近縁A.mollisの生態を適用。average, medium moisture, well-drained、drought tolerant once established だが日向で土が乾くと葉焼け。湿地性ではなく常時湿潤要求ではない→弱は過小、猛暑乾風時に灌水要の中が妥当。土壌は適湿で整合。"
+848,タイム　マジックカーペット,,強,高,"現データは土壌水分・耐乾とも空欄。MBG『dry to medium, well-drained』『best in loose, sandy, gritty/rocky soils with sharp drainage』『tolerates drought but dislikes moist to wet soils where rot may develop』＝排水必須・耐乾強を新規入力すべき。"
+853,ベルゲニア　エメイエンシス,強,中,中,四川・峨眉山の石灰岩崖の浸み水(seeps)で湿り気を得る自生。腐植質を好み『dislikes extremes of heat and drought』、光と十分な湿りで開花良好。多くのベルゲニア属より乾燥に弱い例外種。適湿は妥当だが現『乾燥耐性=強』は過大→中（乾燥・高温を嫌う）に修正。
+857,アストランティア マヨール ‘バニラエッジ’,中,弱,高,中〜東欧の湿った草地・沢沿い自生。MBG系記述『soils must be kept uniformly moist and not allowed to dry out』、乾燥に弱く水切れで枯れる。湿潤寄りは正。現『乾燥耐性=中』は過大→弱（要常時湿潤）に修正。プロトコルの湿潤寄り↔弱の対に整合。
+858,サンギソルバ　テヌイフォーリア ‘ボルドー’（ナガボノアカワレモコウ）,中,弱,高,"東アジア（日本・朝鮮・シベリア）の湿った草地・林縁・湿地の自生。『prefers wetter conditions, not drought tolerant; moist to boggy』。湿潤寄りは正。現『乾燥耐性=中』は過大→弱（水切れ厳禁、夏は頻灌水）に修正。湿潤寄り↔弱の対に整合。"
+864,プルネラ グランディフローラ'ルブラ',中,弱,高,MBG: 夏は常に湿らせる・moist but well-drained。土壌=適湿は一致。乾燥耐性は現行「中」だが一次情報は常時湿潤要求で「弱」が妥当（要修正）。品種固有値なく種の値を適用。
+866,ベロニカ スピカータ'ナナ' （ヒメルリトラノオ）,強,弱,高,MBG: Water=Medium。shallow roots and generally intolerant of dry soil conditions、consistent regular moisture + sharp drainage要。土壌=適湿は一致。乾燥耐性は現行「強」だが一次情報では浅根で乾燥に弱く「弱」（要修正）。市販カタログの『drought tolerant』表現は誇張、MBG一次記述を優先。
+875,ジギタリス　ルテア,弱,中,中,"極端な過湿・過乾を除きほぼ全ての土に適応、腐植質の適湿を好む。ただし『根付けば乾いた日陰でも良く育ち相当な乾燥耐性（quite drought-tolerant, does well in dry shade）』→ジギタリス属では乾燥に強めで弱→中へ修正。"
+886,クニフォフィア‘ビーズレモン',強,中,中,アフリカ南部原産トリトマ。冬の過湿に弱く排水必須で一致。定植後の乾燥耐性は高めだが開花には夏の適度な灌水が要るため中と判定（現行『強』も許容範囲だが厳密には中）。品種固有情報が無く属で判定。
