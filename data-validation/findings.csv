@@ -1,0 +1,237 @@
+﻿商品ID,商品名,分類,現状(記載),指摘・修正案,確信度,根拠
+184389162,ゲラニウム 'キャサリンアデル',その他,Geranium'',Geranium 'Katherine Adele'（空欄の品種名を補う）,高,学名の品種名が空（Geranium'' ）。商品名『キャサリンアデル』に対応する 'Katherine Adele' が欠落。
+190727481,キミキフーガ（アクタエア）ジャポニカ ‘シルバーダンス’,その他,(商品説明が完全に空),商品説明・基本情報を作成。学名は Actaea japonica 'Silver Dance'（旧 Cimicifuga）,高,商品説明・簡易説明・スマホ用すべて空欄
+132102679,ゲラニウム ファエウム 'マーガレットウィルソン',全角文字混入,Geranium phaeum 'Ｍargaret　Wilson',Geranium phaeum 'Margaret Wilson'（全角Ｍ・全角スペースを半角へ）,高,先頭Ｍが全角、語間が全角スペース。
+132103298,ゴニオリモン コリナム 'シースプレイ',全角文字混入,Goniolimon collinum 'Ｓea Spray',Goniolimon collinum 'Sea Spray',高,品種名 'Ｓea Spray' の先頭 S が全角（Ｓ）。正しくは半角 'Sea Spray'。
+132103641,コレオプシス  'ファイヤーフライ',全角文字混入,Coreopsis  'Firefｌy',Coreopsis 'Firefly',高,'Firefｌy' の l が全角（ｌ）。加えて属名と品種名の間が二重スペース。正しくは半角 'Firefly'。
+132135711,ペルシカリア アンプレクシカウリス 'ゴールデンアロー',全角文字混入,Persicaria amplexicaulis 'Ｇolden Arrow',Persicaria amplexicaulis 'Golden Arrow'（先頭Gが全角Ｇ）,高,品種名先頭が全角Ｇ
+132135849,ヘレニウム 'モーハイムビューティー',全角文字混入,Helenium 'Ｍoerheim Ｂeauty',Helenium 'Moerheim Beauty',高,品種名の頭文字 Ｍ・Ｂ が全角英字になっている。半角の 'Moerheim Beauty' に修正すべき。
+132138181,ダイアンサス デルトイデス 'アークティックファイヤー',全角文字混入,Ｄianthus deltoides 'Arctic Fire',Dianthus deltoides 'Arctic Fire'（先頭のＤを半角Dに）,高,属名の頭文字が全角のＤになっている。
+132139715,ユーパトリウム コエレスティナム,全角文字混入,Eupatorium　 coelestinum,Eupatorium coelestinum（全角スペース＋余分な半角スペースを除去）,高,Eupatorium の直後に全角スペースと半角スペースが連続。
+132140125,トロリウス 'チェダー',全角文字混入,Trollius 'Ｃheddar',Trollius 'Cheddar'（品種名頭のＣを半角Cに）,高,品種名の頭文字が全角のＣになっている。
+141499643,ラベンダー 'エレガンスピンク',全角文字混入,Lavandula angustifolia 'Ellagance　Pink',Lavandula angustifolia 'Ellagance Pink'（Ellagance と Pink の間が全角スペース）,高,品種名内に全角スペースが混入。
+141500204,リグラリア デンタータ 'ダークビューティ',全角文字混入,Ligularia dentata 'Dark Ｂeauty',Ligularia dentata 'Dark Beauty'（Ｂ が全角）,高,Beauty の頭文字 B が全角英字。
+157899887,ルドベキア フルギダ 'リトルゴールドスター',全角文字混入,Rudbeckia fulgida 'Ｌitｔle Goldstar',Rudbeckia fulgida 'Little Goldstar'（Ｌ と ｔ が全角）,高,Little の L と2つ目の t が全角英字。
+158214262,パニカム バーゲータム 'ダラスブルー',全角文字混入,Panicum virgatum 'Dallas　Blue',Panicum virgatum 'Dallas Blues',高,'Dallas' と 'Blue' の間に全角スペース混入。正式品種名は 'Dallas Blues'。
+158316323,モリニア カエルレア 'ムアヘックス',全角文字混入,MolinIa caerulea　subsp. Caerulea 'Moorhex',Molinia caerulea subsp. caerulea 'Moorhex',高,属名が「MolinIa」と中間に大文字I。caerulea の後に全角スペース。亜種名 Caerulea が大文字始まり（小文字が正）。複数の表記誤り。
+158411369,スピレア ジャポニカ 'ゲンペイ'（ゲンペイシモツケ）,全角文字混入,Spiraea japonica 'Ｇｅｎｐｅｉ',Spiraea japonica 'Genpei',高,品種名が全角英字 'Ｇｅｎｐｅｉ'。半角 'Genpei' に修正。
+165052802,ホスタ 'ホワイトクリスマス',全角文字混入,Hosta'White Chｒistmas',Hosta 'White Christmas'（全角ｒを半角に、属名との間にスペース）,高,Chｒistmas に全角ｒ混入、属名と癒着
+167750675,ヴァーバスカム ボンビシフェラム,全角文字混入,Verbascum　bombyciferum,Verbascum bombyciferum,高,属名と種小名の間の区切りが全角スペースになっている。半角スペースに修正。綴り自体は正しい。
+167774685,サルビア スクラレア'バチカン ピンク'（クラリーセージ）,全角文字混入,Salvia　sclarea　var.　turkestanica'Vatican　Pink',Salvia sclarea var. turkestanica 'Vatican Pink',高,学名内の単語間および品種名内の区切りが全角スペースになっている。加えて turkestanica と品種名が癒着。すべて半角スペースに修正が必要。
+171529983,フロックス パニキュラータ ‘ショックウェーブ’,全角文字混入,Phlox paniculata 'Shockｗave',Phlox paniculata 'Shockwave'（全角ｗを半角wに）,高,品種名 'Shockｗave' の w が全角文字（ｗ）になっている。
+172614224,ポテンチラ ネペレンシス 'ロンマクベス',全角文字混入,Potentilla nepalensis 'Ron Mｃbeath',Potentilla nepalensis 'Ron McBeath',高,品種名に全角小文字「ｃ」が混入。正しくは半角の 'Ron McBeath'（大文字B）。
+172679890,ヒューケラ 'スザンナ’,全角文字混入,Heuchera'Susanna',Heuchera 'Susanna',高,属名と品種名が癒着し半角スペース欠落。
+172915635,ビオラ ソロリア ‘フレックルス’,全角文字混入,Viola　sororia'Freckles',Viola sororia 'Freckles',高,Viola と sororia の間に全角スペース、sororia と 'Freckles' が癒着し半角スペース欠落。
+176936626,カルーナ ブルガリス 'レッドフェイバリット',全角文字混入,Calluna vulgaris 'Red　Favorit','Red' と 'Favorit' の間に全角スペース混入。半角スペースに修正,高,'Red␣Favorit' に全角空白（U+3000）が含まれる
+184389114,エリゲロン ‘ピンクジュエル’（エリゲロン 'ロサジュエル’),全角文字混入,Erigeron'Pink Jeｗel'('Rosa Juwel'）,Erigeron 'Pink Jewel' ('Rosa Juwel'),高,Jeｗel の w が全角（ｗ）、閉じ括弧も全角（）。加えて属名と品種名が癒着し半角スペースが欠落している。
+184389130,ロサ 'アデレードフードレス'（バラ）,全角文字混入,Rosa'Adelaide Hoodless',Rosa 'Adelaide Hoodless',高,属名Rosaと品種名の間の半角スペースが欠落し癒着している。正しくは Rosa 'Adelaide Hoodless'（カナダ・パークランド系バラ）。
+184389131,ロサ 'サートーマス リプトン'（バラ）,全角文字混入,Rosa'Sir　Thomas　Lipton',Rosa 'Sir Thomas Lipton',高,属名と品種名が癒着（Rosa'Sir）し、さらに品種名内に全角スペースが2箇所混入。正しくは Rosa 'Sir Thomas Lipton'。
+184389134,ロニセラ 'ドロップモア スカーレット'（ハニーサックル）,全角文字混入,Lonicera ×　brownii 'Dropmore Scarlet',Lonicera × brownii 'Dropmore Scarlet',高,交配記号×と種小名browniiの間が全角スペースになっている。半角に統一すべき。学名自体は正しい。
+184389154,ユーパトリウム 'アイボリータワー',全角文字混入,Eupatorium　fistulosum f.albidum'' Ivory Towers,Eupatorium fistulosum f. albidum 'Ivory Towers'（属名と種小名の間が全角スペース、品種名が学名フィールドから溢れている）,高,Eupatorium と fistulosum の間が全角スペース。データ行が途中で改行し品種名 Ivory Towers が別セルに分離している。
+190882705,ヒューケラ ‘ブラックビューティー’,全角文字混入,Heuchera'Black Beauty',Heuchera 'Black Beauty',高,属名と品種名が癒着し半角スペース欠落。
+132097686,エノテラ スペシオーサ 'ウッドサイドホワイト',原産地誤り,Oenothera speciosa 'Woodside White',原産地は北米（米国中南部〜メキシコ）,高,Oenothera speciosa は北米原産。記載の『ヨーロッパ、西アジア、北アフリカ』は誤り。
+132099254,オレガノ ブルガレ 'オーレウム'（ゴールデンオレガノ）,原産地誤り,Origanum vulgare 'Aureum' / 原産地: 北米東部,原産地はヨーロッパ～地中海、西アジア。北米東部は誤り,高,Origanum vulgare はユーラシア～地中海原産。北米には自生しない
+132100455,カンパニュラ タケシマナ,原産地誤り,Campanula takesimana / 原産地: 北米東部および中央部,原産地は韓国（鬱陵島）。北米は誤り,高,Campanula takesimana は韓国鬱陵島(竹島=Takeshima)固有種
+132100484,カンパニュラ タケシマナ 'ビューティフルトラスト',原産地誤り,Campanula takesimana 'Beautiful Trust' / 原産地: 北米東部および中央部,原種は韓国原産。北米は誤り,高,Campanula takesimana は韓国鬱陵島固有種
+132100590,カンパニュラ プンクタータ 'ウェディングベル',原産地誤り,Campanula punctata 'Wedding Bells' / 原産地: 北米東部,原産地は東アジア（日本・中国・シベリア）。北米東部は誤り,高,Campanula punctata（ホタルブクロ）は東アジア原産
+132100648,カンパニュラ プンクタータ 'パンタルーン',原産地誤り,Campanula punctata 'Pantaloons' / 原産地: 北米東部および中央部,原産地は東アジア。北米は誤り,高,Campanula punctata は東アジア原産
+132101496,ガリウム オドラタム（クルマバソウ）,原産地誤り,Galium odoratum / 原産地: 北米東部,ヨーロッパ〜西アジア（北アフリカ）。北米東部は誤り,高,Galium odoratum（クルマバソウ／スイートウッドラフ）はヨーロッパ〜ユーラシア原産。北米東部は不適当。
+132137315,セダム カムチャティカム var. ‘バリエガータム’（エゾノキリンソウ斑入り）,原産地誤り,Sedum kamtschaticum var. kamtschaticum'Variegatum' / 原産地: Hemerocallis属はアジア原産。'Summer Wine'は…,原産地を東アジア（ロシア・中国・朝鮮・日本）に修正。学名は 'var. kamtschaticum 'Variegatum'' と半角スペースを補う。,高,原産地欄が Hemerocallis（ヘメロカリス）'Summer Wine' の説明文になっており、別品種からの転記誤り。加えて学名で kamtschaticum と 'Variegatum' が癒着（スペース欠落）。
+132138416,ツタ アメリカヅタ 'バージニアクリーパー',原産地誤り,Parthenocissus quinquefolia／原産地: ヨーロッパ、西アジア、北アフリカ,原産地は北米東部～中央部（アメリカヅタ Virginia creeper は北米原産）,高,P. quinquefolia は北米原産。同一学名の別行(184389145)は北米と正しく記載。
+132138546,ティアレラ 'ラッカーリーフ',原産地誤り,Tiarella 'Lacquer Leaf'／原産地: 南ヨーロッパ、中央アジア,原産地は北米（および東アジア）。Tiarella は北米原産,高,Tiarella（フォームフラワー）は北米・東アジア原産。同属他行(184389110等)は北米と記載。
+132139867,トラディスカンティア 'ブルーアンドゴールド',原産地誤り,Tradescantia (Andersoniana Group) 'Blue and Gold'／原産地: ヨーロッパ、西中央アジア,原産地は南北アメリカ（Tradescantia は新大陸原産）,高,Tradescantia は南北アメリカ原産。同属他行(155930522等)は北米と記載。
+132159041,ヒューケラ 'グリーンスパイス',原産地誤り,原産地: ヨーロッパ、西アジア,北米（属として）,高,Heuchera は北米原産。ヨーロッパ・西アジアは誤り。
+132159067,ヒューケラ 'サターン',原産地誤り,原産地: ザイール,北米（属として）,高,Heuchera は北米原産の園芸交配種。アフリカのザイールは明白な誤り。
+132159342,ハコネクロア マクラ 'オレオラ'（フウチソウ 斑入り）,原産地誤り,原産地: 中央ヨーロッパ、東ヨーロッパ、コーカサス,日本,高,Hakonechloa macra は日本固有（本州の山地）。中央/東ヨーロッパ・コーカサスは誤り。
+141295924,エーデルワイス,原産地誤り,Leontopodium alpinum,原産地はヨーロッパのアルプス〜山岳地帯,高,エーデルワイス（Leontopodium alpinum）はヨーロッパの高山原産。記載の『北米東部』は誤り。
+141302060,カモミール ローマンカモミール ダブルフラワー,原産地誤り,Chamaemelum nobile 'Flore-Pleno' / 原産地: 北米東部,原産地は西ヨーロッパ・北アフリカ。北米東部は誤り,高,同種シングル品種(id141301815)の原産地も西ヨーロッパ・北アフリカと記載
+141372346,カンパニュラ プンクタータ 'チェリーベル'（ホタルブクロ）,原産地誤り,Campanula punctata 'Cherry Bells' / 原産地: 北米東部および中央部,原産地は東アジア。北米は誤り,高,Campanula punctata は東アジア原産
+141427001,フクシャ マジェラニカ,原産地誤り,原産地: ヨーロッパ,南米南部（チリ、アルゼンチン）,高,Fuchsia magellanica は南米南部（チリ・アルゼンチン）原産。ヨーロッパは誤り。同種の別行(id:141434270等)は南米と正しく記載。
+141437900,フロックス ディバリカータ 'モントローズトリカラー',原産地誤り,原産地: ヨーロッパ,北米東部,高,Phlox divaricata は北米東部原産。ヨーロッパは誤り。
+155446248,カンパニュラ ポサスキャーナ 'アルペンブルー',原産地誤り,Campanula poscharskyana 'Alpen Blue' / 原産地: 北米東部および中央部,原産地はディナルアルプス（バルカン半島）。北米は誤り,高,Campanula poscharskyana は旧ユーゴ・バルカン半島原産
+155935295,ヒューケラ サンギネア 'ファイヤーフライ',原産地誤り,原産地: ヨーロッパ,北米南西部（アリゾナ〜メキシコ）,高,Heuchera sanguinea はアリゾナ・ニューメキシコ・メキシコ原産。ヨーロッパは誤り。
+157837155,フロックス ディバリカータ 'プラムパーフェクト',原産地誤り,原産地: ヨーロッパ,北米東部,高,Phlox divaricata は北米東部原産。ヨーロッパは誤り。同種の別行(id:157837234)は「北米東部」と正しく記載。
+158415110,フィソカルパス 'ディアボロ'（アメリカテマリシモツケ ディアボロ）,原産地誤り,原産地: 中央ヨーロッパ、東ヨーロッパ,北米（東部）,高,Physocarpus opulifolius（アメリカテマリシモツケ）は北米東部原産。中央・東ヨーロッパは誤り。同種の別行(id:167789838)は「北米東部」と正しく記載。
+172899359,フクシャ マジェラニカ ‘バリエガータ’（フクシャ マジェラニカ 斑入り）,原産地誤り,Fuchsia magellanica'Variegata'（原産地: 中央ヨーロッパ、東ヨーロッパ、南ヨーロッパ、コーカサス地方）,原産地を南米南部（チリ、アルゼンチン）に修正。学名は Fuchsia magellanica 'Variegata'（種小名と品種名の間にスペースを挿入）,高,Fuchsia magellanica は南米原産でヨーロッパ・コーカサスは誤り。加えて学名で種小名と品種名が癒着（magellanica'Variegata'）しスペースが欠落。
+132132213,ジーアム（ゲウム ）リヴァーレ 'アルバム',品種名綴り誤り,Geum rivale 'Alubum',Geum rivale 'Album',高,商品名アルバム=Album。'Alubum' は綴り誤り
+132134064,ペルシカリア アンプレクシカウリス 'ディッケフロスク',品種名綴り誤り,Persicaria amplexicaulis 'Dikke Flojkes',Persicaria amplexicaulis 'Dikke Floskes',高,RHS等で正しい綴りは 'Dikke Floskes'。商品名カタカナ（フロスク）とも一致
+132137427,セダム テレフィウム 'マンステッドダークレッド',品種名綴り誤り,Sedum telephium 'Munstad Dark Red',Sedum telephium 'Munstead Dark Red',高,品種名は 'Munstead Dark Red'（Munstead Wood 由来）。'Munstad' は綴り誤り。
+132140624,バーベナ ハスタータ 'ピンクスピアーズ'（バーベインブルー）,品種名綴り誤り,Verbena hastata 'Pink spears',Verbena hastata f. rosea 'Pink Spires',高,正式品種名は 'Pink Spires'（spires）。'spears' は綴り誤り。同バッチの 'Blue spires'/'White spires' と整合。
+132159864,フロックス パニキュラータ 'ノーラレイ',品種名綴り誤り,Phlox paniculata 'Nolah Leigh',Phlox paniculata 'Norah Leigh'（または 'Nora Leigh'）,高,斑入りフロックスの著名品種で正しい綴りは 'Norah Leigh'（Alan Bloom 命名）。カタカナ「ノーラレイ」とも一致。'Nolah Leigh' は綴り誤り。
+141376856,ジギタリス 'スノーシンブル',品種名綴り誤り,Digitalis purpurea 'Snow Timble',Digitalis purpurea 'Snow Thimble',高,商品名スノーシンブル=Thimble（指ぬき）。'Timble' は h 欠落の綴り誤り
+141426664,バプティシア×v.  ‘トワイライトプレーリーブルース’（ムラサキセンダイハギ）,品種名綴り誤り,Baptisia　×variicolor 'Twilite Praribiues',Baptisia ×variicolor 'Twilite' (Twilite Prairieblues),高,正しい品種名は 'Twilite'（流通名 Twilite Prairieblues™、シカゴ植物園作出）。'Praribiues' は 'Prairieblues' の綴り崩れ。加えて属名と×の間に全角スペース混入。
+141438408,ヘデラ 'ピンクアンドベリーカーリー',品種名綴り誤り,Hedera helix 'Ponk'n' Very Curly',Hedera helix 'Pink 'n' Very Curly',高,商品名『ピンク…』に対し 'Ponk' はスペルミス。正しくは 'Pink'。
+141438488,ヘデラ 'スペッチリー',品種名綴り誤り,Hedera helix 'Supechurii',Hedera helix 'Spetchley',高,商品名スペッチリーに対応する登録品種は 'Spetchley'。'Supechurii' はカタカナのローマ字転写で正式な品種名ではない。
+141438940,ペルシカリア アフィニス 'ボーダージュエル',品種名綴り誤り,Persicaria affinis 'Boder Jewel',Persicaria affinis 'Border Jewel',高,商品名「ボーダージュエル」に対し 'Boder' は 'Border' の綴り誤り
+155421621,アネモネ マルチフィダ（ムルチフィダ） 'ルブラ',品種名綴り誤り,Anemone multifida 'Rubur,Anemone multifida 'Rubra',高,'Rubur は 'Rubra' の綴り誤り（商品名『ルブラ』）。加えて閉じ引用符が欠落。
+156264490,エキノプス リトロ 'ベッチーズブルー',品種名綴り誤り,Echinops ritro 'Vetch's Blue',Echinops ritro 'Veitch's Blue',高,Veitch 苗圃に由来する著名品種で正しい綴りは 'Veitch's Blue'。'Vetch's' は i が欠落した誤り。
+167775035,ジプソフィラ パニキュラータ 'ブリストル フェアリー',品種名綴り誤り,Gypsophila paniculata 'Bristol Fairly',Gypsophila paniculata 'Bristol Fairy',高,定番品種は 'Bristol Fairy'。商品名もフェアリー。'Fairly' は綴り誤り
+172613816,ホスタ 'ナイトビフォークリスマス',品種名綴り誤り,Hosta'Night before Christsmas',Hosta 'Night Before Christmas',高,Christsmas は Christmas の綴り誤り、属名と癒着、before は Before が通例
+172646464,カレックス フラジェリフェラ 'ブロンズフォーム',品種名綴り誤り,Carex flagellifera'bronzeform' / 開花期: 晩夏＝秋,Carex flagellifera 'Bronze Form'。属名との癒着、品種名 bronzeform→Bronze Form（小文字・分綴なし）。開花期の '晩夏＝秋' は全角=混入で '晩夏～秋',高,品種名の大文字化・分綴、属名との空白欠落、開花期に全角イコール誤り
+179893582,アスチルベ 'スポットライト',品種名綴り誤り,Astilbe chinensis'potlight,Astilbe chinensis 'Spotlight',高,品種名が「'potlight」と破損。商品名『スポットライト』=Spotlight。開き引用符欠落かつ種小名と品種名が癒着（chinensis'potlight）。正しくは 'Spotlight'。
+184389117,ヘリアンセマム 'ヘンフィールドブリリアント',品種名綴り誤り,Helianthemum 'Hemfield Brilliant',Helianthemum 'Henfield Brilliant',高,著名なヘリアンセマム品種は 'Henfield Brilliant'。商品名ヘンフィールドとも一致。'Hemfield' は綴り誤り。
+184389159,アクテア（アクタエア）'シルバーダンス',品種名綴り誤り,Actaea japonica'Siver　Dance',Actaea japonica 'Silver Dance',高,品種名綴り誤り Siver→Silver（商品名は『シルバーダンス』）。加えて属名と品種名の癒着（japonica'Siver）、品種名内に全角スペース（Siver　Dance）混入。
+190572430,クニフォフィア 'ビーズレモン',品種名綴り誤り,Kniphofia'Bees lemoon',Kniphofia 'Bees' Lemon'（属名との間にスペース、Lemon の綴りと大文字化）,高,RHS登録名は 'Bees' Lemon'。'lemoon' は綴り誤りかつ属名と癒着。
+190572607,スタキス マクランサ ‘モーニングブラッシュ’,品種名綴り誤り,Stachys macrantha 'Morning Brush',Stachys macrantha 'Morning Blush',高,商品名カタカナ「モーニングブラッシュ」=Morning Blush。実在の品種は 'Morning Blush'。'Morning Brush' は綴り誤り。
+190882638,ジーアム（ゲウム）リヴァーレ 'アルバム',品種名綴り誤り,Geum rivale 'Alubum',Geum rivale 'Album',高,商品名アルバム=Album。'Alubum' は綴り誤り（132132213と同一誤り）
+141494720,ペンステモン バルバタス 'ジングルベル',商品名と学名の不一致,Penstemon barbatus 'Coccineus',商品名(ジングルベル=Jingle Bells)と学名の品種名(Coccineus)が不一致。いずれかに統一,高,商品名は'ジングルベル'だが学名品種名は'Coccineus'
+155422266,アリウム トゥベロサム（チャイブ）,商品名と学名の不一致,Allium tuberosum,Allium tuberosum（ニラ／ガーリックチャイブ）— 括弧内『チャイブ』は誤り,高,Allium tuberosum はニラ（garlic chives）。一般名『チャイブ』は Allium schoenoprasum を指す別種。括弧内の共通名が誤り。学名綴りは正しい。
+190882643,セダム レフレクサム,商品名と学名の不一致,Sedum 'Vera Jameson',Sedum reflexum（=Sedum rupestre）,高,商品名『レフレクサム』は Sedum reflexum を指すが、学名欄が別品種 'Vera Jameson'（id=132137203 と同一）になっており転記/クローン誤り。原産地『イギリス園芸品種』も Vera Jameson のもの。
+132132524,シレネ ディオイカ 'バーレイハイ',属の取り違え(クローン疑い),Spiraea japonica 'Genpei',Silene dioica '（正しい品種名）' — 商品名はシレネ ディオイカだが学名がスピラエア ジャポニカ 'ゲンペイ'（シモツケ）になっており、別属の貼付け誤り,高,商品名（Silene dioica）と学名（Spiraea japonica、バラ科ではなくバラ目シモツケ）が完全に別属。周辺のシレネ行と不整合
+132096291,エキノプス リトロ,整形・表記誤り(癒着/スペース/大小文字),Echinops Ritro,Echinops ritro,高,種小名は小文字始まりが原則。Ritro→ritro。
+132159175,ビンカ ミノール 'アルバ'（ビンカ ミノール 白花）,整形・表記誤り(癒着/スペース/大小文字),Vinca minor  'Alba',Vinca minor 'Alba'（二重スペースを除去）,高,属名と品種名の間に半角スペースが2つ入っている。
+141372531,カンパニュラ ラクティフローラ,整形・表記誤り(癒着/スペース/大小文字),Campanula Lactiflora,種小名は小文字。Campanula lactiflora,高,種小名を大文字始まりで記載（Lactiflora）
+141377313,スカビオサ 'ピンクッションピンク',整形・表記誤り(癒着/スペース/大小文字),Scabiosacolumbaria nana 'Pincushion Pink',Scabiosa columbaria nana 'Pincushion Pink'（属名と種小名の癒着）,高,Scabiosa と columbaria が空白なく癒着している
+157883252,ポテンチラ ベルナ（ポテンチラ ヌーマニアナ）,整形・表記誤り(癒着/スペース/大小文字),potentilla verna（potentilla neumanniana),Potentilla verna（Potentilla neumanniana）,高,属名が2箇所とも小文字始まり。属名は大文字始まりが必須。内容（verna=neumanniana の同義）は妥当。
+167751582,サリクトラム（タリクトラム）'エリン',整形・表記誤り(癒着/スペース/大小文字),Thalictrum'Elin',Thalictrum 'Elin',高,属名と品種名の間にスペースがなく癒着している（Thalictrum'Elin'）。
+167775316,ホスタ 'クリスマスページェント',整形・表記誤り(癒着/スペース/大小文字),Hosta'Christmas Pageant',Hosta 'Christmas Pageant'（属名と品種名の間にスペース）,高,属名と品種名の癒着
+167777629,ユーパトリウム マクラツム'ゲートウェイ',整形・表記誤り(癒着/スペース/大小文字),Eupatorium maculatum'Gateway',Eupatorium maculatum 'Gateway'（種小名と品種名が癒着、間に半角スペースが必要）,高,maculatum と 'Gateway' の間にスペースがなく癒着。参考: 現行分類は Eutrochium maculatum。
+172613516,ベロニカ 'サニーボーダーブルー',整形・表記誤り(癒着/スペース/大小文字),Veronica'Sunny Border Blue',Veronica 'Sunny Border Blue'（属名と品種名の間にスペース）,高,属名と品種名が癒着（Veronica'Sunny...）
+172614209,ポテンチラ 'アーカンシエル',整形・表記誤り(癒着/スペース/大小文字),Potentilla'Arc-en-Ciel',Potentilla 'Arc-en-Ciel',高,属名と品種名が空白なしで癒着している（Potentilla と 'Arc-en-Ciel' の間にスペースが必要）。
+172617013,リモニウム 'ブルーダイアモンド',整形・表記誤り(癒着/スペース/大小文字),Limonium'Blue Diamond',Limonium 'Blue Diamond'（属名と品種名が癒着、間に半角スペースが必要）,高,Limonium と 'Blue Diamond' の間にスペースがなく癒着。
+172647331,ゲラニウム 'オリオン',整形・表記誤り(癒着/スペース/大小文字),Geranium'Orion',Geranium 'Orion'（属名と品種名の間に半角スペース）,高,属名と品種名が癒着（スペース欠落）。
+184389137,ダイアンサス `ヒドゥコート',整形・表記誤り(癒着/スペース/大小文字),Dianthus'Hidcote',Dianthus 'Hidcote'（属名と品種名の間にスペースを挿入）,高,属名と一重引用符付き品種名が空白なしで癒着している。
+190572228,エキナセア ‘オレンジパッション’,整形・表記誤り(癒着/スペース/大小文字),Echinacea'Orange passion',Echinacea 'Orange Passion',高,属名と品種名が癒着（Echinacea'Orange passion'）しており半角スペースが欠落。品種名の語頭も大文字が望ましい。
+190572308,カレックス 'エバーゴールド',整形・表記誤り(癒着/スペース/大小文字),Carex'Evergold',属名と品種名が癒着（Carex'Evergold'）。Carex 'Evergold' とスペースを挿入,高,属名と引用符付き品種名の間の空白欠落
+190572354,クニフォフィア 'アイスクイーン',整形・表記誤り(癒着/スペース/大小文字),Kniphofia'Ice Queen',Kniphofia 'Ice Queen'（属名と品種名の間に半角スペース）,高,属名と品種名が癒着（スペース欠落）。
+132138506,ツルコケモモ,種小名欠落,Vaccinium,Vaccinium oxycoccos（ツルコケモモ）,高,属名のみで種小名が欠落。ツルコケモモは Vaccinium oxycoccos。
+132160063,リシマキア キリアータ 'ファイヤークラッカー',種小名欠落,Lysimachia 'Firecracker',Lysimachia ciliata 'Firecracker'（商品名『キリアータ』＝ciliata が学名に欠落）,高,'Firecracker' は Lysimachia ciliata の品種。商品名にキリアータと明記があるのに学名で種小名が抜けている。
+172614525,ミスカンサス シネンシス f.グラシリマス（イトススキ）,種小名欠落,miscanthus f. gracillimus,Miscanthus sinensis f. gracillimus（または 'Gracillimus'）,高,属名が小文字 miscanthus、かつ種小名 sinensis が欠落。商品名は「シネンシス」を含むため sinensis の脱落。
+155927005,スカビオサ コウカシカ 'コンプリメント',種小名誤り,Scabiosa caucasia 'Compliment',Scabiosa caucasica 'Compliment',高,種小名は caucasica。商品名もコウカシカ。他行(141377502等)は caucasica と正記載。'caucasia' は綴り誤り
+132095058,アスター ラテリフローラス 'プリンス',綴り誤り,Aster laterifolius 'Prince',Aster lateriflorus 'Prince'（現分類は Symphyotrichum lateriflorum）,高,種小名の綴り誤り laterifolius→lateriflorus（side-flowering aster）。次行176の同種は正しく lateriflorus 表記。
+132095784,アンドロポゴン スコパリウス 'ブレイズ',綴り誤り,Andoropogon scoparius 'Blaze',Andropogon scoparius 'Blaze'（現行分類名は Schizachyrium scoparium 'Blaze'）,高,属名の綴りが Andoropogon になっている。正しくは Andropogon。なお本種は現行分類では Schizachyrium scoparium に移されている。
+132095818,アンドロポゴン スコパリウス 'プレーリーブルーズ',綴り誤り,Andoropogon scoparius 'Prairie Blues',Andropogon scoparius 'Prairie Blues'（現行分類名は Schizachyrium scoparium 'Prairie Blues'）,高,属名の綴りが Andoropogon。正しくは Andropogon。現行分類では Schizachyrium scoparium。
+132100965,キミキフーガ シンプレックス 'ジェイムズコンプトン',綴り誤り,Cimicifugaa simplex 'James Compton',Cimicifuga simplex 'James Compton'（属名の a の重複を削除）,高,属名 Cimicifuga が 'Cimicifugaa' と末尾 a が重複。
+132103555,コレオプシス グランディフローラ 'テキーラサンライズ',綴り誤り,Coreopsis gurandiflora 'Tequila Sunrise',Coreopsis grandiflora 'Tequila Sunrise',高,種小名の綴り誤り。「gurandiflora」は誤りで正しくは grandiflora（同ページ他行では正しく grandiflora と表記）。
+132130161,サポナリア オフィシナリス 'アルバプレナ'（ソープワート）,綴り誤り,Saponalia officinalis 'Alba Plena',Saponaria officinalis 'Alba Plena',高,属名の綴り誤り。「Saponalia」は誤りで正しくは Saponaria（商品名サポナリアに一致）。
+132130171,サポナリア オフィシナリス 'ロゼアプレナ'（ソープワート）,綴り誤り,Saponalia officinalis 'Rosea Plena',Saponaria officinalis 'Rosea Plena',高,属名の綴り誤り。「Saponalia」→ Saponaria。前行と同一の誤り。
+132135818,ペルシカリア 'ポリモーファ',綴り誤り,Perisicaria polymorpha,Persicaria polymorpha,高,属名 Perisicaria は Persicaria の綴り誤り
+132138478,ツタ ナツヅタ 'フェンウェイパーク',綴り誤り,Parthenocis tricuspidata'Fenway Park',Parthenocissus tricuspidata 'Fenway Park'（属名綴り訂正＋品種名の癒着解消）,高,属名が Parthenocis と誤綴（正: Parthenocissus）、かつ種小名と品種名が空白なしで癒着。
+132158960,アイリス クリサータ（ヒメシャガ）,綴り誤り,Iris crisata,Iris cristata（ただし商品名の（ヒメシャガ）は別種 Iris gracilipes を指すため学名と通称が不一致）,高,crisata は cristata の綴り誤り（北米産ヒメアヤメ）。一方ヒメシャガはWeb確認でIris gracilipes A.Gray（日本固有種）。カタカナ『クリサータ』はcristataを示すが、通称ヒメシャガはgracilipesであり分類群が食い違う。原産地欄も空欄。要人手確認。
+132159331,ハコネクロア マクラ（フウチソウ 緑葉）,綴り誤り,Hachonechloa macra,Hakonechloa macra,高,属名綴り誤り Hachonechloa→Hakonechloa。
+132159342,ハコネクロア マクラ 'オレオラ'（フウチソウ 斑入り）,綴り誤り,Hachonechloa macra 'Aureola',Hakonechloa macra 'Aureola',高,属名綴り誤り Hachonechloa→Hakonechloa。
+132160115,ハコネクロア マクラ（ベニフウチソウ）,綴り誤り,Hachonechloa macra,Hakonechloa macra,高,属名綴り誤り Hachonechloa→Hakonechloa。
+141207691,アスチルベ アレンジー 'グランデ',綴り誤り,Astilbe × ardensii 'Grande',Astilbe × arendsii 'Grande',高,種小名 ardensii は arendsii（アーレンジー、Georg Arends に由来）の綴り誤り。商品名『アレンジー』とも整合しない。
+141207899,アスチルベ アレンジー 'ショースター',綴り誤り,Astilbe × ardensii 'Showstar',Astilbe × arendsii 'Showstar',高,ardensii → arendsii の綴り誤り。行8と同一の誤り。
+141208108,アスチルベ チネンシス 'マイティジョー',綴り誤り,Astilbe aredsii 'Mighty Joe',Astilbe chinensis 'Mighty Joe',高,aredsii は誤綴り。商品名『チネンシス』と不一致。Mighty シリーズは Astilbe chinensis 系統。行12と同一パターン。
+141208152,アスチルベ チネンシス 'マイティピップ',綴り誤り,Astilbe aredsii 'Mighty Pip',Astilbe chinensis 'Mighty Pip',高,aredsii は arendsii の綴り誤り。さらに商品名『チネンシス』と学名が不一致。Mighty シリーズ（Hans van der Meer 作出）は Astilbe chinensis の背高交配種として流通（PlantDelights等）。商品名に合わせ chinensis を推奨。
+141211510,アルテミシア シュミッディアーナ 'ナナ',綴り誤り,Artemisia schmidiana 'Nana',Artemisia schmidtiana 'Nana',高,schmidiana は schmidtiana（Silver Mound、日本原産）の綴り誤り（t 脱落）。原産地『日本』は妥当。
+141303146,カリオプテリス 'ダークナイト'（カリガネソウ）,綴り誤り,Caryopteris cladonensis 'Darknight',Caryopteris × clandonensis 'Dark Knight'。種小名 cladonensis→clandonensis、交配記号×欠落、品種名 Darknight→Dark Knight,高,交配種名は Caryopteris × clandonensis が正。品種名は 'Dark Knight'
+141372208,カンパニュラ ポルテンスクラジアーナ 'ブルーマジック',綴り誤り,Canpanula portensclagiana 'Blue Magic',Campanula portenschlagiana 'Blue Magic'。属名 Canpanula→Campanula、種小名 portensclagiana→portenschlagiana,高,属名綴り誤り、種小名は portenschlagiana が正
+141426419,ネペタ 'シックスヒルズジャイアント',綴り誤り,Npeta 'Six Hills Giant',Nepeta 'Six Hills Giant'（Npeta→Nepeta）,高,属名が Npeta と誤綴。正: Nepeta。
+155445848,カンパニュラ プンクタータ 'プラムワイン',綴り誤り,Canpanula .punctata 'Plum Wine',Campanula punctata 'Plum Wine'。属名 Canpanula→Campanula、種小名前の余分な '.' を削除,高,属名綴り誤り（n→m）および '.punctata' の不正なピリオド
+155450448,ゲラニウム ウォリチエーナム 'クリスタルレイク',綴り誤り,Geranium  wallichiamum 'Crystal Lake',Geranium wallichianum 'Crystal Lake'（wallichianum に修正、二重スペース解消）,高,種小名 'wallichiamum' は誤り（正は wallichianum）。加えて属名後に二重スペース。
+155927281,タイム シトゥリオドラス 'オレウス'（ゴールデンタイム）,綴り誤り,Tymus citriodorus 'Aureus',Thymus × citriodorus 'Aureus',高,属名 'Tymus' は 'Thymus' の綴り誤り（h欠落）。
+155933835,ビオラ ソロリア 'ダークフレックルス',綴り誤り,Viola soloria 'Dark Freckles',Viola sororia 'Dark Freckles',高,種小名は sororia が正。soloria は綴り誤り（同バッチ172915635では sororia 表記）。
+157900162,ロニセラ ヘックロッティ（ハニーサックル）,綴り誤り,Lonicera x heckrotti,Lonicera × heckrottii,高,種小名は Heckrott への献名で語尾-iiが正しい。Missouri Botanical Garden等でも heckrottii（ii）が標準。記載は末尾のiが1文字不足。
+158315514,ペニセタム アロペキュロイデス ビリデセンス,綴り誤り,Pennisetum alopecuroides f. viridesens,Pennisetum alopecuroides f. viridescens,高,forma小名 viridesens は viridescens の綴り誤り（c 欠落）
+172612829,プリムラ ジャポニカ 'アップルブロッサム'（クリンソウ）,綴り誤り,Primura japonica'Appleblossom',Primula japonica 'Appleblossom',高,属名が『Primura』となっているが正しくは『Primula』。加えて属名と品種名が癒着している（japonica'Appleblossom'）。
+176955455,エリカ カルネア ‘スノークィーン’,綴り誤り,Erica canea 'Snow Queen',Erica carnea 'Snow Queen',高,種小名は carnea。記載の canea は r が欠落。商品名『カルネア』とも一致する。
+184389126,コルヌス アルバ 'エレガンティシマ'（ギンフミズキ）,綴り誤り,Colnus alba 'Elegantissima',Cornus alba 'Elegantissima',高,属名の誤記。「Colnus」という属は存在せず、商品名（コルヌス）および同一群の他行と同じく正しくは Cornus。
+190571077,アスター タータリカス,綴り誤り,Aster tartaricus,Aster tataricus,高,種小名の綴り誤り tartaricus→tataricus（余分な r）。シオン。ユーラシア産で属はAsterのまま。
+190580998,ハコネクロア ‘オールゴールド’（オオゴンフウチソウ）,綴り誤り,Hachonechloa macra'All Gold',Hakonechloa macra 'All Gold',高,属名は Hakonechloa（箱根に由来）が正。Hachonechloa は綴り誤り。加えて macra と 'All Gold' が癒着し半角スペース欠落。
+190882677,ペンステモン ハシュータス var. ピグマエウス f. アルバス,綴り誤り,Penstemon hirsutus var. pigmaeus f. Albus,Penstemon hirsutus var. pygmaeus f. albus,高,pigmaeus は pygmaeus の綴り誤り（別行132136761では pygmaeus）。forma小名 albus は小文字が正
+132099774,カレックス 'バーグレニーアイ',その他,Carex talbotii Kottaim.,命名者表記 'Kottaim.' は不正（OCR等の誤り）。正しくは Carex talbotii（旧 Carex berggrenii Petrie の置換名）。商品名バーグレニーアイ=berggrenii と対応,中,Carex talbotii の命名者は Kottaim. ではない。種自体はバーグレニー(berggrenii=talbotii)で整合
+190882681,カーリメリス インシサ 'バリエガータ',その他,商品名がセル内改行で分断（『カーリメリス インシサ』と『‘バリエガータ’ Kalimeris incisa 'Variegata'』が別行）,1行に統合し『カーリメリス インシサ ‘バリエガータ’ / Kalimeris incisa 'Variegata'』とする,中,TSVの1レコードが2行に割れており、id行に学名が無く次行に学名が入る破損状態。学名自体は正しい。
+132138150,ダイアンサス sp.  ‘ライオンロック’,全角文字混入,Dianthus sp.　'Lion Rock',Dianthus sp. 'Lion Rock'（商品名の二重スペース・学名の全角スペースを半角に）,中,商品名に二重スペース、学名の sp. と品種名の間に全角スペースが混入。
+141207284,アスター エリコイデス 'ハピーブルーミング',全角文字混入,Aster (symphyotrichum) ericoides 'Happy　blooming',Aster ericoides 'Happy Blooming'（現分類は Symphyotrichum ericoides）,中,品種名内に全角スペース（Happy　blooming）混入、品種名2語目が小文字（blooming→Blooming）。括弧内の属名 symphyotrichum も本来大文字始まり Symphyotrichum。
+157883082,ホスタ 'ダイアナリメンバード セレクト',全角文字混入,Hosta 'Diana Remembered　Select',Hosta 'Diana Remembered Select'（全角スペースを半角に）,中,Remembered と Select の間に全角スペース
+167775009,ジーアム（ゲウム）'フレームオブパッッション',全角文字混入,Geum'Flame　of　Passion',Geum 'Flame of Passion',中,属名と引用符が癒着、品種名内に全角スペース混入。商品名側もパッッションと促音重複
+167775042,セダム‘マトロナ’,全角文字混入,Sedum'Matrona',Sedum 'Matrona',中,属名と品種名が癒着（Sedum と 'Matrona' の間のスペース欠落）。
+167775159,ヘリアンサス 'ハピーデイズ'（ヤナギバヒマワリ）,全角文字混入,Helianthus'Happy　Days',Helianthus 'Happy Days',中,Happy と Days の間が全角スペースになっている。加えて属名と品種名が癒着（Helianthus'）。
+172615506,ミント バナナミント,全角文字混入,Mentha　arvensis　'Banana',Mentha arvensis 'Banana',中,単語間に全角スペースが混入（Mentha␣arvensis␣'Banana'）。半角スペースに要修正。
+182596998,ジーアム（ゲウム） 'トータリータンジェリン',全角文字混入,Geum'Totally　Tangerine',Geum 'Totally Tangerine',中,属名と引用符が癒着（Geum'）、かつ Totally と Tangerine の間に全角スペース混入
+190579420,アスター 'ブリリアントパープル',全角文字混入,Aster'Brilliant　Purple',Aster 'Brilliant Purple',中,属名と品種名の癒着（Aster'Brilliant）、品種名内に全角スペース（Brilliant　Purple）混入。
+132094429,アスター デュモーサス 'ウッズピンク',分類変更(参考),Aster dumosus 'Wood's Pink',Symphyotrichum dumosum（旧名可）,中,"北米産で現分類は Symphyotrichum dumosum。dumosus系の同属他行（179490796,167747700,132094492）も同様。旧名は慣用可。"
+132094474,アスター マクロファイラス 'タイニートーイ',分類変更(参考),Aster　macrophyllus 'Tiny Toy',Eurybia macrophylla 'Tiny Toy'（旧名可）,中,北米産で現分類は Eurybia macrophylla。旧名は慣用可。なお学名内の Aster と macrophyllus の間が全角スペースになっている点は整形要修正。132094479も同種。
+132094556,アスター ノビベルギ 'ロイヤルルビー',分類変更(参考),Aster novi-belgii 'Royal Ruby',Symphyotrichum novi-belgii（旧名可）,中,北米産で現分類は Symphyotrichum。同種の132094464は既にSymphyotrichum表記で表記ゆれあり（132094504も同種）。旧名は慣用可。
+132094594,アスター タービネルス,分類変更(参考),Aster turbinellus,Symphyotrichum turbinellum（旧名可）,中,北米産で現分類は Symphyotrichum。原産地欄は空欄（北米中央部）。
+132094607,アスター ディバリケータス,分類変更(参考),Aster divaricatus,Eurybia divaricata（旧名可）,中,北米産のシラヤマギク近縁は現分類で Eurybia 属。旧名は慣用可。
+132138260,ポリゴナム ビストータ 'スーパーバム'（イブキトラノオ）,分類変更(参考),Polygonum bistorta 'Superbum',Bistorta officinalis 'Superba'（=Persicaria bistorta 'Superba'）,中,Polygonum bistorta は現在 Bistorta officinalis（または Persicaria bistorta）に分割。品種名も一般に 'Superba'。旧属名は流通上許容のため参考。
+132139689,デスカンプシア フレクシオーサ,分類変更(参考),Deschampsia flexuosa (L.) Trin.,現代分類では Avenella flexuosa に移されている（参考）,中,近年の分類で Deschampsia flexuosa は Avenella flexuosa とされる。
+132139715,ユーパトリウム コエレスティナム,分類変更(参考),Eupatorium coelestinum,現行分類では Conoclinium coelestinum（アオバナフジバカマ）,中,coelestinum は Conoclinium 属に移動。旧名 Eupatorium coelestinum は流通名として残存。
+132164261,ガウラ 'サマーエモーション'（ハクチョウソウ）,分類変更(参考),Gaura lindheimeri（属全般）,現行分類では Oenothera lindheimeri。本バッチの全ガウラ（132164261/156265619/132099362/132099340/132099448/132099504）に共通,中,Gaura lindheimeri は APG/現行分類で Oenothera lindheimeri に統合。園芸流通名としては Gaura が広く残る（参考情報）。
+141207219,アスター コーディフォリウス 'アイデアル',分類変更(参考),Aster cordifolius 'Ideal',Symphyotrichum cordifolium 'Ideal'（旧名可）,中,北米産で現分類は Symphyotrichum。旧名は慣用として許容。
+141426718,クリサンセマム ニポニカム（ハマギク）,分類変更(参考),Chrysanthemum nipponicum Matsumura,現行分類では Nipponanthemum nipponicum。流通名として Chrysanthemum も残存（参考）,中,ハマギクは単型属 Nipponanthemum に分離され Nipponanthemum nipponicum が現行学名。
+141496106,ポテンチラ トライデンタータ,分類変更(参考),Potentilla tridentata,Sibbaldiopsis tridentata（=Sibbaldia tridentata）,中,現代分類では Potentilla tridentata は Sibbaldiopsis tridentata に移されている。園芸流通名としては旧名も許容されるため参考。
+155420492,アスター アンベラータス,分類変更(参考),Aster umbellatus,Doellingeria umbellata（旧名 Aster umbellatus。ナーサリー慣用として旧名可）,中,現代分類で北米産のこの種は Doellingeria 属へ移行。誤りではなくシノニム。
+155930244,トバラ 'コンプトンズフォーム',分類変更(参考),Tovara 'Compton's Form',現代分類では Persicaria virginiana（旧 Tovara virginiana）（参考）,中,Tovara は Persicaria に統合されている。
+158507796,アスター ノバエアングリアエ 'バイブラントドーム',分類変更(参考),Aster novae-angliae 'Vibrant Dome',Symphyotrichum novae-angliae（旧名可）,中,"北米産で現分類は Symphyotrichum。novae-angliae系の同属他行（132094625,132094780,132094857）も同様。旧名は慣用可。"
+172631848,カラスバ  ヒメリュウキンカ (ラナンキュラス 'ブレーゼンハシー'),分類変更(参考),Ranunculus ficaria 'Brazen Hussy',現行分類では Ficaria verna 'Brazen Hussy'。また商品名に二重スペース混入（カラスバ␣␣ヒメリュウキンカ）,中,Ranunculus ficaria は Ficaria verna にシノニム化。二重スペースあり
+184389154,ユーパトリウム 'アイボリータワー',分類変更(参考),Eupatorium fistulosum f. albidum,現行分類では Eutrochium fistulosum f. albidum,中,Eupatorium 節（背高のフジバカマ類）は Eutrochium に分離。園芸流通では旧名も併用。
+190579677,アンシニア（ウンシニア） ルブラ,分類変更(参考),Uncinia rubra,Carex（現分類）— 例: Carex punicea / 流通名 Carex uncinata 'Rubra'（Uncinia rubra はシノニム）,中,Global Carex Group により Uncinia 属は Carex に統合。Uncinia rubra は Kew POWO で Carex punicea の基礎異名。園芸流通では Uncinia rubra が慣用のため誤りではないが、現行学名は Carex。参考情報。
+132098645,エリゲロン カルバンスキャナス 'プロフュージョン'（ゲンペイコギク）,原産地誤り,Erigeron karvinskianus 'Profusion',原産地はメキシコ〜中米,中,Erigeron karvinskianus はメキシコ〜中米原産。記載の『北米東部』は地域が誤り。
+132131001,ジーアム（ゲウム）チロエンセ 'ミセスブラッドショウ',原産地誤り,原産地: アジア、中央ヨーロッパ,南米チリ（アンデス）,中,Geum chiloense（=G. quellyon）はチリ原産。同種の別品種行(155903828)ではチリと正記載
+132134266,ペルシカリア ミクロセファラ 'レッドドラゴン',原産地誤り,中央ヨーロッパ、東ヨーロッパ,ヒマラヤ、中国（同種の別レコードと同様）,中,Persicaria microcephala はヒマラヤ〜中国原産。同属同種の別行(132133987)は「ヒマラヤ、中国」
+132138076,ソリダゴ 'ゴールドスパングルス',原産地誤り,Solidago flexicaulis 'Gold Spangles' / 原産地: ヒマラヤ、西アジア,原産地を北米（東部）に修正,中,Solidago flexicaulis は北米原産。原産地『ヒマラヤ、西アジア』は誤り。
+132140355,ネペタ ムッシーニアイ,原産地誤り,Nepeta mussinii／原産地: 地中海沿岸、南ヨーロッパ、北アフリカ,原産地はコーカサス～イラン北部（Nepeta mussinii = N. racemosa）,中,N. mussinii はコーカサス・イラン原産。同種品種行(190882625)はコーカサス、イラン北部と記載。
+141426782,ビオラ ラブラドリカ,原産地誤り,原産地: 西南テキサス、チワワ砂漠、北メキシコ,北方北米・グリーンランド（北方系）,中,Viola labradorica は北方系（ラブラドル、グリーンランド、北米北部・欧州）。テキサス南西部/チワワ砂漠/北メキシコは誤り。
+155445051,オレガノ ブルガレ 'ジムベスト',原産地誤り,Origanum vulgare 'Jim Best' / 原産地: 米国中南部（オハイオ～ジョージア）,原種 O. vulgare はユーラシア～地中海原産。米国中南部の記載は誤り,中,Origanum vulgare は北米原産ではない
+155925783,シレネ ユニフローラ 'ロゼア',原産地誤り,原産地: 東アジア,ヨーロッパ（西・北欧の海岸）,中,Silene uniflora（シーキャンピオン）はヨーロッパ海岸原産。東アジアは誤り
+166128570,ジプソフィラ レペンス 'ホワイト',原産地誤り,原産地: 東アジア,ヨーロッパの山地（アルプス、ピレネー等）,中,Gypsophila repens は欧州山岳原産。東アジアは誤り
+184389103,スピレア（オウゴンバシモツケ）,原産地誤り,Spiraea japonica 'Goldflame' / 原産地: 米国中央部から南東部,原産地を日本・中国・朝鮮半島（東アジア）に修正,中,Spiraea japonica は東アジア原産。原産地の『米国中央部から南東部』は誤り。
+190882608,ジプソフィラ レペンス 'ホワイト',原産地誤り,原産地: 東アジア,ヨーロッパの山地,中,Gypsophila repens は欧州山岳原産。東アジアは誤り
+132094492,アスター ドゥモーサス 'ハーブストグラス フォン ブレッサーホフ',品種名綴り誤り,Aster dumosus 'Herbustgruss v. Bresserhof',Aster dumosus 'Herbstgruß von Bresserhof'（現分類は Symphyotrichum dumosum）,中,独語品種名の綴り誤り Herbust→Herbst（秋の意 Herbstgruß）。v.→von が本来。ß はssでも許容。
+132099448,ガウラ 'ホワイトファウンテン'（ハクチョウソウ）,品種名綴り誤り,Gaura lindheimeri 'White fountain',Gaura lindheimeri 'White Fountain'（fountain の頭文字を大文字に）,中,栽培品種名は各単語を大文字始まりで表記するのが規則。'fountain' が小文字。
+132102555,ゲラニウム ヒマライエンス 'バーチダブル',品種名綴り誤り,Geranium himalayense 'Berch Double',Geranium himalayense 'Birch Double'（別名 'Plenum'）,中,品種名は 'Birch Double'。'Berch' は綴り誤り。
+141375823,サルビア 'バーガンディブリス',品種名綴り誤り,Salvia lyrata 'Burgundy,Salvia lyrata 'Burgundy Bliss',中,商品名は「バーガンディブリス」だが学名の品種名が 'Burgundy' で止まり、'Bliss' が欠落・引用符も未閉じ。正しくは 'Burgundy Bliss'。
+172607710,パルサティラ ブルガリス ‘ホワイトベル’,品種名綴り誤り,Pulsatilla vulgaris 'WhiteBell',Pulsatilla vulgaris 'White Bells',中,'WhiteBell' は単語間スペース欠落。同シリーズは 'Pearl Bells'・'Rose Bells' 表記に合わせ 'White Bells' が妥当。
+172614279,ポルモニウム カエルレウム 'フィリグリークラウド',品種名綴り誤り,Polemonium caeruleum f.dissectum 'FiligreeClouds',Polemonium caeruleum f. dissectum 'Filigree Clouds',中,品種名 'FiligreeClouds' に単語間スペースが欠落（'Filigree Clouds' が正）。f.dissectum も 'f. dissectum' が望ましい。
+172615653,アシリウム ‘アースラズレッド’,品種名綴り誤り,Athyrium niponicum var. pictum　'ursula's Red,Athyrium niponicum var. pictum 'Ursula's Red',中,品種名の先頭が小文字（ursula→Ursula、商品名『アースラズレッド』）。pictum 直後に全角スペース混入、閉じ引用符も欠落。
+172680206,デルフィニウム ‘マジックファウンテン ホワイト’,品種名綴り誤り,Delphinium 'MagicFountains White',Delphinium 'Magic Fountains White'（Magic と Fountains の間にスペース）,中,品種シリーズ名 Magic Fountains が空白なしで癒着。
+180969357,ヒューケラ ‘ベスビウス’,品種名綴り誤り,Heuchera 'vesuvius',Heuchera 'Vesuvius',中,品種名は頭文字を大文字にするのが規約。'vesuvius'→'Vesuvius'。
+184389104,サリックス インテグラ (ハクロニシキ) (ゴシキヤナギ),品種名綴り誤り,Salix integra'Hakuro Nisiki',Salix integra 'Hakuro-nishiki',中,品種名の綴り誤り。「Nisiki」はローマ字表記の誤りで正しくは Nishiki（錦）。加えて種小名 integra と品種名が癒着している。
+184389145,ツタ アメリカヅタ ‘バージニアクリーパー’ 斑入り,品種名綴り誤り,Parthenocissus quinquefolia 'Virginia creeper','Virginia creeper' は種の英名であり品種名ではない。斑入り品種であれば正式なcultivar名（例 'Star Showers' 等）を確認,中,cultivar名として英名（common name）をそのまま記載しており不適切。
+184389147,ラシラス バーナス 'ヘブンリーブルー',品種名綴り誤り,Lathyrus vernus 'Heavenly Blues',Lathyrus vernus 'Heavenly Blue'（単数形。商品名も『ヘブンリーブルー』と単数）,中,流通・種苗業者の表記は 'Heavenly Blue'（単数）。末尾の s は誤り。
+132101020,キミキフーガ シンプレックス 'ピンクスパイク',商品名と学名の不一致,Cimicifuga ramosa 'Pink Spike',商品名は『シンプレックス(simplex)』だが学名は ramosa。Actaea/Cimicifuga simplex 'Pink Spike'（Atropurpurea Group）に統一を検討,中,商品名の種小名(simplex)と学名(ramosa)が不一致。'Pink Spike' は一般に Actaea simplex Atropurpurea 群として流通。
+132130404,サルビア スーパーバ 'バイオレットクィーン',商品名と学名の不一致,Salvia nemorosa 'Violet Queen',Salvia × superba 'Violet Queen'（または商品名を「ネモローサ」に統一）,中,商品名は「スーパーバ」だが学名は nemorosa。'Violet Queen'（Violettkönigin）は通常 Salvia × superba として流通する。同ページの他のスーパーバ品種は Salvia x superba 表記で不統一。
+141499731,ラミアストラム 'ハーマンズブライド',商品名と学名の不一致,Lamiastrum galeobdolon 'Herman's　Pride',商品名カタカナは『ハーマンズプライド』が正（Pride＝プライド）。『ブライド』は誤り。学名側は 'Herman's Pride' で全角スペースを半角に。,中,cultivar は 'Herman's Pride'。商品名の『ブライド(Bride)』は Pride の読み違い。学名フィールドにも全角スペースあり。参考: 現行分類は Lamium galeobdolon。
+132134266,ペルシカリア ミクロセファラ 'レッドドラゴン',整形・表記誤り(癒着/スペース/大小文字),Persicaria microcephala 'RedDragon',Persicaria microcephala 'Red Dragon'（RedとDragonの間にスペース）,中,品種名が RedDragon と癒着
+141208515,アストランティア マヨール 'イエローマーブル',整形・表記誤り(癒着/スペース/大小文字),Astrantia  major'Yellow marble',Astrantia major 'Yellow Marble',中,Astrantia と major の間が二重スペース、かつ major と品種名が癒着（major'Yellow marble'）。品種名も小文字 marble→Marble が望ましい。
+155444610,エリカ　 カルネア 'ビベリ',整形・表記誤り(癒着/スペース/大小文字),Erica carnea　'Vivelli　',Erica carnea 'Vivelli',中,carnea と品種名の間、および品種名末尾に全角スペース（U+3000）が混入している。
+158412659,ハイドランジア セラタ ver. エゾエンシス（エゾアジサイ）,整形・表記誤り(癒着/スペース/大小文字),Hydrangea serrata var.yesoensis,Hydrangea serrata var. yesoensis,中,'var.' と種内名 yesoensis が癒着（半角スペース欠落）。
+167774944,サルビア スクラレア'バチカンホワイト'（クラリーセージ）,整形・表記誤り(癒着/スペース/大小文字),Salvia sclarea var. turkestanica'Vatican White',Salvia sclarea var. turkestanica 'Vatican White',中,種小名（turkestanica）と品種名（'Vatican White'）の間にスペースがなく癒着している。
+167775137,ヘデラ ヘリックス var.バルチカ,整形・表記誤り(癒着/スペース/大小文字),Hedera helix var.'Baltica',Hedera helix var. baltica,中,植物学的変種はイタリック小文字で var. baltica と表記するのが正しく、栽培品種扱いの引用符付き 'Baltica' は表記形式が不適切。var.と語の癒着もあり。
+172605013,トロリウス カルトラム 'ニュームーン’,整形・表記誤り(癒着/スペース/大小文字),Trollius×cultorum'New moon',Trollius × cultorum 'New Moon'（×前後および品種名前にスペース、Moonを大文字）,中,属名・交雑記号・種小名・品種名が空白なしで癒着し、品種名の綴りも 'New Moon' が適切。
+172612692,プリムラ キャピタータ 'サルバナ',整形・表記誤り(癒着/スペース/大小文字),Primula capitata'Salvana',Primula capitata 'Salvana',中,種小名と品種名が癒着している（capitata'Salvana'）。スペース挿入が必要。
+172614930,アキレジア‘ボルドーバロー’,整形・表記誤り(癒着/スペース/大小文字),Aquilegia vulgaris var.stellata plena'Bordeaux Barlow',Aquilegia vulgaris var. stellata flore plena 'Bordeaux Barlow',中,整形誤り：plena と品種名の癒着（plena'Bordeaux）。var. 後のスペース欠落も。
+172629313,エキナセア ‘ジュリア’,整形・表記誤り(癒着/スペース/大小文字),Echinacea  'Julia',Echinacea 'Julia',中,属名と品種名の間に二重スペースが混入している。
+172668316,スピレア ジャポニカ（シモツケ）’マジックカーペット’,整形・表記誤り(癒着/スペース/大小文字),Spiraea japonica f. 'Magic Carpet',Spiraea japonica 'Magic Carpet',中,品種名の前にforma階級を示す 'f.' があるが、forma小名が伴っておらず不要。cultivar 表記としては 'f.' は削除すべき。
+179490552,アガスタチ（アガスターシェ） 'レッドフォーチュン',整形・表記誤り(癒着/スペース/大小文字),Agastache mexicana`Red fortune',Agastache mexicana 'Red Fortune',中,整形誤り：属名と品種名の癒着（mexicana`Red）、開始引用符がバッククォート(`)、品種名の小文字（fortune→Fortune）。
+184389135,アスター ‘ビクトリア’,整形・表記誤り(癒着/スペース/大小文字),Aster'Victoria',Aster 'Victoria',中,整形誤り：属名と品種名の癒着（Aster'Victoria'）。半角スペースを補う。
+184389155,ホスタ 'ゴールドスタンダード',整形・表記誤り(癒着/スペース/大小文字),Hosta'Gold Standard',Hosta 'Gold Standard'（属名と品種名の間にスペース）,中,属名と品種名の癒着
+190571424,アスチルベ 'ピーチブロッサム',整形・表記誤り(癒着/スペース/大小文字),Astilbe'Peach Blossom',Astilbe 'Peach Blossom',中,属名と品種名が癒着（Astilbe'Peach Blossom'）。半角スペースを挿入すべき。綴り自体は正しい。
+190572829,ペニセタム フェアリーテイル,整形・表記誤り(癒着/スペース/大小文字),Pennisetum'Fairy tails',Pennisetum 'Fairy Tails'（属名との間にスペース、品種名は大文字始まり）,中,属名と品種名の癒着、'Fairy tails' の小文字表記
+190572902,ホスタ 'イエローポルカドットビキニ',整形・表記誤り(癒着/スペース/大小文字),Hosta'Yellow Polka Dot Bikini',Hosta 'Yellow Polka Dot Bikini'（属名と品種名の間にスペース）,中,属名と品種名の癒着
+180968952,タイム シルバークィーンタイム,種小名欠落,Thymus,Thymus vulgaris 'Silver Queen'（または Thymus × citriodorus 'Silver Queen'）,中,属名のみで種小名・品種名が欠落。シルバークィーンタイムは 'Silver Queen' 品種。
+132137268,セダム カウチカム（ヒダカミセバヤ）,種小名誤り,Sedum cauticolum,Sedum cauticola（=Hylotelephium cauticola）,中,ヒダカミセバヤの学名は Sedum cauticola。語尾 'cauticolum' は誤り（同マスタ内 id=155927011 では 'cauticola' 表記）。原産地の『中央ヨーロッパ』も不適（日本・北海道特産）。
+132136581,ペンステモン メキシケール 'サンバーストアメジスト',綴り誤り,Penstemon ×mexicale 'Sunburst Amethyst',Penstemon ×mexicali 'Sunburst Amethyst',中,交雑名は ×mexicali が正（別行132136627では mexicali）
+132139699,モリニア カエルレア カエルレア,綴り誤り,Molinia caerulea Caerulea,Molinia caerulea subsp. caerulea,中,亜種名が大文字始まり「Caerulea」かつ「subsp.」表記が欠落。正しくは subsp. caerulea（小文字）。
+141296110,エキナセア テネシェンシス,綴り誤り,Echinacea tennessensis,Echinacea tennesseensis,中,テネシー州由来の種小名は tennesseensis（e が2つ）。記載の tennessensis は e が1つ欠落。
+160100709,アネモネ ハプエンシス ジャポニカ 'ダイアナ'（シュウメイギク）,綴り誤り,Anemone hupehensis var. Japonica 'Diana',Anemone hupehensis var. japonica 'Diana',中,変種小名は小文字始まりが規則。Japonica → japonica。行36・37では正しく小文字。
+132137894,ホスタ 'リトルオーロラ',その他,Hosta 'Little Aurora' (_tokudama_ hybrid),Hosta 'Little Aurora' (tokudama hybrid)（マークダウン下線を除去）,低,_tokudama_ にマークダウン記号が混入
+184389144,リスラム サリカリア 'ハピースノー',その他,Lythrum salicaria 'Happy Snow',品種名の確認要。白花系は 'Happy Lights White' が確認できるが 'Happy Snow' は裏付け弱い。,低,'Happy Snow' の一次情報が確認できず。'Happy Lights White' 等の類似名あり。要一次資料確認。
+157861977,ペロブスキャ（ロシアンセージ）,分類変更(参考),Perovskia atriplicifolia,現行分類では Salvia yangii（Perovskia は Salvia に統合）,低,2017年に Perovskia は Salvia に統合。園芸流通名としては Perovskia も併用
+190572752,ペニセタム アロペキュロイデス 'ブラックビューティ',分類変更(参考),Pennisetum alopecuroides,現行分類では Cenchrus purpurascens（Pennisetum は Cenchrus に統合）。園芸流通では Pennisetum を継続使用,低,Pennisetum alopecuroides は Cenchrus purpurascens に再分類。本バッチの Pennisetum 各行に共通する参考事項
+155927007,セダム 'ミスターグッドバッド',原産地誤り,Hylotelephium 'Mr Goodbud' / 原産地: 北米,原産地を東アジア〜ユーラシア（親種 spectabile/telephium 系）に修正,低,Hylotelephium（旧Sedum）系の園芸交配種。親種はユーラシア原産で『北米』は不適。学名の Sedum→Hylotelephium は現代分類として妥当。
+172657039,ジプソフィラ セラスティオイデス（カーペットカスミソウ）,原産地誤り,原産地: 東アジア,ヒマラヤ地域（ネパール、北インド等）,低,Gypsophila cerastioides はヒマラヤ原産。東アジアは不正確
+132159230,ビンカ ミノール 'オーレオバリエガータ'（ビンカ ミノール 斑入り）,品種名綴り誤り,Vinca minor 'Aureo Variegata',Vinca minor 'Aureovariegata',低,登録品種名は 'Aureovariegata' と一語で表記されるのが一般的。スペース区切りは非標準。
+132159629,ブルネラ マクロフィラ 'シーハート',品種名綴り誤り,Brunnera macrophylla 'Sea heart',Brunnera macrophylla 'Sea Heart',低,品種名の慣例では 'Sea Heart' と各語頭を大文字にする。'heart' は小文字。
+132160737,ロジャージア 'ブロンズビューティー'（ヤグルマソウ）,品種名綴り誤り,Rodgersia podophylla 'Bronze beauty',Rodgersia podophylla 'Bronze Beauty',低,栽培品種名は各語頭を大文字にするのが慣例。'Bronze beauty' の beauty を Beauty に。綴り自体は妥当。
+133926604,ペルシカリア 'アトロサンギネア',品種名綴り誤り,Persicaria amplexicaulis 'atrosanguinea',Persicaria amplexicaulis 'Atrosanguinea'（品種名は大文字始まり）,低,品種名/変種名が小文字始まり。末尾に全角スペースも混入
+141434629,ブルネラ マクロフィラ 'ミスターモース',品種名綴り誤り,Brunnera macrophylla 'Mr.Morse',Brunnera macrophylla 'Mr. Morse',低,'Mr.Morse' はピリオド後のスペース欠落。正しくは 'Mr. Morse'。
+190882659,スカビオサ 'ビビッドバイオレット',品種名綴り誤り,Scabiosa 'Vivid violet',Scabiosa 'Vivid Violet',低,園芸品種名は各語頭を大文字にする慣行。violet が小文字
+132137289,ホスタ シーボルディ 'パールレイク',商品名と学名の不一致,Hosta 'Pearl Lake','Pearl Lake' は sieboldii 系ではないため商品名の「シーボルディ」を確認・削除,低,商品名に「シーボルディ」とあるが学名は種名なしの Hosta 'Pearl Lake'
+132138841,ミント ハッカ,商品名と学名の不一致,Mentha × piperita,Mentha arvensis var. piperascens（ニホンハッカ）等の可能性,低,「ハッカ（薄荷）」は本来ニホンハッカ Mentha arvensis 系を指すことが多く、M. × piperita（セイヨウハッカ）との不一致の可能性。表記意図次第で許容も。
+141375223,ゲラニウム サンギネウム 'ローズ',商品名と学名の不一致,Geranium sanguineum var. striatum,商品名の品種『ローズ』と学名の var. striatum（植物学的変種）が不一致。表記の整合を確認,低,var. striatum は淡桃色の変種（旧 'Lancastriense'）。商品名の 'ローズ' が cultivar 指定なら学名と齟齬。
+143510319,白樺のフレッシュヴィヒタ,商品名と学名の不一致,Sagina subulata,商品名（白樺＝Betula／ヴィヒタ＝白樺の枝束）と学名 Sagina subulata（ナデシコ科の匍匐性グラウンドカバー、アイリッシュモス様）が無関係。要人手確認,低,『ヴィヒタ(vasta/vihta)』はサウナ用の白樺の枝束を指す語で白樺を示唆するが、Sagina subulataはヨーロッパ産のマット状小型植物で属レベルで無関係。草丈5cm・欧州はSaginaと整合するため商品名側が別品種の可能性。クローン誤りの疑い。
+172613372,ベルゲニア コーディフォリア 'ニューウィンターフラワリング Hybs',商品名と学名の不一致,Bergenia cordifolia,商品名に品種名(New Winter Flowering Hybrids)が含まれるが学名に反映されていない。学名側にも 'New Winter Flowering' 等を補うか整合させる,低,商品名に「ニューウィンターフラワリング Hybs」とあるが学名は種のみ
+132137396,ホスタ 'ピルグリム',整形・表記誤り(癒着/スペース/大小文字),Hosta cv Pilgrim,Hosta 'Pilgrim'（cv 表記でなく引用符で品種名を表記）,低,非標準の cv 記法
+132158912,ピオニア 'ニックシェイラー',整形・表記誤り(癒着/スペース/大小文字),Paeonia(LD) 'Nick Shaylor',Paeonia (LD) 'Nick Shaylor'（属名と群略号の間にスペース）,低,属名 Paeonia と群区分記号(LD)が癒着しスペースが欠落。同様の記載が id:132158931 にもあり。
+156352874,タイム キャットタイム,整形・表記誤り(癒着/スペース/大小文字),Teucrium  marum,Teucrium marum（二重スペース除去）,低,キャットタイム=Teucrium marum で学名自体は正しい（Thymus ではない）。属名と種小名の間に二重スペース。
+156371046,トリフォリウム ルーベンス 'フロスティーフェザーズ',整形・表記誤り(癒着/スペース/大小文字),Trifolium rubens f.album 'Frosty Feathers',Trifolium rubens f. album 'Frosty Feathers'（f. と album の間にスペース）,低,品種階級表記 f.album にスペースがない。
+172612773,プリムラ ブルガリス ssp. シブソーピ,整形・表記誤り(癒着/スペース/大小文字),Primula vulgaris ssp.sibthorpii,Primula vulgaris ssp. sibthorpii,低,ssp. と亜種小名が癒着している（ssp.sibthorpii）。スペース挿入が必要。
+172613235,ヘメロカリス 'ハイペリオン',整形・表記誤り(癒着/スペース/大小文字),Hemerocallis'Hyperion',Hemerocallis 'Hyperion',低,属名と品種名が癒着している。スペース挿入が必要。
+190572975,ヘメロカリス 'ナイトビーコン',整形・表記誤り(癒着/スペース/大小文字),Hemerocallis'Night Beacon',Hemerocallis 'Night Beacon',低,属名と品種名が癒着している。スペース挿入が必要。
+132102585,ゲラニウム ピレネイカム 'ビルウォーリス',種小名欠落,Geranium 'Bill Wallis',Geranium pyrenaicum 'Bill Wallis'（商品名の『ピレネイカム』に合わせ種小名を補記）,低,商品名は種小名ピレネイカムを明示するが学名は属名+品種名のみ。'Bill Wallis' は G. pyrenaicum の系統。
+167776892,ミントブッシュ,種小名欠落,Prostanthera～,Prostanthera sp.（種小名を明記）,低,属名のみで種小名が「～」で省略。属レベルの記載にとどまる。

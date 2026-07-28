@@ -1,0 +1,2362 @@
+[
+ {
+  "id": "184389162",
+  "name": "ゲラニウム 'キャサリンアデル'",
+  "current": "Geranium''",
+  "category": "その他",
+  "suggestion": "Geranium 'Katherine Adele'（空欄の品種名を補う）",
+  "confidence": "高",
+  "evidence": "学名の品種名が空（Geranium'' ）。商品名『キャサリンアデル』に対応する 'Katherine Adele' が欠落。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "190727481",
+  "name": "キミキフーガ（アクタエア）ジャポニカ ‘シルバーダンス’",
+  "current": "(商品説明が完全に空)",
+  "category": "その他",
+  "suggestion": "商品説明・基本情報を作成。学名は Actaea japonica 'Silver Dance'（旧 Cimicifuga）",
+  "confidence": "高",
+  "evidence": "商品説明・簡易説明・スマホ用すべて空欄",
+  "_src": "deterministic"
+ },
+ {
+  "id": "132102679",
+  "name": "ゲラニウム ファエウム 'マーガレットウィルソン'",
+  "current": "Geranium phaeum 'Ｍargaret　Wilson'",
+  "category": "全角文字混入",
+  "suggestion": "Geranium phaeum 'Margaret Wilson'（全角Ｍ・全角スペースを半角へ）",
+  "confidence": "高",
+  "evidence": "先頭Ｍが全角、語間が全角スペース。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "132103298",
+  "name": "ゴニオリモン コリナム 'シースプレイ'",
+  "current": "Goniolimon collinum 'Ｓea Spray'",
+  "category": "全角文字混入",
+  "suggestion": "Goniolimon collinum 'Sea Spray'",
+  "confidence": "高",
+  "evidence": "品種名 'Ｓea Spray' の先頭 S が全角（Ｓ）。正しくは半角 'Sea Spray'。",
+  "_src": "findings_06.json"
+ },
+ {
+  "id": "132103641",
+  "name": "コレオプシス  'ファイヤーフライ'",
+  "current": "Coreopsis  'Firefｌy'",
+  "category": "全角文字混入",
+  "suggestion": "Coreopsis 'Firefly'",
+  "confidence": "高",
+  "evidence": "'Firefｌy' の l が全角（ｌ）。加えて属名と品種名の間が二重スペース。正しくは半角 'Firefly'。",
+  "_src": "findings_06.json"
+ },
+ {
+  "id": "132135711",
+  "name": "ペルシカリア アンプレクシカウリス 'ゴールデンアロー'",
+  "current": "Persicaria amplexicaulis 'Ｇolden Arrow'",
+  "category": "全角文字混入",
+  "suggestion": "Persicaria amplexicaulis 'Golden Arrow'（先頭Gが全角Ｇ）",
+  "confidence": "高",
+  "evidence": "品種名先頭が全角Ｇ",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "132135849",
+  "name": "ヘレニウム 'モーハイムビューティー'",
+  "current": "Helenium 'Ｍoerheim Ｂeauty'",
+  "category": "全角文字混入",
+  "suggestion": "Helenium 'Moerheim Beauty'",
+  "confidence": "高",
+  "evidence": "品種名の頭文字 Ｍ・Ｂ が全角英字になっている。半角の 'Moerheim Beauty' に修正すべき。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "132138181",
+  "name": "ダイアンサス デルトイデス 'アークティックファイヤー'",
+  "current": "Ｄianthus deltoides 'Arctic Fire'",
+  "category": "全角文字混入",
+  "suggestion": "Dianthus deltoides 'Arctic Fire'（先頭のＤを半角Dに）",
+  "confidence": "高",
+  "evidence": "属名の頭文字が全角のＤになっている。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "132139715",
+  "name": "ユーパトリウム コエレスティナム",
+  "current": "Eupatorium　 coelestinum",
+  "category": "全角文字混入",
+  "suggestion": "Eupatorium coelestinum（全角スペース＋余分な半角スペースを除去）",
+  "confidence": "高",
+  "evidence": "Eupatorium の直後に全角スペースと半角スペースが連続。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "132140125",
+  "name": "トロリウス 'チェダー'",
+  "current": "Trollius 'Ｃheddar'",
+  "category": "全角文字混入",
+  "suggestion": "Trollius 'Cheddar'（品種名頭のＣを半角Cに）",
+  "confidence": "高",
+  "evidence": "品種名の頭文字が全角のＣになっている。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "141499643",
+  "name": "ラベンダー 'エレガンスピンク'",
+  "current": "Lavandula angustifolia 'Ellagance　Pink'",
+  "category": "全角文字混入",
+  "suggestion": "Lavandula angustifolia 'Ellagance Pink'（Ellagance と Pink の間が全角スペース）",
+  "confidence": "高",
+  "evidence": "品種名内に全角スペースが混入。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "141500204",
+  "name": "リグラリア デンタータ 'ダークビューティ'",
+  "current": "Ligularia dentata 'Dark Ｂeauty'",
+  "category": "全角文字混入",
+  "suggestion": "Ligularia dentata 'Dark Beauty'（Ｂ が全角）",
+  "confidence": "高",
+  "evidence": "Beauty の頭文字 B が全角英字。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "157899887",
+  "name": "ルドベキア フルギダ 'リトルゴールドスター'",
+  "current": "Rudbeckia fulgida 'Ｌitｔle Goldstar'",
+  "category": "全角文字混入",
+  "suggestion": "Rudbeckia fulgida 'Little Goldstar'（Ｌ と ｔ が全角）",
+  "confidence": "高",
+  "evidence": "Little の L と2つ目の t が全角英字。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "158214262",
+  "name": "パニカム バーゲータム 'ダラスブルー'",
+  "current": "Panicum virgatum 'Dallas　Blue'",
+  "category": "全角文字混入",
+  "suggestion": "Panicum virgatum 'Dallas Blues'",
+  "confidence": "高",
+  "evidence": "'Dallas' と 'Blue' の間に全角スペース混入。正式品種名は 'Dallas Blues'。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "158316323",
+  "name": "モリニア カエルレア 'ムアヘックス'",
+  "current": "MolinIa caerulea　subsp. Caerulea 'Moorhex'",
+  "category": "全角文字混入",
+  "suggestion": "Molinia caerulea subsp. caerulea 'Moorhex'",
+  "confidence": "高",
+  "evidence": "属名が「MolinIa」と中間に大文字I。caerulea の後に全角スペース。亜種名 Caerulea が大文字始まり（小文字が正）。複数の表記誤り。",
+  "_src": "findings_14.json"
+ },
+ {
+  "id": "158411369",
+  "name": "スピレア ジャポニカ 'ゲンペイ'（ゲンペイシモツケ）",
+  "current": "Spiraea japonica 'Ｇｅｎｐｅｉ'",
+  "category": "全角文字混入",
+  "suggestion": "Spiraea japonica 'Genpei'",
+  "confidence": "高",
+  "evidence": "品種名が全角英字 'Ｇｅｎｐｅｉ'。半角 'Genpei' に修正。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "165052802",
+  "name": "ホスタ 'ホワイトクリスマス'",
+  "current": "Hosta'White Chｒistmas'",
+  "category": "全角文字混入",
+  "suggestion": "Hosta 'White Christmas'（全角ｒを半角に、属名との間にスペース）",
+  "confidence": "高",
+  "evidence": "Chｒistmas に全角ｒ混入、属名と癒着",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "167750675",
+  "name": "ヴァーバスカム ボンビシフェラム",
+  "current": "Verbascum　bombyciferum",
+  "category": "全角文字混入",
+  "suggestion": "Verbascum bombyciferum",
+  "confidence": "高",
+  "evidence": "属名と種小名の間の区切りが全角スペースになっている。半角スペースに修正。綴り自体は正しい。",
+  "_src": "findings_16.json"
+ },
+ {
+  "id": "167774685",
+  "name": "サルビア スクラレア'バチカン ピンク'（クラリーセージ）",
+  "current": "Salvia　sclarea　var.　turkestanica'Vatican　Pink'",
+  "category": "全角文字混入",
+  "suggestion": "Salvia sclarea var. turkestanica 'Vatican Pink'",
+  "confidence": "高",
+  "evidence": "学名内の単語間および品種名内の区切りが全角スペースになっている。加えて turkestanica と品種名が癒着。すべて半角スペースに修正が必要。",
+  "_src": "findings_06.json"
+ },
+ {
+  "id": "171529983",
+  "name": "フロックス パニキュラータ ‘ショックウェーブ’",
+  "current": "Phlox paniculata 'Shockｗave'",
+  "category": "全角文字混入",
+  "suggestion": "Phlox paniculata 'Shockwave'（全角ｗを半角wに）",
+  "confidence": "高",
+  "evidence": "品種名 'Shockｗave' の w が全角文字（ｗ）になっている。",
+  "_src": "findings_11.json"
+ },
+ {
+  "id": "172614224",
+  "name": "ポテンチラ ネペレンシス 'ロンマクベス'",
+  "current": "Potentilla nepalensis 'Ron Mｃbeath'",
+  "category": "全角文字混入",
+  "suggestion": "Potentilla nepalensis 'Ron McBeath'",
+  "confidence": "高",
+  "evidence": "品種名に全角小文字「ｃ」が混入。正しくは半角の 'Ron McBeath'（大文字B）。",
+  "_src": "findings_14.json"
+ },
+ {
+  "id": "172679890",
+  "name": "ヒューケラ 'スザンナ’",
+  "current": "Heuchera'Susanna'",
+  "category": "全角文字混入",
+  "suggestion": "Heuchera 'Susanna'",
+  "confidence": "高",
+  "evidence": "属名と品種名が癒着し半角スペース欠落。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "172915635",
+  "name": "ビオラ ソロリア ‘フレックルス’",
+  "current": "Viola　sororia'Freckles'",
+  "category": "全角文字混入",
+  "suggestion": "Viola sororia 'Freckles'",
+  "confidence": "高",
+  "evidence": "Viola と sororia の間に全角スペース、sororia と 'Freckles' が癒着し半角スペース欠落。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "176936626",
+  "name": "カルーナ ブルガリス 'レッドフェイバリット'",
+  "current": "Calluna vulgaris 'Red　Favorit'",
+  "category": "全角文字混入",
+  "suggestion": "'Red' と 'Favorit' の間に全角スペース混入。半角スペースに修正",
+  "confidence": "高",
+  "evidence": "'Red␣Favorit' に全角空白（U+3000）が含まれる",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "184389114",
+  "name": "エリゲロン ‘ピンクジュエル’（エリゲロン 'ロサジュエル’)",
+  "current": "Erigeron'Pink Jeｗel'('Rosa Juwel'）",
+  "category": "全角文字混入",
+  "suggestion": "Erigeron 'Pink Jewel' ('Rosa Juwel')",
+  "confidence": "高",
+  "evidence": "Jeｗel の w が全角（ｗ）、閉じ括弧も全角（）。加えて属名と品種名が癒着し半角スペースが欠落している。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "184389130",
+  "name": "ロサ 'アデレードフードレス'（バラ）",
+  "current": "Rosa'Adelaide Hoodless'",
+  "category": "全角文字混入",
+  "suggestion": "Rosa 'Adelaide Hoodless'",
+  "confidence": "高",
+  "evidence": "属名Rosaと品種名の間の半角スペースが欠落し癒着している。正しくは Rosa 'Adelaide Hoodless'（カナダ・パークランド系バラ）。",
+  "_src": "findings_16.json"
+ },
+ {
+  "id": "184389131",
+  "name": "ロサ 'サートーマス リプトン'（バラ）",
+  "current": "Rosa'Sir　Thomas　Lipton'",
+  "category": "全角文字混入",
+  "suggestion": "Rosa 'Sir Thomas Lipton'",
+  "confidence": "高",
+  "evidence": "属名と品種名が癒着（Rosa'Sir）し、さらに品種名内に全角スペースが2箇所混入。正しくは Rosa 'Sir Thomas Lipton'。",
+  "_src": "findings_16.json"
+ },
+ {
+  "id": "184389134",
+  "name": "ロニセラ 'ドロップモア スカーレット'（ハニーサックル）",
+  "current": "Lonicera ×　brownii 'Dropmore Scarlet'",
+  "category": "全角文字混入",
+  "suggestion": "Lonicera × brownii 'Dropmore Scarlet'",
+  "confidence": "高",
+  "evidence": "交配記号×と種小名browniiの間が全角スペースになっている。半角に統一すべき。学名自体は正しい。",
+  "_src": "findings_16.json"
+ },
+ {
+  "id": "184389154",
+  "name": "ユーパトリウム 'アイボリータワー'",
+  "current": "Eupatorium　fistulosum f.albidum'' Ivory Towers",
+  "category": "全角文字混入",
+  "suggestion": "Eupatorium fistulosum f. albidum 'Ivory Towers'（属名と種小名の間が全角スペース、品種名が学名フィールドから溢れている）",
+  "confidence": "高",
+  "evidence": "Eupatorium と fistulosum の間が全角スペース。データ行が途中で改行し品種名 Ivory Towers が別セルに分離している。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "190882705",
+  "name": "ヒューケラ ‘ブラックビューティー’",
+  "current": "Heuchera'Black Beauty'",
+  "category": "全角文字混入",
+  "suggestion": "Heuchera 'Black Beauty'",
+  "confidence": "高",
+  "evidence": "属名と品種名が癒着し半角スペース欠落。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "132097686",
+  "name": "エノテラ スペシオーサ 'ウッドサイドホワイト'",
+  "current": "Oenothera speciosa 'Woodside White'",
+  "category": "原産地誤り",
+  "suggestion": "原産地は北米（米国中南部〜メキシコ）",
+  "confidence": "高",
+  "evidence": "Oenothera speciosa は北米原産。記載の『ヨーロッパ、西アジア、北アフリカ』は誤り。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "132099254",
+  "name": "オレガノ ブルガレ 'オーレウム'（ゴールデンオレガノ）",
+  "current": "Origanum vulgare 'Aureum' / 原産地: 北米東部",
+  "category": "原産地誤り",
+  "suggestion": "原産地はヨーロッパ～地中海、西アジア。北米東部は誤り",
+  "confidence": "高",
+  "evidence": "Origanum vulgare はユーラシア～地中海原産。北米には自生しない",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "132100455",
+  "name": "カンパニュラ タケシマナ",
+  "current": "Campanula takesimana / 原産地: 北米東部および中央部",
+  "category": "原産地誤り",
+  "suggestion": "原産地は韓国（鬱陵島）。北米は誤り",
+  "confidence": "高",
+  "evidence": "Campanula takesimana は韓国鬱陵島(竹島=Takeshima)固有種",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "132100484",
+  "name": "カンパニュラ タケシマナ 'ビューティフルトラスト'",
+  "current": "Campanula takesimana 'Beautiful Trust' / 原産地: 北米東部および中央部",
+  "category": "原産地誤り",
+  "suggestion": "原種は韓国原産。北米は誤り",
+  "confidence": "高",
+  "evidence": "Campanula takesimana は韓国鬱陵島固有種",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "132100590",
+  "name": "カンパニュラ プンクタータ 'ウェディングベル'",
+  "current": "Campanula punctata 'Wedding Bells' / 原産地: 北米東部",
+  "category": "原産地誤り",
+  "suggestion": "原産地は東アジア（日本・中国・シベリア）。北米東部は誤り",
+  "confidence": "高",
+  "evidence": "Campanula punctata（ホタルブクロ）は東アジア原産",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "132100648",
+  "name": "カンパニュラ プンクタータ 'パンタルーン'",
+  "current": "Campanula punctata 'Pantaloons' / 原産地: 北米東部および中央部",
+  "category": "原産地誤り",
+  "suggestion": "原産地は東アジア。北米は誤り",
+  "confidence": "高",
+  "evidence": "Campanula punctata は東アジア原産",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "132101496",
+  "name": "ガリウム オドラタム（クルマバソウ）",
+  "current": "Galium odoratum / 原産地: 北米東部",
+  "category": "原産地誤り",
+  "suggestion": "ヨーロッパ〜西アジア（北アフリカ）。北米東部は誤り",
+  "confidence": "高",
+  "evidence": "Galium odoratum（クルマバソウ／スイートウッドラフ）はヨーロッパ〜ユーラシア原産。北米東部は不適当。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "132137315",
+  "name": "セダム カムチャティカム var. ‘バリエガータム’（エゾノキリンソウ斑入り）",
+  "current": "Sedum kamtschaticum var. kamtschaticum'Variegatum' / 原産地: Hemerocallis属はアジア原産。'Summer Wine'は…",
+  "category": "原産地誤り",
+  "suggestion": "原産地を東アジア（ロシア・中国・朝鮮・日本）に修正。学名は 'var. kamtschaticum 'Variegatum'' と半角スペースを補う。",
+  "confidence": "高",
+  "evidence": "原産地欄が Hemerocallis（ヘメロカリス）'Summer Wine' の説明文になっており、別品種からの転記誤り。加えて学名で kamtschaticum と 'Variegatum' が癒着（スペース欠落）。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "132138416",
+  "name": "ツタ アメリカヅタ 'バージニアクリーパー'",
+  "current": "Parthenocissus quinquefolia／原産地: ヨーロッパ、西アジア、北アフリカ",
+  "category": "原産地誤り",
+  "suggestion": "原産地は北米東部～中央部（アメリカヅタ Virginia creeper は北米原産）",
+  "confidence": "高",
+  "evidence": "P. quinquefolia は北米原産。同一学名の別行(184389145)は北米と正しく記載。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "132138546",
+  "name": "ティアレラ 'ラッカーリーフ'",
+  "current": "Tiarella 'Lacquer Leaf'／原産地: 南ヨーロッパ、中央アジア",
+  "category": "原産地誤り",
+  "suggestion": "原産地は北米（および東アジア）。Tiarella は北米原産",
+  "confidence": "高",
+  "evidence": "Tiarella（フォームフラワー）は北米・東アジア原産。同属他行(184389110等)は北米と記載。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "132139867",
+  "name": "トラディスカンティア 'ブルーアンドゴールド'",
+  "current": "Tradescantia (Andersoniana Group) 'Blue and Gold'／原産地: ヨーロッパ、西中央アジア",
+  "category": "原産地誤り",
+  "suggestion": "原産地は南北アメリカ（Tradescantia は新大陸原産）",
+  "confidence": "高",
+  "evidence": "Tradescantia は南北アメリカ原産。同属他行(155930522等)は北米と記載。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "132159041",
+  "name": "ヒューケラ 'グリーンスパイス'",
+  "current": "原産地: ヨーロッパ、西アジア",
+  "category": "原産地誤り",
+  "suggestion": "北米（属として）",
+  "confidence": "高",
+  "evidence": "Heuchera は北米原産。ヨーロッパ・西アジアは誤り。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "132159067",
+  "name": "ヒューケラ 'サターン'",
+  "current": "原産地: ザイール",
+  "category": "原産地誤り",
+  "suggestion": "北米（属として）",
+  "confidence": "高",
+  "evidence": "Heuchera は北米原産の園芸交配種。アフリカのザイールは明白な誤り。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "132159342",
+  "name": "ハコネクロア マクラ 'オレオラ'（フウチソウ 斑入り）",
+  "current": "原産地: 中央ヨーロッパ、東ヨーロッパ、コーカサス",
+  "category": "原産地誤り",
+  "suggestion": "日本",
+  "confidence": "高",
+  "evidence": "Hakonechloa macra は日本固有（本州の山地）。中央/東ヨーロッパ・コーカサスは誤り。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "141295924",
+  "name": "エーデルワイス",
+  "current": "Leontopodium alpinum",
+  "category": "原産地誤り",
+  "suggestion": "原産地はヨーロッパのアルプス〜山岳地帯",
+  "confidence": "高",
+  "evidence": "エーデルワイス（Leontopodium alpinum）はヨーロッパの高山原産。記載の『北米東部』は誤り。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "141302060",
+  "name": "カモミール ローマンカモミール ダブルフラワー",
+  "current": "Chamaemelum nobile 'Flore-Pleno' / 原産地: 北米東部",
+  "category": "原産地誤り",
+  "suggestion": "原産地は西ヨーロッパ・北アフリカ。北米東部は誤り",
+  "confidence": "高",
+  "evidence": "同種シングル品種(id141301815)の原産地も西ヨーロッパ・北アフリカと記載",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "141372346",
+  "name": "カンパニュラ プンクタータ 'チェリーベル'（ホタルブクロ）",
+  "current": "Campanula punctata 'Cherry Bells' / 原産地: 北米東部および中央部",
+  "category": "原産地誤り",
+  "suggestion": "原産地は東アジア。北米は誤り",
+  "confidence": "高",
+  "evidence": "Campanula punctata は東アジア原産",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "141427001",
+  "name": "フクシャ マジェラニカ",
+  "current": "原産地: ヨーロッパ",
+  "category": "原産地誤り",
+  "suggestion": "南米南部（チリ、アルゼンチン）",
+  "confidence": "高",
+  "evidence": "Fuchsia magellanica は南米南部（チリ・アルゼンチン）原産。ヨーロッパは誤り。同種の別行(id:141434270等)は南米と正しく記載。",
+  "_src": "findings_11.json"
+ },
+ {
+  "id": "141437900",
+  "name": "フロックス ディバリカータ 'モントローズトリカラー'",
+  "current": "原産地: ヨーロッパ",
+  "category": "原産地誤り",
+  "suggestion": "北米東部",
+  "confidence": "高",
+  "evidence": "Phlox divaricata は北米東部原産。ヨーロッパは誤り。",
+  "_src": "findings_11.json"
+ },
+ {
+  "id": "155446248",
+  "name": "カンパニュラ ポサスキャーナ 'アルペンブルー'",
+  "current": "Campanula poscharskyana 'Alpen Blue' / 原産地: 北米東部および中央部",
+  "category": "原産地誤り",
+  "suggestion": "原産地はディナルアルプス（バルカン半島）。北米は誤り",
+  "confidence": "高",
+  "evidence": "Campanula poscharskyana は旧ユーゴ・バルカン半島原産",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "155935295",
+  "name": "ヒューケラ サンギネア 'ファイヤーフライ'",
+  "current": "原産地: ヨーロッパ",
+  "category": "原産地誤り",
+  "suggestion": "北米南西部（アリゾナ〜メキシコ）",
+  "confidence": "高",
+  "evidence": "Heuchera sanguinea はアリゾナ・ニューメキシコ・メキシコ原産。ヨーロッパは誤り。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "157837155",
+  "name": "フロックス ディバリカータ 'プラムパーフェクト'",
+  "current": "原産地: ヨーロッパ",
+  "category": "原産地誤り",
+  "suggestion": "北米東部",
+  "confidence": "高",
+  "evidence": "Phlox divaricata は北米東部原産。ヨーロッパは誤り。同種の別行(id:157837234)は「北米東部」と正しく記載。",
+  "_src": "findings_11.json"
+ },
+ {
+  "id": "158415110",
+  "name": "フィソカルパス 'ディアボロ'（アメリカテマリシモツケ ディアボロ）",
+  "current": "原産地: 中央ヨーロッパ、東ヨーロッパ",
+  "category": "原産地誤り",
+  "suggestion": "北米（東部）",
+  "confidence": "高",
+  "evidence": "Physocarpus opulifolius（アメリカテマリシモツケ）は北米東部原産。中央・東ヨーロッパは誤り。同種の別行(id:167789838)は「北米東部」と正しく記載。",
+  "_src": "findings_11.json"
+ },
+ {
+  "id": "172899359",
+  "name": "フクシャ マジェラニカ ‘バリエガータ’（フクシャ マジェラニカ 斑入り）",
+  "current": "Fuchsia magellanica'Variegata'（原産地: 中央ヨーロッパ、東ヨーロッパ、南ヨーロッパ、コーカサス地方）",
+  "category": "原産地誤り",
+  "suggestion": "原産地を南米南部（チリ、アルゼンチン）に修正。学名は Fuchsia magellanica 'Variegata'（種小名と品種名の間にスペースを挿入）",
+  "confidence": "高",
+  "evidence": "Fuchsia magellanica は南米原産でヨーロッパ・コーカサスは誤り。加えて学名で種小名と品種名が癒着（magellanica'Variegata'）しスペースが欠落。",
+  "_src": "findings_11.json"
+ },
+ {
+  "id": "132132213",
+  "name": "ジーアム（ゲウム ）リヴァーレ 'アルバム'",
+  "current": "Geum rivale 'Alubum'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Geum rivale 'Album'",
+  "confidence": "高",
+  "evidence": "商品名アルバム=Album。'Alubum' は綴り誤り",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "132134064",
+  "name": "ペルシカリア アンプレクシカウリス 'ディッケフロスク'",
+  "current": "Persicaria amplexicaulis 'Dikke Flojkes'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Persicaria amplexicaulis 'Dikke Floskes'",
+  "confidence": "高",
+  "evidence": "RHS等で正しい綴りは 'Dikke Floskes'。商品名カタカナ（フロスク）とも一致",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "132137427",
+  "name": "セダム テレフィウム 'マンステッドダークレッド'",
+  "current": "Sedum telephium 'Munstad Dark Red'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Sedum telephium 'Munstead Dark Red'",
+  "confidence": "高",
+  "evidence": "品種名は 'Munstead Dark Red'（Munstead Wood 由来）。'Munstad' は綴り誤り。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "132140624",
+  "name": "バーベナ ハスタータ 'ピンクスピアーズ'（バーベインブルー）",
+  "current": "Verbena hastata 'Pink spears'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Verbena hastata f. rosea 'Pink Spires'",
+  "confidence": "高",
+  "evidence": "正式品種名は 'Pink Spires'（spires）。'spears' は綴り誤り。同バッチの 'Blue spires'/'White spires' と整合。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "132159864",
+  "name": "フロックス パニキュラータ 'ノーラレイ'",
+  "current": "Phlox paniculata 'Nolah Leigh'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Phlox paniculata 'Norah Leigh'（または 'Nora Leigh'）",
+  "confidence": "高",
+  "evidence": "斑入りフロックスの著名品種で正しい綴りは 'Norah Leigh'（Alan Bloom 命名）。カタカナ「ノーラレイ」とも一致。'Nolah Leigh' は綴り誤り。",
+  "_src": "findings_11.json"
+ },
+ {
+  "id": "141376856",
+  "name": "ジギタリス 'スノーシンブル'",
+  "current": "Digitalis purpurea 'Snow Timble'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Digitalis purpurea 'Snow Thimble'",
+  "confidence": "高",
+  "evidence": "商品名スノーシンブル=Thimble（指ぬき）。'Timble' は h 欠落の綴り誤り",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "141426664",
+  "name": "バプティシア×v.  ‘トワイライトプレーリーブルース’（ムラサキセンダイハギ）",
+  "current": "Baptisia　×variicolor 'Twilite Praribiues'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Baptisia ×variicolor 'Twilite' (Twilite Prairieblues)",
+  "confidence": "高",
+  "evidence": "正しい品種名は 'Twilite'（流通名 Twilite Prairieblues™、シカゴ植物園作出）。'Praribiues' は 'Prairieblues' の綴り崩れ。加えて属名と×の間に全角スペース混入。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "141438408",
+  "name": "ヘデラ 'ピンクアンドベリーカーリー'",
+  "current": "Hedera helix 'Ponk'n' Very Curly'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Hedera helix 'Pink 'n' Very Curly'",
+  "confidence": "高",
+  "evidence": "商品名『ピンク…』に対し 'Ponk' はスペルミス。正しくは 'Pink'。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "141438488",
+  "name": "ヘデラ 'スペッチリー'",
+  "current": "Hedera helix 'Supechurii'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Hedera helix 'Spetchley'",
+  "confidence": "高",
+  "evidence": "商品名スペッチリーに対応する登録品種は 'Spetchley'。'Supechurii' はカタカナのローマ字転写で正式な品種名ではない。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "141438940",
+  "name": "ペルシカリア アフィニス 'ボーダージュエル'",
+  "current": "Persicaria affinis 'Boder Jewel'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Persicaria affinis 'Border Jewel'",
+  "confidence": "高",
+  "evidence": "商品名「ボーダージュエル」に対し 'Boder' は 'Border' の綴り誤り",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "155421621",
+  "name": "アネモネ マルチフィダ（ムルチフィダ） 'ルブラ'",
+  "current": "Anemone multifida 'Rubur",
+  "category": "品種名綴り誤り",
+  "suggestion": "Anemone multifida 'Rubra'",
+  "confidence": "高",
+  "evidence": "'Rubur は 'Rubra' の綴り誤り（商品名『ルブラ』）。加えて閉じ引用符が欠落。",
+  "_src": "findings_02.json"
+ },
+ {
+  "id": "156264490",
+  "name": "エキノプス リトロ 'ベッチーズブルー'",
+  "current": "Echinops ritro 'Vetch's Blue'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Echinops ritro 'Veitch's Blue'",
+  "confidence": "高",
+  "evidence": "Veitch 苗圃に由来する著名品種で正しい綴りは 'Veitch's Blue'。'Vetch's' は i が欠落した誤り。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "167775035",
+  "name": "ジプソフィラ パニキュラータ 'ブリストル フェアリー'",
+  "current": "Gypsophila paniculata 'Bristol Fairly'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Gypsophila paniculata 'Bristol Fairy'",
+  "confidence": "高",
+  "evidence": "定番品種は 'Bristol Fairy'。商品名もフェアリー。'Fairly' は綴り誤り",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "172613816",
+  "name": "ホスタ 'ナイトビフォークリスマス'",
+  "current": "Hosta'Night before Christsmas'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Hosta 'Night Before Christmas'",
+  "confidence": "高",
+  "evidence": "Christsmas は Christmas の綴り誤り、属名と癒着、before は Before が通例",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "172646464",
+  "name": "カレックス フラジェリフェラ 'ブロンズフォーム'",
+  "current": "Carex flagellifera'bronzeform' / 開花期: 晩夏＝秋",
+  "category": "品種名綴り誤り",
+  "suggestion": "Carex flagellifera 'Bronze Form'。属名との癒着、品種名 bronzeform→Bronze Form（小文字・分綴なし）。開花期の '晩夏＝秋' は全角=混入で '晩夏～秋'",
+  "confidence": "高",
+  "evidence": "品種名の大文字化・分綴、属名との空白欠落、開花期に全角イコール誤り",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "179893582",
+  "name": "アスチルベ 'スポットライト'",
+  "current": "Astilbe chinensis'potlight",
+  "category": "品種名綴り誤り",
+  "suggestion": "Astilbe chinensis 'Spotlight'",
+  "confidence": "高",
+  "evidence": "品種名が「'potlight」と破損。商品名『スポットライト』=Spotlight。開き引用符欠落かつ種小名と品種名が癒着（chinensis'potlight）。正しくは 'Spotlight'。",
+  "_src": "findings_02.json"
+ },
+ {
+  "id": "184389117",
+  "name": "ヘリアンセマム 'ヘンフィールドブリリアント'",
+  "current": "Helianthemum 'Hemfield Brilliant'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Helianthemum 'Henfield Brilliant'",
+  "confidence": "高",
+  "evidence": "著名なヘリアンセマム品種は 'Henfield Brilliant'。商品名ヘンフィールドとも一致。'Hemfield' は綴り誤り。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "184389159",
+  "name": "アクテア（アクタエア）'シルバーダンス'",
+  "current": "Actaea japonica'Siver　Dance'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Actaea japonica 'Silver Dance'",
+  "confidence": "高",
+  "evidence": "品種名綴り誤り Siver→Silver（商品名は『シルバーダンス』）。加えて属名と品種名の癒着（japonica'Siver）、品種名内に全角スペース（Siver　Dance）混入。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "190572430",
+  "name": "クニフォフィア 'ビーズレモン'",
+  "current": "Kniphofia'Bees lemoon'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Kniphofia 'Bees' Lemon'（属名との間にスペース、Lemon の綴りと大文字化）",
+  "confidence": "高",
+  "evidence": "RHS登録名は 'Bees' Lemon'。'lemoon' は綴り誤りかつ属名と癒着。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "190572607",
+  "name": "スタキス マクランサ ‘モーニングブラッシュ’",
+  "current": "Stachys macrantha 'Morning Brush'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Stachys macrantha 'Morning Blush'",
+  "confidence": "高",
+  "evidence": "商品名カタカナ「モーニングブラッシュ」=Morning Blush。実在の品種は 'Morning Blush'。'Morning Brush' は綴り誤り。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "190882638",
+  "name": "ジーアム（ゲウム）リヴァーレ 'アルバム'",
+  "current": "Geum rivale 'Alubum'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Geum rivale 'Album'",
+  "confidence": "高",
+  "evidence": "商品名アルバム=Album。'Alubum' は綴り誤り（132132213と同一誤り）",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "141494720",
+  "name": "ペンステモン バルバタス 'ジングルベル'",
+  "current": "Penstemon barbatus 'Coccineus'",
+  "category": "商品名と学名の不一致",
+  "suggestion": "商品名(ジングルベル=Jingle Bells)と学名の品種名(Coccineus)が不一致。いずれかに統一",
+  "confidence": "高",
+  "evidence": "商品名は'ジングルベル'だが学名品種名は'Coccineus'",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "155422266",
+  "name": "アリウム トゥベロサム（チャイブ）",
+  "current": "Allium tuberosum",
+  "category": "商品名と学名の不一致",
+  "suggestion": "Allium tuberosum（ニラ／ガーリックチャイブ）— 括弧内『チャイブ』は誤り",
+  "confidence": "高",
+  "evidence": "Allium tuberosum はニラ（garlic chives）。一般名『チャイブ』は Allium schoenoprasum を指す別種。括弧内の共通名が誤り。学名綴りは正しい。",
+  "_src": "findings_02.json"
+ },
+ {
+  "id": "190882643",
+  "name": "セダム レフレクサム",
+  "current": "Sedum 'Vera Jameson'",
+  "category": "商品名と学名の不一致",
+  "suggestion": "Sedum reflexum（=Sedum rupestre）",
+  "confidence": "高",
+  "evidence": "商品名『レフレクサム』は Sedum reflexum を指すが、学名欄が別品種 'Vera Jameson'（id=132137203 と同一）になっており転記/クローン誤り。原産地『イギリス園芸品種』も Vera Jameson のもの。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "132132524",
+  "name": "シレネ ディオイカ 'バーレイハイ'",
+  "current": "Spiraea japonica 'Genpei'",
+  "category": "属の取り違え(クローン疑い)",
+  "suggestion": "Silene dioica '（正しい品種名）' — 商品名はシレネ ディオイカだが学名がスピラエア ジャポニカ 'ゲンペイ'（シモツケ）になっており、別属の貼付け誤り",
+  "confidence": "高",
+  "evidence": "商品名（Silene dioica）と学名（Spiraea japonica、バラ科ではなくバラ目シモツケ）が完全に別属。周辺のシレネ行と不整合",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "132096291",
+  "name": "エキノプス リトロ",
+  "current": "Echinops Ritro",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Echinops ritro",
+  "confidence": "高",
+  "evidence": "種小名は小文字始まりが原則。Ritro→ritro。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "132159175",
+  "name": "ビンカ ミノール 'アルバ'（ビンカ ミノール 白花）",
+  "current": "Vinca minor  'Alba'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Vinca minor 'Alba'（二重スペースを除去）",
+  "confidence": "高",
+  "evidence": "属名と品種名の間に半角スペースが2つ入っている。",
+  "_src": "findings_11.json"
+ },
+ {
+  "id": "141372531",
+  "name": "カンパニュラ ラクティフローラ",
+  "current": "Campanula Lactiflora",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "種小名は小文字。Campanula lactiflora",
+  "confidence": "高",
+  "evidence": "種小名を大文字始まりで記載（Lactiflora）",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "141377313",
+  "name": "スカビオサ 'ピンクッションピンク'",
+  "current": "Scabiosacolumbaria nana 'Pincushion Pink'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Scabiosa columbaria nana 'Pincushion Pink'（属名と種小名の癒着）",
+  "confidence": "高",
+  "evidence": "Scabiosa と columbaria が空白なく癒着している",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "157883252",
+  "name": "ポテンチラ ベルナ（ポテンチラ ヌーマニアナ）",
+  "current": "potentilla verna（potentilla neumanniana)",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Potentilla verna（Potentilla neumanniana）",
+  "confidence": "高",
+  "evidence": "属名が2箇所とも小文字始まり。属名は大文字始まりが必須。内容（verna=neumanniana の同義）は妥当。",
+  "_src": "findings_14.json"
+ },
+ {
+  "id": "167751582",
+  "name": "サリクトラム（タリクトラム）'エリン'",
+  "current": "Thalictrum'Elin'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Thalictrum 'Elin'",
+  "confidence": "高",
+  "evidence": "属名と品種名の間にスペースがなく癒着している（Thalictrum'Elin'）。",
+  "_src": "findings_06.json"
+ },
+ {
+  "id": "167775316",
+  "name": "ホスタ 'クリスマスページェント'",
+  "current": "Hosta'Christmas Pageant'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Hosta 'Christmas Pageant'（属名と品種名の間にスペース）",
+  "confidence": "高",
+  "evidence": "属名と品種名の癒着",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "167777629",
+  "name": "ユーパトリウム マクラツム'ゲートウェイ'",
+  "current": "Eupatorium maculatum'Gateway'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Eupatorium maculatum 'Gateway'（種小名と品種名が癒着、間に半角スペースが必要）",
+  "confidence": "高",
+  "evidence": "maculatum と 'Gateway' の間にスペースがなく癒着。参考: 現行分類は Eutrochium maculatum。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "172613516",
+  "name": "ベロニカ 'サニーボーダーブルー'",
+  "current": "Veronica'Sunny Border Blue'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Veronica 'Sunny Border Blue'（属名と品種名の間にスペース）",
+  "confidence": "高",
+  "evidence": "属名と品種名が癒着（Veronica'Sunny...）",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "172614209",
+  "name": "ポテンチラ 'アーカンシエル'",
+  "current": "Potentilla'Arc-en-Ciel'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Potentilla 'Arc-en-Ciel'",
+  "confidence": "高",
+  "evidence": "属名と品種名が空白なしで癒着している（Potentilla と 'Arc-en-Ciel' の間にスペースが必要）。",
+  "_src": "findings_14.json"
+ },
+ {
+  "id": "172617013",
+  "name": "リモニウム 'ブルーダイアモンド'",
+  "current": "Limonium'Blue Diamond'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Limonium 'Blue Diamond'（属名と品種名が癒着、間に半角スペースが必要）",
+  "confidence": "高",
+  "evidence": "Limonium と 'Blue Diamond' の間にスペースがなく癒着。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "172647331",
+  "name": "ゲラニウム 'オリオン'",
+  "current": "Geranium'Orion'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Geranium 'Orion'（属名と品種名の間に半角スペース）",
+  "confidence": "高",
+  "evidence": "属名と品種名が癒着（スペース欠落）。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "184389137",
+  "name": "ダイアンサス `ヒドゥコート'",
+  "current": "Dianthus'Hidcote'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Dianthus 'Hidcote'（属名と品種名の間にスペースを挿入）",
+  "confidence": "高",
+  "evidence": "属名と一重引用符付き品種名が空白なしで癒着している。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "190572228",
+  "name": "エキナセア ‘オレンジパッション’",
+  "current": "Echinacea'Orange passion'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Echinacea 'Orange Passion'",
+  "confidence": "高",
+  "evidence": "属名と品種名が癒着（Echinacea'Orange passion'）しており半角スペースが欠落。品種名の語頭も大文字が望ましい。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "190572308",
+  "name": "カレックス 'エバーゴールド'",
+  "current": "Carex'Evergold'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "属名と品種名が癒着（Carex'Evergold'）。Carex 'Evergold' とスペースを挿入",
+  "confidence": "高",
+  "evidence": "属名と引用符付き品種名の間の空白欠落",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "190572354",
+  "name": "クニフォフィア 'アイスクイーン'",
+  "current": "Kniphofia'Ice Queen'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Kniphofia 'Ice Queen'（属名と品種名の間に半角スペース）",
+  "confidence": "高",
+  "evidence": "属名と品種名が癒着（スペース欠落）。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "132138506",
+  "name": "ツルコケモモ",
+  "current": "Vaccinium",
+  "category": "種小名欠落",
+  "suggestion": "Vaccinium oxycoccos（ツルコケモモ）",
+  "confidence": "高",
+  "evidence": "属名のみで種小名が欠落。ツルコケモモは Vaccinium oxycoccos。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "132160063",
+  "name": "リシマキア キリアータ 'ファイヤークラッカー'",
+  "current": "Lysimachia 'Firecracker'",
+  "category": "種小名欠落",
+  "suggestion": "Lysimachia ciliata 'Firecracker'（商品名『キリアータ』＝ciliata が学名に欠落）",
+  "confidence": "高",
+  "evidence": "'Firecracker' は Lysimachia ciliata の品種。商品名にキリアータと明記があるのに学名で種小名が抜けている。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "172614525",
+  "name": "ミスカンサス シネンシス f.グラシリマス（イトススキ）",
+  "current": "miscanthus f. gracillimus",
+  "category": "種小名欠落",
+  "suggestion": "Miscanthus sinensis f. gracillimus（または 'Gracillimus'）",
+  "confidence": "高",
+  "evidence": "属名が小文字 miscanthus、かつ種小名 sinensis が欠落。商品名は「シネンシス」を含むため sinensis の脱落。",
+  "_src": "findings_14.json"
+ },
+ {
+  "id": "155927005",
+  "name": "スカビオサ コウカシカ 'コンプリメント'",
+  "current": "Scabiosa caucasia 'Compliment'",
+  "category": "種小名誤り",
+  "suggestion": "Scabiosa caucasica 'Compliment'",
+  "confidence": "高",
+  "evidence": "種小名は caucasica。商品名もコウカシカ。他行(141377502等)は caucasica と正記載。'caucasia' は綴り誤り",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "132095058",
+  "name": "アスター ラテリフローラス 'プリンス'",
+  "current": "Aster laterifolius 'Prince'",
+  "category": "綴り誤り",
+  "suggestion": "Aster lateriflorus 'Prince'（現分類は Symphyotrichum lateriflorum）",
+  "confidence": "高",
+  "evidence": "種小名の綴り誤り laterifolius→lateriflorus（side-flowering aster）。次行176の同種は正しく lateriflorus 表記。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "132095784",
+  "name": "アンドロポゴン スコパリウス 'ブレイズ'",
+  "current": "Andoropogon scoparius 'Blaze'",
+  "category": "綴り誤り",
+  "suggestion": "Andropogon scoparius 'Blaze'（現行分類名は Schizachyrium scoparium 'Blaze'）",
+  "confidence": "高",
+  "evidence": "属名の綴りが Andoropogon になっている。正しくは Andropogon。なお本種は現行分類では Schizachyrium scoparium に移されている。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "132095818",
+  "name": "アンドロポゴン スコパリウス 'プレーリーブルーズ'",
+  "current": "Andoropogon scoparius 'Prairie Blues'",
+  "category": "綴り誤り",
+  "suggestion": "Andropogon scoparius 'Prairie Blues'（現行分類名は Schizachyrium scoparium 'Prairie Blues'）",
+  "confidence": "高",
+  "evidence": "属名の綴りが Andoropogon。正しくは Andropogon。現行分類では Schizachyrium scoparium。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "132100965",
+  "name": "キミキフーガ シンプレックス 'ジェイムズコンプトン'",
+  "current": "Cimicifugaa simplex 'James Compton'",
+  "category": "綴り誤り",
+  "suggestion": "Cimicifuga simplex 'James Compton'（属名の a の重複を削除）",
+  "confidence": "高",
+  "evidence": "属名 Cimicifuga が 'Cimicifugaa' と末尾 a が重複。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "132103555",
+  "name": "コレオプシス グランディフローラ 'テキーラサンライズ'",
+  "current": "Coreopsis gurandiflora 'Tequila Sunrise'",
+  "category": "綴り誤り",
+  "suggestion": "Coreopsis grandiflora 'Tequila Sunrise'",
+  "confidence": "高",
+  "evidence": "種小名の綴り誤り。「gurandiflora」は誤りで正しくは grandiflora（同ページ他行では正しく grandiflora と表記）。",
+  "_src": "findings_06.json"
+ },
+ {
+  "id": "132130161",
+  "name": "サポナリア オフィシナリス 'アルバプレナ'（ソープワート）",
+  "current": "Saponalia officinalis 'Alba Plena'",
+  "category": "綴り誤り",
+  "suggestion": "Saponaria officinalis 'Alba Plena'",
+  "confidence": "高",
+  "evidence": "属名の綴り誤り。「Saponalia」は誤りで正しくは Saponaria（商品名サポナリアに一致）。",
+  "_src": "findings_06.json"
+ },
+ {
+  "id": "132130171",
+  "name": "サポナリア オフィシナリス 'ロゼアプレナ'（ソープワート）",
+  "current": "Saponalia officinalis 'Rosea Plena'",
+  "category": "綴り誤り",
+  "suggestion": "Saponaria officinalis 'Rosea Plena'",
+  "confidence": "高",
+  "evidence": "属名の綴り誤り。「Saponalia」→ Saponaria。前行と同一の誤り。",
+  "_src": "findings_06.json"
+ },
+ {
+  "id": "132135818",
+  "name": "ペルシカリア 'ポリモーファ'",
+  "current": "Perisicaria polymorpha",
+  "category": "綴り誤り",
+  "suggestion": "Persicaria polymorpha",
+  "confidence": "高",
+  "evidence": "属名 Perisicaria は Persicaria の綴り誤り",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "132138478",
+  "name": "ツタ ナツヅタ 'フェンウェイパーク'",
+  "current": "Parthenocis tricuspidata'Fenway Park'",
+  "category": "綴り誤り",
+  "suggestion": "Parthenocissus tricuspidata 'Fenway Park'（属名綴り訂正＋品種名の癒着解消）",
+  "confidence": "高",
+  "evidence": "属名が Parthenocis と誤綴（正: Parthenocissus）、かつ種小名と品種名が空白なしで癒着。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "132158960",
+  "name": "アイリス クリサータ（ヒメシャガ）",
+  "current": "Iris crisata",
+  "category": "綴り誤り",
+  "suggestion": "Iris cristata（ただし商品名の（ヒメシャガ）は別種 Iris gracilipes を指すため学名と通称が不一致）",
+  "confidence": "高",
+  "evidence": "crisata は cristata の綴り誤り（北米産ヒメアヤメ）。一方ヒメシャガはWeb確認でIris gracilipes A.Gray（日本固有種）。カタカナ『クリサータ』はcristataを示すが、通称ヒメシャガはgracilipesであり分類群が食い違う。原産地欄も空欄。要人手確認。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "132159331",
+  "name": "ハコネクロア マクラ（フウチソウ 緑葉）",
+  "current": "Hachonechloa macra",
+  "category": "綴り誤り",
+  "suggestion": "Hakonechloa macra",
+  "confidence": "高",
+  "evidence": "属名綴り誤り Hachonechloa→Hakonechloa。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "132159342",
+  "name": "ハコネクロア マクラ 'オレオラ'（フウチソウ 斑入り）",
+  "current": "Hachonechloa macra 'Aureola'",
+  "category": "綴り誤り",
+  "suggestion": "Hakonechloa macra 'Aureola'",
+  "confidence": "高",
+  "evidence": "属名綴り誤り Hachonechloa→Hakonechloa。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "132160115",
+  "name": "ハコネクロア マクラ（ベニフウチソウ）",
+  "current": "Hachonechloa macra",
+  "category": "綴り誤り",
+  "suggestion": "Hakonechloa macra",
+  "confidence": "高",
+  "evidence": "属名綴り誤り Hachonechloa→Hakonechloa。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "141207691",
+  "name": "アスチルベ アレンジー 'グランデ'",
+  "current": "Astilbe × ardensii 'Grande'",
+  "category": "綴り誤り",
+  "suggestion": "Astilbe × arendsii 'Grande'",
+  "confidence": "高",
+  "evidence": "種小名 ardensii は arendsii（アーレンジー、Georg Arends に由来）の綴り誤り。商品名『アレンジー』とも整合しない。",
+  "_src": "findings_02.json"
+ },
+ {
+  "id": "141207899",
+  "name": "アスチルベ アレンジー 'ショースター'",
+  "current": "Astilbe × ardensii 'Showstar'",
+  "category": "綴り誤り",
+  "suggestion": "Astilbe × arendsii 'Showstar'",
+  "confidence": "高",
+  "evidence": "ardensii → arendsii の綴り誤り。行8と同一の誤り。",
+  "_src": "findings_02.json"
+ },
+ {
+  "id": "141208108",
+  "name": "アスチルベ チネンシス 'マイティジョー'",
+  "current": "Astilbe aredsii 'Mighty Joe'",
+  "category": "綴り誤り",
+  "suggestion": "Astilbe chinensis 'Mighty Joe'",
+  "confidence": "高",
+  "evidence": "aredsii は誤綴り。商品名『チネンシス』と不一致。Mighty シリーズは Astilbe chinensis 系統。行12と同一パターン。",
+  "_src": "findings_02.json"
+ },
+ {
+  "id": "141208152",
+  "name": "アスチルベ チネンシス 'マイティピップ'",
+  "current": "Astilbe aredsii 'Mighty Pip'",
+  "category": "綴り誤り",
+  "suggestion": "Astilbe chinensis 'Mighty Pip'",
+  "confidence": "高",
+  "evidence": "aredsii は arendsii の綴り誤り。さらに商品名『チネンシス』と学名が不一致。Mighty シリーズ（Hans van der Meer 作出）は Astilbe chinensis の背高交配種として流通（PlantDelights等）。商品名に合わせ chinensis を推奨。",
+  "_src": "findings_02.json"
+ },
+ {
+  "id": "141211510",
+  "name": "アルテミシア シュミッディアーナ 'ナナ'",
+  "current": "Artemisia schmidiana 'Nana'",
+  "category": "綴り誤り",
+  "suggestion": "Artemisia schmidtiana 'Nana'",
+  "confidence": "高",
+  "evidence": "schmidiana は schmidtiana（Silver Mound、日本原産）の綴り誤り（t 脱落）。原産地『日本』は妥当。",
+  "_src": "findings_02.json"
+ },
+ {
+  "id": "141303146",
+  "name": "カリオプテリス 'ダークナイト'（カリガネソウ）",
+  "current": "Caryopteris cladonensis 'Darknight'",
+  "category": "綴り誤り",
+  "suggestion": "Caryopteris × clandonensis 'Dark Knight'。種小名 cladonensis→clandonensis、交配記号×欠落、品種名 Darknight→Dark Knight",
+  "confidence": "高",
+  "evidence": "交配種名は Caryopteris × clandonensis が正。品種名は 'Dark Knight'",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "141372208",
+  "name": "カンパニュラ ポルテンスクラジアーナ 'ブルーマジック'",
+  "current": "Canpanula portensclagiana 'Blue Magic'",
+  "category": "綴り誤り",
+  "suggestion": "Campanula portenschlagiana 'Blue Magic'。属名 Canpanula→Campanula、種小名 portensclagiana→portenschlagiana",
+  "confidence": "高",
+  "evidence": "属名綴り誤り、種小名は portenschlagiana が正",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "141426419",
+  "name": "ネペタ 'シックスヒルズジャイアント'",
+  "current": "Npeta 'Six Hills Giant'",
+  "category": "綴り誤り",
+  "suggestion": "Nepeta 'Six Hills Giant'（Npeta→Nepeta）",
+  "confidence": "高",
+  "evidence": "属名が Npeta と誤綴。正: Nepeta。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "155445848",
+  "name": "カンパニュラ プンクタータ 'プラムワイン'",
+  "current": "Canpanula .punctata 'Plum Wine'",
+  "category": "綴り誤り",
+  "suggestion": "Campanula punctata 'Plum Wine'。属名 Canpanula→Campanula、種小名前の余分な '.' を削除",
+  "confidence": "高",
+  "evidence": "属名綴り誤り（n→m）および '.punctata' の不正なピリオド",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "155450448",
+  "name": "ゲラニウム ウォリチエーナム 'クリスタルレイク'",
+  "current": "Geranium  wallichiamum 'Crystal Lake'",
+  "category": "綴り誤り",
+  "suggestion": "Geranium wallichianum 'Crystal Lake'（wallichianum に修正、二重スペース解消）",
+  "confidence": "高",
+  "evidence": "種小名 'wallichiamum' は誤り（正は wallichianum）。加えて属名後に二重スペース。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "155927281",
+  "name": "タイム シトゥリオドラス 'オレウス'（ゴールデンタイム）",
+  "current": "Tymus citriodorus 'Aureus'",
+  "category": "綴り誤り",
+  "suggestion": "Thymus × citriodorus 'Aureus'",
+  "confidence": "高",
+  "evidence": "属名 'Tymus' は 'Thymus' の綴り誤り（h欠落）。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "155933835",
+  "name": "ビオラ ソロリア 'ダークフレックルス'",
+  "current": "Viola soloria 'Dark Freckles'",
+  "category": "綴り誤り",
+  "suggestion": "Viola sororia 'Dark Freckles'",
+  "confidence": "高",
+  "evidence": "種小名は sororia が正。soloria は綴り誤り（同バッチ172915635では sororia 表記）。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "157900162",
+  "name": "ロニセラ ヘックロッティ（ハニーサックル）",
+  "current": "Lonicera x heckrotti",
+  "category": "綴り誤り",
+  "suggestion": "Lonicera × heckrottii",
+  "confidence": "高",
+  "evidence": "種小名は Heckrott への献名で語尾-iiが正しい。Missouri Botanical Garden等でも heckrottii（ii）が標準。記載は末尾のiが1文字不足。",
+  "_src": "findings_16.json"
+ },
+ {
+  "id": "158315514",
+  "name": "ペニセタム アロペキュロイデス ビリデセンス",
+  "current": "Pennisetum alopecuroides f. viridesens",
+  "category": "綴り誤り",
+  "suggestion": "Pennisetum alopecuroides f. viridescens",
+  "confidence": "高",
+  "evidence": "forma小名 viridesens は viridescens の綴り誤り（c 欠落）",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "172612829",
+  "name": "プリムラ ジャポニカ 'アップルブロッサム'（クリンソウ）",
+  "current": "Primura japonica'Appleblossom'",
+  "category": "綴り誤り",
+  "suggestion": "Primula japonica 'Appleblossom'",
+  "confidence": "高",
+  "evidence": "属名が『Primura』となっているが正しくは『Primula』。加えて属名と品種名が癒着している（japonica'Appleblossom'）。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "176955455",
+  "name": "エリカ カルネア ‘スノークィーン’",
+  "current": "Erica canea 'Snow Queen'",
+  "category": "綴り誤り",
+  "suggestion": "Erica carnea 'Snow Queen'",
+  "confidence": "高",
+  "evidence": "種小名は carnea。記載の canea は r が欠落。商品名『カルネア』とも一致する。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "184389126",
+  "name": "コルヌス アルバ 'エレガンティシマ'（ギンフミズキ）",
+  "current": "Colnus alba 'Elegantissima'",
+  "category": "綴り誤り",
+  "suggestion": "Cornus alba 'Elegantissima'",
+  "confidence": "高",
+  "evidence": "属名の誤記。「Colnus」という属は存在せず、商品名（コルヌス）および同一群の他行と同じく正しくは Cornus。",
+  "_src": "findings_06.json"
+ },
+ {
+  "id": "190571077",
+  "name": "アスター タータリカス",
+  "current": "Aster tartaricus",
+  "category": "綴り誤り",
+  "suggestion": "Aster tataricus",
+  "confidence": "高",
+  "evidence": "種小名の綴り誤り tartaricus→tataricus（余分な r）。シオン。ユーラシア産で属はAsterのまま。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "190580998",
+  "name": "ハコネクロア ‘オールゴールド’（オオゴンフウチソウ）",
+  "current": "Hachonechloa macra'All Gold'",
+  "category": "綴り誤り",
+  "suggestion": "Hakonechloa macra 'All Gold'",
+  "confidence": "高",
+  "evidence": "属名は Hakonechloa（箱根に由来）が正。Hachonechloa は綴り誤り。加えて macra と 'All Gold' が癒着し半角スペース欠落。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "190882677",
+  "name": "ペンステモン ハシュータス var. ピグマエウス f. アルバス",
+  "current": "Penstemon hirsutus var. pigmaeus f. Albus",
+  "category": "綴り誤り",
+  "suggestion": "Penstemon hirsutus var. pygmaeus f. albus",
+  "confidence": "高",
+  "evidence": "pigmaeus は pygmaeus の綴り誤り（別行132136761では pygmaeus）。forma小名 albus は小文字が正",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "132099774",
+  "name": "カレックス 'バーグレニーアイ'",
+  "current": "Carex talbotii Kottaim.",
+  "category": "その他",
+  "suggestion": "命名者表記 'Kottaim.' は不正（OCR等の誤り）。正しくは Carex talbotii（旧 Carex berggrenii Petrie の置換名）。商品名バーグレニーアイ=berggrenii と対応",
+  "confidence": "中",
+  "evidence": "Carex talbotii の命名者は Kottaim. ではない。種自体はバーグレニー(berggrenii=talbotii)で整合",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "190882681",
+  "name": "カーリメリス インシサ 'バリエガータ'",
+  "current": "商品名がセル内改行で分断（『カーリメリス インシサ』と『‘バリエガータ’ Kalimeris incisa 'Variegata'』が別行）",
+  "category": "その他",
+  "suggestion": "1行に統合し『カーリメリス インシサ ‘バリエガータ’ / Kalimeris incisa 'Variegata'』とする",
+  "confidence": "中",
+  "evidence": "TSVの1レコードが2行に割れており、id行に学名が無く次行に学名が入る破損状態。学名自体は正しい。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "132138150",
+  "name": "ダイアンサス sp.  ‘ライオンロック’",
+  "current": "Dianthus sp.　'Lion Rock'",
+  "category": "全角文字混入",
+  "suggestion": "Dianthus sp. 'Lion Rock'（商品名の二重スペース・学名の全角スペースを半角に）",
+  "confidence": "中",
+  "evidence": "商品名に二重スペース、学名の sp. と品種名の間に全角スペースが混入。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "141207284",
+  "name": "アスター エリコイデス 'ハピーブルーミング'",
+  "current": "Aster (symphyotrichum) ericoides 'Happy　blooming'",
+  "category": "全角文字混入",
+  "suggestion": "Aster ericoides 'Happy Blooming'（現分類は Symphyotrichum ericoides）",
+  "confidence": "中",
+  "evidence": "品種名内に全角スペース（Happy　blooming）混入、品種名2語目が小文字（blooming→Blooming）。括弧内の属名 symphyotrichum も本来大文字始まり Symphyotrichum。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "157883082",
+  "name": "ホスタ 'ダイアナリメンバード セレクト'",
+  "current": "Hosta 'Diana Remembered　Select'",
+  "category": "全角文字混入",
+  "suggestion": "Hosta 'Diana Remembered Select'（全角スペースを半角に）",
+  "confidence": "中",
+  "evidence": "Remembered と Select の間に全角スペース",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "167775009",
+  "name": "ジーアム（ゲウム）'フレームオブパッッション'",
+  "current": "Geum'Flame　of　Passion'",
+  "category": "全角文字混入",
+  "suggestion": "Geum 'Flame of Passion'",
+  "confidence": "中",
+  "evidence": "属名と引用符が癒着、品種名内に全角スペース混入。商品名側もパッッションと促音重複",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "167775042",
+  "name": "セダム‘マトロナ’",
+  "current": "Sedum'Matrona'",
+  "category": "全角文字混入",
+  "suggestion": "Sedum 'Matrona'",
+  "confidence": "中",
+  "evidence": "属名と品種名が癒着（Sedum と 'Matrona' の間のスペース欠落）。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "167775159",
+  "name": "ヘリアンサス 'ハピーデイズ'（ヤナギバヒマワリ）",
+  "current": "Helianthus'Happy　Days'",
+  "category": "全角文字混入",
+  "suggestion": "Helianthus 'Happy Days'",
+  "confidence": "中",
+  "evidence": "Happy と Days の間が全角スペースになっている。加えて属名と品種名が癒着（Helianthus'）。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "172615506",
+  "name": "ミント バナナミント",
+  "current": "Mentha　arvensis　'Banana'",
+  "category": "全角文字混入",
+  "suggestion": "Mentha arvensis 'Banana'",
+  "confidence": "中",
+  "evidence": "単語間に全角スペースが混入（Mentha␣arvensis␣'Banana'）。半角スペースに要修正。",
+  "_src": "findings_14.json"
+ },
+ {
+  "id": "182596998",
+  "name": "ジーアム（ゲウム） 'トータリータンジェリン'",
+  "current": "Geum'Totally　Tangerine'",
+  "category": "全角文字混入",
+  "suggestion": "Geum 'Totally Tangerine'",
+  "confidence": "中",
+  "evidence": "属名と引用符が癒着（Geum'）、かつ Totally と Tangerine の間に全角スペース混入",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "190579420",
+  "name": "アスター 'ブリリアントパープル'",
+  "current": "Aster'Brilliant　Purple'",
+  "category": "全角文字混入",
+  "suggestion": "Aster 'Brilliant Purple'",
+  "confidence": "中",
+  "evidence": "属名と品種名の癒着（Aster'Brilliant）、品種名内に全角スペース（Brilliant　Purple）混入。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "132094429",
+  "name": "アスター デュモーサス 'ウッズピンク'",
+  "current": "Aster dumosus 'Wood's Pink'",
+  "category": "分類変更(参考)",
+  "suggestion": "Symphyotrichum dumosum（旧名可）",
+  "confidence": "中",
+  "evidence": "北米産で現分類は Symphyotrichum dumosum。dumosus系の同属他行（179490796,167747700,132094492）も同様。旧名は慣用可。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "132094474",
+  "name": "アスター マクロファイラス 'タイニートーイ'",
+  "current": "Aster　macrophyllus 'Tiny Toy'",
+  "category": "分類変更(参考)",
+  "suggestion": "Eurybia macrophylla 'Tiny Toy'（旧名可）",
+  "confidence": "中",
+  "evidence": "北米産で現分類は Eurybia macrophylla。旧名は慣用可。なお学名内の Aster と macrophyllus の間が全角スペースになっている点は整形要修正。132094479も同種。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "132094556",
+  "name": "アスター ノビベルギ 'ロイヤルルビー'",
+  "current": "Aster novi-belgii 'Royal Ruby'",
+  "category": "分類変更(参考)",
+  "suggestion": "Symphyotrichum novi-belgii（旧名可）",
+  "confidence": "中",
+  "evidence": "北米産で現分類は Symphyotrichum。同種の132094464は既にSymphyotrichum表記で表記ゆれあり（132094504も同種）。旧名は慣用可。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "132094594",
+  "name": "アスター タービネルス",
+  "current": "Aster turbinellus",
+  "category": "分類変更(参考)",
+  "suggestion": "Symphyotrichum turbinellum（旧名可）",
+  "confidence": "中",
+  "evidence": "北米産で現分類は Symphyotrichum。原産地欄は空欄（北米中央部）。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "132094607",
+  "name": "アスター ディバリケータス",
+  "current": "Aster divaricatus",
+  "category": "分類変更(参考)",
+  "suggestion": "Eurybia divaricata（旧名可）",
+  "confidence": "中",
+  "evidence": "北米産のシラヤマギク近縁は現分類で Eurybia 属。旧名は慣用可。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "132138260",
+  "name": "ポリゴナム ビストータ 'スーパーバム'（イブキトラノオ）",
+  "current": "Polygonum bistorta 'Superbum'",
+  "category": "分類変更(参考)",
+  "suggestion": "Bistorta officinalis 'Superba'（=Persicaria bistorta 'Superba'）",
+  "confidence": "中",
+  "evidence": "Polygonum bistorta は現在 Bistorta officinalis（または Persicaria bistorta）に分割。品種名も一般に 'Superba'。旧属名は流通上許容のため参考。",
+  "_src": "findings_14.json"
+ },
+ {
+  "id": "132139689",
+  "name": "デスカンプシア フレクシオーサ",
+  "current": "Deschampsia flexuosa (L.) Trin.",
+  "category": "分類変更(参考)",
+  "suggestion": "現代分類では Avenella flexuosa に移されている（参考）",
+  "confidence": "中",
+  "evidence": "近年の分類で Deschampsia flexuosa は Avenella flexuosa とされる。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "132139715",
+  "name": "ユーパトリウム コエレスティナム",
+  "current": "Eupatorium coelestinum",
+  "category": "分類変更(参考)",
+  "suggestion": "現行分類では Conoclinium coelestinum（アオバナフジバカマ）",
+  "confidence": "中",
+  "evidence": "coelestinum は Conoclinium 属に移動。旧名 Eupatorium coelestinum は流通名として残存。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "132164261",
+  "name": "ガウラ 'サマーエモーション'（ハクチョウソウ）",
+  "current": "Gaura lindheimeri（属全般）",
+  "category": "分類変更(参考)",
+  "suggestion": "現行分類では Oenothera lindheimeri。本バッチの全ガウラ（132164261/156265619/132099362/132099340/132099448/132099504）に共通",
+  "confidence": "中",
+  "evidence": "Gaura lindheimeri は APG/現行分類で Oenothera lindheimeri に統合。園芸流通名としては Gaura が広く残る（参考情報）。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "141207219",
+  "name": "アスター コーディフォリウス 'アイデアル'",
+  "current": "Aster cordifolius 'Ideal'",
+  "category": "分類変更(参考)",
+  "suggestion": "Symphyotrichum cordifolium 'Ideal'（旧名可）",
+  "confidence": "中",
+  "evidence": "北米産で現分類は Symphyotrichum。旧名は慣用として許容。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "141426718",
+  "name": "クリサンセマム ニポニカム（ハマギク）",
+  "current": "Chrysanthemum nipponicum Matsumura",
+  "category": "分類変更(参考)",
+  "suggestion": "現行分類では Nipponanthemum nipponicum。流通名として Chrysanthemum も残存（参考）",
+  "confidence": "中",
+  "evidence": "ハマギクは単型属 Nipponanthemum に分離され Nipponanthemum nipponicum が現行学名。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "141496106",
+  "name": "ポテンチラ トライデンタータ",
+  "current": "Potentilla tridentata",
+  "category": "分類変更(参考)",
+  "suggestion": "Sibbaldiopsis tridentata（=Sibbaldia tridentata）",
+  "confidence": "中",
+  "evidence": "現代分類では Potentilla tridentata は Sibbaldiopsis tridentata に移されている。園芸流通名としては旧名も許容されるため参考。",
+  "_src": "findings_14.json"
+ },
+ {
+  "id": "155420492",
+  "name": "アスター アンベラータス",
+  "current": "Aster umbellatus",
+  "category": "分類変更(参考)",
+  "suggestion": "Doellingeria umbellata（旧名 Aster umbellatus。ナーサリー慣用として旧名可）",
+  "confidence": "中",
+  "evidence": "現代分類で北米産のこの種は Doellingeria 属へ移行。誤りではなくシノニム。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "155930244",
+  "name": "トバラ 'コンプトンズフォーム'",
+  "current": "Tovara 'Compton's Form'",
+  "category": "分類変更(参考)",
+  "suggestion": "現代分類では Persicaria virginiana（旧 Tovara virginiana）（参考）",
+  "confidence": "中",
+  "evidence": "Tovara は Persicaria に統合されている。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "158507796",
+  "name": "アスター ノバエアングリアエ 'バイブラントドーム'",
+  "current": "Aster novae-angliae 'Vibrant Dome'",
+  "category": "分類変更(参考)",
+  "suggestion": "Symphyotrichum novae-angliae（旧名可）",
+  "confidence": "中",
+  "evidence": "北米産で現分類は Symphyotrichum。novae-angliae系の同属他行（132094625,132094780,132094857）も同様。旧名は慣用可。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "172631848",
+  "name": "カラスバ  ヒメリュウキンカ (ラナンキュラス 'ブレーゼンハシー')",
+  "current": "Ranunculus ficaria 'Brazen Hussy'",
+  "category": "分類変更(参考)",
+  "suggestion": "現行分類では Ficaria verna 'Brazen Hussy'。また商品名に二重スペース混入（カラスバ␣␣ヒメリュウキンカ）",
+  "confidence": "中",
+  "evidence": "Ranunculus ficaria は Ficaria verna にシノニム化。二重スペースあり",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "184389154",
+  "name": "ユーパトリウム 'アイボリータワー'",
+  "current": "Eupatorium fistulosum f. albidum",
+  "category": "分類変更(参考)",
+  "suggestion": "現行分類では Eutrochium fistulosum f. albidum",
+  "confidence": "中",
+  "evidence": "Eupatorium 節（背高のフジバカマ類）は Eutrochium に分離。園芸流通では旧名も併用。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "190579677",
+  "name": "アンシニア（ウンシニア） ルブラ",
+  "current": "Uncinia rubra",
+  "category": "分類変更(参考)",
+  "suggestion": "Carex（現分類）— 例: Carex punicea / 流通名 Carex uncinata 'Rubra'（Uncinia rubra はシノニム）",
+  "confidence": "中",
+  "evidence": "Global Carex Group により Uncinia 属は Carex に統合。Uncinia rubra は Kew POWO で Carex punicea の基礎異名。園芸流通では Uncinia rubra が慣用のため誤りではないが、現行学名は Carex。参考情報。",
+  "_src": "findings_02.json"
+ },
+ {
+  "id": "132098645",
+  "name": "エリゲロン カルバンスキャナス 'プロフュージョン'（ゲンペイコギク）",
+  "current": "Erigeron karvinskianus 'Profusion'",
+  "category": "原産地誤り",
+  "suggestion": "原産地はメキシコ〜中米",
+  "confidence": "中",
+  "evidence": "Erigeron karvinskianus はメキシコ〜中米原産。記載の『北米東部』は地域が誤り。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "132131001",
+  "name": "ジーアム（ゲウム）チロエンセ 'ミセスブラッドショウ'",
+  "current": "原産地: アジア、中央ヨーロッパ",
+  "category": "原産地誤り",
+  "suggestion": "南米チリ（アンデス）",
+  "confidence": "中",
+  "evidence": "Geum chiloense（=G. quellyon）はチリ原産。同種の別品種行(155903828)ではチリと正記載",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "132134266",
+  "name": "ペルシカリア ミクロセファラ 'レッドドラゴン'",
+  "current": "中央ヨーロッパ、東ヨーロッパ",
+  "category": "原産地誤り",
+  "suggestion": "ヒマラヤ、中国（同種の別レコードと同様）",
+  "confidence": "中",
+  "evidence": "Persicaria microcephala はヒマラヤ〜中国原産。同属同種の別行(132133987)は「ヒマラヤ、中国」",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "132138076",
+  "name": "ソリダゴ 'ゴールドスパングルス'",
+  "current": "Solidago flexicaulis 'Gold Spangles' / 原産地: ヒマラヤ、西アジア",
+  "category": "原産地誤り",
+  "suggestion": "原産地を北米（東部）に修正",
+  "confidence": "中",
+  "evidence": "Solidago flexicaulis は北米原産。原産地『ヒマラヤ、西アジア』は誤り。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "132140355",
+  "name": "ネペタ ムッシーニアイ",
+  "current": "Nepeta mussinii／原産地: 地中海沿岸、南ヨーロッパ、北アフリカ",
+  "category": "原産地誤り",
+  "suggestion": "原産地はコーカサス～イラン北部（Nepeta mussinii = N. racemosa）",
+  "confidence": "中",
+  "evidence": "N. mussinii はコーカサス・イラン原産。同種品種行(190882625)はコーカサス、イラン北部と記載。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "141426782",
+  "name": "ビオラ ラブラドリカ",
+  "current": "原産地: 西南テキサス、チワワ砂漠、北メキシコ",
+  "category": "原産地誤り",
+  "suggestion": "北方北米・グリーンランド（北方系）",
+  "confidence": "中",
+  "evidence": "Viola labradorica は北方系（ラブラドル、グリーンランド、北米北部・欧州）。テキサス南西部/チワワ砂漠/北メキシコは誤り。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "155445051",
+  "name": "オレガノ ブルガレ 'ジムベスト'",
+  "current": "Origanum vulgare 'Jim Best' / 原産地: 米国中南部（オハイオ～ジョージア）",
+  "category": "原産地誤り",
+  "suggestion": "原種 O. vulgare はユーラシア～地中海原産。米国中南部の記載は誤り",
+  "confidence": "中",
+  "evidence": "Origanum vulgare は北米原産ではない",
+  "_src": "findings_04.json"
+ },
+ {
+  "id": "155925783",
+  "name": "シレネ ユニフローラ 'ロゼア'",
+  "current": "原産地: 東アジア",
+  "category": "原産地誤り",
+  "suggestion": "ヨーロッパ（西・北欧の海岸）",
+  "confidence": "中",
+  "evidence": "Silene uniflora（シーキャンピオン）はヨーロッパ海岸原産。東アジアは誤り",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "166128570",
+  "name": "ジプソフィラ レペンス 'ホワイト'",
+  "current": "原産地: 東アジア",
+  "category": "原産地誤り",
+  "suggestion": "ヨーロッパの山地（アルプス、ピレネー等）",
+  "confidence": "中",
+  "evidence": "Gypsophila repens は欧州山岳原産。東アジアは誤り",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "184389103",
+  "name": "スピレア（オウゴンバシモツケ）",
+  "current": "Spiraea japonica 'Goldflame' / 原産地: 米国中央部から南東部",
+  "category": "原産地誤り",
+  "suggestion": "原産地を日本・中国・朝鮮半島（東アジア）に修正",
+  "confidence": "中",
+  "evidence": "Spiraea japonica は東アジア原産。原産地の『米国中央部から南東部』は誤り。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "190882608",
+  "name": "ジプソフィラ レペンス 'ホワイト'",
+  "current": "原産地: 東アジア",
+  "category": "原産地誤り",
+  "suggestion": "ヨーロッパの山地",
+  "confidence": "中",
+  "evidence": "Gypsophila repens は欧州山岳原産。東アジアは誤り",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "132094492",
+  "name": "アスター ドゥモーサス 'ハーブストグラス フォン ブレッサーホフ'",
+  "current": "Aster dumosus 'Herbustgruss v. Bresserhof'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Aster dumosus 'Herbstgruß von Bresserhof'（現分類は Symphyotrichum dumosum）",
+  "confidence": "中",
+  "evidence": "独語品種名の綴り誤り Herbust→Herbst（秋の意 Herbstgruß）。v.→von が本来。ß はssでも許容。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "132099448",
+  "name": "ガウラ 'ホワイトファウンテン'（ハクチョウソウ）",
+  "current": "Gaura lindheimeri 'White fountain'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Gaura lindheimeri 'White Fountain'（fountain の頭文字を大文字に）",
+  "confidence": "中",
+  "evidence": "栽培品種名は各単語を大文字始まりで表記するのが規則。'fountain' が小文字。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "132102555",
+  "name": "ゲラニウム ヒマライエンス 'バーチダブル'",
+  "current": "Geranium himalayense 'Berch Double'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Geranium himalayense 'Birch Double'（別名 'Plenum'）",
+  "confidence": "中",
+  "evidence": "品種名は 'Birch Double'。'Berch' は綴り誤り。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "141375823",
+  "name": "サルビア 'バーガンディブリス'",
+  "current": "Salvia lyrata 'Burgundy",
+  "category": "品種名綴り誤り",
+  "suggestion": "Salvia lyrata 'Burgundy Bliss'",
+  "confidence": "中",
+  "evidence": "商品名は「バーガンディブリス」だが学名の品種名が 'Burgundy' で止まり、'Bliss' が欠落・引用符も未閉じ。正しくは 'Burgundy Bliss'。",
+  "_src": "findings_06.json"
+ },
+ {
+  "id": "172607710",
+  "name": "パルサティラ ブルガリス ‘ホワイトベル’",
+  "current": "Pulsatilla vulgaris 'WhiteBell'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Pulsatilla vulgaris 'White Bells'",
+  "confidence": "中",
+  "evidence": "'WhiteBell' は単語間スペース欠落。同シリーズは 'Pearl Bells'・'Rose Bells' 表記に合わせ 'White Bells' が妥当。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "172614279",
+  "name": "ポルモニウム カエルレウム 'フィリグリークラウド'",
+  "current": "Polemonium caeruleum f.dissectum 'FiligreeClouds'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Polemonium caeruleum f. dissectum 'Filigree Clouds'",
+  "confidence": "中",
+  "evidence": "品種名 'FiligreeClouds' に単語間スペースが欠落（'Filigree Clouds' が正）。f.dissectum も 'f. dissectum' が望ましい。",
+  "_src": "findings_14.json"
+ },
+ {
+  "id": "172615653",
+  "name": "アシリウム ‘アースラズレッド’",
+  "current": "Athyrium niponicum var. pictum　'ursula's Red",
+  "category": "品種名綴り誤り",
+  "suggestion": "Athyrium niponicum var. pictum 'Ursula's Red'",
+  "confidence": "中",
+  "evidence": "品種名の先頭が小文字（ursula→Ursula、商品名『アースラズレッド』）。pictum 直後に全角スペース混入、閉じ引用符も欠落。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "172680206",
+  "name": "デルフィニウム ‘マジックファウンテン ホワイト’",
+  "current": "Delphinium 'MagicFountains White'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Delphinium 'Magic Fountains White'（Magic と Fountains の間にスペース）",
+  "confidence": "中",
+  "evidence": "品種シリーズ名 Magic Fountains が空白なしで癒着。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "180969357",
+  "name": "ヒューケラ ‘ベスビウス’",
+  "current": "Heuchera 'vesuvius'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Heuchera 'Vesuvius'",
+  "confidence": "中",
+  "evidence": "品種名は頭文字を大文字にするのが規約。'vesuvius'→'Vesuvius'。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "184389104",
+  "name": "サリックス インテグラ (ハクロニシキ) (ゴシキヤナギ)",
+  "current": "Salix integra'Hakuro Nisiki'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Salix integra 'Hakuro-nishiki'",
+  "confidence": "中",
+  "evidence": "品種名の綴り誤り。「Nisiki」はローマ字表記の誤りで正しくは Nishiki（錦）。加えて種小名 integra と品種名が癒着している。",
+  "_src": "findings_06.json"
+ },
+ {
+  "id": "184389145",
+  "name": "ツタ アメリカヅタ ‘バージニアクリーパー’ 斑入り",
+  "current": "Parthenocissus quinquefolia 'Virginia creeper'",
+  "category": "品種名綴り誤り",
+  "suggestion": "'Virginia creeper' は種の英名であり品種名ではない。斑入り品種であれば正式なcultivar名（例 'Star Showers' 等）を確認",
+  "confidence": "中",
+  "evidence": "cultivar名として英名（common name）をそのまま記載しており不適切。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "184389147",
+  "name": "ラシラス バーナス 'ヘブンリーブルー'",
+  "current": "Lathyrus vernus 'Heavenly Blues'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Lathyrus vernus 'Heavenly Blue'（単数形。商品名も『ヘブンリーブルー』と単数）",
+  "confidence": "中",
+  "evidence": "流通・種苗業者の表記は 'Heavenly Blue'（単数）。末尾の s は誤り。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "132101020",
+  "name": "キミキフーガ シンプレックス 'ピンクスパイク'",
+  "current": "Cimicifuga ramosa 'Pink Spike'",
+  "category": "商品名と学名の不一致",
+  "suggestion": "商品名は『シンプレックス(simplex)』だが学名は ramosa。Actaea/Cimicifuga simplex 'Pink Spike'（Atropurpurea Group）に統一を検討",
+  "confidence": "中",
+  "evidence": "商品名の種小名(simplex)と学名(ramosa)が不一致。'Pink Spike' は一般に Actaea simplex Atropurpurea 群として流通。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "132130404",
+  "name": "サルビア スーパーバ 'バイオレットクィーン'",
+  "current": "Salvia nemorosa 'Violet Queen'",
+  "category": "商品名と学名の不一致",
+  "suggestion": "Salvia × superba 'Violet Queen'（または商品名を「ネモローサ」に統一）",
+  "confidence": "中",
+  "evidence": "商品名は「スーパーバ」だが学名は nemorosa。'Violet Queen'（Violettkönigin）は通常 Salvia × superba として流通する。同ページの他のスーパーバ品種は Salvia x superba 表記で不統一。",
+  "_src": "findings_06.json"
+ },
+ {
+  "id": "141499731",
+  "name": "ラミアストラム 'ハーマンズブライド'",
+  "current": "Lamiastrum galeobdolon 'Herman's　Pride'",
+  "category": "商品名と学名の不一致",
+  "suggestion": "商品名カタカナは『ハーマンズプライド』が正（Pride＝プライド）。『ブライド』は誤り。学名側は 'Herman's Pride' で全角スペースを半角に。",
+  "confidence": "中",
+  "evidence": "cultivar は 'Herman's Pride'。商品名の『ブライド(Bride)』は Pride の読み違い。学名フィールドにも全角スペースあり。参考: 現行分類は Lamium galeobdolon。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "132134266",
+  "name": "ペルシカリア ミクロセファラ 'レッドドラゴン'",
+  "current": "Persicaria microcephala 'RedDragon'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Persicaria microcephala 'Red Dragon'（RedとDragonの間にスペース）",
+  "confidence": "中",
+  "evidence": "品種名が RedDragon と癒着",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "141208515",
+  "name": "アストランティア マヨール 'イエローマーブル'",
+  "current": "Astrantia  major'Yellow marble'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Astrantia major 'Yellow Marble'",
+  "confidence": "中",
+  "evidence": "Astrantia と major の間が二重スペース、かつ major と品種名が癒着（major'Yellow marble'）。品種名も小文字 marble→Marble が望ましい。",
+  "_src": "findings_02.json"
+ },
+ {
+  "id": "155444610",
+  "name": "エリカ　 カルネア 'ビベリ'",
+  "current": "Erica carnea　'Vivelli　'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Erica carnea 'Vivelli'",
+  "confidence": "中",
+  "evidence": "carnea と品種名の間、および品種名末尾に全角スペース（U+3000）が混入している。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "158412659",
+  "name": "ハイドランジア セラタ ver. エゾエンシス（エゾアジサイ）",
+  "current": "Hydrangea serrata var.yesoensis",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Hydrangea serrata var. yesoensis",
+  "confidence": "中",
+  "evidence": "'var.' と種内名 yesoensis が癒着（半角スペース欠落）。",
+  "_src": "findings_10.json"
+ },
+ {
+  "id": "167774944",
+  "name": "サルビア スクラレア'バチカンホワイト'（クラリーセージ）",
+  "current": "Salvia sclarea var. turkestanica'Vatican White'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Salvia sclarea var. turkestanica 'Vatican White'",
+  "confidence": "中",
+  "evidence": "種小名（turkestanica）と品種名（'Vatican White'）の間にスペースがなく癒着している。",
+  "_src": "findings_06.json"
+ },
+ {
+  "id": "167775137",
+  "name": "ヘデラ ヘリックス var.バルチカ",
+  "current": "Hedera helix var.'Baltica'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Hedera helix var. baltica",
+  "confidence": "中",
+  "evidence": "植物学的変種はイタリック小文字で var. baltica と表記するのが正しく、栽培品種扱いの引用符付き 'Baltica' は表記形式が不適切。var.と語の癒着もあり。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "172605013",
+  "name": "トロリウス カルトラム 'ニュームーン’",
+  "current": "Trollius×cultorum'New moon'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Trollius × cultorum 'New Moon'（×前後および品種名前にスペース、Moonを大文字）",
+  "confidence": "中",
+  "evidence": "属名・交雑記号・種小名・品種名が空白なしで癒着し、品種名の綴りも 'New Moon' が適切。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "172612692",
+  "name": "プリムラ キャピタータ 'サルバナ'",
+  "current": "Primula capitata'Salvana'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Primula capitata 'Salvana'",
+  "confidence": "中",
+  "evidence": "種小名と品種名が癒着している（capitata'Salvana'）。スペース挿入が必要。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "172614930",
+  "name": "アキレジア‘ボルドーバロー’",
+  "current": "Aquilegia vulgaris var.stellata plena'Bordeaux Barlow'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Aquilegia vulgaris var. stellata flore plena 'Bordeaux Barlow'",
+  "confidence": "中",
+  "evidence": "整形誤り：plena と品種名の癒着（plena'Bordeaux）。var. 後のスペース欠落も。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "172629313",
+  "name": "エキナセア ‘ジュリア’",
+  "current": "Echinacea  'Julia'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Echinacea 'Julia'",
+  "confidence": "中",
+  "evidence": "属名と品種名の間に二重スペースが混入している。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "172668316",
+  "name": "スピレア ジャポニカ（シモツケ）’マジックカーペット’",
+  "current": "Spiraea japonica f. 'Magic Carpet'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Spiraea japonica 'Magic Carpet'",
+  "confidence": "中",
+  "evidence": "品種名の前にforma階級を示す 'f.' があるが、forma小名が伴っておらず不要。cultivar 表記としては 'f.' は削除すべき。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "179490552",
+  "name": "アガスタチ（アガスターシェ） 'レッドフォーチュン'",
+  "current": "Agastache mexicana`Red fortune'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Agastache mexicana 'Red Fortune'",
+  "confidence": "中",
+  "evidence": "整形誤り：属名と品種名の癒着（mexicana`Red）、開始引用符がバッククォート(`)、品種名の小文字（fortune→Fortune）。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "184389135",
+  "name": "アスター ‘ビクトリア’",
+  "current": "Aster'Victoria'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Aster 'Victoria'",
+  "confidence": "中",
+  "evidence": "整形誤り：属名と品種名の癒着（Aster'Victoria'）。半角スペースを補う。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "184389155",
+  "name": "ホスタ 'ゴールドスタンダード'",
+  "current": "Hosta'Gold Standard'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Hosta 'Gold Standard'（属名と品種名の間にスペース）",
+  "confidence": "中",
+  "evidence": "属名と品種名の癒着",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "190571424",
+  "name": "アスチルベ 'ピーチブロッサム'",
+  "current": "Astilbe'Peach Blossom'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Astilbe 'Peach Blossom'",
+  "confidence": "中",
+  "evidence": "属名と品種名が癒着（Astilbe'Peach Blossom'）。半角スペースを挿入すべき。綴り自体は正しい。",
+  "_src": "findings_02.json"
+ },
+ {
+  "id": "190572829",
+  "name": "ペニセタム フェアリーテイル",
+  "current": "Pennisetum'Fairy tails'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Pennisetum 'Fairy Tails'（属名との間にスペース、品種名は大文字始まり）",
+  "confidence": "中",
+  "evidence": "属名と品種名の癒着、'Fairy tails' の小文字表記",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "190572902",
+  "name": "ホスタ 'イエローポルカドットビキニ'",
+  "current": "Hosta'Yellow Polka Dot Bikini'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Hosta 'Yellow Polka Dot Bikini'（属名と品種名の間にスペース）",
+  "confidence": "中",
+  "evidence": "属名と品種名の癒着",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "180968952",
+  "name": "タイム シルバークィーンタイム",
+  "current": "Thymus",
+  "category": "種小名欠落",
+  "suggestion": "Thymus vulgaris 'Silver Queen'（または Thymus × citriodorus 'Silver Queen'）",
+  "confidence": "中",
+  "evidence": "属名のみで種小名・品種名が欠落。シルバークィーンタイムは 'Silver Queen' 品種。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "132137268",
+  "name": "セダム カウチカム（ヒダカミセバヤ）",
+  "current": "Sedum cauticolum",
+  "category": "種小名誤り",
+  "suggestion": "Sedum cauticola（=Hylotelephium cauticola）",
+  "confidence": "中",
+  "evidence": "ヒダカミセバヤの学名は Sedum cauticola。語尾 'cauticolum' は誤り（同マスタ内 id=155927011 では 'cauticola' 表記）。原産地の『中央ヨーロッパ』も不適（日本・北海道特産）。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "132136581",
+  "name": "ペンステモン メキシケール 'サンバーストアメジスト'",
+  "current": "Penstemon ×mexicale 'Sunburst Amethyst'",
+  "category": "綴り誤り",
+  "suggestion": "Penstemon ×mexicali 'Sunburst Amethyst'",
+  "confidence": "中",
+  "evidence": "交雑名は ×mexicali が正（別行132136627では mexicali）",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "132139699",
+  "name": "モリニア カエルレア カエルレア",
+  "current": "Molinia caerulea Caerulea",
+  "category": "綴り誤り",
+  "suggestion": "Molinia caerulea subsp. caerulea",
+  "confidence": "中",
+  "evidence": "亜種名が大文字始まり「Caerulea」かつ「subsp.」表記が欠落。正しくは subsp. caerulea（小文字）。",
+  "_src": "findings_14.json"
+ },
+ {
+  "id": "141296110",
+  "name": "エキナセア テネシェンシス",
+  "current": "Echinacea tennessensis",
+  "category": "綴り誤り",
+  "suggestion": "Echinacea tennesseensis",
+  "confidence": "中",
+  "evidence": "テネシー州由来の種小名は tennesseensis（e が2つ）。記載の tennessensis は e が1つ欠落。",
+  "_src": "findings_03.json"
+ },
+ {
+  "id": "160100709",
+  "name": "アネモネ ハプエンシス ジャポニカ 'ダイアナ'（シュウメイギク）",
+  "current": "Anemone hupehensis var. Japonica 'Diana'",
+  "category": "綴り誤り",
+  "suggestion": "Anemone hupehensis var. japonica 'Diana'",
+  "confidence": "中",
+  "evidence": "変種小名は小文字始まりが規則。Japonica → japonica。行36・37では正しく小文字。",
+  "_src": "findings_02.json"
+ },
+ {
+  "id": "132137894",
+  "name": "ホスタ 'リトルオーロラ'",
+  "current": "Hosta 'Little Aurora' (_tokudama_ hybrid)",
+  "category": "その他",
+  "suggestion": "Hosta 'Little Aurora' (tokudama hybrid)（マークダウン下線を除去）",
+  "confidence": "低",
+  "evidence": "_tokudama_ にマークダウン記号が混入",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "184389144",
+  "name": "リスラム サリカリア 'ハピースノー'",
+  "current": "Lythrum salicaria 'Happy Snow'",
+  "category": "その他",
+  "suggestion": "品種名の確認要。白花系は 'Happy Lights White' が確認できるが 'Happy Snow' は裏付け弱い。",
+  "confidence": "低",
+  "evidence": "'Happy Snow' の一次情報が確認できず。'Happy Lights White' 等の類似名あり。要一次資料確認。",
+  "_src": "findings_15.json"
+ },
+ {
+  "id": "157861977",
+  "name": "ペロブスキャ（ロシアンセージ）",
+  "current": "Perovskia atriplicifolia",
+  "category": "分類変更(参考)",
+  "suggestion": "現行分類では Salvia yangii（Perovskia は Salvia に統合）",
+  "confidence": "低",
+  "evidence": "2017年に Perovskia は Salvia に統合。園芸流通名としては Perovskia も併用",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "190572752",
+  "name": "ペニセタム アロペキュロイデス 'ブラックビューティ'",
+  "current": "Pennisetum alopecuroides",
+  "category": "分類変更(参考)",
+  "suggestion": "現行分類では Cenchrus purpurascens（Pennisetum は Cenchrus に統合）。園芸流通では Pennisetum を継続使用",
+  "confidence": "低",
+  "evidence": "Pennisetum alopecuroides は Cenchrus purpurascens に再分類。本バッチの Pennisetum 各行に共通する参考事項",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "155927007",
+  "name": "セダム 'ミスターグッドバッド'",
+  "current": "Hylotelephium 'Mr Goodbud' / 原産地: 北米",
+  "category": "原産地誤り",
+  "suggestion": "原産地を東アジア〜ユーラシア（親種 spectabile/telephium 系）に修正",
+  "confidence": "低",
+  "evidence": "Hylotelephium（旧Sedum）系の園芸交配種。親種はユーラシア原産で『北米』は不適。学名の Sedum→Hylotelephium は現代分類として妥当。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "172657039",
+  "name": "ジプソフィラ セラスティオイデス（カーペットカスミソウ）",
+  "current": "原産地: 東アジア",
+  "category": "原産地誤り",
+  "suggestion": "ヒマラヤ地域（ネパール、北インド等）",
+  "confidence": "低",
+  "evidence": "Gypsophila cerastioides はヒマラヤ原産。東アジアは不正確",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "132159230",
+  "name": "ビンカ ミノール 'オーレオバリエガータ'（ビンカ ミノール 斑入り）",
+  "current": "Vinca minor 'Aureo Variegata'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Vinca minor 'Aureovariegata'",
+  "confidence": "低",
+  "evidence": "登録品種名は 'Aureovariegata' と一語で表記されるのが一般的。スペース区切りは非標準。",
+  "_src": "findings_11.json"
+ },
+ {
+  "id": "132159629",
+  "name": "ブルネラ マクロフィラ 'シーハート'",
+  "current": "Brunnera macrophylla 'Sea heart'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Brunnera macrophylla 'Sea Heart'",
+  "confidence": "低",
+  "evidence": "品種名の慣例では 'Sea Heart' と各語頭を大文字にする。'heart' は小文字。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "132160737",
+  "name": "ロジャージア 'ブロンズビューティー'（ヤグルマソウ）",
+  "current": "Rodgersia podophylla 'Bronze beauty'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Rodgersia podophylla 'Bronze Beauty'",
+  "confidence": "低",
+  "evidence": "栽培品種名は各語頭を大文字にするのが慣例。'Bronze beauty' の beauty を Beauty に。綴り自体は妥当。",
+  "_src": "findings_16.json"
+ },
+ {
+  "id": "133926604",
+  "name": "ペルシカリア 'アトロサンギネア'",
+  "current": "Persicaria amplexicaulis 'atrosanguinea'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Persicaria amplexicaulis 'Atrosanguinea'（品種名は大文字始まり）",
+  "confidence": "低",
+  "evidence": "品種名/変種名が小文字始まり。末尾に全角スペースも混入",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "141434629",
+  "name": "ブルネラ マクロフィラ 'ミスターモース'",
+  "current": "Brunnera macrophylla 'Mr.Morse'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Brunnera macrophylla 'Mr. Morse'",
+  "confidence": "低",
+  "evidence": "'Mr.Morse' はピリオド後のスペース欠落。正しくは 'Mr. Morse'。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "190882659",
+  "name": "スカビオサ 'ビビッドバイオレット'",
+  "current": "Scabiosa 'Vivid violet'",
+  "category": "品種名綴り誤り",
+  "suggestion": "Scabiosa 'Vivid Violet'",
+  "confidence": "低",
+  "evidence": "園芸品種名は各語頭を大文字にする慣行。violet が小文字",
+  "_src": "findings_07.json"
+ },
+ {
+  "id": "132137289",
+  "name": "ホスタ シーボルディ 'パールレイク'",
+  "current": "Hosta 'Pearl Lake'",
+  "category": "商品名と学名の不一致",
+  "suggestion": "'Pearl Lake' は sieboldii 系ではないため商品名の「シーボルディ」を確認・削除",
+  "confidence": "低",
+  "evidence": "商品名に「シーボルディ」とあるが学名は種名なしの Hosta 'Pearl Lake'",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "132138841",
+  "name": "ミント ハッカ",
+  "current": "Mentha × piperita",
+  "category": "商品名と学名の不一致",
+  "suggestion": "Mentha arvensis var. piperascens（ニホンハッカ）等の可能性",
+  "confidence": "低",
+  "evidence": "「ハッカ（薄荷）」は本来ニホンハッカ Mentha arvensis 系を指すことが多く、M. × piperita（セイヨウハッカ）との不一致の可能性。表記意図次第で許容も。",
+  "_src": "findings_14.json"
+ },
+ {
+  "id": "141375223",
+  "name": "ゲラニウム サンギネウム 'ローズ'",
+  "current": "Geranium sanguineum var. striatum",
+  "category": "商品名と学名の不一致",
+  "suggestion": "商品名の品種『ローズ』と学名の var. striatum（植物学的変種）が不一致。表記の整合を確認",
+  "confidence": "低",
+  "evidence": "var. striatum は淡桃色の変種（旧 'Lancastriense'）。商品名の 'ローズ' が cultivar 指定なら学名と齟齬。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "143510319",
+  "name": "白樺のフレッシュヴィヒタ",
+  "current": "Sagina subulata",
+  "category": "商品名と学名の不一致",
+  "suggestion": "商品名（白樺＝Betula／ヴィヒタ＝白樺の枝束）と学名 Sagina subulata（ナデシコ科の匍匐性グラウンドカバー、アイリッシュモス様）が無関係。要人手確認",
+  "confidence": "低",
+  "evidence": "『ヴィヒタ(vasta/vihta)』はサウナ用の白樺の枝束を指す語で白樺を示唆するが、Sagina subulataはヨーロッパ産のマット状小型植物で属レベルで無関係。草丈5cm・欧州はSaginaと整合するため商品名側が別品種の可能性。クローン誤りの疑い。",
+  "_src": "findings_01.json"
+ },
+ {
+  "id": "172613372",
+  "name": "ベルゲニア コーディフォリア 'ニューウィンターフラワリング Hybs'",
+  "current": "Bergenia cordifolia",
+  "category": "商品名と学名の不一致",
+  "suggestion": "商品名に品種名(New Winter Flowering Hybrids)が含まれるが学名に反映されていない。学名側にも 'New Winter Flowering' 等を補うか整合させる",
+  "confidence": "低",
+  "evidence": "商品名に「ニューウィンターフラワリング Hybs」とあるが学名は種のみ",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "132137396",
+  "name": "ホスタ 'ピルグリム'",
+  "current": "Hosta cv Pilgrim",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Hosta 'Pilgrim'（cv 表記でなく引用符で品種名を表記）",
+  "confidence": "低",
+  "evidence": "非標準の cv 記法",
+  "_src": "findings_13.json"
+ },
+ {
+  "id": "132158912",
+  "name": "ピオニア 'ニックシェイラー'",
+  "current": "Paeonia(LD) 'Nick Shaylor'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Paeonia (LD) 'Nick Shaylor'（属名と群略号の間にスペース）",
+  "confidence": "低",
+  "evidence": "属名 Paeonia と群区分記号(LD)が癒着しスペースが欠落。同様の記載が id:132158931 にもあり。",
+  "_src": "findings_11.json"
+ },
+ {
+  "id": "156352874",
+  "name": "タイム キャットタイム",
+  "current": "Teucrium  marum",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Teucrium marum（二重スペース除去）",
+  "confidence": "低",
+  "evidence": "キャットタイム=Teucrium marum で学名自体は正しい（Thymus ではない）。属名と種小名の間に二重スペース。",
+  "_src": "findings_08.json"
+ },
+ {
+  "id": "156371046",
+  "name": "トリフォリウム ルーベンス 'フロスティーフェザーズ'",
+  "current": "Trifolium rubens f.album 'Frosty Feathers'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Trifolium rubens f. album 'Frosty Feathers'（f. と album の間にスペース）",
+  "confidence": "低",
+  "evidence": "品種階級表記 f.album にスペースがない。",
+  "_src": "findings_09.json"
+ },
+ {
+  "id": "172612773",
+  "name": "プリムラ ブルガリス ssp. シブソーピ",
+  "current": "Primula vulgaris ssp.sibthorpii",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Primula vulgaris ssp. sibthorpii",
+  "confidence": "低",
+  "evidence": "ssp. と亜種小名が癒着している（ssp.sibthorpii）。スペース挿入が必要。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "172613235",
+  "name": "ヘメロカリス 'ハイペリオン'",
+  "current": "Hemerocallis'Hyperion'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Hemerocallis 'Hyperion'",
+  "confidence": "低",
+  "evidence": "属名と品種名が癒着している。スペース挿入が必要。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "190572975",
+  "name": "ヘメロカリス 'ナイトビーコン'",
+  "current": "Hemerocallis'Night Beacon'",
+  "category": "整形・表記誤り(癒着/スペース/大小文字)",
+  "suggestion": "Hemerocallis 'Night Beacon'",
+  "confidence": "低",
+  "evidence": "属名と品種名が癒着している。スペース挿入が必要。",
+  "_src": "findings_12.json"
+ },
+ {
+  "id": "132102585",
+  "name": "ゲラニウム ピレネイカム 'ビルウォーリス'",
+  "current": "Geranium 'Bill Wallis'",
+  "category": "種小名欠落",
+  "suggestion": "Geranium pyrenaicum 'Bill Wallis'（商品名の『ピレネイカム』に合わせ種小名を補記）",
+  "confidence": "低",
+  "evidence": "商品名は種小名ピレネイカムを明示するが学名は属名+品種名のみ。'Bill Wallis' は G. pyrenaicum の系統。",
+  "_src": "findings_05.json"
+ },
+ {
+  "id": "167776892",
+  "name": "ミントブッシュ",
+  "current": "Prostanthera～",
+  "category": "種小名欠落",
+  "suggestion": "Prostanthera sp.（種小名を明記）",
+  "confidence": "低",
+  "evidence": "属名のみで種小名が「～」で省略。属レベルの記載にとどまる。",
+  "_src": "findings_14.json"
+ }
+]
