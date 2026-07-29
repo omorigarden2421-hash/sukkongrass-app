@@ -1,0 +1,189 @@
+﻿row,plant,sci,before,after,confidence,reason
+4,アルテミシア　シュミッディアーナ ‘ナナ’（アサギリソウ）,Artemisia schmidtiana 'Nana',低,中,中,MBGが『肥沃地では株の中央が開いて割れる（center opening up and separating by mid-Summer）』と明記、管理タイプC夏前切戻も倒伏（中央割れ）防止目的で整合するため低→中に修正。
+10,アルケミラ　モリス (レディースマントル),Alchemilla mollis,—,中,中,降雨後に株が開いて中央が割れ寝る典型種で、一次情報も花後の切戻し（管理タイプB）で乱れを防ぐと記すため、倒伏名物種を—にしているのは明確なズレとして中へ修正。
+32,ゲーラーディア　アリスタータ ‘バーガンディ’,Gaillardia aristata ‘Burgundy’,—,中,中,高性60〜90cmで肥沃地・日照不足・古株により細く伸びて中央から開帳・寝る名物種、管理D株更新とも整合し中へ上方修正（矮性ゴブリン低より低い—は方向矛盾）。
+34,サルビア　スーパーバ ‘クィーンブルー’,Salvia x superba ‛Queen Blue’,—,低,中,MBGが『夏に多少寝て中央が開く（特に多湿地）→花後に切戻す』と明記、管理B花後刈込とも整合し45〜60cmで軽度倒伏あり低へ上方修正。
+51,センペルビビューム（ハウスリーク）,Sempervivum,低,—,高,地際に張り付く多肉ロゼットで花茎も太く自立し、倒伏が問題化しないためプロトコル通り—（低から下げ）。
+63,トバラ　バージニアーナ ‘バリエガータ’,Tovara virginiana ‛Variegata’,—,低,中,草丈60〜120cmと高性で開花時に伸びて草姿が乱れ、MBGが『風から守られた場所に植える』とする軽度の倒れやすさがあり—→低へ。
+64,トラディスカンティア　 ヒメツユクサ　赤花,Tradescantia (Andersoniana Group) 'Red Cloud',—,低,中,MBGが『真夏に葉が見苦しく sprawl（開帳）する』とし花後刈込で乱れ防止する種で、管理タイプB(花後刈込)とも整合し—→低へ。
+66,ネペタ　ムッシーニアイ,Nepeta mussinii,—,低,中,キャットミントは decumbent〜開帳性で開花後に中央が割れて開きやすく刈込(shear)で整える種、草丈30〜45cm・管理B(花後刈込)とも整合し—→低へ。
+67,アラビス　フェルディナンディコブルギ ‘バリエガータ’(ハタザオフイリ),Arabis ferdinandi-coburgi ‛Variegata’,低,—,高,草丈5〜10cmの密なマット状ロックガーデン植物で完全自立し倒伏が問題にならず、低→—へ。
+79,フェニキュラム　ブルガレ ‘プルプレウム’(ブロンズフェンネル),Foeniculum vulgare 'Purpureum',—,低,中,草丈最大180cmの直立分枝型で堅い茎により基本自立するが、肥沃地・強風下では倒れ得るため『該当なし』は過小、低が妥当（RHS/MBGとも必須の支柱記載なし）。
+88,ペルシカリア ミクロセファラ ‘レッドドラゴン’,Persicaria microcephala 'RedDragon',—,低,中,MBGは株立ちだが草丈75-80cmで各所が『sprawling and weaving（寝て絡む）』と記す葉物、80cmの緩い茎は倒伏該当なし(—)とは言えず低に補正。
+91,ヘメロカリス‘ファイナルタッチ’,Hemerocallis 'Final Touch',—,低,中,花茎は概ね自立するが草丈60-90cmと高く光方向へ傾くことがあり、矮性のステラ(低)より低リスクとする—は不整合、低へ補正。
+97,ベロニカ　オストリアーカ,Veronica austriaca,—,中,中,MBGが『upright to sprawling stems』『sprawling mature foliage、開花後半分に切戻して開帳を抑える』と明記、草丈60cmで開帳・寝が起きる株、倒伏該当なし(—)は方向逆転のため中へ補正。
+99,ベロニカ　スピカータ ‘ブルーブーケ’,Veronica spicata 'Blue Bouquet',—,低,中,同種・同高さのrow98が低なのに本行のみ—は内部矛盾で、30～60cmの穂状種は肥沃地で開帳しうるため低に統一。
+102,ペンステモン　バルバタス ‘ジングルベル’,Penstemon barbatus 'Jingle Bells',—,低,中,"MBGは『erect, rigid stems』で基本自立だが草丈90cmと高く半日陰・肥沃地で寝る例があり、低草丈でない90cm株立ちに—は不適で低へ。"
+105,ホトトギス‘トーゲン’,Tricyrtis ‛Togen’,—,低,中,MBGは支柱記述なしだが、ホトトギスは弓なりの茎で草丈60～90cmと高く深い日陰で株が傾きやすい上、より低いrow106（hirta 35～40cm）が低のため整合させ低へ。
+115,ルドベキア　フルギダ ‘ゴールドストラム’,Rudbeckia fulgida 'Goldsturm',高,低,高,草丈60cmでMBG『stiff branching stems』・Purdue『支柱ほぼ不要』の堅い自立コンパクト品種であり高は明確な過大評価、低へ修正。
+116,エリンジウム　プラナム,Eryngium planum,—,低,中,痩せ地では堅い茎で自立するが肥沃・多湿地では茎が弱り倒れ支柱を要すと明記され、—は過小、低へ修正。
+118,アスター　ノバエアングリアエ ‘セプテンバールビー’(ネバリノギク),Aster novae-angliae 'September Ruby',中,高,高,草丈150cmの高性ネバリノギクで自重により倒伏し支柱・ピンチ/夏前切戻(管理C)がほぼ必須、プロトコルの高性アスター=高に整合、中から高へ修正。
+125,カンパニュラ‘ケントベル’,Campanula 'Kent Belle',—,中,中,草丈60〜90cm（一次情報では最大120cm）の高性で直立だが重い釣鐘花のため支柱推奨（staking may be needed）＝—は低すぎ中へ修正。
+128,コレオプシス　バーティシラータ ‘ムーンビーム’,Coreopsis verticillata 'Moonbeam',—,低,中,草丈30〜40cmの糸葉種で痩地では自立するがMBG『tends to sprawl…in moist and/or fertile soils』＝肥沃地で寝るため—でなく低が妥当。
+131,ゲラニウム‘ジョンソンズブルー’,Geranium × johnsonii 'Johnson's Blue',—,中,高,開花後に株中央が開帳・寝る代表的フロッパーでチェルシーチョップ／花後切戻し推奨（管理B）のため—でなく中へ修正。
+133,ゲラニウム　プラテンス ‘スプリッシュスプラッシュ',Geranium pratense 'Splish Splash',—,中,中,草丈60〜90cmの高性メドウクランズビルで日照不足だと支柱を要し隣株にもたれ寝る性質のため—でなく中へ修正。
+135,ネペタ　ラセモサ‘ウォーカーズロウ’,Nepeta racemosa 'Walker's Low',—,中,高,草丈60cmで開花第一波後に中央が割れて『flops horribly／opens flat』となり、支柱・チェルシーチョップ推奨の名物種のため—は過小評価で中へ修正。
+139,フロックス　パニキュラータ ‘ノーラレイ’,Phlox paniculata 'Norah Leigh',—,中,中,草丈70～75cmの高性ガーデンフロックスでMBG『taller stems may need staking』かつ管理タイプC（夏前切戻＝倒伏防止）と整合させ—から中へ修正。
+140,フロックス　パニキュラータ ‘ハーレークィーン’,Phlox paniculata 'Harlequin',—,中,中,草丈75～85cmの高性ガーデンフロックスでMBG『taller stems may need staking』かつ管理タイプC（夏前切戻）と整合させ—から中へ修正。
+147,ポルモニウム　カエルレウム ‘ブルーウァール’,Polemonium caeruleum 'Blue Whirl',—,中,中,草丈50〜80cmと高性寄りで開花後に茎が寝やすく肥沃地・風で倒れうる（管理B花後刈込とも整合）ため—は低すぎ、中へ。
+148,モナルダ　ディディマ ‘パノラマレッドシェード’,Monarda didyma 'Panorama Red Shades',—,高,高,草丈90〜120cmの高性モナルダで肥沃地・半日陰で開帳・倒伏する名物種（プロトコル高の例、管理C夏前切戻は倒伏防止目的）につき—は明白な誤りで高へ。
+152,リクニス　コロナリア ‘エンジェルスブラッシュ’,Lychnis coronaria 'Angel's Blush',—,中,中,ロゼットから草丈75〜90cmの分枝花茎が伸び茎が寝やすい（floppy stems）ため—は低すぎ、中へ。
+157,リモニウム　ラティフォリウム （宿根スターチス）,Limonium latifolium,高,低,中,ロゼットから分枝する硬い針金状（wiry）の花序で基本自立し重い粘土質でのみ支柱を要する程度、倒伏名物ではなく高は過大で低へ（2段下げの明確なズレ修正）。
+159,ガウラ‘夕映え’（ハクチョウソウ）,Gaura lindheimeri 'Yuubae',—,中,高,MBGが『thin flower stems tend to become leggy and flop（特に肥沃地）』『benefit from support/close planting』と明記し、草丈60〜120cmで細く柔らかい花茎が寝るため倒伏名物種＝中（現マスタ—は方向逆転で要修正）。
+162,リシマキア　プンクタータ ‘アレキサンダー’,Lysimachia punctata 'Alexander',—,低,中,『stiff/sturdy upright stems』で基本自立するが草丈45〜60cmの直立フォーブで肥沃・多湿だと開帳しうるため、—（低草・マット向け）より低が妥当。
+164,オレガノ‘ヘレンハウゼン’,Origanum laevigatum 'Herrenhausen',—,低,中,『upright to sprawling』で通常は支柱不要だが緩い株立ちで風では寝ることがあり草丈30〜60cm、—（低マット）より低が妥当。
+165,ベロニカストラム　シビリクム （クガイソウ）,Veronicastrum sibiricum,—,低,中,RHSは直立・自立で支柱記載なしだが草丈100〜150cmと高く半日陰・多雨では寝ることがあるため、—（低草丈向け）より低が妥当。
+168,ジギタリス　グランディフローラ　,Digitalis grandiflora,—,低,中,"『sturdy, self-supporting stems, rarely require staking』で丈夫だが草丈60〜90cmの花穂で豪雨時に寝うるため、—（低草丈向け）より低が妥当。"
+176,ノウティア（クナウティア）　 マセドニカ,Knautia macedonica,—,中,中,MBGが『tall stems tend to twist and flop in the heat of summer』『風から守れる場所に配置』と記載、草丈60〜90cmの細い花茎で寝やすく、—は明確なズレのため中へ修正。
+180,サポナリア　オフィシナリス ‘アルバプレナ’（ソープワート）,Saponaria officinalis 'Alba Plena',—,中,中,ソープワートは肥沃地で sprawl・半日陰で floppy・背が伸びると倒れると記載され茎が細く、草丈60〜90cm（八重で花頭が重い）で—は明確なズレのため中へ修正。
+181,サポナリア　オフィシナリス ‘ロゼアプレナ’（ソープワート）,Saponaria officinalis 'Rosea Plena',—,中,中,180と同種の八重品種、肥沃地で sprawl・半日陰で floppy・伸長で倒れる細茎かつ草丈60〜90cmのため—は明確なズレで中へ修正。
+186,サリクトラム（タリクトラム） ‘ブラックストッキングス’,Thalictrum 'Black Stockings',—,中,中,草丈150cm（〜2m）の高性で細い花茎に花房が付き『風の強い場所では支柱が必要／繊細な茎を守る』とされ、—は明確なズレのため中へ修正。
+194,ゲラニウム　ヒマライエンス,Geranium himalayense,—,低,中,草丈50cmのマウンド状だが開花後に茎が寝て中央が開帳する典型的な匍匐傾向で花後刈込(管理B)が有効なため、自立はするが極端条件で乱れる=低。
+196,フィソステギア　バージニアーナ ‘バリエガータ’,Physostegia virginiana 'Variegata',—,中,高,MBGが『肥沃地・半日陰・高温で茎が倒れ、背高株は支柱が要る』と明記する倒伏名物種で草丈60〜85cm、—は明確なズレのため中。
+198,サルビア　ネモローサ ‘ローゼンバイン’,Salvia nemorosa 'Rosenwein',—,低,中,夏に株がやや開帳し倒れることがあるが草丈60cmで概ね自立し切戻しで回復するため、—は控えめすぎ=低。
+203,サリクトラム(タリクトラム) フラバム　グロウカム,Thalictrum flavum subsp. glaucum,高,中,中,草丈90〜150cmだが本亜種は青灰葉で『強い直立茎』と評され支柱不要のことも多く、露地でpea sticks程度、高は過大=中。
+204,ギレニア　トリフォリエータ （ミツバシモツケ）,Gillenia trifoliata,中,低,中,草丈80cmだが細い針金状の赤茎で軽い花を支え、ゆったりした自立クランプを作り支柱不要=低。
+206,ポテンチラ　サーベリ ‘モナークスベルベット’,Potentilla thurberi 'Monarch's Velvet',—,中,中,MBG『compact sprawling foliage mound with erect flowering stems…long flowering stems may need some support』で、花茎が70cmまで伸び倒れやすいため—→中に上げた。
+207,ゲラニウム　ファエウム‘サンボー’,Geranium phaeum 'Samobor',—,低,中,属内では背高（60〜75cm）で『may need support to prevent it flopping on some sites』、日陰・肥沃地で寝るため—→低。
+210,セントーレア　モンタナ （ヤマヤグルマギク）,Centaurea montana,高,中,中,細く弛い茎で開帳・寝やすい名物フロッパーだが草丈45cm前後で支柱は必須でなく切戻しで対処、背高大輪ではないため高→中に下げた。
+216,ヒューケレラ‘ストップライト’,Heucherella 'Stoplight',低,—,中,葉を観賞する低いクランプで細い花穂は軽く倒伏が問題にならず、姉妹的観葉種と整合させ低→—。
+218,ティアレラ‘ピンクスカイロケット’,Tiarella 'Pink Skyrocket',低,—,中,草丈15(25)cmの低い叢状グラウンドカバーで花穂も短く、倒伏は問題にならないため—（現マスタの低は過大評価）。
+222,ジギタリス　プルプレア ‘スノーシンブル’,Digitalis purpurea 'Snow Thimble',—,低,中,草丈100cmの高い花穂で、RHSは風の強い場所や過施肥で主茎の支柱が必要と記載。基本自立だが極端条件で寝るため—は過小で低。
+223,ミント　オレンジミント,Mentha x piperita f.citrata 'Orange',—,低,中,草丈60cmで、Extensionは肥沃地・日陰で茎が寝て開帳すると記載。基本自立だが条件次第で乱れるため—より低が妥当。
+224,アストランティア　マヨール ‘ルビーウェディング’,Astrantia major 'Ruby Wedding',—,低,中,草丈60cmの直立株立ちで針金状の丈夫な茎により支柱不要だが、低草丈/マットではない中背直立種のため区分は—でなく低。
+229,アジュガ　レプタンス‘ロゼア’,Ajuga reptans 'Rosea',低,—,高,草丈5〜10cmの匍匐マット状グラウンドカバーで倒伏は問題にならないため—（現マスタの低は過大評価）。
+234,サルビア　プラテンシス ‘ローズラプソディ’,Salvia pratensis 'Rose Rhapsody',—,低,中,肥沃地・日照不足で花穂が寝やすくChelsea chop対象種のため、—でなく倒伏軽微リスクの低へ1段上げ。
+241,ベロニカ　プロストラータ ‘ミセスホルト’,Veronica prostrata 'Mrs Holt',低,—,高,草丈15cmの匍匐マット状で構造上倒伏し得ないため、低を該当なし—へ修正。
+242,モナルダ　ディディマ ‘ブルーストッキング’,Monarda didyma 'Blue Stocking',—,高,高,草丈90〜120cmの高性ベルガモットで盛夏〜晩夏に花が重く『7月には倒れて広がる／株中央が割れて開く』のが名物、肥沃地で顕著でチェルシーチョップ推奨=プロトコルのモナルダ=高の典型、現—は方向逆転で高に修正。
+247,アムソニア　タバーナエ　 モンタナ（チョウジソウ）,Amsonia tabernaemontana,低,中,高,MBGが明記=半日陰や肥沃地では株が開帳・倒伏し支柱/切戻しが要る（日向では自立）、環境次第で倒れる典型で低は過小、中に修正。
+250,ポルモニウム　カエルレウム ‘アルバム’,Polemonium caeruleum 'Album',—,低,中,草丈50〜80cmの株立ちで基本は自立するが、丈が伸びると花茎が寝る・株が開帳し風雨や肥沃地で支柱が要ることがある＝低草/マットの—には当てはまらず低に修正。
+258,フロックス　パニキュラータ ‘デイビッド’,Phlox paniculata 'David',中,低,中,"MBG『stiff, upright stems which seldom need staking』『sturdy stems that will not be pushed around by wind』と明記され、高性でも自立性が高いため低へ下方修正。"
+260,トラディスカンティア ‘コンコードグレープ’,Tradescantia x andersoniana 'Concord Grape',低,中,中,肥沃地で葉が徒長し開花後に株が寝て開帳・sprawl、切戻しで倒伏軽減と記載され、環境・肥沃度次第で倒れる中へ上方修正（タイプB花後刈込とも整合）。
+265,アスター　ディバリケータス,Aster divaricatus,—,低,中,細いジグザグ茎で株が広がりやすく初夏に切戻すと締まると記載、ホワイトウッドアスターは茎が寝て前へ倒れ込む性質があり—から低へ修正。
+269,サルビア　スーパーバ ‘バイオレットクィーン’,Salvia × superba 'Violet Queen',—,低,中,MBGはsuperba群を『高温多湿・肥沃地で開帳し寝る、基部まで切戻すと再生』と記載、草丈60cm・管理C花後刈込とも整合し—より低が妥当
+270,アキレア‘コロネーションゴールド’,Achillea 'Coronation Gold',高,中,中,MBG『硬く丈夫な茎だが日照不足・肥沃地では寝る傾向、背高株は支柱要』＝環境次第で倒れる中程度で、支柱ほぼ必須の高は過大
+280,エリゲロン‘ピンクジュエル’ （'ロサジュエル’),Erigeron 'Pink Jewel'('Rosa Juwel'),—,中,中,エリゲロン(speciosus系)は満開時に花茎が寝やすく『may need staking with garden canes』とされ、草丈60cm・花後刈込型と整合するため—を中へ。
+285,トリフォリウム　ルーベンス,Trifolium rubens,—,低,中,基本は直立株立ちで自立するが『can flop in overly rich soil』とされ肥沃地で乱れうるため—を低へ。
+288,セントーレア　ディールバータ,Centaurea dealbata,—,中,中,"『stems may flop on taller plants, rich soil increases flop; may need staking』とされ肥沃度次第で開帳・倒伏するため—を中へ。"
+289,ゲーラーディア‘アンバーホイール’ (ガイラルディア),Gaillardia aristata 'Amber Wheels',—,中,中,ガイラルディアは肥沃地・半日陰・施肥で徒長し中央が割れて倒れやすく、本品種は草丈75cmと属内で高性のため肥沃度次第で倒れる中へ。
+295,セダム‘フロスティモーン’,Sedum erythrostictum 'Frosty Morn',—,低,高,直立クランプだが肥沃地では外へ開帳・裂けやすく高性種はピンチで分裂防止と記述され、Autumn Joy型の開帳リスクがあるため—から低へ。
+298,セダム　スペクタビル ‘オータムジョイ’,Hylotelephium spectabile 'Autumn Joy',—,中,高,肥沃地・多肥・過湿・株の老化で秋に中央が割れてリング状に開帳する倒伏の代表種で、5月下旬のチェルシーチョップが定番の対策として推奨されるため—から中へ引上げ。
+302,ユーパトリム　ルゴサム ‘チョコレート’,Ageratina altissima 'Chocolate',—,低,中,firm/strong upright stems で基本自立し staking 不要だが草丈90〜120cmと高性で肥沃地・日陰では倒れうるため—ではなく低が妥当。
+306,ガウラ‘サマーブリーズ’ （ハクチョウソウ）,Gaura lindheimeri 'Summer Breeze',低,中,中,"MBG『thin flower stems tend to become leggy and flop, particularly in rich soils』かつ草丈80〜120cm・管理タイプC(夏前切戻)整合で中。"
+311,ネペタ　ムッシーニアイ‘アルバ’,Nepeta mussinii 'Alba',—,低,中,キャットミントは開花後や半日陰で中央が開き flop する性質があり花後刈込で軽減する管理、低が妥当（低草だが倒伏概念が当てはまるため—は不適）。
+318,ベロニカ‘ピンクダマスク’,Veronica spicata 'Pink Damask',—,低,中,MBGは直立自立とするが、複数記述で経年・肥沃地・高性化で花穂が寝る傾向あり草丈60cm超のため、極端条件で乱れうる=低に一段上げ。
+325,ポテンチラ　ホップウッディアーナ,Potentilla × hopwoodiana,—,低,中,本来やや粗放な株姿だが、RHS/Beth Chattoが『肥沃地では丈が伸び倒れやすい（floppy）』と明記、草丈45〜50cmで極端条件で乱れうるため—から低に一段上げ。
+327,ユーパトリウム　コエレスティナム (セレスチナム)(アオバナフジバカマ),Eupatorium coelestinum,高,中,中,各Extensionが『taller plants may be cut back to prevent flopping／切戻しで倒伏防止』とし、草丈50〜60cmで切戻しにより軽減できるため支柱ほぼ必須の高ではなく中が妥当（環境・肥沃度で倒れる中の記述と一致）。
+339,ホスタ‘ジューン’,Hosta (Tardiana Group) 'June',低,—,中,叢生の葉物マウンドで倒れる性質がなく同群の338/346と同じく該当なし＝—が妥当。
+340,サルビア　バーティシラータ ‘パープルレイン’,Salvia verticillata 'Purple Rain',高,中,中,草丈45-60cmで肥沃地・多肥・日陰で寝るがリーンな土・日向で改善する土壌依存の倒伏で、高性大輪並みの支柱必須(高)ではなく中が妥当。
+345,ガウラ‘サンセットドリーム’ （ハクチョウソウ）,Gaura lindheimeri 'Sunset Dreams',—,中,中,細い花茎が徒長して寝る名物種で肥沃地でよく倒れ隣接支持が推奨、管理C(夏前切戻)が倒伏防止目的である以上—は過小で中が妥当。
+349,ペンステモン　ジギタリス ‘ダークタワーズ’,Penstemon digitalis 'Dark Towers',—,低,中,丈夫で直立の茎により基本自立し支柱不要だが草丈75-90cmと高性で肥沃地・過湿では乱れうるため—(低草/ロゼット向け)ではなく低が適切。
+356,アンドロポゴン　スコパリウス ‘ブレイズ’,Andropogon scoparius 'Blaze',—,中,中,リトルブルーステムはMBGが肥沃地・過湿・日陰で開帳して倒れると明記、草丈100cmで園地の肥沃土壌では倒伏名物種のため中に引き上げ。
+357,アンドロポゴン　スコパリウス ‘プレーリーブルーズ’,Andropogon scoparius 'Prairie Blues',—,中,中,リトルブルーステムの実生青葉系で草丈100cm、種同様に肥沃地・過湿で開帳倒伏しやすいため中に引き上げ。
+361,アンペロプシス　‛エレガンス’ （斑入りノブドウ）,Ampelopsis glandulosa var.brevipedunculata ‛Elegans’,高,—,高,巻きひげで登攀するつる性木本で「倒伏」の概念が当てはまらず、高は明白な誤りのため該当なし=—に修正。
+362,セントーレア　モンタナ‘アルバ’ （ヤマヤグルマギク　白花）,Centaurea montana 'Alba',高,中,中,"MBGは『erect, unbranched stems 1-2'(30-60cm)』とし、肥沃地で中央が開帳し寝やすい既知の弱点はあるが草丈40-60cmで支柱必須の高性大輪ではないため、高は過大評価で中が妥当。"
+374,アラビス　アルピナ　subsp.コウカシカ  ‛ピクシークリーム’,Arabis alpina subsp. caucasica 'Pixie Cream',低,—,高,草丈10cmのマット状グラウンドカバーで完全自立し倒伏概念が当てはまらないため該当なし=—。
+376,エリンジウム　ユッキフォリウム,Eryngium yuccifolium,—,低,中,草丈100〜120cmだが硬い茎で通常は自立、肥沃土・過湿・半日陰でのみ倒れうるため低。
+377,ガウラ‘ホワイトファウンテン’ （ハクチョウソウ）,Gaura lindheimeri 'White Fountain',—,中,中,細く柔らかい花茎が寝やすく肥沃地で開帳、管理タイプC（夏前切戻＝倒伏防止）と整合するため中。
+382,サルビア　シルベストゥリス ‘メイナイト’,Salvia x sylvestris 'May Night',—,低,中,硬い茎で概ね自立するが夏に株中央が開き寝ることがあり管理B（花後刈込）と整合するため低。
+383,サルビア　プラテンシス ‘スウィートエスメラルダ’,Salvia pratensis 'Sweet Esmeralda',—,低,中,草丈50〜60cmで通常は自立するが緩い草姿で肥沃・弱光下で寝やすく極端条件で乱れうるため低。
+384,サルビア　プラテンシス ‘トワイライトセレナーデ’,Salvia pratensis 'Twilight Serenade',高,低,中,草丈50〜60cmの草原セージで支柱必須の高性大輪ではなく、姉妹品種383と同じく自立主体のため高は過大で低に修正。
+397,ヘリオプシス　ヘリアンソイデス ‘サマーナイト’,Heliopsis helianthoides 'Summer Nights',—,中,中,草丈100〜120cmの高性キク科で『花茎が弱く、露地・肥沃地では倒伏(lodge)し支柱を要する』と一次情報にあり、自立扱いの—は明確に低すぎ→中に修正。
+398,ルピナス‘フローレイン’,Lupinus × hybrida 'Fraulein',—,中,中,草丈80〜100cmで密な重い花穂・中空茎のルピナスは風雨で寝やすくRHSも支柱要と記す一方マット/ロゼットではないため『該当なし=—』は過小で中が妥当。
+403,リアトリス　スピカータ ‘フローリスタンホワイト’,Liatris spicata 'Floristan White',—,中,中,草丈70〜80cmの切花向け高性選抜でMBGが支柱要と記し『倒伏が問題にならない=—』は過小、環境次第で寝る中が妥当。
+404,リアトリス　スピカータ ‘フローリスタンバイオレット’,Liatris spicata 'Floristan Violet',—,中,中,草丈70〜80cmの長花穂切花選抜でMBGが支柱要と記し、—は過小で中が妥当。
+405,ヴァーバスカム　シャイクシ ‘ウェディングキャンドルズ’,Verbascum chaixii 'Wedding Candles',—,低,中,ロゼットから伸びる草丈100cmの穂で基本自立するが肥沃地では支柱要とMBGが記すため、極端条件で乱れうる低が妥当。
+406,ヴァーバスカム　シャイクシ ‘シックスティーンキャンドルズ’,Verbascum chaixii 'Sixteen Candles',—,低,中,草丈100cmのchaixii系穂で基本自立だが肥沃地で徒長し支柱要となるため低が妥当。
+407,ヴァ―バスカム　フェニセウム ‘ビオレッタ’,Verbascum phoeniceum 'Violetta',—,低,中,草丈60〜90cmでロゼットから細い花茎の穂を上げ基本自立だが細茎ゆえ寝ることがあり低が妥当。
+418,アムソニア　フブリックティー (フブリヒティ）（チョウジソウ）,Amsonia hubrichtii,低,中,中,MBGが半日陰・肥沃地・無切戻で開帳倒伏し切戻で軽減と明記、切戻前提の倒伏傾向種で中=中（低から上げ）。
+420,ガウラ‘ザ　ブライド’ （ハクチョウソウ）,Gaura lindheimeri 'The Bride',—,中,中,細花茎が肥沃地・半日陰で倒伏開帳し夏前切戻(管理C)で軽減する名物的スプロール種、—は過小のため中=中（—から上げ）。
+438,オミナエシ （パトリニア　スカビオシフォリア）,Patrinia scabiosifolia,—,低,中,草丈90〜120cmと高性で低草/マット/グラスに該当せず、細く硬い花茎で基本自立だが極端条件で乱れ得るため—から低へ修正。
+446,チャスマンティウム　ラティフォリウム  (ワイルドオーツ),Chasmanthium latifolium,高,中,中,70-100cmの叢生グラスで日陰・肥沃地・多肥では茎が徒長し穂の重みで開帳・倒伏するが、支柱必須ではなく日照・貧栄養で自立するため『高』は過大、環境次第で倒れる『中』が妥当。
+448,パニカム　バーゲタム‘スクオー’,Panicum virgatum 'Squaw',—,低,中,120-150cmの高性スイッチグラスで直立選抜だが日陰・肥沃地で開帳しやすく、直立の名品種‘ノースウィンド’(低)より倒れにくいとは言えず『—』は過小、少なくとも『低』が妥当。
+465,ルドベキア　サブトメントーサ ‘リトルヘンリー’,Rudbeckia subtomentosa 'Little Henry',中,低,中,"‘Henry Eilers’より1/3低い矮性選抜で、一次情報が『strong, non-flopping stems』『doesn't fall open in the garden』と明記しており80〜90cmでも丈夫に自立するため、中→低へ引き下げ。"
+486,アスター　アンベラータス,Aster umbellatus,低,中,中,草丈100〜150cmと高性で花序が重く倒れやすく支柱や春の切戻しが勧められるため低→中に上げる。
+487,アンスリカス　シルベストリス ‘レイブンスウィング’,Anthriscus sylvestris 'Ravenswing',—,低,中,草丈60〜80cmのカウパセリで風雨下では茎が寝やすく軽い支柱が有効なため—→低に修正。
+498,サルビア　プラテンシス‘マドリン’,Salvia pratensis 'Madeline',—,中,中,MBG『if plants flop…cut back to basal foliage』かつ草丈70〜80cmで疎な立性のメドウセージは寝やすく、該当なしは低すぎ=中へ上げ。
+499,シダルセア‘ロザリー’,Sidalcea malviflora 'Rosaly',—,中,中,草丈80〜100cmの穂状で半日陰・肥沃地で倒れやすく支柱推奨との記述、該当なしは明確なズレ=中へ上げ。
+502,セダム　スぺクタビル‘ネオン’,Sedum spectabile ‛Neon’,—,中,高,MBG『weak floppy growth in…overly rich soils』、頭が重く肥沃地・株が大きいと中央が割れて開く定番種でChelsea chop推奨、該当なしは倒伏名物種の過小評価=中へ上げ。
+512,ベロニカストラム　バージニカム ‘ファシネーション’,Veronicastrum virginicum 'Fascination',—,中,高,草丈120～150cmの直立スパイクでMBGが日陰・肥沃地で倒れ支柱を要すると明記、—（該当なし）は明確に低すぎるため環境次第で倒れる中へ上げ。
+516,リアトリス　スカリオーサ (花：ピンク),Liatris scariosa,—,中,高,草丈120cmの高性リアトリスでNCSUが『茎は加齢で倒れやすく支柱が必要な場合』と明記、—は明確に低すぎるため環境次第で倒れる中へ上げ。
+517,リアトリス　スカリオーサ ‘アルバ’,Liatris scariosa 'Alba',—,中,中,草丈100cmの高性リアトリス（種はscariosaと同一）で茎が加齢で倒れやすく支柱を要す記述があり、—から環境次第で倒れる中へ上げ。
+518,アンテミス　ティンクトリア‘アルバ’ （ダイヤーズカモミール 白花）,Anthemis tinctoria 'Alba',—,中,中,"MBG『grown in rich or heavily fertilized soil, may become leggy and require staking』かつ開花後に開帳・徒長しやすく『cut back after bloom』推奨、草丈50〜60cmで管理タイプCと整合するため—は過小で中。"
+521,アキレア‘ウォルターフンク’,Achillea ‛Walter Funcke’,低,中,中,セイヨウノコギリソウ系は肥沃地で茎が寝て中央が開帳しやすく支柱・グリッド推奨、草丈60〜75cmで管理タイプC(倒伏防止)と整合するため低より中。
+522,アキレア‘テラコッタ’,Achillea 'Terracotta',高,中,中,"一次情報は『sturdy, non-floppy stems』とし過肥時のみ倒伏、草丈80〜90cmのmillefolium系で開帳もするが支柱ほぼ必須の高は過大で中が妥当。"
+527,アスター‘ブルーマジック’,Aster ‛Blue Magic’,—,中,中,草丈90〜120cmの秋咲高性アスターで倒伏名物、管理タイプC(夏前切戻)も倒伏防止目的のため—は明確に過小で中。
+529,アスター　ノバエアングリアエ ‘ビオレッタ’ (ネバリノギク),Aster novae-angliae 'Violetta',中,高,高,MBGはニューイングランドアスターが満丈で倒れやすく背高種は支柱・7月までのピンチ必須とし、草丈130〜150cmは倒伏名物の高性アスターで高が妥当。
+533,アルテミシア ブルガリス ‘オリエンタルライムライト’ （フイリヨモギ）,Artemisia vulgaris 'Janlim',—,中,中,草丈90-100cmで夏に茎が伸びて倒伏し刈込が推奨される旨MBGに明記のため—から中へ上げ。
+542,コレオプシス‘レッドシフト’,Coreopsis 'Redshift',—,中,中,"MBG『Plant stems tend to sprawl, particularly in hot and humid climates with periodic heavy summer rainfall』かつ肥沃地・日陰でweak floppy growth、草丈70-90cmで環境次第で倒れるため—は過小=中。"
+545,ジギタリス　プルプレア ‘モンストローサ　パープル’,Digitalis purpurea 'Monstrosa Purple',—,低,中,基本は硬い花穂で自立するが、草丈120cmと高く、RHSは強風・降雨下の高性種で花穂が倒れ支柱が要ることに言及＝極端条件で乱れる=低。
+548,スカビオサ　オクロレウカ,Scabiosa ochroleuca,—,低,中,草丈70-80cmと高く、柔らかな葉叢から細く分岐したワイヤー茎が伸びる軽やかな草姿で、肥沃地・降雨後にしなだれ乱れやすい＝—は過小で低。
+549,セダム　テレフィウム ‘マンステッドダークレッド’,Sedum telephium 'Munstead Dark Red',—,中,高,MBG『weak floppy growth when grown in too much shade or in overly rich soils』、セダム(テレフィウム)は肥沃地で中央が裂けて開帳する代表種でチェルシーチョップが定番、—は明確な過小=中。
+555,パニカム　バーゲタム ‘クラウドナイン’,Panicum virgatum 'Cloud Nine',—,低,中,150～180cmと最も背高のスイッチグラス品種で、MBGは肥沃地・半日陰で倒伏し支柱要と記述→痩せ地では自立するが乱れ得るため叢生グラスの原則—から一段上げ低。
+561,フィソステギア　バージニアーナ ‘ディープピンク’,Physostegia virginiana 'Deep pink',—,中,高,"MBGが『stems tend to flop in rich soils, too much shade or hot summer temperatures; taller plants may need staking』と明記する倒伏名物種で70～80cm、—は明確なズレのため中へ上方修正。"
+562,フェニキュラム　ブルガレ (フェンネル　緑葉）,Foeniculum vulgare,—,低,中,100～150cmと高く、風の強い場所や肥沃地では支柱が有効（多くは不要）→通常は自立するが乱れうるため—から一段上げ低。
+563,ユーパトリウム　白花,Eupatorium album L.,—,低,中,Eupatorium属で最も低い部類だが60～100cmまで伸び、丈が出ると支柱が要ることがあるため—から一段上げ低。
+566,プルモナリア‘スピルドミルク’,Pulmonaria 'Spilled Milk',低,—,中,草丈15～25cmの低いマウンド状葉物で春の短い花茎、倒伏は問題にならず低いマット/ロゼットの原則どおり=—。
+567,フロックス　パニキュラータ ‘ブルーキャンディ’,Phlox paniculata 'Blue candy',低,中,中,高性フロックス75～85cmでMBG『taller stems may need staking』、肥沃度次第で寝るため低は過小=中。
+579,ベロニカストラム　バージニカム ‘ラベンデルターム’,Veronicastrum virginicum 'Lavendelturm',—,低,中,基本は自立し支柱不要だが、日陰・乾燥・過肥や過度の日陰で倒れると各所が明記、草丈120-150cmと高いため『倒伏無関係=—』は過小で低に是正。
+581,ポテンチラ　ネパレンシス ‘メルトンファイヤー’,Potentilla nepalensis 'Melton Fire',—,低,中,長く細いワイヤー状の茎が這って開帳するスクランブラーで各所が『sprawling habit』と明記、寝る性質が明確なため—から低へ是正。
+582,ポテンチラ　アトロサンギネア　 var.アルジロフィラ,Potentilla atrosanguinea var. argyrophylla,—,低,中,叢生でやや直立気味だが花はワイヤー状の枝分れ茎に付き50cmで中央が開きやすいため、自立寄りだが低が妥当（—は過小）。
+584,ポルモニウム　カエルレウム ‘アプリコットディライト’,Polemonium caeruleum 'Apricot Delight',—,低,中,肥沃地で伸びると倒れ支柱を要すとMBGが記載、花後刈込型管理(B)とも整合、草丈30-40cmで軽度に寝るため—から低へ是正。
+590,リアトリス　スピカータ,Liatris spicata,—,中,高,MBG『Taller plants may require staking or other support』かつ草丈80-90cmの重い花穂で肥沃地・多湿では倒れやすく、条件次第で支柱要=中（矮性Koboldと異なり倒伏名物種のため—は不適）。
+605,アキレア　ミレフォリウム ‘レッドベルベット’,Achillea millefolium 'Red Velvet',—,中,高,MBG『茎は特に高温多湿・肥沃地で倒れやすく、開花前に切戻すとよい』で60-70cmの倒伏名物種、—は過小につき中へ修正。
+607,アスター　コーディフォリウス ‘アイデアル’,Aster cordifolius 'Ideal',—,中,高,『茎が倒れることがあり、特に日陰・無摘芯で支柱を要す。7月半ばまで摘芯で倒伏回避』で100-120cm・管理C（夏前切戻）と整合、—は過小につき中へ修正。
+608,アスター　エリコイデス ‘ハピーブルーミング’,Aster (symphyotrichum) ericoides 'Happy blooming',—,中,中,『肥沃地で徒長して倒れやすく、支えがないと垂れ下がるため要支柱』で100-120cm・管理Cと整合、—は過小につき中へ修正。
+609,オトコエシ（パトリニア　ビロサ）,Patrinia villosa,—,低,中,叢生で基本自立するが、100cmの細い花茎が sprawling（横に張り出す）傾向と記され肥沃地で寝うるため、—より低が妥当。
+617,タイム プレジオアイズ‘フォックスリー’ （フォックスリータイム）,Thymus pulegioides 'Foxley',低,—,中,草丈15〜20cmのマット状匍匐タイムで倒れる概念が当てはまらず、低ではなく該当なし=—が妥当。
+618,クリサンセマム　ニポニカム （ハマギク）,Chrysanthemum nipponicum Matsumura,—,中,中,"MBG/CBG『becomes leggy and flops if left untended, may flop if overfed; pinch in summer』とあり60〜90cmで肥沃地・無摘心で寝るため中。"
+620,ヘリオプシス　ヘリアンソイデス ‘バーニングハート’,Heliopsis helianthoides var. scabra 'Burning Hearts',低,中,中,"100〜120cmで『flower stalks can be weak, may require staking in exposed sites or excessively rich soils; leggy』とされ、肥沃地・半日陰で寝るため低→中。"
+622,ヘレニウム‘マルディグラ’,Helenium ‛Mardi gras’,—,中,中,MBG『most heleniums benefit from staking or other support』で草丈約90〜100cm、ヘレニウムは倒伏の代表種、剛直な茎ながら肥沃地で寝るため—→中。
+623,ペロブスキャ（ロシアンセージ）,Perovskia atriplicifolia,—,中,高,『falls open in the middle as stems get long and bloom-heavy; prone to flopping in rich soil/low light; Chelsea chop or staking』の中央開帳・倒伏名物種で100cm、—→中。
+636,アキレア　ミレフォリウム ‘カシス’,Achillea millefolium 'Cassis',—,中,高,60cmのセイヨウノコギリソウ品種で肥沃・高温多湿地で倒れやすくChelsea chopで軽減の記述あり、—は明確なズレのため中へ修正。
+641,アンドロポゴン　ジェラルディ,Andropogon gerardii,—,低,中,"MBG『less apt to topple in dryish, infertile soils（＝肥沃・多湿では倒れやすい）』、草丈120〜180cmの高性グラスで肥沃地では倒伏しうるため—より低が妥当=低。"
+661,ビュフサルマム　サリシフォリウム ‘アルペンゴールド’,Buphthalmum salicifolium 'Alpengold',—,中,中,細く直立するが長期開花で株が開帳・寝やすく『plants need staking』の記述、草丈30〜50cmで支柱要=中（—は過小評価）。
+680,モナルダ　フィッツローサ （ワイルドベルガモット）,Monarda fistulosa,—,中,高,草丈80～100cmで肥沃・湿潤地では倒れやすく夏前切戻(管理C)が倒伏防止目的、プロトコルもモナルダを高性倒伏種に例示するため—は明確なズレで中へ上げる。
+685,ジプソフィラ　パニキュラータ ‘スノーフレーク’,Gypsophila paniculata 'Snowflake',—,中,高,草丈約100cmの八重カスミソウでMBGが『may need staking』と明記、肥沃地では倒れやすいため—は明確なズレで中へ上げる。
+690,セントーレア　プルケリマ,Centaurea pulcherrima,—,低,中,ペルシャヤグルマギクは30〜50cmだが開花期に枝がやや寝る傾向があり、—では過小、低が妥当。
+691,パニカム　バーゲタム ‘プレーリースカイ’,Panicum virgatum 'Prairie Sky',—,中,高,150〜180cmの倒伏で名高いブルー系品種で肥沃地・半日陰でflop/開帳する明記があり、—は明確な過小評価で中へ修正。
+696,エキナセア　‘イエローパッション’,Echinacea 'Yellow Passion',—,低,中,草丈50〜70cmのエキナセアで基本自立だが過肥で寝うる点と同属他品種（ビンテージワイン/バージン=低）との整合から—→低。
+698,アジュガ‘バニラチップ’,Ajuga reptans 'Vanilla Chip',低,—,高,草丈15cmのランナー型マット状グラウンドカバーで自立し倒伏概念が当てはまらないため該当なし=—。
+703,サルビア ‘ラプソディ　イン　ブルー’,Salvia × sylvestris 'Rhapsody in Blue',高,中,中,MBG『may become somewhat floppy and open up』で開帳・寝は起こるが草丈40～50cmのコンパクト種で支柱必須ではなく切戻しで対処=中(高からやや下げ)。
+707,トリフォリウム　ルーベンス ‘フロスティーフェザーズ’,Trifolium rubens f. album 'Frosty Feathers',—,低,中,直立叢生だが『flopping can occur in overly rich soil』とされ草丈60cmで肥沃地では寝うるため該当なしより低が妥当=低。
+709,バーノニア　ノベボラセンシス,Vernonia noveboracensis,—,中,高,草丈150～180cm(5-7')の叢生で『tendency to flop』、Mt.Cubaはドライ植栽かChelsea chopでの倒伏軽減を推奨しており—は明確に低すぎ=中。
+710,バーノニア　ノベボラセンシス ‘ホワイトライトニング’,Vernonia noveboracensis 'White Lightning',—,中,中,"草丈150〜180cmの高性種で、MBGは『tall, upright, stiff stems』とするがUMD Extensionは『full sunなら支柱不要』＝日照不足・肥沃地では倒れやすく環境依存のため—は低すぎ中が妥当。"
+725,モリニア　カエルレア ‘ムアフラム’,Molinia caerulea subsp. caerulea 'Moorflamme',中,—,高,RHSはコンパクトな叢生で花茎が『slightly upright』・self-supportingと記載、支柱記述なし。自立グラスで中は過大評価のため—に修正。
+726,モリニア　カエルレア ‘ムアヘックス’,Molinia caerulea subsp. caerulea 'Moorhex',中,—,高,‘Moorhexe’は狭葉の密な直立クランプを作る代表的な自立コンパクト種で支柱不要。中は過大のため—に修正。
+741,サリクトラム（タリクトラム） ロチブルニエナム,Thalictrum rochebrunianum,中,低,中,MBGが『sturdy flower stems which usually do not require staking or support（丈夫な花茎で通常支柱不要）』と明記、高性だが自立性が高いため中→低に修正。
+745,ジギタリス　プルプレア ‘モンストローサ ホワイト’,Digitalis purpurea 'Monstrosa White',—,中,中,草丈120cmの高い花穂で『may need staking particularly in exposed/windy spots；over-fertilization causes flop（露地・肥沃地・強風で倒れやすく支柱が要ることがある）』ため、—は低すぎ環境次第で倒れる中に修正。
+746,ジプソフィラ　パニキュラータ　 ‘ブリストル　フェアリー’,Gypsophila paniculata 'Bristol Fairy',—,中,中,MBGが『may need staking or other support』と明記し、草丈90cmで八重の頭花が重く株全体が開帳・寝やすいため中（—は低すぎる）。
+751,セダム‘マトロナ’,Sedum 'Matrona',低,中,中,MBGが『weak floppy growth when grown in too much shade or in overly rich soils』と記載、草丈60cmの高性セダムで肥沃地・日陰で中央が開帳、Chelsea chop（管理C）対象のため中。
+755,セントーレア‘ジョイス’,Centaurea montana 'Joyce',—,低,中,Centaurea montanaは開花後に姿が乱れ寝広がる（花後刈込＝管理Bで整える）ことが知られ、草丈45cmで基本自立するが乱れうるため—から低へ。
+773,ミスカンサス　シネンシス　 f.グラシリマス（イトススキ）,Miscanthus sinensis f. gracillimus,—,低,中,叢生グラスで基本自立だがMBGが成株は支持を要する場合があると明記し、日陰・肥沃・多雨で寝る／中央開帳するため—でなく低が妥当。
+777,ムクデニア　ロッシー‘カラスバ’ （イワヤツデ・タンチョウ草）,Mukdenia rossii 'Karasuba',低,—,中,20～30cmのヒューケラ状マウンド叢生で自立し倒伏が問題にならないためプロトコル基準（〜30cmは原則—）に沿い低から—。
+780,リクニス　ハーゲアーナ ‘モルテン　ラバ’,Lychnis×haageana ‘Molten Lava’,低,—,中,20～30cmの低くこんもりした短命叢生で自立し倒伏対象外のためプロトコル基準（〜30cmは原則—）に沿い低から—。
+795,アスター　‘ビクトリア’,Aster 'Victoria',—,中,中,ノビベルギー系（ミカエルマスデージー）で草丈80cmの秋咲き大株、花の重みで寝やすくピンチ/半支柱を要する中背アスターのため—は過小、中が妥当。
+805,ヘレニウム‘タイダイ’,Helenium autumnale 'Tie dye',—,高,高,ヘレニウム・オータムナレは倒伏名物種で支柱かチェルシーチョップがほぼ必須、草丈60〜80cm・管理タイプC（夏前切戻＝倒伏防止）とも整合し高。
+808,ベロニカストラム バージニカム‘エリカ’,Veronicastrum virginicum 'Erika',—,低,中,"草丈120cmの直立種でMBG『seldom needs staking, but tends to flop and require support if grown in too much shade』、日向では強直立だが高性・半日陰で寝るため—は過小、低が妥当。"
+814,パニカム バーゲタム ‘ブルージャイアント’,Panicum virgatum 'Blue Giants',—,低,中,草丈150〜180cmの高性青葉スイッチグラスで日向・痩地なら直立だが肥沃地・過湿で開帳しやすく、同属の低性‘エメラルドチーフ’が低である整合上も—は過小、低が妥当。
+834,プリムラ‘プリマデイエンテローズ’,Primula cortusoides 'Primadiente Rose',低,—,中,25cmの低いロゼット型プリムローズで倒伏概念が当てはまらず、低→該当なし=—に修正。
+835,ベロニカストラム　バージニカム f.アルビフローラム,Veronicastrum virginicum f.albiflorum,—,中,高,草丈180cmの高性種で、半日陰・肥沃土・古株では倒れ支柱を要すとMBG記述。倒伏無関係の—は明確に低すぎ→中に修正。
+836,シダルセア'ビアンカ',Sidalcea candida 'Bianca',—,低,中,80cmのミニホリホック状花穂で強風・肥沃地では傾きうる。倒伏無関係の—よりは自立寄りの—→低が妥当。
+838,アジュガ‘ブラックスカロップ’,Ajuga reptans 'Black Scallop',低,—,高,10〜20cmの匍匐マット状GCで倒れる概念が当てはまらず、低→該当なし=—に修正。
+855,モリニア　カエルレア　 ‘ハイデブラウト’,Molinia caerulea 'Heidebraut',中,低,中,モリニアの中でも直立性が強く豪雨でも自立し支柱不要との一次記述があり、120cmの叢生グラスだが倒伏傾向は弱いため中→低に修正。
+865,ユーパトリウム'アイボリータワー',Eupatorium fistulosum f. albidum 'Ivory Towers',—,中,高,草丈150〜200cmと極めて高く、強風・半日陰で支柱要・徒長時ピンチで倒伏軽減との一次記述があり、—は明確な過小評価のため中に修正。
+866,ベロニカ スピカータ'ナナ' （ヒメルリトラノオ）,Veronica spicata 'Nana',低,—,中,'ナナ'は草丈15〜20cmの矮性・叢生で直立自立し支柱不要、〜30cmの低草丈カテゴリのため倒伏は問題にならず—が妥当。
+875,ジギタリス　ルテア,Digitalis lutea,—,低,中,スリムで丈夫な花茎だが草丈60〜90cmの直立花穂で『強風で折れるのを防ぐため多風地では支柱』とされ、—（マット/ロゼット等の非該当）ではなく基本自立の低が適切。
+901,イベリス センパービレンス'スノークッション',Iberis sempervirens 'Snow cushion',低,—,高,草丈15cmの常緑マット型で完全自立し倒伏概念が当てはまらないため、低→—へ下方修正(低草マット=—の原則に整合)。
+902,アスター'ブリリアントパープル',Aster 'Brilliant Purple',低,中,中,草丈90cmの叢生アスターは花房が重く倒れやすく、MBGも「pinch to avoid flopping／tall plants may need staking」と記載。管理タイプC(夏前切戻)が倒伏防止目的で整合し、低→中に修正。
+914,クニフォフィア ‘シャイニングセプター’,Kniphofia 'Shining Sceptre',(空欄),低,高,MBGは基部叢生＋直立の裸花茎（花穂30〜40インチ）と記し支柱・倒伏の言及なし、トーチリリーは太い花茎で自立するため草丈90〜100cmでも倒伏リスクは低。
+915,アスクレピアス　インカルナータ ‘ミルクメイド’,Asclepias incarnata 'Milkmaid',(空欄),低,高,"MBGは『erect, clump-forming…on branching stems』で直立叢生・分枝茎と記し支柱や倒伏の言及なし、草丈80〜100cmでも茎が丈夫で基本自立するため低。"
+916,サリクトラム（タリクトラム） ディラバイ‘アルバム’,Thalictrum delavayi 'Album',(空欄),高,高,MBGのProblems欄が『Thin plant stems usually require staking or other support』と明記、草丈120〜150cmで細茎の高性メドウルーは倒伏必至のため高。
+917,コレオプシス ‘マーキュリーライジング’,Coreopsis 'Mercury Rising' PBR (Big Bang Series),(空欄),低,高,C. grandiflora×verticillata交配で高さ38〜45cm・幅広マウンド状のよく分枝した株、倒伏や支柱の記述なく自立するため低。
+907,フロックス　ディバリカータ ‘ホワイト’,Phlox divaricata 'White',(空欄),—,高,草丈20〜40cmのマット状・匍匐性の林床フロックスで自立(地を這う)。倒伏非該当で空欄に—を付与。
+908,コクリュウ,Ophiopogon planiscapus 'Nigrescens',(空欄),—,高,草丈10〜15cmの叢生常緑グラス状で自立。低草丈につき倒伏非該当で空欄に—を付与。
+909,ヤブラン白斑シルバードラゴン,Liriope spicata 'Gin-ryū' (SILVER DRAGON),(空欄),—,高,草丈25〜30cmの叢生・地下茎型ヤブランで自立。低草丈につき倒伏非該当で空欄に—を付与。
+910,ファラリス （フイリクサヨシ・アシフイリ,Phalaris arundinacea var. picta,(空欄),中,中,リボングラスは出穂後に倒れやすく(tends to flop)、肥沃地・半日陰で開帳しやすい。草丈60〜150cmと相まって倒伏傾向ありで空欄に中を付与。
+911,サリクトラム（タリクトラム） ディラバイ,Thalictrum delavayi,(空欄),中,中,RHSが「may need staking、開花前に支柱」と明記。草丈120〜150cmで細く繊細な花茎が風雨で倒れやすく中(高性のため半支柱推奨)。
+912,プルモナリア　セベネンシス,Pulmonaria longifolia subsp. cevennensis,(空欄),—,高,草丈30〜40cmの叢生で葉が低くマウンド状、花茎も短く自立。倒伏非該当で空欄に—を付与。
+913,クニフォフィア（トリトマ） ‘オレンジバ,Kniphofia 'Orange Vanilla Popsicle' PBR (Popsicle Series),(空欄),—,中,草丈40〜50cmの矮性クニフォフィアで花茎(スケープ)は堅く直立・自立。倒伏非該当で空欄に—を付与。
