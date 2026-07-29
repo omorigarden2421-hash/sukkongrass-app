@@ -1,0 +1,162 @@
+﻿row,plant,sci,before,after,confidence,reason
+15,エキナセア　プルプレア ‘マグナス’,Echinacea purpurea 'Magnus',△,○,中,NCSUが'salt resistant'と明記し耐塩性ネイティブリストにも掲載、乾燥にも強いため△は低すぎ○へ。
+16,エキナセア　プルプレア ‘ホワイトスワン’,Echinacea purpurea 'White Swan',△,○,中,基本種E. purpureaをNCSUが'salt resistant'と明記し耐塩性リスト掲載、品種も同等で○へ。
+23,カンパニュラ　タケシマナ,Campanula takesimana,○,◎,中,鬱陵島の海岸・海洋環境に自生し学術的にhalotolerant（海塩に耐性）と報告、ナーサリーも海岸栽培可と明記→◎へ。
+24,カンパニュラ　タケシマナ ‘ビューティフルトラスト’,Campanula takesimana ‛Beautiful Trust’,○,◎,中,基本種C. takesimanaが海岸自生のhalotolerant種で潮風に強く、品種も同等→◎へ。
+26,カンパニュラ　プンクタータ ‘チェリーベル’（ホタルブクロ）,Campanula punctata ‛Cherry Bells’,△,○,中,RHSがC. punctataを'Exposed'（強風・潮風可）とし、ナーサリーも'salt tolerant'明記のため△→○へ上方修正（東アジア草原・岩場原産で直接の潮しぶきは避けたい）。
+27,カンパニュラ　プンクタータ ‘パンタルーン’,Campanula punctata 'Pantaloons',△,○,中,当該品種RHSページでExposure='Exposed'を確認、ナーサリーもsalt tolerant明記のため△→○（適湿の東アジア原産で潮しぶき直撃は不可）。
+29,キミキフーガ（ｱｸﾀｴｱ）シンプレックス ‘ブラックネグリジェ’,Cimicifuga simplex ‘Black Negligee’,△,×,中,湿潤・腐植質・日陰を好む林床植物で乾燥耐性も低く、一次情報に耐塩記載なし。現マスタの『乾燥耐性→耐潮性』は誤りで△→×へ下方修正。
+57,タイム‘ピーターデイビス’,Thymus ‘Peter Davis’,△,○,中,マスタ引用のJekka'sが「coastalで丈夫」と明記し、塩に強いタイム属である点から△は低過ぎ、海近の庭で可の○へ1段階上げ。
+65,トラディスカンティア ‘ブルーアンドゴールド’,Tradescantia (Andersoniana Group) 'Blue and Gold',◎,○,中,母種は湿潤草原・林床・路傍原産で直接の潮しぶきに良好とする一次情報はなく（◎の根拠は単一UKナーサリーのみ）、路傍程度の中庸な塩耐性=○へ下げ、同群'Red Cloud'とも整合。
+68,ビオラ　ラブラドリカ,Viola labradorica,◎,△,中,北方の湿潤林床・湿地・高山原産の日陰性スミレで乾燥にも弱く、◎の根拠は低品質アグリゲータ(Perenual等)のみ。海岸適性なしと判断し2段階下げの△（生態的には×寄り）。
+69,ヒューケラ‘グリーンスパイス’,Heuchera 'Green Spice',◎,○,中,H. americana系は岩場林・露岩原産で耐塩は中程度、偶発的な潮しぶきは可だが直接暴露の最前線には不向き=○へ（◎は過大評価）。
+70,ヒューケラ　サンギネア ‘ファイヤーフライ’,Heuchera sanguinea ‘Firefly’,◎,○,中,アリゾナ・NMの崖・高山の岩生種で本来非海岸、Heucheraの耐塩は中程度のため直接潮しぶき前提の◎は過大、○が妥当。
+71,ビンカ　ミノール ‘アトロプルプレア’,Vinca minor 'Atropurpurea',◎,○,中,欧州林床のグラウンドカバーでNCSUは耐塩タグ付だがUSDAはsensitive評価、道路塩程度は可でも直接潮しぶきの◎は過大→○（同種3行を○に統一）。
+73,ビンカ　ミノール ‘スターリングシルバー’,Vinca minor 'Sterling Silver',◎,○,中,同一種Vinca minorで一次情報は中庸な耐塩（USDA sensitive／NCSU耐塩タグ）にとどまり、直接潮しぶき前提の◎は過大→○（同種72行と整合）。
+76,フィソカルパス‘ディアボロ’ （アメリカテマリシモツケ ディアボロ）,Physocarpus opulifolius ‛Diabolo’,○,△,中,潮風・直接の塩しぶきには弱い（道路塩のみ可）とされ内陸河畔原産・塩感受性のため、軽度塩分のみ可の△へ1段階下げ。
+83,プルネラ　ブルガリス（セルフヒール）　,Prunella vulgaris,◎,○,中,海岸草地にも生えるが本質的に湿性草地の中程度耐塩植物で強い潮しぶき適地とは言い難く、◎→○へ1段階下げ。
+88,ペルシカリア ミクロセファラ ‘レッドドラゴン’,Persicaria microcephala 'RedDragon',△,○,中,RHS Exposureが'Exposed or Sheltered'かつ用途に'Coastal'を明記→潮風にある程度耐えると判断し△→○へ(ただし湿潤土壌好みで直接の潮しぶきは避けたい)。
+106,ホトトギス‘ライトニングストライク’,Tricyrtis hirta 'Lightning Strike',△,×,中,NCSUはT. hirtaを『shady rock cliffs or stream banks』の湿潤日陰原産とし耐塩記載なし＝乾燥・塩に弱く、同種の105が×との整合上も△→×へ是正。
+108,ユーホルビア　ポリクロマ,Euphorbia polychroma,◎,○,中,NCSUは耐塩を項目に挙げず（drought/rocky soil耐性のみ）、路傍塩・乾燥に強い中欧原産の草地種で海浜自生でもなく、現◎は別品種'Bonfire'根拠で過大→潮風にある程度耐える○へ下げ。
+114,リシマキア　プンクタータ,Lysimachia punctata,◎,○,中,湿った溝・草地原産でNCSUに耐塩/塩水噴霧タグが無く、◎（直接潮しぶき可）を裏付ける一次情報が乏しいため○へ引下げ（同属nummulariaと整合）。
+117,グレコマ　ヘデラセア ‘バリエガータ’（グレコマ斑入り）,Glechoma hederacea 'Variegata',△,×,中,PFAF等が「塩分で汚染された土壌には耐えない」と明記し、湿った日陰林床原産・乾燥弱のため、△から×（内陸向き）へ引下げ。
+127,ゲンチアナ‘ニキータ’,Gentiana dahurica 'Nikita',○,△,中,原産は標高800〜4500mの草地斜面・乾いた草原で海岸性なく、リンドウ属に耐塩の一次情報なし→○は過大で軽度可の△へ下方修正。
+128,コレオプシス　バーティシラータ ‘ムーンビーム’,Coreopsis verticillata 'Moonbeam',◎,○,中,NCSUは『tolerates low levels of salt』で海岸利用も『直接の潮しぶきが無ければ可』とし、直接暴露OKの◎は過大→○へ修正（土壌塩=道路塩には強い）。
+134,トリフォリウム　レペンス ‘アトロプルプレウム’,Trifolium repens 'Atropurpureum',◎,○,中,BSBIはNaCl耐性が低く砂丘でも稀・塩性湿地には欠くと記載、育種で耐塩性改良が試みられる程度のglycophyteで、直接の潮しぶき良好の◎は過大→ある程度耐える○が妥当。
+136,バーベナ　ハスタータ （バーベインブルー）,Verbena hastata,◎,○,中,淡水湿地・池縁原産で耐塩性はmoderate、潮風直撃の海浜植物ではないため◎は過大→○へ。
+139,フロックス　パニキュラータ ‘ノーラレイ’,Phlox paniculata 'Norah Leigh',×,○,中,沿岸重視のJersey-Friendly Yardsが耐塩性Mediumと明記、内陸専用の×は2段階過小→ある程度耐える○へ。
+140,フロックス　パニキュラータ ‘ハーレークィーン’,Phlox paniculata 'Harlequin',×,○,中,同種P.paniculataの耐塩性はMediumで、×は2段階過小→○へ（品種固有情報は乏しく種で補完）。
+146,ホトトギス‘ギルトエッジ’,Tricyrtis formosana 'Gilt Edge',◎,△,中,台湾の森林縁・渓流沿いの湿潤な半日陰原産で一次情報に耐塩性の記載なし（NCSUの'Coastal'は栽培可能地域の意で耐潮性指標ではない）、◎は苗屋の未検証記載のみ根拠のため湿潤林床性を踏まえ△へ引き下げ。
+155,クリサンセマム　エゾエンセ （コハマギク）,Chrysanthemum yezoense,△,◎,中,太平洋岸の海岸岩場・海食崖に自生する海浜植物で葉が多肉質、潮風直撃の厳しい海岸環境に適応（近縁ハマギクも代表的海岸植物）、△は過小につき◎へ引き上げ。
+166,トリフォリウム　レペンス ‘ドラゴンズブラッド’,Trifolium repens 'Dragon's Blood',○,△,中,"一次情報(FEIS/BSBI)は'low tolerance of sodium chloride, seldom on dunes, absent from salt marshes'と塩感受性を明示し、現○の根拠'coastal適応'は気候的なもの→潮風に弱く軽度塩のみ可の△へ下げる。"
+169,カンパニュラ　パーシシフォリア ‘モーハイミ’,Campanula persicifolia 'Moerheimii',△,○,中,複数情報源が塩耐性・海岸条件耐性ありと記載しRHSも露出地で栽培可（要支柱）とするため、軽度のみの△は過小→海が近い庭で可の○へ上げる。
+183,カンパニュラ　プンクタータ ‘ボールオブチェリー’,Campanula punctata 'Bowl of Cherries',○,△,中,一次情報は常時湿潤を好む林縁性で耐塩の記載なく、○は単一ナーサリーのSaltタグ依存→△へ下げ。
+190,ホスタ‘パトリオット’,Hosta 'Patriot',◎,○,中,NCSUは「わずかに耐塩」で風・日射に弱く葉焼けする性質→潮風直撃前提の◎は過大、遮蔽下の海近庭で可の○へ。
+199,バプティシア　オーストラリス （ムラサキセンダイハギ）,Baptisia australis,△,○,中,"NCSUが'#salt tolerant'タグ付けし『Particularly Resistant To: Drought, salt』と明記、深根の北米プレーリー原種で塩・乾燥に強いため△→○へ上げ。"
+216,ヒューケレラ‘ストップライト’,Heucherella 'Stoplight',◎,○,中,NCSUで耐塩タグはあるが Heuchera×Tiarella の日陰葉物で潮しぶきには弱く洗い流しを要し、親のHeuchera(○)と整合させ◎→○へ。
+221,トリフォリウム　レペンス ‘ウィートフェン’,Trifolium repens 'Wheatfen',◎,△,中,FEIS/BSBIで塩化ナトリウム耐性は低く塩性湿地には欠落・砂丘でも稀、湿った海岸草地やdune slackに定着する程度→◎は過大で△へ下方修正。
+225,フィリペンデュラ‘フジヘイズ’,Filipendula multijuga 'Fuji Haze',不明,×,中,近縁のメドウスイート類は湿性草地/水辺植物でnot salt tolerantと明記、本種も日本の湿った山地草原性→塩・潮風に弱い×と判定。
+232,エキナセア　プルプレア ‘ベビースワンホワイト’,Echinacea purpurea 'Baby Swan White',△,○,中,NCSUがSalt耐性を明記し塩風には耐えるが直接の塩噴霧は不可＝○相当のため△から1段階上げ。
+236,ジギタリス　プルプレア ‘エクセルシオール’,Digitalis purpurea 'Excelsior',◎,○,中,一次情報に塩耐性の裏付けがなくRHSはsheltered推奨で、海崖自生程度に留まるため◎は過大、同種'Apricot'と揃え○へ1段階下げ。
+254,パルサティラ　ブルガリス ‘ホワイトベル’,Pulsatilla vulgaris 'White Bells',◎,○,中,MBG・NCSUとも耐潮/coastal記載なく内陸の石灰質草原原産で、耐塩根拠はUtah乾燥地庭の土壌塩分tolerantのみ。潮風直接の◎は過大で、土壌塩分程度の○が妥当。
+256,リスラム　サリカリア （エゾミソハギ）,Lythrum salicaria,◎,○,中,FEIS/USGSは『塩水は不耐、淡水〜汽水湿地に生育』とし塩水噴霧・砂丘の◎は過大。汽水程度の塩分に耐える湿地植物で○が妥当。
+273,ルドベキア　サブトメントーサ ‘ヘンリーアイラーズ’,Rudbeckia subtomentosa 'Henry Eilers',◎,○,中,MBGは湿潤プレーリー・河畔原産で適湿を好み乾燥耐性は低いと記載、RHSも海岸非掲載で耐塩の一次情報無し。砂地・潮しぶき適の◎は過大で○へ下げる。
+275,ポルモニウム　エゾエンス ‘パープルレイン’,Polemonium yezoense 'Purple Rain',◎,△,中,北海道の湿潤な林床・山地原産で乾かすと弱り半日陰・保湿を好む種であり、乾燥耐性弱・耐暑弱とも整合。直接の潮風には弱く◎は過大、△へ大幅修正。
+277,クロコスミア‘エンバーグロウ’,Crocosmia 'Ember Glow',△,◎,中,塩しぶき・砂質土に耐えcoastal適と明記、南ア原産のCrocosmia属(◎のLucifer等)と整合。現△は根拠なき低評価で◎へ上げる。
+281,キミキフーガ（ｱｸﾀｴｱ）シンプレックス （サラシナショウマ）,Cimicifuga simplex,○,△,中,東アジアの湿潤林床原産で半日陰・湿った腐植土・防風を要する林床植物、一次情報に耐塩記載なく潮風に弱いため○→△へ下方修正。
+293,スピレア　ジャポニカ‘ゲンペイ’ （ゲンペイシモツケ）,Spiraea japonica 'Genpei',◎,○,中,査読研究でJapanese spireaは'moderately sensitive'（他スピレアより相対的に良好な程度）で直接潮しぶきの◎水準ではなく中程度の塩曝露向き→○へ下げ。
+302,ユーパトリム　ルゴサム ‘チョコレート’,Ageratina altissima 'Chocolate',◎,○,中,原産は東部北米の湿った肥沃な林床・林縁でMBG/NCSUとも耐塩の記載なし、根拠はナーセリータグのみ。林床性で直接の潮しぶきに耐える◎は過大、近海域可の○が妥当。
+306,ガウラ‘サマーブリーズ’ （ハクチョウソウ）,Gaura lindheimeri 'Summer Breeze',△,○,中,南部北米原産の直根性で乾燥に強く、NCSU沿岸リスト等に耐塩植物として掲載。'軽度のみ'の△は低く、潮しぶきは避けたいが海近可の○が妥当。
+320,ホスタ‘オーガストムーン’,Hosta 'August Moon',◎,○,中,"NCSU一次情報はHostaを""slightly salt tolerant""＝わずかな耐塩で、東アジア林床性の陰生植物→直接潮しぶきの◎は過大、海近の庭で可の○へ下げ。"
+323,ホスタ ‘フランシスウィリアムズ’,Hosta sieboldiana 'Frances Williams',◎,○,中,"NCSUはHostaを""slightly salt tolerant""、H. sieboldianaは日本の林床性大型種→直接潮しぶきの◎は過大で○へ下げ（nursery記載の""Salt Tolerant""より一次情報優先）。"
+339,ホスタ‘ジューン’,Hosta (Tardiana Group) 'June',◎,○,中,"NCSUはホスタを『slightly salt tolerant, 風から保護』とし、直接潮しぶき可の◎は過大→湿潤林床性も踏まえ○へ（他ホスタと整合）。"
+340,サルビア　バーティシラータ ‘パープルレイン’,Salvia verticillata 'Purple Rain',◎,○,中,RHS ExposureがSheltered（ただしCoastal掲載）で乾燥耐性も強く、海近の庭で可だが直接潮しぶきは避ける水準＝◎は過大→○へ。
+361,アンペロプシス　‛エレガンス’ （斑入りノブドウ）,Ampelopsis glandulosa var.brevipedunculata ‛Elegans’,△,○,中,PFAF等が耐塩・耐風で沿岸に適すると明記、日本/サハリン等の沿岸域原産で適応力高い→△から○へ引き上げ。
+363,サクシサ　プラテンシス,Succisa pratensis,×,△,中,PFAFが'can grow in saline soils'と明記し完全な不適とは言えない一方、湿地・湿った内陸草原原産で潮風には弱いため、×から軽度塩分可の△へ修正。
+366,ペルシカリア　アンプレクシカウリス ‘アルバ’,Persicaria amplexicaulis 'Alba',不明,△,中,RHSがBogs（湿地・湿潤）分類でヒマラヤ内陸原産、海岸用途の記載がなく塩には強くないが属としての強健さから、不明を軽度塩分のみ可の△へ。
+390,ピンピネラ　マヨール‘ロゼア’,Pimpinella major 'Rosea',◎,○,中,MBGは欧州の草原・牧草地原産で潮風/塩水噴霧の記載なく、RHSはExposed可・小売でroadside salt tolerantとされる程度→直接潮しぶきに強い◎は過大、○へ。
+400,オリエンタルポピー ‘プリンセスビクトリアルイーズ’,Papaver orientale 'Princess Victoria Louise',△,○,中,RHS Exposureが'Exposed or Sheltered'かつ用途'Coastal'を明記、NCSUで砂質・乾燥耐性→潮しぶき直撃は避けつつ海近庭で可の○へ1段階上げ。
+401,オリエンタルポピー ‘ロイヤルウェディング’,Papaver orientale 'Royal Wedding',△,○,中,同種'Princess Victoria Louise'と同じくRHSがExposed+Coastalを明記、砂質・乾燥耐性→○へ1段階上げ（品種間整合）。
+404,リアトリス　スピカータ ‘フローリスタンバイオレット’,Liatris spicata 'Floristan Violet',×,△,中,'Floristan White'と同一種でUSDA塩分耐性はNoneでなくLow(＝軽度可)・沿岸FAC、×は過小評価→△へ（品種間整合）。
+415,ヘメロカリス ‘クリムソン　パイレート’,Hemerocallis 'Crimson Pirate',○,◎,中,同属デイリリーはNCSUで直接の潮しぶきにも耐える高耐塩、同バッチの'Christmas Is'も◎で整合→◎へ上げ。
+420,ガウラ‘ザ　ブライド’ （ハクチョウソウ）,Gaura lindheimeri 'The Bride',△,○,中,北米南部プレーリー原産で乾燥/耐暑強、NCSU海岸耐塩リストに掲載(潮しぶきは避ける)しmoderate耐塩→○へ上げ。
+430,ヒューケラ‘サターン’,Heuchera 'Saturn',◎,○,中,一次情報に強い耐塩根拠はなくコーラルベルの耐塩は中程度どまりのため、直接潮しぶき可の◎は過大→○へ修正。
+439,オリエンタルポピー ‘ブリリアント’,Papaver orientale 'Brilliant',△,○,中,RHS Exposureが『Exposed』かつCoastal用途を明記し、乾燥に強く排水良好を好む性質と整合するため、△は過小評価→○へ引き上げ。
+440,サンギソルバ　ハクサネンシス （カライトソウ）,Sanguisorba hakusanensis,○,△,中,RHSは沿岸用途を掲載せず（現情報源の『RHSで海岸可』は裏付けなし）、白山の高山草原原産で湿潤寄り・乾燥耐性弱のため、○は過大→△へ引き下げ。
+455,エキナセア　プルプレア ‘グリーンジュエル’,Echinacea purpurea 'Green Jewel',△,○,中,NCSUで'salt resistant'、乾燥耐性強のプレーリー原産で耐塩性リストにも載る→△は低く、海が近い庭で可の○へ。
+457,ピオニア‘ポーラフェイ’,Paeonia 'Paula Fay',◎,△,中,シャクヤク類は土壌塩化で生育低下し品種差はあるが塩感受性〜中程度、海岸潮しぶき向き植物ではない→◎は過大で軽度の塩のみ可の△へ。
+465,ルドベキア　サブトメントーサ ‘リトルヘンリー’,Rudbeckia subtomentosa 'Little Henry',◎,○,中,MBGは内陸の湿った草原・河岸原産で耐塩の記載なし。ナーサリーは『salt tolerant/seashore』とするため中程度はあるが、潮しぶき直撃OKの◎は過大→○へ下方修正。
+472,トロリウス　カルトラム ‘レモンクイーン’,Trollius x cultorum 'Lemon Queen',◎,○,中,湿地・多湿粘土を好み乾燥と高温を嫌うグローブフラワーで砂地・直接潮風の◎は過大、根拠は一園芸店リストのみ→潮風直接を避ける海近い庭向けの○へ下げ。
+473,ベロニカ ‘アトミック　アメジスト　レイ’,Veronica spicata 'Atomic Amethyst Ray',×,△,中,×の根拠は耐寒シェルター論で塩と無関係、V. spicataは沿岸・ロックガーデンで広く使われ軽度の塩分に耐えるため内陸向き×は過小→△へ上げ。
+476,ペンステモン　ハシュータス,Penstemon hirsutus,◎,○,中,RHSの植栽用途にCoastalは無く（マスタのcoastal根拠は誤り）、露地/遮蔽両可でNCSUは塩耐性Mediumとするため乾燥に強い岩礫地原産でも◎は過大→○へ。
+488,エキナセア　プルプレア ‘グリーンエンヴィ’,Echinacea purpurea 'Green Envy',△,○,中,一次情報NCSUが耐塩性を明記し乾燥に強い草原植物のため、土壌塩分にはある程度耐えるが直接の潮しぶきは避ける○へ1段階上げ。
+496,サルビア　ネモローサ‘マローローズ’,Salvia nemorosa 'Merleau rose',△,○,中,同種‘マローホワイト’と同じS. nemorosaで、RHSが種レベルでExposed+Coastal掲載・乾燥耐性強のため△は過小、○へ1段階上げるのが妥当。
+497,サルビア　ネモローサ‘マローブルー’,Salvia nemorosa 'Merleau Blue',△,○,中,同種の他品種と同じくRHSが種レベルでExposed+Coastal掲載・乾燥耐性強のため△は過小、○へ揃えるのが妥当。
+508,ペルシカリア　アンプレクシカウリス ‘ゴールデンアロー’,Persicaria amplexicaulis 'Golden Arrow',○,△,中,湿地性でヒマラヤ湿潤地原産、RHSに沿岸記載なく現情報源perenualは信頼性低い→潮風に弱く軽度のみの△へ下方修正。
+520,アイリス‘ブラックフォーム’,Iris chrysographes 'Black Form',◎,△,中,常時湿潤を要する内陸の渓流畔・湿地草原原産で海浜性なし、Easyscape単独のsalt tolerant表記は信頼性低く◎は2段階過大→軽度塩分のみ可の△へ。
+524,アキレジア　カナデンシス ‘コルベット’,Aquilegia canadensis 'Corbett',◎,○,中,NCSUは林床(forest home)原産を強調し'Coastal FACU'は湿地指標(耐塩ではない)、道路塩程度は可だが潮しぶき直撃向きの海浜植物ではなく◎は過大→○へ。
+540,ゲラニウム　オクソニアナム ‘ワーグレーブピンク’,Geranium × oxonianum 'Wargrave Pink',◎,○,中,RHSはExposure=Exposed/Shelteredのみで『Coastal』や耐塩の記載はなく（現根拠の誤読）、ハーディゲラニウムは中程度の耐塩性→◎は過大で○へ修正。
+546,シレネ　 ディオイカ ‘ジェードバーリー’,Silene dioica 'Jade Valley',◎,○,中,BSBIでは海岸でも『sheltered cliff-top（風の弱い崖上）』等の生育でありS. uniflora（ハママンテマ）ほど強くない、直接潮しぶきは避けたい○へ1段下方修正。
+554,バーベナ　ハスタータ ‘ブルースピアーズ’(ﾊﾞｰﾍﾞｲﾝﾌﾞﾙｰ),Verbena hastata 'Blue spires',◎,○,中,湿った草原・沼地原産の淡水湿地植物で塩分は中程度耐性のみ、直接の潮しぶきには不適のため◎は過大で○が妥当。
+556,バプティシア×v. ‘トワイライトプレーリーブルース’,Baptisia ×variicolor 'Twilite',△,◎,中,親種のB.australisがNCSUで耐塩・沿岸適と明記、深根の草原植物で乾燥・塩に強く△は過小→◎へ2段階上げ。
+557,バプティシア　オーストラリス　 マイナー（ムラサキセンダイハギ）,Baptisia australis var. minor,△,◎,高,B.australisそのもので、NCSU・専門苗圃とも耐塩性・海浜適性を明記→△は過小、◎へ修正。
+558,ピオニア‘コーラルサンセット’,Paeonia 'Coral Sunset',◎,○,中,ピオニーはやや耐塩だが海際では要遮蔽・岩塩で枯死例あり、露出海岸(◎)は過大で○が妥当。
+559,ピオニア‘サラバンハート’,Paeonia lactiflora 'Sarah Bernhardt',◎,○,中,本品種は属内では耐塩性が高い側だが依然遮蔽が前提で直接潮しぶきは不適、◎→○が実態に整合。
+560,ビンカ　マジョール‘バリエガータ’ （ビンカ　マジョール斑入り）,Vinca major 'Variegata',◎,○,中,地中海原産で丈夫だがNCSUに耐塩記載なく潮しぶき耐性は確認されず、露出海岸(◎)は根拠不足で○へ。
+565,プルモナリア‘コットンクール’,Pulmonaria 'Cotton Cool',△,×,中,P.officinalis系の林床日陰植物で一次情報が'塩分を避ける'と明記、内陸向きのため△→×へ修正。
+574,ペルシカリア　アンプレクシカウリス ‘ディッケフロスク’,Persicaria amplexicaulis 'Dikke Floskes',不明,△,中,RHSは湿地性(Bog)・ヒマラヤ内陸原産で塩耐性の記載なし、Exposureは可だが湿潤地性→軽度塩のみの△に確定。
+575,ペルシカリア　アンプレクシカウリス ‘ファイヤーテール’,Persicaria amplexicaulis 'Firetail',不明,△,中,同種で湿地性・内陸原産・塩耐性記載なし→軽度塩のみの△に確定（574と整合）。
+576,ペルシカリア　アンプレクシカウリス ‘ＪＳ　カリエント’,Persicaria amplexicaulis 'JS Caliente',○,△,中,○の根拠(perenual)は一次情報でなくRHS(湿地性・内陸原産・塩耐性記載なし)と不整合→種の実態に合わせ△に下方修正。
+578,ベロニカ　トゥークリアム ‘ロイヤルブルー’,Veronica austriaca subsp. teucrium 'Royal Blue',不明,○,中,RHSはSheltered・耐塩明記なしだがGardenia等が耐潮性のある欧州原産の乾燥適応種としてcoastal gardens適と評価→海近の庭で可・直接潮しぶきは避ける○
+579,ベロニカストラム　バージニカム ‘ラベンデルターム’,Veronicastrum virginicum 'Lavendelturm',×,△,中,北米湿性草原原産で潮風には弱いが、若干の道路塩（土壌塩分）には耐えるとされ×は厳しすぎ→軽度塩分可の△
+590,リアトリス　スピカータ,Liatris spicata,×,○,中,湿地性草原原産だが園芸情報で中程度の耐塩性、海浜・砂丘植栽リストにも掲載され、USDAの『Low』のみを根拠にした×は2段階低すぎるため○へ。
+592,リグラリア　デンタータ ‘ダークビューティ’,Ligularia dentata 'Dark Beauty',○,△,中,同種はRHS ExposureがShelteredの湿地性で潮風に弱く、○は過大。同属‘オレンジクィーン’△と整合させ△へ。
+593,レウシア‘リトルマンゴー’,Lewisia longipetala 'Little Mango',○,△,中,シエラネバダ亜高山帯の岩礫地原産で耐塩性の一次記載も海岸用途もなく、現根拠はPennisetum流用で無効。○は過大で△へ。
+594,レウシア‘リトルラズベリー’,Lewisia longipetala 'Little Raspberry',○,△,中,基本種と同じく亜高山帯岩礫地原産で耐塩の一次記載なし、海岸用途もなく○は過大で△へ。
+595,ロジャージア‘ブロンズビューティー’ （ヤグルマソウ）,Rodgersia podophylla 'Bronze Beauty',○,△,中,RHSは湿地・林床性で冷たい乾燥風から保護と明記、耐塩性の記載はなく現根拠のsalt sprayもPanicum流用で無効。○は過大で△へ。
+596,ハイドランジア　セラタ‘クレナイ’ （ヤマアジサイ‘クレナイ’）　　　　　　　　,Hydrangea serrata 'Kurenai',×,○,中,査読研究でH. serrata（とmacrophylla）はアジサイ中で最も塩噴霧に強くmaritime salt sprayの場所に植栽可と明記され、『アジサイは塩に弱い』を根拠にした×は誤りで○へ。
+597,ﾊｲﾄﾞﾗﾝｼﾞｱ ｾﾗﾀvar.ｴｿﾞｴﾝｼｽ  ｱﾙﾋﾞﾌﾛｰﾗ(ｴｿﾞｱｼﾞｻｲ白花),Hydrangea serrata var. yesoensis 'Albiflora',×,○,中,H. serrataは査読研究で塩噴霧耐性が高く沿岸植栽可の種であり、×は誤りで○へ。ただし冷涼湿潤・半日陰を要するためある程度に留め○。
+598,ハイドランジア　セラタ‘済州島’ （ヤマアジサイ‘済州島’）,Hydrangea serrata 'Cheju-do',×,○,中,H. serrataは査読研究で塩噴霧に強く沿岸に植栽可の種で、『アジサイは塩に弱い』とした×は誤りで○へ。
+599,バイバーナム（ビバーナム） ‘オノンダガ’,Viburnum sargentii 'Onondaga',×,△,中,V. opulus var. sargentii は耐塩性低木リストに掲載されるが冷涼湿潤を好み直接の潮しぶき向きではなく、×はやや低いため軽度可の△へ。
+603,ペルシカリア　アンプレクシカウリス ‘ロゼア’,Persicaria amplexicaulis 'Rosea',不明,△,中,MBGは塩耐性の記載なく強風から保護を推奨・ヒマラヤ内陸の湿潤地原産で潮風に弱いが極端な湿地限定ではない→不明から△と判定。
+604,ハイドランジア　セラタ　 var.エゾエンシス（エゾアジサイ）,Hydrangea serrata var. yesoensis,×,○,中,一次研究でH. serrataは他アジサイより葉面塩スプレー耐性が高く『maritime salt sprayの生じる場所に植栽可』とされ×は低すぎ→○へ上方修正（潮しぶき直撃は避ける）。
+613,スピレア　ジャポニカ（シモツケ） ‘マジックカーペット’,Spiraea japonica f. 'Magic Carpet',◎,○,中,一次試験でS. japonicaは葉面塩スプレーに『中程度』耐性で潮しぶきに中程度の葉傷害を生じ、直接潮風向きの◎は高すぎ→○へ下方修正。
+618,クリサンセマム　ニポニカム （ハマギク）,Chrysanthemum nipponicum Matsumura,△,◎,高,日本の海岸崖原産（和名ハマギク）で潮風・塩しぶきに強くシーサイドガーデン向きと明記→△は過小、◎へ2段階修正。
+621,ペルシカリア　アフィニス ‘ボーダージュエル’,Persicaria affinis 'Border Jewel',◎,○,中,ヒマラヤの高山礫地原産で保水性の土を好むグラウンドカバー、道路の融雪塩には耐えるが海の直接潮しぶきには不向き→◎は過大、○へ1段階下げ。
+623,ペロブスキャ（ロシアンセージ）,Perovskia atriplicifolia,○,◎,中,中央アジア乾燥地原産で乾燥・排水必須、salt spray tolerant／seashore garden 向きと複数一次情報で明記されRHSも沿岸推奨→○から◎へ1段階上げ。
+625,ホスタ‘ブレッシングハムブルー’,Hosta 'Bressingham Blue',◎,○,中,東アジアの湿潤林床性シェードプランツで、耐潮リストには載るが salt tolerance は相対的で直接の潮風・塩しぶきには遮蔽が必要→潮風直撃の◎は過大、○へ1段階下げ。
+630,レウシア‘リトルスノーベリー’,Lewisia longipetala 'Little Snowberry',◎,△,中,本種は海と無縁の高山・雪田性の岩礫植物で潮風耐性の一次記載はなく、現◎の根拠は汎用ナーサリータグのみ→高山原産に整合させ△へ下方修正。
+632,グレコマ　ヘデラセア　ssp. （グレコマ　散り斑）,Glechoma hederacea,△,×,中,NCSUが『does not tolerate salt-contaminated soil（塩分を含む土壌に耐えない）』と明記、ユーラシア湿潤林床原産で潮風に弱く×へ下方修正。
+657,パルサティラ　ブルガリス ‘パール ベル’,Pulsatilla vulgaris 'Pearl Bells',◎,△,中,NCSU・MBGとも耐塩記載なく内陸石灰質草原原産、◎の根拠は趣味系appのiGartenのみで一次情報が支持せず→乾燥強を加味し△へ下方修正。
+658,ビゲロウィア　ヌッタリー,Bigelowia nuttallii,◎,○,中,自生地は砂岩・花崗岩グレードや平岩・砂丘的痩地で乾燥・砂質に強いが海浜/塩性の直接記載なく、『coastal plain』は地形区分に過ぎない→◎は過大、ある程度耐塩の○へ。
+661,ビュフサルマム　サリシフォリウム ‘アルペンゴールド’,Buphthalmum salicifolium 'Alpengold',◎,○,中,内陸の石灰質山地草原原産で一次植物DBに海浜/塩性記載なく、園芸店の『salt tolerant』は近海庭園可の○相当→潮しぶき前面◎は過大、○へ。
+664,フラガリア ﾍﾞｽｶ `アルパインイエロー' (ワイルドストロベリー）　　,Fragaria vesca 'Alpine Yellow',○,△,中,F.vescaは林床性でイチゴ類は塩土に弱く、海岸耐塩は近縁のF.chiloensis(ビーチストロベリー)の特性→○は過大評価、軽度可の△へ。
+667,フロックス　パニキュラータ ‘ショックウェーブ’,Phlox paniculata 'Shockwave',×,△,中,湿潤メドウ原産でNCSUは塩耐性非記載だが、複数の海岸/seashore多年草リストに掲載され軽度塩分は可→×は過小、△へ。
+672,ホスタ‘ガカモーレ’,Hosta 'Guacamole',◎,△,中,NCSUは'slightly salt-tolerant'(わずかに耐塩)、他リストも'low to none'で湿潤林床性→直接潮風の◎は2段過大、軽度可の△へ。
+673,ホスタ‘ワイドブリム’,Hosta 'Wide Brim',◎,△,中,NCSUは'slightly salt-tolerant'にとどまり湿潤日陰性のホスタ属→◎は過大、軽度可の△へ(乾燥耐性も弱でより整合)。
+674,ホスタ‘ゴールデンティアラ’,Hosta 'Golden Tiara',○,△,中,NCSUはHosta属を'slightly salt-tolerant・風から保護'と明記し、PlantDelightsの海浜コレクションにHostaは含まれず、林床性で潮しぶきには弱いため軽度の塩分のみ可の△が妥当。
+675,ホスタ　外斑,Hosta undulata 'Albomarginata',◎,△,中,NCSUがHostaを'slightly salt-tolerant'かつ湿潤林床性・風から保護要と記載しており、直接の潮風可を意味する◎は2段階過大で△へ修正。
+676,ホスタ　内斑,Hosta 'Uchibane',○,△,中,NCSUの'slightly salt-tolerant'（＝軽度の塩分のみ可）は本スケールの△に対応し、林床性で潮風に弱いため△が正確。
+679,ムクデニア　ロッシー （イワヤツデ：タンチョウ草）,Mukdenia rossii,◎,×,中,RHSはExposure=Sheltered・冷涼湿潤な林床向きとし、中国内陸の岩場渓谷林床原産で耐潮性データもなく、◎は誤り。内陸向きの×へ修正（現◎はperenual等非一次情報由来）。
+682,カラスバ  ヒメリュウキンカ (ラナンキュラス‛ブレーゼンハシー'),Ranunculus ficaria 'Brazen Hussy',○,△,中,湿った落葉林床・渓流沿い原産の春植物で耐潮性の一次的裏付けが乏しく、現○の根拠も弱いため軽度の塩分のみ可の△へ下げる。
+683,リシマキア　コンジェスティフロラ ‘ミッドナイトサン’,Lysimachia congestiflora 'Midnight Sun',◎,△,中,湿潤な林縁・水田縁原産の匍匐性グラウンドカバーで一次情報に耐塩性の記載がなく、◎の根拠はブログ由来で信頼性低く、△へ大幅修正。
+695,エキナセア　プルプレア ‘ビンテージワイン’,Echinacea purpurea 'Vintage Wine',△,○,中,NCSUが耐塩性(Salt)を明記し複数の海岸向けリストにも掲載、△は過小→潮風可の○へ修正。
+696,エキナセア　‘イエローパッション’,Echinacea 'Yellow Passion',△,○,中,主要親E. purpureaがNCSUで耐塩性明記、Echinacea交配種として同等の潮風耐性が見込め、△→○へ修正。
+697,エキナセア　プルプレア‘バージン’,Echinacea purpurea 'Virgin',△,○,中,NCSUが耐塩性(Salt)を明記、△は過小で潮風に耐える○が妥当→修正。
+705,ドラコセファラム　アーグネンス （ムシャリンドウ）‛フジブルー’,Dracocephalum argunense 'Fuji Blue',○,△,中,RHS Exposureが'Sheltered'で耐塩一次情報なく、山地乾燥原産・同種'Fuji White'が△のため整合させ○→△へ下げ。
+713,フラガリア ベスカ‘アレクサンドリア’ （ワイルドストロベリー）,Fragaria vesca ‛Alexandria’,○,△,中,耐塩性は海岸砂丘原産の別種F. chiloensis（ビーチストロベリー）の特性で、F. vescaは林床下生えの半日陰種のため取り違えを是正し○→△に下げる。
+715,ホスタ‘ハルシオン’,Hosta (Tardiana Group) 'Halcyon',◎,△,中,NCSUはホスタを『slightly salt tolerant・風害から保護すべき』と明記し林床の日陰植物であるため、潮しぶき直撃可の◎は過大→△に是正（2段階下げ）。
+720,ルドベキア　フルギダ ‘リトルゴールドスター’,Rudbeckia fulgida 'Little Goldstar',◎,○,中,NCSUはR. fulgida（Goldsturm）を耐塩植物としつつ『潮しぶきから保護した場所に』と条件付けするため、潮しぶき直撃可の◎→海近くで可の○に是正。
+723,コルヌス　アルバ‘シビリカ’ （サンゴミズキ　シビリカ）,Cornus alba 'Sibirica',×,○,中,現マスタが引くCornellが実は「salt spray tolerant」、研究でも中程度塩分(EC5.0)で生存→内陸向き×は過小、海が近い庭で可の○へ上方修正。
+733,エキナセア ‘プレイフル　メドーママ’,Echinacea purpurea 'Playful Meadow Mama',△,○,中,NCSUが耐塩と明記し複数の耐塩自生種リストに掲載（Clemsonは直接潮害地で不良と指摘）→海が近い乾いた庭で可の○へ上方修正。
+742,サリクトラム（タリクトラム） ‘エリン’,Thalictrum 'Elin',○,△,中,RHS品種ページに現マスタが根拠とする沿岸/耐塩記述は実在せず、親T.rochebrunianum等が×の湿潤性属→軽度の塩分のみの△へ下方修正。
+743,サンギソルバ　テヌイフォーリア ‘アルバ’（ﾅｶﾞﾎﾞﾉｼﾛﾜﾚﾓｺｳ）,Sanguisorba tenuifolia 'Alba',◎,○,中,RHSは塩・沿岸言及なく原産は東アジアの湿地/河畔草原、根拠は一小売店の記載のみで◎は過大、風には耐えるが直接潮しぶきは疑問→○へ下方修正。
+759,ハイドランジア　アルボレッセンス ‘アナベル’,Hydrangea arborescens 'Annabelle',×,△,中,NCSUは土壌塩に耐性ありと明記するが噴霧試験で潮風・塩しぶきには弱いため、軽度の塩分のみ可の△が妥当（×は過小）。
+769,ホスタ　ヒメギボウシ　斑入り,Hosta venusta 'Variegated',不明,△,中,NCSUがHostaを『わずかに耐塩・風から保護せよ』とし林床性で潮風に弱いため、軽度の塩分のみ可の△を付与。
+771,ホスタ‘ゴールドスタンダード’,Hosta'Gold Standard',◎,○,中,NCSUはHostaを『slightly salt-tolerant・風から保護すべき』とし直接潮しぶきの当たる◎は過大、林床適湿植物のため○へ下方修正。
+774,ミューレンベルギア　カピラリス,Muhlenbergia capillaris,○,◎,高,NCSUが『highly salt-tolerant、塩・風・砂に強く海浜景観に最適』と明記、沿岸自生のため○→◎へ上方修正。
+775,ミント　 ケンタッキーカーネルミント,Mentha spicata 'Kentucky Colonel',◎,△,中,研究上は低濃度塩のみ許容し50mM以上で光合成器官が損傷、湿った渓畔・草地原産で潮風には弱く、◎(perenual由来)は過大→△。
+777,ムクデニア　ロッシー‘カラスバ’ （イワヤツデ・タンチョウ草）,Mukdenia rossii 'Karasuba',◎,△,中,RHS Exposureが『Sheltered(要防風)』、中国東北・朝鮮の山地岩場/渓谷の林床適湿植物で耐潮情報なし、◎(perenual由来)は誤り→△へ下方修正。
+779,ユーパトリウム　マクラツム ‘ゲートウェイ’,Eupatorium maculatum 'Gateway',◎,○,中,湿地(FACW)・湿った草地/砂質湿地原産の淡水系植物、ナーセリーは耐塩と記すが淡水前提で直接潮しぶきの◎は過大→○。
+783,ロサ‘サートーマス　リプトン’ （バラ）,Rosa 'Sir Thomas Lipton',○,◎,高,R. rugosa alba×'Clotilde Soupert'のハイブリッド・ルゴサで海岸砂丘自生のrugosa由来のseaside/salt tolerantが明記→◎へ上げ。
+784,ロジャージア ピンナータ'スカーレット' （ロジャージア　赤花）,Rodgersia pinnata 'Scarlet',○,△,中,中国南西部〜ミャンマー山地の湿潤な水辺・林床性でRHSも『冷たい乾燥風から遮蔽』とし潮風には弱いため、過大な○から△へ下げ。
+800,プルモナリア ‘シシングハースト ホワイト’,Pulmonaria officinalis 'Sissinghurst White',△,×,中,深い日陰の湿潤林床植物でPFAFが『avoids saline』と明記、耐塩の一次根拠なし→△から×へ引き下げ。
+801,エキナセア‘ファイアリーメドーママ’,Echinacea 'Fiery Meadow Mama',△,○,中,基本種E. purpureaがNCSUで明確に耐塩(salt resistant)とされ乾性草原原産→△から○へ（直接の潮しぶきはClemsonが不可とするため◎ではなく○）。
+811,カレックス ディバルサ,Carex divulsa,△,○,中,複数の園芸ソースがseacoast・salt spray・風耐性を明記（MBGは干ばつ/日陰のみで塩に沈黙、否定はせず）→△は過小、海が近い庭で可の○へ。
+812,ヒューケラ アメリカーナ ‘デイルズストレイン’,Heuchera americana 'Dale's Strain',◎,○,中,林床性アルムルートでNCSUの本種ページは塩耐性を明記せず、Heucheraは融雪塩リストで中程度どまり→潮しぶき直撃良好の◎は過大、○が妥当。
+818,アルケミラ セリカータ ‘ゴールドストライク’,Alchemilla sericata 'Gold Strike',不明,○,中,RHSがAlchemilla conjuncta・erythropodaを海岸適地に挙げ主要種のExposureがExposed可、地中海～コーカサス原産で適応性広い一方、本種は適湿・林縁向きで潮しぶき直撃は不適のため近縁補完で不明→○。
+822,トロリウス カルトラム ‘ニュームーン’,Trollius × cultorum 'New moon',◎,×,中,グローブフラワーは水辺・ボグ・高山湿性草地原産の内陸植物で一次情報が「salt tolerant でない」とし、◎の根拠は過大タグの一ナーサリーのみのため◎→×へ下方修正。
+825,ポルモニウム ボレアル ‘ヘブンリーハビット’,Polemonium boreale 'Heavenly Habit',×,○,中,"同属のcaeruleum（○, 海岸庭園可）と同傾向でGardeniaが本種を「salt tolerant・coastal適」と明記、耐塩性は×（内陸向き）は過小で○へ上方修正（高温多湿への弱さは耐暑性の別項目の問題）。"
+836,シダルセア'ビアンカ',Sidalcea candida 'Bianca',◎,○,中,本種は内陸の山地草原・渓流沿い原産で潮しぶき曝露の一次情報がなく、◎(海岸直接曝露)は過大。業者の『Salt Tolerant』記載を考慮し○へ下方修正。
+837,アンジェリカ　シルベストゥリス'エボニー',Angelica sylvestris 'Ebony',×,△,中,英諸島では海崖にも自生し、低塩～無塩土壌で時に弱塩性土でも生育、耐塩性は『Low』。完全な×ではなく軽度の塩分可の△が妥当（湿潤要求で潮風は弱い）。
+839,リスラム　サリカリア‘ハピースノー’,Lythrum salicaria 'Happy Snow',◎,△,高,エゾミソハギは『塩水には耐えない』が汽水・淡水湿地を占め低塩性のみ可。◎(潮風直接OK)は明確な誤りで、汽水耐性のみの△へ大幅下方修正。
+847,ソリダコ　'ファイヤーワークス',Solidago rugosa 'Fireworks',×,△,中,土壌塩分耐性はLow-Noneだが排水良好なら塩しぶきに耐え、NC海岸平野産でNCSUがcoastal植物に分類するため『内陸向き×』は過小、軽度可の△へ。
+850,ヒューケラ サンギネア ‘ホワイトクラウド’,Heuchera sanguinea 'White Cloud',◎,○,中,アリゾナ等の湿った山地林床原産でNCSUに塩耐性記載なく、genus上ある程度の塩は可だが潮風直撃を要する◎は過大、○へ下げ。
+855,モリニア　カエルレア　 ‘ハイデブラウト’,Molinia caerulea 'Heidebraut',◎,○,中,湿った酸性ムーア原産で、NCSU/MBGは各種耐性を挙げるが塩分・潮風の記載がなく、直接潮しぶき良好の◎は過大。海近くは可の○へ1段階下げ。
+858,サンギソルバ　テヌイフォーリア ‘ボルドー’（ナガボノアカワレモコウ）,Sanguisorba tenuifolia 'Bordeaux',○,△,中,東アジアの湿った草原原産の水辺植物で耐塩の一次情報なし。現根拠の'coastal and mild parts of the UK'は耐寒性の記述で塩耐性ではないため、軽度可の△へ。
+859,アキレジア‘ブラックバロー',Aquilegia vulgaris var.stellata plena 'Black Barlow',○,△,中,NCSUはオダマキ属に耐塩の記載がなく近縁A. canadensisは耐塩ほぼ無し。林床・草原性で単一小売の'salt tolerant'は過大、軽度可の△へ。
+879,アネモネ’オノリーヌジョベール’,Anemone × hybrida 'Honorine Jobert',◎,○,中,一次情報(NCSU/RHS/MBG)は塩耐性を明記せず、半日陰・適湿の林縁性で直接潮しぶき・砂地の◎は過大、沿岸の庭可の○が妥当→○。
+883,エキナセア'オレンジパッション',Echinacea 'Orange passion',△,○,中,NCSUでEchinaceaはsalt resistant、沿岸耐塩植物リストにも掲載され乾燥にも強く、△は過小→○。
+893,ペニセタム'フェアリーテイル',Pennisetum 'Fairy tails',△,○,中,母種Pennisetumは中程度の耐塩性が実証されており、同種系'Black Beauty'が○のため整合をとり△→○に修正。
+894,ホスタ'イエローポルカドットビキニ',Hosta 'Yellow Polka Dot Bikini',×,△,中,NCSUは『slightly salt-tolerant（要防風）』、品種ページも『Salt Tolerance: Low』で皆無ではなく軽度は可→×から△に修正。
+907,フロックス　ディバリカータ ‘ホワイト’,Phlox divaricata 'White',△,×,高,北米東部の林床植物で一次情報が'空気中・土壌いずれの塩分にも耐えず道路・側溝から離して植えよ'と明記＝耐塩なしのため△→×へ修正。
