@@ -1,0 +1,151 @@
+﻿row,plant,sci,before,after,confidence,reason
+2,サギナ　サブラータ （アイリッシュモス）,Sagina subulata,○,△,高,『full sun especially afternoon sun will quickly scorch the foliage／southern zonesでは午後直射から保護』かつ耐暑性弱・蒸れ弱の欧州産マット植物→本州酷暑では午後遮光推奨で△
+14,エーデルワイス,Leontopodium alpinum,○,△,中,高山原産で検証済み耐暑性弱・蒸れ弱、Gardenia『best kept slightly shaded during hot summer months／not fond of hot and humid climates』→本州酷暑地では夏の午後直射保護が望ましく△。
+19,オレガノ　ブルガレ‘オーレウム’ （ゴールデンオレガノ）,Origanum vulgare 'Aureum',◎,△,高,MBG『golden leaves tend to scorch when grown in full sun／appreciates some light afternoon shade in hot summer climates』と明記、黄金葉が炎天で葉焼けするため◎は不適で△に修正。
+26,カンパニュラ　プンクタータ ‘チェリーベル’（ホタルブクロ）,Campanula punctata ‛Cherry Bells’,○,△,中,"MBG『full sun to part shade, prefers part shade in hot summer climates／夜温が70°F超で不調』、東アジア林縁・耐暑性中→本州酷暑地では午後遮光が望ましく△。"
+27,カンパニュラ　プンクタータ ‘パンタルーン’,Campanula punctata 'Pantaloons',○,△,中,同種プンクタータ。MBG『prefers part shade in hot summer climates』、耐暑性中の東アジア林縁種で本州酷暑地は午後遮光推奨→△。
+28,カンパニュラ　ポサスキャーナ ‘アルペンブルー’,Campanula poscharskyana 'Alpen Blue',○,△,中,MBG『prefers part shade in hot summer climates／暑地では朝日程度、夜温70°F超で不調』、耐暑性中→本州酷暑地では午後の強い西日を避けるべきで△。
+35,ジーアム（ゲウム）　チロエンセ ‘ミセスブラッドショウ’,Geum chiloense ‛Mrs.Bradshaw’,○,△,中,『hot humid気候では午後遮光がベスト、zone7以南で不調』、南米アンデス冷涼地・耐暑性弱蒸れ弱→本州酷暑地は午後遮光推奨で△。
+36,ジギタリス　マートネンシス ‘マートンストロベリー’,Digitalis × mertonensis,○,△,中,『part shade好み、暑地は朝日＋午後遮光の場所を選ぶ』、耐暑性弱・蒸れ弱の短命宿根→本州酷暑地は午後遮光望ましく△。
+39,ジプソフィラ　レペンス ‘ロゼア’,Gypsophila repens ‘Rosea’,◎,○,中,‘White’と同一種の花色違いで培養条件は同じ。耐暑性弱・高温多湿を嫌う高山系ゆえ炎天下◎は過大、種の実態と社内整合から○へ1段階下げ。
+52,ソリダゴ‘ゴールドスパングルス’,Solidago flexicaulis ‛Gold Spangles’,○,△,中,MBG『a woodland species that perhaps does best in sun-dappled part shade』。草原性アワダチソウと異なり広葉の林床種で、本州酷暑の午後直射は葉焼けリスク→午後直射保護望ましく△へ1段階下げ。
+81,フクシャ マジェラニカ‘バリエガータ’ （フクシャ マジェラニカ 斑入り）,Fuchsia magellanica‘Variegata’,○,△,中,耐暑性弱の種が△なのに斑入りが○は方向逆転（斑入りは直射で更に弱い）→△に修正。
+103,ポテンチラ　アトロサンギネア,Potentilla atrosanguinea,○,△,中,耐暑性弱・蒸れ弱のヒマラヤ冷涼地原産で、RHS『赤花は強光で退色、正午〜午後は遮光が望ましい』かつ高温多湿(zone7以南)で不良→本州酷暑基準で午後保護推奨の△に下げ。
+117,グレコマ　ヘデラセア ‘バリエガータ’（グレコマ斑入り）,Glechoma hederacea 'Variegata',○,△,中,RHSが『暑く日焼けする場所を避ける（斑入り葉が焼ける）』と明記し、白斑葉は乾燥した午後直射で傷むため、○から△（酷暑地は午後遮光望ましい）へ1段下げ。
+119,アストランティア　マヨール ‘ハドスペンブラッド’,Astrantia major 'Hadspen Blood',○,△,中,MBGが『半日陰向き、full sunは冷涼多湿地のみ、酷暑地では苞が茶変』とし耐暑性弱・蒸れ弱とも整合、○は過大で△（酷暑地は午後遮光望ましい）へ下げ。
+123,カラミンサ　グランディフローラ ‘バリエガータ’,Calamintha grandiflora 'Variegata',◎,○,中,本種は乾燥性のC. nepetaと異なり南欧〜北イランの林縁性で『full sun〜half shade・やや湿り気を好む』、加えて斑入り葉は酷暑の西日で葉焼けしやすく、炎天◎はやや過大→○に微修正。
+125,カンパニュラ‘ケントベル’,Campanula 'Kent Belle',○,△,中,MBG『best in partial afternoon shade in hot summer climates』かつ夜温が70°F以下に下がらないと不調＝暑さに弱く、punctata系の大きめ葉→本州酷暑基準で午後遮光望ましく△。
+127,ゲンチアナ‘ニキータ’,Gentiana dahurica 'Nikita',○,△,中,"『best in partial shade, protected from the hot afternoon sun』かつリンドウ類は高温地で栽培困難・耐暑性弱→本州酷暑基準で午後遮光推奨の△。"
+130,スカビオサ　コウカシカ ‘コンプリメント’,Scabiosa caucasia 'Compliment',◎,△,高,コーカサス山地原産で『高温多湿に弱く、暑地では午後の軽い遮光で花色退色を防ぐ』、検証済み耐暑性弱・蒸れ弱→炎天◎は過大で午後遮光望ましい△に2段階下げ。
+131,ゲラニウム‘ジョンソンズブルー’,Geranium × johnsonii 'Johnson's Blue',○,△,中,MBG『暑地では朝日＋午後遮光が望ましく、さもないと高温の日射で葉が焼ける』、pratense×himalayense系で検証済み耐暑性弱→本州酷暑基準で△。
+133,ゲラニウム　プラテンス ‘スプリッシュスプラッシュ',Geranium pratense 'Splish Splash',○,△,中,北欧〜中央アジアの草原性メドウクレインズビルで検証済み耐暑性弱・蒸れ弱、細裂した繊細な葉で乾燥を嫌い高温期に傷みやすい→本州酷暑基準で午後遮光望ましい△に微修正。
+135,ネペタ　ラセモサ‘ウォーカーズロウ’,Nepeta racemosa 'Walker's Low',◎,○,中,MBG Cultureが酷暑地では『light afternoon shade を好む』と明記、耐暑性=中でもあり全国酷暑基準では◎より○が妥当（1段階下げ）。
+138,ビンカ　ミノール‘ダブルパープル’ （ビンカミノール　ダブルフラワー）,Vinca minor 'Double Purple',○,△,中,一次情報が酷暑地の午後直射で葉焼け・退色すると明記、林床性グラウンドカバーで半日陰を好むため午後遮光推奨の△に修正（1段階下げ）。
+139,フロックス　パニキュラータ ‘ノーラレイ’,Phlox paniculata 'Norah Leigh',○,△,中,クリーム覆輪の斑入り品種で晩夏の高温・午後直射に葉焼けしやすく、原種の全日照(◎)より弱いため午後遮光推奨の△に修正。
+140,フロックス　パニキュラータ ‘ハーレークィーン’,Phlox paniculata 'Harlequin',○,△,中,アイボリー覆輪の斑入り品種で晩夏の高温に葉焼けしやすく午後遮光が望ましいと一次情報が明記、△に修正。
+147,ポルモニウム　カエルレウム ‘ブルーウァール’,Polemonium caeruleum 'Blue Whirl',○,△,高,冷涼地原産で高温多湿に弱く（耐暑性弱・蒸れ弱）、『暑い夏は午後の直射で葉焼け・夏枯れ、afternoon shade を要す』→午後遮光推奨の△。全国酷暑地基準で○は過大。
+158,アレナシラム　エラチスssp.ブルボサム ‘バリエガタム’（リボングラス）,Arrhenatherum elatius ssp. bulbosum 'Variegatum',○,△,中,冷涼期に生育し盛夏の高温で生育停止・休眠しやすい寒地系斑入りグラスで、暑地は午後遮光・盛夏刈込みが推奨、耐暑性弱・蒸れ弱→△。
+159,ガウラ‘夕映え’（ハクチョウソウ）,Gaura lindheimeri 'Yuubae',○,◎,高,テキサス草原原産の直根性で日向・耐暑性強、暑さ乾燥に強い代表的サンプランツ→炎天の西日でも良好で◎。
+167,セダム　カムチャティカム （エゾノキリンソウ）,Sedum kamtschaticum,○,◎,高,日向・高温乾燥地に強い多肉のセダムで耐暑性強→炎天の西日でも良好で◎。
+168,ジギタリス　グランディフローラ　,Digitalis grandiflora,○,△,中,半日陰向きで暑地は午後遮光が必要とされ耐暑性弱→hot afternoon sun 保護望ましく△。
+169,カンパニュラ　パーシシフォリア ‘モーハイミ’,Campanula persicifolia 'Moerheimii',○,△,中,涼夏を好み酷暑に弱く暑地は午後遮光を好む・耐暑性弱→hot afternoon sun 保護望ましく△。
+176,ノウティア（クナウティア）　 マセドニカ,Knautia macedonica,◎,○,中,南東欧の日向性だが耐暑性中・蒸れ耐性弱で高温多湿地（Z8+）では午後遮光が推奨され、直根が過湿で腐りやすい→炎天西日で傷むこともある○へ1段階下げ。
+178,カンパニュラ　プンクタータ ‘フラッシングライト’,Campanula punctata 'Flashing Lights',○,△,中,東シベリア～日本の冷涼地原産ホタルブクロ類で『暖地の夏は午後遮光を好み、夜温70°F以上の高温地では不調』→全国酷暑地基準では西日をやや苦手とする△へ1段階下げ。
+183,カンパニュラ　プンクタータ ‘ボールオブチェリー’,Campanula punctata 'Bowl of Cherries',○,△,中,MBG『prefers part shade in hot summer climates』かつ夜温が高い暑地では不調、蒸れ耐性=弱→本州酷暑基準で午後遮光推奨の△に下げ。
+186,サリクトラム（タリクトラム） ‘ブラックストッキングス’,Thalictrum 'Black Stockings',○,△,中,MBG『暑さ・多湿に弱く、木漏れ日（dappled shade）を好む／朝日＋午後遮光が最適』、蒸れ耐性=弱→本州酷暑基準で午後遮光推奨の△に下げ。
+187,カンパニュラ　ヘイロジェンシス ‘ワーリーホワイト’,Campanula x haylodgensis 'Warley White',○,△,中,一次情報で『日中最も暑い時間帯は遮光が不可欠（萎れ防止）』、カルパティア/アルプス由来の高山性で耐暑性=弱・蒸れ耐性=弱→暑地で午後遮光推奨の△に下げ。
+188,ジーアム（ゲウム）　コクシネウム ‘クッキー’,Geum coccineum 'Cooky',○,△,中,MBG『some afternoon shade is best in hot summer climates／暑さ多湿に弱くZone7以南は非推奨』→本州酷暑基準で午後遮光推奨の△に下げ。
+189,カルーナ　ブルガリス‘キンロチェル’,Calluna vulgaris 'Kinlochrue',○,△,中,MBG/RHS『基本は日向だが暑地では午後の遮光を好む／冷涼多湿を好み暑い夏日は避ける』、スコットランド由来で耐暑性=弱・蒸れ耐性=弱→本州酷暑基準で△に下げ。
+193,アルケミラ　サクサティリス,Alchemilla saxatilis,○,△,中,高山性アルケミラで『真昼の強日射で葉が焼け、暑地（Zone7以上）では午後遮光が必要』、耐暑性=弱・蒸れ耐性=弱→本州酷暑基準で午後遮光推奨の△に下げ。
+194,ゲラニウム　ヒマライエンス,Geranium himalayense,○,△,中,ヒマラヤ冷涼地原産で耐暑性・蒸れ弱、酷暑地では『morning sun/afternoon shade』が推奨され午後の高温直射で傷むため、全国出荷基準では△が妥当。
+201,フクシャ　マジェラニカ ‘ホークスヘッド’,Fuchsia magellanica 'Hawkshead',○,△,中,耐暑性・蒸れ弱でフクシャは酷暑の午後直射で葉焼け・落花しやすく、hot afternoon sun からの保護が望ましいため△が妥当。
+202,フクシャ　マジェラニカ ‘ジェニー’,Fuchsia magellanica 'Genii',○,△,中,黄金葉品種で強光下では葉焼けしやすく、蒸れ弱・フクシャの高温嫌いも相まって酷暑地では午後遮光が望ましいため△が妥当。
+209,スカビオサ　コウカシカ ‘パーフェクタ　アルバ’,Scabiosa caucasica 'Perfecta Alba',◎,○,中,MBG『full sun』だが『intolerant of high heat and humidity』、二次情報は酷暑地で軽い午後遮光を推奨。日向植物だが耐暑性弱→極端な酷暑・西日で葉/花傷む→◎は過大、○へ。
+211,ミント　パイナップルミント,Mentha suaveolens 'Variegata',○,△,中,斑入り葉で『needs some shade in hotter climates or the leaves will burn』、白斑部が午後の強光で葉焼け。株は強健だが西日評価では斑葉焼けが焦点→酷暑地は午後遮光望ましい→△へ。
+230,アネモネ　マルチフィダ（ムルチフィダ）‘ルブラ’,Anemone multifida 'Rubra',○,△,中,北米北部の冷涼・亜高山性で耐暑性弱・蒸れ弱、資料も部分日陰を好むとし、全国酷暑地基準では夏の高温西日から保護が望ましい→△
+249,オブリエチア　デルトイデア ‘バリエガータ’,Aubrieta deltoidea 'Variegata',○,△,中,冷涼地の高山性ロックガーデン植物で耐暑弱・蒸れ弱、酷暑では午後遮光が必要との一次記述と整合し、全国酷暑基準では○→△に下方修正。
+252,スカビオサ　コウカシカ‘ファーマ’,Scabiosa caucasica 'Fama',○,△,中,MBG『full sunだが intolerant of high heat and humidity』、コーカサス山地原産で耐暑弱・蒸れ弱、酷暑地では午後遮光が望ましく○→△に下方修正。
+253,ダイアンサス　カシュジアノーラム,Dianthus carthusianorum,○,◎,中,"中南欧の石灰岩草原・ステップ原産で『full sun, 高温乾燥に完全適応』の細葉ナデシコ、炎天の午後直射でも葉焼けせず→○→◎に上方修正（蒸れ弱は湿潤課題で西日耐性とは別）。"
+272,ジーアム（ゲウム） ‘ファイヤーボール’,Geum 'Fireball',○,△,高,ゲウムは高温多湿の午後直射を嫌い酷暑地では午後遮光必須・耐暑中のため、全国酷暑基準で○→△に下げ。
+275,ポルモニウム　エゾエンス ‘パープルレイン’,Polemonium yezoense 'Purple Rain',○,△,高,北海道・日本の冷涼地原産で耐暑=弱・蒸れ=弱、酷暑の午後直射で葉傷み高温期は午後遮光推奨のため○→△に下げ。
+288,セントーレア　ディールバータ,Centaurea dealbata,◎,○,中,"MBG『full sun』だが『prefer cool summer climates, do not perform well south of USDA Zone 7』、マスタ耐暑性=弱と整合せず◎は過大→日向植物ゆえ○へ1段階下げ（酷暑地では不振）。"
+295,セダム‘フロスティモーン’,Sedum erythrostictum 'Frosty Morn',◎,○,中,白覆輪の斑入り多肉で耐暑性中、MBG『afternoon shade beneficial in very hot climates』→炎天午後で覆輪部が傷むおそれ、◎→○に1段階下げ。
+300,カンパニュラ‘ジェリーベルズ’,Campanula x pulloides 'Jelly Bells',○,△,中,アルプス・カルパティア山系の高山系ハイブリッドで耐暑性弱、カンパニュラ標準で『暑地では午後遮光』→炎天西日に弱く○→△に下げ。
+307,サンギソルバ　アルビフローラ （シロバナトウチソウ）,Sanguisorba albiflora (Makino) Makino,○,△,中,日本本州の湿潤地原産で耐暑性弱・蒸れ耐性弱、乾くと萎れやすく本州酷暑では午後遮光が望ましい→△に下げ。
+310,トロリウス　チネンシス ‘ゴールデンクィーン’,Trollius chinensis 'Golden Queen',○,△,高,MBG『暑いほど遮光が必要』で耐暑性弱・蒸れ弱の冷涼湿地植物→本州酷暑の午後直射は保護が望ましい△に下げ。
+312,プルモナリア‘ルイスパルマー’,Pulmonaria 'Lewis Palmer',△,×,高,MBGが『午後遮光が必要・強日照で葉焼け』と明記、耐暑性弱の林床葉物→午後遮光必須の×に下げ。
+326,ヤナギラン,Chamerion angustifolium,○,△,中,北半球冷涼地原産で耐暑性弱・蒸れ耐性弱、日向性だが『hot southern summersでは葉焼けし午後遮光と保水が必要』とされ、本州酷暑の西日では保護が望ましい→△
+328,ラムズイヤー ‘プリムローズヘロン’,Stachys byzantina 'Primrose Heron',○,◎,中,トルコ〜イラン原産の銀葉ウーリー多毛・耐乾性の典型サンプランツで『full sunで最良』、懸念は多湿による腐敗（蒸れ）で葉焼けではない→炎天西日OKの◎
+330,カンパニュラ‘ピンクオクトパス’,Campanula takesimana 'Pink Octopus',○,△,中,鬱陵島(東アジア)原産・耐暑性中で『暖地では半日陰を好む』とされ、本州酷暑の午後直射では保護が望ましい→△に下げ
+331,ミスカンサス‘コスモポリタン’,Miscanthus sinensis 'Cosmopolitan',○,◎,高,耐暑性強・蒸れ耐性強の大型サンプグラスで日陰では倒伏、full sunで最良かつ夏の高温多湿に強い→炎天西日OKの◎
+332,パニカム　バーゲタム ‘シャナンドゥー’,Panicum virgatum 'Shenandoah',○,◎,高,北米プレーリー原産の耐暑性強・蒸れ耐性強の暖地型サンプグラスで full sun 最良、午後直射でも葉焼けせず◎
+337,ペルシカリア　アンプレクシカウリス ‘オレンジフィールド’,Persicaria amplexicaulis 'Orange Field',○,△,中,ヒマラヤ冷涼湿地原産で『暑地では半日陰を好み、日向では常時保水が必須』とされ、本州酷暑の乾いた西日では葉傷み・保護が望ましい→△に下げ
+342,サリクトラム(タリクトラム)　 アキレジフォリウム‛サンダークラウド',Thalictrum aquilegiifolium 'Thundercloud',○,△,中,MBGが高温多湿の夏に不良・軽い木漏れ日を好むと明記、検証済み耐暑性=弱・蒸れ耐性=弱とも整合し本州酷暑地の午後直射は保護望ましい→○から△へ下げ
+345,ガウラ‘サンセットドリーム’ （ハクチョウソウ）,Gaura lindheimeri 'Sunset Dreams',○,◎,高,テキサス〜ルイジアナ原産の直根性サンプラントでMBGが暑さ・多湿・乾燥に耐え日向最適と明記、検証済み耐暑性=強・蒸れ耐性=強とも整合→○から◎へ上げ
+347,セダム‘ベラジェームソン’,Sedum ‛Vera Jameson',○,◎,高,多肉のボーダーセダムで暑さに極めて強く日向最適、検証済み耐暑性=強とも整合し炎天下の午後直射OK→○から◎へ上げ
+361,アンペロプシス　‛エレガンス’ （斑入りノブドウ）,Ampelopsis glandulosa var.brevipedunculata ‛Elegans’,○,△,中,一次情報で斑入り葉は『full sun で葉焼け、日中の暑さからの保護が望ましい／午後の日陰で scorch を防ぐ』と明記。白斑葉で強い西日に弱く保護推奨→○から△へ下げ。
+367,デスカンプシア　セスピトーサ ‘ピクシーファウンテン’,Deschampsia cespitosa 'Pixie Fountain',○,△,中,MBG『cool-season grass、南東部など温暖地では開花せず不調、full sunでは均一な湿り必須、朝日＋午後遮光可』＝検証済み耐暑性=弱の冷涼性グラスで本州酷暑の西日は苦手→○から△へ下げ。
+373,アスチルボイデス　タビュラリス,Astilboides tabularis,△,×,中,MBG『part shade to full shade、直射で葉焼け、乾燥・高温・過度の日射で葉が傷む、径60-90cmの大きな薄い葉』＝検証済み耐暑性=弱の林床大葉植物で午後直射に極めて弱い→△から×へ下げ。
+375,アンドロサセ　ビローサ,Androsace villosa,○,△,中,冷涼夏を好む高山クッション植物で耐暑性弱・蒸れ弱、暖地では『最も強い午後の日差しから遮光』推奨のため全国酷暑地基準で△に下げ。
+379,カンパニュラ　グロメラータ ‘フレヤ’（ヤツシロソウ）,Campanula glomerata 'Freya',○,△,中,MBG『part shade preferred in hot summer climates』で酷暑地では午後遮光が望ましいため全国出荷基準で△に下げ。
+385,ジーアム（ゲウム）リヴァーレ,Geum rivale,○,△,中,湿地・林縁性で耐暑性弱、MBGが酷暑多湿地では午後遮光必須・Zone7以南で難とするため全国出荷基準で△に下げ。
+387,デルフィニウム‘ガラット’,Delphinium 'Galahad',○,△,高,MBG『appreciates part afternoon shade in hot summer climates／涼夏を好みzone7以南の高温多湿では不適』かつ耐暑性・蒸れ耐性=弱→本州酷暑の西日は保護が望ましく△に修正。
+398,ルピナス‘フローレイン’,Lupinus × hybrida 'Fraulein',○,△,高,MBG『hot summer areaでは午後の軽い遮光を好む・酷暑では不振』かつ耐暑性弱・蒸れ弱の冷涼地向き宿根草、本州酷暑基準で午後直射保護が望ましく○→△。
+409,デルフィニウム‘ブラックナイト’,Delphinium 'Black Knight',○,△,高,MBG『酷暑地では午後の一部遮光を好む・暑い夏に不振』かつ耐暑性弱・蒸れ弱の冷涼地向き、本州酷暑基準で午後直射保護が望ましく○→△。
+410,エリムス　マジェラニカス,Elymus magellanicus,○,△,高,MBG『appreciates some light afternoon shade in hot summer climates』『performs poorly in high humidity and high nighttime temperatures』、南米原産の冷涼系(クールシーズン)グラスで耐暑性弱・蒸れ弱のため本州酷暑の西日は苦手→△。
+414,ジーアム（ゲウム）‘マイタイ’,Geum 'Mai Tai',○,△,高,"MBG『Some afternoon shade is best hot summer climates』『tend to struggle in climates with hot, humid summers (south of Zone 7)』、耐暑性中・蒸れ弱のため本州酷暑では午後直射からの保護が望ましい→△。"
+417,アスチルベ　アレンジー‘ショースター’,Astilbe × arendsii 'Showstar',△,×,中,"MBGは『part shade to full shade』『soils must not dry out』、Extensionは『full sun causes leaf scorch by July, afternoon shade essential (Zones 6-9)』。湿潤半日陰性の葉物で本州酷暑の西日では葉焼け→afternoon shade必須の×。"
+423,ジーアム（ゲウム）リヴァーレ ‘アルバム’,Geum rivale 'Album',○,△,中,"MBG『needs afternoon shade in hot humid climates, struggles with summer heat/humidity』。耐暑性弱・蒸れ弱・湿地原産で酷暑の西日には保護が望ましく○→△に下方修正。"
+426,ゲラニウム‘ブルーサンライズ’,Geranium ‛Blue Sunrise’,○,△,中,黄金葉品種で『avoid hot afternoon sun which can burn the leaves』と明記。金葉が強い午後直射で葉焼けするため○→△に下方修正。
+428,トロリウス　ユーロペウス ‘レモンシュープリーム’,Trollius europaeus 'Lemon Supreme',○,△,中,『dislikes dry soils and hot summers; thrives in cool moist environments』。耐暑性弱・湿地/冷涼地原産で酷暑の西日には保護が望ましく○→△に下方修正。
+440,サンギソルバ　ハクサネンシス （カライトソウ）,Sanguisorba hakusanensis,○,△,中,白山原産の亜高山性で耐暑性弱・湿り気を好み、暑地では午後遮光が推奨→全国酷暑地基準では午後直射保護が望ましく△へ下げ。
+441,カラミンサ　ネペタ ‘ブルークラウド’,Calamintha nepeta 'Blue Cloud',○,◎,中,地中海原産・日向で乾燥に強く午後遮光は不要（tolerates=単に許容）の本格サンプランツ→炎天午後直射でも良好で◎へ上げ。
+442,カンパニュラ‘サラストロ’,Campanula 'Sarastro',○,△,中,MBGが『暑地では半日陰を好む・夜温が下がらない所は不良』と明記→本州酷暑地では午後遮光が望ましく△へ下げ。
+447,デスカンプシア　セスピトーサ ‘ゴールドタウ’,Deschampsia cespitosa 'Goldtau',○,△,中,冷涼地向けの寒地性グラスでMBGは半日陰記載、検証済み耐暑性弱・蒸れ弱と整合し本州酷暑地の高温西日では午後遮光が望ましい→△に下げ
+472,トロリウス　カルトラム ‘レモンクイーン’,Trollius x cultorum 'Lemon Queen',○,△,高,"冷涼地性で『dislikes hot summers, performs poorly in the deep South, 高温地では午後遮光要』かつ耐暑性弱・湿潤志向→本州酷暑地の西日は苦手で△に下げ。"
+479,ゲンチアナ　パラドクサ ‘ブルーヘラルド’,Gentiana paradoxa 'Blue Herald',○,△,中,西コーカサス高山性のリンドウで『冷涼地は日向・暖地は半日陰、常に湿り気要』かつ蒸れ弱→本州酷暑の西日は午後遮光望ましく△に下げ。
+482,カンパニュラ　プンクタータ ‘ホットリップス’,Campanula punctata 'Hot Lips',○,△,高,MBG『prefers part shade in hot summer climates／午後の直射から遮光で旺盛』かつ夜温70°F超で不良、検証済み耐暑性=弱・シベリア/日本原産→本州酷暑では午後遮光望ましく△。
+483,エリンジウム　バリフォリウム ‘ミスマーブル’,Eryngium variifolium 'Miss Marble',○,◎,高,MBG『dry to medium gritty well-drained soils in full sun』、モロッコ高地原産の直根性シーホリー・乾燥地の本格サンプランツ→炎天の午後直射OKで◎。
+484,アガスタチ（アガスターシェ） ‘ブルーフォーチュン’,Agastache 'Blue Fortune',○,◎,高,MBG『heat and some dry soils once established／sunny borders』、検証済み耐暑性=強の芳香サンプランツ→強い西日でも良好で◎。
+487,アンスリカス　シルベストリス ‘レイブンスウィング’,Anthriscus sylvestris 'Ravenswing',○,△,中,RHSは full sun/part shade だが『暑い時期に乾かさない』要求、検証済み蒸れ耐性=弱の冷涼ユーラシア短命草→本州酷暑の西日では午後遮光望ましく△。
+493,ゴニオリモン　コリナム ‘シースプレイ’,Goniolimon collinum 'Sea Spray',○,◎,中,『full sun、drought tolerant、gravel/rocky/sandy soils』のバルカン乾燥地・灰緑葉スターチス系→炎天の午後直射に強く◎（蒸れ弱は多湿への注意で西日耐性とは別）。
+499,シダルセア‘ロザリー’,Sidalcea malviflora 'Rosaly',○,△,高,MBG『暑地では午後遮光が最適・冷涼な夏を好む』かつ検証済み耐暑性弱・蒸れ弱→本州酷暑では午後遮光望ましく△へ。
+504,ゲラニウム　ファエウム ‘マーガレットウィルソン’,Geranium phaeum 'Margaret Wilson',○,×,高,MBG『半日陰〜ほぼ全日陰で最良・耐暑性なし』の林床性ゲラニウムかつ検証済み耐暑性弱、加えて斑入葉は葉焼けし易い→本州酷暑の西日は不適で午後遮光必須の×へ（2段階下げ）。
+505,トロリウス‘チェダー’,Trollius 'Cheddar',○,△,高,MBG『冷涼地向き・full sunで葉が退色・乾燥と酷暑を嫌う』かつ検証済み耐暑性弱→本州酷暑の西日は退色/傷みの恐れで午後遮光望ましく△へ。
+513,ホスタ ‘アビクア　ドリンキングゴード’,Hosta 'Abiqua Drinking Gourd',△,×,高,深く盃状の青葉ホスタで『hot direct afternoon sunがブルーの蝋質を溶かし葉焼けを起こす、朝の弱い日差し2〜3時間か明るい日陰』＝午後遮光必須の林床葉物→△は甘く×へ下方修正。
+523,アキレジア‘ノラバロー’,Aquilegia vulgaris var. stellata 'Nora Barlow',○,△,中,MBGが酷暑地では半日陰を推奨し夏に葉が傷みやすいと明記、欧州の林縁性で薄葉→全国酷暑基準では午後直射の保護が望ましく△。
+540,ゲラニウム　オクソニアナム ‘ワーグレーブピンク’,Geranium × oxonianum 'Wargrave Pink',○,△,中,MBG『酷暑地(St.Louis等)では午後の一部日陰を好む、朝日＋午後半日陰が最良、暑夏で葉が衰える』＝プロトコルの△指標『appreciates protection from hot afternoon sun』に合致→全国酷暑基準で△に修正。
+544,サンギソルバ　オブツーサ ‘レモンスプラッシュ’（ワレモコウ）,Sanguisorba obtusa 'Lemon Splash',○,△,中,湿潤地を好む日本産ワレモコウで耐暑性弱、一次情報が『暑地は午後の軽い遮光が良い』→西日はやや苦手△
+545,ジギタリス　プルプレア ‘モンストローサ　パープル’,Digitalis purpurea 'Monstrosa Purple',○,△,中,耐暑性弱・蒸れ弱の冷涼地性ジギタリスで、酷暑地は午後遮光が葉焼け防止に必要→△
+552,ファラリス　アランディナセア ‘トリカラー’（トワダアシ）,Phalaris arundinacea 'Tricolor',○,△,中,斑入り葉が真夏の酷暑地で葉焼けしやすく明るい日陰が最適、耐暑性中→暑地は午後遮光推奨の△
+564,プリムラ　ベリス（カウスリップ）,Primula veris,○,△,中,一次情報で『part shade向き、full sunは冷涼夏地のみ、酷暑地では葉が傷む』かつ耐暑/蒸れ弱、全国酷暑地基準では午後遮光が望ましく○→△に修正。
+573,ベルゲニア コーディフォリア ‘レッドスタート’,Bergenia cordifolia 'Redstart',○,△,高,MBG『full sun (cool summer climates) to afternoon shade (hot summer climates); leaf scorch from too much hot sun』、耐暑性中→本州酷暑地では午後遮光望ましく△へ下げ。
+583,ポリゴナム　ビストータ ‘スーパーバム’（イブキトラノオ）,Polygonum bistorta 'Superbum',○,△,中,MBG『暑く乾いた夏は午後の一部遮光を好む・南東部では不調』かつ常湿要求→本州酷暑基準で午後保護望ましく△へ下げ
+584,ポルモニウム　カエルレウム ‘アプリコットディライト’,Polemonium caeruleum 'Apricot Delight',○,△,高,MBG『暑い午後の直射から保護すると良い・高温多湿に弱い』かつ耐暑性弱・蒸れ弱→午後遮光推奨で△へ下げ
+585,ミスカンサス　シネンシス ‘プルプラセンス’,Miscanthus sinensis 'Purpurascens',○,◎,中,細葉の暖地性サングラスで炎天の午後直射でも良好、蒸れ強で日向本領→◎へ上げ
+589,リアトリス　スピカータ ‘コボールド’,Liatris spicata 'Kobold',○,◎,高,北米プレーリー原産の細葉サンプラントで full sun・定着後は強い乾燥耐性、耐暑性強・蒸れ強→炎天の西日でも良好で◎へ上げ
+593,レウシア‘リトルマンゴー’,Lewisia longipetala 'Little Mango',○,△,中,シエラネバダ高山の多肉ロゼットで耐暑性弱、一次情報が朝日+午後遮光・酷暑午後直射で葉焼けとするため○→△(午後遮光推奨)に修正。
+594,レウシア‘リトルラズベリー’,Lewisia longipetala 'Little Raspberry',○,△,中,同種'Little Mango'同様シエラネバダ高山多肉・耐暑性弱で、暑地では午後遮光が必要とされるため○→△に修正。
+598,ハイドランジア　セラタ‘済州島’ （ヤマアジサイ‘済州島’）,Hydrangea serrata 'Cheju-do',×,△,中,serrataは午前直射可でマスタも日向～半日陰・耐暑性中と記載、午後遮光必須の×は過小評価。午後遮光推奨の△へ修正。
+601,デスカンプシア　セスピトーサ ‘ノーザンライツ’,Deschampsia cespitosa 'Northern Lights',○,△,中,冷涼地の斑入り冷季型グラスで日向好むが高温を嫌い、湿潤林縁原産・本州酷暑では午後直射でメルトアウトの恐れがあり○→△(午後遮光推奨)に修正。
+602,ジギタリス　プルプレア ‘エルシーケルセイ’,Digitalis purpurea 'Elsie Kelsey',○,△,高,MBG『does best with afternoon shade』『part shade・moist soil not to dry out』、耐暑性中・蒸れ弱で夏の西日で萎れ易く、酷暑地では午後遮光推奨→△。
+610,カレックス　プランタジニア ‘ブルーリッジ’,Carex plantaginea 'Blue Ridge',△,×,中,MBG『part shade to full shade・leaves may brown in the sun regardless of water』、湿潤林床性で強い西日に葉焼け→afternoon shade必須の×。
+627,ポテンチラ　トライデンタータ,Potentilla tridentata,◎,○,中,日向・岩礫地を好む常緑グラウンドカバーだが耐暑性弱・高山冷涼地原産のため、全国酷暑地の炎天西日では傷むおそれがあり◎→○が妥当。
+640,アンジェリカ　パキカルパ,Angelica pachycarpa,○,△,中,『hot areas は light afternoon shade で葉焼け防止』とあり大型多湿好みの葉で酷暑西日を嫌うため△へ。
+642,カルーナ　ブルガリス ‘ロックターレット’,Calluna vulgaris 'Loch Turret',○,△,中,NCSU『高温多湿に不耐、酷暑地は午後の軽い遮光が有益』かつ耐暑・蒸れ弱で酷暑西日は保護推奨のため△へ。
+644,ゲンチアナ　セプテンフィダ　 var.ラゴデチアナ‘ベラ　アルピネラ’,Gentiana septemfida var. lagodechiana 'Bella Alpinella',○,△,中,高山リンドウで比較的耐暑とはいえ『酷暑地では full sun を避ける』とあり本州酷暑の西日は保護望ましく△へ。
+646,ジーアム（ゲウム） チロエンセ ‛ﾚﾃﾞｨｰ ｽﾄﾗｽﾃﾞﾝ'(‛ｺﾞｰﾙﾄﾞﾎﾞｰﾙ'),Geum chiloense 'Lady Stratheden',○,△,中,『最暑地は afternoon shade に、乾く炎天は避ける』とあり耐暑・蒸れ弱で酷暑西日は保護望ましいため△へ。
+655,フッキソウ斑入り (パキサンドラ ﾀｰﾐﾅﾘｽ‘バリエガータ’),Pachysandra terminalis 'Variegata',△,×,高,MBG『part～full shade、日射過多で葉が退色、暑い午後直射で葉焼け』かつ斑入りは特に焼けやすい林床植物のため西日害大で×へ下げ。
+656,フッキソウ（パキサンドラ　ターミナリス）,Pachysandra terminalis,△,×,高,MBG『暑く直射の午後日光で葉焼け、6時間超の直射で萎凋・早期休眠』で午後遮光必須の林床グラウンドカバーのため×へ下げ。
+658,ビゲロウィア　ヌッタリー,Bigelowia nuttallii,○,◎,中,花崗岩フラットロック/砂岩グレードなど酷暑・乾燥・露出地に自生する full sun 植物で耐暑性強のため炎天の午後直射でも良好と判断し◎へ上げ。
+681,ラシラス バーナス(宿根スイートピー) ‘ローゼンエルフ’,Lathyrus vernus 'Rosenelfe',○,△,中,MBGが『plants tend to burn up in full sun』『酷暑地では半日陰推奨』と明記、林床性のため全国酷暑地基準で△へ下げ。
+700,コルヌス‘フラビラメア’ （オウゴンミズキ）,Cornus sericea 'Flaviramea',○,△,中,一次情報が『zone7以南の高温多湿な夏はfull sunでストレス・病害を受けやすく半日陰が良い』とし耐暑性弱とも整合するため、本州酷暑基準で1段階下げ△（午後遮光推奨）に修正。
+711,ファイテウマ　ショイヒツウェリー （タマシャジン）,Phyteuma scheuchzeri,○,△,中,アルプス高山の岩礫植物で耐暑性弱・蒸れ弱、本州酷暑の高温な西日では消耗しやすく△が妥当。
+713,フラガリア ベスカ‘アレクサンドリア’ （ワイルドストロベリー）,Fragaria vesca ‛Alexandria’,○,△,中,暑地では葉焼けが生じ午後の遮光が推奨される（涼地のみfull sun可）ため、酷暑基準では△が妥当。
+716,ポテンチラ　ベルナ （ポテンチラ　ヌーマニアナ）,Potentilla verna(potentilla neumanniana),◎,○,中,full sun向きだが冷涼な北欧原産で耐暑性弱、暑い南部では午後遮光推奨のため炎天下OKの◎は過大で○へ。
+735,カンパニュラ‘サマータイムブルー’,Campanula 'Summertime Blues',○,△,中,暑い地域では半日陰を好み夜温が下がらないと不調との記述で、酷暑地の強い西日は保護が望ましく△へ。
+739,コルヌス　アルバ ‘エレガンティシマ’(ｷﾞﾝﾌﾐｽﾞｷ),Cornus alba 'Elegantissima',○,△,中,斑入り葉で暖地は午後遮光が好ましく強日照＋乾燥で葉焼けするとの記述、かつ耐暑性弱で△へ。
+740,コルヌス　アルバ‘オーレア’ （サンゴミズキ　オーレア）,Cornus alba 'Aurea',○,△,中,黄金葉は強日照で発色するが焼けやすく冷涼地原産で耐暑性弱のため、酷暑の西日は保護が望ましく△へ。
+744,ジーアム（ゲウム） ‘フレームオブパッション’,Geum 'Flame of Passion',○,△,中,暑い地域では午後の遮光で葉と花が良くなる旨、かつ蒸れ弱で、酷暑の西日は保護が望ましく△へ。
+745,ジギタリス　プルプレア ‘モンストローサ ホワイト’,Digitalis purpurea 'Monstrosa White',○,△,中,暑い午後は午前日照＋午後遮光を推奨し半日陰を好む旨、かつ蒸れ弱で、酷暑の西日は保護が望ましく△へ。
+774,ミューレンベルギア　カピラリス,Muhlenbergia capillaris,○,◎,中,北米南東部原産の暖地系グラスでfull sun・耐暑耐乾が強く炎天午後直射でも良好なため◎へ上げる。
+782,ロサ‘アデレードフードレス’ （バラ）,Rosa 'Adelaide Hoodless',×,○,高,『should only be grown in full sunlight』の日向専用パークランド系バラで、バラは高温の午後直射に耐えるため×は方向逆転の誤り（耐暑性中の寒地育成種のため◎ではなく○に是正）。
+786,スカビオサ　コウカシカ ‘パーフェクタ’（ﾌﾞﾙｰﾊﾟｰﾌｪｸｼｮﾝ）,Scabiosa caucasica 'Blue Perfection',◎,△,高,コーカサス山地原産で耐暑性・蒸れ耐性ともに弱、暑地では午後遮光で花色退色を防ぐ必要があり、炎天直射で好むとする◎は過大なので△へ是正。
+794,ポア　グラウカ‘ブルーヒルズ’,Poa glauca 'Blue Hills',◎,○,中,青銀葉の細葉グラスで基本は日向だが、耐暑性弱・蒸れ弱・高山冷涼原産のクール系で酷暑地の午後直射は軽い遮光で葉焼け軽減が望ましく◎はやや強気なため○へ。
+810,アキレジア‘ボルドーバロー’,Aquilegia vulgaris var. stellata plena 'Bordeaux Barlow',○,△,中,MBG『full sun to part shade、暑地では午後遮光を与える／夏に葉が衰える』かつ耐暑性中でホンシュウ酷暑基準では午後遮光が望ましく△へ下方修正。
+818,アルケミラ セリカータ ‘ゴールドストライク’,Alchemilla sericata 'Gold Strike',○,△,高,MBG『prefers part afternoon shade in hot summer climates』かつ耐暑性弱・蒸れ弱で酷暑地の西日では傷むため△に下げる。
+822,トロリウス カルトラム ‘ニュームーン’,Trollius × cultorum 'New moon',○,△,高,冷涼地性で暑さ・乾燥を嫌い『暑い午後は afternoon shade を』とされ、耐暑性弱のため△に下げる。
+825,ポルモニウム ボレアル ‘ヘブンリーハビット’,Polemonium boreale 'Heavenly Habit',○,△,中,北極性ポレモニウムで耐暑性弱、属全般が西日で葉焼けし同属caeruleumが×のため○は高過ぎ、△へ下げる。
+834,プリムラ‘プリマデイエンテローズ’,Primula cortusoides 'Primadiente Rose',○,△,中,冷涼地でのみ日向可・暖地では半〜日陰の林床プリムラで耐暑弱・蒸れ弱、酷暑地の西日では葉焼けするため○→△に下げ午後遮光推奨。
+841,アストランティア‘ベニス’,Astrantia major 'Venice',○,△,中,湿潤な半日陰を好み耐暑弱・蒸れ弱で、酷暑地の乾いた西日直射で葉焼けするため○→△に下げ午後遮光推奨。
+842,エリムス　カナデンシス ‘アイシーブルー’,Elymus canadensis 'Icy Blue',×,○,高,北米プレーリー原産の全日照グラスで乾いた日当たり斜面にも育つ細葉グラス、×（午後遮光必須）は明確な逆転で、寒地系ゆえ盛夏に葉が傷むことを考慮し○へ修正。
+854,ベルゲニア　コーディフォリア　 ‘スノータイム’,Bergenia cordifolia 'Snow Time',○,△,高,MBGが酷暑地では午後遮光を推奨し葉焼けを警告、耐暑性弱のため全国酷暑基準で△が妥当。
+856,ラシラス バーナス ‘ヘブンリーブルー'(宿根スイートピー）,Lathyrus vernus 'Heavenly Blue',○,△,中,落葉樹下の春咲き林床植物で半日陰向き、耐暑性弱のため夏の強い西日は保護望ましく△。
+861,ラムズイヤー（スタキス） 'シルキーフリース’,Stachys byzantina 'Silky Fleece',○,◎,中,中東原産の銀葉・乾燥に強い代表的サンプランツで炎天の西日でも良好、園芸標準どおり◎に上げる。
+862,エキノプス　リトロ’プラチナブルー’,Echinops ritro subsp. ruthenicus 'Platinum Blue',○,◎,高,草原・岩礫地由来で耐暑性強・乾燥に強く炎天の直射を好む本格サンプランツのため◎に上げる。
+882,アンシニア（ウンシニア） ルブラ,Uncinia rubra,○,△,中,NZ原産の冷涼・湿潤志向のスゲで『afternoon shade in hot climates・強日で退色/葉焼け』とされ、酷暑地の西日は苦手→△に修正。
+883,エキナセア'オレンジパッション',Echinacea 'Orange passion',○,◎,高,北米プレーリー原産・耐暑性強・日向で炎天の午後直射に強い代表的サンプランツ→◎に格上げ。
+887,ゲラニウム ファエウム‘レイブン',Geranium phaeum 'Raven',○,△,中,MBG『performs best in shade to near full shade・暑乾地では遮光を』の林床性クランズビルで蒸れ耐性弱→西日は苦手△に修正。
+888,スタキス　マクランサ'モーニングブラッシュ',Stachys macrantha 'Morning Blush',◎,○,中,日向可だが銀葉のS.byzantinaと異なり緑葉で耐暑性中、『暑乾地の直射午後日/照り返しは避ける』とされ炎天◎は過大→○に修正。
+891,ブルネラ（ブルンネラ） ‘シルバースペアー',Brunnera macrophylla 'Silver Spear',△,×,高,MBG『foliage may scorch in hot summer sun／protection from hot afternoon sun』かつ耐暑性弱・蒸れ弱の林床性葉物で酷暑地では午後直射葉焼け必至→×へ下げ。
+899,シダルセア'パーティーガール',Sidalcea malviflora 'Party Girl',○,△,高,北米西部産で耐暑性弱・蒸れ弱、一次情報『内陸・暑地は午後直射から保護／高温多湿を嫌う』のため酷暑地基準で午後遮光推奨→△へ下げ。
