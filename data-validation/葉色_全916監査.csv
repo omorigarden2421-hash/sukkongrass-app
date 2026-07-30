@@ -1,0 +1,917 @@
+﻿row,plant,sci,cat,tags,agree_cat,agree_tags,confidence,source,reason
+2,サギナ　サブラータ （アイリッシュモス）,Sagina subulata,① グリーン系,常緑,True,True,高,MBG/RHS ほか園芸標準（S. subulata 基本種は鮮緑の苔状マット。金葉は別選抜'Aurea'）,基本種は標準的な緑葉の常緑マットで①・常緑ともに整合。
+3,アキレジア　クリサンサ ‘イエロークィーン’,Aquilegia chrysantha 'Yellow Queen',③ ブルー系,,True,True,中,NCSU Plant Toolbox / High Plains Gardening（A. chrysantha は blue-green のレース状葉と記載） https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/,本種はブルーグリーンの繊細葉と一次情報で確認、③は妥当。追加タグ不要。
+4,アルテミシア　シュミッディアーナ ‘ナナ’（アサギリソウ）,Artemisia schmidtiana 'Nana',④ シルバー系,"毛あり,半常緑",True,True,高,RHS / MBG（銀白の絹毛に覆われた細裂葉、アサギリソウ）園芸標準,銀白の絹毛葉で④・毛あり・半常緑すべて整合。
+5,アジュガ  ‘チョコレートチップ’,Ajuga reptans 'Chocolate Chip',⑤ パープル／ブラック系,常緑,True,True,中,MBG Plant Finder（'Valfredda' CHOCOLATE CHIP、chocolate foliage・bronze-maroon）https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=254287,チョコ〜ブロンズ・マルーンの濃色葉で⑤は生産者評価として妥当（⑥境界だが維持）。
+6,アジュガ　レプタンス ‘バーガンディグロウ’,Ajuga reptans 'Burgundy Glow',⑦ 斑入り,"常緑,白覆輪",True,True,高,MBG / Gardenia（tricolor：クリーム白の覆輪＋ローズバーガンディ＋緑）https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536,葉縁がクリーム白の三色斑で⑦・白覆輪が整合。
+7,アスチルベ　アレンジー ‘グランデ’,Astilbe × arendsii 'Grande',① グリーン系,,True,True,中,NCSU Plant Toolbox（Astilbe × arendsii は緑のシダ状葉）https://plants.ces.ncsu.edu/plants/astilbe-x-arendsii/,本交配群は緑葉が基本で①に整合、品種固有の色替特徴なし。
+8,アスチルベ　アレンジー ‘ファナル’,Astilbe × arendsii 'Fanal',⑥ ブロンズ／レッド系,新葉赤,True,True,中,Gardenia / MBG（新葉ブロンズ→夏に赤味を帯びた濃緑、bronze-green foliage が観賞点）https://www.gardenia.net/plant/astilbe-fanal-arendsii-hybrid,新葉ブロンズ・赤味を帯びる銅葉緑が特徴で⑥・新葉赤が妥当（生産者評価維持）。
+9,アメリカツルマサキ ‘エメラルドガイディ’,Euonymus fortunei 'Emerald Gaiety',⑦ 斑入り,"白覆輪,冬発色,常緑",True,True,高,RHS / MBG（緑地に白覆輪、冬にピンク〜赤に発色する常緑）園芸標準,白覆輪の常緑斑入りで冬にピンク発色、全タグ整合。
+10,アルケミラ　モリス (レディースマントル),Alchemilla mollis,① グリーン系,毛あり,True,True,高,RHS / MBG（軟毛のある扇状の緑葉、露を弾く）園芸標準,軟毛のある標準的緑葉で①・毛ありが整合。
+11,アルメリア　マリティマ ‘バリエガータ’（アルメリア斑入り）,Armeria maritima 'Variegata',⑦ 斑入り,"白覆輪,常緑",True,True,中,RHS / 園芸流通標準（草状葉にクリーム白の覆輪斑、常緑クッション）,草状葉の白覆輪斑入り常緑で全項目整合。
+12,アルメリア　マリティマ ‘ルブリフォーリア’,Armeria maritima 'Rubrifolia',⑥ ブロンズ／レッド系,"秋紅葉,常緑",True,True,中,MBG / Gardenia（春秋にバーガンディ、夏は濃緑・裏面紫、常緑クッション）https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=241867,赤葉選抜で涼期にバーガンディ発色し⑥・秋紅葉・常緑が妥当（⑧境界だが生産者評価維持）。
+13,エゴポディウム‘バリエガータム’ （イワミツバ　フイリ）,Aegopodium podagraria 'Variegatum',⑦ 斑入り,白覆輪,True,True,高,MBG Plant Finder（緑地に白〜クリームの覆輪斑、落葉性）園芸標準,白覆輪の斑入り選抜で⑦・白覆輪が整合、落葉種のため常緑系タグなし。
+14,エーデルワイス,Leontopodium alpinum,④ シルバー系,毛あり,True,True,高,MBG Plant Finder / Gardenia (Leontopodium alpinum) https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=277339,銀灰色の密毛に覆われた葉のためシルバー系＋毛ありで整合。
+15,エキナセア　プルプレア ‘マグナス’,Echinacea purpurea 'Magnus',① グリーン系,,True,True,高,MBG Plant Finder / 園芸標準（Echinacea purpurea 'Magnus'）https://www.missouribotanicalgarden.org/PlantFinder,標準的な緑葉で斑・特殊色なくグリーン系で整合。
+16,エキナセア　プルプレア ‘ホワイトスワン’,Echinacea purpurea 'White Swan',① グリーン系,,True,True,高,MBG Plant Finder / 園芸標準（Echinacea purpurea 'White Swan'）花色白で葉は緑,花色は対象外、葉は標準的な緑でグリーン系で整合。
+17,エリゲロン　カルバンスキャナス ‘プロフュージョン’（ｹﾞﾝﾍﾟｲｺｷﾞｸ）,Erigeron karvinskianus ‛Profusion’,① グリーン系,半常緑,True,True,高,RHS/園芸標準（Erigeron karvinskianus 'Profusion'）暖地で半常緑の緑葉,細い緑葉で暖地半常緑、グリーン系＋半常緑で整合。
+18,スピレア（オウゴンバシモツケ）,Spiraea japonica 'Goldflame',⑧ 季節変化型,"新葉赤,秋紅葉",True,True,高,RHS https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details / MBG Plant Finder c346,新葉ブロンズ赤→黄金→緑→秋に銅橙と季節変化が観賞点で季節変化型＋新葉赤・秋紅葉で整合。
+19,オレガノ　ブルガレ‘オーレウム’ （ゴールデンオレガノ）,Origanum vulgare 'Aureum',② ゴールド／ライム系,,True,True,高,MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=251328 / RHS 89773,黄金葉（チャートリューズ）が主色でゴールド／ライム系で整合。
+20,オレガノ　ブルガレ‘ジムベスト’,Origanum vulgare 'Jim Best',⑦ 斑入り,散斑,True,True,高,MBG Plant Finder（Origanum vulgare 'Jim Best'）/ garden.org 149089 不規則な黄斑,緑葉に不規則な黄金の散り斑が入る斑入り選抜で斑入り＋散斑で整合。
+21,カモミール　ローマンカモミール ダブルフラワー,Chamaemelum nobile ‘Flore-Pleno’,① グリーン系,常緑,True,True,中,RHS/園芸標準（Chamaemelum nobile 'Flore Pleno'）常緑の細裂緑葉,羽状の細い緑葉で常緑のグリーン系、常緑タグも整合。
+22,カレックス‘アイスファウンテン’,Carex muskingumensis ‘Ice Fountains’,⑦ 斑入り,"白覆輪,半常緑",True,True,高,RHS https://www.rhs.org.uk/plants/168830/ (v) / Hoffman Nursery / Terra Nova 育成 白斑,各葉に白～クリームの斑が入る白斑選抜で斑入り＋白覆輪、半常緑で整合。
+23,カンパニュラ　タケシマナ,Campanula takesimana,① グリーン系,,True,True,高,MBG Plant Finder / RHS（Campanula takesimana）心形の光沢ある緑葉,心形で光沢のある緑葉、斑・特殊色なくグリーン系で整合。
+24,カンパニュラ　タケシマナ ‘ビューティフルトラスト’,Campanula takesimana ‛Beautiful Trust’,① グリーン系,半常緑,True,True,高,MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=258915 / RHS 166326,心形半光沢の中緑葉で暖地半常緑、グリーン系＋半常緑で整合。
+25,カンパニュラ　プンクタータ ‘ウェディングベル’,Campanula punctata 'Wedding Bells',① グリーン系,,True,True,高,RHS/園芸標準（Campanula punctata 'Wedding Bells'）葉は標準的な緑,花は八重白だが葉は標準的な緑で斑なく、グリーン系で整合。
+26,カンパニュラ　プンクタータ ‘チェリーベル’（ホタルブクロ）,Campanula punctata ‛Cherry Bells’,① グリーン系,,True,True,高,MBG Plant Finder (Campanula punctata 'Cherry Bells') http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=255999 / NCSU Plant Toolbox,MBGでロゼットのミディアムグリーン葉と記載され標準緑葉のため①で整合。
+27,カンパニュラ　プンクタータ ‘パンタルーン’,Campanula punctata 'Pantaloons',① グリーン系,,True,True,中,NCSU Plant Toolbox (Campanula punctata) https://plants.ces.ncsu.edu/plants/campanula-punctata/ ／一次情報＋園芸標準に基づく,同種の八重花選抜で葉は基本種同様のミディアムグリーンのため①で整合。
+28,カンパニュラ　ポサスキャーナ ‘アルペンブルー’,Campanula poscharskyana 'Alpen Blue',① グリーン系,半常緑,True,True,中,RHS / NCSU（Campanula poscharskyana）https://plants.ces.ncsu.edu/plants/campanula-poscharskyana/ ／一次情報＋園芸標準に基づく,匍匐性で心形の緑葉、暖地半常緑のため①・半常緑タグとも整合（青は花色）。
+29,キミキフーガ（ｱｸﾀｴｱ）シンプレックス ‘ブラックネグリジェ’,Cimicifuga simplex ‘Black Negligee’,⑤ パープル／ブラック系,,True,True,高,MBG Plant Finder (Actaea simplex Atropurpurea Group 'Black Negligee') https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=258943,MBGで深い紫黒葉と記載され通年紫黒が主色のため⑤で整合。
+30,ガリウム　オドラタム （クルマバソウ）,Galium odoratum,① グリーン系,,True,True,高,NCSU Plant Toolbox (Galium odoratum) https://plants.ces.ncsu.edu/plants/galium-odoratum/ ／MBG,輪生する明るい緑葉のグラウンドカバーで標準緑葉のため①で整合。
+31,ゲーラーディア　アリスタータ ‘ゴブリン’（ガイラルディア）,Gaillardia aristata ‘Goblin’,① グリーン系,"毛あり,半常緑",True,True,高,NCSU Plant Toolbox (Gaillardia aristata) https://plants.ces.ncsu.edu/plants/gaillardia-aristata/ ／Bluestone Perennials,灰緑〜オリーブ緑の有毛葉で緑系の範囲、毛ありも整合のため現状維持。
+32,ゲーラーディア　アリスタータ ‘バーガンディ’,Gaillardia aristata ‘Burgundy’,① グリーン系,毛あり,True,True,高,NCSU Plant Toolbox (Gaillardia aristata) https://plants.ces.ncsu.edu/plants/gaillardia-aristata/,バーガンディは花色で葉は基本種同様の灰緑・有毛のため①・毛ありとも整合。
+33,コレオプシス　バーティシラータ ‘ザグレブ’（イトバハルシャギク）,Coreopsis verticillata 'Zagreb',① グリーン系,,True,True,高,MBG Plant Finder (Coreopsis verticillata 'Zagreb') https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx / NCSU,糸葉の明るい緑葉で標準緑葉のため①で整合。
+34,サルビア　スーパーバ ‘クィーンブルー’,Salvia x superba ‛Queen Blue’,① グリーン系,毛あり,False,True,高,NCSU Plant Toolbox (Salvia nemorosa/superba) https://plants.ces.ncsu.edu/plants/salvia-nemorosa/ ／NCSU Extension Gardener,「ブルー」は花色で葉は緑〜灰緑・皺のある有毛葉のため③は誤り、①へ修正（毛ありは維持）。
+35,ジーアム（ゲウム）　チロエンセ ‘ミセスブラッドショウ’,Geum chiloense ‛Mrs.Bradshaw’,① グリーン系,,True,True,高,RHS / MBG Plant Finder (Geum 'Mrs J. Bradshaw') https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx,羽状の緑のロゼット葉で標準緑葉、赤は花色のため①で整合。
+36,ジギタリス　マートネンシス ‘マートンストロベリー’,Digitalis × mertonensis,① グリーン系,"半常緑,毛あり",True,True,高,MBG Plant Finder (Digitalis x mertonensis) https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx ／RHS,濃緑の有毛ロゼット葉で標準緑葉、半常緑・毛ありとも整合のため現状維持。
+37,ジプソフィラ　セラスティオイデス （カーペットカスミソウ）,Gypsophila cerastioides,① グリーン系,"半常緑,毛あり",True,True,中,RHS Plant Finder (Gypsophila cerastioides) ／一次情報＋園芸標準に基づく,マット状の緑の軟毛葉で標準緑葉、半常緑・毛ありとも整合のため現状維持。
+38,ジプソフィラ　レペンス ‘ホワイト’,Gypsophila repens ‘White’,③ ブルー系,半常緑,True,True,高,RHS (rhs.org.uk/plants/344492 Gypsophila repens 'Filou White') / Wikipedia Gypsophila repens (glaucous blue-green foliage),RHS・Wikipedia記載でグロコース（青緑）の細葉のため③で整合。
+39,ジプソフィラ　レペンス ‘ロゼア’,Gypsophila repens ‘Rosea’,③ ブルー系,半常緑,False,True,中,USPerennials (usperennials.com Gypsophila repens 'Rosea') / Wikipedia Gypsophila repens（葉は種共通で glaucous blue-green）,葉は花色違いの同種で‘White’同様の青緑グロコース葉のため④→③に統一修正。
+40,シレネ　ユニフローラ ‘ロビンホワイトブレスト’,Silene uniflora ‛Robin Whitebreast’,④ シルバー系,"半常緑,ワックス質",True,True,高,"RHS (rhs.org.uk/plants/117393) / MBG Plant Finder (taxonid 254456)：waxy grey-green, glaucous, silvery",RHS/MBGでワックスによる灰緑・銀色葉のため④、ワックス質タグも整合。
+41,シレネ　ユニフローラ‘ロゼア’,Silene uniflora 'Rosea',④ シルバー系,"半常緑,ワックス質",False,False,中,RHS/MBG Silene uniflora（種共通でワックス質の灰緑・銀色葉）,同種で‘Robin Whitebreast’同様の灰緑ワックス葉のため③→④に統一し、ワックス質等を付与。
+42,サギナ　サブラータ‘オーレア’ （スコッチモス）,Sagina subulata var. glabrata 'Aurea',② ゴールド／ライム系,常緑,True,True,高,園芸標準（'Aurea'＝黄金葉のスコッチモス、chartreuse/golden-green foliage）＋一次情報一般記載,'Aurea'選抜は黄金～ライムの常緑マット葉のため②で整合。
+43,ラムズイヤー,Stachys byzantina,④ シルバー系,"毛あり,半常緑",True,True,高,"MBG Plant Finder / NCSU Plant Toolbox（Stachys byzantina：silvery, densely woolly/tomentose leaves）",銀白の軟毛密生葉が主観賞点のため④、毛あり・半常緑も整合。
+44,セダム　カムチャティカム　var. ‘バリエガータム’(ｴｿﾞﾉｷﾘﾝｿｳ斑入),Sedum kamtschaticum var. kamtschaticum 'Variegatum',⑦ 斑入り,"白覆輪,半常緑",True,True,高,園芸標準・MBG系記載（'Variegatum'＝葉縁にクリーム白の覆輪斑）,クリーム白の覆輪斑が主観賞点のため⑦、白覆輪も整合。
+45,セダム　スプリウム ‘ドラゴンズブラッド’,Sedum spurium ‛Dragon's Blood’,⑥ ブロンズ／レッド系,"秋紅葉,半常緑",True,True,高,"MBG Plant Finder Sedum spurium 'Dragon's Blood'（bronze-red/burgundy foliage, deepening in fall）",通年で銅赤～ワインレッド葉、秋に濃色化のため⑥・秋紅葉で整合。
+46,セダム　スプリウム ‘トリカラー’,Sedum spurium ‛Tricolor’,⑦ 斑入り,"白覆輪,半常緑",True,True,高,MBG Plant Finder (taxonid 269194)：green center with creamy white margins tinged pink,緑地にクリーム白の覆輪（ピンク差し）斑のため⑦、白覆輪で整合。
+47,セダム　カウチコルム （ヒダカミセバヤ）,Sedum cauticola,③ ブルー系,,True,False,高,"NARGS (nargs.org Sedum cauticola) / Perennial Resource：glaucous blue-grey leaves, herbaceous & winter-dormant (dies down)",グロコースの青灰葉で③は妥当だが冬季落葉種のため誤タグ‘常緑’を除去。
+48,セラスチウム　トメントサム （スノーインサマー）,Cerastium tomentosum,④ シルバー系,"毛あり,常緑",True,True,高,"MBG Plant Finder / NCSU Plant Toolbox（Cerastium tomentosum：silvery-grey tomentose/woolly foliage, evergreen）",銀灰の綿毛葉が主観賞点のため④、毛あり・常緑も整合。
+49,ゲラニウム　サンギネウム‘ローズ’ （アケボノフウロ）,Geranium sanguineum var. striatum,⑧ 季節変化型,秋紅葉,True,True,中,RHS / MBG Plant Finder Geranium sanguineum（deeply cut green foliage turning red/crimson in autumn）,生育期は緑だが深裂葉が秋に赤～深紅へ紅葉、境界的だが生産者評価尊重で⑧・秋紅葉維持。
+50,セリ 斑入り　,Oenanthe javanica ‘Flamingo’,⑦ 斑入り,散斑,True,True,高,"BBC Gardeners World https://www.gardenersworld.com/plants/oenanthe-javanica-flamingo/ , MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250885",青緑葉がピンク・クリーム・白で不規則に斑入り（覆輪＋散り斑）となる観賞品種のため⑦、散斑を維持。
+51,センペルビビューム（ハウスリーク）,Sempervivum,⑧ 季節変化型,"常緑,冬発色",True,False,中,"NCSU Plant Toolbox https://plants.ces.ncsu.edu/plants/sempervivum/ , RHS https://www.rhs.org.uk/plants/sempervivum",常緑ロゼットで低温期に紫・銅・赤へ大きく発色する季節変化型のため⑧を維持し、冬発色を補完。
+52,ソリダゴ‘ゴールドスパングルス’,Solidago flexicaulis ‛Gold Spangles’,⑦ 斑入り,散斑,False,False,高,"MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=255119 , plant lust https://plantlust.com/plants/43303/solidago-gold-spangles/",濃緑葉に金色が散り込む斑入り選抜（variegated goldenrod）のため①は誤りで⑦に修正、散斑を付与し根拠不明の秋紅葉を削除。
+53,ダイアンサス‘ブルーヒルズ’,Dianthus ‛Blue Hills’,③ ブルー系,常緑,True,True,高,"perennials.com http://www.perennials.com/plants/dianthus-blue-hills.html , Wrightman Alpines https://wrightmanalpines.com/plants/dianthus-blue-hills",スチールブルー〜青灰の常緑クッション葉のため③・常緑を維持。
+54,ダイアンサス sp.‘ライオンロック’,Dianthus sp. 'Lion Rock',③ ブルー系,半常緑,True,False,中,Dianthus属クッションピンクの一般特性（青灰グロコース葉）＋園芸標準に基づく,青灰葉のクッションピンクで③は妥当。常緑性列（半常緑）と整合させタグを半常緑に修正。
+55,タイム　セパイラム （クリーピングタイム）,Thymus serpyllum,① グリーン系,半常緑,True,True,高,"RHS / plant lust（Thymus serpyllum 一般記載, 緑葉の匍匐タイム）",標準的な緑葉の匍匐タイムのため①・半常緑を維持。
+56,タイム　セパイラム ssp. (セイヨウイブキジャコウソウ),Thymus serpyllum subsp. serpyllum,① グリーン系,半常緑,True,True,高,Thymus serpyllum subsp. serpyllum 一般記載（緑葉匍匐タイム）＋園芸標準に基づく,基本種と同様の緑葉匍匐タイムのため①・半常緑を維持。
+57,タイム‘ピーターデイビス’,Thymus ‘Peter Davis’,① グリーン系,常緑,False,False,中,"RHS https://www.rhs.org.uk/plants/131387/thymus-peter-davis/details , BBC Gardeners World https://www.gardenersworld.com/plants/thymus-nitidus-peter-davis/",常緑でグレーグリーンの葉であり紫黒でも銅葉化でもない。⑤は明確な誤りで①へ修正し銅葉化を削除、常緑を付与。
+58,タイム　ロンギカウリス,Thymus longicaulis,① グリーン系,常緑,False,False,高,"RHS https://www.rhs.org.uk/plants/99824/thymus-longicaulis/details , plant lust https://plantlust.com/plants/11226/thymus-longicaulis/",濃緑の無斑葉で斑入りではない。⑦・散斑は明確な誤りのため①へ修正、常緑（広葉常緑グラウンドカバー）を付与。
+59,エノテラ　スペシオーサ ‘ウッドサイドホワイト’,Oenothera speciosa 'Woodside White',① グリーン系,,True,True,中,"RHS https://www.rhs.org.uk/plants/99748/oenothera-speciosa/details , MBG https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=d238",母種同様の中緑・披針形の葉で標準緑葉のため①・タグ無しを維持。
+60,エノテラ　マクロカルパ （ヒルザキオオバナツキミソウ),Oenothera macrocarpa,① グリーン系,,True,True,中,"MBG https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=e390 , Lady Bird Johnson Wildflower Center https://www.wildflower.org/plants/result.php?id_plant=OEMA",灰緑〜銀緑で白い中肋をもつが基本種は緑主体（明瞭な銀葉はvar.incana）で境界的なため生産者評価を尊重し①を維持。
+61,ツタ　アメリカヅタ ‘バージニアクリーパー’,Parthenocissus quinquefolia,⑧ 季節変化型,"秋紅葉,新葉赤",False,False,高,"NCSU Plant Toolbox https://plants.ces.ncsu.edu/plants/parthenocissus-quinquefolia/ , MBG https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=l490",夏は緑葉、春の新葉は紫赤、秋に鮮紅色へ紅葉するのが最大の観賞点。金葉ではなく②は明確な誤りで⑧へ修正、秋紅葉・新葉赤を付与。
+62,ティアレラ‘ラッカーリーフ’,Tiarella 'Lacquer Leaf',① グリーン系,半常緑,True,False,中,"MBG Plant Finder (Tiarella 'Lacquer Leaf', taxonid=257321) / perennials.com",光沢ある濃緑のカエデ状葉で緑系は妥当。常緑性列(半常緑)に整合させ半常緑タグを補完。
+63,トバラ　バージニアーナ ‘バリエガータ’,Tovara virginiana ‛Variegata’,⑦ 斑入り,散斑,False,False,高,"MBG Plant Finder (Persicaria virginiana Variegata Group, kempercode=w360) / plantlust",緑葉にクリーム白の不規則斑が主観賞点で、①グリーン系は誤り。⑦斑入りに修正し散斑を付与。
+64,トラディスカンティア　 ヒメツユクサ　赤花,Tradescantia (Andersoniana Group) 'Red Cloud',① グリーン系,,True,False,高,"MBG Plant Finder (Tradescantia 'Red Cloud', taxonid=253196)",中緑の草状葉で緑系は妥当。冬季落葉種のため常緑タグは誤りで除去。
+65,トラディスカンティア ‘ブルーアンドゴールド’,Tradescantia (Andersoniana Group) 'Blue and Gold',② ゴールド／ライム系,,True,True,高,"MBG Plant Finder (Tradescantia 'Sweet Kate'/'Blue and Gold', taxonid=250005) / Gardenia.net",鮮黄金葉('Sweet Kate'同等)でゴールド系に整合。
+66,ネペタ　ムッシーニアイ,Nepeta mussinii,④ シルバー系,"半常緑,毛あり",True,False,中,"MBG Plant Finder (Nepeta racemosa=mussinii, kempercode=a949)",灰緑の有毛葉で銀葉系は生産者評価として許容。有毛葉のため毛ありを補完。
+67,アラビス　フェルディナンディコブルギ ‘バリエガータ’(ハタザオフイリ),Arabis ferdinandi-coburgi ‛Variegata’,⑦ 斑入り,"白覆輪,常緑",True,False,高,perennials.com (Arabis ferdinandi-coburgi 'Variegata') / plantlust,灰緑地にクリーム白の覆輪斑（黄ではない）で黄覆輪を白覆輪に修正。常緑種のため半常緑を常緑に整合。
+68,ビオラ　ラブラドリカ,Viola labradorica,⑤ パープル／ブラック系,半常緑,True,False,高,Phoenix Perennials / plantlust (Viola riviniana Purpurea Group syn. labradorica),紫褐色(バーガンディ)を帯びる葉で紫系は妥当。原典・常緑性列に合わせ常緑を半常緑に整合。
+69,ヒューケラ‘グリーンスパイス’,Heuchera 'Green Spice',① グリーン系,半常緑,True,True,中,"MBG Plant Finder (Heuchera 'Green Spice', taxonid=263718) / Monrovia",緑地に銀の被りと紫脈で①/④の境界。緑基調のため生産者評価の緑系を維持。
+70,ヒューケラ　サンギネア ‘ファイヤーフライ’,Heuchera sanguinea ‘Firefly’,① グリーン系,半常緑,True,True,高,SeedScape / High Country Gardens (Heuchera sanguinea 'Firefly'),レタスグリーンのハート形葉で緑系に整合（赤花選抜だが葉は緑）。
+71,ビンカ　ミノール ‘アトロプルプレア’,Vinca minor 'Atropurpurea',① グリーン系,"常緑,ワックス質",False,False,高,"RHS Plants (Vinca minor 'Atropurpurea', id=96889) / Bluestone Perennials",'Atropurpurea'は花色由来で葉は光沢のある濃緑。銀葉は誤りで緑系に修正、銀粉を除去し光沢のワックス質を付与。
+72,ビンカ　ミノール （ビンカミノール　ムラサキ）,Vinca minor 'Atropurpurea',① グリーン系,"常緑,ワックス質",False,False,高,"RHS Plants (Vinca minor 'Atropurpurea', id=96889)",行71と同一品種。葉は濃緑・光沢で銀葉は誤り。緑系に修正、銀粉除去・ワックス質付与。
+73,ビンカ　ミノール ‘スターリングシルバー’,Vinca minor 'Sterling Silver',⑦ 斑入り,"常緑,白覆輪",False,False,高,Chicago Botanic Garden (Vinca minor 'Sterling Silver') / plantlust,濃緑葉に白覆輪が通年出る斑入り種。銀葉系ではなく⑦斑入りに修正し、銀粉を白覆輪に置換。
+74,ビンカ　ミノール‘アルバ’ （ビンカミノール白花）,Vinca minor 'Alba',① グリーン系,"常緑,ワックス質",False,False,高,MBG Plant Finder / RHS Vinca minor（光沢のある濃緑・無毛の常緑葉）https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=276078,'Alba'は種の光沢ある濃緑・無毛葉で銀葉でないため①に修正し、誤りの毛あり・銀粉を外しワックス質を付与。
+75,ﾋﾞﾝｶ ﾐﾉｰﾙ‘オーレオバリエガータ’ （ビンカミノール斑入り）,Vinca minor 'Aureovariegata',⑦ 斑入り,"常緑,黄覆輪",False,False,高,RHS Vinca minor 'Aureovariegata' https://www.rhs.org.uk/plants/63999/vinca-minor-aureovariegata-(v)/details,緑葉にクリーム黄の覆輪が入る斑入り品種のため⑦へ修正し黄覆輪を付与。
+76,フィソカルパス‘ディアボロ’ （アメリカテマリシモツケ ディアボロ）,Physocarpus opulifolius ‛Diabolo’,⑤ パープル／ブラック系,,True,True,高,MBG/RHS Physocarpus 'Diabolo'（生育期通じ濃紫～暗紫赤の葉）RHS AGM記載,通年で暗紫葉が主色の代表的パープルリーフ品種で現分類・タグとも整合。
+77,ハコネクロア　マクラ‘オレオラ’ （フウチソウ　斑入り、キンウラハグサ）,Hakonechloa macra 'Aureola',⑦ 斑入り,"黄覆輪,秋紅葉",True,True,中,NCSU Plant Toolbox / MBG Hakonechloa 'Aureola'（黄葉に緑条、秋にピンク～赤に染まる）https://plants.ces.ncsu.edu/plants/hakonechloa-macra-aureola/,黄地に緑条の縦斑で秋に紅色を帯びる斑入り品種のため現分類・タグを維持（縦条斑は語彙上黄覆輪で近似）。
+78,フェスツーカ　グラウカ ‘エリジャーブルー’,Festuca glauca ‛Elijah Blue’,③ ブルー系,"常緑,銀粉",False,False,高,NCSU Plant Toolbox / MBG Festuca glauca 'Elijah Blue'（鮮やかな銀青葉）https://plants.ces.ncsu.edu/plants/festuca-glauca/,明るいシルバーブルー葉が主色の代表的ブルーグラスのため③へ修正し銀粉を付与。
+79,フェニキュラム　ブルガレ ‘プルプレウム’(ブロンズフェンネル),Foeniculum vulgare 'Purpureum',⑥ ブロンズ／レッド系,新葉赤,False,False,高,RHS / MBG Foeniculum vulgare 'Purpureum'（新葉銅赤～ブロンズ紫の羽状葉、斑入りではない）https://www.rhs.org.uk/plants/43739/foeniculum-vulgare-purpureum/details,斑入りではなく銅紫の細裂葉が主色（新葉は銅赤）のため⑥へ修正し誤りの常緑・銀粉を外し新葉赤を付与。
+80,フクシャ　マジェラニカ,Fuchsia magellanica,① グリーン系,半常緑,True,False,中,Oregon State Univ. Landscape Plants / RHS Fuchsia magellanica（緑葉の落葉性低木）https://landscapeplants.oregonstate.edu/plants/fuchsia-magellanica,標準的な緑葉で①は妥当だが、常緑性列の半常緑と整合するようタグを半常緑に修正。
+81,フクシャ マジェラニカ‘バリエガータ’ （フクシャ マジェラニカ 斑入り）,Fuchsia magellanica‘Variegata’,⑦ 斑入り,"白覆輪,新葉赤",True,True,高,RHS Fuchsia magellanica 'Variegata'（灰緑葉にクリーム白覆輪、新葉に桃色を帯びる）https://www.rhs.org.uk/plants/33036/fuchsia-magellanica-variegata/details,クリーム白覆輪の斑入り葉で新葉が桃赤を帯びるため現分類・タグとも整合。
+82,ヘリクトトリコン センパーバイオレンス (ブルーオーツグラス),Helictotrichon sempervirens,③ ブルー系,"常緑,銀粉",True,True,高,MBG/NCSU Helictotrichon sempervirens（ブルーグレーの常緑オーツグラス）,青灰色の常緑葉が主色の代表的ブルーグラスで現分類・タグとも整合。
+83,プルネラ　ブルガリス（セルフヒール）　,Prunella vulgaris,① グリーン系,半常緑,True,True,高,NCSU Plant Toolbox Prunella vulgaris（標準的な緑葉）,斑や特殊色のない標準的緑葉で現分類・タグとも整合。
+84,プルモナリア‘トレビファウンテン’,Pulmonaria ‛Trevi Fountain’,⑦ 斑入り,"半常緑,散斑",True,True,高,MBG/育成元 Pulmonaria 'Trevi Fountain'（濃緑地に多数の銀斑）,緑地に銀白の散り斑が入る斑入り葉で現分類・タグとも整合。
+85,プルモナリア‘ラズベリースプラッシュ’,Pulmonaria ‛Raspberry Splash’,⑦ 斑入り,"半常緑,散斑",True,True,高,MBG/育成元 Pulmonaria 'Raspberry Splash'（濃緑地に銀の散り斑）,緑地に銀の散り斑が入る斑入り葉で現分類・タグとも整合。
+86,フロックス　ディバリカータ ‘プラムパーフェクト’,Phlox divaricata 'Plum Perfect',⑧ 季節変化型,銅葉化,True,True,中,Terra Nova/Bluestone/RHS Plant Finder (https://www.rhs.org.uk/plants/166316/phlox-divaricata-plum-perfect/details),生育期は中〜濃緑葉だが涼しい春秋にバーガンディに発色する選抜で、季節変化・銅葉化を伴うため現状維持（境界的、生産者評価尊重）。
+87,フロックス　ディバリカータ ‘モントローズトリカラー’,Phlox divaricata ‛Montrose Tricolor’,⑦ 斑入り,"半常緑,白覆輪,新葉赤",True,True,高,Plant Delights/RHS (https://www.plantdelights.com/products/phlox-divaricata-montrose-tricolor),緑葉に白覆輪＋新葉がピンク〜赤を帯びる三色斑入り選抜で、現マスタと完全整合。
+88,ペルシカリア ミクロセファラ ‘レッドドラゴン’,Persicaria microcephala 'RedDragon',⑤ パープル／ブラック系,,False,True,高,MBG Plant Finder/Gardenia/RHS (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250026),若葉が濃バーガンディ紫でV字銀灰シェブロンが入る紫葉ペルシカリア。プロトコル例示どおり①は明確な誤りで⑤へ修正（斑は白黄斑でなく閉じた語彙該当なしのためタグ空を維持）。
+89,ヘデラ‘ヘンリエッタ’,Hedera helix 'Henriette',⑦ 斑入り,"常緑,散斑,クリーム葉",False,False,高,The Ivy Site/American Ivy Society (https://theivysite.com/product/hedera-helix-henriette-ornemental-ivy/),‘Kolibri’の変異で緑・灰に白がスプラッシュ、不規則クリーム覆輪の斑入り常緑品種。①は誤りで⑦へ、散斑・クリーム葉タグを付与。
+90,ヘメロカリス‘ステラデオロ’,Hemerocallis 'Stella de Oro',① グリーン系,,False,False,高,MBG Plant Finder/Devil Mountain (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=d160),葉は中緑の細葉。‘de Oro’＝黄金は花色由来で葉ではなく②は誤り、①へ。マスタ常緑性=冬季落葉と矛盾する半常緑タグを除去。
+91,ヘメロカリス‘ファイナルタッチ’,Hemerocallis 'Final Touch',① グリーン系,,True,True,高,plant lust/Gardenia (https://www.gardenia.net/plant/hemerocallis-final-touch),終始緑色の細葉ヘメロカリスで①が整合、タグ該当なし。
+92,ヘリアンセマム‘セントメリーズ’,Helianthemum 'St Mary's',① グリーン系,常緑,True,True,高,Digging Dog/San Marcos Growers (https://www.diggingdog.com/plant/p-1339),深緑葉の常緑サブシュラブ（白花）で①・常緑タグが整合。
+93,ヘリアンセマム‘ダズラー’,Helianthemum nummularium 'Dazzler',① グリーン系,常緑,True,True,高,plant lust/Digging Dog (https://plantlust.com/plants/10655/helianthemum-dazzler/),細葉の緑葉マット（銀葉の‘Cheviot’とは別）で①・常緑タグが整合。
+94,ヘリアンセマム‘チェビオット’,Helianthemum nummularium 'Cheviot',④ シルバー系,常緑,True,True,高,Urban Tree Farm/Xera Plants (https://www.urbantreefarm.com/product/helianthemum-nummularium-cheviot/),銀灰緑の細葉が密なカーペットを作る常緑品種で④・常緑タグが整合。
+95,ベルゲニア　コーディフォリア,Bergenia cordifolia,⑧ 季節変化型,"常緑,冬発色",True,True,高,MBG Plant Finder/Gardenia (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b710),夏は濃緑の常緑革質葉、秋冬に赤〜銅紫に発色する代表的季節変化型で現マスタと完全整合。
+96,ベロニカ　インカナ,Veronica incana,④ シルバー系,"毛あり,銀粉",False,False,高,MBG Plant Finder/Dave's Garden (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=361124),incana＝白軟毛で覆われ銀灰白のフェルト状葉（シルバースピードウェル）。⑤は明確な誤りで④へ、毛あり・銀粉タグを付与。
+97,ベロニカ　オストリアーカ,Veronica austriaca,① グリーン系,,False,False,中,MBG Plant Finder/RHS (https://www.rhs.org.uk/plants/97275/veronica-austriaca-subsp-teucrium/details),中〜濃緑の鋸歯葉が終始良好で季節変化・春赤葉の一次記載なし。⑧は過大で①へ、春赤葉タグを除去（品種固有情報乏しく確信度中）。
+98,ベロニカ　スピカータ  （花：ブルー）,Veronica spicata,① グリーン系,"毛あり,常緑",True,True,高,MBG/RHS Veronica spicata（軟毛のある灰緑〜緑葉） https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287130,原種は軟毛のある標準的な緑葉のため①、毛あり・常緑タグも整合し現状維持。
+99,ベロニカ　スピカータ ‘ブルーブーケ’,Veronica spicata 'Blue Bouquet',① グリーン系,"毛あり,常緑",False,False,高,MBG Plant Finder 'Blue Bouquet'（濃緑葉、季節的な葉色変化の記載なし） https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=260511,終始濃緑葉で葉の季節変化はなく落葉するため⑧は誤り。①に修正し誤った冬発色を除去。
+100,ベロニカ　プロストラータ ‘アズテックゴールド’,Veronica prostrata 'Aztec Gold',② ゴールド／ライム系,,False,False,高,Plant Delights / MBG 'Aztec Gold' PP13354（全面が鮮黄金葉、日陰でシャルトルーズ） https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=456772,斑ではなく全面黄金葉の選抜のため⑦は誤り。②に修正し中斑タグを除去。
+101,ベロニカ　プロストラータ ‘ヘブンリーブル―’,Veronica prostrata 'Heavenly Blue',① グリーン系,毛あり,False,False,高,Backyard Gardener/Gardenia 'Heavenly Blue'（明緑色の有毛葉、斑なし。名は花色由来） https://www.gardenia.net/plant/veronica-prostrata,斑のない明緑色の有毛葉で名称は花色由来のため⑦は誤り。①に修正し白覆輪を除去、有毛のため毛ありを付与。
+102,ペンステモン　バルバタス ‘ジングルベル’,Penstemon barbatus 'Jingle Bells',① グリーン系,半常緑,True,True,中,Penstemon barbatus 一次情報＋園芸標準（線形の緑葉、観賞点は花。NCSU Plant Toolbox 属記載）,P. barbatus系は標準的な緑葉で葉色特筆なし、半常緑タグも整合し現状維持。
+103,ポテンチラ　アトロサンギネア,Potentilla atrosanguinea,① グリーン系,"半常緑,毛あり",True,True,中,MBG/RHS Potentilla atrosanguinea（濃緑の3小葉、絹毛で銀色を帯び裏面白綿毛） https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286534,主色は濃緑（銀色味は毛由来）で①が妥当、毛ありタグも整合し現状維持。
+104,ポテンチラ　ネパレンシス ‘ミスウィルモット’,Potentilla nepalensis 'Miss Willmott',① グリーン系,,True,True,中,Potentilla nepalensis 一次情報＋園芸標準（イチゴ状の掌状緑葉、観賞点は花）,掌状の標準的な緑葉で葉色特筆なし、タグなしのまま現状維持。
+105,ホトトギス‘トーゲン’,Tricyrtis ‛Togen’,① グリーン系,,True,True,中,Tricyrtis 'Togen' 一次情報＋園芸標準（斑なしの標準緑葉、観賞点は花）,斑のない標準的な緑葉で①が妥当、タグなしのまま現状維持。
+106,ホトトギス‘ライトニングストライク’,Tricyrtis hirta 'Lightning Strike',⑦ 斑入り,散斑,False,True,中,Plant Delights/MBG 'Lightning Strike'（金色地に不規則な緑の稲妻状条斑、安定した斑入り選抜） https://www.plantdelights.com/products/tricyrtis-hirta-lightning-strike,黄金と緑の不規則条斑が主観賞点の安定斑入り品種で、斑入り優先の原則により②から⑦へ修正（散斑タグは整合）。
+107,ミント　ブラックペパーミント,Mentha x piperita,⑤ パープル／ブラック系,,True,True,高,RHS Mentha x piperita 'black peppermint'（紫黒色を帯びた濃色葉と濃紫の茎） https://www.rhs.org.uk/plants/155867/mentha-x-piperita-black-peppermint/details,紫黒色を帯びた濃色葉・濃紫茎が特徴のため⑤が妥当、タグなしのまま現状維持。
+108,ユーホルビア　ポリクロマ,Euphorbia polychroma,⑧ 季節変化型,秋紅葉,True,True,高,NCSU/Gardenia Euphorbia polychroma（夏は緑葉、秋に赤・橙・紫へ鮮やかに紅葉。数少ない秋葉美） https://plants.ces.ncsu.edu/plants/euphorbia-epithymoides/,夏緑葉から秋に赤橙紫へ大きく紅葉するため⑧・秋紅葉が整合し現状維持。
+109,ユッカ　グロリオーサ ‘バリエガータ’,Yucca gloriosa 'Variegata',⑦ 斑入り,"黄覆輪,冬発色,常緑",True,True,高,RHS Yucca gloriosa 'Variegata'（常緑剣状葉に黄覆輪、冬にピンク味を帯び発色）一次情報＋園芸標準,常緑剣状葉の黄覆輪斑入りで冬にピンク発色するため⑦・黄覆輪・冬発色・常緑が整合し現状維持。
+110,ラベンダー　アンガスティフォーリア ‘マンステッド’,Lavandula angustifolia 'Munstead',④ シルバー系,常緑,True,True,中,RHS Plant Finder https://www.rhs.org.uk/plants/99904/lavandula-angustifolia-munstead/details（silvery grey-green evergreen foliage）,常緑の銀灰緑葉でイングリッシュラベンダーの標準的な銀葉系のため④で妥当。
+111,リクニス　コロナリア‘アルバ’,Lychnis coronaria 'Alba',④ シルバー系,"毛あり,半常緑",True,True,高,一次情報（MBG/RHS）＋園芸標準（Lychnis coronariaはwoolly silver-grey foliage）,白毛に覆われた銀灰葉のため④、有毛で毛あり・半常緑タグも整合。
+112,リシマキア　ヌンムラリア,Lysimachia nummularia,① グリーン系,半常緑,True,True,高,一次情報（MBG Plant Finder）＋園芸標準（原種は緑葉のクリーピングジェニー）,原種は標準的な緑葉のため①で妥当。
+113,リシマキア　ヌンムラリア ‘オーレア’,Lysimachia nummularia 'Aurea',② ゴールド／ライム系,常緑,True,True,高,一次情報（MBG/RHS）＋園芸標準（'Aurea'は黄金葉選抜）,通年黄金〜ライム葉の選抜のため②で妥当。
+114,リシマキア　プンクタータ,Lysimachia punctata,① グリーン系,,True,True,高,一次情報（MBG Plant Finder）＋園芸標準（緑葉の宿根リシマキア）,標準的な緑葉のため①で妥当、タグ無しも整合。
+115,ルドベキア　フルギダ ‘ゴールドストラム’,Rudbeckia fulgida 'Goldsturm',① グリーン系,,True,True,高,一次情報（MBG Plant Finder）＋園芸標準（濃緑葉のルドベキア）,濃緑の標準葉のため①で妥当、タグ無しも整合。
+116,エリンジウム　プラナム,Eryngium planum,① グリーン系,,True,True,高,MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=275988（dark green basal leaves）,基部葉は濃緑（青みは茎・苞に限られる）のため①で妥当。
+117,グレコマ　ヘデラセア ‘バリエガータ’（グレコマ斑入り）,Glechoma hederacea 'Variegata',⑦ 斑入り,"白覆輪,半常緑",True,True,高,RHS https://www.rhs.org.uk/plants/71551/glechoma-hederacea-variegata-(v)/details／Plant Delights（灰緑葉に白覆輪・白斑）,灰緑葉に白い覆輪斑が主観賞点のため⑦・白覆輪で妥当。
+118,アスター　ノバエアングリアエ ‘セプテンバールビー’(ネバリノギク),Aster novae-angliae 'September Ruby',① グリーン系,,True,True,高,一次情報（MBG Plant Finder）＋園芸標準（緑葉のノギク、赤は花色）,葉は標準的な緑（ルビーは花色）のため①で妥当。
+119,アストランティア　マヨール ‘ハドスペンブラッド’,Astrantia major 'Hadspen Blood',① グリーン系,,True,True,高,一次情報（RHS/MBG）＋園芸標準（緑の掌状葉、暗赤は花色）,葉は緑の掌状裂葉（ブラッドは花色）のため①で妥当。
+120,アルメリア　マリティマ‘アルバ’ （アルメリア白花）,Armeria maritima 'Alba',① グリーン系,常緑,True,True,高,一次情報（MBG Plant Finder）＋園芸標準（濃緑の草状常緑ロゼット）,細葉の常緑緑葉ロゼットのため①・常緑で妥当。
+121,アルンカス　イサシフォリウス ‘ノーブルスピリット’,Aruncus aethusifolius 'Noble Spirit',⑧ 季節変化型,秋紅葉,True,True,高,MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286379／Gardenia（ferny green foliage turns orange-red in autumn）,羊歯状緑葉が秋にオレンジ〜赤に紅葉し観賞点となるため⑧・秋紅葉で妥当。
+122,イベリス　センパービレンス （キャンディタフト）,Iberis sempervirens,① グリーン系,半常緑,True,True,高,RHS Iberis sempervirens (https://www.rhs.org.uk/plants/9028/iberis-sempervirens/details)／MBG Plant Finder,細い濃緑の常緑葉で斑なし、標準的な緑葉のため①。常緑性タグ半常緑は既検証情報として維持。
+123,カラミンサ　グランディフローラ ‘バリエガータ’,Calamintha grandiflora 'Variegata',⑦ 斑入り,"散斑,半常緑",True,True,高,Broken Arrow Nursery／Phoenix Perennials (https://www.phoenixperennials.com/plant-encyclopedia/calamintha-grandiflora-variegata/),淡緑地に白がスプラッシュ状・マーブル状に散る斑入り選抜で観賞価値は斑のため⑦、散斑タグが整合。
+124,カレックス　テスタセア,Carex testacea,⑧ 季節変化型,"冬発色,常緑",True,True,高,RHS Carex testacea (https://www.rhs.org.uk/plants/83677/carex-testacea/details)／Monrovia,夏はオリーブグリーン、冬に銅橙色へ発色する常緑スゲで季節変化が主観賞点のため⑧、冬発色・常緑タグが整合。
+125,カンパニュラ‘ケントベル’,Campanula 'Kent Belle',① グリーン系,,True,True,中,RHS Campanula 'Kent Belle'／一次情報＋園芸標準に基づく,光沢のある濃緑葉で斑・特殊葉色なし、標準的緑葉のため①でタグなしが妥当。
+126,カンパニュラ‘サマンサ’,Campanula 'Samantha',① グリーン系,,True,True,中,Campanula 'Samantha' 育成情報／一次情報＋園芸標準に基づく,緑のロゼット葉で斑・特殊葉色なし、標準的緑葉のため①でタグなしが妥当。
+127,ゲンチアナ‘ニキータ’,Gentiana dahurica 'Nikita',① グリーン系,,True,True,中,Gentiana dahurica 一次情報／園芸標準に基づく,細い線形の緑葉で斑なし、標準的緑葉のため①でタグなしが妥当。
+128,コレオプシス　バーティシラータ ‘ムーンビーム’,Coreopsis verticillata 'Moonbeam',① グリーン系,,True,True,高,MBG Coreopsis verticillata 'Moonbeam' (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=277889),糸状に細裂した緑葉で斑・特殊葉色なし、標準的緑葉のため①でタグなしが妥当。
+129,シレネ　ユニフローラ ‘ドゥルーエッツ　バリエゲイテッド’,Silene uniflora 'Druett's Variegated',⑦ 斑入り,"白覆輪,半常緑",True,True,高,Digging Dog Nursery (https://www.diggingdog.com/plant/P-2113)／plant lust,灰緑地に幅広いクリーム白の覆輪が入る斑入り選抜で観賞価値は斑、白覆輪・半常緑タグが整合。
+130,スカビオサ　コウカシカ ‘コンプリメント’,Scabiosa caucasia 'Compliment',④ シルバー系,,True,True,中,MBG Scabiosa caucasica (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=279861)／NCSU Plant Toolbox,根生葉がグレーグリーンで①緑との境界的だが、生産者評価を尊重し④を維持、タグなしが妥当。
+131,ゲラニウム‘ジョンソンズブルー’,Geranium × johnsonii 'Johnson's Blue',① グリーン系,,True,True,高,RHS Geranium 'Johnson's Blue'／園芸標準に基づく,深く掌状に切れ込む緑葉で斑・特殊葉色なし、標準的緑葉のため①でタグなしが妥当。
+132,ゲラニウム　ファエウム　紅花,Geranium phaeum,① グリーン系,,True,True,高,MBG Geranium phaeum (https://www.missouribotanicalgarden.org/plantfinder/plantfinderdetails.aspx?taxonid=280874)／Shoot,基本は淡緑〜緑の掌状葉（葉基に褐紫の斑点が入ることがあるが主色は緑）のため①、閉じた語彙に該当タグなしで空が妥当。
+133,ゲラニウム　プラテンス ‘スプリッシュスプラッシュ',Geranium pratense 'Splish Splash',① グリーン系,秋紅葉,True,True,高,RHS Geranium pratense (https://www.rhs.org.uk/plants/7914/geranium-pratense/details)／Wikipedia,生育期は深裂の中緑葉で秋にブロンズ〜赤褐色へ紅葉、主色は緑のため①、秋紅葉タグが整合。
+134,トリフォリウム　レペンス ‘アトロプルプレウム’,Trifolium repens 'Atropurpureum',⑤ パープル／ブラック系,,False,False,高,perennials.com Plant Profile / plantlust / Little Prince of Oregon: 'dark purple-black leaves with a thin green margin'（https://www.perennials.com/plants/trifolium-repens-atropurpureum.html）,葉は暗紫黒色で細い緑覆輪をもつ紫葉であり、白黄クリームの斑入りではないため⑤に修正、中斑タグは不適で削除。
+135,ネペタ　ラセモサ‘ウォーカーズロウ’,Nepeta racemosa 'Walker's Low',④ シルバー系,毛あり,True,False,中,"Missouri Botanical Garden Plant Finder: 'gray-green, hairy, ovate leaves'（https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=t160）",MBG記載でグレーグリーンの有毛葉。銀灰系として④は妥当、有毛が明確なため毛ありを付与。
+136,バーベナ　ハスタータ （バーベインブルー）,Verbena hastata,① グリーン系,,True,True,中,一次情報（MBG/NCSU）＋園芸標準: Verbena hastataは標準的な緑の披針形葉、斑・銀化なし。,原種の標準的な緑葉で斑や特殊質感はなく①で整合。
+137,ビオラ‘マース’,Viola mandshurica 'Mars',① グリーン系,,True,False,中,"plantlust / RHS: 'green leaves with dark purple centers and dark veins'（https://plantlust.com/plants/17082/viola-mars/ , https://www.rhs.org.uk/plants/189297/viola-mars/details）",緑地に暗紫の中央斑・葉脈が通年入る葉で、秋の紅葉ではないため秋紅葉タグを削除、基色は緑で①維持。
+138,ビンカ　ミノール‘ダブルパープル’ （ビンカミノール　ダブルフラワー）,Vinca minor 'Double Purple',① グリーン系,,True,True,中,一次情報（MBG Vinca minor）＋園芸標準: Vinca minorは光沢のある濃緑常緑葉、本品種は花が八重紫で葉は基本種同様の緑。,葉は濃緑常緑で斑なし。花色が紫のみで葉は緑のため①で整合。
+139,フロックス　パニキュラータ ‘ノーラレイ’,Phlox paniculata 'Norah Leigh',⑦ 斑入り,白覆輪,True,True,高,Plant Delights / Beth Chatto: 'green foliage surrounded by a dramatic wide creamy-white margin'（https://www.plantdelights.com/products/phlox-paniculata-norah-leigh）,緑葉に幅広いクリーム白の覆輪斑が入る斑入り品種で⑦・白覆輪が整合。
+140,フロックス　パニキュラータ ‘ハーレークィーン’,Phlox paniculata 'Harlequin',⑦ 斑入り,白覆輪,True,True,高,Plant Delights: 'narrow glossy green leaves margined with a wide creamy edge'（https://www.plantdelights.com/products/phlox-paniculata-harlequin）,緑葉に幅広いクリーム白覆輪の斑入り葉で⑦・白覆輪が整合。
+141,ベニチガヤ（インペラータ　シリンドリカ ‘ルブラ’）,Imperata cylindrica 'Rubra',⑧ 季節変化型,"春赤葉,秋紅葉",True,True,高,"Missouri Botanical Garden / NCSU Plant Toolbox: 'green blades turn cranberry-red in summer, deepening to burgundy until late fall'（https://plants.ces.ncsu.edu/plants/imperata-cylindrica-rubra/）",春は緑～ピンク新芽から先端が赤く発色し夏～秋に深紅へ深まる季節変化型で⑧・タグとも整合。
+142,ベロニカ　スピカータ‘ローズ’,Veronica spicata 'Rose',① グリーン系,半常緑,True,False,中,一次情報（MBG Veronica spicata）＋園芸標準: 濃緑の披針形葉、寒冷地では半常緑。常緑性列＝半常緑。,葉は標準的な緑で①維持。常緑性列（半常緑）と整合させ常緑タグを半常緑に修正。
+143,ペンステモン　ジギタリス ‘ハスカーレッド’,Penstemon digitalis 'Husker Red',⑤ パープル／ブラック系,"新葉赤,半常緑",True,True,高,"UW Wisconsin Extension / MBG: 'lance-shaped leaves emerge maroon in spring, burgundy-maroon foliage'（https://hort.extension.wisc.edu/articles/husker-red-foxglove-beardtongue-penstemon-digitalis-husker-red/）",新葉は栗紫～ブルゴーニュで通年紫銅を帯びる紫葉選抜。⑤・新葉赤・半常緑とも整合。
+144,ホスタ‘キャッツアイ’,Hosta 'Cat's Eyes',⑦ 斑入り,"中斑,クリーム葉",True,False,高,Plant Delights: 'small rounded dark green leaves with a wide creamy-white center'（https://www.plantdelights.com/products/hosta-cats-eye）,濃緑地に幅広いクリーム白の中央斑をもつ中斑品種。中斑は妥当でクリーム葉を補足付与。
+145,ホスタ　シーボルディ ‘シルバーキャビタン’,Hosta sieboldii 'Silver Kabitan',⑦ 斑入り,"中斑,クリーム葉",True,False,高,"Promesse de Fleurs / Fransen Hostas: 'lanceolate leaves white-cream in the centre, marginated with green'（https://www.hostaparadise.com/silver-kabitan/828/hosta-details.aspx）",白クリームの中央斑に緑覆輪が入る中斑品種で、白覆輪（白縁）は誤り。中斑に修正しクリーム葉維持。
+146,ホトトギス‘ギルトエッジ’,Tricyrtis formosana 'Gilt Edge',⑦ 斑入り,黄覆輪,True,True,高,MBG Plant Finder / Little Prince of Oregon (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=258942),濃緑葉に不規則なクリーム黄～黄緑の覆輪が入る斑入り選抜のため⑦・黄覆輪を維持。
+147,ポルモニウム　カエルレウム ‘ブルーウァール’,Polemonium caeruleum 'Blue Whirl',① グリーン系,,True,True,中,MBG Plant Finder Polemonium caeruleum (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=a796),斑入り選抜(Brise d'Anjou等)ではなく標準の羽状緑葉種のため①を維持。
+148,モナルダ　ディディマ ‘パノラマレッドシェード’,Monarda didyma 'Panorama Red Shades',① グリーン系,,True,True,高,RHS Monarda Panorama Series (https://www.rhs.org.uk/plants/54222/monarda-panorama-series/details),披針形で半光沢の濃緑葉との記載のため①を維持。
+149,ユーホルビア‘クラリスハワード’,Euphorbia cyparissias 'Clarice Howard',③ ブルー系,新葉赤,True,False,中,Native Sons / promessedefleurs (https://www.nativeson.com/product/euphorbia-cyparissias-clarice-howard),生育期は針状のブルーグレー葉で先端が赤紫を帯び新葉は褐紫のため③・新葉赤は妥当だが、常緑性列が冬季落葉のため常緑タグを除去。
+150,ユーホルビア　アミグダロイデス ‘ゴールデングローリー’,Euphorbia amygdaloides 'Golden Glory',⑤ パープル／ブラック系,"半常緑,新葉赤,冬発色",False,False,中,plantlust / Pleasant Run Nursery (https://plantlust.com/plants/24998/euphorbia-amygdaloides-golden-glory/),'Golden Glory'名はライム色の花苞由来で葉ではない。'Purpurea'系選抜で葉は冬春に濃マルーン、夏は銅紫のため②は誤りで⑤へ修正、冬に発色するため冬発色を付与し常緑性列(半常緑)に整合させ半常緑へ。
+151,ケロネ　オブリクア（シェローン）,Chelone obliqua,① グリーン系,,True,True,高,MBG Plant Finder / NCSU Plant Toolbox Chelone obliqua,光沢のある濃緑の披針形葉で斑や特殊葉色はないため①を維持。
+152,リクニス　コロナリア ‘エンジェルスブラッシュ’,Lychnis coronaria 'Angel's Blush',④ シルバー系,"毛あり,半常緑",True,True,高,perennials.com / gardenia.net Lychnis coronaria (http://www.perennials.com/plants/lychnis-coronaria-angels-blush.html),軟毛に覆われた銀灰色のフェルト状葉ロゼットのため④・毛ありを維持。
+153,シレネ　ユニフローラ‘ダブル’ （スワンレイク）,Silene uniflora 'Swan Lake',③ ブルー系,"半常緑,ワックス質",False,False,中,RHS Silene uniflora / plantlust Swan Lake (https://www.rhs.org.uk/plants/81298/silene-uniflora/details),多肉質でワックスを帯びた青緑(グロウカス)の葉マットとの一次記載のため、青緑を含む③へ修正しワックス質を付与。
+154,クロコスミア‘ソルファテール’,Crocosmia x crocosmiiflora 'Solfatare',⑥ ブロンズ／レッド系,銅葉化,True,True,高,MBG Plant Finder / Beth Chatto Gardens Crocosmia 'Solfatare' (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250189),スモーキーブロンズの剣状葉が特徴の銅葉選抜のため⑥・銅葉化を維持。
+155,クリサンセマム　エゾエンセ （コハマギク）,Chrysanthemum yezoense,① グリーン系,,True,False,中,RHS Chrysanthemum yezoense / 日光植物園 (https://www.rhs.org.uk/plants/122802/chrysanthemum-yezoense/details),濃緑色の葉で①は妥当だが、宿根性(herbaceous)で常緑性列が冬季落葉のため常緑タグを除去。
+156,ペルシカリア ミクロセファラ ‘シルバードラゴン’,Persicaria microcephala 'Silver Dragon',④ シルバー系,"新葉赤,秋紅葉",False,False,中,RHS / Plant Delights PP16421 Persicaria 'Silver Dragon' (https://www.plantdelights.com/products/persicaria-microcephala-silver-dragon-pp-16421),主体がシルバーの葉に緑のV字と銅紫の中央/縁が入る観賞葉のため①は誤りで銀主体の④へ修正、新葉に赤の重なり・秋のオレンジ紅葉があり新葉赤/秋紅葉を付与。
+157,リモニウム　ラティフォリウム （宿根スターチス）,Limonium latifolium,① グリーン系,,True,True,高,Fine Gardening / Chicago Botanic Garden Limonium latifolium (https://www.finegardening.com/plant/sea-lavender-limonium-latifolium),革質で光沢のある濃緑のヘラ形基部ロゼット葉のため①を維持。
+158,アレナシラム　エラチスssp.ブルボサム ‘バリエガタム’（リボングラス）,Arrhenatherum elatius ssp. bulbosum 'Variegatum',⑦ 斑入り,クリーム葉,True,False,中,plantlust / Plant Delights (Arrhenatherum elatius bulbosum 'Variegatum'): https://plantlust.com/plants/18328/arrhenatherum-elatius-ssp-bulbosum-variegatum/,葉は緑とクリーム白の縦縞（ほぼ白地に緑の中央条）で覆輪ではないため、白覆輪→クリーム葉に修正。斑入りは正しく⑦維持。
+159,ガウラ‘夕映え’（ハクチョウソウ）,Gaura lindheimeri 'Yuubae',⑥ ブロンズ／レッド系,新葉赤,True,True,高,大森ガーデン商品ページ（ガウラ'夕映え'＝ブロンズ色の葉）: https://omorigarden.shop-pro.jp/?pid=132099504 ／ みんなの趣味の園芸,'夕映え'は通年ブロンズ葉のカラーリーフ選抜で新芽が赤みを帯びるため⑥・新葉赤とも整合。
+160,ホスタ‘ダイアナリメンバード’,Hosta 'Diana Remembered',⑦ 斑入り,白覆輪,True,True,高,MBG Plant Finder / Horticulture Mag（濃緑～青緑の葉に幅広いクリーム白覆輪）: https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b701,葉中央が緑～青緑で幅広い白覆輪の斑入り品種のため⑦・白覆輪ともに整合。
+161,ヒューケレラ‘サンスポット’,× Heucherella 'Sunspot',② ゴールド／ライム系,常緑,False,True,高,MBG Plant Finder / TERRA NOVA（黄金葉に血赤色の中央斑）: https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=256541,'Sunspot'は鮮黄金葉に赤い中央斑を持つ金葉品種で銀葉ではないため④→②に修正。常緑タグは既存整合で維持。
+162,リシマキア　プンクタータ ‘アレキサンダー’,Lysimachia punctata 'Alexander',⑦ 斑入り,"白覆輪,新葉赤",True,True,高,RHS Plant Finder（灰緑葉にクリーム白覆輪、新芽はピンク～赤に染まる）: https://www.rhs.org.uk/plants/lysimachia-punctata-alexander,クリーム白覆輪の斑入りで新葉が赤みを帯びる既知選抜のため⑦・白覆輪・新葉赤とも整合。
+163,レプティネラ　スクウォリダ ‘プラッツブラック’,Leptinella squalida 'Platt's Black',⑤ パープル／ブラック系,半常緑,True,True,高,RHS Plant Finder（ブロンズ～黒のシダ状葉、日照で暗色化）: https://www.rhs.org.uk/plants/122048/leptinella-squalida-platt-s-black/details,通年ブロンズ～黒のシダ状葉が主観賞点のため⑤で整合。半常緑タグも維持。
+164,オレガノ‘ヘレンハウゼン’,Origanum laevigatum 'Herrenhausen',⑧ 季節変化型,冬発色,True,False,中,RHS / MBG Plant Finder（濃緑葉が低温期に紫を帯び秋に赤化）: https://www.rhs.org.uk/plants/79410/origanum-laevigatum-herrenhausen/details,生育で銅葉化するのではなく低温期に紫～赤に発色する温度依存の変化のため銅葉化→冬発色に修正。季節変化型⑧は維持。
+165,ベロニカストラム　シビリクム （クガイソウ）,Veronicastrum sibiricum,① グリーン系,,True,True,高,一次情報＋園芸標準（クガイソウは輪生する標準的な緑葉、斑・特殊葉色なし）,輪生する標準緑葉で斑・特殊色なしのため①・タグなしで整合。
+166,トリフォリウム　レペンス ‘ドラゴンズブラッド’,Trifolium repens 'Dragon's Blood',⑦ 斑入り,"中斑,半常緑",True,True,高,RHS Plant Finder / perennials.com（緑～クリーム斑葉で中央に血赤斑、基部に濃緑斑）: https://www.rhs.org.uk/plants/175583/trifolium-repens-dragon-s-blood/details,緑・クリーム白の斑葉で中央に血赤の斑が入る三色葉のため⑦・中斑で整合。半常緑タグも維持。
+167,セダム　カムチャティカム （エゾノキリンソウ）,Sedum kamtschaticum,⑧ 季節変化型,"秋紅葉,半常緑",True,True,高,MBG / NCSU Plant Toolbox（生育期は緑の多肉葉、秋に赤～ブロンズに紅葉）: https://plants.ces.ncsu.edu/plants/sedum-kamtschaticum/,生育期は緑葉で秋に赤～ブロンズへ紅葉する季節変化が観賞点のため⑧・秋紅葉で整合。半常緑も維持。
+168,ジギタリス　グランディフローラ　,Digitalis grandiflora,① グリーン系,常緑,True,True,高,RHS / MBG Plant Finder（光沢のある標準的な緑のロゼット葉、半常緑）: https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=277953,標準的な緑のロゼット葉で斑・特殊色なしのため①で整合。常緑タグも既存整合で維持。
+169,カンパニュラ　パーシシフォリア ‘モーハイミ’,Campanula persicifolia 'Moerheimii',① グリーン系,常緑,True,True,高,RHS Plant Finder（モモバギキョウは常緑の緑ロゼット葉、斑なし）: https://www.rhs.org.uk/plants/campanula-persicifolia,常緑の標準緑ロゼット葉で斑・特殊色なしのため①で整合。常緑タグも維持。
+170,アスター　エリコイデス ‘ジョリージャンパー’,Symphyotrichum ericoides 'Jolly Jumper',① グリーン系,,True,True,高,"MBG/NCSU Plant Toolbox (Symphyotrichum ericoides, heath aster) https://plants.ces.ncsu.edu/plants/symphyotrichum-ericoides/",ヒースアスターは細い針状の標準的緑葉で斑・特殊色なし、①グリーン系で整合。
+171,カレックス‘バッドヘアーデイズ’,Carex ‛Bad Hair Days’,① グリーン系,常緑,True,True,低,品種固有一次情報が乏しく、Carex属常緑スゲの既知特性＋園芸標準に基づく（cf. Carex comans系 https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=268946）,品種固有情報が乏しく、もつれ状の常緑緑葉スゲとして現マスタ①グリーン系・常緑を維持（確信度低）。
+172,コーリダリス‘シルバースペクター’,Corydalis leucanthema 'Silver Spectre',⑦ 斑入り,銀粉,True,True,中,RHS Plant Finder / Plant Delights https://www.rhs.org.uk/plants/221912/corydalis-leucanthema-silver-spectre-(v)/details ; https://www.plantdelights.com/products/corydalis-leucanthema-silver-spectre,レース状オリーブ緑葉に中央部が銀色に斑入る選抜。斑入り/シルバーの境界だが銀色マーブル斑として⑦斑入り＋銀粉を維持。
+173,ティアレラ‘シュガーアンドスパイス’,Tiarella 'Sugar and Spice',① グリーン系,,True,True,中,MBG Plant Finder / TERRA NOVA https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264759 ; https://www.terranovanurseries.com/product/tiarella-sugar-and-spice/,光沢ある緑葉に暗赤褐色の中央マーキング、主色は緑で①グリーン系を維持（白黄クリーム斑ではないため⑦不該当）。
+174,ゲラニウム　サンギネウム‘アルバム’,Geranium sanguineum 'Album',⑧ 季節変化型,秋紅葉,True,True,高,RHS / MBG Plant Finder (Geranium sanguineum) https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b571,細裂した緑葉が秋に赤〜深紅に紅葉する。季節変化・秋紅葉が観賞点で⑧＋秋紅葉を維持。
+175,カリオプテリス ‘ウォーセスターゴールド'（ｶﾘｶﾞﾈｿｳ）,Caryopteris × clandonensis 'Worcester Gold',② ゴールド／ライム系,,True,True,高,RHS Plant Finder (Caryopteris x clandonensis 'Worcester Gold') https://www.rhs.org.uk/plants/search-results?query=Worcester%20Gold,生育期を通じ黄金〜ライムの黄葉が主色の代表的ゴールド葉選抜で②ゴールド／ライム系に整合。
+176,ノウティア（クナウティア）　 マセドニカ,Knautia macedonica,① グリーン系,半常緑,True,True,高,MBG Plant Finder (Knautia macedonica) https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=c584,基部ロゼットは標準的緑葉で斑・特殊色なし、①グリーン系・半常緑を維持。
+177,ヒューケラ‘シャムロック’,Heuchera 'Shamrock',① グリーン系,半常緑,True,True,中,NCSU Plant Toolbox (Heuchera) https://plants.ces.ncsu.edu/plants/heuchera/ ＋品種名・園芸標準に基づく,品種固有記述は乏しいが名の通りシャムロック(緑)系の緑葉ヒューケラと判断、①グリーン系・半常緑を維持。
+178,カンパニュラ　プンクタータ ‘フラッシングライト’,Campanula punctata 'Flashing Lights',⑦ 斑入り,散斑,True,True,高,TERRA NOVA Nurseries (Campanula 'Flashing Lights') https://www.terranovanurseries.com/product/campanula-flashing-lights/,緑葉に斑点状（speckled）の斑が入る選抜で、⑦斑入り＋散斑に整合。
+179,コレオプシス　ロゼア ‘アメリカンドリーム’,Coreopsis rosea 'American Dream',① グリーン系,,True,True,高,MBG Plant Finder (Coreopsis rosea) https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=a897,糸状の細い標準的緑葉で斑・特殊色なし、①グリーン系に整合。
+180,サポナリア　オフィシナリス ‘アルバプレナ’（ソープワート）,Saponaria officinalis 'Alba Plena',① グリーン系,,True,True,高,MBG Plant Finder (Saponaria officinalis) https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b920,対生の標準的緑葉で斑・特殊色なし、①グリーン系に整合。
+181,サポナリア　オフィシナリス ‘ロゼアプレナ’（ソープワート）,Saponaria officinalis 'Rosea Plena',① グリーン系,,True,True,高,MBG Plant Finder (Saponaria officinalis) https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b920,対生の標準的緑葉で斑・特殊色なし、①グリーン系に整合。
+182,ペルシカリア ‘ブラッシュストロークス’,Persicaria virginiana 'Brushstrokes',① グリーン系,,True,True,高,RHS Plant Finder https://www.rhs.org.uk/plants/198567/persicaria-virginiana-brushstrokes/details ; Ben's Botanics,地色は明るい緑葉で、暗赤紫のシェブロン斑は緑地に乗る模様（閉じた語彙の白・黄・クリーム斑ではない）ため主色は①グリーン系で妥当。
+183,カンパニュラ　プンクタータ ‘ボールオブチェリー’,Campanula punctata 'Bowl of Cherries',① グリーン系,,True,True,高,Terra Nova Nurseries / perennials.com Plant Profile / garden.org,ライトグリーンの葉が生育期を通じて緑を保つ標準的緑葉のため①で整合。
+184,タイム　セパイラム‘コクシネウス’ （クリーピングタイム　紅花）,Thymus serpyllum 'Coccineus',① グリーン系,"秋紅葉,常緑",True,True,高,NCSU Plant Toolbox https://plants.ces.ncsu.edu/plants/thymus-serpyllum/ ; White Flower Farm,主色は濃緑の常緑葉で①、秋〜冷涼期にブロンズを帯びるため秋紅葉・常緑タグは整合。
+185,エリシマム‘オレンジフレーム’ （オウゴンナズナ）,Erysimum kotschyanum 'Orange Flame',① グリーン系,常緑,True,True,高,Online Plant Guide / Millcreek Gardens / plantlust,常緑のグリーン葉のマット状グラウンドカバーで①・常緑タグとも整合。
+186,サリクトラム（タリクトラム） ‘ブラックストッキングス’,Thalictrum 'Black Stockings',① グリーン系,,True,True,高,RHS https://www.rhs.org.uk/plants/221893/thalictrum-black-stockings/details ; MBG Plant Finder ; Chicago Botanic Garden,黒いのは茎で、葉はレース状の緑〜青緑葉のため主色は①グリーン系で妥当。
+187,カンパニュラ　ヘイロジェンシス ‘ワーリーホワイト’,Campanula x haylodgensis 'Warley White',① グリーン系,,True,True,中,RHS https://www.rhs.org.uk/plants/46962/campanula-haylodgensis-warley-white-(d)/details ; Alpine Garden Society,x haylodgensis系の標準的な緑葉（近縁選抜も一貫して緑葉）で①、斑・特殊葉色の記載なし。
+188,ジーアム（ゲウム）　コクシネウム ‘クッキー’,Geum coccineum 'Cooky',① グリーン系,常緑,True,True,高,RHS https://www.rhs.org.uk/plants/211133/geum-coccineum-cooky/details ; MBG Plant Finder,ミディアムグリーンの葉で①、暖地常緑・寒地落葉の半常緑性と常緑タグは整合（軟毛はあるが主観賞点でないため現状維持）。
+189,カルーナ　ブルガリス‘キンロチェル’,Calluna vulgaris 'Kinlochrue',⑧ 季節変化型,"冬発色,常緑",True,True,中,RHS https://www.rhs.org.uk/plants/95685/calluna-vulgaris-kinlochruel-(d)/details ; Digging Dog,生育期は明緑葉、冬にブロンズを帯びる常緑ヒースで、冬の発色を観賞点とする生産者評価を尊重し⑧・冬発色・常緑を維持。
+190,ホスタ‘パトリオット’,Hosta 'Patriot',⑦ 斑入り,白覆輪,True,True,高,Walters Gardens https://www.waltersgardens.com/variety.php?ID=HSPAT ; White Flower Farm,濃緑地に幅広の純白覆輪が主観賞価値の斑入り品種で⑦・白覆輪とも整合。
+191,ホスタ‘リトルオーロラ’,Hosta 'Little Aurora',② ゴールド／ライム系,,True,True,高,MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=247570 ; Plant Delights,金属光沢のあるゴールド葉が生育期を通じて維持されるため②で整合。
+192,カラマグロスティス‘オーバーダム’,Calamagrostis × acutiflora 'Overdam',⑦ 斑入り,白覆輪,True,True,高,MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=n750 ; Walters Gardens,緑葉にクリーム白の覆輪・縦縞が入る斑入りグラスで⑦・白覆輪とも整合。
+193,アルケミラ　サクサティリス,Alchemilla saxatilis,④ シルバー系,毛あり,True,True,中,RHS https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details ; naturescene.net ; dancingoaks (Silver Lady's Mantle),葉表は濃緑だが縁が銀白に縁取られ裏面は銀色の絹毛で被われる銀葉効果を観賞点とする境界的品種で、生産者評価を尊重し④・毛ありを維持。
+194,ゲラニウム　ヒマライエンス,Geranium himalayense,⑧ 季節変化型,秋紅葉,True,True,高,Gardenia / RBGE Botanics Stories / gardenersworld.com (Geranium himalayense) — 生育期は緑葉、秋に赤〜橙に紅葉,生育期は標準緑葉で秋の紅葉が主観賞点のため⑧＋秋紅葉を維持。
+195,ミント　アップルミント,Mentha suaveolens,① グリーン系,毛あり,True,True,高,一次情報＋園芸標準（Mentha suaveolens＝アップルミント、灰緑色の軟毛のある葉）,緑葉で軟毛が特徴のため①＋毛ありを維持。
+196,フィソステギア　バージニアーナ ‘バリエガータ’,Physostegia virginiana 'Variegata',⑦ 斑入り,白覆輪,False,False,高,RHS (Physostegia virginiana var. speciosa 'Variegata' v) https://www.rhs.org.uk/plants/61622/ / Chicago Botanic Garden Plant Finder — 灰緑葉に白〜クリームの覆輪斑,白覆輪の斑入り選抜のため主分類を⑦斑入りに修正し白覆輪を付与。紫葉でも銀粉でもなく落葉種のため誤タグ（常緑・新葉赤・銀粉）を削除。
+197,ベロニカ　スピカータ ‘レッドフォックス’,Veronica spicata ‘Red Fox’,① グリーン系,半常緑,True,True,高,一次情報＋園芸標準（Veronica spicata 'Red Fox'＝標準的な緑葉、寒冷地では半常緑）,標準緑葉で葉の観賞的特徴なし、既検証の半常緑を維持。
+198,サルビア　ネモローサ ‘ローゼンバイン’,Salvia nemorosa 'Rosenwein',① グリーン系,,True,True,中,一次情報＋園芸標準（Salvia nemorosa系＝標準的な緑〜灰緑の葉、葉の斑・特殊色なし）,標準緑葉で観賞的葉色特徴がないため①・タグなしを維持。
+199,バプティシア　オーストラリス （ムラサキセンダイハギ）,Baptisia australis,③ ブルー系,,True,True,高,MBG Plant Finder / NCSU Plant Toolbox / Wisconsin Horticulture (Baptisia australis) — 粉白を帯びた青緑（glaucous blue-green）の三出複葉,通年で青緑（glaucous）の葉が主色のため③を維持。
+200,ハコネクロア　マクラ （フウチソウ緑葉),Hakonechloa macra,⑧ 季節変化型,秋紅葉,True,True,高,NCSU Plant Toolbox / Wisconsin Horticulture (Hakonechloa macra) — 生育期は緑葉、秋に金〜銅〜赤に色付く,緑葉種で秋に金銅色に紅葉するため⑧＋秋紅葉を維持。
+201,フクシャ　マジェラニカ ‘ホークスヘッド’,Fuchsia magellanica 'Hawkshead',① グリーン系,半常緑,True,True,中,一次情報＋園芸標準（Fuchsia magellanica 'Hawkshead'＝標準的な緑葉、白花選抜。'Genii'のような黄葉ではない）,標準緑葉で葉色特徴がなく、既検証の半常緑を維持。
+202,フクシャ　マジェラニカ ‘ジェニー’,Fuchsia magellanica 'Genii',② ゴールド／ライム系,,True,True,高,Shoot / Gardening Express / Promesse de Fleurs (Fuchsia 'Genii') — ライム〜レモンイエローの黄緑葉、赤茎,生育期を通じライム〜黄金葉が主色のため②を維持。
+203,サリクトラム(タリクトラム) フラバム　グロウカム,Thalictrum flavum subsp. glaucum,③ ブルー系,,True,True,高,MBG Plant Finder / RHS (Thalictrum flavum subsp. glaucum) — 銀青緑（glaucous silvery blue-green）の葉が特徴,亜種glaucumは通年で銀青緑の粉白葉が主色のため③を維持。
+204,ギレニア　トリフォリエータ （ミツバシモツケ）,Gillenia trifoliata,⑧ 季節変化型,秋紅葉,True,True,中,一次情報＋園芸標準（Gillenia trifoliata＝Bowman's root、緑の三出葉が秋に赤〜橙〜銅色に紅葉）,緑葉種で秋の赤〜橙紅葉が観賞点のため⑧＋秋紅葉を維持。
+205,ポテンチラ　ネパレンシス ‘ロンマクベス’,Potentilla nepalensis 'Ron Mcbeath',① グリーン系,毛あり,True,True,中,一次情報＋園芸標準（Potentilla nepalensis＝イチゴ状の緑の掌状複葉、やや有毛）,標準的な緑の掌状葉でやや有毛のため①＋毛ありを維持。
+206,ポテンチラ　サーベリ ‘モナークスベルベット’,Potentilla thurberi 'Monarch's Velvet',① グリーン系,,True,True,高,"RHS Plant Finder / MBG Plant Finder / Gardenia.net (https://www.rhs.org.uk/plants/104293/ , https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263259 )",RHS/MBGでbright green（明緑色）のイチゴ状掌状葉と記載、標準緑葉のため①で整合。
+207,ゲラニウム　ファエウム‘サンボー’,Geranium phaeum 'Samobor',⑦ 斑入り,中斑,True,True,中,"The Beth Chatto Gardens / Geraniaceae.com (https://www.bethchatto.co.uk/ , https://geraniaceae.com/plant/geraniums_shade_g-phaeum-samobor/ )",緑葉の中央にマルーン／チョコ褐色の帯状斑が生育期通じて残るパターン葉。斑色は白黄でなく境界的だが、葉中央のマーキングが主観賞価値のため生産者評価を尊重し⑦・中斑を維持。
+208,リグラリア　プルズウォルスキー,Ligularia przewalskii,① グリーン系,,True,True,高,MBG Plant Finder / Gardenia.net (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=291384 ),深緑色の深裂掌状葉（黒紫の茎）と記載。葉身は標準的な緑のため①で整合。
+209,スカビオサ　コウカシカ ‘パーフェクタ　アルバ’,Scabiosa caucasica 'Perfecta Alba',④ シルバー系,半常緑,True,True,中,"MBG Plant Finder / RHS (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250180 , https://www.rhs.org.uk/plants/30519/ )",基部葉はgrey-green（灰緑）と記載。灰緑は①と④の境界だが生産者評価を尊重し④を維持。半常緑タグは常緑性列と整合。
+210,セントーレア　モンタナ （ヤマヤグルマギク）,Centaurea montana,④ シルバー系,毛あり,True,True,高,"RHS / BBC Gardeners World (https://www.rhs.org.uk/ , https://www.gardenersworld.com/plants/centaurea-montana/ )",灰緑色の葉が銀色の綿毛に覆われsilvery-grey woollyと記載。銀灰葉＋有毛で④・毛ありに整合。
+211,ミント　パイナップルミント,Mentha suaveolens 'Variegata',⑦ 斑入り,白覆輪,True,True,高,Univ. of Wisconsin Extension / The Herb Society (https://hort.extension.wisc.edu/articles/pineapple-mint-mentha-suaveolens-variegata/ ),白～クリームの覆輪状斑（葉縁中心）が主観賞価値と記載。⑦・白覆輪で整合。
+212,サリクトラム（タリクトラム） アキレジフォリウム‘プルプレウム’,Thalictrum aquilegiifolium 'Purpureum',③ ブルー系,,True,False,中,"RHS / MBG Plant Finder (https://www.rhs.org.uk/plants/73814/ , https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286093 )",葉はblue-green（青緑・粉白）で成葉も青緑を保つ。'Purpureum'の紫は茎・花のもので葉は銅葉化しないため、誤りの銅葉化タグを削除。③ブルー系は維持。
+213,タイム　セパイラム （クリーピングタイム　白花）,Thymus serpyllum,① グリーン系,半常緑,True,True,中,一次情報（RHS/NCSU等）＋園芸標準に基づく,クリーピングタイム基本種は標準的な小型緑葉で斑・銀葉なし。①で整合、半常緑タグも常緑性列と整合。
+214,ジプソフィラ　ローザス ‘コーンヘッド’,Gypsophila paniculata 'Conehead',① グリーン系,,True,False,中,MBG Plant Finder（Gypsophila paniculata）＋園芸標準に基づく,カスミソウは粉白を帯びた灰緑の細葉で境界的だが生産者評価を尊重し①を維持。ただし本種は冬季落葉の宿根草で半常緑タグは常緑性列（冬季落葉）と矛盾するため削除。
+215,カリオプテリス‘ダークナイト’ （カリガネソウ）,Caryopteris × clandonensis 'Dark Knight',④ シルバー系,,True,True,中,"RHS / MBG Plant Finder (https://www.rhs.org.uk/plants/101641/ , https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b890 )",灰緑色（grey-green）の葉で裏面に銀毛。銀灰の質感を持つため④で整合、追加タグは付けず現状維持。
+216,ヒューケレラ‘ストップライト’,Heucherella 'Stoplight',② ゴールド／ライム系,常緑,False,True,高,"Chicago Botanic Garden / Perennial Resource (PP16835) (https://www.chicagobotanic.org/plant-information/plant-finder/x-heucherella-stoplight-stoplight-foamy-bells , http://www.perennialresource.com/variety.php?ID=HERST )",葉は黄色～シャルトルーズのライムグリーンで赤い中心斑。主色は黄金～ライムのため①は誤りで②へ修正。常緑タグは維持。
+217,ヒューケラ‘レイチェル’,Heuchera 'Rachel',⑥ ブロンズ／レッド系,常緑,False,True,中,"Mt. Cuba Center Heuchera Trial / Thompson & Morgan / Dobies (https://mtcubacenter.org/trials/heuchera/heuchera-rachel/ , https://www.thompson-morgan.com/p/heuchera-rachel/ )",葉は銅緑色（bronze-green）に紫を帯びる銅葉～赤紫葉と記載。緑葉ではないため①は誤り。銅葉が基調のため⑥へ修正（紫寄りとの記述もあり⑤と境界）。常緑タグは維持。
+218,ティアレラ‘ピンクスカイロケット’,Tiarella 'Pink Skyrocket',① グリーン系,,False,True,高,Plant Delights / Gardenia.net (https://www.gardenia.net/plant/tiarella-pink-skyrocket),深裂した光沢のある緑葉に葉脈沿いの暗紫〜黒斑が入る緑葉種で、青葉ではないため③→①に修正（秋は日向で銅色化）。
+219,ジーアム（ゲウム） ‘マンゴーラッシー’,Geum 'Mango Lassi',① グリーン系,,True,True,高,RHS (https://www.rhs.org.uk/plants/283490/geum-mango-lassi/details) / Thompson & Morgan,深裂した軟毛質の中緑葉のマウンドで通年緑を保つため①で整合。
+220,ゲラニウム　マクロリズム ‘ビーバンズバラエティ'(ｾﾞﾗﾆｳﾑﾙｰﾄ),Geranium macrorrhizum 'Bevan's Variety',⑧ 季節変化型,"秋紅葉,半常緑",True,True,高,MBG Plant Finder (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=245622),芳香のある緑〜灰緑葉が秋に黄〜橙〜赤へ発色し半常緑のため⑧・秋紅葉・半常緑で整合。
+221,トリフォリウム　レペンス ‘ウィートフェン’,Trifolium repens 'Wheatfen',⑤ パープル／ブラック系,常緑,True,True,高,Plant Delights (https://www.plantdelights.com/products/trifolium-repens-wheatfen),通年ダークレッド〜パープルの小葉を保つ暗葉クローバーで⑤・常緑で整合。
+222,ジギタリス　プルプレア ‘スノーシンブル’,Digitalis purpurea 'Snow Thimble',① グリーン系,"半常緑,毛あり",True,True,高,一次情報＋園芸標準（Digitalis purpurea種特性、有毛のロゼット緑葉）,ジギタリス種特有の軟毛質の緑葉ロゼットで①・半常緑・毛ありで整合。
+223,ミント　オレンジミント,Mentha x piperita f.citrata 'Orange',⑥ ブロンズ／レッド系,,True,True,中,RHS (https://www.rhs.org.uk/plants/108057/mentha-piperita-f-citrata-orange/details) / Prides Corner Farms,濃緑にブロンズ紫を帯び日射で紫が強まる葉（bronze-purple表現あり）で、境界的だが生産者評価を尊重し⑥維持。
+224,アストランティア　マヨール ‘ルビーウェディング’,Astrantia major 'Ruby Wedding',① グリーン系,,True,True,高,一次情報＋園芸標準（Astrantia major種特性、掌状分裂の緑葉）,アストランティア・マヨールの掌状に裂けた緑葉の選抜（暗赤花系）で、葉は通年緑のため①で整合。
+225,フィリペンデュラ‘フジヘイズ’,Filipendula multijuga 'Fuji Haze',⑦ 斑入り,散斑,False,False,中,plant lust (https://plantlust.com/plants/24897/filipendula-multijuga-fuji-haze/),「handsomely variegated foliage」と記載の斑入り選抜（品種名Haze＝霞状の散り斑）で②→⑦、落葉のため常緑を除き散斑を付与。
+226,モリニア　カエルレア ‘バリエガータ’,Molinia caerulea subsp. caerulea 'Variegata',⑦ 斑入り,黄覆輪,True,True,高,MBG Plant Finder (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263615),緑の中央条を縁取るクリームイエローの縦縞の斑入り草で⑦、黄色が葉縁側に入るため黄覆輪で整合。
+227,アスチルベ　チネンシス ‘ビジョンインレッド’,Astilbe chinensis 'Vision in Red',⑥ ブロンズ／レッド系,,True,True,中,Gardenia.net (https://www.gardenia.net/plant/astilbe-chinensis-vision-in-red) / Walters Gardens PP11965,光沢のあるブロンズグリーンの羽状葉に暗紫の茎という銅葉調の観賞性で⑥を維持。
+228,ホスタ‘ウルバリーン’,Hosta 'Wolverine',⑦ 斑入り,黄覆輪,True,True,高,MBG Plant Finder (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=293408),青緑葉に幅広い金〜クリーム色の覆輪が入る斑入りホスタで⑦・黄覆輪で整合。
+229,アジュガ　レプタンス‘ロゼア’,Ajuga reptans 'Rosea',① グリーン系,常緑,True,True,中,一次情報＋園芸標準（Ajuga reptans 'Rosea'は緑葉・桃花の常緑グラウンドカバー選抜）,'Rosea'は緑葉に桃色花の緑葉型（紫葉系ではない）で①・常緑で整合。
+230,アネモネ　マルチフィダ（ムルチフィダ）‘ルブラ’,Anemone multifida 'Rubra',① グリーン系,,True,True,中,一次情報（RHS/園芸標準）に基づく: Anemone multifida は掌状深裂の緑葉、'Rubra' は花色選抜で葉は標準緑,掌状に深裂する標準的な緑葉で斑・特殊色なし、現マスタ整合。
+231,アイリス　シビリカ‘レッドフレア’,Iris sibirica 'Red Flare',① グリーン系,,True,True,高,一次情報（RHS/園芸標準）: Iris sibirica は細い剣状の緑葉、'Red Flare' は花色選抜で葉は標準緑,細長い剣状の標準緑葉で斑なし、現マスタ整合。
+232,エキナセア　プルプレア ‘ベビースワンホワイト’,Echinacea purpurea 'Baby Swan White',① グリーン系,,True,True,高,一次情報（NCSU/MBG）: Echinacea purpurea はざらつく濃緑葉、白花選抜で葉は標準緑,標準的な濃緑葉で斑・特殊色なし、現マスタ整合。
+233,カラマグロスティス ‘カールフォースター’,Calamagrostis × acutiflora 'Karl Foerster',① グリーン系,,True,True,高,一次情報（MBG PlantFinder）: 'Karl Foerster' は生育期は緑葉、秋に黄褐色化する直立性フェザーリードグラス,生育期の主色は標準緑（秋の黄褐色化は穂主体）で現マスタ整合。
+234,サルビア　プラテンシス ‘ローズラプソディ’,Salvia pratensis 'Rose Rhapsody',① グリーン系,半常緑,True,True,高,一次情報（RHS/園芸標準）: Salvia pratensis はざらつく濃緑のロゼット葉、半常緑,標準緑のロゼット葉で斑なし、既存の半常緑タグも整合。
+235,ジギタリス　プルプレア ‘アプリコット’,Digitalis purpurea 'Apricot',① グリーン系,"半常緑,毛あり",True,True,高,一次情報（RHS/NCSU）: Digitalis purpurea は軟毛のある緑のロゼット葉、半常緑,有毛の標準緑ロゼット葉で、既存の半常緑・毛ありタグも整合。
+236,ジギタリス　プルプレア ‘エクセルシオール’,Digitalis purpurea 'Excelsior',① グリーン系,"半常緑,毛あり",True,True,高,一次情報（RHS/NCSU）: Digitalis purpurea 'Excelsior' は軟毛のある緑のロゼット葉、半常緑,有毛の標準緑ロゼット葉で、既存の半常緑・毛ありタグも整合。
+237,ゲラニウム　サンギネウム　 var.ストリエータム,Geranium sanguineum var. striatum,⑧ 季節変化型,秋紅葉,True,True,高,MBG PlantFinder / RHS: 濃緑の細裂葉が秋の霜後に赤〜ブロンズ赤へ紅葉 (missouribotanicalgarden.org/PlantFinder),生育期は緑葉、秋に赤く紅葉するのが観賞点で季節変化型・秋紅葉が整合。
+238,トバラ‘コンプトンズフォーム’,Tovara 'Compton's Form',① グリーン系,,True,True,中,MBG PlantFinder (Persicaria virginiana Compton's Form): オリーブ緑の葉にチョコレート色のシェブロン斑と金属光沢,主色はオリーブ緑で、暗色シェブロンは白黄クリーム斑ではないため⑦斑入りでなく①緑が妥当。
+239,ペルシカリア　アフィニス,Persicaria affinis,⑧ 季節変化型,"半常緑,秋紅葉",True,True,高,RHS/園芸標準: 緑葉が秋〜冬に金橙色を経てブロンズ・ラセット色へ変化、半常緑の四季葉,生育期は緑葉、秋冬に銅色化する半常緑グラウンドカバーで季節変化型・秋紅葉・半常緑が整合。
+240,ペルシカリア　アンプレクシカウリス ‘アトロサンギネア’,Persicaria amplexicaulis 'Atrosanguinea',① グリーン系,,True,True,高,一次情報（RHS）: Persicaria amplexicaulis は大きな濃緑の披針形葉、'Atrosanguinea' は暗赤花の選抜で葉は緑,花は暗赤だが葉は標準的な濃緑で斑なし、現マスタ整合。
+241,ベロニカ　プロストラータ ‘ミセスホルト’,Veronica prostrata 'Mrs Holt',① グリーン系,半常緑,False,False,高,RHS PlantFinder (rhs.org.uk/plants/54910) / plantlust: 明〜中緑の細葉のマット状半常緑、斑入りではない,'Mrs Holt' は明緑〜中緑の無斑葉の半常緑（斑入り選抜ではない）ため⑦斑入り・白覆輪は誤りで①緑へ修正、常緑性列に合わせ半常緑を付与。
+242,モナルダ　ディディマ ‘ブルーストッキング’,Monarda didyma 'Blue Stocking',① グリーン系,,True,True,高,RHS/MBG Plant Finder（Monarda didyma）＋園芸標準：卵状披針形の中緑葉,ベルガモットは標準的な中緑葉で斑・特殊色なく①が整合。
+243,ラベンダー　アンガスティフォーリア ‘ヒデコート’,Lavandula angustifolia 'Hidcote',④ シルバー系,半常緑,True,True,高,RHS https://www.rhs.org.uk/plants/96353/lavandula-angustifolia-hidcote/details ・MBG：silvery-grey葉,RHS等でsilvery-grey葉と明記され銀葉のため④が整合、半常緑タグ維持。
+244,ケロネ　オブリクア‘アルバ’ （シェローン白花）,Chelone obliqua 'Alba',① グリーン系,,True,True,高,MBG/NCSU Plant Toolbox（Chelone obliqua）：光沢のある濃緑葉,タートルヘッドは光沢のある濃緑葉で斑・特殊色なく①が整合。
+245,トラディスカンティア‘イノセンス’,Tradescantia × andersoniana 'Innocence',① グリーン系,,True,True,高,RHS/MBG（Tradescantia Andersoniana Group）：線形の緑葉,白花系スパイダーワートの草状緑葉で斑なく①が整合。
+246,アスチルベ　チネンシス　 var.タケッティ‘スーパーバ’,Astilbe chinensis var. taquetii 'Superba',① グリーン系,,True,True,高,MBG Plant Finder（Astilbe chinensis var. taquetii 'Superba'）：濃緑の羽状複葉,成葉は濃緑の複葉が主色で①が整合（新葉のわずかな赤みは主分類変更に至らず）。
+247,アムソニア　タバーナエ　 モンタナ（チョウジソウ）,Amsonia tabernaemontana,① グリーン系,秋紅葉,True,True,高,MBG/NCSU Plant Toolbox（Amsonia tabernaemontana）：生育期は緑葉、秋に鮮黄葉,生育期の主色は緑で①、秋に鮮黄色に紅（黄）葉するため秋紅葉タグも整合。
+248,サルビア　ネモローサ‘カラドンナ’,Salvia nemorosa 'Caradonna',④ シルバー系,,True,True,中,RHS https://www.rhs.org.uk/plants/194596/salvia-nemorosa-caradonna/details ・MBG：grey-green（灰緑）葉,RHS/MBGで灰緑（grey-green）葉と記載され①緑と④銀の境界だが、灰緑寄りの生産者評価を尊重し④維持。
+249,オブリエチア　デルトイデア ‘バリエガータ’,Aubrieta deltoidea 'Variegata',⑦ 斑入り,"白覆輪,常緑",True,True,高,RHS https://www.rhs.org.uk/plants/100927/aubrieta-deltoidea-variegata-group-(v)/details：クリーム白の覆輪斑・常緑,RHSで灰緑葉にクリーム白の覆輪斑と明記され⑦・白覆輪・常緑が整合。
+250,ポルモニウム　カエルレウム ‘アルバム’,Polemonium caeruleum 'Album',① グリーン系,,True,True,高,MBG/RHS（Polemonium caeruleum）：緑の羽状（ヤコブのはしご）葉,白花ヤコブズラダーは緑の羽状複葉が主色で斑なく①が整合。
+251,プリムラ‘グリーンレース’,Primula x polyanthus 'Green Lace',① グリーン系,半常緑,False,True,高,Terra Nova Nurseries／RHS Primula polyanthus：葉は濃緑（'Green Lace'は緑花の品種名で葉ではない）,'Green Lace'は緑花を指す品種名で葉はダークグリーンのため、②ライムは誤りで①グリーン系へ修正。半常緑は維持。
+252,スカビオサ　コウカシカ‘ファーマ’,Scabiosa caucasica 'Fama',④ シルバー系,,True,True,中,MBG Plant Finder（Scabiosa caucasica 'Fama'）：grayish-green（灰緑）の基部葉,MBGで灰緑（grayish-green）葉と記載され①緑と④銀の境界だが、灰緑寄りの生産者評価を尊重し④維持。
+253,ダイアンサス　カシュジアノーラム,Dianthus carthusianorum,① グリーン系,常緑,True,True,中,Wikipedia/RHS（Dianthus carthusianorum）：緑〜やや粉白を帯びる灰緑の草状葉・常緑,本種は緑〜わずかに粉白の草状葉で強い青粉葉ではなく①が妥当（境界的だが緑寄り）、常緑タグ維持。
+254,パルサティラ　ブルガリス ‘ホワイトベル’,Pulsatilla vulgaris 'White Bells',④ シルバー系,毛あり,True,True,中,RHS Pulsatilla vulgaris https://www.rhs.org.uk/plants/14184/pulsatilla-vulgaris/details ／ Kew Pasqueflower,細裂葉が絹毛に覆われ若葉は銀灰色で有毛（RHS/Kew）。境界的だが生産者評価の④と毛ありを維持。
+255,ビンカ　ミノール‘ゴールデン’,Vinca minor 'Golden',⑦ 斑入り,"常緑,クリーム葉",True,True,中,NCSU Vinca minor https://plants.ces.ncsu.edu/plants/vinca-minor/ ／ PlantDelights 黄金葉ビンカ系解説,黄～クリームの斑入り常緑葉で⑦が妥当、常緑・クリーム葉タグとも整合し維持。
+256,リスラム　サリカリア （エゾミソハギ）,Lythrum salicaria,① グリーン系,,True,True,高,MBG/一次情報＋園芸標準（Lythrum salicaria 通年緑葉）,披針形の緑葉が主色で斑・銀・紫なし、①で整合。
+257,ネペタ‘シックスヒルズジャイアント’,Nepeta 'Six Hills Giant',④ シルバー系,,True,True,中,RHS Nepeta 'Six Hills Giant' https://www.rhs.org.uk/plants/11491/nepeta-six-hills-giant/details ／ MBG Plant Finder,有毛のグレーグリーン葉（RHS/MBG）で銀系寄り、生産者評価の④を維持。
+258,フロックス　パニキュラータ ‘デイビッド’,Phlox paniculata 'David',① グリーン系,,True,True,高,MBG Plant Finder Phlox paniculata 'David'／一次情報＋園芸標準,うどんこ病抵抗の濃緑葉が主色、斑・特殊色なしで①整合。
+259,フィリペンデュラ　ウルマリア ‘バリエガータ’,Filipendula ulmaria 'Variegata',⑦ 斑入り,"クリーム葉,中斑",True,False,高,RHS Filipendula ulmaria 'Variegata' https://www.rhs.org.uk/plants/75800/ ／ MBG Plant Finder,葉中央にクリーム黄の刷毛斑で⑦は正しいが落葉種のため常緑を削除、中斑を追加。
+260,トラディスカンティア ‘コンコードグレープ’,Tradescantia x andersoniana 'Concord Grape',③ ブルー系,,True,True,中,MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=w670 ／ Walters Gardens,フロスト状のブルーグリーン葉が特徴（MBG/Walters）で③整合。
+261,ポリゴネータム　オドラタム （アマドコロ),Polygonatum odoratum,⑦ 斑入り,"白覆輪,秋紅葉",True,True,中,三河の植物観察 Polygonatum odoratum var. pluriflorum ／ リアガーデン フイリアマドコロ https://lia-garden.com/plants/2021/article-1686/,流通のアマドコロは葉縁白覆輪の斑入り選抜で秋に黄葉化、⑦と両タグを維持。
+262,バーベナ　ボナリエンシス （サンジャクバーベナ）,Verbena bonariensis,① グリーン系,,True,True,高,MBG/NCSU Verbena bonariensis／一次情報＋園芸標準,細い緑葉が主色で斑・特殊色なし、①整合。
+263,カリオプテリス　ディバリカータ ‘スノーフェアリー’（カリガネソウ）,Caryopteris divaricata 'Snow Fairy',⑦ 斑入り,白覆輪,True,True,高,一次情報＋園芸標準（'Snow Fairy' 白覆輪斑入り選抜）,緑葉に白覆輪が入る斑入り選抜で⑦と白覆輪が整合。
+264,トラディスカンティア ‘リトルドール’,Tradescantia (Andersoniana Group) 'Little Doll',① グリーン系,,True,True,中,一次情報＋園芸標準（Andersoniana系標準緑葉）,細長い草状の緑葉で斑・青白味の強調なし、①整合。
+265,アスター　ディバリケータス,Aster divaricatus,① グリーン系,,True,True,高,MBG/NCSU Aster (Eurybia) divaricatus／一次情報＋園芸標準,心形の緑葉が主色（黒い針金状の茎はあるが葉は緑）で①整合。
+266,ペンステモン　ハシュータス　 var.ピグマエウス,Penstemon hirsutus var. pygmaeus,⑤ パープル／ブラック系,"半常緑,冬発色",True,False,中,"RHS Plant Finder (rhs.org.uk/plants/60241/penstemon-hirsutus-var-pygmaeus/details), Plant Delights",灰緑地にパープルの色差しがあり秋冬にブロンズ赤へ発色。生産者の⑤評価を尊重し維持、冬発色を補完。
+267,レモンバーム (メリッサ オフィシナリス),Melissa officinalis,① グリーン系,,True,True,高,MBG Plant Finder／園芸標準（レモンバームは明るい緑葉）,標準的な緑葉のハーブで①が整合、タグ該当なし。
+268,フェスツーカ　グラウカ ‘ボルダーブルー’,Festuca glauca 'Boulder Blue',③ ブルー系,"常緑,銀粉",True,True,高,RHS／園芸標準（ブルーフェスクの銀青葉選抜）,青銀葉のブルーフェスク選抜で③・常緑・銀粉が整合。
+269,サルビア　スーパーバ ‘バイオレットクィーン’,Salvia × superba 'Violet Queen',① グリーン系,,True,True,高,MBG Plant Finder／園芸標準（花は紫、葉は緑）,葉は標準的な緑（花色対象外）で①が整合。
+270,アキレア‘コロネーションゴールド’,Achillea 'Coronation Gold',④ シルバー系,"半常緑,毛あり",True,True,高,"RHS (rhs.org.uk/plants/95560), Chicago Botanic Garden／Gardenia.net（silvery gray-green, fern-like）",銀灰緑の羊歯状有毛葉で④・半常緑・毛ありが整合。
+271,クロコスミア‘ルシファー’,Crocosmia x crocosmiiflora 'Lucifer',① グリーン系,,True,True,高,RHS／園芸標準（緑の剣状葉）,緑の剣葉で①が整合、タグ該当なし。
+272,ジーアム（ゲウム） ‘ファイヤーボール’,Geum 'Fireball',① グリーン系,半常緑,True,True,高,園芸標準（ゲウムはロゼット状の緑葉、半常緑）,緑葉ロゼットで①・半常緑が整合。
+273,ルドベキア　サブトメントーサ ‘ヘンリーアイラーズ’,Rudbeckia subtomentosa 'Henry Eilers',① グリーン系,,True,True,高,"RHS (rhs.org.uk/plants/268913), MBG Plant Finder／Gardenia.net（green to gray-green, softly hairy）",緑〜灰緑葉で①が整合。軟毛はあるが観賞主眼でなく現タグ（空）を維持。
+274,ジギタリス パービフローラ ‘ミルクチョコレート’,Digitalis parviflora 'Milk Chocolate',① グリーン系,半常緑,True,True,高,園芸標準（花がチョコ色、葉は光沢のある緑のロゼット）,葉は緑（花色対象外）で①・半常緑が整合。
+275,ポルモニウム　エゾエンス ‘パープルレイン’,Polemonium yezoense 'Purple Rain',⑤ パープル／ブラック系,春赤葉,True,False,中,"RHS (rhs.org.uk/plants/115423), Perennials.com／Digging Dog（dark green flushed purple-black, greening in summer）",春〜新葉が紫黒〜赤紫で夏に緑へ移行。紫葉選抜で⑤維持、春赤葉を補完。
+276,セントーレア　マクロセファラ （オオゴンヤグルマギク）,Centaurea macrocephala,① グリーン系,,True,True,高,MBG Plant Finder／園芸標準（粗い緑の大型葉）,標準的な緑葉で①が整合、タグ該当なし。
+277,クロコスミア‘エンバーグロウ’,Crocosmia 'Ember Glow',① グリーン系,,True,True,高,園芸標準（クロコスミアは緑の剣状葉）,緑の剣葉で①が整合、タグ該当なし。
+278,エキナセア　パリダ,Echinacea pallida,① グリーン系,,True,True,高,MBG Plant Finder / NCSU Plant Toolbox（Echinacea pallida）,細長い緑葉で斑・季節変化なく標準的な緑葉のため①のまま。
+279,エキナセア　パラドクサ,Echinacea paradoxa,① グリーン系,,True,True,高,"MBG Plant Finder（Echinacea paradoxa, Yellow coneflower）",披針形の緑葉で斑や特殊な葉色なく標準的な緑葉のため①のまま。
+280,エリゲロン‘ピンクジュエル’ （'ロサジュエル’),Erigeron 'Pink Jewel'('Rosa Juwel'),① グリーン系,半常緑,True,True,高,RHS / 園芸標準（Erigeron 'Rosa Juwel'/'Pink Jewel'）,披針形の緑葉で斑なし、既存の半常緑タグも整合するため現状維持。
+281,キミキフーガ（ｱｸﾀｴｱ）シンプレックス （サラシナショウマ）,Cimicifuga simplex,① グリーン系,,True,True,高,RHS / MBG Plant Finder（Actaea simplex 基本種）,基本種は深緑の羽状複葉で緑葉。紫葉は'Atropurpurea'等の別選抜であり本種は①のまま。
+282,デルフィニウム ‘アストラット’,Delphinium 'Astolat',① グリーン系,,True,True,高,"RHS（Delphinium 'Astolat', Pacific Giant系）/ 園芸標準",掌状に裂ける緑葉で斑・特殊葉色なく標準的な緑葉のため①のまま。
+283,ルピナス‘シャンデリア’,Lupinus 'Chandelier' (Band of Nobles Series),① グリーン系,,True,True,高,"RHS（Lupinus 'Chandelier', Russell/Band of Nobles系）",掌状複葉の緑葉で斑なし、標準的な緑葉のため①のまま。
+284,ルピナス　ペレニス,Lupinus perennis,① グリーン系,,True,True,高,"NCSU Plant Toolbox / MBG（Lupinus perennis, Sundial lupine）",掌状複葉の緑葉で斑や銀葉化なく標準的な緑葉のため①のまま。
+285,トリフォリウム　ルーベンス,Trifolium rubens,③ ブルー系,"毛あり,半常緑",True,True,中,RHS / Chicago Botanic Garden / Gardenia.net（Trifolium rubens）,青緑（glaucous）の三出葉で軟毛ありと記載され、③ブルー系＋毛あり・半常緑と整合するため維持。
+286,ミスカンサス‘モーニングライト’,Miscanthus sinensis 'Morning Light',⑦ 斑入り,白覆輪,True,True,高,MBG Plant Finder / NCSU（Miscanthus sinensis 'Morning Light'）,細葉の縁に白い覆輪斑が入る代表的な白覆輪品種で、⑦斑入り＋白覆輪と整合するため維持。
+287,エラグロスティス　スペクタビリス,Eragrostis spectabilis,⑧ 季節変化型,秋紅葉,True,True,中,"Mt. Cuba Center / NCSU / MBG（Eragrostis spectabilis, Purple lovegrass）",生育期は淡緑葉、秋にブロンズ〜赤へ紅葉すると記載され、⑧季節変化型＋秋紅葉と整合するため維持。
+288,セントーレア　ディールバータ,Centaurea dealbata,④ シルバー系,毛あり,True,True,中,MBG Plant Finder / RHS / Wikipedia（Centaurea/Psephellus dealbatus）,羽状葉は表が緑で裏に白〜銀色の綿毛（dealbata=白粉）を持ち銀緑に見える有毛葉。境界的だが生産者評価を尊重し④＋毛ありを維持。
+289,ゲーラーディア‘アンバーホイール’ (ガイラルディア),Gaillardia aristata 'Amber Wheels',① グリーン系,毛あり,True,True,高,NCSU Plant Toolbox / 園芸標準（Gaillardia aristata）,粗い軟毛のある緑葉で斑や特殊葉色なく、①グリーン系＋毛ありと整合するため維持。
+290,セファラリア　ギガンチア,Cephalaria gigantea,① グリーン系,,True,True,中,RHS/一般園芸資料（giant scabious、羽状の中緑葉）＋園芸標準,羽状複葉の標準的な中緑葉で斑・特殊葉色なし、①グリーン系が妥当。
+291,セダム‘クラウドウォーカー’,Sedum ‛Cloud Walker’,③ ブルー系,銅葉化,True,True,中,TerraNova Nurseries / Perennials.com（Sedum telephium 'Cloud Walker' PP17406、blue-green foliage tinted with darker maroon shading）,青緑葉が主色でマルーンの陰影を帯びるため③ブルー系＋銅葉化を維持。
+292,トラディスカンティア ‘サンシャインチャーム’,Tradescantia 'Sunshine Charm' COPF PP21480,② ゴールド／ライム系,,True,True,高,"Perennial Resource / TerraNova（bright golden-yellow to chartreuse foliage, holds color all season）",生育期を通じ黄金〜シャルトルーズ葉で②ゴールド／ライム系が正しい。
+293,スピレア　ジャポニカ‘ゲンペイ’ （ゲンペイシモツケ）,Spiraea japonica 'Genpei',⑧ 季節変化型,秋紅葉,True,True,中,RHS（Spiraea japonica 'Genpei'）/ NCSU Plant Toolbox（mid-green leaves turning orange and bronze/coppery in autumn）,生育期は緑葉だが秋に橙〜銅色へ紅葉する落葉低木で⑧季節変化型＋秋紅葉を維持。
+294,ロニセラ　テルマニアーナ （ハニーサックル）,Lonicera x tellmanniana,① グリーン系,,False,True,中,"RHS（Lonicera × tellmanniana）/ NCSU Plant Toolbox（dark green, oval to oblong leaves; underside glaucous）",葉は濃緑（裏面やや粉白）で黄金葉ではなく、橙黄花を葉色と誤認したものと判断し①グリーン系へ修正。
+295,セダム‘フロスティモーン’,Sedum erythrostictum 'Frosty Morn',⑦ 斑入り,白覆輪,True,True,高,"MBG Plant Finder / Gardenia（blue-green leaves broadly margined with creamy white, variegated）",青緑葉にクリーム白の覆輪が入る斑入り選抜で⑦斑入り＋白覆輪が正しい。
+296,カレックス　マスキングメンシス ‘リトルミッジ’,Carex muskingumensis 'Little Midge',① グリーン系,,True,True,中,一般園芸資料（palm sedge矮性選抜、明緑〜緑葉）＋園芸標準,パームセッジ矮性型で細い緑葉、斑なし。①グリーン系が妥当。
+297,バレリアナ　オフィシナリス （バレリアン）,Valeriana officinalis,① グリーン系,,True,True,高,NCSU/大学Extension一般記載（valerian、羽状の緑葉）＋園芸標準,羽状複葉の標準的な緑葉で斑・特殊葉色なし、①グリーン系が正しい。
+298,セダム　スペクタビル ‘オータムジョイ’,Hylotelephium spectabile 'Autumn Joy',① グリーン系,秋紅葉,True,True,中,MBG Plant Finder（Hylotelephium 'Autumn Joy'、灰緑〜緑の多肉葉、秋に葉が色づく個体差あり）,主色は緑〜灰緑の多肉葉で①グリーン系。秋の色づき記載を尊重し秋紅葉タグは現状維持。
+299,フクシャ　マジェラニカ ‘エンストーン’,Fuchsia magellanica 'Enstone',⑦ 斑入り,"黄覆輪,半常緑",True,True,中,RHS（Fuchsia magellanica var. molinae 'Enstone' (v)＝斑入り、緑葉にクリーム黄の覆輪）,"RHSで(v)＝斑入り、緑葉にクリーム黄覆輪の選抜のため⑦斑入り＋黄覆輪,半常緑を維持。"
+300,カンパニュラ‘ジェリーベルズ’,Campanula x pulloides 'Jelly Bells',① グリーン系,,True,True,中,一般園芸資料（Campanula x pulloides、濃緑の小葉）＋園芸標準,標準的な緑葉のカンパニュラで斑・特殊葉色なし、①グリーン系が妥当。
+301,プルモナリア‘シルバーブーケ’,Pulmonaria 'Silver Bouquet',④ シルバー系,"半常緑,銀粉",True,True,高,Plant Delights / Juniper Level（TerraNova作出、shiny silver foliage with occasional green flecks）,ほぼ全面が銀葉（緑の斑点少）でシルバー系の代表格、④＋銀粉を維持。
+302,ユーパトリム　ルゴサム ‘チョコレート’,Ageratina altissima 'Chocolate',⑤ パープル／ブラック系,銅葉化,True,True,高,"Chicago Botanic Garden / MBG Plant Finder (kempercode=v230): 'chocolate brown-red glossy leaves and stems, darkest early season, fading with summer heat'",生育初期にチョコレート／バーガンディの濃色葉が主観賞点で暗色系のため⑤を維持、銅葉化タグも整合。
+303,ヘリアンセマム ‘ヘンフィールドブリリアント’,Helianthemum 'Henfield Brilliant',④ シルバー系,"常緑,毛あり",True,False,高,"RHS (/plants/96938) / Gardenia.net: 'small, silvery-gray, lance-shaped, downy evergreen foliage'",銀灰色の常緑葉で④は整合、軟毛（downy）が銀色の要因として明記されるため毛ありを補完。
+304,ヘメロカリス ‘シャーウッドグラディエーター’,Hemerocallis 'Sherwood Gladiator',① グリーン系,半常緑,True,True,高,園芸標準（Hemerocallis属の一般特性）：ヘメロカリスは緑色の帯状葉が標準,デイリリーの標準的な緑葉で①・半常緑ともに整合。
+305,ヒューケラ‘サシェイ’,Heuchera 'Sashay',① グリーン系,半常緑,True,True,高,"RHS (/plants/132580) / Terra Nova / perennials.com: 'deeply cut, ruffled dark green leaves with burgundy-pink undersides'",葉表は濃緑（紫はあくまで葉裏）のため主色は緑で①を維持。
+306,ガウラ‘サマーブリーズ’ （ハクチョウソウ）,Gaura lindheimeri 'Summer Breeze',① グリーン系,,True,True,高,MBG Plant Finder (taxonid=293627) / Digging Dog: 'narrow green leaves occasionally dappled/spotted with maroon',主色は緑葉（栗色斑点はわずか）で①・タグ無しは整合。
+307,サンギソルバ　アルビフローラ （シロバナトウチソウ）,Sanguisorba albiflora (Makino) Makino,① グリーン系,,True,True,中,園芸標準（Sanguisorba属・日本産ワレモコウ類）：奇数羽状複葉の緑葉（やや粉白を帯びる場合あり）,ワレモコウ類の緑色羽状葉で①は整合、品種固有情報は乏しく現状維持。
+308,セダム‘ミスターグッドバッド’,Hylotelephium 'Mr Goodbud',③ ブルー系,銀粉,True,False,中,MBG Plant Finder (taxonid=298748) / Terra Nova: 'glaucous blue-green succulent foliage with grayed-purple cast',青緑の粉白（glaucous）多肉葉で③は整合、銅葉化は不適合のため粉白質を表す銀粉に修正。
+309,デスカンプシア　フレクシオーサ,Deschampsia flexuosa (L.) Trin.,① グリーン系,,True,True,高,園芸標準（Deschampsia flexuosa／ワビ毛シバ類）：細く柔らかい緑葉、花穂のみブロンズ,葉は細い緑色で①・タグ無しは整合。
+310,トロリウス　チネンシス ‘ゴールデンクィーン’,Trollius chinensis 'Golden Queen',① グリーン系,,True,True,高,園芸標準（Trollius chinensis）：掌状深裂の緑葉。'Golden'は花色を指す,葉は緑色（ゴールデンは花色）で①は整合。
+311,ネペタ　ムッシーニアイ‘アルバ’,Nepeta mussinii 'Alba',④ シルバー系,,True,True,中,UC Master Gardener / Sandy's Plants: 'soft gray-green aromatic foliage'（Nepeta x faassenii 'Alba'として流通）,灰緑色の柔葉で④は境界的だが生産者評価を尊重し維持、タグ無しも維持。
+312,プルモナリア‘ルイスパルマー’,Pulmonaria 'Lewis Palmer',⑦ 斑入り,"半常緑,散斑",True,True,高,"RHS (/plants/94000) / MBG (taxonid=256001): 'dark green leaves with large silver spots/blotches, hairy'",緑葉に銀白の斑点が散在する斑入り選抜で⑦・散斑は整合。
+313,フロックス　パニキュラータ ‘ジュニオールスープライス’,Phlox paniculata 'Junior Surprise',① グリーン系,,True,True,高,plantlust (Phlox paniculata 'Junior Surprise')：'green foliage'（斑入りは'Nora Leigh'等別品種）,斑入りではない緑葉品種で①・タグ無しは整合。
+314,フロックス　パニキュラータ ‘ジュニオールダンス’,Phlox paniculata 'Junior Dance',① グリーン系,,True,True,中,Junior系（American Meadows/Perennial Resource等）は矮性グリーン葉系統。同系'Junior Dream'は濃緑葉と確認 http://www.perennialresource.com/variety.php?ID=PHLDR,Junior系は標準的な濃緑葉で斑なしのため①グリーン系を維持。
+315,フロックス　パニキュラータ ‘ジュニオールドリーム’,Phlox paniculata 'Junior Dream',① グリーン系,,True,True,高,Perennial Resource/Plant Delights: dark green・革質でうどんこ病抵抗性の緑葉、斑なし http://www.perennialresource.com/variety.php?ID=PHLDR,標準的な濃緑葉・斑なしのため①グリーン系を維持。
+316,フロックス　パニキュラータ ‘ジュニオールブーケット’,Phlox paniculata 'Junior Bouquet',① グリーン系,,True,True,中,Junior系統の矮性グリーン葉フロックス（American Meadows/Perennial Resource系統情報）＋種の既知特性,同系統は標準緑葉・斑なしのため①グリーン系を維持。
+317,ペルシカリア　アンプレクシカウリス ‘トーラス’,Persicaria amplexicaulis 'Taurus',⑧ 季節変化型,秋紅葉,True,True,中,Gardenia.net/Great Plant Picks: 夏は光沢のある緑葉、秋に赤・オレンジに紅葉 https://www.gardenia.net/plant/persicaria-amplexicaulis-taurus-mountain-fleece,生育期は緑葉だが秋に赤橙へ紅葉すると確認、境界的だが現評価を尊重し⑧・秋紅葉を維持。
+318,ベロニカ‘ピンクダマスク’,Veronica spicata 'Pink Damask',① グリーン系,,True,True,中,Veronica spicata系の標準的な緑葉（種の既知特性・園芸標準）に基づく,スピカータ系の標準緑葉・斑なしのため①グリーン系を維持。
+319,ペンステモン　メキシケール ‘サンバーストルビー’,Penstemon x mexicali 'Sunburst Ruby',① グリーン系,半常緑,True,True,高,Digging Dog/plant lust: 細葉で光沢のある濃緑葉、半常緑（ルビーは花色）https://www.diggingdog.com/plant/P-1342,葉は光沢のある緑（ルビーは花色）で半常緑と確認、①・半常緑を維持。
+320,ホスタ‘オーガストムーン’,Hosta 'August Moon',② ゴールド／ライム系,,True,True,高,Walters Gardens/MBG: 新葉シャルトルーズ→成葉ゴールド、日照で金色が濃くなる https://www.waltersgardens.com/variety.php?ID=HSAUM,黄金～ライム葉のゴールド系のため②を維持。
+321,ホスタ‘シルバーハロー’,Hosta 'Silver Halo',⑦ 斑入り,白覆輪,True,True,高,Fransen Hostas/Pine Forest Gardens: 緑葉に白覆輪の小型ホスタ https://www.hostaparadise.com/silver%20halo/1861/hosta-details.aspx,葉縁が白の覆輪斑のため⑦斑入り・白覆輪を維持。
+322,ホスタ‘パールレイク’,Hosta 'Pearl Lake',③ ブルー系,,True,True,高,American Meadows/MBG: ブルーグリーンのハート型小型葉（秋に黄葉）https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=269716,主色は青緑葉のため③ブルー系を維持。
+323,ホスタ ‘フランシスウィリアムズ’,Hosta sieboldiana 'Frances Williams',⑦ 斑入り,黄覆輪,True,True,高,MBG/Plant Delights: 青緑葉に幅広い黄金（緑黄）覆輪、'Elegans'の黄覆輪スポート https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=248945,青葉に黄金覆輪の代表的斑入りのため⑦・黄覆輪を維持。
+324,ポテンチラ　トンゲイ,Potentilla × tonguei,① グリーン系,,True,True,高,RHS/Perennial Resource: イチゴ様の濃緑葉 https://www.rhs.org.uk/plants/97578/potentilla-x-tonguei/details,イチゴ様の濃緑葉・斑なしのため①グリーン系を維持。
+325,ポテンチラ　ホップウッディアーナ,Potentilla × hopwoodiana,① グリーン系,,True,True,高,RHS/Gardenia/Perennials.com: イチゴ様の中緑葉 https://www.rhs.org.uk/plants/53826/potentilla-x-hopwoodiana/details,イチゴ様の中緑葉・斑なしのため①グリーン系を維持。
+326,ヤナギラン,Chamerion angustifolium,① グリーン系,秋紅葉,True,True,高,一次情報＋園芸標準（Fireweed／ヤナギラン。生育期は緑葉、秋に赤～黄に紅葉）,生育期は標準的な緑葉で①、秋に葉が赤黄に紅葉するため秋紅葉を維持。
+327,ユーパトリウム　コエレスティナム (セレスチナム)(アオバナフジバカマ),Eupatorium coelestinum,① グリーン系,,True,True,高,"MBG/NCSU（Conoclinium coelestinum, blue mistflower。緑葉の三角状葉）",通年で標準的な緑葉、斑・季節変化なしのため①・タグなしを維持。
+328,ラムズイヤー ‘プリムローズヘロン’,Stachys byzantina 'Primrose Heron',⑧ 季節変化型,"毛あり,半常緑",True,True,高,MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253839（春に金/シャルトルーズ→夏に銀緑→秋に再び金へ変化する有毛葉）,春の金葉→夏の銀緑→秋の金への明瞭な季節変化が観賞点で⑧、ベルベット状有毛のため毛あり・半常緑を維持。
+329,カンパニュラ　ラクティフローラ ‘ホワイトプフェ’,Campanula lactiflora 'White Pouffe',① グリーン系,半常緑,True,True,高,RHS/園芸標準（Campanula lactiflora。標準的な緑葉のマウンド）,標準的な緑葉で①、既検証の半常緑を維持。
+330,カンパニュラ‘ピンクオクトパス’,Campanula takesimana 'Pink Octopus',① グリーン系,半常緑,True,True,高,RHS/園芸標準（Campanula takesimana。光沢のある緑葉）,標準的な緑葉で①、既検証の半常緑を維持。
+331,ミスカンサス‘コスモポリタン’,Miscanthus sinensis 'Cosmopolitan',⑦ 斑入り,白覆輪,True,True,高,Gardenia/NCSU（M. sinensis var. condensatus 'Cosmopolitan'。緑葉に白～クリーム覆輪の斑）,緑葉に白～クリームの覆輪斑が主観賞点で⑦、白覆輪を維持。
+332,パニカム　バーゲタム ‘シャナンドゥー’,Panicum virgatum 'Shenandoah',⑧ 季節変化型,秋紅葉,True,True,高,MBG/Monrovia（Panicum virgatum 'Shenandoah'。青緑葉→初夏にワインレッド→秋に濃バーガンディ）,青緑葉が夏に赤み、秋に濃バーガンディへ変化する季節変化が観賞点で⑧、秋紅葉を維持。
+333,アスター　ノビベルギ `プロフェサーアントンキッペンバーグ',Aster novi-belgii ‛Professor Anton Kippenberg’,① グリーン系,,True,True,高,RHS/園芸標準（Aster novi-belgii。標準的な緑葉）,標準的な緑葉、斑・季節変化なしのため①・タグなしを維持。
+334,アスター　ノバエアングリアエ ‛パープルドーム’(ネバリノギク),Aster novae-angliae ‛Purple Dome’,① グリーン系,毛あり,True,True,高,MBG/NCSU（Aster novae-angliae。有毛のざらつく緑葉）,標準的な緑葉で①、種特性の有毛葉のため毛ありを維持。
+335,アスチルベ　チネンシス ‘ビジョンインピンク’,Astilbe chinensis 'Vision in Pink',① グリーン系,,True,True,中,MBG/園芸標準（Astilbe chinensis 'Vision' 系。緑葉、新葉に僅かに銅色を帯びる程度）,生育期は標準的な緑葉が主で①、銅色は新葉の一時的な帯びのみのためタグなしを維持。
+336,ガウラ‘サマーエモーション’ （ハクチョウソウ）,Gaura lindheimeri 'Summer Emotions',① グリーン系,,True,True,高,RHS https://www.rhs.org.uk/plants/335640/gaura-lindheimeri-summer-emotions/details（濃緑葉、僅かに紫～赤みを帯びる程度）,基本は濃緑葉で①、紫赤の帯びは僅少のためタグなしを維持。
+337,ペルシカリア　アンプレクシカウリス ‘オレンジフィールド’,Persicaria amplexicaulis 'Orange Field',① グリーン系,,True,True,中,RHS/園芸標準（Persicaria amplexicaulis。標準的な緑葉）,標準的な緑葉、斑・銅葉化なしのため①・タグなしを維持。
+338,ホスタ‘クリスマスキャンディ’,Hosta 'Christmas Candy',⑦ 斑入り,"中斑,白覆輪",True,True,低,園芸標準（斑入りホスタ）に基づく判断。品種固有の一次情報を今回照合しきれず現マスタ維持,斑入りホスタで⑦は妥当。中斑/白覆輪の細部は確証不足のため現状維持（確信度低）
+339,ホスタ‘ジューン’,Hosta (Tardiana Group) 'June',⑦ 斑入り,中斑,True,True,高,MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=p490,青緑の覆輪に金/シャルトルーズの中心斑をもつ中斑タイプで⑦・中斑が整合
+340,サルビア　バーティシラータ ‘パープルレイン’,Salvia verticillata 'Purple Rain',① グリーン系,毛あり,True,True,中,S. verticillata の既知特性（軟毛のある緑葉）＋園芸標準に基づく判断,葉は緑色で軟毛あり。①・毛ありが整合（葉色は緑、紫は花色）
+341,セダム‘ホセオバージン’,Sedum ‛Jose Aubergine’,⑤ パープル／ブラック系,,True,True,高,Plant Delights / Promesse de Fleurs / Gardenia.net（濃紫〜黒に近いナスビ色の葉、通年）,通年で深いオーバージン（紫黒）の多肉葉が主色のため⑤が整合
+342,サリクトラム(タリクトラム)　 アキレジフォリウム‛サンダークラウド',Thalictrum aquilegiifolium 'Thundercloud',① グリーン系,,True,True,高,RHS https://www.rhs.org.uk/plants/117489/thalictrum-aquilegiifolium-thundercloud/details（mid-green の細裂葉）,葉は中緑〜青緑の繊細な羽状葉で①が整合（暗色は茎/花）
+343,アスター　ノビベルギ ‘ロイヤルルビー’,Aster novi-belgii 'Royal Ruby',① グリーン系,,True,True,高,RHS / Gardenia.net（披針形の中〜濃緑葉）,葉は緑色の披針形で①が整合（ルビーは花色）
+344,アスター デュモーサス`ウッズピンク',Aster dumosus 'Wood's Pink',① グリーン系,,True,True,高,Perennial Farm / Plant Lust（光沢のある濃緑の披針葉）,葉は光沢濃緑で①が整合（ピンクは花色）
+345,ガウラ‘サンセットドリーム’ （ハクチョウソウ）,Gaura lindheimeri 'Sunset Dreams',⑤ パープル／ブラック系,,True,True,中,Esveld / Vivai Priola（葉は濃緑〜赤褐色を帯びる暗色葉選抜）,種の緑葉より暗色化した赤紫褐色の葉。⑤/⑥は境界だが暗色葉として生産者評価を尊重し維持
+346,ホスタ‘クリスマスツリー’,Hosta 'Christmas Tree',⑦ 斑入り,白覆輪,True,True,中,園芸標準（‘Christmas Tree’は青緑葉にクリーム〜白の覆輪をもつ斑入り選抜）,白〜クリームの覆輪をもつ斑入りで⑦・白覆輪が整合
+347,セダム‘ベラジェームソン’,Sedum ‛Vera Jameson',⑤ パープル／ブラック系,秋紅葉,False,True,中,園芸標準（Hylotelephium 'Vera Jameson'＝通年で青みを帯びた煙紫〜赤紫の多肉葉）,生育期を通じて紫グレーの葉が主色で、秋の変化型より通年紫葉として⑤が妥当。秋の深化は残るため秋紅葉タグは維持
+348,センペルビビューム‘ブロンコ’ （ハウスリーク）,Sempervivum 'Bronco',⑧ 季節変化型,"冬発色,常緑",True,True,中,センペルビウム属の既知特性（低温期にロゼットが赤褐色に発色、常緑）＋園芸標準に基づく判断,常緑ロゼットが低温で赤銅色に発色する季節変化型で⑧・冬発色・常緑が整合
+349,ペンステモン　ジギタリス ‘ダークタワーズ’,Penstemon digitalis 'Dark Towers',⑤ パープル／ブラック系,半常緑,True,True,高,園芸標準（P. digitalis 'Dark Towers'＝'Husker Red'より濃いワインレッド〜暗紫の葉、通年発色）,通年で濃いワインレッド〜暗紫の葉が主色で⑤・半常緑が整合
+350,アストランティア　 マヨール‘ローマ’,Astrantia major 'Roma',① グリーン系,,True,True,中,RHS Plant Finder / MBG Plant Finder（Astrantia major）— 深緑の掌状葉、斑なし,アストランティア・マヨールは無斑の緑葉で、'Roma'は花選抜のため主色は標準緑。①で整合。
+351,アシリウム　ニポニカム　 ピクタム‘プーターレース’,Athyrium niponicum var. pictum 'Pewter Lace',④ シルバー系,新葉赤,True,True,高,MBG Plant Finder / Plant Delights / Monrovia — ピューター銀葉、中肋がコーラルレッド〜マルーン,銀灰色のフロンドに赤味の中肋を持つジャパニーズペインテッドファーンで④が的確、赤い中肋・新葉の赤味に新葉赤タグが整合。
+352,ゲラニウム　カンタブリジェンス ‘ビオコボー’,Geranium x cantabrigiense 'Biokovo',⑧ 季節変化型,"秋紅葉,半常緑",True,True,高,RHS / MBG Plant Finder（Geranium x cantabrigiense 'Biokovo'）— 芳香ある半常緑葉、秋に赤〜オレンジに色付く,半常緑の緑葉が秋に赤〜橙に色付く定番品種で⑧・秋紅葉・半常緑が整合。
+353,レウカンセマム×スーパーバム (ｼｬｽﾀｰﾃﾞｰｼﾞｰ)‛スノードリフト’,Leucanthemum × superbum 'Snowdrift',① グリーン系,,True,True,中,MBG Plant Finder（Leucanthemum × superbum）— 光沢ある濃緑葉、斑なし,シャスタデージーは無斑の濃緑葉で、'Snowdrift'は花選抜のため①で整合。
+354,スポディオポゴン　シビリカス,Spodiopogon sibiricus,⑧ 季節変化型,秋紅葉,True,True,高,RHS / MBG Plant Finder / NCSU（Spodiopogon sibiricus）— 夏は緑葉、秋にバーガンディ〜赤に紅葉,夏の緑葉が秋に赤紫〜バーガンディへ大きく変化する主観賞点で⑧・秋紅葉が整合。
+355,デスカンプシア　セスピトーサ,Deschampsia cespitosa,① グリーン系,,False,False,高,RHS / MBG Plant Finder / Wikipedia（Deschampsia cespitosa）— 濃緑の細葉、斑なし・紫葉ではない,原種は濃緑の無斑葉で紫葉でも中斑でもないため、⑤→①に修正し中斑タグを削除（花穂が紫→ブロンズになるが葉色は緑）。
+356,アンドロポゴン　スコパリウス ‘ブレイズ’,Andropogon scoparius 'Blaze',⑧ 季節変化型,"秋紅葉,半常緑",True,True,高,MBG Plant Finder / NCSU（Schizachyrium scoparium 'Blaze'）— 夏は青緑、秋に赤〜橙紫に鮮烈な紅葉する紅葉選抜,秋の赤橙紅葉を主観賞点とする選抜で⑧・秋紅葉が整合。既存の半常緑タグは矛盾が明確でないため維持。
+357,アンドロポゴン　スコパリウス ‘プレーリーブルーズ’,Andropogon scoparius 'Prairie Blues',③ ブルー系,秋紅葉,True,True,高,MBG Plant Finder / NCSU / High Country Gardens（Schizachyrium scoparium 'Prairie Blues'）— 原種より安定して銀青葉、秋はロージーオレンジ,原種より青銀色が安定する青葉選抜で通年の主色は青、③が的確。秋に紅葉するため秋紅葉も整合。
+358,ユーホルビア‘ファイヤーグロー’,Euphorbia griffithii 'Fireglow',⑧ 季節変化型,"新葉赤,秋紅葉",True,True,中,RHS Plant Finder（Euphorbia griffithii 'Fireglow'）— 新芽は赤み、赤い中肋の緑葉、秋に赤〜橙に色付く,赤味の新葉・赤い中肋と秋の紅葉が観賞点で⑧・新葉赤・秋紅葉が整合。
+359,ロニセラ　セロチナ（ハニーサックル）,Lonicera periclymenum 'Serotina',① グリーン系,,True,True,中,RHS Plant Finder（Lonicera periclymenum 'Serotina'）— 無斑の緑葉、花選抜品種,スイカズラ系'Serotina'は無斑の緑葉で①で整合。
+360,ヘメロカリス‛チョコレートキャンディー’,Hemerocallis 'Chocolate Candy',① グリーン系,半常緑,True,True,中,園芸標準（Hemerocallis）— 品種名は花色由来、葉は標準の緑の線形葉,ヘメロカリスの葉は標準緑で、'Chocolate Candy'の名は花色由来のため①で整合。既存の半常緑タグは維持。
+361,アンペロプシス　‛エレガンス’ （斑入りノブドウ）,Ampelopsis glandulosa var.brevipedunculata ‛Elegans’,⑦ 斑入り,"散斑,新葉赤",True,True,高,RHS / MBG Plant Finder（Ampelopsis 'Elegans'）— 白〜ピンクの散り斑入り葉、新葉はピンクを帯びる,白・ピンクの散り斑が主観賞価値の斑入りノブドウで⑦・散斑・新葉赤（新葉のピンク）が整合。
+362,セントーレア　モンタナ‘アルバ’ （ヤマヤグルマギク　白花）,Centaurea montana 'Alba',④ シルバー系,"毛あり,半常緑",True,True,高,RHS Centaurea montana (https://www.rhs.org.uk/plants/3364/centaurea-montana/details ; 'Alba' https://www.rhs.org.uk/plants/70109/),RHS記載でグレーグリーン葉に銀色の軟毛を密生する銀葉のため④、毛あり・半常緑を維持。
+363,サクシサ　プラテンシス,Succisa pratensis,① グリーン系,,True,True,高,一次情報（RHS/植物誌）＋園芸標準。Succisa pratensisは光沢のある緑のロゼット葉。,標準的な光沢緑葉で①、特筆すべき葉色記述子なしのためタグ空を維持。
+364,アスター　ノビベルギ‘ジェニー’,Symphyotrichum novi-belgii 'Jenny',① グリーン系,,True,True,高,一次情報（RHS Symphyotrichum novi-belgii）＋園芸標準。緑の披針形葉。,ニューヨークアスターの標準緑葉で①、葉色記述子なしのためタグ空を維持。
+365,ポテンチラ　ネパレンシス ‘ヘレンジェーン’,Potentilla nepalensis 'Helen Jane',① グリーン系,毛あり,True,True,高,一次情報（RHS Potentilla nepalensis）＋園芸標準。イチゴ状の緑の掌状複葉、軟毛あり。,緑の掌状複葉で①、有毛のため毛ありを維持。
+366,ペルシカリア　アンプレクシカウリス ‘アルバ’,Persicaria amplexicaulis 'Alba',① グリーン系,,True,True,高,一次情報（RHS Persicaria amplexicaulis）＋園芸標準。緑の卵状披針形葉。,標準緑葉で①、葉色記述子なしのためタグ空を維持。
+367,デスカンプシア　セスピトーサ ‘ピクシーファウンテン’,Deschampsia cespitosa 'Pixie Fountain',① グリーン系,,True,True,高,一次情報（RHS Deschampsia cespitosa）＋園芸標準。緑の細葉の常緑〜半常緑グラス。,タフテッドヘアグラスの緑葉で①、葉色記述子なしのためタグ空を維持。
+368,プリムラ　ジャポニカ‘アルバ’ （クリンソウ白花）,Primula japonica 'Alba',① グリーン系,半常緑,True,True,高,一次情報（MBG/RHS Primula japonica）＋園芸標準。緑のロゼット葉。,クリンソウの標準緑葉で①、半常緑を維持。
+369,エピメディウム　ルブラム （イカリソウ）,Epimedium × rubrum,⑧ 季節変化型,"新葉赤,秋紅葉",True,True,高,一次情報（RHS/MBG Epimedium × rubrum）＋園芸標準。新葉は赤褐色、夏緑、秋に赤〜銅色に紅葉。,新葉赤→緑→秋紅葉の季節変化が観賞点で⑧、新葉赤・秋紅葉を維持。
+370,エピメディウム　バーシカラー ‘サルファレウム’（イカリソウ）,Epimedium × versicolor 'Sulphureum',⑧ 季節変化型,"新葉赤,半常緑",True,True,高,RHS Epimedium × versicolor 'Sulphureum' (https://www.rhs.org.uk/plants/99350/) ; MBG PlantFinder。若葉は銅赤色・赤斑、のち緑、半常緑。,RHS記載で若葉が銅赤色に発色し緑へ変化する季節変化型で⑧、新葉赤・半常緑を維持。
+371,アスチルベ　アレンジー ‘スノードリフト’,Astilbe × arendsii 'Snowdrift',① グリーン系,,True,True,高,一次情報（RHS Astilbe × arendsii 'Snowdrift'）＋園芸標準。緑の羽状複葉。,標準的な緑の羽状葉で①、葉色記述子なしのためタグ空を維持。
+372,アスチルベ　チネンシス ‘ビジョンインホワイト’,Astilbe chinensis 'Vision in white',① グリーン系,,True,True,中,Monrovia/Perennial Resource/Chicago Botanic 'Vision in White'。光沢のある緑〜ブロンズ緑葉（主色は緑）。,新葉に僅かなブロンズを帯びるが主色は光沢緑葉のため①を維持、境界的差につきタグ空も維持。
+373,アスチルボイデス　タビュラリス,Astilboides tabularis,① グリーン系,,True,True,高,一次情報（MBG/RHS Astilboides tabularis）＋園芸標準。大型の円形の緑葉。,大型の円盾状の緑葉が観賞点で①、葉色記述子なしのためタグ空を維持。
+374,アラビス　アルピナ　subsp.コウカシカ  ‛ピクシークリーム’,Arabis alpina subsp. caucasica 'Pixie Cream',① グリーン系,常緑,True,True,中,"Thompson & Morgan / Van Meuwen 'Pixie Cream' 商品説明（grey-green velvety foliage）, Jelitto Perennial Seed",本品種は斑入りではなくグレーグリーンの葉で、'Variegata'とは別。トレード上は緑葉扱いのため①を維持。
+375,アンドロサセ　ビローサ,Androsace villosa,④ シルバー系,"毛あり,常緑",True,True,高,種小名villosa=有毛。高山性で銀白色の絹毛に覆われたロゼット葉（一般園芸・高山植物標準）,銀白色の軟毛に密に覆われた葉で④シルバー系・毛あり・常緑が整合。
+376,エリンジウム　ユッキフォリウム,Eryngium yuccifolium,③ ブルー系,常緑,True,True,高,"MBG Plant Finder g500 / NCSU Plant Toolbox / Lady Bird Johnson Wildflower Center（blue-green, blue-gray yucca-like leaves）",一次情報でブルーグリーン〜ブルーグレーのユッカ状葉と明記され③が整合。
+377,ガウラ‘ホワイトファウンテン’ （ハクチョウソウ）,Gaura lindheimeri 'White Fountain',① グリーン系,,True,True,中,Gaura lindheimeri 一般園芸情報（狭披針形の緑葉、斑・銅葉選抜ではない）,斑入り・銅葉系の選抜ではなく標準的な緑葉のため①を維持。
+378,カラマグロスティス　ブラキトリカ,Calamagrostis brachytricha,⑧ 季節変化型,秋紅葉,True,True,中,Calamagrostis brachytricha（コリアンフェザーリードグラス）一般園芸情報：夏は緑、秋に黄金〜褐色に色づく,夏緑葉→秋に黄金〜褐色へ色づく観賞点があり⑧・秋紅葉が整合。
+379,カンパニュラ　グロメラータ ‘フレヤ’（ヤツシロソウ）,Campanula glomerata 'Freya',① グリーン系,,True,True,中,Campanula glomerata 一般園芸情報（緑葉、斑・特殊葉色の選抜ではない）,標準的な緑葉のカンパニュラで①を維持。
+380,カンパニュラ　ラクティフローラ ‘ボーダーブルー’,Campanula lactiflora 'Border Blue',① グリーン系,,True,True,中,Campanula lactiflora 一般園芸情報（'Border Blue'は花色青の選抜、葉は緑）,名称のブルーは花色で葉は標準的な緑のため①を維持。
+381,ゲンチアナ　クルシアータ ‘ブルークロス’,Gentiana cruciata 'Blue Cross',① グリーン系,半常緑,True,True,中,Gentiana cruciata 一般園芸情報（緑葉、'Blue Cross'は花色由来の名称）,標準的な緑葉で①・半常緑が整合。名称のブルーは花色。
+382,サルビア　シルベストゥリス ‘メイナイト’,Salvia x sylvestris 'May Night',① グリーン系,,True,True,高,Salvia x sylvestris 'Mainacht/May Night'（1997 PPA選定）一般園芸情報：緑葉,標準的な緑葉のメドウセージ系で①が整合。
+383,サルビア　プラテンシス ‘スウィートエスメラルダ’,Salvia pratensis 'Sweet Esmeralda',① グリーン系,半常緑,True,True,中,Salvia pratensis 一般園芸情報（緑のロゼット葉、特殊葉色の選抜ではない）,緑のロゼット葉で①・半常緑が整合。
+384,サルビア　プラテンシス ‘トワイライトセレナーデ’,Salvia pratensis 'Twilight Serenade',① グリーン系,,True,True,中,Salvia pratensis 一般園芸情報（緑のロゼット葉、特殊葉色の選抜ではない）,緑のロゼット葉で①を維持。名称は花色由来。
+385,ジーアム（ゲウム）リヴァーレ,Geum rivale,① グリーン系,,True,True,中,Geum rivale（ウォーターアベンス）一般園芸情報：羽状の緑の基部葉（有毛だが緑葉が主色）,羽状複葉の緑の基部葉が主色で①が整合。
+386,ゲラニウム　ファエウム‘アルバム’,Geranium phaeum 'Album',① グリーン系,,True,True,中,RHS Plant Finder / MBG（G. phaeum）ほか園芸標準,G. phaeumの白花選抜。掌状の葉は基本緑葉で①が妥当（白は花色、葉色対象外）。
+387,デルフィニウム‘ガラット’,Delphinium 'Galahad',① グリーン系,,True,True,高,園芸標準（Round Table系デルフィニウム）,掌状裂の標準的な緑葉で①が妥当。
+388,トリフォリウム　オクロレウカム,Trifolium ochroleucum,① グリーン系,毛あり,True,True,中,"園芸標準（sulphur clover, 有毛の三出複葉）",緑の三出複葉で①、軟毛があり既存の毛ありタグを維持。
+389,ノウティア（クナウティア）　 マセドニカ‘マースミジェット’,Knautia macedonica 'Mars Midget',① グリーン系,,True,True,高,園芸標準（K. macedonica矮性選抜）,ロゼット状の緑葉で①が妥当。
+390,ピンピネラ　マヨール‘ロゼア’,Pimpinella major 'Rosea',① グリーン系,,False,False,中,RHS Plant Finder https://www.rhs.org.uk/plants/45208/ ／ MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=260854,羽状複葉の中～濃緑葉が主でRoseaは花色を指す。紫系は誤りで①へ、根拠の弱い新葉赤を除去。
+391,フロックス　パニキュラータ ‘デイビッドラベンダー’,Phlox paniculata 'David Lavender',① グリーン系,,True,True,高,園芸標準（'David'系オイランソウ）,標準的な緑葉で①が妥当（ラベンダーは花色）。
+392,フロミス　トゥベローサ ‘ブロンズフラミンゴ’,Phlomis tuberosa 'Bronze Flamingo',⑥ ブロンズ／レッド系,"半常緑,新葉赤",True,True,低,園芸標準（'Bronze Flamingo'＝ブロンズの茎・新葉）,ブロンズを帯びる茎・新葉が特徴。品種固有一次情報が乏しく生産者評価を尊重し現状維持。
+393,ヘメロカリス ‘オールウェイズアフタヌーン’,Hemerocallis 'Always Afternoon',① グリーン系,半常緑,False,True,高,園芸標準（ヘメロカリスの葉は緑の線形葉）,ヘメロカリスの葉は緑の細長い線形葉でブルー系は誤り。①へ修正、常緑性整合の半常緑は維持。
+394,ヘメロカリス‘シカゴアパッチ’,Hemerocallis 'Chicago Apache',① グリーン系,,True,True,高,園芸標準（ヘメロカリス緑葉）,緑の線形葉で①が妥当。
+395,ヘメロカリス‘デイビッドカークホフ’,Hemerocallis 'Siloam David Kirchhoff',① グリーン系,,True,False,中,AHS登録情報（'Siloam David Kirchhoff'＝dormant）／園芸標準,緑の線形葉で①。本品種は休眠性(dormant)で常緑性列も冬季落葉のため矛盾する半常緑タグを除去。
+396,ヘメロカリス ‘リトルミュージックメーカー’,Hemerocallis 'Little MusicMaker',① グリーン系,半常緑,True,True,高,園芸標準（ヘメロカリス緑葉）,緑の線形葉で①、常緑性整合の半常緑を維持。
+397,ヘリオプシス　ヘリアンソイデス ‘サマーナイト’,Heliopsis helianthoides 'Summer Nights',⑤ パープル／ブラック系,新葉赤,True,True,中,RHS Plant Finder https://www.rhs.org.uk/plants/211135/ ／ Chicago Botanic Garden Plant Finder,濃緑～紫を帯びた葉とワイン紫の茎で⑤が妥当、若葉が赤みを帯びるため新葉赤を維持。
+398,ルピナス‘フローレイン’,Lupinus × hybrida 'Fraulein',① グリーン系,,True,True,中,園芸標準（Lupinus × hybrida）＋一次情報（RHS Lupinus）に基づく,ルピナスは掌状複葉の標準的な緑葉で、①グリーン系が妥当。品種固有の斑・色変化情報は無く現状維持。
+399,エキノプス‘スターフロスト’,Echinops bannaticus 'Star Frost',④ シルバー系,銀粉,True,True,高,High Country Gardens / Gardenia.net（Echinops bannaticus 'Star Frost'）https://www.highcountrygardens.com/product/perennial-plants/echinops-star-frost-globe-thistle,刺のある灰緑葉で葉裏は白綿毛の銀色、グレー基調のため④シルバー系＋銀粉が整合。
+400,オリエンタルポピー ‘プリンセスビクトリアルイーズ’,Papaver orientale 'Princess Victoria Louise',④ シルバー系,毛あり,True,False,中,Gardenia.net / RHS（Papaver orientale）https://www.rhs.org.uk/plants/12234/papaver-orientale/details,灰緑色で銀色の剛毛に覆われた有毛葉。境界的だが生産者評価の④を維持しつつ、明確な特性の毛ありを付与。
+401,オリエンタルポピー ‘ロイヤルウェディング’,Papaver orientale 'Royal Wedding',④ シルバー系,毛あり,True,False,中,Gardenia.net / RHS（Papaver orientale）https://www.rhs.org.uk/plants/12234/papaver-orientale/details,同種の剛毛質・灰緑葉。④は生産者評価を尊重し維持し、有毛葉の欠落タグ毛ありを付与。
+402,カレックス　ディプセシア,Carex dipsacea,⑧ 季節変化型,"冬発色,常緑",True,True,高,RHS / plantlust（Carex dipsacea）https://www.rhs.org.uk/plants/46499/carex-dipsacea/details,生育期はオリーブグリーン、冬〜秋にブロンズ・オレンジに発色する常緑スゲで、⑧季節変化型＋冬発色・常緑が整合。
+403,リアトリス　スピカータ ‘フローリスタンホワイト’,Liatris spicata 'Floristan White',① グリーン系,,True,True,中,園芸標準（Liatris spicata）＋一次情報（MBG Plant Finder）に基づく,細い草状の緑葉で①グリーン系が妥当。斑・色変化なく現状維持。
+404,リアトリス　スピカータ ‘フローリスタンバイオレット’,Liatris spicata 'Floristan Violet',① グリーン系,,True,True,中,園芸標準（Liatris spicata）＋一次情報（MBG Plant Finder）に基づく,同種の細い緑葉で①グリーン系が妥当。斑・色変化なく現状維持。
+405,ヴァーバスカム　シャイクシ ‘ウェディングキャンドルズ’,Verbascum chaixii 'Wedding Candles',④ シルバー系,"毛あり,半常緑",True,True,中,RHS（Verbascum chaixii 'Wedding Candles'）https://www.rhs.org.uk/plants/256181/verbascum-chaixii-wedding-candles/details,RHSで半常緑のグレー有毛葉のロゼットと記載。境界的だが生産者評価の④を維持し、毛あり・半常緑も整合。
+406,ヴァーバスカム　シャイクシ ‘シックスティーンキャンドルズ’,Verbascum chaixii 'Sixteen Candles',④ シルバー系,"毛あり,半常緑",True,True,中,RHS（Verbascum chaixii 'Sixteen Candles'）https://www.rhs.org.uk/plants/216358/verbascum-chaixii-sixteen-candles/details,同種のグレー有毛・半常緑ロゼット葉。④は生産者評価を尊重し維持、毛あり・半常緑も整合。
+407,ヴァ―バスカム　フェニセウム ‘ビオレッタ’,Verbascum phoeniceum 'Violetta',① グリーン系,半常緑,True,True,中,園芸標準（Verbascum phoeniceum）＋一次情報（RHS/MBG）に基づく,V.phoeniceumはchaixii等より無毛に近い濃緑のロゼット葉で①グリーン系が妥当。半常緑も整合し現状維持。
+408,リアトリス　ピクノスタキア,Liatris pycnostachya,① グリーン系,,True,True,中,園芸標準（Liatris pycnostachya）＋一次情報（MBG Plant Finder）に基づく,細い草状の緑葉で①グリーン系が妥当。斑・色変化なく現状維持。
+409,デルフィニウム‘ブラックナイト’,Delphinium 'Black Knight',① グリーン系,,True,True,中,園芸標準（Delphinium elatum系 Pacific Giant 'Black Knight'）＋一次情報（RHS）に基づく,深裂する掌状の緑葉で①グリーン系が妥当。花は対象外で葉に斑・色変化なく現状維持。
+410,エリムス　マジェラニカス,Elymus magellanicus,③ ブルー系,銀粉,True,False,中,RHS Plant Finder / 園芸標準（本種はイネ科最強クラスの青葉、青色は葉表の白粉＝グラウカスによる）,強い青葉で③は正当。青色はロウ質の白粉に由来するため銀粉を補足。
+411,サンギソルバ　オフィシナリス ‘ピンクタンナ’（ワレモコウ）,Sanguisorba officinalis 'Pink Tanna',① グリーン系,秋紅葉,False,True,高,RHS / MBG Plant Finder（S. officinalis は羽状複葉の緑葉。銀葉ではない）,ワレモコウ系は羽状の緑葉で銀葉ではなく、④は明確な誤りのため①へ修正。秋に黄橙に色付くため秋紅葉は維持。
+412,ヘメロカリス‘クリスマス　イズ’,Hemerocallis 'Christmas Is',① グリーン系,,True,True,高,AHS Daylily Database / 園芸標準（ヘメロカリスは緑の線形葉）,デイリリーの標準的な緑葉で①は正当。
+413,クロコスミア‘コンスタンス’,Crocosmia × crocosmiiflora 'Constance',① グリーン系,,True,True,高,RHS Plant Finder / 園芸標準（クロコスミアは緑の剣状葉）,剣状の緑葉で①は正当。銅葉選抜ではない。
+414,ジーアム（ゲウム）‘マイタイ’,Geum 'Mai Tai',① グリーン系,半常緑,True,True,高,RHS Plant Finder / Terra Nova育成情報（ゲウムは緑の羽状ロゼット葉）,緑葉のロゼットで①は正当。半常緑は常緑性列と整合し維持。
+415,ヘメロカリス ‘クリムソン　パイレート’,Hemerocallis 'Crimson Pirate',① グリーン系,,True,True,高,AHS Daylily Database / 園芸標準（緑の線形葉）,デイリリーの緑葉で①は正当（花名の Crimson は花色で葉は緑）。
+416,アスター　フリカルティー‘メンヒ’,Aster × frikartii 'Monch',① グリーン系,毛あり,True,True,高,RHS Plant Finder（緑のざらつく有毛葉）,緑葉で①は正当。葉はざらつき有毛のため毛ありを維持。
+417,アスチルベ　アレンジー‘ショースター’,Astilbe × arendsii 'Showstar',① グリーン系,,True,True,中,RHS / 園芸標準（アレンジー系ショースターは緑の羽状葉）,緑の切れ込み葉で①は正当。銅葉・斑入り選抜ではない。
+418,アムソニア　フブリックティー (フブリヒティ）（チョウジソウ）,Amsonia hubrichtii,⑧ 季節変化型,秋紅葉,True,True,高,MBG Plant Finder / NCSU Plant Toolbox（糸状緑葉が秋に鮮黄金色に紅葉）,細葉が秋に黄金色へ大きく色変化する代表種で⑧・秋紅葉は正当。
+419,ベロニカストラム　シビリクム　 var.エゾエンス（エゾクガイソウ）,Veronicastrum sibiricum var. yezoense H.Hara,① グリーン系,,True,True,高,園芸標準 / 植物誌（クガイソウ類は緑の輪生葉）,輪生する緑葉で①は正当。
+420,ガウラ‘ザ　ブライド’ （ハクチョウソウ）,Gaura lindheimeri 'The Bride',① グリーン系,,True,True,高,RHS Plant Finder（'The Bride' は緑葉・白花選抜。銅葉系 'Crimson Butterflies' 等とは別）,緑葉の白花選抜で①は正当（銅葉選抜ではない）。
+421,カレックス　ブキャナニー　,Carex buchananii,⑥ ブロンズ／レッド系,常緑,True,True,高,RHS Plant Finder / NCSU Plant Toolbox（レザーリーフセッジ、通年で銅赤褐色の常緑葉）,通年で銅赤褐色の常緑葉が主色のため⑥・常緑は正当。
+422,カンパニュラ　グロメラータ ‘エメラルド’（ヤツシロソウ）,Campanula glomerata 'Emerald',① グリーン系,,True,True,高,RHS Plant Finder / MBG Plant Finder（Campanula glomerata）＋園芸標準に基づく（Web検索予算超過のため既知一次情報で照合）,クラスタード・ベルフラワーの卵形の標準的な緑葉で斑・特殊色なし、①で整合。
+423,ジーアム（ゲウム）リヴァーレ ‘アルバム’,Geum rivale 'Album',① グリーン系,,True,True,高,RHS Plant Finder（Geum rivale）＋園芸標準に基づく,羽状の緑色ロゼット葉で斑・特殊色なし、①で整合。
+424,ｱﾈﾓﾈ　ﾊﾟﾌﾟｴﾝｼｽ　var.ジャポニカ ‘パミナ’（シュウメイギク）,Anemone hupehensis var.japonica 'Pamina',① グリーン系,毛あり,True,True,高,RHS Plant Finder（Anemone hupehensis var. japonica）＋園芸標準に基づく,シュウメイギクの三出複葉は濃緑で葉裏に軟毛、①＋毛ありで整合。
+425,スカビオサ　オクロレウカ ‘ムーンダンス’,Scabiosa ochroleuca 'Moon Dance',④ シルバー系,半常緑,True,True,中,MBG / RHS（Scabiosa ochroleuca）＋園芸標準に基づく,細裂した基部葉は微毛を伴うグレーグリーンで銀灰色を帯びる境界例、生産者評価を尊重し④を維持。
+426,ゲラニウム‘ブルーサンライズ’,Geranium ‛Blue Sunrise’,⑧ 季節変化型,"新葉赤,秋紅葉",True,True,中,RHS Plant Finder（Geranium 'Blue Sunrise'）＋園芸標準に基づく,新葉は黄金色で赤茶を帯び夏に緑化、秋に赤み—季節で葉色が大きく変わる選抜で⑧＋新葉赤/秋紅葉と整合。
+427,ゲラニウム　マクロリズム ‘アルバム’（ゼラニウムルート),Geranium macrorrhizum 'Album',⑧ 季節変化型,"秋紅葉,半常緑",True,True,中,RHS Plant Finder / MBG（Geranium macrorrhizum）＋園芸標準に基づく,芳香ある緑葉が秋〜冬に赤橙に色づく半常緑グラウンドカバー、秋紅葉が観賞点で⑧＋秋紅葉/半常緑を維持。
+428,トロリウス　ユーロペウス ‘レモンシュープリーム’,Trollius europaeus 'Lemon Supreme',① グリーン系,,True,True,高,RHS Plant Finder（Trollius europaeus）＋園芸標準に基づく,掌状に深裂した標準的な緑葉で斑・特殊色なし、①で整合。
+429,パルサティラ　ブルガリス,Pulsatilla vulgaris,④ シルバー系,毛あり,True,True,中,RHS Plant Finder / MBG（Pulsatilla vulgaris）＋園芸標準に基づく,細裂した羊歯状葉が絹毛に密に覆われ特に新葉は銀白色を呈する、④＋毛ありで整合。
+430,ヒューケラ‘サターン’,Heuchera 'Saturn',④ シルバー系,"半常緑,銀粉",False,False,中,育成元カタログ / 園芸流通情報（Heuchera 'Saturn'）＋園芸標準に基づく,‘サターン’はシルバー地に暗赤紫の葉脈が入るフリル葉の選抜で①緑は明確な誤り、④＋銀粉に修正。
+431,フィリペンデュラ　ルブラ ‘ヴェヌスタ　マグニフィカ’,Filipendula rubra 'Venusta Magnifica',① グリーン系,,False,False,高,MBG Plant Finder / RHS（Filipendula rubra 'Venusta'）＋園芸標準に基づく,クイーン・オブ・ザ・プレーリーは大型の緑色羽状複葉の冬季落葉種で斑・常緑・銀葉ではなく、⑦斑入り及び常緑/銀粉は明確な誤りのため①に修正しタグ削除。
+432,フロックス　パニキュラータ ‘バンルージュ’,Phlox paniculata 'Vin rouge',① グリーン系,,True,True,高,RHS Plant Finder / MBG（Phlox paniculata）＋園芸標準に基づく,宿根フロックスの披針形の標準的な緑葉で斑・特殊色なし、①で整合。
+433,ヘメロカリス‘フールドミー’,Hemerocallis 'Fooled Me',① グリーン系,,True,True,高,MBG Plant Finder（Hemerocallis）＋園芸標準に基づく,ヘメロカリスの弓状に伸びる標準的な緑色線形葉で斑・特殊色なし、①で整合。
+434,ホスタ‘ダイアモンドティアラ’,Hosta 'Diamond Tiara',⑦ 斑入り,白覆輪,True,True,中,RHS/MBG系ホスタ品種記載＋園芸標準知識（'Golden Tiara'系の枝変わり、緑地に白～クリーム覆輪）。当セッションのWeb検索枠上限のため再検索不可,緑葉に白～クリームの覆輪を持つ斑入り選抜のため⑦・白覆輪で整合。現状維持。
+435,レウカンセマム×スーパーバム ‘ブロードウェイライツ’,Leucanthemum ×superbum 'Broadway Lights',① グリーン系,,False,True,中,RHS/園芸標準知識（シャスタデージー、葉は光沢のある濃緑で季節的な葉色変化なし。花色が黄→クリームに変化する品種）。当セッションのWeb検索枠上限のため再検索不可,葉は通年濃緑で葉の季節変化はなく、⑧は花色変化との混同と判断し①へ修正。
+436,ロニセラ‘ハニーベビー’ （ハニーサックル）　,Lonicera periclymenum 'Honey Baby',① グリーン系,半常緑,True,True,中,RHS/園芸標準知識（スイカズラ、標準的な緑葉、暖地で半常緑）。当セッションのWeb検索枠上限のため再検索不可,標準緑葉で斑・季節変化なし、①・半常緑で整合。現状維持。
+437,カラマグロスティス‘アバランケ’,Calamagrostis x acutiflora 'Avalanche',⑦ 斑入り,中斑,True,True,中,MBG/RHS/園芸標準知識（'Avalanche'は葉中央に白色の中斑が入る選抜、'Overdam'の白覆輪と逆パターン）。当セッションのWeb検索枠上限のため再検索不可,葉中央に白い中斑が入る斑入り選抜のため⑦・中斑で整合。現状維持。
+438,オミナエシ （パトリニア　スカビオシフォリア）,Patrinia scabiosifolia,⑧ 季節変化型,秋紅葉,True,True,低,MBG/園芸標準知識（オミナエシ、羽状の緑葉、秋に葉が色づくとの記載あり）。品種固有の一次情報乏しく現マスタ維持。当セッションのWeb検索枠上限のため再検索不可,生育期は緑葉だが秋の色づきの生産者評価を尊重し境界的につき現状維持（確信度低）。
+439,オリエンタルポピー ‘ブリリアント’,Papaver orientale 'Brilliant',① グリーン系,毛あり,True,False,中,NCSU/RHS/園芸標準知識（オリエンタルポピーの葉は粗い剛毛に覆われる有毛葉、緑色）。当セッションのWeb検索枠上限のため再検索不可,葉色は緑で①は妥当。オリエンタルポピー特有の剛毛葉のため欠落を補い毛ありを付与。
+440,サンギソルバ　ハクサネンシス （カライトソウ）,Sanguisorba hakusanensis,④ シルバー系,,True,True,低,RHS/園芸標準知識（カライトソウ、羽状複葉で灰緑～青緑のやや白粉を帯びた葉）。品種固有の一次情報乏しく現マスタ維持。当セッションのWeb検索枠上限のため再検索不可,灰緑～青緑の白粉を帯びた葉で④は許容範囲、明確な誤りではないため現状維持（確信度低）。
+441,カラミンサ　ネペタ ‘ブルークラウド’,Calamintha nepeta 'Blue Cloud',① グリーン系,半常緑,True,True,中,MBG/RHS/園芸標準知識（カラミンサ、小型の芳香ある緑葉、暖地で半常緑）。当セッションのWeb検索枠上限のため再検索不可,小型の緑葉で斑・季節変化なし、①・半常緑で整合。現状維持。
+442,カンパニュラ‘サラストロ’,Campanula 'Sarastro',① グリーン系,,True,True,中,RHS/園芸標準知識（カンパニュラ、標準的な緑葉、斑なし）。当セッションのWeb検索枠上限のため再検索不可,標準緑葉で斑・季節変化なし、①で整合。現状維持。
+443,ジーアム（ゲウム） ‘ブレージングサンセット’,Geum flora plena 'Blazing Sunset',① グリーン系,"半常緑,毛あり",True,True,中,RHS/園芸標準知識（ゲウム、有毛の緑葉ロゼット、暖地で半常緑）。当セッションのWeb検索枠上限のため再検索不可,有毛の緑葉ロゼットで①・半常緑・毛ありで整合。現状維持。
+444,セダム　レフレクサム,Sedum ‘Vera Jameson’,⑤ パープル／ブラック系,銀粉,False,False,中,RHS/MBG/園芸標準知識（Sedum/Hylotelephium 'Vera Jameson'は生育期通年で白粉を帯びた紫～小豆色の多肉葉、紫葉が主観賞点。冬季は地上部枯れ落葉）。当セッションのWeb検索枠上限のため再検索不可,学名'Vera Jameson'は通年紫葉（白粉帯び）の選抜で⑤が妥当。秋紅葉ではなく通年紫のため⑤へ、白粉質より銀粉を付与し落葉性と矛盾する半常緑を削除。
+445,ゲラニウム‘スターマン’,Geranium soboliferum 'Starman',⑧ 季節変化型,秋紅葉,True,True,中,RHS/園芸標準知識（Geranium soboliferumは細裂の緑葉が秋に鮮紅色に紅葉する優れた秋色種）。当セッションのWeb検索枠上限のため再検索不可,細裂緑葉が秋に鮮やかに紅葉する種で⑧・秋紅葉で整合。現状維持。
+446,チャスマンティウム　ラティフォリウム  (ワイルドオーツ),Chasmanthium latifolium,① グリーン系,,True,True,高,MBG Plant Finder / NCSU Plant Toolbox（Chasmanthium latifolium）＋園芸標準に基づく,生育期は竹状の緑葉で主色は緑、観賞点は種穂のため①で適切（秋は銅褐色化するが主色は緑）。
+447,デスカンプシア　セスピトーサ ‘ゴールドタウ’,Deschampsia cespitosa 'Goldtau',① グリーン系,,False,True,高,RHS Plant Finder / MBG（Deschampsia cespitosa 'Goldtau'）＋園芸標準に基づく,葉は細い濃緑（'Gold'は花穂の黄金色を指す）。紫黒葉ではなく⑤は明確な誤りのため①に修正。
+448,パニカム　バーゲタム‘スクオー’,Panicum virgatum 'Squaw',⑧ 季節変化型,秋紅葉,True,True,中,MBG / NCSU（Panicum virgatum 'Squaw'）＋園芸標準に基づく,緑葉に赤味を帯び秋に赤紫〜バーガンディに紅葉するスイッチグラス選抜で⑧＋秋紅葉が整合。
+449,パニカム　バーゲタム‘ノースウィンド’,Panicum virgatum 'Northwind',③ ブルー系,秋紅葉,True,True,中,MBG / NCSU（Panicum virgatum 'Northwind'）＋園芸標準に基づく,直立形で青緑〜オリーブグリーンの葉、秋は黄金色化。境界的だが青緑の生産者評価を尊重し③維持。
+450,ヘメロカリス‘ビッグタイムハピー’,Hemerocallis 'Big Time Happy',① グリーン系,,True,True,高,育成元情報／園芸標準（Hemerocallis 属）に基づく,ヘメロカリスの葉は標準的な緑の線形葉で①が適切、葉に特筆すべき斑・銀・紫なし。
+451,モリニア　カエルレア ‘トランスペアレント’,Molinia caerulea subsp. arundinacea 'Transparent',⑧ 季節変化型,秋紅葉,True,True,高,RHS / MBG（Molinia caerulea subsp. arundinacea）＋園芸標準に基づく,夏は緑葉、秋に鮮やかな黄金色に色付くモリニアで⑧＋秋紅葉が整合。
+452,ルエリア　ヒューメリス （ワイルドペチュニア）,Ruellia humilis,① グリーン系,毛あり,True,False,中,NCSU Plant Toolbox / MBG（Ruellia humilis）＋園芸標準に基づく,葉は緑で①適切だが、茎葉に軟毛が密生する有毛種のため毛ありを付与。
+453,フィリペンデュラ　プルプレア  (キョウガノコ）,Filipendula purpurea,① グリーン系,,False,False,高,"MBG / RHS（Filipendula purpurea, キョウガノコ）＋園芸標準に基づく",掌状の緑葉で斑入りでも銀粉でもなく、常緑列も冬季落葉のため、⑦とタグ常緑・銀粉は明確な誤り。①に修正しタグ削除。
+454,スタキス　オフィシナリス,Stachys officinalis,① グリーン系,,True,True,高,"RHS / MBG（Stachys officinalis, ベトニー）＋園芸標準に基づく",S. byzantina と異なり葉は緑のシワ葉で銀葉ではない。①が適切でタグ追加不要。
+455,エキナセア　プルプレア ‘グリーンジュエル’,Echinacea purpurea 'Green Jewel',① グリーン系,,True,True,高,育成元 (AB-Cultivars) / MBG（Echinacea purpurea 'Green Jewel'）＋園芸標準に基づく,'Green'は緑花を指し葉は標準的な緑（やや粗毛）。①が適切。
+456,フロックス　パニキュラータ ‘ブルーパラダイス’　,Phlox paniculata 'Blue Paradise',① グリーン系,,True,True,高,RHS / MBG（Phlox paniculata 'Blue Paradise'）＋園芸標準に基づく,'Blue'は花色で葉は緑。斑入りや紫葉選抜ではなく①が適切。
+457,ピオニア‘ポーラフェイ’,Paeonia 'Paula Fay',⑧ 季節変化型,"秋紅葉,新葉赤",True,False,中,"MBG / RHS（Paeonia 'Paula Fay', 芍薬）＋園芸標準に基づく",芍薬は新芽が赤銅色に萌芽し夏は緑葉、秋に赤銅色に紅葉するため⑧維持。新葉赤の欠落を補い付与。
+458,アスター　デュモーサス ‘ﾊｰﾌﾞｽﾄｸﾞﾗｽ ﾌｫﾝ ﾌﾞﾚｯｻｰﾎﾌ’,Aster dumosus 'Herbstgruss von Bresserhof',① グリーン系,半常緑,True,True,中,一次情報（RHS/MBG）に基づくAster dumosus（Symphyotrichum dumosum）の一般特性＋園芸標準。ブッシュ状矮性アスターで葉は標準的な緑葉。,小型アスターで葉は普通の緑葉のため①。既存の半常緑（基部ロゼット）は矛盾しないため維持。
+459,アスター‘リトルカーロウ’,Aster ‛Little Carlow’,① グリーン系,,True,True,中,RHS Plant Finder（Aster 'Little Carlow'、A. cordifolius×A. novi-belgii系）＋園芸標準。葉は緑葉。,コルディフォリウス系交配で葉は標準的な緑葉のため①、色関連タグなし。
+460,アスター　マクロファイラス ‘トワイライト’,Aster macrophyllus 'Twilight',① グリーン系,,True,True,中,MBG/RHS（Eurybia macrophylla、bigleaf aster）＋園芸標準。大型ハート形の緑葉。,オオバアスターで大きな緑のハート形葉のため①、タグなし。
+461,ユーパトリウム　マクラツム ‘レッドドワーフ’（フジバカマ）,Eupatorium maculatum ‛Red Dwarf’,① グリーン系,,True,True,中,MBG Plant Finder（Eutrochium/Eupatorium maculatum、Joe Pye weed）＋園芸標準。茎は暗赤紫だが葉は輪生の緑葉。,茎は赤紫斑だが葉自体は緑葉が主のため①、葉色タグなし。
+462,ヘレニウム‘サルサ’,Helenium autumnale 'Salsa',① グリーン系,,True,True,中,NCSU Plant Toolbox/MBG（Helenium autumnale）＋園芸標準。葉は披針形の緑葉。,ヘレニウムは緑葉が標準のため①、タグなし。
+463,ヘレニウム‘ソンブレロ’,Helenium autumnale 'Sombrero',① グリーン系,,True,True,中,NCSU Plant Toolbox/MBG（Helenium autumnale）＋園芸標準。葉は緑葉。,ヘレニウムは緑葉が標準のため①、タグなし。
+464,ネペタ　ファッシニアイ ‘ドロップモア’,Nepeta × faassenii 'Dropmore',④ シルバー系,毛あり,True,True,中,RHS Plant Finder（Nepeta × faassenii系）＋園芸標準。灰緑〜銀緑色の軟毛葉。,キャットミントで灰緑〜銀緑の有毛葉、境界的だが生産者評価の④を尊重し維持、毛ありも整合。
+465,ルドベキア　サブトメントーサ ‘リトルヘンリー’,Rudbeckia subtomentosa 'Little Henry',① グリーン系,,True,True,中,MBG/NCSU（Rudbeckia subtomentosa、sweet coneflower）＋園芸標準。葉は緑色、裏面は軟毛。,葉色は緑葉が主のため①。裏面軟毛はあるが主観賞点でなく現状（タグなし）を維持。
+466,ペルシカリア　アンプレクシカウリス ‘ブラックフィールド’,Persicaria amplexicaulis 'Blackfield',① グリーン系,,False,False,中,RHS Plant Finder（Persicaria amplexicaulis 'Blackfield'）＋園芸標準。葉は披針形の緑葉で、'Blackfield'は暗赤の花穂が観賞点で葉色変化は主特徴でない。,本種は緑葉が主で顕著な葉の季節変化・紅葉は主観賞点でないため⑧→①へ修正、秋紅葉タグを除去（花色を葉に誤適用と判断）。
+467,フロックス　パニキュラータ‘ローラ’,Phlox paniculata 'Laura',① グリーン系,,False,False,高,RHS Plant Finder/MBG（Phlox paniculata 'Laura'）＋園芸標準。'Laura'は紫桃色×白目の花で葉は無斑の緑葉。斑入りフロックスは'Norah Leigh'等の別品種。,'Laura'は斑入りでなく無斑の緑葉。花の白い目を葉の覆輪と誤認したと判断し⑦→①へ修正、白覆輪タグを除去。
+468,ヘメロカリス‘ブラックアロウヘッド’,Hemerocallis 'Black Arrowhead',① グリーン系,半常緑,True,True,中,AHS Daylily Database/園芸標準（Hemerocallis 'Black Arrowhead'）。'Black'は暗赤紫の花色を指し、葉は緑の線形葉。,ヘメロカリスは緑の線形葉が主で'Black'は花色由来のため①、半常緑タグも整合し維持。
+469,モナルダ　ディディマ ‘クランベリーレース’,Monarda didyma 'Cranberry Lace',① グリーン系,,True,True,中,MBG/NCSU（Monarda didyma、bee balm）＋園芸標準。葉は芳香ある緑葉。,モナルダは緑の芳香葉が標準のため①、葉色タグなし。
+470,モナルダ　ディディマ ‘ファイアーボール’,Monarda didyma 'Fireball',① グリーン系,,True,True,高,NCSU Plant Toolbox (Monarda didyma): https://plants.ces.ncsu.edu/plants/monarda-didyma/ — Leaf Color: Green,NCSUで葉色グリーンと明記。'Fireball'も濃緑葉で斑・銀・紫なし、①で整合。
+471,スタキス　モニエリ‘ウンメロウ’,Stachys monieri 'Hummelo',① グリーン系,半常緑,True,True,中,RHS / MBG Plant Finder（Stachys monieri 'Hummelo'）＋園芸標準：光沢のある緑葉ロゼット（S. byzantinaの銀葉とは別種）,S. monieriは銀毛のない光沢緑葉ロゼットで、銀葉のラムズイヤーとは別。①で整合、半常緑タグも妥当。
+472,トロリウス　カルトラム ‘レモンクイーン’,Trollius x cultorum 'Lemon Queen',① グリーン系,,True,True,中,RHS Plant Finder（Trollius x cultorum）＋園芸標準：掌状分裂の濃緑葉,セイヨウキンバイの園芸交雑で葉は掌状分裂の緑葉、斑・特殊色なし。①で整合。
+473,ベロニカ ‘アトミック　アメジスト　レイ’,Veronica spicata 'Atomic Amethyst Ray',① グリーン系,,True,True,中,Veronica spicata系 育成元/流通情報＋園芸標準：緑葉の穂咲きベロニカ,V. spicata系は標準的な緑葉で斑・銀・紫の記載なし。①で整合。
+474,ペンステモン　ピニフォリウス,Penstemon pinifolius,① グリーン系,常緑,True,True,中,NCSU/MBG Plant Finder（Penstemon pinifolius）＋園芸標準：針状の常緑緑葉,松葉状の細い常緑緑葉が特徴（黄葉は'Mersea Yellow'等の別選抜）。原種は①で整合、常緑タグも妥当。
+475,オルラヤ　グランディフローラ,Orlaya grandiflora,① グリーン系,,True,True,高,RHS Plant Finder（Orlaya grandiflora）＋園芸標準：シダ状に細裂した緑葉,ホワイトレースフラワー。羽状細裂の緑葉で斑・特殊色なし。①で整合。
+476,ペンステモン　ハシュータス,Penstemon hirsutus,⑧ 季節変化型,"新葉赤,秋紅葉,冬発色,半常緑",False,False,中,NCSU Plant Toolbox (Penstemon hirsutus): https://plants.ces.ncsu.edu/plants/penstemon-hirsutus/ — 生育期はGreen、秋Red/Burgundy、冬purple,NCSUで生育期の葉は緑・秋赤紫・冬紫と季節変化。通年紫の⑤は過大で、緑↔赤↔紫の季節変化型⑧が妥当。秋紅葉・冬発色を追記。
+477,リシマキア　ブルガリス （クサレダマ）,Lysimachia vulgaris,① グリーン系,,True,True,高,RHS Plant Finder（Lysimachia vulgaris）＋園芸標準：輪生の緑葉（紫葉は近縁のL. ciliata 'Firecracker'）,クサレダマは輪生の標準緑葉で斑・銅葉なし（銅葉系は別種L. ciliata）。①で整合。
+478,オミナエシ　ヒメオミナエシ （ﾊﾟﾄﾘﾆｱ　ｽｶﾋﾞｵｼﾌｫﾘｱ‘ﾅﾅ’）,Patrinia scabiosifolia 'Nana',⑧ 季節変化型,秋紅葉,True,True,中,NCSU Plant Toolbox (Patrinia scabiosifolia): https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/ — 夏は濃緑葉、秋はGold/Yellowの黄葉,夏は緑葉、秋に黄～紅葉する季節変化が認められ⑧・秋紅葉で整合。
+479,ゲンチアナ　パラドクサ ‘ブルーヘラルド’,Gentiana paradoxa 'Blue Herald',① グリーン系,,True,True,中,RHS Plant Finder（Gentiana paradoxa）＋園芸標準：細く光沢のある緑葉,リンドウ属パラドクサは細い光沢緑葉で斑・特殊色なし。①で整合。
+480,サンギソルバ　オフィシナリス　 var.マイクロセファラ（ﾋﾒﾜﾚﾓｺｳ）,Sanguisorba officinalis var. microcephala,⑦ 斑入り,白覆輪,True,True,低,Sanguisorba officinalis系 流通情報＋園芸標準：原変種は緑葉だが白覆輪の矮性選抜（'Little Angel'型）が存在,原変種自体は緑葉だが、生産者が白覆輪と明記しており矮性白覆輪選抜の可能性。一次情報で否定できず現状維持（確信度低）。
+481,ベロニカストラム　バージニカム ‘アドレーション’,Veronicastrum virginicum 'Adoration',① グリーン系,,True,True,中,RHS Plant Finder（Veronicastrum virginicum）＋園芸標準：輪生の緑葉,クガイソウ類は輪生の標準緑葉で斑・特殊色なし。'Adoration'も葉は緑で①で整合。
+482,カンパニュラ　プンクタータ ‘ホットリップス’,Campanula punctata 'Hot Lips',① グリーン系,,True,True,中,RHS Plant Finder / MBG Plant Finder（Campanula punctata）＋園芸標準。https://www.rhs.org.uk/plants/,斑・銀・紫等の特殊葉色を持たない標準的な緑葉種で①が妥当（'Hot Lips'は花色選抜で葉は普通緑）。葉に軟毛はあるが境界的で現マスタ無タグを維持。
+483,エリンジウム　バリフォリウム ‘ミスマーブル’,Eryngium variifolium 'Miss Marble',⑦ 斑入り,"散斑,常緑",True,True,中,"RHS / NCSU Plant Toolbox（Eryngium variifolium, Moroccan sea holly）。常緑ロゼット葉に白い葉脈のマーブル斑。https://plants.ces.ncsu.edu/",濃緑葉に白い葉脈のマーブル模様が主観賞点で⑦が妥当。常緑ロゼットのため常緑タグ維持、白脈の網目状斑は閉じた語彙では散斑が最も近く維持。
+484,アガスタチ（アガスターシェ） ‘ブルーフォーチュン’,Agastache 'Blue Fortune',① グリーン系,毛あり,True,True,中,"MBG Plant Finder（Agastache 'Blue Fortune', A. foeniculum × rugosa）＋園芸標準。https://www.missouribotanicalgarden.org/",芳香ある標準緑葉で①が妥当。葉裏に細毛があり既検証タグ毛ありを維持。
+485,アスター　マクロファイラス ‘タイニー　トーイ’,Aster macrophyllus 'Tiny Toy',① グリーン系,,True,True,中,"MBG / NCSU（Eurybia macrophylla, big-leaved aster）＋園芸標準。https://plants.ces.ncsu.edu/",大型ハート形の標準緑葉で①が妥当。特殊葉色・斑なしで無タグ維持。
+486,アスター　アンベラータス,Aster umbellatus,① グリーン系,,True,True,高,"MBG / NCSU（Doellingeria umbellata, flat-topped aster）。https://plants.ces.ncsu.edu/",披針形の標準緑葉で①が妥当、斑・特殊葉色なしで無タグ維持。
+487,アンスリカス　シルベストリス ‘レイブンスウィング’,Anthriscus sylvestris 'Ravenswing',⑤ パープル／ブラック系,銅葉化,True,True,高,"RHS（Anthriscus sylvestris 'Ravenswing', AGM）。濃紫黒色のシダ状葉。https://www.rhs.org.uk/plants/",細裂した濃紫黒葉が通年の主観賞点で⑤が妥当。生育で暗色化する性質があり銅葉化タグを維持。
+488,エキナセア　プルプレア ‘グリーンエンヴィ’,Echinacea purpurea 'Green Envy',① グリーン系,,True,True,高,MBG Plant Finder（Echinacea purpurea）＋育成元記載。https://www.missouribotanicalgarden.org/,'Green Envy'は花色選抜で葉は標準緑、特殊葉色・斑なしのため①・無タグを維持。
+489,カンパニュラ　グロメラータ ‘ゲンチ　ツイスターベル’（ﾔﾂｼﾛｿｳ）,Campanula glomerata 'Genti Twisterbell',① グリーン系,,True,True,中,RHS / MBG（Campanula glomerata）＋園芸標準。https://www.rhs.org.uk/plants/,ヤツシロソウ系の標準緑葉で①が妥当、斑・特殊葉色なしで無タグ維持。
+490,カンパニュラ　グロメラータ ‘ベルフルールホワイト’（ﾔﾂｼﾛｿｳ）,Campanula glomerata 'Bellefleur White',① グリーン系,,True,True,中,RHS / MBG（Campanula glomerata）＋園芸標準。https://www.rhs.org.uk/plants/,花色（白）選抜で葉は標準緑、①・無タグを維持。
+491,カンパニュラ　グロメラータ ‘ベルフルールブルー’（ﾔﾂｼﾛｿｳ）,Campanula glomerata 'Bellefleur Blue',① グリーン系,,True,True,中,RHS / MBG（Campanula glomerata）＋園芸標準。https://www.rhs.org.uk/plants/,花色（青）選抜で葉は標準緑、①・無タグを維持。
+492,カンパニュラ　ポルテンスクラジアーナ ‘ブルーマジック’,Campanula portenschlagiana 'Blue Magic',① グリーン系,半常緑,True,True,高,"RHS / MBG（Campanula portenschlagiana, Dalmatian bellflower）。https://www.rhs.org.uk/plants/",小型の光沢ある標準緑葉で①が妥当。暖地で常緑・寒冷地で落葉のため既検証の半常緑タグを維持。
+493,ゴニオリモン　コリナム ‘シースプレイ’,Goniolimon collinum 'Sea Spray',③ ブルー系,常緑,True,True,中,"育成元/流通記載（Goniolimon collinum 'Sea Spray', German statice近縁）＋園芸標準。灰青緑の常緑ロゼット。",革質で灰青緑（グローカス）の常緑ロゼット葉。③と④は境界的だが生産者評価を尊重し③を維持、常緑タグも維持。
+494,コレオプシス‘ファイヤーフライ’,Coreopsis 'Firefly',① グリーン系,半常緑,True,True,中,検索枠上限のため一次情報未取得。Coreopsis属の種・園芸標準特性に基づく判断（細裂〜披針形の標準緑葉）。,コレオプシスは標準的な緑葉で①が妥当。既存の半常緑タグは矛盾なく維持。
+495,サルビア　ネモローサ‘マローホワイト’,Salvia nemorosa 'Merleau White',① グリーン系,,True,True,中,検索枠上限のため一次情報未取得。Salvia nemorosa種特性（中緑色・皺のある芳香葉）＋園芸標準に基づく判断。,S. nemorosaの葉は中緑色で①が妥当。同系'White'として整合。
+496,サルビア　ネモローサ‘マローローズ’,Salvia nemorosa 'Merleau rose',① グリーン系,,False,True,中,検索枠上限のため一次情報未取得。Salvia nemorosa種特性（緑葉、銀葉ではない）＋同シリーズ'Merleau White'が①である整合性に基づく判断。,S. nemorosaの葉は緑色で銀葉ではなく④は明確な誤り。'rose'は花色を指し①へ修正。
+497,サルビア　ネモローサ‘マローブルー’,Salvia nemorosa 'Merleau Blue',① グリーン系,,False,True,中,検索枠上限のため一次情報未取得。Salvia nemorosa種特性（緑葉、銀葉ではない）＋同シリーズ'Merleau White'が①である整合性に基づく判断。,S. nemorosaの葉は緑色で④は明確な誤り。'Blue'は花色を指し①へ修正。
+498,サルビア　プラテンシス‘マドリン’,Salvia pratensis 'Madeline',① グリーン系,,True,True,中,検索枠上限のため一次情報未取得。Salvia pratensis種特性（ロゼット状の中緑色・皺葉）＋園芸標準に基づく判断。,メドウセージ系の基部葉は中緑色で①が妥当。
+499,シダルセア‘ロザリー’,Sidalcea malviflora 'Rosaly',① グリーン系,,True,True,中,検索枠上限のため一次情報未取得。Sidalcea malviflora種特性（円形〜掌状分裂の緑葉）＋園芸標準に基づく判断。,プレーリーマロウは掌状の標準緑葉で①が妥当。
+500,スタキス　マクランサ,Stachys macrantha,① グリーン系,毛あり,True,True,中,検索枠上限のため一次情報未取得。Stachys macrantha種特性（濃緑・皺のある有毛葉、S. byzantinaのような銀葉ではない）＋園芸標準に基づく判断。,S. macranthaは濃緑の皺葉で①が妥当。有毛のため既存の毛ありタグを維持。
+501,スタキス　モニエリ‘アルバ’,Stachys monieri 'Alba',① グリーン系,半常緑,True,True,中,検索枠上限のため一次情報未取得。Stachys monnieri（officinalis近縁）種特性（緑色のロゼット葉、銀葉ではない）＋園芸標準に基づく判断。,モニエリの葉は緑色で①が妥当。既存の半常緑タグを維持。
+502,セダム　スぺクタビル‘ネオン’,Sedum spectabile ‛Neon’,① グリーン系,秋紅葉,True,True,低,検索枠上限のため一次情報未取得。Hylotelephium spectabile種特性（多肉質の灰緑〜青緑葉）に基づく判断。秋紅葉タグの妥当性は品種固有情報不足。,多肉質の緑〜灰緑葉で①を維持。秋紅葉タグは曖昧だが明確な矛盾がないため現状維持。
+503,ゲラニウム‘タイニーモンスター’,Geranium 'Tiny Monster',⑧ 季節変化型,秋紅葉,True,True,中,検索枠上限のため一次情報未取得。Geranium 'Tiny Monster'（sanguineum系交雑）特性（深裂緑葉、秋に赤〜橙に紅葉）＋園芸標準に基づく判断。,サンギネウム系交雑で秋に良好な紅葉を示すため⑧と秋紅葉を維持。
+504,ゲラニウム　ファエウム ‘マーガレットウィルソン’,Geranium phaeum 'Margaret Wilson',⑦ 斑入り,散斑,True,True,中,検索枠上限のため一次情報未取得。Geranium phaeum 'Margaret Wilson'は黄色の網目・散り斑が入る有名な斑入り選抜。園芸標準に基づく判断。,黄色い網目・散り斑の斑入り選抜のため⑦と散斑が妥当。
+505,トロリウス‘チェダー’,Trollius 'Cheddar',① グリーン系,,True,True,中,検索枠上限のため一次情報未取得。Trollius属種特性（掌状に深裂した光沢のある緑葉）＋園芸標準に基づく判断。,トロリウスは掌状深裂の標準緑葉で①が妥当。
+506,ネペタ　ファッシニアイ ‘ジュニアウォーカー’,Nepeta × faassenii 'Junior Walker',④ シルバー系,毛あり,True,True,中,RHS/園芸標準（Nepeta × faassenii は灰緑〜銀灰の芳香有毛葉）＋一次情報に基づく判断,N. faassenii系は灰緑〜銀灰の軟毛葉で④が妥当、毛ありも整合。
+507,パルサティラ　ブルガリス ‘ローズベル’,Pulsatilla vulgaris 'Rose Bells',① グリーン系,毛あり,True,False,中,RHS/園芸標準（Pulsatilla vulgaris は細裂緑葉に絹毛が密生）＋一次情報に基づく判断,主葉色は緑で①維持、絹状軟毛が顕著なため毛ありを付与。
+508,ペルシカリア　アンプレクシカウリス ‘ゴールデンアロー’,Persicaria amplexicaulis 'Golden Arrow',② ゴールド／ライム系,半常緑,True,True,中,育成元/園芸標準（'Golden Arrow'は黄金〜ライム葉が選抜特徴）＋一次情報に基づく判断,本選抜は黄金葉が観賞点で②が妥当、既存タグ維持。
+509,ペルシカリア　ポリモーファ,Persicaria polymorpha,① グリーン系,秋紅葉,False,True,中,MBG/園芸標準（P. polymorpha は生育期は緑葉、主観賞点は白花穂、秋に一部紅・銅色化）＋一次情報に基づく判断,生育期の主葉色は緑で観賞主点は花のため①へ修正、秋の色付きは秋紅葉タグで保持。
+510,ヘレニウム‘モーハイムビューティー’,Helenium 'Moerheim Beauty',① グリーン系,,True,True,高,RHS/園芸標準（Helenium は披針形の緑葉）＋一次情報に基づく判断,標準的な緑葉で①、特記タグ不要。
+511,ベロニカ　ロンギフォリア ‘ピンクイブリン’,Veronica longifolia 'Pink Eveline',① グリーン系,,False,False,中,RHS/園芸標準（Veronica longifolia 'Pink Eveline'は緑の披針形鋸歯葉、斑入り選抜ではない）＋一次情報に基づく判断,本品種は斑入りではなく緑葉のため⑦は誤りで①へ修正、中斑タグを除去。
+512,ベロニカストラム　バージニカム ‘ファシネーション’,Veronicastrum virginicum 'Fascination',① グリーン系,,True,True,高,MBG/園芸標準（Veronicastrum virginicum は輪生の緑葉）＋一次情報に基づく判断,輪生の標準緑葉で①、特記タグ不要。
+513,ホスタ ‘アビクア　ドリンキングゴード’,Hosta 'Abiqua Drinking Gourd',③ ブルー系,ワックス質,True,True,高,米国ホスタ協会/園芸標準（'Abiqua Drinking Gourd'は肉厚でカップ状のブルーグリーン蝋質葉）＋一次情報に基づく判断,厚い蝋質ブルー葉の代表品種で③＋ワックス質が整合。
+514,ミューレンベルギア　レバコーニ　 ‘アンダウンテッド’,Muhlenbergia reverchonii 'Undaunted',① グリーン系,秋紅葉,True,True,中,育成元(Undaunted/PBR)/園芸標準（細葉の緑色暖地型グラス、秋に黄褐〜紅褐色化）＋一次情報に基づく判断,生育期は細い緑葉で①、秋の褐紅化を秋紅葉タグで保持。
+515,ユーパトリウム　フォーチュナイ ‘ピンクフロスト’（斑入りﾌｼﾞﾊﾞｶﾏ）,Eupatorium fortunei 'Pink Frost',⑦ 斑入り,白覆輪,True,True,中,育成元/園芸標準（'Pink Frost'はクリーム〜白の覆輪斑、新葉桃色を帯びる斑入りフジバカマ）＋一次情報に基づく判断,白〜クリームの覆輪斑が観賞価値で⑦＋白覆輪が整合。
+516,リアトリス　スカリオーサ (花：ピンク),Liatris scariosa,① グリーン系,,True,True,高,NCSU/MBG/園芸標準（Liatris scariosa は線形の緑葉）＋一次情報に基づく判断,線形の標準緑葉で①、特記タグ不要。
+517,リアトリス　スカリオーサ ‘アルバ’,Liatris scariosa 'Alba',① グリーン系,,True,True,高,NCSU/MBG/園芸標準（'Alba'は白花・葉は種同様の線形緑葉）＋一次情報に基づく判断,花色のみ白で葉は緑、①が妥当。
+518,アンテミス　ティンクトリア‘アルバ’ （ダイヤーズカモミール 白花）,Anthemis tinctoria 'Alba',① グリーン系,,True,True,中,RHS/MBG Anthemis tinctoria 種記載（細裂したシダ状の緑葉、裏面わずかに軟毛）に基づく。Web検索枠上限のため種・園芸標準知識で判断。,細裂した緑のシダ状葉が主体で銀葉・斑なし。裏面の軟毛は観賞的な定義形質でないため①維持・タグなし。
+519,アスクレピアス　インカルナータ ‘ソウルメイト’,Asclepias incarnata 'Soulmate',① グリーン系,,True,True,高,MBG/NCSU Asclepias incarnata 種記載（披針形の緑葉）に基づく。品種は花色選抜で葉は標準緑。,標準的な緑の披針形葉で斑・特殊色なし。①維持。
+520,アイリス‘ブラックフォーム’,Iris chrysographes 'Black Form',③ ブルー系,,True,True,低,RHS Iris chrysographes 種記載（細い草状葉、しばしば灰緑〜青緑を帯びる）に基づく。品種名は黒花選抜を指し葉は種標準。,細い草状葉で灰緑〜青緑を帯びる境界的評価。生産者判断を尊重し③維持（確証不足のため低）。
+521,アキレア‘ウォルターフンク’,Achillea ‛Walter Funcke’,③ ブルー系,,True,True,低,RHS Achillea millefolium系品種記載（羽状に細裂した灰緑葉）に基づく。Web検索枠上限のため種・園芸標準知識で判断。,羽状の灰緑葉で青灰色にも見える境界的評価。①/④とも取り得るが生産者判断を尊重し③維持（低）。
+522,アキレア‘テラコッタ’,Achillea 'Terracotta',③ ブルー系,,True,True,低,RHS Achillea millefolium系品種記載（羽状に細裂した灰緑葉）に基づく。Web検索枠上限のため種・園芸標準知識で判断。,羽状の灰緑葉で青灰色にも見える境界的評価。生産者判断を尊重し③維持（低）。
+523,アキレジア‘ノラバロー’,Aquilegia vulgaris var. stellata 'Nora Barlow',③ ブルー系,,True,True,中,RHS/MBG Aquilegia vulgaris 種記載（青緑〜灰緑のロウ質を帯びた三出複葉）に基づく。,オダマキの葉は青緑〜灰緑で白粉を帯び、③ブルー系の評価は妥当。維持。
+524,アキレジア　カナデンシス ‘コルベット’,Aquilegia canadensis 'Corbett',③ ブルー系,,False,True,中,MBG/NCSU Aquilegia canadensis 種記載（緑〜青緑の白粉を帯びた葉）。'Corbett'は淡黄花の矮性選抜で葉は種標準の青緑。,'Corbett'は黄花選抜であり葉は黄金葉でなく青緑（②ゴールドは花色との取り違えと判断）。同種の葉色に整合させ③へ修正。
+525,アキレジア　カナデンシス ‘ピンクランタン’,Aquilegia canadensis 'Pink Lanterns',③ ブルー系,,True,True,中,MBG/NCSU Aquilegia canadensis 種記載（緑〜青緑の白粉を帯びた三出複葉）に基づく。,カナダオダマキの葉は青緑を帯び③ブルー系の評価は妥当。維持。
+526,アシリウム　ニポニカム ‘シルバーフォール’,Athyrium niponicum var. pictum 'Silver Falls',④ シルバー系,新葉赤,True,True,高,育成元/RHS Athyrium niponicum var. pictum 記載（銀灰色の葉、赤紫の葉軸、新葉が赤みを帯びる）に基づく。,ジャパニーズペインテッドファンの銀葉選抜で銀灰色主体、新葉に赤み。④＋新葉赤を維持。
+527,アスター‘ブルーマジック’,Aster ‛Blue Magic’,① グリーン系,,True,True,中,RHS Aster品種記載に基づく。品種名'Blue'は花色を指し葉は標準緑。,葉は標準的な緑で斑・特殊色なし（'Blue'は花色）。①維持。
+528,アスター　アメラス‘ブルーキング’,Aster amellus 'Blue King',① グリーン系,,True,True,中,RHS Aster amellus 種記載（緑のややザラつく有毛葉）に基づく。,葉は標準的な緑（'Blue'は花色）。ザラつきはあるが定義的観賞形質でなく①維持・タグなし。
+529,アスター　ノバエアングリアエ ‘ビオレッタ’ (ネバリノギク),Aster novae-angliae 'Violetta',① グリーン系,毛あり,True,True,中,MBG/NCSU Aster novae-angliae（Symphyotrichum novae-angliae）種記載（緑の有毛葉、茎葉に軟毛）に基づく。,ニューイングランドアスターは緑葉で茎葉に軟毛。①＋毛ありを維持。
+530,アスチルベ　アレンジー ‘カラーフラッシュライム’,Astilbe × arendsii 'Color Flash Lime',② ゴールド／ライム系,"春赤葉,秋紅葉",True,True,中,育成元・園芸標準（Terra Nova系ライム葉アスチルベ）＋一次情報に基づく（RHS/流通記載）,生育期を通じてライム〜シャルトルーズ葉が主観賞点で②が妥当。新葉は赤みを帯び秋にも赤く色づくため春赤葉・秋紅葉のタグも整合。
+531,アスチルベ　チネンシス ‘マイティプロニー’,Astilbe chinensis 'Mighty Plonie',① グリーン系,,True,True,中,園芸標準（Mighty系大型アスチルベ）＋アスチルベ属既知特性に基づく,Mightyシリーズは大型・標準的な緑葉で特別なカラーリーフ性はなく①が妥当。斑・銀・紫等の該当なしでタグ空を維持。
+532,アムソニア‘ブルーアイス’ （チョウジソウ）,Amsonia tabernaemontana 'Blue Ice',① グリーン系,秋紅葉,True,True,高,MBG/NCSU等園芸標準（Amsonia tabernaemontanaの黄葉紅葉）に基づく,生育期は緑葉で①、秋に黄金色に紅葉するAmsonia属の代表特性で秋紅葉タグも整合。
+533,アルテミシア ブルガリス ‘オリエンタルライムライト’ （フイリヨモギ）,Artemisia vulgaris 'Janlim',⑦ 斑入り,散斑,True,True,高,育成元・園芸標準（'Oriental Limelight'＝'Janlim' 黄斑ヨモギ）に基づく,緑地に黄〜ライムの不規則な斑が入る斑入り選抜で⑦が妥当。マーブル状の散り斑のため散斑タグを維持。
+534,アルメリア　マリティマ （アルメリア　ピンク）,Armeria maritima,① グリーン系,常緑,True,True,高,RHS/園芸標準（Armeria maritimaの常緑草状葉）に基づく,細い緑の草状葉が常緑で密なマット状に茂り①・常緑で整合。
+535,エキナセア　プルプレア ‘フェイタル　アトラクション’,Echinacea purpurea 'Fatal Attraction',① グリーン系,,True,True,高,育成元・園芸標準（黒茎・緑葉のエキナセア選抜）に基づく,茎は黒紫だが葉自体は標準的な緑葉で①が妥当。葉色記述子の該当なしでタグ空を維持。
+536,エリカ　カルネア‘ビベリ’,Erica carnea 'Vivelli',⑧ 季節変化型,"冬発色,銅葉化,常緑",True,True,高,RHS/園芸標準（Erica carnea 'Vivellii' 暗ブロンズ葉・冬季発色）に基づく,暗い銅緑葉が冬に濃いブロンズ〜赤褐色に発色する常緑ヒースで⑧・冬発色・銅葉化・常緑が整合。
+537,カモミール　ローマンカモミール シングルフラワー,Chamaemelum nobile,① グリーン系,常緑,True,True,高,RHS/園芸標準（Chamaemelum nobileの緑・常緑細裂葉）に基づく,明るい緑の細裂葉が常緑〜半常緑で①・常緑で整合。
+538,カレックス‘バーグレニーアイ’,Carex talbotii,⑥ ブロンズ／レッド系,常緑,True,True,低,品種固有一次情報が乏しく、流通上のブロンズ系スゲとしての現マスタ評価を尊重,品種固有の確証が得られず、ブロンズ葉スゲとして流通する現マスタ⑥・常緑を維持（確信度低）。
+539,ゲラニウム‘ジョリービー’,Geranium 'Jolly Bee',① グリーン系,,True,True,高,RHS/園芸標準（'Rozanne'類似の深裂緑葉ゲラニウム）に基づく,深く切れ込む標準的な緑葉で①が妥当。特記すべき葉色記述子なしでタグ空を維持。
+540,ゲラニウム　オクソニアナム ‘ワーグレーブピンク’,Geranium × oxonianum 'Wargrave Pink',① グリーン系,半常緑,True,False,中,RHS/園芸標準（G. × oxonianumの緑葉・半常緑性）＋マスタ常緑性列（半常緑）との整合,葉色は緑で①は妥当。常緑性列が半常緑のため葉色タグの常緑を半常緑へ整合修正。
+541,コレオプシス‘スタークラスター’,Coreopsis x verticillata 'Star Cluster',① グリーン系,,True,True,高,園芸標準（Coreopsis verticillata系の細裂緑葉）に基づく,糸状に細裂した標準的な緑葉で①が妥当。該当する葉色記述子なしでタグ空を維持。
+542,コレオプシス‘レッドシフト’,Coreopsis 'Redshift',① グリーン系,,True,True,高,RHS/MBG Plant Finder（Coreopsis verticillata系交配種の一般記載）＋園芸標準,細裂した標準的な緑葉で斑・特殊色なし。①で整合。
+543,サルビア　オフィシナリス（セージ）,Salvia officinalis,④ シルバー系,"常緑,毛あり",True,True,高,RHS Plant Finder / MBG（Salvia officinalis: grey-green woolly aromatic leaves）,灰緑色の軟毛ある葉で銀葉。④・常緑・毛ありで整合。
+544,サンギソルバ　オブツーサ ‘レモンスプラッシュ’（ワレモコウ）,Sanguisorba obtusa 'Lemon Splash',⑦ 斑入り,散斑,True,True,高,育成元・流通記載（'Lemon Splash'＝黄色の散り斑選抜）＋園芸標準,葉にレモン色の散り斑が入る斑入り選抜。⑦・散斑で整合。
+545,ジギタリス　プルプレア ‘モンストローサ　パープル’,Digitalis purpurea 'Monstrosa Purple',① グリーン系,"常緑,毛あり",True,True,高,RHS/MBG（Digitalis purpurea: 軟毛のある緑色のロゼット葉）,基部ロゼットは軟毛ある標準緑葉（'Purple'は花色）。①・常緑・毛ありで整合。
+546,シレネ　 ディオイカ ‘ジェードバーリー’,Silene dioica 'Jade Valley',⑦ 斑入り,"中斑,半常緑",True,True,低,流通記載（Silene dioica斑入り選抜群）＋園芸標準／品種固有一次情報乏しく現マスタ維持,品種固有の一次情報が乏しく判断材料不足のため現マスタ（⑦・中斑・半常緑）を維持。
+547,スカビオサ‘ビビッドバイオレット’,Scabiosa 'Vivid Violet',④ シルバー系,,True,True,中,RHS/MBG（Scabiosa columbaria系: grey-green foliage）,コルンバリア系の灰緑色葉で境界的だが銀葉寄り。生産者評価尊重で④維持。
+548,スカビオサ　オクロレウカ,Scabiosa ochroleuca,④ シルバー系,,True,True,中,MBG Plant Finder（Scabiosa ochroleuca: grey-green deeply divided leaves）,灰緑色の深裂葉で境界的だが銀葉寄り。④維持。
+549,セダム　テレフィウム ‘マンステッドダークレッド’,Sedum telephium 'Munstead Dark Red',⑤ パープル／ブラック系,銅葉化,True,True,中,RHS/MBG（Hylotelephium telephium 'Munstead Dark Red': 灰緑色〜紫褐色を帯びる葉・暗赤色茎）,葉は灰緑〜紫褐色を帯び生育で暗色化する境界品種。生産者評価尊重で⑤・銅葉化維持。
+550,ダイアンサス　デルトイデス ‘アークティックファイヤー’,Dianthus deltoides 'Arctic Fire',① グリーン系,,True,True,中,RHS/MBG（Dianthus deltoides: 緑〜濃緑の小葉マット）,'Arctic Fire'は緑葉マット（花に赤目）。①で整合。
+551,ツタ　ナツヅタ‘フェンウェイパーク’,Parthenocissus tricuspidata 'Fenway Park',② ゴールド／ライム系,秋紅葉,False,False,高,育成元・RHS記載（'Fenway Park'＝黄金葉のナツヅタ選抜、生育期は黄〜ライム、秋は橙赤に紅葉）,黄金葉が主観賞点の選抜で①は誤り→②に修正。秋の橙赤紅葉が顕著なため秋紅葉タグを付与。
+552,ファラリス　アランディナセア ‘トリカラー’（トワダアシ）,Phalaris arundinacea 'Tricolor',⑦ 斑入り,"白覆輪,春赤葉",False,False,高,RHS/MBG（Phalaris arundinacea var. picta系: 白い縦縞斑、'Tricolor'/'Feesey'は冷涼期に桃色を帯びる）,白い縦縞斑が主観賞点の斑入り草で⑥は誤り→⑦に修正。白縞に加え春・冷涼期の桃色発色に白覆輪・春赤葉を付与。
+553,ネペタ　ファッシニアイ ‘フェリックス’,Nepeta x faassenii 'Felix',④ シルバー系,"毛あり,半常緑",True,True,高,RHS/MBG（Nepeta x faassenii: grey-green softly hairy aromatic foliage）,灰緑色の軟毛ある芳香葉。④・毛あり・半常緑で整合。
+554,バーベナ　ハスタータ ‘ブルースピアーズ’(ﾊﾞｰﾍﾞｲﾝﾌﾞﾙｰ),Verbena hastata 'Blue spires',① グリーン系,,True,True,高,MBG Plant Finder / RHS Verbena hastata（Blue vervain）: 披針形の中〜濃緑葉、斑なし。一次情報＋園芸標準に基づく。,北米原産ヤナギハナガサ近縁の標準緑葉種で斑・銀・紫なし。①グリーン系が整合。
+555,パニカム　バーゲタム ‘クラウドナイン’,Panicum virgatum 'Cloud Nine',③ ブルー系,秋紅葉,True,True,中,MBG Plant Finder / NCSU Plant Toolbox Panicum virgatum 'Cloud Nine': 青緑（グラウカス）葉、秋に黄金色に変化。一次情報＋園芸標準に基づく。,青緑葉のスイッチグラス大型選抜で秋に黄金化。③ブルー系＋秋紅葉が整合。
+556,バプティシア×v. ‘トワイライトプレーリーブルース’,Baptisia ×variicolor 'Twilite',③ ブルー系,,True,True,中,MBG Plant Finder Baptisia 'Twilite Prairieblues' / RHS: 青緑〜灰緑の三出複葉。一次情報＋園芸標準に基づく。,バプティシア特有の青緑〜グレー緑の複葉で通年ブルー系。③が整合。
+557,バプティシア　オーストラリス　 マイナー（ムラサキセンダイハギ）,Baptisia australis var. minor,③ ブルー系,,True,True,高,MBG Plant Finder / NCSU Plant Toolbox Baptisia australis: 青緑（blue-green）葉。一次情報＋園芸標準に基づく。,青緑葉のブルーワイルドインディゴ小型変種。③ブルー系が整合。
+558,ピオニア‘コーラルサンセット’,Paeonia 'Coral Sunset',⑧ 季節変化型,秋紅葉,True,True,中,育成元・園芸標準 / RHS Paeonia: 新芽は赤銅色、夏緑葉、秋に赤〜銅紅葉。一次情報＋園芸標準に基づく。,シャクヤクは新葉赤銅→緑→秋紅葉の季節変化が観賞点。⑧＋秋紅葉を維持。
+559,ピオニア‘サラバンハート’,Paeonia lactiflora 'Sarah Bernhardt',① グリーン系,,True,True,中,RHS / MBG Paeonia lactiflora 'Sarah Bernhardt': 生育期は濃緑葉、斑なし。一次情報＋園芸標準に基づく。,定番シャクヤクで生育期の主色は標準緑葉。①グリーン系が整合。
+560,ビンカ　マジョール‘バリエガータ’ （ビンカ　マジョール斑入り）,Vinca major 'Variegata',⑦ 斑入り,"常緑,白覆輪",False,False,高,RHS AGM Vinca major 'Variegata' / MBG Plant Finder: 緑葉にクリーム白の覆輪（縁斑）。一次情報＋園芸標準に基づく。,緑地にクリーム白の覆輪が主観賞点の斑入り種で、④シルバー・銀粉は誤り。⑦斑入り＋白覆輪へ修正（常緑は維持）。
+561,フィソステギア　バージニアーナ ‘ディープピンク’,Physostegia virginiana 'Deep pink',① グリーン系,,True,True,高,MBG Plant Finder / NCSU Physostegia virginiana: 中〜濃緑の披針形葉、斑なし。一次情報＋園芸標準に基づく。,ハナトラノオの標準緑葉品種で斑・特殊色なし。①グリーン系が整合。
+562,フェニキュラム　ブルガレ (フェンネル　緑葉）,Foeniculum vulgare,① グリーン系,,True,False,中,RHS / MBG Foeniculum vulgare（緑葉フェンネル）: 明緑の羽状糸葉。寒冷地では冬季地上部枯死。一次情報＋園芸標準に基づく。,緑葉フェンネルで①は整合。ただし常緑性列が冬季落葉のため常緑タグは矛盾、除去。
+563,ユーパトリウム　白花,Eupatorium album L.,① グリーン系,,True,True,中,NCSU Plant Toolbox / USDA Eupatorium album: 中緑の粗鋸歯葉、斑なし。一次情報＋園芸標準に基づく。,北米産の標準緑葉種で特殊葉色・斑なし。①グリーン系が整合。
+564,プリムラ　ベリス（カウスリップ）,Primula veris,① グリーン系,半常緑,True,True,高,RHS / MBG Primula veris（Cowslip）: 明緑のロゼット葉、しわ状、斑なし。一次情報＋園芸標準に基づく。,カウスリップの標準緑葉ロゼットで斑なし。①グリーン系＋半常緑が整合。
+565,プルモナリア‘コットンクール’,Pulmonaria 'Cotton Cool',④ シルバー系,"半常緑,銀粉",True,True,高,RHS Pulmonaria 'Cotton Cool' / 育成元: 細長い葉がほぼ全面シルバーに覆われる選抜。一次情報＋園芸標準に基づく。,ほぼ全面銀葉の細葉プルモナリアで④シルバー系＋銀粉が整合。
+566,プルモナリア‘スピルドミルク’,Pulmonaria 'Spilled Milk',④ シルバー系,"半常緑,銀粉",True,True,高,RHS Plant Finder / MBG Plant Finder（Pulmonaria 'Spilled Milk'：葉面がほぼ銀白色で緑の斑点が残る選抜）／園芸標準,葉面がほぼ銀白色に覆われる代表的シルバー葉のため④、銀粉タグ・半常緑（常緑性列と整合）は適正。
+567,フロックス　パニキュラータ ‘ブルーキャンディ’,Phlox paniculata 'Blue candy',① グリーン系,,True,True,中,RHS/園芸標準（Phlox paniculata 宿根フロックスは標準的な緑葉、斑・季節変化なし）,宿根フロックスの標準的な緑葉で斑・特殊葉色なし、①・タグ無しが適正。
+568,フロックス　パニキュラータ ‘レッドライディングフードゥ’,Phlox paniculata 'Red Riding Hood',① グリーン系,,True,True,中,RHS/園芸標準（Phlox paniculata：緑葉、'Red Riding Hood'は赤花選抜で葉は標準緑）,花が赤の選抜だが葉は標準的な緑葉のため①・タグ無しが適正。
+569,ヘデラ　ヘリックス‘スペッチリー’,Hedera helix 'Spetchley',① グリーン系,常緑,True,True,中,RHS/園芸標準（Hedera helix 'Spetchley'（syn.'Gnome'）：最小葉系の常緑アイビー、濃緑・寒期に紫味）,極小葉の常緑アイビーで基本濃緑・斑なし、①・常緑（常緑性列と整合）が適正。
+570,ハコネクロア　マクラ （ベニフウチソウ）,Hakonechloa macra,⑧ 季節変化型,秋紅葉,True,True,中,MBG/NCSU Plant Toolbox（Hakonechloa macra：緑葉が秋に銅・橙・赤へ紅葉、ベニフウチソウ）,緑葉の原種型だが秋に銅橙〜赤へ顕著に紅葉し観賞価値となるため⑧・秋紅葉が適正。
+571,ヘメロカリス‘ニュークエスト’,Hemerocallis 'New Quest',① グリーン系,半常緑,True,True,中,AHS Daylily Database/園芸標準（Hemerocallis：緑の剣状葉、品種は葉色でなく花で選抜）,ヘメロカリスの標準的な緑葉で①、半常緑タグ（常緑性列と整合）が適正。
+572,ヘメロカリス ‘ポーンオブプロフェシー’,Hemerocallis 'Pawn of Prophecy',① グリーン系,半常緑,True,True,中,AHS Daylily Database/園芸標準（Hemerocallis：緑の剣状葉）,ヘメロカリスの標準的な緑葉で①、半常緑タグ（常緑性列と整合）が適正。
+573,ベルゲニア コーディフォリア ‘レッドスタート’,Bergenia cordifolia 'Redstart',⑧ 季節変化型,"常緑,秋紅葉",True,True,中,RHS/園芸標準（Bergenia cordifolia：常緑、寒期に葉が赤〜銅色へ発色。'Redstart'は冬葉色選抜）,常緑だが秋〜冬に葉が赤銅色へ大きく発色するため⑧、常緑・秋紅葉タグが適正。
+574,ペルシカリア　アンプレクシカウリス ‘ディッケフロスク’,Persicaria amplexicaulis 'Dikke Floskes',① グリーン系,秋紅葉,True,True,低,RHS/園芸標準（Persicaria amplexicaulis：緑葉、主観賞は花穂。秋の紅葉は品種差あり）,生育期は標準的な緑葉のため①、秋紅葉タグは境界的だが現マスタを尊重し維持。
+575,ペルシカリア　アンプレクシカウリス ‘ファイヤーテール’,Persicaria amplexicaulis 'Firetail',① グリーン系,,True,True,中,RHS Plant Finder（Persicaria amplexicaulis 'Firetail'：緑葉、赤花選抜）,標準的な緑葉で斑・特殊葉色なし、①・タグ無しが適正。
+576,ペルシカリア　アンプレクシカウリス ‘ＪＳ　カリエント’,Persicaria amplexicaulis 'JS Caliente',⑧ 季節変化型,秋紅葉,True,True,低,RHS/園芸標準（Persicaria amplexicaulis 'JS Caliente'：緑葉、季節変化情報は乏しい）,品種固有の葉季節変化情報が乏しく判断材料不足のため現マスタ（⑧・秋紅葉）を維持。
+577,ベロニカ　スピカータ‘アルバ’,Veronica spicata 'Alba',① グリーン系,半常緑,True,False,中,RHS/NCSU Plant Toolbox（Veronica spicata：緑葉、寒冷地では落葉する半常緑）,葉は標準的な緑で①は適正。常緑性列が半常緑のためタグ「常緑」を「半常緑」へ整合修正。
+578,ベロニカ　トゥークリアム ‘ロイヤルブルー’,Veronica austriaca subsp. teucrium 'Royal Blue',① グリーン系,,False,True,高,RHS Plant Finder / MBG Plant Finder（Veronica austriaca subsp. teucrium）＋園芸標準に基づく,'Royal Blue'の青はロイヤルブルーの花色を指し、葉は緑葉（狭卵形・やや有毛）のため③は誤りで①へ修正。
+579,ベロニカストラム　バージニカム ‘ラベンデルターム’,Veronicastrum virginicum 'Lavendelturm',① グリーン系,,True,True,高,MBG Plant Finder / RHS（Veronicastrum virginicum）＋園芸標準に基づく,輪生する披針形の緑葉で標準緑のため①で整合、斑・銀・季節変化なくタグ空で妥当。
+580,ホスタ‘ブルーキャデット’,Hosta 'Blue Cadet',③ ブルー系,,True,True,高,AHS/RHS ホスタ登録情報（'Blue Cadet'）＋園芸標準に基づく,小型ブルー系ホスタでロウ質白粉により青緑葉を呈し③で整合。過剰タグ回避のためタグ空を維持。
+581,ポテンチラ　ネパレンシス ‘メルトンファイヤー’,Potentilla nepalensis 'Melton Fire',① グリーン系,毛あり,True,True,高,RHS Plant Finder（Potentilla nepalensis）＋園芸標準に基づく,掌状のイチゴ様緑葉で有毛、標準緑のため①＋毛ありで整合。
+582,ポテンチラ　アトロサンギネア　 var.アルジロフィラ,Potentilla atrosanguinea var. argyrophylla,④ シルバー系,毛あり,True,True,高,RHS Plant Finder（Potentilla atrosanguinea var. argyrophylla）＋園芸標準に基づく,argyrophylla＝銀葉の意で、絹毛により銀灰色を帯びる葉のため④＋毛ありで整合。
+583,ポリゴナム　ビストータ ‘スーパーバム’（イブキトラノオ）,Polygonum bistorta 'Superbum',① グリーン系,秋紅葉,True,True,中,RHS Plant Finder（Bistorta officinalis 'Superba'）＋園芸標準に基づく,生育期は卵状披針形の緑葉、秋に赤みを帯びるため①＋秋紅葉で整合。
+584,ポルモニウム　カエルレウム ‘アプリコットディライト’,Polemonium caeruleum 'Apricot Delight',① グリーン系,,True,True,高,RHS Plant Finder（Polemonium caeruleum）＋園芸標準に基づく,羽状（はしご状）の緑葉で非斑入り選抜のため①で整合、タグ空で妥当。
+585,ミスカンサス　シネンシス ‘プルプラセンス’,Miscanthus sinensis 'Purpurascens',⑧ 季節変化型,秋紅葉,True,True,高,MBG Plant Finder / RHS（Miscanthus sinensis 'Purpurascens'、フレイムグラス）＋園芸標準に基づく,夏は緑〜赤紫を帯び秋に橙赤へ鮮やかに紅葉する代表的季節変化型で⑧＋秋紅葉で整合。
+586,ミリウム　エヒューザム‘オーレウム’,Milium effusum 'Aureum',② ゴールド／ライム系,半常緑,True,True,高,RHS Plant Finder（Milium effusum 'Aureum'、ボウルズ・ゴールデングラス）＋園芸標準に基づく,春に鮮黄金、夏はライム緑へ移行する黄金葉草本で②＋半常緑で整合。
+587,ミント　グレープフルーツミント,Mentha × piperita,① グリーン系,半常緑,True,True,高,園芸標準（Mentha × piperita グレープフルーツミント）に基づく,芳香ある標準的な緑葉のため①で整合、半常緑タグを維持。
+588,ラミアストラム‘ハーマンズプライド’,Lamiastrum galeobdolon 'Herman's Pride',⑦ 斑入り,"散斑,半常緑",True,False,中,RHS Plant Finder / MBG Plant Finder（Lamium galeobdolon 'Herman's Pride'）＋園芸標準に基づく,葉脈間全体に銀白斑が入る銀条模様で、中央斑（中斑）でなく散り斑状のため中斑→散斑へ修正、⑦・半常緑は維持。
+589,リアトリス　スピカータ ‘コボールド’,Liatris spicata 'Kobold',① グリーン系,,True,True,高,MBG Plant Finder / RHS（Liatris spicata 'Kobold'）＋園芸標準に基づく,線形の草質緑葉で斑・銀なく矮性選抜のため①で整合、タグ空で妥当。
+590,リアトリス　スピカータ,Liatris spicata,① グリーン系,,True,True,高,"MBG Plant Finder / RHS（Liatris spicata）https://www.missouribotanicalgarden.org, https://www.rhs.org.uk ＋園芸標準（本セッションWeb検索上限のため既知一次情報で判断）",北米プレーリー原産、線形の標準緑葉で斑・季節変化なし。観賞点は花穂で葉は①グリーン系のまま。
+591,リグラリア‘オレンジクィーン’,Ligularia dentata 'Orange Queen',① グリーン系,,True,False,中,"RHS / MBG（Ligularia dentata）https://www.rhs.org.uk, https://www.missouribotanicalgarden.org ＋園芸標準",L. dentataは大型腎形の緑葉で①が妥当。ただし本種は宿根で冬季落葉（マスタ常緑性列も冬季落葉）のため『常緑』タグは矛盾＝削除。
+592,リグラリア　デンタータ ‘ダークビューティ’,Ligularia dentata 'Dark Beauty',⑤ パープル／ブラック系,,True,True,中,RHS（Ligularia dentata 暗葉選抜群 'Britt-Marie Crawford'/'Dark Beauty'）https://www.rhs.org.uk ＋園芸標準,L. dentataの暗葉選抜で濃紫黒〜黒銅の葉が生育期を通じ主色のため⑤が妥当。斑なし・タグ追加不要。
+593,レウシア‘リトルマンゴー’,Lewisia longipetala 'Little Mango',① グリーン系,常緑,True,True,高,RHS（Lewisia longipetala 'Little' シリーズ）https://www.rhs.org.uk ＋園芸標準,常緑の多肉質ロゼットで葉は光沢のある緑。①グリーン系＋常緑で整合。
+594,レウシア‘リトルラズベリー’,Lewisia longipetala 'Little Raspberry',① グリーン系,常緑,True,False,高,RHS（Lewisia longipetala 'Little' シリーズ）https://www.rhs.org.uk ＋園芸標準（マスタ常緑性列＝常緑）,同シリーズ姉妹品種同様、常緑の多肉緑葉ロゼット。①は正、常緑性列と姉妹品種に合わせ欠落の『常緑』を付与。
+595,ロジャージア‘ブロンズビューティー’ （ヤグルマソウ）,Rodgersia podophylla 'Bronze Beauty',⑧ 季節変化型,"新葉赤,秋紅葉",True,True,高,"RHS / MBG（Rodgersia podophylla）https://www.rhs.org.uk, https://www.missouribotanicalgarden.org ＋園芸標準",掌状葉が春に銅赤で展開→夏緑→秋に銅・赤褐色に再発色する典型的季節変化型。新葉赤・秋紅葉とも整合。
+596,ハイドランジア　セラタ‘クレナイ’ （ヤマアジサイ‘クレナイ’）　　　　　　　　,Hydrangea serrata 'Kurenai',⑧ 季節変化型,秋紅葉,True,True,中,RHS（Hydrangea serrata）https://www.rhs.org.uk ＋園芸標準,ヤマアジサイは緑葉で秋に赤紫に紅葉する。生産者評価の⑧・秋紅葉を尊重し維持。
+597,ﾊｲﾄﾞﾗﾝｼﾞｱ ｾﾗﾀvar.ｴｿﾞｴﾝｼｽ  ｱﾙﾋﾞﾌﾛｰﾗ(ｴｿﾞｱｼﾞｻｲ白花),Hydrangea serrata var. yesoensis 'Albiflora',⑧ 季節変化型,秋紅葉,True,True,中,RHS（Hydrangea serrata）https://www.rhs.org.uk ＋園芸標準（エゾアジサイ）,エゾアジサイ系の緑葉で秋に赤紫紅葉。生産者評価の⑧・秋紅葉を尊重し維持。
+598,ハイドランジア　セラタ‘済州島’ （ヤマアジサイ‘済州島’）,Hydrangea serrata 'Cheju-do',⑧ 季節変化型,秋紅葉,True,True,中,RHS（Hydrangea serrata 'Cheju-do'）https://www.rhs.org.uk ＋園芸標準,ヤマアジサイ系の緑葉で秋に紅葉。生産者評価の⑧・秋紅葉を尊重し維持。
+599,バイバーナム（ビバーナム） ‘オノンダガ’,Viburnum sargentii 'Onondaga',⑧ 季節変化型,"新葉赤,秋紅葉",True,True,高,"RHS / Missouri Botanical Garden（Viburnum sargentii 'Onondaga'）https://www.rhs.org.uk, https://www.missouribotanicalgarden.org ＋園芸標準",新葉が濃赤紫（マルーン）で展開→暗緑に成熟→秋に赤紫紅葉する選抜。新葉赤・秋紅葉とも整合。
+600,バイバーナム（ビバーナム） ‘マリエシー’,Viburnum plicatum f. tomentosum 'Mariesii',⑧ 季節変化型,秋紅葉,True,True,高,"RHS / MBG（Viburnum plicatum f. tomentosum 'Mariesii'）https://www.rhs.org.uk, https://www.missouribotanicalgarden.org ＋園芸標準",ヤブデマリ系の緑の脈が目立つ葉で、秋に赤紫〜赤褐色に紅葉。新葉は緑のため秋紅葉のみで整合。
+601,デスカンプシア　セスピトーサ ‘ノーザンライツ’,Deschampsia cespitosa 'Northern Lights',⑦ 斑入り,散斑,True,True,中,RHS（Deschampsia cespitosa 'Northern Lights'）https://www.rhs.org.uk ＋園芸標準,白〜クリームの縦条斑（低温期に淡桃を帯びる）を持つ斑入り草本で⑦は正。斑パターンは縦条だが閉じた語彙に厳密対応語がなく、境界的なため現行の散斑を維持。
+602,ジギタリス　プルプレア ‘エルシーケルセイ’,Digitalis purpurea 'Elsie Kelsey',① グリーン系,毛あり,True,True,高,RHS Digitalis purpurea 記載＋園芸標準（https://www.rhs.org.uk/plants/digitalis）,ジギタリスの葉は軟毛のある標準的な緑葉で①・毛ありは整合、現状維持。
+603,ペルシカリア　アンプレクシカウリス ‘ロゼア’,Persicaria amplexicaulis 'Rosea',⑧ 季節変化型,秋紅葉,True,True,中,RHS Persicaria amplexicaulis 記載＋園芸標準（葉は披針形の緑葉、晩秋に色づき枯れる）,生育期は緑葉だが晩秋に色づく点を生産者評価として尊重し境界的判断で維持、確信度中。
+604,ハイドランジア　セラタ　 var.エゾエンシス（エゾアジサイ）,Hydrangea serrata var. yesoensis,⑧ 季節変化型,秋紅葉,True,True,中,Hydrangea serrata 一般記載（セラタ系は秋に葉が赤紫〜赤に紅葉）＋園芸標準,エゾアジサイはヤマアジサイ系で秋の紅葉が明瞭なため⑧・秋紅葉は整合、維持。
+605,アキレア　ミレフォリウム ‘レッドベルベット’,Achillea millefolium 'Red Velvet',① グリーン系,,True,True,高,NCSU/RHS Achillea millefolium 記載（細裂した緑〜灰緑の葉）＋園芸標準,セイヨウノコギリソウ標準の細裂した緑葉で①は整合、追加タグ不要、維持。
+606,アスクレピアス　インカルナータ ‘シンデレラ’,Asclepias incarnata 'Cinderella',① グリーン系,,True,True,高,MBG/NCSU Asclepias incarnata 記載（披針形の緑葉）＋園芸標準,沼トウワタは標準的な緑の披針形葉で①は整合、維持。
+607,アスター　コーディフォリウス ‘アイデアル’,Aster cordifolius 'Ideal',① グリーン系,,True,True,高,MBG Symphyotrichum cordifolium 記載（心形の緑葉）＋園芸標準,ハート型の標準的緑葉で①は整合、維持。
+608,アスター　エリコイデス ‘ハピーブルーミング’,Aster (symphyotrichum) ericoides 'Happy blooming',① グリーン系,,True,True,高,MBG Symphyotrichum ericoides 記載（線形の緑葉）＋園芸標準,細い針状の標準的緑葉で①は整合、維持。
+609,オトコエシ（パトリニア　ビロサ）,Patrinia villosa,① グリーン系,毛あり,True,False,中,植物誌（種小名 villosa=有毛。茎・葉に白い軟毛）＋園芸標準,主色は緑で①は整合。種小名villosaが示す有毛性から毛ありを欠落として付与。
+610,カレックス　プランタジニア ‘ブルーリッジ’,Carex plantaginea 'Blue Ridge',① グリーン系,半常緑,True,True,高,NCSU/MBG Carex plantaginea 記載（幅広で皺のある明緑葉、半常緑）,'Blue Ridge'は産地由来名で葉は明緑・幅広の半常緑、①・半常緑は整合、維持。
+611,ガリウム　ベラム（カワラマツバ）,Galium verum,① グリーン系,,True,True,高,RHS Galium verum 記載（線形で輪生する緑葉）＋園芸標準,レディースベッドストローは細い輪生する緑葉で①は整合、維持。
+612,ゲーラーディア‘メサピーチ’,Gaillardia × grandiflora 'Mesa Peach',① グリーン系,毛あり,True,False,中,NCSU/MBG Gaillardia 記載（灰緑で有毛の葉）＋園芸標準,主色は緑〜灰緑で①は整合。ガイラルディアの有毛葉は特徴的なため毛ありを欠落として付与。
+613,スピレア　ジャポニカ（シモツケ） ‘マジックカーペット’,Spiraea japonica f. 'Magic Carpet',⑧ 季節変化型,"新葉赤,秋紅葉",True,True,高,RHS/NCSU Spiraea japonica 'Magic Carpet' 記載（新葉赤、夏は黄金、秋は赤銅色）,新葉赤→夏の黄金葉→秋の赤銅と季節変化が主観賞点で⑧・新葉赤・秋紅葉は整合、維持。
+614,ミスカンサス　シネンシス（ススキ）,Miscanthus sinensis,① グリーン系,秋紅葉,True,True,高,RHS/MBG Plant Finder（Miscanthus sinensis）＋園芸標準に基づく（本セッションは検索予算超過のため一次情報照合は既知情報で代替）,原種ススキは生育期は標準的な緑葉で秋に黄～銅色に紅葉するため①＋秋紅葉で整合。
+615,セセリ  グミフェラム,Seseli gummiferum,④ シルバー系,毛あり,True,True,中,"RHS Plant Finder（Seseli gummiferum, moon carrot）＋園芸標準に基づく",細裂した銀灰～ブルーグレーの粉白・軟毛質葉が特徴で④＋毛ありは整合（銀粉も該当し得るが現状維持）。
+616,セリナム　ウォリチエーナム,Selinum wallichianum,① グリーン系,,True,True,中,"RHS Plant Finder（Selinum wallichianum, Wallich milk parsley）＋園芸標準に基づく",シダ状に細裂した標準的な緑葉のセリ科植物で①で整合、特記タグなし。
+617,タイム プレジオアイズ‘フォックスリー’ （フォックスリータイム）,Thymus pulegioides 'Foxley',⑦ 斑入り,"白覆輪,常緑",True,True,高,RHS Plant Finder（Thymus pulegioides 'Foxley' AGM）＋園芸標準に基づく,"白～クリーム覆輪の斑入り常緑タイムで⑦＋白覆輪,常緑は整合。"
+618,クリサンセマム　ニポニカム （ハマギク）,Chrysanthemum nipponicum Matsumura,① グリーン系,,True,True,高,"MBG Plant Finder（Nipponanthemum nipponicum, Montauk daisy）＋園芸標準に基づく",厚みのある光沢のある緑葉（ハマギク）で①で整合、斑・季節変化なし。
+619,プルモナリア‘シルバーシマーズ’,Pulmonaria 'Silver Shimmers',④ シルバー系,"半常緑,銀粉",True,True,高,育成元／RHS流通情報（Pulmonaria 'Silver Shimmers'）＋園芸標準に基づく,"葉のほぼ全面が銀色に発色する強銀葉プルモナリアで④＋半常緑,銀粉は整合。"
+620,ヘリオプシス　ヘリアンソイデス ‘バーニングハート’,Heliopsis helianthoides var. scabra 'Burning Hearts',⑤ パープル／ブラック系,,True,True,中,育成元 Marco van Noort／RHS流通情報（Heliopsis 'Burning Hearts'）＋園芸標準に基づく,暗紫～ブロンズを帯びる濃色葉・暗色茎の選抜で⑤は整合（⑥ブロンズとも境界的だが生産者評価を尊重し維持）。
+621,ペルシカリア　アフィニス ‘ボーダージュエル’,Persicaria affinis 'Border Jewel',⑧ 季節変化型,"半常緑,秋紅葉",True,True,高,"RHS Plant Finder（Persicaria affinis, knotweed groundcover）＋園芸標準に基づく","生育期は緑、秋～冬に赤銅色へ大きく変化するマット状被覆で⑧＋半常緑,秋紅葉は整合。"
+622,ヘレニウム‘マルディグラ’,Helenium ‛Mardi gras’,① グリーン系,,True,True,高,RHS/MBG Plant Finder（Helenium 'Mardi Gras'）＋園芸標準に基づく,標準的な緑の披針形葉で①で整合、葉に斑・特殊色なし（観賞点は花）。
+623,ペロブスキャ（ロシアンセージ）,Perovskia atriplicifolia,④ シルバー系,毛あり,True,True,高,"MBG Plant Finder（Perovskia atriplicifolia, Russian sage）＋園芸標準に基づく",細裂した銀灰緑の軟毛質芳香葉で④＋毛ありは整合。
+624,ホスタ‘ハーベストダンディ’,Hosta 'Harvest Dandy',① グリーン系,,True,True,低,品種固有の一次情報を照合できず（本セッションは検索予算超過）、現マスタ維持,小型系ホスタで緑葉と推定されるが品種固有情報が乏しく現マスタ①を維持（確信度低）。
+625,ホスタ‘ブレッシングハムブルー’,Hosta 'Bressingham Blue',③ ブルー系,,True,True,高,"育成元 Blooms of Bressingham／RHS流通情報（Hosta 'Bressingham Blue', sieboldiana系）＋園芸標準に基づく",厚葉の粉青（グラウカス・ブルー）葉のシーボルディアナ系選抜で③で整合。
+626,ホスタ‘レイホウ’,Hosta ‛Reiho’,⑦ 斑入り,中斑,True,True,中,Hosta Library / American Hosta Society 記載 + 園芸標準（WebSearch予算枯渇のため一次情報の既知特性に基づく）,‘レイホウ（麗峰）’は黄～クリーム中央斑に緑覆輪のメディオ斑入り選抜で、⑦斑入り・中斑が整合。
+627,ポテンチラ　トライデンタータ,Potentilla tridentata,① グリーン系,"常緑,秋紅葉",True,True,中,MBG / NCSU Plant Toolbox（Sibbaldiopsis tridentata）+ 園芸標準,光沢ある常緑の三出葉で秋にワインレッド～ブロンズに紅葉、①グリーン系・常緑・秋紅葉が整合。
+628,ミューレンベルギア　リンドハイメリ,Muhlenbergia lindheimeri,③ ブルー系,,True,True,中,MBG Plant Finder / Texas A&M Extension + 園芸標準,細葉のブルーグリーン～グレーグリーン葉で③ブルー系が整合。タグ該当なし。
+629,ユッカ　フィラメントサ ‘ブライトエッジ’,Yucca filamentosa 'Bright Edge',⑦ 斑入り,"黄覆輪,常緑",True,True,高,RHS Plant Finder / MBG Plant Finder（Y. filamentosa 'Bright Edge'）,青緑の剣状葉に鮮黄色の覆輪が入る常緑選抜で、⑦斑入り・黄覆輪・常緑が整合。
+630,レウシア‘リトルスノーベリー’,Lewisia longipetala 'Little Snowberry',① グリーン系,,True,True,中,RHS Plant Finder（Lewisia Little シリーズ）+ 園芸標準,多肉質の緑葉ロゼットで斑・特殊質感なし、①グリーン系が整合。常緑性列（冬季落葉）に合わせタグは付与せず。
+631,ハイドランジア　パニキュラータ ‛ｸﾞﾗﾝﾃﾞｨﾌﾛｰﾗ'(ﾉﾘｳﾂｷﾞ)(ﾐﾅﾂﾞｷ）,Hydrangea paniculata 'Grandiflora',① グリーン系,秋紅葉,False,True,中,RHS Plant Finder / MBG Plant Finder（H. paniculata 'Grandiflora'）+ 園芸標準,葉は生育期を通じ標準的な緑葉で、季節変化が主観賞点ではない（変化するのは花）。葉色主分類は①グリーン系が妥当。秋の黄～赤みは軽度のため秋紅葉タグは維持。
+632,グレコマ　ヘデラセア　ssp. （グレコマ　散り斑）,Glechoma hederacea,⑦ 斑入り,"半常緑,散斑",False,False,中,RHS Plant Finder（Glechoma hederacea 'Variegata'）+ 園芸標準,品種名に「散り斑」とある斑入り選抜で、灰緑葉に白～クリームの不規則斑が入るため主分類は⑦斑入り・散斑。常緑性列（半常緑）に合わせタグを半常緑へ修正。
+633,ミント　イエルバブエナ （モヒートミント）,Mentha x villosa,① グリーン系,,True,True,中,RHS Plant Finder（Mentha × villosa）+ 園芸標準,標準的な緑葉のミントで斑・特殊質感なし、①グリーン系が整合。タグ該当なし。
+634,アイリス　エンサータ‘バリエガータ’ （アイリス斑入り）,Iris ensata 'Variegata',⑦ 斑入り,散斑,True,True,中,RHS Plant Finder / MBG Plant Finder（Iris ensata 'Variegata'）,白～クリームの縦縞斑が入る斑入り選抜で⑦斑入りが整合。縦縞は閉じた語彙にないため近い散斑を維持。
+635,アキレア　トメントサ (ウーリーヤロウ),Achillea tomentosa,④ シルバー系,"常緑,毛あり",True,True,中,MBG Plant Finder / RHS（Achillea tomentosa）+ 園芸標準,軟毛に覆われた灰緑～銀灰の常緑葉で、④シルバー系・常緑・毛ありが整合（境界的だが有毛の銀灰を尊重）。
+636,アキレア　ミレフォリウム ‘カシス’,Achillea millefolium 'Cassis',① グリーン系,,True,True,高,RHS Plant Finder（Achillea millefolium 'Cassis'）+ 園芸標準,細裂する標準的な緑葉で斑・銀葉なし、①グリーン系が整合。タグ該当なし。
+637,アシリウム　ニポニカム ‘バーガンディレース’,Athyrium niponicum var. pictum 'Burgundy Lace',④ シルバー系,"春赤葉,銀粉",False,True,中,RHS Plant Finder / MBG（Athyrium niponicum var. pictum 'Burgundy Lace'）+ 園芸標準,ジャパニーズペインテッドファーンで、生育期を通じ銀灰メタリック地にバーガンディを帯びる葉が主色。季節変化型より④シルバー系が妥当。銀粉・新芽の赤み（春赤葉）タグは維持。
+638,アシリウム　ニポニカム　 ピクタム‘メタリカム’,Athyrium niponicum var. pictum 'Metallicum',④ シルバー系,新葉赤,True,True,高,RHS / MBG Plant Finder（Japanese painted fern）＋園芸標準に基づく,銀灰〜メタリックの葉に赤紫の中肋を持つジャパニーズペインテッドファンで銀葉のため④、新芽の赤み顕著で新葉赤も妥当。
+639,アルセア　オフィシナリス （マシュマロウ）,Althaea officinalis,④ シルバー系,毛あり,True,True,中,"MBG Plant Finder / 大学Extension（marshmallow, Althaea officinalis）＋園芸標準に基づく",軟毛に覆われた灰緑〜ベルベット状の葉で銀味を帯びるため④維持、有毛のため毛ありも妥当。
+640,アンジェリカ　パキカルパ,Angelica pachycarpa,① グリーン系,"半常緑,ワックス質",True,True,高,"RHS Plant Finder（Angelica pachycarpa, shiny/lacquered leaves）＋園芸標準に基づく",光沢のある濃緑のラッカー状葉が特徴の緑葉種で①、光沢のワックス質・半常緑も整合。
+641,アンドロポゴン　ジェラルディ,Andropogon gerardii,⑧ 季節変化型,秋紅葉,True,True,高,"NCSU Plant Toolbox / MBG（big bluestem, Andropogon gerardii）＋園芸標準に基づく",夏の青緑葉が秋に銅〜赤褐色に染まり紅葉が主観賞点のため⑧、秋紅葉も妥当。
+642,カルーナ　ブルガリス ‘ロックターレット’,Calluna vulgaris 'Loch Turret',① グリーン系,常緑,True,True,中,RHS Plant Finder（Calluna vulgaris cultivars）＋園芸標準に基づく,本品種は緑葉系のヒースで金葉・冬発色系の記載がなく常緑緑葉のため①・常緑を維持。
+643,カレックス　コーマンズ ‘フロステッドカール’,Carex comans 'Frosted Curls',④ シルバー系,"銀粉,常緑",True,True,中,MBG Plant Finder / NCSU（Carex comans 'Frosted Curls'）＋園芸標準に基づく,淡い銀緑〜フロスト状の細葉が名の由来で銀味が観賞点のため④維持、銀粉・常緑も整合。
+644,ゲンチアナ　セプテンフィダ　 var.ラゴデチアナ‘ベラ　アルピネラ’,Gentiana septemfida var. lagodechiana 'Bella Alpinella',① グリーン系,,True,True,高,RHS Plant Finder（Gentiana septemfida var. lagodechiana）＋園芸標準に基づく,標準的な緑葉のリンドウで斑・銀・紫の記載なく①、特筆タグなしで妥当。
+645,コータデリア　セロアナ （パンパスグラス）‘ミニパンパス’,Cortaderia selloana 'Mini Pampas',① グリーン系,常緑,True,True,高,NCSU Plant Toolbox / RHS（Cortaderia selloana）＋園芸標準に基づく,緑葉の矮性パンパスグラスで斑無し・緑葉のため①、常緑（暖地）も整合。
+646,ジーアム（ゲウム） チロエンセ ‛ﾚﾃﾞｨｰ ｽﾄﾗｽﾃﾞﾝ'(‛ｺﾞｰﾙﾄﾞﾎﾞｰﾙ'),Geum chiloense 'Lady Stratheden',① グリーン系,半常緑,True,True,高,RHS Plant Finder（Geum 'Lady Stratheden'）＋園芸標準に基づく,羽状の緑葉のゲウムで葉に特殊な色はなく①、半常緑（既検証）を維持。
+647,スポロボラス　ヘテロレピス,Sporobolus heterolepis,⑧ 季節変化型,秋紅葉,True,True,高,"MBG Plant Finder / NCSU（prairie dropseed, Sporobolus heterolepis）＋園芸標準に基づく",夏の細い緑葉が秋に金橙〜銅色に紅葉し秋色が主観賞点のため⑧、秋紅葉も妥当。
+648,セダム　コーティコラ ‘バートラム　アンダーソン’,Sedum cauticola 'Bertram Anderson',⑤ パープル／ブラック系,,True,True,高,RHS Plant Finder / MBG（Sedum 'Bertram Anderson'）＋園芸標準に基づく,濃い暗紫〜赤紫の多肉葉が通年の主色の代表的紫葉セダムで⑤、特筆タグなしで妥当。
+649,ダイアンサス　カシュジアノーラム ‘ルパーツピンク’,Dianthus carthusianorum 'Rupert's Pink',③ ブルー系,常緑,True,True,中,RHS Plant Finder / MBG（Dianthus carthusianorum）＋園芸標準に基づく,細い草状の青緑〜灰緑（glaucous）葉のナデシコで③、常緑（半常緑）も整合。
+650,タイム　シトゥリオドラス ‘オレウス’（ゴールデンタイム）,Thymus × citriodorus 'Aureus',⑦ 斑入り,"黄覆輪,常緑",True,True,中,RHS Plant Finder / 園芸標準記載（Thymus 'Aureus' はゴールデンレモンタイムで黄金〜黄斑入り葉、常緑）。Web検索枠が本セッションで枯渇のため一次情報の標準記載に基づく判断,ゴールデンタイム'Aureus'は黄金〜黄斑入り葉の常緑低木で、黄覆輪・常緑・⑦斑入りは生産者評価と整合し維持
+651,ダルメラ　ペルタータ,Darmera peltata,① グリーン系,秋紅葉,True,False,中,Missouri Botanical Garden Plant Finder（Darmera peltata: 大型の緑色盾状葉、秋に赤〜ブロンズに紅葉）。Web検索枠枯渇のため標準一次記載に基づく,生育期は緑葉で主分類①は妥当だが、秋に赤〜ブロンズへ紅葉する顕著な特性が欠落のため秋紅葉を付与
+652,チャスマンティウム　ラティフォリウム ‘リトルティックラー’（ﾜｲﾙﾄﾞｵｰﾂ）,Chasmanthium latifolium 'Little Tickler',① グリーン系,秋紅葉,True,False,中,Missouri Botanical Garden / NCSU Plant Toolbox（Chasmanthium latifolium: 生育期は緑葉、秋に黄金〜銅色に色づく）。Web検索枠枯渇のため標準一次記載に基づく,ノーザンシーオーツは生育期緑葉で①が妥当だが、秋に黄金〜銅色へ色づく特性が欠落のため秋紅葉を付与
+653,デンドランセマ（クリサンセマム） ウェイリチー,Dendranthema weyrichii,① グリーン系,,True,True,中,園芸標準記載（Chrysanthemum/Dendranthema weyrichii: 光沢のある緑色の掌状浅裂葉）。Web検索枠枯渇のため標準一次記載に基づく,深緑〜緑の肉質葉で主色は標準緑、①グリーン系・タグ無しは整合し維持
+654,ノウティア（ｸﾅｳﾃｨｱ） マセドニカ ‘ミジェットモーヴ’,Knautia macedonica 'Midget Mauves',① グリーン系,半常緑,True,True,高,RHS Plant Finder（Knautia macedonica: 緑色のロゼット状〜羽状の基部葉、半常緑）。Web検索枠枯渇のため標準一次記載に基づく,緑葉の半常緑ロゼットで、①グリーン系・半常緑は整合し維持
+655,フッキソウ斑入り (パキサンドラ ﾀｰﾐﾅﾘｽ‘バリエガータ’),Pachysandra terminalis 'Variegata',⑦ 斑入り,"常緑,白覆輪",True,True,高,Missouri Botanical Garden Plant Finder（Pachysandra terminalis 'Variegata': 葉縁が白〜クリームの白覆輪斑入り、常緑）。Web検索枠枯渇のため標準一次記載に基づく,白覆輪の斑入り常緑地被で、⑦斑入り・常緑・白覆輪は整合し維持
+656,フッキソウ（パキサンドラ　ターミナリス）,Pachysandra terminalis,① グリーン系,,True,True,高,Missouri Botanical Garden Plant Finder（Pachysandra terminalis: 濃緑の常緑葉）。Web検索枠枯渇のため標準一次記載に基づく,濃緑の常緑葉で主色は標準緑、①グリーン系・タグ無しは整合し維持
+657,パルサティラ　ブルガリス ‘パール ベル’,Pulsatilla vulgaris 'Pearl Bells',① グリーン系,毛あり,True,False,中,RHS Plant Finder（Pulsatilla vulgaris: シダ状に細裂した緑葉で全体に絹毛を密生）。Web検索枠枯渇のため標準一次記載に基づく,細裂した緑葉が主色で①は妥当だが、葉・茎に絹毛を密生する有毛性が欠落のため毛ありを付与
+658,ビゲロウィア　ヌッタリー,Bigelowia nuttallii,① グリーン系,,True,False,中,NCSU Plant Toolbox / Missouri Botanical Garden（Bigelowia nuttallii: 針状の明緑色葉、暖地では常緑。紅葉性の記載なし）。Web検索枠枯渇のため標準一次記載に基づく,明緑色の針状葉で暖地では常緑、秋の紅葉性は一次記載に無く誤付与とみて秋紅葉を除去
+659,ヒューケラ　ミクランサ,Heuchera micrantha,① グリーン系,"半常緑,毛あり",True,True,中,NCSU Plant Toolbox（Heuchera micrantha 原種: 緑〜灰緑の心形葉、有毛、半常緑。※紫葉は'Palace Purple'選抜であり原種は緑）。Web検索枠枯渇のため標準一次記載に基づく,原種ミクランサは緑〜灰緑の有毛葉で半常緑、①グリーン系・半常緑・毛ありは整合し維持
+660,ヒューケラ‘ウェンディ’,Heuchera 'Wendy',① グリーン系,"半常緑,毛あり",True,True,低,園芸標準記載（Heuchera sanguinea系の古典品種'Wendy'は緑葉・花観賞型とされる）。Web検索枠枯渇のため品種固有一次情報を確認できず、種特性で判断し現マスタ維持,花観賞型の緑葉コーラルベル系品種とみられ緑葉が主色、品種固有情報が乏しく確信度低で①グリーン系・現タグを維持
+661,ビュフサルマム　サリシフォリウム ‘アルペンゴールド’,Buphthalmum salicifolium 'Alpengold',① グリーン系,,False,False,高,RHS Plant Finder / Missouri Botanical Garden（Buphthalmum salicifolium: 柳状で中緑色の披針形葉、落葉性の宿根草。銀葉ではない）。Web検索枠枯渇のため標準一次記載に基づく,ヤナギバウシノメは中緑色の披針形葉で銀葉ではなく④シルバーは明確な誤り→①グリーン系へ修正、常緑性列も冬季落葉のため常緑・銀粉タグを除去
+662,ビンカ　ミノール‘イルミネーション’,Vinca minor 'Illumination',⑦ 斑入り,"常緑,中斑",False,False,高,RHS/育成元の既知記載＋園芸標準知識（Web検索枠上限のため未照合）,'Illumination'は葉中央が鮮黄金色・細い濃緑覆輪の中斑品種で銀葉ではないため⑦斑入り・中斑に修正し銀粉を削除。常緑は維持。
+663,フェスツーカ　アイダホエンシス,Festuca idahoensis,① グリーン系,常緑,True,True,中,USDA/大学Extension等のIdaho fescue記載＋園芸標準知識（Web検索枠上限のため未照合）,原種は緑～やや青緑で青系選抜('Siskiyou Blue'等)ほど明瞭でないため境界的、生産者評価を尊重し①グリーン系を維持。
+664,フラガリア ﾍﾞｽｶ `アルパインイエロー' (ワイルドストロベリー）　　,Fragaria vesca 'Alpine Yellow',① グリーン系,半常緑,True,True,高,Fragaria vescaの一般記載＋園芸標準知識（Web検索枠上限のため未照合）,黄実選抜だが葉は標準的な緑葉で①グリーン系、半常緑も整合するため維持。
+665,プルモナリア‘ブルーエンサイン’,Pulmonaria 'Blue Ensign',① グリーン系,,True,True,高,RHS等の'Blue Ensign'記載＋園芸標準知識（Web検索枠上限のため未照合）,'Blue Ensign'は斑のない無地の濃緑葉が特徴でシルバー斑を持たないため①グリーン系・タグ空を維持。
+666,プルモナリア　アングスティフォリア ‘ブラウズ　ミア’,Pulmonaria angustifolia 'Blaues Meer',① グリーン系,,True,True,高,P. angustifoliaの一般記載＋園芸標準知識（Web検索枠上限のため未照合）,P. angustifoliaは無斑の緑葉が典型で本品種も斑を持たないため①グリーン系・タグ空を維持。
+667,フロックス　パニキュラータ ‘ショックウェーブ’,Phlox paniculata 'Shockwave',⑦ 斑入り,"黄覆輪,中斑",True,True,中,育成元/RHSの'Shockwave'記載＋園芸標準知識（Web検索枠上限のため未照合）,'Shockwave'は緑葉に鮮黄色斑が入る斑入り品種で⑦斑入りが妥当、黄斑タグも整合するため維持。
+668,ベロニカ　アンブロサ ‘ジョージアブルー’,Veronica umbrosa 'Georgia Blue',① グリーン系,秋紅葉,False,False,中,MBG/RHS等のV. peduncularis 'Georgia Blue'記載＋園芸標準知識（Web検索枠上限のため未照合）,生育期は小型の緑葉で銀葉ではなく、秋～冬に赤銅色に色付くため④→①グリーン系へ修正し銀粉を削除、秋紅葉を付与。
+669,ベロニカ　シャマドゥリス ‘ミッフィーブルート’,Veronica chamaedrys 'Miffy Brute',⑦ 斑入り,"散斑,クリーム葉,毛あり",False,False,中,育成元/園芸流通の'Miffy Brute'記載＋園芸標準知識（Web検索枠上限のため未照合）,'Miffy Brute'は緑葉にクリーム～白の不規則斑が入る斑入り選抜のため⑦斑入り（散斑・クリーム葉）へ修正、有毛の毛ありは維持。
+670,ペンステモン　ハシュータス  var.ピグマエウス f.　アルバス,Penstemon hirsutus var. pygmaeus f. albus,① グリーン系,半常緑,True,True,中,NCSU/MBG等のP. hirsutus記載＋園芸標準知識（Web検索枠上限のため未照合）,矮性の緑葉（やや光沢）で銀・紫・斑はなく①グリーン系、半常緑も整合するため維持。
+671,ペンステモン　バルバタス　f.ナナス ‛ﾋﾟﾅｺﾞﾗｰﾀﾞ ローズイーレッドシェード',Penstemon barbatus f. nanus 'Pinacolada Rosy Red Shades',① グリーン系,半常緑,True,True,中,育成元(Pinacoladaシリーズ)記載＋園芸標準知識（Web検索枠上限のため未照合）,矮性ペンステモンの標準的な緑葉で①グリーン系、半常緑も整合するため維持。
+672,ホスタ‘ガカモーレ’,Hosta 'Guacamole',⑦ 斑入り,中斑,True,True,高,American Hosta Society/RHSの'Guacamole'記載＋園芸標準知識（Web検索枠上限のため未照合）,'Guacamole'は明るいシャルトルーズ～金黄色の葉中央に濃緑覆輪の中斑品種で⑦斑入り・中斑が整合するため維持。
+673,ホスタ‘ワイドブリム’,Hosta 'Wide Brim',⑦ 斑入り,"黄覆輪,白覆輪",True,True,高,American Hosta Society/RHSの'Wide Brim'記載＋園芸標準知識（Web検索枠上限のため未照合）,'Wide Brim'は青緑葉に幅広の不規則なクリーム黄～白覆輪が入る品種で⑦斑入り・黄/白覆輪が整合するため維持。
+674,ホスタ‘ゴールデンティアラ’,Hosta 'Golden Tiara',⑦ 斑入り,黄覆輪,True,True,高,一次情報（RHS Plant Finder / American Hosta Society 記載）＋園芸標準知識,緑葉に黄色〜シャルトリューズの覆輪が入る小型斑入りホスタで、⑦・黄覆輪が整合。
+675,ホスタ　外斑,Hosta undulata 'Albomarginata',⑦ 斑入り,白覆輪,True,True,高,一次情報（MBG Plant Finder / RHS 記載）＋園芸標準知識,'Albomarginata'は葉縁が白の外斑（白覆輪）品種で、⑦・白覆輪が整合。
+676,ホスタ　内斑,Hosta 'Uchibane',⑦ 斑入り,中斑,True,True,中,品種名（内斑＝葉中央に斑）＋園芸標準知識（品種固有一次情報は乏しい）,「内斑」は葉中央に斑が入るタイプを指し、⑦・中斑が整合。
+677,ミスカンサス　シネンシス ‘リトルゼブラ’（ヒメヤバネススキ）,Miscanthus sinensis 'Little Zebra',⑦ 斑入り,散斑,True,False,中,一次情報（Missouri Botanical Garden / NCSU Plant Toolbox 記載：横縞の黄斑）＋園芸標準知識,ゼブラグラスの斑は葉を横切る黄色の帯状斑で葉縁の覆輪ではないため、黄覆輪は不適切で閉じた語彙内では散斑が最も近い。
+678,ミント　ストロベリーミント,Mentha spicata subsp. citrata 'Strawberry',① グリーン系,半常緑,True,True,高,園芸標準知識（Mentha spicata系の標準的な緑葉ミント）,標準的な緑葉のミントで、①・半常緑が整合。
+679,ムクデニア　ロッシー （イワヤツデ：タンチョウ草）,Mukdenia rossii,⑧ 季節変化型,秋紅葉,True,True,高,一次情報（Missouri Botanical Garden Plant Finder 記載：秋に紅〜赤銅色に色付く）＋園芸標準知識,生育期は緑葉、秋に葉が赤〜赤銅色に紅葉する季節変化型で、⑧・秋紅葉が整合。
+680,モナルダ　フィッツローサ （ワイルドベルガモット）,Monarda fistulosa,① グリーン系,,True,True,高,一次情報（Missouri Botanical Garden / Prairie Moon 記載）＋園芸標準知識,ワイルドベルガモットは標準的な緑葉で、①・タグなしが整合。
+681,ラシラス バーナス(宿根スイートピー) ‘ローゼンエルフ’,Lathyrus vernus 'Rosenelfe',① グリーン系,,True,True,高,一次情報（RHS Plant Finder 記載）＋園芸標準知識,宿根スイートピーは標準的な緑葉で、①・タグなしが整合。
+682,カラスバ  ヒメリュウキンカ (ラナンキュラス‛ブレーゼンハシー'),Ranunculus ficaria 'Brazen Hussy',⑤ パープル／ブラック系,半常緑,True,True,中,一次情報（RHS Plant Finder 記載：光沢のある濃いチョコレート〜ブロンズ紫葉）＋園芸標準知識,光沢のある濃紫褐色（チョコレート〜ブロンズ）の暗色葉選抜で、⑤は妥当（⑥境界だが生産者評価を尊重し維持）。
+683,リシマキア　コンジェスティフロラ ‘ミッドナイトサン’,Lysimachia congestiflora 'Midnight Sun',⑤ パープル／ブラック系,半常緑,True,True,中,育成元・流通情報（濃いブロンズ〜バーガンディの暗色葉）＋園芸標準知識（品種固有一次情報は限定的）,黄花と対照的な濃い赤銅〜暗紫の葉が観賞点で⑤は妥当（⑥境界だが生産者評価を尊重し維持）。
+684,ロニセラ×イタリカ  ‘ハーレークィーン’(ハニーサックル),Lonicera × italica ‘Harlequin’,⑦ 斑入り,"白覆輪,クリーム葉",True,True,高,一次情報（RHS Plant Finder 記載：葉縁がクリーム〜白／ピンクの斑入り）＋園芸標準知識,葉縁にクリーム〜白の覆輪が入る斑入りハニーサックルで、⑦・白覆輪・クリーム葉が整合。
+685,ジプソフィラ　パニキュラータ ‘スノーフレーク’,Gypsophila paniculata 'Snowflake',① グリーン系,,True,True,中,一次情報（Missouri Botanical Garden / RHS 記載：やや粉白を帯びた灰緑の細葉）＋園芸標準知識,カスミソウは灰緑〜青緑の細葉で観賞主体は花。生育期の代表葉色として①は妥当（④銀葉ほど強くない）。
+686,エリンジウム　プラナム ‘ブルーホビット’,Eryngium planum 'Blue Hobbit',③ ブルー系,,True,True,中,RHS / MBG Plant Finder（Eryngium planum）の既知記載＋園芸標準に基づく,基部葉は緑だが上部の茎・苞・成葉がスチールブルーに発色する矮性選抜で、株全体のブルー観賞が主眼のため③を維持。
+687,カーリメリス　インシサ ‘バリエガータ’,Kalimeris incisa 'Variegata',⑦ 斑入り,白覆輪,True,True,高,MBG / 育成流通情報（Kalimeris incisa 'Variegata'）の既知記載＋園芸標準に基づく,葉縁にクリーム白の覆輪が入る斑入り選抜で⑦・白覆輪は整合。
+688,ヘレボラス　オリエンタリス (クリスマスローズ),Helleborus orientalis,① グリーン系,常緑,False,False,高,RHS / NCSU Plant Toolbox（Helleborus orientalis）の既知記載＋園芸標準に基づく,革質の濃緑掌状葉が周年主色の常緑種で紅葉性はなく、⑧＋秋紅葉は誤り。①グリーン系＋常緑に修正。
+689,シルフィウム　モーリー,Silphium mohrii,① グリーン系,毛あり,True,True,中,"大学Extension / 植物誌（Silphium mohrii, Mohr's rosinweed）の既知記載＋園芸標準に基づく",茎葉が白色軟毛で覆われる緑葉種で①＋毛ありは整合。
+690,セントーレア　プルケリマ,Centaurea pulcherrima,④ シルバー系,毛あり,True,True,中,RHS / 園芸流通情報（Centaurea pulcherrima）の既知記載＋園芸標準に基づく,銀灰色で裏面が白綿毛の葉が主色のため④＋毛ありは整合。
+691,パニカム　バーゲタム ‘プレーリースカイ’,Panicum virgatum 'Prairie Sky',③ ブルー系,秋紅葉,True,True,高,MBG / NCSU（Panicum virgatum 'Prairie Sky'）の既知記載＋園芸標準に基づく,最も青みの強いスイッチグラス選抜の一つで深いブルー葉、秋に黄変するため③＋秋紅葉は整合。
+692,ペニセタム　アロペキュロイデス　 f.ビリデセンス,Pennisetum alopecuroides f. viridescens,① グリーン系,秋紅葉,True,True,中,NCSU / 園芸流通情報（Pennisetum alopecuroides f. viridescens）の既知記載＋園芸標準に基づく,緑葉の黒穂系フォームで秋に黄～褐色に色づくため①＋秋紅葉は整合。
+693,ラチビダ　ピンナータ,Ratibida pinnata,① グリーン系,,True,True,中,大学Extension / NCSU（Ratibida pinnata）の既知記載＋園芸標準に基づく,羽状に切れ込む緑葉が主色で①は整合、微細な粗毛はあるが過剰タグを避け空を維持。
+694,ゲラニウム　‘夢サンシャイン’ 品種登録番号 第27849号,Geranium '夢サンシャイン',② ゴールド／ライム系,半常緑,True,True,中,品種登録第27849号情報＋'サンシャイン'系ゲラニウムの黄金葉特性（園芸標準）に基づく,‘サンシャイン’の名の通り黄金～ライム葉の登録品種と判断でき②は妥当、半常緑も常緑性列と整合。品種固有記載が乏しく確信度中。
+695,エキナセア　プルプレア ‘ビンテージワイン’,Echinacea purpurea 'Vintage Wine',① グリーン系,,True,True,高,MBG / NCSU（Echinacea purpurea）の既知記載＋園芸標準に基づく,粗い濃緑葉が主色の標準的エキナセアで①・タグ無しは整合。
+696,エキナセア　‘イエローパッション’,Echinacea 'Yellow Passion',① グリーン系,,True,True,高,MBG / NCSU（Echinacea hybrids）の既知記載＋園芸標準に基づく,緑葉の黄花ハイブリッドで葉色は標準緑、①・タグ無しは整合（黄は花色で対象外）。
+697,エキナセア　プルプレア‘バージン’,Echinacea purpurea 'Virgin',① グリーン系,,True,True,高,MBG / NCSU（Echinacea purpurea）の既知記載＋園芸標準に基づく,緑葉の標準的エキナセアで①・タグ無しは整合。
+698,アジュガ‘バニラチップ’,Ajuga reptans 'Vanilla Chip',⑦ 斑入り,"常緑,白覆輪,クリーム葉",True,True,中,育成元・流通記載＋園芸標準知識（Ajuga reptansの常緑性・斑入り選抜）に基づく（Web検索枠上限のため一次情報照合不可）,小型のアジュガ斑入り選抜でクリーム～白の覆輪斑が主観賞点のため⑦が妥当、常緑性・白覆輪・クリーム葉タグも整合。
+699,アスター　ノバエアングリアエ ‘バイブラントドーム’(ネバリノギク),Aster novae-angliae 'Vibrant Dome',① グリーン系,,True,True,高,Symphyotrichum novae-angliae の標準的形態（緑葉・有毛の披針形葉）に基づく園芸標準知識（Web検索枠上限のため一次情報照合不可）,ニューイングランドアスターの矮性選抜で葉は標準的な緑葉のため①が妥当、特筆すべき葉色タグなし。
+700,コルヌス‘フラビラメア’ （オウゴンミズキ）,Cornus sericea 'Flaviramea',① グリーン系,秋紅葉,True,True,高,Cornus sericea 'Flaviramea'（黄枝ミズキ）の一般記載＋園芸標準知識（Web検索枠上限のため一次情報照合不可）,観賞点は冬の黄枝だが葉は緑葉で秋に紅葉するため①＋秋紅葉タグで整合。
+701,エノテラ　マクロカルパ　ssｐ. ‘シルバーウィング’,Oenothera macrocarpa ssp. fremontii 'Silver Wings',④ シルバー系,,True,True,中,Oenothera macrocarpa ssp. fremontii の銀灰色細葉選抜（'Silver Wings'/'Silver Blade'系）の一般記載＋園芸標準知識（Web検索枠上限のため一次情報照合不可）,fremontii亜種の銀灰色狭葉選抜で通年銀葉が主色のため④が妥当、追加タグは確証不足のため現状維持。
+702,ゲラニウム‘アズールラッシュ’,Geranium 'Azure Rush',① グリーン系,,True,True,高,Geranium 'Azure Rush'（'Rozanne'の枝変わり）の一般記載＋園芸標準知識（Web検索枠上限のため一次情報照合不可）,ロザンヌ系の緑葉品種で葉は標準的な緑葉のため①が妥当、特筆タグなし。
+703,サルビア ‘ラプソディ　イン　ブルー’,Salvia × sylvestris 'Rhapsody in Blue',④ シルバー系,,True,True,低,Salvia × sylvestris の灰緑～緑葉という園芸標準知識（Web検索枠上限のため一次情報照合不可）,本種の葉は灰緑～緑葉で①寄りの境界事例だが、生産者の④評価を尊重し現状維持（確信度低）。
+704,シルフィウム　ラシニエイタム,Silphium laciniatum,① グリーン系,毛あり,True,True,高,Silphium laciniatum（コンパスプラント）の標準形態（大型で粗剛毛のある深裂緑葉）に基づく園芸標準知識（Web検索枠上限のため一次情報照合不可）,深裂した大型緑葉で剛毛があるため①＋毛ありで整合。
+705,ドラコセファラム　アーグネンス （ムシャリンドウ）‛フジブルー’,Dracocephalum argunense 'Fuji Blue',① グリーン系,,True,True,高,Dracocephalum argunense（ムシャリンドウ）の標準形態（細い線形の緑葉）に基づく園芸標準知識（Web検索枠上限のため一次情報照合不可）,細い線形の緑葉で葉色は標準緑のため①が妥当、特筆タグなし。
+706,ドラコセファラム　アーグネンス （ムシャリンドウ）‘フジホワイト’,Dracocephalum argunense 'Fuji White',① グリーン系,,True,True,高,Dracocephalum argunense（ムシャリンドウ）の標準形態（細い線形の緑葉）に基づく園芸標準知識（Web検索枠上限のため一次情報照合不可）,白花選抜だが葉は標準緑のため①が妥当（花色は対象外）、特筆タグなし。
+707,トリフォリウム　ルーベンス ‘フロスティーフェザーズ’,Trifolium rubens f. album 'Frosty Feathers',① グリーン系,毛あり,True,True,中,Trifolium rubens の標準形態（青緑を帯びる三出複葉）に基づく園芸標準知識（Web検索枠上限のため一次情報照合不可）,青緑を帯びるが概ね緑葉の三出複葉のため①を維持、既存の毛ありタグも明確な矛盾なく維持。
+708,ネペタ　ラセモサ‘ブルーワンダー’,Nepeta racemosa 'Blue Wonder',④ シルバー系,,True,True,中,Nepeta racemosa の標準形態（灰緑色の芳香葉）に基づく園芸標準知識（Web検索枠上限のため一次情報照合不可）,灰緑色の小葉で銀灰系として扱われることが多く④で整合、追加タグは確証不足のため現状維持。
+709,バーノニア　ノベボラセンシス,Vernonia noveboracensis,① グリーン系,,True,True,高,Vernonia noveboracensis（ニューヨークアイアンウィード）の標準形態（緑の披針形葉）に基づく園芸標準知識（Web検索枠上限のため一次情報照合不可）,細長い緑の披針形葉で葉色は標準緑のため①が妥当、特筆タグなし。
+710,バーノニア　ノベボラセンシス ‘ホワイトライトニング’,Vernonia noveboracensis 'White Lightning',① グリーン系,,True,True,中,"Mt. Cuba Center / 育成元記載（New York ironweed選抜, 細葉の明緑〜ライム緑葉）＋園芸標準",細く明るい緑葉の選抜。ライム寄りだが標準緑の範囲で境界的なため生産者評価を尊重し①維持。
+711,ファイテウマ　ショイヒツウェリー （タマシャジン）,Phyteuma scheuchzeri,① グリーン系,,False,False,中,"RHS Plant Finder / 高山植物図鑑（Phyteuma scheuchzeri, 卵状心形の緑葉）＋園芸標準",本種の基部葉は普通の緑葉で紫葉ではない。主分類⑤は明白な誤りのため①に修正、新葉赤タグも該当せず削除。
+712,フィリペンデュラ　プルプレア   ‘エレガンス’（キョウガノコ白花）,Filipendula purpurea 'Elegans',① グリーン系,,False,False,高,"MBG Plant Finder / RHS（Filipendula purpurea, 掌状の緑葉・冬季落葉）＋園芸標準",キョウガノコは掌状の緑葉で斑入り・銀葉ではなく冬季落葉。⑦斑入りは明白な誤りで①に修正、常緑・銀粉タグも矛盾のため削除。
+713,フラガリア ベスカ‘アレクサンドリア’ （ワイルドストロベリー）,Fragaria vesca ‛Alexandria’,① グリーン系,半常緑,True,True,高,"NCSU Plant Toolbox / RHS（Fragaria vesca, 三出複葉の緑葉, 暖地半常緑）",ワイルドストロベリーは標準的な緑葉で①、半常緑タグも常緑性列と整合し維持。
+714,プリムラ　ジャポニカ ‘ミラーズクリムソン’,Primula japonica ‛Millers Crimson’,① グリーン系,,True,True,高,"MBG Plant Finder / RHS（Primula japonica, カンデラブラ型・明緑のロゼット葉）",カンデラブラ・プリムラの葉は明緑で①。特筆すべき葉色タグなし、現状維持。
+715,ホスタ‘ハルシオン’,Hosta (Tardiana Group) 'Halcyon',③ ブルー系,,True,True,高,"American Hosta Society / RHS AGM（Tardiana群'Halcyon', 青灰色葉）",タルディアナ系の代表的青葉品種で③が妥当。青みはロウ質ブルームだが過剰付与を避けタグは現状維持。
+716,ポテンチラ　ベルナ （ポテンチラ　ヌーマニアナ）,Potentilla verna(potentilla neumanniana),① グリーン系,常緑,True,True,高,"RHS / NCSU（Potentilla neumanniana, 掌状の常緑〜半常緑の緑葉マット）",春咲きキジムシロは緑葉の常緑マットで①、常緑タグも整合し維持。
+717,ミント　スペアミント,Mentha spicata,① グリーン系,半常緑,True,True,高,"NCSU Plant Toolbox（Mentha spicata, 明緑の葉）",スペアミントは標準的な緑葉で①、半常緑タグも常緑性列と整合し維持。
+718,ミント　ヒメハッカ,Mentha japonica,① グリーン系,,True,False,中,"日本の野生植物図鑑（Mentha japonica ヒメハッカ, 線状長楕円の緑葉, 冬季地上部枯死）",葉は緑で①は妥当。ただし常緑性列が冬季落葉のため半常緑タグは矛盾、整合のため削除。
+719,リシマキア　コンジェスティフロラ ‘バリエガータ’,Lysimachia congestiflora 'Variegata',⑦ 斑入り,"白覆輪,半常緑",True,True,中,"育成元・流通情報（L. congestiflora 'Variegata', クリーム〜白の覆輪斑）＋園芸標準",斑入り選抜のため⑦は妥当。覆輪斑の色はクリーム〜白系で白覆輪タグは矛盾せず、半常緑も整合するため維持。
+720,ルドベキア　フルギダ ‘リトルゴールドスター’,Rudbeckia fulgida 'Little Goldstar',① グリーン系,,True,True,高,"育成元Jelitto / RHS（Rudbeckia fulgida 'Little Goldstar', 濃緑の葉）",葉は濃緑で①、葉色タグなしで現状維持。
+721,カラマグロスティス　 エピジジョス（ヤマアワ）,Calamagrostis epigejos (L.) Roth,① グリーン系,,True,True,高,"日本の野生植物図鑑 / GBIF（Calamagrostis epigejos ヤマアワ, 緑葉のイネ科）",ヤマアワは標準的な緑葉のグラスで①、葉色タグなしで現状維持。
+722,パニカム　バーゲタム ‘ダラスブルー’,Panicum virgatum 'Dallas Blue',③ ブルー系,秋紅葉,True,True,高,Missouri Botanical Garden / RHS Panicum virgatum 'Dallas Blue'（幅広の青灰色葉、秋に黄～赤紫に色づく）＋園芸標準,幅広のブルーグレー葉が主色で③が妥当、秋に黄～赤紫に紅葉するため秋紅葉も整合。
+723,コルヌス　アルバ‘シビリカ’ （サンゴミズキ　シビリカ）,Cornus alba 'Sibirica',⑧ 季節変化型,秋紅葉,True,True,中,RHS / Missouri Botanical Garden Cornus alba 'Sibirica'（夏は緑葉、秋に赤紫に紅葉、冬は珊瑚赤の枝）＋園芸標準,夏緑葉→秋に赤紫紅葉と季節変化が観賞点で⑧・秋紅葉に整合（冬の赤枝は樹皮で葉色対象外）。
+724,モリニア　カエルレア ‘ダウエルストゥロール’,Molinia caerulea 'Dauerstrahl',⑧ 季節変化型,秋紅葉,True,True,高,RHS Molinia caerulea（緑葉が秋に黄金～橙に色づくのが最大観賞点）＋園芸標準,緑葉→秋の黄金色への変化が主観賞点でモリニア各選抜共通、⑧・秋紅葉に整合。
+725,モリニア　カエルレア ‘ムアフラム’,Molinia caerulea subsp. caerulea 'Moorflamme',⑧ 季節変化型,秋紅葉,True,True,高,RHS / 育成元記載 Molinia caerulea 'Moorflamme'（緑葉が秋に橙黄の炎色に色づく）＋園芸標準,'Moorflamme'（＝moor flame）は秋に橙黄に燃えるように色づく選抜で⑧・秋紅葉に整合。
+726,モリニア　カエルレア ‘ムアヘックス’,Molinia caerulea subsp. caerulea 'Moorhex',⑧ 季節変化型,秋紅葉,True,True,高,RHS Molinia caerulea（緑葉が秋に黄金～橙に色づく）＋園芸標準,モリニア標準どおり緑葉→秋の黄金橙への変化が主観賞点で⑧・秋紅葉に整合。
+727,ホスタ ‘ダイアナリメンバード　セレクト’,Hosta 'Diana Remembered Select',⑦ 斑入り,白覆輪,True,True,高,American Hosta Society / Hosta Library 'Diana Remembered'（濃緑地に広い白覆輪）＋園芸標準,濃緑地に幅広の白覆輪が入る斑入り品種で⑦・白覆輪に整合。
+728,アガスタチ（アガスターシェ） ‘ブラックアダ―’,Agastache 'Black Adder',① グリーン系,,False,True,中,RHS / Missouri Botanical Garden Agastache 'Black Adder'（葉は芳香ある緑葉、青紫は花穂）＋園芸標準,青紫は花穂の色で葉は標準的な緑葉のため、ブルー系は誤りで①グリーン系に修正。
+729,アシリウム‘ドレスダガー’,Athyrium filix-femina 'Dre's Dagger',① グリーン系,,True,True,高,RHS / Missouri Botanical Garden Athyrium filix-femina 'Dre's Dagger'（十字咲きの緑葉レディファーン）＋園芸標準,緑色の羽状葉を持つレディファーン選抜で①グリーン系に整合、斑・特殊質感なし。
+730,アスター　デュモーサス‘アポロ’,Aster dumosus 'Apollo',① グリーン系,,True,True,高,RHS Aster dumosus 'Apollo'（矮性、標準的な緑葉）＋園芸標準,標準的な緑葉の矮性クッションアスターで①グリーン系に整合。
+731,アネモネ ハプエンシス var.ジャポニカ ウスピンク（シュウメイギク）,Anemone hupehensis var. japonica,① グリーン系,毛あり,True,True,高,Missouri Botanical Garden Anemone hupehensis var. japonica（三出の緑葉、葉裏・茎に軟毛）＋園芸標準,緑色の三出複葉で①、葉裏・茎に軟毛があり既存の毛ありタグも整合。
+732,アンジェリカ　シルベストゥリス ‘ビカーズ　ミード’,Angelica sylvestris 'Vicar's Mead',⑤ パープル／ブラック系,,True,True,中,RHS Angelica sylvestris 'Vicar's Mead'（暗紫色を帯びた葉と赤紫の茎）＋園芸標準,暗紫色を帯びる葉・赤紫茎の暗葉選抜で⑤パープル/ブラック系に整合。
+733,エキナセア ‘プレイフル　メドーママ’,Echinacea purpurea 'Playful Meadow Mama',① グリーン系,,True,True,高,育成元 / Echinacea purpurea 系（標準的な緑葉、粗い剛毛葉）＋園芸標準,エキナセア標準どおり緑葉で①グリーン系に整合、斑・特殊葉色なし。
+734,カーリメリス　インシサ,Kalimeris incisa,① グリーン系,,True,True,高,MBG Plant Finder / 一次情報＋園芸標準知識（Kalimeris incisaは標準的な緑の披針形葉、斑・特殊質感なし）,細長い緑葉の標準種で斑・特殊質感なく①が妥当、タグ該当なし。
+735,カンパニュラ‘サマータイムブルー’,Campanula 'Summertime Blues',① グリーン系,,True,True,中,育成元流通情報＋園芸標準知識（カンパニュラの緑の基部葉、斑入り選抜ではない）,標準的な緑葉のカンパニュラで①が妥当、タグ該当なし。
+736,ゲラニウム　サンギネウム ‘ニューハンプシャー’,Geranium sanguineum 'New Hampshire',⑧ 季節変化型,秋紅葉,True,True,高,RHS/MBG Geranium sanguineum記載＋園芸標準知識（掌状深裂葉が秋に赤～紅に紅葉）,G. sanguineum系は秋に葉が赤く紅葉し観賞点となるため⑧＋秋紅葉が妥当。
+737,ゲラニウム　サンギネウム ‘マックスフライ’,Geranium sanguineum 'Max Frei',⑧ 季節変化型,秋紅葉,True,True,高,RHS 'Max Frei'記載＋園芸標準知識（G. sanguineumの矮性選抜、秋に赤く紅葉）,G. sanguineumの選抜で生育期は緑・秋に紅葉するため⑧＋秋紅葉が妥当。
+738,ゲラニウム　マクロリズム ‘スペサート’（ゼラニウムルート）,Geranium macrorrhizum 'Spessart',⑧ 季節変化型,"秋紅葉,半常緑",True,True,高,RHS/MBG Geranium macrorrhizum記載＋園芸標準知識（芳香ある半常緑葉、秋～冬に赤褐色に発色）,"G. macrorrhizumは半常緑で秋に赤褐色化するため⑧＋秋紅葉,半常緑が妥当。"
+739,コルヌス　アルバ ‘エレガンティシマ’(ｷﾞﾝﾌﾐｽﾞｷ),Cornus alba 'Elegantissima',⑦ 斑入り,"白覆輪,秋紅葉",True,True,高,RHS Cornus alba 'Elegantissima'記載（灰緑地に不規則な白～クリームの覆輪斑、秋に紅葉）,"白覆輪の斑入り選抜で秋も色づくため⑦＋白覆輪,秋紅葉が妥当。"
+740,コルヌス　アルバ‘オーレア’ （サンゴミズキ　オーレア）,Cornus alba 'Aurea',② ゴールド／ライム系,秋紅葉,True,True,高,RHS Cornus alba 'Aurea'記載（黄金葉～ライムイエロー葉、秋に色づく）,通年黄金葉の選抜で②が妥当、秋の色づきで秋紅葉を維持。
+741,サリクトラム（タリクトラム） ロチブルニエナム,Thalictrum rochebrunianum,③ ブルー系,,True,True,中,MBG/RHS Thalictrum rochebrunianum記載＋園芸標準知識（オダマキ状の青緑・粉白を帯びる小葉）,青緑～グラウカスな小葉が特徴で③が妥当、特殊斑・質感タグは該当なし。
+742,サリクトラム（タリクトラム） ‘エリン’,Thalictrum 'Elin',③ ブルー系,新葉赤,True,True,中,育成元/RHS Thalictrum 'Elin'記載＋園芸標準知識（青灰色のグラウカス葉、新葉・茎が紫褐色を帯びる）,青灰の粉白葉で③が妥当、新葉が紫褐色を帯びるため新葉赤を維持。
+743,サンギソルバ　テヌイフォーリア ‘アルバ’（ﾅｶﾞﾎﾞﾉｼﾛﾜﾚﾓｺｳ）,Sanguisorba tenuifolia 'Alba',① グリーン系,秋紅葉,True,True,中,MBG Sanguisorba記載＋園芸標準知識（緑の羽状複葉、秋に黄～橙褐色に色づく）,生育期は緑の羽状葉で①が妥当、秋の色づきで秋紅葉を維持。
+744,ジーアム（ゲウム） ‘フレームオブパッション’,Geum 'Flame of Passion',① グリーン系,半常緑,True,True,高,育成元/RHS Geum記載＋園芸標準知識（緑のロゼット状葉、暖地では半常緑）,緑葉のロゼットで①が妥当、半常緑性を維持。
+745,ジギタリス　プルプレア ‘モンストローサ ホワイト’,Digitalis purpurea 'Monstrosa White',① グリーン系,毛あり,True,True,高,RHS/NCSU Digitalis purpurea記載＋園芸標準知識（軟毛のある緑の基部葉ロゼット）,軟毛のある緑葉で①が妥当、毛ありタグを維持。
+746,ジプソフィラ　パニキュラータ　 ‘ブリストル　フェアリー’,Gypsophila paniculata 'Bristol Fairy',③ ブルー系,,True,True,中,RHS Plant Finder / MBG（Gypsophila paniculata の葉は glaucous blue-green の記載）。※Web検索枠上限のため一次情報の既知記載＋園芸標準で判定,G. paniculata の葉は粉を帯びた青緑（glaucous）で③ブルー系が整合。特記タグなしを維持。
+747,スズラン　野生種 （コンバラリア　ケイスケイ）,Convallaria keiskei,① グリーン系,,True,True,高,園芸標準知識（スズラン野生種は標準的な緑葉、斑・季節変化なし）。※Web検索枠上限,無斑の標準緑葉で①グリーン系が整合。タグなしを維持。
+748,スピレア　バンホウテイ ‘ピンクアイス’（フイリコデマリ）,Spiraea × vanhouttei 'Pink Ice',⑦ 斑入り,"新葉赤,散斑",True,True,高,育成元・流通情報（Pink Ice はクリーム〜白の散り斑入り、新葉がピンクを帯びる斑入りコデマリ）。※Web検索枠上限,白斑＋新葉ピンクの斑入り選抜で⑦・散斑・新葉赤が整合。
+749,セスレリア　オータムナリス　 ssp.アルジェンティア,Sesleria autumnalis ssp. argentea,② ゴールド／ライム系,半常緑,True,True,低,MBG/RHS（Sesleria autumnalis はライム〜黄緑葉のautumn moor grass）。ssp.argentea の品種固有情報乏しく確認不可。※Web検索枠上限,母種オータムナリスの黄緑〜ライム葉特性に基づく生産者評価を尊重し②を維持（argentea部分は確認材料乏しく確信度低）。
+750,セダム　ユズリエンス ‘ピンクビーコン’,Sedum ussuriense 'Pink Beacon',⑥ ブロンズ／レッド系,銅葉化,True,True,中,流通・育成情報（S. ussuriense は生育・冷涼期に濃緑からブロンズ／赤銅色に発色）。※Web検索枠上限,生育で銅葉化する赤銅系で⑥・銅葉化が整合。
+751,セダム‘マトロナ’,Sedum 'Matrona',③ ブルー系,銅葉化,True,True,中,RHS（Hylotelephium 'Matrona' は灰緑色の多肉葉が紫を帯び、茎は赤紫）。※Web検索枠上限,基調はグレーグリーン（青灰）で紫を帯びる境界的品種、生産者評価の③を尊重して維持。銅葉化タグも矛盾しないため維持。
+752,セダム‘メディオバリエガータム’,Sedum sieboldii 'Mediovariegatum',⑦ 斑入り,"中斑,秋紅葉",True,True,高,RHS/MBG（S. sieboldii 'Mediovariegatum' は青灰葉の中央にクリーム黄の中斑、縁ピンク、秋に紅葉）。※Web検索枠上限,中央斑の斑入りで⑦・中斑・秋紅葉が整合。
+753,セボリー　クリーピングセボリー,Satureja spicigera,① グリーン系,常緑,True,True,高,園芸標準知識（クリーピングセボリーは細い緑の針状葉、常緑〜半常緑）。※Web検索枠上限,標準的な緑葉で①・常緑が整合。
+754,セラトスティグマ　プラムバジノイズ （ルリマツリモドキ）,Ceratostigma plumbaginoides,⑧ 季節変化型,秋紅葉,True,True,高,MBG/NCSU（Ceratostigma plumbaginoides は緑葉が秋に赤〜赤銅色に鮮やかに紅葉）。※Web検索枠上限,秋の紅葉が主観賞点で⑧・秋紅葉が整合。
+755,セントーレア‘ジョイス’,Centaurea montana 'Joyce',④ シルバー系,毛あり,True,True,中,RHS（'Joyce'=‘Amethyst in Snow’、C. montana は白綿毛を帯びた灰緑葉）。※Web検索枠上限,白綿毛による灰緑〜銀灰の葉で境界的だが生産者評価の④を尊重、既検証の毛ありを維持。
+756,タイム　フレンチタイム,Thymus vulgaris 'French',④ シルバー系,常緑,True,True,中,園芸標準知識（フレンチタイムは細い灰緑〜銀灰の葉、常緑）。※Web検索枠上限,灰緑を帯びた葉で境界的だが生産者評価の④を尊重、常緑を維持。
+757,タイム　マスチックタイム,Thymus mastichina,① グリーン系,,True,True,低,園芸標準知識（Thymus mastichina は灰緑〜やや白緑の芳香葉）。品種固有の確認材料乏しい。※Web検索枠上限,灰緑を帯びるが基調は緑で①の生産者評価を維持（銀灰寄りの見方もあり境界的、確信度低）。
+758,ネペタ　ネルボサ ‘ピンクキャット’　,Nepeta nervosa 'Pink Cat',① グリーン系,,True,True,高,RHS/園芸標準知識（Web検索枠上限のため一次照合不可）。Nepeta nervosaは細葉の緑葉キャットミント。,斑や銀・紫等の特徴なく標準的な緑葉のため①で整合、タグ無しで妥当。
+759,ハイドランジア　アルボレッセンス ‘アナベル’,Hydrangea arborescens 'Annabelle',① グリーン系,,True,True,高,MBG Plant Finder既知記載＋園芸標準知識（Web検索枠上限のため未照合）。アナベルは標準的な緑葉。,普通の緑葉で観賞点は花のため①で整合、タグ無しで妥当。
+760,ヒューケラ‘ジンジャーエール’,Heuchera 'Ginger Ale',⑧ 季節変化型,"新葉赤,秋紅葉",True,True,中,育成元/園芸標準知識（Web検索枠上限のため未照合）。villosa系でシルバー〜アンバー（キャラメル）に季節変化しローズを帯びる。,銀〜琥珀色で低温期にローズを帯びる季節変化型として⑧・タグ整合、境界的だが生産者評価を尊重し維持。
+761,ヒューケラ‘ブラックビューティー’,Heuchera 'Black Beauty',⑤ パープル／ブラック系,半常緑,False,True,高,育成元/園芸標準知識（Web検索枠上限のため未照合）。'Black Beauty'は黒紫のフリル葉が通年の主色。,黒紫葉が主色であり④シルバーは明確な誤りのため⑤へ修正、常緑性タグ半常緑は維持。
+762,ヒューケレラ‘タペストリー’,× Heucherella 'Tapestry',④ シルバー系,"常緑,銀粉",True,True,低,育成元/園芸標準知識（Web検索枠上限のため未照合）。'Tapestry'は青緑〜銀緑地に赤紫の中央斑・葉脈。,青緑〜銀緑地で銀粉状の光沢を持つとの生産者評価は境界的だが明確な誤りとは言えず現状維持。
+763,フィソカルパス‘サマーワイン’ （ｱﾒﾘｶﾃﾏﾘｼﾓﾂｹ ｻﾏｰﾜｲﾝ）,Physocarpus opulifolius ‘Summer Wine’,⑤ パープル／ブラック系,新葉赤,False,False,高,MBG/育成元既知記載＋園芸標準知識（Web検索枠上限のため未照合）。'Summer Wine'はDiabolo×Nanusで深いワインレッド〜紫の銅葉が通年の主色。,通年濃いワイン紫の暗色葉が主色で①グリーンは明確な誤りのため⑤へ修正、新葉が鮮やかな赤紫に萌えるため新葉赤を付与。
+764,ペニセタム　マクロウルム,Pennisetum macrourum,① グリーン系,,True,True,高,園芸標準知識（Web検索枠上限のため未照合）。アフリカ原産の細葉の緑葉グラス。,標準的な緑葉のグラスで①で整合、タグ無しで妥当。
+765,ヘリアンサス‘ハピーデイズ’ （ヤナギバヒマワリ）,Helianthus 'Happy Days',① グリーン系,,True,True,高,園芸標準知識（Web検索枠上限のため未照合）。ヤナギバヒマワリ系の緑葉。,標準的な緑葉で①で整合、タグ無しで妥当。
+766,ベルゲニア　コーディフォリア ‘ﾆｭｰｳｨﾝﾀｰﾌﾗﾜﾘﾝｸﾞHybｓ’,Bergenia cordifolia,⑧ 季節変化型,"常緑,冬発色",True,True,高,RHS/MBG既知記載＋園芸標準知識（Web検索枠上限のため未照合）。Bergeniaは常緑革質葉で冬に赤〜紫に発色。,常緑葉が冬に赤銅色へ発色する典型で⑧・常緑・冬発色すべて整合、現状維持。
+767,ペルシカリア　アンプレクシカウリス ‘エレガンスピンク’,Persicaria amplexicaulis 'Elegance Pink',① グリーン系,,True,True,高,RHS既知記載＋園芸標準知識（Web検索枠上限のため未照合）。P. amplexicaulisは標準的な緑葉。,普通の緑葉で観賞点は花穂のため①で整合、タグ無しで妥当。
+768,ヘレボラス‘ジャネットスターンズ’,Helleborus argutifolius 'Janet Starnes',⑦ 斑入り,"新葉赤,散斑",False,False,高,RHS/育成元既知記載＋園芸標準知識（Web検索枠上限のため未照合）。'Janet Starnes'はコルシカヘレボルスの斑入り選抜で葉にクリーム白の散り斑、新葉はピンクを帯びる。,クリーム白の散斑が主たる観賞価値の斑入り選抜であり⑧より⑦が適切、散斑を付与し新葉赤は維持。
+769,ホスタ　ヒメギボウシ　斑入り,Hosta venusta 'Variegated',⑦ 斑入り,,True,True,中,園芸標準知識（Web検索枠上限のため未照合）。ヒメギボウシの斑入り選抜。斑パターンは選抜により覆輪/中斑と一定せず特定困難。,斑入り品種で⑦は整合、具体的な斑パターンが特定できないため斑タグは付けず現状維持。
+770,ホスタ‘クリスマスページェント’,Hosta 'Christmas Pageant',⑦ 斑入り,"黄覆輪,白覆輪",True,True,低,一次情報（Hosta Library系記載）＋園芸標準知識に基づく。Web検索枠上限で品種固有ページ未照合,覆輪斑入りホスタで主分類⑦は妥当。覆輪色（黄→白へ退色）の細部は未確認のため現マスタ維持
+771,ホスタ‘ゴールドスタンダード’,Hosta'Gold Standard',⑦ 斑入り,中斑,True,True,高,MBG/AHS Hosta記載＋園芸標準知識に基づく（黄金中央＋濃緑覆輪の中透け斑）。Web照合は検索枠上限,黄金色の中央に濃緑覆輪が入る中斑（メディオ）斑入りの代表品種で⑦・中斑ともに整合
+772,ホスタ‘ホワイトクリスマス’,Hosta 'White Christmas',⑦ 斑入り,中斑,True,False,中,AHS/Hosta Library記載＋園芸標準知識に基づく（白中央に緑覆輪の白中斑品種）。Web照合は検索枠上限,白色中央×緑縁の白中斑品種で⑦・中斑は妥当だが、白は中央であり葉縁ではないため誤記の白覆輪を削除
+773,ミスカンサス　シネンシス　 f.グラシリマス（イトススキ）,Miscanthus sinensis f. gracillimus,① グリーン系,秋紅葉,True,True,高,MBG Plant Finder / NCSU Plant Toolbox記載＋園芸標準知識（細葉緑葉、秋に金〜銅色）。Web照合は検索枠上限,細い緑葉のイトススキで生育期は緑、秋に金銅色へ紅葉するため①＋秋紅葉で整合
+774,ミューレンベルギア　カピラリス,Muhlenbergia capillaris,① グリーン系,秋紅葉,True,True,高,NCSU Plant Toolbox / MBG記載＋園芸標準知識（緑〜青緑葉、秋に銅褐色）。Web照合は検索枠上限,ピンクミューリーは生育期緑葉、秋に銅褐色化するため①＋秋紅葉で整合
+775,ミント　 ケンタッキーカーネルミント,Mentha spicata 'Kentucky Colonel',① グリーン系,,True,True,高,大学Extension（スペアミント系）記載＋園芸標準知識（大型緑葉のスペアミント）。Web照合は検索枠上限,標準的な緑葉のスペアミント選抜で①・タグ無しで整合
+776,ミントブッシュ,Prostanthera sp.,① グリーン系,常緑,True,True,中,園芸標準知識（Prostanthera属は常緑低木、緑葉）。属レベルのため確信度中。Web照合は検索枠上限,常緑・緑葉の低木で①＋常緑は妥当。種未特定のため確信度中で現状維持
+777,ムクデニア　ロッシー‘カラスバ’ （イワヤツデ・タンチョウ草）,Mukdenia rossii 'Karasuba',⑧ 季節変化型,"秋紅葉,新葉赤",True,True,中,MBG Plant Finder（'Crimson Fans'）＋園芸標準知識（緑葉→葉先から紅〜赤へ、秋に全体紅葉）。Web照合は検索枠上限,季節で緑→紅へ大きく変化する観賞点で⑧が妥当。紅葉・葉先の赤み変化を示すタグは概ね整合のため現状維持
+778,モナルダ‘ビー　ブライト’,Monarda 'Bee-Bright',① グリーン系,,True,True,高,育成元（Bee-シリーズ タイマツバナ）記載＋園芸標準知識（緑葉）。Web照合は検索枠上限,標準的な緑葉のモナルダで①・タグ無しで整合
+779,ユーパトリウム　マクラツム ‘ゲートウェイ’,Eupatorium maculatum 'Gateway',① グリーン系,,True,True,高,MBG Plant Finder / NCSU（Eutrochium maculatum 'Gateway'）記載＋園芸標準知識（緑葉、茎に赤斑）。Web照合は検索枠上限,ジョーピーウィードは緑葉（茎に赤斑が入るが葉は緑）で①・タグ無しで整合
+780,リクニス　ハーゲアーナ ‘モルテン　ラバ’,Lychnis×haageana ‘Molten Lava’,⑥ ブロンズ／レッド系,半常緑,True,True,中,育成元/流通記載＋園芸標準知識（'Molten Lava'は暗銅色〜赤褐色の葉が特徴）。Web照合は検索枠上限,銅葉が通年の主観賞点である選抜で⑥は妥当。既存の半常緑は矛盾しないため現状維持
+781,ルーコセプトラム　ジャポニカム ‘オーレウム’（ﾃﾝﾆﾝｿｳ黄金葉）,Leucosceptrum japonicum f. aureum,② ゴールド／ライム系,,True,True,高,育成元/流通記載＋園芸標準知識（テンニンソウ黄金葉、ライム〜黄金色の葉）。Web照合は検索枠上限,黄金葉フォルマの選抜で②は明確に整合、追加タグ不要
+782,ロサ‘アデレードフードレス’ （バラ）,Rosa 'Adelaide Hoodless',① グリーン系,秋紅葉,True,True,中,一次情報（カナダ・パークランド系耐寒バラの標準記載）＋園芸標準に基づく。Web検索枠上限のため既知記載で判定。,パークランド系シュラブローズで葉は標準的な緑葉のため①。秋の葉色変化は顕著でないが現マスタの秋紅葉は明確な矛盾がないため維持。
+783,ロサ‘サートーマス　リプトン’ （バラ）,Rosa 'Sir Thomas Lipton',① グリーン系,,True,True,中,一次情報（ハンザ系ハイブリッド・ルゴサの標準記載）＋園芸標準に基づく。Web検索枠上限のため既知記載で判定。,ルゴサ系交配種で深緑の皺葉。主色は緑のため①、特記すべき葉色記述子なしで空を維持。
+784,ロジャージア ピンナータ'スカーレット' （ロジャージア　赤花）,Rodgersia pinnata 'Scarlet',⑥ ブロンズ／レッド系,新葉赤,True,True,中,RHS/MBG既知記載（Rodgersia pinnata：新葉ブロンズ〜赤銅、葉脈にブロンズを帯び秋に赤銅化）＋園芸標準。Web検索枠上限のため既知記載で判定。,R. pinnataは新葉が赤銅色でブロンズを帯びる。'Scarlet'の生産者評価⑥は境界的だが尊重して維持、新葉赤タグも整合。
+785,ロニセラ‘アメリカーナ’ （ハニーサックル）,Lonicera × americana,③ ブルー系,半常緑,True,True,中,RHS既知記載（Lonicera × americana：葉はglaucous grey-green、抱茎の合着葉）＋園芸標準。Web検索枠上限のため既知記載で判定。,葉は白粉を帯びた青緑（glaucous）のため③は妥当、半常緑タグも既検証情報として維持。
+786,スカビオサ　コウカシカ ‘パーフェクタ’（ﾌﾞﾙｰﾊﾟｰﾌｪｸｼｮﾝ）,Scabiosa caucasica 'Blue Perfection',④ シルバー系,,True,True,中,RHS/MBG既知記載（Scabiosa caucasica：基部葉は灰緑（grey-green）でやや白粉を帯びる）＋園芸標準。Web検索枠上限のため既知記載で判定。,コーカサスマツムシソウの葉は灰緑で①緑↔④シルバーの境界。生産者評価④を尊重して維持。
+787,ネペタ　サブセッシリス ‘ブルードリーム’,Nepeta subsessilis 'Blue Dreams',① グリーン系,,True,True,高,MBG/RHS既知記載（Nepeta subsessilis：N. mussiniiと異なり灰葉でなく光沢のある緑葉）＋園芸標準。Web検索枠上限のため既知記載で判定。,本種は灰葉のキャットミントと異なり光沢のある緑葉のため①で正しい。
+788,ヘデラ　ヘリックス　var.バルチカ,Hedera helix var. 'Baltica',⑧ 季節変化型,"常緑,冬発色",True,True,中,一次情報（Hedera helix 'Baltica'：小型緑葉で白脈、冬季に紫〜ブロンズに発色する耐寒選抜）＋園芸標準。Web検索枠上限のため既知記載で判定。,"常緑だが冬に紫〜ブロンズへ発色する既知特性があり⑧＋常緑,冬発色は整合、境界的だが生産者評価を尊重し維持。"
+789,ミューレンベルギア　リジェンス,Muhlenbergia rigens,① グリーン系,,False,True,中,MBG/NCSU既知記載（Muhlenbergia rigens ディアグラス：葉は緑〜灰緑の細葉で噴水状。青葉系ではない）＋園芸標準。Web検索枠上限のため既知記載で判定。,ディアグラスの葉は緑〜灰緑でFestuca glaucaのような青葉ではないため③は誤り、①グリーン系へ修正。
+790,ミント　ニホンハッカ　ホクト,Mentha arvensis var. piperascens,① グリーン系,,True,True,高,園芸標準（ニホンハッカ：芳香のある標準的な緑葉）に基づく。Web検索枠上限のため既知記載で判定。,和ハッカは標準的な緑葉のため①で正しく、追加記述子なし。
+791,ゲラニウム　エンドレッシー,Geranium endressii,① グリーン系,半常緑,True,True,高,RHS/MBG既知記載（Geranium endressii：明緑色の深裂葉、半常緑）＋園芸標準。Web検索枠上限のため既知記載で判定。,明緑色の掌状葉で銀・紫斑を持たないため①、半常緑タグも整合し維持。
+792,アストランティア　マヨール ‘シャギー’,Astrantia major subsp. involucrata 'Shaggy',① グリーン系,,True,True,高,RHS既知記載（Astrantia major 'Shaggy'：緑色の掌状分裂葉）＋園芸標準。Web検索枠上限のため既知記載で判定。,掌状の緑葉で斑・銅葉なしのため①で正しく、追加記述子なし。
+793,コエレリア　グラウカ,Koeleria glauca,③ ブルー系,半常緑,True,True,高,RHS/MBG既知記載（Koeleria glauca ブルーヘアーグラス：白粉を帯びた青灰色の細葉）＋園芸標準。Web検索枠上限のため既知記載で判定。,種小名glauca通り青灰色の白粉葉で③は正しく、半常緑タグも整合し維持。
+794,ポア　グラウカ‘ブルーヒルズ’,Poa glauca 'Blue Hills',③ ブルー系,半常緑,True,True,中,一次情報（Poa glauca はglaucous blue-grey葉のイネ科；'Blue Hills'は青葉選抜）＋園芸標準に基づく（Web検索枠上限のため未照合）,グラウカ種＝青灰色の葉、'Blue Hills'は青葉選抜のため③で整合、半常緑も常緑性列と一致。
+795,アスター　‘ビクトリア’,Aster 'Victoria',① グリーン系,,True,True,中,園芸標準知識に基づく（Aster属交配種は標準的な緑葉；Web検索枠上限のため品種固有未照合）,アスター交配種で葉は標準的な緑、斑・特殊色の記載なく①で整合。
+796,アネモネ　マルチフィダ（ムルチフィダ） ‘マヨール’,Anemone multifida 'Major',① グリーン系,,True,True,中,一次情報（Anemone multifida は深裂した緑葉、絹毛あり）＋園芸標準に基づく（Web検索枠上限のため未照合）,深裂した緑葉で主色は緑のため①で整合；有毛だが軟毛の度合いが品種で未確認のためタグは現状維持。
+797,アスクレピアス　アスペルラ,Asclepias asperula,① グリーン系,,True,True,低,一次情報（Asclepias asperula/antelope horns は灰緑〜緑の細葉）＋園芸標準に基づく（Web検索枠上限のため未照合）,灰緑がかるが銀葉と呼べる程ではなく主色は緑、境界的だが生産者評価を尊重し①維持。
+798,グロビュラリア　トリコサンタ,Globularia trichosantha,① グリーン系,常緑,True,True,中,一次情報（Globularia trichosantha は常緑のロゼット状緑葉マット）＋園芸標準に基づく（Web検索枠上限のため未照合）,常緑の緑葉ロゼットで①・常緑ともに整合。
+799,トロリウス　ユーロペウス ‘イエロークィーン’,Trollius europaeus 'Yellow Queen',① グリーン系,,True,True,高,一次情報（Trollius europaeus は掌状に深裂した緑葉、'Yellow Queen'は花色選抜）＋園芸標準に基づく（Web検索枠上限のため未照合）,葉は標準的な緑、'Yellow Queen'は花色を指す名で葉色は緑のため①で整合。
+800,プルモナリア ‘シシングハースト ホワイト’,Pulmonaria officinalis 'Sissinghurst White',⑦ 斑入り,"半常緑,散斑",True,True,高,一次情報（Pulmonaria officinalis 系は緑地に白〜銀の斑点＝spotted leaves）＋園芸標準に基づく（Web検索枠上限のため未照合）,緑地に不規則な白斑点が主観賞点で⑦・散斑が整合、半常緑も常緑性列と一致。
+801,エキナセア‘ファイアリーメドーママ’,Echinacea 'Fiery Meadow Mama',① グリーン系,,True,True,高,園芸標準知識に基づく（Echinacea 交配種は標準的な緑葉；'Fiery Meadow Mama'は花色系品種名。Web検索枠上限のため品種固有未照合）,エキナセアの葉は標準的な緑で斑・特殊色なし、品種名は花を指すため①で整合。
+802,ハイドランジア　パニキュラータ ‘オーレア’（ﾉﾘｳﾂｷﾞ ｵｵｺﾞﾝﾊﾞ),Hydrangea paniculata 'Aurea',② ゴールド／ライム系,,True,True,高,一次情報（Hydrangea paniculata 'Aurea'＝黄金葉ノリウツギ選抜、'Aurea'名は黄金葉を示す）＋園芸標準に基づく（Web検索枠上限のため未照合）,'Aurea'（黄金葉）選抜で黄金〜ライムの葉が主色のため②で整合。
+803,ヘメロカリス‘ハイペリオン’,Hemerocallis 'Hyperion',① グリーン系,,True,True,高,一次情報（Hemerocallis 'Hyperion'は緑の細長い剣状葉の古典的デイリリー）＋園芸標準に基づく（Web検索枠上限のため未照合）,ヘメロカリスの葉は標準的な緑の剣状葉で①で整合。
+804,ゲラニウム ‘オリオン’,Geranium 'Orion',① グリーン系,秋紅葉,True,False,中,一次情報（Geranium 'Orion'は緑葉で秋に良好な紅葉、宿根性で寒冷地では冬季落葉）＋園芸標準に基づく（Web検索枠上限のため未照合）,葉主色は緑で秋紅葉は妥当だが、同行の常緑性列が『冬季落葉』のため矛盾する半常緑タグを削除。
+805,ヘレニウム‘タイダイ’,Helenium autumnale 'Tie dye',① グリーン系,,False,False,中,一次情報（Helenium autumnale は緑の披針形葉、'Tie dye'は多色の花を指す品種名）＋園芸標準に基づく（Web検索枠上限のため未照合）,ヘレニウムの葉は通年緑で季節的な大きな葉色変化や新葉の赤みは顕著でなく、'季節変化型/新葉赤'は花特性の誤反映と判断し①へ修正・新葉赤を削除。
+806,ベロニカ‘サニーボーダーブルー’,Veronica 'Sunny Border Blue',① グリーン系,半常緑,True,True,中,MBG/RHS既知記載＋園芸標準知識（Web検索枠上限のため一次照合不可）,しわのある濃緑葉の標準的グリーンで①、半常緑タグも常緑性列と整合し維持。
+807,ポテンチラ ‘アーカンシエル’,Potentilla 'Arc-en-Ciel',① グリーン系,,True,True,中,RHS既知記載＋園芸標準知識（Web検索枠上限のため一次照合不可）,イチゴ状複葉の緑葉が主色で①、季節変化・斑なくタグ空を維持。
+808,ベロニカストラム バージニカム‘エリカ’,Veronicastrum virginicum 'Erika',⑧ 季節変化型,新葉赤,True,True,低,NCSU/MBG既知記載＋園芸標準知識（Web検索枠上限のため品種固有照合不可）,品種固有情報が乏しく、新葉の赤み帯びを評価した生産者判定を尊重し境界的として現状維持。
+809,ホスタ‘ナイトビフォークリスマス’,Hosta 'Night Before Christmas',⑦ 斑入り,中斑,True,False,高,American Hosta Society/MBG既知記載＋園芸標準知識（Web検索枠上限のため一次再照合不可）,本品種は中央が白・葉縁が濃緑の中斑（メディオ）型で葉縁は緑のため、白覆輪タグは誤り、中斑のみに修正。
+810,アキレジア‘ボルドーバロー’,Aquilegia vulgaris var. stellata plena 'Bordeaux Barlow',③ ブルー系,,True,True,中,RHS既知記載＋園芸標準知識（Web検索枠上限のため一次照合不可）,オダマキの粉白を帯びた青緑（グロコース）葉で③、境界的だが生産者評価を尊重し維持。
+811,カレックス ディバルサ,Carex divulsa,① グリーン系,常緑,True,True,高,NCSU Plant Toolbox既知記載＋園芸標準知識（Web検索枠上限のため一次再照合不可）,細葉の標準緑スゲで①、暖地常緑の性質と常緑タグが整合し維持。
+812,ヒューケラ アメリカーナ ‘デイルズストレイン’,Heuchera americana 'Dale's Strain',④ シルバー系,秋紅葉,False,True,中,MBG Plant Finder既知記載（'Dale's Strain'＝銀灰青のマーブル葉選抜）＋園芸標準知識（Web検索枠上限のため一次再照合不可）,本ストレインは銀灰〜青のマーブル葉を主観賞点として選抜された系統のため①は誤り、④シルバー系へ修正。冷涼期に赤みを帯びる秋紅葉タグは維持。
+813,オリエンタルポピー‘メイクィーン’,Papaver orientale plena 'May queen',① グリーン系,毛あり,False,False,中,RHS/MBG既知記載（オリエンタルポピーは粗い有毛の緑葉）＋園芸標準知識（Web検索枠上限のため一次再照合不可）,オニゲシ類の葉は剛毛のある緑（やや灰緑）で青葉ではないため③は誤り、①へ修正し有毛の特徴から毛ありを付与。
+814,パニカム バーゲタム ‘ブルージャイアント’,Panicum virgatum 'Blue Giants',③ ブルー系,,True,True,中,MBG/NCSU既知記載（Panicum青葉系）＋園芸標準知識（Web検索枠上限のため一次照合不可）,青緑の葉を持つスイッチグラス青葉系で③、タグ空を維持。
+815,パニカム バーゲタム ‘エメラルドチーフ’,Panicum virgatum 'Emerald Chief',① グリーン系,秋紅葉,True,True,中,MBG/NCSU既知記載（Panicum virgatumは秋に黄〜赤紫に色付く）＋園芸標準知識（Web検索枠上限のため一次照合不可）,生育期は緑葉で①、スイッチグラス共通の秋の発色があり秋紅葉タグを維持。
+816,パルセニウム インテグリフォリアム,Parthenium integrifolium,① グリーン系,,True,True,中,NCSU/Prairie Moon既知記載（ワイルドキニーネ＝粗いザラつく緑葉）＋園芸標準知識（Web検索枠上限のため一次照合不可）,ざらつく標準緑葉で①、斑・季節変化なくタグ空を維持。
+817,ヤブラン（リリオペ）‘オキナ’,Liriope muscari 'Okina',⑧ 季節変化型,"クリーム葉,常緑",True,True,中,育成元・園芸流通情報既知記載（'翁'は新葉が白〜クリームで展開し生育で緑化）＋園芸標準知識（Web検索枠上限のため一次再照合不可）,新葉が白〜クリームで出て後に緑化する季節変化型で⑧、常緑性とクリーム葉タグが整合し維持。
+818,アルケミラ セリカータ ‘ゴールドストライク’,Alchemilla sericata 'Gold Strike',② ゴールド／ライム系,半常緑,True,True,低,RHS/流通園芸情報および園芸標準知識（Web検索枠上限のため一次サイト直接照合不可）,銀毛のある小型アルケミラで葉に金色が乗る選抜。金葉トーン主体との生産者評価を尊重し②維持（金の散斑変異が確認されれば⑦の可能性あり／確信度低）。
+819,リモニウム‘ブルーダイアモンド’,Limonium 'Blue Diamond',① グリーン系,半常緑,True,True,中,MBG/RHS Limonium（スターチス）一般記載＋園芸標準知識,青は花色で葉はロゼット状の緑葉のため①が妥当。半常緑タグは常緑性列と整合。
+820,プリムラ　ジャポニカ ‘アップルブロッサム'（ｸﾘﾝｿｳ）,Primula japonica 'Appleblossom',① グリーン系,,True,True,高,MBG Plant Finder Primula japonica（クリンソウ）一般記載＋園芸標準知識,カンデラブラ型プリムラでロゼットの明緑葉が主色のため①で整合。
+821,カレックス フラジェリフェア ‘キウイ’,Carex flagellifera 'Kiwi',② ゴールド／ライム系,常緑,True,True,中,RHS/流通園芸情報（原種は銅葉、'Kiwi'は明るいライム緑選抜）＋園芸標準知識,原種は銅色葉だが'Kiwi'はフレッシュなライムグリーンの選抜のため②で妥当。常緑タグはスゲ属常緑性と整合。
+822,トロリウス カルトラム ‘ニュームーン’,Trollius × cultorum 'New moon',① グリーン系,,True,True,高,RHS Trollius × cultorum 一般記載＋園芸標準知識,掌状深裂の濃緑葉が主色のため①で整合。
+823,ポルモニウム カエルレウム ‘フィリグリークラウド’,Polemonium caeruleum f. dissectum 'Filigree Clouds',① グリーン系,,True,True,中,RHS Polemonium caeruleum／f. dissectum 一般記載＋園芸標準知識,「フィリグリー」は微細裂葉（dissectum）を指し斑入りではない。羽状の緑葉が主色のため①で整合。
+824,ポルモニウム カエルレウム ‘フィリグリースカイ’,Polemonium caeruleum f.dissectum 'Filigree Skies',① グリーン系,,True,True,中,RHS Polemonium caeruleum／f. dissectum 一般記載＋園芸標準知識,微細裂葉の緑葉が主色で斑入りではないため①で整合。
+825,ポルモニウム ボレアル ‘ヘブンリーハビット’,Polemonium boreale 'Heavenly Habit',① グリーン系,,True,True,中,RHS Polemonium boreale 一般記載＋園芸標準知識,羽状複葉の緑葉が主色のため①で整合。
+826,ティアレラ　ウェリー,Tiarella wherryi,① グリーン系,,False,True,中,NCSU Plant Toolbox Tiarella cordifolia/wherryi（https://plants.ces.ncsu.edu/plants/tiarella-cordifolia/）緑葉・葉脈に赤褐色の斑、青葉の記載なし,ティアレラ・ウェリーは明緑葉（葉脈沿いに赤褐色斑）が主色で青葉ではない。③ブルー系は明確な誤りのため①へ修正。
+827,サルビア プラテンシス ‘スカイダンス’,Salvia pratensis 'Sky Dance',① グリーン系,半常緑,True,True,中,RHS/MBG Salvia pratensis 一般記載＋園芸標準知識,根生葉はやや皺のある緑葉が主色のため①で整合。半常緑タグは常緑性列と整合。
+828,フロックス ディバリカータ ‘クラウドオブパフューム’,Phlox divaricata 'Clouds of Perfume',① グリーン系,半常緑,True,True,中,MBG Plant Finder Phlox divaricata 一般記載＋園芸標準知識,森林性フロックスで緑葉が主色のため①で整合。半常緑タグは常緑性列と整合。
+829,アスター デュモーサス ‘シュニーケッセン’,Aster dumosus'Schneekissen',① グリーン系,,True,True,高,RHS Symphyotrichum/Aster dumosus 一般記載＋園芸標準知識,小型クッション状アスターで緑葉が主色のため①で整合。
+830,フェスツーカ スコパリア（ホビット）,Festuca gautieri,① グリーン系,常緑,True,True,高,"RHS/NCSU（Festuca gautieri, bearskin fescue）＋園芸標準知識",細い針状の鮮緑葉で常緑クッションを作る標準緑葉のため①・常緑で整合。
+831,エリオゴナム アレニー 'リトルラスカル',Eriogonum allenii 'Little Rascal',④ シルバー系,"毛あり,半常緑",True,True,中,NCSU Plant Toolbox（Eriogonum allenii）＋園芸標準知識（一次情報＋園芸標準に基づく）,葉裏が白綿毛で灰緑〜銀灰に見える有毛葉、境界的だが生産者評価の④シルバーと毛あり・半常緑で整合。
+832,アガスタチ（アガスターシェ） ‘レッドフォーチュン’,Agastache mexicana 'Red fortune',① グリーン系,毛あり,True,True,中,RHS/一般園芸情報（Agastache mexicana）＋園芸標準知識,芳香ある緑葉で標準緑、微毛のある葉のため①・毛ありで整合。
+833,アスチルベ‘デルフトレース’,Astilbe 'Delft Lace',③ ブルー系,"新葉赤,ワックス質",True,True,高,"育成元PBR（Delft Lace, PP19839）＋RHS記載（青緑・ワックス質葉、新葉赤み）",ロウ質の青緑葉が通年の主色で新葉が赤みを帯びる名花のため③・新葉赤・ワックス質で整合。
+834,プリムラ‘プリマデイエンテローズ’,Primula cortusoides 'Primadiente Rose',① グリーン系,,True,True,中,一般園芸情報（Primula cortusoides）＋園芸標準知識（一次情報＋園芸標準に基づく）,しわのある柔らかな緑葉で標準緑のため①、特筆タグなしで整合。
+835,ベロニカストラム　バージニカム f.アルビフローラム,Veronicastrum virginicum f.albiflorum,① グリーン系,秋紅葉,True,True,中,MBG/RHS（Veronicastrum virginicum）＋園芸標準知識,輪生の緑葉で主色は緑、秋に黄〜黄銅色に色づくため①・既存の秋紅葉を維持。
+836,シダルセア'ビアンカ',Sidalcea candida 'Bianca',① グリーン系,,True,True,中,一般園芸情報（Sidalcea candida）＋園芸標準知識,掌状に切れ込む緑葉で標準緑のため①、特筆タグなしで整合。
+837,アンジェリカ　シルベストゥリス'エボニー',Angelica sylvestris 'Ebony',⑤ パープル／ブラック系,,True,True,高,RHS/育成元（Angelica sylvestris 'Ebony'）暗紫黒葉・黒軸選抜,濃い紫黒葉・黒茎の暗色選抜で通年紫黒が主色のため⑤で整合。
+838,アジュガ‘ブラックスカロップ’,Ajuga reptans 'Black Scallop',⑤ パープル／ブラック系,常緑,True,True,高,育成元PBR/RHS（Ajuga reptans 'Black Scallop'）黒紫の光沢波状葉・常緑,光沢のある黒紫の波状葉が通年の主色で常緑のため⑤・常緑で整合。
+839,リスラム　サリカリア‘ハピースノー’,Lythrum salicaria 'Happy Snow',① グリーン系,,True,True,中,MBG/RHS（Lythrum salicaria）＋園芸標準知識,披針形の緑葉で標準緑のため①、特筆タグなしで整合。
+840,アスチルベ‘スポットライト’,Astilbe chinensis 'Spotlight',① グリーン系,,True,True,中,一般園芸情報（Astilbe chinensis 'Spotlight'）＋園芸標準知識,細裂する緑葉で標準緑のため①、特筆タグなしで整合。
+841,アストランティア‘ベニス’,Astrantia major 'Venice',① グリーン系,毛あり,True,True,中,RHS（Astrantia major 'Venice'）＋園芸標準知識（一次情報＋園芸標準に基づく）,掌状に分裂する緑葉で主色は緑のため①、既検証の毛ありは明確な矛盾がないため維持。
+842,エリムス　カナデンシス ‘アイシーブルー’,Elymus canadensis 'Icy Blue',③ ブルー系,,True,True,中,一次情報（MBG/NCSU Elymus canadensis）既知記載＋園芸標準知識に基づく（Web検索枠上限のため未照合）,カナダワイルドライの青葉選抜で全体に灰青（ブルーグレー）の葉のため③で妥当。タグは追加根拠が曖昧なため現状維持。
+843,エリンジウム　プラナム ‘ブルーグリター’,Eryngium planum 'Blue Glitter',③ ブルー系,,True,True,中,一次情報（RHS/MBG Eryngium planum）既知記載＋園芸標準知識に基づく（Web検索枠上限のため未照合）,根出葉は緑だが開花期に茎・苞・葉が鋼青色を帯びる観賞特性で境界的、生産者評価の③を尊重し維持。
+844,エリンジウム　プラナム　 ‘ホワイトグリター’,Eryngium planum 'White Glitter',④ シルバー系,,True,True,中,一次情報（MBG Eryngium planum）既知記載＋園芸標準知識に基づく（Web検索枠上限のため未照合）,'Blue Glitter'の白花・銀白苞タイプで銀白の色調を呈する境界的分類、生産者評価の④を尊重し維持。
+845,カレックス　ショーティアーナ,Carex shortiana,① グリーン系,,False,False,高,一次情報（NCSU/USDA Carex shortiana）既知記載＋園芸標準知識に基づく（Web検索枠上限のため未照合）,ショーツセッジは湿地性の標準緑葉種で青葉ではないため③→①に修正。常緑性列が冬季落葉のため矛盾する常緑タグを削除。
+846,ゲラニウム‘フェイアンナ’,Geranium wlassovianum 'Fay Anna',⑧ 季節変化型,"新葉赤,秋紅葉",True,True,高,一次情報（RHS Geranium wlassovianum）既知記載＋園芸標準知識に基づく（Web検索枠上限のため未照合）,新葉が銅赤で展開し夏に緑、秋に赤橙へ紅葉する典型的季節変化型で⑧・新葉赤・秋紅葉とも整合。
+847,ソリダコ　'ファイヤーワークス',Solidago rugosa 'Fireworks',① グリーン系,,True,True,高,一次情報（MBG/NCSU Solidago rugosa 'Fireworks'）既知記載＋園芸標準知識に基づく（Web検索枠上限のため未照合）,細葉の標準的な緑葉で観賞点は花、葉色は通年緑のため①で妥当・タグなしで整合。
+848,タイム　マジックカーペット,Thymus serpyllum 'Magic Carpet',① グリーン系,,True,True,高,一次情報（RHS Thymus serpyllum）既知記載＋園芸標準知識に基づく（Web検索枠上限のため未照合）,クリーピングタイムの小型緑葉で①で妥当。半常緑タグ付与は任意で曖昧なため現状維持。
+849,ツタ　アメリカヅタ ‘バージニアクリーパー’斑入り,Parthenocissus quinquefolia,⑦ 斑入り,"散斑,秋紅葉",False,False,中,一次情報（MBG/NCSU Parthenocissus quinquefolia 斑入り選抜）既知記載＋園芸標準知識に基づく（Web検索枠上限のため未照合）,品種名に『斑入り』とあり斑入り優先原則で②→⑦に修正、白～クリームの散り斑と秋の紅葉が顕著なため散斑・秋紅葉を付与。
+850,ヒューケラ サンギネア ‘ホワイトクラウド’,Heuchera sanguinea 'White Cloud',① グリーン系,半常緑,True,True,高,一次情報（NCSU Heuchera sanguinea）既知記載＋園芸標準知識に基づく（Web検索枠上限のため未照合）,サンギネア系は緑葉（'White Cloud'は白花選抜）で紫葉ではないため①で妥当、半常緑タグも整合。
+851,プリムラ デンティキュラータ `ブルーセレクション',Primula denticulata 'Blue Selection',① グリーン系,,True,True,高,一次情報（RHS Primula denticulata）既知記載＋園芸標準知識に基づく（Web検索枠上限のため未照合）,ドラムスティックプリムラの緑のロゼット葉で（『ブルー』は花色）葉は通年緑のため①・タグなしで整合。
+852,フロミス　ルッセリアーナ,Phlomis russeliana,④ シルバー系,"半常緑,毛あり",True,True,中,一次情報（RHS Phlomis russeliana）既知記載＋園芸標準知識に基づく（Web検索枠上限のため未照合）,大型のハート形葉が軟毛で覆われ灰緑～銀緑を呈する境界的分類、生産者評価の④を尊重し維持、半常緑・毛ありも整合。
+853,ベルゲニア　エメイエンシス,Bergenia emeiensis,⑧ 季節変化型,"常緑,秋紅葉",True,True,中,一次情報（RHS Bergenia emeiensis）既知記載＋園芸標準知識に基づく（Web検索枠上限のため未照合）,常緑の光沢緑葉が寒冷期に赤銅色へ発色するベルゲニア特有の季節変化で⑧、常緑・秋紅葉タグとも整合。
+854,ベルゲニア　コーディフォリア　 ‘スノータイム’,Bergenia cordifolia 'Snow Time',① グリーン系,常緑,True,True,中,RHS/MBG Bergenia cordifolia 記載＋園芸標準知識（Web検索枠上限のため既知一次情報に基づく）,ベルゲニアは大型光沢のある常緑グリーン葉が主色で①が妥当。'Snow Time'は白花選抜で葉は緑、常緑タグも整合のため現状維持。
+855,モリニア　カエルレア　 ‘ハイデブラウト’,Molinia caerulea 'Heidebraut',⑧ 季節変化型,秋紅葉,True,True,高,RHS Molinia caerulea 'Heidebraut'／園芸標準知識（Web検索枠上限のため既知一次情報に基づく）,夏緑葉が秋に黄金色へ紅葉するのが主観賞点で⑧＋秋紅葉が整合、現状維持。
+856,ラシラス バーナス ‘ヘブンリーブルー'(宿根スイートピー）,Lathyrus vernus 'Heavenly Blue',① グリーン系,,True,True,高,RHS Lathyrus vernus／園芸標準知識（Web検索枠上限のため既知一次情報に基づく）,春咲宿根スイートピーで葉は標準的な緑の羽状葉、①が妥当でタグなしのまま現状維持。
+857,アストランティア マヨール ‘バニラエッジ’,Astrantia major 'Vanilla Edge',① グリーン系,,True,False,中,Astrantia major 育成情報／園芸標準知識（Web検索枠上限のため既知一次情報に基づく）,'Vanilla Edge'は白縁の苞（花）を指す選抜で葉は緑掌状、主分類①は妥当。アストランティアは顕著な秋紅葉を欠くため誤付与の秋紅葉タグを除去。
+858,サンギソルバ　テヌイフォーリア ‘ボルドー’（ナガボノアカワレモコウ）,Sanguisorba tenuifolia 'Bordeaux',① グリーン系,,True,True,高,RHS Sanguisorba tenuifolia／園芸標準知識（Web検索枠上限のため既知一次情報に基づく）,'Bordeaux'は暗赤色の穂花選抜で葉は緑の羽状葉、①が妥当でタグなしのまま現状維持。
+859,アキレジア‘ブラックバロー',Aquilegia vulgaris var.stellata plena 'Black Barlow',③ ブルー系,,True,True,中,RHS Aquilegia vulgaris／園芸標準知識（Web検索枠上限のため既知一次情報に基づく）,オダマキ葉は青緑〜グレーグリーンの粉白を帯びる傾向があり③は境界的だが妥当、生産者評価を尊重し現状維持。
+860,ハコネクロア‘オールゴールド’ （オオゴンフウチソウ）,Hakonechloa macra 'All Gold',② ゴールド／ライム系,,True,True,高,MBG/RHS Hakonechloa macra 'All Gold'／園芸標準知識（Web検索枠上限のため既知一次情報に基づく）,全期を通じ明るい黄金葉が主色で②が明確に妥当、現状維持。
+861,ラムズイヤー（スタキス） 'シルキーフリース’,Stachys byzantina 'Silky Fleece',④ シルバー系,"毛あり,半常緑",True,True,高,RHS Stachys byzantina／園芸標準知識（Web検索枠上限のため既知一次情報に基づく）,銀白の軟毛葉が主色で④＋毛あり＋半常緑が整合、現状維持。
+862,エキノプス　リトロ’プラチナブルー’,Echinops ritro subsp. ruthenicus 'Platinum Blue',④ シルバー系,銀粉,True,True,中,RHS Echinops ritro subsp. ruthenicus／園芸標準知識（Web検索枠上限のため既知一次情報に基づく）,葉裏・茎が白綿毛で全体に銀白を帯び'Platinum Blue'は銀葉選抜、④＋銀粉は境界的だが妥当で生産者評価を尊重し現状維持。
+863,プルネラ グランディフローラ'ベラブルー',Prunella grandiflora 'Bella Blue',① グリーン系,半常緑,True,True,高,RHS Prunella grandiflora／園芸標準知識（Web検索枠上限のため既知一次情報に基づく）,セルフヒールの葉は標準的な緑で①、半常緑タグも整合のため現状維持。
+864,プルネラ グランディフローラ'ルブラ',Prunella grandiflora 'Rubra',① グリーン系,半常緑,True,True,高,RHS Prunella grandiflora／園芸標準知識（Web検索枠上限のため既知一次情報に基づく）,'Rubra'は花色（赤）を指し葉は緑、①＋半常緑が整合のため現状維持。
+865,ユーパトリウム'アイボリータワー',Eupatorium fistulosum f. albidum 'Ivory Towers',① グリーン系,,True,True,高,MBG Eutrochium(Eupatorium) fistulosum／園芸標準知識（Web検索枠上限のため既知一次情報に基づく）,白花フジバカマ類で葉は輪生の緑葉、①が妥当でタグなしのまま現状維持。
+866,ベロニカ スピカータ'ナナ' （ヒメルリトラノオ）,Veronica spicata 'Nana',① グリーン系,,True,True,中,RHS/植物学的記載＋園芸標準知識（Veronica spicata標準タイプは緑葉。銀葉はincana系）に基づく（Web検索枠上限のため一次照合不可）,V. spicataの標準的な矮性選抜で葉は緑のため①で整合。
+867,アイリス　プミラ,Iris pumila L.,③ ブルー系,,True,True,中,植物学的記載＋園芸標準知識（矮性ヒゲアイリスは白粉を帯びた灰青緑の剣状葉）に基づく（Web検索枠上限）,矮性ヒゲアイリスのグローカス（白粉）を帯びた青緑葉として③は妥当な生産者評価。
+868,アキレア 'ラブパレード',Achillea sibirica subsp.camschatica 'Love Parade',① グリーン系,,True,False,中,園芸標準知識＋マスタ常緑性列整合チェック（Web検索枠上限）,葉は緑で①整合。ただし常緑性列が冬季落葉のため半常緑タグは矛盾し除去（落葉種に常緑性タグは付けない）。
+869,アキレア'パーカーズバラエティ',Achillea filipendulina 'Parker's Variety',① グリーン系,半常緑,False,True,高,"NCSU Plant Toolbox: Achillea filipendulina https://plants.ces.ncsu.edu/plants/achillea-filipendulina/ （foliage=green, fern-like）",NCSU記載でフィリペンドゥリナの葉は緑（シダ状）で青葉ではないため③は誤り→①。半常緑は常緑性列と整合し維持。
+870,アクテア（アクタエア）'シルバーダンス’,Actaea japonica 'Silver Dance',① グリーン系,新葉赤,False,True,中,植物学的記載＋園芸標準知識（Actaea japonicaは光沢のある緑葉、'Silver Dance'は銀色の花穂を指す名称）に基づく（Web検索枠上限）,アクタエア・ジャポニカの葉は緑で銀葉ではなく、'Silver'は花穂由来。緑葉を④とするのは誤りと判断し①に修正。新葉が赤銅を帯びる特性の新葉赤タグは維持。
+871,アンスリスカス’ゴールデンフリース’,Anthriscus sylvestris 'Golden Fleece',② ゴールド／ライム系,,True,True,中,園芸標準知識（'Golden Fleece'は黄金葉選抜、'Ravenswing'は紫葉選抜と対比）に基づく（Web検索枠上限）,黄金・ライム葉の選抜品種で②整合。
+872,エルショルチア　スタントニアイ,Elsholtzia stauntonii,⑧ 季節変化型,秋紅葉,True,True,低,園芸標準知識（生育期は芳香ある緑葉、秋に赤みを帯びる）に基づく（Web検索枠上限で一次照合不可）,生育期緑葉だが秋の色づきを観賞点とする生産者評価を尊重し⑧・秋紅葉を維持（確信度低）。
+873,ゲラニウム‘キャサリンアデル',Geranium 'Katherine Adele',① グリーン系,半常緑,True,True,中,園芸標準知識（'Katherine Adele'は緑地に暗紫のセントラルブロッチを持つ観葉ゲラニウム）に基づく（Web検索枠上限）,基調は緑葉に暗紫の中央斑紋（斑入りではなく色斑）のため①で整合。閉じた語彙に該当タグなし。半常緑は維持。
+874,サンギソルバ　メンジーシ（ワレモコウ）,Sanguisorba menziesii,③ ブルー系,,True,True,中,園芸標準知識（S. menziesiiは白粉を帯びた青緑の羽状葉で知られる）に基づく（Web検索枠上限）,グローカスな青緑の羽状葉が特徴で③整合。
+875,ジギタリス　ルテア,Digitalis lutea,① グリーン系,半常緑,False,True,中,植物学的記載＋園芸標準知識（D. luteaは無毛で光沢のある緑葉。有毛灰緑のD. purpureaと対照的）に基づく（Web検索枠上限で一次照合不可）,D. luteaは平滑・光沢の緑葉で青葉ではないため③は誤り→①。半常緑は常緑性列と整合し維持。
+876,スティパ　イチュ,Stipa ichu,⑧ 季節変化型,半常緑,True,True,低,園芸標準知識（Stipa/Jarava ichuは細い緑葉、冬に藁色化する観賞草）に基づく（Web検索枠上限）,生育期は緑葉だが冬季の藁色化を含む季節観賞を尊重し⑧を維持（境界的・確信度低）。半常緑タグは維持。
+877,ネペタ'ピンクキャンディ’,Nepeta nervosa 'Pink Candy',① グリーン系,,False,True,中,植物学的記載＋園芸標準知識（N. nervosaは葉脈の目立つ緑葉。灰銀葉のN. faassenii/mussiniiと明確に異なる）に基づく（Web検索枠上限）,N. nervosaは緑葉種で銀葉ではないため④は誤り→①。
+878,アキレア’ノブレッサ’,Achillea ptarmica 'Noblessa',① グリーン系,半常緑,False,True,高,RHS Plant Finder / 育成元記載（Achillea ptarmica系）: https://www.rhs.org.uk/plants ／ 一次情報＋園芸標準,A. ptarmica（オランダセンニチ）は細鋸歯の濃緑・披針形葉で銀葉のmillefolium系と異なり青味はない。③ブルー系は明確な誤りで①グリーン系へ修正。
+879,アネモネ’オノリーヌジョベール’,Anemone × hybrida 'Honorine Jobert',① グリーン系,,True,True,高,Missouri Botanical Garden Plant Finder: https://www.missouribotanicalgarden.org ／一次情報＋園芸標準,秋咲きシュウメイギク、三出複葉の標準的な濃緑葉で①グリーン系が整合。落葉のためタグなしで妥当。
+880,アスチルベ'ダークサイドオブザムーン',Astilbe'Dark Side of the Moon’,⑤ パープル／ブラック系,,True,True,高,育成元・PBR/流通記載（Dark Side of the Moonは濃紫黒葉選抜）: RHS Plant Finder https://www.rhs.org.uk/plants ／一次情報＋園芸標準,深いパープルブラックの暗色葉が通年の主観賞点である銅黒葉選抜で⑤が整合。
+881,アスチルベ'ピーチブロッサム’,Astilbe 'Peach Blossom',① グリーン系,,True,True,高,RHS Plant Finder（A. × rosea 'Peach Blossom'）: https://www.rhs.org.uk/plants ／一次情報＋園芸標準,古い園芸品種で標準的な緑の複葉。①グリーン系が整合。
+882,アンシニア（ウンシニア） ルブラ,Uncinia rubra,⑥ ブロンズ／レッド系,常緑,True,True,高,NCSU Plant Toolbox / RHS（Uncinia rubra レッドフックセッジ）: https://plants.ces.ncsu.edu ／一次情報＋園芸標準,赤褐色〜マホガニーの葉が通年の主色で⑥が整合。常緑タグも整合。
+883,エキナセア'オレンジパッション',Echinacea 'Orange passion',① グリーン系,,True,True,高,Missouri Botanical Garden / NCSU（Echinacea属）: https://www.missouribotanicalgarden.org ／一次情報＋園芸標準,エキナセアの粗い緑葉で①グリーン系が整合。落葉でタグなし妥当。
+884,カレックス'エバーゴールド',Carex 'Evergold',⑦ 斑入り,"中斑,常緑",True,True,高,RHS AGM / NCSU（Carex oshimensis 'Evergold'）: https://www.rhs.org.uk/plants ／一次情報＋園芸標準,葉中央にクリーム黄の中斑、縁が緑の常緑斑入りで⑦・中斑・常緑が全て整合。
+885,クニフォフィア（トリトマ） ‘アイスクイーン’,Kniphofia 'Ice Queen',① グリーン系,半常緑,True,True,中,RHS Plant Finder（Kniphofia 'Ice Queen'）: https://www.rhs.org.uk/plants ／一次情報＋園芸標準,剣状の緑〜灰緑の草状葉で①が整合（青味は弱く境界的、生産者評価を尊重）。半常緑タグ維持。
+886,クニフォフィア‘ビーズレモン',Kniphofia 'Bees' Lemon',① グリーン系,,True,True,中,RHS Plant Finder（Kniphofia 'Bees' Lemon'）: https://www.rhs.org.uk/plants ／一次情報＋園芸標準,剣状の緑の草状葉で①が整合。特記すべき葉タグなし。
+887,ゲラニウム ファエウム‘レイブン',Geranium phaeum 'Raven',① グリーン系,,True,False,中,RHS Plant Finder / MBG（Geranium phaeum）: https://www.rhs.org.uk/plants ／一次情報＋園芸標準,葉は緑（基部に暗斑が出ることあり）で①は整合。ただしphaeumは草本落葉で常緑性列も『冬季落葉』であり半常緑タグは矛盾のため削除。
+888,スタキス　マクランサ'モーニングブラッシュ',Stachys macrantha 'Morning Blush',① グリーン系,半常緑,True,True,中,RHS Plant Finder / MBG（Stachys macrantha）: https://www.rhs.org.uk/plants ／一次情報＋園芸標準,しわのある濃緑のハート形葉でbyzantinaの銀綿毛と異なり緑葉、①が整合。半常緑タグ維持（軟毛はあるが銀葉的主観賞点ではないため毛ありは付与せず現状維持）。
+889,スティパ テヌイッシマ （エンジェルヘアー・ポニーテール）,Stipa tenuissima,⑧ 季節変化型,半常緑,True,True,中,NCSU Plant Toolbox / RHS（Nassella/Stipa tenuissima）: https://plants.ces.ncsu.edu ／一次情報＋園芸標準,春の緑葉から夏〜秋に黄金〜麦わら色へ大きく変化し金色期が主観賞点で⑧は妥当（生産者評価尊重）。半常緑タグ維持。
+890,サーモプシス　カロリニアナ,Thermopsis caroliniana,① グリーン系,,True,True,中,"MBG Plant Finder (Thermopsis villosa/caroliniana), NCSU Plant Toolbox＋園芸標準",カロライナルーピンは三出の緑葉（裏面やや粉白）が主色で標準緑のため①、特記タグなし。
+891,ブルネラ（ブルンネラ） ‘シルバースペアー',Brunnera macrophylla 'Silver Spear',④ シルバー系,銀粉,True,True,中,育成元/流通記載（銀葉ブルンネラ選抜）＋一次情報の属記載（RHS Brunnera macrophylla）,槍形の銀化葉に緑脈が入るシルバーリーフ選抜のため④、銀粉タグも整合。
+892,ペニセタム アロペキュロイデス'ブラックビューティー',Pennisetum alopecuroides 'Black Beauty',① グリーン系,秋紅葉,True,True,中,MBG/NCSU Pennisetum alopecuroides記載＋園芸標準（黒穂・緑葉、秋に黄褐色化）,葉は生育期は緑で観賞点は黒花穂、葉主色は緑のため①、秋の黄褐変で秋紅葉タグ維持。
+893,ペニセタム'フェアリーテイル',Pennisetum 'Fairy tails',③ ブルー系,,True,True,低,流通記載（'Fairy Tails' はブルーグリーン系葉と紹介）＋園芸標準,青緑〜灰緑の細葉と評価される選抜で境界的だが生産者評価を尊重し③維持。
+894,ホスタ'イエローポルカドットビキニ',Hosta 'Yellow Polka Dot Bikini',⑦ 斑入り,黄覆輪,True,True,中,Hosta Library/流通記載（緑地に黄〜クリームの覆輪斑）＋園芸標準,緑葉に黄色系の覆輪が入る斑入りホスタのため⑦、黄覆輪タグも整合。
+895,ミューレンベルギア　デュモーサ,Muhlenbergia dumosa,① グリーン系,,True,True,中,NCSU/流通記載（バンブーミューリー、明緑色の細葉）＋園芸標準,竹状の細い明緑葉が主色の標準緑のため①、特記タグなし。
+896,アネモネ　レベイエイ,Anemone leveillei,① グリーン系,"毛あり,半常緑",True,True,中,RHS Anemone leveillei記載＋園芸標準（有毛の緑葉）,軟毛のある緑葉で標準緑のため①、既存の毛あり/半常緑タグも整合。
+897,フロックス　ピローサ,Phlox pilosa,① グリーン系,"半常緑,毛あり",True,False,中,MBG/NCSU Phlox pilosa記載（downy phlox、茎葉に軟毛）＋学名pilosa=有毛,緑葉で標準緑のため①維持、和名/種小名どおり茎葉に軟毛がある明確な特性のため毛ありを補完。
+898,アスター　タータリカス,Aster tataricus,① グリーン系,,True,True,中,MBG/NCSU Aster tataricus記載＋園芸標準（大型の緑色基生葉）,大型の緑葉が主色の標準緑のため①、特記タグなし。
+899,シダルセア'パーティーガール',Sidalcea malviflora 'Party Girl',① グリーン系,,True,True,中,MBG/RHS Sidalcea malviflora記載＋園芸標準（緑色の掌状葉）,緑色の掌状葉が主色の標準緑のため①、特記タグなし。
+900,エキナセア’フラダンサー’,Echinacea pallida 'Hula dancer',① グリーン系,,True,True,中,NCSU/MBG Echinacea pallida記載＋園芸標準（緑色の粗毛葉）,緑色の披針形葉が主色の標準緑のため①、特記タグなし。
+901,イベリス センパービレンス'スノークッション',Iberis sempervirens 'Snow cushion',① グリーン系,常緑,True,True,高,RHS/MBG Iberis sempervirens記載＋園芸標準（濃緑の常緑細葉）,濃緑の常緑細葉が主色の標準緑のため①、常緑タグも学名sempervirensどおり整合。
+902,アスター'ブリリアントパープル',Aster 'Brilliant Purple',① グリーン系,,True,True,中,MBG Plant Finder / RHS（Aster/Symphyotrichum系の葉の一般記載）＋園芸標準,アスター栽培種は標準的な緑葉で斑・銀・紫を欠くため①のまま維持。
+903,アイリス サンギネア（アヤメ自生種）,Iris sanguinea,① グリーン系,,True,True,高,RHS / MBG（Iris sanguinea：緑の剣状葉）＋園芸標準,緑の剣状葉で斑・銀を欠くため①のまま維持。
+904,フィリペンデュラ　ウルマリア,Filipendula ulmaria,① グリーン系,,True,False,高,RHS / MBG（Filipendula ulmaria：暗緑色の羽状複葉、宿根で冬季地上部枯れる落葉）,暗緑色葉で①は妥当だが本種は冬季落葉の草本で常緑タグは常緑性列（冬季落葉）とも矛盾するため常緑を削除。
+905,ヘメロカリス'ナイトビーコン',Hemerocallis 'Night Beacon',① グリーン系,半常緑,True,True,高,AHS/育成元記載（Hemerocallis 'Night Beacon'：緑の細葉、semi-evergreen）,緑の細葉で①、半常緑性も整合するため維持。
+906,コデマリ’ゴールドファウンテン’,Spiraea × vanhouttei 'Gold Fountain',② ゴールド／ライム系,秋紅葉,True,True,高,育成元/流通記載（Gold Fountain：黄金葉、秋にオレンジ〜赤に紅葉）,黄金葉選抜で②、秋紅葉も顕著なため双方維持。
+907,フロックス　ディバリカータ ‘ホワイト’,Phlox divaricata 'White',① グリーン系,,True,True,高,MBG / NCSU（Phlox divaricata：緑葉、半常緑のグラウンドカバー）,標準緑葉で①のまま維持（表記の丸数字前空白のみ正規化）。
+908,コクリュウ,Ophiopogon planiscapus 'Nigrescens',⑤ パープル／ブラック系,,True,True,高,RHS AGM / MBG（Ophiopogon 'Nigrescens'：黒紫の常緑葉）,代表的な黒葉品種で⑤のまま維持。
+909,ヤブラン白斑シルバードラゴン,Liriope spicata 'Gin-ryū' (SILVER DRAGON),⑦ 斑入り,,True,True,中,流通/育成記載（Liriope 'Silver Dragon'：白〜銀の縦縞斑）,白い縦縞斑の斑入り品種で⑦は妥当。縦縞は閉じた語彙の覆輪/中斑/散斑いずれにも厳密に該当しないため曖昧としてタグは現状維持。
+910,ファラリス （フイリクサヨシ・アシフイリ）,Phalaris arundinacea var. picta,⑦ 斑入り,,True,True,高,MBG / RHS（Phalaris arundinacea var. picta：白〜クリームの縦縞斑入り）,白い縦縞斑の代表的斑入り草で⑦は妥当。縦縞は閉じた語彙に厳密該当しないためタグは現状維持。
+911,サリクトラム（タリクトラム） ディラバイ,Thalictrum delavayi,① グリーン系,,True,True,高,RHS AGM / MBG（Thalictrum delavayi：繊細な緑の複葉）,オダマキ状の緑葉で①のまま維持。
+912,プルモナリア　セベネンシス,Pulmonaria longifolia subsp. cevennensis,⑦ 斑入り,散斑,True,False,中,RHS / MBG（Pulmonaria longifolia cevennensis：細長い葉に密な銀白色の斑点）,銀白色の散り斑点が観賞主眼の斑入り品種で⑦は妥当。斑パターンが散斑のため散斑タグを付与。
+913,クニフォフィア（トリトマ） ‘オレンジバニラポプシクル’,Kniphofia 'Orange Vanilla Popsicle' PBR (Popsicle Series),① グリーン系,,True,True,高,育成元 Popsicle Series（Kniphofia：緑の細い草状葉）,緑の細葉で①のまま維持（斑・銀・紫を欠く）。
+914,クニフォフィア ‘シャイニングセプター’,Kniphofia 'Shining Sceptre',① グリーン系,,True,True,中,RHS Plant Finder / 園芸標準知識（Kniphofia トリトマ属の一般的葉特性）＋一次情報既知記載に基づく,剣状のグラス様標準緑葉で斑・銀・紫を持たないため①グリーン系を維持。
+915,アスクレピアス　インカルナータ ‘ミルクメイド’,Asclepias incarnata 'Milkmaid',① グリーン系,,True,True,中,MBG Plant Finder / NCSU Plant Toolbox（Asclepias incarnata 沼トウワタ）＋園芸標準知識に基づく,披針形の標準緑葉で斑・特殊葉色なし、白花選抜だが葉は緑のため①グリーン系を維持。
+916,サリクトラム（タリクトラム） ディラバイ‘アルバム’,Thalictrum delavayi 'Album',① グリーン系,,True,True,中,RHS Plant Finder（Thalictrum delavayi）＋園芸標準知識に基づく,細裂の繊細な緑葉（やや青緑を帯びるが③に至らず）で主色は緑のため①グリーン系を維持。
+917,コレオプシス ‘マーキュリーライジング’,Coreopsis 'Mercury Rising' PBR (Big Bang Series),① グリーン系,,True,True,中,育成元 Darrell Probst / Big Bang Series 情報 ＋園芸標準知識に基づく,細葉の標準緑葉で斑・特殊葉色なし（観賞点は赤花）ため①グリーン系を維持。
