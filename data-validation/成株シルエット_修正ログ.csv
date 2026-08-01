@@ -1,0 +1,195 @@
+﻿row,plant,sci,before,after,confidence,note
+4,アルテミシア　シュミッディアーナ ‘ナナ’（アサギリソウ）,Artemisia schmidtiana 'Nana',マット,ドーム,高,MBG等でdense cushion-like/mounded habitと明記。平坦なマットでなく丸いクッション状マウンドのためドームへ修正。
+7,アスチルベ　アレンジー ‘グランデ’,Astilbe × arendsii 'Grande',直立,株立ち,中,RHS等でupright clump-formingと記載。検証済み成長習性=株立ちとも整合し、現_理由がドーム誤記のため株立ちへ修正。
+8,アスチルベ　アレンジー ‘ファナル’,Astilbe × arendsii 'Fanal',直立,株立ち,中,RHSでupright clump-forming。H≒Wで束状の株を作り、現_理由がロゼット誤記のため株立ちへ修正。
+13,エゴポディウム‘バリエガータム’ （イワミツバ　フイリ）,Aegopodium podagraria 'Variegatum',ドーム,マット,高,地下茎で無制限に広がりdense mat/solid groundcoverを作る侵略的地被。丸いマウンドでなく地被マットのためマットへ修正。
+18,スピレア（オウゴンバシモツケ）,Spiraea japonica 'Goldflame',直立,ドーム,高,RHSでcompact/mounded・幅≧高さの丸いマウンド低木。直立は誤りでありドームへ修正。
+25,カンパニュラ　プンクタータ ‘ウェディングベル’,Campanula punctata 'Wedding Bells',ドーム,株立ち,中,RHS等でupright clump-forming、H>Wで直立の花茎。旧理由も『直立した花茎』でありドームは不整合のため株立ちへ修正。
+26,カンパニュラ　プンクタータ ‘チェリーベル’（ホタルブクロ）,Campanula punctata ‛Cherry Bells’,ドーム,株立ち,高,MBG・NCSUでupright clump-forming、H>Wのためドームは誤りで株立ちへ修正。
+27,カンパニュラ　プンクタータ ‘パンタルーン’,Campanula punctata 'Pantaloons',ドーム,株立ち,高,育成元でclump-forming・upright habit、H>Wのためドームは誤りで株立ちへ修正。
+31,ゲーラーディア　アリスタータ ‘ゴブリン’（ガイラルディア）,Gaillardia aristata ‘Goblin’,株立ち,ドーム,中,'Goblin'(=Kobold)はcompact moundでW≧Hのためドームへ修正（現理由もmound記述で整合）。
+44,セダム　カムチャティカム　var. ‘バリエガータム’(ｴｿﾞﾉｷﾘﾝｿｳ斑入),Sedum kamtschaticum var. kamtschaticum 'Variegatum',ドーム,マット,中,"Gardeniaは low growing, mat-forming groundcover と記述、W>Hで現理由文も『マット状に広がる』と述べるため、ドーム→マットへ修正しURL補完。"
+47,セダム　カウチコルム （ヒダカミセバヤ）,Sedum cauticola,株立ち,マット,高,"NCSU（Hylotelephium cauticola）は mat forming, trailing stems と記述、成長習性マット型・現理由文とも整合。株立ちは誤りにつきマットへ修正しURL補完。"
+49,ゲラニウム　サンギネウム‘ローズ’ （アケボノフウロ）,Geranium sanguineum var. striatum,株立ち,マット,中,RHSは prostrate…compact mat と記述、現理由文も『マット型と判断』と結論しているため、株立ち→マットへ修正（値と理由の不整合を解消）。
+52,ソリダゴ‘ゴールドスパングルス’,Solidago flexicaulis ‛Gold Spangles’,ドーム,直立,高,MBG/CBGでSolidago flexicaulisは直立(2-3ft)。H≫Wの縦長のためドームは誤りで直立へ修正。
+59,エノテラ　スペシオーサ ‘ウッドサイドホワイト’,Oenothera speciosa 'Woodside White',ドーム,マット,中,MBGで地下茎により群落/地被を作る spreading groundcover。孤立したドーム状でなくW>Hのためマットへ修正。
+60,エノテラ　マクロカルパ （ヒルザキオオバナツキミソウ),Oenothera macrocarpa,株立ち,ドーム,中,低く匍匐する茎が『tidy 1ft tall mound』を作る低マウンド。直立株でなくW≧Hのためドームへ修正。
+66,ネペタ　ムッシーニアイ,Nepeta mussinii,株立ち,ドーム,中,低く広がる丸いマウンド（幅≧高さ、mounding habit）で、旧マスタ理由も『幅広く成長』と記す。株立ちからドームへ修正。
+76,フィソカルパス‘ディアボロ’ （アメリカテマリシモツケ ディアボロ）,Physocarpus opulifolius ‛Diabolo’,直立,株立ち,中,H=Wで根元から多幹立ち上がる広がる低木。直立(H>W明瞭)は不適で株立ちへ修正。
+79,フェニキュラム　ブルガレ ‘プルプレウム’(ブロンズフェンネル),Foeniculum vulgare 'Purpureum',株立ち,直立,中,HがWの2-4倍でRHSもupright、マスタ理由も『直立』記載。株立ちより直立が適切で修正。
+84,プルモナリア‘トレビファウンテン’,Pulmonaria ‛Trevi Fountain’,株立ち,ドーム,中,MBG等がmounding varietyと明記、W>Hの低いマウンド。マスタ理由も『W>H』でドームが整合。
+85,プルモナリア‘ラズベリースプラッシュ’,Pulmonaria ‛Raspberry Splash’,株立ち,ドーム,中,W>Hの低いマウンド状プルモナリア。マスタ理由『W>H』とも整合しドームへ修正。
+91,ヘメロカリス‘ファイナルタッチ’,Hemerocallis 'Final Touch',直立,ドーム,中,現マスタ直立はW≧Hと矛盾。arching葉のmounded株のためドームへ修正（ステラデオロと整合）。
+105,ホトトギス‘トーゲン’,Tricyrtis ‛Togen’,ドーム,株立ち,高,ホトトギスは直立・弓状茎の株立ちでドームは誤り。現マスタ理由もclump-forming H>Wと記載で矛盾のため株立ちへ修正。
+106,ホトトギス‘ライトニングストライク’,Tricyrtis hirta 'Lightning Strike',ドーム,株立ち,中,hirtaは直立・弓状茎の株立ち。現マスタ理由も直立記述でドームと矛盾のため株立ちへ修正。
+107,ミント　ブラックペパーミント,Mentha x piperita,ドーム,直立,中,MBGでupright/erect stems、H>Wの直立習性。丸いドームではないため直立へ修正（地下茎で広がるが茎は直立）。
+108,ユーホルビア　ポリクロマ,Euphorbia polychroma,株立ち,ドーム,高,cushion spurgeは丸いドーム状マウンドが典型。株立ちは誤りでドームへ修正。
+114,リシマキア　プンクタータ,Lysimachia punctata,ドーム,直立,高,MBG/RHSで直立・erect unbranched stemsと明記。ドームは誤りのため直立へ修正。
+115,ルドベキア　フルギダ ‘ゴールドストラム’,Rudbeckia fulgida 'Goldsturm',ドーム,株立ち,中,Walters等でupright clump-forming habit。H>Wで直立性の株のためドームから株立ちへ修正。
+119,アストランティア　マヨール ‘ハドスペンブラッド’,Astrantia major 'Hadspen Blood',ドーム,株立ち,高,RHSでclump-forming・erect stems、成長習性=株立ちでH>W。ドームは誤りのため株立ちへ修正。
+120,アルメリア　マリティマ‘アルバ’ （アルメリア白花）,Armeria maritima 'Alba',株立ち,ドーム,中,MBGでcushion-mound/dense mounded tuftと明記、葉4inに対し幅8-12inでW>H。壺状の株立ちでなくクッションマウンドのためドームへ修正。
+125,カンパニュラ‘ケントベル’,Campanula 'Kent Belle',ドーム,株立ち,中,MBGでupright clump-forming・直立性茎。地下茎で広がるが個体草姿は直立株のためドーム→株立ちへ修正。
+126,カンパニュラ‘サマンサ’,Campanula 'Samantha',ドーム,マット,中,一次情報でmat-forming低地被・成長習性マット型と整合。ドーム→マットへ修正。
+135,ネペタ　ラセモサ‘ウォーカーズロウ’,Nepeta racemosa 'Walker's Low',株立ち,ドーム,中,RHS/MBGでmounding habit、W≧Hの丸いマウンドのためドームへ修正。
+137,ビオラ‘マース’,Viola mandshurica 'Mars',株立ち,ロゼット,高,ビオラは根生ロゼット＋花茎の典型。成長習性=ロゼット型とも整合しロゼットへ修正。
+141,ベニチガヤ（インペラータ　シリンドリカ ‘ルブラ’）,Imperata cylindrica 'Rubra',ドーム,グラス,高,日本のイネ科グラス(ベニチガヤ)。ドームは明確な誤りでグラスへ修正。URLもhelenium誤リンクを是正。
+145,ホスタ　シーボルディ ‘シルバーキャビタン’,Hosta sieboldii 'Silver Kabitan',株立ち,ドーム,中,RHS/MBGでcushion/mound-forming。現理由もマウンド状を記すが値が株立ちで不整合→ドームへ修正。
+146,ホトトギス‘ギルトエッジ’,Tricyrtis formosana 'Gilt Edge',ドーム,株立ち,中,MBG/NCSUでupright（-arching）clump記述、H>Wのため丸いドームではなく株立ちへ修正（現理由も直立性記述と矛盾）。
+148,モナルダ　ディディマ ‘パノラマレッドシェード’,Monarda didyma 'Panorama Red Shades',ドーム,直立,中,強い直立茎でH>Wが明瞭、丸いドームではなく直立へ修正（現理由も直立性記述と矛盾）。
+149,ユーホルビア‘クラリスハワード’,Euphorbia cyparissias 'Clarice Howard',ドーム,マット,中,MBG/NCSUで地下茎により低いbushy groundcoverを形成、W>Hのマット状地被へ修正（現理由は無関係な数値で不整合）。
+154,クロコスミア‘ソルファテール’,Crocosmia x crocosmiiflora 'Solfatare',ドーム,株立ち,中,RHSでerect sword-shaped leaves、球茎で年々大きな叢を形成。直立する剣状葉の株のためドームから株立ちへ修正（現理由もerect直立記述と矛盾）。
+156,ペルシカリア ミクロセファラ ‘シルバードラゴン’,Persicaria microcephala 'Silver Dragon',株立ち,ドーム,中,ground-hugging・spreading habitでW>H、密な叢状の株ではなく広がるマウンドのためドームへ修正。
+158,アレナシラム　エラチスssp.ブルボサム ‘バリエガタム’（リボングラス）,Arrhenatherum elatius ssp. bulbosum 'Variegatum',ドーム,グラス,高,イネ科の観賞用グラス（bulbous oat grass）でありグラス類のためドームからグラスへ修正。
+162,リシマキア　プンクタータ ‘アレキサンダー’,Lysimachia punctata 'Alexander',ドーム,株立ち,中,実際は直立茎が地下茎で群生する立ち姿で、丸いドームは誤り。株立ちへ修正し理由も補正。
+174,ゲラニウム　サンギネウム‘アルバム’,Geranium sanguineum 'Album',株立ち,ドーム,中,RHS/NCSUでspreading mounded・W>Hの低マウンドと記載。壺状の株立ちより丸いマウンド＝ドームが妥当のため修正。
+175,カリオプテリス ‘ウォーセスターゴールド'（ｶﾘｶﾞﾈｿｳ）,Caryopteris × clandonensis 'Worcester Gold',直立,ドーム,高,RHS/MBGとも'rounded shrub'・W≧H。現マスタの理由文自体もドームと結論しており、シルエット値の直立が明確な誤りのため修正。
+178,カンパニュラ　プンクタータ ‘フラッシングライト’,Campanula punctata 'Flashing Lights',ドーム,直立,中,Campanula punctataは直立茎で釣鐘花、地下茎拡大。マスタH:60-70>W:25でW≧Hのドームは誤り、直立へ修正。
+180,サポナリア　オフィシナリス ‘アルバプレナ’（ソープワート）,Saponaria officinalis 'Alba Plena',ドーム,株立ち,中,NCSUで'wide clumps of upright stems'・地下茎拡大。H≧Wの直立茎の株でW≧Hのドームは不整合のため株立ちへ修正。
+181,サポナリア　オフィシナリス ‘ロゼアプレナ’（ソープワート）,Saponaria officinalis 'Rosea Plena',ドーム,株立ち,中,180と同種。'wide clumps of upright stems'でH≧Wの直立茎の株。ドームは不整合のため株立ちへ修正。
+185,エリシマム‘オレンジフレーム’ （オウゴンナズナ）,Erysimum kotschyanum 'Orange Flame',ドーム,マット,高,複数ソースでmat-forming/prostrate groundcoverと明記。成長習性=マット型とも整合しドームからマットへ修正。
+195,ミント　アップルミント,Mentha suaveolens,ドーム,直立,中,"MBGでrhizomatous, upright perennial。60cmの直立茎で低い丸マウンドではないためドームから直立へ修正。"
+196,フィソステギア　バージニアーナ ‘バリエガータ’,Physostegia virginiana 'Variegata',ドーム,直立,中,RHSでupright herbaceous perennialと明記。直立花穂の草姿でありドームから直立へ修正。
+205,ポテンチラ　ネパレンシス ‘ロンマクベス’,Potentilla nepalensis 'Ron Mcbeath',株立ち,ドーム,中,MBGでsprawling foliage mound、W(60)>H(30)の低い丸マウンドのため株立ちからドームへ修正。
+215,カリオプテリス‘ダークナイト’ （カリガネソウ）,Caryopteris × clandonensis 'Dark Knight',直立,ドーム,高,MBG/Gardeniaでrounded habit・H≒W。旧マスタの直立は誤りでドームへ修正（旧理由もrounded shrubと矛盾していた）。
+218,ティアレラ‘ピンクスカイロケット’,Tiarella 'Pink Skyrocket',マット,ドーム,高,RHSでclump-forming・moundと明記、匍匐地被ではないためマットからドームへ修正。
+223,ミント　オレンジミント,Mentha x piperita f.citrata 'Orange',ドーム,直立,中,上部は直立茎（H60-80cm）で丸いマウンドではないため、ドームから直立へ修正。
+224,アストランティア　マヨール ‘ルビーウェディング’,Astrantia major 'Ruby Wedding',ドーム,株立ち,高,RHSでclump-forming・erect stems、H>W。現理由はmat型の誤転記のため修正し株立ちへ。
+225,フィリペンデュラ‘フジヘイズ’,Filipendula multijuga 'Fuji Haze',ドーム,株立ち,中,clump-forming・直立花茎の株姿でドームから株立ちへ修正。成長習性=株立ちとも整合。
+227,アスチルベ　チネンシス ‘ビジョンインレッド’,Astilbe chinensis 'Vision in Red',ドーム,株立ち,高,RHSでrobust clump-forming・直立花穂。現理由のグラス（噴水型）は誤りでドームから株立ちへ修正。
+228,ホスタ‘ウルバリーン’,Hosta 'Wolverine',株立ち,ドーム,高,実測W>Hのmounded habit（ホスタ典型）。ロゼット説明は誤りで株立ちからドームへ修正。
+237,ゲラニウム　サンギネウム　 var.ストリエータム,Geranium sanguineum var. striatum,株立ち,マット,高,RHSほかで低く匍匐しdense matを形成する地被と記載。成長習性もマット型で、株立ちは誤り。マットへ修正。
+238,トバラ‘コンプトンズフォーム’,Tovara 'Compton's Form',ドーム,株立ち,中,"MBGで upright, bushy, clump-forming。草丈50-80cmで低いドームではなく直立した株立ち。旧理由(22.5-30cmのマット)は誤りのため株立ちへ修正。"
+242,モナルダ　ディディマ ‘ブルーストッキング’,Monarda didyma 'Blue Stocking',ドーム,株立ち,高,現マスタの理由自体が『株高>株幅・直立性』でドームと矛盾。upright clump-forming のためドーム→株立ちに修正。
+243,ラベンダー　アンガスティフォーリア ‘ヒデコート’,Lavandula angustifolia 'Hidcote',株立ち,ドーム,高,現理由の『匍匐性』は誤り。丸いマウンド状の矮性低木でW≧H、株立ち→ドームに修正。
+247,アムソニア　タバーナエ　 モンタナ（チョウジソウ）,Amsonia tabernaemontana,直立,株立ち,中,"MBGは erect, clump-forming, H≒W。H>W明瞭でないため直立→株立ちへ。境界事例で確信度中。"
+253,ダイアンサス　カシュジアノーラム,Dianthus carthusianorum,ドーム,直立,中,現理由の『噴水/アーチ状ドーム』は誤り。H≫Wの細い直立茎でドーム→直立に修正。株立ちとの境界だが縦長が明瞭。
+259,フィリペンデュラ　ウルマリア ‘バリエガータ’,Filipendula ulmaria 'Variegata',ドーム,株立ち,高,NCSU/RHSでupright clumping habit・H>W。旧理由も直立clump-formingと記載しドームと矛盾のため株立ちへ修正。
+265,アスター　ディバリケータス,Aster divaricatus,株立ち,ドーム,中,NCSUでmounds of foliage・地下茎で群生する匍匐性。叢生の株立ちより低い広がりのマウンドが実態でドームへ修正。
+266,ペンステモン　ハシュータス　 var.ピグマエウス,Penstemon hirsutus var. pygmaeus,ドーム,マット,高,一次情報でmat-forming、成長習性もマット型のため、ドームからマットへ修正。
+270,アキレア‘コロネーションゴールド’,Achillea 'Coronation Gold',ドーム,直立,高,RHSでcolumnar upright・erect stems、H>Wのためドームから直立へ修正（現理由もerect stems記載）。
+271,クロコスミア‘ルシファー’,Crocosmia x crocosmiiflora 'Lucifer',ドーム,直立,高,RHSでvery upright habit、H≫Wのためドームから直立へ修正（現理由もuprightと記載）。
+277,クロコスミア‘エンバーグロウ’,Crocosmia 'Ember Glow',ドーム,直立,高,RHSでupright habit・clump-forming、H>Wのためドームから直立へ修正（現理由もuprightと記載）。
+282,デルフィニウム ‘アストラット’,Delphinium 'Astolat',株立ち,直立,中,Pacific Giantはrigidly upright & toweringでH>>W。現マスタ理由(H≒W)は自軸データと不整合のため直立へ修正。
+287,エラグロスティス　スペクタビリス,Eragrostis spectabilis,株立ち,グラス,高,イネ科（Poaceae）のbunch grassのためグラスへ修正（プロトコルのグラス規則）。
+293,スピレア　ジャポニカ‘ゲンペイ’ （ゲンペイシモツケ）,Spiraea japonica 'Genpei',直立,ドーム,高,RHS/MBG/NCSUでrounded mounded shrub。現マスタの理由も『丸みを帯びた樹形』でありドームへ修正。
+297,バレリアナ　オフィシナリス （バレリアン）,Valeriana officinalis,ドーム,直立,高,RHS/NCSUでerect・upright。現マスタ理由も『直立する茎が特徴的』でありドームは誤り、直立へ修正。
+300,カンパニュラ‘ジェリーベルズ’,Campanula x pulloides 'Jelly Bells',ドーム,マット,高,Gardenia/RHSでmat-forming・foliage hugs the ground。成長習性マット型とも整合し、ドームからマットへ修正。
+302,ユーパトリム　ルゴサム ‘チョコレート’,Ageratina altissima 'Chocolate',ドーム,直立,中,RHSでcolumnar/uprightかつH>W明瞭。既存理由(H:43-50)は誤りでドーム不適、直立へ修正。
+303,ヘリアンセマム ‘ヘンフィールドブリリアント’,Helianthemum 'Henfield Brilliant',ドーム,マット,高,RHS/MBGでlow spreading mat（H≪W）、成長習性=マット型とも整合。ホスタ言及の理由は誤流用、マットへ修正。
+304,ヘメロカリス ‘シャーウッドグラディエーター’,Hemerocallis 'Sherwood Gladiator',直立,株立ち,中,デイリリーは弓状葉のclump-forming（vase/fountain）が定型で叢生と整合。直立は不適、株立ちへ修正。
+320,ホスタ‘オーガストムーン’,Hosta 'August Moon',株立ち,ドーム,高,MBGでmounded habit・W>Hのため株立ちからドームへ修正。
+321,ホスタ‘シルバーハロー’,Hosta 'Silver Halo',株立ち,ドーム,中,ホスタ属は直立茎を持たずmounding形態のため株立ちは不適、ドームへ修正（W≒Hの小型）。
+322,ホスタ‘パールレイク’,Hosta 'Pearl Lake',株立ち,ドーム,中,W>Hのホスタのマウンド形態。株立ちからドームへ修正。
+323,ホスタ ‘フランシスウィリアムズ’,Hosta sieboldiana 'Frances Williams',株立ち,ドーム,高,"MBGでspreading mound to 24""tall×48-60""wide。W>>Hのため株立ちからドームへ修正。"
+324,ポテンチラ　トンゲイ,Potentilla × tonguei,ドーム,マット,高,RHSでcarpet forming・spreading stemsのground cover、成長習性もマット型。ドームからマットへ修正。
+326,ヤナギラン,Chamerion angustifolium,ドーム,直立,高,H>>Wの直立型で現マスタの理由文も直立と記載しているのにシルエットがドーム矛盾のため直立へ修正。
+329,カンパニュラ　ラクティフローラ ‘ホワイトプフェ’,Campanula lactiflora 'White Pouffe',株立ち,ドーム,中,RHSでmound-forming・W≧Hの低い'Pouffe'(クッション)のため株立ちからドームへ修正。
+339,ホスタ‘ジューン’,Hosta (Tardiana Group) 'June',株立ち,ドーム,高,MBG/Proven Winnersでmounding habit、W>Hのため株立ちからドームへ修正。
+346,ホスタ‘クリスマスツリー’,Hosta 'Christmas Tree',株立ち,ドーム,高,large moundでW>>Hのため株立ちからドームへ修正。
+350,アストランティア　 マヨール‘ローマ’,Astrantia major 'Roma',ドーム,株立ち,中,現理由はH15/マット状と誤記。実際はH≧Wの叢生（clump-forming）のため株立ちへ修正。
+354,スポディオポゴン　シビリカス,Spodiopogon sibiricus,直立,グラス,高,イネ科の直立叢生グラス（frost grass）。プロトコルによりグラスへ修正。
+358,ユーホルビア‘ファイヤーグロー’,Euphorbia griffithii 'Fireglow',ドーム,株立ち,中,"現理由はH15-25/匍匐と誤記。実際はH60-90の直立性の茂った株（rhizomatous, upright mound）で株立ちへ修正。"
+363,サクシサ　プラテンシス,Succisa pratensis,直立,ロゼット,中,RHS/first-natureでbasal rosette記載、根生ロゼット＋花茎の型のためロゼットへ修正（現理由も基部ロゼットと矛盾）。
+371,アスチルベ　アレンジー ‘スノードリフト’,Astilbe × arendsii 'Snowdrift',ドーム,株立ち,中,RHS/生産者でupright clump-forming（H≳W・直立花穂）、株立ちへ修正。現理由のH:120-200cmは誤記。
+372,アスチルベ　チネンシス ‘ビジョンインホワイト’,Astilbe chinensis 'Vision in white',ドーム,株立ち,中,コンパクトなupright clump（緩慢に広がるが匍匐地被ではない）で株立ちへ修正。現理由のW>H・匍匐茎記載は誤り。
+373,アスチルボイデス　タビュラリス,Astilboides tabularis,ドーム,株立ち,中,RHSでclump-forming（H≳W・直立花茎の大型株）、株立ちへ修正。現理由の45cm・マット状記載は誤り。
+375,アンドロサセ　ビローサ,Androsace villosa,ロゼット,マット,中,RHSはmat/cushion-formingと明記。単一ロゼット型ではなく低く広がる叢のためマットへ修正。
+379,カンパニュラ　グロメラータ ‘フレヤ’（ヤツシロソウ）,Campanula glomerata 'Freya',ドーム,株立ち,中,NCSUはerect/upright clump-formingと記述。丸いマウンドより直立の株立ちが適合するため修正。
+387,デルフィニウム‘ガラット’,Delphinium 'Galahad',株立ち,直立,高,Pacific系デルフィニウムは高い直立花穂でH≫W。株立ちより直立が明確に適合のため修正。
+413,クロコスミア‘コンスタンス’,Crocosmia × crocosmiiflora 'Constance',ドーム,直立,高,RHSでup to 1m、剣状葉のupright clumpでH>W。旧理由も『直立型と判断』と記載しながら値がドームで矛盾のため直立へ修正。
+418,アムソニア　フブリックティー (フブリヒティ）（チョウジソウ）,Amsonia hubrichtii,直立,ドーム,高,MBG/Waltersでsymmetrical dense mound・shrub-likeでH≈W。旧理由も『ドーム型と判断』と記載しながら値が直立で矛盾のためドームへ修正。
+422,カンパニュラ　グロメラータ ‘エメラルド’（ヤツシロソウ）,Campanula glomerata 'Emerald',ドーム,株立ち,中,NCSUでupright spreadingの株立ち性。直立の花茎で低い丸マウンドではないためドーム→株立ちへ修正。
+424,ｱﾈﾓﾈ　ﾊﾟﾌﾟｴﾝｼｽ　var.ジャポニカ ‘パミナ’（シュウメイギク）,Anemone hupehensis var.japonica 'Pamina',ドーム,直立,高,MBG/RHSでerect・upright spreading、H>Wが明瞭。丸マウンドではないためドーム→直立へ修正。
+428,トロリウス　ユーロペウス ‘レモンシュープリーム’,Trollius europaeus 'Lemon Supreme',ドーム,株立ち,中,RHS/MBGでclump-forming・erect stems。花茎が直立する株立ち性のためドーム→株立ちへ修正。旧理由のMBG数値(H150cm)は誤りのため訂正。
+431,フィリペンデュラ　ルブラ ‘ヴェヌスタ　マグニフィカ’,Filipendula rubra 'Venusta Magnifica',ドーム,直立,高,RHSでupright clump-forming、H>Wが顕著な大型直立種。丸マウンドではないためドーム→直立へ修正。
+453,フィリペンデュラ　プルプレア  (キョウガノコ）,Filipendula purpurea,ドーム,株立ち,中,RHSでclump-forming、葉叢から直立花茎が伸びH>Wのため、ドームから株立ちへ修正。
+457,ピオニア‘ポーラフェイ’,Paeonia 'Paula Fay',直立,株立ち,中,bushy mounding clumpでH≒W（H>W明瞭でない）ため、直立から株立ちへ修正。
+458,アスター　デュモーサス ‘ﾊｰﾌﾞｽﾄｸﾞﾗｽ ﾌｫﾝ ﾌﾞﾚｯｻｰﾎﾌ’,Aster dumosus 'Herbstgruss von Bresserhof',直立,ドーム,中,デュモーサス系（bushy aster）はこんもりした低い株をつくりH≒Wのため直立からドームへ修正。旧理由のH:120cmは別種の誤記。
+461,ユーパトリウム　マクラツム ‘レッドドワーフ’（フジバカマ）,Eupatorium maculatum ‛Red Dwarf’,直立,ドーム,中,矮性でより丸くまとまる選抜。W≧Hで旧理由もドーム論拠のため、シルエット値をドームへ修正。
+464,ネペタ　ファッシニアイ ‘ドロップモア’,Nepeta × faassenii 'Dropmore',株立ち,ドーム,中,ネペタは典型的に低くこんもり広がるマウンド形のため株立ちからドームへ修正。
+468,ヘメロカリス‘ブラックアロウヘッド’,Hemerocallis 'Black Arrowhead',直立,株立ち,中,ヘメロカリスは弓状に伸びる葉が束状の株を作り花茎が立つ姿のため直立から株立ちへ修正（旧理由はペンステモンの誤記）。
+470,モナルダ　ディディマ ‘ファイアーボール’,Monarda didyma 'Fireball',ドーム,株立ち,中,現マスタの理由がH:30-45=W:30-45の誤データ由来。実測H70>W40-50かつ地下茎拡大型の直立株のため株立ちへ修正。
+477,リシマキア　ブルガリス （クサレダマ）,Lysimachia vulgaris,ドーム,直立,高,MBGで stiff upright stems・rhizomatous と明記。噴水状ドームは誤り、H>Wの直立へ修正。
+486,アスター　アンベラータス,Aster umbellatus,ドーム,直立,高,一次情報で upright、Hが明確にWより大きいためドームは誤り。直立へ修正（現マスタの理由文も upright と自己矛盾していた）。
+503,ゲラニウム‘タイニーモンスター’,Geranium 'Tiny Monster',ドーム,マット,中,地下茎拡大型でH≪Wの匍匐性グラウンドカバー。現URLがJohnson's Blueの誤参照でもあり、ドーム→マットへ修正・URL補完。
+513,ホスタ ‘アビクア　ドリンキングゴード’,Hosta 'Abiqua Drinking Gourd',株立ち,ドーム,中,ホスタは葉が丸く盛り上がるmounded habitでW>H。ドームへ修正。
+514,ミューレンベルギア　レバコーニ　 ‘アンダウンテッド’,Muhlenbergia reverchonii 'Undaunted',株立ち,グラス,高,イネ科ミューレンベルギア（マリーグラス）で噴水状の細葉。グラスへ修正。
+521,アキレア‘ウォルターフンク’,Achillea ‛Walter Funcke’,ドーム,株立ち,高,RHS/Gardeniaでupright clumps。現マスタは理由に「upright clumps」と記しながらドーム分類で矛盾、株立ちへ修正。
+522,アキレア‘テラコッタ’,Achillea 'Terracotta',ドーム,株立ち,高,Gardeniaでsturdy upright clumps、H>W。理由が株立ちを示すのにドーム分類で矛盾、株立ちへ修正。
+527,アスター‘ブルーマジック’,Aster ‛Blue Magic’,ドーム,直立,中,H>Wで直立性の背高アスター。旧はドーム分類かつURLがanemone誤リンク、直立へ修正しソース/URLも補正。
+533,アルテミシア ブルガリス ‘オリエンタルライムライト’ （フイリヨモギ）,Artemisia vulgaris 'Janlim',ドーム,株立ち,中,約1mの高性でupright spreading habit、低い丸マウンドではないためドーム→株立ちへ修正（現理由もclump-formingと記載）。
+540,ゲラニウム　オクソニアナム ‘ワーグレーブピンク’,Geranium × oxonianum 'Wargrave Pink',株立ち,ドーム,中,mounds/spreadingでH≦W。壺形の直立株ではなくマウンド地被のため株立ち→ドームへ修正（現理由もドームと結論）。
+545,ジギタリス　プルプレア ‘モンストローサ　パープル’,Digitalis purpurea 'Monstrosa Purple',直立,ロゼット,中,NCSU/MBGで初年に基部ロゼットを作り翌年に花茎が立つ典型。成長習性=ロゼット型とも整合しロゼットへ修正。
+546,シレネ　 ディオイカ ‘ジェードバーリー’,Silene dioica 'Jade Valley',ドーム,株立ち,中,Silene dioicaは叢を作り花茎が立つupright clump-forming。現マスタの理由文も『upright; clump-forming』でドームと不整合のため株立ちへ修正。
+552,ファラリス　アランディナセア ‘トリカラー’（トワダアシ）,Phalaris arundinacea 'Tricolor',ドーム,グラス,高,リボングラス（イネ科）のためドームは明確な誤り。グラスへ修正し理由・ソース・URLを補完。
+561,フィソステギア　バージニアーナ ‘ディープピンク’,Physostegia virginiana 'Deep pink',ドーム,直立,高,オベディエントプラントは直立する角茎に花穂を立てH>W。ドームは明確な誤りのため直立へ修正。
+569,ヘデラ　ヘリックス‘スペッチリー’,Hedera helix 'Spetchley',マット,つる,中,成長習性つる型のためプロトコル規定によりマット→つるへ修正（現理由のH:1.5-2.5mも登攀性を示しマットと不整合だった）。
+577,ベロニカ　スピカータ‘アルバ’,Veronica spicata 'Alba',ドーム,株立ち,中,現理由に『直立性で株立ち』と明記されながら値はドームで矛盾。直立の花穂を持つclump-formingのためドーム→株立ちへ修正。
+583,ポリゴナム　ビストータ ‘スーパーバム’（イブキトラノオ）,Polygonum bistorta 'Superbum',ドーム,株立ち,中,clump-formingで直立花穂、H>Wのためドーム→株立ちへ修正（現理由文とも整合）。
+589,リアトリス　スピカータ ‘コボールド’,Liatris spicata 'Kobold',株立ち,直立,中,MBGでUpright habit・垂直花穂、H>Wのため株立ち→直立へ修正（現理由文も直立と主張）。
+591,リグラリア‘オレンジクィーン’,Ligularia dentata 'Orange Queen',直立,株立ち,中,現理由は『細葉がアーチ状・噴水状』というグラスの誤記載。RHS/MBGでclump-formingの大葉クランプ、H≒Wのため直立→株立ちへ修正。
+592,リグラリア　デンタータ ‘ダークビューティ’,Ligularia dentata 'Dark Beauty',直立,株立ち,中,現理由はグラスの誤記載。大葉のクランプでW≧H、clump-formingのため直立→株立ちへ修正。
+602,ジギタリス　プルプレア ‘エルシーケルセイ’,Digitalis purpurea 'Elsie Kelsey',直立,ロゼット,高,成長習性=ロゼット型でありRHSも basal rosette+erect flower spike と記載。プロトコル指針(根生ロゼット＋花茎→ロゼット)に従い直立からロゼットへ修正。
+603,ペルシカリア　アンプレクシカウリス ‘ロゼア’,Persicaria amplexicaulis 'Rosea',直立,株立ち,中,成長習性=叢生でH≒W、RHS/生産者とも clump-forming と記載。現マスタの判定理由も『株立ち性』としており値と不整合のため株立ちへ修正。
+615,セセリ  グミフェラム,Seseli gummiferum,直立,ロゼット,中,MBG/RHSで初年basal rosette＋2年目に花茎立ち上がる典型的ロゼット型。マスタ成長習性=ロゼット型とプロトコル指針に従いロゼットへ修正。
+618,クリサンセマム　ニポニカム （ハマギク）,Chrysanthemum nipponicum Matsumura,直立,ドーム,中,"NCSU/Gardeniaでdense mounded, rounded shrub-like habit, H≒Wと記載。丸いマウンド状のためドームへ修正。現マスタ理由のクレマチスURLは誤記のため差替。"
+628,ミューレンベルギア　リンドハイメリ,Muhlenbergia lindheimeri,直立,グラス,高,イネ科の噴水状グラスであり直立は誤り。グラスへ修正。
+636,アキレア　ミレフォリウム ‘カシス’,Achillea millefolium 'Cassis',ドーム,株立ち,中,RHSは clump-forming で直立茎、H>W。現値の判定理由も『直立した株立ち』と矛盾していたため株立ちへ修正。
+645,コータデリア　セロアナ （パンパスグラス）‘ミニパンパス’,Cortaderia selloana 'Mini Pampas',株立ち,グラス,高,イネ科パンパスグラスで細葉が噴水状に茂るためグラスへ修正（現マスタ理由はRozanne混入の誤記）。
+648,セダム　コーティコラ ‘バートラム　アンダーソン’,Sedum cauticola 'Bertram Anderson',ドーム,マット,中,trailing/sprawlで低い地被状に広がりW≫H・習性=マット型のためマットへ修正。
+653,デンドランセマ（クリサンセマム） ウェイリチー,Dendranthema weyrichii,ドーム,マット,高,匍匐茎で広がる低いマット状地被でH≪W。ドームは誤りでマットへ修正。
+654,ノウティア（ｸﾅｳﾃｨｱ） マセドニカ ‘ミジェットモーヴ’,Knautia macedonica 'Midget Mauves',ドーム,株立ち,中,compactな基部ロゼット＋直立の花茎でH>W。W≧Hが要件のドームは不整合、株立ちへ修正。
+655,フッキソウ斑入り (パキサンドラ ﾀｰﾐﾅﾘｽ‘バリエガータ’),Pachysandra terminalis 'Variegata',ドーム,マット,高,パキサンドラは地下茎で密マットを作る地被。判定理由もマットと記載しており、ドームは誤り。マットへ修正。
+656,フッキソウ（パキサンドラ　ターミナリス）,Pachysandra terminalis,ドーム,マット,高,MBG/RHSで密マット状地被。判定理由もwide matと記載。ドームは誤りでマットへ修正。
+671,ペンステモン　バルバタス　f.ナナス ‛ﾋﾟﾅｺﾞﾗｰﾀﾞ ローズイーレッドシェード',Penstemon barbatus f. nanus 'Pinacolada Rosy Red Shades',ドーム,株立ち,中,H>Wで直立花茎主体のためドームは誤り、株立ちへ修正（マスタの理由文とも一致）。
+672,ホスタ‘ガカモーレ’,Hosta 'Guacamole',株立ち,ドーム,中,MBG等でmounding habit、W>>Hのシルエットは広い低マウンド。壺形の株立ちより丸いドームが適切。
+673,ホスタ‘ワイドブリム’,Hosta 'Wide Brim',株立ち,ドーム,中,W>>Hのマウンド状シルエットのため、株立ちよりドームが適切。
+678,ミント　ストロベリーミント,Mentha spicata subsp. citrata 'Strawberry',ドーム,株立ち,中,NCSUはupright habitと明記、H>Wで直立の茎が束状に立つためドーム(W≧H)から株立ちへ修正。
+680,モナルダ　フィッツローサ （ワイルドベルガモット）,Monarda fistulosa,ドーム,直立,高,"NCSUでupright, forms upright clumpsと記載。H>Wで直立性のためドームから直立へ修正（現判定理由も直立と矛盾していた）。"
+682,カラスバ  ヒメリュウキンカ (ラナンキュラス‛ブレーゼンハシー'),Ranunculus ficaria 'Brazen Hussy',ドーム,マット,高,H10-15cmと非常に低く塊茎で広がる春の地被植物、W≫H。現判定理由のH:60-120cmは明らかな誤りでドームからマットへ修正。
+687,カーリメリス　インシサ ‘バリエガータ’,Kalimeris incisa 'Variegata',ドーム,株立ち,中,RHS/NCSUでupright clump-forming、H>Wのため丸いマウンドのドームより株立ちが適切と判断し修正。
+699,アスター　ノバエアングリアエ ‘バイブラントドーム’(ネバリノギク),Aster novae-angliae 'Vibrant Dome',株立ち,ドーム,高,'Purple Dome'の枝変わりでmounded/dome habit、W≧Hのためドームへ修正。誤ったAstilbeのURLも修正。
+713,フラガリア ベスカ‘アレクサンドリア’ （ワイルドストロベリー）,Fragaria vesca ‛Alexandria’,マット,ドーム,高,本品種はランナーを出さずtidy mounds状の株立ち。マットは誤りでドームへ修正（現理由と整合）。
+715,ホスタ‘ハルシオン’,Hosta (Tardiana Group) 'Halcyon',株立ち,ドーム,中,各一次情報でdense mound、W>Hの低く丸い葉塊のためドームへ修正。
+717,ミント　スペアミント,Mentha spicata,ドーム,マット,中,地下茎拡大型でW≫Hの群落状に広がる地被。丸いドームは不適でマットへ修正。
+718,ミント　ヒメハッカ,Mentha japonica,ドーム,マット,中,地下茎拡大型でW>Hの群落状に広がる地被。ドームは不適でマットへ修正。
+723,コルヌス　アルバ‘シビリカ’ （サンゴミズキ　シビリカ）,Cornus alba 'Sibirica',ドーム,株立ち,高,RHSで直立・多幹・吸枝性で細い茎の叢を作る低木のためドームは不適、株立ちへ修正。
+731,アネモネ ハプエンシス var.ジャポニカ ウスピンク（シュウメイギク）,Anemone hupehensis var. japonica,ドーム,株立ち,高,基部の株から直立の花茎が立つclump-formingでH>W。ドームより株立ちが適切。
+736,ゲラニウム　サンギネウム ‘ニューハンプシャー’,Geranium sanguineum 'New Hampshire',株立ち,ドーム,中,RHS/MBGでlow-growing mound-forming・W≧Hのためドームへ修正（現マスタの理由文もワイド型と記載し不整合だった）。
+739,コルヌス　アルバ ‘エレガンティシマ’(ｷﾞﾝﾌﾐｽﾞｷ),Cornus alba 'Elegantissima',ドーム,株立ち,高,RHSでmulti-stemmed upright shrub・樹高2-3m。現マスタ理由文は別種の地被記述（低木の株立ちに修正）。
+740,コルヌス　アルバ‘オーレア’ （サンゴミズキ　オーレア）,Cornus alba 'Aurea',ドーム,株立ち,高,多幹で株立ちする樹高2-3mの中低木のためドーム（低い丸マウンド）から株立ちへ修正。
+746,ジプソフィラ　パニキュラータ　 ‘ブリストル　フェアリー’,Gypsophila paniculata 'Bristol Fairy',直立,ドーム,高,RHSで『broad mound of slender stems』とあり現理由もmound-formingと記載。直立ではなく低く広い雲状マウンドのためドームへ修正。
+747,スズラン　野生種 （コンバラリア　ケイスケイ）,Convallaria keiskei,ドーム,マット,中,地下茎拡大型でground coverとして群生する低い地被。ドームより匍匐マット状のためマットへ修正。
+748,スピレア　バンホウテイ ‘ピンクアイス’（フイリコデマリ）,Spiraea × vanhouttei 'Pink Ice',直立,株立ち,高,NCSU/OSUでvase-shaped・arching fountain formと記述。根元から枝が立ち上がる叢生低木のため直立から株立ちへ修正。
+750,セダム　ユズリエンス ‘ピンクビーコン’,Sedum ussuriense 'Pink Beacon',ドーム,株立ち,中,Tall Border Sedum系で直立～半直立の株立ち。現理由も『直立性』と記述しドームと矛盾するため株立ちへ修正。
+754,セラトスティグマ　プラムバジノイズ （ルリマツリモドキ）,Ceratostigma plumbaginoides,ドーム,マット,高,"MBGで『wiry, mat-forming...spreads by rhizomes to form ground cover』と明記。地下茎拡大型の低い地被のためドームからマットへ修正。"
+759,ハイドランジア　アルボレッセンス ‘アナベル’,Hydrangea arborescens 'Annabelle',直立,ドーム,高,MBGでrounded habit・幅の方が広い。現理由自体がW>Hと述べ直立と矛盾のためドームへ修正。
+763,フィソカルパス‘サマーワイン’ （ｱﾒﾘｶﾃﾏﾘｼﾓﾂｹ ｻﾏｰﾜｲﾝ）,Physocarpus opulifolius ‘Summer Wine’,直立,株立ち,中,H≒Wで直立(H>W明瞭)は不適。NCSU/MBGでmounded・arching・vase-likeの多幹低木のため株立ちへ修正。
+767,ペルシカリア　アンプレクシカウリス ‘エレガンスピンク’,Persicaria amplexicaulis 'Elegance Pink',ドーム,株立ち,高,H>Wの直立clump-forming。現理由自体『株立ち性で直立茎』と述べドームと矛盾のため株立ちへ修正。
+769,ホスタ　ヒメギボウシ　斑入り,Hosta venusta 'Variegated',株立ち,ドーム,中,ミニ性ホスタでW≫Hの低い葉マウンド。直立株を作らずmound-formingのためドームへ修正（現マスタ理由もロゼット状葉＋花茎のみ立つと記述）。
+774,ミューレンベルギア　カピラリス,Muhlenbergia capillaris,直立,グラス,高,イネ科の噴水状グラスのため直立からグラスへ修正（NCSUでbasal clump/mound記載）。
+775,ミント　 ケンタッキーカーネルミント,Mentha spicata 'Kentucky Colonel',ドーム,マット,中,地下茎拡大型で地被状に広がる匍匐性のためドームからマットへ修正。
+789,ミューレンベルギア　リジェンス,Muhlenbergia rigens,直立,グラス,高,イネ科グラス（噴水状の叢）で草姿はグラス。現マスタ直立は明確な誤りのためグラスへ修正。
+790,ミント　ニホンハッカ　ホクト,Mentha arvensis var. piperascens,ドーム,マット,中,地下茎拡大型で無限に広がる地被性。まとまったドームではないためマット（拡がる地被）へ修正。
+797,アスクレピアス　アスペルラ,Asclepias asperula,株立ち,ドーム,中,地を這うように広がりW≧Hのため、直立の株立ちよりドームが妥当と判断。
+798,グロビュラリア　トリコサンタ,Globularia trichosantha,ドーム,マット,高,RHSでmat-forming・stolonで地被化、旧値ドームは理由文と矛盾のためマットへ修正。
+803,ヘメロカリス‘ハイペリオン’,Hemerocallis 'Hyperion',直立,株立ち,中,ヘメロカリスは弓状葉が根元から束状に茂る株立ち型（花茎のみ直立）のため修正。
+807,ポテンチラ ‘アーカンシエル’,Potentilla 'Arc-en-Ciel',株立ち,ドーム,中,一次情報でmound-shaped・低くこんもり(W≧H)のためドームへ修正。
+809,ホスタ‘ナイトビフォークリスマス’,Hosta 'Night Before Christmas',株立ち,ドーム,中,一次情報でlow/dense mound(W>H)。丸いマウンド状のためドームへ修正。
+817,ヤブラン（リリオペ）‘オキナ’,Liriope muscari 'Okina',ドーム,グラス,中,細葉の束状グラス様(monkey grass)。H>Wでドーム定義と不整合のためグラスへ修正。
+819,リモニウム‘ブルーダイアモンド’,Limonium 'Blue Diamond',ドーム,ロゼット,中,成長習性=ロゼット型と整合。基部ロゼット＋花茎のためドームからロゼットへ修正（現理由文はH:90-120cm等の誤記のため補完）。
+837,アンジェリカ　シルベストゥリス'エボニー',Angelica sylvestris 'Ebony',株立ち,直立,中,HがWの約2-3倍で明瞭に縦長、RHSもupright/architectural。現理由も『直立した成長習性』と記載し株立ちと矛盾のため直立へ修正。
+866,ベロニカ スピカータ'ナナ' （ヒメルリトラノオ）,Veronica spicata 'Nana',ドーム,マット,中,'Blue Carpet'系で密なマット状地被を作りW>Hのため、内部矛盾していた現マスタ(理由はmat-forming)をマットへ修正。
+867,アイリス　プミラ,Iris pumila L.,ドーム,マット,中,地下茎拡大型でH≪Wの低い群生。丸いクッション(ドーム)ではなく低い地被状のためマットへ修正。
+868,アキレア 'ラブパレード',Achillea sibirica subsp.camschatica 'Love Parade',ドーム,株立ち,中,直立した束状の株でH>W。丸いドームではなく上向きの株立ちのため修正。
+875,ジギタリス　ルテア,Digitalis lutea,株立ち,ロゼット,中,根生ロゼットを作り中心から花茎が立つ典型的なフォックスグローブ型のためロゼットへ修正。
+882,アンシニア（ウンシニア） ルブラ,Uncinia rubra,ドーム,グラス,高,スゲ（sedge）でRHSがGrass Like分類。株状の丸みはあるがグラス類のためドーム→グラスへ明確修正。
+890,サーモプシス　カロリニアナ,Thermopsis caroliniana,ドーム,直立,高,NCSU等でtall upright/unbranched habit、H>Wが明瞭のためドームから直立へ修正。
+895,ミューレンベルギア　デュモーサ,Muhlenbergia dumosa,直立,グラス,高,イネ科(Poaceae)のグラス類でarching/fountain habit。グラス類はグラスに分類、直立から修正。
+898,アスター　タータリカス,Aster tataricus,ドーム,直立,高,MBG等でtall upright、H≫Wが明瞭。現理由もH>Wと記載しつつドーム誤指定のため直立へ修正。
+904,フィリペンデュラ　ウルマリア,Filipendula ulmaria,ドーム,株立ち,中,RHS/検索で直立叢生（clumps of upright growth）でH>W。丸いドームではないため株立ちへ修正。
+908,コクリュウ,Ophiopogon planiscapus 'Nigrescens',ドーム,グラス,中,NCSUで弓状の線形葉が束生するグラス状。丸いドームでなくグラス（草状束生）へ修正。
+909,ヤブラン白斑シルバードラゴン,Liriope spicata 'Gin-ryū' (SILVER DRAGON),ドーム,グラス,中,リリオペは細葉が束生するグラス状地被。丸いドームでなくグラスへ修正。
+910,ファラリス （フイリクサヨシ・アシフイリ）,Phalaris arundinacea var. picta,ドーム,グラス,高,イネ科のリボングラス。明確なグラス類のためドームからグラスへ修正。
+913,クニフォフィア（トリトマ） ‘オレンジバニラポプシクル’,Kniphofia 'Orange Vanilla Popsicle' PBR (Popsicle Series),ドーム,直立,高,RHS/育成元でupright habit、H>Wの直立ポーカー。丸いドームでなく直立へ修正。
+917,コレオプシス ‘マーキュリーライジング’,Coreopsis 'Mercury Rising' PBR (Big Bang Series),株立ち,ドーム,中,育成元系ナーサリーがbroad mounding habitと明記しW>Wでなくwider than tall（W>H）。低く丸いマウンドのためドームへ修正。
