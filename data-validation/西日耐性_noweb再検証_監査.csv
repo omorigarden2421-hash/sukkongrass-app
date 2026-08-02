@@ -1,0 +1,98 @@
+﻿row,plant,sci,cur,ver,agree,confidence,source,reason
+34,"サルビア　スーパーバ
+‘クィーンブルー’",Salvia x superba ‛Queen Blue’,○,○,True,中,"RHS Salvia x superba, https://www.rhs.org.uk/plants/96907/salvia-x-superba/details",full sun推奨で定着後は耐乾だが標準的な西日耐性として○が妥当。
+91,ヘメロカリス‘ファイナルタッチ’,Hemerocallis 'Final Touch',○,○,True,高,"MBG Hemerocallis Plant Finder, https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=d160",full sun～part shadeで夏の暑さ湿度に耐えるが乾燥期は灌水を要するため○。
+110,"ラベンダー　アンガスティフォーリア
+‘マンステッド’",Lavandula angustifolia 'Munstead',◎,◎,True,高,"MBG Lavandula angustifolia 'Munstead', https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=249422",地中海原産のfull sun・乾燥地向きで酷暑の西日にも耐えるため◎。
+111,リクニス　コロナリア‘アルバ’,Lychnis coronaria 'Alba',◎,◎,True,高,"MBG Lychnis coronaria, https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=p840",full sunで銀灰の綿毛葉を持ち定着後は耐乾のため西日OKの◎。
+115,"ルドベキア　フルギダ
+‘ゴールドストラム’",Rudbeckia fulgida 'Goldsturm',◎,◎,True,高,"MBG Rudbeckia fulgida var. sullivantii 'Goldsturm', https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=i780",北米プレーリー原産のfull sunで高温多湿と乾燥に耐えるため◎。
+116,エリンジウム　プラナム,Eryngium planum,◎,◎,True,高,"MBG Eryngium planum, https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=275988",full sunでbaked（灼熱乾燥）な場所に最適とされ西日に強い◎。
+120,"アルメリア　マリティマ‘アルバ’
+（アルメリア白花）",Armeria maritima 'Alba',◎,◎,True,中,"MBG Armeria maritima, https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285144",痩せた乾燥地のfull sunを好み浅い岩質土でも耐乾のため西日OKの◎。
+137,ビオラ‘マース’,Viola mandshurica 'Mars',△,△,True,中,"PlantLust/Dave's Garden Viola mandshurica, https://plantlust.com/plants/26262/viola-mandshurica-fuji-dawn/",東アジア原産で暖地の直射では葉焼け・花色退色し半日陰向きのため△。
+161,ヒューケレラ‘サンスポット’,× Heucherella 'Sunspot',△,△,True,高,"MBG × Heucherella 'Sunspot', https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=256541",暖地では午後の遮光を好み乾くと葉焼け・葉傷みするため△。
+166,"トリフォリウム　レペンス
+‘ドラゴンズブラッド’",Trifolium repens 'Dragon's Blood',○,○,True,高,"MBG Trifolium repens, https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=m650",full sun～part shadeでやや乾いた土やfull sunにも耐えるため○。
+195,ミント　アップルミント,Mentha suaveolens,○,○,True,中,"MBG Mentha suaveolens, https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=281542",full sun可だが乾燥土は不適で保湿前提のため西日はある程度耐える○。
+251,プリムラ‘グリーンレース’,Primula x polyanthus 'Green Lace',×,×,True,高,"MBG Primula (polyanthus type), https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b564",高温期は半日陰必須で酷暑多湿では休眠し西日で枯れるため×。
+340,"サルビア　バーティシラータ
+‘パープルレイン’",Salvia verticillata 'Purple Rain',◎,◎,True,高,Missouri Botanical Garden https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250503,full sunで最良・耐暑性高く乾燥にも強いため酷暑の西日に適する。
+341,セダム‘ホセオバージン’,Sedum ‛Jose Aubergine’,○,◎,False,中,RHS https://www.rhs.org.uk/plants/250088/sedum-jose-aubergine/details / Gardenia https://www.gardenia.net/plant/sedum-jose-aubergine-stonecrop,full sun・耐乾のセダムで西日下でも締まって育つため◎へ上方修正。
+348,"センペルビビューム‘ブロンコ’
+（ハウスリーク）",Sempervivum 'Bronco',◎,○,False,中,NCSU Extension https://plants.ces.ncsu.edu/plants/sempervivum/ / World of Succulents https://worldofsucculents.com/grow-care-sempervivum/,高山性で猛暑の午後は葉焼けし遮光推奨とされ、酷暑西日◎は過大なため○へ下方修正。
+378,カラマグロスティス　ブラキトリカ,Calamagrostis brachytricha,○,△,False,中,American Meadows https://www.americanmeadows.com/product/perennials/korean-feather-reed-grasscalamagrostis-brachytricha / Gardening Know How https://www.gardeningknowhow.com/ornamental/foliage/feather-reed-grass/korean-feather-reed-grass.htm,湿性林床由来で暑い地域は午後遮光が推奨され乾いた西日に弱いため△へ修正。
+388,トリフォリウム　オクロレウカム,Trifolium ochroleucum,○,△,False,中,RHS https://www.rhs.org.uk/plants/52266/trifolium-ochroleucon/details / Plantiary https://plantiary.com/plant/trifolium-ochroleucon_22621.html,耐暑性弱く均一な湿り気と半日陰を好むため乾燥する酷暑西日は苦手で△へ修正。
+444,セダム　レフレクサム,Sedum ‘Vera Jameson’,◎,◎,True,高,Gardening Know How https://www.gardeningknowhow.com/ornamental/cacti-succulents/sedum/growing-vera-jameson-sedum.htm,full sun・耐乾でザリスケープ向きの多肉のため酷暑の西日に適合。
+543,サルビア　オフィシナリス（セージ）,Salvia officinalis,◎,◎,True,高,NCSU Extension https://plants.ces.ncsu.edu/plants/salvia-officinalis/,地中海原産full sunで高温乾燥を好み耐乾性高いため西日に最適。
+547,スカビオサ‘ビビッドバイオレット’,Scabiosa 'Vivid Violet',○,○,True,中,Missouri Botanical Garden http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264765 / Gardenia https://www.gardenia.net/plant/scabiosa-vivid-violet,full sunだが酷暑期は均一な湿りを要し猛暑地は半日陰も可でありある程度耐えるの○が妥当。
+548,スカビオサ　オクロレウカ,Scabiosa ochroleuca,◎,◎,True,高,Sheffield's Seed https://sheffields.com/seeds-for-sale/Scabiosa/ochroleuca / plant lust https://plantlust.com/plants/13052/scabiosa-ochroleuca/,full sunを要し乾燥貧栄養地でも育つ強耐乾種のため酷暑西日に適合。
+550,"ダイアンサス　デルトイデス
+‘アークティックファイヤー’",Dianthus deltoides 'Arctic Fire',◎,◎,True,中,RHS https://www.rhs.org.uk/plants/168892/dianthus-deltoides-arctic-fire-(p)/details / Gardenia https://www.gardenia.net/plant/dianthus-deltoides-arctic-fire,full sun・水はけ良い岩庭向き耐乾種で猛暑期の軽い午後遮光可も基本は西日に耐えるため◎維持。
+553,"ネペタ　ファッシニアイ
+‘フェリックス’",Nepeta x faassenii 'Felix',○,◎,False,中,NCSU Extension https://plants.ces.ncsu.edu/plants/nepeta-x-faassenii/ / UC Master Gardener https://ucanr.edu/site/mg-sonoma/nepeta-catmint,full hot sunと高温乾燥を好む代表的耐乾種で耐暑性強のため◎へ上方修正。
+609,オトコエシ（パトリニア　ビロサ）,Patrinia villosa,○,○,True,中,Missouri Botanical Garden https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287439 / 三河の植物観察 https://mikawanoyasou.org/data/otokoesi.htm,草原〜林縁性で日向〜半日陰に育ち高温多湿にも耐えるが強耐乾種ではないため○が妥当。
+699,"アスター　ノバエアングリアエ
+‘バイブラントドーム’(ネバリノギク)",Aster novae-angliae 'Vibrant Dome',○,○,True,高,Missouri Botanical Garden Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b540,北米原産の耐暑性ある日向植物だが湿った土壌を好み乾燥に弱いため西日は◎まで至らず○が妥当。
+703,"サルビア
+‘ラプソディ　イン　ブルー’",Salvia × sylvestris 'Rhapsody in Blue',◎,◎,True,高,Missouri Botanical Garden Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=262091,full sunと耐乾性を備えるヨーロッパ系メドウセージで酷暑の西日にも耐えるため◎維持。
+708,ネペタ　ラセモサ‘ブルーワンダー’,Nepeta racemosa 'Blue Wonder',◎,◎,True,中,Missouri Botanical Garden Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=i550,full sunで高い耐乾性を持つが酷暑地では午後の弱い遮光を好むとの記載があり境界だが従来の◎を維持。
+709,バーノニア　ノベボラセンシス,Vernonia noveboracensis,◎,◎,True,中,NCSU Extension / Missouri Botanical Garden https://plants.ces.ncsu.edu/plants/vernonia-noveboracensis/,full sun・耐暑性強の北米原産で西日下でも育つが本来は湿地性で乾燥には水管理を要するため◎維持。
+718,ミント　ヒメハッカ,Mentha japonica,○,○,True,中,日光植物園 / 愛知県RDB https://nikko-bg.jp/nikko-old/5_jokyo/species/Mentha_japonica.html,湿地性で日向～半日陰・多湿を好むため西日の乾燥は苦手寄りだが十分な水分下ではある程度耐えるため○維持。
+721,"カラマグロスティス　
+エピジジョス（ヤマアワ）",Calamagrostis epigejos (L.) Roth,○,○,True,中,RHS https://www.rhs.org.uk/plants/2602/calamagrostis-epigejos/details,full sun～軽い日陰まで適応幅が広く砂丘から湿地まで生育するため西日にある程度耐える○が妥当。
+756,タイム　フレンチタイム,Thymus vulgaris 'French',◎,◎,True,高,Missouri Botanical Garden Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=f970,地中海原産のfull sun・耐乾性ハーブで多湿を嫌い乾いた強日照を好むため◎維持。
+762,ヒューケレラ‘タペストリー’,× Heucherella 'Tapestry',×,×,True,高,Missouri Botanical Garden Plant Finder (Heucherella一般) https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=272474,酷暑地では午後の遮光が必要で乾くと葉焼けする明るい日陰性のため西日では×が妥当。
+765,"ヘリアンサス‘ハピーデイズ’
+（ヤナギバヒマワリ）",Helianthus 'Happy Days',◎,◎,True,高,Missouri Botanical Garden Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=445834,北米原産の耐暑性強いfull sun宿根ヒマワリで強い日射を好むため西日でも◎維持。
+776,ミントブッシュ,Prostanthera sp.,△,△,True,中,ANPSA Plant Guide / Gardening With Angus http://anpsa.org.au/mints3.html,ユーカリの木漏れ日程度の軽い日陰を好み酷暑地では夏の直射を避けるべきとされ西日は苦手のため△が妥当。
+781,"ルーコセプトラム　ジャポニカム
+‘オーレウム’（ﾃﾝﾆﾝｿｳ黄金葉）",Leucosceptrum japonicum f. aureum,×,×,True,高,Missouri Botanical Garden Plant Finder ('Golden Angel') https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=359581,落葉樹林下の湿った半日陰～日陰を好み日射過多で葉焼けし黄金葉が退色するため西日では×が妥当。
+783,"ロサ‘サートーマス　リプトン’
+（バラ）",Rosa 'Sir Thomas Lipton',○,○,True,中,Missouri Botanical Garden / U. Illinois Extension https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=252398,耐暑・耐乾に優れるハイブリッドルゴサだが酷暑の午後は葉焼け防止に軽い遮光が推奨されるため○維持。
+785,"ロニセラ‘アメリカーナ’
+（ハニーサックル）",Lonicera × americana,○,○,True,中,RHS Honeysuckle (Lonicera) Plant Guide https://www.rhs.org.uk/plants/honeysuckle,つる性ハニーサックルは全日照にも耐えるが半日陰と湿り気のある土壌を好むため、酷暑乾燥の西日は葉先で最適ではないが○相当。
+788,ヘデラ　ヘリックス　var.バルチカ,Hedera helix var. 'Baltica',×,×,True,高,Missouri Botanical Garden Hedera helix var. baltica https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=248696,半日陰～日陰の林床性で、暑い気候の直射日光では葉焼け・萎れを起こすため西日は不適で×。
+789,ミューレンベルギア　リジェンス,Muhlenbergia rigens,◎,◎,True,高,Calscape Deergrass (Muhlenbergia rigens) https://calscape.org/Muhlenbergia-rigens-(Deergrass),北米南西部原産で全日照・酷暑・乾燥に強く夏の灌水不要な耐乾グラスのため西日◎。
+790,ミント　ニホンハッカ　ホクト,Mentha arvensis var. piperascens,○,○,True,中,Illinois Wildflowers Field Mint (Mentha arvensis) https://illinoiswildflowers.info/prairie/plantx/wild_mintx.htm,全日照～軽い日陰で育つが本来は湿った土を好むため、乾いた西日には耐えるが最適ではなく○。
+792,"アストランティア　マヨール
+‘シャギー’",Astrantia major subsp. involucrata 'Shaggy',△,△,True,高,Missouri Botanical Garden Astrantia major https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=276013,山地草原・林縁原産で湿潤土を要し、全日照は冷涼で常に湿った環境のみ許容のため西日は午後遮光推奨の△。
+793,コエレリア　グラウカ,Koeleria glauca,◎,◎,True,高,Missouri Botanical Garden Koeleria glauca https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=290693,全日照・乾～中湿の砂質痩地を好み日陰不耐の耐乾グラスでザリスケープ向きのため西日◎。
+795,アスター　‘ビクトリア’,Aster 'Victoria',○,○,True,中,Missouri Botanical Garden Symphyotrichum novae-angliae https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b540,北米東部原産のアスターは全日照・耐乾だが酷暑地では午後遮光と適湿を好むため西日は○相当（品種特定情報は限定的）。
+796,"アネモネ　マルチフィダ（ムルチフィダ）
+‘マヨール’",Anemone multifida 'Major',○,○,True,中,Gardenia.net Anemone multifida (Pacific Anemone) https://www.gardenia.net/plant/anemone-multifida,プレーリー・岩礫地原産で深い直根により定着後は耐乾、全日照～半日陰のため西日にある程度耐える○。
+798,グロビュラリア　トリコサンタ,Globularia trichosantha,○,○,True,中,High Country Gardens Globularia trichosantha (Blue Globe Daisy) https://www.highcountrygardens.com/perennial-plants/globularia-trichosantha,東バルカン～イラン原産で全日照・水はけ良好地で定着後耐乾のロックガーデン種、◎寄りだが小型高山性で境界のため現マスタ○維持。
+800,"プルモナリア
+‘シシングハースト ホワイト’",Pulmonaria officinalis 'Sissinghurst White',×,×,True,高,Almanac How to Grow Lungwort (Pulmonaria) https://www.almanac.com/plant/how-grow-lungwort-pulmonaria-reliable-perennial-shade-gardens,林床性の日陰植物で強い午後の日射は葉焼けを起こすため西日は不適で×。
+801,エキナセア‘ファイアリーメドーママ’,Echinacea 'Fiery Meadow Mama',◎,◎,True,高,Missouri Botanical Garden Echinacea purpurea https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=c580,北米東部原産のエキナセアは全日照で酷暑・乾燥・多湿・痩地に強い順応種のため西日◎。
+803,ヘメロカリス‘ハイペリオン’,Hemerocallis 'Hyperion',◎,◎,True,中,Missouri Botanical Garden Hemerocallis 'Hyperion' https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246573,全日照で耐暑・耐湿・定着後耐乾のデイリリーで西日◎、ただし酷暑の真昼直射では若干の遮光が有益との注記あり。
+804,ゲラニウム ‘オリオン’,Geranium 'Orion',○,○,True,中,RHS Geranium 'Orion' https://www.rhs.org.uk/plants/137507/geranium-orion-/details,full sun～partial shade向きで日向で最も良く咲くが、酷暑地では午後に軟弱化しやすく西日にある程度耐える○が妥当。
+805,ヘレニウム‘タイダイ’,Helenium autumnale 'Tie dye',○,○,True,中,Missouri Botanical Garden Helenium autumnale https://www.missouribotanicalgarden.org/plantfinder/plantfinderdetails.aspx?kempercode=c930,北米原産の日向性で強い日射自体は耐えるが乾燥土壌を嫌い湿潤を好むため、乾く西日では○止まり。
+807,ポテンチラ ‘アーカンシエル’,Potentilla 'Arc-en-Ciel',○,○,True,低,Park Seed Potentilla Arc En Ciel https://www.parkseed.com/products/potentilla-arc-en-ciel-41138,full sun～shadeに適応し定着後は耐乾だが、ネパール高地系で耐暑性弱く酷暑西日は境界的なため現マスタ○を維持。
+809,ホスタ‘ナイトビフォークリスマス’,Hosta 'Night Before Christmas',×,×,True,高,Walters Gardens Hosta 'Night before Christmas' https://www.waltersgardens.com/variety.php?ID=HSNBC,明るい日陰性で直射の西日では斑入り葉が葉焼け・退色し枯れるため×で確定。
+811,カレックス ディバルサ,Carex divulsa,○,○,True,中,Missouri Botanical Garden Carex divulsa https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=293893,full sun～full shadeに適応し定着後は耐乾だが酷暑地では午後遮光を好むため、西日にある程度耐える○。
+813,オリエンタルポピー‘メイクィーン’,Papaver orientale plena 'May queen',○,○,True,中,Missouri Botanical Garden Papaver orientale https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderProfileResults.aspx?basic=Papaver+orientale,full sun性で盛夏は夏眠に入り酷暑期の西日ダメージを回避できるため、耐暑性弱でも西日に○程度耐える。
+814,"パニカム バーゲタム
+‘ブルージャイアント’",Panicum virgatum 'Blue Giants',◎,◎,True,高,Missouri Botanical Garden Panicum virgatum https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=l460,北米トールグラスプレーリー原産の完全日向・高耐乾種で酷暑の西日でも問題なく◎。
+815,"パニカム バーゲタム
+‘エメラルドチーフ’",Panicum virgatum 'Emerald Chief',◎,◎,True,高,Missouri Botanical Garden Panicum virgatum https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=l460,同じスイッチグラスの品種で北米プレーリー由来の完全日向・高耐乾種のため酷暑西日OKの◎。
+816,パルセニウム インテグリフォリアム,Parthenium integrifolium,◎,◎,True,高,Lurie Garden Parthenium integrifolium https://www.luriegarden.org/plants/wild-quinine/,北米プレーリー原産で乾～中湿の完全日向を好み耐乾・耐乾燥土壌のため酷暑の西日でも◎。
+819,リモニウム‘ブルーダイアモンド’,Limonium 'Blue Diamond',◎,◎,True,高,Gardenia Limonium platyphyllum https://www.gardenia.net/plant/limonium-platyphyllum,地中海～欧州の海岸性で完全日向・耐乾・耐塩耐風のシーラベンダー系のため酷暑の西日でも◎。
+820,"プリムラ　ジャポニカ
+‘アップルブロッサム'（ｸﾘﾝｿｳ）",Primula japonica 'Appleblossom',△,△,True,中,Gardenia Primula japonica https://www.gardenia.net/plant/primula-japonica-japanese-primrose,日本原産のクリンソウは半日陰・常時湿潤を好む湿性種で乾く西日は苦手なため午後遮光推奨の△が妥当。
+821,"カレックス フラジェリフェア
+‘キウイ’",Carex flagellifera 'Kiwi',○,○,True,中,NCSU Carex flagellifera https://plants.ces.ncsu.edu/plants/carex-flagellifera/,NZ温帯原産で日向～軽い日陰に適応し耐乾だが酷暑地では湿潤・軽い遮光を好むため西日にある程度耐える○。
+826,ティアレラ　ウェリー,Tiarella wherryi,×,×,True,高,Piedmont Master Gardeners / Garden Design https://www.gardendesign.com/perennials/foamflower.html,北米南東部の林床性で明るい日陰を好み、酷暑の午後の西日を避けるべき植物のため×が妥当。
+827,"サルビア プラテンシス
+‘スカイダンス’",Salvia pratensis 'Sky Dance',○,○,True,中,RHS https://www.rhs.org.uk/plants/16364/salvia-pratensis/details,RHSはfull sun・西向き対応可とするが欧州草原性で耐暑性中のため西日はある程度耐える○が妥当。
+829,"アスター デュモーサス
+‘シュニーケッセン’",Aster dumosus'Schneekissen',○,○,True,中,NCSU Extension https://plants.ces.ncsu.edu/plants/symphyotrichum-dumosum/,full sun～半日陰で乾湿に適応する北米東部種だが耐暑性中で、西日にある程度耐える○が妥当。
+848,タイム　マジックカーペット,Thymus serpyllum 'Magic Carpet',◎,◎,True,高,Missouri Botanical Garden https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=a294,MBGがfull sun・耐乾・砂礫地向きとする高温乾燥に強い地被で酷暑の西日OKの◎が妥当。
+851,"プリムラ デンティキュラータ
+`ブルーセレクション'",Primula denticulata 'Blue Selection',△,△,True,高,RHS https://www.rhs.org.uk/plants/13740/primula-denticulata-de/details,ヒマラヤ高山性で常時湿潤・冷涼を要し耐暑性弱、西日は苦手で午後遮光推奨の△が妥当。
+852,フロミス　ルッセリアーナ,Phlomis russeliana,◎,◎,True,高,Missouri Botanical Garden https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=241499,トルコの乾燥石礫地原産でfull sun・耐乾に優れ耐暑性強、酷暑の西日OKの◎が妥当。
+853,ベルゲニア　エメイエンシス,Bergenia emeiensis,△,△,True,中,Gardener's Path / Mount Venus Nursery https://gardenerspath.com/plants/flowers/grow-bergenia/,峨眉山産で温暖地でも日陰を好み腐植質を要するため西日は苦手・午後遮光推奨の△が妥当。
+893,ペニセタム'フェアリーテイル',Pennisetum 'Fairy tails',○,◎,False,中,SiteOne / San Marcos Growers https://www.smgrowers.com/products/plants/plantdisplay.asp?plant_id=2672,full sunで耐暑性・耐乾性を併せ持つ観賞用グラスで耐暑性強のため、酷暑の西日OKの◎へ上方修正。
+895,ミューレンベルギア　デュモーサ,Muhlenbergia dumosa,◎,◎,True,中,UF/IFAS Gardening Solutions https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/bamboo-muhly/,米南西部・メキシコ原産で耐暑・耐乾性が高いグラス（砂漠極暑のみ半日陰推奨）で◎が妥当。
+898,アスター　タータリカス,Aster tataricus,◎,◎,True,高,Missouri Botanical Garden https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=277281,MBGがfull sun・普通土で丈夫と評価するシベリア～東アジア産で耐暑性強、◎が妥当。
+900,エキナセア’フラダンサー’,Echinacea pallida 'Hula dancer',○,◎,False,中,Missouri Botanical Garden https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=c570,北米の乾いた草原・グレード原産でE. purpuraaより乾燥に強くfull sun好適の耐暑性強種のため、酷暑の西日OKの◎へ上方修正。

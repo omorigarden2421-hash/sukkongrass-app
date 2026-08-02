@@ -1,0 +1,10 @@
+﻿row,plant,sci,before,after,confidence,reason
+341,セダム‘ホセオバージン’,Sedum ‛Jose Aubergine’,○,◎,中,full sun・耐乾のセダムで西日下でも締まって育つため◎へ上方修正。
+348,"センペルビビューム‘ブロンコ’
+（ハウスリーク）",Sempervivum 'Bronco',◎,○,中,高山性で猛暑の午後は葉焼けし遮光推奨とされ、酷暑西日◎は過大なため○へ下方修正。
+378,カラマグロスティス　ブラキトリカ,Calamagrostis brachytricha,○,△,中,湿性林床由来で暑い地域は午後遮光が推奨され乾いた西日に弱いため△へ修正。
+388,トリフォリウム　オクロレウカム,Trifolium ochroleucum,○,△,中,耐暑性弱く均一な湿り気と半日陰を好むため乾燥する酷暑西日は苦手で△へ修正。
+553,"ネペタ　ファッシニアイ
+‘フェリックス’",Nepeta x faassenii 'Felix',○,◎,中,full hot sunと高温乾燥を好む代表的耐乾種で耐暑性強のため◎へ上方修正。
+893,ペニセタム'フェアリーテイル',Pennisetum 'Fairy tails',○,◎,中,full sunで耐暑性・耐乾性を併せ持つ観賞用グラスで耐暑性強のため、酷暑の西日OKの◎へ上方修正。
+900,エキナセア’フラダンサー’,Echinacea pallida 'Hula dancer',○,◎,中,北米の乾いた草原・グレード原産でE. purpuraaより乾燥に強くfull sun好適の耐暑性強種のため、酷暑の西日OKの◎へ上方修正。
