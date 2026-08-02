@@ -1,0 +1,133 @@
+﻿row,plant,sci,cur,ver,agree,confidence,source,reason
+77,"ハコネクロア　マクラ‘オレオラ’
+（フウチソウ　斑入り、キンウラハグサ）",Hakonechloa macra 'Aureola',—,—,True,高,UW-Madison Extension / Hakone Grass (hort.extension.wisc.edu/articles/japanese-forest-grass-hakonechloa-macra/),風媒イネ科グラスで花は葉間に隠れ目立たず送粉報酬がないため—が妥当。
+78,"フェスツーカ　グラウカ
+‘エリジャーブルー’",Festuca glauca ‛Elijah Blue’,—,—,True,高,Gardenia.net Festuca (gardenia.net/plants/genera/festuca-fescue),青葉観賞の風媒イネ科で花蜜花粉源とならず隠れ場所程度のため—が妥当。
+82,"ヘリクトトリコン センパーバイオレンス
+(ブルーオーツグラス)",Helictotrichon sempervirens,—,—,True,高,Iowa State Extension Ornamental Grasses (yardandgarden.extension.iastate.edu),風媒イネ科グラスで送粉者の餌資源とならないため—が妥当。
+124,カレックス　テスタセア,Carex testacea,—,—,True,高,Beth Chatto Grasses/Carex (bethchatto.co.uk/shop-by-other/grasses/carex/),スゲ属は風媒で昆虫を誘引せず送粉報酬がないため—が妥当。
+138,"ビンカ　ミノール‘ダブルパープル’
+（ビンカミノール　ダブルフラワー）",Vinca minor 'Double Purple',—,—,True,中,Empress of Dirt double flowers / PFAF Vinca minor (empressofdirt.net/double-flowers/),原種は早春蜜源だが本品種は八重で花筒奥の蜜へのアクセスが塞がれ送粉報酬に乏しく—（△境界）を維持。
+141,"ベニチガヤ（インペラータ　シリンドリカ
+‘ルブラ’）",Imperata cylindrica 'Rubra',—,—,True,高,Iowa State Extension Ornamental Grasses (yardandgarden.extension.iastate.edu),風媒イネ科で栽培下はほぼ開花せず送粉者利用がないため—が妥当。
+171,カレックス‘バッドヘアーデイズ’,Carex ‛Bad Hair Days’,—,—,True,高,Beth Chatto Grasses/Carex (bethchatto.co.uk/shop-by-other/grasses/carex/),スゲ属は風媒で花は地味・昆虫を誘引せず送粉報酬がないため—が妥当。
+190,ホスタ‘パトリオット’,Hosta 'Patriot',△,△,True,中,MSU Extension Gardening for Pollinators / Biology Insights Hostas (canr.msu.edu),釣鐘状の花に花蜜花粉がありマルハナバチ等が訪花するが観葉主体で誘引力は限定的なため△が妥当。
+191,ホスタ‘リトルオーロラ’,Hosta 'Little Aurora',△,△,True,中,MSU Extension Gardening for Pollinators / Biology Insights Hostas (canr.msu.edu),小型観葉ホスタで淡紫の花にマルハナバチが訪花する程度のため△が妥当。
+192,カラマグロスティス‘オーバーダム’,Calamagrostis × acutiflora 'Overdam',—,—,True,高,Iowa State Extension Ornamental Grasses (yardandgarden.extension.iastate.edu),不稔交雑の風媒イネ科で送粉者の餌資源とならないため—が妥当。
+193,アルケミラ　サクサティリス,Alchemilla saxatilis,△,△,True,中,RHS Alchemilla Plant Guide (rhs.org.uk/plants/alchemilla),微小な黄緑花にハナアブ・小型ハナバチが少数訪花するが報酬は低くRHSの主要蜜源指定もないため△が妥当。
+200,"ハコネクロア　マクラ
+（フウチソウ緑葉)",Hakonechloa macra,—,—,True,高,UW-Madison Extension / Hakone Grass (hort.extension.wisc.edu/articles/japanese-forest-grass-hakonechloa-macra/),風媒イネ科観葉グラスで花は地味・送粉報酬がないため—が妥当。
+226,"モリニア　カエルレア
+‘バリエガータ’",Molinia caerulea subsp. caerulea 'Variegata',—,—,True,高,USFS Pollinators: Wind & Water Pollination https://www.fs.usda.gov/wildflowers/pollinators/wind.shtml / Hoffman Nursery https://hoffmannursery.com/blog/article/grasses-sedges-and-rushes-for-pollinators,イネ科は風媒（anemophily）で花蜜・花粉を送粉者向け報酬として提供せず、蜜源価値としては—が妥当。
+245,トラディスカンティア‘イノセンス’,Tradescantia × andersoniana 'Innocence',○,○,True,高,Illinois Wildflowers: Tradescantia virginiana https://www.illinoiswildflowers.info/savanna/plants/va_spiderwort.htm,ムラサキツユクサは蜜を出さず花粉のみだがマルハナバチ等が主要送粉者として訪花する中程度の花粉源で○が整合。
+286,ミスカンサス‘モーニングライト’,Miscanthus sinensis 'Morning Light',—,—,True,高,USFS Pollinators: Wind & Water Pollination https://www.fs.usda.gov/wildflowers/pollinators/wind.shtml,イネ科の風媒オーナメンタルグラスで送粉者向けの蜜・花粉報酬がなく—を維持。
+287,エラグロスティス　スペクタビリス,Eragrostis spectabilis,—,—,True,高,USFS Pollinators: Wind & Water Pollination https://www.fs.usda.gov/wildflowers/pollinators/wind.shtml,イネ科パープルラブグラスは風媒で送粉者の蜜源利用がなく—が妥当。
+291,セダム‘クラウドウォーカー’,Sedum ‛Cloud Walker’,◎,◎,True,高,RHS Hylotelephium 'Cloud Walker' https://www.rhs.org.uk/plants/357068/hylotelephium-cloud-walker-pbr/details / Perennials.com https://www.perennials.com/plants/sedum-telephium-cloud-walker.html,S. spectabile×telephium由来の直立型ヒロテレフィウムで平らな花房が晩夏〜秋の定番蜜源となり蜂・チョウを強誘引するため◎で整合。
+292,"トラディスカンティア
+‘サンシャインチャーム’",Tradescantia 'Sunshine Charm' COPF PP21480,○,○,True,高,Illinois Wildflowers: Tradescantia virginiana https://www.illinoiswildflowers.info/savanna/plants/va_spiderwort.htm,ムラサキツユクサは蜜を出さないがマルハナバチ等が花粉源として訪花する中程度の資源で○が整合。
+296,"カレックス　マスキングメンシス
+‘リトルミッジ’",Carex muskingumensis 'Little Midge',—,—,True,高,USFS Pollinators: Wind & Water Pollination https://www.fs.usda.gov/wildflowers/pollinators/wind.shtml / Hoffman Nursery https://hoffmannursery.com/blog/article/grasses-sedges-and-rushes-for-pollinators,スゲ属は風媒で花蜜・花粉の送粉者報酬がなく（生息場所価値は別軸）蜜源価値としては—が妥当。
+297,"バレリアナ　オフィシナリス
+（バレリアン）",Valeriana officinalis,○,○,True,中,RHS Valeriana officinalis https://www.rhs.org.uk/plants/18738/i-valeriana-officinalis-i/details / NCSU Plant Toolbox https://plants.ces.ncsu.edu/plants/valeriana-officinalis/,小花房が蜂・チョウ・ハナアブに蜜と花粉を供給する汎用蜜源だが単花蜜源として最上位ではなく生産者評価を尊重し○維持。
+299,"フクシャ　マジェラニカ
+‘エンストーン’",Fuchsia magellanica 'Enstone',○,○,True,中,RHS Top 12 plants for autumn pollinators https://www.rhs.org.uk/garden-inspiration/wildlife/top-12-plants-for-autumn-pollinators,蜜に富む長筒花でマルハナバチ（盗蜜含む）やハチドリが訪花するが長筒でアクセスが制限される中程度の蜜源で○が整合。
+300,カンパニュラ‘ジェリーベルズ’,Campanula x pulloides 'Jelly Bells',○,○,True,高,RHS Campanula × pulloides 'Jelly Bells' https://www.rhs.org.uk/plants/300834/campanula-x-pulloides-jelly-bells-(pbr)/details,釣鐘状花に蜜・花粉があり長舌のマルハナバチ・ハキリバチ等が訪花する送粉者向け花で○が整合。
+330,カンパニュラ‘ピンクオクトパス’,Campanula takesimana 'Pink Octopus',○,○,True,中,BBC Gardeners' World Campanula takesimana 'Elizabeth' https://www.gardenersworld.com/plants/campanula-takesimana-elizabeth/,筒状ベル花は蜜・花粉に富みマルハナバチが潜り込んで訪花する良好な蜜源だが生産者評価を尊重し○維持。
+331,ミスカンサス‘コスモポリタン’,Miscanthus sinensis 'Cosmopolitan',—,—,True,高,"RHS / NCSU Plant Toolbox（Miscanthus sinensis: wind-pollinated ornamental grass, no pollinator nectar/pollen value）",風媒のイネ科観賞グラスで蜜・花粉の送粉報酬がなく—が妥当。
+332,"パニカム　バーゲタム
+‘シャナンドゥー’",Panicum virgatum 'Shenandoah',—,—,True,高,"NCSU Plant Toolbox（Panicum virgatum: wind-pollinated switchgrass, larval host but not a nectar source）",風媒のイネ科スイッチグラスで送粉者の蜜源にならず—が妥当。
+335,"アスチルベ　チネンシス
+‘ビジョンインピンク’",Astilbe chinensis 'Vision in Pink',○,○,True,中,Bees In Cities / PlantGardener（Astilbe: 小花に蜜あり小型蜂・チョウは訪れるが大型マルハナには非効率で定番強蜜源ではない）,微小花に蜜はあり一部の蜂・チョウを誘引するが強力な定番蜜源ではなく○が妥当。
+348,"センペルビビューム‘ブロンコ’
+（ハウスリーク）",Sempervivum 'Bronco',—,—,True,高,RHS / MBG（Sempervivum: 単花結実性で開花稀な多肉ロゼット、栽培では滅多に咲かず送粉価値ほぼなし）,開花が稀な多肉ロゼットで実質的な送粉報酬がなくプロトコルの—に該当。
+351,"アシリウム　ニポニカム　
+ピクタム‘プーターレース’",Athyrium niponicum var. pictum 'Pewter Lace',—,—,True,高,NCSU Plant Toolbox / RHS（Athyrium niponicum: シダ類、花を持たず胞子繁殖）,シダ類で花がなく蜜・花粉源にならないため—が妥当。
+354,スポディオポゴン　シビリカス,Spodiopogon sibiricus,—,—,True,高,RHS / MBG（Spodiopogon sibiricus: wind-pollinated ornamental grass）,風媒のイネ科観賞グラスで送粉者の餌資源にならず—が妥当。
+355,デスカンプシア　セスピトーサ,Deschampsia cespitosa,—,—,True,高,"Wikipedia / USDA NRCS Plant Guide（Deschampsia cespitosa: wind pollinated, does not produce nectar; larval host only）",風媒で蜜を産生せず（幼虫食草に留まる）蜜源価値はなく—が妥当。
+378,カラマグロスティス　ブラキトリカ,Calamagrostis brachytricha,—,—,True,高,NCSU Plant Toolbox / RHS（Calamagrostis brachytricha: wind-pollinated ornamental grass）,風媒のイネ科観賞グラスで送粉者利用がなく—が妥当。
+402,カレックス　ディプセシア,Carex dipsacea,—,—,True,高,RHS（Carex: スゲ属は風媒、目立つ花弁・蜜を持たない）,スゲ属の風媒植物で花弁・蜜を持たず送粉者利用がなく—が妥当。
+447,"デスカンプシア　セスピトーサ
+‘ゴールドタウ’",Deschampsia cespitosa 'Goldtau',—,—,True,高,"USDA NRCS / RHS（Deschampsia cespitosa: wind pollinated, no nectar）",基本種同様に風媒で蜜を産生せず送粉価値がなく—が妥当。
+448,パニカム　バーゲタム‘スクオー’,Panicum virgatum 'Squaw',—,—,True,高,NCSU Plant Toolbox（Panicum virgatum: wind-pollinated switchgrass）,風媒のイネ科スイッチグラスで蜜・花粉源にならず—が妥当。
+449,パニカム　バーゲタム‘ノースウィンド’,Panicum virgatum 'Northwind',—,—,True,高,NCSU Plant Toolbox（Panicum virgatum: wind-pollinated switchgrass、同種他品種と同じく—）,風媒のイネ科スイッチグラスで送粉者の餌資源にならず—が妥当。
+451,"モリニア　カエルレア
+‘トランスペアレント’",Molinia caerulea subsp. arundinacea 'Transparent',—,—,True,中,"NCSU Plant Toolbox / Saunders 2018 (Insect Conserv & Diversity), 風媒イネ科の一般原則 https://plants.ces.ncsu.edu/",イネ科（Poaceae）の風媒オーナメンタルグラスで花蜜・花粉による送粉者報酬がなく該当なし—が妥当。
+514,"ミューレンベルギア　レバコーニ　
+‘アンダウンテッド’",Muhlenbergia reverchonii 'Undaunted',—,—,True,中,NCSU Plant Toolbox / 風媒イネ科の一般原則 https://plants.ces.ncsu.edu/,風媒のイネ科グラスで蜜・花粉源とならず送粉者を誘引しないため—を維持。
+526,"アシリウム　ニポニカム
+‘シルバーフォール’",Athyrium niponicum var. pictum 'Silver Falls',—,—,True,高,植物学的原則（シダは花を持たず胞子繁殖） https://plants.ces.ncsu.edu/plants/athyrium-niponicum/,観葉のシダで花を咲かせず蜜・花粉源にならないため該当なし—が適切。
+527,アスター‘ブルーマジック’,Aster ‛Blue Magic’,◎,◎,True,高,RHS Plants for Pollinators / RHS Top 12 plants for autumn pollinators https://www.rhs.org.uk/garden-inspiration/wildlife/top-12-plants-for-autumn-pollinators,アスター属は晩秋にチョウ・ハナバチへ重要な花蜜/花粉を供給する定番蜜源でRHS掲載の一重キク科→◎。
+537,"カモミール　ローマンカモミール
+シングルフラワー",Chamaemelum nobile,○,○,True,中,RHS / NCSU Plant Toolbox（bees・hoverflies誘引、nectar/pollen-rich） https://plants.ces.ncsu.edu/plants/chamaemelum-nobile/,一重の白花デイジーでハナアブ・小型蜂等を誘引するが主役蜜源ではない中程度→○維持。
+538,カレックス‘バーグレニーアイ’,Carex talbotii,—,—,True,高,MGNV / 一般に風媒のスゲ（Carexはエキナセア等と異なり送粉昆虫と相互作用しない） https://mgnv.org/plants/glossary/glossary-sedge/,スゲ属は風媒で花が地味・送粉者が蜜/花粉を利用しないため—を維持。
+552,"ファラリス　アランディナセア
+‘トリカラー’（トワダアシ）",Phalaris arundinacea 'Tricolor',—,—,True,中,NCSU Plant Toolbox / 風媒イネ科の一般原則 https://plants.ces.ncsu.edu/,風媒のイネ科グラスで花に送粉報酬がなく観葉主体のため該当なし—。
+555,"パニカム　バーゲタム
+‘クラウドナイン’",Panicum virgatum 'Cloud Nine',—,—,True,高,NCSU Plant Toolbox（switchgrassは風媒） https://plants.ces.ncsu.edu/plants/panicum-virgatum/,スイッチグラスは風媒で花蜜・花粉源として送粉者を誘引しない（庇護は提供するが報酬なし）→—。
+585,"ミスカンサス　シネンシス
+‘プルプラセンス’",Miscanthus sinensis 'Purpurascens',—,—,True,高,NCSU Plant Toolbox / Gardenia（風媒で蜜・芳香を出さず送粉者の食料源にならない） https://plants.ces.ncsu.edu/plants/miscanthus-sinensis/,風媒のイネ科で花は羽毛状ながら蜜を分泌せず送粉者の蜜源利用がないため—を維持。
+586,ミリウム　エヒューザム‘オーレウム’,Milium effusum 'Aureum',—,—,True,中,"風媒イネ科の一般原則（Poaceae, Saunders 2018） https://resjournals.onlinelibrary.wiley.com/doi/10.1111/icad.12243",風媒のイネ科（ウッドミレット）で花は地味・蜜源利用なく—を維持。
+609,オトコエシ（パトリニア　ビロサ）,Patrinia villosa,◎,◎,True,高,Missouri Botanical Garden Plant Finder（白花クラスターがpollinators/butterflies誘引） https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287439,晩夏〜秋に白い小花の散房を密につけハナバチ・ハナアブ・チョウ等を多数誘引する在来蜜源→◎。
+610,"カレックス　プランタジニア
+‘ブルーリッジ’",Carex plantaginea 'Blue Ridge',—,—,True,高,MGNV / Carexは風媒でエキナセア等と異なり送粉昆虫と相互作用しない https://mgnv.org/plants/glossary/glossary-sedge/,風媒のスゲで花が地味・送粉者が蜜/花粉を利用しないため該当なし—を維持。
+637,"アシリウム　ニポニカム
+‘バーガンディレース’",Athyrium niponicum var. pictum 'Burgundy Lace',—,—,True,高,確立した植物学的知見（シダ植物は花・蜜・花粉を持たず送粉者の対象外）,花を持たない観葉シダで送粉報酬がないため—で整合。
+641,アンドロポゴン　ジェラルディ,Andropogon gerardii,—,—,True,高,確立した植物学的知見（イネ科=風媒、蜜腺なし）／Lady Bird Johnson Wildflower Center 一般記載,風媒のイネ科グラスで蜜・花粉を送粉者に供給しないため—で整合。
+643,"カレックス　コーマンズ
+‘フロステッドカール’",Carex comans 'Frosted Curls',—,—,True,高,確立した植物学的知見（カヤツリグサ科Carex=風媒、地味な花で送粉者利用なし）,風媒のスゲで花が目立たず送粉者の蜜源にならないため—で妥当。
+645,"コータデリア　セロアナ
+（パンパスグラス）‘ミニパンパス’",Cortaderia selloana 'Mini Pampas',—,—,True,高,確立した植物学的知見（イネ科=風媒、穂は観賞用で蜜腺なし）,風媒のイネ科大型グラスで穂は観賞用・送粉者の蜜源にならないため—で妥当。
+647,スポロボラス　ヘテロレピス,Sporobolus heterolepis,—,—,True,高,確立した植物学的知見（イネ科草原グラス=風媒、蜜腺なし）,風媒のイネ科草原グラスで送粉者の蜜源にならないため—で妥当。
+677,"ミスカンサス　シネンシス
+‘リトルゼブラ’（ヒメヤバネススキ）",Miscanthus sinensis 'Little Zebra',—,—,True,高,確立した植物学的知見（イネ科オーナメンタルグラス=風媒、蜜腺なし）,風媒のイネ科観賞グラスで送粉者の餌資源にならないため—で妥当。
+678,ミント　ストロベリーミント,Mentha spicata subsp. citrata 'Strawberry',○,○,True,中,RHS Mentha spicata（Plants for Pollinators掲載）https://www.rhs.org.uk/plants/11055/mentha-spicata/details,開花すればRHS Plants for Pollinators掲載種として蜂・蝶・ハナアブを強く誘引するが、本種は香葉主体で花付きが中程度のため境界値として現○を維持。
+692,"ペニセタム　アロペキュロイデス　
+f.ビリデセンス",Pennisetum alopecuroides f. viridescens,—,—,True,高,確立した植物学的知見（イネ科=風媒、蜜腺なし）,風媒のイネ科観賞グラスで送粉者の蜜源利用がないため—で妥当。
+699,"アスター　ノバエアングリアエ
+‘バイブラントドーム’(ネバリノギク)",Aster novae-angliae 'Vibrant Dome',◎,◎,True,高,Lady Bird Johnson Wildflower Center https://www.wildflower.org/plants/result.php?id_plant=syno2 ／ Prairie Moon Nursery（一重の晩秋咲きで長舌蜂・チョウ・モナルカの重要蜜源）,ニューイングランドアスターはキク科一重の晩秋咲き定番蜜源で蜂・チョウを強誘引する◎で整合。
+706,"ドラコセファラム　アーグネンス
+（ムシャリンドウ）‘フジホワイト’",Dracocephalum argunense 'Fuji White',○,○,True,中,Diggin it Nursery / usperennials（Dracocephalum argunense）https://digginitnursery.com/products/dracocephalum-argunense-fuji-blue-dragonhead（Lamiaceaeの管状花で蜂・チョウが訪花）,シソ科の管状花で蜂・チョウが訪花する良好な蜜源だが定番単花蜜源ではないため○で整合（白花選抜も同構造）。
+721,"カラマグロスティス　
+エピジジョス（ヤマアワ）",Calamagrostis epigejos (L.) Roth,—,—,True,高,確立した植物学的知見（イネ科=風媒、蜜腺なし）,風媒のイネ科グラスで送粉者による蜜・花粉利用がないため—で整合。
+764,ペニセタム　マクロウルム,Pennisetum macrourum,—,—,True,高,確立した植物学的知見（イネ科オーナメンタルグラス=風媒、蜜腺なし）,風媒のイネ科観賞グラスで蜜・花粉源として送粉者利用がないため—で妥当。
+765,"ヘリアンサス‘ハピーデイズ’
+（ヤナギバヒマワリ）",Helianthus 'Happy Days',◎,◎,True,高,"NCSU Plant Toolbox / RHS Helianthus (https://plants.ces.ncsu.edu/plants/helianthus-salicifolius/ , https://www.rhs.org.uk/plants/helianthus)",ヤナギバヒマワリ系は晩夏〜秋に豊富な花粉・花蜜を供給しハチ・チョウ・ハナアブを強誘引する定番蜜源で◎を裏付け。
+773,"ミスカンサス　シネンシス　
+f.グラシリマス（イトススキ）",Miscanthus sinensis f. gracillimus,—,—,True,高,一般イネ科=風媒（Panicum等の一次情報で確認: https://plantnative.org/native-plants/switchgrass-panicum-virgatum.htm）,風媒のイネ科オーナメンタルグラスで花蜜・花粉報酬がなく送粉者は利用しない→該当なし。
+774,ミューレンベルギア　カピラリス,Muhlenbergia capillaris,—,—,True,高,イネ科=風媒（グラス一般原則、Panicum一次情報で確認: https://plantnative.org/native-plants/switchgrass-panicum-virgatum.htm）,風媒のピンクミューリー（イネ科）で送粉報酬がなく送粉者は利用しない→該当なし。
+775,"ミント　
+ケンタッキーカーネルミント",Mentha spicata 'Kentucky Colonel',◎,◎,True,高,NCSU Plant Toolbox Mentha spicata (https://plants.ces.ncsu.edu/plants/mentha-spicata/common-name/garden-mint/),スペアミント系は蜜を含む小花にハナバチ・チョウ・益虫が多数訪花する定番蜜源で◎を裏付け。
+778,モナルダ‘ビー　ブライト’,Monarda 'Bee-Bright',◎,◎,True,高,NCSU/各Extension Monarda pollinator記載（https://plants.ces.ncsu.edu/plants/monarda/ ほか）,モナルダは筒状花で長舌バチ・チョウ・ハチドリを強誘引しマルハナバチの優良採餌源となる定番蜜源で◎を裏付け。
+789,ミューレンベルギア　リジェンス,Muhlenbergia rigens,—,—,True,高,イネ科=風媒（グラス一般原則、Panicum一次情報で確認: https://plantnative.org/native-plants/switchgrass-panicum-virgatum.htm）,風媒のディアグラス（イネ科）で送粉報酬がなく送粉者の餌資源にならない→該当なし。
+793,コエレリア　グラウカ,Koeleria glauca,—,—,True,高,イネ科=風媒（グラス一般原則、Panicum一次情報で確認: https://plantnative.org/native-plants/switchgrass-panicum-virgatum.htm）,風媒のブルーヘアグラス（イネ科）で送粉報酬がなく送粉者は利用しない→該当なし。
+809,ホスタ‘ナイトビフォークリスマス’,Hosta 'Night Before Christmas',△,△,True,中,Biology Insights等Hosta pollinator記載（https://biologyinsights.com/do-hostas-attract-bees-and-other-pollinators/）,漏斗状花に長舌のマルハナバチ等が訪蜜するが花粉源としては乏しく斑入り葉観賞主体の選抜で送粉者の主役ではない→△維持。
+810,アキレジア‘ボルドーバロー’,Aquilegia vulgaris var. stellata plena 'Bordeaux Barlow',—,△,False,中,"Aquilegia floral syndromes(Annals of Botany) / Barlow系情報（https://academic.oup.com/aob/article/137/5/1305/8427152 , https://www.gardenersworld.com/plants/aquilegia-vulgaris-nora-barlow/）",八重星形で距（蜜腺）を欠き花蜜報酬はほぼ皆無だが結実する有性花で花粉は残りマルハナバチが訪花するため「無花＝—」ではなく八重で報酬乏しい△が妥当。
+811,カレックス ディバルサ,Carex divulsa,—,—,True,高,カヤツリグサ科スゲ=風媒（グラス/セッジ一般原則、Panicum一次情報で確認: https://plantnative.org/native-plants/switchgrass-panicum-virgatum.htm）,風媒のスゲで花が地味・花蜜も花粉報酬もなく送粉者は利用しない→該当なし。
+812,"ヒューケラ アメリカーナ
+‘デイルズストレイン’",Heuchera americana 'Dale's Strain',○,○,True,中,NCSU Plant Toolbox Heuchera americana（https://plants.ces.ncsu.edu/plants/heuchera-americana/）,小型鐘状花にネイティブビー・ハナバチ・ハチドリ・チョウが中程度に訪花し特定バチ(Colletes aestivalis)を支えるが葉観賞主体で中程度誘引→○維持。
+814,"パニカム バーゲタム
+‘ブルージャイアント’",Panicum virgatum 'Blue Giants',—,—,True,高,NativePlantTrust/各Extension Panicum virgatum記載（https://plantnative.org/native-plants/switchgrass-panicum-virgatum.htm）,スイッチグラスは風媒で花蜜を供給せず送粉者を花で誘引しない（幼虫食草・種子は鳥用）→蜜源としては該当なし。
+815,"パニカム バーゲタム
+‘エメラルドチーフ’",Panicum virgatum 'Emerald Chief',—,—,True,高,"NCSU Extension Gardener Plant Toolbox: Panicum virgatum, https://plants.ces.ncsu.edu/plants/panicum-virgatum/",NCSUは風媒で昆虫送粉ではないと明記し送粉者への花蜜/花粉報酬がないため—が妥当。
+821,"カレックス フラジェリフェア
+‘キウイ’",Carex flagellifera 'Kiwi',—,—,True,高,"Hoffman Nursery: Grasses, Sedges, and Rushes for Pollinators, https://hoffmannursery.com/blog/article/grasses-sedges-and-rushes-for-pollinators",カヤツリグサ科スゲは風媒で花蜜/花粉の送粉報酬がなく—が妥当。
+845,カレックス　ショーティアーナ,Carex shortiana,—,—,True,高,"Hoffman Nursery: Grasses, Sedges, and Rushes for Pollinators, https://hoffmannursery.com/blog/article/grasses-sedges-and-rushes-for-pollinators",風媒のスゲ属で送粉者への直接的な蜜・花粉報酬がないため—が妥当。
+855,"モリニア　カエルレア　
+‘ハイデブラウト’",Molinia caerulea 'Heidebraut',—,—,True,高,"RHS: Molinia caerulea, https://www.rhs.org.uk/plants/11169/molinia-caerulea/details",イネ科の風媒グラスで花は退化した小穂で送粉報酬がなく—が妥当。
+860,"ハコネクロア‘オールゴールド’
+（オオゴンフウチソウ）",Hakonechloa macra 'All Gold',—,—,True,高,"NCSU Extension Gardener Plant Toolbox: Hakonechloa macra, https://plants.ces.ncsu.edu/plants/hakonechloa-macra/",イネ科フウチソウは風媒で送粉者の餌資源にならず—が妥当。
+876,スティパ　イチュ,Stipa ichu,—,—,True,高,"MBG Plant Finder: Nassella/Stipa tenuissima（Stipa属・イネ科）, https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285344",イネ科Stipa属の風媒オーナメンタルグラスで花蜜がなく送粉報酬がないため—が妥当（属レベルで照合）。
+882,アンシニア（ウンシニア） ルブラ,Uncinia rubra,—,—,True,高,"RHS: Uncinia rubra, https://www.rhs.org.uk/plants/18608/uncinia-rubra/details",カヤツリグサ科の風媒スゲで花は退化した小穂、種子はフック散布で送粉報酬がなく—が妥当。
+884,カレックス'エバーゴールド',Carex 'Evergold',—,—,True,高,"Hoffman Nursery: Grasses, Sedges, and Rushes for Pollinators, https://hoffmannursery.com/blog/article/grasses-sedges-and-rushes-for-pollinators",風媒のスゲ類で送粉者への蜜・花粉報酬がないため—が妥当。
+889,"スティパ テヌイッシマ
+（エンジェルヘアー・ポニーテール）",Stipa tenuissima,—,—,True,高,"MBG Plant Finder: Nassella tenuissima, https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285344",イネ科の風媒メキシカンフェザーグラスで花蜜がなく送粉報酬がないため—が妥当。
+892,ペニセタム アロペキュロイデス'ブラックビューティー',Pennisetum alopecuroides 'Black Beauty',—,—,True,高,"MBG Plant Finder: Pennisetum alopecuroides, https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=e500",イネ科の風媒ファウンテングラスで送粉者への蜜・花粉報酬がなく—が妥当。
+893,ペニセタム'フェアリーテイル',Pennisetum 'Fairy tails',—,—,True,高,"MBG Plant Finder: Pennisetum alopecuroides, https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=e500",イネ科Pennisetum属の風媒観賞グラスで送粉報酬がないため—が妥当。
+895,ミューレンベルギア　デュモーサ,Muhlenbergia dumosa,—,—,True,高,"Calscape: Muhlenbergia dumosa (Bamboo Muhly), https://calscape.org/Muhlenbergia-dumosa-(Bamboo-Muhly)",イネ科の風媒バンブーミューリーで花は退化した小穂で送粉報酬がなく—が妥当。
+897,フロックス　ピローサ,Phlox pilosa,◎,◎,True,高,PlantNative / GrowItBuildIT (Phlox pilosa) https://plantnative.org/native-plants/prairie-phlox-phlox-pilosa.htm,長い花筒でチョウ・ガ・長吻蜂を強く誘引する北米プレーリーの定番蜜源と一次情報が一致するため◎維持。
+898,アスター　タータリカス,Aster tataricus,◎,◎,True,高,NCSU Plant Toolbox / SelectSeeds (Aster tataricus) https://plants.ces.ncsu.edu/plants/crinitaria-tatarica/,晩秋に一重頭花でミツバチ・チョウ・移動個体へ貴重な蜜花粉を供給する晩期蜜源と確認できるため◎維持。
+905,ヘメロカリス'ナイトビーコン',Hemerocallis 'Night Beacon',○,○,True,中,Gardenia / ShunCy (Hemerocallis pollinators) https://www.gardenia.net/genus/hemerocallis-daylilies,漏斗状花で蜜を分泌し蜂・チョウが訪花するが一日花で主役資源ではない中程度のため○維持。
+908,コクリュウ,Ophiopogon planiscapus 'Nigrescens',△,△,True,中,MBG PlantFinder / NCSU Plant Toolbox (O. planiscapus 'Nigrescens') https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=e400,NCSUは蜂の訪花を記すが花は葉間に隠れる1/4インチの微小花で報酬は僅少な黒葉地被のため△維持。
+909,ヤブラン白斑シルバードラゴン,Liriope spicata 'Gin-ryū' (SILVER DRAGON),△,○,False,中,NCSU Plant Toolbox (Liriope spicata) https://plants.ces.ncsu.edu/plants/liriope-spicata/,NCSUが晩夏の花穂は蜂を誘引し晩期蜜源になると明記しており低評価は過小、中程度の○に修正。
+910,"ファラリス
+（フイリクサヨシ・アシフイリ）",Phalaris arundinacea var. picta,—,—,True,高,PFAF / NCSU Plant Toolbox (Phalaris arundinacea picta) https://pfaf.org/user/Plant.aspx?LatinName=phalaris+arundinacea,風媒のイネ科斑入りグラスで送粉者による花報酬がないと一次情報が一致するため—維持。
