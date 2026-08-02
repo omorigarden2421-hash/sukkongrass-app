@@ -1,0 +1,7 @@
+﻿row,plant,char,method,confidence,source,reason
+116,エリンジウム　プラナム,実生更新型,実生・根挿し,高,"RHS Eryngium planum, https://www.rhs.org.uk/plants/24972/eryngium-planum/details",直根性ロゼットでこぼれ種更新し、繁殖は実生と根挿しが基本というRHS記載と一致する。
+120,"アルメリア　マリティマ‘アルバ’
+（アルメリア白花）",株拡大型,株分け・挿し木,高,"RHS Armeria maritima, https://www.rhs.org.uk/plants/1597/armeria-maritima/details",叢生でマット状に株が太る性質で、栽培品種は株分けと基部挿しで殖やすため現マスタと一致する。
+795,アスター　‘ビクトリア’,株拡大型,株分け・挿し芽,中,"BBC GardenersWorld/Horticulture.co.uk Aster propagation, https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-asters/",叢生で株が太る点は妥当だが、繁殖は株分けと草本の若芽を用いる基部挿し芽が基本で挿し木は不適切なため方法を修正した。
+875,ジギタリス　ルテア,実生更新型,株分け・実生,高,"RHS Digitalis lutea, https://www.rhs.org.uk/plants/20080/digitalis-lutea/details",自然実生で更新する多年草でRHSも実生と春の株分けを挙げており現マスタと一致する。
+877,ネペタ'ピンクキャンディ’,株拡大型,株分け・挿し木・実生,高,"RHS Nepeta nervosa, https://www.rhs.org.uk/plants/11502/i-nepeta-nervosa-i/details",低く密な株を作る叢生型で、RHSが実生・半熟枝挿し・株分けを挙げており現マスタと一致する。

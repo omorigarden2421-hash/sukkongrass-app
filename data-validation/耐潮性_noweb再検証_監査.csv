@@ -1,0 +1,34 @@
+﻿row,plant,sci,cur,ver,agree,confidence,source,reason
+107,ミント　ブラックペパーミント,Mentha x piperita,△,△,True,中,RHS Mentha × piperita black peppermint https://www.rhs.org.uk/plants/155867/mentha-piperita-black-peppermint/details,RHSは露地・遮蔽両可とするが海岸適性の明示はなく、塩ストレスで生育・精油が明確に低下する報告があり弱耐塩の△が妥当。
+118,"アスター　ノバエアングリアエ
+‘セプテンバールビー’(ネバリノギク)",Aster novae-angliae 'September Ruby',○,○,True,高,Missouri Botanical Garden Symphyotrichum novae-angliae https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b540,MBG等が耐塩・耐乾・耐湿と明記し潮風に耐える○が適合。
+187,"カンパニュラ　ヘイロジェンシス
+‘ワーリーホワイト’",Campanula x haylodgensis 'Warley White',△,△,True,低,Alpine Garden Society Campanula haylodgensis http://encyclopaedia.alpinegardensociety.net/plants/Campanula/haylodgensis,高山性交雑種で耐塩性の一次情報は得られず、確信度低のため現マスタの△を維持。
+193,アルケミラ　サクサティリス,Alchemilla saxatilis,×,○,False,中,Sandy's Plants / plantlust Alchemilla alpina & mollis coastal・salt tolerant https://www.sandysplants.com/plant-name/Alchemilla-alpina,近縁のA.alpinaが海岸・道路塩に耐塩、A.mollisも海辺向きとされ、同属岩生種を不耐×とするのは過小で潮風に耐える○へ修正。
+211,ミント　パイナップルミント,Mentha suaveolens 'Variegata',○,○,True,中,RHS Mentha suaveolens 'Variegata' https://www.rhs.org.uk/plants/92744/mentha-suaveolens-variegata-v/details,RHSは温暖な海岸部で栽培可とし地中海原産で、高塩では生育低下するもある程度潮風に耐える○が妥当。
+263,"カリオプテリス　ディバリカータ
+‘スノーフェアリー’（カリガネソウ）",Caryopteris divaricata 'Snow Fairy',△,△,True,低,Mahoney's Seashore & Salt Tolerant perennials / NCSU Caryopteris https://plants.ces.ncsu.edu/plants/caryopteris/,Caryopteris属（特にclandonensis）は耐塩リスト掲載だが本種は東アジア林縁性で個別一次情報が乏しく、確信度低のため△を維持。
+371,"アスチルベ　アレンジー
+‘スノードリフト’",Astilbe × arendsii 'Snowdrift',×,×,True,低,NCSU Astilbe x arendsii https://plants.ces.ncsu.edu/plants/astilbe-x-arendsii/,アスチルベは高塩に敏感で根傷み・葉焼けの記載があり湿潤林床性のため不耐×を維持（一部で耐塩日陰植物扱いもあり確信度低）。
+372,"アスチルベ　チネンシス
+‘ビジョンインホワイト’",Astilbe chinensis 'Vision in white',×,×,True,低,Gardener's Path salt-tolerant shade perennials / 属の耐塩感受性 https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,chinensisは属内で最も耐乾だが塩には敏感で、湿潤林床性のため不耐×を維持。
+373,アスチルボイデス　タビュラリス,Astilboides tabularis,×,×,True,中,RHS Astilboides tabularis https://www.rhs.org.uk/plants/27487/astilboides-tabularis/details,水辺・流れ縁の常湿を好む中国北部～韓国の林床植物で耐塩の情報はなく不耐×が妥当。
+375,アンドロサセ　ビローサ,Androsace villosa,×,×,True,中,RHS Androsace villosa https://www.rhs.org.uk/plants/1200/androsace-villosa/details,標高1500m超の石灰岩スクリーに育つ高山岩生種で海岸・塩耐性の根拠はなく不耐×が妥当。
+385,ジーアム（ゲウム）リヴァーレ,Geum rivale,×,×,True,高,Jersey-Friendly Yards Geum rivale (salt tolerance: low to none) https://www.jerseyyards.org/plant/geum-rivale/,耐塩性は「低～なし」と明記され湿地・湿草地性のため不耐×が確実。
+414,ジーアム（ゲウム）‘マイタイ’,Geum 'Mai Tai',△,△,True,中,RHS Geum 'Mai Tai' (Cocktails Series) https://www.rhs.org.uk/plants/306954/geum-mai-tai-pbr-cocktails-series/details,RHSの「海岸部で耐寒」は塩耐性ではなく、Geum属は耐塩とされず湿潤好みのため弱耐塩の△が妥当。
+479,"ゲンチアナ　パラドクサ
+‘ブルーヘラルド’",Gentiana paradoxa 'Blue Herald',△,△,True,中,RHS Gentiana paradoxa https://www.rhs.org.uk/plants/7810/gentiana-paradoxa/details,黒海沿岸に近いが大コーカサス山地の高山性種で海浜ハロファイトではなく耐潮性は弱く△が妥当。
+539,ゲラニウム‘ジョリービー’,Geranium 'Jolly Bee',○,○,True,低,RHS Geranium 'Jolly Bee' https://www.rhs.org.uk/plants/175220/geranium-jolly-bee-(pbr)/details,冷涼・海岸気候でも良く育つ強健種で潮風にある程度耐えると見られ○を維持。
+558,ピオニア‘コーラルサンセット’,Paeonia 'Coral Sunset',○,○,True,低,Frontiers 芍薬耐塩性評価 https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1739938/abstract,芍薬は強耐塩ではないが品種により一定の耐塩性を示すとの評価から境界値として○を維持。
+559,ピオニア‘サラバンハート’,Paeonia lactiflora 'Sarah Bernhardt',○,○,True,中,Frontiers 芍薬耐塩性評価（Sarah Bernhardt が相対的最強耐塩）https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1739938/abstract,供試芍薬品種中で相対的に最も耐塩性が高いと報告され○が支持される。
+562,"フェニキュラム　ブルガレ
+(フェンネル　緑葉）",Foeniculum vulgare,◎,◎,True,中,Eat The Weeds / UCI Fennel monograph https://www.eattheweeds.com/wild-fennel-foeniculum-vulgare/,地中海沿岸原産で海辺の崖地や海岸沿いに自生し塩気に耐えるため◎を維持。
+563,ユーパトリウム　白花,Eupatorium album L.,◎,○,False,中,Coastal Plain Plants Wiki / bplant Eupatorium http://coastalplainplants.org/wiki/index.php/Eupatorium_album,海岸平野の内陸ロングリーフ松林・林床指標種で海浜ハロファイトではなく（近縁E.dubiumが属内最強耐塩とされ本種は劣る）◎は過大につき○へ修正。
+587,ミント　グレープフルーツミント,Mentha × piperita,△,△,True,中,Springer/Protoplasma ペパーミント塩ストレス研究 https://link.springer.com/article/10.1007/s00709-015-0915-1,ペパーミントは塩に高感受性で0.3%NaCl超で正常生育不可のため耐潮性は弱く△が妥当。
+660,ヒューケラ‘ウェンディ’,Heuchera 'Wendy',◎,◎,True,中,NCSU Extension Heuchera / Proven Winners https://plants.ces.ncsu.edu/plants/heuchera/,ヒューケラは耐塩性があり海辺の潮しぶきや融雪塩に強く海岸植栽に適するため◎を維持。
+718,ミント　ヒメハッカ,Mentha japonica,△,△,True,中,Kew POWO / Wikipedia Mentha japonica https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:450645-1/general-information,湿地・湿った草地や川辺に自生する内陸湿地性のミントで塩に感受性が高く△が妥当。
+744,"ジーアム（ゲウム）
+‘フレームオブパッション’",Geum 'Flame of Passion',△,△,True,中,RHS Geum rivale（親種）https://www.rhs.org.uk/plants/7979/geum-rivale/details,親種は水辺を好む湿性種で海浜性はなく耐潮性は弱く△が妥当。
+757,タイム　マスチックタイム,Thymus mastichina,○,○,True,中,My Mediterranean Garden / iNaturalist Thymus mastichina https://mymediterraneangarden.com/plants/thymus-mastichina/,イベリア半島の岩礫地・海岸域の乾性灌木地に自生し潮風にある程度耐えると見られ○を維持。
+789,ミューレンベルギア　リジェンス,Muhlenbergia rigens,◎,◎,True,中,Gardenia / Lady Bird Johnson Wildflower Center Muhlenbergia rigens https://www.gardenia.net/plant/muhlenbergia-rigens,海岸選抜系統は耐塩性が高く塩・風・冷涼を含む海辺条件に耐えるとされ◎を維持。
+790,ミント　ニホンハッカ　ホクト,Mentha arvensis var. piperascens,×,×,True,中,Acta Physiologiae Plantarum (Springer) https://link.springer.com/article/10.1007/s11738-013-1385-8,塩ストレス（100〜500mM NaCl）で生育・精油・収量が明確に低下する湿潤内陸種であり、海岸適性はなく現マスタの×と整合する。

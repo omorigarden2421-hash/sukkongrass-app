@@ -1,0 +1,3 @@
+﻿row,plant,sci,before,after,confidence,reason
+193,アルケミラ　サクサティリス,Alchemilla saxatilis,×,○,中,近縁のA.alpinaが海岸・道路塩に耐塩、A.mollisも海辺向きとされ、同属岩生種を不耐×とするのは過小で潮風に耐える○へ修正。
+563,ユーパトリウム　白花,Eupatorium album L.,◎,○,中,海岸平野の内陸ロングリーフ松林・林床指標種で海浜ハロファイトではなく（近縁E.dubiumが属内最強耐塩とされ本種は劣る）◎は過大につき○へ修正。
