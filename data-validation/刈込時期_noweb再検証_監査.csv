@@ -1,0 +1,318 @@
+﻿row,plant,sci,刈込時期北海道,刈込時期本州基準,confidence,source,reason
+37,"ジプソフィラ　セラスティオイデス
+（カーペットカスミソウ）",Gypsophila cerastioides,花後すぐ（7月）,花後すぐ（6月）,中,BBC Gardeners' World / plantlust (Gypsophila cerastioides) https://www.gardenersworld.com/plants/gypsophila-cerastioides/ ; https://plantlust.com/plants/14110/gypsophila-cerastioides/,矮性マット状アルパインで初夏～盛夏開花後に株全体を軽く刈込むと再開花・新芽更新（B型）。花時期を月表記のみだった現値を標準語彙へ正規化し、北海道は本州（6月）より1ヶ月遅い花後（7月）とする。
+44,"セダム　カムチャティカム　var.
+‘バリエガータム’(ｴｿﾞﾉｷﾘﾝｿｳ斑入)",Sedum kamtschaticum var. kamtschaticum 'Variegatum',花後すぐ（9月）,花後すぐ（9月）,中,Shoot / MyGardenLife (Sedum kamtschaticum 'Variegatum') https://www.shootgardening.com/plants/sedum-kamtschaticum-var-kamtschaticum-variegatum ; https://mygardenlife.com/plant-library/stonecrop-groundcover-sedum-variegatum-sedum-kamtschaticum,晩夏（8-9月）開花のグラウンドカバー多肉で花後に形を整える程度に刈込む（B型、強剪定不要）。両地とも花後すぐ（9月）で妥当、地域差なしとして据え置き。
+45,"セダム　スプリウム
+‘ドラゴンズブラッド’",Sedum spurium ‛Dragon's Blood’,隔離方法優先,隔離方法優先,中,Missouri Botanical Garden Plant Finder / Gardening Know How (Sedum spurium Dragon's Blood) http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174 ; https://www.gardeningknowhow.com/ornamental/cacti-succulents/sedum/growing-dragons-blood-sedum.htm,匍匐茎が節から発根して広がるため刈込より広がり制御・鉢/隔離が主眼（E型）。両地とも隔離方法優先で据え置き。
+46,"セダム　スプリウム
+‘トリカラー’",Sedum spurium ‛Tricolor’,隔離方法優先,隔離方法優先,中,Missouri Botanical Garden Plant Finder / Gardening Know How (Sedum spurium) http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174 ; https://www.gardeningknowhow.com/ornamental/cacti-succulents/sedum/growing-dragons-blood-sedum.htm,'Dragon's Blood'と同じ匍匐発根で広がるマット型スプリウム系。刈込より隔離が主眼（E型）で両地据え置き。
+47,"セダム　カウチコルム
+（ヒダカミセバヤ）",Sedum cauticola,花後すぐ（9-10月）,花後すぐ（10-11月）,中,近縁 Sedum kamtschaticum の維持管理（Shoot 等）＋既検証特性（秋9-10月開花・冬季落葉マット型） https://www.shootgardening.com/plants/sedum-kamtschaticum-var-kamtschaticum-variegatum,秋（9-10月）開花の落葉性ミセバヤ系で花後に整理（B型）。冷涼な北海道は開花が早く花後9-10月、本州は遅れ10-11月という現値の地域差は妥当で据え置き。
+63,"トバラ　バージニアーナ
+‘バリエガータ’",Tovara virginiana ‛Variegata’,隔離方法優先,隔離方法優先,中,既検証特性（侵略性強・株立ち・自生的にこぼれ種/地下で拡大するPersicaria/Tovara属）＋園芸標準,こぼれ種・地下拡大で暴れる侵略性強の株立ちのため刈込より隔離が主眼（E型）。両地とも隔離方法優先で据え置き。
+68,ビオラ　ラブラドリカ,Viola labradorica,隔離方法優先,隔離方法優先,中,既検証特性（侵略性強・自家結実で旺盛にこぼれ種拡大するViola）＋園芸標準,こぼれ種で旺盛に広がる侵略性強のマット型スミレのため刈込より隔離が主眼（E型）。両地とも隔離方法優先で据え置き。
+71,"ビンカ　ミノール
+‘アトロプルプレア’",Vinca minor 'Atropurpurea',隔離方法優先,隔離方法優先,中,既検証特性（侵略性強・匍匐ランナーで拡大する常緑Vinca minor）＋園芸標準（多くの地域で侵略種指定）,匍匐ランナーで広がる侵略性強の常緑グラウンドカバーのため刈込より隔離が主眼（E型）。両地とも隔離方法優先で据え置き。
+83,プルネラ　ブルガリス（セルフヒール）　,Prunella vulgaris,隔離方法優先,隔離方法優先,中,既検証特性（侵略性強・匍匐茎＋こぼれ種で拡大するPrunella vulgaris）＋園芸標準,匍匐茎とこぼれ種で芝地等に広がる侵略性強のマット型のため刈込より隔離が主眼（E型）。両地とも隔離方法優先で据え置き。
+84,プルモナリア‘トレビファウンテン’,Pulmonaria ‛Trevi Fountain’,花後すぐ（6-7月）,花後すぐ（5月下旬-6月）,中,BBC Gardeners' World / Missouri Botanical Garden Plant Finder（Pulmonaria）https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-pulmonaria/ ; https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=359968,春（4-5月）開花後に古葉を株元まで刈込むと新葉が更新しうどんこ抑制（B型）。冷涼な北海道は花後6-7月、本州は花後5月下旬-6月（梅雨前更新を兼ねる）で妥当、据え置き。
+85,プルモナリア‘ラズベリースプラッシュ’,Pulmonaria ‛Raspberry Splash’,花後すぐ（6-7月）,花後すぐ（5-6月）,中,BBC Gardeners' World / Missouri Botanical Garden Plant Finder（Pulmonaria）https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-pulmonaria/ ; https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=359968,春（3-5月）開花後の刈込で古葉更新・うどんこ抑制（B型）。北海道は花後6-7月、本州は花後5-6月で妥当、据え置き。
+88,"ペルシカリア ミクロセファラ
+‘レッドドラゴン’",Persicaria microcephala 'RedDragon',秋整理（10月）,冬〜早春整理（2〜3月）,高,RHS（Persicaria microcephala 'Red Dragon' PBR）/ Missouri Botanical Garden Plant Finder https://www.rhs.org.uk/plants/152665/persicaria-microcephala-red-dragon-pbr/details ; https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250026,RHSは剪定不要だが秋に地上部が枯れ、晩冬～早春の枯茎整理で新芽更新（A放任型）。北海道は初霜前の秋整理（10月）、冬温暖な本州は冬〜早春整理（2〜3月）で標準語彙どおり据え置き。
+89,ヘデラ‘ヘンリエッタ’,Hedera helix 'Henriette',隔離方法優先,隔離方法優先,高,RHS Hedera helix growing/pruning guidance; general invasive vine management (English ivy aggressive evergreen climber),常緑の強勢つる植物で刈込より侵入抑制が主眼のE型。北海道・本州とも刈込時期の指示ではなく隔離方法優先で現値どおり。
+90,ヘメロカリス‘ステラデオロ’,Hemerocallis 'Stella de Oro',花後随時,花後随時,高,"RHS Hemerocallis 'Stella de Oro' details; Missouri Botanical Garden Plant Finder (deadhead, cut scapes after bloom) https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=d160",四季咲き性デイリリーで花後に花茎を切り随時デッドヘッド、B型花後随時。北海道・本州とも同管理で現値どおり。
+91,ヘメロカリス‘ファイナルタッチ’,Hemerocallis 'Final Touch',花後随時,花後随時,高,RHS/MBG Hemerocallis maintenance（花後に花茎を切り戻し、随時デッドヘッド）,デイリリー共通で花後に花茎切戻し・随時整理のB型。北海道・本州とも同じ花後随時で現値どおり。
+105,ホトトギス‘トーゲン’,Tricyrtis ‛Togen’,秋整理（10月）,冬〜早春整理（2〜3月）,高,Wisconsin Horticulture Extension / Dallas County Master Gardeners（Tricyrtis: 冬は残し早春に切戻し、または枯れた後に整理）https://hort.extension.wisc.edu/articles/hairy-toad-lily-tricyrtis-hirta/,刈込不要のA放任型で枯れ後の整理のみ。北海道は枯れた秋（10月）に整理、本州は株を残し冬〜早春（2〜3月）に整理で現値どおり。
+106,ホトトギス‘ライトニングストライク’,Tricyrtis hirta 'Lightning Strike',秋整理（10月）,冬〜早春整理（2〜3月）,高,Wisconsin Horticulture Extension（Tricyrtis hirta は剪定不要、早春に古茎整理）https://hort.extension.wisc.edu/articles/hairy-toad-lily-tricyrtis-hirta/,A放任型で刈込不要。北海道は秋（10月）整理、本州は冬〜早春（2〜3月）整理で現値どおり。
+107,ミント　ブラックペパーミント,Mentha x piperita,隔離方法優先,隔離方法優先,高,一般的ミント（Mentha）管理情報（地下茎で強勢に拡大、根域制限・鉢植えで隔離）,地下茎で暴れる強勢種で刈込より隔離が主眼のE型。北海道・本州とも隔離方法優先で現値どおり。
+109,"ユッカ　グロリオーサ
+‘バリエガータ’",Yucca gloriosa 'Variegata',秋整理（10月）,冬〜早春整理（2〜3月）,中,Gardenia / Gardening Know How（Yucca gloriosa: 常緑、枯れた下葉と花後の花茎を除去、強剪定不可）https://www.gardenia.net/plant/yucca-gloriosa-spanish-dagger-grow-care-guide,常緑ロゼットで強剪定不可、古葉と花茎の整理のみのA型。北海道は秋（10月）、本州は冬〜早春（2〜3月）に古葉整理で現値どおり。
+111,リクニス　コロナリア‘アルバ’,Lychnis coronaria 'Alba',5月,3〜4月,中,Piedmont Master Gardeners / RHS Lychnis coronaria（短命宿根～二年草、こぼれ種で更新、早春に整理）https://www.piedmontmastergardeners.org/article/rose-campion/,短命でこぼれ種更新する銀葉種、活動開始前の株更新が主眼のD型。北海道は5月（萌芽後）、本州は3〜4月で現値どおり。
+137,ビオラ‘マース’,Viola mandshurica 'Mars',秋整理（10月）,冬〜早春整理（2〜3月）,中,野生スミレ（Viola mandshurica）一般管理（小型ロゼット、こぼれ種で拡大、刈込不要で整理のみ）,小型ロゼットの野生スミレで刈込不要のA型。北海道は秋（10月）、本州は冬〜早春（2〜3月）に古葉整理で現値どおり。
+149,ユーホルビア‘クラリスハワード’,Euphorbia cyparissias 'Clarice Howard',隔離方法優先,隔離方法優先,高,Euphorbia cyparissias（cypress spurge）は地下茎で強勢に広がる侵略種として各地Extensionで警告,地下茎で暴れる侵略性強のE型で刈込より隔離が主眼。北海道・本州とも隔離方法優先で現値どおり。
+154,クロコスミア‘ソルファテール’,Crocosmia x crocosmiiflora 'Solfatare',隔離方法優先,隔離方法優先,高,RHS Crocosmia growing guide / 各地侵入警告（球茎・ストロンで拡大、根域バリアや鉢で隔離）https://www.rhs.org.uk/plants/crocosmia/growing-guide,球茎・ストロンで暴れる強勢種で刈込より隔離が主眼のE型。北海道・本州とも隔離方法優先で現値どおり。
+155,"クリサンセマム　エゾエンセ
+（コハマギク）",Chrysanthemum yezoense,秋整理（10月）,冬〜早春整理（2〜3月）,中,日光植物園 / 植木ペディア コハマギク（海岸性の日本固有種、草丈15〜30cm、地下茎で群生）https://nikko-bg.jp/nikko-old/5_jokyo/species/Chrysanthemum_yezoense.html,背が低い野生海岸種（15〜40cm）で園芸ギクのような摘芯は必須でなくA放任＋整理型。北海道は秋（10月）、本州は冬〜早春（2〜3月）整理で現値どおり。
+156,"ペルシカリア ミクロセファラ
+‘シルバードラゴン’",Persicaria microcephala 'Silver Dragon',秋整理（10月）,冬〜早春整理（2〜3月）,高,"RHS/Shoot Gardening; Squak Mtn Nursery (https://www.shootgardening.co.uk/plant/persicaria-silver-dragon , https://plants.squakmtnursery.com/12230001/Plant/14030/Silver_Dragon_Fleeceflower/)",冬季完全落葉・カラーリーフの緩慢拡大宿根で強剪定不要、一次情報は「早春に整理」＝A型。北海道は初霜後の秋整理（10月）、本州は冬〜早春整理（2〜3月）で整合。
+160,ホスタ‘ダイアナリメンバード’,Hosta 'Diana Remembered',秋整理（10月）,冬〜早春整理（2〜3月）,中,園芸標準（叢生落葉ホスタの維持管理）＋既検証データ,叢生・冬季落葉で花後強剪定せず枯葉整理のみ＝A型。北海道は霜枯れ後の秋整理、本州は冬〜早春に枯葉整理で整合。
+161,ヒューケレラ‘サンスポット’,× Heucherella 'Sunspot',秋整理（10月）,冬〜早春整理（2〜3月）,中,園芸標準（半常緑ロゼットのHeuchera×Tiarella交配）＋既検証データ,半常緑ロゼットで強剪定不可、古葉整理のみ＝A型。北海道は秋、本州は冬〜早春に傷んだ古葉を整理で整合。
+162,"リシマキア　プンクタータ
+‘アレキサンダー’",Lysimachia punctata 'Alexander',隔離方法優先,隔離方法優先,高,"MBG Plant Finder; Gardenia (https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=248808 , https://www.gardenia.net/plant/lysimachia-punctata-alexander-yellow-loosestrife)",地下茎でコロニー拡大し「他の宿根の近くに植えるな・拡がりを監視せよ」との一次記載＝刈込より隔離が主眼のE型。両地とも隔離優先で整合。
+163,"レプティネラ　スクウォリダ
+‘プラッツブラック’",Leptinella squalida 'Platt's Black',隔離方法優先,隔離方法優先,高,"Xera Plants; MBG Plant Finder (https://xeraplants.com/plants/leptinella-squalida-platts-black/ , https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b785)",ランナー／地下茎で無限に拡がりマット化、「区画で囲って封じ込めるのが最善」との一次記載＝E型。両地とも隔離優先で整合。
+164,オレガノ‘ヘレンハウゼン’,Origanum laevigatum 'Herrenhausen',秋整理（10月）,梅雨前（5月下旬〜6月上旬）,中,"RHS; MBG Plant Finder (https://www.rhs.org.uk/plants/79410/origanum-laevigatum-herrenhausen/details , https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=251325)",地中海性で高温多湿の蒸れに弱く、一次情報も切戻し・早春強剪定を推奨＝C型。梅雨のある本州は梅雨前切戻が要、梅雨がなく夏涼しい北海道は秋整理のみで整合（地域分岐a）。
+165,"ベロニカストラム　シビリクム
+（クガイソウ）",Veronicastrum sibiricum,秋整理（10月）,冬〜早春整理（2〜3月）,高,"RHS; MBG Plant Finder (https://www.rhs.org.uk/plants/177034/veronicastrum-sibiricum/details , https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287015)",冬季落葉の株立ちで「秋に刈るか、冬〜早春まで穂を残し早春に地際刈込」との一次記載＝A型（チェルシーチョップは任意）。北海道は秋整理、本州は冬〜早春整理で整合。
+166,"トリフォリウム　レペンス
+‘ドラゴンズブラッド’",Trifolium repens 'Dragon's Blood',隔離方法優先,隔離方法優先,中,園芸標準（Trifolium repens＝匍匐ランナーで拡大するシロツメクサ栽培種）＋既検証データ,匍匐茎（ランナー）で旺盛に拡がる強侵略性グラウンドカバーで刈込より封じ込めが主眼＝E型。両地とも隔離優先で整合。
+168,ジギタリス　グランディフローラ　,Digitalis grandiflora,2～3年で株更新,2～3年で株更新,中,"Garden Design; White Flower Farm (https://www.gardendesign.com/flowers/foxglove.html , https://www.whiteflowerfarm.com/27895-product.html)",ジギタリス属で最も長命だが本種も短命宿根（2〜5年）で数年毎の株分け・更新が要との一次記載＝D毎年株更新型（株寿命が短い）。刈込タイミングでなく株更新で管理する特例値のため両地据え置き。
+170,"アスター　エリコイデス
+‘ジョリージャンパー’",Symphyotrichum ericoides 'Jolly Jumper',初夏（6月下旬）,梅雨前（5月下旬〜6月上旬）,高,"NCSU Plant Toolbox; UW Miller Library (https://plants.ces.ncsu.edu/plants/symphyotrichum-ericoides/ , https://depts.washington.edu/hortlib/pal/on-pruning-asters/)",晩夏〜秋咲きの高性アスターで初夏に1/3切戻し（チェルシーチョップ／摘心）すると倒伏防止・分枝促進＝C型。本州は梅雨前（5月下旬〜6月上旬）、北海道は生育の遅れを見て初夏（6月下旬）で整合。
+177,ヒューケラ‘シャムロック’,Heuchera 'Shamrock',秋整理（10月）,冬〜早春整理（2〜3月）,中,園芸標準（半常緑ロゼットのHeuchera）＋既検証データ,半常緑ロゼットで強剪定不可、傷んだ古葉整理のみ＝A型。北海道は秋、本州は冬〜早春に古葉を整理で整合。
+178,"カンパニュラ　プンクタータ
+‘フラッシングライト’",Campanula punctata 'Flashing Lights',隔離方法優先,隔離方法優先,高,NCSU Plant Toolbox (https://plants.ces.ncsu.edu/plants/campanula-punctata/),地下茎と自生えで旺盛に拡がり近縁のクリーピングベルフラワー同様「侵略的」との一次記載＝刈込より隔離が主眼のE型。両地とも隔離優先で整合。
+180,"サポナリア　オフィシナリス
+‘アルバプレナ’（ソープワート）",Saponaria officinalis 'Alba Plena',隔離方法優先,隔離方法優先,高,Illinois Wildflowers / Gardenia Invasive Alternatives https://www.gardenia.net/guide/native-plant-alternatives-to-saponaria-officinalis,広範なオレンジ色地下茎で強く広がる侵略種のため刈込より隔離が主眼＝両地とも隔離方法優先（コンテナ植え・防根壁が推奨されるE型）。
+181,"サポナリア　オフィシナリス
+‘ロゼアプレナ’（ソープワート）",Saponaria officinalis 'Rosea Plena',隔離方法優先,隔離方法優先,高,Illinois Wildflowers https://www.illinoiswildflowers.info/weeds/plants/soapwort.htm,基本種同様に地下茎で密生・侵略的に拡大するため両地とも隔離優先が妥当（E型）。
+184,"タイム　セパイラム‘コクシネウス’
+（クリーピングタイム　紅花）",Thymus serpyllum 'Coccineus',8月上旬〜9月上旬,7月上旬〜8月上旬,高,NCSU Plant Toolbox / BBC Gardeners World https://plants.ces.ncsu.edu/plants/thymus-serpyllum/,花後にコンパクトさ維持と木質化防止のため軽く刈込む典型的B型。開花が初夏〜盛夏で本州は花後7〜8月、北海道は約1ヶ月遅い8〜9月で整合。
+185,"エリシマム‘オレンジフレーム’
+（オウゴンナズナ）",Erysimum kotschyanum 'Orange Flame',秋整理（10月）,梅雨前（5月下旬〜6月上旬）,中,Horticulture Magazine / MyGardenLife https://horticulture.co.uk/erysimum/pruning/,高山礫地系で強剪定不可・蒸れに弱いC型。多年生ワルフラワーは秋（10月）に浅く整枝が推奨され北海道は秋整理のみ、梅雨のある本州は梅雨前切戻で蒸れ防止＝地域分岐維持。
+186,"サリクトラム（タリクトラム）
+‘ブラックストッキングス’",Thalictrum 'Black Stockings',秋整理（10月）,冬〜早春整理（2〜3月）,高,BBC Gardeners World / Garden Design https://www.gardendesign.com/perennials/meadow-rue.html,シードヘッド・草姿を残し晩冬〜早春に切戻す放任型A。積雪の北海道は秋整理、冬温暖の本州は冬〜早春整理で整合。
+187,"カンパニュラ　ヘイロジェンシス
+‘ワーリーホワイト’",Campanula x haylodgensis 'Warley White',秋整理（10月）,冬〜早春整理（2〜3月）,中,RHS Campanula guide https://www.rhs.org.uk/plants/campanula/border,花後に軽く刈れば再萌芽する低性ロックガーデン種で花後刈込は任意的。八重花で結実せず基本は放任整理で足りるため現マスタA（北海道秋・本州冬〜早春整理）を境界事例として維持。
+188,"ジーアム（ゲウム）　コクシネウム
+‘クッキー’",Geum coccineum 'Cooky',7月～8月,6月～7月,高,Missouri Botanical Garden Plant Finder http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286349,花後の花がら摘み・切戻しで二番花を促すB型（MBGは夏涼しい北方で再開花良好と明記）。開花5〜7月で本州は花後6〜7月、北海道は約1ヶ月遅い7〜8月で整合。
+190,ホスタ‘パトリオット’,Hosta 'Patriot',秋整理（10月）,冬〜早春整理（2〜3月）,高,MBG Plant Finder（Hosta 一般管理）,叢生ロゼットで刈込不要、落葉後に古葉整理する放任型A。北海道は霜後の秋整理、本州は冬〜早春整理で整合。
+191,ホスタ‘リトルオーロラ’,Hosta 'Little Aurora',秋整理（10月）,冬〜早春整理（2〜3月）,高,MBG Plant Finder（Hosta 一般管理）,小型叢生ホスタも同様に刈込不要の放任型Aで、両地とも落葉後の古葉整理のみ。
+195,ミント　アップルミント,Mentha suaveolens,隔離方法優先,隔離方法優先,高,一般園芸標準（Mentha 地下茎侵略性）,地下茎で強く暴れるミントは刈込より隔離が主眼のE型＝両地とも隔離方法優先。
+197,"ベロニカ　スピカータ
+‘レッドフォックス’",Veronica spicata ‘Red Fox’,花後すぐ,花後すぐ,高,Perennial Resource / MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=255687,一番花後にロゼットまで刈込むと初秋に二番花が出るB型。盛夏〜晩夏開花で両地とも花後すぐの切戻しが妥当。
+203,"サリクトラム(タリクトラム)
+フラバム　グロウカム",Thalictrum flavum subsp. glaucum,秋整理（10月）,冬〜早春整理（2〜3月）,高,BBC Gardeners World / Sunday Gardener https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-thalictrums/,シードヘッドを残し晩冬〜早春に切戻す株立ちの放任型A。積雪の北海道は秋整理、冬温暖の本州は冬〜早春整理で整合。
+222,"ジギタリス　プルプレア
+‘スノーシンブル’",Digitalis purpurea 'Snow Thimble',5月,3〜4月,中,RHS Digitalis purpurea 'Snow Thimble' https://www.rhs.org.uk/plants/183828/i-digitalis-purpurea-i-snow-thimble/details / Rose Press Garden How to prune foxgloves https://www.therosepressgarden.com/blogs/how-to-videos/how-to-cut-back-foxgloves-once-they-have-finished-flowering,越冬ロゼットで更新する二年草的性質のD管理型。株更新は活動開始前に行い、北海道は萌芽後の5月、本州は3〜4月で標準D語彙どおり。
+223,ミント　オレンジミント,Mentha x piperita f.citrata 'Orange',隔離方法優先,隔離方法優先,高,一般園芸知見（Mentha は地下茎で強く拡大、刈込より隔離が主眼）,地下茎で暴れる侵略種のためE隔離優先。両地とも刈込タイミングでなく隔離管理が本質で現値維持。
+225,フィリペンデュラ‘フジヘイズ’,Filipendula multijuga 'Fuji Haze',秋整理（10月）,冬〜早春整理（2〜3月）,高,RHS Filipendula multijuga https://www.rhs.org.uk/plants/105452/filipendula-multijuga/details,開花後（夏）に地上部が枯れる落葉多年草でcut back to the ground in autumn。北海道は秋整理、本州は残して冬〜早春整理のA放任型で現値維持。
+226,"モリニア　カエルレア
+‘バリエガータ’",Molinia caerulea subsp. caerulea 'Variegata',秋整理（10月）,冬〜早春整理（2〜3月）,高,Missouri Botanical Garden Plant Finder Molinia caerulea 'Variegata' https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263615 / Univ. Wisconsin Extension https://hort.extension.wisc.edu/articles/variegated-purple-moor-grass-molinia-caerulea-variegata,完全落葉グラスで晩秋に葉・花茎が自然に崩れ落ちる。北海道は秋整理、本州はearly spring(2-3月)切戻しのA型で現値どおり。
+227,"アスチルベ　チネンシス
+‘ビジョンインレッド’",Astilbe chinensis 'Vision in Red',花後すぐ（9月～10月上旬）,花後すぐ（8月下旬～9月）,中,"MBG/園芸各所 Astilbe chinensis pruning（cut back faded stems after flowering, late July–early Sept）",盛夏咲きで花後に花茎を切り戻すB型。北海道は本州より約1ヶ月遅い花後（9〜10月上旬）、本州は8月下旬〜9月で花時期整合、現値維持。
+228,ホスタ‘ウルバリーン’,Hosta 'Wolverine',秋整理（10月）,冬〜早春整理（2〜3月）,中,一般園芸知見／MBG Hosta（初霜で地上部枯死、落葉を秋または早春に整理）,初霜で完全落葉する叢生多年草で強剪定不要のA放任型。北海道は秋整理、本州は冬〜早春整理で現値維持。
+229,アジュガ　レプタンス‘ロゼア’,Ajuga reptans 'Rosea',隔離方法優先,隔離方法優先,高,一般園芸知見（Ajuga reptans はランナーで旺盛に拡大するグラウンドカバー）,匍匐ランナーで広がる強侵略種のためE隔離優先。両地とも隔離管理が本質で現値維持。
+230,アネモネ　マルチフィダ（ムルチフィダ）‘ルブラ’,Anemone multifida 'Rubra',秋整理（10月）,冬〜早春整理（2〜3月）,中,一般園芸知見（Anemone multifida は落葉性の小型宿根草、株立ちで放任可）,落葉性の株立ち小型宿根草で刈込不要のA放任型。北海道は秋整理、本州は冬〜早春整理で現値維持。
+231,アイリス　シビリカ‘レッドフレア’,Iris sibirica 'Red Flare',秋整理（10月）,冬〜早春整理（2〜3月）,高,UConn Home Garden Iris factsheet https://homegarden.cahnr.uconn.edu/factsheets/iris/ / Almanac Growing Siberian Iris https://www.almanac.com/growing-siberian-iris,晩秋に地際で刈るか、冬色として残し早春に切るA型。北海道は秋整理（10月・霜後）、本州は残して冬〜早春整理で現値維持。
+253,ダイアンサス　カシュジアノーラム,Dianthus carthusianorum,花後すぐ（主に7月）,花後すぐ（主に6月）,中,Garden Gate How to deadhead Dianthus https://www.gardengatemagazine.com/articles/how-to/prune/how-to-deadhead-dianthus/ / Meadowlark Journal Pruning Dianthus https://meadowlarkjournal.com/blog/pruning-dianthus,初夏〜晩夏咲きで一番花後に花茎を切り戻すと返り咲くB型。北海道は主に7月、本州は約1ヶ月早い6月で花時期整合、現値維持。
+255,ビンカ　ミノール‘ゴールデン’,Vinca minor 'Golden',隔離方法優先,隔離方法優先,高,一般園芸知見（Vinca minor は匍匐茎で節から発根し旺盛に広がるグラウンドカバー）,匍匐茎で拡大する常緑グラウンドカバーの侵略種でE隔離優先。両地とも隔離管理が本質で現値維持。
+256,"リスラム　サリカリア
+（エゾミソハギ）",Lythrum salicaria,隔離方法優先,隔離方法優先,高,一般園芸知見（Lythrum salicaria=purple loosestrife は湿地で強く拡大する要注意侵略種）,種子・株で強く拡大する侵略種（要注意外来）でE隔離優先。両地とも刈込より隔離・結実防止が本質で現値維持。
+265,アスター　ディバリケータス,Aster divaricatus,隔離方法優先,隔離方法優先,高,NCSU Plant Toolbox (Eurybia divaricata) https://plants.ces.ncsu.edu/plants/eurybia-divaricata/ ; North Creek Nurseries https://www.northcreeknurseries.com/plantName/Aster-divaricatus-,地下茎で旺盛に広がり自然実生でも増える侵略的木立性のため両地とも刈込より隔離管理が主眼（E型）で北海道・本州とも隔離方法優先。
+267,"レモンバーム
+(メリッサ オフィシナリス)",Melissa officinalis,隔離方法優先,隔離方法優先,高,RHS Melissa officinalis https://www.rhs.org.uk/plants/11040/melissa-officinalis/details ; Gardeners' World https://www.gardenersworld.com/plants/melissa-officinalis/,こぼれ種と地下茎で強く広がり容器栽培推奨の要注意種のため両地とも隔離が主眼（E型）で北海道・本州とも隔離方法優先。
+268,"フェスツーカ　グラウカ
+‘ボルダーブルー’",Festuca glauca 'Boulder Blue',5月（株更新）,3〜4月（株更新）,高,RHS Festuca glauca https://www.rhs.org.uk/plants/7181/festuca-glauca-vill/details ; Gardenia https://www.gardenia.net/plant/festuca-glauca-blue-fescue-grow-care-guide,常緑細葉グラスで強剪定不可・中心が枯れやすく2〜3年毎の春の株分け更新が要（D型）のため北海道は萌芽後の5月、本州は生育前の3〜4月に株更新。
+271,クロコスミア‘ルシファー’,Crocosmia x crocosmiiflora 'Lucifer',隔離方法優先,隔離方法優先,高,RHS Crocosmia growing guide https://www.rhs.org.uk/plants/crocosmia/growing-guide ; Walters Gardens https://www.waltersgardens.com/variety.php?ID=CROLU,球茎（コーム）が密な群落を作り広がるため掘り上げて分離する管理が主眼（E型）で北海道・本州とも隔離方法優先。
+302,"ユーパトリム　ルゴサム
+‘チョコレート’",Ageratina altissima 'Chocolate',隔離方法優先,隔離方法優先,高,MBG Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=v230 ; NCSU https://plants.ces.ncsu.edu/plants/ageratina-altissima/,地下茎と多量のこぼれ種で旺盛に広がる要注意種のため両地とも隔離が主眼（E型）で北海道・本州とも隔離方法優先。
+304,"ヘメロカリス
+‘シャーウッドグラディエーター’",Hemerocallis 'Sherwood Gladiator',秋整理（10月）,冬〜早春整理（2〜3月）,高,Horticulture.co.uk https://horticulture.co.uk/blogs/growing/hemerocallis-pruning ; Plant Addicts https://plantaddicts.com/pruning-deadheading-cutting-back-daylilies/,強剪定不要の放任型（A型）で葉の枯れ後に整理するため北海道は初霜後の秋整理（10月）、本州は葉を残し冬〜早春（2〜3月）に整理。
+305,ヒューケラ‘サシェイ’,Heuchera 'Sashay',秋整理（10月）,冬〜早春整理（2〜3月）,中,RHS Heuchera growing guide https://www.rhs.org.uk/plants/heuchera/growing-guide ; Gardener's Path https://gardenerspath.com/plants/foliage/heuchera-winter-care/,半常緑ロゼットで強剪定不可・古葉を早春に整理する放任型（A型）のため本州は冬〜早春（2〜3月）に古葉整理、北海道は秋整理（10月）。
+307,"サンギソルバ　アルビフローラ
+（シロバナトウチソウ）",Sanguisorba albiflora (Makino) Makino,秋整理（10月）,冬〜早春整理（2〜3月）,高,RHS Sanguisorba officinalis https://www.rhs.org.uk/plants/16403/sanguisorba-officinalis/details ; Gardeners' World https://www.gardenersworld.com/how-to/grow-plants/sanguisorba/,種頭を冬に残し晩冬〜早春に地際で刈る放任型（A型）のため本州は冬〜早春（2〜3月）整理、北海道は秋整理（10月）。
+311,ネペタ　ムッシーニアイ‘アルバ’,Nepeta mussinii 'Alba',花後すぐ（7月）,花後すぐ（6月）,高,Garden Design Catmint https://www.gardendesign.com/perennials/catmint.html ; Savvy Gardening https://savvygardening.com/when-to-cut-back-catmint/,初夏の一番花後に半分ほど刈込み再開花させる花後刈込型（B型）で、開花の早い本州は6月、1〜2ヶ月遅い北海道は7月に花後すぐ刈込。
+343,"アスター　ノビベルギ
+‘ロイヤルルビー’",Aster novi-belgii 'Royal Ruby',6月下旬-7月上旬,6月上旬-6月下旬,中,Gardenia Aster novi-belgii https://www.gardenia.net/genus/aster-novi-belgii-new-york-asters ; Gardener's Path https://gardenerspath.com/plants/flowers/grow-new-york-asters/,うどんこ病と倒伏対策に初夏（6月頃）1/3切戻す夏前切戻型（C型）で、本州は梅雨前の6月上旬〜、北海道は約2〜3週遅い6月下旬〜に切戻し（現マスタの月表記を据え置き）。
+347,セダム‘ベラジェームソン’,Sedum ‛Vera Jameson',秋整理（10月）,冬〜早春整理（2〜3月）,中,Rainyside Gardeners https://www.rainyside.com/plant_gallery/perennials/SedumVeraJameson.html ; PictureThis https://www.picturethisai.com/care/pruning/Sedum_telephium__Vera_Jameson_.html,背の低い匍匐性セダムで剪定不要・冬に残し早春に枯茎を切る放任型（A型）のため本州は冬〜早春（2〜3月）整理、北海道は秋整理（10月）。
+348,"センペルビビューム‘ブロンコ’
+（ハウスリーク）",Sempervivum 'Bronco',秋整理（10月）,冬〜早春整理（2〜3月）,中,プロトコル準拠（多肉ロゼット→A型）; RHS Sempervivum 一般管理（開花後の親ロゼットのみ除去、剪定不要）,多肉ロゼットで剪定不可・開花した親株のみ除去する放任型（A型）のため北海道は秋整理（10月）、本州は冬〜早春（2〜3月）整理。
+351,"アシリウム　ニポニカム　
+ピクタム‘プーターレース’",Athyrium niponicum var. pictum 'Pewter Lace',秋整理（10月）,冬〜早春整理（2〜3月）,高,Biology Insights / White Flower Farm (Athyrium niponicum var. pictum) https://biologyinsights.com/how-to-grow-and-care-for-japanese-painted-fern/,冬季落葉シダで強剪定不要のA放任型。古葉は晩冬〜早春の萌芽前に整理する記述で、北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）が妥当。
+353,"レウカンセマム×スーパーバム
+(ｼｬｽﾀｰﾃﾞｰｼﾞｰ)‛スノードリフト’",Leucanthemum × superbum 'Snowdrift',花後すぐ（8月～9月）,花後すぐ（7月～8月）,高,RHS Leucanthemum × superbum / Gardener's Path https://www.rhs.org.uk/plants/98781/leucanthemum-superbum/details,花後に切戻すB型で、開花初夏〜盛夏に合わせ本州は花後すぐ（7〜8月）、北海道は1〜2ヶ月遅い花後すぐ（8〜9月）で整合。
+354,スポディオポゴン　シビリカス,Spodiopogon sibiricus,秋整理（10月）,冬〜早春整理（2〜3月）,高,NC State Extension / Perennial Resource (Spodiopogon sibiricus) https://plants.ces.ncsu.edu/plants/spodiopogon-sibiricus,冬に穂を残し早春の萌芽前に地際で刈るA放任型グラス。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で妥当。
+355,デスカンプシア　セスピトーサ,Deschampsia cespitosa,秋整理（10月）,冬〜早春整理（2〜3月）,高,North Creek Nurseries / nature-and-garden (Deschampsia cespitosa) https://www.northcreeknurseries.com/plant-name/Deschampsia-cespitosa-,半常緑グラスで晩冬〜早春（2月末〜3月）に古葉整理、冬は種穂を残すA放任型。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で整合。
+360,ヘメロカリス‛チョコレートキャンディー’,Hemerocallis 'Chocolate Candy',秋整理（10月）,冬〜早春整理（2〜3月）,高,Proven Winners / Horticulture.co.uk (Hemerocallis) https://www.provenwinners.com/learn/how-to/daylily,冬季落葉、越冬葉を防寒に残し早春の萌芽前に地際で刈るA放任型。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）が妥当。
+364,アスター　ノビベルギ‘ジェニー’,Symphyotrichum novi-belgii 'Jenny',初夏（6月下旬）,梅雨前（5月下旬〜6月上旬）,高,RHS Aster growing guide / Almanac Chelsea chop https://www.rhs.org.uk/plants/aster/growing-guide,夏前に1/3〜1/2切戻す（チェルシーチョップ）で徒長・倒伏・蒸れ防止のC型。本州は梅雨前（5月下旬〜6月上旬）、北海道は初夏（6月下旬）で整合。
+367,"デスカンプシア　セスピトーサ
+‘ピクシーファウンテン’",Deschampsia cespitosa 'Pixie Fountain',秋整理（10月）,冬〜早春整理（2〜3月）,高,Perenual (Deschampsia cespitosa 'Pixie Fountain') https://www.perenual.com/plant-database-search-guide/species/3440/guide,基本種同様の半常緑グラスで早春の萌芽前に古葉整理するA放任型。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で妥当。
+368,"プリムラ　ジャポニカ‘アルバ’
+（クリンソウ白花）",Primula japonica 'Alba',秋整理（10月）,冬〜早春整理（2〜3月）,中,Great Plant Picks / Gardenia (Primula japonica candelabra) https://www.greatplantpicks.org/plantlists/view/1233,半常緑のロゼット型で強剪定不可、低管理で早春に古葉整理するA放任型。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）が妥当。
+371,"アスチルベ　アレンジー
+‘スノードリフト’",Astilbe × arendsii 'Snowdrift',秋整理（10月）,冬〜早春整理（2〜3月）,高,Homes & Gardens / Horticulture.co.uk (Astilbe pruning) https://www.homesandgardens.com/gardens/when-to-prune-astilbe,冬季落葉、褐変した花穂を冬の景観に残し早春の萌芽前に切戻すA放任型。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で整合。
+388,トリフォリウム　オクロレウカム,Trifolium ochroleucum,花後すぐ（8月～9月）,花後すぐ（7月～8月）,中,RHS Trifolium ochroleucon / Gardeners' World / Hardy's Plants https://www.rhs.org.uk/plants/52266/trifolium-ochroleucon/details,一次情報で「花後に切戻すと二番花を促す」と繰り返し記載されA放任型でなくB花後刈込型が妥当。開花盛夏に合わせ本州は花後すぐ（7〜8月）、北海道は1〜2ヶ月遅い花後すぐ（8〜9月）に修正。
+389,"ノウティア（クナウティア）　
+マセドニカ‘マースミジェット’",Knautia macedonica 'Mars Midget',初夏（6月下旬）,梅雨前（5月下旬〜6月上旬）,高,RHS Plants for Pollinators / GardenWorld (Knautia macedonica) https://gardenworld.app/en/blog/how-to-prune-knautia-macedonica-complete-guide,旺盛な株は6月に20〜25cmへ切戻し再構成させるC夏前切戻型。本州は梅雨前（5月下旬〜6月上旬）、北海道は初夏（6月下旬）で整合。
+390,ピンピネラ　マヨール‘ロゼア’,Pimpinella major 'Rosea',花後すぐ,花後すぐ,中,MBG Plant Finder / RHS Pimpinella major 'Rosea' / Gardeners' World https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=260854,花後に花茎を切る管理が記載されるB花後刈込型で現マスタと一致。自然実生を望む場合は種穂を残す記述もあり境界的だが、月表記なしの現値を据え置き、北海道・本州とも花後すぐを維持。
+394,ヘメロカリス‘シカゴアパッチ’,Hemerocallis 'Chicago Apache',8月,7月,中,RHS Growing Guide (Hemerocallis) + Horticulture.co.uk (Paula Dyason) https://www.rhs.org.uk/plants/hemerocallis/growing-guide,デイリリーは花後に花茎を株元で切る花後刈込型で、盛夏咲きのため本州は7月・北海道は約1ヶ月遅い8月と現値の地域差が妥当、月表記は据え置き。
+395,ヘメロカリス‘デイビッドカークホフ’,Hemerocallis 'Siloam David Kirchhoff',秋整理（10月）,冬〜早春整理（2〜3月）,中,RHS Growing Guide (Hemerocallis) https://www.rhs.org.uk/plants/hemerocallis/growing-guide,強剪定不要で古葉を休眠期に整理する放任型、北海道は秋・本州は冬〜早春の整理でA型標準語彙どおり。
+396,"ヘメロカリス
+‘リトルミュージックメーカー’",Hemerocallis 'Little MusicMaker',秋整理（10月）,冬〜早春整理（2〜3月）,中,RHS Growing Guide (Hemerocallis) https://www.rhs.org.uk/plants/hemerocallis/growing-guide,半常緑デイリリーだが強剪定不可で古葉整理のみのA型、北海道は秋・本州は冬〜早春整理で現値どおり。
+398,ルピナス‘フローレイン’,Lupinus × hybrida 'Fraulein',花後すぐ（7月）,花後すぐ（6月）,中,RHS Growing Guide (Lupins) https://www.rhs.org.uk/plants/lupins/growing-guide,RHSは花後すぐ花茎を株元で切ると二番花を促すとし花後刈込型に該当、初夏咲きのため本州は6月・北海道は約1ヶ月遅い7月へ標準語彙化し地域差を新設（非標準の『花後または秋』を修正）。
+412,ヘメロカリス‘クリスマス　イズ’,Hemerocallis 'Christmas Is',花後すぐ（8月）,花後すぐ（7月）,中,RHS Growing Guide (Hemerocallis) https://www.rhs.org.uk/plants/hemerocallis/growing-guide,花後に花茎を切る花後刈込型で盛夏咲き、本州7月・北海道8月の地域差とB型標準語彙が一致。
+415,"ヘメロカリス
+‘クリムソン　パイレート’",Hemerocallis 'Crimson Pirate',花後すぐ（8月～9月）,花後すぐ（7月～8月）,中,RHS Growing Guide (Hemerocallis) https://www.rhs.org.uk/plants/hemerocallis/growing-guide,花後刈込型で初夏〜盛夏咲き、本州7〜8月・北海道8〜9月と1ヶ月遅れの地域差が妥当で月範囲は据え置き。
+417,アスチルベ　アレンジー‘ショースター’,Astilbe × arendsii 'Showstar',秋整理（10月）,冬〜早春整理（2〜3月）,高,Clemson HGIC / Missouri Extension (Astilbe) https://hgic.clemson.edu/how-to-grow-and-care-for-astilbe/,花後の切戻しは返り咲かず穂は残して観賞、古葉は霜前〜晩冬に地際で整理するA型で、北海道は秋・本州は冬〜早春の現値どおり。
+419,"ベロニカストラム　シビリクム　
+var.エゾエンス（エゾクガイソウ）",Veronicastrum sibiricum var. yezoense H.Hara,秋整理（10月）,冬〜早春整理（2〜3月）,中,RHS (Veronicastrum sibiricum) + EarthOne https://www.rhs.org.uk/plants/177034/veronicastrum-sibiricum/details,高性叢生で穂は冬の景観に残し晩冬〜早春に地際で切るA型、北海道は秋・本州は冬〜早春整理で現値どおり。
+425,"スカビオサ　オクロレウカ
+‘ムーンダンス’",Scabiosa ochroleuca 'Moon Dance',5月,3〜4月,中,Annie's Annuals / Gardening Know How (Scabiosa) https://www.gardeningknowhow.com/ornamental/flowers/pincushion-flower/scabiosa-pincushion-flowers.htm,短命多年草で活動開始前の株更新・早春作業型、北海道は5月・本州は3〜4月の萌芽前作業でD型標準語彙どおり。
+426,ゲラニウム‘ブルーサンライズ’,Geranium ‛Blue Sunrise’,初夏（6月下旬）,梅雨前（5月下旬〜6月上旬）,中,Fine Gardening / BBC Gardeners' World (hardy geraniums) https://www.finegardening.com/article/geraniums-the-best-of-the-best,一番花後に地際まで切戻して新葉・二番花を促す夏前切戻型、本州は蒸れ対策も兼ね梅雨前・北海道は梅雨がなく初夏(6月下旬)とC型地域差どおり。
+433,ヘメロカリス‘フールドミー’,Hemerocallis 'Fooled Me',花後すぐ,花後すぐ,中,RHS Growing Guide (Hemerocallis) https://www.rhs.org.uk/plants/hemerocallis/growing-guide,返り咲き性デイリリーで花後随時に花茎を切る花後刈込型、両地とも『花後すぐ』の標準語彙で月固定は不要のため据え置き。
+440,"サンギソルバ　ハクサネンシス
+（カライトソウ）",Sanguisorba hakusanensis,秋整理（10月）,冬〜早春整理（2〜3月）,中,三河の植物観察 / ヤサシイエンゲイ（カライトソウ）https://mikawanoyasou.org/data/karaitosou.htm,日本の一次情報は自然樹形が整い特別な剪定切戻し不要で枯れ茎葉を春の萌芽前または秋の落葉後に整理とし放任型に該当、花後刈込(9月/8月)から北海道は秋・本州は冬〜早春整理へ方針修正。
+475,オルラヤ　グランディフローラ,Orlaya grandiflora,-,-,高,RHS / 一般園芸情報（ハーディーアニュアル・こぼれ種更新）,半耐寒一年草でこぼれ種更新するため刈込タイミングの概念がなく、北海道・本州とも「-」が妥当。
+479,"ゲンチアナ　パラドクサ
+‘ブルーヘラルド’",Gentiana paradoxa 'Blue Herald',秋整理（10月）,冬〜早春整理（2〜3月）,中,RHS Gentiana paradoxa https://www.rhs.org.uk/plants/7810/gentiana-paradoxa/details,半常緑でロゼット基部を残す放任型（A）。北海道は初霜前の秋整理、本州は暖冬で冬〜早春整理が妥当。
+483,"エリンジウム　バリフォリウム
+‘ミスマーブル’",Eryngium variifolium 'Miss Marble',秋整理（10月）,梅雨前（5月下旬〜6月上旬）,中,RHS Eryngium variifolium 'Miss Marble' https://www.rhs.org.uk/plants/353689/eryngium-variifolium-miss-marble/details,地中海礫地系の常緑ロゼットで過湿に弱く、本州は梅雨前の通風確保（C）、北海道は梅雨なく夏涼しいため秋整理のみで足りる地域分岐が妥当。
+490,"カンパニュラ　グロメラータ
+‘ベルフルールホワイト’（ﾔﾂｼﾛｿｳ）",Campanula glomerata 'Bellefleur White',花後すぐ（8月）,花後すぐ（7月）,高,Campanula glomerata pruning（花後刈込で再開花）RHS/園芸情報,花後に刈り込むと再開花する花後刈込型（B）。本州は6-7月開花直後の7月、北海道は約1ヶ月遅れの8月が妥当。
+491,"カンパニュラ　グロメラータ
+‘ベルフルールブルー’（ﾔﾂｼﾛｿｳ）",Campanula glomerata 'Bellefleur Blue',花後すぐ（8-9月）,花後すぐ（7-8月）,高,Campanula glomerata pruning（花後刈込で再開花）RHS/園芸情報,花後刈込型（B）。本州は5-7月開花後の7-8月、北海道はやや遅れて8-9月が妥当。
+516,"リアトリス　スカリオーサ
+(花：ピンク)",Liatris scariosa,花後すぐ（10月）,花後すぐ（10-11月）,中,Almanac Liatris care https://www.almanac.com/plant/how-grow-liatris-blazing-star-pollinator-favorite,晩夏〜秋咲きで花後に地際まで刈り戻す花後刈込型（B、種穂を残す選択もあり）。北海道は初霜で終わる10月、本州は10-11月が妥当。
+517,"リアトリス　スカリオーサ
+‘アルバ’",Liatris scariosa 'Alba',花後すぐ（10月）,花後すぐ（10-11月）,中,Almanac Liatris care https://www.almanac.com/plant/how-grow-liatris-blazing-star-pollinator-favorite,基本種同様の晩夏〜秋咲き花後刈込型（B）。北海道10月、本州10-11月が妥当。
+533,"アルテミシア ブルガリス
+‘オリエンタルライムライト’
+（フイリヨモギ）",Artemisia vulgaris 'Janlim',隔離方法優先,隔離方法優先,高,一般園芸情報（Artemisia vulgaris は強い地下茎で拡大する侵略種）,強い地下茎で暴れる侵略種のため刈込より隔離が主眼で、両地とも隔離方法優先（E）が妥当。
+537,"カモミール　ローマンカモミール
+シングルフラワー",Chamaemelum nobile,隔離方法優先,隔離方法優先,中,一般園芸情報（Chamaemelum nobile はマット状に広がる常緑グラウンドカバー）,マット状に匍匐拡大する常緑地被で個別管理が要点のため、両地とも隔離方法優先（E）が妥当。
+539,ゲラニウム‘ジョリービー’,Geranium 'Jolly Bee',花後すぐ（8月）,花後すぐ（7月）,高,Homes & Gardens / RuralSprout（ハーディーゼラニウムの花後強剪定で2番花）,一番花後に半分まで切り戻すと新葉・2番花が出る花後刈込型（B）。本州は6-7月一番花後の7月、北海道は約1ヶ月遅れの8月が妥当。
+554,"バーベナ　ハスタータ
+‘ブルースピアーズ’(ﾊﾞｰﾍﾞｲﾝﾌﾞﾙｰ)",Verbena hastata 'Blue spires',花後すぐ（9月）または早春,花後すぐ（9月～10月）,中,RHS Verbena growing guide https://www.rhs.org.uk/plants/verbena/growing-guide,花後刈込型（B）だが種穂は野鳥・冬景色に残し早春に地際で切る選択もあり、北海道は花後（9月）または早春、本州は9-10月が妥当。
+560,"ビンカ　マジョール‘バリエガータ’
+（ビンカ　マジョール斑入り）",Vinca major 'Variegata',隔離方法優先,隔離方法優先,高,一般園芸情報（Vinca major はランナーで旺盛に拡大する侵略種）,ランナーで旺盛に拡大する侵略的地被のため刈込より隔離が主眼で、両地とも隔離方法優先（E）が妥当。
+609,オトコエシ（パトリニア　ビロサ）,Patrinia villosa,秋整理（10月）,冬〜早春整理（2〜3月）,高,"Shoot Gardening / MBG Plant Finder (Patrinia villosa), https://www.shootgardening.com/plants/patrinia-villosa",晩夏咲き冬季落葉の叢生宿根で強剪定不要、晩冬〜早春に古茎整理（種子は残置可）＝A放任型。北海道は初霜後の秋整理（10月）、本州は冬〜早春整理（2〜3月）で現値妥当。
+611,ガリウム　ベラム（カワラマツバ）,Galium verum,隔離方法優先,隔離方法優先,高,"MBG Plant Finder / Invasive Plant Atlas (Galium verum), https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286667",地下茎＋匍匐茎の節根＋自生でweedy・invasiveと明記される暴れマット型で、刈込より隔離が主眼＝E。両地とも隔離方法優先で現値妥当。
+630,レウシア‘リトルスノーベリー’,Lewisia longipetala 'Little Snowberry',花後すぐ（7月、10月）,花後すぐ（6月、9月）,中,"RHS / Epic Gardening (Lewisia care), https://www.rhs.org.uk/plants/351319/lewisia-cotyledon-elise-mixed/details",小型ロゼットで強剪定不可、開花期を通じ花後の花柄摘み（返り咲き促進）が主管理＝B花後刈込型。開花が本州5〜6月／北海道は1ヶ月遅く、返り咲きを含め本州6・9月、北海道7・10月で現値妥当。
+632,"グレコマ　ヘデラセア　ssp.
+（グレコマ　散り斑）",Glechoma hederacea,隔離方法優先,隔離方法優先,高,"UMN Extension / NCSU Plant Toolbox (Glechoma hederacea, creeping Charlie), https://extension.umn.edu/weeds/ground-ivy",各節から発根する匍匐茎（ストロン最長2m超）で密マットを作る侵略的グラウンドカバー＝E。刈込より隔離が主眼で、両地とも隔離方法優先が妥当。
+633,"ミント　イエルバブエナ
+（モヒートミント）",Mentha x villosa,隔離方法優先,隔離方法優先,高,"Biology Insights / Deep Green Permaculture (Mentha × villosa rhizome control), https://biologyinsights.com/is-mint-an-invasive-plant-and-how-to-contain-it/",横走地下茎で急速に周囲を占拠する典型的暴れミントで、埋込バリアや鉢栽培による隔離が必須＝E。両地とも隔離方法優先が妥当。
+634,"アイリス　エンサータ‘バリエガータ’
+（アイリス斑入り）",Iris ensata 'Variegata',秋整理（10月）,冬〜早春整理（2〜3月）,高,"Mt. Pleasant Iris Farm / DutchGrown (Japanese iris care), https://mtpleasantiris.com/culture-and-care/japanese-iris-culture-and-care",初夏咲き冬季落葉の叢生で、初霜後（9〜10月、寒地は11月）に古葉を刈り病害虫（アヤメ類の虫）予防する整理型＝A。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で現値妥当。
+637,"アシリウム　ニポニカム
+‘バーガンディレース’",Athyrium niponicum var. pictum 'Burgundy Lace',秋整理（10月）,冬〜早春整理（2〜3月）,高,"White Flower Farm / GPN (Athyrium niponicum var. pictum), https://www.whiteflowerfarm.com/29056-product.html",冬季落葉性シダで、霜で枯れた古葉を秋または早春に地際で除去し病害予防（9月以降の強剪定は避ける）＝A整理型。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で現値妥当。
+638,"アシリウム　ニポニカム　
+ピクタム‘メタリカム’",Athyrium niponicum var. pictum 'Metallicum',秋整理（10月）,冬〜早春整理（2〜3月）,高,"White Flower Farm / GPN (Athyrium niponicum var. pictum), https://www.whiteflowerfarm.com/29056-product.html",同種ピクタム系の冬季落葉シダで、枯れた古葉を秋または早春に地際整理する＝A。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で現値妥当。
+643,"カレックス　コーマンズ
+‘フロステッドカール’",Carex comans 'Frosted Curls',秋整理（10月）,冬〜早春整理（2〜3月）,中,"MBG Plant Finder / RHS (Carex comans 'Frosted Curls'), https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=268946",常緑スゲで強剪定不可、早春の萌芽前に古葉を梳く／10cm程度で整理するのが基本＝A整理型。冷地では株元防寒のため実質早春整理となるが、標準語彙の据え置きで北海道秋整理（10月）・本州冬〜早春（2〜3月）を維持。
+644,"ゲンチアナ　セプテンフィダ　
+var.ラゴデチアナ‘ベラ　アルピネラ’",Gentiana septemfida var. lagodechiana 'Bella Alpinella',秋整理（10月）,冬〜早春整理（2〜3月）,中,"RHS / Chicago Botanic Garden (Gentiana septemfida var. lagodechiana), https://www.rhs.org.uk/plants/68933/gentiana-septemfida-var-lagodechiana/details",盛夏〜秋咲きの低性高山性宿根で低管理・強剪定不要、花後の花柄と枯葉整理が主＝A放任型。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で現値妥当。
+645,"コータデリア　セロアナ
+（パンパスグラス）‘ミニパンパス’",Cortaderia selloana 'Mini Pampas',隔離方法優先,隔離方法優先,中,"MBG Plant Finder / CA Dept. Fish & Wildlife (Cortaderia selloana), https://www.missouribotanicalgarden.org/plantfinder/PlantFinderDetails.aspx?taxonid=285194",維持管理上は晩冬〜早春に地際切戻すグラスだが、大量の自生種子で拡散する侵略種のため大森マスタは種子拡散抑制を主眼にE隔離推奨（侵略性強）と判定。方針レベルの是非は微妙なため据え置き、両地とも隔離方法優先を維持。
+646,"ジーアム（ゲウム） チロエンセ
+‛ﾚﾃﾞｨｰ ｽﾄﾗｽﾃﾞﾝ'(‛ｺﾞｰﾙﾄﾞﾎﾞｰﾙ')",Geum chiloense 'Lady Stratheden',花後随時,花後随時,高,"Shoot Gardening / Select Seeds (Geum 'Lady Stratheden'), https://www.shootgardening.com/plants/geum-lady-stratheden",花茎を花後すぐ基部で切り、随時の花柄摘みで返り咲きを促し、主開花後に古葉を切戻す＝B花後刈込型。両地とも花後随時で現値妥当。
+648,"セダム　コーティコラ
+‘バートラム　アンダーソン’",Sedum cauticola 'Bertram Anderson',秋整理（10月）,冬〜早春整理（2〜3月）,高,Chalet Nursery Plant DB (Sedum 'Bertram Anderson') https://plants.chaletnursery.com/12120004/Plant/3080/Bertram_Anderson_Stonecrop/,冬に地上部が枯れる宿根セダムで強剪定不要のA放任型。一次記載は『早春に古い茎を整理』で、北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）が妥当。
+649,"ダイアンサス　カシュジアノーラム
+‘ルパーツピンク’",Dianthus carthusianorum 'Rupert's Pink',花後随時,花後随時,高,Garden Gate (How to Deadhead Dianthus) https://www.gardengatemagazine.com/articles/how-to/prune/how-to-deadhead-dianthus/,6〜8月の開花期に随時デッドヘッドで連続開花させるB花後刈込型。一次記載も『開花中は週次で花がら摘み』で、両地とも花後随時が適切。
+655,"フッキソウ斑入り
+(パキサンドラ ﾀｰﾐﾅﾘｽ‘バリエガータ’)",Pachysandra terminalis 'Variegata',隔離方法優先,隔離方法優先,高,NCSU Extension Plant Toolbox (Pachysandra terminalis) https://plants.ces.ncsu.edu/plants/pachysandra-terminalis/ / Brandywine Conservancy invasive spotlight,地下茎で密なマットを作り境界を越えて広がる侵略的常緑地被で、地中バリアでの隔離が主眼のE型。刈込時期より両地とも隔離方法優先が適切。
+656,フッキソウ（パキサンドラ　ターミナリス）,Pachysandra terminalis,隔離方法優先,隔離方法優先,高,NCSU Extension Plant Toolbox (Pachysandra terminalis) https://plants.ces.ncsu.edu/plants/pachysandra-terminalis/ / Gardening Know How removal tips,地下茎で暴れる侵略的常緑地被（3インチ以上の地中バリア推奨）。刈込ではなく隔離が主眼のE型で両地とも隔離方法優先。
+663,フェスツーカ　アイダホエンシス,Festuca idahoensis,秋整理（10月）,冬〜早春整理（2〜3月）,高,Gardenia.net (Festuca idahoensis) https://www.gardenia.net/plant/festuca-idahoensis,常緑の叢生グラスで強剪定は不可、一次記載は『早春に傷んだ葉を除去・高刈り』のA放任型。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で古葉整理が妥当。
+664,"フラガリア ﾍﾞｽｶ `アルパインイエロー'
+(ワイルドストロベリー）　　",Fragaria vesca 'Alpine Yellow',秋整理（10月）,冬〜早春整理（2〜3月）,中,RHS (Fragaria vesca) https://www.rhs.org.uk/plants/7280/fragaria-vesca-f/details,半常緑の匍匐地被で剪定は枯葉除去程度のA放任型。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で古葉整理が妥当。
+667,"フロックス　パニキュラータ
+‘ショックウェーブ’",Phlox paniculata 'Shockwave',秋整理（10月）,梅雨前（5月下旬〜6月上旬）,高,Missouri Botanical Garden Plant Finder (Phlox paniculata) https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=f193,うどんこ病に弱く通風確保のため茎の間引き・切戻しが要るC夏前切戻型。本州は梅雨前（5月下旬〜6月上旬）に間引き切戻し、北海道は梅雨がなく夏涼しくうどんこ圧が低いため秋整理（10月）のみ＝地域分岐が既に適用済み。
+669,"ベロニカ　シャマドゥリス
+‘ミッフィーブルート’",Veronica chamaedrys 'Miffy Brute',秋整理（10月）,冬〜早春整理（2〜3月）,中,種・近縁種の維持管理標準（Veronica chamaedrys 半常緑マット）＋既検証データ整合,半常緑の低いマット型でA放任型。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）の古葉整理が妥当（品種固有の一次記載が乏しく確信度中）。
+679,"ムクデニア　ロッシー
+（イワヤツデ：タンチョウ草）",Mukdenia rossii,秋整理（10月）,冬〜早春整理（2〜3月）,高,Great Garden Plants / hortmag (Mukdenia rossii) https://www.hortmag.com/plants/mukdenia-karasuba,冬季落葉の宿根草で剪定は早春（萌芽前）に古葉整理のA放任型。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）が妥当。
+682,"カラスバ  ヒメリュウキンカ
+(ラナンキュラス‛ブレーゼンハシー')",Ranunculus ficaria 'Brazen Hussy',隔離方法優先,隔離方法優先,高,種の侵略性標準（Ranunculus ficaria / Ficaria verna 春植物・塊茎で強侵略）＋既検証データ整合,塊茎と地下茎で強く広がる侵略的春植物（各国で侵略種指定）で、刈込より隔離が主眼のE型。両地とも隔離方法優先が適切。
+687,"カーリメリス　インシサ
+‘バリエガータ’",Kalimeris incisa 'Variegata',秋整理（10月）,冬〜早春整理（2〜3月）,高,NCSU Extension Plant Toolbox / MBG (Kalimeris incisa) https://plants.ces.ncsu.edu/plants/kalimeris-incisa/,冬季落葉の宿根草で一次記載は『晩秋に地上部を刈込・早春に整枝』のA放任型。北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）が妥当。
+702,ゲラニウム‘アズールラッシュ’,Geranium 'Azure Rush',花後すぐ（随時）,花後すぐ（随時）,高,White Flower Farm / North Coast Gardening (Geranium 'Azure Rush'/'Rozanne') https://www.whiteflowerfarm.com/geranium-azure-rush,Rozanne系で一次記載は『第一花後に地際近くまで強く切戻すと新葉と返り咲き』のB花後刈込型。両地とも花後すぐ（随時）が適切（北海道は開花が本州より遅い分だけ実施時期が後ろへ）。
+704,シルフィウム　ラシニエイタム,Silphium laciniatum,秋整理（10月）,冬〜早春整理（2〜3月）,高,"RHS/Prairie Moon/GrowItBuildIt https://www.rhs.org.uk/plants/17357/silphium-laciniatum/details , https://growitbuildit.com/compass-plant-silphium-laciniatum/",背高の放任型プレーリー宿根で剪定は基本不要・種子頭は残し春の萌芽前に切戻すため、北海道は落葉後の秋整理（10月）、本州は冬〜早春整理（2〜3月）で妥当。
+707,"トリフォリウム　ルーベンス
+‘フロスティーフェザーズ’",Trifolium rubens f. album 'Frosty Feathers',秋整理（10月）,冬〜早春整理（2〜3月）,高,"RHS/Gardenersworld https://www.rhs.org.uk/plants/180982/i-trifolium-rubens-i-red-feathers/details , https://www.gardenersworld.com/plants/trifolium-rubens-red-feathers/",シードヘッドを残せる放任型で晩秋の刈戻し又は早春クリーンアップが標準のため、北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で妥当。
+709,バーノニア　ノベボラセンシス,Vernonia noveboracensis,秋整理（10月）,冬〜早春整理（2〜3月）,高,NCSU Plant Toolbox/Mt.Cuba https://plants.ces.ncsu.edu/plants/vernonia-noveboracensis/,アイアンウィードは冬の中空茎を越冬昆虫のため残し春に切戻す放任型（チェルシーチョップは任意の草丈調整）なので、北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で妥当。
+710,"バーノニア　ノベボラセンシス
+‘ホワイトライトニング’",Vernonia noveboracensis 'White Lightning',秋整理（10月）,冬〜早春整理（2〜3月）,高,NCSU Plant Toolbox https://plants.ces.ncsu.edu/plants/vernonia-noveboracensis/,基本種同様の放任型で茎を残し春切戻すため、北海道は秋整理（10月）、本州は冬〜早春整理（2〜3月）で妥当。
+716,"ポテンチラ　ベルナ
+（ポテンチラ　ヌーマニアナ）",Potentilla verna(potentilla neumanniana),花後すぐ（主に7月）,花後すぐ（主に6月）,高,MBG Plant Finder/Chalet https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=252641,マット型で開花（本州4〜5月）後に刈込み整形する花後刈込型のため、本州は花後すぐ（主に6月）、開花が約1ヶ月遅い北海道は花後すぐ（主に7月）で妥当。
+718,ミント　ヒメハッカ,Mentha japonica,隔離方法優先,隔離方法優先,中,既検証データ（地下茎拡大型・侵略性強）＋ミント属一般の管理知見,地下茎で強く暴れるミント類で刈込より地下茎の隔離が主眼のため、両地とも隔離方法優先で妥当。
+721,"カラマグロスティス　
+エピジジョス（ヤマアワ）",Calamagrostis epigejos (L.) Roth,隔離方法優先,隔離方法優先,中,既検証データ（地下茎拡大型・侵略性強）＋既知の侵略的グラス知見,強い地下茎で拡がる侵略的グラスのため刈込より隔離が主眼で、両地とも隔離方法優先で妥当。
+744,"ジーアム（ゲウム）
+‘フレームオブパッション’",Geum 'Flame of Passion',花後すぐ（7月～8月）,花後すぐ（6月～7月）,高,RHS https://www.rhs.org.uk/plants/175022/geum-flames-of-passion-pbr/details,初夏咲きで花後に刈戻すと翌年の生育が良くなる花後刈込型のため、本州は花後すぐ（6月～7月）、開花の遅い北海道は花後すぐ（7月～8月）で妥当。
+745,"ジギタリス　プルプレア
+‘モンストローサ ホワイト’",Digitalis purpurea 'Monstrosa White',花後すぐ（7月～8月）,花後すぐ（6月～7月）,中,RHS/GardenersWorld https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-foxgloves/,短命・毎年株更新型で主花穂の花後に切戻し（側枝再開花＋こぼれ種更新）を行うため、本州は花後すぐ（6月～7月）、開花の遅い北海道は花後すぐ（7月～8月）で妥当。
+746,"ジプソフィラ　パニキュラータ　
+‘ブリストル　フェアリー’",Gypsophila paniculata 'Bristol Fairy',花後すぐ（8月～9月）,花後すぐ（7月～8月）,高,MBG Plant Finder/RHS https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=h930,開花後に刈戻すと再開花する花後刈込型で開花が晩夏まで続くため、本州は花後すぐ（7月～8月）、開花の遅い北海道は花後すぐ（8月～9月）で妥当。
+747,"スズラン　野生種
+（コンバラリア　ケイスケイ）",Convallaria keiskei,隔離方法優先,隔離方法優先,中,既検証データ（地下茎拡大型・侵略性強）＋スズラン属一般の管理知見,地下茎で強く広がるスズランで刈込より隔離が主眼のため、両地とも隔離方法優先で妥当。
+749,"セスレリア　オータムナリス　
+ssp.アルジェンティア",Sesleria autumnalis ssp. argentea,秋整理（10月）,冬〜早春整理（2〜3月）,高,MBG Plant Finder/MyGardenLife https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=m330,半常緑グラスで暖地（本州）は常緑のため強剪定せず冬〜早春に古葉整理（2〜3月）、寒冷地（北海道）は落葉するため秋整理（10月）が妥当で、常緑性差による地域分岐が整合。
+750,"セダム　ユズリエンス
+‘ピンクビーコン’",Sedum ussuriense 'Pink Beacon',初夏（6月下旬）,梅雨前（5月下旬～6月上旬）,高,"RHS Chelsea chop / Longfield Gardens (https://www.rhs.org.uk/pruning/chelsea-chop , https://www.longfield-gardens.com/a/blog/how-and-why-to-prune-perennials)",直立セダムは倒伏防止のためチェルシーチョップ（5月下旬～6月上旬）が定石。本州は梅雨前切戻、北海道は約1ヶ月遅い初夏（6月下旬）でC型据え置き。
+758,"ネペタ　ネルボサ
+‘ピンクキャット’　",Nepeta nervosa 'Pink Cat',花後すぐ（8月～9月）,花後すぐ（7月～8月）,高,"RHS / Gardenia (https://www.rhs.org.uk/plants/251915/nepeta-nervosa-pink-cat/details , https://www.gardenia.net/plant/nepeta-nervosa-pink-cat)",初夏～盛夏咲きで一番花後に半分～2/3切戻して返り咲きを促すB型。本州は花後（7～8月）、北海道は1～2ヶ月遅い8～9月で整合。
+760,ヒューケラ‘ジンジャーエール’,Heuchera 'Ginger Ale',秋整理（10月）,冬〜早春整理（2〜3月）,高,"Proven Winners / Almanac (https://www.provenwinners.com/learn/heuchera , https://www.almanac.com/plant/coral-bells-heucheras)",半常緑ロゼットで強剪定不可、古葉は防寒に残し早春に整理するA型。本州は早春（2～3月）、北海道は雪前の秋整理（10月）で据え置き。
+761,ヒューケラ‘ブラックビューティー’,Heuchera 'Black Beauty',秋整理（10月）,冬〜早春整理（2〜3月）,高,"Proven Winners / Almanac (https://www.provenwinners.com/learn/heuchera , https://www.almanac.com/plant/coral-bells-heucheras)",‘ジンジャーエール’同様の半常緑ロゼットで早春古葉整理のA型。本州は早春（2～3月）、北海道は秋整理（10月）で据え置き。
+764,ペニセタム　マクロウルム,Pennisetum macrourum,隔離方法優先,隔離方法優先,高,既検証データ（地下茎拡大型・侵略性強）＋園芸標準,地下茎と種子で暴れる侵略性強のグラスで刈込より隔離が主眼のE型。両地とも隔離方法優先で据え置き。
+765,"ヘリアンサス‘ハピーデイズ’
+（ヤナギバヒマワリ）",Helianthus 'Happy Days',秋整理（10月）,冬〜早春整理（2〜3月）,高,"Gardenia / RHS (https://www.gardenia.net/plant/helianthus-happy-days , https://www.rhs.org.uk/plants/252897/helianthus-happy-days/details)",矮性（60cm）で「pruning is not needed」の低管理型、倒伏せず切戻不要のA型。本州は早春（2～3月）、北海道は秋整理（10月）で据え置き。
+769,ホスタ　ヒメギボウシ　斑入り,Hosta venusta 'Variegated',秋整理（10月）,冬〜早春整理（2〜3月）,高,"Savvy Gardening / Plant Addicts (https://savvygardening.com/when-to-cut-back-hostas/ , https://plantaddicts.com/cutting-back-hostas/)",霜枯れ後に地際整理する放任型A。北海道は初霜後・雪前の秋整理（10月）、本州は冬〜早春（2～3月）で据え置き。
+770,ホスタ‘クリスマスページェント’,Hosta 'Christmas Pageant',秋整理（10月）,冬〜早春整理（2〜3月）,高,"Savvy Gardening / Plant Addicts (https://savvygardening.com/when-to-cut-back-hostas/ , https://plantaddicts.com/cutting-back-hostas/)",ギボウシ標準の放任型Aで強剪定不要。北海道は秋整理（10月）、本州は冬〜早春（2～3月）で据え置き。
+771,ホスタ‘ゴールドスタンダード’,Hosta'Gold Standard',秋整理（10月）,冬〜早春整理（2〜3月）,高,"Savvy Gardening / Plant Addicts (https://savvygardening.com/when-to-cut-back-hostas/ , https://plantaddicts.com/cutting-back-hostas/)",ギボウシ標準の放任型Aで強剪定不要。北海道は秋整理（10月）、本州は冬〜早春（2～3月）で据え置き。
+775,"ミント　
+ケンタッキーカーネルミント",Mentha spicata 'Kentucky Colonel',隔離方法優先,隔離方法優先,高,既検証データ（地下茎拡大型・侵略性強）＋園芸標準,地下茎で強く暴れるミントで刈込より隔離が主眼のE型。両地とも隔離方法優先で据え置き。
+777,"ムクデニア　ロッシー‘カラスバ’
+（イワヤツデ・タンチョウ草）",Mukdenia rossii 'Karasuba',秋整理（10月）,冬〜早春整理（2〜3月）,高,"Weston Nurseries / Perenual (https://plants.westonnurseries.com/12130019/Plant/16627/Karasuba_Mukdenia , https://www.perenual.com/plant-species-database-search-finder/species/5277)",冬に地際まで枯れ、早春（萌芽前）に古葉を整理する放任型A。本州は冬〜早春（2～3月）、北海道は秋整理（10月）で据え置き。
+780,"リクニス　ハーゲアーナ
+‘モルテン　ラバ’",Lychnis×haageana ‘Molten Lava’,5月,3〜4月,高,"RHS / perennials.com (https://www.rhs.org.uk/plants/182435/lychnis-x-haageana-molten-lava/details , http://www.perennials.com/plants/lychnis-molten-lava.html)",短命な多年草で春に株分け・基部挿しで更新するD型。本州は活動開始前の3～4月、北海道は萌芽期の5月で据え置き。
+782,"ロサ‘アデレードフードレス’
+（バラ）",Rosa 'Adelaide Hoodless',花後すぐ（7月）,花後すぐ（6月）,中,"Canadian Rose Society / Backyard Gardener https://canadianrosesociety.org/adelaide-hoodless-parkland-series/ , https://www.backyardgardener.com/plantname/rosa-adelaide-hoodless-rose/",初夏～霜まで返り咲くパークランド系四季咲き低木で花がら摘みが返り咲きを促す＝B花後刈込型を維持。北海道は開花が遅れ7月、本州は6月で妥当。
+783,"ロサ‘サートーマス　リプトン’
+（バラ）",Rosa 'Sir Thomas Lipton',秋整理（10月）,冬〜早春整理（2〜3月）,高,"University of Illinois Extension / MBG Plant Finder https://web.extension.illinois.edu/hortanswers/plantdetail.cfm?PlantID=641 , https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=252398",ハマナス交雑の低メンテ低木で早春に軽く更新剪定（旧枝1/3更新）＝A放任型。北海道は秋整理、本州は冬〜早春整理で妥当。
+787,"ネペタ　サブセッシリス
+‘ブルードリーム’",Nepeta subsessilis 'Blue Dreams',花後すぐ（7-10月）,花後すぐ（6-9月）,高,"BBC Gardeners' World / Savvy Gardening https://www.gardenersworld.com/plants/nepeta-subsessilis/ , https://savvygardening.com/when-to-cut-back-catmint/",初夏開花後に1/3刈込で返り咲き＋うどんこ予防＝B花後刈込型。北海道は7-10月、本州は6-9月で開花・返咲きに整合。
+788,ヘデラ　ヘリックス　var.バルチカ,Hedera helix var. 'Baltica',隔離方法優先,隔離方法優先,高,既検証データ（つる型・侵略性強の常緑つる）,旺盛に広がる常緑つるで刈込より侵入抑制が主眼＝E隔離優先。両地とも隔離方法優先で妥当。
+789,ミューレンベルギア　リジェンス,Muhlenbergia rigens,秋整理（10月）,冬〜早春整理（2〜3月）,高,"Gardenia.net / UC Master Gardener Sonoma https://www.gardenia.net/plant/muhlenbergia-rigens , https://ucanr.edu/site/mg-sonoma/muhlenbergia-rigens-deer-grass",暖地系グラスで晩冬〜早春の萌芽前に刈込＝A放任型。北海道は秋整理、本州は冬〜早春整理で妥当。
+790,ミント　ニホンハッカ　ホクト,Mentha arvensis var. piperascens,隔離方法優先,隔離方法優先,高,既検証データ（地下茎拡大型・侵略性強）,地下茎で強く広がるミントで刈込より隔離が主眼＝E隔離優先。両地とも隔離方法優先で妥当。
+791,ゲラニウム　エンドレッシー,Geranium endressii,花後すぐ（7月下旬〜9月上旬）,花後すぐ（6月下旬〜8月上旬）,高,"RHS Perennials Cutting Back https://www.rhs.org.uk/plants/types/perennials/cutting-back , https://www.rhs.org.uk/plants/7877/geranium-endressii/details",RHSがG.endressiiを名指しで開花直後の地際刈込→二番花を推奨＝B花後刈込型。北海道は本州より約1ヶ月遅い月で整合。
+794,ポア　グラウカ‘ブルーヒルズ’,Poa glauca 'Blue Hills',秋整理（10月）,冬〜早春整理（2〜3月）,中,"Festuca/Poa glauca care guides https://lifetips.alibaba.com/plant-care/blue-fescue-ornamental-grass , https://greg.app/poa-glauca-subsp-glauca-overview/",半常緑の寒地性ブルーグラスで強剪定不可・秋は切らず早春に古葉を1/3以内で梳く整理のみ＝A（C夏前切戻は誤り）。北海道は秋整理据置、本州は梅雨前切戻を冬〜早春整理へ修正。
+796,"アネモネ　マルチフィダ（ムルチフィダ）
+‘マヨール’",Anemone multifida 'Major',秋整理（10月）,冬〜早春整理（2〜3月）,中,"Perenual / Gardenia.net https://perenual.com/plant-database-search-guide/species/375/guide , https://www.gardenia.net/plant/anemone-multifida",花後は綿毛状の種穂を残すため刈込せず早春または晩秋に地際整理＝A放任型。北海道は秋整理、本州は冬〜早春整理で妥当。
+797,アスクレピアス　アスペルラ,Asclepias asperula,秋整理（10月）,冬〜早春整理（2〜3月）,高,"Gardenia.net / MyGardenLife https://www.gardenia.net/plant/asclepias-asperula , https://mygardenlife.com/plant-library/antelope-horns-milkweed-asclepias-asperula",冬は株を残し早春の萌芽前に地際で切戻す宿根トウワタ＝A放任型。北海道は秋整理、本州は冬〜早春整理で妥当。
+798,グロビュラリア　トリコサンタ,Globularia trichosantha,秋整理（10月）,冬〜早春整理（2〜3月）,中,"High Country Gardens / gardenershq https://highcountrygardens.com/perennial-plants/unique-plants/globularia-trichosantha , https://www.gardenershq.com/Globularia-Globe-Daisy.php",常緑マット状高山植物で強剪定不可・花後は花がら摘み程度の軽整理のみ＝A放任型。北海道は秋整理、本州は冬〜早春整理で妥当。
+803,ヘメロカリス‘ハイペリオン’,Hemerocallis 'Hyperion',花後すぐ（主に7月）,花後すぐ（主に6月）,高,"RHS / MBG Plant Finder https://www.rhs.org.uk/plants/52233/hemerocallis-hyperion/details , https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246573",開花終了後に花茎を地際で切り黄葉を除去＝B花後刈込型。北海道は主に7月、本州は主に6月で開花に整合。
+807,ポテンチラ ‘アーカンシエル’,Potentilla 'Arc-en-Ciel',秋整理（10月）,花後すぐ（主に7月・切り戻しで通風確保）,中,RHS Perennial potentillas https://www.rhs.org.uk/plants/potentilla/perennial,RHSは宿根ポテンチラはデッドヘッド／花後の花茎切戻で連続開花、秋に地際整理と記載。長く咲くため北海道は涼しく梅雨もなく秋整理（10月）で足り、本州は高温多湿下で花後（7月）に切り戻し通風確保が要でB型として現値妥当。
+810,アキレジア‘ボルドーバロー’,Aquilegia vulgaris var. stellata plena 'Bordeaux Barlow',花後すぐ（7-8月）,花後すぐ（6-7月）,高,MBG Aquilegia vulgaris Plant Finder https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286072,MBG/RHSとも開花後に葉が傷むため地際まで切り戻すと新葉が再生と記載。晩春〜初夏咲きで本州は6-7月、北海道は約1ヶ月遅い7-8月に花後切戻とする現値がB型として一致。
+825,"ポルモニウム ボレアル
+‘ヘブンリーハビット’",Polemonium boreale 'Heavenly Habit',花後すぐ（8-9月）,花後すぐ（7-8月）,高,RHS/Plant Addicts Jacob's Ladder care https://plantaddicts.com/jacobs-ladder-care/,花後に基部の葉まで切戻すと再開花・新葉が出るとの一次記述。初夏〜盛夏咲きで本州は花後（7-8月）、北海道は1ヶ月遅い8-9月に花後切戻とするB型の現値が一致。
+827,"サルビア プラテンシス
+‘スカイダンス’",Salvia pratensis 'Sky Dance',花後すぐ（8-9月）,花後すぐ（7-8月）,高,ForwardPlant/Wilson Bros Salvia pratensis pruning https://www.forwardplant.com/care/pruning/salvia-pratensis/,メドウセージは花後に約1/3切り戻すと二番花が上がると一次記述。初夏〜盛夏咲きで本州7-8月、北海道は遅れて8-9月に花後切戻とするB型の現値が一致。
+834,プリムラ‘プリマデイエンテローズ’,Primula cortusoides 'Primadiente Rose',秋整理（10月）,冬〜早春整理（2〜3月）,高,Plant Addicts Primrose Care / Backyard Gardener P. cortusoides https://plantaddicts.com/primrose-care/,低管理の冬季落葉プリムラで剪定はほぼ不要、傷んだ葉を除くのみと一次記述。放任型として北海道は秋（10月）に地際整理、本州は冬〜早春（2〜3月）整理とする現値が一致。
+837,アンジェリカ　シルベストゥリス'エボニー',Angelica sylvestris 'Ebony',花後すぐ（10-11月）,花後すぐ（9-10月）,中,RHS How to grow angelica https://www.rhs.org.uk/plants/angelica/how-to-grow-angelica,一稔性で花後に枯れ大量自播（侵略性強）するため、RHSは結実前の花後切戻で自播抑制・延命と記載。晩夏（8-9月）咲きで本州は花後9-10月、北海道は遅れて10-11月に花後切戻とする現値が妥当。
+838,アジュガ‘ブラックスカロップ’,Ajuga reptans 'Black Scallop',隔離方法優先,隔離方法優先,高,Gardeners' World Growing and controlling Ajuga reptans https://www.gardenersworld.com/how-to/grow-plants/ajuga-reptans/,ランナー（ストロン）で急速に広がり芝生等を侵すため、地中埋込バリアや掘り取りによる隔離管理が要と一次記述。刈込より隔離が主眼のE型で両地とも隔離方法優先の現値が一致。
+839,リスラム　サリカリア‘ハピースノー’,Lythrum salicaria 'Happy Snow',隔離方法優先,隔離方法優先,高,Minnesota DNR / NAISMA Purple Loosestrife https://www.dnr.state.mn.us/invasives/aquaticplants/purpleloosestrife/index.html,パープルルースストライフは1株で数百万粒を播く侵略的湿地雑草で規制対象。刈込より逸出防止・隔離が主眼のE型で両地とも隔離方法優先の現値が一致。
+841,アストランティア‘ベニス’,Astrantia major 'Venice',花後すぐ（主に7月）、結実前必須,花後すぐ（主に6月）、結実前必須,高,Horticulture Magazine / MBG Astrantia major https://horticulture.co.uk/astrantia/pruning/,初回開花後に地際近くまで切り戻すと新葉と二番花が出ると一次記述。初夏〜晩夏咲きで本州は花後6月、北海道は遅れて7月に結実前切戻とするB型の現値が一致。
+854,"ベルゲニア　コーディフォリア　
+‘スノータイム’",Bergenia cordifolia 'Snow Time',秋整理（10月）,冬〜早春整理（2〜3月）,中,NCSU Plant Toolbox Bergenia / Gardenia.net https://plants.ces.ncsu.edu/plants/bergenia-crassifolia/,常緑で強剪定不可、傷んだ古葉を早春に除くのみ（秋の全葉除去は株冠保護のため不可）と一次記述。放任A型で本州は冬〜早春（2〜3月）整理、北海道は積雪保護下で秋（10月）に傷葉の軽整理に留める現値を据置。
+855,"モリニア　カエルレア　
+‘ハイデブラウト’",Molinia caerulea 'Heidebraut',秋整理（10月）,冬〜早春整理（2〜3月）,中,MBG Molinia caerulea Plant Finder https://www.missouribotanicalgarden.org/plantfinder/PlantFinderDetails.aspx?taxonid=285206,冬季落葉グラスで晩冬〜早春（2-3月）新芽前に地際刈込とMBGが記載。ただし秋に葉・花茎が自然に倒れ冬の景観価値が乏しいため、北海道は倒伏後の秋（10月）整理、本州は冬〜早春整理とする放任A型の現値が妥当。
+856,"ラシラス バーナス
+‘ヘブンリーブルー'(宿根スイートピー）",Lathyrus vernus 'Heavenly Blue',花後すぐ（主に7月）,花後すぐ（主に6月）,中,White Flower Farm / RHS Lathyrus vernus https://www.whiteflowerfarm.com/how-to-grow-spring-vetchling,春咲きで花後に花茎を切戻し自播抑制、夏には休眠する低管理種と一次記述。花後刈込B型で本州は花後6月、北海道は遅れて7月に切戻とする現値が一致。
+857,"アストランティア マヨール
+‘バニラエッジ’",Astrantia major 'Vanilla Edge',花後すぐ（主に7〜8月）,花後すぐ（主に6月下旬〜7月）,高,Horticulture Magazine / Gardeners' World (Astrantia pruning) https://horticulture.co.uk/astrantia/pruning/,第一花後（本州は6月下旬〜7月、北海道は約1ヶ月遅い7〜8月）に基部近くまで切戻すと二番花＋新葉が出るB型で、両地とも現値が花時期に整合。
+859,アキレジア‘ブラックバロー',Aquilegia vulgaris var.stellata plena 'Black Barlow',花後すぐ（主に7月）,花後すぐ（主に6月）,高,RHS Aquilegia growing guide https://www.rhs.org.uk/plants/aquilegia/growing-guide,花後（本州6月・北海道7月）に株ごと切戻すと新葉が吹きベト病の伝染も断つB型で、両地とも現値が花時期に整合。
+860,"ハコネクロア‘オールゴールド’
+（オオゴンフウチソウ）",Hakonechloa macra 'All Gold',秋整理（10月）,冬〜早春整理（2〜3月）,中,Wisconsin Hort. Extension / NCSU Plant Toolbox (Hakonechloa macra) https://plants.ces.ncsu.edu/plants/hakonechloa-macra/,落葉グラスで強剪定不要のA型、本州は古葉を残し2〜3月に切るのが一次記載どおり、北海道は積雪前の秋整理（10月）で現値据え置き。
+863,プルネラ グランディフローラ'ベラブルー',Prunella grandiflora 'Bella Blue',花後すぐ（9月-10月）,花後すぐ（8月-9月）,中,High Country Gardens / MyGardenLife (Prunella grandiflora) https://www.highcountrygardens.com/perennial-plants/unique-plants/prunella-grandiflora-bella-blue-self-heal,盛夏〜晩夏の花後に花穂を刈り込むB型で、本州8〜9月・北海道9〜10月と花時期に整合（北海道は霜前の遅刈りで軟弱徒長に留意しつつ現値維持）。
+864,プルネラ グランディフローラ'ルブラ',Prunella grandiflora 'Rubra',隔離方法優先,隔離方法優先,中,MyGardenLife / High Country Gardens (Prunella grandiflora spreads and overruns neighbors) https://mygardenlife.com/plant-library/large-self-heal-prunella-grandiflora/,こぼれ種と匍匐で速く広がり周囲を覆う性質から刈込より隔離が主眼のE型で、両地とも現値（隔離方法優先）を維持。
+865,ユーパトリウム'アイボリータワー',Eupatorium fistulosum f. albidum 'Ivory Towers',6月下旬-7月上旬,5月下旬-6月上旬,高,NCSU Plant Toolbox / Longfield Gardens (Eutrochium/Eupatorium Chelsea chop) https://plants.ces.ncsu.edu/plants/eutrochium-fistulosum/,開花前の初夏に1/3〜1/2切戻し（Chelsea chop）で草丈抑制と通風確保するC型で、本州は梅雨前5月下旬〜6月上旬、北海道は初夏6月下旬〜7月上旬と現値が整合。
+866,"ベロニカ スピカータ'ナナ'
+（ヒメルリトラノオ）",Veronica spicata 'Nana',花後すぐ（9月-10月）,花後すぐ（8月-9月）,高,Chicago Botanic Garden / Proven Winners (Veronica spicata shearing for rebloom) https://www.chicagobotanic.org/plant-information/plant-finder/veronica-spicata-spike-spike-speedwell,第一花後に基部ロゼットまで刈り込むと秋に二番花が出るB型で、本州8〜9月・北海道9〜10月と花時期に整合。
+867,アイリス　プミラ,Iris pumila L.,秋整理（10月）,冬〜早春整理（2〜3月）,中,OSU / Collin County Master Gardeners (bearded iris midsummer/fall care) https://ccmgatx.org/resources/articles/article-repository/2019/september/how-to-care-for-bearded-iris/,緑葉を光合成源として残し強剪定しないA型（花後は花茎除去のみ）、北海道は晩夏〜秋に葉を短く整理、本州は半常緑葉を冬〜早春に整理で両地とも現値維持。
+868,アキレア 'ラブパレード',Achillea sibirica subsp.camschatica 'Love Parade',花後すぐ（8月-9月）,花後すぐ（7月-8月）,高,Gardening Know How / Horticulture Magazine (Achillea cut back after first flush) https://www.gardeningknowhow.com/edible/herbs/yarrow/pruning-a-yarrow-plant.htm,初夏〜盛夏の第一花後に基部近くへ切戻すと秋に再開花するB型で、本州7〜8月・北海道8〜9月と花時期に整合。
+873,ゲラニウム‘キャサリンアデル',Geranium 'Katherine Adele',花後すぐ（8月-9月）,花後すぐ（7月-8月）,高,Gardeners' World / White Flower Farm (hardy geranium hard cut back after first flush) https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-hardy-geraniums/,第一花後に地際まで刈り込むと新葉のマウンドと再開花が得られるB型で、本州7〜8月・北海道8〜9月と花時期に整合。
+874,サンギソルバ　メンジーシ（ワレモコウ）,Sanguisorba menziesii,秋整理（10月）,冬〜早春整理（2〜3月）,高,"RHS / Gardeners' World (Sanguisorba menziesii leave seedheads, cut early spring) https://www.rhs.org.uk/plants/102853/sanguisorba-menziesii/details",強剪定不要で種穂を冬の景として残すA型、本州は早春（2〜3月）に切戻し、北海道は積雪前の秋整理（10月）で両地とも現値維持。
+875,ジギタリス　ルテア,Digitalis lutea,花後すぐ（主に7月）,花後すぐ（主に6月）,高,RHS / Plant Addicts (Digitalis lutea cut spent spikes after flowering) https://www.rhs.org.uk/plants/20080/digitalis-lutea/details,初夏の花後に花茎を基部で切ると再開花を促し過度なこぼれ種も抑えるB型で、本州6月・北海道7月と花時期に整合。
+876,スティパ　イチュ,Stipa ichu,秋整理（10月）,冬〜早春整理（2〜3月）,中,Gardenia/RHS Stipa https://www.gardenia.net/plant/stipa-ichu ; https://www.rhs.org.uk/plants/161388/stipa-ichu/details,落葉性叢生グラスで刈込不要・晩冬〜早春に枯葉を整理する低管理種＝A型。本州は冬季景観を残し2〜3月整理、北海道は積雪前の10月整理で据え置き。
+878,アキレア’ノブレッサ’,Achillea ptarmica 'Noblessa',花後すぐ（8月-9月）,花後すぐ（7月-8月）,中,Horticulture.co.uk Achillea pruning https://horticulture.co.uk/blogs/growing/achillea-pruning,開花後に基部葉まで刈り戻して返り咲き・株を整える花後刈込型＝B。初夏〜盛夏咲きに合わせ本州7-8月、北海道は1〜2ヶ月遅い8-9月で据え置き。
+879,アネモネ’オノリーヌジョベール’,Anemone × hybrida 'Honorine Jobert',隔離方法優先,隔離方法優先,高,NCSU Plant Toolbox / MBG Plant Finder https://plants.ces.ncsu.edu/plants/anemone-x-hybrida-honorine-jobert/,地下茎で急速に広がり周囲を圧倒しうる走出種で刈込より根域隔離が主眼＝E。両地とも隔離方法優先を据え置き。
+881,アスチルベ'ピーチブロッサム’,Astilbe 'Peach Blossom',花後すぐ（7-8月）,花後すぐ（6-7月）,中,RHS Astilbe growing guide https://www.rhs.org.uk/plants/astilbe/growing-guide,RHSは花穂を残す選択も示すが花後の切戻しも可の花後刈込運用＝B型を維持。盛夏咲きに合わせ本州6-7月、北海道7-8月で据え置き。
+884,カレックス'エバーゴールド',Carex 'Evergold',秋整理（10月）,冬〜早春整理（2〜3月）,中,Walters Gardens / RHS Carex oshimensis 'Evergold' https://www.waltersgardens.com/variety.php?ID=CAREV,常緑スゲで強剪定不可・早春に枯葉を櫛梳きする低管理＝A型。本州は早春（2〜3月）に古葉整理、北海道は標準どおり据え置き（常緑ゆえ深切り厳禁）。
+885,"クニフォフィア（トリトマ）
+‘アイスクイーン’",Kniphofia 'Ice Queen',花後すぐ（9月下旬-10月）,花後すぐ（8月下旬-9月）,中,Clemson HGIC / NCSU Kniphofia https://hgic.clemson.edu/how-to-grow-and-care-for-red-hot-poker-kniphofia-uvaria/,開花後に花茎を除去（葉は冬期に株元防寒で残す）花後刈込型＝B。盛夏〜晩夏咲きに合わせ本州8月下旬-9月、北海道9月下旬-10月で据え置き。
+886,クニフォフィア‘ビーズレモン',Kniphofia 'Bees' Lemon',花後すぐ（10月-11月）,花後すぐ（9月-10月）,中,Clemson HGIC / NCSU Kniphofia https://hgic.clemson.edu/how-to-grow-and-care-for-red-hot-poker-kniphofia-uvaria/,'Ice Queen'より遅咲き長期咲きの花後刈込型＝B。花茎を花後除去、葉は冬期防寒で残す。本州9-10月、北海道10-11月で据え置き。
+889,"スティパ テヌイッシマ
+（エンジェルヘアー・ポニーテール）",Stipa tenuissima,隔離方法優先,隔離方法優先,高,PlantRight / Proven Winners Nassella tenuissima https://plantright.org/invasive/stipanassella-tenuissima/,数千の種子で激しく自然実生し侵略性が高い自播種で、刈込より結実前の穂除去・隔離が主眼＝E。両地とも隔離方法優先を据え置き。
+893,ペニセタム'フェアリーテイル',Pennisetum 'Fairy tails',秋整理（10月）,冬〜早春整理（2〜3月）,中,Proven Winners Fountain grass care https://www.provenwinners.com/learn/how-to/fountain-grass,落葉性グラスで晩冬〜早春に切戻す低管理＝A型。本州は冬期に残し2〜3月整理、北海道は積雪を考慮した10月整理で据え置き。
+895,ミューレンベルギア　デュモーサ,Muhlenbergia dumosa,秋整理（10月）,冬〜早春整理（2〜3月）,中,Hoffman Nursery / Hunker Muhlenbergia dumosa https://hoffmannursery.com/plants/details/muhlenbergia-dumosa,晩冬〜早春に切戻す最小限管理のグラスで強剪定は数年に一度＝A型。本州2〜3月整理、北海道は10月整理で据え置き。
+903,アイリス サンギネア（アヤメ自生種）,Iris sanguinea,秋整理（10月）,冬〜早春整理（2〜3月）,中,Epic Gardening / Japanese iris care https://www.epicgardening.com/cut-back-iris/,葉が褐変してから刈る落葉性で刈込不要の低管理＝A型。北海道は褐変・初霜期の10月整理、本州は冬期に残し2〜3月整理で据え置き。
+904,フィリペンデュラ　ウルマリア,Filipendula ulmaria,隔離方法優先,隔離方法優先,高,Wisconsin DNR / NCSU Filipendula ulmaria https://dnr.wisconsin.gov/topic/Invasives/fact/QueenoftheMeadow,地下茎でクローナルに拡大かつ自播種し潜在的侵略種で、刈込より結実前刈取り・隔離が主眼＝E。両地とも隔離方法優先を据え置き。
+905,ヘメロカリス'ナイトビーコン',Hemerocallis 'Night Beacon',秋整理（10月）,冬〜早春整理（2〜3月）,高,"Missouri Botanical Garden / Univ. of Missouri Extension・Horticulture.co.uk (leave foliage till it dies back, cut all foliage to ~4in before spring growth) https://extension.missouri.edu/news/the-flower-that-thrives-on-neglect , https://horticulture.co.uk/hemerocallis/pruning/",宿根性ヘメロカリスは葉が光合成で株を養うため生育中は残す放任型で、北海道は初霜後の秋に古葉整理（10月）、本州は暖冬で葉が長く残るため新芽前の冬〜早春整理（2〜3月）が妥当。A型で両列とも据え置き。
+908,コクリュウ,Ophiopogon planiscapus 'Nigrescens',秋整理（10月）,冬〜早春整理（2〜3月）,中,NCSU Plant Toolbox / Monrovia（常緑・生育遅く強剪定不可、早春に傷んだ古葉のみ整理）https://plants.ces.ncsu.edu/plants/ophiopogon-planiscapus/,常緑で成長が遅く強剪定不可のため花後刈込は不要な放任型。北海道は寒さで傷む古葉を秋に整理（10月）、本州は新葉展開前の冬〜早春に古葉を整理（2〜3月）でよく、A型として両列据え置き。
+909,ヤブラン白斑シルバードラゴン,Liriope spicata 'Gin-ryū' (SILVER DRAGON),秋整理（10月）,冬〜早春整理（2〜3月）,高,NCSU Extension（新芽前の早春=2月に古葉を刈り込み/刈り取る）https://plants.ces.ncsu.edu/plants/liriope-spicata/,常緑グラス状で強剪定はせず古葉を一斉整理する放任型。本州は暖地で常緑となり新芽前の2月＝冬〜早春整理、北海道は寒冷で落葉するため初霜後の秋整理（10月）が適し、A型として両列据え置き。
+910,"ファラリス
+（フイリクサヨシ・アシフイリ）",Phalaris arundinacea var. picta,隔離方法優先,隔離方法優先,高,"既知の強侵略性地下茎グラス（ribbon grass/gardener's garters, invasive rhizomatous spreader）— プロトコルE分類",地下茎で強く暴れる侵略性グラスであり、刈込タイミングより地下茎の隔離が管理の主眼となるE型。両地とも刈込ではなく隔離方法優先で据え置き。
+911,"サリクトラム（タリクトラム）
+ディラバイ",Thalictrum delavayi,秋整理（10月）,冬〜早春整理（2〜3月）,中,"RHS / Missouri Botanical Garden（叢生の宿根草、花後は必ずしも刈らず自然に枯れ戻り、必要時のみ地際で更新）https://www.rhs.org.uk/plants/18077/thalictrum-delavayi/details , https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286295",叢生の宿根草で花後刈込は必須でなく冬に地上部が枯れる放任型。北海道は初霜後の秋整理（10月）、本州は枯れ茎を残して新芽前の冬〜早春整理（2〜3月）が妥当で、A型として両列据え置き。

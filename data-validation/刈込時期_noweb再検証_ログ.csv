@@ -1,0 +1,14 @@
+﻿row,plant,sci,列,before,after,confidence,source,reason
+37,"ジプソフィラ　セラスティオイデス
+（カーペットカスミソウ）",Gypsophila cerastioides,刈込時期（北海道）,7月,花後すぐ（7月）,中,BBC Gardeners' World / plantlust (Gypsophila cerastioides) https://www.gardenersworld.com/plants/gypsophila-cerastioides/ ; https://plantlust.com/plants/14110/gypsophila-cerastioides/,矮性マット状アルパインで初夏～盛夏開花後に株全体を軽く刈込むと再開花・新芽更新（B型）。花時期を月表記のみだった現値を標準語彙へ正規化し、北海道は本州（6月）より1ヶ月遅い花後（7月）とする。
+37,"ジプソフィラ　セラスティオイデス
+（カーペットカスミソウ）",Gypsophila cerastioides,刈込時期（本州基準）,6月,花後すぐ（6月）,中,BBC Gardeners' World / plantlust (Gypsophila cerastioides) https://www.gardenersworld.com/plants/gypsophila-cerastioides/ ; https://plantlust.com/plants/14110/gypsophila-cerastioides/,矮性マット状アルパインで初夏～盛夏開花後に株全体を軽く刈込むと再開花・新芽更新（B型）。花時期を月表記のみだった現値を標準語彙へ正規化し、北海道は本州（6月）より1ヶ月遅い花後（7月）とする。
+388,トリフォリウム　オクロレウカム,Trifolium ochroleucum,刈込時期（北海道）,秋整理（10月）,花後すぐ（8月～9月）,中,RHS Trifolium ochroleucon / Gardeners' World / Hardy's Plants https://www.rhs.org.uk/plants/52266/trifolium-ochroleucon/details,一次情報で「花後に切戻すと二番花を促す」と繰り返し記載されA放任型でなくB花後刈込型が妥当。開花盛夏に合わせ本州は花後すぐ（7〜8月）、北海道は1〜2ヶ月遅い花後すぐ（8〜9月）に修正。
+388,トリフォリウム　オクロレウカム,Trifolium ochroleucum,刈込時期（本州基準）,冬〜早春整理（2〜3月）,花後すぐ（7月～8月）,中,RHS Trifolium ochroleucon / Gardeners' World / Hardy's Plants https://www.rhs.org.uk/plants/52266/trifolium-ochroleucon/details,一次情報で「花後に切戻すと二番花を促す」と繰り返し記載されA放任型でなくB花後刈込型が妥当。開花盛夏に合わせ本州は花後すぐ（7〜8月）、北海道は1〜2ヶ月遅い花後すぐ（8〜9月）に修正。
+398,ルピナス‘フローレイン’,Lupinus × hybrida 'Fraulein',刈込時期（北海道）,花後または秋,花後すぐ（7月）,中,RHS Growing Guide (Lupins) https://www.rhs.org.uk/plants/lupins/growing-guide,RHSは花後すぐ花茎を株元で切ると二番花を促すとし花後刈込型に該当、初夏咲きのため本州は6月・北海道は約1ヶ月遅い7月へ標準語彙化し地域差を新設（非標準の『花後または秋』を修正）。
+398,ルピナス‘フローレイン’,Lupinus × hybrida 'Fraulein',刈込時期（本州基準）,花後または秋,花後すぐ（6月）,中,RHS Growing Guide (Lupins) https://www.rhs.org.uk/plants/lupins/growing-guide,RHSは花後すぐ花茎を株元で切ると二番花を促すとし花後刈込型に該当、初夏咲きのため本州は6月・北海道は約1ヶ月遅い7月へ標準語彙化し地域差を新設（非標準の『花後または秋』を修正）。
+440,"サンギソルバ　ハクサネンシス
+（カライトソウ）",Sanguisorba hakusanensis,刈込時期（北海道）,9月,秋整理（10月）,中,三河の植物観察 / ヤサシイエンゲイ（カライトソウ）https://mikawanoyasou.org/data/karaitosou.htm,日本の一次情報は自然樹形が整い特別な剪定切戻し不要で枯れ茎葉を春の萌芽前または秋の落葉後に整理とし放任型に該当、花後刈込(9月/8月)から北海道は秋・本州は冬〜早春整理へ方針修正。
+440,"サンギソルバ　ハクサネンシス
+（カライトソウ）",Sanguisorba hakusanensis,刈込時期（本州基準）,8月,冬〜早春整理（2〜3月）,中,三河の植物観察 / ヤサシイエンゲイ（カライトソウ）https://mikawanoyasou.org/data/karaitosou.htm,日本の一次情報は自然樹形が整い特別な剪定切戻し不要で枯れ茎葉を春の萌芽前または秋の落葉後に整理とし放任型に該当、花後刈込(9月/8月)から北海道は秋・本州は冬〜早春整理へ方針修正。
+794,ポア　グラウカ‘ブルーヒルズ’,Poa glauca 'Blue Hills',刈込時期（本州基準）,梅雨前（5月下旬〜6月上旬）,冬〜早春整理（2〜3月）,中,"Festuca/Poa glauca care guides https://lifetips.alibaba.com/plant-care/blue-fescue-ornamental-grass , https://greg.app/poa-glauca-subsp-glauca-overview/",半常緑の寒地性ブルーグラスで強剪定不可・秋は切らず早春に古葉を1/3以内で梳く整理のみ＝A（C夏前切戻は誤り）。北海道は秋整理据置、本州は梅雨前切戻を冬〜早春整理へ修正。
