@@ -1,0 +1,117 @@
+﻿excel_row,plant,対象,耐潮性_旧,耐潮性_新,信頼度_旧,信頼度_新,source,reason
+7,アスチルベ　アレンジー ‘グランデ’,耐潮性,×,○,高,高,https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,アスチルベ属は耐塩性の日陰宿根草に挙げられるが要湿潤。属レベル評価で×→○に修正。
+8,アスチルベ　アレンジー ‘ファナル’,耐潮性,×,△,高,高,https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,アスチルベは耐塩性日陰宿根草の一覧に入るが多湿要求が強く耐潮性は限定的。種レベル代替。
+11,アルメリア　マリティマ ‘バリエガータ’（アルメリア斑入り）,耐潮性,◎,◎,高,高,https://gardenerspath.com/plants/flowers/grow-sea-thrift/,海岸崖に自生する典型的塩生植物。塩水噴霧に強く海浜庭園向き。
+12,アルメリア　マリティマ ‘ルブリフォーリア’,耐潮性,◎,◎,高,高,https://hort.extension.wisc.edu/articles/sea-thrift-armeria-maritima/,海岸の砂丘・岩場に自生する代表的な耐塩植物。極めて耐潮性が高い。
+67,アラビス　フェルディナンディコブルギ ‘バリエガータ’(ハタザオフイリ),耐潮性,○,○,高,高,https://plants.ces.ncsu.edu/plants/arabis-caucasica/,アラビス属は砂質・痩地・乾燥に強く、A.caucasicaは耐塩性ありと記載。属レベルで代替。
+89,ヘデラ‘ヘンリエッタ’,耐潮性,◎,◎,高,高,https://greenwoodplants.co.uk/blog/plant-focus-hedera-ivy/,ヘデラは耐塩性・耐潮性が強く海岸や海辺の庭に適す。品種は種で代替。
+91,ヘメロカリス‘ファイナルタッチ’,耐潮性,◎,◎,高,高,https://www.almanac.com/15-salt-tolerant-plants-thrive-coastal-landscapes;https://naturehills.com/blogs/garden-blog/top-10-salt-tolerant-plants,ヘメロカリスは塩害・潮風に極めて強く海岸植栽適。◎維持。
+105,ホトトギス‘トーゲン’,耐潮性,×,—,高,高,https://www.gardenia.net/genus/tricyrtis-toad-lily,ホトトギスは林床性の半日陰・湿潤植物。耐潮性の明示情報なく保留。属レベル。
+119,アストランティア　マヨール ‘ハドスペンブラッド’,耐潮性,×,△,高,高,https://greenwoodplants.co.uk/planting-inspiration/coastal-tolerant-planting-scheme/,山地草原原産で本来内陸性。遮蔽された海岸植栽例はあるが前線は不可。
+121,アルンカス　イサシフォリウス ‘ノーブルスピリット’,耐潮性,×,—,高,高,https://plantfinder.mobot.org/PlantFinderDetails.aspx?taxonid=286379,湿った肥沃な林床性。耐塩性の記載が全く得られず保留。
+141,ベニチガヤ（インペラータ　シリンドリカ ‘ルブラ’）,耐潮性,◎,◎,高,高,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11281003/,沿岸湿地イネ科中で最も耐塩性が高く、砂地の海辺庭園でも生育可能と実証。
+147,ポルモニウム　カエルレウム ‘ブルーウァール’,耐潮性,○,○,高,高,https://www.gardenia.net/plant/polemonium-caeruleum,ガーデニアは耐塩性ありと記載（MBGは未記載）。種で代替し○維持。
+163,レプティネラ　スクウォリダ ‘プラッツブラック’,耐潮性,○,○,高,高,https://www.nativeplants.nz/leptinella-squalida.html;https://www.rhs.org.uk/plants/56674/leptinella-squalida/details,NZ海岸崖・海岸ターフに自生する強健なグラウンドカバー。海岸性で○維持。
+193,アルケミラ　サクサティリス,耐潮性,○,○,高,高,https://plantlust.com/plants/13486/alchemilla-mollis/,アルケミラ属(mollis)は耐塩・海岸適性ありと複数記載。同属サクサティリスを種レベル代替。
+204,ギレニア　トリフォリエータ （ミツバシモツケ）,耐潮性,△,△,高,高,https://plants.ces.ncsu.edu/plants/gillenia-trifoliata/,山地林床原産。NC州データに耐塩表記なく塩害耐性は限定的とみられる。
+224,アストランティア　マヨール ‘ルビーウェディング’,耐潮性,×,×,高,高,https://plantfinder.mobot.org/PlantFinderDetails.aspx?taxonid=276013,渓流沿い・湿地林床に自生し湿潤地向き。耐塩性の記載なく塩害に弱い。
+227,アスチルベ　チネンシス ‘ビジョンインレッド’,耐潮性,×,×,高,高,https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,アスチルベは高塩分に敏感で葉焼け・根傷み。海辺には不適と明記。種レベル。
+230,アネモネ　マルチフィダ（ムルチフィダ）‘ルブラ’,耐潮性,△,△,高,高,https://www.wildflower.org/plants/result.php?id_plant=ANMU,野生生物欄で耐塩性の言及あるが本来礫質・石灰質土向きで限定的。
+240,ペルシカリア　アンプレクシカウリス ‘アトロサンギネア’,耐潮性,○,△,高,高,https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=t230,ヒマラヤ原産、湿潤地好み強風を嫌う。塩性の記載なく○→△に下方修正。
+246,アスチルベ　チネンシス　 var.タケッティ‘スーパーバ’,耐潮性,×,△,高,高,https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,チネンシス系も多湿を好む林床性で耐潮性は限定的。アスチルベ属レベル代替判定。
+247,アムソニア　タバーナエ　 モンタナ（チョウジソウ）,耐潮性,△,×,高,高,https://www.clemson.edu/cafls/demo/plant_profiles/amsonia-tabernaemontana-eastern-blue-star.html,クレムソン大：塩風・直接の塩噴霧への耐性はほぼ無いと明記。
+250,ポルモニウム　カエルレウム ‘アルバム’,耐潮性,○,○,高,高,https://www.gardenia.net/plant/polemonium-caeruleum,耐塩性ありとされ海岸庭園向き。ただし高温多湿には弱い。
+258,フロックス　パニキュラータ ‘デイビッド’,耐潮性,×,△,高,高,https://plants.ces.ncsu.edu/plants/phlox-paniculata/,P.paniculataは中程度の耐塩性。潮風直撃は不可だが保護域なら可。限定的。
+261,ポリゴネータム　オドラタム （アマドコロ),耐潮性,×,×,高,高,https://pfaf.org/user/Plant.aspx?LatinName=Polygonatum+odoratum,湿潤な林床の日陰植物で耐塩性の記載なく、潮風・塩害に弱い。
+267,レモンバーム (メリッサ オフィシナリス),耐潮性,○,○,高,高,https://sfyl.ifas.ufl.edu/media/sfylifasufledu/santa-rosa/docs/pdfs/demo-garden-1/Lemon-Balm.pdf,UF/IFASは低〜中程度の耐塩性。地中海沿岸原産で○維持（やや弱め）。
+286,ミスカンサス‘モーニングライト’,耐潮性,◎,◎,高,高,https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/,NC State ExtがM.sinensisを耐塩性・海岸適応と明記。塩風に強い代表的な宿根草。
+294,ロニセラ　テルマニアーナ （ハニーサックル）,耐潮性,○,△,高,高,https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/,種固有データなし。日陰性交雑種で属レベルでも耐塩は限定的と推定。
+304,ヘメロカリス ‘シャーウッドグラディエーター’,耐潮性,○,◎,高,高,https://plants.ces.ncsu.edu/plants/hemerocallis/,デイリリーは道路塩・海岸条件に強く耐塩性が高い。
+313,フロックス　パニキュラータ ‘ジュニオールスープライス’,耐潮性,×,△,高,高,https://plants.ces.ncsu.edu/plants/phlox-paniculata/,種は中程度の耐塩性で保護された場所なら可。潮風直撃には弱く限定的。
+314,フロックス　パニキュラータ ‘ジュニオールダンス’,耐潮性,×,×,高,高,https://www.surfcitync.gov/DocumentCenter/View/54/Salt-Tolerant-Plants-PDF,NC州立は潮風耐性なしとし遮蔽必要。塩害に弱く×。
+315,フロックス　パニキュラータ ‘ジュニオールドリーム’,耐潮性,×,△,高,高,https://journals.ashs.org/hortsci/view/journals/hortsci/50/10/article-p1562.xml;https://plants.ces.ncsu.edu/plants/phlox-paniculata/,P.paniculataは中〜限定的耐塩性との研究。×は過小、△に修正。
+316,フロックス　パニキュラータ ‘ジュニオールブーケット’,耐潮性,×,△,高,高,https://journals.ashs.org/hortsci/view/journals/hortsci/50/10/article-p1562.xml,HortScience試験でフロックスは耐塩性が低い部類。中程度で潮風の強い海岸には不向き。
+331,ミスカンサス‘コスモポリタン’,耐潮性,◎,◎,高,高,https://www.gardenia.net/genus/miscanthus-sinensis-selection-guide-japanese-silver-grass,塩・湿気に強く海岸庭園の防風緩衝に使われる耐塩性グラス。
+335,アスチルベ　チネンシス ‘ビジョンインピンク’,耐潮性,×,×,高,高,https://www.thegardenhelper.com/astilbe.html,アスチルベは高塩分に敏感で根傷み・葉焼け。耐潮性は低い。
+350,アストランティア　 マヨール‘ローマ’,耐潮性,×,○,高,高,https://www.gardenia.net/plant/astrantia-major-roma-great-masterwort,A.majorは石灰岩海崖原産で耐塩性ありと記載。現行×は過小評価。
+359,ロニセラ　セロチナ（ハニーサックル）,耐潮性,○,○,高,高,https://www.learningwithexperts.com/gardening/blog/how-do-you-plant-a-seaside-garden-planting-for-coastal-conditions,コーンウォールの崖上でも育ち海辺の庭に適す。種で代替し○。
+360,ヘメロカリス‛チョコレートキャンディー’,耐潮性,◎,◎,高,高,https://www.almanac.com/15-salt-tolerant-plants-thrive-coastal-landscapes;https://naturehills.com/blogs/garden-blog/top-10-salt-tolerant-plants,ヘメロカリスは塩害・潮風に極めて強い。◎維持。
+371,アスチルベ　アレンジー ‘スノードリフト’,耐潮性,×,△,高,高,https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,アレンジー系は多湿を好み耐潮性は限定的。アスチルベ属レベルでの代替判定。
+372,アスチルベ　チネンシス ‘ビジョンインホワイト’,耐潮性,×,×,高,高,https://www.waltersgardens.com/variety.php?ID=ASBPU,アスチルベは高塩分に敏感で葉焼け・根傷み。海岸塩害には不適。
+373,アスチルボイデス　タビュラリス,耐潮性,×,—,高,高,https://plantfinder.mobot.org/PlantFinderDetails.aspx?taxonid=286945,湿潤・腐植質の深い日陰性。耐塩性データが得られず保留。
+374,アラビス　アルピナ　subsp.コウカシカ  ‛ピクシークリーム’,耐潮性,△,○,高,高,https://plants.ces.ncsu.edu/plants/arabis-caucasica/,本品はcaucasicaで耐塩性あり・街路植栽可と記載。現行△より高い。
+375,アンドロサセ　ビローサ,耐潮性,×,×,高,高,https://www.rhs.org.uk/plants/1200/androsace-villosa/details,高山の礫地に育つクッション植物で海岸向きでなく、耐塩情報は乏しい。
+391,フロックス　パニキュラータ ‘デイビッドラベンダー’,耐潮性,×,△,高,高,https://journals.ashs.org/hortsci/view/journals/hortsci/50/10/article-p1562.xml;https://plants.ces.ncsu.edu/plants/phlox-paniculata/,P.paniculataは中〜限定的耐塩性。×→△に修正。
+392,フロミス　トゥベローサ ‘ブロンズフラミンゴ’,耐潮性,○,○,高,高,https://www.gardenia.net/plant/phlomis-tuberosa-jerusalem-sage,フロミス属は地中海性で乾燥・耐塩傾向。同属russelianaが海岸適性ありと明記され属代替。
+393,ヘメロカリス ‘オールウェイズアフタヌーン’,耐潮性,○,○,高,高,https://www.almanac.com/15-salt-tolerant-plants-thrive-coastal-landscapes,ヘメロカリス属は耐塩性があり道路塩・海岸条件に適する。
+395,ヘメロカリス‘デイビッドカークホフ’,耐潮性,◎,◎,高,高,https://plants.ces.ncsu.edu/plants/hemerocallis/,デイリリーは海岸・道路塩に強く耐塩性が高い。
+396,ヘメロカリス ‘リトルミュージックメーカー’,耐潮性,○,○,高,高,https://www.almanac.com/15-salt-tolerant-plants-thrive-coastal-landscapes,ヘメロカリスは耐塩性で沿岸・道路塩に強い。研究でも高生存率確認。
+417,アスチルベ　アレンジー‘ショースター’,耐潮性,×,△,高,高,https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,耐塩性半日陰宿根草の一覧に挙がるが本来湿潤半日陰向きで限定的。
+432,フロックス　パニキュラータ ‘バンルージュ’,耐潮性,×,△,高,高,https://journals.ashs.org/hortsci/view/journals/hortsci/50/10/article-p1562.xml;https://plants.ces.ncsu.edu/plants/phlox-paniculata/,P.paniculataは中〜限定的耐塩性。×→△に修正。
+433,ヘメロカリス‘フールドミー’,耐潮性,◎,◎,高,高,https://www.almanac.com/15-salt-tolerant-plants-thrive-coastal-landscapes,ヘメロカリスは耐塩性が高く海岸・道路塩にも強い。Stella de oro試験で生存率93%以上。
+436,ロニセラ‘ハニーベビー’ （ハニーサックル）　,耐潮性,○,○,高,高,https://www.learningwithexperts.com/gardening/blog/how-do-you-plant-a-seaside-garden-planting-for-coastal-conditions,英コーンウォールの海崖に自生例。海岸庭園でよく育つ。
+450,ヘメロカリス‘ビッグタイムハピー’,耐潮性,◎,◎,高,高,https://plants.ces.ncsu.edu/plants/hemerocallis/,デイリリーは海岸・道路塩に強く耐塩性が高い。
+467,フロックス　パニキュラータ‘ローラ’,耐潮性,×,△,高,高,https://plants.ces.ncsu.edu/plants/phlox-paniculata/,種は中程度の耐塩性。保護域なら可だが潮風直撃に弱く限定的。
+468,ヘメロカリス‘ブラックアロウヘッド’,耐潮性,◎,◎,高,高,https://www.almanac.com/15-salt-tolerant-plants-thrive-coastal-landscapes,ヘメロカリスは耐塩性が強く海岸・道路沿い植栽に適す。◎維持。
+487,アンスリカス　シルベストリス ‘レイブンスウィング’,耐潮性,△,△,高,高,https://pfaf.org/user/Plant.aspx?LatinName=Anthriscus+sylvestris;https://www.rhs.org.uk/plants/1346/anthriscus-sylvestris/details,塩性データ乏しい。路傍・生垣性で融雪塩に限定耐性を推測、△維持。
+530,アスチルベ　アレンジー ‘カラーフラッシュライム’,耐潮性,×,△,高,高,https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,カラーフラッシュもアレンジー系で多湿要求。耐潮性は限定的。アスチルベ属代替判定。
+531,アスチルベ　チネンシス ‘マイティプロニー’,耐潮性,×,×,高,高,https://www.waltersgardens.com/variety.php?ID=ASBPU,アスチルベ全般が高塩分に敏感。海岸塩害には不適。
+534,アルメリア　マリティマ （アルメリア　ピンク）,耐潮性,◎,◎,中,中,https://hort.extension.wisc.edu/articles/sea-thrift-armeria-maritima/,海岸砂丘・岩場に自生する代表的耐塩植物。耐潮性が非常に高い。
+558,ピオニア‘コーラルサンセット’,耐潮性,○,△,高,高,https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1739938/abstract,シャクヤクは耐塩性が限定的で塩害に負の影響。沿岸推奨リストに不在。現行○は過大。
+567,フロックス　パニキュラータ ‘ブルーキャンディ’,耐潮性,×,×,中,中,https://www.surfcitync.gov/DocumentCenter/View/54/Salt-Tolerant-Plants-PDF,フロックスは潮風耐性なしとされ遮蔽必要。塩害に弱く×。
+568,フロックス　パニキュラータ ‘レッドライディングフードゥ’,耐潮性,×,△,高,高,https://journals.ashs.org/hortsci/view/journals/hortsci/50/10/article-p1562.xml;https://plants.ces.ncsu.edu/plants/phlox-paniculata/,P.paniculataは中〜限定的耐塩性。×→△に修正。
+569,ヘデラ　ヘリックス‘スペッチリー’,耐潮性,◎,◎,高,高,https://greenwoodplants.co.uk/blog/plant-focus-hedera-ivy/,ヘデラ ヘリックスは風・塩に強く海岸や塩性湿地縁にも自生。耐潮性は高い。種レベル。
+571,ヘメロカリス‘ニュークエスト’,耐潮性,◎,○,高,高,https://www.almanac.com/15-salt-tolerant-plants-thrive-coastal-landscapes,ヘメロカリス属は耐塩性があり海岸・道路塩条件に適する。
+572,ヘメロカリス ‘ポーンオブプロフェシー’,耐潮性,○,◎,高,高,https://plants.ces.ncsu.edu/plants/hemerocallis/,デイリリーは海岸・道路塩に強く耐塩性が高い。
+573,ベルゲニア コーディフォリア ‘レッドスタート’,耐潮性,○,○,高,高,https://www.gardenia.net/plant/bergenia-bressingham-ruby-heartleaf-bergenia,ベルゲニアは耐塩性ありと記載、沿岸庭園にも適す。属・種で代替。
+583,ポリゴナム　ビストータ ‘スーパーバム’（イブキトラノオ）,耐潮性,×,×,高,高,https://www.rhs.org.uk/plants/320645/bistorta-officinalis/details,湿った草地・水辺の植物で耐塩性の記載なく、潮風に弱い。
+584,ポルモニウム　カエルレウム ‘アプリコットディライト’,耐潮性,○,○,高,高,https://www.gardenia.net/plant/polemonium-caeruleum,Gardeniaは耐塩性・海岸庭園向きと記載。○維持（高温多湿は苦手）。
+585,ミスカンサス　シネンシス ‘プルプラセンス’,耐潮性,◎,◎,高,高,https://plants.ces.ncsu.edu/plants/miscanthus-sinensis/,NC State ExtがM.sinensisを耐塩性・海岸適応と明記。プルプラセンスも同様で耐潮性強い。
+588,ラミアストラム‘ハーマンズプライド’,耐潮性,不明,○,高,高,https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,耐塩性のある日陰用宿根草リストに掲載。海岸半日陰で使用可。
+614,ミスカンサス　シネンシス（ススキ）,耐潮性,◎,◎,高,高,https://journals.ashs.org/view/journals/hortsci/41/4/article-p1038D.xml,塩スプレー耐性を持ち海岸植栽に利用可。耐潮性が強い。
+639,アルセア　オフィシナリス （マシュマロウ）,耐潮性,◎,◎,高,高,https://en.wikipedia.org/wiki/Althaea_officinalis,塩性湿地・汽水域原産で耐塩性が高く、塩分・湛水に耐える典型的な耐潮植物。
+677,ミスカンサス　シネンシス ‘リトルゼブラ’（ヒメヤバネススキ）,耐潮性,◎,◎,高,高,https://journals.ashs.org/view/journals/hortsci/41/4/article-p1038D.xml,ススキは潮風・塩害に強く海岸植栽に適す。研究で耐塩性実証。
+684,ロニセラ×イタリカ  ‘ハーレークィーン’(ハニーサックル),耐潮性,○,○,高,高,https://plants.ces.ncsu.edu/plants/lonicera-sempervirens/;https://www.learningwithexperts.com/gardening/blog/how-do-you-plant-a-seaside-garden-planting-for-coastal-conditions,ツルニンドウ属は海岸庭園に適し中程度の耐塩性。属レベルで○維持。
+692,ペニセタム　アロペキュロイデス　 f.ビリデセンス,耐潮性,○,○,高,高,https://naturehills.com/blogs/garden-blog/top-10-salt-tolerant-plants,ペニセタムは耐塩性が高い宿根草に挙げられ、塩水灌漑試験でも良好な外観を維持。
+732,アンジェリカ　シルベストゥリス ‘ビカーズ　ミード’,耐潮性,△,△,高,高,https://pfaf.org/user/Plant.aspx?LatinName=angelica+sylvestris,湿った草地・林縁原産で塩耐性は特筆されず。海岸種はA.lucida。
+764,ペニセタム　マクロウルム,耐潮性,△,○,高,高,https://plantlust.com/plants/43508/pennisetum-macrourum/,塩・風・乾燥に強く海岸植栽向きとされる。
+766,ベルゲニア　コーディフォリア ‘ﾆｭｰｳｨﾝﾀｰﾌﾗﾜﾘﾝｸﾞHybｓ’,耐潮性,○,○,高,高,https://www.gardenia.net/plant/bergenia-bressingham-ruby-heartleaf-bergenia,ベルゲニア コーディフォリアは耐塩性ありと記載、英国沿岸でも耐寒。
+773,ミスカンサス　シネンシス　 f.グラシリマス（イトススキ）,耐潮性,◎,◎,高,高,https://journals.ashs.org/view/journals/hortsci/41/4/article-p1038D.xml,グラキリムスの潮風耐性を実証。海岸に適し◎。
+782,ロサ‘アデレードフードレス’ （バラ）,耐潮性,○,○,高,高,https://laidbackgardener.blog/2017/10/01/salt-resistant-roses/;https://naturehills.com/blogs/garden-blog/rugosa-roses-what-are-they-and-how-to-care-for-them,品種固有データなし。パークランド系(非ハマナス)、バラ属一般に中程度耐性で○。
+785,ロニセラ‘アメリカーナ’ （ハニーサックル）,耐潮性,○,○,高,高,https://plants.ces.ncsu.edu/plants/lonicera-sempervirens/,ロニセラ属のつる性は海岸適性良好で耐塩性あり。×americana(地中海系交配)も属代替で○。
+788,ヘデラ　ヘリックス　var.バルチカ,耐潮性,◎,○,高,高,https://greenwoodplants.co.uk/blog/plant-focus-hedera-ivy/,アイビーは風と塩に耐え海岸・都市向き。H.hibernicaはより強い。
+792,アストランティア　マヨール ‘シャギー’,耐潮性,×,×,高,高,https://plantfinder.mobot.org/PlantFinderDetails.aspx?taxonid=276013,湿地・林床性で湿潤地向き。耐塩性の記載なく塩害に弱い。
+796,アネモネ　マルチフィダ（ムルチフィダ） ‘マヨール’,耐潮性,△,△,高,高,https://www.gardenia.net/plant/anemone-multifida,海崖から高山まで分布し露地に強いが、耐塩性の固有データ乏しく限定的。
+797,アスクレピアス　アスペルラ,耐潮性,○,△,高,高,https://www.wildflower.org/plants/result.php?id_plant=ASAS,乾燥した砂礫地の自生種で砂質・乾燥に強いが耐塩性は直接確認できず限定的。
+798,グロビュラリア　トリコサンタ,耐潮性,△,△,高,高,https://nargs.org/plant/globularia-trichosantha;https://www.gardenia.net/plant/globularia-salicina,高山性ロックガーデン向き。近縁G.salicinaは海岸性だが本種の塩性データなし、△維持。
+803,ヘメロカリス‘ハイペリオン’,耐潮性,◎,◎,高,高,https://www.almanac.com/15-salt-tolerant-plants-thrive-coastal-landscapes,ヘメロカリスは耐塩性が高く海岸・道路塩にも強い。ハイペリオンも属レベルで耐潮性強い。
+823,ポルモニウム カエルレウム ‘フィリグリークラウド’,耐潮性,○,○,高,高,https://www.gardenia.net/plant/polemonium-caeruleum,Gardenia：耐塩性があり海岸庭園向きと記載。高温多湿はやや苦手。
+824,ポルモニウム カエルレウム ‘フィリグリースカイ’,耐潮性,○,○,高,高,https://www.gardenia.net/plant/polemonium-caeruleum,耐塩性ありとされ海岸庭園向き。高温多湿には弱い。
+833,アスチルベ‘デルフトレース’,耐潮性,×,×,高,高,https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,アスチルベ全般が高塩分に敏感で葉焼け・根傷み。本交配種も塩害に弱い。
+840,アスチルベ‘スポットライト’,耐潮性,×,△,高,高,https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,耐塩性半日陰宿根草の一覧に挙がるが本来湿潤半日陰向きで限定的。
+841,アストランティア‘ベニス’,耐潮性,×,△,高,高,https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=276013;https://www.gardenia.net/plant/astrantia-major-alba-masterwort,Gardeniaは耐塩性と記載もMBGは記載なく湿潤半日陰性。限定的とみて×→△。
+852,フロミス　ルッセリアーナ,耐潮性,○,○,高,高,https://www.gardenia.net/plant/phlomis-russeliana-jerusalem-sage,フロミス ルッセリアーナは耐暑・海岸/耐塩性ありと明記。海岸花壇に適する。
+854,ベルゲニア　コーディフォリア　 ‘スノータイム’,耐潮性,○,○,高,高,https://www.gardenia.net/plant/bergenia-bressingham-ruby-heartleaf-bergenia,ベルゲニアは耐塩性があり海岸庭園向き。半日陰で丈夫。
+857,アストランティア マヨール ‘バニラエッジ’,耐潮性,×,×,高,高,https://plantfinder.mobot.org/PlantFinderDetails.aspx?taxonid=276013,湿地・林床性で湿潤地向き。耐塩性の記載なく塩害に弱い。
+871,アンスリスカス’ゴールデンフリース’,耐潮性,△,—,高,高,https://pfaf.org/user/Plant.aspx?LatinName=Anthriscus+sylvestris,土壌適性の記載はあるが耐塩性の固有・種情報が得られず保留。
+880,アスチルベ'ダークサイドオブザムーン',耐潮性,×,△,高,高,https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,アスチルベは耐塩性半日陰宿根草に挙がるが本来湿潤半日陰向きで限定的。
+881,アスチルベ'ピーチブロッサム’,耐潮性,×,○,高,高,https://gardenerspath.com/how-to/shade/7-outstanding-salt-tolerant-shade-perennials/,アスチルベ属は耐塩性の日陰宿根草に挙げられる。属レベルで×→○に修正。
+885,クニフォフィア（トリトマ） ‘アイスクイーン’,耐潮性,△,○,高,高,https://gardenerspath.com/plants/flowers/grow-red-hot-poker/,クニフォフィアは耐塩性良好で海岸植栽向き。潮風にも耐える。種によっては海岸湿地自生。
+886,クニフォフィア‘ビーズレモン',耐潮性,△,○,高,高,https://gardenerspath.com/plants/flowers/grow-red-hot-poker/,クニフォフィアは塩・風に耐え海岸植栽向き。斜面の侵食防止にも。
+892,ペニセタム アロペキュロイデス'ブラックビューティー',耐潮性,○,○,高,高,https://www.mdpi.com/2311-7524/11/6/670,中程度の耐塩性を持ち韓国の海岸に自生。100mM NaClでも生育維持。
+895,ミューレンベルギア　デュモーサ,耐潮性,○,○,高,高,https://davesgarden.com/guides/pf/go/83536,バンブーミューリーは砂質土に強く耐塩・耐湿と記載。ただし一部で不明の指摘あり。
+896,アネモネ　レベイエイ,耐潮性,×,×,高,高,https://www.rhs.org.uk/plants/26680/anemone-leveillei/details,中国原産の林床植物で湿潤半日陰向き、耐塩性記載なく潮風に弱い。
+897,フロックス　ピローサ,耐潮性,△,△,高,高,https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285436;https://plantnative.org/native-plants/prairie-phlox-phlox-pilosa.htm,南東部海岸平野の砂質土・松サバンナに自生。塩性明記なく他phloxより乾燥に強い。△維持。
+902,アスター'ブリリアントパープル',耐潮性,○,○,高,高,https://www.almanac.com/15-salt-tolerant-plants-thrive-coastal-landscapes,アスター(ニューイングランド系)は中程度の耐塩性で海岸・道路沿い植栽に適する。
+905,ヘメロカリス'ナイトビーコン',耐潮性,◎,○,高,高,https://www.almanac.com/15-salt-tolerant-plants-thrive-coastal-landscapes,ヘメロカリス属は耐塩性があり海岸・道路塩条件に適する。
+907,フロックス　ディバリカータ ‘ホワイト’,信頼度,×,×,,高,https://www.jerseyyards.org/plant/phlox-divaricata/,空気中・土壌の塩に弱く海岸不適。林床性で塩害に弱い。
+908,コクリュウ,耐潮性+信頼度,○,○,,高,https://www.monrovia.com/black-mondo-grass.html,コクリュウは定着後に耐塩・耐乾で潮風にも耐え、沿岸庭園向きと明記。
+909,ヤブラン白斑シルバードラゴン,耐潮性+信頼度,○,○,,高,https://plants.ces.ncsu.edu/plants/liriope-spicata/,ヤブランは潮風・塩害に強く海岸に適す（NC州立が潮風耐性を明記）。
+910,ファラリス （フイリクサヨシ・アシフイリ）,耐潮性+信頼度,○,○,,中,https://plants.ces.ncsu.edu/plants/phalaris-arundinacea/;https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=t240,NCSUは塩性・アルカリ土にmoderately tolerantと記載。○維持、信頼度中。
+911,サリクトラム（タリクトラム） ディラバイ,耐潮性+信頼度,△,△,,中,https://www.jelitto.com/Seed/Perennials/THALICTRUM+delavayi+Portion+s.html,種苗業者は耐塩性ありと記載も、湿潤好み・高温多湿に弱く海岸強光下では限定的。
+912,プルモナリア　セベネンシス,耐潮性+信頼度,×,△,,低,https://plants.ces.ncsu.edu/plants/pulmonaria-officinalis/,林床日陰性で耐塩データなし。塩害耐性は乏しいと推定される。
+913,クニフォフィア（トリトマ） ‘オレンジバニラポプシクル’,耐潮性+信頼度,○,○,,中,https://www.gardendesign.com/perennials/kniphofia.html,塩・風に耐え海岸庭園向き。耐潮性あり。
+914,クニフォフィア ‘シャイニングセプター’,耐潮性+信頼度,◎,○,,中,https://plants.ces.ncsu.edu/plants/kniphofia/,クニフォフィアは耐塩性・耐風で沿岸植栽向き。◎はやや過大でありに補正。
+915,アスクレピアス　インカルナータ ‘ミルクメイド’,耐潮性+信頼度,△,△,,中,https://cwelwnp.usu.edu/westernnativeplants/plantlist_view.php?id=87&name=asclepiasincarnata,塩性湿地に適応するが潮風・直接の塩水噴霧には弱いとされ限定的。
+916,サリクトラム（タリクトラム） ディラバイ‘アルバム’,耐潮性+信頼度,×,×,,中,https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286295;https://www.gardenia.net/plant/thalictrum-delavayi-chinese-meadow-rue,塩性耐性の記録なし。中国内陸性で高温多湿を嫌う。×維持、信頼度中。
+917,コレオプシス ‘マーキュリーライジング’,耐潮性+信頼度,○,○,,中,https://www.bluestoneperennials.com/listid/SEASIDE.html,コレオプシスは海岸/耐塩性宿根草に列挙(lanceolata等)。種で差あるが交配種は概ね耐塩。
