@@ -59,27 +59,38 @@ for row in data:
     if ('多肉' in kk or 'Mangave' in kk or 'アガベ' in kk) and not genus_succ and 'ハマ' not in nm and 'ギク' not in nm:
         add('P1',row,KAKONE,'耐潮性根拠に別分類群/多肉の記述が混入の疑い')
 
+    # H: シルエット理由が明確にマット/groundcover(H<W)だが値≠マット → 形状分類の要確認
+    reason58=C(row,58); sil=C(row,57)
+    import re as _re
+    if sil and sil!='マット' and _re.search(r'マット状に(?:広|ひろ)が|ground.?cover|グラウンドカバー|低く.{0,6}マット|mat.?form', reason58, _re.I):
+        add('P4',row,57,'シルエット理由はマット状/GC(H<W)だが値=%s（形状分類の要確認）'%sil)
+    # G: 根拠列に多肉/別多肉属マーカー混入(非多肉属・Lewisia等の真正多肉除く)
+    for _ci in (44,52,58):
+        _t=C(row,_ci)
+        if _re.search(r'アガベ|Mangave', _t) and not any(g in nm for g in SUCC_GENUS+['レウシア','リューイシア']):
+            add('P1',row,_ci,'根拠に別多肉属(アガベ/Mangave)混入の疑い')
+
 # 重複finding除去（同一行・同一列・同一理由）
 seen=set(); uniq=[]
 for f in findings:
     k=(f[1],f[5],f[7])
     if k not in seen: seen.add(k); uniq.append(f)
-pri_order={'P1':0,'P2':1,'P3':2}
+pri_order={'P1':0,'P2':1,'P3':2,'P4':3}
 uniq.sort(key=lambda f:(pri_order[f[0]], -f[8]))
 
-n1=sum(1 for f in uniq if f[0]=='P1'); n2=sum(1 for f in uniq if f[0]=='P2'); n3=sum(1 for f in uniq if f[0]=='P3')
-print('検出: 総 %d件  P1=%d P2=%d P3=%d' % (len(uniq),n1,n2,n3))
+n1=sum(1 for f in uniq if f[0]=='P1'); n2=sum(1 for f in uniq if f[0]=='P2'); n3=sum(1 for f in uniq if f[0]=='P3'); n4=sum(1 for f in uniq if f[0]=='P4')
+print('検出: 総 %d件  P1=%d P2=%d P3=%d P4=%d' % (len(uniq),n1,n2,n3,n4))
 
 # ===== Excel出力 =====
 out=openpyxl.Workbook()
 s1=out.active; s1.title='疑いリスト'
 cols=['優先度','商品番号','植物名','学名','原産地','対象列','現在の記述(抜粋)','検出理由','同一スタンプ波及行数']
 s1.append(cols)
-fillP1=PatternFill('solid',fgColor='FFC7CE'); fillP2=PatternFill('solid',fgColor='FFEB9C'); fillP3=PatternFill('solid',fgColor='DDEBF7')
+fillP1=PatternFill('solid',fgColor='FFC7CE'); fillP2=PatternFill('solid',fgColor='FFEB9C'); fillP3=PatternFill('solid',fgColor='DDEBF7'); fillP4=PatternFill('solid',fgColor='E2EFDA')
 for f in uniq:
     s1.append(list(f))
     c=s1.cell(row=s1.max_row,column=1)
-    c.fill={'P1':fillP1,'P2':fillP2,'P3':fillP3}[f[0]]
+    c.fill={'P1':fillP1,'P2':fillP2,'P3':fillP3,'P4':fillP4}[f[0]]
 for j,w in enumerate([8,10,26,34,26,20,50,44,12],1):
     s1.column_dimensions[openpyxl.utils.get_column_letter(j)].width=w
 for cell in s1[1]: cell.font=Font(bold=True); cell.fill=PatternFill('solid',fgColor='4472C4'); cell.font=Font(bold=True,color='FFFFFF')
