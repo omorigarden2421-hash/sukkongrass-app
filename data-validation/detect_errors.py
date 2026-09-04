@@ -21,11 +21,14 @@ SHIO=42          # 耐潮性
 
 SUCC_GENUS=['セダム','センペル','デロスペルマ','エケベリア','グラプト','オロスタキス','ロディオラ','セdum']
 note_counts=Counter(C(row,NOTE) for row in data if C(row,NOTE))
+# 一次資料で誤検出（問題なし）と確認済みの商品番号
+REVIEWED_OK={'34','35','286','1351','368','374','202','876'}
 
 def is_stamp(t): return t and note_counts.get(t,0)>=3
 
 findings=[]  # (優先, 商品番号, 名, 学名, 原産地, 対象列, 現値, 検出理由, 波及行数)
 def add(pri,row,col_i,reason):
+    if C(row,2) in REVIEWED_OK: return
     findings.append((pri, C(row,2), C(row,3).replace('\n',' '), C(row,4), C(row,ORIG),
                      hdr[col_i-1], C(row,col_i)[:70], reason, note_counts.get(C(row,col_i),1)))
 
@@ -39,7 +42,8 @@ for row in data:
     if (('多肉質' in note or '乾燥を好む' in note or '乾燥地原産' in note) and '多肉ではない' not in note and '乾燥を好まず' not in note) and dry=='弱':
         add('P1',row,NOTE,'注記は乾燥好きだが乾燥耐性(検証済)=弱と矛盾')
     # B5: 注記=湿地/湿潤/森林下草 だが 乾燥耐性=強
-    if any(k in note for k in ['湿地','湿潤土壌','森林下草','高湿度環境に適応']) and dry=='強':
+    _b5=note.replace('適湿地','').replace('湿性','')
+    if any(k in _b5 for k in ['湿地','湿潤土壌','森林下草','高湿度環境に適応']) and ('株腐れ' not in note and '乾燥を好' not in note) and dry=='強':
         add('P2',row,NOTE,'注記は湿潤好きだが乾燥耐性(検証済)=強と矛盾')
     # B1: 注記=冷涼地/夏越し困難 だが 耐暑性=強（強い主張のみ）
     if any(k in note for k in ['冷涼地原産','夏越しが困難','夏越し困難','高温多湿で枯れ']) and heat=='強':
