@@ -33,10 +33,10 @@ for row in data:
     note=C(row,NOTE); heat=C(row,HEAT); dry=C(row,DRY); sun=C(row,SUN); nm=C(row,3)
     genus_succ=any(g in nm for g in SUCC_GENUS)
     # A: 多肉スタンプ×非多肉属（誤スタンプ濃厚）
-    if ('多肉' in note or '乾燥地原産' in note) and not genus_succ:
+    if (('多肉質' in note or '乾燥地原産' in note) and '多肉ではない' not in note) and not genus_succ:
         add('P1',row,NOTE,'非多肉属に「多肉/乾燥地原産」注記（属の生態不一致）')
     # B3: 注記=乾燥好き だが 乾燥耐性=弱（検証済列と矛盾）
-    if ('多肉' in note or '乾燥を好む' in note or '乾燥地原産' in note) and dry=='弱':
+    if (('多肉質' in note or '乾燥を好む' in note or '乾燥地原産' in note) and '多肉ではない' not in note and '乾燥を好まず' not in note) and dry=='弱':
         add('P1',row,NOTE,'注記は乾燥好きだが乾燥耐性(検証済)=弱と矛盾')
     # B5: 注記=湿地/湿潤/森林下草 だが 乾燥耐性=強
     if any(k in note for k in ['湿地','湿潤土壌','森林下草','高湿度環境に適応']) and dry=='強':
