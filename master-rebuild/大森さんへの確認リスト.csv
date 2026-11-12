@@ -23,3 +23,6 @@
 1337,アキレジア　カナデンシス‘ピンクランタン’,一次情報に記載なし,高さ・広がり・花時期・日照・常緑性,RHSは名前だけ、NC州立大学は花色だけ。MBGにも品種ページが見つからない。,https://www.rhs.org.uk/plants/253685/aquilegia-canadensis-pink-lanterns/details,育成元が分かれば教えてください（育成元_保留リストで扱います）。,
 1952,アクテア'シルバーダンス’,一次情報に記載なし,学名以外の全項目,RHSは名前だけ。MBG・NC州立大学に品種ページが見つからない。,https://www.rhs.org.uk/plants/368354/actaea-japonica-silver-dance/details,育成元が分かれば教えてください（育成元_保留リストで扱います）。,
 （全品種）,—,決めていただきたいこと,一次情報同士の食い違い,RHSとNC州立大学で、日照（日向／日向～半日陰）や広がりが少し違うことが多い（アガスタチ2品種で計7項目）。今は違えば書かず、ここに載せている。このままだと空欄と確認が大量に出る。,,優先順位を決めて上位の出典を採る（例：RHS → MBG → NC州立大学）か、今のまま毎回確認するか、決めてください。,2026-11-12 決定：優先順位（RHS→MBG→NC州立大学）を決めて上位を採る。
+1516,アシリウム　ニポニカム ピクタム‘メタリカム’,名前の扱い,学名,RHSでは 'Metallicum' は別名（Name Status: Synonym）で、Athyrium niponicum 'Pictum'（ニシキシダ）と同じものとして扱われている。学名は台帳に書いていない。,https://www.rhs.org.uk/plants/369320/athyrium-niponicum-var-pictum-metallicum/details,学名を「Athyrium niponicum var. pictum」とし、'Metallicum' は別名として扱ってよいか決めてください。,
+1178,アスクレピアス　インカルナータ‘ミルクメイド’,一次情報に記載なし,全項目,RHS・MBG・NC州立大学の検索で 'Milkmaid' の品種ページが見つからない。,,育成元が分かれば教えてください（育成元_保留リストで扱います）。,
+1833,アスクレピアス　アスペルラ,出典が開けない,全項目,Lady Bird Johnson Wildflower Center（wildflower.org）にページがあるが、このクラウド環境の通信設定で wildflower.org が許可されておらず開けない。RHS・NC州立大学にはページなし。,https://www.wildflower.org/plants/result.php?id_plant=ASAS,環境の設定で wildflower.org を許可していただければ照合できます。,
