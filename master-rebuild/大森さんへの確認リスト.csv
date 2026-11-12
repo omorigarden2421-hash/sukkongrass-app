@@ -26,3 +26,5 @@
 1516,アシリウム　ニポニカム ピクタム‘メタリカム’,名前の扱い,学名,RHSでは 'Metallicum' は別名（Name Status: Synonym）で、Athyrium niponicum 'Pictum'（ニシキシダ）と同じものとして扱われている。学名は台帳に書いていない。,https://www.rhs.org.uk/plants/369320/athyrium-niponicum-var-pictum-metallicum/details,学名を「Athyrium niponicum var. pictum」とし、'Metallicum' は別名として扱ってよいか決めてください。,
 1178,アスクレピアス　インカルナータ‘ミルクメイド’,一次情報に記載なし,全項目,RHS・MBG・NC州立大学の検索で 'Milkmaid' の品種ページが見つからない。,,育成元が分かれば教えてください（育成元_保留リストで扱います）。,
 1833,アスクレピアス　アスペルラ,出典が開けない,全項目,Lady Bird Johnson Wildflower Center（wildflower.org）にページがあるが、サイト側が自動アクセスを遮断していて（Cloudflare）このクラウド環境からは開けない。通信設定には 2026-11-12 に www.wildflower.org を追加済み。RHS・NC州立大学にはページなし。,https://www.wildflower.org/plants/result.php?id_plant=ASAS,大森さんのパソコンのブラウザで開ける環境（デスクトップアプリのセッション）で照合します。,
+（全品種）,—,見ていただきたいもの,学名,RHSで「別名（Synonym）」扱いになっている学名が約200品種ある（属の移動や、品種名だけの表記への変更など）。台帳の学名にはRHSのページの名前を入れ、メモに「別名の扱い」と書いている。,,一覧は 学名_RHSで別名扱い.csv 。通販サイトの学名を今の表記のままにするか、RHSの正式名にそろえるか、方針を決めてください。,
+（全品種）,—,見ていただきたいもの,全項目,RHS・NC州立大学のどちらにも使えるページが無く、台帳に1行も無い品種が85ある。,,一覧は 未照合の品種.csv 。育成元や別名が分かるものは教えてください。,

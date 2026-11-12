@@ -1,0 +1,84 @@
+1	OK		summer	white	白
+12	OK	10cm	summer	yellowish	黄色がかった色
+19	OK	60cm	early summer	deep red	濃い赤
+25	OK
+29	OK		summer to autumn	bright yellow	明るい黄色
+35	OK	15cm	late spring and early summer	pink	ピンク
+38	OK		early summer	white	白
+39	OK	20cm	late spring and early summer	white-felted	白
+41	OK	1m	midsummer to autumn	deep reddish-pink	濃い赤みのピンク
+42	OK	70cm	midsummer to autumn	white	白
+45	OK	15-30cm	summer	open white but soon turn pinkish-purple	白→ピンクがかった紫
+47	OK	75cm	mid to late summer	deep pink	濃いピンク
+48	OK	30cm	summer through to autumn	Pale pink	淡いピンク
+53	OK	15cm	summer
+64	OK	75cm	summer	creamy-white colour flushed with pink	クリームがかった白（ピンクを帯びる）
+70	OK	60cm	summer	white	白
+71	OK	60cm	early to mid-summer then again in the autumn	cherry-red to purple-pink	チェリーレッド～紫がかったピンク
+72	OK	60cm	summer	light purplish-pink	淡い紫がかったピンク
+76	OK	1.2m	late summer and early autumn	creamy-white	クリームがかった白
+79	OK	30cm	late spring	white	白
+80	OK	30-40cm	early summer to early autumn	red ray florets with yellow tips	赤（先端は黄色）
+81	NG					RHSで候補になったのは 'Burgundy Glow' で、名前が違うため使っていない。
+91	OK		early summer	bright golden-yellow	明るい黄金色
+101	OK	60cm		rich scarlet	濃い緋色
+102	OK	75cm	spring and early summer	coppery-tinted mauve-pink	銅色がかった藤色のピンク
+108	OK	5cm	late spring to summer	white flowers, veined and tinged pink	白（ピンクを帯びる）
+109	NG					RHSで候補になったのは 'Filou White' で、名前が違うため使っていない。
+110	OK		summer	pale pink to white	淡いピンク～白
+120	OK	20cm	summer	double white	白（八重）
+121	OK	15cm		pale pink	淡いピンク
+122	OK		summer	white	白
+124	OK	50cm	summer	purplish or pink	紫がかった色またはピンク
+127	OK	10cm	late summer	bright yellow	明るい黄色
+128	OK	10cm	late summer	deep reddish-pink	濃い赤みのピンク
+129	OK	10cm	summer	light pink	淡いピンク
+130	OK	8cm	early autumn	purplish-pink	紫がかったピンク
+131	OK	15cm	late spring and summer	white	白
+135	OK	15cm		Pale lilac-pink	淡いライラックピンク
+138	OK		late summer	white	白
+145	OK	5cm	summer	purple	紫
+146	OK	5cm	summer	purple	紫
+148	OK		spring and summer	Pale pink-mauve	淡いピンクがかった藤色
+150	OK		summer	pale pink	淡いピンク
+155	OK	15cm	late spring to early autumn	bright yellow	明るい黄色
+157	OK
+165	OK		August and September	red	赤
+167	OK		summer to autumn	violet-blue	青紫
+169	OK		summer	violet-blue	青紫
+171	OK	8cm		White	白
+184	OK		late spring	pale pink	淡いピンク
+190	OK		early summer	bright red	明るい赤
+195	OK	10cm		deep reddish-purple	濃い赤紫
+196	OK	10cm		deep reddish-purple	濃い赤紫
+197	OK	20cm	mid-spring to late summer	blue	青
+198	OK		spring to early autumn	white	白
+199	OK		mid-spring to late summer	violet-blue	青紫
+202	OK		summer	white, pink-tinged	白（ピンクを帯びる）
+205	OK	30cm
+206	OK		late spring to summer	blue-green flower plumes	青緑（のち黄金色がかった茶）
+209	OK	1.8m	summer	yellow	黄色
+210	OK	3m	summer	scarlet sepals with a purple corolla	緋色の萼と紫の花びら
+211	OK	60cm	summer to autumn	crimson tubes and sepals and violet-purple petals	深紅の萼と青紫の花びら
+215	OK	1.4m		straw-coloured	麦わら色
+217	OK	30cm	summer and early autumn	deep violet	濃いすみれ色
+220	OK		mid to late spring	blue	青
+221	OK		spring	raspberry red	ラズベリーレッド（のち紫）
+225	OK	1.1m	late summer and autumn	white	白
+230	OK	30cm		canary yellow flowers with orange throat	カナリアイエロー（のどはオレンジ）
+235	OK	20cm	late spring into summer	pale orange to pinkish	淡いオレンジ～ピンクがかった色
+236	OK	60cm	early spring	deep pink	濃いピンク
+237	OK		spring and summer	purple-blue	紫がかった青
+243	OK	60cm	summer	bright blue	明るい青
+250	OK		summer through to autumn	scarlet red	緋色
+252	OK		summer	red, orange or yellow	赤・オレンジ・黄色
+253	OK	35cm	throughout summer	cherry-pink	チェリーピンク
+255	OK	70cm	late summer and early autumn	mauve-flushed, white	白（藤色を帯びる）	マスターのつづりは 'Togen'。
+259	OK		late summer	pale purple	淡い紫
+260	OK	45cm		bright greenish-yellow	明るい緑がかった黄色
+262	OK		late summer and autumn	cream	クリーム色
+264	OK	45cm	mid to late summer	blue-purple	青紫
+266	OK	90cm	summer	white	白
+267	OK		summer	Yellow	黄色
+268	OK			bright yellow	明るい黄色
+270	OK		mid and late summer	bright yellow	明るい黄色

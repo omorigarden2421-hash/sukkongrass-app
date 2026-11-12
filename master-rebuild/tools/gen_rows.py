@@ -18,6 +18,7 @@ SEASON = [(r'early[- ]spring', '春', '春'), (r'mid[- ]?spring', '春', '春'),
           (r'august', '晩夏', '晩夏'), (r'september|october|november', '秋', '秋')]
 def season(raw):
     s = raw.lower(); hits = []
+    s = re.sub(r'(early|mid|late)[- ]*(?:to|and|or|-)[- ]*(early|mid|late)[- ]*(spring|summer|autumn|winter)', r'\1 \3 to \2 \3', s)   # mid to late summer → mid summer to late summer
     pos = 0
     while pos < len(s):
         for pat, a, b in SEASON:

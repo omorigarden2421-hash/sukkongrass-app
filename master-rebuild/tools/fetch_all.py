@@ -41,6 +41,7 @@ def nc(sci):
     head = slug(s.split("'")[0]); cands = []
     if q:
         cands = [head + '-' + slug(q[0]), head.split('-')[0] + '-' + slug(q[0])]
+    elif re.search(r'\b(var|subsp|ssp|f)\.|\bsp\.', s): cands = []          # 変種・亜種・品種（f.）は、種のページを当てない
     else: cands = ['-'.join(head.split('-')[:2])]
     for c in dict.fromkeys(cands):
         f = os.path.join(out, 'nc_' + c[:80] + '.html'); raw = get('https://plants.ces.ncsu.edu/plants/' + c + '/', f)
@@ -48,7 +49,10 @@ def nc(sci):
         t = text(raw); d = {'url': 'https://plants.ces.ncsu.edu/plants/' + c + '/', 'cultivar_page': bool(q)}
         mm = re.search(r'<title>(.*?)\|', raw, re.S); d['name'] = html.unescape(re.sub(r'\s+', ' ', mm.group(1)).strip()) if mm else ''
         i = t.find('| Description |'); j = t.find('| Cultivars / Varieties', i); d['desc'] = t[i + 15: j if 0 < j < i + 2600 else i + 2600].strip(' |')
-        for k in ['Height:', 'Width:', 'Light:', 'Flower Color:', 'Flower Bloom Time:', 'Flower Description:', 'Woody Plant Leaf Characteristics:', 'Resistance To Challenges:']:
+        for k in ('Height', 'Width'):
+            mm = re.search(k + r': (\d+ ft\. \d+ in\. - \d+ ft\. \d+ in\.)', t)
+            if mm: d[k] = mm.group(1)
+        for k in ['Light:', 'Flower Color:', 'Flower Bloom Time:', 'Flower Description:', 'Woody Plant Leaf Characteristics:', 'Resistance To Challenges:']:
             i = t.find('| ' + k + ' |')
             if i >= 0:
                 v = t[i + len(k) + 4: i + 420]; j = v.find(': |'); v = v[:j].rsplit(' | ', 1)[0] if 0 < j else v[:200]
