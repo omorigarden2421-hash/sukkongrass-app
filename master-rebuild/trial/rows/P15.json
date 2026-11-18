@@ -1,0 +1,365 @@
+{
+ "id": "P15",
+ "fields": {
+  "accepted_name": {
+   "value": "Sedum spurium 'Schorbuser Blut'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS では 'Dragon's Blood' はシノニム、正名は 'Schorbuser Blut'。種の属は Kew・NC State・シカゴ植物園が Phedimus spurius、RHS は Sedum spurium で割れている（ルールどおり RHS を採用）"
+  },
+  "synonyms": {
+   "value": [
+    "Sedum spurium 'Dragon's Blood'",
+    "Phedimus spurius 'Dragon's Blood'",
+    "Sedum spurium [Dragon's Blood]",
+    "Sedum 'Schorbuser Blut'"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "流通名 'Dragon's Blood' を含む。種名 Phedimus spurius は Kew の正名（Sedum spurium は Kew ではシノニム）"
+  },
+  "flower_color_detail": {
+   "value": "濃い赤みのピンク",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_class": {
+   "value": [
+    "ピンク",
+    "赤"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "RHS deep reddish-pink（赤みの強いピンク）、シカゴ植物園 cherry-red／Red のため両方"
+  },
+  "spread_min": {
+   "value": 10,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "品種レベルの具体的な cm/インチ値がないため RHS の幅 0.1-0.5m を使用"
+  },
+  "spread_max": {
+   "value": 50,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "foliage_class": {
+   "value": "ブロンズ・レッド系",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "purple-tinged（RHS）、green suffused with burgundy（シカゴ）。季節で色が変わる記述（春に紫赤、秋に赤）もあり季節変化型とも取れる"
+  },
+  "foliage_features": {
+   "value": [
+    "肉厚（多肉質）",
+    "倒卵形〜へら形",
+    "縁に鋸歯",
+    "小さな葉（6mm未満）"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": "春は緑に紫赤色がのり、秋は赤く色づく。冬の葉色は緑・紫",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "NC State の品種一覧の1行記述と RHS の Winter 葉色"
+  },
+  "fragrance": {
+   "value": null
+  },
+  "silhouette": {
+   "value": "マット",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "Matforming／Creeping"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "usda_min": {
+   "value": 3,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "NC State（種）3a-9b も一致"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "暑さの記述なし。USDA上限から（9）"
+  },
+  "heat_note": {
+   "value": null,
+   "note": "暑さ・蒸れの記述なし"
+  },
+  "drought": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s08"
+   ],
+   "level": "species",
+   "note": "NC State（種）tolerant of drought、シカゴ（品種）乾いた場所のグラウンドカバー向き"
+  },
+  "soil_moisture": {
+   "value": "乾燥寄り",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "species",
+   "note": "NC State（種）prefers very dry soil, do not overwater。RHS（品種）は Well-drained のみ"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性（中性〜アルカリ性を好む）、ローム・砂質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "NC State（種）は砂質・浅い礫質土"
+  },
+  "salt": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での常緑性の記述なし"
+  },
+  "evergreen_warm": {
+   "value": "半常緑",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "NC State（種）：茎の基部側は落葉、先端側は常緑"
+  },
+  "native_range": {
+   "value": "コーカサス地方（トルコ北東部〜イラン北部）",
+   "method": "記載",
+   "sources": [
+    "s08",
+    "s06",
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "ランナー"
+   ],
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "root along the nodes（茎の節から発根）"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s08",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "節から発根して30cm以上のパッチになる（地下茎ではなく節発根による広がり）。程度の形容なしのため2"
+  },
+  "mixing": {
+   "value": null,
+   "note": "clump-forming でなく、vigorous／crowd out などの記述もないため判定できず"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": "毒性は低い（症状不明、消化器症状の可能性）",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "pests": {
+   "value": [
+    "ナメクジ",
+    "カタツムリ",
+    "ブドウゾウムシ（幼虫）",
+    "カイガラムシ",
+    "コナカイガラムシ",
+    "根頭腐敗・根腐れ"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "pruning": {
+   "value": "剪定不要。古い茎が乱れたら摘心する",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "不要"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "シカゴ植物園は古い茎の摘心が必要になることがあると記載"
+  },
+  "management_type": {
+   "value": "A 放任型",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "剪定不要の明記のみ"
+  },
+  "division_interval": {
+   "value": "春（間隔の記載なし）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "挿し木"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "cut_flower": {
+   "value": null
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "attracting bees, butterflies"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "accepted_name",
+   "detail": "RHS Sedum spurium 'Schorbuser Blut'（'Dragon's Blood' はシノニム）／シカゴ植物園 Phedimus spurius 'Dragon's Blood'／Kew 種の正名 Phedimus spurius。RHS を採用"
+  },
+  {
+   "field": "flower_color_detail",
+   "detail": "RHS deep reddish-pink／シカゴ植物園 cherry-red／NC State pink to red。RHS を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "RHS 0.1-0.5m／シカゴ植物園 30cm以上のパッチ（上限なし）／NC State（種）60-90cm。品種レベルの具体値が範囲として得られないため RHS を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS Full sun のみ／シカゴ植物園 full sun to partial shade／NC State（種）本文 full sun・属性欄 Partial Shade。RHS を採用"
+  },
+  {
+   "field": "evergreen_warm",
+   "detail": "NC State（種）semi-evergreen／RHS（品種）Evergreen。暑さ側の優先順位で NC State を採用"
+  },
+  {
+   "field": "pests",
+   "detail": "NC State（種）No significant problems（白絹病の記載あり）／RHS は病害虫を列挙。RHS を採用"
+  }
+ ],
+ "name_review": {
+  "current": "Sedum spurium ‛Dragon's Blood’",
+  "proposed": "Sedum spurium 'Schorbuser Blut'",
+  "reason": "RHS では 'Dragon's Blood' は 'Schorbuser Blut' のシノニム扱い。種については Kew・NC State・シカゴ植物園が Phedimus spurius を正名としており、属の扱いも要判断。マスターの引用符が全角の ‛’ になっているので半角 ' に直す必要あり",
+  "source": "s01 / Kew"
+ },
+ "notes": "流通名 'Dragon's Blood' と RHS 正名 'Schorbuser Blut' のどちらを表示名にするかはユーザー判断が必要。株張りは品種レベルの具体値がなく RHS の幅を使用。"
+}

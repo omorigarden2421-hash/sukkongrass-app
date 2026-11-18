@@ -1,0 +1,345 @@
+{
+ "id": "P17",
+ "fields": {
+  "accepted_name": {
+   "value": "Lysimachia nummularia",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "synonyms": {
+   "value": null,
+   "note": "文献に記載なし"
+  },
+  "flower_color_detail": {
+   "value": "黄色",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "商品が種そのものなので種の記述を採用。NC State は赤い斑点、Walters は明るい黄金色と記載"
+  },
+  "flower_color_class": {
+   "value": [
+    "黄"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "spread_min": {
+   "value": 45,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species",
+   "note": "種そのものの商品"
+  },
+  "spread_max": {
+   "value": 60,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s10",
+    "s06"
+   ],
+   "level": "species",
+   "note": "bright green（Walters）／Green（NC State）"
+  },
+  "foliage_features": {
+   "value": [
+    "丸い（卵形〜心形）葉が対生",
+    "無毛",
+    "葉面に赤〜黒の腺点",
+    "やや波打つ"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "fragrance": {
+   "value": null
+  },
+  "silhouette": {
+   "value": "マット",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "Matforming／Creeping"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "usda_min": {
+   "value": 2,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "species",
+   "note": "暑さの記述なし。USDA上限から（9）"
+  },
+  "heat_note": {
+   "value": null,
+   "note": "暑さ・蒸れの記述なし"
+  },
+  "drought": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species",
+   "note": "湿り気を好むが乾き気味にも耐える（NC State tolerates drier conditions、RHS Plants for both Wet and Dry Conditions）。drought tolerant の明記ではないため中"
+  },
+  "soil_moisture": {
+   "value": "幅広く適応",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "RHS Moist but well-drained or Poorly-drained／NC State 時々の冠水〜時々の乾燥"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・ローム",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "NC State は砂・浅い礫質も可"
+  },
+  "salt": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "半常緑",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "Walters も温暖地で半常緑"
+  },
+  "native_range": {
+   "value": "ヨーロッパ〜南西アジア（北米に帰化）",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "ランナー",
+    "地下茎"
+   ],
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "節が地面に触れると発根、細い根茎でも広がる"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": 3,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "spreads too aggressively and is difficult to control"
+  },
+  "mixing": {
+   "value": "侵略的（隔離推奨）",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s10",
+    "s01"
+   ],
+   "level": "species",
+   "note": "NC State invasive weed／aggressively、Walters 芝生や花壇に逃げ出す、RHS 管理しないと厄介者"
+  },
+  "invasive_note": {
+   "value": "地域によっては侵略的雑草・生態系への脅威とされ、広がりすぎて制御が難しい。芝生や花壇に逃げ出すので境栽や芝生の近くには不向き（RHS も管理しないと厄介者になると注意）",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10",
+    "s01"
+   ],
+   "level": "species"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": [
+    "特になし"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS Generally pest-free / disease-free"
+  },
+  "pruning": {
+   "value": "剪定不要",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "pruning_codes": {
+   "value": [
+    "不要"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "management_type": {
+   "value": "E 隔離推奨型",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "mixing が侵略的"
+  },
+  "division_interval": {
+   "value": "春か秋（間隔の記載なし）",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species",
+   "note": "子株を移すだけで増やせる"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "実生"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "cut_flower": {
+   "value": null
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS Plants for Pollinators"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "spread",
+   "detail": "Walters 45-60cm／NC State 30-60cm／RHS 0.1-0.5m。Walters を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS・NC State 日向〜半日陰／Walters Partial Shade or Full Shade。RHS を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "Walters 2-9／NC State 3a-8b（4b 抜け）。耐寒側の優先順位で Walters を採用"
+  },
+  {
+   "field": "evergreen_warm",
+   "detail": "NC State semi-evergreen・Walters 温暖地で半常緑／RHS Deciduous。NC State を採用"
+  },
+  {
+   "field": "pests",
+   "detail": "RHS 概ね病害虫なし／NC State さび病・斑点病にかかりやすい。RHS を採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "種そのものの商品のため、種レベルの記述を品種レベルと同じ扱いにした（level は species のまま記録）。侵略性の注意は3文献すべてにある。"
+}

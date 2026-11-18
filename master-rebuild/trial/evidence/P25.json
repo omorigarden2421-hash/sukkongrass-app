@@ -1,0 +1,395 @@
+{
+ "id": "P25",
+ "searched_name": "Hydrangea serrata var. yesoensis",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "status": "ok",
+   "note": "マスター出典（成株シルエット参照URL）。subsp. yezoensis のページ"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "status": "ok",
+   "note": "種 Hydrangea serrata のページ。yezoensis の記載なし"
+  },
+  {
+   "source": "-",
+   "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/gardening-help-faqs/question/1187/how-do-i-prune-my-hydrangeas",
+   "status": "not_found",
+   "note": "マスター出典だが MBG はこの環境で読めないため試さず"
+  },
+  {
+   "source": "-",
+   "url": "https://www.mdpi.com/2311-7524/6/3/54",
+   "status": "not_found",
+   "note": "マスター出典（耐潮性）だが使用可能文献の表にないため読まず"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Hydrangea serrata subsp. yezoensis（RHS で Correct）",
+   "quote": "Hydrangea serrata subsp. yezoensis ... Name Status Correct",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "Hydrangea serrata var. yezoensis",
+   "quote": "Synonyms Hydrangea serrata var. yezoensis",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "（種）旧名 Hydrangea macrophylla var. serrata、H. macrophylla acuminata",
+   "quote": "Previously known as: Hydrangea macrophylla acuminata Hydrangea macrophylla var serrata",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "アジサイ科 Hydrangeaceae",
+   "quote": "Family Hydrangeaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "アジサイ科 Hydrangeaceae",
+   "quote": "Family: Hydrangeaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "淡いピンクまたは青のガクアジサイ型",
+   "quote": "Flat, lace cap pale pink or blue frilled flowers appear in summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "（種）青〜ピンク、土壌pHで変わる（アルカリでピンク、酸性で青）",
+   "quote": "Flower color may vary from pink (alkaline) to blue (acidic) depending on soil pH.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "夏",
+   "quote": "Flat, lace cap ... flowers appear in summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "（種）夏",
+   "quote": "Flower Bloom Time: Summer",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "100cmまで（最大0.5〜1m）",
+   "quote": "A small, compact, deciduous shrub to 100cm high / Max Height 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "（種）2〜4フィート",
+   "quote": "Height: 2 ft. 0 in. - 4 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "0.5〜1m",
+   "quote": "Max Spread 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "（種）2〜4フィート",
+   "quote": "Width: 2 ft. 0 in. - 4 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "細い卵形で鋸歯のある中緑色の葉",
+   "quote": "narrowly ovate, serrated mid-green leaves",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "夏〜秋にブロンズ色を帯びる",
+   "quote": "which turn more bronze in the summer and autumn",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "小型でコンパクト、枝を広げる",
+   "quote": "A small, compact, deciduous shrub / Habit Spreading branched",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "（種）株立ち・丸い",
+   "quote": "Habit/Form: Clumping Rounded",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰。土が常に湿っていれば日向も可",
+   "quote": "Position Partial shade / Grow in any moist but well-drained soil in partial shade or grow in sun if soil remains reliably moist",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "（種）明るい日陰〜開けた日陰で最良。暖地では強い日差しを避ける",
+   "quote": "will grow best in light to open shade. In warmer climates, a location protected from hot sun",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "（種）6a〜9b",
+   "quote": "USDA Plant Hardiness Zone: 6a, 6b, 7a, 7b, 8a, 8b, 9a, 9b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H4",
+   "quote": "Hardiness H4",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "（種）アジア原産で冷涼な条件を好む。暖地では強い日差しから守らないと葉や花が早く色あせ・葉焼けする",
+   "quote": "it is a native of Asia and prefers cool growing conditions ... In warmer climates, a location protected from hot sun will keep the foliage and flowers from prematurely fading or scorching",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "（種）夏に安定して水やりするとよく咲く（乾燥耐性の記述ではない）",
+   "quote": "it will flower more prolifically with consistent summer watering",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい土",
+   "quote": "Moisture Moist but well–drained",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（種）肥沃で湿り気があり水はけのよい土",
+   "quote": "Plant in full sun to partial shade in fertile, moist, well-drained soil.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・ローム、酸性〜アルカリ性。白亜質土は有機物で改良",
+   "quote": "Soil Types Clay, Loam / pH Acid or Alkaline or Neutral / Improve chalky soils with organic matter",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "（種）酸性〜中性",
+   "quote": "Soil pH: Acid (<6.0) Neutral (6.0-8.0)",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉",
+   "quote": "deciduous shrub / Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "（種）日本・朝鮮半島",
+   "quote": "Country Or Region Of Origin: Japan, Korea",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "皮膚アレルゲン。犬猫が食べると有害",
+   "quote": "Skin allergen. ... Pets (dogs, cats): Harmful if eaten.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "（種）有毒植物。猫・犬・馬に問題",
+   "quote": "Plant Type: Poisonous / Problems: Problem for Cats Problem for Dogs Problem for Horses",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "アブラムシ・カスミカメ・ハダニ・茎線虫・キンケクチブトゾウムシ・カイガラムシ、斑点病・うどんこ病・灰色かび病・まれにナラタケ病",
+   "quote": "May be susceptible to aphids, capsid bug, red spider mite, stem and bulb eelworm, vine weevil and scale insects / a leaf spot, Powdery mildews, grey moulds (Botrytis) and honey fungus (rarely)",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（種）葉が薄くアジサイよりうどんこ病にかかりやすい。芽枯れ・青枯病・斑点病、アブラムシ",
+   "quote": "may be more susceptible to powdery mildew than Hydrangea macrophylla due to its thinner leaves. It also has some susceptibility to bud blight, bacterial wilt, and leaf spot and may occasionally be visited by aphids.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "剪定グループ4（アジサイ）",
+   "quote": "See pruning group 4 (hydrangeas)",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "（種）前年枝に咲くので剪定は花後に軽く。弱い枝や冬傷みの枝は早春に除く",
+   "quote": "Little pruning is required for this hydrangea and should be done after flowering as it blooms on the previous season's stems. ... Weak or winter-damaged stems should be pruned away in early spring.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "初夏の緑枝挿し、冬の休眠枝挿し",
+   "quote": "Propagate by softwood cuttings in early summer, or by hardwood cuttings in winter",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/275591/hydrangea-serrata-subsp-yezoensis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "（種）取り木・種子・挿し木",
+   "quote": "Recommended Propagation Strategy: Layering Seed Stem Cutting",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "（種）ドライフラワー向き",
+   "quote": "Flower Value To Gardener: Good Dried Showy",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "（種）ハチを呼ぶ",
+   "quote": "Attracts: Bees",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "fragrance",
+  "salt",
+  "spread_mode",
+  "lifespan",
+  "staking",
+  "division",
+  "invasive_note"
+ ],
+ "notes": "入力の学名 'Hydrangea serrata var. yesoensis' は綴りが 'yezoensis' と異なり、RHS では subsp. yezoensis が Correct、var. yezoensis はシノニム扱い。品種ではなく亜種なので level は species とした（RHS ページは当該亜種のページ、NCSU は種 H. serrata のみで yezoensis の記載なし）。RHS 本文は高さ100cmまで（最大0.5-1m）で、マスターの100～150cmより小さい。RHS 花色は『pale pink or blue』。マスター出典の MBG・MDPI 論文は読んでいない。耐塩・寿命・株分け・広がり方・日本語名は見つからず。"
+}

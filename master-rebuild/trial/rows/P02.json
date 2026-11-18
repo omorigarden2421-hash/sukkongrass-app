@@ -1,0 +1,355 @@
+{
+ "id": "P02",
+ "fields": {
+  "accepted_name": {
+   "value": "Aquilegia chrysantha 'Yellow Queen'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "synonyms": {
+   "value": null
+  },
+  "flower_color_detail": {
+   "value": "濃い黄（中心の花弁）、外側（萼・距）は淡い黄",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS: central petals dark yellow, outer parts contrastingly lighter"
+  },
+  "flower_color_class": {
+   "value": [
+    "黄"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "spread_min": {
+   "value": 30,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "spread_max": {
+   "value": 45,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "foliage_features": {
+   "value": [
+    "細かく分裂したシダ状の葉"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": null
+  },
+  "fragrance": {
+   "value": null,
+   "note": "NCSU の種ページに花のかすかな香りの記述があるが、fragrance は種レベル不可"
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Bushy, clump-forming"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "usda_min": {
+   "value": 2,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H5",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "NCSU: 南東部の高温多湿な夏にはあまり耐えない（①）。同ページの耐性欄に Heat、LBJ は Heat Tolerant: yes とあるが①を優先"
+  },
+  "heat_note": {
+   "value": "米南東部の高温多湿な夏にはあまり耐えず、暑い夏に日が強すぎると葉を落とす。排水の悪い土では株腐れが起きる。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s09"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "LBJ（種）は干ばつ時に休眠することがあると記載"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "NCSU・LBJ（種）は排水不良で株腐れと記載"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・砂質・ローム",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": null
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "半常緑",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s09"
+   ],
+   "level": "species",
+   "note": "優先順位で NCSU（種）を採用。RHS 品種ページは落葉"
+  },
+  "native_range": {
+   "value": "北米南西部〜メキシコ北部（ユタ・アリゾナ・ニューメキシコ・テキサス西部〜ソノラ・コアウイラ・チワワ）",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s09",
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち（広がらない）",
+    "こぼれ種"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "RHS clump-forming（栄養繁殖で広がる記述なし）、Walters は種をつけさせてこぼれ種で更新するよう勧める"
+  },
+  "self_seed_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters: allow some of the plants to go to seed and self sow"
+  },
+  "rhizome_level": {
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "clump-forming の記述のみ"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS の vigorous は生育の旺盛さで、広がりの記述ではないと判断"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "NCSU（種）: 他のオダマキと近くに植えると交雑する（侵略性ではない）"
+  },
+  "toxicity": {
+   "value": "有毒（部位・対象の記載なし）",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "pests": {
+   "value": [
+    "アブラムシ",
+    "うどんこ病",
+    "オダマキべと病",
+    "ハモグリバエ",
+    "ハバチ",
+    "ハダニ"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "ハダニは NCSU（種）、高温乾燥時"
+  },
+  "pruning": {
+   "value": "花後に切り戻す（花茎を切ると返り咲きを促す）。夏半ばに葉が傷んだら地際で刈ると新しい葉が出る。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "夏半ばに傷んだ葉を地際で刈る記述（NCSU 種・Walters）は初夏コードには入れず management_type で考慮"
+  },
+  "management_type": {
+   "value": "C 夏前切戻型",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "夏に葉が傷むので切り戻す記述あり"
+  },
+  "division_interval": {
+   "value": null
+  },
+  "propagation": {
+   "value": [
+    "実生",
+    "株分け"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "株分けは NCSU・LBJ（種）"
+  },
+  "cut_flower": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Plants for Pollinators"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "spread",
+   "detail": "RHS 0.1-0.5m／Walters 30-45cm／NCSU（種）2-3フィート。Walters を採用"
+  },
+  {
+   "field": "foliage_class",
+   "detail": "RHS 中緑色／Walters 青緑・灰緑。RHS を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "Walters 2-9／NCSU（種）4a-9b。Walters を採用"
+  },
+  {
+   "field": "heat",
+   "detail": "NCSU 本文「南東部の高温多湿に耐えない」／NCSU 耐性欄 Heat・LBJ Heat Tolerant。①を優先し 弱"
+  },
+  {
+   "field": "evergreen_warm",
+   "detail": "NCSU・LBJ（種）半常緑／RHS（品種）落葉。優先順位で NCSU を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "LBJ（種）は半日陰〜日陰、強い日差しに耐えない。RHS を採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "草丈は RHS 1-1.5m／Walters 75-80cm と大きく食い違う（マスター項目外）。Walters は短命と記載。AGM は NCSU の記載のみで RHS 側未確認。"
+}

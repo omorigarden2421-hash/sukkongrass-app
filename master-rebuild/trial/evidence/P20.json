@@ -1,0 +1,441 @@
+{
+ "id": "P20",
+ "searched_name": "Tricyrtis 'Lightning Strike' (master: Tricyrtis hirta 'Lightning Strike')",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/163991/tricyrtis-lightning-strike-(v)/details",
+   "status": "ok",
+   "note": "品種ページはあるが科・属説明・シノニムのみで栽培データなし"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "status": "ok",
+   "note": "マスター出典。T. hirta の種ページ。品種一覧に 'Lightning Strike' の1行記述"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-lightning-strike/",
+   "status": "404",
+   "note": "品種単独ページなし"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "status": "ok",
+   "note": "perennials.com（写真提供 Terra Nova Nurseries と表記）"
+  },
+  {
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-profiles/toad-lilies",
+   "status": "ok",
+   "note": "ホトトギス類のプロファイル記事（属全体＋'Lightning Strike' に1文言及）"
+  },
+  {
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no16_tricyrtis.pdf",
+   "status": "ok",
+   "note": "Tricyrtis 品種評価報告 No.16。'Lightning Strike' は評価対象に含まれず"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Tricyrtis 'Lightning Strike'（種小名なし、正名）",
+   "quote": "Tricyrtis 'Lightning Strike' (v) ... Name Status: Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/163991/tricyrtis-lightning-strike-(v)/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Tricyrtis 'Lightning Strike'",
+   "quote": "Tricyrtis 'Lightning Strike' / Toad-lily",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "NCSU は T. hirta の品種一覧に掲載",
+   "quote": "Cultivars / Varieties: ... 'Lightning Strike'- Golden foliage with green streaks and lavender flowers",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "cultivar",
+   "from_master_source": true,
+   "level_detail": "T. hirta 種ページ内の品種一覧"
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "Tricyrtis latifolia 'Lightning Strike'",
+   "quote": "Synonyms: Tricyrtis latifolia 'Lightning Strike'",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/163991/tricyrtis-lightning-strike-(v)/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "ユリ科",
+   "quote": "Family: Liliaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/163991/tricyrtis-lightning-strike-(v)/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "ユリ科",
+   "quote": "Family: Liliaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "ラベンダー",
+   "quote": "'Lightning Strike'- Golden foliage with green streaks and lavender flowers",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "cultivar",
+   "from_master_source": true,
+   "level_detail": "種ページ内の品種一覧の記述"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "柔らかいモーブ（藤色）",
+   "quote": "This selection features soft mauve flowers / Flower Colour: Mauve/Lilac",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "秋（初秋～晩秋）",
+   "quote": "Blooming Time: Early Fall, Mid Fall, Late Fall",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "種として晩夏～秋",
+   "quote": "They bloom late summer and fall.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "50～60cm",
+   "quote": "Height: 50-60 cm / 20-23 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "種として茎の高さ58～91cm（23～36インチ）",
+   "quote": "It is upright, arched, unbranched, and measures 23-36 inches in height.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "30～45cm",
+   "quote": "Spread: 30-45 cm / 12-18 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "種として46～58cm（18～23インチ）",
+   "quote": "develops clumps of green foliage with a spread of 18-23 inches",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "黄金色の葉に緑の筋",
+   "quote": "Golden foliage with green streaks",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "cultivar",
+   "from_master_source": true,
+   "level_detail": "種ページ内の品種一覧の記述"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "緑と金の筋が大胆に入る葉",
+   "quote": "leaves boldly streaked in green and gold / Foliage Color: Deep Green, Gold, Variegated",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "緑の葉に金色の筋",
+   "quote": "'Lightning Strike' also has its green leaves intriguingly streaked with gold.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-profiles/toad-lilies",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "花が弓なりの茎に沿って並ぶ",
+   "quote": "have their flowers marching down an arched stem",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-profiles/toad-lilies",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "葉の多い弓なりの茎（ホトトギス類全般の記述）",
+   "quote": "Leafy, arching stems produce a fall display of bizarre star-shaped flowers",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "genus",
+   "from_master_source": false,
+   "level_detail": "品種ページ内の属一般の説明文"
+  },
+  {
+   "field": "habit",
+   "value_ja": "種として弓なり・株立ち",
+   "quote": "Habit/Form: Arching, Clumping",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰または日陰",
+   "quote": "Sun Exposure: Partial Shade or Full Shade",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "ホトトギス類として半日陰～日陰",
+   "quote": "Toad lilies need soil that is rich in organic matter, part- to full shade and consistent moisture",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-profiles/toad-lilies",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "種として日陰～半日陰",
+   "quote": "Plant in shade to partial shade.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "4～9",
+   "quote": "USDA Zone: 4-9",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "種として 4a～8b",
+   "quote": "USDA Plant Hardiness Zone: 4a, 4b, 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通～湿り気",
+   "quote": "Soil Moisture: Average or Moist",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "ホトトギス類として：常に湿り気が必要だが沼のような過湿は不可",
+   "quote": "Those soils can't be saturated like a bog, but they have to be kept moist",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-profiles/toad-lilies",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "種として：湿り気を保ち乾かさない",
+   "quote": "kept moist and not allowed to dry out",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "砂質・粘土；pH中性・アルカリ性・酸性",
+   "quote": "Soil Type: Sandy or Clay / Soil pH: Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "種として：有機質に富む弱酸性土",
+   "quote": "They prefer slightly acid soil with high organic matter",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "ホトトギス類として：有機質に富む土",
+   "quote": "Toad lilies need soil that is rich in organic matter",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-profiles/toad-lilies",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "T. hirta として：本州・四国・九州",
+   "quote": "The Hairy Toad Lily or Japanese Toad Lily is a native of the Japanese Islands of Honshu, Shikoku, and Kyushu.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "種として：ゆっくり広がる匍匐根茎で株を作る；条件が良いとこぼれ種で野生化することも",
+   "quote": "It has slow forming, creeping rhizomes / They may self-seed and naturalize under ideal conditions.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "属として：根茎性、ときに匍匐枝を出す",
+   "quote": "Tricyrtis are rhizomatous perennials, sometimes stoloniferous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/163991/tricyrtis-lightning-strike-(v)/details",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "staking",
+   "value_ja": "ホトトギス類として支柱不要",
+   "quote": "The plants need no staking or deadheading.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-profiles/toad-lilies",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "種として：ウサギの食害、アブラムシ媒介のTricyrtisウイルス、炭疽病",
+   "quote": "Rabbits like to eat leaves and buds. The Tricyrtis floral virus, which is spread by aphids ... Anthracnose may cause small orange spots on the leaves.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "ホトトギス類として花がら摘み不要",
+   "quote": "The plants need no staking or deadheading.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-profiles/toad-lilies",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "3～4年ごとに早春に株分けできる",
+   "quote": "Clumps may be easily divided every 3 to 4 years in early spring.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "ホトトギス類として：春に株分けすれば晩夏に咲く",
+   "quote": "A clump can be split in spring and be ready to bloom by late summer.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-profiles/toad-lilies",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種として：種子・茎挿し・株分け",
+   "quote": "The Hairy Toad Lily propagates from seeds, stem cuttings, or divisions.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花にも使える",
+   "quote": "Beautiful in the garden, but also useful for cutting. / Cut Flower",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/tricyrtis-lightning-strike.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "種として：チョウ・ハチが受粉、ハチドリに蜜",
+   "quote": "The flower is pollinated by butterflies and bees. It provides nectar to hummingbirds.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/tricyrtis-hirta/",
+   "level": "species",
+   "from_master_source": true
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "seasonal_foliage",
+  "fragrance",
+  "rhs_hardiness",
+  "heat_humidity",
+  "drought",
+  "salt",
+  "evergreen",
+  "lifespan",
+  "toxicity",
+  "invasive_note"
+ ],
+ "notes": "学名の問題：マスターは Tricyrtis hirta 'Lightning Strike' だが、RHSの正名は種小名なしの Tricyrtis 'Lightning Strike' (v)（(v)=斑入り）で、シノニムは T. latifolia 'Lightning Strike'。Walters・Chicago Botanic も種小名なし。NCSUだけが T. hirta の品種一覧に入れている。よって T. hirta 種ページの値（原産地・草丈など）は品種に当てはまらない可能性がある。葉色も文献で割れる：NCSU『黄金色に緑の筋』、Chicago Botanic『緑に金の筋』、Walters『緑と金の筋』。Walters は寒冷地では早霜で開花しにくいので保護が必要と記載（'In colder zones this may need protection from early frosts to bloom reliably.'）。RHSの品種ページには H値なし。マスターの Plant Delights・Wisconsin Extension は使用不可文献のため読んでいない。"
+}

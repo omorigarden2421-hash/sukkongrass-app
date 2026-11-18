@@ -1,0 +1,395 @@
+{
+ "id": "P26",
+ "searched_name": "Lonicera periclymenum 'Serotina'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "status": "ok",
+   "note": "マスター出典（成株シルエット参照URL）"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum-serotina/",
+   "status": "404",
+   "note": ""
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "status": "ok",
+   "note": "種のページ。品種一覧に 'Serotina' の短い記述あり"
+  },
+  {
+   "source": "-",
+   "url": "https://www.learningwithexperts.com/gardening/blog/how-do-you-plant-a-seaside-garden-planting-for-coastal-conditions",
+   "status": "not_found",
+   "note": "マスター出典（耐潮性）だがブログで使用対象外のため読まず"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Lonicera periclymenum 'Serotina'（RHS で Accepted）",
+   "quote": "Name Status Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "L. periclymenum 'Late Red'、'Florida'、'Serotina Florida'、Lonicera reflexa hort.",
+   "quote": "Synonyms Lonicera pereiclymenum 'Late Red', Lonicera periclymenum 'Florida', Lonicera periclymenum 'Serotina Florida', Lonicera reflexa hort.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "スイカズラ科 Caprifoliaceae",
+   "quote": "Family Caprifoliaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "スイカズラ科 Caprifoliaceae",
+   "quote": "Family: Caprifoliaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "外側が濃い赤紫、内側が黄色",
+   "quote": "fragrant, deep red-purple outside, yellow within",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "明るいピンク、ピンクの下の筒部は白っぽい黄色",
+   "quote": "'Serotina' Bright pink flowers with a whitish-yellow stem beneath the pink.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "夏〜秋（季節表の花色欄が夏・秋）",
+   "quote": "Summer Purple, Yellow ... Autumn Purple, Yellow",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "（種）春、夏にも散発的に咲く",
+   "quote": "It blooms in spring and sporadically through the summer.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "最大4〜8m（つる）",
+   "quote": "Max Height 4-8 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "（種）10〜20フィート",
+   "quote": "Height: 10 ft. 0 in. - 20 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "最大1〜1.5m",
+   "quote": "Max Spread 1-1.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "（種）3〜6フィート",
+   "quote": "Width: 3 ft. 0 in. - 6 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "濃緑の楕円形の葉、裏面は白っぽい",
+   "quote": "dark green, oval leaves whitish beneath",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "花に芳香",
+   "quote": "Flowers to 4cm in length, fragrant / Fragrance Flower",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "（種）花に芳香、夜により強く香りガを呼ぶ",
+   "quote": "The floral fragrance is more noticeable after dark and attracts moths as its native pollinators.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "旺盛な巻きつき性の大型落葉つる",
+   "quote": "A vigorous, twining, large, deciduous climber / Habit Climbing",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "（種）巻きつき性のつる。地被にも仕立てられる",
+   "quote": "Climbing Method: Twining / it can be trained as a ground cover",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向〜半日陰（半日陰が最適、日向にも耐える）",
+   "quote": "Position Full sun, Partial shade / Honeysuckle grows best in partial shade but tolerates full sun",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "（種）木漏れ日を好む。根元は日陰、つるは日に向かうのがよい",
+   "quote": "It prefers dappled sunlight ... It prefers to have its roots in the shade with shoots climbing towards the sun.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "（種）5a〜9b",
+   "quote": "USDA Plant Hardiness Zone: 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b, 9a, 9b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H6",
+   "quote": "Hardiness H6",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "（種）冷涼な地域向き",
+   "quote": "This plant is suitable for cooler regions",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "（種）根付けばかなり乾燥に耐える",
+   "quote": "Once established, it is fairly drought-tolerant.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい肥沃な土",
+   "quote": "Moisture Moist but well–drained / thrives in any fertile, moist but well-drained soil",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（種）湿り気があり水はけのよい土を好む。時々乾燥も可",
+   "quote": "moist, well-drained soils / Soil Drainage: Good Drainage Moist Occasionally Dry",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "白亜質・粘土・ローム・砂、酸性〜アルカリ性",
+   "quote": "Soil Types Chalk, Clay, Loam, Sand / pH Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "（種）酸性・アルカリ性どちらにも耐える",
+   "quote": "tolerates both acidic and alkaline soil pH",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "salt",
+   "value_ja": "RHS の推奨植栽場所に「海岸」",
+   "quote": "Suggested planting locations and garden types Coastal",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉",
+   "quote": "deciduous climber / Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "（種）ヨーロッパ・北アフリカ",
+   "quote": "native to Europe and North Africa / UK, Europe north to Scandinavia, south to N Africa and Greece",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "果実は観賞用で食べないこと（ペットも同様）",
+   "quote": "Fruit are ornamental - not to be eaten. ... Pets: Fruit are ornamental - not to be eaten",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "アブラムシ・アザミウマ・オンシツコナジラミ、うどんこ病・斑点病・銀葉病・まれにナラタケ病",
+   "quote": "May be susceptible to honeysuckle aphids, thrips and glasshouse whitefly / Powdery mildews, fungal leaf spot, silver leaf and honey fungus (rarely)",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（種）深刻な病害虫はない。シカに強い",
+   "quote": "No serious insect or disease problems. / Resistance To Challenges: Black Walnut Deer Drought",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "剪定グループ11、花後に",
+   "quote": "pruning group 11 after flowering",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "（種）旧枝に咲くことに留意して剪定",
+   "quote": "When pruning, keep in mind that the plant will flower on old growth.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "取り木、休眠枝挿し、半熟枝挿し",
+   "quote": "Propagate by layering, hardwood cuttings or semi-hardwood cuttings",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "（種）取り木・種子・挿し木",
+   "quote": "Recommended Propagation Strategy: Layering Seed Stem Cutting",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "RHS 送粉者のための植物",
+   "quote": "For Bio-Diversity Plants for Pollinators",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/93077/lonicera-periclymenum-serotina/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "（種）口吻の長いハチ・チョウ・ガが受粉。ハチドリも",
+   "quote": "Pollinated by long-tongued bees, butterflies, and moths. / Attracts: Bees Butterflies Hummingbirds Moths",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "seasonal_foliage",
+  "spread_mode",
+  "lifespan",
+  "staking",
+  "division",
+  "cut_flower",
+  "invasive_note"
+ ],
+ "notes": "学名 Lonicera periclymenum 'Serotina' は RHS で Accepted（シノニム 'Late Red' など）。つる性の落葉樹。NCSU に品種ページはなく、種ページの品種一覧に1行のみ（花色『Bright pink』で、RHS の『deep red-purple outside, yellow within』と表現が異なる。マスターの『赤（花喉は白）』とも RHS の内側黄色が食い違う）。花期は RHS の季節表で夏・秋に花色あり（文言で月は書かれていない）、NCSU 種ページは『春、夏散発』。RHS の果実は赤い液果で食べないよう注意書き。耐塩は RHS の推奨植栽場所『Coastal』のみ。USDAゾーンは種レベルのみ。"
+}

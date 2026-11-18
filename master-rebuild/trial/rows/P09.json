@@ -1,0 +1,383 @@
+{
+ "id": "P09",
+ "fields": {
+  "accepted_name": {
+   "value": "Miscanthus sinensis 'Morning Light'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS 表記は (v)（斑入り）付き"
+  },
+  "synonyms": {
+   "value": [
+    "Miscanthus sinensis 'Gracillimus Variegatus'"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_detail": {
+   "value": "ピンクがかった花穂",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "NCSU 赤みがかった銅色→クリーム〜銀白、Walters 銅がかったピンク"
+  },
+  "flower_color_class": {
+   "value": [
+    "ピンク"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "spread_min": {
+   "value": 80,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "perennials.com 80〜90cm"
+  },
+  "spread_max": {
+   "value": 90,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "perennials.com 80〜90cm"
+  },
+  "foliage_class": {
+   "value": "斑入り",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "葉縁に白い覆輪"
+  },
+  "foliage_features": {
+   "value": [
+    "細い葉の縁に細い白（クリーム白）の覆輪",
+    "遠目に銀色がかって見える"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": "秋に麦わら色〜金色になり、冬は乾いた明るい黄褐色の葉が残る",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "fragrance": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "silhouette": {
+   "value": "グラス",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "イネ科。直立茎に弓なりの細葉、丸い株姿"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Full sun"
+  },
+  "usda_min": {
+   "value": 5,
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "tolerant of heat、Heat・Humidity タグ"
+  },
+  "heat_note": {
+   "value": "暑さ・湿気に強い。開花には長く暑い生育期が必要で、冷涼な夏の地域では咲かないこともある。暖地では午後の日陰がよい。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "drought tolerant once established"
+  },
+  "soil_moisture": {
+   "value": "排水必須",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "RHS・NCSU とも冬の過湿を避けると明記"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters Salt Tolerant"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "NCSU は『気候により落葉または常緑』で区分を決められないため RHS を採用"
+  },
+  "native_range": {
+   "value": "原種ススキは中国〜マレシア、ロシア極東〜東アジア温帯（Kew）。品種は日本由来（Walters）",
+   "method": "記載",
+   "sources": [
+    "Kew",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "地下茎"
+   ],
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "地下茎の伸びは遅く株の形を保つ"
+  },
+  "self_seed_level": {
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "does not produce viable seeds"
+  },
+  "rhizome_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "rhizomes grow slowly"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "株の形を保つ。種は侵略的だが本品種は侵略性が低いと明記"
+  },
+  "invasive_note": {
+   "value": "原種ススキは米国南東部で侵略的になっているが、本品種は稔性のある種子を作らず侵略性はかなり低い。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": [
+    "コナカイガラムシ",
+    "葉枯れ病",
+    "さび病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "RHS・NCSU とも通常は病害虫なし。NCSU が可能性として挙げたもの"
+  },
+  "pruning": {
+   "value": "晩冬〜早春まで刈らずに株元を守り、春に枯れ葉と古い花茎を取り除く（Walters は10cmまで切り戻す）。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "早春"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "management_type": {
+   "value": "A",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "早春の刈り取りのみ"
+  },
+  "division_interval": {
+   "value": "春（新芽前〜初夏）。秋の株分けは最も温暖な地域のみ。数年経つと株分けが難しくなる。間隔の記載なし",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "RHS は実生も挙げるが、NCSU が稔性種子を作らないと明記しているため除外"
+  },
+  "cut_flower": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Good Cut, Good Dried"
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Attracts Butterflies"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "sun",
+   "detail": "RHS 日なた／perennials.com 日なたまたは半日陰／Walters 暖地は午後の日陰。RHS を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "perennials.com 80〜90cm／Walters 3ft(91cm)／NCSU 2.5〜3ft／RHS 0.5〜1m。perennials.com を採用"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "RHS・NCSU 冬の過湿を避ける／Walters 排水性は必須でない。RHS を採用"
+  },
+  {
+   "field": "evergreen_warm",
+   "detail": "RHS 落葉／NCSU 気候により落葉または常緑"
+  },
+  {
+   "field": "propagation",
+   "detail": "RHS 実生または株分け／NCSU 稔性種子を作らない"
+  }
+ ],
+ "name_review": null,
+ "notes": "品種レベルで揃う。開花は暑い長い生育期が必要との記述あり（冷涼地では咲かないことも）。"
+}

@@ -1,0 +1,394 @@
+<title>宿根草マスター項目チェックリスト</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap">
+<style>
+/* Layout: 一列の記入台帳。上に前提の質問、下に項目ごとの判定行。進捗バーを上部に固定。 */
+:root{
+  --bg:#f3f5f2; --surface:#ffffff; --fg:#1f2a24; --muted:#5d6b63; --line:#d6ddd7;
+  --accent:#2f6b4a; --accent-soft:#e1efe6; --ochre:#9a6a1f; --ochre-soft:#f6ecd9;
+  --warn:#a33b2b; --font-body:"BIZ UDPGothic","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+  --font-head:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141a17; --surface:#1c2420; --fg:#e4ebe6; --muted:#9aa9a0; --line:#33403a;
+  --accent:#7cc79c; --accent-soft:#22382c; --ochre:#e0b46a; --ochre-soft:#3a3020; --warn:#f08a7a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141a17; --surface:#1c2420; --fg:#e4ebe6; --muted:#9aa9a0; --line:#33403a;
+  --accent:#7cc79c; --accent-soft:#22382c; --ochre:#e0b46a; --ochre-soft:#3a3020; --warn:#f08a7a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.7}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px}
+h1,h2,h3{font-family:var(--font-head);text-wrap:balance;margin:0}
+h1{font-size:1.6rem;line-height:1.3}
+h2{font-size:1.2rem;margin:40px 0 4px}
+.lead{color:var(--muted);margin:8px 0 0;max-width:62ch}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line);margin:20px calc(-1*max(16px,env(safe-area-inset-left,0px))) 0;padding:10px max(16px,env(safe-area-inset-left,0px));display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+.prog{flex:1 1 220px;min-width:0}
+.prog-track{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:4px}
+.prog-fill{height:100%;background:var(--accent);width:0;transition:width .3s}
+.prog-label{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.save{font-size:.85rem;color:var(--muted)}
+.save.err{color:var(--warn)}
+.toggle{font-size:.85rem;display:flex;gap:6px;align-items:center;cursor:pointer}
+.howto{background:var(--accent-soft);border-radius:8px;padding:12px 16px;margin-top:20px;font-size:.92rem}
+.howto ol{margin:4px 0 0;padding-left:1.4em}
+.q{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px;margin-top:12px}
+.q h3{font-size:1rem;line-height:1.5}
+.q .hint{color:var(--muted);font-size:.88rem;margin:4px 0 0}
+.qn{color:var(--accent);margin-right:.4em;font-variant-numeric:tabular-nums}
+.opts{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0;pointer-events:none}
+.opt span{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:5px 14px;font-size:.9rem;cursor:pointer;background:var(--bg);user-select:none}
+.opt input:checked+span{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.opt input:focus-visible+span{outline:2px solid var(--ochre);outline-offset:2px}
+textarea{width:100%;box-sizing:border-box;margin-top:10px;border:1px solid var(--line);border-radius:6px;padding:8px 10px;font:inherit;font-size:.92rem;background:var(--bg);color:var(--fg);min-height:2.6em;resize:vertical}
+textarea:focus{outline:2px solid var(--accent);outline-offset:0;border-color:var(--accent)}
+.group-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.group-desc{color:var(--muted);font-size:.9rem;margin:0}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-top:10px}
+.item.done{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+.item-top{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.item-name{font-weight:700;font-size:1rem}
+.badge{font-size:.72rem;letter-spacing:.04em;padding:1px 8px;border-radius:4px;white-space:nowrap}
+.b-now{background:var(--line);color:var(--fg)}
+.b-new{background:var(--ochre-soft);color:var(--ochre)}
+.b-site{background:var(--accent-soft);color:var(--accent)}
+.note{font-size:.88rem;color:var(--muted);margin:4px 0 0}
+.prop{font-size:.88rem;margin:2px 0 0}
+.prop b{color:var(--ochre);font-weight:700}
+.row-label{font-size:.78rem;color:var(--muted);margin-top:10px;letter-spacing:.04em}
+.row-label + .opts{margin-top:4px}
+.help{font-size:.88rem;margin:6px 0 0;background:var(--ochre-soft);border-radius:6px;padding:6px 10px}
+.help b{color:var(--ochre)}
+.newmark{font-size:.72rem;color:var(--ochre);border:1px solid var(--ochre);border-radius:4px;padding:0 6px;margin-left:6px;vertical-align:2px}
+.hidden-done .item.done,.hidden-done .q.done{display:none}
+.foot{margin-top:40px;color:var(--muted);font-size:.85rem}
+@media (prefers-reduced-motion:reduce){.prog-fill{transition:none}}
+</style>
+
+<div class="wrap">
+  <h1>宿根草マスター 項目チェックリスト</h1>
+  <p class="lead">マスターデータを文献ベースで作り直すための記入表です。前提の質問に答え、各項目の扱いを選んでください。記入した内容は自動で保存され、Claudeが読み取って次の作業（項目定義書づくり）に使います。</p>
+
+  <div class="bar">
+    <div class="prog">
+      <div class="prog-label" id="progLabel">読み込み中…</div>
+      <div class="prog-track"><div class="prog-fill" id="progFill"></div></div>
+    </div>
+    <label class="toggle"><input type="checkbox" id="hideDone"> 記入済みを隠す</label>
+    <span class="save" id="saveState" aria-live="polite"></span>
+  </div>
+
+  <div class="howto">
+    <strong>記入のしかた</strong>
+    <ol>
+      <li>第0部：前回の回答を受けた追加の確認（7問）。</li>
+      <li>第1部：前提の質問。選択肢がないときはメモ欄に書く。前回の記入内容はそのまま残っています。</li>
+      <li>第2部：今の77列＋追加候補について「扱い」を選ぶ。提案に賛成なら「提案通り」、わからなければ「迷う」で構いません。</li>
+      <li>途中でやめても保存されています。終わったら会話で「書き込んだ」と伝えてください。</li>
+    </ol>
+  </div>
+
+  <h2>第0部　追加の確認<span class="newmark">新規</span></h2>
+  <p class="group-desc">前回の記入を読んで、確認したい点が出てきました。</p>
+  <div id="followups"></div>
+
+  <h2>第1部　前提の質問</h2>
+  <p class="group-desc">ここが決まると、項目の定義と調べ方が決まります。特に1〜4を優先してください。</p>
+  <div id="questions"></div>
+
+  <h2>第2部　項目ごとの扱い</h2>
+  <p class="group-desc"><span class="badge b-now">現行</span> 今のマスターにある列　<span class="badge b-new">追加候補</span> Claudeの提案　<span class="badge b-site">サイト掲載</span> 商品ページやAIアドバイザーで使っているがマスターにない項目</p>
+  <div id="items"></div>
+
+  <h2>第3部　自由記入</h2>
+  <div class="q" data-id="free">
+    <h3>ほかに必要な項目、今のマスターで困っていること、仕事の流れで気になることがあれば書いてください。</h3>
+    <textarea id="t-free" data-id="free" data-field="memo" rows="5" placeholder="例：業者さんからは「何月に出荷できるか」をよく聞かれる"></textarea>
+  </div>
+
+  <p class="foot">「使う場面」はすべての項目が6つの場面すべてで使われるとのことで、記入欄をなくしました。保存先はこのページ専用の記録です。同じページを開き直すと、記入済みの内容が表示されます。</p>
+</div>
+
+<script>
+const USES=["通販ページ","サイト絞り込み","卸・業者向け","栽培相談","庭の提案","AIアドバイザー"];
+const JUDGE=["残す","提案通り","直して残す","統合する","別シートへ","削除","迷う"];
+
+const QUESTIONS=[
+ {id:"q01",t:"マスター作成で参照してよい「文献」の範囲は？（複数可）",multi:true,o:["書籍・図鑑","植物園・公的機関のDB（RHS、MBGなど）","大学の公開資料（NC State など）","種苗・育種会社のカタログ","ナーサリーの商品ページ"],h:"今のマスターはほぼWeb（MBG 527件、RHS、海外ナーサリー）が情報源です。"},
+ {id:"q02",t:"手元にある、参照したい本の書名を書いてください。",o:[],h:"Claudeは書籍の中身を直接読めません。使う場合はページの写真やPDFをいただく形になります。"},
+ {id:"q03",t:"文献に記載がない項目はどうしますか？",o:["空欄にする","属・種の情報で埋めて、その旨を記録","推定値を入れて「推定」と明記"]},
+ {id:"q04",t:"圃場（生産地）の所在地と、耐寒性「強／中の強／中の中／中の弱／弱」の意味を教えてください。",o:[],h:"調査メモに「十勝基準」とありました。例：強＝北海道内の多くの地域で戸外越冬可。"},
+ {id:"q05",t:"「本州」として書く管理時期の基準地は？",o:["関東平野部","関西平野部","中部・内陸","基準地を決めず幅で書く"]},
+ {id:"q06",t:"在庫・価格はマスターから切り離して別シートにしてよいですか？",o:["はい","いいえ","相談したい"]},
+ {id:"q07",t:"小売単価は「卸単価÷0.6」（端数あり）で計算されています。これは意図どおりですか？",o:["はい、この計算で正しい","いいえ（メモに正しい計算を）","わからない"]},
+ {id:"q08",t:"卸のお客様（業者）向けに必要な情報は？（複数可）",multi:true,o:["ポット規格","出荷できる時期","まとまった在庫数","植え付け適期","特になし"]},
+ {id:"q09",t:"「管理タイプ」「管理手間★」「管理難易度」を1つの体系にまとめてよいですか？",o:["まとめてよい","分けたまま","相談したい"],h:"管理難易度は商品ページとAIアドバイザーで使われていますが、マスターに列がありません。"},
+ {id:"q10",t:"一言キャッチ・おすすめ文・冬の手入れの文章は、どう扱いますか？",o:["マスターの値から自動で作る別出力にする","マスターに入れて手で直す","相談したい"]},
+ {id:"q11",t:"商品ページの本文とサイトのカテゴリ分類が食い違っています（例：アサギリソウの蒸れ耐性が本文は弱、分類は中）。今後は？",o:["マスターからカテゴリも自動で決めたい","カテゴリは手で付けたい","相談したい"]},
+ {id:"q12",t:"今回の対象範囲は？（複数可）",multi:true,o:["現行の916品種","未登録の売れた品種（76件）","樹木","ヴィヒタ"]},
+ {id:"q13",t:"進め方は？",o:["20〜30品種で試作して確認してから全件","最初から全件"]},
+ {id:"q14",t:"できあがったマスターを最初に使う場面は？（複数可）",multi:true,o:["通販サイトの更新","卸カタログ","栽培相談の資料","庭づくり提案","AIアドバイザー"]}
+];
+
+const FOLLOWUPS=[
+ {id:"f01",t:"植物名を「統合する」とされていました。何と統合しますか？",o:["別名（和名・流通名）と","学名と","その他（メモに）"]},
+ {id:"f02",t:"学名は「迷う」でした。学名の全体は今のまま1列で残し、そのほかに属・種・品種名を別の列にも持つ案でよいですか？",o:["その案でよい","学名1列のままでよい","相談したい"],h:"分けておくと「アキレア属をすべて」のような検索や、文献との照合が確実になります。表示は今まで通り1列から作れます。"},
+ {id:"f03",t:"耐寒性は「マスターのまま」とのこと。どちらの意味ですか？",o:["今の値（強〜弱）を再調査せずそのまま引き継ぐ","区分の決め方は今のまま、値は文献のUSDAゾーンから付け直す","相談したい"]},
+ {id:"f04",t:"特徴（専務が作成）の扱いは？",o:["一字も変えずに引き継ぐ","誤字・表記ゆれだけ直す","文献と食い違う箇所は印を付けて知らせてほしい"],multi:true,h:"文献から作る値とは別の「自社の言葉」として、情報源を「大森ガーデン」として持つ案です。"},
+ {id:"f05",t:"文献の範囲はナーサリーの商品ページまで含めるとのことで、今のマスターとほぼ同じ範囲になります。今回の再作成で一番直したいことは？（複数可）",multi:true,o:["値の正確さ","どの文献に基づくかを項目ごとに残す","表記の統一（自由記述をなくす）","項目の重複整理","サイト・AIとの食い違いをなくす"]},
+ {id:"f06",t:"文献同士で値が食い違うときは、どれを優先しますか？",o:["植物園・公的機関（RHS、MBGなど）","品種を作った育種会社","日本の書籍","優先せず幅で併記（例：USDA 3〜4）"]},
+ {id:"f07",t:"ポット規格（ほとんど9cmか10.5cm）は、品種ごとに販売シートで持つ形でよいですか？",o:["はい","規格は入れなくてよい","相談したい"]}
+];
+
+const G=(id,title,desc,items)=>({id,title,desc,items});
+const I=(id,name,kind,note,prop,help)=>({id,name,kind,note,prop,help});
+const GROUPS=[
+ G("g1","識別","品種を特定するための項目。",[
+  I("c003","植物名","now","916件。改行や全角スペース入り、‘’と''が混在。"),
+  I("c004","学名","now","916件。属・種・品種が1つの文字列。","学名全体を残し、属／種／品種も別の列に持つ","追加の確認2をご覧ください。"),
+  I("c005","別名","now","324通り。「アサギリソウ（アルテミシア）」のように和名と属名が混在。","和名と流通名を分ける"),
+  I("c002","商品番号","now","916件すべて一意。"),
+  I("n001","科名","new","今はなし。文献検索や病害虫の判断に使える。"),
+  I("n002","和名（標準和名）","new","今は別名に混在。"),
+  I("n003","品種群・系統","new","例：ヘメロカリスの系統、ゲラニウムの交配親。")
+ ]),
+ G("g2","販売","文献からは得られない自社の情報。マスター本体から分けるかどうか。",[
+  I("c001","通販サイトURL","now","905件。"),
+  I("c006","在庫数","now","282件が0。"),
+  I("c007","卸単価（税抜）","now","57通り。"),
+  I("c008","小売り単価（税抜き）","now","卸単価÷0.6の計算値で端数あり（346.666…）。"),
+  I("n004","ポット規格","new","ほとんどが9cmか10.5cm（ご回答より）。","販売シートに品種ごとに持つ"),
+  I("n005","出荷できる時期","new","今はなし。")
+ ]),
+ G("g3","形態・観賞","花・葉・草姿。文献で最も得やすい情報。",[
+  I("c009","特徴","now","913件の説明文。専務が作成した文章（ご回答より）。","文献から作る値とは分けて、自社の言葉として引き継ぐ"),
+  I("c010","花時期","now","76通りの自由記述（盛夏、春～初夏など）。","開始月・終了月の数値で持ち、表示用の言葉は自動で作る"),
+  I("c011","花色","now","322通りの自由記述。","サイトの7分類＋細かい色名の2本立て"),
+  I("c012","高さ(cm)","now","「75～100」のような文字列。","最小・最大の数値に分ける。花茎込みか葉だけかも決める"),
+  I("c013","広がり(cm)","now","「30～」のような文字列。","最小・最大の数値に分ける"),
+  I("c040","葉色主分類","now","8分類（①グリーン系…⑧季節変化型）。"),
+  I("c041","葉色タグ","now","512件、75通り。常緑・毛ありなど葉色以外も混在。"),
+  I("c057","成株シルエット","now","7分類。商品ページでは「マット型」、マスターでは「ドーム」など不一致あり。"),
+  I("c058","成株シルエット_判定理由","now","790通りの文章。"),
+  I("c059","成株シルエット_参照ソース","now",""),
+  I("c060","成株シルエット_参照URL","now",""),
+  I("n006","香り","new","葉・花の香りの有無。"),
+  I("n007","葉の観賞期・紅葉","new","季節変化型の中身を具体的に。")
+ ]),
+ G("g4","生育環境","どこで育つか。地域ごとの提案の土台。",[
+  I("c014","日照条件","now","4区分（日向／日向～半日陰／半日陰／明るい日陰）。サイトの絞り込みは3区分で対応がずれている。"),
+  I("c015","耐暑性","now","強・中・弱。商品ページ本文とカテゴリ分類が食い違う例あり。","判定の基準（どの地域で何年越せるか）を文章で定義する"),
+  I("c016","蒸れ耐性","now","強・中・弱。耐暑性との違いの定義が必要。"),
+  I("c017","耐暑性に関する注記","now","238通りの文章。"),
+  I("c018","耐暑性・蒸れ耐性の情報源","now","Web資料名。"),
+  I("c019","耐寒性","now","強／中の強／中の中／中の弱／弱／一年草扱い。北海道基準？"),
+  I("c020","USDA耐寒性ゾーン下限","now","文献の数値。耐寒性の区分の元データ。"),
+  I("c021","USDA耐寒性ゾーン上限","now",""),
+  I("c022","理由（寒地不可／凍害／短命）","now","43件のみ、すべて「寒地不可」。","削除し、寒地不可は耐寒性で、短命は「寿命」で表す","中身は耐寒性「中の弱・弱」とほぼ同じ情報です。短命の情報は新しい「寿命」の列に移せます。"),
+  I("c023","土壌水分区分","now","5区分。"),
+  I("c024","乾燥耐性","now","強・中・弱。"),
+  I("c042","耐潮性","now","◎○△×／不明／—。"),
+  I("c043","耐潮性_情報源","now","ナーサリーサイト中心。"),
+  I("c044","耐潮性_根拠","now",""),
+  I("c053","西日耐性","now","◎○△×。文献に直接の記述は少なく、判断値に近い。"),
+  I("n008","RHS耐寒性（H1〜H7）","new","英国の文献で使われる区分。USDAと併記できる。"),
+  I("n009","土壌pH・土質","new","酸性・アルカリ性、粘土・砂質への適応。")
+ ]),
+ G("g5","性質","増え方・寿命など、庭での振る舞い。",[
+  I("c025","常緑性","now","「半常緑」と「半常緑（暖地では常緑、寒冷地では落葉）」が混在。","寒冷地と温暖地で分けて持つ"),
+  I("c027","原産地","now","466通り。"),
+  I("c030","繁殖特性","now","株拡大型／地下茎拡大型／匍匐拡大型／実生更新型。","成長習性・地下茎拡大レベルと統合を検討"),
+  I("c035","成長習性","now","7区分。繁殖特性・成株シルエットと重複。","「増え方」（株立ち・地下茎・ランナー・こぼれ種）と「成株シルエット」（見た目）の2つに整理","商品ページの「増え方」はこの列から作られています。見た目の形は成株シルエットで表せるので、ここは増え方だけに絞る案です。"),
+  I("c032","強健度","now","中が618件で偏り。","削除し、耐暑性・耐寒性・病害虫・寿命から管理難易度を決める","「丈夫さ」は文献に直接の記載がほとんどなく、判断の根拠を示しにくい項目です。初心者向けかどうかは管理難易度で表せます。"),
+  I("c033","競合強度（混植適性）","now","表記ゆれあり（弱い…／弱…）。侵略性と重複。"),
+  I("c034","侵略性","now","強・中・弱。"),
+  I("c049","こぼれ種レベル","now","0〜3。"),
+  I("c050","地下茎拡大レベル","now","0〜3。"),
+  I("c054","倒伏リスク","now","509件が「—」。","「支柱が必要か」として、要・場合により・不要の3区分で持つ","英語の文献には「may need staking（支柱が要ることがある）」と書かれることが多く、根拠を示しやすい項目です。「—」は不要なのか不明なのか区別がつきません。"),
+  I("n010","寿命（長命・短命）","new","今は「理由」列にわずかに含まれるのみ。","長命・普通・短命（2〜3年）の3区分","オダマキやガイラルディアなど、数年で消えやすい品種をお客様に伝えるための項目です。「こぼれ種で更新」と組み合わせて説明できます。"),
+  I("n011","毒性（人・ペット）","new","相談対応で役立つ。")
+ ]),
+ G("g6","管理","手入れ・冬越し・病害虫。",[
+  I("c026","病害虫リスク","now","317通りの自由記述。","主な病害虫を名前で列挙＋リスク度"),
+  I("c031","繁殖方法","now","58通り。"),
+  I("c045","管理タイプ","now","A放任型〜E隔離推奨型の5区分。"),
+  I("c046","刈込基準（生理）","now","72通り。"),
+  I("c047","刈込時期（北海道）","now","114通り。"),
+  I("c048","刈込時期（本州基準）","now","114通り。"),
+  I("c051","管理手間（★）","now","★〜★★★★。"),
+  I("c052","管理タイプ判定理由","now","689通りの文章。"),
+  I("s001","管理難易度","site","商品ページ（易・中・難）とAIアドバイザーで使用。マスターに列がない。","管理タイプ・管理手間★とまとめて1つの体系にする（前回のご回答どおり）"),
+  I("c071","冬の手入れ（北海道）","now","842件の文章。"),
+  I("c072","冬の手入れ（温暖地）","now","842件の文章。"),
+  I("c073","冬_確信度","now",""),
+  I("c074","冬_情報源","now",""),
+  I("c075","冬_マスターとの食い違い","now","147件。"),
+  I("c076","冬_調査メモ","now",""),
+  I("c077","冬_検証","now","62件のみ（OK／修正）。"),
+  I("n012","植え付け適期","new","寒冷地・温暖地別。"),
+  I("n013","株分けの間隔（年）","new","")
+ ]),
+ G("g7","庭づくり","植栽計画や提案に使う項目。",[
+  I("c037","切り花適性","now","◎○△。"),
+  I("c038","用途区分","now","景観構成用途タグと重複。"),
+  I("c061","景観構成用途タグ","now","前景・中景・後景のみ。サイトにはグラウンドカバー・主役・群植向きもある。"),
+  I("s002","主役（単植向き）・群植向き","site","サイトのカテゴリにあるがマスターに列がない。"),
+  I("c062","機能用途タグ","now","108通り（蜜源、切り花、日陰庭向き…）。"),
+  I("c063","デザイン系タグ","now","354件、16通り。"),
+  I("c055","蜜源価値","now","◎○△×／—。"),
+  I("n014","合わせやすい植物","new","植え合わせ相談で使う。文献の記載は少なめ。"),
+  I("s003","環境スクリーニング","site","AIアドバイザーが参照しているがマスターに列がない。")
+ ]),
+ G("g8","説明文","マスターの値から作る文章。",[
+  I("c064","一言キャッチ　自動","now","750通り。"),
+  I("c065","おすすめ_育てる環境","now","33パターンの定型文の組み合わせ。"),
+  I("c066","おすすめ_庭づくり","now","39パターン。"),
+  I("c039","コメント","now","259件。切り花適性の補足など。")
+ ]),
+ G("g9","根拠・作業記録","どの文献に基づくかの記録と、作業用の列。",[
+  I("c028","情報源","now","357通り。品種全体で1つ。","項目ごとに文献番号とページを持つ"),
+  I("c029","信頼度","now","897件が「高」で区別がついていない。"),
+  I("c036","繁殖特性…の検証_情報源","now",""),
+  I("c056","判定信頼度","now",""),
+  I("c067","note_used（4列）","now","noteの記事に使ったかの記録。24件と5件のみ。"),
+  I("n015","文献リスト（別シート）","new","文献番号・書名・著者・版・年。"),
+  I("n016","記載／推定の区別","new","値ごとに「文献に記載」「属から推定」などを記録。")
+ ])
+];
+
+const ALL_IDS=[...FOLLOWUPS.map(q=>q.id),...QUESTIONS.map(q=>q.id),...GROUPS.flatMap(g=>g.items.map(i=>i.id))];
+const state={};           // id -> {choice:[], uses:[], memo:""}
+const pending=new Set();  // ids with unsaved local edits
+const timers={}; const writing={}; const again={};
+let db=null;
+
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function opt(id,field,val,multi,i){
+  const type=multi?"checkbox":"radio";
+  return `<label class="opt"><input type="${type}" id="${id}-${field}-${i}" name="${id}-${field}" data-id="${id}" data-field="${field}" value="${esc(val)}"><span>${esc(val)}</span></label>`;
+}
+
+function renderQuestions(){
+  document.getElementById("followups").innerHTML=qhtml(FOLLOWUPS,"追");
+  document.getElementById("questions").innerHTML=qhtml(QUESTIONS,"");
+}
+function qhtml(list,prefix){
+  return list.map((q,n)=>`
+   <div class="q" data-id="${q.id}">
+    <h3><span class="qn">${prefix}${n+1}.</span>${esc(q.t)}</h3>
+    ${q.h?`<p class="hint">${esc(q.h)}</p>`:""}
+    ${q.o.length?`<div class="opts">${q.o.map((o,i)=>opt(q.id,"choice",o,q.multi,i)).join("")}</div>`:""}
+    <textarea id="t-${q.id}" data-id="${q.id}" data-field="memo" rows="${q.o.length?2:3}" placeholder="${q.o.length?"補足があれば":"ここに記入"}"></textarea>
+   </div>`).join("");
+}
+function renderItems(){
+  const kindBadge={now:'<span class="badge b-now">現行</span>',new:'<span class="badge b-new">追加候補</span>',site:'<span class="badge b-site">サイト掲載</span>'};
+  document.getElementById("items").innerHTML=GROUPS.map(g=>`
+   <div class="group-head"><h2>${esc(g.title)}</h2></div>
+   <p class="group-desc">${esc(g.desc)}</p>
+   ${g.items.map(it=>`
+    <div class="item" data-id="${it.id}">
+      <div class="item-top"><span class="item-name">${esc(it.name)}</span>${kindBadge[it.kind]}</div>
+      ${it.note?`<p class="note">${esc(it.note)}</p>`:""}
+      ${it.prop?`<p class="prop"><b>提案</b>　${esc(it.prop)}</p>`:""}
+      <div class="row-label">扱い</div>
+      <div class="opts">${JUDGE.map((j,i)=>opt(it.id,"choice",j,false,i)).join("")}</div>
+      ${it.help?`<p class="help"><b>判断の目安</b>　${esc(it.help)}</p>`:""}
+      <textarea id="t-${it.id}" data-id="${it.id}" data-field="memo" rows="1" placeholder="メモ（例：統合先、表記の希望、使っていない理由）"></textarea>
+    </div>`).join("")}
+  `).join("");
+}
+
+function get(id){return state[id]||(state[id]={choice:[],uses:[],memo:""})}
+function answered(id){const s=state[id];return !!s&&(s.choice.length>0||(s.memo||"").trim()!=="")}
+
+function paint(id){
+  const s=get(id);
+  document.querySelectorAll(`input[data-id="${id}"]`).forEach(el=>{
+    const arr=s[el.dataset.field]||[]; el.checked=arr.includes(el.value); el.dataset.was=el.checked?"1":"0";
+  });
+  const ta=document.querySelector(`textarea[data-id="${id}"]`);
+  if(ta&&document.activeElement!==ta) ta.value=s.memo||"";
+  const box=document.querySelector(`.q[data-id="${id}"],.item[data-id="${id}"]`);
+  if(box) box.classList.toggle("done",answered(id));
+}
+function progress(){
+  const n=ALL_IDS.filter(answered).length;
+  document.getElementById("progLabel").textContent=`記入済み ${n} / ${ALL_IDS.length}`;
+  document.getElementById("progFill").style.width=(n/ALL_IDS.length*100)+"%";
+}
+function setSave(t,err){const el=document.getElementById("saveState");el.textContent=t;el.classList.toggle("err",!!err)}
+
+function onChange(e){
+  const el=e.target; const id=el.dataset.id; if(!id) return;
+  const s=get(id); const f=el.dataset.field;
+  if(f==="memo"){s.memo=el.value}
+  else if(el.type==="radio"){s[f]=[el.value]}
+  else{const set=new Set(s[f]); el.checked?set.add(el.value):set.delete(el.value); s[f]=[...set]}
+  const box=document.querySelector(`.q[data-id="${id}"],.item[data-id="${id}"]`);
+  if(box) box.classList.toggle("done",answered(id));
+  progress(); schedule(id, f==="memo"?900:200);
+}
+// radio を2回押したら解除できるように
+function onClickRadio(e){
+  const el=e.target; if(el.type!=="radio"||!el.dataset.id) return;
+  const s=get(el.dataset.id);
+  if(el.dataset.was==="1"){el.checked=false;s.choice=[];el.dataset.was="0";
+    document.querySelector(`.q[data-id="${el.dataset.id}"],.item[data-id="${el.dataset.id}"]`)?.classList.toggle("done",answered(el.dataset.id));
+    progress();schedule(el.dataset.id,200);}
+  document.querySelectorAll(`input[name="${el.name}"]`).forEach(r=>r.dataset.was=r.checked?"1":"0");
+}
+
+function schedule(id,ms){
+  pending.add(id); setSave(db?"保存待ち…":"この画面では保存できません（会話でClaudeに直接お伝えください）",!db);
+  clearTimeout(timers[id]); timers[id]=setTimeout(()=>write(id),ms);
+}
+async function write(id){
+  if(!db) return;
+  if(writing[id]){again[id]=true;return}
+  timers[id]=null; writing[id]=true; setSave("保存中…");
+  const s=get(id);
+  try{
+    await db.doc("answers/"+id).set({choice:s.choice,uses:s.uses,memo:s.memo,updatedAt:new Date().toISOString()});
+    setSave("保存しました");
+  }catch(err){
+    if(err&&err.code==="unavailable"){setTimeout(()=>write(id),800+Math.random()*800)}
+    else setSave("保存できませんでした（"+(err&&err.code||"error")+"）。編集権限があるか確認してください",true);
+  }finally{
+    writing[id]=false;
+    if(again[id]){again[id]=false;write(id)} else if(!timers[id]) pending.delete(id);
+  }
+}
+
+function init(){
+  renderQuestions(); renderItems();
+  ALL_IDS.concat("free").forEach(paint); progress();
+  document.addEventListener("change",onChange);
+  document.addEventListener("input",e=>{if(e.target.tagName==="TEXTAREA")onChange(e)});
+  document.addEventListener("click",onClickRadio);
+  const hide=document.getElementById("hideDone");
+  try{hide.checked=localStorage.getItem("hideDone")==="1"}catch(e){}
+  const applyHide=()=>{document.body.classList.toggle("hidden-done",hide.checked);try{localStorage.setItem("hideDone",hide.checked?"1":"0")}catch(e){}};
+  hide.addEventListener("change",applyHide); applyHide();
+
+  const loadTimer=setTimeout(()=>setSave("保存先に接続できていません。記入は続けられますが、保存されない可能性があります",true),10000);
+  Promise.resolve(window.claude?.use?.("db")).then(d=>{
+    if(!d){clearTimeout(loadTimer);setSave("この画面では保存できません（会話でClaudeに直接お伝えください）",true);return}
+    db=d;
+    db.collection("answers").onSnapshot(snap=>{
+      if(!snap.metadata.fromCache){clearTimeout(loadTimer); if(!pending.size) setSave("保存済みの内容を表示しています")}
+      snap.docs.forEach(doc=>{
+        if(pending.has(doc.id)) return;
+        const v=doc.data()||{};
+        state[doc.id]={choice:Array.isArray(v.choice)?v.choice:[],uses:Array.isArray(v.uses)?v.uses:[],memo:typeof v.memo==="string"?v.memo:""};
+        paint(doc.id);
+      });
+      progress();
+    },err=>{clearTimeout(loadTimer);setSave("保存先との接続が切れました（"+err.code+"）",true)});
+  }).catch(()=>{clearTimeout(loadTimer);setSave("この画面では保存できません",true)});
+}
+init();
+</script>

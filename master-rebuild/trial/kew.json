@@ -1,0 +1,303 @@
+{
+ "P01": {
+  "query": "Artemisia schmidtiana 'Nana'",
+  "matched": "Artemisia schmidtiana",
+  "status": "Accepted",
+  "accepted": "Artemisia schmidtiana Maxim.",
+  "family": "Asteraceae",
+  "native": "SE. Russian Far East, Sakhalin to Japan (Hokkaido, Honshu)",
+  "lifeform": "perennial",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P02": {
+  "query": "Aquilegia chrysantha 'Yellow Queen'",
+  "matched": "Aquilegia chrysantha",
+  "status": "Accepted",
+  "accepted": "Aquilegia chrysantha A.Gray",
+  "family": "Ranunculaceae",
+  "native": "Utah to Mexico (Sonora, Chihuahua, Coahuila)",
+  "lifeform": "perennial",
+  "climate": "subtropical",
+  "partial": false
+ },
+ "P03": {
+  "query": "Ajuga reptans 'Burgundy Glow'",
+  "matched": "Ajuga reptans",
+  "status": "Accepted",
+  "accepted": "Ajuga reptans L.",
+  "family": "Lamiaceae",
+  "native": "Europe to N. Iran, NW. Africa",
+  "lifeform": "perennial",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P04": {
+  "query": "Sagina subulata",
+  "matched": "Sagina subulata",
+  "status": "Synonym",
+  "accepted": "Colobanthus subulatus (d'Urv.) Hook.f.",
+  "family": "Caryophyllaceae",
+  "native": "S. Chiloe to W. & S. Argentina, Falkland Is., South Georgia",
+  "lifeform": "perennial or subshrub",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P05": {
+  "query": "Achillea sibirica subsp.camschatica 'Love Parade'",
+  "matched": "Achillea sibirica",
+  "status": "Synonym",
+  "accepted": "Achillea alpina subsp. alpina ",
+  "family": "Asteraceae",
+  "native": "Siberia to Japan and China",
+  "lifeform": "perennial",
+  "climate": "temperate",
+  "partial": true
+ },
+ "P06": {
+  "query": "Agastache mexicana 'Red fortune'",
+  "matched": "Agastache mexicana",
+  "status": "Accepted",
+  "accepted": "Agastache mexicana (Kunth) Lint & Epling",
+  "family": "Lamiaceae",
+  "native": "Mexico",
+  "lifeform": "perennial",
+  "climate": "subtropical",
+  "partial": false
+ },
+ "P07": {
+  "query": "Alchemilla saxatilis",
+  "matched": "Alchemilla saxatilis",
+  "status": "Accepted",
+  "accepted": "Alchemilla saxatilis Buser",
+  "family": "Rosaceae",
+  "native": "Spain to Austria and Italy",
+  "lifeform": "perennial",
+  "climate": "subalpine or subarctic",
+  "partial": false
+ },
+ "P08": {
+  "query": "Calamagrostis × acutiflora 'Karl Foerster'",
+  "matched": "Calamagrostis × acutiflora",
+  "status": "Accepted",
+  "accepted": "Calamagrostis × acutiflora (Schrad.) DC.",
+  "family": "Poaceae",
+  "native": "Europe to Russian Far East",
+  "lifeform": "perennial",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P09": {
+  "query": "Miscanthus sinensis 'Morning Light'",
+  "matched": "Miscanthus sinensis",
+  "status": "Accepted",
+  "accepted": "Miscanthus sinensis Andersson",
+  "family": "Poaceae",
+  "native": "China to Malesia, Russian Far East to Temp. E. Asia",
+  "lifeform": "perennial or rhizomatous geophyte",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P10": {
+  "query": "Hosta'Gold Standard'",
+  "matched": "Hosta",
+  "status": "Accepted",
+  "accepted": "Hosta Tratt.",
+  "family": "Asparagaceae",
+  "native": "Russian Far East to China, Japan",
+  "lifeform": "",
+  "climate": "",
+  "partial": false
+ },
+ "P11": {
+  "query": "Hemerocallis 'Stella de Oro'",
+  "matched": "Hemerocallis",
+  "status": "Accepted",
+  "accepted": "Hemerocallis L.",
+  "family": "Asphodelaceae",
+  "native": "SE. Alps, Siberia to Temp. E. Asia",
+  "lifeform": "",
+  "climate": "",
+  "partial": false
+ },
+ "P12": {
+  "query": "Echinacea purpurea 'Magnus'",
+  "matched": "Echinacea purpurea",
+  "status": "Accepted",
+  "accepted": "Echinacea purpurea (L.) Moench",
+  "family": "Asteraceae",
+  "native": "C. & E. U.S.A.",
+  "lifeform": "perennial",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P13": {
+  "query": "Salvia nemorosa 'Caradonna'",
+  "matched": "Salvia nemorosa",
+  "status": "Accepted",
+  "accepted": "Salvia nemorosa L.",
+  "family": "Lamiaceae",
+  "native": "Europe to W. Siberia and Afghanistan",
+  "lifeform": "perennial",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P14": {
+  "query": "Armeria maritima 'Variegata'",
+  "matched": "Armeria maritima",
+  "status": "Accepted",
+  "accepted": "Armeria maritima (Mill.) Willd.",
+  "family": "Plumbaginaceae",
+  "native": "Subarctic & Temp. Northern Hemisphere",
+  "lifeform": "subshrub",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P15": {
+  "query": "Sedum spurium ‛Dragon's Blood’",
+  "matched": "Sedum spurium",
+  "status": "Synonym",
+  "accepted": "Phedimus spurius (M.Bieb.) 't Hart",
+  "family": "Crassulaceae",
+  "native": "NE. Türkiye to N. Iran",
+  "lifeform": "succulent perennial",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P16": {
+  "query": "Heuchera 'Green Spice'",
+  "matched": "Heuchera",
+  "status": "Accepted",
+  "accepted": "Heuchera L.",
+  "family": "Saxifragaceae",
+  "native": "Russian Far East, N. America",
+  "lifeform": "",
+  "climate": "",
+  "partial": false
+ },
+ "P17": {
+  "query": "Lysimachia nummularia",
+  "matched": "Lysimachia nummularia",
+  "status": "Accepted",
+  "accepted": "Lysimachia nummularia L.",
+  "family": "Primulaceae",
+  "native": "Europe to SW. Siberia and NW. Türkiye",
+  "lifeform": "subshrub",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P18": {
+  "query": "Lupinus × hybrida 'Fraulein'",
+  "matched": null
+ },
+ "P19": {
+  "query": "Patrinia scabiosifolia",
+  "matched": "Patrinia scabiosifolia",
+  "status": "Accepted",
+  "accepted": "Patrinia scabiosifolia Link",
+  "family": "Caprifoliaceae",
+  "native": "SE. Siberia to Russian Far East and Vietnam, Japan to Nansei-shotō",
+  "lifeform": "perennial",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P20": {
+  "query": "Tricyrtis hirta 'Lightning Strike'",
+  "matched": "Tricyrtis hirta",
+  "status": "Accepted",
+  "accepted": "Tricyrtis hirta (Thunb.) Hook.",
+  "family": "Liliaceae",
+  "native": "C. & S. Japan",
+  "lifeform": "perennial",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P21": {
+  "query": "Geranium phaeum 'Mourning Widow'",
+  "matched": "Geranium phaeum",
+  "status": "Accepted",
+  "accepted": "Geranium phaeum L.",
+  "family": "Geraniaceae",
+  "native": "Europe",
+  "lifeform": "perennial",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P22": {
+  "query": "Phlox paniculata 'David'",
+  "matched": "Phlox paniculata",
+  "status": "Accepted",
+  "accepted": "Phlox paniculata L.",
+  "family": "Polemoniaceae",
+  "native": "NC. & E. U.S.A.",
+  "lifeform": "perennial",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P23": {
+  "query": "Anemone sylvestris 'Madonna'",
+  "matched": "Anemone sylvestris",
+  "status": "Accepted",
+  "accepted": "Anemone sylvestris L.",
+  "family": "Ranunculaceae",
+  "native": "Temp. Eurasia",
+  "lifeform": "perennial",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P24": {
+  "query": "Spiraea japonica 'Goldflame'",
+  "matched": "Spiraea japonica",
+  "status": "Accepted",
+  "accepted": "Spiraea japonica L.f.",
+  "family": "Rosaceae",
+  "native": "China to N. Myanmar, C. & S. Japan, Taiwan",
+  "lifeform": "shrub",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P25": {
+  "query": "Hydrangea serrata var. yesoensis",
+  "matched": "Hydrangea serrata var. yesoensis",
+  "status": "Accepted",
+  "accepted": "Hydrangea serrata var. yesoensis (Koidz.) H.Ohba",
+  "family": "Hydrangeaceae",
+  "native": "Japan (Hokkaido, Honshu, Kyushu)",
+  "lifeform": "shrub",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P26": {
+  "query": "Lonicera periclymenum 'Serotina'",
+  "matched": "Lonicera periclymenum",
+  "status": "Accepted",
+  "accepted": "Lonicera periclymenum L.",
+  "family": "Caprifoliaceae",
+  "native": "Europe, Morocco",
+  "lifeform": "climber",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P27": {
+  "query": "Cornus alba 'Sibirica'",
+  "matched": "Cornus alba",
+  "status": "Accepted",
+  "accepted": "Cornus alba L.",
+  "family": "Cornaceae",
+  "native": "E. Europe to N. Korea",
+  "lifeform": "shrub",
+  "climate": "temperate",
+  "partial": false
+ },
+ "P28": {
+  "query": "Prostanthera sp.",
+  "matched": "Prostanthera",
+  "status": "Accepted",
+  "accepted": "Prostanthera Labill.",
+  "family": "Lamiaceae",
+  "native": "Australia",
+  "lifeform": "",
+  "climate": "",
+  "partial": false
+ }
+}

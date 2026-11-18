@@ -1,0 +1,749 @@
+{
+ "id": "P12",
+ "searched_name": "Echinacea purpurea 'Magnus'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "status": "ok",
+   "note": "マスターの冬_情報源。品種ページ"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "status": "ok",
+   "note": "マスターの耐潮性_情報源。種ページ（品種一覧に'Magnus'の短い説明）"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "status": "ok",
+   "note": "品種ページ"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "status": "ok",
+   "note": "Walters Gardens 品種ページ"
+  },
+  {
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "status": "ok",
+   "note": "北米原産種 Echinacea purpurea の種ページ"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Echinacea purpurea 'Magnus'（Accepted）",
+   "quote": "Echinacea purpurea 'Magnus' ... Name Status Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "RHSのシノニム欄に Echinacea purpurea 'Bravado'、Rudbeckia 'Bravado'",
+   "quote": "Synonyms Echinacea purpurea 'Bravado', Rudbeckia 'Bravado'",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "キク科",
+   "quote": "Family Asteraceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "濃い赤みのピンクの舌状花が水平に重なり、中心はオレンジ褐色の球果状。花径10cmまで",
+   "quote": "Daisy-like flowerheads to 10cm wide, with broad, overlapping deep reddish-pink horizontal ray-florets surrounding an orange-brown central cone",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "盛夏〜秋",
+   "quote": "appear from midsummer to autumn",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "約1m（最大0.5〜1m）",
+   "quote": "A vigorous perennial coneflower about 1m tall ... Max Height 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "最大0.1〜0.5m",
+   "quote": "Max Spread 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "細長い卵形の濃い緑の葉",
+   "quote": "narrowly oval, rich green leaves",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "強健、株立ち",
+   "quote": "A vigorous perennial ... Habit Clump forming",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Position Full sun",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H5",
+   "quote": "Hardiness ... H5",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水はけのよい腐植質の土。冬の過湿を避ける",
+   "quote": "Moisture Well–drained ... Grow in well-drained, humus-rich soil ideally in full sun with protection from excessive winter wet.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "白亜・ローム・砂質、酸性〜アルカリ性",
+   "quote": "Soil Types Chalk, Loam, Sand ... Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉性",
+   "quote": "Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "（属）地下茎を持つ株立ち多年草",
+   "quote": "Echinacea are erect, clump-forming rhizomatous perennials",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "晩秋か早春に根挿し。株分けは春か秋に試せるが移植を嫌う",
+   "quote": "Propagate by root cuttings taken in late autumn or early spring. division may be tried in spring or autumn but they resent disturbance",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "春か秋（移植を嫌う）",
+   "quote": "division may be tried in spring or autumn but they resent disturbance",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花がらを切ると返り咲くことがある。種穂を冬の観賞に残してもよい",
+   "quote": "Cutting back stems as the blooms fade may encourage further flowering; or seedheads may be kept on the plant for winter interest",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ほぼ害虫なしだが若芽はナメクジ。病気はほぼなし",
+   "quote": "Generally pest-free but young growth may be susceptible to slugs ... Generally disease-free",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "RHS Plants for Pollinators。（属）蝶を引き寄せる",
+   "quote": "For Bio-Diversity Plants for Pollinators ... attractive to butterflies",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花向きの植栽場所に挙げられる",
+   "quote": "Suggested planting locations and garden types ... Cut flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "salt",
+   "value_ja": "海岸の植栽場所に挙げられる（耐塩の明記なし）",
+   "quote": "Suggested planting locations and garden types ... Coastal",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/97560/echinacea-purpurea-magnus/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "キク科",
+   "quote": "Asteraceae (daisy) family",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "（品種一覧）'Magnus' 巨大な花、花弁が垂れない",
+   "quote": "‘Magnus’ Giant flowers with petals that don't droop.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "（種）米国中部・東部",
+   "quote": "native to the central and eastern United States",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "（種）暑さ・湿気に強い",
+   "quote": "It is also deer, heat, humidity, and salt resistant.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "salt",
+   "value_ja": "（種）耐塩性",
+   "quote": "deer, heat, humidity, and salt resistant ... #salt tolerant",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "drought",
+   "value_ja": "（種）定着後は乾燥に強い",
+   "quote": "It is drought tolerant once established",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "（種）日なた〜半日陰",
+   "quote": "can grow in full sun to partial shade",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（種）水はけよく湿ったロームを好むが様々な土に適応",
+   "quote": "prefers well-drained, moist loam but is adaptable to various soil types",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "（種）3a〜8b",
+   "quote": "USDA Plant Hardiness Zone: 3a, 3b, 4a, 4b, 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "（種）こぼれ種で増える",
+   "quote": "Easily propagated by seed, it will reseed itself in the garden.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "（種）株分け・根挿し・実生",
+   "quote": "Recommended Propagation Strategy: Division Root Cutting Seed",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（種）マメコガネ、斑点病、アスターイエロー",
+   "quote": "Japanese beetles and leaf spot are occasional problems. It is susceptible to aster yellows disease",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "（種）枯れ茎は30〜60cmで切り、茎に営巣する蜂のため立てたまま残す",
+   "quote": "cut back dead stems to 12 to 24 inches and allow them to remain standing until they disintegrate on their own",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "（種）蜂・蝶など、特に蝶",
+   "quote": "Several pollinators are attracted to the flower, especially butterflies ... Attracts: Bees Butterflies Pollinators Songbirds",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "（種）切り花・ドライ向き",
+   "quote": "Flower Value To Gardener: Good Cut Good Dried Showy",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "ローズピンクの花弁が水平に開き、中心は茶色",
+   "quote": "From a central brown cone the rose-pink petals are held flat, rather than drooping like the species.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "夏〜秋（盛夏〜中秋）",
+   "quote": "Coneflowers bloom in summer and fall ... Blooming Time Mid Summer Late Summer Early Fall Mid Fall",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "75〜100cm",
+   "quote": "Height 75-100 cm 29-39 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "45〜60cm",
+   "quote": "Spread 45-60 cm 18-23 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "直立した株",
+   "quote": "forming a showy, upright clump",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "3〜9",
+   "quote": "USDA Zone: 3-9",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なたまたは半日陰",
+   "quote": "Sun Exposure Full Sun or Partial Shade",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通・砂質・粘土、中性・アルカリ・酸性",
+   "quote": "Soil Type Normal or Sandy or Clay Soil pH Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通・乾き気味・湿り気",
+   "quote": "Soil Moisture Average or Dry or Moist",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥に強い",
+   "quote": "Drought Tolerant",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "早春に容易に株分け",
+   "quote": "Plants may be easily divided in early spring.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種の苗ができる（早春に移植可）",
+   "quote": "Self-sown plants can also be moved at that time.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に優れる。種穂はドライに",
+   "quote": "Excellent for cutting ... Seed heads are useful in dried arrangements.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "蝶が好んで訪れる。ハチドリも",
+   "quote": "a favourite feeding station for many butterflies ... Attracts Butterflies Attracts Hummingbirds",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "北米原産の野草の選抜",
+   "quote": "A selection of our most popular native North American wildflower",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/echinacea-purpurea-magnus.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "ローズピンクの舌状花、銅褐色の中心。新しい花ほど濃く、古くなると淡いローズに",
+   "quote": "rose pink ray petals with a coppery brown, spiky central cone ... Newer blooms are more intense in color and lighten to pale rose as they age",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "盛夏〜秋",
+   "quote": "appear from midsummer thru fall ... Bloomtime: Midsummer Late Summer Early Fall",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "36インチ",
+   "quote": "Height: 36.0 Inches",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "18〜24インチ",
+   "quote": "Spread: 18.0-24.0 Inches",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "3〜8",
+   "quote": "Hardiness Zones: 3,4,5,6,7,8",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰。日陰では花が減り株が弱る",
+   "quote": "Coneflowers like it sunny and hot. Though they will tolerate light shade, fewer flowers will be produced and the plants will be weakened.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "（種）暑く風の強い条件に適応",
+   "quote": "well-adapted to survive the hot, windy conditions",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "定着後はかなり乾燥に強い",
+   "quote": "Once established, they are quite drought tolerant.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "軽いローム質が最適、水はけのよい土ならどこでも",
+   "quote": "Light, loamy soils are best but coneflowers will grow in any well-drained soil.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "lifespan",
+   "value_ja": "適切に管理すれば群落を作り長年生きる",
+   "quote": "If properly cared for, they will form attractive colonies and will live for many years.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花がら摘みで花期が延びる。秋は一部の花がらを鳥の餌に残す",
+   "quote": "If deadheaded, the bloom cycle will be extended. However, some spent blooms should be left on the plants in fall",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "蝶・鳴鳥を呼ぶ、蜂に優しい",
+   "quote": "Attracts Butterflies Attracts Songbirds Bee Friendly",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花・ドライ",
+   "quote": "Cut Flower Dried Flower",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "北米原産",
+   "quote": "Origin: Native to North America",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=ECHMA",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "（種）Echinacea purpurea (L.) Moench",
+   "quote": "Echinacea purpurea (L.) Moench",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "（種）Brauneria purpurea、Rudbeckia purpurea 等",
+   "quote": "Synonym(s): Brauneria purpurea, Echinacea purpurea var. arkansana, Rudbeckia purpurea",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "キク科",
+   "quote": "Asteraceae (Aster Family)",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "（種）ジョージア〜テキサス北東端、北はノースカロライナ・オハイオ・イリノイ・アイオワ",
+   "quote": "Native Distribution: GA to extreme n.e. TX, n. to NC, OH, IL & IA",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "（種）4〜9月",
+   "quote": "Bloom Time: Apr , May , Jun , Jul , Aug , Sep",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "（種）水はけのよい石灰岩・砂・粘土・ローム。CaCO3耐性は低",
+   "quote": "Native Habitat: Well-drained limestone, sand, clay, loam ... CaCO3 Tolerance: Low",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（種）乾燥、水はけのよい土",
+   "quote": "Soil Moisture: Dry ... Soil Description: Well-drained, sandy or richer soils.",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "（種）日なた・半日陰",
+   "quote": "Light Requirement: Sun , Part Shade",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "（種）非常に攻撃的になりうる",
+   "quote": "Purple coneflower can become very aggressive.",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "（種）早春に根を分けられるが、茎ばかり増えて花が減りやすい",
+   "quote": "Plants can be multiplied by making root divisions in early spring however division seems to stimulate the development of too many stems and too few flowers.",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "（種）晩秋に屋外まき、または2か月の低温湿層処理後に春まき",
+   "quote": "Seeds may be sown outside in late fall or stored, stratified and sown in the spring ... Cold-moist stratification for two months improves germination.",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "（種）蝶・ハチドリ、蜜源、在来ハナバチに特に価値",
+   "quote": "Attracts: Butterflies , Hummingbirds Nectar Source: yes ... Special Value to Native Bees",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ECPU",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "seasonal_foliage",
+  "fragrance",
+  "staking",
+  "toxicity"
+ ],
+ "notes": "RHSの品種ページで 'Magnus' のシノニム欄に 'Bravado' が載っている（別品種として流通しているため要確認。文献の記載どおり記録）。耐潮性はNCSUの種ページ（salt resistant）のみで品種レベルの記述なし。耐寒ゾーンは perennials.com 3-9、Walters 3-8、NCSU(種) 3a-8b で差。RHS H5。Lady Bird Johnson は種ページのみで『非常に攻撃的になりうる』『CaCO3耐性 低』など。高温多湿は NCSU(種)で heat, humidity resistant。マスターの耐暑性情報源 Plant Delights、冬_情報源の hardy-plant.org.uk・promessedefleurs は範囲外のため読んでいない。"
+}

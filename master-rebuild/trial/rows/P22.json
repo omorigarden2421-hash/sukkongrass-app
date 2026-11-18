@@ -1,0 +1,361 @@
+{
+ "id": "P22",
+ "fields": {
+  "accepted_name": {
+   "value": "Phlox paniculata 'David'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS で Accepted"
+  },
+  "synonyms": {
+   "value": null,
+   "note": "文献に記載なし"
+  },
+  "flower_color_detail": {
+   "value": "白",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "perennials.com は『澄んだ白』"
+  },
+  "flower_color_class": {
+   "value": [
+    "白"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08",
+    "s10",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "spread_min": {
+   "value": 60,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "60-75 cm"
+  },
+  "spread_max": {
+   "value": 75,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "60-75 cm"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "dark green"
+  },
+  "foliage_features": {
+   "value": [
+    "細い線形〜披針形の葉"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "RHS: narrow linear／NCSU: 長さ3〜5インチの披針形"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "note": "文献に記載なし"
+  },
+  "fragrance": {
+   "value": "花",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "fragrant white flowers"
+  },
+  "silhouette": {
+   "value": "直立",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "RHS: bushy, upright／CBG: Upright／NCSU: Clumping Erect Mounding。成株の形は直立に最も近いと判断"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS: Full sun, Partial shade"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 8,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "耐暑性の明記なし。USDA上限から（8→中）"
+  },
+  "heat_note": {
+   "value": "耐暑性の直接の記述はない。高温乾燥時にハダニ・カスミカメが問題になりやすい。",
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "NCSU: Phlox need watering during dry spells（乾燥期には水やりが必要）"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Moist but well-drained"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、白亜質・粘土・ローム",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": null,
+   "note": "文献に記載なし"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS: Foliage Deciduous（冬は地上部が枯れる）"
+  },
+  "native_range": {
+   "value": "北アメリカ東部（P. paniculata の実生選抜。種はニューヨーク州中部〜ミズーリ・カンザス、南はノースカロライナ・テネシー・ルイジアナ）",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s09"
+   ],
+   "level": "species",
+   "note": "NCSU は『North America (hybrid)』、品種はブランディワイン・コンサーバンシーで P. paniculata の実生から選抜"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち（広がらない）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s10",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "clump／Clumping のみで広がる記述なし"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": null,
+   "note": "clump の記述のみで『広がらない』の明記はないため null"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s10",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "clump-forming、侵略・旺盛な広がりの記述なし"
+  },
+  "invasive_note": {
+   "value": "種 P. paniculata は自生域外で栽培からの逸出とみられる個体がある。",
+   "method": "記載",
+   "sources": [
+    "s09"
+   ],
+   "level": "species"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": [
+    "べと病",
+    "斑点病",
+    "うどんこ病",
+    "ハダニ",
+    "カスミカメ（フロックスバグ）",
+    "茎線虫",
+    "根腐れ・株腐れ"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s08",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "RHS は害虫は通常なし。'David' はうどんこ病に強い（CBG・perennials.com）が NCSU は病害にうどんこ病を挙げる。シカ・ウサギの食害は NCSU のみ（CBG はシカに強い）"
+  },
+  "pruning": {
+   "value": "花がらを摘んで花期を延ばす（二番花も咲く）。晩秋に地際まで刈り込む。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後",
+    "秋"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "pruning_codes に 花後"
+  },
+  "division_interval": {
+   "value": "間隔の記載なし。秋または春（早春）に株分け",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "挿し木",
+    "実生"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06",
+    "s09"
+   ],
+   "level": "cultivar",
+   "note": "挿し木は春の根元挿し・茎挿し・根挿し（s01/s06）。実生は種レベル（s09）"
+  },
+  "cut_flower": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s10",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "superb for cutting／Good Cut"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Plants for Pollinators"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "spread",
+   "detail": "RHS 0.5-1m／perennials.com 60-75cm／NCSU 2-3ft。品種レベルの具体値の perennials.com（s10）を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "CBG 4-8／perennials.com 3-9／NCSU 3a-8b。耐寒優先順位で CBG（s08）を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "CBG は Full Sun のみ。RHS の Full sun, Partial shade を採用"
+  },
+  {
+   "field": "pests",
+   "detail": "CBG・perennials.com は『うどんこ病に強い』、NCSU はうどんこ病を病害に挙げる"
+  }
+ ],
+ "name_review": null,
+ "notes": "学名は RHS で Accepted、マスターと一致。2002年 Perennial Plant of the Year。支柱は perennials.com『May need staking』と NCSU『seldom need staking』で食い違い（マスター項目外）。"
+}

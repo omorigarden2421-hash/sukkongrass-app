@@ -1,0 +1,697 @@
+{
+ "id": "P09",
+ "searched_name": "Miscanthus sinensis 'Morning Light'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "status": "ok",
+   "note": "マスターの冬_情報源。品種ページ、AGMアイコンあり"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "status": "ok",
+   "note": "マスターの耐潮性_情報源。品種ページ"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "status": "ok",
+   "note": "品種ページ"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "status": "ok",
+   "note": "Walters Gardens 品種ページ"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Miscanthus sinensis 'Morning Light' (v)（Accepted）",
+   "quote": "Miscanthus sinensis 'Morning Light' (v) ... Name Status Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "シノニム Miscanthus sinensis 'Gracillimus Variegatus'",
+   "quote": "Synonyms Miscanthus sinensis 'Gracillimus Variegatus'",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "イネ科",
+   "quote": "Family Poaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "ピンクがかった花穂（秋）",
+   "quote": "pink-tinged panicles of flowers in autumn",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "秋",
+   "quote": "pink-tinged panicles of flowers in autumn",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "最大1〜1.5m",
+   "quote": "Max Height 1-1.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "最大0.5〜1m",
+   "quote": "Max Spread 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "細い葉の縁に細く白い縁取り",
+   "quote": "narrow leaves finely edged with white",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "コンパクトな落葉性多年草／房状",
+   "quote": "A compact deciduous perennial ... Habit Tufted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Position Full sun",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H6",
+   "quote": "Hardiness ... H6",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけよい、または水はけよい。冬の過湿を避ける",
+   "quote": "Moisture Moist but well–drained or Well–drained ... Protect from excessive winter wet",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "白亜・粘土・ローム・砂質、酸性〜アルカリ性",
+   "quote": "Soil Types Chalk, Clay, Loam, Sand ... Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉性",
+   "quote": "Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "春に実生（冷床で鉢まき）または株分け。定着が遅いことがある",
+   "quote": "Propagate by seed sown in pots in a cold frame in spring or by division in spring. Can be slow to establish",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "春に株分け",
+   "quote": "division in spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "春に枯れ葉と古い花茎を取り除く",
+   "quote": "Remove dead foliage and old flowered stems in spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "病害虫ほぼなし",
+   "quote": "Pests Generally pest-free ... Diseases Generally disease-free",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花向きの植栽場所に挙げられている",
+   "quote": "Suggested planting locations and garden types ... Cut flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "英国・アイルランド原産ではない",
+   "quote": "Native to GB/Ireland No",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/54584/miscanthus-sinensis-morning-light-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "イネ科",
+   "quote": "Family: Poaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "赤みがかった銅色の小花→種が熟すとふわふわのクリーム〜銀白色",
+   "quote": "tiny reddish-copper blooms on terminal panicles ... the blooms become fluffy cream or silvery white",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "9月中旬〜下旬",
+   "quote": "In mid to late September, it produces tiny reddish-copper blooms",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "3〜6フィート",
+   "quote": "Height: 3 ft. 0 in. - 6 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "2.5〜3フィート",
+   "quote": "Width: 2 ft. 6 in. - 3 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "細い緑の葉の両縁に白い帯、銀色に見える",
+   "quote": "very narrow green leaves with white bands along each margin ... gives them a silvery appearance",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "秋に麦わら色〜金色になり冬も残る",
+   "quote": "In the fall, the leaves become straw-colored to gold and persist through the winter months.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "気候により落葉または常緑",
+   "quote": "may be deciduous or evergreen depending on the climate",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "密な株で広がる、直立〜丸く茂る",
+   "quote": "It has a spreading habit of dense clumps and erect stems with arching linear leaves ... Habit/Form: Erect Mounding Rounded",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "This plant prefers full sun",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "5a〜9b",
+   "quote": "USDA Plant Hardiness Zone: 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b, 9a, 9b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "暑さに強い。耐湿（humidity）タグあり",
+   "quote": "is tolerant of heat ... Resistance To Challenges: ... Heat Humidity",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "drought",
+   "value_ja": "定着後は乾燥に強い",
+   "quote": "drought tolerant once established",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水はけのよい土に適応。冬の過湿から守る",
+   "quote": "adapts to most well-drained soils. It needs to be protected from excessive wetness during the winter months.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・ローム・砂、酸性〜アルカリ性",
+   "quote": "Soil Texture: Clay Loam (Silt) Sand Soil pH: Acid (<6.0) Alkaline (>8.0) Neutral (6.0-8.0)",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "種は中国原産",
+   "quote": "The species is native to China",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "地下茎の伸びは遅く株の形を保つ",
+   "quote": "The 'Morning Light' rhizomes grow slowly, maintaining a clump shape",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "種は米国南東部で侵略的。本品種は稔性種子を作らず侵略性はかなり低い",
+   "quote": "the species form has become invasive in the southeastern United States. The cultivar, 'Morning Light,' does not produce viable seeds; therefore, its potential for invasiveness is significantly less.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "通常は病害虫なし。コナカイガラムシ、葉枯れ、さび病の可能性",
+   "quote": "usually insect and disease free. Potential insect pests may include, mealybugs ... diseases include blight and leaf rust.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "株元保護のため晩冬〜早春まで刈らない",
+   "quote": "foliage and stems should not be cut back until late winter or early spring",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "移植は春が適期。数年経つと株分けは難しくなることがある",
+   "quote": "transplanting is also best done in the spring. Division of the plant may be difficult after several years of growth.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花・ドライ向き",
+   "quote": "Flower Value To Gardener: Good Cut Good Dried",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/miscanthus-sinensis-morning-light/",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "銅がかったピンクの穂（冷涼な夏の地域では咲かないことも）",
+   "quote": "Coppery-pink plumes appear in late fall, although sometimes not at all in cool summer regions.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "晩秋（中秋〜晩秋）",
+   "quote": "Blooming Time Mid Fall Late Fall",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "120〜180cm",
+   "quote": "Height 120-180 cm 47-70 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "80〜90cm",
+   "quote": "Spread 80-90 cm 31-35 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "細い緑の葉、各葉の縁にクリーム白",
+   "quote": "narrow green foliage, each leaf neatly edged in creamy-white",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "冬は葉が乾いて明るい黄褐色に",
+   "quote": "The foliage dries and turns a light tan shade for the winter.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "優雅な直立の株、しっかりコンパクト",
+   "quote": "forms a graceful, upright mound ... Clumps have a sturdy, compact habit",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なたまたは半日陰",
+   "quote": "Sun Exposure Full Sun or Partial Shade",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "5〜9",
+   "quote": "USDA Zone: 5-9",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通・砂質・粘土、中性・アルカリ・酸性",
+   "quote": "Soil Type Normal or Sandy or Clay Soil pH Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通または湿り気",
+   "quote": "Soil Moisture Average or Moist",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "晩冬〜早春に10cm（4インチ）まで切り戻す",
+   "quote": "Cut back to 4 inches in late winter or early spring.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "春、新芽前に株分け可",
+   "quote": "Clumps may be divided in spring before new growth appears.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "日本由来（1976年北米導入）",
+   "quote": "Of Japanese origin, introduced to North America in 1976",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花・ドライフラワー",
+   "quote": "Cut Flower ... Dried Flower",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "蝶を呼ぶ",
+   "quote": "Attracts Butterflies",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/miscanthus-sinensis-morning-light.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "赤みがかったブロンズの穂→熟すとクリーム色",
+   "quote": "spectacular reddish bronze plumes that appear in late fall. As the seeds mature, they become cream colored and fluffy",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "中秋",
+   "quote": "Bloomtime: Mid Fall",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "4〜5フィート",
+   "quote": "Height: 4.0-5.0 Feet",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "3フィート",
+   "quote": "Spread: 3.0 Feet",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "5〜9",
+   "quote": "Hardiness Zones: 5,6,7,8,9",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "開花には長く暑い生育期が必要",
+   "quote": "This grass requires a very long, hot growing season to be able to produce flowers.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "細い緑の葉に非常に細い白縁、遠目に銀色",
+   "quote": "Fine leaf blades are green with clean, very thin, white margins that give the plant a silvery cast",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "丸い株姿で倒れない",
+   "quote": "It is prized for its rounded habit that never flops.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "staking",
+   "value_ja": "倒れない",
+   "quote": "rounded habit that never flops",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた。暖地では午後の日陰がよい",
+   "quote": "Grow this grass in full sun except in warmer regions where some afternoon shade is best.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "砂から重い粘土までほぼどんな土でも、排水性は必須でない",
+   "quote": "It will grow in most any soil, from loose sand to heavy clay, and does not require good drainage.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "salt",
+   "value_ja": "耐塩性あり",
+   "quote": "Other Features: ... Salt Tolerant",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "春〜初夏に株分け。秋の株分けは最も温暖な地域のみ",
+   "quote": "Divide Miscanthus in spring or early summer ... Only in the mildest of climates should it be divided in the fall.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "冬は黄褐色の葉",
+   "quote": "the tan winter foliage",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "北米原産ではない",
+   "quote": "Origin: Not Native to North America",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
+   "level": "cultivar",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "fragrance",
+  "lifespan",
+  "toxicity"
+ ],
+ "notes": "学名は Miscanthus sinensis 'Morning Light' で各文献一致（RHSは斑入り表記(v)）。RHSは 'Gracillimus Variegatus' をシノニムとする。開花は文献により『冷涼な夏の地域では咲かないことも』(perennials.com)、『開花には長く暑い生育期が必要』(Walters)とあり、日本の地域で開花に差が出る可能性。マスターの耐潮性の出典 NCSU 品種ページには耐塩の記述はなく『Coastal』の植栽場所のみ。耐塩の明記はWalters（Salt Tolerant）のみ。NCSUの侵略性記述は種について（本品種は稔性種子なし）。成株シルエット_参照URLは文献名のみ。マスター冬_情報源の RHS advice ページ(pid=434)はPlant Finderでないため読んでいない。"
+}

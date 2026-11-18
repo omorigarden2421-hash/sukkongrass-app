@@ -1,0 +1,334 @@
+{
+ "id": "P26",
+ "fields": {
+  "accepted_name": {
+   "value": "Lonicera periclymenum 'Serotina'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS で Accepted"
+  },
+  "synonyms": {
+   "value": [
+    "Lonicera periclymenum 'Late Red'",
+    "Lonicera periclymenum 'Florida'",
+    "Lonicera periclymenum 'Serotina Florida'",
+    "Lonicera reflexa hort."
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS 原文の 'Late Red' は Lonicera pereiclymenum と誤綴り"
+  },
+  "flower_color_detail": {
+   "value": "外側が濃い赤紫、内側が黄色",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_class": {
+   "value": [
+    "赤",
+    "黄"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "deep red-purple は赤寄りと判断（青・紫とも取れる）。内側の黄色も入れた"
+  },
+  "spread_min": {
+   "value": 100,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Max Spread 1-1.5m"
+  },
+  "spread_max": {
+   "value": 150,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Max Spread 1-1.5m"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "dark green"
+  },
+  "foliage_features": {
+   "value": [
+    "楕円形の葉",
+    "葉裏が白っぽい"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "fragrance": {
+   "value": "花",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Fragrance Flower。NCSU（種）は夜により強く香る"
+  },
+  "silhouette": {
+   "value": "つる",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "vigorous, twining, large, deciduous climber"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Full sun, Partial shade（半日陰が最適、日向にも耐える）"
+  },
+  "usda_min": {
+   "value": 5,
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "suitable for cooler regions（冷涼な地域向き）の明記。USDA上限は9b"
+  },
+  "heat_note": {
+   "value": "冷涼な地域向き。根元は日陰に、つるは日の当たる方へ伸ばすのを好む。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "Once established, it is fairly drought-tolerant"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Moist but well-drained、肥沃な土"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、白亜質・粘土・ローム・砂質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Coastal のみ"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "native_range": {
+   "value": "ヨーロッパ（北はスカンジナビアまで、南はギリシャ）・北アフリカ（モロッコ）",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "Kew"
+   ],
+   "level": "species",
+   "note": "Kew: Europe, Morocco"
+  },
+  "spread_modes": {
+   "value": null,
+   "note": "記述なし（つる性。NCSU は地被にも仕立てられるとのみ）"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "mixing": {
+   "value": null,
+   "note": "広がり方の記述なし（vigorous は生育の旺盛さで広がりの記述ではない）ため null"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": "果実は観賞用で食べないこと（人・ペットとも）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "pests": {
+   "value": [
+    "アブラムシ（スイカズラアブラムシ）",
+    "アザミウマ",
+    "オンシツコナジラミ",
+    "うどんこ病",
+    "斑点病",
+    "銀葉病",
+    "ナラタケ病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "pruning": {
+   "value": "剪定グループ11。花後に剪定する（旧枝に咲く点に留意）。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "pruning_codes に 花後"
+  },
+  "division_interval": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "propagation": {
+   "value": [
+    "挿し木",
+    "実生",
+    "その他（取り木）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "取り木・休眠枝挿し・半熟枝挿し（s01）、種子は種レベル（s06）"
+  },
+  "cut_flower": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Plants for Pollinators"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "flower_color",
+   "detail": "RHS: 外側が濃い赤紫・内側黄色／NCSU 品種一覧: 明るいピンク、筒部は白っぽい黄色。RHS を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "RHS 1-1.5m／NCSU 3-6ft（種）。RHS を採用"
+  },
+  {
+   "field": "pests",
+   "detail": "NCSU（種）は深刻な病害虫なし。RHS の病害虫リストを採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "学名は RHS で Accepted、マスターと一致。つる性の落葉樹。USDA・暑さ・乾燥は種 L. periclymenum（NCSU）レベル。マスター出典の耐潮性ブログは対象外で未使用、耐塩は RHS Coastal のみ。マスターの花色『赤（花喉は白）』は RHS（内側黄色）と食い違う。"
+}

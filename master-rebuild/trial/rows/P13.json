@@ -1,0 +1,342 @@
+{
+ "id": "P13",
+ "fields": {
+  "accepted_name": {
+   "value": "Salvia nemorosa 'Caradonna'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "synonyms": {
+   "value": [
+    "Salvia × sylvestris 'Caradonna'",
+    "Salvia 'Caradonna'"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_detail": {
+   "value": "バイオレットパープル（花茎は紫黒）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_class": {
+   "value": [
+    "青・紫"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "spread_min": {
+   "value": 45,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "perennials.com 45〜60cm"
+  },
+  "spread_max": {
+   "value": 60,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "perennials.com 45〜60cm"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10",
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "灰緑（grey-green）。シルバー系とするほどの記述はない"
+  },
+  "foliage_features": {
+   "value": [
+    "香りのある葉（揉むと香る）"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "fragrance": {
+   "value": "葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Fragrance Foliage。Walters は花と葉のタグ"
+  },
+  "silhouette": {
+   "value": "直立",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Columnar upright／rigidly upright。シカゴ植物園は Mounded"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "日なたが最適、軽い半日陰に耐える"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 8,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "tolerates heat and humidity"
+  },
+  "heat_note": {
+   "value": "暑さと湿気にも耐える。",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Drought-tolerant once established"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "moist but well-drained"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、白亜質・ローム・砂質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "perennials.com は粘土も可"
+  },
+  "salt": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters Salt Tolerant。RHS は Coastal のみ"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "native_range": {
+   "value": "ヨーロッパ〜西シベリア・アフガニスタン（種）",
+   "method": "記載",
+   "sources": [
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": null,
+   "note": "増え方の記述なし"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "mixing": {
+   "value": null,
+   "note": "株立ちの記述も強勢の記述もなく判断できない"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": [
+    "ナメクジ",
+    "カタツムリ",
+    "ヨコバイ",
+    "ナラタケ病（まれ）",
+    "うどんこ病",
+    "バーティシリウム萎凋病",
+    "株元・根腐れ"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "シカゴ植物園は害虫に強いとする"
+  },
+  "pruning": {
+   "value": "咲き終わった花穂を切ると花期が延び返り咲く。花後や徒長したときは新しい葉まで強く切り戻すと葉が若返り、秋に返り咲くことがある。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "management_type": {
+   "value": "B",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "花後の切り戻しで返り咲き"
+  },
+  "division_interval": {
+   "value": "春（RHS）。早春または秋（perennials.com）。間隔の記載なし",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "実生",
+    "株分け",
+    "挿し木"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS 品種ページの記載どおり（春に実生・株分け、夏に半熟枝挿し）"
+  },
+  "cut_flower": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Excellent for cutting"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Plants for Pollinators"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "usda",
+   "detail": "シカゴ植物園 4〜8／perennials.com 3〜9／Walters 3〜8。優先順位でシカゴ植物園を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "perennials.com 45〜60cm／Walters 15in(38cm)／RHS 0.1〜0.5m。perennials.com を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS 日なた〜軽い半日陰／シカゴ・perennials.com・Walters 日なた。RHS を採用"
+  },
+  {
+   "field": "silhouette",
+   "detail": "RHS Columnar upright・Walters rigidly upright／シカゴ植物園 Mounded。直立を採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "増え方・混植性の記述がなく関連項目は null。暑さは perennials.com の『暑さと湿気に耐える』のみで強とした。"
+}

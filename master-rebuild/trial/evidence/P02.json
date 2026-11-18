@@ -1,0 +1,727 @@
+{
+ "id": "P02",
+ "searched_name": "Aquilegia chrysantha 'Yellow Queen'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "status": "ok",
+   "note": "品種ページ"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "status": "ok",
+   "note": "マスター出典。Walters現行ラインナップ外の参考掲載"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine",
+   "status": "ok",
+   "note": "マスター出典。種ページ（品種名は一覧のみ）"
+  },
+  {
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "status": "ok",
+   "note": "種ページ（北米原産種）"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Aquilegia chrysantha 'Yellow Queen'（Name Status: Accepted）",
+   "quote": "Aquilegia chrysantha 'Yellow Queen' ... Name Status Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "キンポウゲ科",
+   "quote": "Family Ranunculaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "キンポウゲ科",
+   "quote": "Family: Ranunculaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "中心の花弁は濃い黄、外側は淡い色",
+   "quote": "the central petals being dark yellow, the outer flower parts contrastingly lighter",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "レモンイエロー",
+   "quote": "large lemon-yellow spurred flowers",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "クリームイエロー・黄",
+   "quote": "Flower Colour Creamy Yellow Yellow",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "金色／黄（種）",
+   "quote": "Flower Color: Gold/Yellow",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "澄んだ黄（種）",
+   "quote": "handsome, clear yellow flowers",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "5月〜6月",
+   "quote": "In May and June it bears exaggeratedly spurred flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "初夏〜盛夏に数週間にわたり咲く",
+   "quote": "These appear in succession over many weeks in early to mid summer.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "晩春・初夏・盛夏",
+   "quote": "Blooming Time Early Summer Mid Summer Late Spring",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "4月〜9月（種）",
+   "quote": "Blooms April-Sept.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "4〜9月、最盛期は晩春〜晩夏で変動（種）",
+   "quote": "Bloom Time: Apr , May , Jun , Jul , Aug , Sep ; Peak bloom time varies from late spring to late summer",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "1-1.5m",
+   "quote": "Max Height 1-1.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "75-80cm",
+   "quote": "Height 75-80 cm 29-31 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "2-3フィート（種）",
+   "quote": "Height: 2 ft. 0 in. - 3 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "1-3フィート／約3フィートまで（種）",
+   "quote": "one to three feet tall; Up to about 3 feet tall.",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "0.1-0.5m",
+   "quote": "Max Spread 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "30-45cm",
+   "quote": "Spread 30-45 cm 12-18 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "2-3フィート（種）",
+   "quote": "Width: 2 ft. 0 in. - 3 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "中緑色、分裂したシダ状の葉",
+   "quote": "Foliage is mid green, divided and fern-like",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "青緑色でレース状",
+   "quote": "Foliage is blue-green and lacy.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "灰緑色",
+   "quote": "Foliage Color Grey Green",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "半常緑のシダ状の緑葉、3小葉（種）",
+   "quote": "The semi-evergreen fern-like green leaves have three leaflets with three lobes.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "粉白を帯びた緑（種）",
+   "quote": "Leaf: Glaucous green",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "花にかすかな香り（種）",
+   "quote": "they have a slight fragrance",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "旺盛な株立ち性の種の品種",
+   "quote": "A cultivar of the vigorous, clump-forming species.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "こんもり（ブッシュ状）",
+   "quote": "Habit Bushy",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "株立ち（種）",
+   "quote": "Habit/Form: Clumping",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "茎と根生葉がブッシュ状の多年草（種）",
+   "quote": "Several stems and basal leaves form a bushy perennial columbine",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた・半日陰",
+   "quote": "Position Full sun, Partial shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰",
+   "quote": "Sun Exposure Full Sun or Partial Shade",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰（種）",
+   "quote": "It grows in full sun to part shade.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰・日陰。強い日差しに耐えない（種）",
+   "quote": "Light Requirement: Part Shade , Shade; can't take excessive sun",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "2-9",
+   "quote": "USDA Zone: 2-9",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "4a-9b（種）",
+   "quote": "USDA Plant Hardiness Zone: 4a, 4b, 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b, 9a, 9b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H5",
+   "quote": "H5",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "米南東部の高温多湿な夏にはあまり耐えない（種）",
+   "quote": "This plant will not be very tolerant of the hot humid summer areas of the southeast.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "耐性項目に「暑さ」が挙がる（種）",
+   "quote": "Resistance To Challenges: Deer Heat Rabbits",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "夏の暑い時期に日が強すぎると葉を落とす（種）",
+   "quote": "Plants may show stress and lose leaves when planted in too much sun in hot summer conditions.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "耐暑性あり（種）",
+   "quote": "Heat Tolerant: yes",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "非常に高温乾燥でハダニ・アブラムシがつきやすい（種）",
+   "quote": "become susceptible to spider mites and aphids in very hot, arid conditions",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥に強い",
+   "quote": "Drought Tolerant",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "drought",
+   "value_ja": "干ばつ時に休眠することがある（種）",
+   "quote": "May go dormant during drought",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい土",
+   "quote": "Moisture Moist but well–drained",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通〜湿り気",
+   "quote": "Soil Moisture Average or Moist",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "排水のよい土。排水の悪い土で株腐れ（種）",
+   "quote": "Soil Drainage: Good Drainage; Crown-rot can occur in poorly drained soils.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿った土；排水不良で株腐れ（種）",
+   "quote": "Soil Moisture: Moist; Poor drainage causes crown rot.",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・ローム・砂質；酸性・アルカリ性・中性",
+   "quote": "Clay, Loam, Sand; pH Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通土・砂質・粘土；中性・アルカリ性・酸性",
+   "quote": "Soil Type Normal or Sandy or Clay; Soil pH Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "ローム；中性(6.0-8.0)；粘土なら砂を加える（種）",
+   "quote": "Soil Texture: Loam (Silt); Soil pH: Neutral (6.0-8.0); If planting in clay soils, add sand",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "砂質・礫質・ローム・石灰岩・火成岩の土（種）",
+   "quote": "Moist, well-drained sandy, rocky, loamy, limestone or igneous soils",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉",
+   "quote": "Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "半常緑（種）",
+   "quote": "The semi-evergreen fern-like green leaves",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "半常緑（種）",
+   "quote": "Leaf Retention: Semi-evergreen",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ユタ・アリゾナ〜メキシコ、コロラドに小集団（種）",
+   "quote": "Utah and Arizona to Mexico with a small population in Colorado",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "チワワ・ソノラ砂漠の峡谷の湧水地（テキサス西部〜アリゾナ、メキシコ北部）（種）",
+   "quote": "Chihuahuan and Sonoran Desert canyon seeps from west Texas, southern New Mexico, southern Utah, and Arizona south into Sonora, Coahuila, and Nuevo Leon.",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種で増やすとよい",
+   "quote": "allow some of the plants to go to seed and self sow",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "他のオダマキと交雑する（種）",
+   "quote": "will hybridize with other Columbines if grown too close together",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "lifespan",
+   "value_ja": "短命",
+   "quote": "Columbines are relatively short lived",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "有毒",
+   "quote": "Poisonous/Toxic",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "アブラムシ；うどんこ病・オダマキべと病",
+   "quote": "May be susceptible to aphids; Powdery mildews and aquilegia downy mildew",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ハモグリバエ・ハバチで葉が傷む；シカ・ウサギに強い",
+   "quote": "Leaf miners or sawfly may disfigure the leaves; Deer Resistant; Rabbit Resistant",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "高温乾燥でハダニ・アブラムシ；シカ・ウサギに強い（種）",
+   "quote": "Spider mites and aphids may appear in hot and dry conditions.; It is resistant to damage from deer or rabbits.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花後に切り戻す",
+   "quote": "Cut back after flowering",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "傷んだ葉を刈ると新しい葉が出る",
+   "quote": "Simply trim off the ugly foliage and the plants will grow fresh leaves.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "葉が衰えたら地際で刈る（夏半ば）；花茎を切ると再開花を促す（種）",
+   "quote": "Foliage usually declines by mid-summer at which point it should be cut to the ground.; Cutting the flower stalks may encourage further blooming.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "春・晩夏・初秋に播種",
+   "quote": "Propagate by seed sown in spring, late summer or early autumn",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け・種子（種）",
+   "quote": "Recommended Propagation Strategy: Division Seed",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け・種子（種）",
+   "quote": "Propagation Material: Clump Division , Seeds",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に最適",
+   "quote": "Excellent for cutting.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花向き（種）",
+   "quote": "Flower Value To Gardener: Good Cut",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "RHS Plants for Pollinators",
+   "quote": "For Bio-Diversity Plants for Pollinators",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/79886/aquilegia-chrysantha-yellow-queen/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "蝶・ハチドリを呼ぶ",
+   "quote": "Attracts Butterflies; Attracts Hummingbirds",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/aquilegia-chrysantha-yellow-queen.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "ハチドリ・蝶・蜂（種）",
+   "quote": "Attracts hummingbirds, butterflies and bees.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/aquilegia-chrysantha/common-name/southwestern-yellow-columbine/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "蛾・蝶・蜂が受粉；蝶とマルハナバチを呼ぶ（種）",
+   "quote": "It is pollinated by moths, butterflies, and bees.; Attracts butterflies and bumblebees",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "synonyms",
+  "common_name_ja",
+  "group",
+  "seasonal_foliage",
+  "salt",
+  "staking",
+  "division",
+  "invasive_note"
+ ],
+ "notes": "学名は RHS で Accepted。RHS 品種ページは描画本文に AGM の明記が見当たらず、NCSU の種ページが 'Yellow Queen' を AGM 取得としている（RHS側では未確認）。草丈が RHS 1-1.5m、Walters 75-80cm と大きく食い違う。常緑性も RHS 落葉 vs NCSU/LBJ（種）半常緑で食い違う。NCSU 種ページは「南東部の高温多湿に弱い」と書く一方で耐性欄に Heat を挙げており同一ページ内で矛盾。NCSU・LBJ は種レベル。UMN/CBG は今回未調査。"
+}

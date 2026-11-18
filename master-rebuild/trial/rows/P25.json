@@ -1,0 +1,353 @@
+{
+ "id": "P25",
+ "fields": {
+  "accepted_name": {
+   "value": "Hydrangea serrata subsp. yezoensis",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS で Correct（var. yezoensis はシノニム）。Kew は Hydrangea serrata var. yesoensis (Koidz.) H.Ohba を Accepted"
+  },
+  "synonyms": {
+   "value": [
+    "Hydrangea serrata var. yezoensis",
+    "Hydrangea serrata var. yesoensis"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "Kew"
+   ],
+   "level": "species",
+   "note": "var. yezoensis は RHS のシノニム。var. yesoensis は Kew の正名（マスター現行名）。NCSU の旧名 H. macrophylla var. serrata 等は種 H. serrata 全体のシノニムなので入れない"
+  },
+  "flower_color_detail": {
+   "value": "淡いピンクまたは青（ガクアジサイ型）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "商品が変種そのものなので品種扱い。NCSU（種）は土壌pHで変化（アルカリでピンク、酸性で青）"
+  },
+  "flower_color_class": {
+   "value": [
+    "ピンク",
+    "青・紫"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "spread_min": {
+   "value": 50,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS Max Spread 0.5-1m"
+  },
+  "spread_max": {
+   "value": 100,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS Max Spread 0.5-1m"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "mid-green。夏〜秋にブロンズ色を帯びる程度なので季節変化型にはしなかった"
+  },
+  "foliage_features": {
+   "value": [
+    "細い卵形",
+    "鋸歯あり"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": "夏〜秋に葉がブロンズ色を帯びる。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "fragrance": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "small, compact, deciduous shrub／Habit Spreading branched"
+  },
+  "sun": {
+   "value": "半日陰",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS Position: Partial shade。土が常に湿っていれば日向も可"
+  },
+  "usda_min": {
+   "value": 6,
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "種 H. serrata のゾーン"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "種 H. serrata のゾーン"
+  },
+  "rhs_h": {
+   "value": "H4",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "prefers cool growing conditions（冷涼な条件を好む）の明記。種 H. serrata の記述"
+  },
+  "heat_note": {
+   "value": "冷涼な条件を好む。暖地では強い日差しを避けないと葉や花が早く色あせたり葉焼けしたりする。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": null,
+   "note": "乾燥耐性の直接の記述なし（NCSU は夏に安定して水やりすると花つきがよい、RHS は土が常に湿っていれば日向も可）。迷ったため null"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Moist but well-drained"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・ローム（白亜質土は有機物で改良）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "salt": {
+   "value": null,
+   "note": "使用可能文献に記述なし（マスター出典の MDPI 論文は対象外）"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "native_range": {
+   "value": "日本（北海道・本州・九州）",
+   "method": "記載",
+   "sources": [
+    "Kew"
+   ],
+   "level": "species",
+   "note": "Kew: Japan (Hokkaido, Honshu, Kyushu)。NCSU（種 H. serrata）は日本・朝鮮半島"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち（広がらない）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "種 H. serrata の Habit: Clumping、広がる記述なし"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": null,
+   "note": "広がらない旨の明記なし"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "Clumping、侵略・旺盛の記述なし"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": "皮膚アレルゲン。犬・猫が食べると有害（馬にも問題）",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "pests": {
+   "value": [
+    "アブラムシ",
+    "カスミカメ",
+    "ハダニ",
+    "茎線虫",
+    "キンケクチブトゾウムシ",
+    "カイガラムシ",
+    "斑点病",
+    "うどんこ病",
+    "灰色かび病",
+    "ナラタケ病",
+    "芽枯れ",
+    "青枯病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species",
+   "note": "NCSU（種）: 葉が薄くアジサイよりうどんこ病にかかりやすい"
+  },
+  "pruning": {
+   "value": "剪定グループ4（アジサイ）。前年枝に咲くので剪定は花後に軽く行い、弱い枝や冬傷みの枝は早春に除く。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後",
+    "早春"
+   ],
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "pruning_codes に 花後"
+  },
+  "division_interval": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "propagation": {
+   "value": [
+    "挿し木",
+    "実生",
+    "その他（取り木）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species",
+   "note": "緑枝挿し・休眠枝挿し（s01）、取り木・種子（s06 種）"
+  },
+  "cut_flower": {
+   "value": null,
+   "note": "NCSU の Good Dried は種 H. serrata 全体の記述。s06 は種 H. serrata 全体のページで対象変種そのものではないため、品種専用項目には使わない"
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "Attracts: Bees（種 H. serrata）"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "accepted_name",
+   "detail": "RHS: Hydrangea serrata subsp. yezoensis（Correct）／Kew: Hydrangea serrata var. yesoensis（Accepted）。RHS を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "RHS 0.5-1m／NCSU 2-4ft（種 H. serrata）。RHS を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "NCSU（種）は明るい日陰〜開けた日陰で最良、暖地では強い日差しを避ける。RHS の Partial shade を採用"
+  },
+  {
+   "field": "soil_ph_type",
+   "detail": "NCSU（種）は酸性〜中性。RHS の酸性〜アルカリ性を採用"
+  }
+ ],
+ "name_review": {
+  "current": "Hydrangea serrata var. yesoensis",
+  "proposed": "Hydrangea serrata subsp. yezoensis",
+  "reason": "RHS では亜種 subsp. yezoensis が正名で var. yezoensis はシノニム扱い。綴りも yesoensis ではなく yezoensis。ただし Kew は var. yesoensis (Koidz.) H.Ohba を Accepted としており、ランクと綴りが文献間で異なるので確認が必要",
+  "source": "s01 / Kew"
+ },
+ "notes": "商品はエゾアジサイ（変種そのもの、品種名なし）なので RHS の subsp. yezoensis ページの記述を品種レベル扱いで採用。NCSU は種 H. serrata 全体のページで yezoensis の記載がないため、種レベル可の項目（USDA・暑さ・毒性・病害虫・剪定・繁殖・送粉）のみに使用。USDA 6-9 は種 H. serrata の値で、北海道にも分布するエゾアジサイには保守的な可能性。RHS 高さ100cmまでで、マスターの100～150cm より小さい。"
+}

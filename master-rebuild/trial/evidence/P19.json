@@ -1,0 +1,556 @@
+{
+ "id": "P19",
+ "searched_name": "Patrinia scabiosifolia",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "status": "ok",
+   "note": "マスター出典"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "status": "ok",
+   "note": "マスター出典"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "status": "ok",
+   "note": "perennials.com"
+  },
+  {
+   "source": "s08",
+   "url": "(WebSearch)",
+   "status": "not_found",
+   "note": "Chicago Botanic に本種ページは検索で見つからず"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Patrinia scabiosifolia（正名）",
+   "quote": "Patrinia scabiosifolia ... Name Status: Correct",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Patrinia scabiosifolia",
+   "quote": "Patrinia scabiosifolia",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "スイカズラ科",
+   "quote": "Family: Caprifoliaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "スイカズラ科",
+   "quote": "Family: Caprifoliaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "黄色（小花が軽やかな花序に）",
+   "quote": "airy sprays of small, yellow flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "クロームイエロー",
+   "quote": "Atop these stems sit tiny chrome-yellow flowers.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "明るい黄色（ディルのような散形花序）",
+   "quote": "dill-like umbels of bright yellow flowers",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "夏",
+   "quote": "In summer it produces airy sprays of small, yellow flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "夏～秋",
+   "quote": "Flower Bloom Time: Fall, Summer",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "盛夏～初秋、数週間咲き続ける",
+   "quote": "for weeks on end / Blooming Time: Mid Summer, Late Summer, Early Fall",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "花茎は最大1m；最大高さ0.5～1m",
+   "quote": "branched stems up to 1m tall / Max Height: 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "0.9～1.8m（3～6フィート）",
+   "quote": "Height: 3 ft. 0 in. - 6 ft. 0 in. / Upright, branching stems can reach 6' in height.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "90～120cm",
+   "quote": "Height: 90-120 cm / 35-47 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "最大0.1～0.5m",
+   "quote": "Max Spread: 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "45～60cm（1.5～2フィート）",
+   "quote": "Width: 1 ft. 6 in. - 2 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "45～60cm",
+   "quote": "Spread: 45-60 cm / 18-23 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "根生葉が束になり濃緑、長さ10cmまで",
+   "quote": "basal clusters of dark green leaves to 10cm long",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "濃緑で切れ込む葉、長さ15cmまで、光沢",
+   "quote": "The dark green leaves are divided. They can reach lengths of up to 6\". / Leaf Feel: Glossy",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "シダ状の葉",
+   "quote": "bushy upright clumps of ferny leaves",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "秋の葉色：黄金色",
+   "quote": "Deciduous Leaf Fall Color: Gold/Yellow",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "広がる多年草；Bushy",
+   "quote": "A spreading perennial / Habit: Bushy",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "株立ち・直立；根生葉のマウンドから葉の少ない高い茎が立つ",
+   "quote": "Habit/Form: Clumping, Erect / The tall, minimally leaved stems arise from a mound of basal leaves.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "こんもりした直立の株",
+   "quote": "Plants form bushy upright clumps",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向、半日陰",
+   "quote": "Position: Full sun, Partial shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日当たりが重要、日陰では育たない",
+   "quote": "A sunny location is important, it will not grow in the shade.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向または半日陰",
+   "quote": "Sun Exposure: Full Sun or Partial Shade",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "5a～8b",
+   "quote": "USDA Plant Hardiness Zone: 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "4～9",
+   "quote": "USDA Zone: 4-9",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H6",
+   "quote": "Hardiness: H6",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "夏の暑さと湿気によく耐える",
+   "quote": "Tolerates summer heat and humidity well.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "暑さ・湿気に強い（タグ・耐性欄）",
+   "quote": "#heat tolerant / #humidity tolerant / Resistance To Challenges: ... Drought, Heat, Humidity",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥に強い",
+   "quote": "#drought tolerant / Resistance To Challenges: ... Drought",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい土",
+   "quote": "Moisture: Moist but well–drained",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水はけよく湿り気のある土",
+   "quote": "Soil Drainage: Good Drainage, Moist",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通～湿り気",
+   "quote": "Soil Moisture: Average or Moist",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・ローム；pH 酸性・アルカリ性・中性；肥沃で腐植質に富む土",
+   "quote": "Soil Types: Clay, Loam / pH: Acid or Alkaline or Neutral / Grow in fertile, humus-rich soil",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・ローム・砂；酸性～アルカリ性",
+   "quote": "Soil Texture: Clay, Loam (Silt), Sand / Soil pH: Acid (<6.0), Alkaline (>8.0), Neutral (6.0-8.0)",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通・砂質・粘土；pH中性・アルカリ性・酸性",
+   "quote": "Soil Type: Normal or Sandy or Clay / Soil pH: Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉",
+   "quote": "Foliage: Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉",
+   "quote": "Woody Plant Leaf Characteristics: Deciduous",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "東アジア",
+   "quote": "Plant Range: E Asia",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ベトナム、日本、ロシア",
+   "quote": "Country Or Region Of Origin: Vietnam, Japan, Russia",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "日本と朝鮮半島原産",
+   "quote": "Native to Japan and Korea",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種で増える・野生化する（タグ）",
+   "quote": "#self-seeding / #naturalizes",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "staking",
+   "value_ja": "背が高いので支えが必要なことがある",
+   "quote": "Due to the height of the plant, they may need some support.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジ・カタツムリ；概ね病気なし",
+   "quote": "May be susceptible to damage by slugs and snails / Diseases: Generally disease-free",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジ・カタツムリが若葉を食害；病気は少ないがヘメロカリスさび病の中間宿主",
+   "quote": "Slugs and snails may damage young leaves. It is generally disease free, however, it is an alternate host for Daylily Rust.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ヘメロカリスさび病の中間宿主のため植栽を勧めない",
+   "quote": "Patrinia is an alternate host for Daylily Rust ... For this reason we recommend that gardeners do not plant Patrinia",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "剪定不要",
+   "quote": "Pruning: No pruning required",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "春に株分け",
+   "quote": "Propagate by seed or by division in spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "早春に簡単に株分けできる",
+   "quote": "Clumps may be easily divided in early spring.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種子、株分け",
+   "quote": "Propagate by seed or by division in spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82273/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け、種子",
+   "quote": "Recommended Propagation Strategy: Division, Seed",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "長い茎は切り花に最適で日持ちがよい",
+   "quote": "The tall stems are excellent for cutting and last well indoors.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花・ドライフラワー向き（タグ）",
+   "quote": "#cutting garden / #dried arrangements / Landscape Theme: ... Cutting Garden",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "チョウを引き寄せ、益虫のハチなども来る",
+   "quote": "Butterflies are attracted to the flowers. They also attract beneficial bees and other insects.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/patrinia-scabiosifolia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "花はチョウを引き寄せる",
+   "quote": "Flowers are attractive to butterflies.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "synonyms",
+  "common_name_ja",
+  "group",
+  "fragrance",
+  "salt",
+  "lifespan",
+  "toxicity",
+  "invasive_note"
+ ],
+ "notes": "草丈・株張りが文献で大きく違う：RHS 最大1m・株張り0.1～0.5m、NCSU 0.9～1.8m、Walters 90～120cm。RHS は 'A spreading perennial'、NCSU/Walters は株立ちと表現が割れる。日照も NCSU は日向必須、RHS/Walters は半日陰可。NCSU と Walters はヘメロカリス（デイリリー）さび病の中間宿主と明記し、Walters は植栽しないよう推奨している（デイリリーを扱う生産者には重要）。日本名オミナエシは使用可文献には記載なし。マスターの Plant Delights・pfaf・bgtym PDF は使用不可文献のため読んでいない。"
+}

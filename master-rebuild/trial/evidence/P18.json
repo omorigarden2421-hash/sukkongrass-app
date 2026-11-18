@@ -1,0 +1,464 @@
+{
+ "id": "P18",
+ "searched_name": "Lupinus 'Fräulein' (Lupinus × hybrida 'Fraulein')",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "status": "ok",
+   "note": "マスター出典。Band of Nobles Series のページ（'Fräulein' 個別ページではない）"
+  },
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/lupins/growing-guide",
+   "status": "ok",
+   "note": "RHS ルピナス栽培ガイド（属レベル）"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "status": "ok",
+   "note": "Lupinus 属ページ"
+  },
+  {
+   "source": "s01",
+   "url": "(WebSearch)",
+   "status": "not_found",
+   "note": "RHS に 'Fräulein'/'Fraulein' の品種ページは検索で見つからず"
+  },
+  {
+   "source": "s10",
+   "url": "(WebSearch)",
+   "status": "not_found",
+   "note": "perennials.com / waltersgardens.com に 'Fräulein' なし"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Lupinus Band of Nobles Series（シリーズ名として正名）。'Fräulein' 個別の記録は見つからず",
+   "quote": "Lupinus Band of Nobles Series ... Name Status: Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "Lupinus polyphyllus 'Band of Nobles'",
+   "quote": "Synonyms: Lupinus polyphyllus 'Band of Nobles'",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "family",
+   "value_ja": "マメ科",
+   "quote": "Family: Fabaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "family",
+   "value_ja": "マメ科",
+   "quote": "Family: Fabaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "シリーズ全体で青・ピンク・クリーム・赤・黄、複色もあり",
+   "quote": "fragrant flowers in shades of blue, pink, cream, red and yellow, some bicoloured",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "初夏",
+   "quote": "erect racemes of fragrant flowers ... in early summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "属として晩春～初夏",
+   "quote": "Blooms in late spring to early summer.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "最大1～1.5m",
+   "quote": "Max Height: 1-1.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "height",
+   "value_ja": "属として90～120cm（3～4フィート）",
+   "quote": "Height: 3 ft. 0 in. - 4 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "最大0.5～1m",
+   "quote": "Max Spread: 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "spread",
+   "value_ja": "属として45～60cm（1.5～2フィート）",
+   "quote": "Width: 1 ft. 6 in. - 2 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "属として：柔らかい緑～灰緑の葉、銀色の毛に覆われることがある",
+   "quote": "Lupins have soft green to grey-green leaves which may be coated in silvery hairs.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "花に香り",
+   "quote": "Fragrance: Flower / erect racemes of fragrant flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "habit",
+   "value_ja": "株立ち（クランプ状）",
+   "quote": "Habit: Clump forming",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "habit",
+   "value_ja": "属として直立・円柱状",
+   "quote": "Habit/Form: Ascending, Columnar, Erect",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向、半日陰",
+   "quote": "Position: Full sun, Partial shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "sun",
+   "value_ja": "属として：日向を好み、日陰では花付きが悪い",
+   "quote": "All lupins like well-drained soil in full sun. Avoid planting in shade, as flowering will be poor.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/lupins/growing-guide",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "属として 4a～9b",
+   "quote": "USDA Plant Hardiness Zone: 4a, 4b, 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b, 9a, 9b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H5",
+   "quote": "Hardiness: H5",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "属として：冷涼な気候が必要、ゾーン7～8では一年草扱い；米国深南部の高温多湿を嫌う；暑い地域では午後の日陰を好む",
+   "quote": "require a cool climate. In warmer climates (zones 7 and 8), they tend to be grown as annuals. ... appreciate some light afternoon shade in hot summer areas and dislike the heat and humidity of the deep South where they are best grown as annuals.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "ラッセル系交配種は冷涼な山地の庭向き",
+   "quote": "Hybrid Lupines such as the Russell Hybrids are best for cool mountain gardens.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水はけのよい土",
+   "quote": "Moisture: Well–drained",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "中程度に肥沃で腐植に富む軽い、湿り気があり水はけのよい土",
+   "quote": "Grow in moderately fertile, humus-rich, light, moist but well-drained soil",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "属として：過湿になりやすい土や寒冷多湿地では小型種を鉢で",
+   "quote": "If your soil is prone to waterlogging, or you live in a cold, wet area, grow dwarf or smaller lupins in containers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/lupins/growing-guide",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "ローム・砂質；pH 酸性・中性",
+   "quote": "Soil Types: Loam, Sand / pH: Acid or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "属として：水はけのよい中性～弱酸性",
+   "quote": "Best in well-drained neutral to slightly acid soil",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/lupins/growing-guide",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉",
+   "quote": "Foliage: Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "属として：アメリカ、地中海～タンザニア",
+   "quote": "Country Or Region Of Origin: America, Mediterranean to Tanzania",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "lifespan",
+   "value_ja": "二年草または短命な多年草",
+   "quote": "Robust biennials or short-lived perennials",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "lifespan",
+   "value_ja": "属として：短命（2～5年）",
+   "quote": "Lupines tend to be short-lived (2 to 5 years) perennials in the best of growing environments.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "staking",
+   "value_ja": "属として：背の高いものは支柱が必要なことがある",
+   "quote": "Tall plants may need staking",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/lupins/growing-guide",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "食べると有害；ペット（犬・猫・ウサギ・カメ）に有毒",
+   "quote": "Harmful if eaten. Wear gloves and other protective equipment when handling. TOXIC to pets if eaten (dogs, cats, rabbits, tortoises)",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "属として：全草有毒",
+   "quote": "All parts of lupins are poisonous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/lupins/growing-guide",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "属として：毒性低（大量摂取時のみ）、有毒部位は種子",
+   "quote": "Poison Severity: Low / TOXIC ONLY IF LARGE QUANTITIES EATEN. / Poison Part: Seeds",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジ、ルピナスアブラムシ；うどんこ病、腐敗、斑点病、ウイルス",
+   "quote": "May be susceptible to slugs and lupin aphid / Powdery mildews, rots, a leaf spot and a virus",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "属として：ナメクジ・カタツムリ、ルピナスアブラムシ；炭疽病、うどんこ病、ウイルス",
+   "quote": "slugs and snails ... lupin aphids ... lupin anthracnose and powdery mildew can affect lupins, along with viruses",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/lupins/growing-guide",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "属として：ナメクジ・カタツムリ、うどんこ病、アブラムシ",
+   "quote": "Slugs and snails can be a problem. Powdery mildew and aphids can also affect plants.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花がらを摘むと二番花が咲く",
+   "quote": "deadhead to encourage a second flush of flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "属として：終わった花穂を基部から切ると次が咲く；霜後に枯れ葉を刈ってもよい",
+   "quote": "With border lupins, cut down the spent flower spikes to the base to encourage more to be produced / The leaves of border lupins can be trimmed off when they die down after the first frosts",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/lupins/growing-guide",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "属として：直根が深く株分けは成功しにくい；複数の芽があれば早春に分けられる",
+   "quote": "Dividing border lupins is not always successful, as they have a deep tap root. But if a plant develops several crowns, you can divide these in early spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/lupins/growing-guide",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "晩春に直播き、または苗床に播いて秋に定植",
+   "quote": "Propagate by seed sown in situ in late spring or in seedbeds and transplanted to final flowering site in autumn",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/52142/lupinus-band-of-nobles-series/details",
+   "level": "species",
+   "from_master_source": true,
+   "level_detail": "series（Band of Nobles Series のページ。'Fräulein' 個別ではない）"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "属として：挿し木（基部挿し）・種子",
+   "quote": "Grow new plants from cuttings or seeds",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/lupins/growing-guide",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "属として：切り花向き",
+   "quote": "Flower Value To Gardener: Fragrant, Good Cut, Showy",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lupinus/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "属として：チョウや数種のハチ、特にマルハナバチが好む",
+   "quote": "Butterflies and several types of bees – bumblebees in particular – love lupins",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/lupins/growing-guide",
+   "level": "genus",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "seasonal_foliage",
+  "drought",
+  "salt",
+  "spread_mode",
+  "invasive_note"
+ ],
+ "notes": "使用可文献に 'Fräulein'（Fraulein）の品種ページが見つからなかった。'Fräulein' を Band of Nobles Series の一色とする根拠はマスター出典の Jelitto URL（LUPINUS perennis Russell Band of Nobles Series Fraeulein）だけで、この環境では読めず未確認。したがって RHS の値は全て Band of Nobles Series（混色シリーズ）レベルで、花色（混色の列挙）は 'Fräulein' の色の根拠にならない。学名もマスターは Lupinus × hybrida、Jelitto URL は L. perennis、RHS シリーズのシノニムは L. polyphyllus 'Band of Nobles' と3通りに割れている。マスター成株シルエット出典 addenbrooke.co.nz は Lupinus polyphyllus 'Fraulein' 表記（使用不可文献のため未読）。"
+}

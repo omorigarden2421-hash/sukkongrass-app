@@ -1,0 +1,593 @@
+{
+ "id": "P04",
+ "searched_name": "Sagina subulata",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "status": "ok",
+   "note": "種ページ（本品は種名での登録）"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata",
+   "status": "ok",
+   "note": "マスター出典"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "status": "ok",
+   "note": "マスター出典"
+  },
+  {
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/sagina_subulata--corsican_pearlwort_irish_moss",
+   "status": "ok",
+   "note": "plant-information/plant-finder/sagina-subulata-corsican-pearlwort-irish-moss にリダイレクト。2022年以前のアーカイブ"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Sagina subulata（Name Status: Correct）",
+   "quote": "Sagina subulata ... Name Status Correct",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "旧名 Colobanthus subulatus",
+   "quote": "Previously known as: Colobanthus subulatus",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "ナデシコ科",
+   "quote": "Family Caryophyllaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "ナデシコ科",
+   "quote": "Family: Caryophyllaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "白",
+   "quote": "Tiny white flowers; Summer White",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "白",
+   "quote": "Tiny little white flowers; Flower Colour White",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "白",
+   "quote": "Bloom Color: White",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/sagina-subulata-corsican-pearlwort-irish-moss",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "白いデイジー状",
+   "quote": "tiny white daisy-like flowers",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "夏",
+   "quote": "Tiny white flowers are held up on stems to 4cm high in summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "晩春に咲き始める；晩春〜晩夏",
+   "quote": "Tiny little white flowers begin to appear in late spring.; Blooming Time Early Summer Mid Summer Late Summer Late Spring",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "5月〜6月、7月〜8月",
+   "quote": "Bloom Time: May - June July - August",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/sagina-subulata-corsican-pearlwort-irish-moss",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "春（春・夏）",
+   "quote": "Daisy-like white flowers with an attractive fragrance bloom in the spring.; Flower Bloom Time: Spring Summer",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "10cmまで（花茎は4cmまで）",
+   "quote": "Max Height Up to 10 cm; stems to 4cm high",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "1-2cm",
+   "quote": "Height 1-2 cm 0-1 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "0.1-0.5m",
+   "quote": "Max Spread 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "15-30cm",
+   "quote": "Spread 15-30 cm 6-12 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "細い線形の中緑色の葉が対生",
+   "quote": "fine, linear mid-green leaves held in pairs along the stems",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "明るいシャムロックグリーンの苔状",
+   "quote": "very low moss-like carpet of bright shamrock-green foliage; Foliage Color Deep Green",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "濃緑の苔状の葉；毛あり",
+   "quote": "deep green moss-like leaves; Hairs Present: Yes",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "冬も緑",
+   "quote": "Winter Green",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "花に良い香り",
+   "quote": "Daisy-like white flowers with an attractive fragrance; Flower Value To Gardener: Fragrant",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "節から根を出す細い茎で密なマット状",
+   "quote": "forming dense mats of slender stems that root at the the nodes; Habit Matforming",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "ごく低い苔状のカーペット",
+   "quote": "forms a very low moss-like carpet",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "匍匐性",
+   "quote": "Plant Shape: Creeping",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/sagina-subulata-corsican-pearlwort-irish-moss",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "密・広がる；密なマット",
+   "quote": "Habit/Form: Dense Spreading; It forms a dense mat of slender stems",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰（日なたで真昼に少し日陰）。日陰が強すぎると徒長",
+   "quote": "Position Full sun, Partial shade; in full sun with some midday shade ... May become leggy in too much shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰。完全な日陰は不向き",
+   "quote": "Sun Exposure Full Sun or Partial Shade; Not a good choice for full shade.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰〜日なた",
+   "quote": "It can tolerate light conditions from partial shade to full sun.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/sagina-subulata-corsican-pearlwort-irish-moss",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた（真昼に少し日陰）",
+   "quote": "in full sun with some midday shade",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "3-9",
+   "quote": "USDA Zone: 3-9",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "4-8",
+   "quote": "Hardiness Zone: 4 - 8",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/sagina-subulata-corsican-pearlwort-irish-moss",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "4a-8b",
+   "quote": "USDA Plant Hardiness Zone: 4a, 4b, 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H6",
+   "quote": "H6",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "強い暑さを嫌う",
+   "quote": "Dislikes intense heat, drought and waterlogging.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "高温多湿の夏の地域では盛夏に蒸れて傷み、秋に回復することが多い",
+   "quote": "In hot, humid summer regions this sometimes melts out and becomes unattractive in mid summer, usually reviving in the fall.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "強い暑さに弱い；冷涼で湿った条件を好む",
+   "quote": "It does not do well in intense heat or drought ... The plant prefers cool, moist conditions",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥を嫌う",
+   "quote": "Dislikes intense heat, drought and waterlogging.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥を嫌う",
+   "quote": "Dislikes both drought and soggy wet soils.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥に弱い",
+   "quote": "It does not do well in intense heat or drought",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "drought",
+   "value_ja": "完全に乾くのは不可",
+   "quote": "as long as the soil doesn't dry out completely or stay constantly wet",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/sagina-subulata-corsican-pearlwort-irish-moss",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい土；過湿を嫌う",
+   "quote": "Moisture Moist but well–drained; Dislikes ... waterlogging",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通〜湿り気；過湿を嫌う",
+   "quote": "Soil Moisture Average or Moist; Dislikes both drought and soggy wet soils.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "乾ききらず常に湿りすぎない土",
+   "quote": "as long as the soil doesn't dry out completely or stay constantly wet",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/sagina-subulata-corsican-pearlwort-irish-moss",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "排水よく湿り気；水のやりすぎが問題になる",
+   "quote": "Soil Drainage: Good Drainage Moist; over watering can be a problem",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "石灰質・ローム・砂；酸性〜中性",
+   "quote": "Chalk, Loam, Sand; pH Acid or Neutral; Grow in moderately fertile, acid to neutral soil",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通土・砂質・粘土；中性・アルカリ性・酸性",
+   "quote": "Soil Type Normal or Sandy or Clay; Soil pH Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・ローム・砂・浅い礫質；酸性〜中性",
+   "quote": "Soil Texture: Clay Loam (Silt) Sand Shallow Rocky; Soil pH: Acid (<6.0) Neutral (6.0-8.0)",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑",
+   "quote": "Foliage Evergreen",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑",
+   "quote": "Evergreen.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑",
+   "quote": "Irish Moss is a low growing, evergreen, perennial groundcover",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ヨーロッパ（英国・アイルランド自生あり）",
+   "quote": "Native to GB/Ireland Yes; Plant Range Europe",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "チリ〜アルゼンチン、フォークランド諸島",
+   "quote": "Country Or Region Of Origin: Chile to Argentina and the Falkland Islands",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "節から発根する茎でマット状に広がる",
+   "quote": "dense mats of slender stems that root at the the nodes",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種で増え小さな群落をつくる",
+   "quote": "This plant spreads by reseeding itself and it often forms small colonies",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "アブラムシ、温室ではハダニ；病気はほぼなし",
+   "quote": "May be susceptible to aphids , and to red spider mite if grown under glass; Generally disease-free",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "シカに強い",
+   "quote": "Deer Resistant",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "病害虫はほぼないがアブラムシがつくことがある",
+   "quote": "Generally disease and pest free, but can be susceptible to aphids.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "剪定不要。敷石からはみ出た部分は刈ってよい",
+   "quote": "No pruning required, but may be trimmed back from paving to keep edges neat",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "早春か秋に株を小さくちぎって分ける",
+   "quote": "Easily divided in early spring or fall, by ripping up the clump into smaller pieces.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/sagina-subulata.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "秋に容器へ播種、または春に株分け",
+   "quote": "Propagate by seed, sown in containers in autumn, or by division in spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/78129/sagina-subulata/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け・種子",
+   "quote": "Recommended Propagation Strategy: Division Seed",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
+   "level": "species",
+   "from_master_source": true
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "salt",
+  "lifespan",
+  "staking",
+  "toxicity",
+  "cut_flower",
+  "pollinators",
+  "invasive_note"
+ ],
+ "notes": "品種ではなく種名の商品。RHS は Name Status 'Correct'、英国自生（Native to GB/Ireland: Yes, Plant Range Europe）とする一方、NCSU は原産を「チリ〜アルゼンチン・フォークランド」としており原産地が大きく食い違う（NCSU側の誤記の可能性、要確認）。NCSU は旧名を Colobanthus subulatus と記載。英名 'Irish moss' は検索上 NCSU で他属の植物の通称としても出てくるため、取り違えに注意（ページ本文は未読）。草丈は RHS 10cmまで（花茎4cm）、Walters 1-2cm。花期は春〜夏で文献により差。耐暑性は3文献とも弱い・蒸れる趣旨。"
+}

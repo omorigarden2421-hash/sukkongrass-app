@@ -1,0 +1,350 @@
+{
+ "id": "P11",
+ "fields": {
+  "accepted_name": {
+   "value": "Hemerocallis 'Stella de Oro'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "synonyms": {
+   "value": null,
+   "note": "文献のシノニム欄なし（'Stella D'Oro' の表記ゆれがあると evidence notes にある）"
+  },
+  "flower_color_detail": {
+   "value": "カナリアイエロー、喉はオレンジ（丸い花、径7cmまで）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_class": {
+   "value": [
+    "黄"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "spread_min": {
+   "value": 30,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "perennials.com 30〜60cm"
+  },
+  "spread_max": {
+   "value": 60,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "perennials.com 30〜60cm"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Deep Green"
+  },
+  "foliage_features": {
+   "value": [
+    "細い草状の葉が密に茂る"
+   ],
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "fragrance": {
+   "value": "花",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Fragrance Flower。Walters は Fragrant Foliage のタグも"
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Clump forming／dense clump, compact。arching 等の記述はない"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "日陰では花つきが悪い"
+  },
+  "usda_min": {
+   "value": 2,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "perennials.com"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "USDA上限から（上限9）。暑さ・高温多湿の記述なし"
+  },
+  "heat_note": {
+   "value": null,
+   "note": "暑さ・蒸れの記述なし"
+  },
+  "drought": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Drought Tolerant、乾いた痩せ地にも耐える。RHS は乾燥時は春〜初夏の水やりで開花を確保とする"
+  },
+  "soil_moisture": {
+   "value": "幅広く適応",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "RHS For Wet & Dry Conditions、Walters やや湿り〜乾燥までどんな土でも"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質（重粘土・痩せ地にも耐える）",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters Salt Tolerant（融雪塩をまく舗装の近くでも）。RHS は Coastal のみ"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "native_range": {
+   "value": "園芸品種（交配親の記載なし）。属の原産は南東アルプス、シベリア〜東アジア温帯",
+   "method": "記載",
+   "sources": [
+    "Kew"
+   ],
+   "level": "genus"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち（広がらない）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Clump forming。数年は株分け不要（perennials.com）"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": null,
+   "note": "品種の記述なし（Walters の『新しい交配種は広がりが遅い』は属の一般論）"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": "猫に有毒",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "TOXIC to pets (cats)"
+  },
+  "pests": {
+   "value": [
+    "アブラムシ",
+    "ナメクジ",
+    "カタツムリ",
+    "ハダニ",
+    "アザミウマ",
+    "斑点病",
+    "さび病",
+    "細菌性腐敗病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "pruning": {
+   "value": "花後に花茎を切り、枯れ葉は随時・晩秋に取り除く。花がら摘みで返り咲きがよくなる。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後",
+    "秋"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "management_type": {
+   "value": "B",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "花後の花茎切り・返り咲き"
+  },
+  "division_interval": {
+   "value": "3〜4年ごと、春または秋（Walters）。RHS は早春か初秋",
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "実生は品種が固定しないと RHS が明記しているため除外"
+  },
+  "cut_flower": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Cut Flower タグのみ"
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Attracts Butterflies, Bee Friendly"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "usda",
+   "detail": "perennials.com 2〜9／Walters 3〜9（いずれも s10）。perennials.com を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "perennials.com 30〜60cm／Walters 18〜24in(46〜61cm)／RHS 0.1〜0.5m。perennials.com を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS 日なた／perennials.com・Walters 日なた〜半日陰。RHS を採用"
+  },
+  {
+   "field": "fragrance",
+   "detail": "RHS 花の香り／Walters 花と葉。RHS を採用"
+  },
+  {
+   "field": "salt",
+   "detail": "RHS Coastal のみ（○相当）／Walters Salt Tolerant 明記。明記のある Walters を採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "暑さの記述がなく USDA上限で中。NCSU は品種ページなし。"
+}

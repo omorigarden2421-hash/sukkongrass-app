@@ -1,0 +1,486 @@
+{
+ "id": "P07",
+ "searched_name": "Alchemilla saxatilis",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "status": "ok",
+   "note": "マスター出典。Name Status: Unresolved"
+  },
+  {
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/alchemilla-saxatilis-dwarf-ladys-mantle",
+   "status": "ok",
+   "note": "マスター出典。2022年以前のアーカイブ、説明文なし・属性のみ"
+  },
+  {
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "status": "ok",
+   "note": "マスター出典。Walters現行ラインナップ外の参考掲載"
+  },
+  {
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no24_alchemilla.pdf",
+   "status": "ok",
+   "note": "Plant Evaluation Notes No.24 (2004) Alchemilla 評価報告"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Alchemilla saxatilis（Name Status: Unresolved＝未確定）",
+   "quote": "Alchemilla saxatilis ... Name Status Unresolved",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "バラ科",
+   "quote": "Family Rosaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "バラ科（属）",
+   "quote": "uncommon herbaceous member of the rose family (Rosaceae)",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no24_alchemilla.pdf",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "黄緑",
+   "quote": "short sprays of yellow-green flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "黄緑；黄",
+   "quote": "Short sprays of yellow-green flowers; Flower Colour Yellow",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "緑",
+   "quote": "Bloom Color: Green",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/alchemilla-saxatilis-dwarf-ladys-mantle",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "淡い緑",
+   "quote": "saxatilis ... light green (Flower Color)",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no24_alchemilla.pdf",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "初夏",
+   "quote": "appear in early summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "初夏（初夏・盛夏）",
+   "quote": "Short sprays of yellow-green flowers appear in early summer.; Blooming Time Early Summer Mid Summer",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "5月〜6月、7月〜8月",
+   "quote": "Bloom Time: May - June July - August",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/alchemilla-saxatilis-dwarf-ladys-mantle",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "葉の高さ15cmまで；最大0.1-0.5m",
+   "quote": "a low mound or tufts of foliage to 15cm tall; Max Height 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "10-15cm",
+   "quote": "Height 10-15 cm 4-6 inches",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "7インチ（評価試験の実測）",
+   "quote": "saxatilis 7 in.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no24_alchemilla.pdf",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "0.1-0.5m",
+   "quote": "Max Spread 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "20-30cm",
+   "quote": "Spread 20-30 cm 8-12 inches",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "18インチ（評価試験の実測）",
+   "quote": "saxatilis 7 in. 18 in.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no24_alchemilla.pdf",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "小さな濃緑の深裂葉、5〜7裂で縁が銀白色",
+   "quote": "the small, dark-green, deeply divided leaves, with 5 to 7-lobes finely edged in silvery white",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "小さな濃緑の深く切れ込む葉、縁が銀白色",
+   "quote": "small dark-green leaves that are deeply cleft, each radiating finger finely edged in silvery white",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "半光沢の緑葉、5深裂、裏面に毛",
+   "quote": "saxatilis ... glossy green, undersides, 5 deeply parted/leaflets; A. saxatilis were uncommon in having semi-glossy green leaves",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no24_alchemilla.pdf",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "株立ちで低いマウンド・房状",
+   "quote": "A clump-forming perennial producing a low mound or tufts of foliage; Habit Clump forming, Tufted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "低いマウンドまたは房状；A. mollis よりコンパクトで繊細",
+   "quote": "It forms a low mound or tuft; More compact and finely textured than Common Lady's Mantle",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "匍匐性",
+   "quote": "Plant Shape: Creeping",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/alchemilla-saxatilis-dwarf-ladys-mantle",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた・半日陰",
+   "quote": "Position Full sun, Partial shade; in sun or part shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰",
+   "quote": "Sun Exposure Full Sun or Partial Shade",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰・日陰",
+   "quote": "Exposure: Partial Shade Full Shade",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/alchemilla-saxatilis-dwarf-ladys-mantle",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "2-9",
+   "quote": "USDA Zone: 2-9",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "3-9",
+   "quote": "Hardiness Zone: 3 - 9",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/alchemilla-saxatilis-dwarf-ladys-mantle",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H7",
+   "quote": "H7",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "日なたでは特に夏の高温地域で追加の水やりが必要（属）",
+   "quote": "Extra water may be required in full sun, especially in areas of high summer temperatures.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no24_alchemilla.pdf",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "1998年夏に急に衰弱し、翌冬に株元が傷んだ（シカゴ評価試験）",
+   "quote": "Alchemilla saxatilis was in good health until the summer of 1998 when it unexpectedly declined; all plants subsequently had some crown damage during the following winter.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no24_alchemilla.pdf",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥で葉が枯れるが切り戻すとすぐ新葉が出る（属）",
+   "quote": "Drought stress can cause leaves to wither, but new leaves sprout quickly if cut back.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no24_alchemilla.pdf",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい土",
+   "quote": "Moisture Moist but well–drained; grows best in fertile, moist but well-drained soil",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通〜湿り気",
+   "quote": "Soil Moisture Average or Moist",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気",
+   "quote": "Soil: Moist",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/alchemilla-saxatilis-dwarf-ladys-mantle",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "石灰質・粘土・ローム・砂；酸性・アルカリ性・中性",
+   "quote": "Chalk, Clay, Loam, Sand; pH Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通土・砂質・粘土；中性・アルカリ性・酸性",
+   "quote": "Soil Type Normal or Sandy or Clay; Soil pH Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "salt",
+   "value_ja": "RHSの推奨植栽場所に「海岸」",
+   "quote": "Suggested planting locations and garden types ... Coastal",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉",
+   "quote": "Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "属としてヨーロッパ・アジア原産（約300種）（属）",
+   "quote": "There are approximately 300 species of Alchemilla native to Europe and Asia",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no24_alchemilla.pdf",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種でよく増える；花がら摘みで実生が減る（属）",
+   "quote": "Lady's mantles self-sow readily; deadheading reduces the number of seedlings produced",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no24_alchemilla.pdf",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ほぼ病害虫なし",
+   "quote": "Generally pest-free; Generally disease-free",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ウサギに強い",
+   "quote": "Rabbit Resistant",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "シカに強い",
+   "quote": "Resistant To Deer",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/alchemilla-saxatilis-dwarf-ladys-mantle",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "評価試験で冬の傷み（前シーズンの不調による）が出た2種の一つ",
+   "quote": "Only Alchemilla conjuncta and A. saxatilis suffered winter injury because of poor health in preceding seasons.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/downloads/planteval_notes/no24_alchemilla.pdf",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "夏の花後に切り戻すと新しい葉が出る",
+   "quote": "Cut back in summer after flowering to encourage fresh new growth",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花後の花穂を切ると一年中きれい",
+   "quote": "Trimming off the faded flower spikes will keep plants looking attractive all season long.",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "春か初秋に株分けが容易",
+   "quote": "Clumps are easily divided in spring or early fall.",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/alchemilla-saxatilis.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "春に播種、または早春か秋に株分け",
+   "quote": "Propagate by seed in spring or by division in early spring or autumn",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/45972/alchemilla-saxatilis/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "蝶・鳥を呼ぶ",
+   "quote": "Wildlife Interest: Attracts Birds Attracts Butterflies",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/alchemilla-saxatilis-dwarf-ladys-mantle",
+   "level": "species",
+   "from_master_source": true
+  }
+ ],
+ "not_found": [
+  "synonyms",
+  "common_name_ja",
+  "group",
+  "seasonal_foliage",
+  "fragrance",
+  "lifespan",
+  "staking",
+  "toxicity",
+  "cut_flower",
+  "invasive_note"
+ ],
+ "notes": "品種ではなく種名の商品。RHS の Name Status が 'Unresolved'（学名未確定）であり、学名の扱いは要確認。RHS は Plants for Pollinators 等のバッジなし。日照が文献で食い違う：RHS・Walters は日なた〜半日陰、CBG は半日陰〜日陰。花色も黄緑/黄/緑/淡緑と表現差。シカゴ評価試験（2004）では評価 fair（3つ星）、1998年夏に急に衰弱し翌冬に株元が傷んだ。CBG plant finder ページは属性のみで説明文なし。マスターの耐潮性出典 plantlust（A. mollis のページ）は対象外文献かつ別種のため未使用。"
+}

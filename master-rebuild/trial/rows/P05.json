@@ -1,0 +1,331 @@
+{
+ "id": "P05",
+ "fields": {
+  "accepted_name": {
+   "value": "Achillea sibirica subsp. camschatica 'Love Parade'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "synonyms": {
+   "value": [
+    "Achillea sibirica 'Love Parade'"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_detail": {
+   "value": "柔らかいピンク",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_class": {
+   "value": [
+    "ピンク"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "spread_min": {
+   "value": 45,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "spread_max": {
+   "value": 60,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "foliage_features": {
+   "value": [
+    "細い葉",
+    "縁に鋸歯"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": null
+  },
+  "fragrance": {
+   "value": null
+  },
+  "silhouette": {
+   "value": "直立",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS: upright, clump-forming。Habit 欄 Bushy、Walters bushy clump で株立ちとも取れる"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS は Position に Partial shade も挙げるが、栽培は日なたと記載"
+  },
+  "usda_min": {
+   "value": 3,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters: Heat tolerant"
+  },
+  "heat_note": {
+   "value": "耐暑性があり、暑く乾いた日なたに最適な宿根草の一つとされる。",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s10",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "soil_moisture": {
+   "value": "乾燥寄り",
+   "method": "判定",
+   "sources": [
+    "s10",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Well-drained・やせた乾いた土に耐える、Walters Dry"
+  },
+  "soil_ph_type": {
+   "value": "中性〜アルカリ性、砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": null
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "native_range": {
+   "value": "シベリア〜日本・中国",
+   "method": "記載",
+   "sources": [
+    "Kew"
+   ],
+   "level": "species",
+   "note": "Kew は Achillea sibirica までの部分一致で、Achillea alpina subsp. alpina として照合。亜種 camschatica の原産地ではない可能性"
+  },
+  "spread_modes": {
+   "value": null,
+   "note": "Walters は「広がってパッチ状になる」とするが、地下茎かどうか等の広がり方の記載なし"
+  },
+  "self_seed_level": {
+   "value": null
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "will spread to form a patch（ただし花壇で過度に侵略的ではない）"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "RHS clump-forming、Walters は花壇で過度に侵略的ではないと明記"
+  },
+  "invasive_note": {
+   "value": "広がってパッチ状になるが、花壇で過度に侵略的ではない。",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "toxicity": {
+   "value": null
+  },
+  "pests": {
+   "value": [
+    "アブラムシ",
+    "うどんこ病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "pruning": {
+   "value": "こまめに花がらを摘むと花期が延びる。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "division_interval": {
+   "value": "秋または早春（間隔の記載なし）",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "実生",
+    "株分け"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "cut_flower": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s10",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Walters Excellent for cutting"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Plants for Pollinators"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "spread",
+   "detail": "RHS 0.1-0.5m／Walters 45-60cm。Walters を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS 日なた・半日陰／Walters 日なた。RHS を採用"
+  },
+  {
+   "field": "soil_ph_type",
+   "detail": "RHS 中性〜アルカリ性／Walters 酸性も可。RHS を採用"
+  }
+ ],
+ "name_review": {
+  "current": "Achillea sibirica subsp.camschatica 'Love Parade'",
+  "proposed": "Achillea sibirica subsp. camschatica 'Love Parade'",
+  "reason": "subsp. の後にスペースがない表記ゆれ。RHS では subsp. camschatica 付きが Accepted で、Achillea sibirica 'Love Parade' はシノニム。なお Kew では Achillea sibirica 自体が Achillea alpina subsp. alpina のシノニム扱い（部分一致）だが、RHS を優先",
+  "source": "s01 / Kew"
+ },
+ "notes": "育種元（s12）は未調査。原産地は文献になく Kew の部分一致から。"
+}

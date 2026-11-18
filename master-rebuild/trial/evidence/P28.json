@@ -1,0 +1,237 @@
+{
+ "id": "P28",
+ "searched_name": "Prostanthera sp.",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13925/prostanthera/details",
+   "status": "ok",
+   "note": "属 Prostanthera のページ（科と属説明のみ）"
+  },
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "status": "ok",
+   "note": "マスター出典（冬）。実際は Prostanthera rotundifolia（丸葉ミントブッシュ）の種ページ"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/prostanthera/",
+   "status": "404",
+   "note": ""
+  },
+  {
+   "source": "-",
+   "url": "https://www.gardenia.net/plant/prostanthera-ovalifolia-variegata",
+   "status": "not_found",
+   "note": "マスター出典だが使用禁止文献のため読まず"
+  },
+  {
+   "source": "-",
+   "url": "https://www.promessedefleurs.ie/gardening-tips/fichaplanta/prostanthera-australian-mint-bush-planting-and-growing/",
+   "status": "not_found",
+   "note": "マスター出典だが園芸店ページで使用対象外のため読まず"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "属 Prostanthera（RHS で Correct）。種は特定できない",
+   "quote": "Prostanthera ... Name Status Correct",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13925/prostanthera/details",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "シソ科 Lamiaceae",
+   "quote": "Family Lamiaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13925/prostanthera/details",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "（属）白・青・紫",
+   "quote": "cup-shaped white blue or purple flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13925/prostanthera/details",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "紫（P. rotundifolia の記載。対象株の種は未特定）",
+   "quote": "profusely-borne 2-lipped, purple flowers 12mm across",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "（属）晩春〜初夏",
+   "quote": "in late spring or early summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13925/prostanthera/details",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "2mまで（最大1.5〜2.5m）（P. rotundifolia の記載。対象株の種は未特定）",
+   "quote": "A bushy evergreen shrub to 2m / Max Height 1.5-2.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "最大1〜1.5m（P. rotundifolia の記載。対象株の種は未特定）",
+   "quote": "Max Spread 1-1.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "（属）小さな濃緑の強い芳香のある葉",
+   "quote": "small, dark green, highly aromatic leaves",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13925/prostanthera/details",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "（属）葉に強い香り",
+   "quote": "highly aromatic leaves",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13925/prostanthera/details",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "葉に強いミントの香り（P. rotundifolia の記載。対象株の種は未特定）",
+   "quote": "small, ovate, strongly mint-scented leaves / Fragrance Foliage",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "（属）こんもり茂る常緑低木",
+   "quote": "Prostanthera are bushy evergreen shrubs",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13925/prostanthera/details",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向（P. rotundifolia の記載。対象株の種は未特定）",
+   "quote": "Position Full sun",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H2（P. rotundifolia の記載。対象株の種は未特定）",
+   "quote": "Hardiness H2",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい土（P. rotundifolia の記載。対象株の種は未特定）",
+   "quote": "Moisture Moist but well–drained",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "白亜質・ローム・砂、酸性〜アルカリ性（P. rotundifolia の記載。対象株の種は未特定）",
+   "quote": "Soil Types Chalk, Loam, Sand / pH Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "（属）常緑",
+   "quote": "Prostanthera are bushy evergreen shrubs",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13925/prostanthera/details",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "オーストラリア南東部（P. rotundifolia の記載。対象株の種は未特定）",
+   "quote": "Plant Range SE Australia",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "オンシツのハダニ・オンシツコナジラミ、ナラタケ病（感受性の程度はデータ不足）（P. rotundifolia の記載。対象株の種は未特定）",
+   "quote": "May be susceptible to glasshouse red spider mite and glasshouse whitefly / honey fungus ... insufficient data",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花後に剪定、強剪定は有害なことがある（剪定グループ8）（P. rotundifolia の記載。対象株の種は未特定）",
+   "quote": "Prune after flowering; hard pruning may be detrimental / pruning group 8",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種子または半熟枝挿し（P. rotundifolia の記載。対象株の種は未特定）",
+   "quote": "Propagate by seed or semi-hardwood cuttings",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/13927/wd/details",
+   "level": "species",
+   "from_master_source": true
+  }
+ ],
+ "not_found": [
+  "synonyms",
+  "common_name_ja",
+  "group",
+  "seasonal_foliage",
+  "usda_zone",
+  "heat_humidity",
+  "drought",
+  "salt",
+  "spread_mode",
+  "lifespan",
+  "staking",
+  "toxicity",
+  "division",
+  "cut_flower",
+  "pollinators",
+  "invasive_note"
+ ],
+ "notes": "入力学名が『Prostanthera sp.』で種が特定されていないため、確実に当てはまるのは属レベルの情報（RHS 属ページ：シソ科、常緑低木、芳香のある葉、白・青・紫花、晩春〜初夏咲き）のみ。マスターが冬の情報源にしていた RHS 13927 は Prostanthera rotundifolia の種ページで、その値（H2、高さ2m、SE Australia 等）は対象株が P. rotundifolia である場合にだけ当てはまるので value_ja に明記した。一方マスターの成株シルエット参照は P. ovalifolia 'Variegata'（gardenia.net、読まず）で、マスター内でも種の想定が一致していない。種（または品種）を特定しないと耐寒性（RHS では H2＝霜に耐えない）などの判断ができない。NCSU・UMN・Walters には該当ページなし。"
+}

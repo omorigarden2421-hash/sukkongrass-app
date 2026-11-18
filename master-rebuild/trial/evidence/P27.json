@@ -1,0 +1,545 @@
+{
+ "id": "P27",
+ "searched_name": "Cornus alba 'Sibirica'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "status": "ok",
+   "note": "マスター出典（成株シルエット参照URL・冬情報源）"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba-sibirica/",
+   "status": "404",
+   "note": ""
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "status": "ok",
+   "note": "種のページ。品種一覧に 'Sibirica' の短い記述あり"
+  },
+  {
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "status": "ok",
+   "note": "種（Tartarian dogwood）のページ。'Sibirica' の記載なし"
+  },
+  {
+   "source": "-",
+   "url": "https://rhs.org.uk/plants/cornus/for-stems",
+   "status": "not_found",
+   "note": "マスター出典（冬）。品種情報ではない記事のため、ページ数節約で読まず"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Cornus alba 'Sibirica'（RHS で Accepted）",
+   "quote": "Name Status Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "Cornus alba 'Westonbirt'、C. alba var. sibirica、Cornus sibirica、C. sibirica 'Westonbirt'",
+   "quote": "Synonyms Cornus alba 'Westonbirt', Cornus alba var. sibirica, Cornus sibirica, Cornus sibirica 'Westonbirt', Cornus 'Westonbird'",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "（種）旧名 Cornus pumila、Swida alba",
+   "quote": "Previously known as: Cornus pumila Swida alba",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "ミズキ科 Cornaceae",
+   "quote": "Family Cornaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "ミズキ科 Cornaceae",
+   "quote": "Family: Cornaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "クリーム色の小さな平たい花序",
+   "quote": "Small, cream, flat-headed flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "（種）クリーム白",
+   "quote": "small creamy white blooms that are arranged in flat-topped clusters",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "（種）黄みがかった白",
+   "quote": "small, 4-petaled, yellowish-white flowers",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "春〜夏",
+   "quote": "flowers appear in spring and summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "（種）5〜6月",
+   "quote": "They bloom from May to June.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "（種）5月中旬〜6月",
+   "quote": "in mid-May to June",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "最大1.5〜2.5m",
+   "quote": "Max Height 1.5-2.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "（種）8〜10フィート",
+   "quote": "Height: 8 ft. 0 in. - 10 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "（種）3〜10フィート",
+   "quote": "Height: 3 to 10 feet",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "最大1.5〜2.5m",
+   "quote": "Max Spread 1.5-2.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "（種）5〜10フィート",
+   "quote": "Width: 5 ft. 0 in. - 10 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "（種）3〜10フィート",
+   "quote": "Width: 3 to 10 feet",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "卵形の緑葉",
+   "quote": "ovate green foliage",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "細い赤い茎が冬に鮮やかな深紅になる。葉は秋に赤みを帯びる",
+   "quote": "slender red stems, turning a bright crimson in winter, and ovate green foliage turning reddish in autumn",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "サンゴ色がかった赤い茎",
+   "quote": "'Sibirica' Coral red stems. bluish fruit, fast growing",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "（種）秋の葉は黄〜赤紫。茎は秋冬に赤",
+   "quote": "The fall foliage may be yellow or reddish-purple. / red stems during the fall and winter",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "（種）晩夏に若い茎が緑から赤に変わり冬に色が濃くなり春に緑に戻る",
+   "quote": "Stems turn from green to red or yellow-green in late summer, with color intensifying in winter before returning to green in spring.",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "吸枝で広がり細い赤い茎の茂みを作る中型の落葉低木",
+   "quote": "A medium-sized, suckering deciduous shrub forming a thicket of slender red stems / Habit Suckering",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "（種）アーチ状・直立・株立ち",
+   "quote": "Habit/Form: Arching Erect Multi-stemmed",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "（種）丸くアーチ状",
+   "quote": "Rounded, arching plant form",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向〜半日陰",
+   "quote": "Position Full sun, Partial shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "（種）日向〜半日陰",
+   "quote": "prefers full sun to partial shade",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "（種）日向〜半日陰。全日陰には植えない",
+   "quote": "Plant in full sun to part shade / Do not plant in full shade.",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "（種）3a〜7b",
+   "quote": "USDA Plant Hardiness Zone: 3a, 3b, 4a, 4b, 5a, 5b, 6a, 6b, 7a, 7b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "（種）3〜7",
+   "quote": "Hardiness zone: 3 to 7",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H7",
+   "quote": "Hardiness H7",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "（種）暑い夏の気候、特にUSDAゾーン7より南で病気にかかりやすい",
+   "quote": "This shrub is more vulnerable to diseases in hot summer climates, especially south of USDA Zone 7.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい〜水はけのよい土。たいていの土で育つ",
+   "quote": "Moisture Moist but well–drained or Well–drained / Will grow in most soil conditions",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（種）湿り気があり水はけのよい土。時々の乾燥・過湿も可",
+   "quote": "moist, well-drained soil / Soil Drainage: Good Drainage Moist Occasionally Dry Occasionally Wet",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（種）湿った水はけのよい土を好み、乾燥・過湿にも適応",
+   "quote": "Prefers moist soils and well-drained soils, adaptable to drier and wetter soils",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・ローム・砂、酸性〜中性",
+   "quote": "Soil Types Clay, Loam, Sand / pH Acid or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "（種）砂〜粘土、pH5.5〜7.0",
+   "quote": "Sandy to clay soils / Soil pH 5.5 to 7.0",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉",
+   "quote": "deciduous shrub / Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "（種）中央・東アジア",
+   "quote": "Country Or Region Of Origin: Central and Eastern Asia",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "吸枝で広がる",
+   "quote": "A medium-sized, suckering deciduous shrub",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "（種）吸枝で大きな群落を作り、好ましくないこともある",
+   "quote": "It tends to sucker to form large colonies, which may be objectionable.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "（種）吸枝で増える種で、株幅維持には吸枝の除去が必要",
+   "quote": "This is a suckering species and over time, suckers may need to be removed to maintain plant width.",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "通常害虫なし（ただしカイガラムシの一種）、コルヌス炭疽病・ナラタケ病",
+   "quote": "Generally pest-free but may be susceptible to horse chestnut scale / May be susceptible to cornus anthracnose and honey fungus",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（種）ハモグリバエ・カイガラムシ、炭疽病・うどんこ病・斑点病・胴枯れ・根腐れ・枝枯れ、穿孔虫。シカ・ウサギに強い",
+   "quote": "Leaf miner and scale ... dogwood anthracnose. Other diseases include powdery mildew, leaf spot, canker, root rot, and leaf and twig blight. It can also become vulnerable to borers. / Deer, Rabbits, Erosion",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（種）斑点病がよく出る",
+   "quote": "Leaf spot is a common disease.",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "剪定グループ7",
+   "quote": "Pruning pruning group 7",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "（種）春に古い茎を除いて新梢を促す",
+   "quote": "In the spring, the oldest stems should be removed to encourage new growth.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "（種）3年未満の茎が色鮮やかなので毎年〜隔年で最も古い1/3の茎を地際から除く",
+   "quote": "Remove the oldest third of stems down to the base of the plant every year or two.",
+   "source": "s07",
+   "url": "https://extension.umn.edu/trees-and-shrubs/tartarian-dogwood",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "休眠枝挿し",
+   "quote": "Propagate by hardwood cuttings",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "（種）株分け・取り木・種子・挿し木",
+   "quote": "Recommended Propagation Strategy: Division Layering Seed Stem Cutting",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "RHS の推奨植栽場所に「切り花」",
+   "quote": "Suggested planting locations and garden types ... Cut flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "（種）切り花向き",
+   "quote": "Flower Value To Gardener: Good Cut Showy",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "RHS 送粉者のための植物",
+   "quote": "For Bio-Diversity Plants for Pollinators",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/99959/cornus-alba-sibirica/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "（種）花にチョウや送粉者が来る。果実は鳥が食べる",
+   "quote": "The flowers attract butterflies and pollinators. The fruits are attractive to birds",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "（種）雑草的で、吸枝のため除去が難しい。植栽場所を慎重に",
+   "quote": "The plant is weedy, and its suckering can make it difficult to remove. Please consider your planting site carefully.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "fragrance",
+  "drought",
+  "salt",
+  "lifespan",
+  "staking",
+  "toxicity",
+  "division"
+ ],
+ "notes": "学名 Cornus alba 'Sibirica' は RHS で Accepted（シノニム 'Westonbirt'、Cornus sibirica 等）。落葉低木。NCSU・UMN に品種ページはなく、NCSU 種ページの品種一覧に1行（Coral red stems, bluish fruit, fast growing）のみ。UMN 種ページ・NCSU 種ページともに吸枝で広がる・雑草的との記述あり。RHS 最大高さ・幅1.5-2.5m（マスター100～200 / 100～150 と概ね重なる）。RHS の pH は Acid or Neutral（アルカリ記載なし）。耐塩・乾燥・毒性・株分けの記述は見つからず。"
+}

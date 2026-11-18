@@ -1,0 +1,359 @@
+{
+ "id": "P16",
+ "fields": {
+  "accepted_name": {
+   "value": "Heuchera 'Green Spice'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "synonyms": {
+   "value": [
+    "Heuchera 'Eco-Improved'"
+   ],
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters が (='Eco-Improved') と併記"
+  },
+  "flower_color_detail": {
+   "value": "淡いピンク",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_class": {
+   "value": [
+    "ピンク"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "シカゴ植物園・Walters はクリーム／白"
+  },
+  "spread_min": {
+   "value": 45,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "spread_max": {
+   "value": 60,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "foliage_class": {
+   "value": "シルバー系",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "銀緑色（RHS）、中央が銀色の霜降り（シカゴ）、銀灰色（Walters）"
+  },
+  "foliage_features": {
+   "value": [
+    "切れ込みのある丸い葉",
+    "葉脈がバーガンディ（暗紫色）",
+    "縁は緑"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s08",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": "秋は赤・オレンジ（シカゴ）または琥珀色（NC State）に色づく。冬の葉色は紫・緑・灰・銀で、温暖地では冬も観賞できる",
+   "method": "記載",
+   "sources": [
+    "s08",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "fragrance": {
+   "value": null
+  },
+  "silhouette": {
+   "value": "ドーム",
+   "method": "判定",
+   "sources": [
+    "s08",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "シカゴ Mounded、Walters sturdy mound。RHS は Bushy だが株の全体の形はマウンドに近い"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "Walters も 4-9"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s08",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "USDA上限から（9）。NC State（属）の『多くは比較的乾いた空気を好む』は暑さに弱いという明記とまでは言えないため①に当てはめなかった"
+  },
+  "heat_note": {
+   "value": "暖地では半日陰が最適。属として多くは比較的乾いた空気を好み、高温乾燥期に日向だと葉焼けしやすい",
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "前半は Walters（品種）、後半は NC State（属）"
+  },
+  "drought": {
+   "value": "強",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Drought Resistance: Yes"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Moist but well-drained"
+  },
+  "soil_ph_type": {
+   "value": "中性、ローム・砂質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Walters は pH 中性・アルカリ性・酸性、NC State（属）は弱酸性を好み重い粘土を嫌う"
+  },
+  "salt": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Coastal のみ"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし（シカゴ植物園は温暖地で冬も葉が観賞できるとのみ記載）"
+  },
+  "evergreen_warm": {
+   "value": "常緑",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "native_range": {
+   "value": "園芸品種（交配親の記載なし）。属として北米・ロシア極東原産",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "Kew"
+   ],
+   "level": "genus"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち（広がらない）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s08",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "マウンド状で広がる記述なし"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": null,
+   "note": "clump-forming の明記も広がりの記述もなし"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s08",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "マウンド状で広がり・侵略性の記述なし"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": [
+    "葉・芽のセンチュウ",
+    "ブドウゾウムシ",
+    "ヒューケラさび病",
+    "うどんこ病",
+    "細菌性斑点病",
+    "マメコガネ",
+    "コナカイガラムシ"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "前3つは RHS（品種）、残りは NC State（属）"
+  },
+  "pruning": {
+   "value": "早春に徒長・木質化した茎を葉芽まで切り戻し、春に傷んだ古葉を取り除いて整える。秋には刈り込まない",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "早春"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "地際で刈るのではなく、春に古葉を取り除く・徒長茎を切り戻す内容"
+  },
+  "management_type": {
+   "value": "A 放任型",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "春の手入れのみ。RHS は根茎が持ち上がるので毎年マルチか掘り上げて植え直すと記載（毎年の株更新の明記ではないため D にしなかった）"
+  },
+  "division_interval": {
+   "value": "3〜4年ごと（属として）、秋",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "genus",
+   "note": "間隔は NC State（属：定期的に株分けしないと短命）、時期は RHS（秋の株分け）"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "挿し木"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Walters：COPF 登録品種で増殖にはロイヤリティが必要"
+  },
+  "cut_flower": {
+   "value": null
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "attract birds, bees"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "flower_color_detail",
+   "detail": "RHS pale pink／シカゴ植物園 cream・White／Walters creamy・White。RHS を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "Walters 45-60cm／シカゴ植物園 41cm（16インチ）／RHS 0.1-0.5m。Walters を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS Full sun, Partial shade／シカゴ植物園 Full Sun, Partial Shade／Walters Partial Shade or Full Shade。RHS を採用"
+  },
+  {
+   "field": "soil_ph_type",
+   "detail": "RHS pH Neutral／Walters Neutral or Alkaline or Acid／NC State（属）弱酸性。RHS を採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "マスターの花色『目立たない』はどの文献とも一致しない（淡ピンク〜クリームの花を記載）。耐潮性は直接の記述がなく RHS の Coastal のみ。"
+}

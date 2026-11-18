@@ -1,0 +1,573 @@
+{
+ "id": "P08",
+ "searched_name": "Calamagrostis × acutiflora 'Karl Foerster'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "status": "ok",
+   "note": "マスターの冬_情報源。RHS品種ページ、AGMアイコンあり"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "status": "ok",
+   "note": "品種ページ"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "status": "ok",
+   "note": "Walters Gardens 品種ページ（WebSearchでURL確認）"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/calamagrostis-x-acutiflora-karl-foerster.html",
+   "status": "not_found",
+   "note": "HTTP200だが 'Search Not Found'（URL推測が外れ）"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Calamagrostis × acutiflora 'Karl Foerster'（RHS: Name Status Accepted）",
+   "quote": "Calamagrostis × acutiflora 'Karl Foerster' ... Name Status Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "シノニム Calamagrostis 'Stricta'",
+   "quote": "Synonyms Calamagrostis 'Stricta'",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "イネ科",
+   "quote": "Family Poaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "ブロンズの花穂が淡褐色に褪せる",
+   "quote": "bronze flowering panicles that fade to pale brown",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "最大1〜1.5m",
+   "quote": "Max Height 1-1.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "最大0.5〜1m",
+   "quote": "Max Spread 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "平たく弓なりの葉、長さ90cmまで",
+   "quote": "flat, arching leaves to 90cm in length",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "株立ちの落葉性多年草グラス／房状",
+   "quote": "A clump-forming deciduous perennial grass ... Habit Tufted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた、半日陰",
+   "quote": "Position Full sun, Partial shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H6",
+   "quote": "Hardiness ... H6",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい土、または水はけのよい土",
+   "quote": "Moisture Moist but well–drained or Well–drained",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "白亜・粘土・ローム・砂質、酸性〜アルカリ性",
+   "quote": "Soil Types Chalk, Clay, Loam, Sand ... Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気のある腐植質の水はけよい肥沃な土で育てやすい。痩せ地以外は耐える",
+   "quote": "Easy to grow in most moist, humus-rich, well-drained fertile soils, but will tolerate all but the poorest soils",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉性",
+   "quote": "Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "（属の説明）地下茎で広がる頑健な多年草グラス",
+   "quote": "Calamagrostis are robust rhizomatous perennial grasses",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "害虫はほぼなし。さび病にかかることがある",
+   "quote": "Pests Generally pest-free ... Diseases May be susceptible to a rust",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "早春、生育再開前に古い茎を地際まで切り戻す",
+   "quote": "Cut back old stems to the ground in early spring before growth resumes",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "春中頃に株分け",
+   "quote": "Propagate by division in mid-spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け",
+   "quote": "Propagate by division in mid-spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "英国・アイルランド原産ではない",
+   "quote": "Native to GB/Ireland No",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/72074/x/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Calamagrostis x acutiflora 'Karl Foerster'",
+   "quote": "Calamagrostis x acutiflora 'Karl Foerster'",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "旧名 Calamagrostis arundinacea 'Karl Foerster'",
+   "quote": "Previously known as: Calamagrostis arundinacea 'Karl Foerster'",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "イネ科",
+   "quote": "Family: Poaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "緑の花穂→ピンクがかった紫→濃いえび茶→ブロンズ→黄褐色",
+   "quote": "Initially, the head of the flower emerges green, then airy with pinkish-purple plumes ... changes to dark maroon, then becomes bronze, and eventually tan",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "初夏〜盛夏（6月上旬）",
+   "quote": "The flowers appear in early to mid-summer (early June)",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "3〜5フィート",
+   "quote": "Height: 3 ft. 0 in. - 5 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "1〜1.5フィート",
+   "quote": "Width: 1 ft. 0 in. - 1 ft. 6 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "明るい緑で光沢、細く弓なりに立つ葉",
+   "quote": "bright green, glossy, narrow, arching, upright leaves",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "花茎は冬まで残る",
+   "quote": "The flower stalk remains through the winter.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "株立ち、直立",
+   "quote": "Habit/Form: Clumping Erect",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰",
+   "quote": "prefers full sun to partial sun",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "5a〜9b",
+   "quote": "USDA Plant Hardiness Zone: 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b, 9a, 9b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "暑く湿った・雨の多い夏には弱り、さび病にかかりやすい",
+   "quote": "During hot, humid, or wet summers, this plant suffers and is susceptible to rust diseases.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "湿った土・乾燥・粘土に耐える",
+   "quote": "it is tolerant of wet soils, drought, and clay soils",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土を含む幅広い土に育つ。酸性・中性・アルカリ性",
+   "quote": "grows in a wide range of soil conditions, including clay ... Soil pH: Acid (<6.0) Alkaline (>8.0) Neutral (6.0-8.0)",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水はけよい、湿り気",
+   "quote": "Soil Drainage: Good Drainage Moist",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "地下茎でゆっくり広がる。不稔でこぼれ種はしない",
+   "quote": "It spreads slowly by rhizomes ... 'Karl Foerster' is sterile and does not self-seed.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "staking",
+   "value_ja": "日陰で育てると倒れやすい",
+   "quote": "This grass tends to fall over if grown in shade.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "重大な病害虫なし。長雨でさび病",
+   "quote": "No significant insect pests or diseases. May be susceptible to rust in the presence of extended periods of rain.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "早春に1/3ほど残して切り戻す。強く切りすぎると害",
+   "quote": "Cool-season grasses are best cut back in early spring, leaving about 1/3 of the plant. Harshly cutting back this grass can be detrimental.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "春または初秋に株分け",
+   "quote": "best propagated by division in the spring or early fall",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け",
+   "quote": "Recommended Propagation Strategy: Division",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花・ドライに向く",
+   "quote": "Flower Value To Gardener: Good Cut Good Dried Showy",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/calamagrostis-x-acutiflora-karl-foerster/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "5フィート",
+   "quote": "Height: 5.0 Feet",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "2フィート",
+   "quote": "Spread: 2.0 Feet",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "4〜8",
+   "quote": "Hardiness Zones: 4,5,6,7,8",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "黄褐色系",
+   "quote": "Flower Color: Tan shades",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "晩春",
+   "quote": "Bloomtime: Late Spring",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた（6時間以上）",
+   "quote": "Sunlight: Full Sun (> 6 hrs. Direct Sun)",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "株立ちでコンパクトな直立性",
+   "quote": "clumping grass with a compact, erect growth habit",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥に強い。晴れて乾いた条件を好むが、猛暑時は十分水を",
+   "quote": "Drought Tolerant ... prefers sunny, dry conditions ... Be sure to provide plenty of moisture in extremely hot weather.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "重い粘土を含むほぼどんな土でも。酸性〜アルカリ性",
+   "quote": "It can be grown in nearly any soil, including heavy clay ... Acidic Soil ... Neutral Soil ... Alkaline Soil",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "salt",
+   "value_ja": "耐塩性あり",
+   "quote": "Other Features: ... Salt Tolerant",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種で増えない",
+   "quote": "will not reseed",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "春、新芽が出る前に15cm（6インチ）に切り戻す",
+   "quote": "Cut back to 6 in. in spring before new growth begins.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "春または秋に株分け",
+   "quote": "Propagate by division in either spring or fall.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花・切り葉・ドライフラワー",
+   "quote": "Cut Flower Cut Foliage Dried Flower",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "秋色・ドライの穂が見どころ",
+   "quote": "Seasonal Interest: Dried Seed Heads Fall Color",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "北米原産ではない",
+   "quote": "Origin: Not Native to North America",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=CALKF",
+   "level": "cultivar",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "fragrance",
+  "lifespan",
+  "toxicity",
+  "pollinators",
+  "invasive_note"
+ ],
+ "notes": "学名はRHS・NCSUとも Calamagrostis × acutiflora 'Karl Foerster' で入力と一致。RHSは 'Stricta' をシノニム扱いだが、NCSUは 'Stricta' を別品種（1〜2フィート高く2週間遅咲き）とし混同注意と書いており、文献間で扱いが食い違う。NCSUは高温多湿の夏に弱り、さび病が出ると明記。花期はNCSU『初夏〜盛夏(6月上旬)』、Walters『晩春』、マスターは『盛夏～秋』で差がある。RHSのH値ページはHTMLにH6と出ていた。入力の成株シルエット参照URL（wisc.edu の Gaura 記事）は別植物で、範囲外文献のため読んでいない。"
+}

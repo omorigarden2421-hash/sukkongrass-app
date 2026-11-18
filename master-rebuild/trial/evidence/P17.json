@@ -1,0 +1,523 @@
+{
+ "id": "P17",
+ "searched_name": "Lysimachia nummularia",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "status": "ok",
+   "note": "マスター出典"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "status": "ok",
+   "note": "マスター出典"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "status": "ok",
+   "note": "perennials.com"
+  },
+  {
+   "source": "s07",
+   "url": "(WebSearch)",
+   "status": "not_found",
+   "note": "UMN Extension に本種の解説ページは検索で見つからず"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Lysimachia nummularia（正名）",
+   "quote": "Lysimachia nummularia ... Name Status: Correct",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Lysimachia nummularia",
+   "quote": "Lysimachia nummularia",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "サクラソウ科",
+   "quote": "Family: Primulaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "サクラソウ科",
+   "quote": "Family: Primulaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "黄色（5裂の尖った花弁）",
+   "quote": "Yellow flowers, with five pointed lobes, are borne in the leaf axils in summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "黄色、カップ形で赤い斑点",
+   "quote": "3/4 inch cup-shaped yellow flowers with 5 petals speckled with red dots, at leaf axils.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "明るい黄金色",
+   "quote": "bearing bright golden-yellow flowers from late spring into the summer",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "夏",
+   "quote": "Yellow flowers ... are borne in the leaf axils in summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "夏",
+   "quote": "Blooms in summer.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "晩春～夏",
+   "quote": "from late spring into the summer / Blooming Time: Early Summer, Mid Summer, Late Summer, Late Spring",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "最大0.1～0.5m",
+   "quote": "Max Height: 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "5～10cm（2～4インチ）",
+   "quote": "Height: 0 ft. 2 in. - 0 ft. 4 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "5～10cm",
+   "quote": "Height: 5-10 cm / 2-4 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "最大0.1～0.5m",
+   "quote": "Max Spread: 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "30～60cm（1～2フィート）",
+   "quote": "Width: 1 ft. 0 in. - 2 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "45～60cm",
+   "quote": "Spread: 45-60 cm / 18-23 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "卵形～心形の葉が対生、黒い腺点の模様が出ることがある；無毛",
+   "quote": "A mat-forming, hairless perennial with ovate to heart-shaped leaves that are held in pairs ... they sometimes bear markings of black glands",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "緑の丸い葉、やや波打つ、上面に赤～黒の腺点",
+   "quote": "Green, roundish, slightly ruffled leaves 3/4 to 1 inch wide. The upper surfaces of the leaves have widely scattered, glandular, red to black dots",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "明るい緑の丸い葉",
+   "quote": "a low mat of bright green rounded leaves",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "マット状（茎は地を這う）",
+   "quote": "A mat-forming, hairless perennial ... along the procumbent stems / Habit: Matforming",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "這う・水平・広がる",
+   "quote": "Habit/Form: Creeping, Horizontal, Spreading",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "低いマット状",
+   "quote": "Plants form a low mat",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向、半日陰",
+   "quote": "Position: Full sun, Partial shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "木漏れ日・日向・半日陰",
+   "quote": "Light: Dappled Sunlight ... Full sun ... Partial Shade",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰または日陰（湿った日陰で有用）",
+   "quote": "Sun Exposure: Partial Shade or Full Shade / can be very useful in moist, shady situations",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "3a～8b（4bの記載なし）",
+   "quote": "USDA Plant Hardiness Zone: 3a, 3b, 4a, 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "2～9",
+   "quote": "USDA Zone: 2-9",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H6",
+   "quote": "Hardiness: H6",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾湿の変化に耐える植物（RHS推奨 People & Planet）",
+   "quote": "Plants for both Wet and Dry Conditions",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "drought",
+   "value_ja": "やや乾いた条件にも耐える",
+   "quote": "It prefers moist areas ... but also tolerates drier conditions.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい土、または水はけの悪い土",
+   "quote": "Moisture: Moist but well–drained or Poorly–drained",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿地・湧水地・水辺などの湿った場所を好む；時々の冠水・乾燥・過湿",
+   "quote": "It prefers moist areas such as wet meadows, seeps, swamps, banks of streams and ponds / Soil Drainage: Moist, Occasional Flooding, Occasionally Dry, Occasionally Wet",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通・湿り・湿潤",
+   "quote": "Soil Moisture: Average or Moist or Wet",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・ローム；pH 酸性・アルカリ性・中性",
+   "quote": "Soil Types: Clay, Loam / pH: Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・ローム・砂・浅い礫質；酸性～アルカリ性",
+   "quote": "Soil Texture: Clay, Loam (Silt), Sand, Shallow Rocky / Soil pH: Acid (<6.0), Alkaline (>8.0), Neutral (6.0-8.0)",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通・粘土；pH中性・アルカリ性・酸性",
+   "quote": "Soil Type: Normal or Clay / Soil pH: Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉",
+   "quote": "Foliage: Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "半常緑",
+   "quote": "Creeping Jenny is an herbaceous, semi-evergreen perennial",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "温暖地では半常緑",
+   "quote": "Semi-evergreen in mild winter regions.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ヨーロッパ、南西アジア（英国・アイルランド自生）",
+   "quote": "Plant Range: Europe, SW Asia / Native to GB/Ireland: Yes",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ヨーロッパと温帯アジア原産、北米に導入・帰化",
+   "quote": "native to Europe and temperate Asia. It was introduced in North America as an ornamental ground cover, then naturalized.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "茎の節が地面に触れると発根してマットを作る；細い根茎でも広がる",
+   "quote": "stems branch out and readily root where leaf nodes contact soil, forming a broad mat. It also spreads via a slender rhizome.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "茎が地面に触れたところで発根する",
+   "quote": "the stems root into the ground wherever they touch",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "概ね害虫・病気なし",
+   "quote": "Pests: Generally pest-free / Diseases: Generally disease-free",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "さび病・斑点病にかかりやすい",
+   "quote": "Weedy. Susceptible to rust and leaf spots",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "剪定不要",
+   "quote": "Pruning: No pruning required",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "春か秋に子株を移すだけで簡単に増やせる",
+   "quote": "this plant is easily increased by simply moving new plantlets in spring or fall",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種子または株分け",
+   "quote": "Propagate by seed or propagate by division",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け推奨",
+   "quote": "Recommended Propagation Strategy: Division",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "RHS Plants for Pollinators",
+   "quote": "For Biodiversity: Plants for Pollinators",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "管理しないと厄介者になるおそれ",
+   "quote": "May have the potential to become a nuisance if not managed well",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/10632/wd/details",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "地域によっては侵略的雑草・生態系への脅威とされる；広がりすぎて制御困難なので花壇や芝生の近くには不向き",
+   "quote": "In some areas, it is considered an invasive weed and ecological threat ... It is not a good choice for borders or near lawns as it spreads too aggressively and is difficult to control.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/lysimachia-nummularia/",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "芝生や花壇に逃げ出すことがある；ロックガーデンには勢いが強すぎる",
+   "quote": "Too vigorous for the rock garden. ... Best as a lawn substitute, otherwise this can escape into lawns or borders.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/lysimachia-nummularia.html",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "synonyms",
+  "common_name_ja",
+  "group",
+  "seasonal_foliage",
+  "fragrance",
+  "heat_humidity",
+  "salt",
+  "lifespan",
+  "staking",
+  "toxicity",
+  "cut_flower"
+ ],
+ "notes": "種（品種でない）なので全て level=species。常緑性が文献で食い違う（RHS: Deciduous、NCSU: semi-evergreen、Walters: 温暖地で半常緑）。日照も RHS/NCSU は日向～半日陰、Walters は半日陰～日陰。NCSU の USDA ゾーン一覧は 4b が抜けている（原文どおり）。侵略性の注意は3文献すべてにある。マスターの耐潮性出典 bloomstobees.com は使用不可文献のため読んでいない。"
+}

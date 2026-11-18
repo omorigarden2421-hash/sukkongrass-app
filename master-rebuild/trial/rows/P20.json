@@ -1,0 +1,346 @@
+{
+ "id": "P20",
+ "fields": {
+  "accepted_name": {
+   "value": "Tricyrtis 'Lightning Strike'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS 表記は Tricyrtis 'Lightning Strike' (v)。(v) は斑入りの印なので学名から除いた"
+  },
+  "synonyms": {
+   "value": [
+    "Tricyrtis latifolia 'Lightning Strike'"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "NC State は T. hirta の品種一覧に掲載（マスターの学名）"
+  },
+  "flower_color_detail": {
+   "value": "ラベンダー",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "Walters は柔らかいモーブ（藤色）"
+  },
+  "flower_color_class": {
+   "value": [
+    "青・紫"
+   ],
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "spread_min": {
+   "value": 30,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "spread_max": {
+   "value": 45,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "foliage_class": {
+   "value": "斑入り",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s10",
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "緑と金色の筋（Foliage Color: Variegated）"
+  },
+  "foliage_features": {
+   "value": [
+    "緑と金色の筋状の斑"
+   ],
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10",
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "NC State は黄金色に緑の筋、シカゴは緑に金の筋で地色の表現が割れる"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "fragrance": {
+   "value": null
+  },
+  "silhouette": {
+   "value": "アーチ",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "花が弓なりの茎に沿って並ぶ（NC State 種も Arching）"
+  },
+  "sun": {
+   "value": "半日陰",
+   "method": "判定",
+   "sources": [
+    "s08",
+    "s06",
+    "s10"
+   ],
+   "level": "genus",
+   "note": "3文献とも半日陰〜日陰（日陰も可）。区分に『半日陰〜日陰』がないため半日陰"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": null,
+   "note": "RHS 品種ページに H値なし"
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "暑さの記述なし。USDA上限から（9）"
+  },
+  "heat_note": {
+   "value": null,
+   "note": "暑さ・蒸れの記述なし"
+  },
+  "drought": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s08",
+    "s06"
+   ],
+   "level": "genus",
+   "note": "ホトトギス類として常に湿り気が必要（シカゴ）、種として乾かさない（NC State）"
+  },
+  "soil_moisture": {
+   "value": "湿潤寄り",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "genus",
+   "note": "consistent moisture（ただし沼のような過湿は不可）"
+  },
+  "soil_ph_type": {
+   "value": "弱酸性、有機質に富む土",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s08"
+   ],
+   "level": "species",
+   "note": "NC State（種）弱酸性・有機質、シカゴ（属）有機質。土質（粘土・砂など）の記述は Walters のみ"
+  },
+  "salt": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "evergreen_warm": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "native_range": {
+   "value": null,
+   "note": "種が確定しない（RHS は種小名なし、シノニムは T. latifolia、NC State は T. hirta）ため。T. hirta なら本州・四国・九州（NC State）"
+  },
+  "spread_modes": {
+   "value": [
+    "地下茎",
+    "こぼれ種"
+   ],
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "species",
+   "note": "NC State（T. hirta）ゆっくり広がる匍匐根茎、条件が良いとこぼれ種。RHS（属）根茎性"
+  },
+  "self_seed_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "may self-seed and naturalize under ideal conditions"
+  },
+  "rhizome_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "slow forming, creeping rhizomes"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "Clumping でゆっくり広がる。強い広がり・侵略性の記述なし"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": [
+    "ウサギの食害",
+    "アブラムシ（ウイルス媒介）",
+    "Tricyrtis ウイルス病",
+    "炭疽病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "pruning": {
+   "value": "花がら摘み・支柱は不要",
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "genus"
+  },
+  "pruning_codes": {
+   "value": [
+    "不要"
+   ],
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "genus",
+   "note": "花がら摘み不要の記述を剪定不要とみなした"
+  },
+  "management_type": {
+   "value": "A 放任型",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "genus",
+   "note": "支柱・花がら摘み不要"
+  },
+  "division_interval": {
+   "value": "3〜4年ごと、早春",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "挿し木",
+    "実生"
+   ],
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "cut_flower": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "useful for cutting"
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "チョウ・ハチが受粉、ハチドリに蜜"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "flower_color_detail",
+   "detail": "NC State lavender／Walters soft mauve。NC State を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "Walters（品種）4-9／NC State（種）4a-8b。Walters を採用"
+  },
+  {
+   "field": "drought",
+   "detail": "シカゴ（属）・NC State（種）乾かさない／Walters（品種）Average or Moist。優先順位でシカゴを採用"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "シカゴ（属）常に湿り気／Walters（品種）Average or Moist。シカゴを採用"
+  },
+  {
+   "field": "soil_ph_type",
+   "detail": "NC State（種）弱酸性／Walters（品種）砂質・粘土、pH 中性・アルカリ性・酸性。NC State を採用"
+  }
+ ],
+ "name_review": {
+  "current": "Tricyrtis hirta 'Lightning Strike'",
+  "proposed": "Tricyrtis 'Lightning Strike'",
+  "reason": "RHS の正名は種小名なしの Tricyrtis 'Lightning Strike'（シノニム T. latifolia 'Lightning Strike'）。Walters・シカゴ植物園も種小名なし。T. hirta としているのは NC State だけ",
+  "source": "s01 / Kew"
+ },
+ "notes": "種が確定しないため、T. hirta 種ページ（NC State）由来の値（増え方・病害虫・繁殖など）は品種に当てはまらない可能性がある。Walters は寒冷地では早霜で咲きにくく保護が必要と記載。"
+}

@@ -1,0 +1,344 @@
+{
+ "id": "P07",
+ "fields": {
+  "accepted_name": {
+   "value": "Alchemilla saxatilis",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "Kew"
+   ],
+   "level": "species",
+   "note": "RHS は Name Status Unresolved。Kew で Alchemilla saxatilis Buser が Accepted"
+  },
+  "synonyms": {
+   "value": null
+  },
+  "flower_color_detail": {
+   "value": "黄緑",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "flower_color_class": {
+   "value": [
+    "黄"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species",
+   "note": "黄緑。CBG は緑・淡い緑"
+  },
+  "spread_min": {
+   "value": 20,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species"
+  },
+  "spread_max": {
+   "value": 30,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10",
+    "s08"
+   ],
+   "level": "species",
+   "note": "縁の銀白色は斑ではなく縁取りと判断"
+  },
+  "foliage_features": {
+   "value": [
+    "5〜7裂に深く切れ込む",
+    "縁が銀白色に縁取られる",
+    "半光沢",
+    "裏面に毛"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10",
+    "s08"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": null
+  },
+  "fragrance": {
+   "value": null
+  },
+  "silhouette": {
+   "value": "ドーム",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species",
+   "note": "RHS 低いマウンド・房状、clump forming。CBG は Creeping"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "usda_min": {
+   "value": 3,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "species",
+   "note": "USDA上限から（上限9）。シカゴ評価試験の1998年夏の衰弱は原因の記載がなく①には当てはめなかった"
+  },
+  "heat_note": {
+   "value": "シカゴの評価試験では1998年夏に急に衰弱し、翌冬に株元が傷んだ（原因の記載なし）。属としては日なたでは夏の高温地域で追加の水やりが必要。",
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s10",
+    "s08"
+   ],
+   "level": "species",
+   "note": "Walters Average or Moist、CBG Moist。CBG（属）は乾燥で葉が枯れるが切り戻すとすぐ新葉が出るとする"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "salt": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS Coastal のみ"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "native_range": {
+   "value": "スペイン〜オーストリア・イタリア",
+   "method": "記載",
+   "sources": [
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち（広がらない）",
+    "こぼれ種"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08"
+   ],
+   "level": "species",
+   "note": "株立ちは RHS（種）、こぼれ種は CBG（属: self-sow readily）"
+  },
+  "self_seed_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "genus",
+   "note": "属として self-sow readily。花がら摘みで減る"
+  },
+  "rhizome_level": {
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "clump-forming の記述のみ"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "invasive_note": {
+   "value": null
+  },
+  "toxicity": {
+   "value": null
+  },
+  "pests": {
+   "value": [
+    "特になし"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS: Generally pest-free; Generally disease-free"
+  },
+  "pruning": {
+   "value": "夏の花後に切り戻すと新しい葉が出る。咲き終わった花穂を切ると一年中きれいに保てる。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species",
+   "note": "夏の切り戻しは花後の更新目的で、葉が傷むためとの記述（属の乾燥時を除く）ではないと判断"
+  },
+  "division_interval": {
+   "value": "春または初秋（間隔の記載なし）",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species"
+  },
+  "propagation": {
+   "value": [
+    "実生",
+    "株分け"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "cut_flower": {
+   "value": null
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "species",
+   "note": "CBG Attracts Butterflies。RHS にバッジなし"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "spread",
+   "detail": "RHS 0.1-0.5m／Walters 20-30cm／CBG 評価試験 18インチ（46cm）。Walters を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS・Walters 日なた〜半日陰／CBG 半日陰〜日陰。RHS を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "CBG 3-9／Walters 2-9。CBG を採用"
+  },
+  {
+   "field": "flower_color",
+   "detail": "RHS・Walters 黄緑／CBG 緑・淡い緑。RHS を採用"
+  },
+  {
+   "field": "silhouette",
+   "detail": "RHS・Walters 低いマウンド／CBG Creeping。RHS を採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "品種名なしの種商品のため種レベル記述を品種レベル扱い（level は species のまま記録）。RHS の Name Status が Unresolved のため Kew の正名で確認（マスターと同じ）。マスターの耐潮性出典（plantlust の A. mollis）は別種・対象外文献で未使用。"
+}

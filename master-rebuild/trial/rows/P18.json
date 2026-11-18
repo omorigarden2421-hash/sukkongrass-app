@@ -1,0 +1,296 @@
+{
+ "id": "P18",
+ "fields": {
+  "accepted_name": {
+   "value": null,
+   "note": "使用可文献に 'Fräulein'（Fraulein）の品種記録なし。Kew も照合なし。RHS にあるのは Lupinus Band of Nobles Series（シリーズ）のみで、'Fräulein' がその一色である根拠は未読の Jelitto URL だけ"
+  },
+  "synonyms": {
+   "value": null,
+   "note": "品種の記録がないため。シリーズのシノニムは Lupinus polyphyllus 'Band of Nobles'（RHS）"
+  },
+  "flower_color_detail": {
+   "value": null,
+   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）。シリーズの花色は混色の列挙で品種の色の根拠にならない"
+  },
+  "flower_color_class": {
+   "value": null,
+   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）"
+  },
+  "spread_min": {
+   "value": null,
+   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）（RHS シリーズ 0.5-1m、NC State 属 45-60cm）"
+  },
+  "spread_max": {
+   "value": null,
+   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）"
+  },
+  "foliage_class": {
+   "value": null,
+   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）"
+  },
+  "foliage_features": {
+   "value": null,
+   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "fragrance": {
+   "value": null,
+   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）（RHS シリーズは花に香りあり）"
+  },
+  "silhouette": {
+   "value": null,
+   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）（RHS シリーズ Clump forming、NC State 属 Erect/Columnar）"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Band of Nobles Series の値。RHS 栽培ガイド（属）は日向を好み日陰では花付きが悪いと記載"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "genus"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "genus",
+   "note": "ゾーン7〜8では一年草扱いとの記載あり"
+  },
+  "rhs_h": {
+   "value": "H5",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Band of Nobles Series の値"
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "genus",
+   "note": "冷涼な気候が必要、米国深南部の高温多湿を嫌うと明記"
+  },
+  "heat_note": {
+   "value": "冷涼な気候を好み、ゾーン7〜8の暖地では一年草扱い。高温多湿を嫌い、暑い地域では午後に日陰になる場所がよい。ラッセル系交配種は冷涼な山地の庭向き",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "genus"
+  },
+  "drought": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "乾燥耐性の記述なし。RHS（シリーズ）moist but well-drained を medium 相当とみなした"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS（シリーズ）light, moist but well-drained。属として過湿になりやすい土では鉢植えを勧める"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜中性、ローム・砂質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Band of Nobles Series の値。RHS 栽培ガイド（属）も中性〜弱酸性"
+  },
+  "salt": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Band of Nobles Series の値"
+  },
+  "native_range": {
+   "value": "園芸品種（交配親の記載なし）",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "シリーズのシノニムは L. polyphyllus 'Band of Nobles'。属の原産地はアメリカ、地中海〜タンザニア（NC State）"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち（広がらない）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Clump forming（シリーズ）"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Clump forming で広がる記述なし（RHS 属：直根が深い）"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": "食べると有害、全草有毒。犬・猫・ウサギ・カメなどペットに有毒",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "シリーズページと RHS 栽培ガイド（属）"
+  },
+  "pests": {
+   "value": [
+    "ナメクジ",
+    "カタツムリ",
+    "ルピナスアブラムシ",
+    "うどんこ病",
+    "炭疽病",
+    "腐敗",
+    "斑点病",
+    "ウイルス病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "シリーズページと RHS 栽培ガイド（属）"
+  },
+  "pruning": {
+   "value": "花がらを摘む（終わった花穂を基部から切る）と二番花が咲く。霜で枯れた葉は刈り取ってよい",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "シリーズページと RHS 栽培ガイド（属）"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後",
+    "秋"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "花後の切り戻しで返り咲き。なお二年草または短命な多年草（2〜5年）とされるが、毎年の株更新が必要との明記はない"
+  },
+  "division_interval": {
+   "value": "株分けは成功しにくい（直根が深い）。芽が複数あれば早春に分けられる",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "genus"
+  },
+  "propagation": {
+   "value": [
+    "実生",
+    "挿し木"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "実生はシリーズページ、挿し木は RHS 栽培ガイド（属）"
+  },
+  "cut_flower": {
+   "value": null,
+   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）（NC State 属：Good Cut）"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "genus",
+   "note": "チョウや数種のハチ、特にマルハナバチが好む（love lupins）を highly attractive 相当とした"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "sun",
+   "detail": "RHS シリーズ Full sun, Partial shade／RHS 栽培ガイド（属）日向、日陰は避ける。シリーズの値を採用"
+  },
+  {
+   "field": "toxicity",
+   "detail": "RHS 食べると有害・全草有毒／NC State（属）毒性低、有毒部位は種子。RHS を採用"
+  }
+ ],
+ "name_review": {
+  "current": "Lupinus × hybrida 'Fraulein'",
+  "proposed": "未確定（使用可文献で確認できず）",
+  "reason": "使用可文献に 'Fräulein' の品種記録がなく、Kew でも照合できない。種の扱いもマスター Lupinus × hybrida、Jelitto URL L. perennis、RHS シリーズのシノニム L. polyphyllus と3通りに割れている。品種名も Fräulein（ウムラウト）か Fraulein か未確認。Band of Nobles Series の一色かどうかの確認が必要",
+  "source": "s01 / Kew"
+ },
+ "notes": "品種そのものの記述がなく、値はすべて Band of Nobles Series（level=species と記録）または属レベル。花色・株張り・形など品種レベル必須の項目は null。シリーズへの帰属が未確認なので、シリーズ由来の値（日照・H5・土・落葉など）も参考扱いが妥当。"
+}

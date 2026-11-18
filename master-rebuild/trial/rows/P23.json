@@ -1,0 +1,293 @@
+{
+ "id": "P23",
+ "fields": {
+  "accepted_name": {
+   "value": "Anemone sylvestris 'Madonna'",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "Kew"
+   ],
+   "level": "species",
+   "note": "RHS の品種ページは Name Status Unresolved。種 Anemone sylvestris は RHS で Correct、Kew でも Accepted なので Kew 正名＋品種名"
+  },
+  "synonyms": {
+   "value": null,
+   "note": "文献に記載なし（Anemonoides sylvestris は今回の文献に記載なし）"
+  },
+  "flower_color_detail": {
+   "value": null,
+   "note": "品種レベルの記述なし（種レベルの記述は品種に使わない項目）"
+  },
+  "flower_color_class": {
+   "value": null,
+   "note": "品種レベルの記述なし（種レベルの記述は品種に使わない項目）"
+  },
+  "spread_min": {
+   "value": null,
+   "note": "品種レベルの記述なし（種レベルの記述は品種に使わない項目）"
+  },
+  "spread_max": {
+   "value": null,
+   "note": "品種レベルの記述なし（種レベルの記述は品種に使わない項目）"
+  },
+  "foliage_class": {
+   "value": null,
+   "note": "品種レベルの記述なし（種レベルの記述は品種に使わない項目）"
+  },
+  "foliage_features": {
+   "value": null,
+   "note": "品種レベルの記述なし（種レベルの記述は品種に使わない項目）"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "note": "品種レベルの記述なし（種レベルの記述は品種に使わない項目）"
+  },
+  "fragrance": {
+   "value": null,
+   "note": "品種レベルの記述なし（種レベルの記述は品種に使わない項目）"
+  },
+  "silhouette": {
+   "value": null,
+   "note": "品種レベルの記述なし（種レベルの記述は品種に使わない項目）"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS: Full sun, Partial shade"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 8,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "species",
+   "note": "耐暑性の明記なし（夏の暑さで開花が止まる記述のみ）。USDA上限から（8→中）"
+  },
+  "heat_note": {
+   "value": "夏の暑さで開花がいったん止まり、9月に少し返り咲く。",
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Moist but well-drained or Well-drained、腐植に富み水はけのよい土"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・ローム",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "salt": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "native_range": {
+   "value": "ヨーロッパ、コーカサス",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Kew: Temp. Eurasia（温帯ユーラシア）"
+  },
+  "spread_modes": {
+   "value": [
+    "地下茎"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species",
+   "note": "root suckers（根からの吸枝）で広がる"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species",
+   "note": "spreading rapidly by root suckers／spreader。隔離推奨や invasive の記述はない"
+  },
+  "mixing": {
+   "value": "強い（周囲を圧迫、配置注意）",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species",
+   "note": "急速に広がる・場所を十分とるか毎春縁切りを"
+  },
+  "invasive_note": {
+   "value": "根からの吸枝で急速に広がる。場所を十分にとるか、毎春縁を切って範囲を抑える。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "toxicity": {
+   "value": "有害の可能性：摂取で軽い胃の不調、触れると皮膚刺激",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "pests": {
+   "value": [
+    "線虫",
+    "ナメクジ",
+    "イモムシ",
+    "うどんこ病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "シカ・ウサギに強い（s08/s10）"
+  },
+  "pruning": {
+   "value": "花後に切り戻す。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "mixing は 強い（侵略的ではない）、毎年の株分け・更新の記述なし（s10 の毎春の縁切りは株更新ではない）、pruning_codes に 花後"
+  },
+  "division_interval": {
+   "value": "間隔の記載なし。早春（s01）、春か秋（s10）に株分け",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "propagation": {
+   "value": [
+    "株分け"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "cut_flower": {
+   "value": null,
+   "note": "品種レベルの記述なし（種レベルの記述は品種に使わない項目）"
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "species",
+   "note": "Attracts Butterflies"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "usda",
+   "detail": "CBG 4-8／perennials.com 2-9（いずれも種レベル）。耐寒優先順位で CBG（s08）を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "CBG は Partial Shade（日陰に耐える）。RHS の Full sun, Partial shade を採用"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "perennials.com は Average or Moist or Wet。RHS の Moist but well-drained or Well-drained を採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "品種 'Madonna' の記述は使用可能文献でほぼ得られず（RHS 品種ページは Unresolved で科・属説明のみ、CBG 品種ページは名前のみ、perennials.com・NCSU に品種ページなし）。値はすべて種 Anemone sylvestris レベル。品種専用項目（花色・株張り・葉・香り・樹形・切り花）は null。マスター出典（gardenia.net、North Creek）は対象外で未使用。"
+}

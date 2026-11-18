@@ -1,0 +1,354 @@
+{
+ "id": "P01",
+ "fields": {
+  "accepted_name": {
+   "value": "Artemisia schmidtiana 'Nana'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS [2] のエントリ（Accepted）。[1] は誤用名で別植物"
+  },
+  "synonyms": {
+   "value": [
+    "Artemisia schmidtiana 'Silver Mound'"
+   ],
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "CBG 評価報告で 'Silver Mound' = 'Nana'。RHS の 'Nana' misapplied [1]（A. caucasica 等）は別植物なので入れない"
+  },
+  "flower_color_detail": {
+   "value": "黄色がかった小花（うつむいて咲く）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_class": {
+   "value": [
+    "黄"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "spread_min": {
+   "value": 30,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "spread_max": {
+   "value": 60,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "foliage_class": {
+   "value": "シルバー系",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10",
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "foliage_features": {
+   "value": [
+    "毛状に細かく切れ込む（シダ状・レース状）",
+    "柔らかい"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10",
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": "冬も灰色〜銀色の葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "fragrance": {
+   "value": "葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "silhouette": {
+   "value": "ドーム",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10",
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "RHS low spreading mound／Walters cushion／CBG Mounded。RHS の Habit 欄は Matforming だが全体の形はドームと判断"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H5",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s10",
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "大雨後の高湿度で株元が腐る（melt-out）、夏の多湿地域では刈り込みが必要との記述を「高温多湿に弱い」の明記と判断。CBG は A. frigida よりは耐えたとも記載"
+  },
+  "heat_note": {
+   "value": "夏に多湿な地域では、花が見え始めた頃に強く刈り込むとよい。シカゴの評価試験では大雨後の高湿度で株元が腐り（melt-out）、晩夏に株の中心が空いた。",
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "soil_moisture": {
+   "value": "排水必須",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS: 重く排水の悪い土では枯れ込むことがある"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": null
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "半常緑",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "native_range": {
+   "value": "ロシア極東南東部・サハリン〜日本（北海道・本州）",
+   "method": "記載",
+   "sources": [
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち（広がらない）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "CBG clump-forming。広がる記述なし"
+  },
+  "self_seed_level": {
+   "value": null
+  },
+  "rhizome_level": {
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "clump-forming の記述のみ（広がらないとの明記まではない）"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": null
+  },
+  "toxicity": {
+   "value": null
+  },
+  "pests": {
+   "value": [
+    "ナラタケ病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS: Generally pest-free"
+  },
+  "pruning": {
+   "value": "春に枯れた茎や芽を取り除く。夏に多湿な地域では、花が見え始めた頃（初夏〜盛夏）に強く刈り込む。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "早春",
+    "初夏"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "management_type": {
+   "value": "C 夏前切戻型",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "株分けは2〜3年ごとで D の「毎年〜2年ごと」には当たらないと判断"
+  },
+  "division_interval": {
+   "value": "2〜3年ごと、春または秋",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "実生",
+    "株分け",
+    "挿し木"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "cut_flower": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters の用途一覧に Cut Flower とあるのみ"
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "flower_color",
+   "detail": "RHS 黄色っぽい・CBG 黄／Walters 白。RHS を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "RHS 0.1-0.5m／Walters 30-60cm／CBG 評価試験 32インチ。Walters を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS・CBG 日なた／Walters 日なた〜半日陰。RHS を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "CBG 4-9／Walters 1-9。CBG を採用"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "RHS 湿り気があり水はけのよい〜水はけのよい土（排水不良で枯れ込む）／Walters Dry／CBG Moderate。RHS を採用"
+  },
+  {
+   "field": "silhouette",
+   "detail": "RHS Habit 欄 Matforming／RHS 本文・Walters・CBG はマウンド・クッション。ドームを採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "草丈は RHS 10cm／Walters 25-30cm／CBG 1フィートと食い違う（マスター項目外）。native_range は文献になく Kew から。"
+}

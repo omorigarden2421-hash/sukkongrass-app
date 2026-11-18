@@ -1,0 +1,355 @@
+{
+ "id": "P10",
+ "fields": {
+  "accepted_name": {
+   "value": "Hosta 'Gold Standard'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS 表記は Hosta 'Gold Standard' (fortunei) (v)：フォーチュネイ群・斑入り"
+  },
+  "synonyms": {
+   "value": [
+    "Funkia（属の旧名）"
+   ],
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "genus",
+   "note": "品種の別名は文献になし"
+  },
+  "flower_color_detail": {
+   "value": "ラベンダーがかったピンク",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_class": {
+   "value": [
+    "ピンク"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Walters は淡いラベンダー"
+  },
+  "spread_min": {
+   "value": 91,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters 36インチ"
+  },
+  "spread_max": {
+   "value": 91,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters 36インチ"
+  },
+  "foliage_class": {
+   "value": "斑入り",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "中斑（中央が黄、縁が濃緑）。季節で中央の色が変わるが斑入りを優先"
+  },
+  "foliage_features": {
+   "value": [
+    "幅広い卵形の大きな葉",
+    "縮緬状（しわが寄る）",
+    "中央がクリーム黄〜黄金色、縁が濃緑〜灰緑の中斑"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": "葉の中央は春は明るい緑で、初夏にかけて黄金色に変わる。朝日で黄色が強まる",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "fragrance": {
+   "value": null,
+   "note": "品種レベルの記述なし（NCSU 属ページの Fragrant は属レベルのため不採用）"
+  },
+  "silhouette": {
+   "value": "ドーム",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Forms a large mound of foliage"
+  },
+  "sun": {
+   "value": "半日陰",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Partial shade"
+  },
+  "usda_min": {
+   "value": 3,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "USDA上限から（上限9）。暑さ・高温多湿の明記なし"
+  },
+  "heat_note": {
+   "value": "高温多湿の明記はない。暖地では葉焼けを防ぐため日陰〜木漏れ日に植え、午後の強い日差しは避ける。排水不良で根腐れ・株腐れが起きる（属）。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "genus"
+  },
+  "drought": {
+   "value": null,
+   "note": "乾燥耐性の記述なし"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Moist but well-drained。NCSU（属）は特に冬の過湿に弱いとする"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜中性（pH5.5〜7.5）、粘土・ローム（砂質ロームが粘土よりよい）",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "genus",
+   "note": "slightly salt tolerant"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし（NCSU 属に28°F以下で地上部が枯れるとあるが寒冷地の文献ではない）"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "native_range": {
+   "value": "園芸品種（フォーチュネイ群。交配親の記載なし）。属の原産はロシア極東〜中国・日本・朝鮮",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "Kew"
+   ],
+   "level": "genus"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち（広がらない）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Clump forming。NCSU（属）は地下茎で育つとする"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": null,
+   "note": "広がらない・広がるの明記なし"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "株立ちで強勢・侵略の記述なし"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": "猫・犬・馬に有毒（全草）",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "genus"
+  },
+  "pests": {
+   "value": [
+    "ナメクジ",
+    "カタツムリ",
+    "キンケクチブトゾウムシ（鉢植え）",
+    "ウイルス病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "NCSU（属）は線虫、根腐れ、HVX、炭疽病、シカ・ウサギも挙げる"
+  },
+  "pruning": {
+   "value": "傷んだ葉は随時取り除き、秋に地上部が枯れたら片付ける。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "秋"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "management_type": {
+   "value": "A",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "枯れ葉の片付けのみ。株分けは3〜5年ごと（属）で毎年更新ではない"
+  },
+  "division_interval": {
+   "value": "3〜5年ごと、早春の芽出し時（属）。RHS は晩夏または早春、Walters は数年育ててから3芽以上で",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s01",
+    "s10"
+   ],
+   "level": "genus"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "その他（組織培養）"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10",
+    "s06"
+   ],
+   "level": "genus",
+   "note": "実生は親と同じにならない（NCSU 属）ため除外"
+  },
+  "cut_flower": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters Cut Foliage（切り葉）のみ"
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "genus",
+   "note": "蜂・蝶・ハチドリが来る（属）。Walters はハチドリのみ"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "flower_color",
+   "detail": "RHS ラベンダーがかったピンク／Walters 淡いラベンダー。RHS を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS 半日陰／Walters 半日陰〜日陰。RHS を採用"
+  },
+  {
+   "field": "spread_modes",
+   "detail": "RHS 株立ち／NCSU（属）地下茎で育つ。RHS を採用"
+  }
+ ],
+ "name_review": {
+  "current": "Hosta'Gold Standard'",
+  "proposed": "Hosta 'Gold Standard'",
+  "reason": "属名と品種名の間の半角スペースが抜けている。RHS では Hosta 'Gold Standard' (fortunei) (v)（フォーチュネイ群の斑入り品種）",
+  "source": "s01 / Kew"
+ },
+ "notes": "暑さの記述が品種・属ともなく、USDA上限で中とした。NCSU は属ページのみ（耐塩・毒性・株分け間隔・送粉者は属レベル）。"
+}

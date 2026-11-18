@@ -1,0 +1,394 @@
+<title>宿根草マスター項目定義書</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap">
+<style>
+/* Layout: 一列の記入台帳。上に前提の質問、下に項目ごとの判定行。進捗バーを上部に固定。 */
+:root{
+  --bg:#f3f5f2; --surface:#ffffff; --fg:#1f2a24; --muted:#5d6b63; --line:#d6ddd7;
+  --accent:#2f6b4a; --accent-soft:#e1efe6; --ochre:#9a6a1f; --ochre-soft:#f6ecd9;
+  --warn:#a33b2b; --font-body:"BIZ UDPGothic","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+  --font-head:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141a17; --surface:#1c2420; --fg:#e4ebe6; --muted:#9aa9a0; --line:#33403a;
+  --accent:#7cc79c; --accent-soft:#22382c; --ochre:#e0b46a; --ochre-soft:#3a3020; --warn:#f08a7a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141a17; --surface:#1c2420; --fg:#e4ebe6; --muted:#9aa9a0; --line:#33403a;
+  --accent:#7cc79c; --accent-soft:#22382c; --ochre:#e0b46a; --ochre-soft:#3a3020; --warn:#f08a7a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.7}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px}
+h1,h2,h3{font-family:var(--font-head);text-wrap:balance;margin:0}
+h1{font-size:1.6rem;line-height:1.3}
+h2{font-size:1.2rem;margin:40px 0 4px}
+.lead{color:var(--muted);margin:8px 0 0;max-width:62ch}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line);margin:20px calc(-1*max(16px,env(safe-area-inset-left,0px))) 0;padding:10px max(16px,env(safe-area-inset-left,0px));display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+.prog{flex:1 1 220px;min-width:0}
+.prog-track{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:4px}
+.prog-fill{height:100%;background:var(--accent);width:0;transition:width .3s}
+.prog-label{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.save{font-size:.85rem;color:var(--muted)}
+.save.err{color:var(--warn)}
+.toggle{font-size:.85rem;display:flex;gap:6px;align-items:center;cursor:pointer}
+.howto{background:var(--accent-soft);border-radius:8px;padding:12px 16px;margin-top:20px;font-size:.92rem}
+.howto ol{margin:4px 0 0;padding-left:1.4em}
+.q{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px;margin-top:12px}
+.q h3{font-size:1rem;line-height:1.5}
+.q .hint{color:var(--muted);font-size:.88rem;margin:4px 0 0}
+.qn{color:var(--accent);margin-right:.4em;font-variant-numeric:tabular-nums}
+.opts{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0;pointer-events:none}
+.opt span{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:5px 14px;font-size:.9rem;cursor:pointer;background:var(--bg);user-select:none}
+.opt input:checked+span{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.opt input:focus-visible+span{outline:2px solid var(--ochre);outline-offset:2px}
+textarea{width:100%;box-sizing:border-box;margin-top:10px;border:1px solid var(--line);border-radius:6px;padding:8px 10px;font:inherit;font-size:.92rem;background:var(--bg);color:var(--fg);min-height:2.6em;resize:vertical}
+textarea:focus{outline:2px solid var(--accent);outline-offset:0;border-color:var(--accent)}
+.group-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.group-desc{color:var(--muted);font-size:.9rem;margin:0}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-top:10px}
+.item.done{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+.item-top{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.item-name{font-weight:700;font-size:1rem}
+.badge{font-size:.72rem;letter-spacing:.04em;padding:1px 8px;border-radius:4px;white-space:nowrap}
+.b-now{background:var(--line);color:var(--fg)}
+.b-new{background:var(--ochre-soft);color:var(--ochre)}
+.b-site{background:var(--accent-soft);color:var(--accent)}
+.note{font-size:.88rem;color:var(--muted);margin:4px 0 0}
+.prop{font-size:.88rem;margin:2px 0 0}
+.prop b{color:var(--ochre);font-weight:700}
+.row-label{font-size:.78rem;color:var(--muted);margin-top:10px;letter-spacing:.04em}
+.row-label + .opts{margin-top:4px}
+.help{font-size:.88rem;margin:6px 0 0;background:var(--ochre-soft);border-radius:6px;padding:6px 10px}
+.help b{color:var(--ochre)}
+.newmark{font-size:.72rem;color:var(--ochre);border:1px solid var(--ochre);border-radius:4px;padding:0 6px;margin-left:6px;vertical-align:2px}
+.hidden-done .item.done,.hidden-done .q.done{display:none}
+.foot{margin-top:40px;color:var(--muted);font-size:.85rem}
+@media (prefers-reduced-motion:reduce){.prog-fill{transition:none}}
+.decided{margin:6px 0 0;padding-left:1.3em}
+.decided li{margin:2px 0}
+.def{display:grid;grid-template-columns:5.5em 1fr;gap:4px 10px;margin:10px 0 0;font-size:.9rem}
+.def dt{color:var(--muted);font-size:.8rem;padding-top:.15em}
+.def dd{margin:0;min-width:0}
+.b-lit{background:var(--accent-soft);color:var(--accent)}
+.b-rule{background:var(--ochre-soft);color:var(--ochre)}
+.b-own{background:var(--line);color:var(--fg)}
+.b-auto{border:1px solid var(--line);color:var(--muted)}
+.odds-h{color:var(--accent);border:1px solid var(--accent)}
+.odds-m{color:var(--ochre);border:1px solid var(--ochre)}
+.odds-l{color:var(--warn);border:1px solid var(--warn)}
+</style>
+
+
+<div class="wrap">
+  <h1>宿根草マスター 項目定義書（第1版）</h1>
+  <p class="lead">チェックリストの回答をもとに、新しいマスターの項目を1つずつ定義しました。各項目の「意味」「入れる値」「調べ方」を読んで、よければ「OK」、直したいところがあれば「修正」とメモを書いてください。この定義が固まったら、20〜30品種で試作します。</p>
+
+  <div class="bar">
+    <div class="prog">
+      <div class="prog-label" id="progLabel">読み込み中…</div>
+      <div class="prog-track"><div class="prog-fill" id="progFill"></div></div>
+    </div>
+    <label class="toggle"><input type="checkbox" id="hideDone"> 記入済みを隠す</label>
+    <span class="save" id="saveState" aria-live="polite"></span>
+  </div>
+
+  <div class="howto">
+    <strong>記入のしかた</strong>
+    <ol>
+      <li>第0部：チェックリストの回答から私が理解した内容です。合っているか確認してください。</li>
+      <li>第1部：追加で確認したいことに答えてください。</li>
+      <li>第2部・第3部：文献と項目の定義に「OK」「修正」などを付けてください。</li>
+    </ol>
+  </div>
+
+  <h2>第0部　決まったことの確認</h2>
+  <p class="group-desc">チェックリストの回答から、こう理解しました。違っていたら「違う」を選び、メモに正しい内容を書いてください。</p>
+  <div id="decided"></div>
+
+  <h2>第1部　確認したいこと</h2>
+  <p class="group-desc">項目定義を固めるために、追加で決めていただきたいことです。</p>
+  <div id="questions"></div>
+
+  <h2>第2部　参照する文献</h2>
+  <p class="group-desc">ご回答の範囲に当てはまる資料を挙げました。使ってよいものに「OK」を付けてください。マスターでは各値に、ここで付けた文献番号を記録します。</p>
+  <div id="sources"></div>
+
+  <h2>第3部　項目の定義</h2>
+  <p class="group-desc"><span class="badge b-lit">文献</span> 文献から値を取る　<span class="badge b-rule">判定</span> 文献の記述を決まったルールで区分に当てはめる　<span class="badge b-own">自社</span> 御社の情報　<span class="badge b-auto">自動</span> ほかの項目から計算する<br>「調べてわかる見込み」は、今のマスターの情報源と文献の書き方から見た私の予想です。試作で実際の埋まり具合を確かめます。</p>
+  <div id="items"></div>
+
+  <h2>第4部　自由記入</h2>
+  <div class="q" data-id="free">
+    <h3>定義書全体について、気づいたことがあれば書いてください。</h3>
+    <textarea id="t-free" data-id="free" data-field="memo" rows="5"></textarea>
+  </div>
+  <p class="foot">記入内容は自動で保存され、Claudeが読み取ります。書き終わったら会話で「書き込んだ」と伝えてください。</p>
+</div>
+
+<script>
+const JUDGE=["OK","修正","削除","迷う"];
+const SRC_JUDGE=["OK","使わない","迷う"];
+
+const DECIDED=[
+ {id:"k01",t:"文献は「書籍・図鑑」「植物園・公的機関のDB」「大学の公開資料」「種苗・育種会社のカタログ」を使う。ナーサリーの商品ページは使わない。"},
+ {id:"k02",t:"文献どうしで値が食い違うときは、植物園・公的機関の値を優先する。"},
+ {id:"k03",t:"文献に記載がない項目は空欄にする。調べてもわからない項目は、試作のあとで削除を検討する。"},
+ {id:"k04",t:"耐寒性（強〜弱）は今の値をそのまま引き継ぎ、再調査しない。"},
+ {id:"k05",t:"耐寒性の各区分の意味は、商品ページの説明文（強＝北海道内の多くの地域で戸外越冬可、中の強＝最低気温−15度以下が4〜5日以上続かなければ越冬可、など）を正式な定義にする。"},
+ {id:"k06",t:"管理時期などの「本州」は関東平野部、「北海道」は広尾町を基準にする。"},
+ {id:"k07",t:"在庫・価格はマスターから切り離して別シートにする。小売単価は卸単価÷0.6で計算する。"},
+ {id:"k08",t:"ポット規格と出荷できる時期はマスターに入れない。"},
+ {id:"k09",t:"専務の「特徴」は、誤字と表記ゆれだけを直し、文献と食い違う箇所には印を付けて知らせる。"},
+ {id:"k10",t:"管理タイプ・管理手間★・管理難易度は1つの体系にまとめる。使いにくければ再検討する。"},
+ {id:"k11",t:"一言キャッチ・おすすめ文は自動で作る。冬の手入れも自動で作り、品質がだめなら手で書く。"},
+ {id:"k12",t:"サイトの絞り込みカテゴリも、マスターの値から自動で決める。"},
+ {id:"k13",t:"対象は現行916品種＋未登録の売れた品種76件＋樹木。ヴィヒタは対象外。"},
+ {id:"k14",t:"まず20〜30品種で試作し、確認してから全件に進む。"},
+ {id:"k15",t:"できあがったマスターは、まず通販サイトの更新に使い、そのあとすぐ他の5つの場面にも使う。"},
+ {id:"k16",t:"業者向けには「植え付け適期」を載せる。"}
+];
+
+const QUESTIONS=[
+ {id:"d01",t:"手元にある参照したい本の書名を教えてください。",o:["特になし（Webで読める資料だけでよい）"],h:"文献の範囲に「書籍・図鑑」が入っています。Claudeは本の中身を直接読めないため、使う場合はページの写真やPDFをいただく形になります。"},
+ {id:"d02",t:"花期は、どこの開花時期を書きますか？",o:["関東平野部の時期","広尾町（圃場）の時期","両方を書く"],h:"英米の文献の花期は英国・米国基準です。関東や広尾町の時期に読み替える必要があり、ここは文献だけでは決まりません。"},
+ {id:"d03",t:"小売単価（卸単価÷0.6）の端数はどうしますか？",o:["円未満を切り捨て","四捨五入","切り上げ","今のまま端数を残す"],h:"今は 346.666… のように端数が残っています。商品ページは税込382円で表示されていました。"},
+ {id:"d04",t:"樹木も対象とのことですが、樹木にも宿根草と同じ項目を使いますか？",o:["同じ項目でよい","樹木用の項目（樹高・剪定時期など）を追加したい","樹木は後回し"]},
+ {id:"d05",t:"植物名の表記ルールはこの形でよいですか？　例：アルテミシア シュミッティアナ 'ナナ'（アサギリソウ）",o:["この形でよい","修正したい（メモに）"],h:"改行と全角スペースをなくし、品種名は半角の ' ' でくくり、和名・流通名は（ ）に入れる形です。今は ‘ ’ と ' ' が混在しています。"},
+ {id:"d06",t:"成株シルエットは、文献の形の記述（直立する、こんもり丸くなる、マット状に広がる など）を対応表で7分類に当てはめる方法で決めてよいですか？",o:["その方法でよい","削除する","相談したい"],h:"「調査で確定できるか」とのご質問への答えです。この方法なら根拠付きで決められます。記述が見つからない品種は空欄にします。"},
+ {id:"d07",t:"耐潮性は、文献で調べられる品種が少なそうです（今の根拠の多くがナーサリーのページ）。どうしますか？",o:["空欄が増えても残す","試作で埋まり具合を見て決める","削除する"],h:"広尾町は海沿いなので、お客様にとっても大事な項目だと思います。"},
+ {id:"d08",t:"西日耐性は、文献に直接の記述がほとんどありません。どうしますか？",o:["日照と耐暑性から決めるルールを作る","試作で埋まり具合を見て決める","削除する"],h:"サイトの絞り込みカテゴリにある項目です。削除する場合はカテゴリもなくなります。"},
+ {id:"d09",t:"蒸れ耐性は、文献の記述が少なく、耐暑性との区別もつきにくい項目です。どうしますか？",o:["残す","試作で埋まり具合を見て決める","耐暑性にまとめる","削除する"]},
+ {id:"d10",t:"草丈（葉のみ）は、記載のある文献が一部の育種会社のカタログに限られます。どうしますか？",o:["残す","試作で埋まり具合を見て決める","削除する（草丈は開花時だけにする）"],h:"今のマスターの高さが花茎込みかわからなくなっている、とのご指摘を受けて追加した項目です。"},
+ {id:"d11",t:"合わせやすい植物は、記載のある文献がわずかです。どうしますか？",o:["残す","試作で埋まり具合を見て決める","削除する（相談の場で御社が提案する）"]},
+ {id:"d12",t:"チェックリストで「刈込時期（本州基準）」だけ未記入でした。管理の定義では、北海道（広尾町）と関東の2地域で持つ形にしています。これでよいですか？",o:["2地域で持つ","北海道だけでよい","相談したい"]}
+];
+
+const SOURCES=[
+ {id:"s01",n:"RHS（英国王立園芸協会）Plant Finder",k:"公的機関DB",u:"rhs.org.uk",w:"草丈・株張り・日照・土壌・RHS耐寒性H値・常緑性・花期・Plants for Pollinators（蜜源）。品種単位の情報が最も多い。"},
+ {id:"s02",n:"Missouri Botanical Garden（MBG）Plant Finder",k:"植物園DB",u:"missouribotanicalgarden.org",w:"USDAゾーン・耐乾性・耐暑性の注意・病害虫・増え方。今のマスターで最も多く使われている。"},
+ {id:"s03",n:"Kew（英国王立植物園）Plants of the World Online",k:"植物園DB",u:"powo.science.kew.org",w:"正しい学名・旧学名・科名・原産地。品種の情報はない。"},
+ {id:"s04",n:"YList（植物和名−学名インデックス）",k:"公的機関DB",u:"ylist.info",w:"標準和名。"},
+ {id:"s05",n:"環境省 生態系被害防止外来種リスト",k:"公的機関",u:"env.go.jp",w:"侵略性の根拠（日本で問題になっている外来種か）。"},
+ {id:"s06",n:"NC State Extension Plant Toolbox",k:"大学",u:"plants.ces.ncsu.edu",w:"USDAゾーン・耐暑性・耐塩性・毒性・病害虫。米国南東部の蒸し暑い夏の評価があり、関東の夏に近い。"},
+ {id:"s07",n:"University of Minnesota Extension",k:"大学",u:"extension.umn.edu",w:"寒冷地での越冬・管理。北海道の参考になる。"},
+ {id:"s08",n:"Chicago Botanic Garden Plant Finder／品種評価試験",k:"植物園DB",u:"chicagobotanic.org",w:"寒冷地での品種ごとの評価（倒伏・病気・寿命）。"},
+ {id:"s09",n:"Lady Bird Johnson Wildflower Center",k:"大学",u:"wildflower.org",w:"北米原産種の性質・蜜源。"},
+ {id:"s10",n:"Walters Gardens（perennials.com）",k:"育種・生産会社カタログ",u:"perennials.com",w:"品種固有の草丈・花期・切り戻し方法・USDAゾーン。"},
+ {id:"s11",n:"Jelitto（種苗会社）カタログ",k:"種苗会社カタログ",u:"jelitto.com",w:"種から育つ種類の性質・こぼれ種・耐塩性。"},
+ {id:"s12",n:"Proven Winners など品種を作った会社の品種情報",k:"育種会社カタログ",u:"provenwinners.com ほか",w:"その会社が作った品種の草丈・株張り・花期。"},
+ {id:"s13",n:"Beth Chatto（英国の育種・生産者）",k:"育種・生産会社カタログ",u:"bethchatto.co.uk",w:"乾燥地・日陰向きの判断、植え合わせ。"}
+];
+
+const G=(title,desc,items)=>({title,desc,items});
+// id, 項目名, 種類(lit/rule/own/auto), 意味, 入れる値, 調べ方, 見込み(高/中/低/—), 旧列
+const I=(id,name,kind,def,val,how,odds,old)=>({id,name,kind,def,val,how,odds,old});
+const GROUPS=[
+ G("識別","品種を特定する項目。",[
+  I("i01","商品番号","own","御社の商品番号。マスターと販売シートをつなぐ鍵。","整数","今の値を引き継ぐ","—","商品番号"),
+  I("i02","植物名","own","通販サイトに出す名前。","属名カナ 種小名カナ '品種名'（和名・流通名）","今の名前を表記ルールに沿って直す（確認したいこと5）","—","植物名"),
+  I("i03","学名","lit","国際命名規約に沿った学名の全体。","例：Artemisia schmidtiana 'Nana'","Kew POWO で種の正名、RHS で品種名を確認","高","学名"),
+  I("i04","属名・種小名・品種名","auto","学名を3つに分けたもの。","3列","学名から自動で分ける","—","（新規）"),
+  I("i05","旧学名","lit","最近変わった学名や、流通で使われる古い学名。","学名（複数可）","Kew POWO のシノニム","高","（新規）"),
+  I("i06","科名","lit","植物の科。","例：キク科（Asteraceae）","Kew POWO","高","（新規）"),
+  I("i07","和名","lit","標準和名。品種には和名がないことが多い。","カタカナ","YList。記載がなければ空欄","中","別名"),
+  I("i08","流通名・別名","own","店頭や業界で使われる呼び名。","カタカナ（複数可）","今の別名から和名を除いて引き継ぐ","—","別名"),
+  I("i09","品種群・系統","lit","同じ系統や交配親など。","例：Phlox paniculata 系","RHS・育種会社のカタログ","中","（新規）")
+ ]),
+ G("形態・観賞","花・葉・姿。",[
+  I("i10","花色（分類）","rule","サイトの花色カテゴリ。","赤／ピンク／青・紫／オレンジ・アプリコット／黄／白／その他（複数可）","花色（詳細）から決める","高","花色"),
+  I("i11","花色（詳細）","lit","文献に書かれた花の色。","例：レモンイエロー","RHS・育種会社のカタログ","高","花色"),
+  I("i12","花期（開始月・終了月）","lit","花が咲く月。","1〜12の数字2つ","文献の月を基準地に読み替える（確認したいこと2）","中","花時期"),
+  I("i13","草丈（開花時）","lit","花茎を含めた高さ。文献の多くはこの値。","最小・最大（cm）","RHS・育種会社のカタログ","高","高さ(cm)"),
+  I("i14","草丈（葉のみ）","lit","花のない時期の葉の高さ。","最小・最大（cm）","育種会社のカタログ（記載は一部の品種のみ）","低","（新規）"),
+  I("i15","株張り","lit","成株の横幅。","最小・最大（cm）","RHS・育種会社のカタログ","高","広がり(cm)"),
+  I("i16","葉色（分類）","rule","サイトの葉色カテゴリ。","グリーン系／ゴールド・ライム系／ブルー系／シルバー系／パープル・ブラック系／ブロンズ・レッド系／斑入り／季節変化型","文献の葉の記述から決める","高","葉色主分類"),
+  I("i17","葉の特徴","lit","斑の入り方、毛の有無など葉色以外の特徴。","タグ（複数可）","文献の葉の記述","中","葉色タグ"),
+  I("i18","葉の観賞期・紅葉","lit","紅葉や冬の葉色など、季節で変わる見どころ。","例：秋に赤く紅葉","文献","中","（新規）"),
+  I("i19","香り","lit","花や葉の香り。","花／葉／なし","文献","中","（新規）"),
+  I("i20","成株シルエット","rule","成株の形。","ドーム／直立／株立ち／アーチ／グラス／ロゼット／マット／つる","文献の形の記述（upright、mounding、mat-forming など）を対応表で当てはめる。記述がなければ空欄","中","成株シルエット")
+ ]),
+ G("生育環境","どこで育つか。",[
+  I("i21","日照","lit","育つ日当たり。","日向／日向〜半日陰／半日陰／日陰","RHS・MBG の日照の記述","高","日照条件"),
+  I("i22","耐寒性","own","北海道での越冬のしやすさ。","強（北海道内の多くの地域で戸外越冬可）／中の強（最低気温−15度以下が4〜5日以上続かなければ越冬可）／中の中（最低気温−10度以下が続く地域では注意）／中の弱（最低気温−5度以下では防寒が必要）／弱（北海道では一年草扱い）","今の値を引き継ぐ","—","耐寒性"),
+  I("i23","USDA耐寒性ゾーン（下限・上限）","lit","米国農務省の耐寒性ゾーン。","数字2つ（例：4〜8）","MBG・NC State・育種会社のカタログ","高","USDA下限・上限"),
+  I("i24","RHS耐寒性","lit","英国王立園芸協会の耐寒性区分。","H1a〜H7","RHS","中","（新規）"),
+  I("i25","耐暑性","rule","関東平野部の夏越しのしやすさ。","強（蒸し暑い夏にも強い）／中（風通しが良ければ夏越ししやすい）／弱（高温多湿が苦手）","USDA上限と、文献の暑さに関する記述（NC State の評価など）から決める","中","耐暑性"),
+  I("i26","蒸れ耐性","rule","梅雨〜夏の多湿への強さ。","強／中／弱（サイトの説明文どおり）","文献の高温多湿・株腐れの記述から決める","低","蒸れ耐性"),
+  I("i27","暑さ・蒸れの注意","lit","暑さと蒸れに関する文献の記述の要約。","文章（短く）","NC State・MBG","中","耐暑性に関する注記"),
+  I("i28","乾燥耐性","lit","乾燥への強さ。","強／中／弱","文献の drought tolerant などの記述","高","乾燥耐性"),
+  I("i29","土壌水分","lit","好む土の湿り具合。","乾燥寄り／適湿／湿潤寄り／排水必須／幅広く適応","RHS・MBG","高","土壌水分区分"),
+  I("i30","土壌pH・土質","lit","酸性・アルカリ性、粘土・砂質への適応。","pH区分と土質（複数可）","RHS","中","（新規）"),
+  I("i31","耐潮性","lit","潮風・塩分への強さ。広尾町は海沿いのため重要。","◎／○／△／×","NC State・Jelitto の耐塩性の記述。今の根拠の多くはナーサリーのページなので、空欄が増える見込み","低","耐潮性"),
+  I("i32","西日耐性","rule","午後の強い日差しへの強さ。","◎／○／△／×","文献に直接の記述はほぼない。日照と耐暑性から決めるルールを作るか、削除するか","低","西日耐性")
+ ]),
+ G("性質","庭での振る舞い。",[
+  I("i33","常緑性（寒冷地）","lit","北海道で冬に葉が残るか。","常緑／半常緑／落葉","寒冷地の文献（UMN・Chicago）","中","常緑性"),
+  I("i34","常緑性（温暖地）","lit","関東で冬に葉が残るか。","常緑／半常緑／落葉","RHS・NC State","中","常緑性"),
+  I("i35","原産地","lit","原種の自生地。交配種は「園芸品種」と書き、交配親の原産地を添える。","地域名","Kew POWO","高","原産地"),
+  I("i36","増え方","lit","どう広がるか。","株立ち／地下茎／ランナー／こぼれ種（複数可）","文献の spreads by rhizomes、self-seeds などの記述","中","繁殖特性・成長習性"),
+  I("i37","こぼれ種の量","rule","こぼれ種で増える程度。","0〜3","文献の記述を対応表で当てはめる","中","こぼれ種レベル"),
+  I("i38","地下茎で広がる程度","rule","地下茎・ランナーで広がる程度。","0〜3","同上","中","地下茎拡大レベル"),
+  I("i39","混植適性","rule","ほかの植物と混ぜて植えられるか。","普通（混植可）／強い（周囲を圧迫、配置注意）／侵略的（隔離推奨）／弱い（埋もれやすい）","増え方とこぼれ種・地下茎の程度から決める","中","競合強度"),
+  I("i40","外来種リスト掲載","lit","日本で生態系への被害が心配される外来種か。","掲載なし／掲載あり（区分名）","環境省 生態系被害防止外来種リスト","高","侵略性"),
+  I("i41","寿命","lit","株が何年くらい続くか。","長命／普通／短命（2〜3年）","文献の short-lived などの記述","中","理由（短命）"),
+  I("i42","支柱の要否","lit","倒れやすく支柱が要るか。","要／場合により／不要","文献の may need staking などの記述","中","倒伏リスク"),
+  I("i43","毒性","lit","人やペットへの毒性。","なし／あり（部位と対象）","NC State の毒性情報","中","（新規）"),
+  I("i44","主な病害虫","lit","かかりやすい病気と害虫。","名前（複数可）","MBG・NC State","中","病害虫リスク")
+ ]),
+ G("管理","手入れの方法と時期。",[
+  I("i45","管理タイプ","rule","手入れの型。管理手間★と管理難易度はここから自動で決める。","A 放任型／B 花後刈込型／C 夏前切戻型／D 毎年株更新型／E 隔離推奨型","文献の切り戻し・株分けの記述から決める","中","管理タイプ・管理手間★"),
+  I("i46","管理難易度","auto","初心者向けかどうか。","易／中／難","管理タイプ・耐暑性・寿命などから計算するルールを試作で決める","—","（サイトのみ）"),
+  I("i47","切り戻しの方法","lit","いつ、どこまで切るか。","文章（短く）","育種会社のカタログ・RHS","中","刈込基準（生理）"),
+  I("i48","切り戻しの時期（広尾町・関東）","rule","管理の時期。","月（2地域）","切り戻しの方法を基準地の季節に読み替える","中","刈込時期（北海道・本州）"),
+  I("i49","植え付け適期（広尾町・関東）","rule","苗を植えるのに良い時期。業者向け情報。","月（2地域）","耐寒性・耐暑性から一般的なルールで決める","中","（新規）"),
+  I("i50","株分けの間隔","lit","何年ごとに株分けが要るか。","年数","文献の divide every ○ years などの記述","中","（新規）"),
+  I("i51","繁殖方法","lit","増やし方。","株分け／挿し木／実生（複数可）","RHS・Jelitto","高","繁殖方法")
+ ]),
+ G("庭づくり","植栽計画と提案に使う項目。",[
+  I("i52","景観構成用途","rule","庭のどこに使うか。","前景／中景／後景／グラウンドカバー／主役（単植向き）／群植向き（複数可）","草丈・株張り・増え方から決める","中","用途区分・景観構成用途タグ"),
+  I("i53","切り花適性","lit","切り花に向くか。","◎／○／△","文献の good for cutting などの記述","中","切り花適性"),
+  I("i54","蜜源価値","lit","蜂や蝶を呼ぶか。","◎／○／△／×","RHS Plants for Pollinators・Wildflower Center","高","蜜源価値"),
+  I("i55","機能用途タグ","auto","日陰庭向き、乾燥地向き、ロックガーデン向きなど。","タグ（複数可）","ほかの項目から自動で付ける","—","機能用途タグ"),
+  I("i56","デザイン系タグ","auto","シルバーリーフ、黒葉アクセントなど。","タグ（複数可）","葉色などから自動で付ける","—","デザイン系タグ"),
+  I("i57","合わせやすい植物","lit","植え合わせに向く植物。","植物名（複数可）","Beth Chatto など一部の文献のみ","低","（新規）")
+ ]),
+ G("根拠","値の出どころの記録。",[
+  I("i58","項目ごとの出典","own","各項目の値をどの文献から取ったか。","文献番号（第2部の番号）と原文の語","調べるときに記録する","—","情報源・各_情報源・各_根拠"),
+  I("i59","値の決め方","own","文献にそのまま書かれていたか、判定ルールで当てはめたか。","記載／判定","調べるときに記録する","—","（新規）"),
+  I("i60","信頼度","auto","値の確かさ。","高（2つ以上の文献が一致）／中（1つの文献）／低（文献どうしが食い違う）","出典の数と一致から自動で決める","—","信頼度・判定信頼度")
+ ]),
+ G("マスターの外に置くもの","マスター本体とは別のシートや出力として持つもの。",[
+  I("x01","販売シート","own","商品番号、通販サイトURL、在庫数、卸単価、小売単価、note_used の記録。","別シート","今の値を引き継ぐ","—","URL・在庫・単価・note_used"),
+  I("x02","自社の文章シート","own","専務の「特徴」とコメント。文献と食い違う箇所には印を付ける。","別シート","誤字・表記ゆれだけ直す","—","特徴・コメント"),
+  I("x03","自動で作る文章","auto","一言キャッチ、おすすめ（育てる環境・庭づくり）、冬の手入れ（北海道・温暖地）。冬の手入れは試作で品質を見て、だめなら手で書く。","出力シート","マスターの値から作る","—","一言キャッチ・おすすめ・冬の手入れと冬_各列"),
+  I("x04","サイトのカテゴリ対応","auto","マスターの値からサイトの絞り込みカテゴリを自動で決める対応表。","対応表","マスターの値から決める","—","（新規）"),
+  I("x05","環境スクリーニング","auto","AIアドバイザーで、住所の気候と品種の性質を照らし合わせた結果。マスターに持たず、AIアドバイザーがその場で計算する。","AIアドバイザー側","耐寒性・耐暑性・耐潮性などから計算","—","（サイトのみ）")
+ ])
+];
+
+const ALL_IDS=[...DECIDED.map(q=>q.id),...QUESTIONS.map(q=>q.id),...SOURCES.map(s=>s.id),...GROUPS.flatMap(g=>g.items.map(i=>i.id))];
+const state={}; const pending=new Set(); const timers={}; const writing={}; const again={};
+let db=null;
+
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function opt(id,field,val,multi,i){
+  const type=multi?"checkbox":"radio";
+  return `<label class="opt"><input type="${type}" id="${id}-${field}-${i}" name="${id}-${field}" data-id="${id}" data-field="${field}" value="${esc(val)}"><span>${esc(val)}</span></label>`;
+}
+const KIND={lit:'<span class="badge b-lit">文献</span>',rule:'<span class="badge b-rule">判定</span>',own:'<span class="badge b-own">自社</span>',auto:'<span class="badge b-auto">自動</span>'};
+const ODDS={"高":"odds-h","中":"odds-m","低":"odds-l"};
+
+function render(){
+  document.getElementById("decided").innerHTML=DECIDED.map((q,n)=>`
+   <div class="q" data-id="${q.id}">
+    <h3><span class="qn">${n+1}.</span>${esc(q.t)}</h3>
+    <div class="opts">${["合っている","違う"].map((o,i)=>opt(q.id,"choice",o,false,i)).join("")}</div>
+    <textarea id="t-${q.id}" data-id="${q.id}" data-field="memo" rows="1" placeholder="違う場合は正しい内容を"></textarea>
+   </div>`).join("");
+  document.getElementById("questions").innerHTML=QUESTIONS.map((q,n)=>`
+   <div class="q" data-id="${q.id}">
+    <h3><span class="qn">${n+1}.</span>${esc(q.t)}</h3>
+    ${q.h?`<p class="hint">${esc(q.h)}</p>`:""}
+    <div class="opts">${q.o.map((o,i)=>opt(q.id,"choice",o,false,i)).join("")}</div>
+    <textarea id="t-${q.id}" data-id="${q.id}" data-field="memo" rows="2" placeholder="補足・書名など"></textarea>
+   </div>`).join("");
+  document.getElementById("sources").innerHTML=SOURCES.map((s,n)=>`
+   <div class="item" data-id="${s.id}">
+    <div class="item-top"><span class="qn">文献${n+1}</span><span class="item-name">${esc(s.n)}</span><span class="badge b-now">${esc(s.k)}</span></div>
+    <p class="note">${esc(s.u)}</p>
+    <p class="prop">${esc(s.w)}</p>
+    <div class="opts">${SRC_JUDGE.map((j,i)=>opt(s.id,"choice",j,false,i)).join("")}</div>
+    <textarea id="t-${s.id}" data-id="${s.id}" data-field="memo" rows="1" placeholder="メモ"></textarea>
+   </div>`).join("");
+  document.getElementById("items").innerHTML=GROUPS.map(g=>`
+   <h2>${esc(g.title)}</h2><p class="group-desc">${esc(g.desc)}</p>
+   ${g.items.map(it=>`
+    <div class="item" data-id="${it.id}">
+      <div class="item-top"><span class="item-name">${esc(it.name)}</span>${KIND[it.kind]}${it.odds!=="—"?`<span class="badge ${ODDS[it.odds]}">調べてわかる見込み：${it.odds}</span>`:""}</div>
+      <dl class="def">
+        <dt>意味</dt><dd>${esc(it.def)}</dd>
+        <dt>入れる値</dt><dd>${esc(it.val)}</dd>
+        <dt>調べ方</dt><dd>${esc(it.how)}</dd>
+        <dt>今の列</dt><dd>${esc(it.old)}</dd>
+      </dl>
+      <div class="opts">${JUDGE.map((j,i)=>opt(it.id,"choice",j,false,i)).join("")}</div>
+      <textarea id="t-${it.id}" data-id="${it.id}" data-field="memo" rows="1" placeholder="修正したい点など"></textarea>
+    </div>`).join("")}`).join("");
+}
+
+function get(id){return state[id]||(state[id]={choice:[],memo:""})}
+function answered(id){const s=state[id];return !!s&&(s.choice.length>0||(s.memo||"").trim()!=="")}
+function box(id){return document.querySelector(`.q[data-id="${id}"],.item[data-id="${id}"]`)}
+function paint(id){
+  const s=get(id);
+  document.querySelectorAll(`input[data-id="${id}"]`).forEach(el=>{el.checked=(s[el.dataset.field]||[]).includes(el.value);el.dataset.was=el.checked?"1":"0"});
+  const ta=document.querySelector(`textarea[data-id="${id}"]`);
+  if(ta&&document.activeElement!==ta) ta.value=s.memo||"";
+  box(id)?.classList.toggle("done",answered(id));
+}
+function progress(){
+  const n=ALL_IDS.filter(answered).length;
+  document.getElementById("progLabel").textContent=`記入済み ${n} / ${ALL_IDS.length}`;
+  document.getElementById("progFill").style.width=(n/ALL_IDS.length*100)+"%";
+}
+function setSave(t,err){const el=document.getElementById("saveState");el.textContent=t;el.classList.toggle("err",!!err)}
+function touched(id,ms){box(id)?.classList.toggle("done",answered(id));progress();schedule(id,ms)}
+function onChange(e){
+  const el=e.target;const id=el.dataset.id;if(!id)return;
+  const s=get(id);const f=el.dataset.field;
+  if(f==="memo")s.memo=el.value;
+  else if(el.type==="radio")s[f]=[el.value];
+  touched(id,f==="memo"?900:200);
+}
+function onClickRadio(e){
+  const el=e.target;if(el.type!=="radio"||!el.dataset.id)return;
+  if(el.dataset.was==="1"){el.checked=false;get(el.dataset.id).choice=[];touched(el.dataset.id,200)}
+  document.querySelectorAll(`input[name="${el.name}"]`).forEach(r=>r.dataset.was=r.checked?"1":"0");
+}
+function schedule(id,ms){
+  pending.add(id);setSave(db?"保存待ち…":"この画面では保存できません（会話でClaudeに直接お伝えください）",!db);
+  clearTimeout(timers[id]);timers[id]=setTimeout(()=>write(id),ms);
+}
+async function write(id){
+  if(!db)return;
+  if(writing[id]){again[id]=true;return}
+  timers[id]=null;writing[id]=true;setSave("保存中…");
+  const s=get(id);
+  try{await db.doc("answers/"+id).set({choice:s.choice,memo:s.memo,updatedAt:new Date().toISOString()});setSave("保存しました")}
+  catch(err){
+    if(err&&err.code==="unavailable")setTimeout(()=>write(id),800+Math.random()*800);
+    else setSave("保存できませんでした（"+(err&&err.code||"error")+"）",true);
+  }finally{
+    writing[id]=false;
+    if(again[id]){again[id]=false;write(id)}else if(!timers[id])pending.delete(id);
+  }
+}
+function init(){
+  render();ALL_IDS.concat("free").forEach(paint);progress();
+  document.addEventListener("change",onChange);
+  document.addEventListener("input",e=>{if(e.target.tagName==="TEXTAREA")onChange(e)});
+  document.addEventListener("click",onClickRadio);
+  const hide=document.getElementById("hideDone");
+  try{hide.checked=localStorage.getItem("hideDone")==="1"}catch(e){}
+  const applyHide=()=>{document.body.classList.toggle("hidden-done",hide.checked);try{localStorage.setItem("hideDone",hide.checked?"1":"0")}catch(e){}};
+  hide.addEventListener("change",applyHide);applyHide();
+  const loadTimer=setTimeout(()=>setSave("保存先に接続できていません。記入は続けられますが、保存されない可能性があります",true),10000);
+  Promise.resolve(window.claude?.use?.("db")).then(d=>{
+    if(!d){clearTimeout(loadTimer);setSave("この画面では保存できません（会話でClaudeに直接お伝えください）",true);return}
+    db=d;
+    db.collection("answers").onSnapshot(snap=>{
+      if(!snap.metadata.fromCache){clearTimeout(loadTimer);if(!pending.size)setSave("保存済みの内容を表示しています")}
+      snap.docs.forEach(doc=>{
+        if(pending.has(doc.id))return;
+        const v=doc.data()||{};
+        state[doc.id]={choice:Array.isArray(v.choice)?v.choice:[],memo:typeof v.memo==="string"?v.memo:""};
+        paint(doc.id);
+      });
+      progress();
+    },err=>{clearTimeout(loadTimer);setSave("保存先との接続が切れました（"+err.code+"）",true)});
+  }).catch(()=>{clearTimeout(loadTimer);setSave("この画面では保存できません",true)});
+}
+init();
+</script>

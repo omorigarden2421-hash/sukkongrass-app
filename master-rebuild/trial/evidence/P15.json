@@ -1,0 +1,548 @@
+{
+ "id": "P15",
+ "searched_name": "Sedum spurium 'Dragon's Blood'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/101770/sedum-spurium-dragons-blood/details",
+   "status": "ok",
+   "note": "'Dragon's Blood' は Name Status: Synonym"
+  },
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "status": "ok",
+   "note": "正名 'Schorbuser Blut' のページ（内容は R1 と同一）"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "status": "ok",
+   "note": "Phedimus spurius の種ページ。品種一覧に 'Dragon's Blood' の1行記述あり"
+  },
+  {
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "status": "ok",
+   "note": "Phedimus spurius 'Dragon's Blood'（Archived Copy, 2022年以前）"
+  },
+  {
+   "source": "s10",
+   "url": "(WebSearch)",
+   "status": "not_found",
+   "note": "perennials.com に 'Dragon's Blood' 品種ページは検索で見つからず（var. album, 'Roseum' のみ）"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Sedum spurium 'Schorbuser Blut'（RHSの正名。'Dragon's Blood' はシノニム扱い）",
+   "quote": "Sedum spurium 'Schorbuser Blut' ... Name Status: Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "RHSでは 'Dragon's Blood' はシノニム",
+   "quote": "Sedum spurium 'Dragon's Blood' ... Name Status: Synonym",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/101770/sedum-spurium-dragons-blood/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Phedimus spurius 'Dragon's Blood'",
+   "quote": "Phedimus spurius 'Dragon's Blood'",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "種は Phedimus spurius（旧名 Sedum spurium）",
+   "quote": "Phedimus spurius ... Previously known as: Sedum spurium",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "Phedimus spurius 'Dragon's Blood'、Sedum spurium 'Dragon's Blood'、Sedum spurium [Dragon's Blood]、Sedum 'Schorbuser Blut'",
+   "quote": "Synonyms: Phedimus spurius 'Dragon's Blood', Sedum spurium 'Dragon's Blood', Sedum spurium [Dragon's Blood], Sedum 'Schorbuser Blut'",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "旧学名 Sedum spurium",
+   "quote": "Previously known as: Sedum spurium",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "ベンケイソウ科",
+   "quote": "Family: Crassulaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "ベンケイソウ科",
+   "quote": "Family: Crassulaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "濃い赤みのピンク",
+   "quote": "small, starry deep reddish-pink flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "ピンク～赤",
+   "quote": "'Dragon's Blood' ... pink to red blooms",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "level_detail": "種ページ内の品種一覧の記述"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "チェリーレッド（星形の花が房状）",
+   "quote": "clusters of starry cherry-red blooms",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "赤",
+   "quote": "Bloom Color: Red",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "晩夏",
+   "quote": "flowers in late summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "7～8月",
+   "quote": "It produces clusters of starry cherry-red blooms in July and August",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "最大10cm",
+   "quote": "A mat-forming evergreen perennial to 10cm in height / Max Height: Up to 10 cm",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "茎の長さ約15～25cm（6-10インチ）",
+   "quote": "Each stem reaches about 6-10 inches long",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "種として高さ5～15cm（2～6インチ）",
+   "quote": "grows 2 to 6 inches high and 2 to 3 feet wide",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "0.1～0.5m",
+   "quote": "Max Spread: 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "節から根を出して30cm以上のパッチになる",
+   "quote": "they will root along the nodes into patches a foot or more across",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "種として幅60～90cm（2～3フィート）",
+   "quote": "Width: 2 ft. 0 in. - 3 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "肉厚の倒卵形で紫がかった葉",
+   "quote": "fleshy, obovate, purple-tinged leaves",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "春は緑の葉に紫赤色がのる",
+   "quote": "green leaves tinged with purplish-red in the spring",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "level_detail": "種ページ内の品種一覧の記述"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "緑にバーガンディが差す小さな葉（6mm未満）、鋸歯があるへら形",
+   "quote": "The tiny leaves, green suffused with burgundy, are less than a quarter-inch in length, toothed and spatulate",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "秋は赤い葉",
+   "quote": "red leaves in the fall",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "level_detail": "種ページ内の品種一覧の記述"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "冬の葉色：緑、紫",
+   "quote": "Foliage ... Winter: Green, Purple",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "マット状",
+   "quote": "Habit: Matforming",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "マット状に広がる多年草／這う形",
+   "quote": "This mat-forming perennial ... Plant Shape: Creeping",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "種として：這う・密・広がる",
+   "quote": "Habit/Form: Creeping, Dense, Spreading",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向",
+   "quote": "Position: Full sun",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向～半日陰",
+   "quote": "This mat-forming perennial takes full sun to partial shade.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "種として：日向が必要（属性欄は Partial Shade のみ表示）",
+   "quote": "Stonecrop requires full sun and well-drained, sandy or shallow rocky soil.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "3～9",
+   "quote": "Hardiness Zone: 3 - 9",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "種として 3a～9b",
+   "quote": "USDA Plant Hardiness Zone: 3a, 3b, 4a, 4b, 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b, 9a, 9b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H7",
+   "quote": "Hardiness: H7",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "種として：とても乾いた土を好み乾燥に耐える",
+   "quote": "Do not overwater, as it prefers very dry soil and is tolerant of drought.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾いた場所のグラウンドカバーに向く",
+   "quote": "suitable for a rock garden or a ground cover for a dry area",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水はけのよい土",
+   "quote": "Moisture: Well–drained",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "種として：水はけのよい砂質・浅い礫質土、水のやりすぎ禁物",
+   "quote": "well-drained, sandy or shallow rocky soil. Do not overwater",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "ローム・砂質；pH 酸性・アルカリ性・中性",
+   "quote": "Soil Types: Loam, Sand / pH: Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "中程度に肥沃で水はけのよいアルカリ～中性の土",
+   "quote": "Grow in a sheltered position in moderately fertile, well-drained, alkaline to neutral soil in full sun.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "種として：砂質、浅い礫質",
+   "quote": "Soil Texture: Sand, Shallow Rocky",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑",
+   "quote": "Foliage: Evergreen",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "種として半常緑（茎の基部側は落葉、先端側は常緑）",
+   "quote": "Stonecrop is a creeping, semi-evergreen, perennial ground cover / deciduous towards the stem base and evergreen near the tip",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "コーカサス山脈原産",
+   "quote": "Native to the Caucasus Mountains",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "種としてトルコ北東部～イラン北部原産",
+   "quote": "It is native to northeastern Turkey and northern Iran",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "茎の節から発根して広がる",
+   "quote": "they will root along the nodes into patches a foot or more across",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "種として：毒性は低い（症状不明、消化器症状の可能性）",
+   "quote": "This plant has low severity poison characteristics. / Poison Symptoms: Unknown, but possibly gastrointestinal symptoms.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジ、カタツムリ、ブドウゾウムシ幼虫、カイガラムシ、コナカイガラムシ；菌・細菌による根頭・根腐れ",
+   "quote": "May be susceptible to slugs, snails, vine weevil grubs, scale insects and mealybugs / May be susceptible to fungal and bacterial crown and root rots",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "種として：大きな問題なし（一般的病害として白絹病の記載あり）",
+   "quote": "Insects, Diseases and Other Plant Problems: No significant problems. / has some common disease problems: Southern Blight of Herbaceous Ornamentals",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "剪定不要",
+   "quote": "Pruning: No pruning required",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "古い茎は乱れるので摘心が必要になることがある",
+   "quote": "Older stems may become scraggly and need to be pinched back.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-collections/plant-finder/phedimus-spurius-dragons-blood-dragons-blood-sedum",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "春に株分け",
+   "quote": "Propagate by division in spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "春の株分け、初夏の軟枝挿し",
+   "quote": "Propagate by division in spring or by softwood cuttings in early summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/117391/sedum-spurium-schorbuser-blut/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種として：株分け・茎挿し",
+   "quote": "Propagate stonecrop by division or stem cutting.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "種として：ハチ・チョウ・鳴鳥を引き寄せる",
+   "quote": "attracting bees, butterflies and songbirds",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "fragrance",
+  "heat_humidity",
+  "salt",
+  "lifespan",
+  "staking",
+  "cut_flower",
+  "invasive_note"
+ ],
+ "notes": "入力の学名 'Dragon's Blood' はRHSではシノニム扱いで、正名は Sedum spurium 'Schorbuser Blut'（ドイツ名の原品種名）。種の学名はNCSU・Chicago Botanicとも Phedimus spurius を採用しているが、RHSは品種を Sedum spurium 側に置き Phedimus spurius 'Dragon's Blood' をシノニムに挙げている。属の扱いが文献で割れている。NCSUの種ページは日照で本文 'requires full sun' と属性欄 'Partial Shade' のみが食い違う。マスターの出典（MBG, Bluestone, Monrovia）はどれも使用可文献に該当しないので読んでいない。Walters(perennials.com)には本品種のページが見つからなかった。RHSでの高さ『最大10cm』はChicago Botanicの『茎の長さ6～10インチ』と食い違う（茎長と草丈の違いの可能性）。"
+}

@@ -1,0 +1,176 @@
+{
+ "id": "P28",
+ "fields": {
+  "accepted_name": {
+   "value": "Prostanthera sp.",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "Kew"
+   ],
+   "level": "genus",
+   "note": "属 Prostanthera は RHS で Correct、Kew で Accepted。種は特定できない"
+  },
+  "synonyms": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "flower_color_detail": {
+   "value": null,
+   "note": "品種専用項目で、属レベルの記述は使えない（属としては白・青・紫）"
+  },
+  "flower_color_class": {
+   "value": null,
+   "note": "品種専用項目で、属レベルの記述は使えない（属としては白・青・紫）"
+  },
+  "spread_min": {
+   "value": null,
+   "note": "種が特定されていない。P. rotundifolia（RHS 13927）の値は別種なので使わない"
+  },
+  "spread_max": {
+   "value": null,
+   "note": "種が特定されていない。P. rotundifolia（RHS 13927）の値は別種なので使わない"
+  },
+  "foliage_class": {
+   "value": null,
+   "note": "品種専用項目で、属レベルの記述は使えない（属としては小さな濃緑の葉）"
+  },
+  "foliage_features": {
+   "value": null,
+   "note": "品種専用項目で、属レベルの記述は使えない（属としては小さく強い芳香のある葉）"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "fragrance": {
+   "value": null,
+   "note": "品種専用項目で、属レベルの記述は使えない（属としては葉に強い芳香 highly aromatic leaves）"
+  },
+  "silhouette": {
+   "value": null,
+   "note": "品種専用項目で、属レベルの記述は使えない（属としては bushy evergreen shrubs）"
+  },
+  "sun": {
+   "value": null,
+   "note": "種が特定されていない。P. rotundifolia（RHS 13927）の値は別種なので使わない"
+  },
+  "usda_min": {
+   "value": null,
+   "note": "種が特定されていない。P. rotundifolia（RHS 13927）の値は別種なので使わない"
+  },
+  "usda_max": {
+   "value": null,
+   "note": "種が特定されていない。P. rotundifolia（RHS 13927）の値は別種なので使わない"
+  },
+  "rhs_h": {
+   "value": null,
+   "note": "種が特定されていない。P. rotundifolia（RHS 13927）の値は別種なので使わない（P. rotundifolia は H2）"
+  },
+  "heat": {
+   "value": null,
+   "note": "記述なし。USDA も不明のため判定できない"
+  },
+  "heat_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "drought": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "soil_moisture": {
+   "value": null,
+   "note": "種が特定されていない。P. rotundifolia（RHS 13927）の値は別種なので使わない"
+  },
+  "soil_ph_type": {
+   "value": null,
+   "note": "種が特定されていない。P. rotundifolia（RHS 13927）の値は別種なので使わない"
+  },
+  "salt": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "常緑",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "genus",
+   "note": "RHS 属ページ: Prostanthera are bushy evergreen shrubs"
+  },
+  "native_range": {
+   "value": "オーストラリア",
+   "method": "記載",
+   "sources": [
+    "Kew"
+   ],
+   "level": "genus",
+   "note": "Kew の属 Prostanthera の分布"
+  },
+  "spread_modes": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "mixing": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": null,
+   "note": "種が特定されていない。P. rotundifolia（RHS 13927）の値は別種なので使わない"
+  },
+  "pruning": {
+   "value": null,
+   "note": "種が特定されていない。P. rotundifolia（RHS 13927）の値は別種なので使わない（P. rotundifolia は花後剪定・強剪定は有害、剪定グループ8）"
+  },
+  "pruning_codes": {
+   "value": null,
+   "note": "種が特定されていない。P. rotundifolia（RHS 13927）の値は別種なので使わない"
+  },
+  "management_type": {
+   "value": null,
+   "note": "属レベルで確実な管理の記述なし"
+  },
+  "division_interval": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "propagation": {
+   "value": null,
+   "note": "種が特定されていない。P. rotundifolia（RHS 13927）の値は別種なので使わない"
+  },
+  "cut_flower": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pollinator": {
+   "value": null,
+   "note": "記述なし"
+  }
+ },
+ "conflicts": [],
+ "name_review": null,
+ "notes": "学名が Prostanthera sp. で種が特定されていないため、属レベルで確実なもの（常緑、オーストラリア原産）だけを登録。RHS 13927（マスターの冬の情報源）は P. rotundifolia の種ページで H2・高さ2m・日向・SE Australia 等の値があるが別種の可能性があるため使用せず。マスターのシルエット参照は P. ovalifolia 'Variegata'（gardenia.net、未使用）でマスター内でも想定種が不一致。属ページの花色（白・青・紫）・芳香のある葉・こんもりした常緑低木は、RULES 上品種専用項目のため null とし note に記載。種が特定できれば耐寒性（P. rotundifolia なら H2＝霜に耐えない）などを再判定する必要がある。"
+}

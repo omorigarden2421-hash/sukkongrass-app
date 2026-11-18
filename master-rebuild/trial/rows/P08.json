@@ -1,0 +1,369 @@
+{
+ "id": "P08",
+ "fields": {
+  "accepted_name": {
+   "value": "Calamagrostis × acutiflora 'Karl Foerster'",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "synonyms": {
+   "value": [
+    "Calamagrostis 'Stricta'",
+    "Calamagrostis arundinacea 'Karl Foerster'"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "'Stricta' は RHS のシノニム。NCSU は別品種扱い（evidence notes）"
+  },
+  "flower_color_detail": {
+   "value": "ブロンズの花穂が淡褐色に褪せる",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_class": {
+   "value": [
+    "その他"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "ブロンズ〜淡褐色の花穂"
+  },
+  "spread_min": {
+   "value": 61,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters 2フィート"
+  },
+  "spread_max": {
+   "value": 61,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters 2フィート"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "bright green"
+  },
+  "foliage_features": {
+   "value": [
+    "平たく弓なりの葉（長さ90cmまで）",
+    "光沢のある細い葉"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": "秋に色づく（Walters の見どころに Fall Color）。花穂は冬まで残る",
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "紅葉の色は記載なし"
+  },
+  "fragrance": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "silhouette": {
+   "value": "直立",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "イネ科だが Erect／compact, erect growth habit と明記され、噴水状ではなく直立が全体の形に近い"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Full sun, Partial shade"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 8,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "hot, humid, or wet summers で弱ると明記"
+  },
+  "heat_note": {
+   "value": "暑く湿った・雨の多い夏には弱り、さび病にかかりやすい。猛暑時は十分に水を与える。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "tolerant of drought／Drought Tolerant"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Moist but well-drained or Well-drained。NCSU は湿った土・乾燥の両方に耐えるとする"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Walters Salt Tolerant"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "native_range": {
+   "value": "園芸品種（交配種 Calamagrostis × acutiflora。Kew の分布はヨーロッパ〜ロシア極東。交配親は文献に記載なし）",
+   "method": "判定",
+   "sources": [
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "地下茎"
+   ],
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "地下茎でゆっくり広がる。不稔でこぼれ種はしない"
+  },
+  "self_seed_level": {
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "sterile and does not self-seed"
+  },
+  "rhizome_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "spreads slowly by rhizomes"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "株立ちで侵略的・強勢の記述なし"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "侵略性・広がりすぎの注意の記述なし"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": [
+    "さび病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "害虫はほぼなし"
+  },
+  "pruning": {
+   "value": "早春、新芽が動く前に古い茎葉を切り戻す（RHS は地際まで。NCSU は1/3ほど残し強く切りすぎない、Walters は15cmに）。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "早春"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "management_type": {
+   "value": "A",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "早春の刈り取りのみ"
+  },
+  "division_interval": {
+   "value": "春（中頃）。NCSU・Walters は春または秋も可。間隔の記載なし",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "cut_flower": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "Good Cut, Good Dried"
+  },
+  "pollinator": {
+   "value": null,
+   "note": "記述なし"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "usda",
+   "detail": "Walters 4〜8／NCSU 5a〜9b。優先順位により Walters を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "Walters 2ft(61cm)／NCSU 1〜1.5ft(30〜46cm)／RHS 0.5〜1m。品種の具体値で優先の Walters を採用"
+  },
+  {
+   "field": "pruning",
+   "detail": "切り戻しの高さが RHS 地際／NCSU 1/3残す／Walters 15cm で異なる。時期（早春）は一致"
+  },
+  {
+   "field": "synonyms",
+   "detail": "RHS は 'Stricta' をシノニムとするが、NCSU は別品種（1〜2フィート高く2週間遅咲き）として混同注意（evidence notes）"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "RHS 湿り気〜水はけよい／NCSU 湿った土・乾燥・粘土に耐える（幅広く適応寄り）。RHS を採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "品種レベルの記述が揃っている。暑さは NCSU の『高温多湿の夏に弱る』で弱とした（Walters のゾーン上限8とも整合）。シルエットはイネ科だが直立性が明記されているため直立。"
+}

@@ -1,0 +1,412 @@
+{
+ "id": "P14",
+ "searched_name": "Armeria maritima 'Variegata'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "status": "ok",
+   "note": "種ページ。'Variegata' の品種ページはWebSearchで見つからず"
+  },
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/298345/armeria-maritima-varretu/details",
+   "status": "ok",
+   "note": "'Varretu' のページ。Name Status Unresolved で情報なし。'Variegata' と同一かは不明のため記録しない"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "status": "ok",
+   "note": "種ページ。品種一覧に 'Variegata' なし"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/armeria-maritima-variegata.html",
+   "status": "not_found",
+   "note": "HTTP200だが 'Search Not Found'"
+  },
+  {
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=ARMA18",
+   "status": "not_found",
+   "note": "推測したIDが外れ、Armeriaのページでなかった"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "（種）Armeria maritima（Name Status Correct）",
+   "quote": "Armeria maritima ... Name Status Correct",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "（種）Armeria bottendorfensis、Armeria vulgaris",
+   "quote": "Synonyms Armeria bottendorfensis, Armeria vulgaris",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "イソマツ科",
+   "quote": "Family Plumbaginaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "（種）白・ピンク・赤紫の花房、径2.5cmまで",
+   "quote": "compact clusters of white, pink or red-purple flowerheads to 2.5cm wide",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "（種）晩春〜夏",
+   "quote": "in late spring and summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "（種）約20cm（最大0.1〜0.5m）",
+   "quote": "A clump-forming, evergreen perennial to around 20cm in height ... Max Height 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "（種）最大0.1〜0.5m",
+   "quote": "Max Spread 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "（種）密な針状の濃緑の葉",
+   "quote": "dense, needle-like dark green leaves",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "（種）株立ち、房状",
+   "quote": "Habit Clump forming, Tufted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "（種）常緑",
+   "quote": "Foliage Evergreen",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "（種）日なた",
+   "quote": "Position Full sun",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "（種）H5",
+   "quote": "Hardiness ... H5",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "（種）乾燥耐性あり",
+   "quote": "Drought Resistance Yes",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（種）水はけのよい土",
+   "quote": "Moisture Well–drained ... Grow in well-drained soil in full sun.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "（種）白亜・粘土・ローム・砂質、酸性〜アルカリ性",
+   "quote": "Soil Types Chalk, Clay, Loam, Sand ... Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "（種）北半球。英国・アイルランド自生",
+   "quote": "Plant Range N Hemisphere ... Native to GB/Ireland Yes",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "（種）実生、株分け、基部挿し",
+   "quote": "Propagate by seed, division or basal cuttings",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "（種）剪定不要",
+   "quote": "No pruning required",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（種）病害虫ほぼなし",
+   "quote": "Generally pest-free ... Generally disease-free",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "（種）RHS Plants for Pollinators",
+   "quote": "For Bio-Diversity Plants for Pollinators",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "salt",
+   "value_ja": "（種）海岸の植栽場所に挙げられる（耐塩の明記なし）",
+   "quote": "Suggested planting locations and garden types ... Coastal",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1597/armeria-maritima/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "イソマツ科",
+   "quote": "Family: Plumbaginaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "（種）北半球の海岸の岩崖・道端・塩性湿地。欧州・北米・グリーンランド",
+   "quote": "native to coastal area of rocky cliffs, roadsides and salt marshes of the northern hemisphere ... Country Or Region Of Origin: Europe and North America, Greenland",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "（種）6インチ〜2フィート",
+   "quote": "Height: 0 ft. 6 in. - 2 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "（種）1フィートまで",
+   "quote": "Width: 0 ft. 6 in. - 1 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "（種）明るいピンクまたは白、紫の膜質苞",
+   "quote": "bright pink or white, round, balloon-like flower heads with purple papery bracts",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "（種）4〜5月、秋まで時々返り咲き",
+   "quote": "in spring from April to May with occasional repeat blooming through fall",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "（種）細い草状の濃緑の葉、縁に細毛",
+   "quote": "Thin, grass-like, dark green foliage in a basal rossette. Margins are often finely hairy",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "（種）常緑",
+   "quote": "Sea thrift is an evergreen flowering perennial",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "（種）株立ち・丸く・広がる、マット状タグ",
+   "quote": "Habit/Form: Clumping Rounded Spreading ... #mat forming",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "（種）日なた〜半日陰・木漏れ日",
+   "quote": "Light: Dappled Sunlight ... Full sun ... Partial Shade",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "（種）4a〜8b",
+   "quote": "USDA Plant Hardiness Zone: 4a, 4b, 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "（種）冷涼な海岸環境を好む",
+   "quote": "prefer cooler coastal environments",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "（種）乾燥・乾いた土に強い",
+   "quote": "Particularly Resistant To: dry soil, sandy soil, drought, shallow rocky soil",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（種）水はけ良〜非常に乾燥。水のやりすぎで根腐れ",
+   "quote": "Soil Drainage: Good Drainage Very Dry ... Too much water will cause root rot.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "（種）水はけのよい砂質〜岩礫質、ローム",
+   "quote": "well-drained sandy to rocky soils ... Soil Texture: Loam (Silt) Sand Shallow Rocky",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "salt",
+   "value_ja": "（種）耐塩性、中程度の潮風に耐える",
+   "quote": "They are salt tolerant ... tolerates moderate salt spray ... #salt spray tolerant",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（種）過湿で根腐れ。アブラムシ・ナメクジ・カタツムリ・うどんこ病",
+   "quote": "Too much water will cause root rot. Watch for aphids, slugs, snails, and the fungal disease powdery mildew",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "（種）株分け・実生",
+   "quote": "Recommended Propagation Strategy: Division Seed",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "（種）蜂・蝶を呼ぶ",
+   "quote": "Attracts: Bees Butterflies",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/armeria-maritima/",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "seasonal_foliage",
+  "fragrance",
+  "spread_mode",
+  "lifespan",
+  "staking",
+  "toxicity",
+  "division",
+  "cut_flower",
+  "invasive_note"
+ ],
+ "notes": "'Variegata' という品種名のページは、RHS・NCSU・perennials.com・Waltersのいずれでも見つからず、情報はすべて種 Armeria maritima レベル（level=species）。斑入り葉という品種の特徴を裏づける文献は見つかっていない。RHSにある斑入りアルメリアは Armeria 'Stephen Taffler' (v)（シノニム Armeria variegata 'Stephen Taffler'）や 'Varretu'（Unresolved）だが、本品と同一かは判断できない。流通名がほかの品種（例：'Nifty Thrifty' など）である可能性もあり、正式な品種名の確認が必要。RHS（種）は Plants for Pollinators。マスターの出典（gardenerspath, gardenia.net, wisc.edu）は範囲外のため読んでいない。"
+}

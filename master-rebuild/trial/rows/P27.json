@@ -1,0 +1,366 @@
+{
+ "id": "P27",
+ "fields": {
+  "accepted_name": {
+   "value": "Cornus alba 'Sibirica'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS で Accepted"
+  },
+  "synonyms": {
+   "value": [
+    "Cornus alba 'Westonbirt'",
+    "Cornus alba var. sibirica",
+    "Cornus sibirica",
+    "Cornus sibirica 'Westonbirt'",
+    "Cornus 'Westonbird'",
+    "Cornus pumila",
+    "Swida alba"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "Cornus pumila・Swida alba は種 C. alba の旧名（s06、種レベル）"
+  },
+  "flower_color_detail": {
+   "value": "クリーム色",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "小さな平たい花序"
+  },
+  "flower_color_class": {
+   "value": [
+    "白"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "spread_min": {
+   "value": 150,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Max Spread 1.5-2.5m"
+  },
+  "spread_max": {
+   "value": 250,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Max Spread 1.5-2.5m"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "ovate green foliage（秋に赤みを帯びる）"
+  },
+  "foliage_features": {
+   "value": [
+    "卵形の葉"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": "葉は秋に赤みを帯びる。細い赤い茎（サンゴ色がかった赤）が冬に鮮やかな深紅になる。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "s06 は品種一覧の 'Sibirica' の記述（Coral red stems）"
+  },
+  "fragrance": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "suckering deciduous shrub forming a thicket of slender red stems"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "usda_min": {
+   "value": 3,
+   "method": "記載",
+   "sources": [
+    "s07"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 7,
+   "method": "記載",
+   "sources": [
+    "s07"
+   ],
+   "level": "species",
+   "note": "NCSU も 3a-7b で一致"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "暑い夏の気候（特に USDA ゾーン7より南）で病気にかかりやすい＝南部で弱る記述"
+  },
+  "heat_note": {
+   "value": "暑い夏の地域（特にUSDAゾーン7より南）では病気にかかりやすい。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Moist but well-drained or Well-drained、たいていの土で育つ"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜中性、粘土・砂質・ローム",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での常緑・落葉の記述なし（UMN にも記載なし）"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "native_range": {
+   "value": "東ヨーロッパ〜中央・東アジア（北朝鮮まで）",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "Kew"
+   ],
+   "level": "species",
+   "note": "NCSU: Central and Eastern Asia／Kew: E. Europe to N. Korea"
+  },
+  "spread_modes": {
+   "value": [
+    "地下茎"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06",
+    "s07"
+   ],
+   "level": "cultivar",
+   "note": "suckering（吸枝）"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06",
+    "s07"
+   ],
+   "level": "cultivar",
+   "note": "吸枝で広がり大きな群落を作る（s06）。隔離推奨・invasive の明記はない"
+  },
+  "mixing": {
+   "value": "強い（周囲を圧迫、配置注意）",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s07"
+   ],
+   "level": "species",
+   "note": "weedy、吸枝で大きな群落を作り除去が難しい、植栽場所を慎重に"
+  },
+  "invasive_note": {
+   "value": "吸枝で大きな群落を作り、雑草的で除去が難しいため植栽場所を慎重に選ぶ。株幅を保つには吸枝の除去が必要。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s07"
+   ],
+   "level": "species"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": [
+    "カイガラムシ",
+    "コルヌス炭疽病",
+    "ナラタケ病",
+    "ハモグリバエ",
+    "うどんこ病",
+    "斑点病",
+    "胴枯れ病",
+    "根腐れ",
+    "枝枯れ",
+    "穿孔虫"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "s07"
+   ],
+   "level": "cultivar",
+   "note": "RHS（品種）はカイガラムシ（horse chestnut scale）・炭疽病・ナラタケ病。他は種レベル（s06/s07、斑点病がよく出る）"
+  },
+  "pruning": {
+   "value": "剪定グループ7。若い茎ほど色が鮮やかなので、春に毎年〜隔年で最も古い1/3の茎を地際から除き新梢を促す。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "s07"
+   ],
+   "level": "cultivar",
+   "note": "グループ7は s01（品種）、具体的方法は種レベル（s06/s07）"
+  },
+  "pruning_codes": {
+   "value": [
+    "早春"
+   ],
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s07"
+   ],
+   "level": "species",
+   "note": "春に古い茎を地際から除く"
+  },
+  "management_type": {
+   "value": "D 毎年株更新型",
+   "method": "判定",
+   "sources": [
+    "s07"
+   ],
+   "level": "species",
+   "note": "毎年〜隔年で古い茎の1/3を地際から除く更新が必要と明記（UMN）。木本の更新剪定を D に当てはめたので要確認"
+  },
+  "division_interval": {
+   "value": null,
+   "note": "株分けの時期・間隔の記述なし"
+  },
+  "propagation": {
+   "value": [
+    "挿し木",
+    "株分け",
+    "実生",
+    "その他（取り木）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "休眠枝挿し（s01）。株分け・取り木・種子は種レベル（s06）"
+  },
+  "cut_flower": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS 推奨植栽場所に Cut flowers（具体的な評価なし）"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Plants for Pollinators"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "soil_moisture",
+   "detail": "NCSU・UMN（種）は時々の乾燥・過湿にも適応。RHS の Moist but well-drained or Well-drained を採用（適湿）"
+  },
+  {
+   "field": "soil_ph_type",
+   "detail": "UMN（種）は pH5.5-7.0。RHS（酸性〜中性）と概ね一致"
+  },
+  {
+   "field": "spread",
+   "detail": "RHS 1.5-2.5m／NCSU 5-10ft・UMN 3-10ft（種）。RHS を採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "学名は RHS で Accepted、マスターと一致（シノニム 'Westonbirt'、Cornus sibirica 等）。落葉低木。NCSU・UMN は種 C. alba のページ。management_type を D としたのは UMN の『毎年〜隔年で古い茎を除く』更新剪定によるもので、草本の株分け型とは性質が違う点に注意。"
+}

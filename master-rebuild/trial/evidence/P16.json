@@ -1,0 +1,546 @@
+{
+ "id": "P16",
+ "searched_name": "Heuchera 'Green Spice'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "status": "ok",
+   "note": "マスター出典"
+  },
+  {
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
+   "status": "ok",
+   "note": "マスター出典。Archived Copy（2022年以前）"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "status": "ok",
+   "note": "perennials.com（運営表記は Valleybrook International Ventures）"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/heuchera/",
+   "status": "ok",
+   "note": "Heuchera 属ページ。品種一覧に 'Green Spice' の1行記述あり"
+  },
+  {
+   "source": "s12",
+   "url": "https://www.terranovanurseries.com/heuchera-green-spice",
+   "status": "blocked",
+   "note": "育種元 Terra Nova のサイトはプロキシで403（接続拒否）"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Heuchera 'Green Spice'（正名）",
+   "quote": "Heuchera 'Green Spice' ... Name Status: Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "='Eco-Improved'",
+   "quote": "Heuchera 'Green Spice' (='Eco-Improved')",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "ユキノシタ科",
+   "quote": "Family: Saxifragaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "淡いピンク",
+   "quote": "Dainty panicles of pale pink flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "泡のようなクリーム色",
+   "quote": "tall scapes of foamy cream flowers",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "白",
+   "quote": "Bloom Color: White",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "クリーム色",
+   "quote": "Sprays of creamy flowers appear in June. / Flower Colour: White",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "晩春",
+   "quote": "are borne in late spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "初夏（表では5～6月、7～8月）",
+   "quote": "foamy cream flowers in early summer / Bloom Time: May - June, July - August",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "6月（初夏～盛夏）",
+   "quote": "Sprays of creamy flowers appear in June. / Blooming Time: Early Summer, Mid Summer",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "最大0.1～0.5m",
+   "quote": "Max Height: 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "葉の株は高さ約23cm（9インチ）、花茎込みで約71cm（28インチ）",
+   "quote": "a small mound 9 inches tall by 16 inches wide, with the flowers increasing the height to 28 inches",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "25～70cm",
+   "quote": "Height: 25-70 cm / 10-27 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "最大0.1～0.5m",
+   "quote": "Max Spread: 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "約41cm（16インチ）",
+   "quote": "a small mound 9 inches tall by 16 inches wide",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "45～60cm",
+   "quote": "Spread: 45-60 cm / 18-23 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "切れ込みのある丸い葉。大部分が銀緑色で縁は緑、葉脈はバーガンディ",
+   "quote": "lobed and rounded leaves are predominantly silver-green with a green edge and burgundy leaf veins",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "明るい緑の葉に中央部が銀色の霜降り、葉脈は暗色",
+   "quote": "fresh green leaf decorated with a silvery frosted central section and dark venation",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "銀灰色の葉にビートレッドの葉脈",
+   "quote": "a sturdy mound of silvery-grey leaves, veined with beet-red",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "緑の葉に暗紫色の葉脈",
+   "quote": "'Green Spice' green leaves with dark purple veins",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/heuchera/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "level_detail": "属ページ内の品種一覧の記述"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "秋は赤・オレンジに色づく；温暖地では冬も葉が観賞できる",
+   "quote": "outstanding red and orange fall color and, in milder climates, the colorful leaves remain decorative all winter",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "秋に琥珀色になる",
+   "quote": "green leaves with dark purple veins that turn amber in the fall",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/heuchera/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "level_detail": "属ページ内の品種一覧の記述"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "冬の葉色：紫・緑・灰・銀",
+   "quote": "Foliage ... Winter: Purple, Green, Grey, Silver",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "こんもり茂る（Bushy）",
+   "quote": "Habit: Bushy",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "マウンド状",
+   "quote": "Plant Shape: Mounded",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "しっかりしたマウンドを作る",
+   "quote": "This selection forms a sturdy mound",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向、半日陰",
+   "quote": "Position: Full sun, Partial shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向～半日向でよく育つ",
+   "quote": "It grows well in full to partial sun locations. / Exposure: Full Sun, Partial Shade",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰または日陰（暖地では半日陰が最適）",
+   "quote": "Sun Exposure: Partial Shade or Full Shade / In warm regions this is best in part shade.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "4～9",
+   "quote": "Hardiness Zone: 4 - 9",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "4～9",
+   "quote": "USDA Zone: 4-9",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H6",
+   "quote": "Hardiness: H6",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "暖地では半日陰が最適",
+   "quote": "In warm regions this is best in part shade.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "属として：多くは比較的乾いた空気を好む（高温多湿に強いのは H. villosa）",
+   "quote": "Most plants in this genus prefer relatively dry air, but hairy alumroot (Heuchera villosa) will thrive in heat and high humidity.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/heuchera/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "属として：高温乾燥期に日向だと葉焼けが問題になる",
+   "quote": "leaf scorch can be a problem for plants grown in full sun during hot, dry conditions",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/heuchera/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥耐性あり",
+   "quote": "Drought Resistance: Yes",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい土",
+   "quote": "Moisture: Moist but well–drained",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通～湿り気",
+   "quote": "Soil Moisture: Average or Moist",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "ローム・砂質；pH中性",
+   "quote": "Soil Types: Loam, Sand / pH: Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通・砂質；pH中性・アルカリ性・酸性",
+   "quote": "Soil Type: Normal or Sandy / Soil pH: Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "属として：弱酸性を好み、重い粘土を嫌う",
+   "quote": "They prefer a slightly acidic pH and moist, well-drained soils ... They dislike heavy clay.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/heuchera/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "salt",
+   "value_ja": "RHSの推奨植栽場所に「海岸」が含まれる",
+   "quote": "Suggested planting locations and garden types: Coastal",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑",
+   "quote": "Foliage: Evergreen",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑",
+   "quote": "Evergreen.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "属として：北米とロシア極東原産",
+   "quote": "native to North America (including North Carolina) and the Russian Far East",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/heuchera/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "lifespan",
+   "value_ja": "属として：定期的に株分けしないと短命",
+   "quote": "They are usually short-lived perennials unless they are divided regularly, about every 3 or 4 years.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/heuchera/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "葉や芽のセンチュウ、ブドウゾウムシ；ヒューケラさび病",
+   "quote": "May be susceptible to leaf and bud eelworms and vine weevil / Diseases: May be susceptible to heuchera rust",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "属として：うどんこ病、さび病、細菌性斑点病；ゾウムシ、マメコガネ、コナカイガラムシ、葉センチュウ",
+   "quote": "Fungal diseases such as powdery mildew, rust, and bacterial leaf spot can occur. Potential insects include weevils, Japanese Beetles, mealybugs, and foliar nematodes.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/heuchera/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "徒長・木質化した茎は早春に葉芽の位置まで切り戻す；春に古葉を整理",
+   "quote": "Cut back stems of leggy or woody plants to a leaf bud in early spring / Tidy up old foliage in spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "秋に葉を刈り込まない。春に枯れた・傷んだ葉を取り除いて整える",
+   "quote": "Foliage should not be trimmed back in the fall, but plants may be tidied up in spring by removing any withered or tired-looking leaves.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "木質の根茎が地上に持ち上がるので毎年マルチするか、掘り上げて植え直す",
+   "quote": "The woody rootstock tends to lift out of the ground so mulch annually or lift and replant.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "属として：3～4年ごとに株分け",
+   "quote": "divided regularly, about every 3 or 4 years",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/heuchera/",
+   "level": "genus",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "秋の株分け、夏の挿し木",
+   "quote": "Propagate by division in autumn or cuttings in summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/132576/heuchera-green-spice/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "COPF登録品種：増殖にはロイヤリティが必要",
+   "quote": "Registered with COPF: royalty required for propagation.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/heuchera-green-spice.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "鳥・ハチを引き寄せる（表では鳥・チョウ）",
+   "quote": "Green Spice Coral Bells will attract birds, bees / Wildlife Interest: Attracts Birds, Attracts Butterflies",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
+   "level": "cultivar",
+   "from_master_source": true
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "fragrance",
+  "spread_mode",
+  "staking",
+  "toxicity",
+  "cut_flower",
+  "invasive_note"
+ ],
+ "notes": "花色が文献で食い違う：RHSは pale pink、Chicago Botanic と Walters(perennials.com) はクリーム／白。花期もRHS『晩春』、他は初夏～6月。Chicago Botanicによれば Terra Nova Nurseries が1995年に発表（'This Heuchera was introduced by Terra Nova Nurseries in 1995.'）。育種元サイトはこの環境ではブロック。Walters は 'Eco-Improved' を同一品種名として併記。マスターの『花色：目立たない』はどの文献とも一致しない（いずれも白・クリーム・淡ピンクの花を記載）。日照は RHS/CBG が日向～半日陰、Walters は半日陰～日陰で食い違う。perennials.com の運営表記は Valleybrook（Walters Gardens ではない）点に注意。耐潮性について直接の記述はなく、RHSの推奨植栽場所『Coastal』のみ。"
+}

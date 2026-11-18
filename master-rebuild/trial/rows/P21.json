@@ -1,0 +1,338 @@
+{
+ "id": "P21",
+ "fields": {
+  "accepted_name": {
+   "value": "Geranium phaeum",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "Kew"
+   ],
+   "level": "species",
+   "note": "ユーザー判断で種として登録。'Mourning Widow' は品種名ではなく種の一般名（英名）"
+  },
+  "synonyms": {
+   "value": null,
+   "note": "文献に学名のシノニムなし（mourning widow, black widow, dusky-flowered cranesbill は一般名）"
+  },
+  "flower_color_detail": {
+   "value": "くすんだ紫（ライラック・白もある）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Walters は濃いマルーンパープル"
+  },
+  "flower_color_class": {
+   "value": [
+    "青・紫"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species",
+   "note": "RHS は白花もあると記載"
+  },
+  "spread_min": {
+   "value": 60,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species",
+   "note": "種として登録の商品"
+  },
+  "spread_max": {
+   "value": 70,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s10",
+    "s01"
+   ],
+   "level": "species",
+   "note": "Deep Green。RHS の『しばしば褐色の模様』は斑入りとまでは言えないため features に記載"
+  },
+  "foliage_features": {
+   "value": [
+    "切れ込みのある葉（深く切れ込む）",
+    "褐色の模様が入ることが多い"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "fragrance": {
+   "value": null
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "An erect, clump-forming perennial／Bushy。Walters は mound"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS は Full sun, Partial shade に加え Full shade も可（Walters も日陰可）"
+  },
+  "usda_min": {
+   "value": 5,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 7,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "species",
+   "note": "暑さの記述なし。USDA上限から（7、シカゴ植物園）。Walters の上限9を使えば中"
+  },
+  "heat_note": {
+   "value": null,
+   "note": "暑さ・蒸れの記述なし"
+  },
+  "drought": {
+   "value": "強",
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s01"
+   ],
+   "level": "species",
+   "note": "Drought Tolerant／乾いた日陰に他より強い。RHS Plants for both Wet and Dry Conditions"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Moist but well-drained。過湿でなければ大抵の土に耐え、湿った日陰で特によい（Walters は Average or Dry or Moist）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、白亜質・粘土・ローム・砂質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "salt": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "native_range": {
+   "value": "南・中央・西ヨーロッパ",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち（広がらない）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "clump-forming"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "clump-forming で広がる記述なし"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": [
+    "カスミカメ",
+    "ブドウゾウムシ（幼虫）",
+    "ハバチ（幼虫）",
+    "ナメクジ",
+    "カタツムリ",
+    "ウイルス病",
+    "べと病",
+    "うどんこ病（乾燥時）"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "pruning": {
+   "value": "花後に花の終わった茎と古葉を根元から切ると、新しい葉と花が出る",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "division_interval": {
+   "value": "春または初秋（間隔の記載なし）",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "挿し木",
+    "実生"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "春の株分け、早春〜中春の基部挿し、種子"
+  },
+  "cut_flower": {
+   "value": null
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS Plants for Pollinators"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "flower_color_detail",
+   "detail": "RHS dusky purple, lilac or white／Walters dark maroon-purple。RHS を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "Walters 60-70cm／RHS 0.1-0.5m。Walters を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "シカゴ植物園 5-7／Walters 4-9。耐寒側の優先順位でシカゴ植物園を採用（heat の判定にも影響）"
+  },
+  {
+   "field": "silhouette",
+   "detail": "RHS erect, clump-forming・Bushy／Walters mound。RHS を採用"
+  }
+ ],
+ "name_review": {
+  "current": "Geranium phaeum 'Mourning Widow'",
+  "proposed": "Geranium phaeum",
+  "reason": "'Mourning Widow' は品種名ではなく種の一般名（RHS の Other common names、Walters の一般名 Mourning Widow Cranesbill）。品種の記録は使用可文献にない。ユーザー判断で種 Geranium phaeum として登録",
+  "source": "s01 / Kew"
+ },
+ "notes": "ユーザー判断により種として登録。種レベルの記述を品種レベルと同じ扱いにした（level は species のまま記録）。"
+}

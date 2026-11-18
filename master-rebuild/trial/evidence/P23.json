@@ -1,0 +1,503 @@
+{
+ "id": "P23",
+ "searched_name": "Anemone sylvestris 'Madonna'",
+ "access_log": [
+  {
+   "source": "-",
+   "url": "https://www.gardenia.net/plant/anemone-sylvestris-Madonna",
+   "status": "not_found",
+   "note": "マスター出典だが使用禁止文献のため読まず"
+  },
+  {
+   "source": "-",
+   "url": "https://www.northcreeknurseries.com/index.cfm/fuseaction/mobile.plant/ID/132/index.htm",
+   "status": "not_found",
+   "note": "マスター出典だがナーサリーの商品ページで使用対象外のため読まず"
+  },
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/359844/anemone-sylvestris-madonna/details",
+   "status": "ok",
+   "note": "品種ページはあるが科と属の説明のみ。Name Status: Unresolved"
+  },
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "status": "ok",
+   "note": "種 Anemone sylvestris のページ"
+  },
+  {
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/anemone-sylvestris-madonna-madonna-snowdrop-anemone",
+   "status": "ok",
+   "note": "品種ページはあるが名前とゾーン欄（0 - 0）のみ。アーカイブ版"
+  },
+  {
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/anemone-sylvestris-snowdrop-anemone",
+   "status": "ok",
+   "note": "種のページ。アーカイブ版"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris-madonna.html",
+   "status": "404",
+   "note": "Search Not Found ページ"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "status": "ok",
+   "note": "種のページ"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/anemone-sylvestris/",
+   "status": "404",
+   "note": ""
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/anemonoides-sylvestris/",
+   "status": "404",
+   "note": ""
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Anemone sylvestris 'Madonna'（RHS では名前の扱いが未確定 Unresolved）",
+   "quote": "Name Status Unresolved",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/359844/anemone-sylvestris-madonna/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "（種）Anemone sylvestris は RHS で Correct",
+   "quote": "Name Status Correct",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "キンポウゲ科 Ranunculaceae",
+   "quote": "Family Ranunculaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/359844/anemone-sylvestris-madonna/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "（種）白、径8cmまで、黄金色の雄しべ",
+   "quote": "White flowers up to 8cm across, with golden stamens",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "（種）白い5弁花",
+   "quote": "blooms prolifically with delicate, 5-petaled, white flowers",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/anemone-sylvestris-snowdrop-anemone",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "（種）うつむく白花",
+   "quote": "Delicate nodding white flowers",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "（種）晩春〜初夏",
+   "quote": "appear in late spring and early summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "（種）4月が最盛期、夏の暑さまで散発的に咲き、9月にも少し咲く",
+   "quote": "The best show of flowers is in April, but it continues blooming sporadically until summer's heat, when it puts out a few more blooms in September.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/anemone-sylvestris-snowdrop-anemone",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "（種）晩春〜初夏",
+   "quote": "Delicate nodding white flowers appear in late spring and early summer",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "（種）最大0.5〜1m",
+   "quote": "Max Height 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "（種）30〜45cm",
+   "quote": "Height 30-45 cm 12-18 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "（種）最大0.1〜0.5m",
+   "quote": "Max Spread 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "（種）30〜60cm",
+   "quote": "Spread 30-60 cm 12-23 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "（種）長い柄のある中緑色の深く切れ込む葉",
+   "quote": "The long-stalked leaves are mid-green and deeply divided.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "（種）細かく切れ込んだ葉",
+   "quote": "the fine-textured divided leaves are attractive",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/anemone-sylvestris-snowdrop-anemone",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "（種）シダ状の葉、濃緑",
+   "quote": "over a low mound of ferny foliage / Foliage Color Deep Green",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "（種）低く茂る",
+   "quote": "hardy, low-growing perennial",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/anemone-sylvestris-snowdrop-anemone",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "（種）シダ状の葉が低いマウンドを作り、密な群落になる",
+   "quote": "over a low mound of ferny foliage. Plants will form a dense patch, suitable for a groundcover.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "（種）吸枝で広がる",
+   "quote": "Habit Suckering",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "（種）日向〜半日陰",
+   "quote": "Position Full sun, Partial shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "（種）日陰に耐える、半日陰",
+   "quote": "Tolerant of shade / Exposure: Partial Shade",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/anemone-sylvestris-snowdrop-anemone",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "（種）日向または半日陰",
+   "quote": "Sun Exposure Full Sun or Partial Shade",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "（種）4〜8",
+   "quote": "Hardiness Zone: 4 - 8",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/anemone-sylvestris-snowdrop-anemone",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "（種）2〜9",
+   "quote": "USDA Zone: 2-9",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "（種）H6",
+   "quote": "Hardiness H6",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "（種）夏の暑さで開花がいったん止まる（耐暑性の直接の記述ではない）",
+   "quote": "continues blooming sporadically until summer's heat",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/anemone-sylvestris-snowdrop-anemone",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（種）湿り気があり水はけのよい〜水はけのよい土",
+   "quote": "Moisture Moist but well–drained or Well–drained",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（種）腐植に富み水はけのよい土",
+   "quote": "Grow in humus-rich, well-drained soil",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（種）普通・湿り気・湿潤",
+   "quote": "Soil Moisture Average or Moist or Wet",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "（種）粘土・ローム、酸性〜アルカリ性",
+   "quote": "Soil Types Clay, Loam / pH Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "（種）粘土、中性・アルカリ性・酸性",
+   "quote": "Soil Type Clay / Soil pH Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "（種）落葉",
+   "quote": "Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "（種）ヨーロッパ、コーカサス",
+   "quote": "Plant Range Europe, Caucasus",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "（種）ヨーロッパ原産",
+   "quote": "native to Europe",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/anemone-sylvestris-snowdrop-anemone",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "（種）根からの吸枝で急速に広がる",
+   "quote": "A herbaceous perennial spreading rapidly by root suckers.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "（種）広がるので余裕を持たせるか毎春縁を切る",
+   "quote": "Allow this spreader plenty of room, or plan to edge each spring to keep the patch to a reasonable size.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "（種）摂取で軽い胃の不調、接触で皮膚刺激",
+   "quote": "Potentially harmful Ingestion may cause mild stomach upset; contact may irritate skin.",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（種）線虫・ナメクジ・イモムシ、うどんこ病",
+   "quote": "May be damaged by eelworms, slugs and caterpillars / Powdery mildews may be a problem",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（種）シカに強い",
+   "quote": "Resistant To Deer",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/anemone-sylvestris-snowdrop-anemone",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（種）シカ・ウサギに強い",
+   "quote": "Deer Resistant Rabbit Resistant",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "（種）花後に切り戻す",
+   "quote": "Pruning Cut back after flowering",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "（種）早春に株分け",
+   "quote": "Propagate by division in early spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "（種）春か秋に容易に株分けできる",
+   "quote": "Easily divided in spring or fall.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "（種）株分け",
+   "quote": "Propagate by division in early spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/1261/anemone-sylvestris/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "（種）花も綿毛状の種子穂も切り花に使える",
+   "quote": "Both the flowers as well as the fluffy seed-heads are useful for cutting.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "（種）チョウを呼ぶ",
+   "quote": "Attracts Butterflies",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/anemone-sylvestris-snowdrop-anemone",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "（種）広がるので場所を十分とるか毎春縁切りを",
+   "quote": "Allow this spreader plenty of room, or plan to edge each spring",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "synonyms",
+  "common_name_ja",
+  "group",
+  "seasonal_foliage",
+  "fragrance",
+  "drought",
+  "salt",
+  "lifespan",
+  "staking"
+ ],
+ "notes": "品種 'Madonna' の情報は使用可能文献ではほぼ得られなかった：RHS の品種ページは科と属説明のみで Name Status が Unresolved（未確定）、CBG の品種ページは名前のみ（ゾーン 0-0 で空）、perennials.com は品種ページなし、NCSU は種も品種もなし。記録した値は科以外すべて種 Anemone sylvestris レベル。マスター出典2件（gardenia.net、North Creek Nurseries）は使用対象外のため読んでいない。シノニム Anemonoides sylvestris は今回読んだ文献では記載なし（RHS は Anemone sylvestris を Correct 扱い）。RHS H6 と CBG ゾーン4-8・perennials.com 2-9 は種レベル。"
+}

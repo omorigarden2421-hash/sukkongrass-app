@@ -1,0 +1,385 @@
+{
+ "id": "P24",
+ "searched_name": "Spiraea japonica 'Goldflame'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "status": "ok",
+   "note": "マスター出典（成株シルエット参照URL）"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica-goldflame/",
+   "status": "404",
+   "note": ""
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "status": "ok",
+   "note": "種のページ"
+  },
+  {
+   "source": "-",
+   "url": "https://yardandgarden.extension.iastate.edu/faq/my-japanese-spireas-are-straggly-appearance-how-should-i-prune-them",
+   "status": "not_found",
+   "note": "マスター出典だが Iowa State は使用可能文献の表にないため読まず"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Spiraea japonica 'Goldflame'（RHS で Accepted）",
+   "quote": "Name Status Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "Spiraea × bumalda 'Gold Flame'、Spiraea × bumalda 'Goldflame'",
+   "quote": "Synonyms Spiraea × bumalda 'Gold Flame', Spiraea × bumalda 'Goldflame'",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "バラ科 Rosaceae",
+   "quote": "Family Rosaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "バラ科 Rosaceae",
+   "quote": "Family: Rosaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "濃いピンク",
+   "quote": "flat clusters of deep pink flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "（種）濃いピンクまたはバラ色がかった赤",
+   "quote": "Flowers are deep pink or rose-reddish",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "盛夏〜晩夏",
+   "quote": "From mid to late summer flat clusters of deep pink flowers are produced in profusion",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "（種）6〜7月",
+   "quote": "Blooms in June and July with mild fragrance.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "75cm（最大0.5〜1m）",
+   "quote": "A compact, yet bushy deciduous shrub to 75cm in height / Max Height 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "（種）4〜6フィート",
+   "quote": "Height: 4 ft. 0 in. - 6 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "0.5〜1m",
+   "quote": "Max Spread 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "（種）4〜7フィート",
+   "quote": "Width: 4 ft. 0 in. - 7 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "卵形の葉が橙赤色で展開し、明るい黄色を経て中緑色に",
+   "quote": "ovate leaves opening orange-red, and changing to bright yellow, and then mid-green",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "春：橙・赤、夏：黄・緑、秋：緑・金色",
+   "quote": "Spring Orange, Red / Summer ... Yellow, Green / Autumn Green, Gold",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "（種）花にほのかな香り",
+   "quote": "Blooms in June and July with mild fragrance.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "コンパクトだがこんもり茂る",
+   "quote": "A compact, yet bushy deciduous shrub / Habit Bushy",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "（種）密・直立・丸い",
+   "quote": "Habit/Form: Dense Erect Rounded",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向〜半日陰（明るい日陰）",
+   "quote": "Position Full sun, Partial shade / in full sun or light shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "（種）日向〜半日陰",
+   "quote": "It grows in full sun to partial shade",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "（種）3a〜8b",
+   "quote": "USDA Plant Hardiness Zone: 3a, 3b, 4a, 4b, 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H6",
+   "quote": "Hardiness H6",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "drought",
+   "value_ja": "（種）乾燥に耐える",
+   "quote": "Resistance To Challenges: Drought Erosion",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい〜水はけのよい土。たいていの湿った土で容易",
+   "quote": "Moisture Moist but well–drained or Well–drained / Easy to grow in most moist soils, tolerant of all but the most extreme conditions",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（種）水はけのよい土",
+   "quote": "well-drained, alkaline soil",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "白亜質・粘土・ローム・砂、酸性〜アルカリ性",
+   "quote": "Soil Types Chalk, Clay, Loam, Sand / pH Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "（種）アルカリ性の土。粘土・有機質・ローム・浅い礫質",
+   "quote": "well-drained, alkaline soil / Soil Texture: Clay High Organic Matter Loam (Silt) Shallow Rocky",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "salt",
+   "value_ja": "RHS の推奨植栽場所に「海岸」",
+   "quote": "Suggested planting locations and garden types ... Coastal",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉",
+   "quote": "deciduous shrub / Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "（種）日本・中国",
+   "quote": "It is native to Japan and China.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "（種）こぼれ種で旺盛に増え、挿し木状の再生や吸枝でも増えて細い茎の密な茂みを作る",
+   "quote": "It is a rapid grower and can be an aggressive self-seeder. ... It also reproduces by stem cuttings or suckering, creating a dense thicket of thin wiry stems",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "通常害虫なし。病気も通常ないがナラタケ病にかかることがある",
+   "quote": "Pests Generally pest-free / Diseases Generally disease-free but may be susceptible to honey fungus",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（種）斑点病・火傷病・うどんこ病・根腐れ・アブラムシ・ハマキムシ・カイガラムシ。シカの食害あり",
+   "quote": "leaf spot, fire blight, powdery mildew, root rot, aphids, leaf roller and scale / this plant may be damaged by deer",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "剪定グループ6。全枝を地際15cm以内まで切り詰めると整う",
+   "quote": "pruning group 6. Keep really neat by cutting all stems back to within 15cm of ground level",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "春〜晩夏の緑枝挿し・半熟枝挿し、冬の休眠枝挿し",
+   "quote": "Propagate by softwood or semi-ripe cuttings in spring to late summer or hardwood cuttings in winter",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "（種）種子・挿し木",
+   "quote": "Recommended Propagation Strategy: Seed Stem Cutting",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "RHS 送粉者のための植物",
+   "quote": "For Bio-Diversity Plants for Pollinators",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/70993/spiraea-japonica-goldflame/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "（種）チョウを呼ぶ",
+   "quote": "Wildlife Value: attracts butterflies",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "（種）問題植物で代替を検討すべき。米東部で逸出・野生化、NC侵略的植物協議会が侵略種に分類、VA・GA・SC・TN・KYなどで侵略種リスト掲載",
+   "quote": "This plant is problematic and alternatives should be considered. ... It is classified as an invasive species by the NC Invasive Plant Council.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "group",
+  "heat_humidity",
+  "lifespan",
+  "staking",
+  "toxicity",
+  "division",
+  "cut_flower"
+ ],
+ "notes": "RHS では Spiraea japonica 'Goldflame' が Accepted、シノニムに Spiraea × bumalda 'Goldflame' あり。樹木（落葉低木）。NCSU に品種ページはなく種 S. japonica のページのみで、種として米国で侵略的（NC Invasive Plant Council 指定）と明記。種の高さ4-6ftは品種（RHS 75cm、最大0.5-1m）とは大きく異なるので種レベル値の流用に注意。マスターの高さ60～100cm は RHS 最大0.5-1mと概ね合うが RHS 本文は75cm。耐潮性は RHS の推奨植栽場所『Coastal』のみ（明示的な耐塩記述ではない）。USDAゾーンは種レベルのみ。マスター出典の Iowa State は対象外のため読まず。"
+}

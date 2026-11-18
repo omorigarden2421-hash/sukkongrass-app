@@ -1,0 +1,353 @@
+{
+ "id": "P03",
+ "fields": {
+  "accepted_name": {
+   "value": "Ajuga reptans 'Burgundy Glow'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS 表記は 'Burgundy Glow' (v)。(v) は斑入りの印で品種名には含めない"
+  },
+  "synonyms": {
+   "value": null
+  },
+  "flower_color_detail": {
+   "value": "濃い青",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_class": {
+   "value": [
+    "青・紫"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "spread_min": {
+   "value": 30,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "spread_max": {
+   "value": 45,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "foliage_class": {
+   "value": "斑入り",
+   "method": "判定",
+   "sources": [
+    "s10",
+    "s01",
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "三色の斑入り（RHS 表記 (v)）"
+  },
+  "foliage_features": {
+   "value": [
+    "さじ形",
+    "銀緑の葉に濃いワインレッドがのる",
+    "緑・クリーム・くすんだピンクの三色斑"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s08",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": "秋冬に濃いブロンズ〜バーガンディ色を帯びる。冬も葉が残る（灰・銀・緑・赤）",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "fragrance": {
+   "value": null
+  },
+  "silhouette": {
+   "value": "マット",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "sun": {
+   "value": "半日陰",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS: 葉焼けを防ぐため半日陰がよい、日陰も可"
+  },
+  "usda_min": {
+   "value": 3,
+   "method": "記載",
+   "sources": [
+    "s08",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s08",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "USDA上限から（上限9）。NCSU（種）の「非常に湿度が高い条件で株腐れが問題になる」は①の明記とまではいえず、NCSU の品種短評は茎腐れ・疫病に抵抗性ありとするため採らなかった"
+  },
+  "heat_note": {
+   "value": "種としては非常に湿度の高い条件や重い土で株腐れが出ることがあるが、この品種は疫病・茎腐れ・葉腐れに抵抗性がよいとされる。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s08",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "CBG Soil: Moderate、Walters Average or Moist。NCSU（種）はやや乾いた土にも耐えると記載"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "RHS は排水不良の土も可・湿り気があればどんな土にも耐える。NCSU（種）は湿った重い土を避けるとする"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・ローム",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": null
+  },
+  "evergreen_cold": {
+   "value": "常緑",
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "シカゴ植物園の記述 creeping rhizomatous evergreen"
+  },
+  "evergreen_warm": {
+   "value": "常緑",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "NCSU（種）は常緑〜半常緑"
+  },
+  "native_range": {
+   "value": "ヨーロッパ〜イラン北部、北西アフリカ",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "ランナー",
+    "地下茎"
+   ],
+   "method": "判定",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar",
+   "note": "CBG: rhizomatous で stolons により急速に広がる"
+  },
+  "self_seed_level": {
+   "value": null
+  },
+  "rhizome_level": {
+   "value": 3,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "NCSU（種）: aggressive spread、他地域で invasive、宿根草花壇や芝生の近くは避ける。CBG（品種）も急速に広がるとする"
+  },
+  "mixing": {
+   "value": "侵略的（隔離推奨）",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "種レベルの invasive／aggressive の明記による。品種レベルでは CBG の spreading rapidly（強い相当）まで"
+  },
+  "invasive_note": {
+   "value": "種は旺盛に広がり米国の他地域では侵略的とされる（NC では在来植物群落への脅威は低い）。宿根草花壇や芝生の近くは避ける。この品種は広い面積のグラウンドカバーには推奨されない。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "toxicity": {
+   "value": null
+  },
+  "pests": {
+   "value": [
+    "うどんこ病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS: Generally pest-free。NCSU（種）の株腐れは、品種短評で抵抗性ありとされるため入れない"
+  },
+  "pruning": {
+   "value": "剪定不要。生育期に緑一色やブロンズの先祖返りの芽が出たら取り除く。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "不要"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "management_type": {
+   "value": "E 隔離推奨型",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "mixing が 侵略的のため"
+  },
+  "division_interval": {
+   "value": "混み合ったら、春または初秋",
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "実生"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "品種ページは株分け（発根した茎を分ける）のみ。実生は NCSU（種）"
+  },
+  "cut_flower": {
+   "value": null
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Plants for Pollinators"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "spread",
+   "detail": "RHS 0.5-1m／Walters 30-45cm／NCSU（種）6インチ-1フィート。Walters を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS 半日陰（日陰可）／CBG 日なた〜日陰／Walters 半日陰〜日陰。RHS を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "CBG・Walters 3-9／NCSU（種）3a-10b。CBG を採用"
+  },
+  {
+   "field": "soil_ph_type",
+   "detail": "RHS 酸性〜アルカリ性／NCSU（種）酸性。RHS を採用"
+  },
+  {
+   "field": "rhizome_level",
+   "detail": "CBG（品種）spreading rapidly（2相当）／NCSU（種）aggressive・invasive（3相当）。強い方の明記を採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "斑が戻った緑・ブロンズの芽の除去が必要（Walters）。侵略性の判定は種レベル情報に依存しており、品種としては弱めの可能性があるが文献に明記なし。"
+}

@@ -1,0 +1,384 @@
+{
+ "id": "P21",
+ "searched_name": "Geranium phaeum 'Mourning Widow'",
+ "access_log": [
+  {
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/geranium-phaeum-mourning-widow",
+   "status": "ok",
+   "note": "マスター出典。見出しは Geranium phaeum、表示名 Mourning Widow。内容は耐寒ゾーンと植物タイプのみ（Archived Copy）"
+  },
+  {
+   "source": "s10",
+   "url": "https://perennials.com/plants/geranium-phaeum.html",
+   "status": "blocked",
+   "note": "マスター出典のURL（www なし）はプロキシで403"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "status": "ok",
+   "note": "同じページを www 付きで取得（マスター出典扱い）。Geranium phaeum の種ページ、Mourning Widow Cranesbill は一般名"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum-mourning-widow.html",
+   "status": "not_found",
+   "note": "品種ページなし（検索結果なしの画面）"
+  },
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "status": "ok",
+   "note": "種ページ。'Mourning Widow' 品種ページはRHSで見つからず"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/geranium-phaeum/",
+   "status": "404",
+   "note": ""
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Geranium phaeum（正名）。mourning widow は種の一般名の一つ",
+   "quote": "Geranium phaeum ... Name Status: Correct / Other common names: black widow, dusky-flowered cranesbill, mourning widow",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Geranium phaeum（一般名 Mourning Widow Cranesbill）",
+   "quote": "Geranium phaeum / Mourning Widow Cranesbill",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Geranium phaeum（表示名 Mourning Widow）",
+   "quote": "Geranium phaeum ... Mourning Widow",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/geranium-phaeum-mourning-widow",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "フウロソウ科",
+   "quote": "Family: Geraniaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "くすんだ紫・ライラック・白、径2cm",
+   "quote": "flat, outward-facing dusky purple, lilac or white flowers 2cm wide",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "濃いマルーンパープル",
+   "quote": "bearing unique dark maroon-purple clusters of flowers / Flower Colour: Purple",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "晩春～初夏",
+   "quote": "in late spring and early summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "晩春～盛夏",
+   "quote": "Blooming Time: Early Summer, Mid Summer, Late Spring",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "最大0.5～1m",
+   "quote": "Max Height: 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "60～75cm",
+   "quote": "Height: 60-75 cm / 23-29 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "最大0.1～0.5m",
+   "quote": "Max Spread: 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "60～70cm",
+   "quote": "Spread: 60-70 cm / 23-27 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "切れ込みのある葉、しばしば褐色の模様",
+   "quote": "lobed leaves often with brownish markings",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "深く切れ込んだ緑の葉（濃緑）",
+   "quote": "forms a mound of deeply-cut green foliage / Foliage Color: Deep Green",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "直立する株立ち；Bushy",
+   "quote": "An erect, clump-forming perennial / Habit: Bushy",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "マウンド状",
+   "quote": "This species forms a mound",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日陰・日向・半日陰",
+   "quote": "Position: Full shade, Full sun, Partial shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向・半日陰・日陰",
+   "quote": "Sun Exposure: Full Sun or Partial Shade or Full Shade",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "5～7",
+   "quote": "Hardiness Zone: 5 - 7",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/geranium-phaeum-mourning-widow",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "4～9",
+   "quote": "USDA Zone: 4-9",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H7",
+   "quote": "Hardiness: H7",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾いた日陰に他より強い；乾燥に強い",
+   "quote": "Tolerates dry shade better than most. / Drought Tolerant",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾湿の変化に耐える植物（RHS推奨 People & Planet）",
+   "quote": "Plants for both Wet and Dry Conditions",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい土；過湿でなければ大抵の土に耐える；湿った日陰で特によい",
+   "quote": "Moisture: Moist but well–drained / most soils (unless waterlogged) are tolerated. Especially good in damp shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通・乾き気味・湿り",
+   "quote": "Soil Moisture: Average or Dry or Moist",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "チョーク・粘土・ローム・砂；pH 酸性・アルカリ性・中性",
+   "quote": "Soil Types: Chalk, Clay, Loam, Sand / pH: Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通・砂質・粘土；pH中性・アルカリ性・酸性",
+   "quote": "Soil Type: Normal or Sandy or Clay / Soil pH: Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉",
+   "quote": "Foliage: Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "南・中央・西ヨーロッパ",
+   "quote": "Plant Range: S C & W Europe",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "カスミカメ、ブドウゾウムシ幼虫、ハバチ幼虫、ナメクジ・カタツムリ；ウイルス、べと病、乾燥時のうどんこ病",
+   "quote": "May be susceptible to capsid bug, vine weevil larvae, sawfly larvae, slugs and snails / May be susceptible to a virus or downy mildew. May be susceptible to Powdery mildews in dry conditions",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花の終わった茎と古葉を根元から切ると新しい葉と花が出る",
+   "quote": "Cut flowered stems and old leaves to the base to encourage new foliage and flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花後に切り戻すと新しい葉が出る",
+   "quote": "Plants need to be cut back after blooming to encourage fresh new foliage.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "春に株分け",
+   "quote": "Propagate by division in spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "春か初秋に簡単に株分けできる",
+   "quote": "Clumps are easily divided in spring or early fall.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/geranium-phaeum.html",
+   "level": "species",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "春の株分け、早春～中春の基部挿し（底面加温）、種子（採りまき・春まき）",
+   "quote": "Propagate by division in spring or basal cuttings in early or mid-spring and root with bottom heat. Propagate by seed in containers outdoors as soon as ripe or in spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "RHS Plants for Pollinators",
+   "quote": "For Biodiversity: Plants for Pollinators",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/7908/geranium-phaeum/details",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "synonyms",
+  "common_name_ja",
+  "group",
+  "seasonal_foliage",
+  "fragrance",
+  "heat_humidity",
+  "salt",
+  "spread_mode",
+  "lifespan",
+  "staking",
+  "toxicity",
+  "cut_flower",
+  "invasive_note"
+ ],
+ "notes": "学名の問題：'Mourning Widow' は品種名ではなく Geranium phaeum の一般名（英名）。RHSは 'Other common names: black widow, dusky-flowered cranesbill, mourning widow' と記載し、Walters(perennials.com) も種ページの一般名を 'Mourning Widow Cranesbill' としている。Chicago Botanic のURLに mourning-widow が入るが、見出しは Geranium phaeum で品種表記はない。'Mourning Widow' という品種の記録は使用可文献に見つからない。正しくは Geranium phaeum（種）とするのが文献と合う。全て level=species。USDAゾーンは Chicago Botanic 5～7、Walters 4～9 で食い違う。株張りも RHS 0.1～0.5m、Walters 60～70cm で食い違う。マスター出典 promessedefleurs.ie はナーサリーのため読んでいない。"
+}

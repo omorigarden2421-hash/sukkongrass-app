@@ -1,0 +1,674 @@
+{
+ "id": "P03",
+ "searched_name": "Ajuga reptans 'Burgundy Glow'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-(v)/details",
+   "status": "ok",
+   "note": "マスター出典。-v に正規化"
+  },
+  {
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/ajuga-reptans-burgundy-glow-burgundy-glow-bugleweed",
+   "status": "ok",
+   "note": "マスター出典。2022年以前のアーカイブ"
+  },
+  {
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "status": "ok",
+   "note": "種ページ（品種一覧に 'Burgundy Glow' の短評あり）"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Ajuga reptans 'Burgundy Glow' (v)（Name Status: Accepted）",
+   "quote": "Ajuga reptans 'Burgundy Glow' (v) ... Name Status Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "シソ科",
+   "quote": "Family Lamiaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "シソ科",
+   "quote": "Family: Lamiaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "濃い青",
+   "quote": "short spikes of deep blue flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "濃い青",
+   "quote": "dark blue flowers; Bloom Color: Blue Lavender",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/ajuga-reptans-burgundy-glow-burgundy-glow-bugleweed",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "濃い青",
+   "quote": "Flower Colour Deep Blue",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "青い花",
+   "quote": "Tricolored foliage, blue flowers.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "晩春〜初夏",
+   "quote": "in late spring and early summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "5月〜6月／晩春",
+   "quote": "Bloom Time: May - June; in late spring",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/ajuga-reptans-burgundy-glow-burgundy-glow-bugleweed",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "春（中春・晩春・初夏）",
+   "quote": "Spikes of blue flowers appear in spring.; Blooming Time Early Summer Mid Spring Late Spring",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "約15cm",
+   "quote": "Creeping evergreen perennial about 15cm tall",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "0.1-0.5m",
+   "quote": "Max Height 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "花穂は6インチまで",
+   "quote": "Dark blue flowers are borne in whorls up to 6 inches tall",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/ajuga-reptans-burgundy-glow-burgundy-glow-bugleweed",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "10-15cm",
+   "quote": "Height 10-15 cm 4-6 inches",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "6インチ-1フィート（種）",
+   "quote": "Height: 0 ft. 6 in. - 1 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "0.5-1m",
+   "quote": "Max Spread 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "30-45cm",
+   "quote": "Spread 30-45 cm 12-18 inches",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "6インチ-1フィート（種）",
+   "quote": "Width: 0 ft. 6 in. - 1 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "銀緑色のさじ形の葉に濃いワインレッドがのる",
+   "quote": "silvery-green, spoon-shaped leaves suffused with deep wine-red",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "さじ形の三色の葉に濃いワインレッド",
+   "quote": "spoon-shaped, tri-colored leaves suffused with deep wine-red",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/ajuga-reptans-burgundy-glow-burgundy-glow-bugleweed",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "緑・クリーム・くすんだピンクの斑",
+   "quote": "leaves dappled in green, cream and smoky pink; Foliage Color Light Green Red Variegated White",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "三色の葉",
+   "quote": "Tricolored foliage",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "秋冬に濃いブロンズ・バーガンディ色になる",
+   "quote": "Excellent fall and winter effect, developing rich bronze and burgundy tones.",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "冬も灰・銀・緑・赤の葉色",
+   "quote": "Winter Grey, Silver, Green, Red",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "匍匐性・マット状",
+   "quote": "Creeping evergreen perennial; Habit Matforming",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "匍匐性",
+   "quote": "Plant Shape: Creeping",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/ajuga-reptans-burgundy-glow-burgundy-glow-bugleweed",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "広がるマウンド状",
+   "quote": "forming a spreading mound of leaves",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "匍匐・密・横に広がる（種）",
+   "quote": "Habit/Form: Creeping Dense Horizontal Spreading",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰（葉焼け防止）、日陰も可",
+   "quote": "best in partial shade to prevent foliage scorching, but can also tolerate shade; Position Partial shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた・半日陰・日陰",
+   "quote": "Exposure: Full Sun Partial Shade Full Shade",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/ajuga-reptans-burgundy-glow-burgundy-glow-bugleweed",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰〜日陰",
+   "quote": "Sun Exposure Partial Shade or Full Shade",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "あらゆる光条件に耐える（種）",
+   "quote": "It tolerates all light levels",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "3-9",
+   "quote": "Hardiness Zone: 3 - 9",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/ajuga-reptans-burgundy-glow-burgundy-glow-bugleweed",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "3-9",
+   "quote": "USDA Zone: 3-9",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "3a-10b（種）",
+   "quote": "USDA Plant Hardiness Zone: 3a, ... 10a, 10b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H7",
+   "quote": "H7",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "非常に湿度が高い条件や重い土で株腐れが問題になる（種）",
+   "quote": "Crown rot can be a problem in very humid conditions and in heavy soils.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "疫病・茎腐れ・葉腐れ(aerial blight)に抵抗性がよい",
+   "quote": "Good resistance to phytophthora, stem rot, aerial blight..",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "drought",
+   "value_ja": "やや乾いた土にも耐える（種）",
+   "quote": "it will tolerate moderately dry soils",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい〜排水不良の土；湿り気があればどんな土にも耐える",
+   "quote": "Moisture Moist but well–drained or Poorly–drained; Will tolerate any soil so long as there is some moisture",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "中程度の湿り気",
+   "quote": "Soil: Moderate",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/ajuga-reptans-burgundy-glow-burgundy-glow-bugleweed",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通〜湿り気",
+   "quote": "Soil Moisture Average or Moist",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿った場所に向く；湿った重い土は避ける（種）",
+   "quote": "an excellent choice for moist areas; Avoid planting in wet, heavy soils",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・ローム；酸性・アルカリ性・中性",
+   "quote": "Clay, Loam; pH Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通土・砂質・粘土；中性・アルカリ性・酸性",
+   "quote": "Soil Type Normal or Sandy or Clay; Soil pH Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・ローム・砂；酸性(<6.0)（種）",
+   "quote": "Soil Texture: Clay Loam (Silt) Sand; Soil pH: Acid (<6.0)",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑",
+   "quote": "Foliage Evergreen",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑",
+   "quote": "creeping rhizomatous evergreen",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/ajuga-reptans-burgundy-glow-burgundy-glow-bugleweed",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑",
+   "quote": "Evergreen.",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑〜半常緑（種）",
+   "quote": "evergreen to semi-evergreen",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ヨーロッパ・北アフリカ・西南アジア（種）",
+   "quote": "native to Europe, northern Africa, and southwestern Asia",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "根茎性でストロンにより急速に広がる",
+   "quote": "a creeping rhizomatous evergreen spreading rapidly by stolons",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/ajuga-reptans-burgundy-glow-burgundy-glow-bugleweed",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "生育速度：速い",
+   "quote": "Growth Rate Fast",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "急速に増え旺盛に広がる（種）",
+   "quote": "due to its quick growth and aggressive spread",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ほぼ害虫なし；うどんこ病",
+   "quote": "Generally pest-free; May be susceptible to Powdery mildews",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "シカ・ウサギに強い",
+   "quote": "Deer Resistant; Rabbit Resistant",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "疫病・茎腐れ・aerial blight に抵抗性",
+   "quote": "Good resistance to phytophthora, stem rot, aerial blight..",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "シカの食害に強い（種）",
+   "quote": "This plant is resistant to browsing by deer.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "剪定不要",
+   "quote": "No pruning required",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "緑一色やブロンズの枝変わりは取り除く",
+   "quote": "Be sure to remove any all green or bronze shoots that may appear during the growing season.",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "春か初秋に株分けが容易",
+   "quote": "Plants may be easily divided in spring or early fall.",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "混み合ったら春か秋に株分け（種）",
+   "quote": "Divide these plants when they grow too crowded in the spring or fall",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け（発根した茎を分ける）",
+   "quote": "Propagate by division , separating rooted stems",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け・種子（種）",
+   "quote": "Recommended Propagation Strategy: Division Seed",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "RHS Plants for Pollinators",
+   "quote": "Plants for pollinators",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/96488/ajuga-reptans-burgundy-glow-v/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "蝶を呼ぶ",
+   "quote": "Wildlife Interest: Attracts Butterflies",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/ajuga-reptans-burgundy-glow-burgundy-glow-bugleweed",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "マルハナバチ・ハチドリ・鳴禽類（種）",
+   "quote": "Attracts bumblebees, hummingbirds and songbirds.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "他地域では侵略的とされる。NCでは在来植物群落への脅威は低い（種）",
+   "quote": "This plant is listed as invasive in other parts of the country due to its quick growth and aggressive spread; in NC, it is considered a low threat to native plant communities.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "宿根草の花壇や芝生の近くは避ける（種）",
+   "quote": "avoid planting near perennial beds or lawns where its spreading nature could pose removal problems",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "広い面積のグラウンドカバーには推奨しない（品種）",
+   "quote": "not recommended as a large area groundcover",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
+   "level": "cultivar",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "synonyms",
+  "common_name_ja",
+  "group",
+  "fragrance",
+  "salt",
+  "lifespan",
+  "staking",
+  "toxicity",
+  "cut_flower"
+ ],
+ "notes": "RHS では 'Burgundy Glow' (v)（斑入り表記）で Accepted。株張りは RHS 0.5-1m、Walters 30-45cm と食い違う。日照も CBG は日なた〜日陰、Walters は半日陰〜日陰、RHS は半日陰（葉焼け防止）と幅あり。Walters は斑が戻った緑・ブロンズの芽の除去を指示（先祖返りしやすい点に注意）。NCSU は種ページで侵略性・攻撃的な広がりに言及。"
+}

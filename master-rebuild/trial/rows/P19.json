@@ -1,0 +1,351 @@
+{
+ "id": "P19",
+ "fields": {
+  "accepted_name": {
+   "value": "Patrinia scabiosifolia",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "synonyms": {
+   "value": null,
+   "note": "文献に記載なし"
+  },
+  "flower_color_detail": {
+   "value": "黄色",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "NC State クロームイエロー、Walters 明るい黄色"
+  },
+  "flower_color_class": {
+   "value": [
+    "黄"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "spread_min": {
+   "value": 45,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species",
+   "note": "種そのものの商品"
+  },
+  "spread_max": {
+   "value": 60,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species",
+   "note": "NC State も 45-60cm"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species",
+   "note": "dark green"
+  },
+  "foliage_features": {
+   "value": [
+    "切れ込みのある葉（シダ状）",
+    "光沢",
+    "根生葉が束になる"
+   ],
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10",
+    "s01"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": "秋に黄金色に色づく",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "fragrance": {
+   "value": null
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "RHS Bushy、NC State Clumping・Erect（根生葉のマウンドから高い茎が立つ）、Walters bushy upright clumps"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "heat": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "heat tolerant／tolerates summer heat and humidity well"
+  },
+  "heat_note": {
+   "value": "夏の暑さと湿気によく耐える",
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s06"
+   ],
+   "level": "species",
+   "note": "NC State も耐暑・耐湿のタグあり"
+  },
+  "drought": {
+   "value": "強",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "drought tolerant"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Moist but well-drained"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・ローム（肥沃で腐植質に富む土）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "NC State・Walters は砂質も可"
+  },
+  "salt": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "species"
+  },
+  "native_range": {
+   "value": "東アジア（日本・朝鮮半島、シベリア南東部〜ロシア極東・ベトナム）",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10",
+    "s06",
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "こぼれ種"
+   ],
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "#self-seeding／#naturalizes。株は Clumping（NC State）"
+  },
+  "self_seed_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "タグ（#self-seeding, #naturalizes）のみで程度の記述なし"
+  },
+  "rhizome_level": {
+   "value": null,
+   "note": "NC State は Clumping、RHS は A spreading perennial で表現が割れ、広がり方の記述もないため"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "Clumping で強い広がり・侵略性の記述なし"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": [
+    "ナメクジ",
+    "カタツムリ",
+    "ヘメロカリス（デイリリー）さび病の中間宿主"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "Walters はさび病の中間宿主のため植栽を勧めないと記載"
+  },
+  "pruning": {
+   "value": "剪定不要",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "pruning_codes": {
+   "value": [
+    "不要"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "management_type": {
+   "value": "A 放任型",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "剪定不要の明記のみ"
+  },
+  "division_interval": {
+   "value": "早春〜春（間隔の記載なし）",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "実生"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "cut_flower": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "species",
+   "note": "excellent for cutting and last well indoors"
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "チョウを引き寄せ、ハチなども来る"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "spread",
+   "detail": "Walters・NC State 45-60cm／RHS 0.1-0.5m。Walters を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS・Walters 日向〜半日陰／NC State 日当たりが重要、日陰では育たない。RHS を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "Walters 4-9／NC State 5a-8b。耐寒側の優先順位で Walters を採用"
+  },
+  {
+   "field": "cut_flower",
+   "detail": "Walters excellent for cutting（◎）／NC State cutting garden・dried arrangements のタグ（○相当）。食い違いではなく具体性の差とみて Walters を採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "種そのものの商品のため種レベルの記述を品種レベル扱い。ヘメロカリスさび病の中間宿主（Walters は植栽非推奨）はデイリリーを扱う生産者に重要。"
+}

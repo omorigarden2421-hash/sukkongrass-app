@@ -1,0 +1,246 @@
+<title>宿根草マスター試作品種</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap">
+<style>
+/* Layout: 一列の記入台帳。上に前提の質問、下に項目ごとの判定行。進捗バーを上部に固定。 */
+:root{
+  --bg:#f3f5f2; --surface:#ffffff; --fg:#1f2a24; --muted:#5d6b63; --line:#d6ddd7;
+  --accent:#2f6b4a; --accent-soft:#e1efe6; --ochre:#9a6a1f; --ochre-soft:#f6ecd9;
+  --warn:#a33b2b; --font-body:"BIZ UDPGothic","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+  --font-head:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141a17; --surface:#1c2420; --fg:#e4ebe6; --muted:#9aa9a0; --line:#33403a;
+  --accent:#7cc79c; --accent-soft:#22382c; --ochre:#e0b46a; --ochre-soft:#3a3020; --warn:#f08a7a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141a17; --surface:#1c2420; --fg:#e4ebe6; --muted:#9aa9a0; --line:#33403a;
+  --accent:#7cc79c; --accent-soft:#22382c; --ochre:#e0b46a; --ochre-soft:#3a3020; --warn:#f08a7a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.7}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px}
+h1,h2,h3{font-family:var(--font-head);text-wrap:balance;margin:0}
+h1{font-size:1.6rem;line-height:1.3}
+h2{font-size:1.2rem;margin:40px 0 4px}
+.lead{color:var(--muted);margin:8px 0 0;max-width:62ch}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line);margin:20px calc(-1*max(16px,env(safe-area-inset-left,0px))) 0;padding:10px max(16px,env(safe-area-inset-left,0px));display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+.prog{flex:1 1 220px;min-width:0}
+.prog-track{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:4px}
+.prog-fill{height:100%;background:var(--accent);width:0;transition:width .3s}
+.prog-label{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.save{font-size:.85rem;color:var(--muted)}
+.save.err{color:var(--warn)}
+.toggle{font-size:.85rem;display:flex;gap:6px;align-items:center;cursor:pointer}
+.howto{background:var(--accent-soft);border-radius:8px;padding:12px 16px;margin-top:20px;font-size:.92rem}
+.howto ol{margin:4px 0 0;padding-left:1.4em}
+.q{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px;margin-top:12px}
+.q h3{font-size:1rem;line-height:1.5}
+.q .hint{color:var(--muted);font-size:.88rem;margin:4px 0 0}
+.qn{color:var(--accent);margin-right:.4em;font-variant-numeric:tabular-nums}
+.opts{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0;pointer-events:none}
+.opt span{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:5px 14px;font-size:.9rem;cursor:pointer;background:var(--bg);user-select:none}
+.opt input:checked+span{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.opt input:focus-visible+span{outline:2px solid var(--ochre);outline-offset:2px}
+textarea{width:100%;box-sizing:border-box;margin-top:10px;border:1px solid var(--line);border-radius:6px;padding:8px 10px;font:inherit;font-size:.92rem;background:var(--bg);color:var(--fg);min-height:2.6em;resize:vertical}
+textarea:focus{outline:2px solid var(--accent);outline-offset:0;border-color:var(--accent)}
+.group-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.group-desc{color:var(--muted);font-size:.9rem;margin:0}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-top:10px}
+.item.done{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+.item-top{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.item-name{font-weight:700;font-size:1rem}
+.badge{font-size:.72rem;letter-spacing:.04em;padding:1px 8px;border-radius:4px;white-space:nowrap}
+.b-now{background:var(--line);color:var(--fg)}
+.b-new{background:var(--ochre-soft);color:var(--ochre)}
+.b-site{background:var(--accent-soft);color:var(--accent)}
+.note{font-size:.88rem;color:var(--muted);margin:4px 0 0}
+.prop{font-size:.88rem;margin:2px 0 0}
+.prop b{color:var(--ochre);font-weight:700}
+.row-label{font-size:.78rem;color:var(--muted);margin-top:10px;letter-spacing:.04em}
+.row-label + .opts{margin-top:4px}
+.help{font-size:.88rem;margin:6px 0 0;background:var(--ochre-soft);border-radius:6px;padding:6px 10px}
+.help b{color:var(--ochre)}
+.newmark{font-size:.72rem;color:var(--ochre);border:1px solid var(--ochre);border-radius:4px;padding:0 6px;margin-left:6px;vertical-align:2px}
+.hidden-done .item.done,.hidden-done .q.done{display:none}
+.foot{margin-top:40px;color:var(--muted);font-size:.85rem}
+@media (prefers-reduced-motion:reduce){.prog-fill{transition:none}}
+.decided{margin:6px 0 0;padding-left:1.3em}
+.decided li{margin:2px 0}
+.def{display:grid;grid-template-columns:5.5em 1fr;gap:4px 10px;margin:10px 0 0;font-size:.9rem}
+.def dt{color:var(--muted);font-size:.8rem;padding-top:.15em}
+.def dd{margin:0;min-width:0}
+.b-lit{background:var(--accent-soft);color:var(--accent)}
+.b-rule{background:var(--ochre-soft);color:var(--ochre)}
+.b-own{background:var(--line);color:var(--fg)}
+.b-auto{border:1px solid var(--line);color:var(--muted)}
+.odds-h{color:var(--accent);border:1px solid var(--accent)}
+.odds-m{color:var(--ochre);border:1px solid var(--ochre)}
+.odds-l{color:var(--warn);border:1px solid var(--warn)}
+</style>
+
+
+<div class="wrap">
+  <h1>宿根草マスター 試作の準備</h1>
+  <p class="lead">項目定義書の回答を読みました。前回の回答の受け取り方の確認と、試作する品種の候補です。チェックを付けてください。</p>
+
+  <div class="bar">
+    <div class="prog">
+      <div class="prog-label" id="progLabel">読み込み中…</div>
+      <div class="prog-track"><div class="prog-fill" id="progFill"></div></div>
+    </div>
+    <label class="toggle"><input type="checkbox" id="hideDone"> 記入済みを隠す</label>
+    <span class="save" id="saveState" aria-live="polite"></span>
+  </div>
+  <div id="sections"></div>
+  <h2>自由記入</h2>
+  <div class="q" data-id="free">
+    <h3>ほかに気づいたことがあれば書いてください。</h3>
+    <textarea id="t-free" data-id="free" data-field="memo" rows="4"></textarea>
+  </div>
+  <p class="foot">記入内容は自動で保存され、Claudeが読み取ります。書き終わったら会話で「書き込んだ」と伝えてください。</p>
+</div>
+
+<script>
+const YN=["合っている","違う"];
+const PICK=["試作に入れる","外す","迷う"];
+const SECTIONS=[
+ {title:"第1部　前回の回答の受け取り方",desc:"項目定義書の回答を、こう受け取りました。違っていたら「違う」を選び、メモに書いてください。",list:[
+  {id:"a01",t:"花期は今のマスターの値をそのまま使い、文献での再調査はしない。（花時期をサイト表示用の言葉から開始月・終了月の数字に置き換える作業だけ行う）",o:YN},
+  {id:"a02",t:"草丈は今のマスターの値をそのまま使い、文献での再調査はしない。「草丈（葉のみ）」の項目は作らない。（「75～100」のような文字列を最小・最大の数字に分ける作業だけ行う）",o:YN},
+  {id:"a03",t:"合わせやすい植物はマスターに入れない。植え合わせは相談の場で御社が提案する。",o:YN},
+  {id:"a04",t:"植え付け適期は、小売（通販ページ）と卸の両方に載せる。",o:YN},
+  {id:"a05",t:"西日耐性と蒸れ耐性は、以前に作られたルールが見つかるまで保留にする。試作ではこの2項目を空欄のまま進める。",o:YN},
+  {id:"a06",t:"耐潮性は、文献で調べられない品種が空欄になっても項目として残す。",o:YN},
+  {id:"a07",t:"小売単価は卸単価÷0.6の円未満を切り捨てる。樹木も宿根草と同じ項目で作る。",o:YN}
+ ]},
+ {title:"第2部　残っている確認",desc:"",list:[
+  {id:"b01",t:"文献3「Kew（英国王立植物園）Plants of the World Online」が未記入でした。使ってよいですか？",h:"正しい学名・旧学名・科名・原産地を調べる、世界で最も標準的なデータベースです。品種の情報はありません。",o:["使ってよい","使わない"]},
+  {id:"b02",t:"植物名の表記：「この形であってる？」へのお答えです。形（改行・全角スペースなし、品種名は半角' '、和名は（ ））はこれでよいと思います。ただ、例のカタカナは私が書き換えてしまっていました。種小名のカタカナは今の植物名の読みのまま残し、形だけ直す方針でよいですか？",h:"例：今「アルテミシア　シュミッディアーナ（改行）‘ナナ’（アサギリソウ）」→ 直したあと「アルテミシア シュミッディアーナ 'ナナ'（アサギリソウ）」",o:["読みは今のまま、形だけ直す","読みも統一したい（メモに）"]},
+  {id:"b03",t:"学名のつづりの誤りは直してよいですか？",h:"例：アサギリソウはマスターでは Artemisia schmidtiana（正しい）ですが、通販サイトでは schmidiana になっています。今後はマスターから表示するので、サイトも正しいつづりにそろいます。",o:["直してよい","相談したい"]},
+  {id:"b04",t:"文献で調べきれないとき、マスターに書いてある出典元を見る、というご提案について。",h:"よい方法だと思います。ただ、今の出典元には文献の範囲外のもの（ナーサリーのページ、gardenia.net など）も多く含まれます。そこで、出典元のうち文献の範囲に入るもの（RHS、MBG、NC State、育種会社のカタログなど）だけを見て、見た場合はそのことを記録する、という形を提案します。",o:["その形でよい","範囲外の出典元も見てよい","相談したい"]}
+ ]},
+ {title:"第3部　試作する品種（28品種）",desc:"性質の違う品種を幅広く選びました。調べやすい品種だけでなく、今のマスターで食い違いがあった品種や、調べにくそうな品種もわざと入れています。差し替えたい品種があれば「外す」を選び、代わりの品種をメモに書いてください。",list:[
+  {id:"p01",t:"アルテミシア シュミッディアーナ 'ナナ'（アサギリソウ）［12］",h:"日本原産。商品ページの本文とサイトのカテゴリ分類が食い違っていた例。",o:PICK},
+  {id:"p02",t:"アキレジア クリサンサ 'イエロークィーン'［5］",h:"短命でこぼれ種で更新する例。",o:PICK},
+  {id:"p03",t:"アジュガ レプタンス 'バーガンディグロウ'［14］",h:"ランナーで広がる例。常緑性で文献とマスターが食い違っていた。",o:PICK},
+  {id:"p04",t:"サギナ サブラータ（アイリッシュモス）［1］",h:"マット状。高温多湿に弱い。",o:PICK},
+  {id:"p05",t:"アキレア 'ラブパレード'［1950］",h:"USDAゾーンで文献とマスターが食い違っていた例。",o:PICK},
+  {id:"p06",t:"アガスタチ 'レッドフォーチュン'［1907］",h:"北海道で越冬できない（寒地不可）例。",o:PICK},
+  {id:"p07",t:"アルケミラ サクサティリス［483］",h:"常緑性でRHSとマスターが食い違っていた例。",o:PICK},
+  {id:"p08",t:"カラマグロスティス 'カールフォースター'［601］",h:"グラスの代表。",o:PICK},
+  {id:"p09",t:"ミスカンサス 'モーニングライト'［787］",h:"日本原産種（ススキ）のグラス。和名や外来種リストの確認の例。",o:PICK},
+  {id:"p10",t:"ホスタ 'ゴールドスタンダード'［1773］",h:"日陰向きの交配品種。",o:PICK},
+  {id:"p11",t:"ヘメロカリス 'ステラデオロ'［230］",h:"文献の多い定番の交配品種。",o:PICK},
+  {id:"p12",t:"エキナセア プルプレア 'マグナス'［41］",h:"蜜源・切り花。",o:PICK},
+  {id:"p13",t:"サルビア ネモローサ 'カラドンナ'［621］",h:"花後の切り戻しが大事な例。",o:PICK},
+  {id:"p14",t:"アルメリア マリティマ 'バリエガータ'［34］",h:"海岸性の植物。耐潮性が文献で取れるかの確認。",o:PICK},
+  {id:"p15",t:"セダム スプリウム 'ドラゴンズブラッド'［128］",h:"乾燥に強いマット状。",o:PICK},
+  {id:"p16",t:"ヒューケラ 'グリーンスパイス'［184］",h:"育種会社の品種。カタログ情報が中心になる例。",o:PICK},
+  {id:"p17",t:"リシマキア ヌンムラリア［267］",h:"広がりやすい種類。在庫が多い品種。",o:PICK},
+  {id:"p18",t:"ルピナス 'フローレイン'［1013］",h:"外来種リストの掲載確認の例。",o:PICK},
+  {id:"p19",t:"オミナエシ（パトリニア スカビオシフォリア）［1185］",h:"日本原産の原種。和名と原産地の確認の例。",o:PICK},
+  {id:"p20",t:"ホトトギス 'ライトニングストライク'［256］",h:"日本原産種の品種。地下茎で広がる。",o:PICK},
+  {id:"p21",t:"ゲラニウム ファエウム 'モーニングウィドウ'（未登録 X001）",h:"マスター未登録。品種名か種の英名かがはっきりしない例。",o:PICK},
+  {id:"p22",t:"フロックス パニキュラータ 'デイビット'（未登録 X002）",h:"マスター未登録。うどんこ病に強い品種。",o:PICK},
+  {id:"p23",t:"アネモネ シルベストゥリス 'マドンナ'（未登録 X003）",h:"マスター未登録。学名が Anemonoides に変わった例。",o:PICK},
+  {id:"p24",t:"スピレア ジャポニカ 'ゴールドフレーム'（オウゴンバシモツケ）［47］",h:"樹木（低木）。",o:PICK},
+  {id:"p25",t:"ハイドランジア セラタ var. エゾエンシス（エゾアジサイ）［1467］",h:"樹木。北海道に自生する種類。",o:PICK},
+  {id:"p26",t:"ロニセラ 'セロチナ'（ハニーサックル）［943］",h:"樹木（つる）。在庫が最も多い品種の一つ。",o:PICK},
+  {id:"p27",t:"コルヌス アルバ 'シビリカ'（サンゴミズキ）［1627］",h:"樹木。冬の枝を観賞する。",o:PICK},
+  {id:"p28",t:"ミントブッシュ（Prostanthera sp.）［1785］",h:"種まで特定できていない難しい例。文献でどこまで決まるかの確認。",o:PICK}
+ ]}
+];
+const ALL_IDS=SECTIONS.flatMap(s=>s.list.map(q=>q.id));
+const state={}; const pending=new Set(); const timers={}; const writing={}; const again={};
+let db=null;
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function opt(id,field,val,multi,i){
+  return `<label class="opt"><input type="radio" id="${id}-${field}-${i}" name="${id}-${field}" data-id="${id}" data-field="${field}" value="${esc(val)}"><span>${esc(val)}</span></label>`;
+}
+function render(){
+  document.getElementById("sections").innerHTML=SECTIONS.map(sec=>`
+   <h2>${esc(sec.title)}</h2>${sec.desc?`<p class="group-desc">${esc(sec.desc)}</p>`:""}
+   ${sec.list.map((q,n)=>`
+   <div class="q" data-id="${q.id}">
+    <h3><span class="qn">${n+1}.</span>${esc(q.t)}</h3>
+    ${q.h?`<p class="hint">${esc(q.h)}</p>`:""}
+    <div class="opts">${q.o.map((o,i)=>opt(q.id,"choice",o,false,i)).join("")}</div>
+    <textarea id="t-${q.id}" data-id="${q.id}" data-field="memo" rows="1" placeholder="メモ"></textarea>
+   </div>`).join("")}`).join("");
+}
+function get(id){return state[id]||(state[id]={choice:[],memo:""})}
+function answered(id){const s=state[id];return !!s&&(s.choice.length>0||(s.memo||"").trim()!=="")}
+function box(id){return document.querySelector(`.q[data-id="${id}"],.item[data-id="${id}"]`)}
+function paint(id){
+  const s=get(id);
+  document.querySelectorAll(`input[data-id="${id}"]`).forEach(el=>{el.checked=(s[el.dataset.field]||[]).includes(el.value);el.dataset.was=el.checked?"1":"0"});
+  const ta=document.querySelector(`textarea[data-id="${id}"]`);
+  if(ta&&document.activeElement!==ta) ta.value=s.memo||"";
+  box(id)?.classList.toggle("done",answered(id));
+}
+function progress(){
+  const n=ALL_IDS.filter(answered).length;
+  document.getElementById("progLabel").textContent=`記入済み ${n} / ${ALL_IDS.length}`;
+  document.getElementById("progFill").style.width=(n/ALL_IDS.length*100)+"%";
+}
+function setSave(t,err){const el=document.getElementById("saveState");el.textContent=t;el.classList.toggle("err",!!err)}
+function touched(id,ms){box(id)?.classList.toggle("done",answered(id));progress();schedule(id,ms)}
+function onChange(e){
+  const el=e.target;const id=el.dataset.id;if(!id)return;
+  const s=get(id);const f=el.dataset.field;
+  if(f==="memo")s.memo=el.value;
+  else if(el.type==="radio")s[f]=[el.value];
+  touched(id,f==="memo"?900:200);
+}
+function onClickRadio(e){
+  const el=e.target;if(el.type!=="radio"||!el.dataset.id)return;
+  if(el.dataset.was==="1"){el.checked=false;get(el.dataset.id).choice=[];touched(el.dataset.id,200)}
+  document.querySelectorAll(`input[name="${el.name}"]`).forEach(r=>r.dataset.was=r.checked?"1":"0");
+}
+function schedule(id,ms){
+  pending.add(id);setSave(db?"保存待ち…":"この画面では保存できません（会話でClaudeに直接お伝えください）",!db);
+  clearTimeout(timers[id]);timers[id]=setTimeout(()=>write(id),ms);
+}
+async function write(id){
+  if(!db)return;
+  if(writing[id]){again[id]=true;return}
+  timers[id]=null;writing[id]=true;setSave("保存中…");
+  const s=get(id);
+  try{await db.doc("answers/"+id).set({choice:s.choice,memo:s.memo,updatedAt:new Date().toISOString()});setSave("保存しました")}
+  catch(err){
+    if(err&&err.code==="unavailable")setTimeout(()=>write(id),800+Math.random()*800);
+    else setSave("保存できませんでした（"+(err&&err.code||"error")+"）",true);
+  }finally{
+    writing[id]=false;
+    if(again[id]){again[id]=false;write(id)}else if(!timers[id])pending.delete(id);
+  }
+}
+function init(){
+  render();ALL_IDS.concat("free").forEach(paint);progress();
+  document.addEventListener("change",onChange);
+  document.addEventListener("input",e=>{if(e.target.tagName==="TEXTAREA")onChange(e)});
+  document.addEventListener("click",onClickRadio);
+  const hide=document.getElementById("hideDone");
+  try{hide.checked=localStorage.getItem("hideDone")==="1"}catch(e){}
+  const applyHide=()=>{document.body.classList.toggle("hidden-done",hide.checked);try{localStorage.setItem("hideDone",hide.checked?"1":"0")}catch(e){}};
+  hide.addEventListener("change",applyHide);applyHide();
+  const loadTimer=setTimeout(()=>setSave("保存先に接続できていません。記入は続けられますが、保存されない可能性があります",true),10000);
+  Promise.resolve(window.claude?.use?.("db")).then(d=>{
+    if(!d){clearTimeout(loadTimer);setSave("この画面では保存できません（会話でClaudeに直接お伝えください）",true);return}
+    db=d;
+    db.collection("answers").onSnapshot(snap=>{
+      if(!snap.metadata.fromCache){clearTimeout(loadTimer);if(!pending.size)setSave("保存済みの内容を表示しています")}
+      snap.docs.forEach(doc=>{
+        if(pending.has(doc.id))return;
+        const v=doc.data()||{};
+        state[doc.id]={choice:Array.isArray(v.choice)?v.choice:[],memo:typeof v.memo==="string"?v.memo:""};
+        paint(doc.id);
+      });
+      progress();
+    },err=>{clearTimeout(loadTimer);setSave("保存先との接続が切れました（"+err.code+"）",true)});
+  }).catch(()=>{clearTimeout(loadTimer);setSave("この画面では保存できません",true)});
+}
+init();
+</script>

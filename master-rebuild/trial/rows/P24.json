@@ -1,0 +1,338 @@
+{
+ "id": "P24",
+ "fields": {
+  "accepted_name": {
+   "value": "Spiraea japonica 'Goldflame'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS で Accepted"
+  },
+  "synonyms": {
+   "value": [
+    "Spiraea × bumalda 'Gold Flame'",
+    "Spiraea × bumalda 'Goldflame'"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_detail": {
+   "value": "濃いピンク",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_class": {
+   "value": [
+    "ピンク"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "spread_min": {
+   "value": 50,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "品種レベルの具体値なし。RHS Max Spread 0.5-1m"
+  },
+  "spread_max": {
+   "value": 100,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Max Spread 0.5-1m"
+  },
+  "foliage_class": {
+   "value": "季節変化型",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "新葉は橙赤色→明るい黄色→中緑色と大きく変化"
+  },
+  "foliage_features": {
+   "value": [
+    "卵形の葉"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": "新葉は橙赤色で展開し、明るい黄色を経て中緑色になる。秋は緑〜金色。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "fragrance": {
+   "value": null,
+   "note": "品種レベルの記述なし（NCSU の『ほのかな香り』は種レベル）"
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "compact, yet bushy deciduous shrub"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Full sun, Partial shade"
+  },
+  "usda_min": {
+   "value": 3,
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 8,
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "耐暑性の記述なし。USDA上限から（8→中）"
+  },
+  "heat_note": {
+   "value": null,
+   "note": "暑さ・蒸れの記述なし"
+  },
+  "drought": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "Resistance To Challenges: Drought"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Moist but well-drained or Well-drained。たいていの湿った土で容易、極端な条件以外に耐える"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、白亜質・粘土・ローム・砂質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Coastal のみ"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "native_range": {
+   "value": "日本（本州中部・南部）・中国〜ミャンマー北部・台湾",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "Kew"
+   ],
+   "level": "species",
+   "note": "NCSU: Japan and China／Kew: China to N. Myanmar, C. & S. Japan, Taiwan"
+  },
+  "spread_modes": {
+   "value": [
+    "こぼれ種",
+    "地下茎"
+   ],
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "aggressive self-seeder、suckering で細い茎の密な茂みを作る"
+  },
+  "self_seed_level": {
+   "value": 3,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "can be an aggressive self-seeder"
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "suckering で密な茂み（thicket）を作る"
+  },
+  "mixing": {
+   "value": "侵略的（隔離推奨）",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "種 S. japonica が NC Invasive Plant Council で侵略種に分類。品種 'Goldflame' 固有の記述ではない"
+  },
+  "invasive_note": {
+   "value": "種 S. japonica は米国東部で逸出・野生化し、NC侵略的植物協議会が侵略種に分類（VA・GA・SC・TN・KY などでもリスト掲載）。こぼれ種で旺盛に増え、吸枝でも密な茂みを作るため代替植物の検討が勧められている。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": [
+    "ナラタケ病",
+    "斑点病",
+    "火傷病",
+    "うどんこ病",
+    "根腐れ",
+    "アブラムシ",
+    "ハマキムシ",
+    "カイガラムシ"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "RHS（品種）は害虫・病気とも通常なし、ナラタケ病の可能性のみ。他は NCSU 種ページ。シカの食害あり（s06）"
+  },
+  "pruning": {
+   "value": "剪定グループ6。全枝を地際から15cm以内まで切り詰めると整った姿を保てる。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "時期は文献に書かれていない"
+  },
+  "pruning_codes": {
+   "value": null,
+   "note": "剪定の時期が文献に書かれていないため null（RHS は剪定グループ6・地際15cmまでの切り詰めのみ）"
+  },
+  "management_type": {
+   "value": "E 隔離推奨型",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "mixing が 侵略的（種レベル）"
+  },
+  "division_interval": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "propagation": {
+   "value": [
+    "挿し木",
+    "実生"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "緑枝・半熟枝・休眠枝挿し（s01）、種子は種レベル（s06）"
+  },
+  "cut_flower": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Plants for Pollinators"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "spread",
+   "detail": "RHS 0.5-1m（品種）／NCSU 4-7ft（種レベルなので不採用）。RHS を採用"
+  },
+  {
+   "field": "pests",
+   "detail": "RHS（品種）は Generally pest-free／disease-free、NCSU（種）は多数の病害虫を挙げる"
+  }
+ ],
+ "name_review": null,
+ "notes": "学名は RHS で Accepted、マスターと一致（旧名 Spiraea × bumalda 'Goldflame' はシノニム）。侵略性・こぼれ種・乾燥耐性・USDA は種 S. japonica（NCSU）レベルの記述で、種の高さ4-6ftは品種（RHS 75cm）と大きく異なるため品種への当てはめには注意。'Goldflame' 自体の侵略性は文献にない。"
+}

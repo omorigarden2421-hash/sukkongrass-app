@@ -1,0 +1,289 @@
+{
+ "id": "P14",
+ "fields": {
+  "accepted_name": {
+   "value": "Armeria maritima 'Variegata'",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "種名 Armeria maritima は RHS で Correct。品種名 'Variegata' はどの文献でも確認できず、マスターの品種名をそのまま付けた"
+  },
+  "synonyms": {
+   "value": [
+    "Armeria bottendorfensis",
+    "Armeria vulgaris"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "flower_color_detail": {
+   "value": null,
+   "note": "品種レベルの記述なし（種は白・ピンク・赤紫）"
+  },
+  "flower_color_class": {
+   "value": null,
+   "note": "品種レベルの記述なし"
+  },
+  "spread_min": {
+   "value": null,
+   "note": "品種レベルの記述なし"
+  },
+  "spread_max": {
+   "value": null,
+   "note": "品種レベルの記述なし"
+  },
+  "foliage_class": {
+   "value": null,
+   "note": "斑入りを裏づける品種レベルの記述なし"
+  },
+  "foliage_features": {
+   "value": null,
+   "note": "品種レベルの記述なし"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "fragrance": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "silhouette": {
+   "value": null,
+   "note": "品種レベルの記述なし（種は株立ち・房状、NCSU は mat forming タグ）"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS Full sun（種）"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 8,
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H5",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "冷涼な海岸環境を好む（種）"
+  },
+  "heat_note": {
+   "value": "冷涼な海岸環境を好む。水のやりすぎ・過湿で根腐れする（種）。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species",
+   "note": "Drought Resistance Yes"
+  },
+  "soil_moisture": {
+   "value": "排水必須",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species",
+   "note": "水はけのよい土。水のやりすぎで根腐れ"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "NCSU は砂質〜岩礫質・ローム"
+  },
+  "salt": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "salt tolerant, tolerates moderate salt spray"
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "常緑",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "native_range": {
+   "value": "北半球の海岸の岩崖・道端・塩性湿地（ヨーロッパ・北米・グリーンランド、英国・アイルランドにも自生）。Kew：亜寒帯〜北半球温帯",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06",
+    "Kew"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち（広がらない）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "Clump forming（種）。NCSU の Spreading・mat forming は形のタグ"
+  },
+  "self_seed_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "rhizome_level": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "株立ちで強勢の記述なし"
+  },
+  "invasive_note": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "toxicity": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pests": {
+   "value": [
+    "アブラムシ",
+    "ナメクジ",
+    "カタツムリ",
+    "うどんこ病",
+    "根腐れ（過湿）"
+   ],
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "RHS（種）は病害虫ほぼなし"
+  },
+  "pruning": {
+   "value": "剪定不要。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "pruning_codes": {
+   "value": [
+    "不要"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "management_type": {
+   "value": "A",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "剪定不要の記述のみ"
+  },
+  "division_interval": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "propagation": {
+   "value": [
+    "実生",
+    "株分け",
+    "挿し木"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species",
+   "note": "基部挿し。実生は種レベルの記載"
+  },
+  "cut_flower": {
+   "value": null,
+   "note": "記述なし"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS Plants for Pollinators（種）"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "sun",
+   "detail": "RHS 日なた／NCSU 日なた〜半日陰・木漏れ日（いずれも種）。RHS を採用"
+  }
+ ],
+ "name_review": null,
+ "notes": "'Variegata' の品種ページはどの文献にもなく、全項目が種レベル。品種レベル必須の項目（花色・株張り・葉色・シルエット等）は null。斑入りの特徴を裏づける文献がなく、RHS の斑入りアルメリア 'Stephen Taffler' (v) などとの同一性も不明。学名はマスターと同じため name_review は null だが、正式な品種名の確認が必要。"
+}

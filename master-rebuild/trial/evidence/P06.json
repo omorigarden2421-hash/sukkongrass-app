@@ -1,0 +1,364 @@
+{
+ "id": "P06",
+ "searched_name": "Agastache mexicana 'Red Fortune'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "status": "ok",
+   "note": "マスター出典。Accepted 名"
+  },
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/171088/agastache-red-fortune/details",
+   "status": "ok",
+   "note": "シノニム名ページ（内容同一）"
+  },
+  {
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "status": "ok",
+   "note": "マスター出典。Walters現行ラインナップ外の参考掲載"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Agastache mexicana 'Red Fortune'（Accepted）",
+   "quote": "Agastache mexicana 'Red Fortune' ... Name Status Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "Agastache 'Red Fortune' はシノニム",
+   "quote": "Synonyms Agastache 'Red Fortune'",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "Agastache 'Red Fortune' の Name Status は Synonym",
+   "quote": "Agastache 'Red Fortune' ... Name Status Synonym",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/171088/agastache-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "シソ科",
+   "quote": "Family Lamiaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "group",
+   "value_ja": "北米原産種を交配に使ったアニスヒソップの交配品種とする",
+   "quote": "Hybrid forms of Anise-hyssop are being developed now, using several of our North American native species in the breeding. This is a recent long-blooming selection",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "濃いピンク",
+   "quote": "spires of deep pink flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "明るいマゼンタレッド；紫・赤",
+   "quote": "long wands of bright magenta-red flowers; Flower Colour Purple Red",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "盛夏〜初秋",
+   "quote": "from mid-summer to early autumn",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "盛夏・晩夏（長く咲く）",
+   "quote": "Blooming Time Mid Summer Late Summer; long-blooming",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "0.5-1m",
+   "quote": "Max Height 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "60-70cm",
+   "quote": "Height 60-70 cm 23-27 inches",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "0.1-0.5m",
+   "quote": "Max Spread 0.1-0.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "45-60cm",
+   "quote": "Spread 45-60 cm 18-23 inches",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "濃緑色でアニスの香りの葉",
+   "quote": "dark green, aniseed-scented leaves",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "甘草の香りの緑葉；濃緑",
+   "quote": "licorice-scented green leaves; Foliage Color Deep Green",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "葉に香り（アニス）",
+   "quote": "Fragrance Foliage; aniseed-scented leaves",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "葉に甘草の香り",
+   "quote": "licorice-scented green leaves; Fragrant",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "こんもり（ブッシュ状）",
+   "quote": "Habit Bushy",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "コンパクトな株",
+   "quote": "Plants form a compact bush",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた（日当たりがよく風の当たらない場所）",
+   "quote": "Position Full sun; in a sunny, sheltered position",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Sun Exposure Full Sun",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "4-9",
+   "quote": "USDA Zone: 4-9",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H2",
+   "quote": "H2",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい〜水はけのよい土",
+   "quote": "Moisture Moist but well–drained or Well–drained; Grow in well-drained, fertile soil",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "石灰質・ローム・砂；酸性・アルカリ性・中性",
+   "quote": "Chalk, Loam, Sand; pH Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通土・砂質・粘土；中性・アルカリ性・酸性",
+   "quote": "Soil Type Normal or Sandy or Clay; Soil pH Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉",
+   "quote": "Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "葉と花は食用になる",
+   "quote": "Both the leaves and flowers are edible",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ほぼ害虫・病気なし",
+   "quote": "Generally pest-free; Generally disease-free",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "シカ・ウサギに強い",
+   "quote": "Deer Resistant; Rabbit Resistant",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pruning",
+   "value_ja": "シーズン中に花後の花穂を取り除く",
+   "quote": "Remove spent flowering spikes through the season",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け",
+   "quote": "Propagate by division",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "特許品種（USPP#11816, CPBR#1659）、無許可増殖禁止",
+   "quote": "USPP#11816, CPBR#1659: unlicensed propagation prohibited.",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花産業向けに育成、庭にも優秀",
+   "quote": "Developed for the commercial cut flower industry, but also excellent in the garden.; Cut Flower",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "RHS Plants for Pollinators",
+   "quote": "Plants for pollinators",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/164191/agastache-mexicana-red-fortune/details",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "蝶を呼ぶ",
+   "quote": "Attractive to butterflies.; Attracts Butterflies",
+   "source": "s10",
+   "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
+   "level": "cultivar",
+   "from_master_source": true
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "seasonal_foliage",
+  "heat_humidity",
+  "drought",
+  "salt",
+  "native_range",
+  "spread_mode",
+  "lifespan",
+  "staking",
+  "division",
+  "invasive_note"
+ ],
+ "notes": "マスター学名 'Red fortune' は品種名の大文字表記ゆれ（正しくは 'Red Fortune'）。RHS では A. mexicana 'Red Fortune' が Accepted、Agastache 'Red Fortune' はシノニム。一方 Walters は北米原産種を使った交配品種と説明しており、親の扱いが文献で異なる。耐寒性が大きく食い違う：RHS は H2（凍結に耐えない）、Walters は USDA 4-9。花色も RHS 濃いピンク、Walters マゼンタレッド。株張り RHS 0.1-0.5m／Walters 45-60cm。Walters に特許番号 USPP#11816 の記載あり（無許可増殖禁止）。toxicity 欄は毒性ではなく「食用」の記載。暑さ・乾燥の記述は今回の文献になし。NCSU/CBG には該当ページを見つけられず（検索のみ、未取得）。"
+}

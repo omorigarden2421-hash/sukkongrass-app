@@ -1,0 +1,511 @@
+{
+ "id": "P10",
+ "searched_name": "Hosta 'Gold Standard'",
+ "access_log": [
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "status": "ok",
+   "note": "WebSearchでURL確認。品種ページ"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "status": "ok",
+   "note": "マスターの成株シルエット参照URL。品種ページ"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "status": "ok",
+   "note": "マスターの耐潮性_情報源。属ページ（品種一覧に短い説明あり）"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta-gold-standard/",
+   "status": "404",
+   "note": "品種ページなし"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Hosta 'Gold Standard' (fortunei) (v)（Accepted）",
+   "quote": "Hosta 'Gold Standard' (fortunei) (v) ... Name Status Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "group",
+   "value_ja": "フォーチュネイ群（fortunei）",
+   "quote": "'Gold Standard' (fortunei) (v)",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "キジカクシ科",
+   "quote": "Family Asparagaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "ラベンダーがかったピンク",
+   "quote": "Lavender-flushed pink flowers appear in the summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "夏",
+   "quote": "Lavender-flushed pink flowers appear in the summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "最大0.5〜1m",
+   "quote": "Max Height 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "最大0.5〜1m",
+   "quote": "Max Spread 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "幅広い卵形で縮緬状。クリーム黄色で縁は濃緑〜灰緑（変化あり）",
+   "quote": "wide-oval, puckered foliage. Creamy yellow, variable dark green-grey margins on the leaves",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "中〜大型、株立ち",
+   "quote": "A medium to large hosta ... Habit Clump forming",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰",
+   "quote": "Position Partial shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H7",
+   "quote": "Hardiness ... H7",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい肥沃な土",
+   "quote": "Moisture Moist but well–drained ... Grow in fertile, moist but well drained soil",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・ローム、酸性〜中性",
+   "quote": "Soil Types Clay, Loam ... pH Acid or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉性",
+   "quote": "Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "晩夏または早春に株分け",
+   "quote": "Propagate by division in late summer or early spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け",
+   "quote": "Propagate by division",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジ・カタツムリ、鉢植えはキンケクチブトゾウムシ、ウイルス",
+   "quote": "May be susceptible to slugs and snails. Plants in containers maybe susceptible to vine weevil ... May be susceptible to a virus",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "傷んだ葉は随時取り、季節の終わりに枯れた葉を片付ける",
+   "quote": "Remove spent foliage as required and clear up dead foliage when it dies back at the end of the season",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "英国・アイルランド原産ではない",
+   "quote": "Native to GB/Ireland No",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/82812/hosta-gold-standard-fortunei-v/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "葉の高さ20インチ、花茎30インチ",
+   "quote": "Height: 20.0 Inches ... Scape Height: 30.0 Inches",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "36インチ",
+   "quote": "Spread: 36.0 Inches",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "3〜9",
+   "quote": "Hardiness Zones: 3,4,5,6,7,8,9",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "淡いラベンダー",
+   "quote": "Pale lavender flowers appear on 30\" scapes in midsummer",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "盛夏",
+   "quote": "Bloomtime: Midsummer",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "大きな卵形、縁は濃緑。中央は春は明るい緑で初夏にかけて黄金色に。朝日で黄色が増す",
+   "quote": "large, ovate leaves have dark green margins ... Leaf centers emerge light green in the spring and become progressively more gold towards early summer; morning sun will enhance the gold color",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "大きな葉の株（マウンド）になる",
+   "quote": "Forms a large mound of foliage",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰〜日陰。朝日は可、午後の強い日差しは致命的",
+   "quote": "Sunlight: Part Shade (4-6 hrs. Direct Sun) Full Shade ... Morning sun is tolerable ... but hot afternoon sun is usually deadly to hostas",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気・水はけ・有機質の多い土。砂質ロームが粘土よりよい",
+   "quote": "Hostas grow best in moist, well-drained, highly organic soils ... Sandy loam is better than clay",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "pH5.5〜7.5",
+   "quote": "with a pH between 5.5 and 7.5",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "生育期いつでも株分け可。各株3芽以上、数年育ててから",
+   "quote": "This can be done at any time during the growing season ... each division should have at least 3 eyes, plants should be allowed to mature for several years before being divided.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分けで容易",
+   "quote": "Hostas are very easy to propagate through division.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジ（葉の中央の穴）",
+   "quote": "Watch for holes in the center of the leaves. If they are present, so are slugs.",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "ハチドリを呼ぶ",
+   "quote": "Attracts Wings: Attracts Hummingbirds",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り葉",
+   "quote": "Other Features: ... Cut Foliage",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "北米原産ではない",
+   "quote": "Origin: Not Native to North America",
+   "source": "s10",
+   "url": "https://www.waltersgardens.com/variety.php?ID=HSGOS",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "family",
+   "value_ja": "キジカクシ科",
+   "quote": "Family: Asparagaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "（属）旧名 Funkia",
+   "quote": "Previously known as: Funkia",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "（品種一覧）大型、黄色の中斑に緑の縁、ラベンダーの花",
+   "quote": "'Gold Standard' large size, yellow medial variegations with green margins, lavender flowers",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "native_range",
+   "value_ja": "（属）ロシア極東〜中国・日本・朝鮮",
+   "quote": "Country Or Region Of Origin: Russian Far East to China, Japan, and Korea",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "（属）3a〜9b",
+   "quote": "USDA Plant Hardiness Zone: 3a, 3b, 4a ... 9a, 9b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "（属）南部では日陰か木漏れ日に植えると葉焼けしない",
+   "quote": "In the south it is best to plant hosta in full shade or dappled shade so that the foliage colors will be more vibrant and won't develop leaf burn.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "（属）水はけ必要、特に冬の過湿に弱い",
+   "quote": "need well-drained soil. They are intolerant to soggy soil conditions, especially during the winter.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "（属）地下茎で育つ",
+   "quote": "Hostas grow by rhizomes",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "salt",
+   "value_ja": "（属）やや耐塩性",
+   "quote": "They are slightly salt tolerant ... Particularly Resistant To: shade, slightly salt-tolerant",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "（属）3〜5年ごと、早春の芽出し時に株分け",
+   "quote": "divide the hostas every 3 to 5 years in the early spring as leaves emerge from the ground",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "（属）株分け、組織培養、実生（親と同じにならない）",
+   "quote": "A faster method of propagation is tissue culture. Hostas may also be grown from seed; however, most varieties will not produce the same variety as the parent.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "（属）全草が猫・犬・馬に有毒",
+   "quote": "All parts of these plants are toxic to cats, dogs, and horses.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（属）ナメクジ・カタツムリ・線虫、シカ・ウサギ・ハタネズミ、排水不良で根腐れ、HVX等ウイルス、炭疽病",
+   "quote": "Monitor for snails, slugs, and nematodes ... Root and crown rot can occur in poorly drained soils. Plants may become infected with the Hosta Virus X",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "（属）蜂・蝶・ハチドリが花に来る",
+   "quote": "Bees, butterflies, and hummingbirds are attracted to its flowers.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "（属）落葉性。28°F以下で地上部が枯れる",
+   "quote": "Deciduous ... The foliage dies back in late fall or winter when the temperatures drop to 28 degrees Fahrenheit or below.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "（属）切り花向き",
+   "quote": "Flower Value To Gardener: Fragrant Good Cut Showy",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "（属）株立ち、マウンド状",
+   "quote": "Habit/Form: Clumping Mounding",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/hosta/",
+   "level": "genus",
+   "from_master_source": true
+  }
+ ],
+ "not_found": [
+  "common_name_ja",
+  "seasonal_foliage",
+  "fragrance",
+  "heat_humidity",
+  "drought",
+  "lifespan",
+  "staking",
+  "invasive_note"
+ ],
+ "notes": "入力の学名 \"Hosta'Gold Standard'\" は Hosta と ' の間にスペースがない表記ミス。RHSでは Hosta 'Gold Standard' (fortunei) (v) としてフォーチュネイ群の斑入り品種扱い。花色は RHS『ラベンダーがかったピンク』、Walters『淡いラベンダー』。高さはWaltersで葉20in・花茎30inと分けて記載。NCSUは属ページのみ（耐塩・毒性・株分け間隔は属レベル）。マスターの耐暑性情報源（Hosta Guru, Gardenia.net）と冬_情報源（Illinois Extension ブログ、コメリ）は範囲外のため読んでいない。耐暑性・高温多湿に関する品種レベルの記述は見つからず（Waltersの『午後の強い日差しは致命的』は日照の記述として記録）。"
+}

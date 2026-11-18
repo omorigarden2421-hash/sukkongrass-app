@@ -1,0 +1,677 @@
+{
+ "id": "P22",
+ "searched_name": "Phlox paniculata 'David'",
+ "access_log": [
+  {
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/phlox-paniculata-david-david-garden-phlox",
+   "status": "ok",
+   "note": "マスター出典。アーカイブ版（2022年2月以前）"
+  },
+  {
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "status": "ok",
+   "note": "マスター出典。ページのコピーライトは Valleybrook International Ventures（Perennial Resource）"
+  },
+  {
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "status": "ok",
+   "note": ""
+  },
+  {
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=PHPA9",
+   "status": "ok",
+   "note": "種 Phlox paniculata のページ"
+  }
+ ],
+ "evidence": [
+  {
+   "field": "accepted_name",
+   "value_ja": "Phlox paniculata 'David'（RHS で Accepted）",
+   "quote": "Name Status Accepted",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "ハナシノブ科 Polemoniaceae",
+   "quote": "Family Polemoniaceae",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "family",
+   "value_ja": "ハナシノブ科 Polemoniaceae",
+   "quote": "Family: Polemoniaceae",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "group",
+   "value_ja": "ブランディワイン・コンサーバンシーで P. paniculata の実生から選抜",
+   "quote": "originated as a seedling of Phlox paniculata at the Brandywine Conservancy near Philadelphia, Pennsylvania",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "白",
+   "quote": "fragrant white flowers clustered together at the top",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "白",
+   "quote": "produce elegant panicles of white flowers",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/phlox-paniculata-david-david-garden-phlox",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "澄んだ白",
+   "quote": "This tall selection has clear white heads",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "白",
+   "quote": "Flower Color: White",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "盛夏〜晩夏",
+   "quote": "from mid- to late summer",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "7〜8月",
+   "quote": "white flowers from July to August",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/phlox-paniculata-david-david-garden-phlox",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "盛夏・晩夏・初秋",
+   "quote": "Blooming Time Mid Summer Late Summer Early Fall",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "盛夏〜晩夏、花がら摘みで秋まで",
+   "quote": "bloom from mid to late summer and, with deadheading, may bloom into fall",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "1.1mに達する（最大1〜1.5m）",
+   "quote": "growing to 1.1m / Max Height 1-1.5 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "height",
+   "value_ja": "3〜4フィート",
+   "quote": "it will grow to 3 to 4 feet",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/phlox-paniculata-david-david-garden-phlox",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "90〜100cm",
+   "quote": "Height 90-100 cm 35-39 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "height",
+   "value_ja": "3〜4フィート",
+   "quote": "Height: 3 ft. 0 in. - 4 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "0.5〜1m",
+   "quote": "Max Spread 0.5-1 metres",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "spread",
+   "value_ja": "60〜75cm",
+   "quote": "Spread 60-75 cm 23-29 inches",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "spread",
+   "value_ja": "2〜3フィート",
+   "quote": "Width: 2 ft. 0 in. - 3 ft. 0 in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "濃緑の細い線形の葉",
+   "quote": "dark green narrow linear leaves",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "foliage",
+   "value_ja": "濃緑",
+   "quote": "Foliage Color Deep Green",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "foliage",
+   "value_ja": "長さ3〜5インチの披針形の緑葉",
+   "quote": "3-5 inch long lance-shaped green leaves taper to a point",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "花に芳香",
+   "quote": "fragrant white flowers",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "甘い香りが遠くまで漂う（夏咲きフロックス全般の記述）",
+   "quote": "Sweetly fragrant as well, the flowers waft their scent over quite a distance.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "芳香のある花",
+   "quote": "The fragrant, showy white flowers",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "こんもり茂る直立性",
+   "quote": "A bushy, upright herbaceous perennial / Habit Bushy",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "habit",
+   "value_ja": "直立",
+   "quote": "Plant Shape: Upright",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/phlox-paniculata-david-david-garden-phlox",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "habit",
+   "value_ja": "株立ち・直立・こんもり",
+   "quote": "Habit/Form: Clumping Erect Mounding",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向〜半日陰",
+   "quote": "Position Full sun, Partial shade",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向",
+   "quote": "Plant 'David' in full sun / Exposure: Full Sun",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/phlox-paniculata-david-david-garden-phlox",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向または半日陰",
+   "quote": "Sun Exposure Full Sun or Partial Shade",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向で最良（半日陰も可）",
+   "quote": "it should be planted in full sun ... Partial Shade (Direct sunlight only part of the day, 2-6 hours)",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "4〜8",
+   "quote": "Hardiness Zone: 4 - 8",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/phlox-paniculata-david-david-garden-phlox",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "3〜9",
+   "quote": "USDA Zone: 3-9",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "3a〜8b",
+   "quote": "USDA Plant Hardiness Zone: 3a, 3b, 4a, 4b, 5a, 5b, 6a, 6b, 7a, 7b, 8a, 8b",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "rhs_hardiness",
+   "value_ja": "H7",
+   "quote": "Hardiness H7",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "高温乾燥時にハダニ・カスミカメが問題になりやすい（暑さそのものの耐性記述ではない）",
+   "quote": "Spider mites and plant bugs can also be a problem, particularly in hot, dry conditions.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/phlox-paniculata-david-david-garden-phlox",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥期には水やりが必要",
+   "quote": "Phlox need watering during dry spells",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気があり水はけのよい土",
+   "quote": "Moisture Moist but well–drained",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "肥沃で湿った土",
+   "quote": "in fertile, moist soil",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/phlox-paniculata-david-david-garden-phlox",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通〜湿り気",
+   "quote": "Soil Moisture Average or Moist",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "肥沃で湿り気があり水はけのよい土",
+   "quote": "fertile, moist, well-drained soil",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "白亜質・粘土・ローム、酸性〜アルカリ性",
+   "quote": "Soil Types Chalk, Clay, Loam / pH Acid or Alkaline or Neutral",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通・砂質・粘土、中性・アルカリ性・酸性",
+   "quote": "Soil Type Normal or Sandy or Clay / Soil pH Neutral or Alkaline or Acid",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "粘土・有機質・ローム、アルカリ〜中性。アルカリ土壌に耐える",
+   "quote": "Soil Texture: Clay High Organic Matter Loam (Silt) / Soil pH: Alkaline (>8.0) Neutral (6.0-8.0) / #alkaline soils tolerant",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "落葉（冬は地上部が枯れる宿根草）",
+   "quote": "Foliage Deciduous",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "北アメリカ（交雑由来）",
+   "quote": "Country Or Region Of Origin: North America (hybrid)",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "native_range",
+   "value_ja": "（種）ニューヨーク中部〜ミズーリ・カンザス、南はノースカロライナ・テネシー・ルイジアナ",
+   "quote": "Native Distribution: C. NY to MO & KS, s. to NC, TN & LA; an escape elsewhere",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=PHPA9",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株立ち（clump）を作る",
+   "quote": "over a clump of dark green foliage",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "staking",
+   "value_ja": "支柱が必要なことがある",
+   "quote": "May need staking.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "staking",
+   "value_ja": "硬く直立する茎でほとんど支柱不要",
+   "quote": "Stiff, upright stems seldom need staking.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "通常害虫なし。べと病・斑点病にかかることがある",
+   "quote": "Pests Generally pest-free / Diseases May be susceptible to downy mildews and a leaf spot",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "うどんこ病に強い。ハダニ・カスミカメが問題になることがある。シカに強い",
+   "quote": "'David' has good resistance to powdery mildew. Spider mites and plant bugs can also be a problem ... resistant to deer.",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/phlox-paniculata-david-david-garden-phlox",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "最もうどんこ病に強い品種の一つ",
+   "quote": "It is one of the most powdery mildew-resistant varieties to date.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ハダニ・フロックスバグ・茎線虫、うどんこ病・斑点病・根腐れ/株腐れ。ウサギ・シカが食害",
+   "quote": "Watch for spider mites, phlox bugs and stem nematodes. Diseases include powdery mildew, leaf spot and root or crown rot. / Deer, rabbits browse on the foliage.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "（種）うどんこ病がよく問題になる",
+   "quote": "Powdery mildew is a frequent problem.",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=PHPA9",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花がら摘みで花期を延ばし、晩秋に地際まで刈り込む",
+   "quote": "deadhead to prolong flowering then cut down to the base in late autumn",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花がらを摘むと二番花が咲く",
+   "quote": "Remove faded flowers to encourage a second bloom.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "division",
+   "value_ja": "秋か春に株分け",
+   "quote": "Propagate by division in autumn or spring",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "division",
+   "value_ja": "早春に容易に株分けできる",
+   "quote": "Clumps are easily divided in early spring.",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け（秋・春）、春の根元挿し、初秋〜冬の根挿し",
+   "quote": "Propagate by division in autumn or spring. Propagate by basal cuttings in spring or propagate by root cuttings in early autumn or winter",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分け・根挿し・茎挿し",
+   "quote": "Recommended Propagation Strategy: Division Root Cutting Stem Cutting",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "propagation",
+   "value_ja": "（種）茎挿し・根挿し・株分け・種子",
+   "quote": "Increase by stem or root cuttings, division or seed.",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=PHPA9",
+   "level": "species",
+   "from_master_source": false
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に最適",
+   "quote": "Summer Phlox are superb for cutting / Cut Flower",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花向き",
+   "quote": "Flower Value To Gardener: Fragrant Good Cut",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "RHS 送粉者のための植物",
+   "quote": "For Bio-Diversity Plants for Pollinators",
+   "source": "s01",
+   "url": "https://www.rhs.org.uk/plants/127975/phlox-paniculata-david/details",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "チョウ・ハチドリを呼ぶ",
+   "quote": "'David' attracts butterflies and hummingbirds",
+   "source": "s08",
+   "url": "https://www.chicagobotanic.org/plant-information/plant-finder/phlox-paniculata-david-david-garden-phlox",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "チョウ・ハチドリを呼ぶ",
+   "quote": "Attracts Butterflies Attracts Hummingbirds",
+   "source": "s10",
+   "url": "https://www.perennials.com/plants/phlox-paniculata-david.html",
+   "level": "cultivar",
+   "from_master_source": true
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "チョウ・セセリ・スズメガ・ハチドリに蜜を提供",
+   "quote": "Provides nectar to butterflies, skippers, hummingbird moths, sphinx moths, and hummingbirds.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/phlox-paniculata-david/",
+   "level": "cultivar",
+   "from_master_source": false
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "（種）自生域外で見つかるものは栽培からの逸出と思われる",
+   "quote": "If found in the wilds beyond its natural range, this species has probably escaped from cultivation.",
+   "source": "s09",
+   "url": "https://www.wildflower.org/plants/result.php?id_plant=PHPA9",
+   "level": "species",
+   "from_master_source": false
+  }
+ ],
+ "not_found": [
+  "synonyms",
+  "common_name_ja",
+  "seasonal_foliage",
+  "salt",
+  "lifespan",
+  "toxicity"
+ ],
+ "notes": "学名 Phlox paniculata 'David' は RHS で Accepted、問題なし。2002年 Perennial Plant of the Year（CBG・perennials.com）。支柱について perennials.com は『May need staking』、NCSU は『seldom need staking』と食い違い。耐病性も CBG/perennials.com は『うどんこ病に強い』、NCSU は病気としてうどんこ病を挙げる、RHS はべと病・斑点病を挙げる。USDAゾーンは CBG 4-8、perennials.com 3-9、NCSU 3-8。perennials.com のページは Valleybrook（Perennial Resource）名義で Walters Gardens ではない点に注意。日本語名・寿命・耐塩・毒性は見つからず。"
+}

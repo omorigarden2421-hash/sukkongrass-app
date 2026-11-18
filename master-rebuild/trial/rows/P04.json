@@ -1,0 +1,338 @@
+{
+ "id": "P04",
+ "fields": {
+  "accepted_name": {
+   "value": "Sagina subulata",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS Name Status: Correct。Kew の照合は同名の別学名（Sagina subulata d'Urv. = Colobanthus subulatus）に当たった可能性が高い"
+  },
+  "synonyms": {
+   "value": null,
+   "note": "NCSU は旧名 Colobanthus subulatus と記載するが、Kew ではこれは南米南部産の別植物の正名であり、RHS（ヨーロッパ産）と食い違うため採用しない"
+  },
+  "flower_color_detail": {
+   "value": "白",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "flower_color_class": {
+   "value": [
+    "白"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10",
+    "s08"
+   ],
+   "level": "species"
+  },
+  "spread_min": {
+   "value": 15,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species"
+  },
+  "spread_max": {
+   "value": 30,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "foliage_features": {
+   "value": [
+    "細い線形の葉が対生",
+    "苔状",
+    "毛あり"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": "冬も緑",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "fragrance": {
+   "value": "花",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "silhouette": {
+   "value": "マット",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "RHS: 日なたで真昼に少し日陰。日陰が強すぎると徒長"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 8,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "heat_note": {
+   "value": "強い暑さを嫌い、冷涼で湿った条件を好む。高温多湿の夏の地域では盛夏に蒸れて傷むことがあり、秋に回復することが多い。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s08",
+    "s06",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10",
+    "s06"
+   ],
+   "level": "species",
+   "note": "湿り気があり水はけのよい土。乾燥も過湿も嫌う"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜中性、砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "salt": {
+   "value": null
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "常緑",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s01",
+    "s10"
+   ],
+   "level": "species"
+  },
+  "native_range": {
+   "value": "ヨーロッパ（英国・アイルランドにも自生）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "ランナー",
+    "こぼれ種"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species",
+   "note": "節から発根する茎でマット状に広がる（RHS）、こぼれ種で小群落（NCSU）"
+  },
+  "self_seed_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "spreads by reseeding itself, often forms small colonies。freely／readily の語はないので1"
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "節から発根してマット状に広がる（spreads 相当）。勢いの強さの記述はない"
+  },
+  "mixing": {
+   "value": null,
+   "note": "clump-forming でも vigorous／invasive／weak の記述もなく、区分に当てはまらない"
+  },
+  "invasive_note": {
+   "value": null
+  },
+  "toxicity": {
+   "value": null
+  },
+  "pests": {
+   "value": [
+    "アブラムシ",
+    "ハダニ（温室栽培時）"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species",
+   "note": "病気はほぼなし"
+  },
+  "pruning": {
+   "value": "剪定不要。敷石からはみ出た部分は刈って縁を整えてよい。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "pruning_codes": {
+   "value": [
+    "不要"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "species"
+  },
+  "management_type": {
+   "value": "A 放任型",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
+   "note": "剪定不要の記述のみ"
+  },
+  "division_interval": {
+   "value": "早春または秋（間隔の記載なし）",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "species"
+  },
+  "propagation": {
+   "value": [
+    "実生",
+    "株分け"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "cut_flower": {
+   "value": null
+  },
+  "pollinator": {
+   "value": null
+  }
+ },
+ "conflicts": [
+  {
+   "field": "spread",
+   "detail": "RHS 0.1-0.5m／Walters 15-30cm。Walters を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "CBG 4-8／NCSU 4a-8b／Walters 3-9。CBG を採用"
+  },
+  {
+   "field": "soil_ph_type",
+   "detail": "RHS・NCSU 酸性〜中性／Walters 中性・アルカリ性・酸性。RHS を採用"
+  },
+  {
+   "field": "native_range",
+   "detail": "RHS ヨーロッパ（英国自生）／NCSU チリ〜アルゼンチン・フォークランド。RHS を採用（NCSU は Colobanthus subulatus と混同の可能性）"
+  }
+ ],
+ "name_review": null,
+ "notes": "品種名なしの種商品のため種レベル記述を品種レベル扱い（level は species のまま記録）。Kew 照合結果（Synonym → Colobanthus subulatus (d'Urv.) Hook.f.、南米南部産）は RHS の扱いと合わず、同名の別学名に当たった可能性が高い。学名は RHS どおりで変更不要と判断したが、Kew の再照合を推奨。"
+}

@@ -1,0 +1,299 @@
+{
+ "id": "P06",
+ "fields": {
+  "accepted_name": {
+   "value": "Agastache mexicana 'Red Fortune'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "synonyms": {
+   "value": [
+    "Agastache 'Red Fortune'"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_detail": {
+   "value": "濃いピンク",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "flower_color_class": {
+   "value": [
+    "ピンク"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Walters はマゼンタレッド（紫・赤）"
+  },
+  "spread_min": {
+   "value": 45,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "spread_max": {
+   "value": 60,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "foliage_features": {
+   "value": null,
+   "note": "葉の記述は濃緑色と香りのみ"
+  },
+  "seasonal_foliage": {
+   "value": null
+  },
+  "fragrance": {
+   "value": "葉",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "アニス（RHS）／甘草（Walters）の香り"
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "RHS Bushy、Walters compact bush"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "日当たりがよく風の当たらない場所"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "RHS は H2（凍結に耐えない）で大きく食い違う"
+  },
+  "rhs_h": {
+   "value": "H2",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "USDA上限から（上限9）。暑さの記述は文献になし"
+  },
+  "heat_note": {
+   "value": null
+  },
+  "drought": {
+   "value": null
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "Moist but well-drained or Well-drained"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": null
+  },
+  "evergreen_cold": {
+   "value": null,
+   "note": "寒冷地での記述なし"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "native_range": {
+   "value": "メキシコ（A. mexicana として）",
+   "method": "記載",
+   "sources": [
+    "Kew"
+   ],
+   "level": "species",
+   "note": "Walters は北米原産種を使った交配品種と説明しており、親の扱いが文献で異なる"
+  },
+  "spread_modes": {
+   "value": null
+  },
+  "self_seed_level": {
+   "value": null
+  },
+  "rhizome_level": {
+   "value": null
+  },
+  "mixing": {
+   "value": null,
+   "note": "clump-forming や広がりの記述なし"
+  },
+  "invasive_note": {
+   "value": null
+  },
+  "toxicity": {
+   "value": null,
+   "note": "Walters の記述は「葉と花は食用」で毒性ではない"
+  },
+  "pests": {
+   "value": [
+    "特になし"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS: Generally pest-free; Generally disease-free"
+  },
+  "pruning": {
+   "value": "シーズン中、咲き終わった花穂を取り除く。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "division_interval": {
+   "value": null
+  },
+  "propagation": {
+   "value": [
+    "株分け"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "特許品種（USPP#11816, CPBR#1659）、無許可増殖禁止（Walters）"
+  },
+  "cut_flower": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "切り花産業向けに育成、庭でも優秀"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS Plants for Pollinators"
+  }
+ },
+ "conflicts": [
+  {
+   "field": "flower_color",
+   "detail": "RHS 濃いピンク／Walters 明るいマゼンタレッド（紫・赤）。RHS を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "RHS 0.1-0.5m／Walters 45-60cm。Walters を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "Walters USDA 4-9／RHS H2（凍結に耐えない）で耐寒性が大きく食い違う。USDA は Walters のみのため採用"
+  },
+  {
+   "field": "native_range",
+   "detail": "RHS は A. mexicana の品種／Walters は北米原産種を使った交配品種。RHS の学名に従い A. mexicana の原産地を採用"
+  }
+ ],
+ "name_review": {
+  "current": "Agastache mexicana 'Red fortune'",
+  "proposed": "Agastache mexicana 'Red Fortune'",
+  "reason": "品種名の大文字小文字の誤り（Fortune の F は大文字）。RHS で Accepted、Agastache 'Red Fortune' はシノニム。Kew で種名 Agastache mexicana は Accepted",
+  "source": "s01 / Kew"
+ },
+ "notes": "耐寒性（H2 と USDA 4-9）の食い違いが大きく要確認。暑さ・乾燥の記述は文献になし。"
+}
