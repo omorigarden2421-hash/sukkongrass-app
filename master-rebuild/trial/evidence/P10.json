@@ -60,6 +60,13 @@
    "status": "ok",
    "checked": "2026-11-19",
    "note": "品種ページ：Hosta Hybride 'Gold Standard'。ユーザーのパソコンの Chrome で読んだ"
+  },
+  {
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1552",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種のページ：ギボウシ(ホスタ) ‘ゴールドスタンダード’ Hosta ‘Goldstandard’"
   }
  ],
  "evidence": [
@@ -1007,6 +1014,36 @@
    "quote": "Diese Hosta bildet bei ausreichender Nährstoffzufuhr große Horste",
    "source": "s17",
    "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "耐暑性 強（日本のナーサリーの評価。値のみ）",
+   "quote": "耐暑性；強",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1552",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰",
+   "quote": "日照；半日陰",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1552",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日射はやや強めの方が発色良い",
+   "quote": "日射はやや強めの方が発色良い",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1552",
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"

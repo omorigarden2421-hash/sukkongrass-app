@@ -60,6 +60,13 @@
    "status": "not_found",
    "checked": "2026-11-19",
    "note": "「Aquilegia chrysantha」で検索、該当なし。ユーザーのパソコンの Chrome で Gaißmayer のサイト内検索を使った"
+  },
+  {
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=442",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種のページ：オダマキ ‘イエロークイーン’ Aquilegia chrysantha 'Yerrow Queen'"
   }
  ],
  "evidence": [
@@ -1203,6 +1210,26 @@
    "quote": "Special Features: Dozens of graceful, large, handsome long-spurred blooms.",
    "source": "s11",
    "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "耐暑性 中（日本のナーサリーの評価。値のみ）",
+   "quote": "耐暑性；中",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=442",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "やや半日陰",
+   "quote": "日照；やや半日陰",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=442",
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"

@@ -90,6 +90,21 @@
    "status": "ok",
    "checked": "2026-11-19",
    "note": "品種ページ：Artemisia schmidtiana 'Nana'。ユーザーのパソコンの Chrome で読んだ"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/artemisia/",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "属 Artemisia のページ。暑さの記述を探すための読み直し",
+   "added": "reread-20261119"
+  },
+  {
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=229",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "種のページ：朝霧草 Artemisia schmidtiana"
   }
  ],
  "evidence": [
@@ -1129,6 +1144,47 @@
    "source": "s17",
    "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
    "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "アルテミシア属は、湿った土、冬の過湿、湿度の高い気候に耐えない。湿った条件では腐りやすい",
+   "quote": "They will not tolerate wet soils, wet winter conditions, or climates with high humidity. Plants are prone to rot in moist conditions.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/artemisia/",
+   "level": "genus",
+   "from_master_source": false,
+   "checked": "2026-11-19",
+   "added": "reread-20261119"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "耐暑性 中（日本のナーサリーの評価。値のみ）",
+   "quote": "耐暑性；中",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=229",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向〜やや半日陰",
+   "quote": "日照；日向～やや半日陰",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=229",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "伸びたら短く切り戻すと草姿良く作れる",
+   "quote": "伸びたら短く切り戻すと草姿良く作れる",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=229",
+   "level": "species",
    "from_master_source": false,
    "checked": "2026-11-19"
   }

@@ -413,6 +413,11 @@
    "field": "self_seed_level",
    "detail": "MBG・stauden.de は 1／Gaißmayer（種）は「こぼれ種が多い」（2 相当）。優先順位で 1 のまま",
    "by": "chrome"
+  },
+  {
+   "field": "heat",
+   "detail": "MBG は「米国深南部の暑さと湿気に耐えない」「暑い夏に葉が傷む」（弱）／おぎはら植物園は 強（性質が強健で耐暑性があり）。欧米の文献に記述があるので 弱 のまま。差が大きいので要確認",
+   "by": "heat"
   }
  ],
  "name_review": {

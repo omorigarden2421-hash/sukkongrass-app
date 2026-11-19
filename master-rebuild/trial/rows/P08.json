@@ -415,6 +415,11 @@
    "field": "drought",
    "detail": "NC State・Walters は乾燥に耐える（強）／Gaißmayer は「夏に土が乾きすぎると育たない、さび病が出やすくなる」。優先順位で 強 のまま",
    "by": "chrome"
+  },
+  {
+   "field": "heat",
+   "detail": "MBG は「暑い地域では午後の日陰を好む」（中）／おぎはら植物園は 強。欧米の文献に記述があるので 中 のまま",
+   "by": "heat"
   }
  ],
  "name_review": null,

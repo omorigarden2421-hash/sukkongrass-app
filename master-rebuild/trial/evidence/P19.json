@@ -60,6 +60,13 @@
    "status": "ok",
    "checked": "2026-11-19",
    "note": "種のページ：Patrinia scabiosifolia。ユーザーのパソコンの Chrome で読んだ"
+  },
+  {
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=2776",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "種のページ：オミナエシ Patrinia scabiosifolia"
   }
  ],
  "evidence": [
@@ -1102,6 +1109,26 @@
    "quote": "Patrinia scabiosifolia versamt sich gut.",
    "source": "s17",
    "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "耐暑性 強（日本のナーサリーの評価。値のみ）",
+   "quote": "耐暑性；強",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=2776",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向",
+   "quote": "日照；日向",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=2776",
    "level": "species",
    "from_master_source": false,
    "checked": "2026-11-19"

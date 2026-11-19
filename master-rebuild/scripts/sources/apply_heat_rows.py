@@ -9,12 +9,12 @@ import os
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
-from heat_trial import D  # noqa: E402
+from heat_trial import D, LEVEL, OGIHARA_CONFLICT, OGIHARA_HEAT  # noqa: E402
 
 TRIAL = sys.argv[1]
 TAG = "heat"
 SID = {"MBG": "s02", "NC State": "s06", "Wildflower Center": "s09", "RHS": "s01", "Walters": "s10", "シカゴ植物園": "s08",
-       "Gaißmayer": "s17"}
+       "Gaißmayer": "s17", "Jelitto": "s11"}
 FIELDS = (("heat", "耐暑性"), ("muggy", "蒸れ耐性"), ("west_sun", "西日耐性"))
 
 
@@ -29,15 +29,23 @@ def main():
             else:
                 f[c["field"]] = c["prev"]
         d["changes_20261119"] = [c for c in d.get("changes_20261119", []) if c.get("by") != TAG]
+        d["conflicts"] = [c for c in d.get("conflicts", []) if not (isinstance(c, dict) and c.get("by") == TAG)]
+        if pid in OGIHARA_CONFLICT:
+            d["conflicts"].append({"field": "heat", "detail": OGIHARA_CONFLICT[pid], "by": TAG})
         sources = [SID[s] for s in src.split("、")] if src else []
-        level = (f.get("heat") or {}).get("level") or "species"
+        level = LEVEL.get(pid) or (f.get("heat") or {}).get("level") or "species"
         for (key, label), value in zip(FIELDS, (heat, muggy, west)):
             prev = f.get(key)
             old = (prev or {}).get("value")
             note = why + ("。目安（値には入れていない）: " + aux if aux and value is None else "")
             new = {"value": value, "note": note}
             if value is not None:
-                new = {"value": value, "method": "判定", "sources": sources, "level": level, "note": note}
+                srcs, method = sources, "判定"
+                if pid in OGIHARA_HEAT and key == "heat":
+                    srcs, method = ["s20"], "記載"
+                elif pid in OGIHARA_HEAT and key == "west_sun":
+                    srcs = sources + ["s20"]
+                new = {"value": value, "method": method, "sources": srcs, "level": level, "note": note}
             f[key] = new
             if old != value or prev is None:
                 reason = "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: " + why

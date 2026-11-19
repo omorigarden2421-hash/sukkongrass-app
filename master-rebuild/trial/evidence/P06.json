@@ -54,6 +54,21 @@
    "status": "not_found",
    "checked": "2026-11-19",
    "note": "「Agastache」で検索。'Red Fortune' の掲載なし（A. mexicana は 'Sangria' だけ）。ユーザーのパソコンの Chrome で Gaißmayer のサイト内検索を使った"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/agastache/",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "属 Agastache のページ（A. mexicana の種のページは 404）。暑さの記述を探すための読み直し",
+   "added": "reread-20261119"
+  },
+  {
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/search.php",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "図鑑を検索したが掲載なし（品種名・属名・和名で検索）"
   }
  ],
  "evidence": [
@@ -590,13 +605,55 @@
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "アガスタチ属は暑さと乾燥に耐える",
+   "quote": "They are also heat and drought tolerant.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/agastache/",
+   "level": "genus",
+   "from_master_source": false,
+   "checked": "2026-11-19",
+   "added": "reread-20261119"
+  },
+  {
+   "field": "drought",
+   "value_ja": "アガスタチ属は暑さと乾燥に耐える",
+   "quote": "They are also heat and drought tolerant.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/agastache/",
+   "level": "genus",
+   "from_master_source": false,
+   "checked": "2026-11-19",
+   "added": "reread-20261119"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "米国南東部の夏に最もよく耐える種類（'Blue Fortune'、'Blue Boa'、Acapulco 群など）を選ぶ",
+   "quote": "Choose a species that tolerates southeast summers best such as 'Blue Fortune', 'Blue Boa' or the Acapulco® group.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/agastache/",
+   "level": "genus",
+   "from_master_source": false,
+   "checked": "2026-11-19",
+   "added": "reread-20261119"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水はけの良い土が必須。排水の悪い土で冬に根が濡れると枯れる",
+   "quote": "Well-drained soils are essential for these plants and wet winter feet in poorly drained soil will do them in.",
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/agastache/",
+   "level": "genus",
+   "from_master_source": false,
+   "checked": "2026-11-19",
+   "added": "reread-20261119"
   }
  ],
  "not_found": [
   "common_name_ja",
   "seasonal_foliage",
-  "heat_humidity",
-  "drought",
   "salt",
   "staking",
   "division",

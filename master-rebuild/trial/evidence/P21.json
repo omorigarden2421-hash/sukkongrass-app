@@ -72,6 +72,13 @@
    "status": "ok",
    "checked": "2026-11-19",
    "note": "種のページ：Geranium phaeum。ユーザーのパソコンの Chrome で読んだ"
+  },
+  {
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1043",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "種のページ：黒花フウロ (ファエウム) Geranium phaeum var. phaeum"
   }
  ],
  "evidence": [
@@ -945,6 +952,46 @@
    "quote": "Geranium phaeum ist sehr robust und gut winterhart.",
    "source": "s17",
    "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "耐暑性 強（日本のナーサリーの評価。値のみ）",
+   "quote": "耐暑性；強",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1043",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向〜やや半日陰",
+   "quote": "日照；日向～やや半日陰",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1043",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "性質が強健で耐暑性があり、大株に育て易い",
+   "quote": "性質が強健で耐暑性があり、大株に育て易い",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1043",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "冬季常緑種",
+   "quote": "冬季常緑種",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1043",
    "level": "species",
    "from_master_source": false,
    "checked": "2026-11-19"

@@ -66,6 +66,21 @@
    "status": "not_found",
    "checked": "2026-11-19",
    "note": "「spurium」で検索。あるのは 'Album Superbum'、'Fuldaglut' だけ。ユーザーのパソコンの Chrome で Gaißmayer のサイト内検索を使った"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/sedum/",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "属 Sedum のページと Phedimus spurius の種のページを読み直し。暑さの記述なし",
+   "added": "reread-20261119"
+  },
+  {
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1092",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種のページ：セダム(コーカサスキリンソウ) ‘ドラゴンズブラッド’ Sedum spurium 'Dragon's Blood'"
   }
  ],
  "evidence": [
@@ -884,6 +899,46 @@
    "source": "s18",
    "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
    "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "耐暑性 強（日本のナーサリーの評価。値のみ）",
+   "quote": "耐暑性；強",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1092",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向",
+   "quote": "日照；日向",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1092",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "セダムの中でも特に性質が強健",
+   "quote": "セダムの中でも特に性質が強健",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1092",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "drought",
+   "value_ja": "周年美しい色を保つので乾燥地のカバーに向く",
+   "quote": "周年美しい色を保つので乾燥地のカバーに向く",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=1092",
+   "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"
   }

@@ -66,6 +66,13 @@
    "status": "not_found",
    "checked": "2026-11-19",
    "note": "「Cornus」で検索、該当なし。ユーザーのパソコンの Chrome で Gaißmayer のサイト内検索を使った"
+  },
+  {
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/search.php",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "図鑑を検索したが掲載なし（品種名・属名・和名で検索）"
   }
  ],
  "evidence": [

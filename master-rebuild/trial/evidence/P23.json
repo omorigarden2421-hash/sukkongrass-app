@@ -96,6 +96,21 @@
    "status": "ok",
    "checked": "2026-11-19",
    "note": "種のページ：Anemone sylvestris。ユーザーのパソコンの Chrome で読んだ"
+  },
+  {
+   "source": "s06",
+   "url": "https://plants.ces.ncsu.edu/plants/anemone/",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "属 Anemone のページ。属全体の一般的な説明だけで、この種の暑さの記述なし",
+   "added": "reread-20261119"
+  },
+  {
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=244",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "種のページ：アネモネ シルベストリス Anemone sylvestris"
   }
  ],
  "evidence": [
@@ -1258,6 +1273,26 @@
    "quote": "Anemone sylvestris wird in der Regel nicht von Schnecken gefressen.",
    "source": "s17",
    "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "耐暑性 中（日本のナーサリーの評価。値のみ）",
+   "quote": "耐暑性；中",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=244",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向〜やや半日陰",
+   "quote": "日照；日向～やや半日陰",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=244",
    "level": "species",
    "from_master_source": false,
    "checked": "2026-11-19"

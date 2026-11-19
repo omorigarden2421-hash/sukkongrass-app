@@ -60,6 +60,13 @@
    "status": "ok",
    "checked": "2026-11-19",
    "note": "種のページ：Lysimachia nummularia。ユーザーのパソコンの Chrome で読んだ"
+  },
+  {
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/search.php",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "図鑑を検索したが掲載なし（品種名・属名・和名で検索）"
   }
  ],
  "evidence": [
@@ -979,13 +986,23 @@
    "level": "species",
    "from_master_source": false,
    "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "セントルイス（夏が高温多湿）では午後に少し日陰になる所を好む",
+   "quote": "Plants prefer some part afternoon shade in the St. Louis area",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285553",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19",
+   "added": "reread-20261119"
   }
  ],
  "not_found": [
   "synonyms",
   "group",
   "seasonal_foliage",
-  "heat_humidity",
   "salt",
   "lifespan",
   "staking",

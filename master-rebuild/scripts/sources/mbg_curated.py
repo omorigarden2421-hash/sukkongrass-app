@@ -77,6 +77,7 @@ CURATED = [
  ("P16","evergreen","a genus consisting of about 55 species of evergreen to semi-evergreen herbaceous perennials","常緑〜半常緑の多年草の属（属の説明）"),
  ("P16","pests_diseases","Frost heaving of roots may occur when winter temperatures fluctuate widely. Potential disease problems include powdery mildew, rust, and bacterial leaf spot. Potential insect problems include weevils and foliar nematodes.","冬の気温の上下が大きいと根が霜で持ち上がることがある。うどんこ病・さび病・斑点細菌病、ゾウムシ・葉のセンチュウ"),
 
+ ("P17","heat_humidity","Plants prefer some part afternoon shade in the St. Louis area","セントルイス（夏が高温多湿）では午後に少し日陰になる所を好む（2026-11-19 の読み直しで追加）"),
  ("P17","spread_mode","Plants spread by creeping stems in optimum growing conditions to form large colonies.","条件が良いと這う茎で広がり大きな群落を作る"),
  ("P17","invasive_note","Plants tend to be less invasive if grown in lean, somewhat dry soils","やせたやや乾いた土では広がりが抑えられる"),
  ("P17","invasive_note","Plants should be closely monitored to avoid unwanted spread. This plant is considered invasive in some parts of the United States.","望まない広がりを防ぐためよく見ておくこと。米国の一部で侵略的とされる"),

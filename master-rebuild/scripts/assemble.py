@@ -23,7 +23,7 @@ FAM = {'Asteraceae': 'キク科', 'Ranunculaceae': 'キンポウゲ科', 'Lamiac
        'Primulaceae': 'サクラソウ科', 'Fabaceae': 'マメ科', 'Caprifoliaceae': 'スイカズラ科', 'Liliaceae': 'ユリ科',
        'Geraniaceae': 'フウロソウ科', 'Polemoniaceae': 'ハナシノブ科', 'Hydrangeaceae': 'アジサイ科', 'Cornaceae': 'ミズキ科',
        'Valerianaceae': 'オミナエシ科（旧）'}
-SRCNAME = {'s02': 'MBG', 's04': 'YList', 's18': 'stauden.de', 's17': 'Gaißmayer', 's11': 'Jelitto', 's01': 'RHS', 's06': 'NC State', 's07': 'ミネソタ大', 's08': 'シカゴ植物園', 's09': 'Wildflower Center',
+SRCNAME = {'s02': 'MBG', 's04': 'YList', 's18': 'stauden.de', 's17': 'Gaißmayer', 's11': 'Jelitto', 's20': 'おぎはら植物園', 's01': 'RHS', 's06': 'NC State', 's07': 'ミネソタ大', 's08': 'シカゴ植物園', 's09': 'Wildflower Center',
            's10': 'perennials.com／Walters', 's12': '育種会社', 'Kew': 'Kew（WCVP）', 's05': '環境省 外来種リスト'}
 
 def fmt_name(s):
@@ -258,7 +258,8 @@ srcs = [['s01', 'RHS（英国王立園芸協会）Plant Finder', '公的機関DB
         ['s16', '道総研', '公的機関', 'hro.or.jp', '参考資料'],
         ['s17', 'Gaißmayer', 'ナーサリー', 'gaissmayer.de', '使用（2026-11-19 から。パソコンの Chrome で読む。空欄を埋めるのに使い、ゾーン・花期・高さ・暑さは記録だけ）'],
         ['s18', 'stauden.de 無料データベース（BdS ドイツ宿根草生産者協会）', '業界団体DB', 'stauden.de', '使用（2026-11-19 から。有料版は未契約）'],
-        ['s19', 'Beth Chatto', '育種・生産会社', 'bethchatto.co.uk', '未使用']]
+        ['s19', 'Beth Chatto', '育種・生産会社', 'bethchatto.co.uk', '未使用'],
+        ['s20', 'おぎはら植物園「おぎはら植物図鑑」', 'ナーサリー（日本）', 'ogis.co.jp', '使用（2026-11-19 から。耐暑性だけ。欧米の文献に暑さの記述がないときに使う）']]
 sheet('文献リスト', ['文献ID', '文献', '種類', 'サイト', '状態'], srcs, {'文献': 50, 'サイト': 30, '状態': 40})
 chg = []
 for p in sorted(glob.glob(T + '/rows/P*.json')):

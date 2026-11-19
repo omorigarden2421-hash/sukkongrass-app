@@ -60,6 +60,13 @@
    "status": "ok",
    "checked": "2026-11-19",
    "note": "品種ページ：Calamagrostis x acutiflora 'Karl Foerster'。ユーザーのパソコンの Chrome で読んだ"
+  },
+  {
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=2890",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種のページ：カラマグロスティス ‘カール フォースター’ Calamagrostis x acutiflora 'Karl Foerster'"
   }
  ],
  "evidence": [
@@ -1190,6 +1197,26 @@
    "quote": "in Pflanzgefäßen ab 20 Liter Erdvolumen und zu Rosen",
    "source": "s17",
    "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/stauden-fuer-sonnige-plaetze/freiflaechenstauden/179/calamagrostis-x-acutiflora-karl-foerster/5208/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "耐暑性 強（日本のナーサリーの評価。値のみ）",
+   "quote": "耐暑性；強",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=2890",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向",
+   "quote": "日照；日向",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=2890",
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"

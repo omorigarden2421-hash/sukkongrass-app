@@ -396,6 +396,11 @@
   {
    "field": "silhouette",
    "detail": "stauden.de 弓なり・横に張り出す（bogig; ausladend）／Walters large mound。文章の Walters を採用（ドーム）"
+  },
+  {
+   "field": "heat",
+   "detail": "NC State は「南部では葉焼けを防ぐため日陰に」（中）／おぎはら植物園は 強。欧米の文献に記述があるので 中 のまま",
+   "by": "heat"
   }
  ],
  "name_review": {

@@ -60,6 +60,21 @@
    "status": "ok",
    "checked": "2026-11-19",
    "note": "種のページ：Ajuga reptans。ユーザーのパソコンの Chrome で読んだ"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "読み直し。暑さだけの記述はなし（湿気と株腐れの記述のみ）",
+   "added": "reread-20261119"
+  },
+  {
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=758",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種のページ：アジュガ ‘バーガンディグロー’ Ajuga reptans 'Burgundy Glow'"
   }
  ],
  "evidence": [
@@ -1360,6 +1375,36 @@
    "source": "s17",
    "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
    "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "耐暑性 強（日本のナーサリーの評価。値のみ）",
+   "quote": "耐暑性；強",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=758",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日向〜やや半日陰",
+   "quote": "日照；日向～やや半日陰",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=758",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "夏はシルバー、秋はピンクに変化し、冬も常緑で美しく周年楽しめる",
+   "quote": "夏はシルバー、秋はピンクに変化し、冬も常緑で美しく周年楽しめる",
+   "source": "s20",
+   "url": "https://www.ogis.co.jp/gallery/page01.php?id=758",
+   "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"
   }
