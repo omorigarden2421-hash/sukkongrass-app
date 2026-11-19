@@ -325,9 +325,20 @@
   {
    "field": "soil_moisture",
    "detail": "stauden.de trocken; frisch（乾燥〜適湿）／perennials.com Average or Moist or Wet／RHS・MBG は適湿。RHS を採用"
+  },
+  {
+   "field": "drought",
+   "detail": "MBG は medium moisture（中）／Gaißmayer（種）は「乾燥と日なたにとてもよく耐える」。優先順位で 中 のまま",
+   "by": "chrome"
   }
  ],
- "name_review": null,
+ "name_review": {
+  "current": null,
+  "proposed": null,
+  "reason": "2026-11-19（Jelitto・Gaißmayer）: Jelitto は種（ANEMONE sylvestris）の種子に [Madonna] の別名を併記している。'Madonna' が種と区別できる品種かどうかの確認が必要",
+  "source": "s17 / s11",
+  "by": "chrome"
+ },
  "notes": "品種 'Madonna' の記述は使用可能文献でほぼ得られず（RHS 品種ページは Unresolved で科・属説明のみ、CBG 品種ページは名前のみ、perennials.com・NCSU に品種ページなし）。値はすべて種 Anemone sylvestris レベル。品種専用項目（花色・株張り・葉・香り・樹形・切り花）は null。マスター出典（gardenia.net、North Creek）は対象外で未使用。",
  "changes_20261119": [
   {

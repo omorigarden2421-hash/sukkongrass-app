@@ -389,6 +389,11 @@
   {
    "field": "seasonal_foliage",
    "detail": "Walters 見どころに Fall Color／stauden.de 紅葉なし。優先順位により Walters を採用"
+  },
+  {
+   "field": "drought",
+   "detail": "NC State・Walters は乾燥に耐える（強）／Gaißmayer は「夏に土が乾きすぎると育たない、さび病が出やすくなる」。優先順位で 強 のまま",
+   "by": "chrome"
   }
  ],
  "name_review": null,

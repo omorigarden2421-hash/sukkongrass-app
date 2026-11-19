@@ -1,5 +1,6 @@
-import openpyxl,re,json,glob,sys
-wb=openpyxl.load_workbook('/tmp/claude-0/env/list_plants.xlsx',read_only=True)
+import openpyxl,re,json,glob,sys,os
+# 環境省のリストの場所。環境変数 IAS_XLSX で変えられる（Windows のパソコンでは /tmp がないため）
+wb=openpyxl.load_workbook(os.environ.get('IAS_XLSX','/tmp/claude-0/env/list_plants.xlsx'),read_only=True)
 L=[]
 for sh in ('国外','国内'):
     for r in wb[sh].iter_rows(values_only=True):
@@ -17,5 +18,5 @@ def check(sci):
 if __name__=='__main__':
     print(len(L),'entries')
     for p in sorted(glob.glob(sys.argv[1]+'/P*.json')):
-        d=json.load(open(p)); h,g=check(d['学名'])
+        d=json.load(open(p,encoding='utf-8')); h,g=check(d['学名'])
         print(d['id'],d['学名'],'| 該当:',[(x['ja'],x['cat'],x['tokutei']) for x in h],'| 同属:',[(x['ja'],x['sci'][:40]) for x in g][:3])

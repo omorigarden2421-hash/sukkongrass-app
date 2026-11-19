@@ -84,7 +84,13 @@
    "level": "species"
   },
   "fragrance": {
-   "value": null
+   "value": "花",
+   "method": "判定",
+   "sources": [
+    "s17"
+   ],
+   "level": "species",
+   "note": "Gaißmayer: 花のにおいは好みが分かれる、という記述（良い香りという意味ではない）。商品が種そのものなので種の記述を使った"
   },
   "silhouette": {
    "value": "株立ち",
@@ -370,6 +376,11 @@
   {
    "field": "pruning",
    "detail": "RHS 剪定不要／stauden.de 秋〜晩秋に茎を切り戻す。用語選択式の stauden.de より RHS を採って 不要"
+  },
+  {
+   "field": "self_seed_level",
+   "detail": "NC State は 1（こぼれ種することがある）／Gaißmayer は「こぼれ種でよく増える」（2 相当）。優先順位で 1 のまま",
+   "by": "chrome"
   }
  ],
  "name_review": null,
@@ -392,6 +403,16 @@
    "old": 9,
    "new": 8,
    "reason": "同上（MBG s02 の 5〜8 を採用）"
+  },
+  {
+   "field": "fragrance",
+   "old": null,
+   "new": "花",
+   "reason": "Jelitto・Gaißmayer: Gaißmayer に花のにおいの記述があった",
+   "by": "chrome",
+   "prev": {
+    "value": null
+   }
   }
  ]
 }

@@ -11,8 +11,15 @@
    "note": "RHS で Accepted"
   },
   "synonyms": {
-   "value": null,
-   "note": "文献に記載なし"
+   "value": [
+    "Phlox amplifolia 'David'"
+   ],
+   "method": "記載",
+   "sources": [
+    "s17"
+   ],
+   "level": "cultivar",
+   "note": "Gaißmayer: ehemals（以前の表記）Phlox amplifolia 'David'"
   },
   "flower_color_detail": {
    "value": "白",
@@ -230,12 +237,17 @@
    "note": "clump／Clumping のみで栄養繁殖で広がる記述なし。こぼれ種は MBG（種）: 花がらを取ると望まないこぼれ種を防げる。s18（品種）は horstig に加え ausläufertreibend（ランナーを出す）とするが、文章の記述を優先して採らなかった"
   },
   "self_seed_level": {
-   "value": null,
-   "note": "MBG（種）にこぼれ種をするとの記述はあるが、程度（少し／よく）の記述がないため空欄"
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s17"
+   ],
+   "level": "cultivar",
+   "note": "Gaißmayer（品種への回答）: 花後に切り戻すと種が熟すのを防ぎ、望まない実生を防げる → 1（こぼれ種することがある）"
   },
   "rhizome_level": {
    "value": null,
-   "note": "clump の記述のみで『広がらない』の明記はないため null"
+   "note": "clump の記述のみで『広がらない』の明記はないため null 2026-11-19（Jelitto・Gaißmayer）: Gaißmayer（品種）は「短いほふく枝で少しずつ大きく密な株になる」とするが、増え方を上位の文献どおり株立ちにしたので空欄のまま（2026-11-19 ユーザー決定）"
   },
   "mixing": {
    "value": "普通（混植可）",
@@ -384,9 +396,20 @@
   {
    "field": "soil_moisture",
    "detail": "stauden.de は品種 frisch（適湿）／種 feucht（湿り気）。RHS の Moist but well-drained（適湿）のまま"
+  },
+  {
+   "field": "spread_modes",
+   "detail": "Walters・NC State は株立ち（clump）／stauden.de と Gaißmayer（どちらも品種ページ）は短いほふく枝を出すとする。優先順位で 株立ち のまま（2026-11-19 ユーザー決定。地下茎で広がる程度も空欄のまま）",
+   "by": "chrome"
   }
  ],
- "name_review": null,
+ "name_review": {
+  "current": null,
+  "proposed": null,
+  "reason": "2026-11-19（Jelitto・Gaißmayer）: Gaißmayer は以前 Phlox amplifolia 'David' と表記していた（今は Phlox paniculata 'David'）",
+  "source": "s17 / s11",
+  "by": "chrome"
+ },
  "notes": "学名は RHS で Accepted、マスターと一致。2002年 Perennial Plant of the Year。支柱は perennials.com『May need staking』と NCSU『seldom need staking』で食い違い（マスター項目外）。",
  "changes_20261119": [
   {
@@ -417,6 +440,30 @@
     "こぼれ種"
    ],
    "reason": "MBG（s02、種）に「望まないこぼれ種を防ぐため花がらを取る」の記述。こぼれ種 を追加"
+  },
+  {
+   "field": "synonyms",
+   "old": null,
+   "new": [
+    "Phlox amplifolia 'David'"
+   ],
+   "reason": "Jelitto・Gaißmayer: Gaißmayer の品種ページに以前の表記があった",
+   "by": "chrome",
+   "prev": {
+    "value": null,
+    "note": "文献に記載なし"
+   }
+  },
+  {
+   "field": "self_seed_level",
+   "old": null,
+   "new": 1,
+   "reason": "Jelitto・Gaißmayer: Gaißmayer の回答に、切り戻さないと実生が出る記述があった",
+   "by": "chrome",
+   "prev": {
+    "value": null,
+    "note": "MBG（種）にこぼれ種をするとの記述はあるが、程度（少し／よく）の記述がないため空欄"
+   }
   }
  ]
 }

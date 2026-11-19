@@ -3,6 +3,7 @@ from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
 import os
 # 使い方: python3 scripts/assemble.py <出力.xlsx> <元のマスター.xlsx>
+# 環境省の外来種リスト（list_plants.xlsx）の場所は環境変数 IAS_XLSX で指定できる（ias.py）。
 # 元のマスターと出力は価格・在庫を含むので、リポジトリの外に置く。
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -14,7 +15,7 @@ OUT = sys.argv[1]
 wb0 = openpyxl.load_workbook(sys.argv[2], read_only=True)
 ws0 = wb0['Sheet1']; R = list(ws0.iter_rows(values_only=True)); H = R[0]
 M = {r[1]: dict(zip(H, r)) for r in R[1:] if r[1]}
-kewd = json.load(open(T + '/kew.json'))
+kewd = json.load(open(T + '/kew.json', encoding='utf-8'))
 
 FAM = {'Asteraceae': 'キク科', 'Ranunculaceae': 'キンポウゲ科', 'Lamiaceae': 'シソ科', 'Caryophyllaceae': 'ナデシコ科',
        'Rosaceae': 'バラ科', 'Poaceae': 'イネ科', 'Asparagaceae': 'キジカクシ科', 'Asphodelaceae': 'ススキノキ科',
@@ -22,7 +23,7 @@ FAM = {'Asteraceae': 'キク科', 'Ranunculaceae': 'キンポウゲ科', 'Lamiac
        'Primulaceae': 'サクラソウ科', 'Fabaceae': 'マメ科', 'Caprifoliaceae': 'スイカズラ科', 'Liliaceae': 'ユリ科',
        'Geraniaceae': 'フウロソウ科', 'Polemoniaceae': 'ハナシノブ科', 'Hydrangeaceae': 'アジサイ科', 'Cornaceae': 'ミズキ科',
        'Valerianaceae': 'オミナエシ科（旧）'}
-SRCNAME = {'s02': 'MBG', 's04': 'YList', 's18': 'stauden.de', 's01': 'RHS', 's06': 'NC State', 's07': 'ミネソタ大', 's08': 'シカゴ植物園', 's09': 'Wildflower Center',
+SRCNAME = {'s02': 'MBG', 's04': 'YList', 's18': 'stauden.de', 's17': 'Gaißmayer', 's11': 'Jelitto', 's01': 'RHS', 's06': 'NC State', 's07': 'ミネソタ大', 's08': 'シカゴ植物園', 's09': 'Wildflower Center',
            's10': 'perennials.com／Walters', 's12': '育種会社', 'Kew': 'Kew（WCVP）', 's05': '環境省 外来種リスト'}
 
 def fmt_name(s):
@@ -103,9 +104,9 @@ def j(x):
     return x
 
 master_rows, evid_rows, name_rows = [], [], []
-inputs = {json.load(open(p))['id']: json.load(open(p)) for p in glob.glob(T + '/input/P*.json')}
+inputs = {json.load(open(p, encoding='utf-8'))['id']: json.load(open(p, encoding='utf-8')) for p in glob.glob(T + '/input/P*.json')}
 for p in sorted(glob.glob(T + '/rows/P*.json')):
-    d = json.load(open(p)); pid = d['id']; f = d['fields']; inp = inputs[pid]
+    d = json.load(open(p, encoding='utf-8')); pid = d['id']; f = d['fields']; inp = inputs[pid]
     no = inp['商品番号']; no = int(no) if str(no).isdigit() else no; m = M.get(no) if isinstance(no, int) else None
     row = {c: None for c in COLS}
     row['商品番号'] = no
@@ -250,18 +251,18 @@ srcs = [['s01', 'RHS（英国王立園芸協会）Plant Finder', '公的機関DB
         ['s08', 'Chicago Botanic Garden（Plant Finder・品種評価）', '植物園DB', 'chicagobotanic.org', '使用'],
         ['s09', 'Lady Bird Johnson Wildflower Center', '大学', 'wildflower.org', '使用'],
         ['s10', 'perennials.com（Valleybrook／Perennial Resource）・Walters Gardens', '生産・品種情報会社', 'perennials.com／waltersgardens.com', '使用'],
-        ['s11', 'Jelitto カタログ', '種苗会社', 'jelitto.com', 'クラウドからは読めない（Cloudflare）。パソコンの Chrome で読んだ（2026-11-19）'],
+        ['s11', 'Jelitto カタログ', '種苗会社', 'jelitto.com', '使用（2026-11-19 から。パソコンの Chrome で読む。空欄を埋めるのに使い、ゾーン・花期・高さ・暑さは記録だけ）'],
         ['s12', '育種会社の品種情報（Proven Winners など）', '育種会社', '各社', '使用'],
         ['s13', 'Staudensichtung（ドイツの宿根草品種評価）', '公的機関', 'staudensichtung.de', '参考資料'],
         ['s14', 'Mt. Cuba Center', '植物園', 'mtcubacenter.org', '使わない'],
         ['s16', '道総研', '公的機関', 'hro.or.jp', '参考資料'],
-        ['s17', 'Gaißmayer', 'ナーサリー', 'gaissmayer.de', 'クラウドからは読めない（Cloudflare）。パソコンの Chrome で読んだ（2026-11-19）'],
+        ['s17', 'Gaißmayer', 'ナーサリー', 'gaissmayer.de', '使用（2026-11-19 から。パソコンの Chrome で読む。空欄を埋めるのに使い、ゾーン・花期・高さ・暑さは記録だけ）'],
         ['s18', 'stauden.de 無料データベース（BdS ドイツ宿根草生産者協会）', '業界団体DB', 'stauden.de', '使用（2026-11-19 から。有料版は未契約）'],
         ['s19', 'Beth Chatto', '育種・生産会社', 'bethchatto.co.uk', '未使用']]
 sheet('文献リスト', ['文献ID', '文献', '種類', 'サイト', '状態'], srcs, {'文献': 50, 'サイト': 30, '状態': 40})
 chg = []
 for p in sorted(glob.glob(T + '/rows/P*.json')):
-    d = json.load(open(p)); inp = inputs[d['id']]
+    d = json.load(open(p, encoding='utf-8')); inp = inputs[d['id']]
     for c in d.get('changes_20261119', []):
         chg.append([inp['商品番号'], fmt_name(inp['植物名']), c.get('field'), j(c.get('old')), j(c.get('new')), c.get('reason')])
 sheet('今回の変更点', ['商品番号', '植物名', '項目（field）', '前の値', '新しい値', '理由'], chg, {'植物名': 30, '前の値': 30, '新しい値': 30, '理由': 60})

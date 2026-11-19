@@ -2,20 +2,48 @@
  "id": "P18",
  "fields": {
   "accepted_name": {
-   "value": null,
-   "note": "使用可文献に 'Fräulein'（Fraulein）の品種記録なし。Kew も照合なし。RHS にあるのは Lupinus Band of Nobles Series（シリーズ）のみで、'Fräulein' がその一色である根拠は未読の Jelitto URL だけ。2026-11-19: stauden.de（s18）は品種ページを Lupinus polyphyllus 'Fräulein' として掲載、MBG（s02）は交配群 Lupinus × hybrida のページのみ。RHS・Kew で確認できないため値は null のまま"
+   "value": "Lupinus 'Fräulein'",
+   "method": "記載",
+   "sources": [
+    "s18",
+    "s17",
+    "s11"
+   ],
+   "level": "cultivar",
+   "note": "2026-11-19 ユーザー決定: 種小名を書かない形にする。品種名 'Fräulein'（ウムラウトあり）は stauden.de・Gaißmayer・Jelitto で一致。種の扱いは Lupinus polyphyllus（stauden.de）、Polyphyllus-Hybride（Gaißmayer、育種者 Benary 1958）、L. perennis Russell Band of Nobles Series（Jelitto）と割れている。RHS・Kew では確認できない"
   },
   "synonyms": {
-   "value": null,
-   "note": "品種の記録がないため。シリーズのシノニムは Lupinus polyphyllus 'Band of Nobles'（RHS）"
+   "value": [
+    "'Noble Maiden'（Jelitto が併記する英名）"
+   ],
+   "method": "記載",
+   "sources": [
+    "s11"
+   ],
+   "level": "cultivar",
+   "note": "Jelitto の表記: LUPINUS perennis Russell Band of Nobles Series 'Fräulein' [Noble Maiden]"
   },
   "flower_color_detail": {
-   "value": null,
-   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）。シリーズの花色は混色の列挙で品種の色の根拠にならない"
+   "value": "クリーム白",
+   "method": "記載",
+   "sources": [
+    "s17",
+    "s11"
+   ],
+   "level": "cultivar",
+   "note": "Gaißmayer cremeweiß／Jelitto creamy-white（どちらも 'Fräulein' の品種ページ）"
   },
   "flower_color_class": {
-   "value": null,
-   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）"
+   "value": [
+    "白"
+   ],
+   "method": "判定",
+   "sources": [
+    "s17",
+    "s11"
+   ],
+   "level": "cultivar",
+   "note": "クリーム白を 白 に当てはめた"
   },
   "spread_min": {
    "value": null,
@@ -39,7 +67,7 @@
   },
   "fragrance": {
    "value": null,
-   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）（RHS シリーズは花に香りあり）"
+   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）（RHS シリーズは花に香りあり） 2026-11-19（Jelitto・Gaißmayer）: Gaißmayer の表に Duftend: ja（香りあり）とあるが、花か葉かの記載がないため空欄のまま"
   },
   "silhouette": {
    "value": "株立ち",
@@ -328,9 +356,10 @@
  ],
  "name_review": {
   "current": "Lupinus × hybrida 'Fraulein'",
-  "proposed": "未確定（使用可文献で確認できず）",
-  "reason": "使用可文献に 'Fräulein' の品種記録がなく、Kew でも照合できない。種の扱いもマスター Lupinus × hybrida、Jelitto URL L. perennis、RHS シリーズのシノニム L. polyphyllus と3通りに割れている。品種名も Fräulein（ウムラウト）か Fraulein か未確認。Band of Nobles Series の一色かどうかの確認が必要。2026-11-19 追記: stauden.de（s18）は Lupinus polyphyllus 'Fräulein'（ウムラウトあり）として品種を掲載している",
-  "source": "s01 / Kew / s18"
+  "proposed": "Lupinus 'Fräulein'（2026-11-19 ユーザー決定。種小名なし）",
+  "reason": "使用可文献に 'Fräulein' の品種記録がなく、Kew でも照合できない。種の扱いもマスター Lupinus × hybrida、Jelitto URL L. perennis、RHS シリーズのシノニム L. polyphyllus と3通りに割れている。品種名も Fräulein（ウムラウト）か Fraulein か未確認。Band of Nobles Series の一色かどうかの確認が必要。2026-11-19 追記: stauden.de（s18）は Lupinus polyphyllus 'Fräulein'（ウムラウトあり）として品種を掲載している 2026-11-19（Jelitto・Gaißmayer）: Jelitto は LUPINUS perennis Russell Band of Nobles Series 'Fräulein' [Noble Maiden]、Gaißmayer は Lupinus Polyphyllus-Hybride 'Fräulein' と表記。Band of Nobles Series の一色であること、ウムラウト付きの Fräulein であることは3文献（stauden.de・Jelitto・Gaißmayer）で一致。種の扱いは polyphyllus（交配種）が2文献、perennis が1文献。ユーザー決定で、学名は種小名なしの Lupinus 'Fräulein' とした",
+  "source": "s01 / Kew / s18",
+  "proposed_prev": "未確定（使用可文献で確認できず）"
  },
  "notes": "品種そのものの記述がなく、値はすべて Band of Nobles Series（level=species と記録）または属レベル。花色・株張り・形など品種レベル必須の項目は null。シリーズへの帰属が未確認なので、シリーズ由来の値（日照・H5・土・落葉など）も参考扱いが妥当。 2026-11-19: stauden.de（s18）に Lupinus polyphyllus 'Fräulein' の品種ページがあり、形・切り花・こぼれ種は品種レベルの記述として採用した。MBG（s02）は交配群 Lupinus × hybrida のページ（level=species と記録）。",
  "changes_20261119": [
@@ -368,6 +397,54 @@
    "old": null,
    "new": "○",
    "reason": "stauden.de（s18）の品種ページに切り花向きの記載。評価の強さの明記がないので ○"
+  },
+  {
+   "field": "flower_color_detail",
+   "old": null,
+   "new": "クリーム白",
+   "reason": "Jelitto・Gaißmayer: Gaißmayer・Jelitto に 'Fräulein' の品種ページがあり、花色の記述が加わった",
+   "by": "chrome",
+   "prev": {
+    "value": null,
+    "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）。シリーズの花色は混色の列挙で品種の色の根拠にならない"
+   }
+  },
+  {
+   "field": "flower_color_class",
+   "old": null,
+   "new": [
+    "白"
+   ],
+   "reason": "Jelitto・Gaißmayer: Gaißmayer・Jelitto の品種ページの花色（クリーム白）から",
+   "by": "chrome",
+   "prev": {
+    "value": null,
+    "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）"
+   }
+  },
+  {
+   "field": "accepted_name",
+   "old": null,
+   "new": "Lupinus 'Fräulein'",
+   "reason": "Jelitto・Gaißmayer: 3文献で品種名が一致。種の扱いが割れているため、種小名なしで書く（ユーザー決定）",
+   "by": "chrome",
+   "prev": {
+    "value": null,
+    "note": "使用可文献に 'Fräulein'（Fraulein）の品種記録なし。Kew も照合なし。RHS にあるのは Lupinus Band of Nobles Series（シリーズ）のみで、'Fräulein' がその一色である根拠は未読の Jelitto URL だけ。2026-11-19: stauden.de（s18）は品種ページを Lupinus polyphyllus 'Fräulein' として掲載、MBG（s02）は交配群 Lupinus × hybrida のページのみ。RHS・Kew で確認できないため値は null のまま"
+   }
+  },
+  {
+   "field": "synonyms",
+   "old": null,
+   "new": [
+    "'Noble Maiden'（Jelitto が併記する英名）"
+   ],
+   "reason": "Jelitto・Gaißmayer: Jelitto の品種ページに別名 [Noble Maiden] の併記があった",
+   "by": "chrome",
+   "prev": {
+    "value": null,
+    "note": "品種の記録がないため。シリーズのシノニムは Lupinus polyphyllus 'Band of Nobles'（RHS）"
+   }
   }
  ]
 }

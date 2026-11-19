@@ -3,7 +3,7 @@
 """
 import json, sys, re, openpyxl
 src, out = sys.argv[1], sys.argv[2]
-wb = openpyxl.load_workbook(src)
+wb = openpyxl.load_workbook(src)  # 試作表は価格・在庫を含むのでリポジトリの外に置く
 ws = wb.worksheets[0]
 how = [c.value for c in ws[1]]; H = [c.value for c in ws[2]]
 rows = [[c.value for c in r] for r in ws.iter_rows(min_row=3)]

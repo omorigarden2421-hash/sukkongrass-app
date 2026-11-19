@@ -243,8 +243,13 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": null,
-   "note": "記述なし"
+   "value": "こぼれ種が多く、きちんと整った庭には勧められない。避けるには花後すぐに全体を切り戻す",
+   "method": "記載",
+   "sources": [
+    "s17"
+   ],
+   "level": "species",
+   "note": "Gaißmayer の種（Geranium phaeum）のページの記述。'Mourning Widow' でも同じかは品種の記述がなく未確認"
   },
   "toxicity": {
    "value": null,
@@ -382,6 +387,11 @@
   {
    "field": "native_range",
    "detail": "RHS 南・中央・西ヨーロッパ／stauden.de 中欧・東欧・南欧。優先順位で RHS を採用"
+  },
+  {
+   "field": "self_seed_level",
+   "detail": "MBG・stauden.de は 1／Gaißmayer（種）は「こぼれ種が多い」（2 相当）。優先順位で 1 のまま",
+   "by": "chrome"
   }
  ],
  "name_review": {
@@ -443,6 +453,17 @@
    "old": "B 花後刈込型",
    "new": "C 夏前切戻型",
    "reason": "heat の見直しに連動。MBG（s02）の「暑い夏は花後に葉が傷む→葉を刈り込んで若返らせる」を夏に葉が傷むので切り戻す記述と判断し B → C"
+  },
+  {
+   "field": "invasive_note",
+   "old": null,
+   "new": "こぼれ種が多く、きちんと整った庭には勧められない。避けるには花後すぐに全体を切り戻す",
+   "reason": "Jelitto・Gaißmayer: Gaißmayer（種のページ）に広がりすぎの注意があった",
+   "by": "chrome",
+   "prev": {
+    "value": null,
+    "note": "記述なし"
+   }
   }
  ]
 }

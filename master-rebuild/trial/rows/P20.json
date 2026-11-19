@@ -372,7 +372,7 @@
   "reason": "RHS の正名は種小名なしの Tricyrtis 'Lightning Strike'（シノニム T. latifolia 'Lightning Strike'）。Walters・シカゴ植物園も種小名なし。T. hirta としているのは NC State だけ。MBG（s02）も種小名なしで掲載。stauden.de（s18）に品種の掲載はなく T. hirta の種ページのみ",
   "source": "s01 / Kew"
  },
- "notes": "種が確定しないため、T. hirta 種ページ（NC State）由来の値（増え方・病害虫・繁殖など）は品種に当てはまらない可能性がある。Walters は寒冷地では早霜で咲きにくく保護が必要と記載。 2026-11-19: MBG（s02）は品種ページ。YList（s04）と stauden.de（s18）は T. hirta の種ページで、種が確定しないため和名は null、常緑性だけ他に記述がないので採用した。stauden.de は雪のない凍結時の防寒を勧めている（該当項目なし）。",
+ "notes": "種が確定しないため、T. hirta 種ページ（NC State）由来の値（増え方・病害虫・繁殖など）は品種に当てはまらない可能性がある。Walters は寒冷地では早霜で咲きにくく保護が必要と記載。 2026-11-19: MBG（s02）は品種ページ。YList（s04）と stauden.de（s18）は T. hirta の種ページで、種が確定しないため和名は null、常緑性だけ他に記述がないので採用した。stauden.de は雪のない凍結時の防寒を勧めている（該当項目なし）。 2026-11-19（Jelitto・Gaißmayer）: Jelitto・Gaißmayer は Tricyrtis hirta（種）のページのみ。値の変更なし",
  "changes_20261119": [
   {
    "field": "usda_min",
