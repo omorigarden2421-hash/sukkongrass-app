@@ -255,17 +255,14 @@ def main():
         if w:
             texts += [("Walters", "品種", x) for x in sentences(w["text"])]
         heat, muggy, aft, why, hlv = judge(texts)
-        if heat is None and og:
+        if og:
+            # 2026-11-19 の最後の決定: おぎはら植物園にページがあれば、耐暑性はおぎはらの値を採る（日本の条件での評価）
+            lab = "品種" if og[3] == "cultivar" else "種"
+            if heat and og[4] != heat:
+                why.append(f"[食い違い] 欧米の文献（{'・'.join(sorted(hlv))}の記述）は {heat} 相当。おぎはら植物園の値を採った")
+            why.insert(0, f"[おぎはら/{lab}] 耐暑性；{og[4]}")
             heat = og[4]
-            why.append(f"[おぎはら/{'品種' if og[3] == 'cultivar' else '種'}] 耐暑性；{og[4]}（欧米の文献に暑さの記述がないので使用）")
             used.add("おぎはら")
-        elif og and heat and og[4] != heat and hlv == {"属"}:
-            # 2026-11-19 決定: 欧米の文献が属についての記述しかないときは、おぎはら植物園の品種・種のページを採る
-            why.append(f"[おぎはら/{'品種' if og[3] == 'cultivar' else '種'}] 耐暑性；{og[4]}（欧米の文献は属の記述だけで {heat} 相当。品種・種のページを優先）")
-            heat = og[4]
-            used.add("おぎはら")
-        elif og and heat and og[4] != heat:
-            why.append(f"[食い違い] おぎはら植物園は 耐暑性；{og[4]}")
         r["耐暑性"], r["蒸れ耐性"] = heat, muggy
         drought = None
         alltext = " ".join(x for _, _, x in texts).lower()
