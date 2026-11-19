@@ -45,7 +45,7 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - trial/rows/ と試作表（Excel・確認用ページ）にはまだ反映していない
 
 ## 次にやること
-1. Jelitto・Gaißmayer の文献の順位と使い方を決める（ゾーン・花期・高さを値に使うか、stauden.de と同じく記録だけにするか）。RULES.md にはまだ s11・s17 の扱いがない
+1. （済）Jelitto・Gaißmayer の文献の順位と使い方は 2026-11-19 に決定し、DECISIONS.md と RULES.md に書いた（ゾーン・花期・高さ・暑さは記録だけ、順位は stauden.de > Gaißmayer > Jelitto、Jelitto が発表元の P05・P12 は s12 と同じ扱い）
 2. DECISIONS.md の決定を RULES.md と assemble.py に反映し、新しい evidence（s02・s04・s18・s11・s17）を trial/rows/ に当てはめて試作表を作り直す。assemble.py は元のマスター（Excel）が必要。クラウドのセッションにはユーザーのパソコンのフォルダ（ClaudeWork）がつながらなかったので、元のマスターをセッションに渡してもらう（リポジトリには入れない）
 3. 未決事項をユーザーに確認する（DECISIONS.md の「未決」）。ユーザーは確認事項をチェックリスト形式で答えるのを好む
 4. 試作が固まったら、全件へ進む手順をユーザーと決める

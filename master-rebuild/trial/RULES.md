@@ -9,13 +9,19 @@
 - trial/kew.json … Kew（英国王立植物園）の学名データの照合結果
 
 ## 文献の優先順位（文献どうしが食い違うとき）
-- 文献ID: s01=RHS、s02=MBG（ミズーリ植物園）、s04=YList、s08=シカゴ植物園、s07=ミネソタ大、s06=NC State、s09=Wildflower Center、s10=perennials.com／Walters、s12=育種会社、s18=stauden.de 無料データベース（ドイツ宿根草生産者協会 BdS）
+- 文献ID: s01=RHS、s02=MBG（ミズーリ植物園）、s04=YList、s08=シカゴ植物園、s07=ミネソタ大、s06=NC State、s09=Wildflower Center、s10=perennials.com／Walters、s12=育種会社、s18=stauden.de 無料データベース（ドイツ宿根草生産者協会 BdS）、s17=Gaißmayer（ドイツのナーサリー）、s11=Jelitto（ドイツの種子会社）
 - **耐寒・越冬に関わる項目**（usda）: s08 > s07 > s01 > s02 > s10 > s06 > その他
 - **暑さ・蒸れに関わる項目**（heat、heat_note、evergreen_warm）: s06 > s02 > s01 > s10 > s08 > その他
-- **それ以外**: s01 > s08 > s06 > s02 > s07 > s09 > s10 > s12 > s18
+- **それ以外**: s01 > s08 > s06 > s02 > s07 > s09 > s10 > s12 > s18 > s17 > s11
 - s02・s18 の位置は 2026-11-19 にユーザー確認済み。MBG はセントルイス（夏が高温多湿）の植物園なので、暑さの項目では NC State の次に置いた。
 - s18（ドイツ）の耐寒ゾーン（hardiness_zone_de）・花の高さ・花期は値に使わない（耐寒性・草丈・花期は今のマスターの値を使う決定のため）。s18 の exposure・function_type・vigor・trial_rating・care・ornamental・uses も値には使わない（記録のみ）。
 - s18 は用語を選ぶ形式のデータなので、他の文献に記述がない項目を埋めるのに使い、他の文献の文章による記述と食い違うときは文章の方を採って conflicts に書く。
+- s17・s11 の扱い（2026-11-19 にユーザー確認済み）:
+  - 順位は s18 の下（s18 > s17 > s11）。他の文献に記述がない項目を埋めるのに使う（増え方・こぼれ種・切り戻し・冬の保護・病害虫・毒・香り・切り花など）。
+  - 耐寒ゾーン（s17 の hardiness_zone_de、s11 の usda_zone）・花期・高さは値に使わない（記録のみ。s18 と同じ）。usda_min／usda_max を決めるときも s11 のゾーンは使わない。
+  - 暑さ・蒸れ（heat）の判定には使わない（記録のみ）。s11・s17 の heat_humidity の記録があっても heat は決めない。
+  - 例外: Jelitto が発表元の品種（P05 アキレア 'ラブパレード'、P12 エキナセア 'マグナス'）では、s11 を育種会社の品種情報（s12）と同じ順位で扱う。ゾーン・花期・高さ・暑さを使わない点は変わらない。
+  - s17 の質問への回答（Antwort）はナーサリー自身の文として使ってよい。s11・s17 の uses・exposure・vigor・trial_rating・care・function_type は値に使わない（記録のみ。s18 と同じ）。
 - 数値（株張り）だけは例外: 品種レベルの具体的な数値（cm・インチ）を出している文献を優先（s10 > s08 > s06 > s12）。具体的な数値がなく RHS の幅（例 0.1〜0.5m）しかなければ RHS を使う。
 - 採用しなかった食い違いは conflicts に書く。
 
