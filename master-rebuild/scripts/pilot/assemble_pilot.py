@@ -22,6 +22,7 @@ from openpyxl.styles import Alignment, Font, PatternFill
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gaissmayer_data as GA  # noqa: E402
 import ogihara_data as OG  # noqa: E402
+import rhs_ids as RH  # noqa: E402
 
 IN, DIGEST, RAW, OUT = sys.argv[1:5]
 D = json.load(open(DIGEST, encoding="utf-8"))
@@ -119,6 +120,37 @@ def walters(k):
     return r
 
 
+RHS_PEST = [("slug", "ナメクジ"), ("snail", "カタツムリ"), ("vine weevil", "キンケクチブトゾウムシ"), ("capsid", "カスミカメ"), ("sawfl", "ハバチ"),
+            ("aphid", "アブラムシ"), ("virus", "ウイルス病"), ("leaf spot", "斑点病"), ("powdery mildew", "うどんこ病"), ("downy mildew", "べと病"),
+            ("rust", "さび病"), ("honey fungus", "ナラタケ病"), ("leafhopper", "ヨコバイ"), ("caterpillar", "イモムシ"), ("eelworm", "線虫"),
+            ("root rot", "根腐れ"), ("crown rot", "株腐れ")]
+
+
+def rhs(k):
+    """RHS の詳細ページから、表の項目（dt/dd）と How to grow の文を取る"""
+    if k not in RH.RHS:
+        return None
+    pid, name, memo = RH.RHS[k]
+    p = f"{RAW}/rhs/{pid}.html"
+    if not os.path.exists(p):
+        return None
+    t = open(p, encoding="utf-8", errors="replace").read()
+
+    def cl(x):
+        x = re.sub(r"<button.*?</button>|<dialog.*?</dialog>|<svg.*?</svg>|<script.*?</script>", "", x, flags=re.S)
+        return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", x))).strip()
+    f = {}
+    for a, b in re.findall(r"<dt[^>]*>(.*?)</dt>\s*<dd[^>]*>(.*?)</dd>", t, re.S):
+        key = cl(a).split(" (function")[0].strip()
+        if key and key not in f:
+            f[key] = cl(b)
+    for lab in ("Cultivation", "Propagation", "Pruning", "Pests", "Diseases"):
+        m = re.search(lab + r"\s*</h\d>\s*(.*?)</(?:div|section)>", t, re.S)
+        if m:
+            f[lab] = cl(m.group(1))
+    return {"name": name, "memo": memo, "url": f"https://www.rhs.org.uk/plants/{pid}/x/details", "f": f}
+
+
 def pick(k, sk, gk, src):
     """品種 → 種 → 属 の順に、その文献のページを探す"""
     for key, lv in ((k, "品種"), (sk, "種"), (gk, "属")):
@@ -144,8 +176,8 @@ def main():
     for g, m in genus_mbg.items():
         D.setdefault("ge_" + g, {})["mbg"] = m
     rows = []
-    cols = ["ID", "商品番号", "植物名", "学名（マスター）", "文献での表記", "和名", "花色（分類）", "花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照",
-            "USDA", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "切り花", "蜜源",
+    cols = ["ID", "商品番号", "植物名", "学名（マスター）", "学名（RHS）", "文献での表記", "和名", "花色（分類）", "花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照",
+            "USDA", "RHS 耐寒性", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "切り花", "蜜源",
             "品種ページのある文献", "使った文献", "空欄の数"]
     for it in ITEMS:
         k = it["id"]
@@ -155,6 +187,7 @@ def main():
         w = walters(k)
         og = OGI.get(k)
         ga = GA.GAISS.get(k)
+        rh = rhs(k)
         r = dict.fromkeys(cols)
         r.update({"ID": k, "商品番号": it["商品番号"], "植物名": it["植物名"], "学名（マスター）": it["学名"]})
         names = [f"{lab}: {x['name']}" for lab, x in (("stauden.de", own.get("sdb")), ("MBG", own.get("mbg")), ("Walters", w)) if x]
@@ -168,6 +201,9 @@ def main():
             std = [x for x in y["rows"] if x["status"] == "標準"]
             r["和名"] = (std or y["rows"])[0]["ja"] + "（種）"
         used, cv_src = set(), []
+        if rh:
+            cv_src.append("RHS")
+            r["学名（RHS）"] = rh["name"] + (f"（{rh['memo']}）" if rh["memo"] else "") + (f" [{rh['f']['Name Status']}]" if rh["f"].get("Name Status") else "")
         for lab, x in (("stauden.de", own.get("sdb")), ("MBG", own.get("mbg")), ("Walters", w), ("Gaißmayer", ga), ("おぎはら", og and og[3] == "cultivar")):
             if x:
                 cv_src.append(lab)
@@ -253,6 +289,17 @@ def main():
             west = "○"
         else:
             west = None
+        if rh and rh["f"].get("Aspect"):
+            asp = rh["f"]["Aspect"].replace("–", "-")
+            if "West-facing" not in asp and "South-facing" not in asp:
+                west = "×"
+                why.append(f"[RHS/品種] Aspect: {asp}（西向き・南向きが入っていない）")
+            elif "West-facing" not in asp and west in (None, "○", "◎"):
+                west = "△"
+                why.append(f"[RHS/品種] Aspect: {asp}（西向きが入っていない）")
+            else:
+                why.append(f"[RHS/品種] Aspect: {asp}")
+            used.add("RHS")
         r["西日耐性"] = west
         r["暑さ・蒸れ・西日の根拠"] = "\n".join(why[:6]) or None
         # --- 常緑性・増え方（stauden.de）
@@ -298,10 +345,46 @@ def main():
             if re.search(r"do not need to be cut back", cu):
                 codes = ["不要"]
             r["切り戻し"] = "、".join(codes) + f"（MBG・{mlv}）" if codes else None
+        if rh:
+            f = rh["f"]
+            r["RHS 耐寒性"] = f.get("Hardiness")
+            fo = f.get("Foliage", "")
+            ev = "半常緑" if "Semi" in fo else "常緑" if "Evergreen" in fo else "落葉" if "Deciduous" in fo else None
+            if ev:
+                r["常緑性"] = ev + "（RHS）"
+            mo = f.get("Moisture", "").replace("–", "-")
+            if mo:
+                r["土壌水分"] = "湿潤寄り" if "Poorly-drained" in mo else "適湿" if "Moist but well-drained" in mo else "排水必須" if "Well-drained" in mo else r["土壌水分"]
+            if not r["株張り(cm)"] and f.get("Max Spread"):
+                mm = re.search(r"([\d.]+)-([\d.]+) metre", f["Max Spread"])
+                if mm:
+                    r["株張り(cm)"] = f"{round(float(mm[1]) * 100)}〜{round(float(mm[2]) * 100)}（RHS の幅）"
+            pd = (f.get("Pests", "") + " " + f.get("Diseases", "")).lower()
+            ps = [ja for en, ja in RHS_PEST if en in pd]
+            if ps:
+                r["病害虫"] = "、".join(dict.fromkeys(ps)) + "（RHS）"
+            elif "pest-free" in pd or "pest free" in pd:
+                r["病害虫"] = "特になし（RHS）"
+            pr = f.get("Pruning", "").lower()
+            codes = []
+            if re.search(r"after flowering|flowered stems|spent flower|deadhead|faded flower", pr):
+                codes.append("花後")
+            if re.search(r"end of the growing season|in autumn|dies back", pr):
+                codes.append("秋")
+            if re.search(r"late winter|early spring|in spring", pr):
+                codes.append("早春")
+            if "no pruning" in pr:
+                codes = ["不要"]
+            if codes:
+                r["切り戻し"] = "、".join(codes) + "（RHS）"
+            pg = f.get("Propagation", "").lower()
+            ways = [ja for en, ja in (("division", "株分け"), ("cutting", "挿し木"), ("seed", "実生")) if en in pg]
+            r["繁殖"] = "、".join(ways) + "（RHS）" if ways else None
+            used.add("RHS")
         r["品種ページのある文献"] = "、".join(cv_src) or "なし"
         r["使った文献"] = "、".join(sorted(used)) or None
         core = ["花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照", "USDA", "耐暑性", "蒸れ耐性", "西日耐性", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫",
-                "切り戻し", "切り花", "蜜源", "和名"]
+                "切り戻し", "繁殖", "切り花", "蜜源", "和名"]
         r["空欄の数"] = sum(1 for c in core if r[c] in (None, ""))
         r["_core"] = core
         rows.append(r)
