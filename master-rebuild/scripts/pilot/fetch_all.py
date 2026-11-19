@@ -63,7 +63,7 @@ def sdb(key, queries, want):
     for q in dict.fromkeys(queries):
         items = sdb_search(q)
         res["tries"].append({"q": q, "names": items[:40]})
-        hit = [i for i in items if want(i[1])]
+        hit = sorted((i for i in items if want(i[1])), key=lambda i: -int(want(i[1])))  # 品種名がぴったり一致する候補を先に
         if hit:
             res["pick"] = hit[0]
             code, t = get("https://www.stauden.de/staudendatenbank/api.php?" + urllib.parse.urlencode({"action": "plant", "relid": hit[0][0]}))
@@ -94,7 +94,7 @@ def mbg(key, queries, want):
     for q in dict.fromkeys(queries):
         items = mbg_search(q)
         res["tries"].append({"q": q, "names": items[:20]})
-        hit = [i for i in items if want(i[1])]
+        hit = sorted((i for i in items if want(i[1])), key=lambda i: -int(want(i[1])))  # 品種名がぴったり一致する候補を先に
         if hit:
             res["pick"] = hit[0]
             url = f"https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid={hit[0][0]}"
@@ -140,15 +140,22 @@ def ylist(key, q):
 
 
 # 属が分けられて、文献によって別の属名で載っているもの（アスターの仲間）
-GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "Galatella"]}
+GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "Galatella"],
+               "Persicaria": ["Persicaria", "Bistorta", "Koenigia", "Aconogonon", "Polygonum"]}
 SPECIES_ALIAS = {
  "Aster novae-angliae": ["Symphyotrichum novae-angliae"], "Aster novi-belgii": ["Symphyotrichum novi-belgii"],
  "Aster dumosus": ["Symphyotrichum dumosum"], "Aster cordifolius": ["Symphyotrichum cordifolium"],
  "Aster ericoides": ["Symphyotrichum ericoides"], "Aster divaricatus": ["Eurybia divaricata"],
  "Aster macrophyllus": ["Eurybia macrophylla"], "Aster umbellatus": ["Doellingeria umbellata"],
  "Aster frikartii": ["Aster x frikartii"],
+ "Persicaria amplexicaulis": ["Bistorta amplexicaulis", "Polygonum amplexicaule"], "Persicaria affinis": ["Bistorta affinis", "Polygonum affine"],
+ "Persicaria polymorpha": ["Koenigia x fennica", "Aconogonon speciosum", "Polygonum polymorphum"],
+ "Persicaria virginiana": ["Persicaria filiformis", "Polygonum virginianum"],
+ "Salvia superba": ["Salvia x superba"], "Salvia sylvestris": ["Salvia x sylvestris"],
 }
-GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra"}
+# 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
+CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],}
+GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra", "white"}
 
 
 def slug(s):
@@ -189,15 +196,23 @@ def main():
             quoted = norm(m.group(1)) if m else ""
             trade = norm(" ".join(re.findall(r"[A-Z]{2,}", re.sub(r"'.*'", "", n))))
             generic = norm(cv) in GENERIC
-            ok = quoted == norm(cv) or trade == norm(cv) or (not generic and quoted.startswith(norm(cv)))
+            cvs = [norm(cv)] + [norm(a) for a in CV_ALIAS.get(cv, [])]
+            exact = quoted in cvs or trade in cvs
+            ok = exact or (not generic and quoted.startswith(norm(cv)))
             if not ok:
                 return False
             words = [w for w in re.sub(r"'.*$", "", n).split()[1:] if re.fullmatch(r"[a-z-]+", w) and w not in ("x", "ssp", "subsp", "var")]
             eps = [ep] + [x.split()[-1] for x in SPECIES_ALIAS.get(it["species"], [])] if ep else []
-            return not generic or not ep or any(e in words for e in eps)
+            if generic and ep and not any(e in words for e in eps):
+                return False
+            # 品種名の前半だけが合っている候補（'Madeline' と 'Madeline Hill' など）は、種小名も一致するときだけ採る
+            if not exact and ep and words and not any(e in words for e in eps):
+                return False
+            return 2 if exact else 1
 
-        mbg(it["id"], [cv, f"{g} {cv}"], want)  # MBG の検索は品種名だけの方が当たる
-        sdb(it["id"], [f"{sp} {cv}", f"{g} {cv}", cv], want)
+        al = CV_ALIAS.get(cv, [])
+        mbg(it["id"], [cv, f"{g} {cv}"] + al, want)  # MBG の検索は品種名だけの方が当たる
+        sdb(it["id"], [f"{sp} {cv}", f"{g} {cv}", cv] + al, want)
         ncsu(it["id"], [slug(f"{sp} {cv}"), slug(f"{g} {cv}")])
         print(it["id"], it["学名"], flush=True)
     print("done")

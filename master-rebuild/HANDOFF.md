@@ -106,13 +106,42 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
   4. `python3 -I scripts/pilot/digest.py <raw> <digest.json>`
   5. `python3 -X utf8 scripts/pilot/assemble_pilot.py batch_02/input <digest.json> <raw> <出力.xlsx> batch_02`
   6. 下書きの耐暑性・蒸れ・西日の根拠を見て、当たり違い（同名の別品種）や判定のおかしいものを直す
-- 2026-11-19 の終わりに手順1〜5まで実行済み。下書きはユーザーのパソコンの `ClaudeWork/下書き_ヘメロカリス・カンパニュラ・カレックス55品種_1119.xlsx`。手順6（下書きの中身の確認）はまだ。耐暑性は55品種中46品種に値が入った
+- 2026-11-19 の終わりに手順1〜5まで実行済み（最初の下書きは `ClaudeWork/下書き_ヘメロカリス・カンパニュラ・カレックス55品種_1119.xlsx`）
+- 手順6（下書きの中身の確認）を実施（2026-11-19、ユーザーのパソコン）。直した下書きは `ClaudeWork/下書き_ヘメロカリス・カンパニュラ・カレックス55品種_1119b.xlsx`（前の `_1119.xlsx` は残してある）。生データは前のセッションの一時フォルダ（b2_raw・b2_digest.json）をそのまま使った
+  - 同名の別品種への当たり違いは見つからなかった（stauden.de・MBG・Walters・おぎはら・RHS の掲載名を全品種で照合）
+  - 直したこと（assemble_pilot.py）
+    1. MBG の「夜温が 70°F（約21℃）を下回らない夏には向かない」という文（Does not do well／perform well …）が耐暑性に反映されていなかった。弱 の言い回しに追加。カンパニュラの耐暑性は 中 → 弱 が7品種（C07・C10・C15・C17・C19・C20・C21）。おぎはらにページがある5品種（C09・C18・C22・C24・C25）は 強 のままで、食い違いの記録が「弱 相当」になった。C24 は「hot and humid summer climates … do not perform well」で蒸れ耐性 弱
+    2. カンパニュラでは、MBG の品種ページの文を「属の記述」としてほかの種に広げない（GENUS_MBG_SKIP）。ページがあるのはホタルブクロの仲間だけで、ラクティフローラ等に当てると推測になるため。C06・C08・C11・C12・C14・C16・C23 の耐暑性・西日耐性と、MBG・属 から入っていた USDA・土壌水分・病害虫・切り戻しは空欄に戻った
+    3. 「品種ページのある文献」の数え方：RHS の名前だけの登録（栽培の項目がないページ。X11・X12 など）と、Gaißmayer の種のページ（X08・X09）は数えない。種のページからは花色を取らない
+    4. 乾燥耐性の言い回しを追加（occasional drought → 中、must not be allowed to dry out → 弱。X04・X08・X09）。Walters の ™ の文字化けを直した
+  - 直した後の結果（55品種）：耐暑性 強 26・中 5・弱 8・空欄 16、蒸れ耐性 強 18・弱 2・空欄 35、西日耐性 ◎5・○24・△8・×3・空欄 15。品種のページがどの文献にもないのは11品種（C06・C14・C15・C16・M11・M12・M15・X06・X08・X11・X12）
+  - アスターと3属の試行を同じスクリプトで作り直して比べた：値の違いは「品種ページのある文献」の列だけ（RHS の名前だけの登録を数えなくなった分。アスター4品種、試行9品種）。ユーザーの手元の Excel は作り直していない
+  - ユーザーに見てもらうもの（要注意）：耐暑性 弱 の8品種（上の7品種と C13 パーシシフォリア 'モーハイミ'）、蒸れ耐性 弱 の2品種（C24、X07 'エバーゴールド'）、おぎはらとの食い違い6品種（C09・C18・C22・C24・C25・X07）
+  - ユーザーに聞くこと：おぎはらが同じ種の別品種を 強 としているホタルブクロ（punctata）の品種（C17・C19・C20・C21）を、MBG の種の記述どおり 弱 にするか、おぎはらの同種の品種に合わせるか
 - 気づいた点：カレックスの一部（ブキャナニー、'フロステッドカール'、'エバーゴールド'）は、おぎはらが耐寒性「約 -12℃」、Jelitto がゾーン6〜9 としている。商品「カレックス 'バーグレニーアイ'」はマスターの学名が Carex talbotii だが、RHS・Jelitto には Carex berggrenii がある。カレックス 'Kiwi'・'Blue Ridge' は Jelitto が発表元
-- その次の属の候補（在庫の多い順）：フロックス、ペルシカリア、サルビア、セダム、エキナセア、アスチルベ、ヒューケラ、ポテンティラ
+- シカゴ植物園の評価報告を追加（2026-11-19）：Plant Evaluation Notes 31 Bellflowers から8品種（C07・C08・C09・C12・C13・C22・C23・C24）の株幅と注意を batch_02/jelitto_cbg_data.py の CBG_V に入れた。'Sarastro' は試験で最高評価、'Moerheimii' は2年目の夏に根腐れで枯れた、という記録を「文献の注意」に出している。ヘメロカリスとカレックスの号はない
+
+## その次の3属：フロックス・ペルシカリア・サルビア（2026-11-19 に開始、作業中）
+- 入力は batch_03/input（52品種：F=フロックス19、R=ペルシカリア17、S=サルビア16。種のまとまり 14）。作り方：`python3 scripts/pilot/make_input.py <元のマスター.xlsx> batch_03/input Phlox=F Persicaria=R Salvia=S`（P は試作の ID で使っているので、フロックスは F、ペルシカリアは R）
+- fetch_all.py に足したもの：ペルシカリアの別の属名（Bistorta・Koenigia など。GENUS_ALIAS・SPECIES_ALIAS）、品種名の別の書き方（CV_ALIAS：May Night＝Mainacht、Queen Blue＝Blue Queen／Blaukönigin、Norah Leigh＝Nora Leigh、David Lavender＝David's Lavender）、品種名がぴったり一致する候補を先に採る（'David' が 'David's Lavender' に当たらないように）、'White' はありふれた品種名として種小名も照合
+- おぎはら植物園：batch_03/ogihara_data.py（27ページ、34品種に当てた）。図鑑の検索は curl でも読めた（やり方はそのファイルの冒頭）。ブラウザーは要らない
+- RHS：batch_03/rhs_ids.py（45品種。アプリ内のブラウザーで検索ページを順に開いて番号を拾い、候補のページを curl で読んで正名のページを選んだ）。RHS はアンプレクシカウリスとアフィニスを Bistorta に移している
+- シカゴ植物園：batch_03/jelitto_cbg_data.py の CBG_V（no35 宿根フロックス 5品種、no13 フロックス 2品種、no14 サルビア 3品種）。ペルシカリアの号はない。株幅が幅で書かれている報告のために、CBG_V の株幅は (下限, 上限) でも書けるようにした（assemble_pilot.py）
+- Gaißmayer・Jelitto：ユーザーのパソコンの Chrome（Claude in Chrome）で読んだ（2026-11-19）。batch_03/gaissmayer_data.py（21ページ、26品種に当てた）、batch_03/jelitto_cbg_data.py の JELITTO（11ページ）。探し方は各ファイルの冒頭
+  - 【ユーザーの指示】この2サイトは、次からも必ず Chrome で読む。アプリ内のブラウザーでは Cloudflare の確認画面から進まず、ユーザーが押しても通らなかった。Chrome では確認画面なしで開けた
+  - Chrome の JavaScript の結果は約1,000字で切れ、URL の ? 以降を含む文字列は遮断される。1ページごとに「表の項目」と「本文」を短く切って返すと読める
+- 下書きまで完了（2026-11-19）：`ClaudeWork/下書き_フロックス・ペルシカリア・サルビア52品種_1119.xlsx`。組み立ては `python3 -X utf8 scripts/pilot/assemble_pilot.py batch_03/input <digest> <raw> <出力.xlsx> batch_03`
+  - 結果（52品種）：耐暑性 強 26・中 8・空欄 18（弱はなし）、蒸れ耐性 強 6・中 15・空欄 31、西日耐性 ◎12・○20・△1・×4・空欄 15。品種のページがどの文献にもないのは6品種（F04・F06・F10・F18・R02・R07）。学名の検討は32品種
+  - 宿根フロックスの蒸れ耐性 中 は「風通しを良くするとうどんこ病が減る」という記述から（アスターと同じ）。宿根フロックスの耐暑性は、おぎはらにページのある2品種（'Blue Paradise'・'David'）だけ 強、ほかは空欄（欧米の文献に暑さの記述がない）
+  - 根拠を確認して直したこと：(1) S07 'Madeline' の MBG がローズマリーの 'Madeline Hill' に当たっていた → fetch_all.py で、品種名の前半だけが合う候補は種小名も一致するときだけ採るようにした (2) S15 'Rhapsody in Blue' に、おぎはらのプラテンシスの同名品種を当てていた → 別の品種と見て外した（stauden.de・MBG に nemorosa／× sylvestris の 'Rhapsody in Blue' がある） (3) ペルシカリアも GENUS_MBG_SKIP に追加（MBG のアンプレクシカウリスの文を、アフィニスやミクロセファラに広げない）
+  - ユーザーに伝えること：'Red Dragon' は Gaißmayer が Z8・「冬越ししない宿根草」の扱い（冬は落ち葉などで覆う、春植えを勧める）、RHS は H4。'Blue Paradise' は Gaißmayer が「涼しい地域で特によく育つことが多い」、シカゴ植物園が「葉の斑点病で下葉が落ちやすい」。斑入りの宿根フロックス（'Harlequin'・'Norah Leigh'）はシカゴ植物園で晩夏に葉焼け
+  - ユーザーに聞くこと：(a) おぎはらが同じ種の別品種をどれも 強 としているとき、載っていない同種の品種（ホタルブクロ4品種、アンプレクシカウリス6品種）にも同じ値を使うか (b) S15 はプラテンシスの 'Rhapsody in Blue'（バレエシリーズ）か、× sylvestris の同名品種か (c) S12 'Queen Blue' は 'Blue Queen'（'Blaukönigin'）でよいか
+- 名前で気づいた点（学名の検討に出る）：'Laura' は RHS では 'Uspekh' の別名（シカゴ植物園は別の品種として両方載せている）／'Red Riding Hood' は RHS では 'Miss Mary' の別名／'Merleau' の3品種は RHS では Salvia × digenea（マスターは nemorosa）／'Queen Blue' は 'Blue Queen'（'Blaukönigin'）の語順違いと見て当てた／'Rhapsody in Blue' はおぎはらでは pratensis の品種（マスターは × sylvestris）／'Brushstrokes' は RHS では Persicaria filiformis／'Silver Dragon' は RHS では種小名なし／ポリモーファは RHS ではシノニム扱い
+- その次の属の候補（在庫の多い順）：セダム、エキナセア、アスチルベ、ヒューケラ、ポテンティラ
 
 ## 新しいセッションで続けるとき
 - このファイルと DECISIONS.md・trial/RULES.md を読めば、決まったことと手順が分かる
-- 文献ごとの読める場所：stauden.de・MBG・NC State・YList・Walters・RHS の詳細ページ・シカゴ植物園の PDF は curl。RHS の検索とおぎはら植物園はブラウザー。Gaißmayer と Jelitto はユーザーのパソコンの Chrome（Claude in Chrome）
+- 文献ごとの読める場所：stauden.de・MBG・NC State・YList・Walters・RHS の詳細ページ・シカゴ植物園の PDF・おぎはら植物園は curl。RHS の検索はブラウザー（アプリ内のブラウザーでよい）。Gaißmayer と Jelitto はユーザーのパソコンの Chrome（Claude in Chrome）
 - ユーザーはスマホで見ることがある。確認ページは非公開の Artifact で作り、チェックリストは選ぶと「1A、2B…」の文ができる形にして、チャットに貼ってもらう
 - ユーザーは「確認は全部終わってからまとめて見る」と回答済み。判断が要ることだけ聞く
 

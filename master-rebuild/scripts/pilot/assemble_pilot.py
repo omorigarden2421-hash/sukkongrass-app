@@ -43,14 +43,20 @@ def sentences(t):
 
 
 # ---------- 言い回しの照合（RULES.md の heat / muggy / west_sun） ----------
-P_HEAT_WEAK = r"dislike[s]? (the )?(hot|heat)|intolerant of the heat|not recommended for growing south|require[s]? a cool|prefer[s]? cool|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat"
+P_HEAT_WEAK = r"dislike[s]? (the )?(hot|heat)|intolerant of the heat|not recommended for growing south|require[s]? a cool|prefer[s]? cool|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)"
 P_HEAT_MID = r"afternoon shade|decline[s]? .*hot summer|interrupts? in the heat|foliage may (decline|scorch|burn)|scorch|in hot summer climates|best in cool northern summer|full sun is best in cool|leaf burn|in the south it is best"
 P_HEAT_STRONG = r"tolerates? (the )?(hot|heat)|heat tolerant|tolerant of [^.]*heat|tolerates hot and humid"
-P_MUGGY_WEAK = r"dislike[s]? (the )?hot and humid|intolerant of the heat and humidity|dislike[s]? .*humidity|melt[s]? out|not .*tolerant of .*humid"
+P_MUGGY_WEAK = r"dislike[s]? (the )?hot and humid|intolerant of the heat and humidity|dislike[s]? .*humidity|melt[s]? out|not .*tolerant of .*humid|do(es)? not (do|perform) well in [^.]*hot and humid"
 P_MUGGY_MID = r"(mildew|rust|leaf spot)[^.]*humid|humid[^.]*(mildew|rust|leaf spot|flop)|good air circulation|prefer[s]? .*dry air"
 P_MUGGY_STRONG = r"tolerates? hot and humid|tolerant of .*humidity|tolerates? .*heat and humidity"
 P_AFTERNOON = r"afternoon shade|afternoon sun|scorch|leaf burn|protected from hot sun"
 
+
+# MBG の品種ページの文を「属の記述」として同じ属のほかの種に広げない属。
+# カンパニュラは MBG にページがあるのがホタルブクロの仲間（punctata・takesimana とその交配種）だけで、
+# その文をラクティフローラやポルテンシュラギアナなど性質の違う種に当てると、推測で埋めることになるため。
+# ペルシカリアも同じ（MBG の品種ページはアンプレクシカウリスだけで、アフィニスやミクロセファラに当てない）。
+GENUS_MBG_SKIP = {"Campanula", "Persicaria"}
 
 # 学名で、ユーザーが個別に決めたもの（2026-11-19 のチェックリスト）
 NAME_OVERRIDE = {
@@ -119,7 +125,7 @@ def walters(k):
     except StopIteration:
         return None
     r["zone"] = lines[i].split(":")[1].strip()
-    r["name"] = lines[i - 2] if i >= 2 else ""
+    r["name"] = (lines[i - 2] if i >= 2 else "").replace("â„¢", "™").replace("Â®", "®")
     r["text"] = lines[i + 2] if "Plant number" in lines[i + 1] else lines[i + 1]
     labels = ["Sun Exposure", "Soil Type", "Soil pH", "Soil Moisture", "Care Level", "Flower Colour", "Blooming Time", "Foliage Color",
               "Plant Uses & Characteristics", "Flower Head Size", "Height", "Spread", "Foot Traffic", "Growth Rate", "Print this Plant"]
@@ -194,7 +200,7 @@ def main():
         for it in ITEMS:
             if it["属"] == g and "mbg" in D.get(it["id"], {}):
                 c[D[it["id"]]["mbg"]["f"].get("Culture", "")[:80]] += 1
-        if c and c.most_common(1)[0][1] >= 0.7 * sum(c.values()):  # 属のどの品種ページもほぼ同じ文のときだけ、属の記述として使う
+        if g not in GENUS_MBG_SKIP and c and c.most_common(1)[0][1] >= 0.7 * sum(c.values()):  # 属のどの品種ページもほぼ同じ文のときだけ、属の記述として使う
             top = c.most_common(1)[0][0]
             for it in ITEMS:
                 if it["属"] == g and D.get(it["id"], {}).get("mbg", {}).get("f", {}).get("Culture", "")[:80] == top:
@@ -214,12 +220,13 @@ def main():
         w = walters(k)
         og = OGI.get(k)
         ga = GA.GAISS.get(k)
+        ga_own = bool(ga) and (ga[2] == "cultivar" or not it.get("品種名"))  # 種のページを品種に当てた分は、品種ページに数えず花色も取らない
         rh = rhs(k)
         r = dict.fromkeys(cols)
         r.update({"ID": k, "商品番号": it["商品番号"], "植物名": it["植物名"], "学名（マスター）": it["学名"]})
         names = [f"{lab}: {x['name']}" for lab, x in (("stauden.de", own.get("sdb")), ("MBG", own.get("mbg")), ("Walters", w)) if x]
         if ga:
-            names.append("Gaißmayer: " + ga[1])
+            names.append("Gaißmayer: " + ga[1] + ("" if ga_own else "（種のページ）"))
         if og:
             names.append("おぎはら: " + og[2])
         r["文献での表記"] = " ／ ".join(names) or None
@@ -229,9 +236,11 @@ def main():
             r["和名"] = (std or y["rows"])[0]["ja"] + "（種）"
         used, cv_src = set(), []
         if rh:
-            cv_src.append("RHS")
+            # 名前だけの登録（栽培・色の項目が1つもないページ）は品種ページに数えない
+            if set(k2 for k2, v2 in rh["f"].items() if v2) - {"Time to Maturity", "Family", "Native to GB/Ireland", "Genus", "Name Status", "Plant Range"}:
+                cv_src.append("RHS")
             r["学名（RHS）"] = rh["name"] + (f"（{rh['memo']}）" if rh["memo"] else "") + (f" [{rh['f']['Name Status']}]" if rh["f"].get("Name Status") else "")
-        for lab, x in (("stauden.de", own.get("sdb")), ("MBG", own.get("mbg")), ("Walters", w), ("Gaißmayer", ga), ("おぎはら", og and og[3] == "cultivar")):
+        for lab, x in (("stauden.de", own.get("sdb")), ("MBG", own.get("mbg")), ("Walters", w), ("Gaißmayer", ga_own), ("おぎはら", og and og[3] == "cultivar")):
             if x:
                 cv_src.append(lab)
         # --- 品種のページからだけ取る項目
@@ -244,7 +253,7 @@ def main():
             lf = [LEAF_W[c] for c in w["f"].get("Foliage Color", []) if c in LEAF_W]
             r["葉色（分類）"] = "斑入り" if "斑入り" in lf else (lf[0] if lf else None)
             used.add("Walters")
-        if ga and not r["花色（文献の語）"]:
+        if ga_own and not r["花色（文献の語）"]:
             r["花色（文献の語）"] = ga[3]
             used.add("Gaißmayer")
         # --- 日照・USDA・水分（品種 → 種 → 属）
@@ -293,9 +302,9 @@ def main():
         alltext = " ".join(x for _, _, x in texts).lower()
         if m and "Drought" in m["f"].get("Tolerate", ""):
             drought = "強"
-        elif re.search(r"some drought|tolerance for (some )?dry", alltext) and not re.search(r"intolerant of dry", alltext):
+        elif re.search(r"some drought|occasional drought|tolerance for (some )?dry", alltext) and not re.search(r"intolerant of dry", alltext):
             drought = "中"
-        elif re.search(r"intolerant of dry|never be allowed to dry out|should not be allowed to dry", alltext):
+        elif re.search(r"intolerant of dry|never be allowed to dry out|(should|must) not be allowed to dry", alltext):
             drought = "弱"
         elif re.search(r"tolerates drought|drought tolerant", alltext) or (w and "Drought Tolerant" in w["f"].get("Plant Uses & Characteristics", [])):
             drought = "強"
@@ -424,7 +433,8 @@ def main():
         cb = JC.CBG.get(k) or JC.CBG_V.get(k)
         if cb:
             if cb[3] and not (w and w["f"].get("Spread")):
-                r["株張り(cm)"] = f"{round(cb[3] * 2.54)}（シカゴ植物園の試験での株幅）"
+                wd = cb[3] if isinstance(cb[3], (tuple, list)) else (cb[3],)  # 幅で書かれている報告は (下限, 上限) のインチ
+                r["株張り(cm)"] = "〜".join(str(round(x * 2.54)) for x in wd) + "（シカゴ植物園の試験での株幅）"
             if cb[4] and cb[4] != "none observed":
                 r["紅葉"] = "秋に" + "・".join(JC.AUTUMN.get(c.strip(), c.strip()) for c in cb[4].split(",")) + "（シカゴ植物園）"
             if len(cb) > 7 and cb[7]:

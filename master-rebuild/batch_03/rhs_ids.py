@@ -1,0 +1,40 @@
+# RHS（s01）の植物ページの番号: フロックス・ペルシカリア・サルビア。探し方は scripts/pilot/rhs_ids.py と同じ（2026-11-19。アプリ内のブラウザーで検索ページを順に開いた）。
+# RHS はペルシカリアの多くを Bistorta に移している（amplexicaulis・affinis）。新しい属名のページ（正名）を採った。古い名前のページも中身は同じ。
+# シノニムのページしか分からないものは、そのページの番号を入れてメモに書いた（学名は自動では変えない）。
+RHS = {
+ "F02": (164126, "Phlox divaricata 'Montrose Tricolor'", "RHS ではシノニム扱い（'Montrose' と同じ品種としている）。栽培の項目はなし"),
+ "F03": (166316, "Phlox divaricata 'Plum Perfect'", ""), "F05": (50575, "Phlox paniculata 'Blue Paradise'", ""),
+ "F07": (271617, "Phlox paniculata 'David's Lavender'", "マスターは 'David Lavender'"), "F08": (127975, "Phlox paniculata 'David'", ""),
+ "F09": (79413, "Phlox paniculata 'Harlequin' (v)", ""), "F10": (265989, "Phlox paniculata 'Junior Bouquet'", ""),
+ "F11": (270753, "Phlox paniculata 'Junior Dance'", ""), "F12": (210903, "Phlox paniculata 'Junior Dream'", ""),
+ "F13": (210904, "Phlox 'Junior Surprise'", ""),
+ "F14": (184228, "Phlox paniculata 'Uspekh'", "RHS では 'Laura' は 'Uspekh' のシノニム（同じ品種の別名）"),
+ "F15": (81181, "Phlox paniculata 'Norah Leigh' (v)", ""),
+ "F16": (180317, "Phlox paniculata 'Red Riding Hood'", "RHS ではシノニム扱い（正名は 'Miss Mary'）"),
+ "F17": (325609, "Phlox paniculata 'Shockwave' (v)", ""), "F19": (48786, "Phlox pilosa", ""),
+ "R01": (204189, "Bistorta affinis", ""), "R03": (513808, "Bistorta amplexicaulis 'Alba'", ""),
+ "R04": (389141, "Bistorta amplexicaulis 'Atrosanguinea'", ""), "R05": (513820, "Bistorta amplexicaulis 'Blackfield'", ""),
+ "R06": (389137, "Bistorta amplexicaulis 'Dikke Floskes'", ""), "R08": (513837, "Bistorta amplexicaulis 'Firetail'", ""),
+ "R09": (513838, "Bistorta amplexicaulis 'Golden Arrow' (v)", ""), "R10": (513843, "Bistorta amplexicaulis 'JS Caliente'", ""),
+ "R11": (513804, "Bistorta amplexicaulis [Orange Field] ('Orangofield')", "品種名は 'Orangofield'、Orange Field は流通名"),
+ "R12": (513855, "Bistorta amplexicaulis 'Rosea'", ""),
+ "R13": (513806, "Bistorta amplexicaulis [Taurus] ('Blotau')", "品種名は 'Blotau'、Taurus は流通名"),
+ "R14": (152665, "Persicaria microcephala 'Red Dragon'", ""),
+ "R15": (277086, "Persicaria 'Silver Dragon'", "RHS は種小名なし（マスターは microcephala）"),
+ "R16": (111524, "Persicaria polymorpha", "RHS ではシノニム扱い（Koenigia alpina の仲間としている）。正名は要確認"),
+ "R17": (514448, "Persicaria filiformis 'Brushstrokes'", "RHS は Persicaria filiformis の品種としている（マスターは virginiana）"),
+ "S01": (194596, "Salvia nemorosa 'Caradonna'", ""),
+ "S02": (523850, "Salvia × digenea 'Merleau'", "RHS は Salvia × digenea 'Merleau'（別名 'Merleau Blue'）としている。マスターは nemorosa"),
+ "S03": (523845, "Salvia × digenea 'Merleau White'", "RHS は Salvia × digenea としている。マスターは nemorosa"),
+ "S04": (523748, "Salvia × digenea 'Merleau Rose'", "RHS は Salvia × digenea としている。マスターは nemorosa"),
+ "S05": (50132, "Salvia nemorosa 'Rosenwein'", ""), "S06": (16356, "Salvia officinalis", ""),
+ "S07": (300264, "Salvia pratensis 'Madeline'", "RHS ではシノニム扱い（正名は要確認）"),
+ "S08": (235376, "Salvia pratensis 'Rose Rhapsody' (Ballet Series)", ""), "S09": (351002, "Salvia pratensis 'Sky Dance' (Ballet Series)", ""),
+ "S10": (273639, "Salvia pratensis 'Sweet Esmeralda' (Ballet Series)", ""), "S11": (273637, "Salvia pratensis 'Twilight Serenade' (Ballet Series)", ""),
+ "S12": (105652, "Salvia × superba [Blue Queen]", "マスターは 'Queen Blue'。RHS では Blue Queen は 'Blaukönigin' の流通名（シノニム扱い）"),
+ "S13": (374263, "Salvia nemorosa 'Violet Queen'", "RHS は nemorosa の品種としている（マスターは × superba）"),
+ "S14": (116997, "Salvia × sylvestris 'Mainacht'", "マスターは 'May Night'（英名）"),
+ "S16": (43562, "Salvia verticillata 'Purple Rain'", ""),
+}
+# 見つからなかったもの: F01 divaricata 'Clouds of Perfume'、F04 divaricata 'White'、F06 paniculata 'Blue Candy'、F18 paniculata 'Vin Rouge'、
+#   R02 affinis 'Border Jewel'、R07 amplexicaulis 'Elegance Pink'（'Pink Elegance' でもなし）、S15 'Rhapsody in Blue'（サルビアでは出ない）
