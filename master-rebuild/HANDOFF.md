@@ -96,6 +96,26 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - 出力はユーザーのパソコンの `ClaudeWork/下書き_アスター23品種_1119.xlsx`
 - 次の属の候補（在庫の多い順）：ヘメロカリス、カンパニュラ、カレックス。ユーザーは「確認は全部終わってからまとめて」と回答済み
 
+## 次の3属：ヘメロカリス・カンパニュラ・カレックス（2026-11-19 に開始、作業中）
+- 入力は batch_02/input（55品種：M=ヘメロカリス17、C=カンパニュラ25、X=カレックス13。種のまとまり 22）。作り方：`python3 scripts/pilot/make_input.py <元のマスター.xlsx> batch_02/input Hemerocallis=M Campanula=C Carex=X`
+- ブラウザーで読む分は済み。データは batch_02/（rhs_ids.py 50品種、ogihara_data.py 10品種、gaissmayer_data.py 7ページ、jelitto_cbg_data.py 9ページ）。シカゴ植物園の評価報告はこの3属では探していない
+- 残りの手順（このとおり実行すれば下書きができる。<raw> は生データの保存先で、リポジトリの外の好きなフォルダでよい。消えていたら取り直せる）
+  1. `python3 -I scripts/pilot/fetch_all.py batch_02/input <raw>`（stauden.de・MBG・NC State・YList。取得済みは飛ばす）
+  2. `python3 -I scripts/pilot/fetch_walters.py batch_02/input <raw>`
+  3. `python3 -I scripts/pilot/fetch_rhs.py batch_02 <raw>`（2026-11-19 に50ページ取得済み）
+  4. `python3 -I scripts/pilot/digest.py <raw> <digest.json>`
+  5. `python3 -X utf8 scripts/pilot/assemble_pilot.py batch_02/input <digest.json> <raw> <出力.xlsx> batch_02`
+  6. 下書きの耐暑性・蒸れ・西日の根拠を見て、当たり違い（同名の別品種）や判定のおかしいものを直す
+- 2026-11-19 の終わりに手順1〜5まで実行済み。下書きはユーザーのパソコンの `ClaudeWork/下書き_ヘメロカリス・カンパニュラ・カレックス55品種_1119.xlsx`。手順6（下書きの中身の確認）はまだ。耐暑性は55品種中46品種に値が入った
+- 気づいた点：カレックスの一部（ブキャナニー、'フロステッドカール'、'エバーゴールド'）は、おぎはらが耐寒性「約 -12℃」、Jelitto がゾーン6〜9 としている。商品「カレックス 'バーグレニーアイ'」はマスターの学名が Carex talbotii だが、RHS・Jelitto には Carex berggrenii がある。カレックス 'Kiwi'・'Blue Ridge' は Jelitto が発表元
+- その次の属の候補（在庫の多い順）：フロックス、ペルシカリア、サルビア、セダム、エキナセア、アスチルベ、ヒューケラ、ポテンティラ
+
+## 新しいセッションで続けるとき
+- このファイルと DECISIONS.md・trial/RULES.md を読めば、決まったことと手順が分かる
+- 文献ごとの読める場所：stauden.de・MBG・NC State・YList・Walters・RHS の詳細ページ・シカゴ植物園の PDF は curl。RHS の検索とおぎはら植物園はブラウザー。Gaißmayer と Jelitto はユーザーのパソコンの Chrome（Claude in Chrome）
+- ユーザーはスマホで見ることがある。確認ページは非公開の Artifact で作り、チェックリストは選ぶと「1A、2B…」の文ができる形にして、チャットに貼ってもらう
+- ユーザーは「確認は全部終わってからまとめて見る」と回答済み。判断が要ることだけ聞く
+
 ## 注意
 - 文献にない値は推測で埋めない（空欄）。値ごとに文献ID・原文・URL・確認日を残す
 - 文献値・自社の実測値・設計上の推奨値は分けて管理する

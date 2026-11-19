@@ -540,7 +540,12 @@ def main():
     core = rows[0]["_core"]
     print("品種", len(rows))
     print("項目ごとの空欄:", {c: sum(1 for r in rows if r[c] in (None, "")) for c in core})
-    print("属ごとの平均空欄:", {g: round(sum(r["空欄の数"] for r in rows if r["ID"][0] == g[0]) / sum(1 for r in rows if r["ID"][0] == g[0]), 1) for g in sorted({it["属"] for it in ITEMS})})
+    gen = {it["id"]: it["属"] for it in ITEMS}
+    avg = {}
+    for g in sorted(set(gen.values())):
+        v = [r["空欄の数"] for r in rows if gen[r["ID"]] == g]
+        avg[g] = round(sum(v) / len(v), 1)
+    print("属ごとの平均空欄:", avg)
     print("耐暑", Counter(str(r["耐暑性"]) for r in rows), "蒸れ", Counter(str(r["蒸れ耐性"]) for r in rows), "西日", Counter(str(r["西日耐性"]) for r in rows))
     print("品種ページのある文献がない:", [r["ID"] for r in rows if r["品種ページのある文献"] == "なし"])
     json.dump([{c: r[c] for c in cols} for r in rows], open(OUT[:-5] + ".json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)

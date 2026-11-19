@@ -1,0 +1,27 @@
+# RHS（s01）の植物ページの番号: カンパニュラ・ヘメロカリス・カレックス。探し方は scripts/pilot/rhs_ids.py と同じ（2026-11-19）。
+RHS = {
+ "C01": (326371, "Campanula glomerata [Bellefleur Blue] (Bellefleur Series)", ""), "C02": (345787, "Campanula glomerata [Bellefleur White] (Bellefleur Series)", ""),
+ "C03": (251996, "Campanula glomerata 'Emerald'", ""), "C04": (309953, "Campanula glomerata 'Freya'", ""),
+ "C05": (335802, "Campanula glomerata [Genti Twisterbell] ('Allgentitwist')", "品種名は 'Allgentitwist'、Genti Twisterbell は流通名"),
+ "C06": (46962, "Campanula × haylodgensis 'Warley White' (d)", ""), "C07": (85551, "Campanula 'Kent Belle'", ""),
+ "C08": (166319, "Campanula 'Samantha'", ""), "C09": (124342, "Campanula 'Sarastro'", ""), "C10": (281842, "Campanula 'Summertime Blues'", ""),
+ "C11": (316828, "Campanula lactiflora 'Border Blues'", "マスターは 'Border Blue'"), "C12": (57221, "Campanula lactiflora 'White Pouffe'", ""),
+ "C13": (51255, "Campanula persicifolia 'Moerheimii' (d)", ""), "C14": (384417, "Campanula portenschlagiana 'Blue Magic'", ""),
+ "C16": (300834, "Campanula × pulloides 'Jelly Bells'", ""), "C18": (166317, "Campanula punctata f. rubriflora 'Cherry Bells'", ""),
+ "C19": (227788, "Campanula 'Flashing Lights'", ""), "C20": (180962, "Campanula punctata 'Hot Lips'", ""),
+ "C21": (181521, "Campanula punctata 'Pantaloons' (d)", ""), "C22": (168464, "Campanula punctata 'Wedding Bells'", ""),
+ "C23": (93869, "Campanula takesimana", ""), "C24": (166326, "Campanula takesimana 'Beautiful Trust'", ""), "C25": (255342, "Campanula 'Pink Octopus'", ""),
+ "M01": (87976, "Hemerocallis 'Always Afternoon'", ""), "M02": (226445, "Hemerocallis 'Big Time Happy'", ""), "M03": (314509, "Hemerocallis 'Black Arrowhead'", ""),
+ "M04": (73642, "Hemerocallis 'Chicago Apache'", ""), "M05": (269671, "Hemerocallis 'Chocolate Candy'", ""), "M06": (85099, "Hemerocallis 'Christmas Is'", ""),
+ "M07": (63634, "Hemerocallis 'Crimson Pirate'", ""), "M08": (168471, "Hemerocallis 'Final Touch'", ""), "M09": (193319, "Hemerocallis 'Fooled Me'", ""),
+ "M10": (52233, "Hemerocallis 'Hyperion'", ""), "M11": (325378, "Hemerocallis 'Little Music Maker' (d)", ""), "M13": (124803, "Hemerocallis 'Night Beacon'", ""),
+ "M14": (283496, "Hemerocallis 'Pawn of Prophecy'", ""), "M15": (297993, "Hemerocallis 'Sherwood Gladiator'", ""),
+ "M16": (109182, "Hemerocallis 'Siloam David Kirchhoff'", ""), "M17": (43382, "Hemerocallis 'Stella de Oro'", ""),
+ "X01": (3074, "Carex buchananii", ""), "X02": (139091, "Carex comans 'Frosted Curls'", ""), "X03": (46499, "Carex dipsacea", ""),
+ "X04": (128685, "Carex divulsa", ""), "X05": (316665, "Carex flagellifera 'Kiwi'", ""), "X07": (45191, "Carex oshimensis 'Evergold' (v)", ""),
+ "X08": (168830, "Carex muskingumensis 'Ice Fountains' (v)", ""), "X09": (152201, "Carex muskingumensis 'Little Midge'", ""),
+ "X11": (175460, "Carex shortiana", ""),
+ "X12": (81357, "Carex berggrenii", "マスターの学名は Carex talbotii、商品名は 'バーグレニーアイ'。どちらが正しいか要確認"),
+ "X13": (83677, "Carex testacea", ""),
+}
+# 見つからなかったもの: C15 poscharskyana 'Alpen Blue'、C17 punctata 'Bowl of Cherries'、M12 'New Quest'、X06 'Bad Hair Days'、X10 plantaginea 'Blue Ridge'
