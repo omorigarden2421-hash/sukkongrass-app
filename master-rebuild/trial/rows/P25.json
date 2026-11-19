@@ -156,7 +156,7 @@
     "s06"
    ],
    "level": "species",
-   "note": "prefers cool growing conditions（冷涼な条件を好む）の明記。種 H. serrata の記述。MBG（s02）には暑さの記述なし。USDA上限から決めた値ではないので変更なし"
+   "note": "耐暑: 涼しい生育条件を好む（NC State、種）。蒸れの記述なし。西日: 暖かい地域では強い日差しを避けないと葉と花が早く色あせ、焼ける"
   },
   "heat_note": {
    "value": "冷涼な条件を好む。暖地では強い日差しを避けないと葉や花が早く色あせたり葉焼けしたりする。",
@@ -340,6 +340,19 @@
    ],
    "level": "species",
    "note": "Attracts: Bees（種 H. serrata）"
+  },
+  "muggy": {
+   "value": null,
+   "note": "耐暑: 涼しい生育条件を好む（NC State、種）。蒸れの記述なし。西日: 暖かい地域では強い日差しを避けないと葉と花が早く色あせ、焼ける"
+  },
+  "west_sun": {
+   "value": "×",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "耐暑: 涼しい生育条件を好む（NC State、種）。蒸れの記述なし。西日: 暖かい地域では強い日差しを避けないと葉と花が早く色あせ、焼ける"
   }
  },
  "conflicts": [
@@ -383,6 +396,22 @@
    "old": null,
    "new": "中",
    "reason": "MBG（s02、種）の Water: Medium を RULES の「medium moisture→中」に当てはめた。以前は記述なしで null"
+  },
+  {
+   "field": "muggy",
+   "old": null,
+   "new": null,
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑: 涼しい生育条件を好む（NC State、種）。蒸れの記述なし。西日: 暖かい地域では強い日差しを避けないと葉と花が早く色あせ、焼ける",
+   "by": "heat",
+   "prev": null
+  },
+  {
+   "field": "west_sun",
+   "old": null,
+   "new": "×",
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑: 涼しい生育条件を好む（NC State、種）。蒸れの記述なし。西日: 暖かい地域では強い日差しを避けないと葉と花が早く色あせ、焼ける",
+   "by": "heat",
+   "prev": null
   }
  ]
 }

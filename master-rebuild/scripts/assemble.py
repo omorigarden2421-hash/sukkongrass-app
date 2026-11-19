@@ -84,7 +84,7 @@ LIT = {'旧学名・別名': 'synonyms', '花色（分類）': 'flower_color_cla
        '葉の特徴': 'foliage_features', '紅葉・冬の葉': 'seasonal_foliage', '香り': 'fragrance', '成株シルエット': 'silhouette',
        '日照': 'sun', 'USDA 下限': 'usda_min', 'USDA 上限': 'usda_max', 'RHS 耐寒性': 'rhs_h', '耐暑性': 'heat',
        '暑さ・蒸れの注意': 'heat_note', '乾燥耐性': 'drought', '土壌水分': 'soil_moisture', 'pH・土質': 'soil_ph_type',
-       '耐潮性': 'salt', '常緑性': 'evergreen_warm', '和名': 'common_name_ja', '原産地': 'native_range',
+       '耐潮性': 'salt', '蒸れ耐性': 'muggy', '西日耐性': 'west_sun', '常緑性': 'evergreen_warm', '和名': 'common_name_ja', '原産地': 'native_range',
        '増え方': 'spread_modes', 'こぼれ種の量(0-3)': 'self_seed_level', '地下茎で広がる程度(0-3)': 'rhizome_level',
        '混植適性': 'mixing', '広がりすぎの注意': 'invasive_note', '毒性': 'toxicity', '主な病害虫': 'pests',
        '管理タイプ': 'management_type', '切り戻しの方法': 'pruning', '株分けの間隔': 'division_interval',
@@ -96,7 +96,7 @@ for c in ['商品番号', '植物名', '流通名・別名', '耐寒性', '花�
 for c in ['属', '種小名', '品種名', '管理難易度', '切り戻し時期（広尾町）', '切り戻し時期（関東）', '景観構成用途', '機能用途タグ', 'デザイン系タグ']:
     HOW[c] = '自動'
 HOW['科名'] = '文献（Kew）'; HOW['外来種リスト'] = '文献（環境省）'; HOW['和名'] = '文献（YList）'; HOW['常緑性'] = '文献（温暖地の値）'
-HOW['蒸れ耐性'] = '保留（ルール待ち）'; HOW['西日耐性'] = '保留（ルール待ち）'
+HOW['耐暑性'] = '文献（判定）'; HOW['蒸れ耐性'] = '文献（判定）'; HOW['西日耐性'] = '文献（判定。組み合わせ）'
 
 def j(x):
     if x is None: return None

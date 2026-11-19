@@ -151,7 +151,7 @@
   },
   "heat": {
    "value": null,
-   "note": "暑さの記述なし"
+   "note": "暑さ・蒸れ・午後の日差しの記述なし。目安（値には入れていない）: 耐暑性は 中 の目安（stauden.de: 涼しい所を好む。コーカサス原産、USDA 上限 9）。乾燥には強い"
   },
   "heat_note": {
    "value": null,
@@ -333,6 +333,14 @@
    ],
    "level": "species",
    "note": "attracting bees, butterflies"
+  },
+  "muggy": {
+   "value": null,
+   "note": "暑さ・蒸れ・午後の日差しの記述なし。目安（値には入れていない）: 耐暑性は 中 の目安（stauden.de: 涼しい所を好む。コーカサス原産、USDA 上限 9）。乾燥には強い"
+  },
+  "west_sun": {
+   "value": null,
+   "note": "暑さ・蒸れ・午後の日差しの記述なし。目安（値には入れていない）: 耐暑性は 中 の目安（stauden.de: 涼しい所を好む。コーカサス原産、USDA 上限 9）。乾燥には強い"
   }
  },
  "conflicts": [
@@ -416,6 +424,22 @@
    "old": "中",
    "new": null,
    "reason": "以前は USDA上限から決めていた。暑さの記述がなく（s02 に該当なし、s18 の exposure だけでは決めない）空欄に"
+  },
+  {
+   "field": "muggy",
+   "old": null,
+   "new": null,
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 暑さ・蒸れ・午後の日差しの記述なし",
+   "by": "heat",
+   "prev": null
+  },
+  {
+   "field": "west_sun",
+   "old": null,
+   "new": null,
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 暑さ・蒸れ・午後の日差しの記述なし",
+   "by": "heat",
+   "prev": null
   }
  ]
 }

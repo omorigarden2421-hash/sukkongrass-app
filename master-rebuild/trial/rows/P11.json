@@ -145,7 +145,7 @@
     "s02"
    ],
    "level": "cultivar",
-   "note": "MBG tolerant of summer heat and humidity"
+   "note": "耐暑・蒸れ: 夏の暑さと湿気に耐える（MBG）。西日: 日なたで育つが、乾燥耐性が 中 なので ○"
   },
   "heat_note": {
    "value": "夏の暑さと湿気に耐える。乾燥が続くときはたっぷり水をやると葉がきれいに保てる。",
@@ -354,6 +354,24 @@
    ],
    "level": "cultivar",
    "note": "Attracts Butterflies, Bee Friendly"
+  },
+  "muggy": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "耐暑・蒸れ: 夏の暑さと湿気に耐える（MBG）。西日: 日なたで育つが、乾燥耐性が 中 なので ○"
+  },
+  "west_sun": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "耐暑・蒸れ: 夏の暑さと湿気に耐える（MBG）。西日: 日なたで育つが、乾燥耐性が 中 なので ○"
   }
  },
  "conflicts": [
@@ -450,6 +468,22 @@
    "old": null,
    "new": 0,
    "reason": "新しく埋まった。s18（stauden.de 品種）「株の広がり方：株立ち（horstig）」。他の文献に品種の記述なし"
+  },
+  {
+   "field": "muggy",
+   "old": null,
+   "new": "強",
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑・蒸れ: 夏の暑さと湿気に耐える（MBG）。西日: 日なたで育つが、乾燥耐性が 中 なので ○",
+   "by": "heat",
+   "prev": null
+  },
+  {
+   "field": "west_sun",
+   "old": null,
+   "new": "○",
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑・蒸れ: 夏の暑さと湿気に耐える（MBG）。西日: 日なたで育つが、乾燥耐性が 中 なので ○",
+   "by": "heat",
+   "prev": null
   }
  ]
 }

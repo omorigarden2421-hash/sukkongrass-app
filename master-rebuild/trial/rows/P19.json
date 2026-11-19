@@ -151,12 +151,12 @@
    "value": "強",
    "method": "判定",
    "sources": [
+    "s02",
     "s06",
-    "s10",
-    "s02"
+    "s10"
    ],
    "level": "species",
-   "note": "heat tolerant／tolerates summer heat and humidity well／MBG tolerant of hot and humid summers"
+   "note": "耐暑・蒸れ: 高温多湿の夏によく耐える（MBG、NC State、Walters）。西日: 乾燥に強く、午後の日陰を勧める記述なし"
   },
   "heat_note": {
    "value": "夏の暑さと湿気によく耐える",
@@ -346,6 +346,28 @@
    ],
    "level": "species",
    "note": "チョウを引き寄せ、ハチなども来る"
+  },
+  "muggy": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "耐暑・蒸れ: 高温多湿の夏によく耐える（MBG、NC State、Walters）。西日: 乾燥に強く、午後の日陰を勧める記述なし"
+  },
+  "west_sun": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "耐暑・蒸れ: 高温多湿の夏によく耐える（MBG、NC State、Walters）。西日: 乾燥に強く、午後の日陰を勧める記述なし"
   }
  },
  "conflicts": [
@@ -413,6 +435,22 @@
    "prev": {
     "value": null
    }
+  },
+  {
+   "field": "muggy",
+   "old": null,
+   "new": "強",
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑・蒸れ: 高温多湿の夏によく耐える（MBG、NC State、Walters）。西日: 乾燥に強く、午後の日陰を勧める記述なし",
+   "by": "heat",
+   "prev": null
+  },
+  {
+   "field": "west_sun",
+   "old": null,
+   "new": "◎",
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑・蒸れ: 高温多湿の夏によく耐える（MBG、NC State、Walters）。西日: 乾燥に強く、午後の日陰を勧める記述なし",
+   "by": "heat",
+   "prev": null
   }
  ]
 }

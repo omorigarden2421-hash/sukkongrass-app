@@ -149,11 +149,12 @@
    "value": "強",
    "method": "判定",
    "sources": [
+    "s02",
     "s06",
-    "s02"
+    "s10"
    ],
    "level": "species",
-   "note": "heat, humidity resistant（NCSU 種）。MBG 品種ページも tolerant of drought, heat, humidity"
+   "note": "耐暑・蒸れ: 乾燥・暑さ・湿気に耐える（MBG、NC State）。西日: 暑く風の強い条件に適応、乾燥に強い"
   },
   "heat_note": {
    "value": "暑さ・湿気に強い（種）。日当たりと暑さを好み、暑く風の強い条件にも適応する。",
@@ -366,6 +367,28 @@
    ],
    "level": "cultivar",
    "note": "RHS Plants for Pollinators"
+  },
+  "muggy": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "耐暑・蒸れ: 乾燥・暑さ・湿気に耐える（MBG、NC State）。西日: 暑く風の強い条件に適応、乾燥に強い"
+  },
+  "west_sun": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s10"
+   ],
+   "level": "species",
+   "note": "耐暑・蒸れ: 乾燥・暑さ・湿気に耐える（MBG、NC State）。西日: 暑く風の強い条件に適応、乾燥に強い"
   }
  },
  "conflicts": [
@@ -442,6 +465,22 @@
    "old": "春か秋（移植を嫌う）。perennials.com は早春。間隔の記載なし",
    "new": "混み合ったら株分け（およそ4年ごと、MBG）。時期は春か秋で移植を嫌う（RHS）。perennials.com は早春",
    "reason": "s02（MBG）「およそ4年ごと」で間隔が埋まった"
+  },
+  {
+   "field": "muggy",
+   "old": null,
+   "new": "強",
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑・蒸れ: 乾燥・暑さ・湿気に耐える（MBG、NC State）。西日: 暑く風の強い条件に適応、乾燥に強い",
+   "by": "heat",
+   "prev": null
+  },
+  {
+   "field": "west_sun",
+   "old": null,
+   "new": "◎",
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑・蒸れ: 乾燥・暑さ・湿気に耐える（MBG、NC State）。西日: 暑く風の強い条件に適応、乾燥に強い",
+   "by": "heat",
+   "prev": null
   }
  ]
 }

@@ -156,11 +156,12 @@
    "value": "強",
    "method": "判定",
    "sources": [
+    "s02",
     "s06",
-    "s02"
+    "s10"
    ],
    "level": "cultivar",
-   "note": "NCSU tolerant of heat、Heat・Humidity タグ。MBG も Tolerant of summer heat and humidity"
+   "note": "耐暑・蒸れ: 夏の暑さと湿気に耐える（MBG、NC State）。西日: 暖かい地域では午後の日陰が最もよい（Walters）ので ◎ にしない"
   },
   "heat_note": {
    "value": "暑さ・湿気に強い。開花には長く暑い生育期が必要で、冷涼な夏の地域では咲かないこともある。暖地では午後の日陰がよい。",
@@ -372,6 +373,28 @@
    ],
    "level": "cultivar",
    "note": "Attracts Butterflies"
+  },
+  "muggy": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "耐暑・蒸れ: 夏の暑さと湿気に耐える（MBG、NC State）。西日: 暖かい地域では午後の日陰が最もよい（Walters）ので ◎ にしない"
+  },
+  "west_sun": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "耐暑・蒸れ: 夏の暑さと湿気に耐える（MBG、NC State）。西日: 暖かい地域では午後の日陰が最もよい（Walters）ので ◎ にしない"
   }
  },
  "conflicts": [
@@ -426,6 +449,22 @@
    "old": "原種ススキは米国南東部で侵略的になっているが、本品種は稔性のある種子を作らず侵略性はかなり低い。",
    "new": "原種ススキは米国南東部で侵略的になっているが、本品種は稔性のある種子を作らず侵略性はかなり低い（NCSU）。ただし MBG はこぼれ種でやや広がりすぎることがあり、米国東部の多くの地域で侵略的としている。",
    "reason": "s02 の侵略性の注意を追記（区分の値は優先順位で s06 のまま）"
+  },
+  {
+   "field": "muggy",
+   "old": null,
+   "new": "強",
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑・蒸れ: 夏の暑さと湿気に耐える（MBG、NC State）。西日: 暖かい地域では午後の日陰が最もよい（Walters）ので ◎ にしない",
+   "by": "heat",
+   "prev": null
+  },
+  {
+   "field": "west_sun",
+   "old": null,
+   "new": "○",
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑・蒸れ: 夏の暑さと湿気に耐える（MBG、NC State）。西日: 暖かい地域では午後の日陰が最もよい（Walters）ので ◎ にしない",
+   "by": "heat",
+   "prev": null
   }
  ]
 }

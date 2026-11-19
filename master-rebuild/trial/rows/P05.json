@@ -143,7 +143,7 @@
     "s10"
    ],
    "level": "cultivar",
-   "note": "MBG: tolerate hot, humid summers／Walters: Heat tolerant"
+   "note": "耐暑: Heat tolerant、暑く乾いた日なたに最も向く宿根草の一つ（Walters）。蒸れ: 高温多湿の夏と乾燥に耐える（MBG）。西日: 暑く乾いた日なた向き、乾燥に強い"
   },
   "heat_note": {
    "value": "高温多湿の夏と乾燥に耐える。暑く乾いた日なたに最適な宿根草の一つとされる。茎腐れがときどき出る。",
@@ -339,6 +339,26 @@
    ],
    "level": "cultivar",
    "note": "RHS Plants for Pollinators"
+  },
+  "muggy": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "耐暑: Heat tolerant、暑く乾いた日なたに最も向く宿根草の一つ（Walters）。蒸れ: 高温多湿の夏と乾燥に耐える（MBG）。西日: 暑く乾いた日なた向き、乾燥に強い"
+  },
+  "west_sun": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "耐暑: Heat tolerant、暑く乾いた日なたに最も向く宿根草の一つ（Walters）。蒸れ: 高温多湿の夏と乾燥に耐える（MBG）。西日: 暑く乾いた日なた向き、乾燥に強い"
   }
  },
  "conflicts": [
@@ -454,6 +474,22 @@
     "挿し木"
    ],
    "reason": "s18 に春のかき取り挿しの記載があり 挿し木 を追加"
+  },
+  {
+   "field": "muggy",
+   "old": null,
+   "new": "強",
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑: Heat tolerant、暑く乾いた日なたに最も向く宿根草の一つ（Walters）。蒸れ: 高温多湿の夏と乾燥に耐える（MBG）。西日: 暑く乾いた日なた向き、乾燥に強い",
+   "by": "heat",
+   "prev": null
+  },
+  {
+   "field": "west_sun",
+   "old": null,
+   "new": "◎",
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑: Heat tolerant、暑く乾いた日なたに最も向く宿根草の一つ（Walters）。蒸れ: 高温多湿の夏と乾燥に耐える（MBG）。西日: 暑く乾いた日なた向き、乾燥に強い",
+   "by": "heat",
+   "prev": null
   }
  ]
 }

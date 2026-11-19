@@ -148,7 +148,7 @@
     "s02"
    ],
    "level": "cultivar",
-   "note": "MBG（品種）: 'Goldflame' is noted for having good heat tolerance（②）。以前は USDA上限から 中 としていた"
+   "note": "耐暑: 'Goldflame' は暑さによく耐えることで知られる（MBG）。蒸れの記述なし。西日: 乾燥に強く、午後の日陰を勧める記述なし"
   },
   "heat_note": {
    "value": "'Goldflame' は暑さによく耐えることで知られる。",
@@ -335,6 +335,19 @@
    ],
    "level": "cultivar",
    "note": "RHS Plants for Pollinators"
+  },
+  "muggy": {
+   "value": null,
+   "note": "耐暑: 'Goldflame' は暑さによく耐えることで知られる（MBG）。蒸れの記述なし。西日: 乾燥に強く、午後の日陰を勧める記述なし"
+  },
+  "west_sun": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "耐暑: 'Goldflame' は暑さによく耐えることで知られる（MBG）。蒸れの記述なし。西日: 乾燥に強く、午後の日陰を勧める記述なし"
   }
  },
  "conflicts": [
@@ -445,6 +458,22 @@
     "地下茎"
    ],
    "reason": "2026-11-19 ユーザー判断：種（Spiraea japonica）の記述だけで、品種 'Goldflame' がこぼれ種で増えるかは文献で確認できないため空欄。自社の観察で確認する"
+  },
+  {
+   "field": "muggy",
+   "old": null,
+   "new": null,
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑: 'Goldflame' は暑さによく耐えることで知られる（MBG）。蒸れの記述なし。西日: 乾燥に強く、午後の日陰を勧める記述なし",
+   "by": "heat",
+   "prev": null
+  },
+  {
+   "field": "west_sun",
+   "old": null,
+   "new": "◎",
+   "reason": "耐暑性・蒸れ耐性・西日耐性を分けて判定するルール（2026-11-19 決定）: 耐暑: 'Goldflame' は暑さによく耐えることで知られる（MBG）。蒸れの記述なし。西日: 乾燥に強く、午後の日陰を勧める記述なし",
+   "by": "heat",
+   "prev": null
   }
  ]
 }
