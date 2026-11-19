@@ -44,7 +44,9 @@ for r in rows[1:]:
     items.append({"商品番号": d["商品番号"], "植物名": clean(d["植物名"]), "学名": sci, "属": g, "species": species,
                   "交配種": hybrid, "品種名": cv.group(1) if cv else None, "別名": clean(d["別名"]) if d.get("別名") else None,
                   "在庫あり": isinstance(d.get("在庫数"), (int, float)) and d["在庫数"] > 0,
-                  "花時期": d.get("花時期"), "高さ(cm)": d.get("高さ(cm)"), "耐寒性": d.get("耐寒性")})
+                  "花時期": d.get("花時期"), "高さ(cm)": d.get("高さ(cm)"), "耐寒性": d.get("耐寒性"),
+                  # 文献に品種のページがないときに「自社の値」として使う（2026-11-19 決定）
+                  "花色": d.get("花色"), "広がり(cm)": d.get("広がり(cm)"), "葉色主分類": d.get("葉色主分類")})
 items.sort(key=lambda x: (x["属"], x["species"], x["学名"]))
 n = {}
 for it in items:

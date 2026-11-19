@@ -23,11 +23,13 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gaissmayer_data as GA  # noqa: E402
 import ogihara_data as OG  # noqa: E402
 import rhs_ids as RH  # noqa: E402
+import jelitto_cbg_data as JC  # noqa: E402
 
 IN, DIGEST, RAW, OUT = sys.argv[1:5]
 D = json.load(open(DIGEST, encoding="utf-8"))
 ITEMS = [json.load(open(f, encoding="utf-8")) for f in sorted(glob.glob(IN + "/*.json"))]
 OGI = {i: rec for rec in OG.OGIHARA for i in rec[0]}
+JEL = {i: rec for rec in JC.JELITTO for i in rec[0]}
 
 
 def slug(s):
@@ -177,7 +179,7 @@ def main():
         D.setdefault("ge_" + g, {})["mbg"] = m
     rows = []
     cols = ["ID", "商品番号", "植物名", "学名（マスター）", "学名（RHS）", "文献での表記", "和名", "花色（分類）", "花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照",
-            "USDA", "RHS 耐寒性", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "切り花", "蜜源",
+            "USDA", "RHS 耐寒性", "原産地", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "紅葉", "切り花", "蜜源", "花色（自社の値）", "株張り（自社の値・cm）", "葉色（自社の値）",
             "品種ページのある文献", "使った文献", "空欄の数"]
     for it in ITEMS:
         k = it["id"]
@@ -381,6 +383,35 @@ def main():
             ways = [ja for en, ja in (("division", "株分け"), ("cutting", "挿し木"), ("seed", "実生")) if en in pg]
             r["繁殖"] = "、".join(ways) + "（RHS）" if ways else None
             used.add("RHS")
+        # --- シカゴ植物園の評価報告（ゲラニウム）: 品種ごとの株幅・秋の葉色・花後の切り戻し
+        cb = JC.CBG.get(k)
+        if cb:
+            if cb[3] and not (w and w["f"].get("Spread")):
+                r["株張り(cm)"] = f"{round(cb[3] * 2.54)}（シカゴ植物園の試験での株幅）"
+            if cb[4] and cb[4] != "none observed":
+                r["紅葉"] = "秋に" + "・".join(JC.AUTUMN.get(c.strip(), c.strip()) for c in cb[4].split(",")) + "（シカゴ植物園）"
+            if cb[5] == "Yes+" and not r["切り戻し"]:
+                r["切り戻し"] = "花後（シカゴ植物園: 花後に切り戻すと姿が良くなった）"
+            used.add("シカゴ植物園")
+            if cb[1] == "cultivar":
+                cv_src.append("シカゴ植物園")
+        # --- Jelitto: 原産地と蜜源（種のページでも使える項目）。ゾーン・花期・高さ・暑さは使わない
+        je = JEL.get(k)
+        if je:
+            if je[12]:
+                r["原産地"] = je[12] + "（Jelitto・" + ("品種" if je[2] == "cultivar" else "種") + "）"
+            if "honey-bee food plant" in je[11] and not r["蜜源"]:
+                r["蜜源"] = "○"
+            used.add("Jelitto")
+            if je[2] == "cultivar":
+                cv_src.append("Jelitto")
+        # --- 自社の値: 文献で埋まらなかった花色・株張り・葉色に、今のマスターの値を別の列で残す（2026-11-19 決定）
+        if not r["花色（文献の語）"] and it.get("花色"):
+            r["花色（自社の値）"] = it["花色"]
+        if not r["株張り(cm)"] and it.get("広がり(cm)"):
+            r["株張り（自社の値・cm）"] = str(it["広がり(cm)"])
+        if not r["葉色（分類）"] and it.get("葉色主分類"):
+            r["葉色（自社の値）"] = it["葉色主分類"]
         r["品種ページのある文献"] = "、".join(cv_src) or "なし"
         r["使った文献"] = "、".join(sorted(used)) or None
         core = ["花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照", "USDA", "耐暑性", "蒸れ耐性", "西日耐性", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫",
@@ -403,7 +434,60 @@ def main():
     for i, wd in enumerate([6, 8, 30, 30, 40, 16, 10, 16, 9, 12, 12, 16, 7, 7, 7, 70, 7, 10, 16, 16, 24, 14, 6, 6, 22, 22, 7], 1):
         ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = wd
     ws.freeze_panes = "D2"
+
+    def sheet(title, header, data, widths):
+        w2 = wb.create_sheet(title)
+        w2.append(header)
+        for row in data:
+            w2.append(row)
+        for c in w2[1]:
+            c.font = Font(bold=True, color="FFFFFF")
+            c.fill = PatternFill("solid", fgColor="2F6B4A")
+        for row in w2.iter_rows(min_row=1):
+            for c in row:
+                c.alignment = Alignment(wrap_text=True, vertical="top")
+        for i, wd in enumerate(widths, 1):
+            w2.column_dimensions[openpyxl.utils.get_column_letter(i)].width = wd
+        w2.freeze_panes = "A2"
+
+    # --- 根拠: 値ごとに、どの文献のどの階層（品種／種／属）から来たか
+    ev = []
+    for r in rows:
+        for c in ("日照", "USDA", "RHS 耐寒性", "原産地", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "紅葉", "株張り(cm)",
+                  "花色（文献の語）", "葉色（分類）", "切り花", "蜜源", "和名"):
+            v = r[c]
+            if v in (None, ""):
+                continue
+            m = re.search(r"（([^（）]*)）$", str(v))
+            ev.append([r["ID"], r["商品番号"], r["植物名"], c, v, m.group(1) if m else "（組み立て時に文献名を付けていない項目。使った文献の列を参照）"])
+        for c in ("耐暑性", "蒸れ耐性", "西日耐性"):
+            if r[c]:
+                ev.append([r["ID"], r["商品番号"], r["植物名"], c, r[c], r["暑さ・蒸れ・西日の根拠"]])
+        for c in ("花色（自社の値）", "株張り（自社の値・cm）", "葉色（自社の値）"):
+            if r[c]:
+                ev.append([r["ID"], r["商品番号"], r["植物名"], c, r[c], "今のマスターの値（文献に品種の記述がないため、自社の値として残した）"])
+    sheet("根拠", ["ID", "商品番号", "植物名", "項目", "値", "文献・階層・根拠の文"], ev, [6, 8, 30, 18, 30, 90])
+
+    # --- 学名の検討: マスターの学名と、文献での表記が違うもの
+    def nz(x):
+        x = re.sub(r"\(.*?\)|\[.*?\]|（.*?）", " ", x or "")
+        x = x.replace("×", " ").replace("‘", "'").replace("’", "'")
+        return re.sub(r"[^a-z]", "", re.sub(r"\bx\b", " ", x.lower()))
+    nm = []
+    for r in rows:
+        k = r["ID"]
+        own = D.get(k, {})
+        rh = RH.RHS.get(k)
+        cand = [("RHS", rh[1] if rh else None), ("stauden.de", own.get("sdb", {}).get("name")), ("MBG", own.get("mbg", {}).get("name"))]
+        diff = [f"{lab}: {x}" for lab, x in cand if x and nz(x) != nz(r["学名（マスター）"])]
+        status = re.search(r"\[(\w+)\]$", r["学名（RHS）"] or "")
+        if diff or (status and status.group(1) not in ("Accepted", "Correct")) or (rh and rh[2]):
+            nm.append([k, r["商品番号"], r["植物名"], r["学名（マスター）"], rh[1] if rh else None, status.group(1) if status else None,
+                       " ／ ".join(diff) or None, rh[2] if rh else None, None])
+    sheet("学名の検討", ["ID", "商品番号", "植物名", "今の学名", "RHS の表記", "RHS での扱い", "今の学名と違う表記", "メモ", "御社の判断（記入）"], nm,
+          [6, 8, 30, 32, 36, 12, 60, 40, 24])
     wb.save(OUT)
+    print("根拠", len(ev), "行 / 学名の検討", len(nm), "品種")
     core = rows[0]["_core"]
     print("品種", len(rows))
     print("項目ごとの空欄:", {c: sum(1 for r in rows if r[c] in (None, "")) for c in core})
