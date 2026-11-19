@@ -56,7 +56,8 @@ P_AFTERNOON = r"afternoon shade|afternoon sun|scorch|leaf burn|protected from ho
 # カンパニュラは MBG にページがあるのがホタルブクロの仲間（punctata・takesimana とその交配種）だけで、
 # その文をラクティフローラやポルテンシュラギアナなど性質の違う種に当てると、推測で埋めることになるため。
 # ペルシカリアも同じ（MBG の品種ページはアンプレクシカウリスだけで、アフィニスやミクロセファラに当てない）。
-GENUS_MBG_SKIP = {"Campanula", "Persicaria"}
+# セダムも同じ（MBG の品種ページは背の高いベンケイソウの仲間だけで、ミセバヤやウスリーの仲間に当てない）。
+GENUS_MBG_SKIP = {"Campanula", "Persicaria", "Sedum"}
 
 # 学名で、ユーザーが個別に決めたもの（2026-11-19 のチェックリスト）
 NAME_OVERRIDE = {

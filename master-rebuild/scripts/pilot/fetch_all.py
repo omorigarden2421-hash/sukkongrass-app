@@ -141,7 +141,8 @@ def ylist(key, q):
 
 # 属が分けられて、文献によって別の属名で載っているもの（アスターの仲間）
 GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "Galatella"],
-               "Persicaria": ["Persicaria", "Bistorta", "Koenigia", "Aconogonon", "Polygonum"]}
+               "Persicaria": ["Persicaria", "Bistorta", "Koenigia", "Aconogonon", "Polygonum"],
+               "Sedum": ["Sedum", "Hylotelephium", "Phedimus"], "Hylotelephium": ["Hylotelephium", "Sedum"]}
 SPECIES_ALIAS = {
  "Aster novae-angliae": ["Symphyotrichum novae-angliae"], "Aster novi-belgii": ["Symphyotrichum novi-belgii"],
  "Aster dumosus": ["Symphyotrichum dumosum"], "Aster cordifolius": ["Symphyotrichum cordifolium"],
@@ -152,10 +153,16 @@ SPECIES_ALIAS = {
  "Persicaria polymorpha": ["Koenigia x fennica", "Aconogonon speciosum", "Polygonum polymorphum"],
  "Persicaria virginiana": ["Persicaria filiformis", "Polygonum virginianum"],
  "Salvia superba": ["Salvia x superba"], "Salvia sylvestris": ["Salvia x sylvestris"],
+ "Sedum spectabile": ["Hylotelephium spectabile"], "Hylotelephium spectabile": ["Sedum spectabile"], "Sedum telephium": ["Hylotelephium telephium"],
+ "Sedum cauticola": ["Hylotelephium cauticola"], "Sedum erythrostictum": ["Hylotelephium erythrostictum"], "Sedum sieboldii": ["Hylotelephium sieboldii"],
+ "Sedum ussuriense": ["Hylotelephium ussuriense"], "Sedum kamtschaticum": ["Phedimus kamtschaticus"], "Sedum spurium": ["Phedimus spurius"],
+ "Astilbe arendsii": ["Astilbe x arendsii"],
 }
 # 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
-CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],}
-GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra", "white"}
+CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],
+            "Autumn Joy": ["Herbstfreude"], "Dragon's Blood": ["Schorbuser Blut"],}
+GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra", "white",
+           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata"}
 
 
 def slug(s):

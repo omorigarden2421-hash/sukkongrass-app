@@ -138,7 +138,22 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
   - ユーザーの回答（2026-11-19、DECISIONS.md に記録）：(a) 同じ種のおぎはらの値を使う（試し。見返せるように「耐暑性の決め方」「耐暑性（欧米の文献だけなら）」の2列を下書きの右端に追加。assemble_pilot.py と各 batch の ogihara_data.py の SIBLING）(b) S15 は × シルベストリス (c) S12 は 'Blue Queen' と同じ品種として扱う。反映後：batch_02 の耐暑性は 強 30・中 5・弱 4・空欄 16、batch_03 は 強 32・中 2・空欄 18
   - 宿根フロックス（paniculata）にも同じ扱いをする、と回答（'Blue Paradise'・'David' が根拠、ほか12品種を 強 に）。反映後の batch_03：耐暑性 強 44・中 2・空欄 6
 - 名前で気づいた点（学名の検討に出る）：'Laura' は RHS では 'Uspekh' の別名（シカゴ植物園は別の品種として両方載せている）／'Red Riding Hood' は RHS では 'Miss Mary' の別名／'Merleau' の3品種は RHS では Salvia × digenea（マスターは nemorosa）／'Queen Blue' は 'Blue Queen'（'Blaukönigin'）の語順違いと見て当てた／'Rhapsody in Blue' はおぎはらでは pratensis の品種（マスターは × sylvestris）／'Brushstrokes' は RHS では Persicaria filiformis／'Silver Dragon' は RHS では種小名なし／ポリモーファは RHS ではシノニム扱い
-- その次の属の候補（在庫の多い順）：セダム、エキナセア、アスチルベ、ヒューケラ、ポテンティラ
+
+## 4つ目のまとまり：セダム・エキナセア・アスチルベ（2026-11-19、下書きまで完了）
+- 入力は batch_04/input（47品種：D=セダム〔Sedum 16・Hylotelephium 2〕、E=エキナセア15、B=アスチルベ14。種のまとまり 18）。作り方：`python3 scripts/pilot/make_input.py <元のマスター.xlsx> batch_04/input Sedum=D Echinacea=E Astilbe=B Hylotelephium=D`
+- 文献：おぎはら 22ページ（どれも耐暑性 強）、RHS 40品種、Gaißmayer 14ページ・Jelitto 9ページ（どちらも Chrome。確認画面が一度出たが、待つと自動で通った）。シカゴ植物園の評価報告はこの3属にはない
+- fetch_all.py に足したもの：セダムの別の属名（Hylotelephium・Phedimus）、'Autumn Joy'＝'Herbstfreude'、'Dragon's Blood'＝'Schorbuser Blut'、アスチルベ アレンジーの × 表記。'Mediovariegatum'・'Tricolor'・'Superba' などをありふれた品種名に追加（種小名も照合する）
+- 下書き：`ClaudeWork/下書き_セダム・エキナセア・アスチルベ47品種_1119.xlsx`。耐暑性 強 31・中 10・空欄 6、蒸れ耐性 強 14・空欄 33、西日耐性 ◎13・○8・△6・×14・空欄 6。品種のページがどの文献にもないのは4品種（B03・B06・D18・E12）
+- 根拠を確認して直したこと：D13 'Mediovariegatum' の MBG が別の種（erythrostictum）の同名品種に当たっていた → 種小名も照合するようにして外した。セダムも GENUS_MBG_SKIP に追加（背の高いベンケイソウの文を、ミセバヤなどに広げない）
+- 同じ種のおぎはらの値：アスチルベ アレンジーの B03・B04・B05 を 強 にした（根拠は 'Color Flash Lime'・'Fanal'。batch_04/ogihara_data.py の SIBLING）
+- アスチルベは全品種が 日照 半日陰・西日耐性 ×・乾燥耐性 弱（MBG：暑い夏や乾燥で、土が湿っていないと葉が傷む）。おぎはらは 強 なので、耐暑性は食い違いの記録つきで 強
+- ユーザーに聞くこと・伝えること：(a) D10 は学名が Sedum 'Vera Jameson'、商品名が「セダム レフレクサム」で食い違う（今は学名のとおり 'Vera Jameson' の文献を当てている。D09 と同じ内容）(b) セダム 'Mediovariegatum' は Gaißmayer が Z7・「冬越ししない宿根草」の扱い、RHS は H3 (c) 'Autumn Joy' は RHS では Hylotelephium × mottramianum 'Herbstfreude'（マスターは Hylotelephium spectabile）
+
+## 5つ目のまとまり：ミント・ゲウム・ビンカ・プルモナリア・ペンステモン（2026-11-19 に開始、作業中）
+- 残りの属は1属あたり10品種前後なので、5属ずつ（約50品種）にまとめる。順番は在庫のある品種が多い属から（残りの上位：ポテンティラ、パニカム、アキレア、スタキス、ヒューケラ、スカビオサ、ポレモニウム、フィリペンデュラ、サンギソルバ、トロリウス…）。ここまでで 916品種中 305品種の下書きができた（batch_05 を除く）
+- 入力は batch_05/input（50品種：Me=ミント11、Ge=ゲウム10、Vi=ビンカ9、Pu=プルモナリア11、Pe=ペンステモン9。ID は2文字の頭文字）
+- 済み：おぎはら（batch_05/ogihara_data.py。16ページ、24品種。ミントは掲載なし）
+- 途中：RHS の番号（アプリ内のブラウザーで検索済み。番号の選定と rhs_ids.py はまだ）、Gaißmayer（Chrome で16ページ読んだ。gaissmayer_data.py への書き込みはまだ）、Jelitto（まだ）、fetch_all.py・fetch_walters.py（まだ）
 
 ## 新しいセッションで続けるとき
 - 耐暑性は今の決め方のまま進め、全部の属が終わってから最後にもう一度検討する（2026-11-19 ユーザーの指示。DECISIONS.md）。新しい属でも「同じ種のおぎはらの値」を使うときは、その batch の ogihara_data.py の SIBLING に書く
