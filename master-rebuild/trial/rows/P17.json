@@ -333,6 +333,15 @@
    "level": "species",
    "note": "RHS Plants for Pollinators"
   },
+  "waterside": {
+   "value": true,
+   "method": "判定",
+   "sources": [
+    "s17"
+   ],
+   "level": "species",
+   "note": "Gaißmayer: 池の縁など湿った場所向きの丈夫なグラウンドカバー。Lebensbereich に WR4（水辺・湿地）を含む"
+  },
   "muggy": {
    "value": null,
    "note": "耐暑: セントルイス（夏が高温多湿）では午後に少し日陰になる所を好む（MBG、種）。条件つきなので 中。蒸れの記述なし。西日: 午後の日陰を好む"
@@ -412,6 +421,16 @@
     "挿し木"
    ],
    "reason": "stauden.de（s18）に春の挿し木の記載。他の文献と食い違わない追加なので足した"
+  },
+  {
+   "field": "waterside",
+   "old": null,
+   "new": true,
+   "reason": "Jelitto・Gaißmayer: Gaißmayer に、池の縁・湿地に向く記述があった（景観構成用途の 水辺向き に使う）",
+   "by": "chrome",
+   "prev": {
+    "value": null
+   }
   },
   {
    "field": "heat",

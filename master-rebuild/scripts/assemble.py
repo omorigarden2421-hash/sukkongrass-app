@@ -72,12 +72,12 @@ def v(f, k):
 COLS = ['商品番号', '植物名', '学名（正名）', '属', '種小名', '品種名', '旧学名・別名', '科名', '和名', '流通名・別名',
         '花色（分類）', '花色（詳細）', '花期 開始月', '花期 終了月', '草丈 最小(cm)', '草丈 最大(cm)', '草丈 括弧内の値',
         '株張り 最小(cm)', '株張り 最大(cm)', '葉色（分類）', '葉の特徴', '紅葉・冬の葉', '香り', '成株シルエット',
-        '日照', '耐寒性', 'USDA 下限', 'USDA 上限', 'RHS 耐寒性', '耐暑性', '蒸れ耐性', '暑さ・蒸れの注意', '西日耐性',
+        '日照', '耐寒性', 'USDA 下限', 'USDA 上限', 'RHS 耐寒性', '耐暑性', '蒸れ耐性', '暑さ・蒸れの注意', '西日耐性', '夏越し実績（自社の実測）',
         '乾燥耐性', '土壌水分', 'pH・土質', '耐潮性', '常緑性', '原産地', '増え方',
         'こぼれ種の量(0-3)', '地下茎で広がる程度(0-3)', '混植適性', '広がりすぎの注意', '外来種リスト', '毒性', '主な病害虫',
         '管理タイプ', '管理難易度', '切り戻しの方法', '切り戻し時期（広尾町）', '切り戻し時期（関東）',
         '株分けの間隔', '繁殖方法',
-        '景観構成用途', '切り花適性', '蜜源価値', '機能用途タグ', 'デザイン系タグ']
+        '景観構成用途', '切り花適性', '蜜源価値', '機能用途タグ', 'デザイン系タグ', 'リスクタグ']
 # column -> (field key in rows json or None, how)
 LIT = {'旧学名・別名': 'synonyms', '花色（分類）': 'flower_color_class', '花色（詳細）': 'flower_color_detail',
        '株張り 最小(cm)': 'spread_min', '株張り 最大(cm)': 'spread_max', '葉色（分類）': 'foliage_class',
@@ -93,10 +93,13 @@ HOW = {}
 for c in COLS: HOW[c] = '文献'
 for c in ['商品番号', '植物名', '流通名・別名', '耐寒性', '花期 開始月', '花期 終了月', '草丈 最小(cm)', '草丈 最大(cm)', '草丈 括弧内の値']:
     HOW[c] = '今のマスター'
-for c in ['属', '種小名', '品種名', '管理難易度', '切り戻し時期（広尾町）', '切り戻し時期（関東）', '景観構成用途', '機能用途タグ', 'デザイン系タグ']:
+for c in ['属', '種小名', '品種名', '管理難易度', '切り戻し時期（広尾町）', '切り戻し時期（関東）', '景観構成用途', '機能用途タグ', 'デザイン系タグ', 'リスクタグ']:
     HOW[c] = '自動'
 HOW['科名'] = '文献（Kew）'; HOW['外来種リスト'] = '文献（環境省）'; HOW['和名'] = '文献（YList）'; HOW['常緑性'] = '文献（温暖地の値）'
-HOW['耐暑性'] = '文献（判定）'; HOW['蒸れ耐性'] = '文献（判定）'; HOW['西日耐性'] = '文献（判定。組み合わせ）'
+HOW['夏越し実績（自社の実測）'] = '自社の実測（本州のお客様・卸先からの報告を記入）'; HOW['耐暑性'] = '文献（判定）'; HOW['蒸れ耐性'] = '文献（判定）'; HOW['西日耐性'] = '文献（判定。組み合わせ）'
+
+# 属の記述だと種・品種で違うことがある項目（強さ・広がり方）
+GENUS_CAUTION = ('heat', 'muggy', 'west_sun', 'drought', 'salt', 'soil_moisture', 'usda_min', 'usda_max', 'self_seed_level', 'rhizome_level', 'mixing')
 
 def j(x):
     if x is None: return None
@@ -147,12 +150,20 @@ for p in sorted(glob.glob(T + '/rows/P*.json')):
     sil = v(f, 'silhouette'); modes = v(f, 'spread_modes') or []; smax = v(f, 'spread_max')
     use = []
     if h1:
-        use.append('前景' if h1 <= 30 else '中景' if h1 <= 80 else '後景')
+        use.append('前景' if h1 <= 40 else '中景' if h1 < 90 else '後景')  # 2026-11-19 決定: 〜40／40〜90／90cm以上
     gc = sil == 'マット' or (h1 and h1 <= 20 and any(x in modes for x in ('ランナー', '地下茎')))
     if gc: use.append('グラウンドカバー')
     if (sil in ('グラス', 'アーチ') and h1 and h1 >= 60) or (smax and smax >= 90): use.append('主役（単植向き）')
     if smax and smax <= 40 and not gc: use.append('群植向き')
+    if v(f, 'waterside'): use.append('水辺向き')  # 2026-11-19 決定: 水辺・湿地に向く明記があるときだけ（rows の waterside）
     row['景観構成用途'] = '、'.join(use) or None
+    # リスクタグ（2026-11-19 決定。以前のメモの「管理難」「要管理」のうち、文献から決められる分だけ）
+    risk = []
+    if v(f, 'muggy') == '弱': risk.append('管理難（高温多湿で崩れやすい）')
+    mixv = v(f, 'mixing') or ''
+    if mixv.startswith(('侵略的', '強い')) or (v(f, 'rhizome_level') or 0) >= 3 or (v(f, 'self_seed_level') or 0) >= 3:
+        risk.append('要管理（広がりやすい）')
+    row['リスクタグ'] = '、'.join(risk) or None
     tags = []
     sun = v(f, 'sun') or ''; dr = v(f, 'drought'); fc = v(f, 'foliage_class'); sm = v(f, 'soil_moisture')
     if '半日陰' in sun and not sun.startswith('日向〜') or sun == '日陰': tags.append('日陰庭向き')
@@ -178,6 +189,7 @@ for p in sorted(glob.glob(T + '/rows/P*.json')):
         if x.get('value') in (None, [], ''): continue
         srcs = x.get('sources') or []
         rel = '低（文献どうしが食い違い）' if kk in conf or c in conf else ('高（2つ以上の文献）' if len(set(srcs)) >= 2 else '中（1つの文献）')
+        if x.get('level') == 'genus' and kk in GENUS_CAUTION and not rel.startswith('低'): rel = '低（属についての記述。種・品種で違うことがある）'  # 2026-11-19
         evid_rows.append([no, row['植物名'], c, j(x.get('value')), x.get('method'), '、'.join(SRCNAME.get(s, s) for s in srcs),
                           {'cultivar': '品種', 'species': '種', 'genus': '属'}.get(x.get('level'), x.get('level')), rel,
                           conf.get(kk) or conf.get(c), x.get('note')])
