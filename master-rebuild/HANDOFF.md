@@ -83,6 +83,18 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - 耐暑性の決め方を変更（2026-11-19 の最後の決定）：おぎはら植物園にページがあれば、その値を採る。試作では P08・P10・P21 が 強 に変わった（heat_trial.py の OGIHARA_HEAT）。3属では耐暑性の 弱 がなくなり、強 30・中 33・空欄 15。食い違いは根拠の文に「[食い違い]」として残る
 - RHS の花色・葉色（Colour & scent の表）を取り込んだ：花色の空欄 34→16、葉色 37→16。自社の値が残るのは 花色 15・葉色 16・株張り 15 品種
 - ベロニカの評価報告（Plant Evaluation Notes 33）：pdftotext の -raw で表が読めた。9品種の株幅と草姿、冬の傷みの記録を jelitto_cbg_data.py の CBG_V に入れた。「文献の注意」の列に 'Sunny Border Blue' の冬の傷み（5年中4年、試験の終わりまでに枯死）を出している。Table 3 の記号（c・d）の意味は未確認
+- 学名の決定などを反映（2026-11-19、DECISIONS.md「学名・越冬・次の属」）：assemble_pilot.py に「学名（採用）」（RHS が Accepted／Correct なら RHS の表記、個別の決定は NAME_OVERRIDE）と「自社の観察」（OWN_NOTES）の列を追加
+
+## 次の属：アスター（2026-11-19 に開始、作業中）
+- ユーザーの決定：アスターから進め、確認は全部終わってからまとめて見る
+- 入力は batch_aster/input（23品種、種のまとまり 12）。作り方：`python3 scripts/pilot/make_input.py <元のマスター.xlsx> batch_aster/input Aster=A`
+- アスターは文献によって属名が違う（Symphyotrichum・Eurybia・Doellingeria）。fetch_all.py に GENUS_ALIAS・SPECIES_ALIAS を足した
+- 下書きまで完了（2026-11-19）：データは batch_aster/（ogihara_data.py 3品種、gaissmayer_data.py 8品種、rhs_ids.py 18品種、jelitto_cbg_data.py：Jelitto は種のページ6つ、シカゴ植物園 Plant Evaluation Notes 36 Asters から8品種の総合評価・株幅・うどんこ病とさび病への強さ）
+- 組み立て：`python3 -X utf8 scripts/pilot/assemble_pilot.py batch_aster/input <digest> <raw> <出力.xlsx> batch_aster`（最後の引数が属ごとのデータのフォルダ）。RHS の取得は scripts/pilot/fetch_rhs.py、Walters は scripts/pilot/fetch_walters.py（アスターは1品種しか当たらなかった）
+- 結果（23品種）：日照・USDA・土壌水分・病害虫は全品種、切り戻しは20品種。耐暑性は4品種だけ（おぎはら3、NC State 1〔シオン〕）。欧米の文献はアスターの暑さをほとんど書いていない。蒸れ耐性は18品種が 中（「風通しを良くすると葉の病気が減る」という記述から）。品種のページがどの文献にもないのは5品種（A08・A10・A11・A13・A14）
+- 学名の検討は17品種（RHS は多くを Symphyotrichum・Eurybia・Doellingeria に移している。デュモーサスの品種を novi-belgii としている文献がある）
+- 出力はユーザーのパソコンの `ClaudeWork/下書き_アスター23品種_1119.xlsx`
+- 次の属の候補（在庫の多い順）：ヘメロカリス、カンパニュラ、カレックス。ユーザーは「確認は全部終わってからまとめて」と回答済み
 
 ## 注意
 - 文献にない値は推測で埋めない（空欄）。値ごとに文献ID・原文・URL・確認日を残す

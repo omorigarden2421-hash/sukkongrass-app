@@ -1,6 +1,6 @@
 """3属の試行（ホスタ・ゲラニウム・ベロニカ）の入力ファイルを、元のマスターから作る。
 
-使い方: python3 scripts/pilot/make_input.py <元のマスター.xlsx> pilot/input
+使い方: python3 scripts/pilot/make_input.py <元のマスター.xlsx> pilot/input [属=頭文字 ...]
 価格・在庫数は写さない（在庫の有無だけ）。ID は属の頭文字＋連番（H01…、G01…、V01…）。
 species は「種のページを1回読む」単位（交配種・種小名なしは "<属> hybrid"）。
 """
@@ -17,6 +17,9 @@ ws = openpyxl.load_workbook(src, read_only=True)["Sheet1"]
 rows = list(ws.iter_rows(values_only=True))
 H = list(rows[0])
 GENERA = {"Hosta": "H", "Geranium": "G", "Veronica": "V"}
+# 別の属で使うとき: python3 scripts/pilot/make_input.py <元のマスター.xlsx> <出力フォルダ> Aster=A Hemerocallis=M
+if len(sys.argv) > 3:
+    GENERA = dict(a.split("=") for a in sys.argv[3:])
 
 
 def clean(s):

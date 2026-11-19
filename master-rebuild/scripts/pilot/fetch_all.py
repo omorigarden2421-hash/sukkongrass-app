@@ -139,6 +139,15 @@ def ylist(key, q):
     save(path, {"q": q, "url": u, "code": code, "rows": rows})
 
 
+# 属が分けられて、文献によって別の属名で載っているもの（アスターの仲間）
+GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "Galatella"]}
+SPECIES_ALIAS = {
+ "Aster novae-angliae": ["Symphyotrichum novae-angliae"], "Aster novi-belgii": ["Symphyotrichum novi-belgii"],
+ "Aster dumosus": ["Symphyotrichum dumosum"], "Aster cordifolius": ["Symphyotrichum cordifolium"],
+ "Aster ericoides": ["Symphyotrichum ericoides"], "Aster divaricatus": ["Eurybia divaricata"],
+ "Aster macrophyllus": ["Eurybia macrophylla"], "Aster umbellatus": ["Doellingeria umbellata"],
+ "Aster frikartii": ["Aster x frikartii"],
+}
 GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra"}
 
 
@@ -155,10 +164,12 @@ def main():
         if e == "hybrid":
             ncsu(key, [g.lower()])
             continue
-        ncsu(key, [slug(sp), g.lower()])
+        names = [sp] + SPECIES_ALIAS.get(sp, [])
+        ok = lambda n, names=names: norm(n) in [norm(x) for x in names]
+        ncsu(key, [slug(x) for x in names] + [g.lower()])
         ylist(key, sp)
-        mbg(key, [sp], lambda n, sp=sp: norm(n) == norm(sp))
-        sdb(key, [sp], lambda n, sp=sp: norm(n) == norm(sp))
+        mbg(key, names, ok)
+        sdb(key, names, ok)
         print("species", sp, flush=True)
     for it in items:
         cv = it["品種名"]
@@ -168,11 +179,11 @@ def main():
         sp = it["species"] if not it["species"].endswith("hybrid") else g
         ep = None if it["species"].endswith("hybrid") else it["species"].split()[1]
 
-        def want(n, cv=cv, g=g, ep=ep):
+        def want(n, cv=cv, g=g, ep=ep, it=it):
             # 品種名が一致すること。引用符の中の名前か、大文字の流通名（'Rotfuchs' RED FOX など）で照合する。
             # 'Album'・'Nana' のようなありふれた品種名は、種小名も一致するときだけ採る（同名の別種を避ける）。
             n = n.replace("’", "'").replace("‘", "'")
-            if norm(g) not in norm(n):
+            if not any(norm(a) in norm(n) for a in GENUS_ALIAS.get(g, [g])):
                 return False
             m = re.search(r"'(.+)'", n)
             quoted = norm(m.group(1)) if m else ""
@@ -182,7 +193,8 @@ def main():
             if not ok:
                 return False
             words = [w for w in re.sub(r"'.*$", "", n).split()[1:] if re.fullmatch(r"[a-z-]+", w) and w not in ("x", "ssp", "subsp", "var")]
-            return not generic or not ep or ep in words
+            eps = [ep] + [x.split()[-1] for x in SPECIES_ALIAS.get(it["species"], [])] if ep else []
+            return not generic or not ep or any(e in words for e in eps)
 
         mbg(it["id"], [cv, f"{g} {cv}"], want)  # MBG の検索は品種名だけの方が当たる
         sdb(it["id"], [f"{sp} {cv}", f"{g} {cv}", cv], want)

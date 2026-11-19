@@ -1,6 +1,7 @@
 """3属の試行: 集めた文献から、品種ごとの値の下書きを作る（Excel。リポジトリの外に出す）。
 
-使い方: python3 -X utf8 scripts/pilot/assemble_pilot.py pilot/input <digest.json> <生データのフォルダ> <出力.xlsx>
+使い方: python3 -X utf8 scripts/pilot/assemble_pilot.py <input フォルダ> <digest.json> <生データのフォルダ> <出力.xlsx> [属ごとのデータのフォルダ]
+例（アスター）: … batch_aster/input <digest> <raw> <出力.xlsx> batch_aster
 考え方
 - 品種のページがあればそれを使い、なければ同じ種のページ、それもなければ同じ属で最も多い書き方（属レベル）を使う。
   どの階層の記述かを「レベル」に残す（品種／種／属）。
@@ -19,7 +20,8 @@ from collections import Counter
 import openpyxl
 from openpyxl.styles import Alignment, Font, PatternFill
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# 属ごとのデータ（ogihara_data.py・gaissmayer_data.py・rhs_ids.py・jelitto_cbg_data.py）のフォルダ。省略時は3属の試行（scripts/pilot）
+sys.path.insert(0, sys.argv[5] if len(sys.argv) > 5 else os.path.dirname(os.path.abspath(__file__)))
 import gaissmayer_data as GA  # noqa: E402
 import ogihara_data as OG  # noqa: E402
 import rhs_ids as RH  # noqa: E402
@@ -48,6 +50,17 @@ P_MUGGY_WEAK = r"dislike[s]? (the )?hot and humid|intolerant of the heat and hum
 P_MUGGY_MID = r"(mildew|rust|leaf spot)[^.]*humid|humid[^.]*(mildew|rust|leaf spot|flop)|good air circulation|prefer[s]? .*dry air"
 P_MUGGY_STRONG = r"tolerates? hot and humid|tolerant of .*humidity|tolerates? .*heat and humidity"
 P_AFTERNOON = r"afternoon shade|afternoon sun|scorch|leaf burn|protected from hot sun"
+
+
+# 学名で、ユーザーが個別に決めたもの（2026-11-19 のチェックリスト）
+NAME_OVERRIDE = {
+ "G05": ("Geranium 'Blogold'", "流通名 Blue Sunrise。RHS の表記に合わせた"),
+ "G24": ("Geranium sanguineum 'New Hampshire Purple'", "RHS・MBG・シカゴ植物園の表記に合わせた"),
+ "V05": ("Veronica spicata subsp. incana", "RHS の表記に合わせた。商品名はそのまま"),
+ "V10": ("Veronica spicata", "RHS のページは亜種 subsp. spicata。種として売っているので今の学名のまま"),
+}
+# 自社の観察（文献の値とは別に持つ）
+OWN_NOTES = {"V04": "越冬：傷む年がある（2026-11-19 ユーザーの回答。シカゴ植物園の冬の傷みの記録と合う）"}
 
 
 def judge(texts):
@@ -176,7 +189,7 @@ def pick(k, sk, gk, src):
 def main():
     # 属レベルの代表: その属の MBG 品種ページでいちばん多い Culture の書き出し
     genus_mbg = {}
-    for g in ("Hosta", "Geranium", "Veronica"):
+    for g in sorted({it["属"] for it in ITEMS}):
         c = Counter()
         for it in ITEMS:
             if it["属"] == g and "mbg" in D.get(it["id"], {}):
@@ -190,8 +203,8 @@ def main():
     for g, m in genus_mbg.items():
         D.setdefault("ge_" + g, {})["mbg"] = m
     rows = []
-    cols = ["ID", "商品番号", "植物名", "学名（マスター）", "学名（RHS）", "文献での表記", "和名", "花色（分類）", "花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照",
-            "USDA", "RHS 耐寒性", "原産地", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "紅葉", "文献の注意", "切り花", "蜜源", "花色（自社の値）", "株張り（自社の値・cm）", "葉色（自社の値）",
+    cols = ["ID", "商品番号", "植物名", "学名（マスター）", "学名（採用）", "学名（RHS）", "文献での表記", "和名", "花色（分類）", "花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照",
+            "USDA", "RHS 耐寒性", "原産地", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "紅葉", "文献の注意", "自社の観察", "切り花", "蜜源", "花色（自社の値）", "株張り（自社の値・cm）", "葉色（自社の値）",
             "品種ページのある文献", "使った文献", "空欄の数"]
     for it in ITEMS:
         k = it["id"]
@@ -438,6 +451,16 @@ def main():
             r["株張り（自社の値・cm）"] = str(it["広がり(cm)"])
         if not r["葉色（分類）"] and it.get("葉色主分類"):
             r["葉色（自社の値）"] = it["葉色主分類"]
+        # --- 学名（採用）: 2026-11-19 決定。RHS が正名（Accepted／Correct）としていれば RHS の表記に合わせる。
+        #     RHS で未確定・シノニム・掲載なしのときは今の学名のまま（学名の検討シートに残す）
+        adopted, note = it["学名"], None
+        if k in NAME_OVERRIDE:
+            adopted, note = NAME_OVERRIDE[k]
+        elif rh and rh["f"].get("Name Status") in ("Accepted", "Correct") and not rh["memo"]:
+            adopted = re.sub(r"\s+", " ", re.sub(r"\((v|[a-z ]+)\)", "", rh["name"])).strip()
+        r["学名（採用）"] = adopted + (f"（{note}）" if note else "")
+        if k in OWN_NOTES:
+            r["自社の観察"] = OWN_NOTES[k]
         r["品種ページのある文献"] = "、".join(cv_src) or "なし"
         r["使った文献"] = "、".join(sorted(used)) or None
         core = ["花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照", "USDA", "耐暑性", "蒸れ耐性", "西日耐性", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫",
@@ -447,7 +470,7 @@ def main():
         rows.append(r)
     wb = openpyxl.Workbook()
     ws = wb.active
-    ws.title = "試行（3属78品種）"
+    ws.title = "下書き"
     ws.append(cols)
     for r in rows:
         ws.append([r[c] for c in cols])
@@ -517,7 +540,7 @@ def main():
     core = rows[0]["_core"]
     print("品種", len(rows))
     print("項目ごとの空欄:", {c: sum(1 for r in rows if r[c] in (None, "")) for c in core})
-    print("属ごとの平均空欄:", {g: round(sum(r["空欄の数"] for r in rows if r["ID"][0] == g[0]) / sum(1 for r in rows if r["ID"][0] == g[0]), 1) for g in ("Hosta", "Geranium", "Veronica")})
+    print("属ごとの平均空欄:", {g: round(sum(r["空欄の数"] for r in rows if r["ID"][0] == g[0]) / sum(1 for r in rows if r["ID"][0] == g[0]), 1) for g in sorted({it["属"] for it in ITEMS})})
     print("耐暑", Counter(str(r["耐暑性"]) for r in rows), "蒸れ", Counter(str(r["蒸れ耐性"]) for r in rows), "西日", Counter(str(r["西日耐性"]) for r in rows))
     print("品種ページのある文献がない:", [r["ID"] for r in rows if r["品種ページのある文献"] == "なし"])
     json.dump([{c: r[c] for c in cols} for r in rows], open(OUT[:-5] + ".json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
