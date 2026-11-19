@@ -25,6 +25,41 @@
    "url": "https://plants.ces.ncsu.edu/plants/ajuga-reptans/",
    "status": "ok",
    "note": "種ページ（品種一覧に 'Burgundy Glow' の短評あり）"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Ajuga reptans 'Burgundy Glow'"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=10098",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "Ajuga reptans L.（標準）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Ajuga reptans 'Burgundy Glow'。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -657,11 +692,400 @@
    "url": "http://www.perennials.com/plants/ajuga-reptans-burgundy-glow.html",
    "level": "cultivar",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Ajuga reptans 'Burgundy Glow'",
+   "quote": "Ajuga reptans 'Burgundy Glow'",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 3〜10",
+   "quote": "Zone: 3 to 10",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 0.5〜0.75フィート（約15〜23cm）",
+   "quote": "Height: 0.50 to 0.75 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 0.5〜1フィート（約15〜30cm）",
+   "quote": "Spread: 0.50 to 1.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 5月〜6月",
+   "quote": "Bloom Time: May to June",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰",
+   "quote": "Sun: Full sun to part shade",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "tolerate",
+   "value_ja": "耐えるもの：ウサギ、シカ、クログルミ",
+   "quote": "Tolerate: Rabbit, Deer, Black Walnut",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "MBG のページに侵略性の注意表示がある（地域の外来種情報を確認するよう案内）",
+   "quote": "Invasive: Where is this species invasive in the US? Garden locations",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "高温多湿の地域では株腐れが出るので風通しを良くする",
+   "quote": "Provide good air circulation in hot and humid areas where crown rot is a problem.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "株腐れが出ることがある。特に米国深南部の多湿な条件と重い土で",
+   "quote": "Crown rot can be a problem, particularly in the humid conditions of the deep South and in heavy soils.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "ほふく茎（ランナー）で広がりマット状になる",
+   "quote": "will spread in the garden by stolons ( reptans means creeping) to form an attractive, mat-like ground cover",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "広がる性質のため、宿根草の花壇や芝生の近くには植えない（取り除きにくくなる）",
+   "quote": "avoid planting near perennial beds or lawns where its spreading nature could pose removal problems",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "必要なら花後に地際まで切り戻して葉を更新できる",
+   "quote": "Plants may be cut back to the ground after flowering, if necessary, to rejuvenate the foliage.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "division",
+   "value_ja": "混み合ったら株分けする",
+   "quote": "Divide plants if they become overcrowded.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243536",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "common_name_ja",
+   "value_ja": "セイヨウジュウニヒトエ",
+   "quote": "Ajuga reptans L. セイヨウジュウニヒトエ 標準",
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=10098",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Ajuga reptans 'Burgundy Glow'",
+   "quote": "Botanischer Name: Ajuga reptans 'Burgundy Glow'",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花の高さ 15cm",
+   "quote": "Blüten-Höhe: 15 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "葉の高さ 10cm",
+   "quote": "Blatt-Höhe: 10 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "5月〜6月",
+   "quote": "Blütezeit: Mai bis Juni",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "じゅうたん状・マット状",
+   "quote": "Wuchsform: teppichartig, mattenartig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "ランナー（ほふく枝）を出す",
+   "quote": "Wuchsverhalten: ausläufertreibend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "冬緑（冬も葉が残り、春に入れ替わる）",
+   "quote": "Blattphase: wintergrün",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた、明るい日陰（直射は当たらないが明るい）",
+   "quote": "Lichtansprüche: sonnig; absonnig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "適応力がある",
+   "quote": "Lage, Exposition: anpassungsfähig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン5（-23〜-28℃）",
+   "quote": "Winterhärtezone: Z5 (-23 bis -28 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）、湿り気",
+   "quote": "Bodenfeuchte: frisch; feucht",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ヨーロッパ、コーカサス、中近東、北アフリカ",
+   "quote": "Heimatregionen, Verbreitung: Europa; Kaukasus; Naher Osten; N-Afrika",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "栄養繁殖：春に株分け、春〜夏に子株（脇のロゼット）で",
+   "quote": "Vermehrung vegetativ: Teilung im Frühling; Nebenrosetten im Frühling bis Sommer",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種まき：春まき、ふつうに発芽する（種は容易に短期間で発芽）",
+   "quote": "Vermehrung generativ: Aussaat im Frühling; Normalkeimer, die Samen keimen meist leicht und kurzzeitig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "葉の観賞性：多色、一年中観賞できる",
+   "quote": "Blattschmuck: mehrfarbig; ganzjährig wirkungsvoll",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "function_type",
+   "value_ja": "グラウンドカバー",
+   "quote": "Funktionstyp: Bodendecker",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "vigor",
+   "value_ja": "強い",
+   "quote": "Wuchsstärke: stark",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "ornamental",
+   "value_ja": "葉が観賞対象",
+   "quote": "Eigenschaften: Blattschmuck",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "昆虫の蜜源・食草",
+   "quote": "Allgemeine Verwendungsmöglichkeiten: Insektennährpflanze",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "薬用植物",
+   "quote": "Allgemeine Verwendungsmöglichkeiten: Heil- und Medizinpflanzen",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "ランナー・地下茎・根を下ろす茎で広がるので、必要に応じて範囲を抑える",
+   "quote": "Pflegehinweis: Ausbreitung durch Ausläufer, Rhizome oder wurzelnde Triebe, nach Bedarf, eingrenzen",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "care",
+   "value_ja": "合った場所ならほとんど手入れ不要",
+   "quote": "Pflegehinweis: An optimalen Standorten kaum Pflege nötig. Siehe Zuordnung zu den Lebensbereichen.",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "品種評価（Staudensichtung）：Li（愛好家向け品種）、最後の評価年 1985",
+   "quote": "Sichtungswerte BdS: Li (Liebhabersorte); Jahr der letzten Sichtung: 1985",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=310",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
   "synonyms",
-  "common_name_ja",
   "group",
   "fragrance",
   "salt",

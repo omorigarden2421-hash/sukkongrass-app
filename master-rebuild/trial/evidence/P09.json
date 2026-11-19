@@ -25,6 +25,41 @@
    "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
    "status": "ok",
    "note": "Walters Gardens 品種ページ"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Miscanthus sinensis 'Morning Light'"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=3388",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "Miscanthus sinensis Andersson（標準）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Miscanthus sinensis 'Morning Light'。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -684,10 +719,399 @@
    "url": "https://www.waltersgardens.com/variety.php?ID=MISML",
    "level": "cultivar",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Miscanthus sinensis 'Morning Light'",
+   "quote": "Miscanthus sinensis 'Morning Light'",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 5〜9",
+   "quote": "Zone: 5 to 9",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 4〜6フィート（約122〜183cm）",
+   "quote": "Height: 4.00 to 6.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 2.5〜4フィート（約76〜122cm）",
+   "quote": "Spread: 2.50 to 4.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 8月〜2月",
+   "quote": "Bloom Time: August to February",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰",
+   "quote": "Sun: Full sun to part shade",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "tolerate",
+   "value_ja": "耐えるもの：乾燥、土壌浸食、乾いた土、クログルミ、都市環境（大気汚染）",
+   "quote": "Tolerate: Drought, Erosion, Dry Soil, Black Walnut, Urban Conditions",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "drought",
+   "value_ja": "「耐えるもの」の欄に乾燥（Drought）がある",
+   "quote": "Tolerate: Drought, Erosion, Dry Soil, Black Walnut, Urban Conditions",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "MBG のページに侵略性の注意表示がある（地域の外来種情報を確認するよう案内）",
+   "quote": "Invasive: Where is this species invasive in the US? Garden locations",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "夏の暑さと湿気に耐える",
+   "quote": "Tolerant of summer heat and humidity.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "短い地下茎で株がゆっくり太るが、まとまった株の形を保つ",
+   "quote": "Clumps slowly expand in circumference by short rhizomes, but typically retain tight clump shape.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種でやや広がりすぎるほど増え、地域によっては侵略的とされる",
+   "quote": "This grass will reseed to the point of being somewhat aggressive, and is considered invasive in some areas.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "米国東部の多くの地域で侵略的",
+   "quote": "Invasive in many parts of the eastern United States.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ススキのコナカイガラムシと葉枯れ病が一部地域で大きな問題に。葉さび病も出ることがある",
+   "quote": "Miscanthus mealybug and miscanthus blight are becoming significant problems in some areas. ... Leaf rust may occur.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "division",
+   "value_ja": "株分けで増やす",
+   "quote": "Propagate by division of the crown.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250971",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "common_name_ja",
+   "value_ja": "ススキ",
+   "quote": "Miscanthus sinensis Andersson ススキ 標準",
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=3388",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Miscanthus sinensis 'Morning Light'",
+   "quote": "Botanischer Name: Miscanthus sinensis 'Morning Light'",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花の高さ 100〜120cm",
+   "quote": "Blüten-Höhe: 100–120 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "8月〜10月",
+   "quote": "Blütezeit: August bis Oktober",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "弓なり、葉の付いた茎が直立する（株元の葉の茂みはない）",
+   "quote": "Wuchsform: bogig; aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株立ち（株でまとまり、広がらない）、地下茎を作る",
+   "quote": "Wuchsverhalten: horstig, lockerhorstig, horstbildend; rhizombildend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "夏緑（冬は葉が枯れる）",
+   "quote": "Blattphase: sommergrün",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Lichtansprüche: sonnig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "適応力がある",
+   "quote": "Lage, Exposition: anpassungsfähig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン6（-18〜-22℃）",
+   "quote": "Winterhärtezone: Z6 (-18 bis -22 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Bodenfeuchte: frisch",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "栄養繁殖：冬〜春に株分け",
+   "quote": "Vermehrung vegetativ: Teilung im Winter bis Frühling",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株の広がり方：株立ち",
+   "quote": "MS-Vegetativer Ausbreitungsdrang: horstig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種：こぼれ種で増える",
+   "quote": "MS-Generativer Ausbreitungsdrang: versamend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "紅葉：あり",
+   "quote": "MS-Herbstfärbung: ja",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "冬も立ち姿が残る：あり",
+   "quote": "MS-Wintersteher/-aspekt: ja",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "葉の観賞性：二色、紅葉する",
+   "quote": "Blattschmuck: zweifarbig; herbstfärbend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "function_type",
+   "value_ja": "骨格になる植物（Gerüstbildner）",
+   "quote": "Funktionstyp: Gerüstbildner",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "ornamental",
+   "value_ja": "葉が観賞対象",
+   "quote": "Eigenschaften: Blattschmuck",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "ornamental",
+   "value_ja": "実・種の姿が観賞対象",
+   "quote": "Eigenschaften: Fruchtschmuck",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種の芽生えに注意し、管理する",
+   "quote": "Pflegehinweis: Aufkeimende Selbstaussaat beachten und kontrollieren",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "秋は切り戻さない（冬の姿・葉・種の穂を残す、または株を守るため）",
+   "quote": "Pflegehinweis: Kein Rückschnitt im Herbst, Winteraspekt der Struktur, Blätter, Samenstände oder wegen der Schutzwir",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "品種評価（Staudensichtung）：★★★（優秀）、最後の評価年 2020",
+   "quote": "Sichtungswerte BdS: *** (ausgezeichnet); Jahr der letzten Sichtung: 2020",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=11022",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
-  "common_name_ja",
   "group",
   "fragrance",
   "lifespan",

@@ -31,6 +31,41 @@
    "url": "https://www.wildflower.org/plants/result.php?id_plant=PHPA9",
    "status": "ok",
    "note": "種 Phlox paniculata のページ"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "種（または交配群）のページ：Phlox paniculata"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=12317",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "Phlox paniculata L.（標準）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Phlox paniculata 'David'。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -663,11 +698,380 @@
    "url": "https://www.wildflower.org/plants/result.php?id_plant=PHPA9",
    "level": "species",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Phlox paniculata",
+   "quote": "Phlox paniculata",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 4〜8",
+   "quote": "Zone: 4 to 8",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 2〜4フィート（約61〜122cm）",
+   "quote": "Height: 2.00 to 4.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 2〜3フィート（約61〜91cm）",
+   "quote": "Spread: 2.00 to 3.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 7月〜9月",
+   "quote": "Bloom Time: July to September",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰",
+   "quote": "Sun: Full sun to part shade",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "tolerate",
+   "value_ja": "耐えるもの：シカ、粘土質、クログルミ",
+   "quote": "Tolerate: Deer, Clay Soil, Black Walnut",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "非常に暑く湿った条件より、夏が穏やかな気候を好む",
+   "quote": "Also prefers climates with mild summers compared to very hot and humid conditions.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥に耐えず、雨が降らない時期は水やりが必要",
+   "quote": "Intolerant of drought and needs to be watered in dry spells.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "咲き終わった花房を取ると花期が延び、望まないこぼれ種を防げる（品種は種から親と同じにならない）",
+   "quote": "Remove faded flower panicles to prolong bloom period and to prevent unwanted self-seeding (cultivars generally do not come true from seed).",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "庭から逸出し、もとの自生地の外でも野生化している",
+   "quote": "It has escaped gardens and naturalized into areas beyond its original native range.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "フロックスのカメムシ類・うどんこ病・根腐れが深刻になることがある。高温乾燥ではハダニも",
+   "quote": "Phlox bugs, powdery mildew and root rot can be serious problems. Spider mites can also be a problem, particularly in hot, dry conditions.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "staking",
+   "value_ja": "背の高い茎は支柱が要ることがある",
+   "quote": "Taller stems may need staking.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285435",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "common_name_ja",
+   "value_ja": "クサキョウチクトウ",
+   "quote": "Phlox paniculata L. クサキョウチクトウ 標準",
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=12317",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Phlox paniculata 'David'",
+   "quote": "Botanischer Name: Phlox paniculata 'David'",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花の高さ 80〜100cm",
+   "quote": "Blüten-Höhe: 80–100 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "7月〜9月",
+   "quote": "Blütezeit: Juli bis September",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "葉の付いた茎が直立する（株元の葉の茂みはない）",
+   "quote": "Wuchsform: aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "こんもり茂る（密〜やや粗）",
+   "quote": "Wuchsform: buschig, dichtbuschig bis lockerbuschig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株立ち（株でまとまり、広がらない）、ランナー（ほふく枝）を出す",
+   "quote": "Wuchsverhalten: horstig, lockerhorstig, horstbildend; ausläufertreibend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "夏緑（冬は葉が枯れる）",
+   "quote": "Blattphase: sommergrün",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた、半日陰、明るい日陰（直射は当たらないが明るい）",
+   "quote": "Lichtansprüche: sonnig; halbschattig; absonnig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "適応力がある",
+   "quote": "Lage, Exposition: anpassungsfähig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "涼しい場所を好む",
+   "quote": "Lage, Exposition: kühleliebend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン5（-23〜-28℃）",
+   "quote": "Winterhärtezone: Z5 (-23 bis -28 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン4（-29〜-34℃）",
+   "quote": "Winterhärtezone: Z4 (-29 bis -34 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Bodenfeuchte: frisch",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気",
+   "quote": "Bodenfeuchte: feucht",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "北米東部",
+   "quote": "Heimatregionen, Verbreitung: östliches Nordamerika",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "栄養繁殖：春〜夏に株元の芽で挿し木、春〜夏に天挿し、春に株分け、冬〜春に根伏せ",
+   "quote": "Vermehrung vegetativ: Grundständige Stecklinge im Frühling bis Sommer; Kopfstecklinge im Frühling bis Sommer; Teilung im Frühling; Wurzelschnittlinge im Winter bis Frühling",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種まき：種が熟したらすぐまく（取りまき）、冬〜早春まき、低温発芽型（暖かい期間と寒い期間が必要）",
+   "quote": "Vermehrung generativ: Aussaat sofort nach der Samenreife; Aussaat im Winter bis Vorfrühling; Kaltkeimer, eine Wärme- und Kühlephase ist nötig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "vigor",
+   "value_ja": "強い",
+   "quote": "Wuchsstärke: stark",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "葉または花に香り",
+   "quote": "Eigenschaften: Blatt- oder Blütenduft",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "咲き終わった花穂を、茎の上の方の葉の上まで切る",
+   "quote": "Pflegehinweis: Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "秋〜晩秋に茎を切り戻す",
+   "quote": "Pflegehinweis: Rückschnitt der Stängel im Herbst bis Spätherbst",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "品種評価（Staudensichtung）：Ø（なくてもよい品種）、最後の評価年 2021",
+   "quote": "Sichtungswerte BdS: Ø (entbehrliche Sorte); Jahr der letzten Sichtung: 2021",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=31292",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
   "synonyms",
-  "common_name_ja",
   "seasonal_foliage",
   "salt",
   "lifespan",

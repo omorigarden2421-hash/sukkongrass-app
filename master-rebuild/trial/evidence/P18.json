@@ -31,6 +31,41 @@
    "url": "(WebSearch)",
    "status": "not_found",
    "note": "perennials.com / waltersgardens.com に 'Fräulein' なし"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "種（または交配群）のページ：Lupinus × hybrida"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_simple_search.php?any_field=Lupinus+hybrida&capital=0&family_order=2&family_disp_type=1&family_header=0&spec_order=0&list_type=0&search=%E6%A4%9C%E7%B4%A2",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "「Lupinus hybrida」で検索、該当なし（YList は日本の野生植物と主な栽培植物が対象）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Lupinus polyphyllus 'Fräulein'。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -449,6 +484,336 @@
    "url": "https://www.rhs.org.uk/plants/lupins/growing-guide",
    "level": "genus",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Lupinus × hybrida",
+   "quote": "Lupinus × hybrida",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 4〜8",
+   "quote": "Zone: 4 to 8",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 3〜4フィート（約91〜122cm）",
+   "quote": "Height: 3.00 to 4.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 1〜1.5フィート（約30〜46cm）",
+   "quote": "Spread: 1.00 to 1.50 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 5月〜7月",
+   "quote": "Bloom Time: May to July",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Sun: Full sun",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "tolerate",
+   "value_ja": "耐えるもの：ウサギ、シカ",
+   "quote": "Tolerate: Rabbit, Deer",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "USDAゾーン7〜9の深南部の暑さと湿気を嫌い、そこでは一年草として育てるのがよい",
+   "quote": "Plants dislike the heat and humidity in USDA Zones 7-9 in the deep South where they may be best grown as annuals.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "夏が暑い地域では午後に軽い日陰になる所を好む",
+   "quote": "plants appreciate some light afternoon shade in hot summer areas",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "lifespan",
+   "value_ja": "短命な多年草で、ふつう2〜5年",
+   "quote": "lupines tend to be short-lived perennials and individuals will typically live between 2-5 years",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "咲き終わった花穂を切ると次の花が咲き、株の力を保ち、望まないこぼれ種を防げる",
+   "quote": "Deadhead spent flower spikes to encourage additional bloom, maintain plant vigor and prevent unwanted self-seeding.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "若い株にナメクジ・カタツムリ。うどんこ病とアブラムシが厄介になることがある",
+   "quote": "Slugs and snails may attack young plants. Powdery mildew and aphids can be troublesome",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "staking",
+   "value_ja": "背の高い株は支柱が要ることがある",
+   "quote": "Taller plants may need staking or other support.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=264504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Lupinus polyphyllus 'Fräulein'",
+   "quote": "Botanischer Name: Lupinus polyphyllus 'Fräulein'",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花の高さ 60〜80cm",
+   "quote": "Blüten-Höhe: 60–80 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "7月〜8月",
+   "quote": "Blütezeit: Juli bis August",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "横に張り出す〜広く張り出す、株元に葉が茂り、茎が直立する",
+   "quote": "Wuchsform: ausladend bis breitausladend; aufrechte Stängel mit grundständigem Blattschopf",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株立ち（株でまとまり、広がらない）",
+   "quote": "Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "夏緑（冬は葉が枯れる）",
+   "quote": "Blattphase: sommergrün",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Lichtansprüche: sonnig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "適応力がある",
+   "quote": "Lage, Exposition: anpassungsfähig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン3（-35〜-39℃）",
+   "quote": "Winterhärtezone: Z3 (-35 bis -39 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Bodenfeuchte: frisch",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "北米（米国・カナダ）",
+   "quote": "Heimatregionen, Verbreitung: Nordamerika mit USA und Kanada",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種まき：春まき、ふつうに発芽する（種は容易に短期間で発芽）",
+   "quote": "Vermehrung generativ: Aussaat im Frühling; Normalkeimer, die Samen keimen meist leicht und kurzzeitig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "全体または一部に毒",
+   "quote": "Eigenschaften: ganz oder in Teilen giftig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花・フラワーアレンジ向き",
+   "quote": "Allgemeine Verwendungsmöglichkeiten: für Schnittzwecke, Floristik",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "咲き終わった花穂を、茎の上の方の葉の上まで切る",
+   "quote": "Pflegehinweis: Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種の芽生えに注意し、管理する",
+   "quote": "Pflegehinweis: Aufkeimende Selbstaussaat beachten und kontrollieren",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "秋〜晩秋に茎を切り戻す",
+   "quote": "Pflegehinweis: Rückschnitt der Stängel im Herbst bis Spätherbst",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "秋は切り戻さない（冬の姿・葉・種の穂を残す、または株を守るため）",
+   "quote": "Pflegehinweis: Kein Rückschnitt im Herbst, Winteraspekt der Struktur, Blätter, Samenstände oder wegen der Schutzwir",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "品種評価（Staudensichtung）：まだ評価なし",
+   "quote": "Sichtungswerte BdS: bisher ohne Bewertung",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=3583",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
@@ -457,8 +822,7 @@
   "seasonal_foliage",
   "drought",
   "salt",
-  "spread_mode",
   "invasive_note"
  ],
- "notes": "使用可文献に 'Fräulein'（Fraulein）の品種ページが見つからなかった。'Fräulein' を Band of Nobles Series の一色とする根拠はマスター出典の Jelitto URL（LUPINUS perennis Russell Band of Nobles Series Fraeulein）だけで、この環境では読めず未確認。したがって RHS の値は全て Band of Nobles Series（混色シリーズ）レベルで、花色（混色の列挙）は 'Fräulein' の色の根拠にならない。学名もマスターは Lupinus × hybrida、Jelitto URL は L. perennis、RHS シリーズのシノニムは L. polyphyllus 'Band of Nobles' と3通りに割れている。マスター成株シルエット出典 addenbrooke.co.nz は Lupinus polyphyllus 'Fraulein' 表記（使用不可文献のため未読）。"
+ "notes": "使用可文献に 'Fräulein'（Fraulein）の品種ページが見つからなかった。'Fräulein' を Band of Nobles Series の一色とする根拠はマスター出典の Jelitto URL（LUPINUS perennis Russell Band of Nobles Series Fraeulein）だけで、この環境では読めず未確認。したがって RHS の値は全て Band of Nobles Series（混色シリーズ）レベルで、花色（混色の列挙）は 'Fräulein' の色の根拠にならない。学名もマスターは Lupinus × hybrida、Jelitto URL は L. perennis、RHS シリーズのシノニムは L. polyphyllus 'Band of Nobles' と3通りに割れている。マスター成株シルエット出典 addenbrooke.co.nz は Lupinus polyphyllus 'Fraulein' 表記（使用不可文献のため未読）。\n\n【2026-11-19 追記】stauden.de は Lupinus polyphyllus 'Fräulein' として掲載"
 }

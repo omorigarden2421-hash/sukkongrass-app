@@ -25,6 +25,41 @@
    "url": "https://www.mdpi.com/2311-7524/6/3/54",
    "status": "not_found",
    "note": "マスター出典（耐潮性）だが使用可能文献の表にないため読まず"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=292385",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "種（または交配群）のページ：Hydrangea serrata"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=915",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "Hydrangea serrata (Thunb.) Ser. var. yesoensis (Koidz.) H.Ohba（標準）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "無料版を検索したが掲載なし"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -378,10 +413,109 @@
    "url": "https://plants.ces.ncsu.edu/plants/hydrangea-serrata/",
    "level": "species",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Hydrangea serrata",
+   "quote": "Hydrangea serrata",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=292385",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 6〜9",
+   "quote": "Zone: 6 to 9",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=292385",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 2〜4フィート（約61〜122cm）",
+   "quote": "Height: 2.00 to 4.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=292385",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 2〜4フィート（約61〜122cm）",
+   "quote": "Spread: 2.00 to 4.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=292385",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 6月〜8月",
+   "quote": "Bloom Time: June to August",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=292385",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰",
+   "quote": "Sun: Part shade",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=292385",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=292385",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花後に、咲いた枝を元気な芽の上まで切り戻す。弱い枝や冬に傷んだ枝は早春に切る",
+   "quote": "Prune after flowering by cutting back flowering stems to a pair of healthy buds. Prune out weak or winter-damaged stems in early spring.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=292385",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "芽枯れ・青枯れ・斑点病・うどんこ病にややかかりやすい。アブラムシがときどき",
+   "quote": "Some susceptibility to bud blight, bacterial wilt, leaf spot and mildew. Aphids are occasional visitors.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=292385",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "common_name_ja",
+   "value_ja": "エゾアジサイ",
+   "quote": "Hydrangea serrata (Thunb.) Ser. var. yesoensis (Koidz.) H.Ohba エゾアジサイ 標準",
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=915",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
-  "common_name_ja",
   "group",
   "fragrance",
   "salt",

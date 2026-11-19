@@ -25,6 +25,41 @@
    "url": "https://plants.ces.ncsu.edu/plants/hemerocallis-stella-de-oro/",
    "status": "404",
    "note": ""
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Hemerocallis 'Stella de Oro'"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "種が決まらない交配品種・属のみのため検索していない"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Hemerocallis x cultorum 'Stella de Oro'。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -486,17 +521,344 @@
    "url": "https://www.waltersgardens.com/variety.php?ID=HMSDO",
    "level": "cultivar",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Hemerocallis 'Stella de Oro'",
+   "quote": "Hemerocallis 'Stella de Oro'",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 3〜10",
+   "quote": "Zone: 3 to 10",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 0.75〜1フィート（約23〜30cm）",
+   "quote": "Height: 0.75 to 1.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 0.75〜1フィート（約23〜30cm）",
+   "quote": "Spread: 0.75 to 1.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 5月〜8月",
+   "quote": "Bloom Time: May to August",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰",
+   "quote": "Sun: Full sun to part shade",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "tolerate",
+   "value_ja": "耐えるもの：ウサギ、土壌浸食、都市環境（大気汚染）",
+   "quote": "Tolerate: Rabbit, Erosion, Urban Conditions",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "夏の暑さと湿気に耐えるが、乾燥が続くときはたっぷり水をやると葉がきれいに保てる",
+   "quote": "Plants are tolerant of summer heat and humidity, but appreciate deep watering in dry spells to keep foliage attractive.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "division",
+   "value_ja": "3〜4年ごとに秋か春に株分け（冬が寒い地域は春が良い）",
+   "quote": "daylilies should be divided every 3-4 years in either fall or spring (spring is best in cold winter climates",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花がらは毎日摘み、咲き終わった花茎は取り除く",
+   "quote": "Deadhead spent flowers daily for neatness and remove scapes when flowers have completed bloom.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "病害虫は少ない。ダニ・アブラムシ・アザミウマがときどき。地域によりさび病",
+   "quote": "relatively pest free. Mites, aphids and thrips may appear occasionally. Daylily rust can be problematic in some areas.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=246299",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Hemerocallis x cultorum 'Stella de Oro'",
+   "quote": "Botanischer Name: Hemerocallis x cultorum 'Stella de Oro'",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花の高さ 40cm",
+   "quote": "Blüten-Höhe: 40 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "5月〜10月",
+   "quote": "Blütezeit: Mai bis Oktober",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "弓なり、傾く、横に張り出す〜広く張り出す",
+   "quote": "Wuchsform: bogig; geneigt; ausladend bis breitausladend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株立ち（株でまとまり、広がらない）",
+   "quote": "Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "夏緑（冬は葉が枯れる）",
+   "quote": "Blattphase: sommergrün",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Lichtansprüche: sonnig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "暖かい場所を好む、適応力がある",
+   "quote": "Lage, Exposition: wärmeliebend; anpassungsfähig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン5（-23〜-28℃）",
+   "quote": "Winterhärtezone: Z5 (-23 bis -28 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Bodenfeuchte: frisch",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "栄養繁殖：春に株分け、花後に株分け",
+   "quote": "Vermehrung vegetativ: Teilung im Frühling; Teilung nach der Blüte",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株の広がり方：株立ち",
+   "quote": "MS-Vegetativer Ausbreitungsdrang: horstig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種：こぼれ種で増えない",
+   "quote": "MS-Generativer Ausbreitungsdrang: nicht versamend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "紅葉：なし",
+   "quote": "MS-Herbstfärbung: nein",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "冬も立ち姿が残る：なし",
+   "quote": "MS-Wintersteher/-aspekt: nein",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "function_type",
+   "value_ja": "グラウンドカバー",
+   "quote": "Funktionstyp: Bodendecker",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "建物沿いの日なたの花壇",
+   "quote": "Allgemeine Verwendungsmöglichkeiten: sonnige Beete an Gebäuden",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "lifespan",
+   "value_ja": "長寿。できるだけ長年植え替えない",
+   "quote": "Pflegehinweis: Langlebig, möglichst viele Jahre nicht umpflanzen",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "咲き終わった茎を株元の葉の上まで切り戻す",
+   "quote": "Pflegehinweis: Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "咲き終わった花を一つずつ切るか摘み取る",
+   "quote": "Pflegehinweis: Einzelne, abgeblühte Blüten / Blumen ausschneiden oder ausbrechen.",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "品種評価（Staudensichtung）：★★（とても良い）、最後の評価年 1991",
+   "quote": "Sichtungswerte BdS: ** (sehr gut); Jahr der letzten Sichtung: 1991",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=2718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
   "synonyms",
   "common_name_ja",
   "group",
-  "seasonal_foliage",
-  "heat_humidity",
-  "lifespan",
   "staking",
   "invasive_note"
  ],
- "notes": "学名 Hemerocallis 'Stella de Oro' は文献一致（'Stella D'Oro' 表記ゆれあり）。RHSの科は Asphodelaceae。RHSは猫に有毒と明記。高さはRHS『30cmまで』、perennials.com『25〜30cm』、Walters『15インチ』。返り咲き性はperennials.com・Waltersに記載。Waltersの spread_mode 記述は品種ではなくデイリリー一般論。高温多湿・蒸れに関する記述は見つからず。マスターの冬_情報源 monrovia.com は範囲外のため読んでいない。NCSUに品種ページなし(404)。"
+ "notes": "学名 Hemerocallis 'Stella de Oro' は文献一致（'Stella D'Oro' 表記ゆれあり）。RHSの科は Asphodelaceae。RHSは猫に有毒と明記。高さはRHS『30cmまで』、perennials.com『25〜30cm』、Walters『15インチ』。返り咲き性はperennials.com・Waltersに記載。Waltersの spread_mode 記述は品種ではなくデイリリー一般論。高温多湿・蒸れに関する記述は見つからず。マスターの冬_情報源 monrovia.com は範囲外のため読んでいない。NCSUに品種ページなし(404)。\n\n【2026-11-19 追記】stauden.de は Hemerocallis × cultorum 'Stella de Oro' として掲載"
 }

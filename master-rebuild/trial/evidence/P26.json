@@ -25,6 +25,41 @@
    "url": "https://www.learningwithexperts.com/gardening/blog/how-do-you-plant-a-seaside-garden-planting-for-coastal-conditions",
    "status": "not_found",
    "note": "マスター出典（耐潮性）だがブログで使用対象外のため読まず"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Lonicera periclymenum 'Serotina'"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=18108",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "Lonicera periclymenum L.（標準）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=33307",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "種のページ（品種の掲載なし）：Lonicera periclyneum。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -378,18 +413,246 @@
    "url": "https://plants.ces.ncsu.edu/plants/lonicera-periclymenum/",
    "level": "species",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Lonicera periclymenum 'Serotina'",
+   "quote": "Lonicera periclymenum 'Serotina'",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 5〜9",
+   "quote": "Zone: 5 to 9",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 10〜20フィート（約305〜610cm）",
+   "quote": "Height: 10.00 to 20.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 3〜6フィート（約91〜183cm）",
+   "quote": "Spread: 3.00 to 6.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 7月〜frost",
+   "quote": "Bloom Time: July to frost",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰",
+   "quote": "Sun: Full sun to part shade",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "tolerate",
+   "value_ja": "耐えるもの：シカ、クログルミ",
+   "quote": "Tolerate: Deer, Black Walnut",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "MBG のページに侵略性の注意表示がある（地域の外来種情報を確認するよう案内）",
+   "quote": "Invasive: Where is this species invasive in the US? Garden locations",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "夏が暑い地域では午後に少し日陰になる場所がよい",
+   "quote": "Best sited in hot summer climates in locations with part afternoon shade.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "うどんこ病と斑点病が出ることがある。特に夏が高温多湿の気候で",
+   "quote": "Powdery mildew and leaf spots may occur, particularly in hot and humid summer climates",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "drought",
+   "value_ja": "根付けばある程度乾燥に耐える",
+   "quote": "Plants have some drought tolerance once established.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "剪定は必要に応じて花の直後に",
+   "quote": "Prune as needed immediately after flowering.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "北米に導入され、点在するいくつかの地域で野生化している",
+   "quote": "introduced over time with subsequent naturalization occurring in some scattered areas of North America",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "重大な病害虫はない。スイカズラのアブラムシとカイガラムシに注意",
+   "quote": "No serious insect or disease problems. ... Watch for honeysuckle aphids and scale.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=261554",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "common_name_ja",
+   "value_ja": "ニオイニンドウ",
+   "quote": "Lonicera periclymenum L. ニオイニンドウ 標準",
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=18108",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Lonicera periclyneum",
+   "quote": "Botanischer Name: Lonicera periclyneum",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=33307",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "6月",
+   "quote": "Blütezeit: Juni bis Juni",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=33307",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "適応力がある",
+   "quote": "Lage, Exposition: anpassungsfähig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=33307",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン5（-23〜-28℃）",
+   "quote": "Winterhärtezone: Z5 (-23 bis -28 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=33307",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ヨーロッパ",
+   "quote": "Heimatregionen, Verbreitung: Europa",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=33307",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "葉または花に香り",
+   "quote": "Eigenschaften: Blatt- oder Blütenduft",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=33307",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "全体または一部に毒",
+   "quote": "Eigenschaften: ganz oder in Teilen giftig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=33307",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
-  "common_name_ja",
   "group",
   "seasonal_foliage",
   "spread_mode",
   "lifespan",
   "staking",
   "division",
-  "cut_flower",
-  "invasive_note"
+  "cut_flower"
  ],
- "notes": "学名 Lonicera periclymenum 'Serotina' は RHS で Accepted（シノニム 'Late Red' など）。つる性の落葉樹。NCSU に品種ページはなく、種ページの品種一覧に1行のみ（花色『Bright pink』で、RHS の『deep red-purple outside, yellow within』と表現が異なる。マスターの『赤（花喉は白）』とも RHS の内側黄色が食い違う）。花期は RHS の季節表で夏・秋に花色あり（文言で月は書かれていない）、NCSU 種ページは『春、夏散発』。RHS の果実は赤い液果で食べないよう注意書き。耐塩は RHS の推奨植栽場所『Coastal』のみ。USDAゾーンは種レベルのみ。"
+ "notes": "学名 Lonicera periclymenum 'Serotina' は RHS で Accepted（シノニム 'Late Red' など）。つる性の落葉樹。NCSU に品種ページはなく、種ページの品種一覧に1行のみ（花色『Bright pink』で、RHS の『deep red-purple outside, yellow within』と表現が異なる。マスターの『赤（花喉は白）』とも RHS の内側黄色が食い違う）。花期は RHS の季節表で夏・秋に花色あり（文言で月は書かれていない）、NCSU 種ページは『春、夏散発』。RHS の果実は赤い液果で食べないよう注意書き。耐塩は RHS の推奨植栽場所『Coastal』のみ。USDAゾーンは種レベルのみ。\n\n【2026-11-19 追記】stauden.de の表記は Lonicera periclyneum（つづり違い）。種のページ"
 }

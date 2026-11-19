@@ -25,6 +25,41 @@
    "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
    "status": "ok",
    "note": "種ページ（北米原産種）"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Aquilegia chrysantha 'Yellow Queen'"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=12584",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "Aquilegia chrysantha A.Gray（標準）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Aquilegia chrysantha 'Yellow Queen'。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -711,11 +746,330 @@
    "url": "https://www.wildflower.org/plants/result.php?id_plant=AQCH",
    "level": "species",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Aquilegia chrysantha 'Yellow Queen'",
+   "quote": "Aquilegia chrysantha 'Yellow Queen'",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 3〜9",
+   "quote": "Zone: 3 to 9",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 2〜3フィート（約61〜91cm）",
+   "quote": "Height: 2.00 to 3.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 2〜3フィート（約61〜91cm）",
+   "quote": "Spread: 2.00 to 3.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 4月〜5月",
+   "quote": "Bloom Time: April to May",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰",
+   "quote": "Sun: Full sun to part shade",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "tolerate",
+   "value_ja": "耐えるもの：ウサギ、シカ",
+   "quote": "Tolerate: Rabbit, Deer",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "この種は同属の多くの種より暑さと日なたに耐える",
+   "quote": "This species tolerates heat and sun better than most other species in the genus",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "夏が暑い所で日が強すぎると弱って葉を落とすことがある",
+   "quote": "Plants may show stress and lose leaves when planted in too much sun in hot summer conditions.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "花がらを切らなければ、条件が良いとよくこぼれ種で増える",
+   "quote": "Species reseeds well in optimum growing conditions as long as flowers are not deadheaded.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "葉は盛夏までに傷むので、その時点で地際まで切る",
+   "quote": "Foliage usually declines by mid-summer at which point it should be cut to the ground.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "排水の悪い土で株腐れ。ハモグリバエは他のオダマキより出にくい。高温乾燥でハダニ・アブラムシ",
+   "quote": "Crown rot in poorly drained soils. Less susceptible to leaf miner than many of the other species of columbine. Spider mites and aphids may appear in hot and dry conditions.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "花にかすかな香り",
+   "quote": "Flowers have a slight fragrance.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243171",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "common_name_ja",
+   "value_ja": "キバナオダマキ",
+   "quote": "Aquilegia chrysantha A.Gray キバナオダマキ 標準",
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=12584",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Aquilegia chrysantha 'Yellow Queen'",
+   "quote": "Botanischer Name: Aquilegia chrysantha 'Yellow Queen'",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花の高さ 70cm",
+   "quote": "Blüten-Höhe: 70 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "6月〜8月",
+   "quote": "Blütezeit: Juni bis August",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "傾く、株元に葉が茂り、茎が直立する",
+   "quote": "Wuchsform: geneigt; aufrechte Stängel mit grundständigem Blattschopf",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株立ち（株でまとまり、広がらない）",
+   "quote": "Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "夏緑（冬は葉が枯れる）",
+   "quote": "Blattphase: sommergrün",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた、半日陰、明るい日陰（直射は当たらないが明るい）",
+   "quote": "Lichtansprüche: sonnig; halbschattig; absonnig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "適応力がある",
+   "quote": "Lage, Exposition: anpassungsfähig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン3（-35〜-39℃）",
+   "quote": "Winterhärtezone: Z3 (-35 bis -39 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Bodenfeuchte: frisch",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "米国中部、メキシコ北部",
+   "quote": "Heimatregionen, Verbreitung: Zentral-USA; N-Mexiko",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種まき：冬〜早春まき、ふつうに発芽する（種は容易に短期間で発芽）",
+   "quote": "Vermehrung generativ: Aussaat im Winter bis Vorfrühling; Normalkeimer, die Samen keimen meist leicht und kurzzeitig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花・フラワーアレンジ向き",
+   "quote": "Allgemeine Verwendungsmöglichkeiten: für Schnittzwecke, Floristik",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種を避けるため、種が熟す前に切り戻す",
+   "quote": "Pflegehinweis: Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種の芽生えに注意し、管理する",
+   "quote": "Pflegehinweis: Aufkeimende Selbstaussaat beachten und kontrollieren",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "care",
+   "value_ja": "合った場所ならほとんど手入れ不要",
+   "quote": "Pflegehinweis: An optimalen Standorten kaum Pflege nötig. Siehe Zuordnung zu den Lebensbereichen.",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "品種評価（Staudensichtung）：★（良い）、最後の評価年 1988",
+   "quote": "Sichtungswerte BdS: * (gut); Jahr der letzten Sichtung: 1988",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
   "synonyms",
-  "common_name_ja",
   "group",
   "seasonal_foliage",
   "salt",

@@ -31,6 +31,41 @@
    "url": "https://www.promessedefleurs.ie/gardening-tips/fichaplanta/prostanthera-australian-mint-bush-planting-and-growing/",
    "status": "not_found",
    "note": "マスター出典だが園芸店ページで使用対象外のため読まず"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderSearch.aspx",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "Plant Finder を検索したが、品種・種とも該当ページなし"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "種が決まらない交配品種・属のみのため検索していない"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "無料版を検索したが掲載なし"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [

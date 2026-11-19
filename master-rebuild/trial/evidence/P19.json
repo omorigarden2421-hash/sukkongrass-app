@@ -25,6 +25,41 @@
    "url": "(WebSearch)",
    "status": "not_found",
    "note": "Chicago Botanic に本種ページは検索で見つからず"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287438",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "種（または交配群）のページ：Patrinia scabiosifolia"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=1597",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "Patrinia scabiosifolia Link（標準）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Patrinia scabiosifolia。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -540,11 +575,280 @@
    "url": "https://www.perennials.com/plants/patrinia-scabiosifolia.html",
    "level": "species",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Patrinia scabiosifolia",
+   "quote": "Patrinia scabiosifolia",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287438",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 5〜8",
+   "quote": "Zone: 5 to 8",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287438",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 3〜6フィート（約91〜183cm）",
+   "quote": "Height: 3.00 to 6.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287438",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 1.5〜2フィート（約46〜61cm）",
+   "quote": "Spread: 1.50 to 2.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287438",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 6月〜9月",
+   "quote": "Bloom Time: June to September",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287438",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Sun: Full sun",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287438",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287438",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "高温多湿の夏に耐える",
+   "quote": "Tolerant of hot and humid summers.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287438",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "重大な病害虫はない",
+   "quote": "No serious insect or disease problems.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287438",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "staking",
+   "value_ja": "長い花茎は支えが要ることがある",
+   "quote": "Longer flower stems may need some support.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287438",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "common_name_ja",
+   "value_ja": "オミナエシ",
+   "quote": "Patrinia scabiosifolia Link オミナエシ 標準",
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=1597",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Patrinia scabiosifolia",
+   "quote": "Botanischer Name: Patrinia scabiosifolia",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花の高さ 60〜80cm",
+   "quote": "Blüten-Höhe: 60–80 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "7月〜8月",
+   "quote": "Blütezeit: Juli bis August",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "株元に葉が茂り、茎が直立する",
+   "quote": "Wuchsform: aufrechte Stängel mit grundständigem Blattschopf",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株立ち（株でまとまり、広がらない）",
+   "quote": "Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "夏緑（冬は葉が枯れる）",
+   "quote": "Blattphase: sommergrün",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Lichtansprüche: sonnig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "適応力がある",
+   "quote": "Lage, Exposition: anpassungsfähig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン7（-12〜-17℃）",
+   "quote": "Winterhärtezone: Z7 (-12 bis -17 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Bodenfeuchte: frisch",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "中国、日本、朝鮮半島、中国東北部（満州）、東シベリア、サハリン",
+   "quote": "Heimatregionen, Verbreitung: China; Japan; Korea; Mandschurei; O-Sibirien; Sachalin",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "栄養繁殖：春に株分け",
+   "quote": "Vermehrung vegetativ: Teilung im Frühling",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種まき：種が熟したらすぐまく（取りまき）、春まき、ふつうに発芽する（種は容易に短期間で発芽）",
+   "quote": "Vermehrung generativ: Aussaat sofort nach der Samenreife; Aussaat im Frühling; Normalkeimer, die Samen keimen meist leicht und kurzzeitig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "秋〜晩秋に茎を切り戻す",
+   "quote": "Pflegehinweis: Rückschnitt der Stängel im Herbst bis Spätherbst",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "care",
+   "value_ja": "合った場所ならほとんど手入れ不要",
+   "quote": "Pflegehinweis: An optimalen Standorten kaum Pflege nötig. Siehe Zuordnung zu den Lebensbereichen.",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "品種評価（Staudensichtung）：まだ評価なし",
+   "quote": "Sichtungswerte BdS: bisher ohne Bewertung",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=29498",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
   "synonyms",
-  "common_name_ja",
   "group",
   "fragrance",
   "salt",

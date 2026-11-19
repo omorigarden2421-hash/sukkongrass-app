@@ -31,6 +31,41 @@
    "url": "(WebSearch)",
    "status": "not_found",
    "note": "perennials.com に 'Dragon's Blood' 品種ページは検索で見つからず（var. album, 'Roseum' のみ）"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Sedum spurium 'Schorbuser Blut' DRAGON'S BLOOD"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_simple_search.php?any_field=Sedum+spurium&capital=0&family_order=2&family_disp_type=1&family_header=0&spec_order=0&list_type=0&search=%E6%A4%9C%E7%B4%A2",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "「Sedum spurium」で検索、該当なし（YList は日本の野生植物と主な栽培植物が対象）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Sedum spurium 'Dragon's Blood'。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -531,6 +566,326 @@
    "url": "https://plants.ces.ncsu.edu/plants/sedum-spurium/",
    "level": "species",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Sedum spurium 'Schorbuser Blut' DRAGON'S BLOOD",
+   "quote": "Sedum spurium 'Schorbuser Blut' DRAGON'S BLOOD",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 4〜9",
+   "quote": "Zone: 4 to 9",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 0.25〜0.5フィート（約8〜15cm）",
+   "quote": "Height: 0.25 to 0.50 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 1〜1.5フィート（約30〜46cm）",
+   "quote": "Spread: 1.00 to 1.50 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 8月〜9月",
+   "quote": "Bloom Time: August to September",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Sun: Full sun",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 乾燥〜中",
+   "quote": "Water: Dry to medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "tolerate",
+   "value_ja": "耐えるもの：ウサギ、シカ、乾燥、土壌浸食、乾いた土、浅い岩がちな土、都市環境（大気汚染）",
+   "quote": "Tolerate: Rabbit, Deer, Drought, Erosion, Dry Soil, Shallow-Rocky Soil, Urban Conditions",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "drought",
+   "value_ja": "「耐えるもの」の欄に乾燥（Drought）がある",
+   "quote": "Tolerate: Rabbit, Deer, Drought, Erosion, Dry Soil, Shallow-Rocky Soil, Urban Conditions",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥に強い",
+   "quote": "Drought tolerant.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "容易に広がる（節が地面に触れた所で根を出す）",
+   "quote": "Plants spread easily (root where nodes touch the ground).",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "茎の下の葉は落ちるが、茎先の新しい葉は常緑で、秋に深い赤紫色になって冬を越す",
+   "quote": "Lower stem leaves are deciduous, but newer leaves near the stem tips are evergreen, typically turning deep burgundy in fall for overwintering.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "茎先の葉は秋に深い赤紫色になって冬を越す",
+   "quote": "newer leaves near the stem tips are evergreen, typically turning deep burgundy in fall for overwintering",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "division",
+   "value_ja": "挿し木か株分けで容易に増やせる",
+   "quote": "Easily propagated by cuttings or division.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "重大な病害虫はない。ナメクジ・カタツムリが出ることがある。カイガラムシに注意",
+   "quote": "No serious insect or disease problems. Slugs and snails may appear. Watch for scale.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253174",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Sedum spurium 'Dragon's Blood'",
+   "quote": "Botanischer Name: Sedum spurium 'Dragon's Blood'",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花の高さ 10〜15cm",
+   "quote": "Blüten-Höhe: 10–15 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "7月〜8月",
+   "quote": "Blütezeit: Juli bis August",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "じゅうたん状・マット状",
+   "quote": "Wuchsform: teppichartig, mattenartig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "這い、一部は根を下ろす",
+   "quote": "Wuchsverhalten: kriechend, teils wurzelnd",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "冬緑（冬も葉が残り、春に入れ替わる）",
+   "quote": "Blattphase: wintergrün",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた、半日陰、明るい日陰（直射は当たらないが明るい）",
+   "quote": "Lichtansprüche: sonnig; halbschattig; absonnig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "適応力がある、涼しい場所を好む",
+   "quote": "Lage, Exposition: anpassungsfähig; kühleliebend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン6（-18〜-22℃）",
+   "quote": "Winterhärtezone: Z6 (-18 bis -22 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Bodenfeuchte: frisch",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "アルメニア、コーカサス、クルディスタン、イラン北部",
+   "quote": "Heimatregionen, Verbreitung: Armenien; Kaukasus; Kurdistan; N-Iran",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "栄養繁殖：春〜夏に挿し木、春に株分け、花後に株分け",
+   "quote": "Vermehrung vegetativ: Stecklinge im Frühling bis Sommer; Teilung im Frühling; Teilung nach der Blüte",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種まき：春まき、ふつうに発芽する（種は容易に短期間で発芽）",
+   "quote": "Vermehrung generativ: Aussaat im Frühling; Normalkeimer, die Samen keimen meist leicht und kurzzeitig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "粗放型の屋上緑化",
+   "quote": "Allgemeine Verwendungsmöglichkeiten: extensive Dachbegrünung",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "昆虫の蜜源・食草",
+   "quote": "Allgemeine Verwendungsmöglichkeiten: Insektennährpflanze",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "care",
+   "value_ja": "合った場所ならほとんど手入れ不要",
+   "quote": "Pflegehinweis: An optimalen Standorten kaum Pflege nötig. Siehe Zuordnung zu den Lebensbereichen.",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "品種評価（Staudensichtung）：まだ評価なし",
+   "quote": "Sichtungswerte BdS: bisher ohne Bewertung",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=44733",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
@@ -544,5 +899,5 @@
   "cut_flower",
   "invasive_note"
  ],
- "notes": "入力の学名 'Dragon's Blood' はRHSではシノニム扱いで、正名は Sedum spurium 'Schorbuser Blut'（ドイツ名の原品種名）。種の学名はNCSU・Chicago Botanicとも Phedimus spurius を採用しているが、RHSは品種を Sedum spurium 側に置き Phedimus spurius 'Dragon's Blood' をシノニムに挙げている。属の扱いが文献で割れている。NCSUの種ページは日照で本文 'requires full sun' と属性欄 'Partial Shade' のみが食い違う。マスターの出典（MBG, Bluestone, Monrovia）はどれも使用可文献に該当しないので読んでいない。Walters(perennials.com)には本品種のページが見つからなかった。RHSでの高さ『最大10cm』はChicago Botanicの『茎の長さ6～10インチ』と食い違う（茎長と草丈の違いの可能性）。"
+ "notes": "入力の学名 'Dragon's Blood' はRHSではシノニム扱いで、正名は Sedum spurium 'Schorbuser Blut'（ドイツ名の原品種名）。種の学名はNCSU・Chicago Botanicとも Phedimus spurius を採用しているが、RHSは品種を Sedum spurium 側に置き Phedimus spurius 'Dragon's Blood' をシノニムに挙げている。属の扱いが文献で割れている。NCSUの種ページは日照で本文 'requires full sun' と属性欄 'Partial Shade' のみが食い違う。マスターの出典（MBG, Bluestone, Monrovia）はどれも使用可文献に該当しないので読んでいない。Walters(perennials.com)には本品種のページが見つからなかった。RHSでの高さ『最大10cm』はChicago Botanicの『茎の長さ6～10インチ』と食い違う（茎長と草丈の違いの可能性）。\n\n【2026-11-19 追記】MBG は 'Schorbuser Blut'（英名 DRAGON'S BLOOD）として掲載。（'Dragon's Blood' と 'Schorbuser Blut' が同じ品種かどうかは、学名の検討シートで確認する）"
 }

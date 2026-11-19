@@ -25,6 +25,41 @@
    "url": "https://yardandgarden.extension.iastate.edu/faq/my-japanese-spireas-are-straggly-appearance-how-should-i-prune-them",
    "status": "not_found",
    "note": "マスター出典だが Iowa State は使用可能文献の表にないため読まず"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Spiraea japonica 'Goldflame'"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=3157",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "Spiraea japonica L.f.（標準）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=43136",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "種のページ（品種の掲載なし）：Spiraea japonica。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -369,17 +404,175 @@
    "url": "https://plants.ces.ncsu.edu/plants/spiraea-japonica/",
    "level": "species",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Spiraea japonica 'Goldflame'",
+   "quote": "Spiraea japonica 'Goldflame'",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 4〜8",
+   "quote": "Zone: 4 to 8",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 3〜4フィート（約91〜122cm）",
+   "quote": "Height: 3.00 to 4.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 3〜4フィート（約91〜122cm）",
+   "quote": "Spread: 3.00 to 4.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 6月〜7月",
+   "quote": "Bloom Time: June to July",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Sun: Full sun",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "tolerate",
+   "value_ja": "耐えるもの：シカ、土壌浸食、粘土質、都市環境（大気汚染）",
+   "quote": "Tolerate: Deer, Erosion, Clay Soil, Urban Conditions",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "MBG のページに侵略性の注意表示がある（地域の外来種情報を確認するよう案内）",
+   "quote": "Invasive: Where is this species invasive in the US? Garden locations",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "'Goldflame' は暑さによく耐えることで知られる",
+   "quote": "‘Goldflame’ is noted for having good heat tolerance.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "ひこばえでも庭の中で広がる",
+   "quote": "Plants will also spread in the garden by suckering.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "こぼれ種で強く増えることがあり、米国東部の多くの地域で庭から逸出して野生化している",
+   "quote": "Plants can be aggressive self-seeders, and have escaped gardens and naturalized in many areas of the eastern U.S.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "咲き終わった花房を取る（軽い刈り込みでもよい）と次の花が咲く。新しい枝に咲くので、剪定は必要なら晩冬〜早春に",
+   "quote": "Remove faded flower clusters as practicable (light shearing is an option) to encourage additional bloom. Flowers on new wood, so prune in late winter to early spring if needed.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "重大な病害虫は知られていない。シモツケ類は一般に斑点病・火傷病・うどんこ病・根腐れ・アブラムシ・ハマキムシ・カイガラムシにかかる",
+   "quote": "No known serious insect or disease problems. Spireas are generally susceptible to ... leaf spot, fire blight, powdery mildew, root rot, aphids, leaf roller and scale.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=253817",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "common_name_ja",
+   "value_ja": "シモツケ",
+   "quote": "Spiraea japonica L.f. シモツケ 標準",
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=3157",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Spiraea japonica",
+   "quote": "Botanischer Name: Spiraea japonica",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=43136",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
-  "common_name_ja",
   "group",
-  "heat_humidity",
   "lifespan",
   "staking",
   "toxicity",
   "division",
   "cut_flower"
  ],
- "notes": "RHS では Spiraea japonica 'Goldflame' が Accepted、シノニムに Spiraea × bumalda 'Goldflame' あり。樹木（落葉低木）。NCSU に品種ページはなく種 S. japonica のページのみで、種として米国で侵略的（NC Invasive Plant Council 指定）と明記。種の高さ4-6ftは品種（RHS 75cm、最大0.5-1m）とは大きく異なるので種レベル値の流用に注意。マスターの高さ60～100cm は RHS 最大0.5-1mと概ね合うが RHS 本文は75cm。耐潮性は RHS の推奨植栽場所『Coastal』のみ（明示的な耐塩記述ではない）。USDAゾーンは種レベルのみ。マスター出典の Iowa State は対象外のため読まず。"
+ "notes": "RHS では Spiraea japonica 'Goldflame' が Accepted、シノニムに Spiraea × bumalda 'Goldflame' あり。樹木（落葉低木）。NCSU に品種ページはなく種 S. japonica のページのみで、種として米国で侵略的（NC Invasive Plant Council 指定）と明記。種の高さ4-6ftは品種（RHS 75cm、最大0.5-1m）とは大きく異なるので種レベル値の流用に注意。マスターの高さ60～100cm は RHS 最大0.5-1mと概ね合うが RHS 本文は75cm。耐潮性は RHS の推奨植栽場所『Coastal』のみ（明示的な耐塩記述ではない）。USDAゾーンは種レベルのみ。マスター出典の Iowa State は対象外のため読まず。\n\n【2026-11-19 追記】stauden.de の Spiraea japonica のページは学名だけで、項目の記載がない"
 }

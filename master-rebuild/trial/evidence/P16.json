@@ -31,6 +31,41 @@
    "url": "https://www.terranovanurseries.com/heuchera-green-spice",
    "status": "blocked",
    "note": "育種元 Terra Nova のサイトはプロキシで403（接続拒否）"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263718",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Heuchera 'Green Spice'"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "種が決まらない交配品種・属のみのため検索していない"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Heuchera americana 'Green Spice'。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -530,17 +565,336 @@
    "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/heuchera_green_spice--green_spice_coral_bells",
    "level": "cultivar",
    "from_master_source": true
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Heuchera 'Green Spice'",
+   "quote": "Heuchera 'Green Spice'",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 4〜9",
+   "quote": "Zone: 4 to 9",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 1.5〜2.5フィート（約46〜76cm）",
+   "quote": "Height: 1.50 to 2.50 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 1〜1.5フィート（約30〜46cm）",
+   "quote": "Spread: 1.00 to 1.50 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 6月〜7月",
+   "quote": "Bloom Time: June to July",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰",
+   "quote": "Sun: Full sun to part shade",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "暖地では午後の暑い時間に日陰になる所を好む（ヒューケラ交配種全般の説明）",
+   "quote": "generally prefer some shade in the heat of the afternoon in southern locations",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "division",
+   "value_ja": "3〜4年ごとに春に株分け",
+   "quote": "Divide clumps in spring every 3-4 years.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑〜半常緑の多年草の属（属の説明）",
+   "quote": "a genus consisting of about 55 species of evergreen to semi-evergreen herbaceous perennials",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "冬の気温の上下が大きいと根が霜で持ち上がることがある。うどんこ病・さび病・斑点細菌病、ゾウムシ・葉のセンチュウ",
+   "quote": "Frost heaving of roots may occur when winter temperatures fluctuate widely. Potential disease problems include powdery mildew, rust, and bacterial leaf spot. Potential insect problems include weevils and foliar nematodes.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263718",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Heuchera americana 'Green Spice'",
+   "quote": "Botanischer Name: Heuchera americana 'Green Spice'",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花の高さ 50〜60cm",
+   "quote": "Blüten-Höhe: 50–60 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "葉の高さ 20〜30cm",
+   "quote": "Blatt-Höhe: 20–30 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "6月〜7月",
+   "quote": "Blütezeit: Juni bis Juli",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "クッション状、半球形",
+   "quote": "Wuchsform: kissenartig bis kissenbildend; halbkugelig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株立ち（株でまとまり、広がらない）",
+   "quote": "Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "冬緑（冬も葉が残り、春に入れ替わる）",
+   "quote": "Blattphase: wintergrün",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰",
+   "quote": "Lichtansprüche: halbschattig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "明るい日陰（直射は当たらないが明るい）",
+   "quote": "Lichtansprüche: absonnig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "適応力がある",
+   "quote": "Lage, Exposition: anpassungsfähig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン6（-18〜-22℃）",
+   "quote": "Winterhärtezone: Z6 (-18 bis -22 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Bodenfeuchte: frisch",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "北米（米国・カナダ）",
+   "quote": "Heimatregionen, Verbreitung: Nordamerika mit USA und Kanada",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "栄養繁殖：春に株分け、冬〜春に株分け",
+   "quote": "Vermehrung vegetativ: Teilung im Frühling; Teilung im Winter bis Frühling",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種まき：春まき、ふつうに発芽する（種は容易に短期間で発芽）",
+   "quote": "Vermehrung generativ: Aussaat im Frühling; Normalkeimer, die Samen keimen meist leicht und kurzzeitig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "葉の観賞性：多色、一年中観賞できる",
+   "quote": "Blattschmuck: mehrfarbig; ganzjährig wirkungsvoll",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "咲き終わった茎を株元の葉の上まで切り戻す",
+   "quote": "Pflegehinweis: Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "秋は切り戻さない（冬の姿・葉・種の穂を残す、または株を守るため）",
+   "quote": "Pflegehinweis: Kein Rückschnitt im Herbst, Winteraspekt der Struktur, Blätter, Samenstände oder wegen der Schutzwir",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "care",
+   "value_ja": "合った場所ならほとんど手入れ不要",
+   "quote": "Pflegehinweis: An optimalen Standorten kaum Pflege nötig. Siehe Zuordnung zu den Lebensbereichen.",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "winter_care",
+   "value_ja": "雪のない凍結時は防寒・日よけをすると良い",
+   "quote": "Pflegehinweis: Winterschutz /Sonnenschutz bei Kahlfrost ratsam",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "品種評価（Staudensichtung）：★★（とても良い）、最後の評価年 2016",
+   "quote": "Sichtungswerte BdS: ** (sehr gut); Jahr der letzten Sichtung: 2016",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=28621",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
   "common_name_ja",
   "group",
   "fragrance",
-  "spread_mode",
   "staking",
   "toxicity",
   "cut_flower",
   "invasive_note"
  ],
- "notes": "花色が文献で食い違う：RHSは pale pink、Chicago Botanic と Walters(perennials.com) はクリーム／白。花期もRHS『晩春』、他は初夏～6月。Chicago Botanicによれば Terra Nova Nurseries が1995年に発表（'This Heuchera was introduced by Terra Nova Nurseries in 1995.'）。育種元サイトはこの環境ではブロック。Walters は 'Eco-Improved' を同一品種名として併記。マスターの『花色：目立たない』はどの文献とも一致しない（いずれも白・クリーム・淡ピンクの花を記載）。日照は RHS/CBG が日向～半日陰、Walters は半日陰～日陰で食い違う。perennials.com の運営表記は Valleybrook（Walters Gardens ではない）点に注意。耐潮性について直接の記述はなく、RHSの推奨植栽場所『Coastal』のみ。"
+ "notes": "花色が文献で食い違う：RHSは pale pink、Chicago Botanic と Walters(perennials.com) はクリーム／白。花期もRHS『晩春』、他は初夏～6月。Chicago Botanicによれば Terra Nova Nurseries が1995年に発表（'This Heuchera was introduced by Terra Nova Nurseries in 1995.'）。育種元サイトはこの環境ではブロック。Walters は 'Eco-Improved' を同一品種名として併記。マスターの『花色：目立たない』はどの文献とも一致しない（いずれも白・クリーム・淡ピンクの花を記載）。日照は RHS/CBG が日向～半日陰、Walters は半日陰～日陰で食い違う。perennials.com の運営表記は Valleybrook（Walters Gardens ではない）点に注意。耐潮性について直接の記述はなく、RHSの推奨植栽場所『Coastal』のみ。\n\n【2026-11-19 追記】stauden.de は Heuchera americana 'Green Spice' として掲載"
 }

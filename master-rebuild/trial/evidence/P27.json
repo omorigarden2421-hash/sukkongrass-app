@@ -31,6 +31,41 @@
    "url": "https://rhs.org.uk/plants/cornus/for-stems",
    "status": "not_found",
    "note": "マスター出典（冬）。品種情報ではない記事のため、ページ数節約で読まず"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Cornus alba 'Sibirica'"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=21038",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "Cornus alba L.（標準）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "無料版を検索したが掲載なし"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -528,13 +563,151 @@
    "url": "https://plants.ces.ncsu.edu/plants/cornus-alba/",
    "level": "species",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Cornus alba 'Sibirica'",
+   "quote": "Cornus alba 'Sibirica'",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 3〜7",
+   "quote": "Zone: 3 to 7",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 4〜7フィート（約122〜213cm）",
+   "quote": "Height: 4.00 to 7.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 3〜5フィート（約91〜152cm）",
+   "quote": "Spread: 3.00 to 5.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 5月〜6月",
+   "quote": "Bloom Time: May to June",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた〜半日陰",
+   "quote": "Sun: Full sun to part shade",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "tolerate",
+   "value_ja": "耐えるもの：ウサギ、シカ、土壌浸食",
+   "quote": "Tolerate: Rabbit, Deer, Erosion",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "USDAゾーン7より南の夏が暑い地域では弱り、胴枯れなどの病気にかかりやすくなる",
+   "quote": "Plants become stressed and more vulnerable to diseases such as canker in hot summer climates south of USDA Zone 7.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "drought",
+   "value_ja": "根付いた株はやや乾いた土にも、一時的な水たまりにも耐える",
+   "quote": "Established shrubs tolerate some dry soils as well as occasional standing water.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "群落状に広がるのを避けたいなら、スコップで根を切り、根から出るひこばえをすぐ取る",
+   "quote": "Trim roots with a spade and promptly remove root suckers if colonial spread is undesired.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "2〜3年ごとに早春に全ての枝を地際近く（約20cm）まで切って更新する方法もある",
+   "quote": "some gardeners prune all stems close to the ground (coppice to 8\") in early spring every 2-3 years to renew",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "斑点病・枝枯れ・葉枯れ・胴枯れにかかりやすい。カイガラムシ・ハモグリバエ・穿孔虫がときどき",
+   "quote": "Susceptible to leaf spot, twig and leaf blights and canker. Scale, leaf miner and borers are occasional insect pests.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=243964",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "common_name_ja",
+   "value_ja": "シラタマミズキ",
+   "quote": "Cornus alba L. シラタマミズキ 標準",
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=21038",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
-  "common_name_ja",
   "group",
   "fragrance",
-  "drought",
   "salt",
   "lifespan",
   "staking",

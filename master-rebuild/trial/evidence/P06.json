@@ -19,6 +19,41 @@
    "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
    "status": "ok",
    "note": "マスター出典。Walters現行ラインナップ外の参考掲載"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderSearch.aspx",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "Plant Finder を検索したが、品種・種とも該当ページなし"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_simple_search.php?any_field=Agastache+mexicana&capital=0&family_order=2&family_disp_type=1&family_header=0&spec_order=0&list_type=0&search=%E6%A4%9C%E7%B4%A2",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "「Agastache mexicana」で検索、該当なし（YList は日本の野生植物と主な栽培植物が対象）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Agastache mexicana 'Red Fortune'。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -345,6 +380,216 @@
    "url": "http://www.perennials.com/plants/agastache-red-fortune.html",
    "level": "cultivar",
    "from_master_source": true
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Agastache mexicana 'Red Fortune'",
+   "quote": "Botanischer Name: Agastache mexicana 'Red Fortune'",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花の高さ 60〜80cm",
+   "quote": "Blüten-Höhe: 60–80 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "7月〜9月",
+   "quote": "Blütezeit: Juli bis September",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "こんもり茂る（密〜やや粗）、葉の付いた茎が直立する（株元の葉の茂みはない）",
+   "quote": "Wuchsform: buschig, dichtbuschig bis lockerbuschig; aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株立ち（株でまとまり、広がらない）",
+   "quote": "Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "夏緑（冬は葉が枯れる）",
+   "quote": "Blattphase: sommergrün",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Lichtansprüche: sonnig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "暖かい場所を好む、保護が必要",
+   "quote": "Lage, Exposition: wärmeliebend; schutzbedürftig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン9（0〜-5℃）",
+   "quote": "Winterhärtezone: Z9 (0 bis -5 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "乾燥",
+   "quote": "Bodenfeuchte: trocken",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "中米、メキシコ",
+   "quote": "Heimatregionen, Verbreitung: Mittelamerika; Mexiko",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "栄養繁殖：春〜夏に株元の芽で挿し木",
+   "quote": "Vermehrung vegetativ: Grundständige Stecklinge im Frühling bis Sommer",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種まき：春まき、ふつうに発芽する（種は容易に短期間で発芽）",
+   "quote": "Vermehrung generativ: Aussaat im Frühling; Normalkeimer, die Samen keimen meist leicht und kurzzeitig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "葉または花に香り",
+   "quote": "Eigenschaften: Blatt- oder Blütenduft",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "建物沿いの日なたの花壇",
+   "quote": "Allgemeine Verwendungsmöglichkeiten: sonnige Beete an Gebäuden",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "昆虫の蜜源・食草",
+   "quote": "Allgemeine Verwendungsmöglichkeiten: Insektennährpflanze",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "一番花の後に切り戻すと、たいてい二番花が咲く",
+   "quote": "Pflegehinweis: Rückschnitt nach der ersten Blühphase bewirkt meist eine Nachblüte",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "winter_care",
+   "value_ja": "雪のない凍結時は防寒・日よけをすると良い",
+   "quote": "Pflegehinweis: Winterschutz /Sonnenschutz bei Kahlfrost ratsam",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "winter_care",
+   "value_ja": "冬の過湿と滞水から守る",
+   "quote": "Pflegehinweis: Schutz vor Winternässe und Staunässe",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "lifespan",
+   "value_ja": "（短命なこともあるので）種の穂をいくつか残してこぼれ種で維持する",
+   "quote": "Pflegehinweis: Einige Samenstände, teils kurzlebiger Pflanzen, zum Versamen und zur Arterhaltung stehen lassen",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "品種評価（Staudensichtung）：まだ評価なし",
+   "quote": "Sichtungswerte BdS: bisher ohne Bewertung",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=30610",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
@@ -353,9 +598,6 @@
   "heat_humidity",
   "drought",
   "salt",
-  "native_range",
-  "spread_mode",
-  "lifespan",
   "staking",
   "division",
   "invasive_note"

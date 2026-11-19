@@ -15,7 +15,8 @@
 | s12 | 品種を作った育種会社の品種情報（例 www.provenwinners.com） | curl 可 |
 
 - 次は **使わない**: 一般の園芸店・ナーサリーの商品ページ、gardenia.net、Wikipedia、botanic.jp、ブログ、Plant Delights、Bluestone、Hillier、prairiemoon、heathersociety など。
-- MBG(s02)、Kew POWO(s03)、Jelitto(s11)、Beth Chatto(s13)、YList(s04) はこの環境では読めない。試さなくてよい（試した場合は access_log に記録）。
+- 2026-11-19 更新：MBG(s02)・YList(s04)・stauden.de 無料データベース(s18) はクラウドから読める（取得方法は scripts/sources/）。Jelitto(s11)・Gaißmayer(s17) は Cloudflare の確認画面で止まるため、クラウドからは読めない（ユーザーのパソコンの Chrome で読む）。Kew POWO(s03) は scripts/kew.py で照合済み。
+- s02・s04・s18 の記録には `checked`（確認日）を付ける。s18 では SPEC の表にない field（exposure, hardiness_zone_de, function_type, vigor, trial_rating, care, winter_care, ornamental, uses）、s02 では tolerate も使う。
 - 外来種リスト(s05)は別途調べるので不要。
 
 ## 取得方法

@@ -25,6 +25,41 @@
    "url": "https://www.chicagobotanic.org/plantcollections/plantfinder/sagina_subulata--corsican_pearlwort_irish_moss",
    "status": "ok",
    "note": "plant-information/plant-finder/sagina-subulata-corsican-pearlwort-irish-moss にリダイレクト。2022年以前のアーカイブ"
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderSearch.aspx",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "Plant Finder を検索したが、品種・種とも該当ページなし"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_simple_search.php?any_field=Sagina+subulata&capital=0&family_order=2&family_disp_type=1&family_header=0&spec_order=0&list_type=0&search=%E6%A4%9C%E7%B4%A2",
+   "status": "not_found",
+   "checked": "2026-11-19",
+   "note": "「Sagina subulata」で検索、該当なし（YList は日本の野生植物と主な栽培植物が対象）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "品種ページ：Sagina subulata。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -576,6 +611,166 @@
    "url": "https://plants.ces.ncsu.edu/plants/sagina-subulata/",
    "level": "species",
    "from_master_source": true
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Sagina subulata",
+   "quote": "Botanischer Name: Sagina subulata",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花の高さ 3〜5cm",
+   "quote": "Blüten-Höhe: 3–5 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "葉の高さ 3〜5cm",
+   "quote": "Blatt-Höhe: 3–5 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "6月〜7月",
+   "quote": "Blütezeit: Juni bis Juli",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "じゅうたん状・マット状、クッション状（ポルスター）",
+   "quote": "Wuchsform: teppichartig, mattenartig; polsterartig bis polsterbildend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "這い、一部は根を下ろす",
+   "quote": "Wuchsverhalten: kriechend, teils wurzelnd",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑",
+   "quote": "Blattphase: immergrün",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "明るい日陰（直射は当たらないが明るい）",
+   "quote": "Lichtansprüche: absonnig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "適応力がある",
+   "quote": "Lage, Exposition: anpassungsfähig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン8（-6〜-11℃）",
+   "quote": "Winterhärtezone: Z8 (-6 bis -11 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Bodenfeuchte: frisch",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ヨーロッパ",
+   "quote": "Heimatregionen, Verbreitung: Europa",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "栄養繁殖：春に株分け",
+   "quote": "Vermehrung vegetativ: Teilung im Frühling",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "墓地の植栽向き",
+   "quote": "Allgemeine Verwendungsmöglichkeiten: für Grabstätten geeignet",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "care",
+   "value_ja": "合った場所ならほとんど手入れ不要",
+   "quote": "Pflegehinweis: An optimalen Standorten kaum Pflege nötig. Siehe Zuordnung zu den Lebensbereichen.",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "品種評価（Staudensichtung）：★（良い）、最後の評価年 1991",
+   "quote": "Sichtungswerte BdS: * (gut); Jahr der letzten Sichtung: 1991",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=5640",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [

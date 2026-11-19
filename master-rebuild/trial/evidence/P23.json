@@ -61,6 +61,41 @@
    "url": "https://plants.ces.ncsu.edu/plants/anemonoides-sylvestris/",
    "status": "404",
    "note": ""
+  },
+  {
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "種（または交配群）のページ：Anemone sylvestris"
+  },
+  {
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=38239",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "Anemone sylvestris L.（標準）"
+  },
+  {
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "status": "ok",
+   "checked": "2026-11-19",
+   "note": "種のページ（品種の掲載なし）：Anemone sylvestris。無料版（ログインなし）"
+  },
+  {
+   "source": "s11",
+   "url": "https://www.jelitto.com/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+  },
+  {
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/",
+   "status": "blocked",
+   "checked": "2026-11-19",
+   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
   }
  ],
  "evidence": [
@@ -486,14 +521,381 @@
    "url": "https://www.perennials.com/plants/anemone-sylvestris.html",
    "level": "species",
    "from_master_source": false
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "MBG Plant Finder での表記：Anemone sylvestris",
+   "quote": "Anemone sylvestris",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "USDAゾーン 4〜8",
+   "quote": "Zone: 4 to 8",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "草丈 1〜1.5フィート（約30〜46cm）",
+   "quote": "Height: 1.00 to 1.50 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株張り 0.75〜1フィート（約23〜30cm）",
+   "quote": "Spread: 0.75 to 1.00 feet",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "花期 4月",
+   "quote": "Bloom Time: April",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰",
+   "quote": "Sun: Part shade",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水分 中",
+   "quote": "Water: Medium",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "tolerate",
+   "value_ja": "耐えるもの：シカ、深い日陰",
+   "quote": "Tolerate: Deer, Heavy Shade",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "地下茎を持ち、広がって群生する",
+   "quote": "It is a rhizomatous plant that forms spreading patches.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "やわらかい土では非常に強く広がる。粘土質ではあまり広がらない",
+   "quote": "Can be very aggressive in loose soils, but spreads less in clay soils.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "重大な病害虫はない",
+   "quote": "No serious insect or disease problems.",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "花に香りがある",
+   "quote": "cup-shaped, 1.5-2\" diameter, fragrant, 5-sepaled, often nodding, white flowers",
+   "source": "s02",
+   "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286067",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "common_name_ja",
+   "value_ja": "オオバナイチゲ",
+   "quote": "Anemone sylvestris L. オオバナイチゲ 標準",
+   "source": "s04",
+   "url": "http://ylist.info/ylist_detail_display.php?pass=38239",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "stauden.de での学名表記：Anemone sylvestris",
+   "quote": "Botanischer Name: Anemone sylvestris",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花の高さ 20〜30cm",
+   "quote": "Blüten-Höhe: 20–30 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "葉の高さ 15cm",
+   "quote": "Blatt-Höhe: 15 cm",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "5月〜6月",
+   "quote": "Blütezeit: Mai bis Juni",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "株元に葉が茂り、茎が直立する",
+   "quote": "Wuchsform: aufrechte Stängel mit grundständigem Blattschopf",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株立ち（株でまとまり、広がらない）",
+   "quote": "Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "夏緑（冬は葉が枯れる）",
+   "quote": "Blattphase: sommergrün",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた、半日陰、明るい日陰（直射は当たらないが明るい）",
+   "quote": "Lichtansprüche: sonnig; halbschattig; absonnig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "適応力がある",
+   "quote": "Lage, Exposition: anpassungsfähig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン4（-29〜-34℃）",
+   "quote": "Winterhärtezone: Z4 (-29 bis -34 °C)",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "乾燥、適湿（frisch）",
+   "quote": "Bodenfeuchte: trocken; frisch",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ヨーロッパ、コーカサス、シベリア",
+   "quote": "Heimatregionen, Verbreitung: Europa; Kaukasus; Sibirien",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "栄養繁殖：春に株分け",
+   "quote": "Vermehrung vegetativ: Teilung im Frühling",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "種まき：種が熟したらすぐまく（取りまき）、ふつうに発芽する（種は容易に短期間で発芽）",
+   "quote": "Vermehrung generativ: Aussaat sofort nach der Samenreife; Normalkeimer, die Samen keimen meist leicht und kurzzeitig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株の広がり方：株立ち",
+   "quote": "MS-Vegetativer Ausbreitungsdrang: horstig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種：こぼれ種でよく増える",
+   "quote": "MS-Generativer Ausbreitungsdrang: stark versamend",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "紅葉：なし",
+   "quote": "MS-Herbstfärbung: nein",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "seasonal_foliage",
+   "value_ja": "冬も立ち姿が残る：なし",
+   "quote": "MS-Wintersteher/-aspekt: nein",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "function_type",
+   "value_ja": "脇役（Begleiter）、グラウンドカバー",
+   "quote": "Funktionstyp: Begleiter; Bodendecker",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "ornamental",
+   "value_ja": "実・種の姿が観賞対象",
+   "quote": "Eigenschaften: Fruchtschmuck",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "全体または一部に毒",
+   "quote": "Eigenschaften: ganz oder in Teilen giftig",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "昆虫の蜜源・食草",
+   "quote": "Allgemeine Verwendungsmöglichkeiten: Insektennährpflanze",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "care",
+   "value_ja": "合った場所ならほとんど手入れ不要",
+   "quote": "Pflegehinweis: An optimalen Standorten kaum Pflege nötig. Siehe Zuordnung zu den Lebensbereichen.",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "品種評価（Staudensichtung）：★★（とても良い）、最後の評価年 1983",
+   "quote": "Sichtungswerte BdS: ** (sehr gut); Jahr der letzten Sichtung: 1983",
+   "source": "s18",
+   "url": "https://www.stauden.de/staudendatenbank.html?relid=459",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
   "synonyms",
-  "common_name_ja",
   "group",
-  "seasonal_foliage",
-  "fragrance",
   "drought",
   "salt",
   "lifespan",
