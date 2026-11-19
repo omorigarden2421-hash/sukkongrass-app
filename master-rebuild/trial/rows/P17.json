@@ -87,7 +87,8 @@
    "sources": [
     "s01",
     "s06",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "species",
    "note": "Matforming／Creeping"
@@ -96,15 +97,16 @@
    "value": "日向〜半日陰",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "species"
   },
   "usda_min": {
-   "value": 2,
+   "value": 3,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "species"
   },
@@ -112,6 +114,7 @@
    "value": 9,
    "method": "記載",
    "sources": [
+    "s02",
     "s10"
    ],
    "level": "species"
@@ -124,14 +127,18 @@
    ],
    "level": "species"
   },
-  "heat": {
-   "value": "中",
-   "method": "判定",
+  "common_name_ja": {
+   "value": "コバンコナスビ",
+   "method": "記載",
    "sources": [
-    "s10"
+    "s04"
    ],
    "level": "species",
-   "note": "暑さの記述なし。USDA上限から（9）"
+   "note": "YList 標準和名（Lysimachia nummularia L.）"
+  },
+  "heat": {
+   "value": null,
+   "note": "暑さの記述なし"
   },
   "heat_note": {
    "value": null,
@@ -171,10 +178,6 @@
    "value": null,
    "note": "記述なし"
   },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
-  },
   "evergreen_warm": {
    "value": "半常緑",
    "method": "記載",
@@ -203,10 +206,12 @@
    "method": "判定",
    "sources": [
     "s06",
-    "s10"
+    "s10",
+    "s02",
+    "s18"
    ],
    "level": "species",
-   "note": "節が地面に触れると発根、細い根茎でも広がる"
+   "note": "節が地面に触れると発根、細い根茎でも広がる。MBG 這う茎で広がり大きな群落を作る、stauden.de ランナー・地下茎・発根する茎で広がる"
   },
   "self_seed_level": {
    "value": null,
@@ -227,18 +232,20 @@
    "sources": [
     "s06",
     "s10",
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "species",
-   "note": "NC State invasive weed／aggressively、Walters 芝生や花壇に逃げ出す、RHS 管理しないと厄介者"
+   "note": "NC State invasive weed／aggressively、Walters 芝生や花壇に逃げ出す、RHS 管理しないと厄介者、MBG 米国の一部で侵略的"
   },
   "invasive_note": {
-   "value": "地域によっては侵略的雑草・生態系への脅威とされ、広がりすぎて制御が難しい。芝生や花壇に逃げ出すので境栽や芝生の近くには不向き（RHS も管理しないと厄介者になると注意）",
+   "value": "地域によっては侵略的雑草・生態系への脅威とされ、広がりすぎて制御が難しい。芝生や花壇に逃げ出すので境栽や芝生の近くには不向き（RHS も管理しないと厄介者になると注意）。MBG も望まない広がりを防ぐためよく見ておくこと、やせたやや乾いた土では広がりが抑えられるとする",
    "method": "記載",
    "sources": [
     "s06",
     "s10",
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "species"
   },
@@ -296,14 +303,17 @@
   "propagation": {
    "value": [
     "株分け",
-    "実生"
+    "実生",
+    "挿し木"
    ],
    "method": "記載",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s18"
    ],
-   "level": "species"
+   "level": "species",
+   "note": "挿し木（春）は stauden.de のみの記載。株分け・実生は stauden.de も一致"
   },
   "cut_flower": {
    "value": null
@@ -325,11 +335,11 @@
   },
   {
    "field": "sun",
-   "detail": "RHS・NC State 日向〜半日陰／Walters Partial Shade or Full Shade。RHS を採用"
+   "detail": "RHS・NC State・MBG 日向〜半日陰／Walters Partial Shade or Full Shade。RHS を採用"
   },
   {
    "field": "usda",
-   "detail": "Walters 2-9／NC State 3a-8b（4b 抜け）。耐寒側の優先順位で Walters を採用"
+   "detail": "MBG 3-9／Walters 2-9／NC State 3a-8b（4b 抜け）。耐寒側の優先順位で MBG を採用"
   },
   {
    "field": "evergreen_warm",
@@ -337,9 +347,52 @@
   },
   {
    "field": "pests",
-   "detail": "RHS 概ね病害虫なし／NC State さび病・斑点病にかかりやすい。RHS を採用"
+   "detail": "RHS 概ね病害虫なし／NC State さび病・斑点病にかかりやすい／MBG 重大な病害虫はないが属としてさび病・斑点病にかかりやすい。RHS を採用"
+  },
+  {
+   "field": "pruning",
+   "detail": "RHS 剪定不要／stauden.de 秋〜晩秋に茎を切り戻す。用語選択式の stauden.de より RHS を採って 不要"
   }
  ],
  "name_review": null,
- "notes": "種そのものの商品のため、種レベルの記述を品種レベルと同じ扱いにした（level は species のまま記録）。侵略性の注意は3文献すべてにある。"
+ "notes": "種そのものの商品のため、種レベルの記述を品種レベルと同じ扱いにした（level は species のまま記録）。侵略性の注意は3文献すべてにある。 2026-11-19: 暑さの記述がどの文献にもなく heat は null。stauden.de の常緑性（sommergrün; wintergrün の併記）は他の文献に記述があるため使っていない。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "コバンコナスビ",
+   "reason": "新設項目。YList（s04）の標準和名"
+  },
+  {
+   "field": "heat",
+   "old": "中",
+   "new": null,
+   "reason": "以前は USDA上限（9）から決めていた。ルール変更により暑さの記述で決め直したが、MBG（s02）を含めどの文献にも暑さの記述がないため null"
+  },
+  {
+   "field": "usda_min",
+   "old": 2,
+   "new": 3,
+   "reason": "耐寒の優先順位で MBG（s02、3〜9）が Walters（s10、2〜9）より上のため MBG を採用"
+  },
+  {
+   "field": "invasive_note",
+   "old": "地域によっては侵略的雑草・生態系への脅威とされ、広がりすぎて制御が難しい。芝生や花壇に逃げ出すので境栽や芝生の近くには不向き（RHS も管理しないと厄介者になると注意）",
+   "new": "地域によっては侵略的雑草・生態系への脅威とされ、広がりすぎて制御が難しい。芝生や花壇に逃げ出すので境栽や芝生の近くには不向き（RHS も管理しないと厄介者になると注意）。MBG も望まない広がりを防ぐためよく見ておくこと、やせたやや乾いた土では広がりが抑えられるとする",
+   "reason": "MBG（s02）の注意（広がりを見張る／やせた乾き気味の土では広がりが抑えられる）を要約に追記。侵略的という結論は変わらない"
+  },
+  {
+   "field": "propagation",
+   "old": [
+    "株分け",
+    "実生"
+   ],
+   "new": [
+    "株分け",
+    "実生",
+    "挿し木"
+   ],
+   "reason": "stauden.de（s18）に春の挿し木の記載。他の文献と食い違わない追加なので足した"
+  }
+ ]
 }

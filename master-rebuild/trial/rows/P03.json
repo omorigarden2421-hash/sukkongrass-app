@@ -91,7 +91,8 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s08"
+    "s08",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -130,29 +131,41 @@
    ],
    "level": "cultivar"
   },
-  "heat": {
-   "value": "中",
-   "method": "判定",
-   "sources": [
-    "s08"
-   ],
-   "level": "cultivar",
-   "note": "USDA上限から（上限9）。NCSU（種）の「非常に湿度が高い条件で株腐れが問題になる」は①の明記とまではいえず、NCSU の品種短評は茎腐れ・疫病に抵抗性ありとするため採らなかった"
-  },
-  "heat_note": {
-   "value": "種としては非常に湿度の高い条件や重い土で株腐れが出ることがあるが、この品種は疫病・茎腐れ・葉腐れに抵抗性がよいとされる。",
+  "common_name_ja": {
+   "value": "セイヨウジュウニヒトエ",
    "method": "記載",
    "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "YList 標準和名（Ajuga reptans L.、種レベル）"
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s02",
     "s06"
    ],
-   "level": "species"
+   "level": "cultivar",
+   "note": "MBG 品種ページ: 高温多湿の地域では株腐れが出る、特に米国深南部の多湿な条件と重い土で、との記述を①（高温多湿に弱い・南部で弱る）と判断。NCSU（種）も非常に湿度が高い条件で株腐れとする。一方 NCSU の品種短評は疫病・茎腐れに抵抗性がよいとしており、判断に幅がある"
+  },
+  "heat_note": {
+   "value": "高温多湿の地域（特に米国深南部の多湿な条件）や重い土では株腐れが出ることがあり、風通しを良くする。この品種は疫病・茎腐れ・葉腐れに抵抗性がよいともされる。",
+   "method": "記載",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "cultivar"
   },
   "drought": {
    "value": "中",
    "method": "判定",
    "sources": [
     "s08",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "cultivar",
    "note": "CBG Soil: Moderate、Walters Average or Moist。NCSU（種）はやや乾いた土にも耐えると記載"
@@ -163,7 +176,8 @@
    "sources": [
     "s01",
     "s08",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "cultivar",
    "note": "RHS は排水不良の土も可・湿り気があればどんな土にも耐える。NCSU（種）は湿った重い土を避けるとする"
@@ -179,15 +193,6 @@
   "salt": {
    "value": null
   },
-  "evergreen_cold": {
-   "value": "常緑",
-   "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": "cultivar",
-   "note": "シカゴ植物園の記述 creeping rhizomatous evergreen"
-  },
   "evergreen_warm": {
    "value": "常緑",
    "method": "記載",
@@ -196,7 +201,7 @@
     "s06"
    ],
    "level": "cultivar",
-   "note": "NCSU（種）は常緑〜半常緑"
+   "note": "NCSU（種）は常緑〜半常緑。stauden.de（s18）は wintergrün（半常緑相当）だが文章の記述を優先"
   },
   "native_range": {
    "value": "ヨーロッパ〜イラン北部、北西アフリカ",
@@ -214,7 +219,8 @@
    ],
    "method": "判定",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "cultivar",
    "note": "CBG: rhizomatous で stolons により急速に広がる"
@@ -235,17 +241,19 @@
    "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species",
-   "note": "種レベルの invasive／aggressive の明記による。品種レベルでは CBG の spreading rapidly（強い相当）まで"
+   "note": "種レベルの invasive／aggressive の明記による。品種レベルでは CBG の spreading rapidly（強い相当）まで。MBG の品種ページにも侵略性の注意表示と「宿根草花壇や芝生の近くは避ける」の記述"
   },
   "invasive_note": {
    "value": "種は旺盛に広がり米国の他地域では侵略的とされる（NC では在来植物群落への脅威は低い）。宿根草花壇や芝生の近くは避ける。この品種は広い面積のグラウンドカバーには推奨されない。",
    "method": "記載",
    "sources": [
     "s06",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "species"
   },
@@ -261,14 +269,15 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "RHS: Generally pest-free。NCSU（種）の株腐れは、品種短評で抵抗性ありとされるため入れない"
+   "note": "RHS: Generally pest-free。NCSU（種）の株腐れは、品種短評で抵抗性ありとされるため入れない。MBG の高温多湿地での株腐れも同じ理由で入れない（heat_note に記載）"
   },
   "pruning": {
-   "value": "剪定不要。生育期に緑一色やブロンズの先祖返りの芽が出たら取り除く。",
+   "value": "剪定不要。生育期に緑一色やブロンズの先祖返りの芽が出たら取り除く。必要なら花後に地際まで切り戻して葉を更新できる。",
    "method": "記載",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -280,7 +289,8 @@
    "sources": [
     "s01"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "MBG は必要なら花後に切り戻せるとするが、RHS の No pruning required を優先"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -289,14 +299,15 @@
     "s06"
    ],
    "level": "species",
-   "note": "mixing が 侵略的のため"
+   "note": "mixing が 侵略的のため。heat を 弱 に変えたが E の判定には影響しない"
   },
   "division_interval": {
    "value": "混み合ったら、春または初秋",
    "method": "記載",
    "sources": [
     "s10",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -346,8 +357,58 @@
   {
    "field": "rhizome_level",
    "detail": "CBG（品種）spreading rapidly（2相当）／NCSU（種）aggressive・invasive（3相当）。強い方の明記を採用"
+  },
+  {
+   "field": "heat",
+   "detail": "MBG（品種ページ）高温多湿の地域・深南部で株腐れ／NCSU 品種短評 疫病・茎腐れ・葉腐れに抵抗性がよい。株腐れの明記（MBG・NCSU 種）を採って 弱"
+  },
+  {
+   "field": "usda",
+   "detail": "CBG・Walters 3-9／MBG 3-10。耐寒の優先順位で CBG を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "MBG 日なた〜半日陰／stauden.de sonnig; absonnig／RHS 半日陰（日陰可）。RHS を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "MBG 0.5-1フィート（15-30cm）／Walters 30-45cm。数値の優先順位で Walters を採用"
+  },
+  {
+   "field": "pruning_codes",
+   "detail": "RHS 剪定不要／MBG 必要なら花後に地際まで切り戻す（花後 相当）。RHS を採って 不要（pruning の文章には MBG の内容を併記）"
+  },
+  {
+   "field": "evergreen_warm",
+   "detail": "RHS・NCSU 常緑／stauden.de wintergrün（半常緑相当）。文章の記述を採用"
   }
  ],
  "name_review": null,
- "notes": "斑が戻った緑・ブロンズの芽の除去が必要（Walters）。侵略性の判定は種レベル情報に依存しており、品種としては弱めの可能性があるが文献に明記なし。"
+ "notes": "斑が戻った緑・ブロンズの芽の除去が必要（Walters）。侵略性の判定は種レベル情報に依存しており、品種としては弱めの可能性があるが文献に明記なし。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "セイヨウジュウニヒトエ",
+   "reason": "新設項目。YList（s04）の標準和名"
+  },
+  {
+   "field": "heat",
+   "old": "中",
+   "new": "弱",
+   "reason": "以前は USDA 上限から決めていたためルール変更で決め直し。MBG（s02）の「高温多湿の地域・深南部で株腐れ」と NCSU（s06、種）の記述から 弱"
+  },
+  {
+   "field": "heat_note",
+   "old": "種としては非常に湿度の高い条件や重い土で株腐れが出ることがあるが、この品種は疫病・茎腐れ・葉腐れに抵抗性がよいとされる。",
+   "new": "高温多湿の地域（特に米国深南部の多湿な条件）や重い土では株腐れが出ることがあり、風通しを良くする。この品種は疫病・茎腐れ・葉腐れに抵抗性がよいともされる。",
+   "reason": "MBG（s02）の高温多湿地での株腐れ・風通しの記述を加えて書き直し（s06 の内容は維持）"
+  },
+  {
+   "field": "pruning",
+   "old": "剪定不要。生育期に緑一色やブロンズの先祖返りの芽が出たら取り除く。",
+   "new": "剪定不要。生育期に緑一色やブロンズの先祖返りの芽が出たら取り除く。必要なら花後に地際まで切り戻して葉を更新できる。",
+   "reason": "MBG（s02）の「必要なら花後に地際まで切り戻して葉を更新」を追記。pruning_codes は RHS 優先で 不要 のまま"
+  }
+ ]
 }

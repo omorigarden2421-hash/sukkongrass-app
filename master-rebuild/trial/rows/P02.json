@@ -71,8 +71,13 @@
    "value": null
   },
   "fragrance": {
-   "value": null,
-   "note": "NCSU の種ページに花のかすかな香りの記述があるが、fragrance は種レベル不可"
+   "value": "花",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "MBG 品種ページ: Flowers have a slight fragrance（かすかな香り）。NCSU（種）にも同じ記述"
   },
   "silhouette": {
    "value": "株立ち",
@@ -88,15 +93,16 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "cultivar"
   },
   "usda_min": {
-   "value": 2,
+   "value": 3,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -104,7 +110,7 @@
    "value": 9,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -116,6 +122,15 @@
    ],
    "level": "cultivar"
   },
+  "common_name_ja": {
+   "value": "キバナオダマキ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "YList 標準和名（Aquilegia chrysantha A.Gray、種レベル）"
+  },
   "heat": {
    "value": "弱",
    "method": "判定",
@@ -123,14 +138,15 @@
     "s06"
    ],
    "level": "species",
-   "note": "NCSU: 南東部の高温多湿な夏にはあまり耐えない（①）。同ページの耐性欄に Heat、LBJ は Heat Tolerant: yes とあるが①を優先"
+   "note": "NCSU: 南東部の高温多湿な夏にはあまり耐えない（①）。同ページの耐性欄に Heat、LBJ は Heat Tolerant: yes とあるが①を優先。MBG（s02）は「同属の多くの種より暑さと日なたに耐える」とするが、暑さの優先順位で NCSU が上なので変えない"
   },
   "heat_note": {
    "value": "米南東部の高温多湿な夏にはあまり耐えず、暑い夏に日が強すぎると葉を落とす。排水の悪い土では株腐れが起きる。",
    "method": "記載",
    "sources": [
     "s06",
-    "s09"
+    "s09",
+    "s02"
    ],
    "level": "species"
   },
@@ -141,14 +157,15 @@
     "s10"
    ],
    "level": "cultivar",
-   "note": "LBJ（種）は干ばつ時に休眠することがあると記載"
+   "note": "LBJ（種）は干ばつ時に休眠することがあると記載。MBG は Water: Medium だが、乾燥耐性の明記（Walters）を引き続き採用"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "cultivar",
    "note": "NCSU・LBJ（種）は排水不良で株腐れと記載"
@@ -164,10 +181,6 @@
   },
   "salt": {
    "value": null
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "半常緑",
@@ -197,19 +210,20 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "cultivar",
    "note": "RHS clump-forming（栄養繁殖で広がる記述なし）、Walters は種をつけさせてこぼれ種で更新するよう勧める"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 2,
    "method": "判定",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "cultivar",
-   "note": "Walters: allow some of the plants to go to seed and self sow"
+   "note": "MBG: 花がらを切らなければ条件が良いとよくこぼれ種で増える（reseeds well、種についての記述）。stauden.de も種が熟す前の切り戻しとこぼれ種の管理を勧める。Walters は allow some of the plants to go to seed and self sow"
   },
   "rhizome_level": {
    "value": 0,
@@ -248,16 +262,18 @@
     "オダマキべと病",
     "ハモグリバエ",
     "ハバチ",
-    "ハダニ"
+    "ハダニ",
+    "株腐れ（排水不良の土）"
    ],
    "method": "記載",
    "sources": [
     "s01",
     "s10",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "ハダニは NCSU（種）、高温乾燥時"
+   "note": "ハダニは NCSU（種）・MBG、高温乾燥時。株腐れは MBG（NCSU 種も同旨）。MBG はハモグリバエが他のオダマキより出にくいとする"
   },
   "pruning": {
    "value": "花後に切り戻す（花茎を切ると返り咲きを促す）。夏半ばに葉が傷んだら地際で刈ると新しい葉が出る。",
@@ -265,7 +281,8 @@
    "sources": [
     "s01",
     "s06",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -285,7 +302,8 @@
    "method": "判定",
    "sources": [
     "s06",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "species",
    "note": "夏に葉が傷むので切り戻す記述あり"
@@ -348,8 +366,79 @@
   {
    "field": "sun",
    "detail": "LBJ（種）は半日陰〜日陰、強い日差しに耐えない。RHS を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "MBG 3-9／Walters 2-9／NCSU（種）4a-9b。優先順位で MBG を採用（2026-11-19、以前は Walters）"
+  },
+  {
+   "field": "spread",
+   "detail": "MBG 2-3フィート（61-91cm）／Walters 30-45cm。数値の優先順位で Walters を採用"
+  },
+  {
+   "field": "heat",
+   "detail": "MBG「同属の多くの種より暑さと日なたに耐える」／NCSU（種）「南東部の高温多湿な夏にはあまり耐えない」。優先順位で NCSU を採り 弱"
+  },
+  {
+   "field": "evergreen_warm",
+   "detail": "stauden.de sommergrün（落葉）／NCSU・LBJ（種）半常緑。文章の記述（NCSU）を採用"
+  },
+  {
+   "field": "drought",
+   "detail": "Walters Drought Tolerant（強）／MBG Water: Medium（中相当）。乾燥耐性の明記を採って 強 のまま"
+  },
+  {
+   "field": "native_range",
+   "detail": "stauden.de 米国中部・メキシコ北部／NCSU・LBJ・Kew 米国南西部〜メキシコ北部。NCSU・LBJ・Kew を採用"
   }
  ],
  "name_review": null,
- "notes": "草丈は RHS 1-1.5m／Walters 75-80cm と大きく食い違う（マスター項目外）。Walters は短命と記載。AGM は NCSU の記載のみで RHS 側未確認。"
+ "notes": "草丈は RHS 1-1.5m／Walters 75-80cm と大きく食い違う（マスター項目外）。Walters は短命と記載。AGM は NCSU の記載のみで RHS 側未確認。",
+ "changes_20261119": [
+  {
+   "field": "fragrance",
+   "old": null,
+   "new": "花",
+   "reason": "MBG（s02）の品種ページに花のかすかな香りの記述"
+  },
+  {
+   "field": "usda_min",
+   "old": 2,
+   "new": 3,
+   "reason": "耐寒の優先順位で MBG（s02、3-9）が Walters（s10、2-9）より上"
+  },
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "キバナオダマキ",
+   "reason": "新設項目。YList（s04）の標準和名"
+  },
+  {
+   "field": "self_seed_level",
+   "old": 1,
+   "new": 2,
+   "reason": "MBG（s02）の reseeds well を「よくこぼれる」（2）と判定。s02 は s10 より優先"
+  },
+  {
+   "field": "pests",
+   "old": [
+    "アブラムシ",
+    "うどんこ病",
+    "オダマキべと病",
+    "ハモグリバエ",
+    "ハバチ",
+    "ハダニ"
+   ],
+   "new": [
+    "アブラムシ",
+    "うどんこ病",
+    "オダマキべと病",
+    "ハモグリバエ",
+    "ハバチ",
+    "ハダニ",
+    "株腐れ（排水不良の土）"
+   ],
+   "reason": "MBG（s02）の病害虫欄に排水不良の土での株腐れがあり追加"
+  }
+ ]
 }

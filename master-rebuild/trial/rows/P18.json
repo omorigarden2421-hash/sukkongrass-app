@@ -3,7 +3,7 @@
  "fields": {
   "accepted_name": {
    "value": null,
-   "note": "使用可文献に 'Fräulein'（Fraulein）の品種記録なし。Kew も照合なし。RHS にあるのは Lupinus Band of Nobles Series（シリーズ）のみで、'Fräulein' がその一色である根拠は未読の Jelitto URL だけ"
+   "note": "使用可文献に 'Fräulein'（Fraulein）の品種記録なし。Kew も照合なし。RHS にあるのは Lupinus Band of Nobles Series（シリーズ）のみで、'Fräulein' がその一色である根拠は未読の Jelitto URL だけ。2026-11-19: stauden.de（s18）は品種ページを Lupinus polyphyllus 'Fräulein' として掲載、MBG（s02）は交配群 Lupinus × hybrida のページのみ。RHS・Kew で確認できないため値は null のまま"
   },
   "synonyms": {
    "value": null,
@@ -42,8 +42,13 @@
    "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）（RHS シリーズは花に香りあり）"
   },
   "silhouette": {
-   "value": null,
-   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）（RHS シリーズ Clump forming、NC State 属 Erect/Columnar）"
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "stauden.de 品種ページ: 株立ち（horstig）で、株元に葉が茂り茎が直立、横に張り出す（ausladend bis breitausladend; aufrechte Stängel mit grundständigem Blattschopf）。直立とも取れるが、株から複数の茎が立ち横にも張る形として株立ちとした"
   },
   "sun": {
    "value": "日向〜半日陰",
@@ -58,18 +63,19 @@
    "value": 4,
    "method": "記載",
    "sources": [
+    "s02",
     "s06"
    ],
-   "level": "genus"
+   "level": "species"
   },
   "usda_max": {
-   "value": 9,
+   "value": 8,
    "method": "記載",
    "sources": [
-    "s06"
+    "s02"
    ],
-   "level": "genus",
-   "note": "ゾーン7〜8では一年草扱いとの記載あり"
+   "level": "species",
+   "note": "MBG（Lupinus × hybrida）4〜8。ゾーン7〜9の深南部では一年草扱いとの記載あり"
   },
   "rhs_h": {
    "value": "H5",
@@ -80,20 +86,26 @@
    "level": "species",
    "note": "Band of Nobles Series の値"
   },
+  "common_name_ja": {
+   "value": null,
+   "note": "YList（s04）に該当なし（Lupinus hybrida で検索）"
+  },
   "heat": {
    "value": "弱",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "genus",
-   "note": "冷涼な気候が必要、米国深南部の高温多湿を嫌うと明記"
+   "note": "冷涼な気候が必要、米国深南部の高温多湿を嫌うと明記（NC State 属）。MBG（Lupinus × hybrida）もゾーン7〜9の深南部の暑さと湿気を嫌うと明記"
   },
   "heat_note": {
    "value": "冷涼な気候を好み、ゾーン7〜8の暖地では一年草扱い。高温多湿を嫌い、暑い地域では午後に日陰になる場所がよい。ラッセル系交配種は冷涼な山地の庭向き",
    "method": "記載",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "genus"
   },
@@ -101,19 +113,22 @@
    "value": "中",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "species",
-   "note": "乾燥耐性の記述なし。RHS（シリーズ）moist but well-drained を medium 相当とみなした"
+   "note": "乾燥耐性の記述なし。RHS（シリーズ）moist but well-drained を medium 相当とみなした。MBG も Water: Medium"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18"
    ],
    "level": "species",
-   "note": "RHS（シリーズ）light, moist but well-drained。属として過湿になりやすい土では鉢植えを勧める"
+   "note": "RHS（シリーズ）light, moist but well-drained。属として過湿になりやすい土では鉢植えを勧める。MBG Medium、stauden.de frisch（適湿）"
   },
   "soil_ph_type": {
    "value": "酸性〜中性、ローム・砂質",
@@ -127,10 +142,6 @@
   "salt": {
    "value": null,
    "note": "記述なし"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -148,31 +159,41 @@
     "s01"
    ],
    "level": "species",
-   "note": "シリーズのシノニムは L. polyphyllus 'Band of Nobles'。属の原産地はアメリカ、地中海〜タンザニア（NC State）"
+   "note": "シリーズのシノニムは L. polyphyllus 'Band of Nobles'。属の原産地はアメリカ、地中海〜タンザニア（NC State）。stauden.de は Lupinus polyphyllus として北米（米国・カナダ）とするが、種の扱いが文献で割れているため値は変えない"
   },
   "spread_modes": {
    "value": [
-    "株立ち（広がらない）"
+    "株立ち（広がらない）",
+    "こぼれ種"
    ],
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s18",
+    "s02"
    ],
-   "level": "species",
-   "note": "Clump forming（シリーズ）"
+   "level": "cultivar",
+   "note": "RHS シリーズ Clump forming、stauden.de（品種）horstig。こぼれ種は stauden.de（品種）「こぼれ種の芽生えに注意し管理する」、MBG（交配群）「望まないこぼれ種を防ぐため花がらを切る」"
   },
   "self_seed_level": {
-   "value": null,
-   "note": "記述なし"
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s18",
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "こぼれ種をすることは読み取れるが程度（freely 等）の記述がないため 1"
   },
   "rhizome_level": {
    "value": 0,
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "species",
-   "note": "Clump forming で広がる記述なし（RHS 属：直根が深い）"
+   "note": "Clump forming で広がる記述なし（RHS 属：直根が深い）。stauden.de（品種）も horstig（株立ち）"
   },
   "mixing": {
    "value": "普通（混植可）",
@@ -190,7 +211,8 @@
    "value": "食べると有害、全草有毒。犬・猫・ウサギ・カメなどペットに有毒",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "species",
    "note": "シリーズページと RHS 栽培ガイド（属）"
@@ -208,7 +230,8 @@
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "species",
    "note": "シリーズページと RHS 栽培ガイド（属）"
@@ -217,7 +240,8 @@
    "value": "花がらを摘む（終わった花穂を基部から切る）と二番花が咲く。霜で枯れた葉は刈り取ってよい",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "species",
    "note": "シリーズページと RHS 栽培ガイド（属）"
@@ -229,7 +253,9 @@
    ],
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18"
    ],
    "level": "species"
   },
@@ -240,7 +266,7 @@
     "s01"
    ],
    "level": "species",
-   "note": "花後の切り戻しで返り咲き。なお二年草または短命な多年草（2〜5年）とされるが、毎年の株更新が必要との明記はない"
+   "note": "花後の切り戻しで返り咲き。なお二年草または短命な多年草（2〜5年）とされるが、毎年の株更新が必要との明記はない（MBG も短命で2〜5年とするが更新の明記なし）"
   },
   "division_interval": {
    "value": "株分けは成功しにくい（直根が深い）。芽が複数あれば早春に分けられる",
@@ -257,14 +283,20 @@
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "species",
    "note": "実生はシリーズページ、挿し木は RHS 栽培ガイド（属）"
   },
   "cut_flower": {
-   "value": null,
-   "note": "品種レベルの記述なし（文献は Band of Nobles Series／属レベルのみ）（NC State 属：Good Cut）"
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "stauden.de 品種ページ: 切り花・フラワーアレンジ向き（für Schnittzwecke, Floristik）。good／excellent の明記はないので ○（NC State 属は Good Cut）"
   },
   "pollinator": {
    "value": "◎",
@@ -279,18 +311,63 @@
  "conflicts": [
   {
    "field": "sun",
-   "detail": "RHS シリーズ Full sun, Partial shade／RHS 栽培ガイド（属）日向、日陰は避ける。シリーズの値を採用"
+   "detail": "RHS シリーズ Full sun, Partial shade／RHS 栽培ガイド（属）日向、日陰は避ける／MBG（交配群）Full sun／stauden.de（品種）sonnig。優先順位で RHS シリーズの値を採用"
   },
   {
    "field": "toxicity",
    "detail": "RHS 食べると有害・全草有毒／NC State（属）毒性低、有毒部位は種子。RHS を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "MBG（Lupinus × hybrida）4-8／NC State（属）4a-9b。耐寒側の優先順位で MBG を採用"
+  },
+  {
+   "field": "pruning",
+   "detail": "花後に切る位置: RHS（属）終わった花穂を基部から／stauden.de（品種）上の方の茎葉の上まで。秋の切り戻しは stauden.de が「秋に切り戻す」「秋は切り戻さない」の両方を挙げる。文章の RHS を採用（pruning_codes は変更なし）"
   }
  ],
  "name_review": {
   "current": "Lupinus × hybrida 'Fraulein'",
   "proposed": "未確定（使用可文献で確認できず）",
-  "reason": "使用可文献に 'Fräulein' の品種記録がなく、Kew でも照合できない。種の扱いもマスター Lupinus × hybrida、Jelitto URL L. perennis、RHS シリーズのシノニム L. polyphyllus と3通りに割れている。品種名も Fräulein（ウムラウト）か Fraulein か未確認。Band of Nobles Series の一色かどうかの確認が必要",
-  "source": "s01 / Kew"
+  "reason": "使用可文献に 'Fräulein' の品種記録がなく、Kew でも照合できない。種の扱いもマスター Lupinus × hybrida、Jelitto URL L. perennis、RHS シリーズのシノニム L. polyphyllus と3通りに割れている。品種名も Fräulein（ウムラウト）か Fraulein か未確認。Band of Nobles Series の一色かどうかの確認が必要。2026-11-19 追記: stauden.de（s18）は Lupinus polyphyllus 'Fräulein'（ウムラウトあり）として品種を掲載している",
+  "source": "s01 / Kew / s18"
  },
- "notes": "品種そのものの記述がなく、値はすべて Band of Nobles Series（level=species と記録）または属レベル。花色・株張り・形など品種レベル必須の項目は null。シリーズへの帰属が未確認なので、シリーズ由来の値（日照・H5・土・落葉など）も参考扱いが妥当。"
+ "notes": "品種そのものの記述がなく、値はすべて Band of Nobles Series（level=species と記録）または属レベル。花色・株張り・形など品種レベル必須の項目は null。シリーズへの帰属が未確認なので、シリーズ由来の値（日照・H5・土・落葉など）も参考扱いが妥当。 2026-11-19: stauden.de（s18）に Lupinus polyphyllus 'Fräulein' の品種ページがあり、形・切り花・こぼれ種は品種レベルの記述として採用した。MBG（s02）は交配群 Lupinus × hybrida のページ（level=species と記録）。",
+ "changes_20261119": [
+  {
+   "field": "silhouette",
+   "old": null,
+   "new": "株立ち",
+   "reason": "stauden.de（s18）に品種レベルの形の記述（株立ち・株元に葉が茂り茎が直立）が加わった"
+  },
+  {
+   "field": "usda_max",
+   "old": 9,
+   "new": 8,
+   "reason": "耐寒の優先順位で MBG（s02、交配群 4〜8）が NC State（s06、属 4a〜9b）より上のため MBG を採用"
+  },
+  {
+   "field": "spread_modes",
+   "old": [
+    "株立ち（広がらない）"
+   ],
+   "new": [
+    "株立ち（広がらない）",
+    "こぼれ種"
+   ],
+   "reason": "stauden.de（s18、品種）と MBG（s02）にこぼれ種の記述があり こぼれ種 を追加"
+  },
+  {
+   "field": "self_seed_level",
+   "old": null,
+   "new": 1,
+   "reason": "stauden.de（s18）・MBG（s02）にこぼれ種の記述。程度の明記がないので 1"
+  },
+  {
+   "field": "cut_flower",
+   "old": null,
+   "new": "○",
+   "reason": "stauden.de（s18）の品種ページに切り花向きの記載。評価の強さの明記がないので ○"
+  }
+ ]
 }

@@ -5,10 +5,11 @@
    "value": "Tricyrtis 'Lightning Strike'",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "RHS 表記は Tricyrtis 'Lightning Strike' (v)。(v) は斑入りの印なので学名から除いた"
+   "note": "RHS 表記は Tricyrtis 'Lightning Strike' (v)。(v) は斑入りの印なので学名から除いた。MBG も Tricyrtis 'Lightning Strike'（種小名なし）"
   },
   "synonyms": {
    "value": [
@@ -103,24 +104,25 @@
    "sources": [
     "s08",
     "s06",
-    "s10"
+    "s10",
+    "s02"
    ],
-   "level": "genus",
-   "note": "3文献とも半日陰〜日陰（日陰も可）。区分に『半日陰〜日陰』がないため半日陰"
+   "level": "cultivar",
+   "note": "4文献とも半日陰〜日陰（日陰も可）。MBG・Walters は品種ページ。区分に『半日陰〜日陰』がないため半日陰"
   },
   "usda_min": {
-   "value": 4,
+   "value": 5,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "cultivar"
   },
   "usda_max": {
-   "value": 9,
+   "value": 8,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -128,18 +130,26 @@
    "value": null,
    "note": "RHS 品種ページに H値なし"
   },
+  "common_name_ja": {
+   "value": null,
+   "note": "種が確定しないため null（RHS・MBG の正名は種小名なし、RHS のシノニムは T. latifolia）。YList（s04）の Tricyrtis hirta の標準和名は ホトトギス で、T. hirta の品種と確認できれば使える"
+  },
   "heat": {
    "value": "中",
    "method": "判定",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "cultivar",
-   "note": "暑さの記述なし。USDA上限から（9）"
+   "note": "MBG 品種ページ: 夏が暑い地域で日なたに植えると葉が焼けやすい。条件つきの記述のみ（ルール③）"
   },
   "heat_note": {
-   "value": null,
-   "note": "暑さ・蒸れの記述なし"
+   "value": "夏が暑い地域で日なたに植えると葉が焼けやすい",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "drought": {
    "value": "弱",
@@ -155,10 +165,11 @@
    "value": "湿潤寄り",
    "method": "判定",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "genus",
-   "note": "consistent moisture（ただし沼のような過湿は不可）"
+   "note": "consistent moisture（ただし沼のような過湿は不可）。MBG（品種）も Medium to wet"
   },
   "soil_ph_type": {
    "value": "弱酸性、有機質に富む土",
@@ -174,30 +185,34 @@
    "value": null,
    "note": "記述なし"
   },
-  "evergreen_cold": {
-   "value": null,
-   "note": "記述なし"
-  },
   "evergreen_warm": {
-   "value": null,
-   "note": "記述なし"
+   "value": "落葉",
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "species",
+   "note": "stauden.de の T. hirta 種ページ Blattphase: sommergrün。他の文献に記述がないため採用。品種の種が確定していない点に注意"
   },
   "native_range": {
    "value": null,
-   "note": "種が確定しない（RHS は種小名なし、シノニムは T. latifolia、NC State は T. hirta）ため。T. hirta なら本州・四国・九州（NC State）"
+   "note": "種が確定しない（RHS は種小名なし、シノニムは T. latifolia、NC State は T. hirta）ため。T. hirta なら本州・四国・九州（NC State）。stauden.de（T. hirta）も日本"
   },
   "spread_modes": {
    "value": [
     "地下茎",
+    "ランナー",
     "こぼれ種"
    ],
    "method": "判定",
    "sources": [
     "s06",
-    "s01"
+    "s01",
+    "s02",
+    "s18"
    ],
    "level": "species",
-   "note": "NC State（T. hirta）ゆっくり広がる匍匐根茎、条件が良いとこぼれ種。RHS（属）根茎性"
+   "note": "NC State（T. hirta）ゆっくり広がる匍匐根茎、条件が良いとこぼれ種。RHS（属）根茎性、ときに匍匐枝。MBG（品種）stoloniferous で時間をかけて群落を作る。stauden.de（T. hirta）株立ち・地下茎を作る"
   },
   "self_seed_level": {
    "value": 1,
@@ -212,19 +227,21 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species",
-   "note": "slow forming, creeping rhizomes"
+   "note": "slow forming, creeping rhizomes。MBG（品種）時間をかけて群落を作る"
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
-   "level": "species",
-   "note": "Clumping でゆっくり広がる。強い広がり・侵略性の記述なし"
+   "level": "cultivar",
+   "note": "Clumping でゆっくり広がる。強い広がり・侵略性の記述なし。MBG（品種）non-invasive（広がりすぎない）と明記"
   },
   "invasive_note": {
    "value": null,
@@ -239,13 +256,17 @@
     "ウサギの食害",
     "アブラムシ（ウイルス媒介）",
     "Tricyrtis ウイルス病",
-    "炭疽病"
+    "炭疽病",
+    "ナメクジ",
+    "カタツムリ"
    ],
    "method": "記載",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
-   "level": "species"
+   "level": "species",
+   "note": "ウサギ・アブラムシ・ウイルス・炭疽病は NC State（T. hirta 種）。ナメクジ・カタツムリは MBG（品種）で「ときどき」"
   },
   "pruning": {
    "value": "花がら摘み・支柱は不要",
@@ -291,7 +312,8 @@
    ],
    "method": "記載",
    "sources": [
-    "s06"
+    "s06",
+    "s18"
    ],
    "level": "species"
   },
@@ -321,7 +343,7 @@
   },
   {
    "field": "usda",
-   "detail": "Walters（品種）4-9／NC State（種）4a-8b。Walters を採用"
+   "detail": "MBG（品種）5-8／Walters（品種）4-9／NC State（種）4a-8b。耐寒側の優先順位で MBG を採用"
   },
   {
    "field": "drought",
@@ -329,18 +351,89 @@
   },
   {
    "field": "soil_moisture",
-   "detail": "シカゴ（属）常に湿り気／Walters（品種）Average or Moist。シカゴを採用"
+   "detail": "シカゴ（属）常に湿り気・MBG（品種）Medium to wet／Walters（品種）Average or Moist／stauden.de（T. hirta）frisch（適湿）。シカゴを採用"
   },
   {
    "field": "soil_ph_type",
    "detail": "NC State（種）弱酸性／Walters（品種）砂質・粘土、pH 中性・アルカリ性・酸性。NC State を採用"
+  },
+  {
+   "field": "pests",
+   "detail": "NC State（種）ウサギ・アブラムシ媒介ウイルス・炭疽病／MBG（品種）重大な病害虫はない（ナメクジ・カタツムリがときどき）。優先順位で NC State の内容を残し、MBG のナメクジ・カタツムリを足した"
+  },
+  {
+   "field": "pruning",
+   "detail": "シカゴ（属）花がら摘み不要／stauden.de（T. hirta）秋〜晩秋に茎を切り戻す。文章のシカゴを採って 不要"
   }
  ],
  "name_review": {
   "current": "Tricyrtis hirta 'Lightning Strike'",
   "proposed": "Tricyrtis 'Lightning Strike'",
-  "reason": "RHS の正名は種小名なしの Tricyrtis 'Lightning Strike'（シノニム T. latifolia 'Lightning Strike'）。Walters・シカゴ植物園も種小名なし。T. hirta としているのは NC State だけ",
+  "reason": "RHS の正名は種小名なしの Tricyrtis 'Lightning Strike'（シノニム T. latifolia 'Lightning Strike'）。Walters・シカゴ植物園も種小名なし。T. hirta としているのは NC State だけ。MBG（s02）も種小名なしで掲載。stauden.de（s18）に品種の掲載はなく T. hirta の種ページのみ",
   "source": "s01 / Kew"
  },
- "notes": "種が確定しないため、T. hirta 種ページ（NC State）由来の値（増え方・病害虫・繁殖など）は品種に当てはまらない可能性がある。Walters は寒冷地では早霜で咲きにくく保護が必要と記載。"
+ "notes": "種が確定しないため、T. hirta 種ページ（NC State）由来の値（増え方・病害虫・繁殖など）は品種に当てはまらない可能性がある。Walters は寒冷地では早霜で咲きにくく保護が必要と記載。 2026-11-19: MBG（s02）は品種ページ。YList（s04）と stauden.de（s18）は T. hirta の種ページで、種が確定しないため和名は null、常緑性だけ他に記述がないので採用した。stauden.de は雪のない凍結時の防寒を勧めている（該当項目なし）。",
+ "changes_20261119": [
+  {
+   "field": "usda_min",
+   "old": 4,
+   "new": 5,
+   "reason": "耐寒の優先順位で MBG（s02、品種 5〜8）が Walters（s10、品種 4〜9）より上のため MBG を採用"
+  },
+  {
+   "field": "usda_max",
+   "old": 9,
+   "new": 8,
+   "reason": "同上（MBG s02 の 5〜8 を採用）"
+  },
+  {
+   "field": "heat",
+   "old": "中",
+   "new": "中",
+   "reason": "値は同じだが根拠を入れ替えた。以前は USDA上限（9）から。MBG（s02、品種）の「暑い地域の日なたでは葉が焼けやすい」という条件つきの記述（ルール③）で決め直した"
+  },
+  {
+   "field": "heat_note",
+   "old": null,
+   "new": "夏が暑い地域で日なたに植えると葉が焼けやすい",
+   "reason": "MBG（s02）の品種ページに暑さに関する記述"
+  },
+  {
+   "field": "evergreen_warm",
+   "old": null,
+   "new": "落葉",
+   "reason": "他の文献に常緑性の記述がなく、stauden.de（s18、T. hirta 種ページ）の sommergrün を 落葉 と読んだ"
+  },
+  {
+   "field": "spread_modes",
+   "old": [
+    "地下茎",
+    "こぼれ種"
+   ],
+   "new": [
+    "地下茎",
+    "ランナー",
+    "こぼれ種"
+   ],
+   "reason": "MBG（s02、品種ページ）に stoloniferous（ほふく茎）の明記があり ランナー を追加。RHS（s01、属）の「ときに匍匐枝」とも合う"
+  },
+  {
+   "field": "pests",
+   "old": [
+    "ウサギの食害",
+    "アブラムシ（ウイルス媒介）",
+    "Tricyrtis ウイルス病",
+    "炭疽病"
+   ],
+   "new": [
+    "ウサギの食害",
+    "アブラムシ（ウイルス媒介）",
+    "Tricyrtis ウイルス病",
+    "炭疽病",
+    "ナメクジ",
+    "カタツムリ"
+   ],
+   "reason": "MBG（s02、品種ページ）にナメクジ・カタツムリの記載があり追加"
+  }
+ ]
 }

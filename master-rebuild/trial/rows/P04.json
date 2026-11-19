@@ -132,6 +132,10 @@
    ],
    "level": "species"
   },
+  "common_name_ja": {
+   "value": null,
+   "note": "YList（s04）に Sagina subulata の該当なし"
+  },
   "heat": {
    "value": "弱",
    "method": "判定",
@@ -185,10 +189,6 @@
   "salt": {
    "value": null
   },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
-  },
   "evergreen_warm": {
    "value": "常緑",
    "method": "記載",
@@ -203,7 +203,8 @@
    "value": "ヨーロッパ（英国・アイルランドにも自生）",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "species"
   },
@@ -331,8 +332,13 @@
   {
    "field": "native_range",
    "detail": "RHS ヨーロッパ（英国自生）／NCSU チリ〜アルゼンチン・フォークランド。RHS を採用（NCSU は Colobanthus subulatus と混同の可能性）"
+  },
+  {
+   "field": "sun",
+   "detail": "stauden.de absonnig（明るい日陰）／RHS 日なた〜半日陰（真昼に少し日陰）。RHS を採用"
   }
  ],
  "name_review": null,
- "notes": "品種名なしの種商品のため種レベル記述を品種レベル扱い（level は species のまま記録）。Kew 照合結果（Synonym → Colobanthus subulatus (d'Urv.) Hook.f.、南米南部産）は RHS の扱いと合わず、同名の別学名に当たった可能性が高い。学名は RHS どおりで変更不要と判断したが、Kew の再照合を推奨。"
+ "notes": "品種名なしの種商品のため種レベル記述を品種レベル扱い（level は species のまま記録）。Kew 照合結果（Synonym → Colobanthus subulatus (d'Urv.) Hook.f.、南米南部産）は RHS の扱いと合わず、同名の別学名に当たった可能性が高い。学名は RHS どおりで変更不要と判断したが、Kew の再照合を推奨。",
+ "changes_20261119": []
 }

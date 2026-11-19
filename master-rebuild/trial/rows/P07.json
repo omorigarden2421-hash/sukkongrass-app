@@ -14,6 +14,10 @@
   "synonyms": {
    "value": null
   },
+  "common_name_ja": {
+   "value": null,
+   "note": "YList に該当なし"
+  },
   "flower_color_detail": {
    "value": "黄緑",
    "method": "記載",
@@ -87,17 +91,19 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "species",
-   "note": "RHS 低いマウンド・房状、clump forming。CBG は Creeping"
+   "note": "RHS 低いマウンド・房状、clump forming。CBG は Creeping。s18 はクッション状"
   },
   "sun": {
    "value": "日向〜半日陰",
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "species"
   },
@@ -131,8 +137,8 @@
    "sources": [
     "s08"
    ],
-   "level": "species",
-   "note": "USDA上限から（上限9）。シカゴ評価試験の1998年夏の衰弱は原因の記載がなく①には当てはめなかった"
+   "level": "genus",
+   "note": "CBG（属）「日なたでは特に夏の高温地域で追加の水やりが必要」を条件つきの記述（③）とした。シカゴ評価試験の1998年夏の衰弱は原因の記載がなく①には当てはめなかった。USDA上限は使っていない"
   },
   "heat_note": {
    "value": "シカゴの評価試験では1998年夏に急に衰弱し、翌冬に株元が傷んだ（原因の記載なし）。属としては日なたでは夏の高温地域で追加の水やりが必要。",
@@ -157,7 +163,8 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "species"
   },
@@ -179,10 +186,6 @@
    "level": "species",
    "note": "RHS Coastal のみ"
   },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
-  },
   "evergreen_warm": {
    "value": "落葉",
    "method": "記載",
@@ -197,7 +200,8 @@
    "sources": [
     "Kew"
    ],
-   "level": "species"
+   "level": "species",
+   "note": "s18 は西アルプス・中央アルプスとする"
   },
   "spread_modes": {
    "value": [
@@ -207,7 +211,8 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s08"
+    "s08",
+    "s18"
    ],
    "level": "species",
    "note": "株立ちは RHS（種）、こぼれ種は CBG（属: self-sow readily）"
@@ -225,7 +230,8 @@
    "value": 0,
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "species",
    "note": "clump-forming の記述のみ"
@@ -337,8 +343,13 @@
   {
    "field": "silhouette",
    "detail": "RHS・Walters 低いマウンド／CBG Creeping。RHS を採用"
+  },
+  {
+   "field": "native_range",
+   "detail": "Kew スペイン〜オーストリア・イタリア／stauden.de 西アルプス・中央アルプス。Kew を採用"
   }
  ],
  "name_review": null,
- "notes": "品種名なしの種商品のため種レベル記述を品種レベル扱い（level は species のまま記録）。RHS の Name Status が Unresolved のため Kew の正名で確認（マスターと同じ）。マスターの耐潮性出典（plantlust の A. mollis）は別種・対象外文献で未使用。"
+ "notes": "品種名なしの種商品のため種レベル記述を品種レベル扱い（level は species のまま記録）。RHS の Name Status が Unresolved のため Kew の正名で確認（マスターと同じ）。マスターの耐潮性出典（plantlust の A. mollis）は別種・対象外文献で未使用。",
+ "changes_20261119": []
 }

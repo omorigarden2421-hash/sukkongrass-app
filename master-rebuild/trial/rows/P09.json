@@ -20,6 +20,15 @@
    ],
    "level": "cultivar"
   },
+  "common_name_ja": {
+   "value": "ススキ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "種 Miscanthus sinensis の和名（YList 標準）"
+  },
   "flower_color_detail": {
    "value": "ピンクがかった花穂",
    "method": "記載",
@@ -109,7 +118,8 @@
    "value": "日向",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar",
    "note": "RHS Full sun"
@@ -119,7 +129,8 @@
    "method": "記載",
    "sources": [
     "s10",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -128,7 +139,8 @@
    "method": "記載",
    "sources": [
     "s10",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -144,17 +156,19 @@
    "value": "強",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "tolerant of heat、Heat・Humidity タグ"
+   "note": "NCSU tolerant of heat、Heat・Humidity タグ。MBG も Tolerant of summer heat and humidity"
   },
   "heat_note": {
    "value": "暑さ・湿気に強い。開花には長く暑い生育期が必要で、冷涼な夏の地域では咲かないこともある。暖地では午後の日陰がよい。",
    "method": "記載",
    "sources": [
     "s06",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -162,10 +176,11 @@
    "value": "強",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "drought tolerant once established"
+   "note": "NCSU drought tolerant once established。MBG Tolerate: Drought"
   },
   "soil_moisture": {
    "value": "排水必須",
@@ -196,10 +211,6 @@
    "level": "cultivar",
    "note": "Walters Salt Tolerant"
   },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
-  },
   "evergreen_warm": {
    "value": "落葉",
    "method": "記載",
@@ -224,10 +235,11 @@
    ],
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "地下茎の伸びは遅く株の形を保つ"
+   "note": "地下茎の伸びは遅く株の形を保つ（NCSU・MBG）。MBG・stauden.de のこぼれ種の記述は不採用（conflicts 参照）"
   },
   "self_seed_level": {
    "value": 0,
@@ -236,16 +248,17 @@
     "s06"
    ],
    "level": "cultivar",
-   "note": "does not produce viable seeds"
+   "note": "NCSU does not produce viable seeds。MBG・stauden.de はこぼれ種ありとするが優先順位で NCSU（conflicts 参照）"
   },
   "rhizome_level": {
    "value": 1,
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "rhizomes grow slowly"
+   "note": "rhizomes grow slowly（NCSU）／slowly expand by short rhizomes（MBG）"
   },
   "mixing": {
    "value": "普通（混植可）",
@@ -254,13 +267,14 @@
     "s06"
    ],
    "level": "cultivar",
-   "note": "株の形を保つ。種は侵略的だが本品種は侵略性が低いと明記"
+   "note": "株の形を保つ。種は侵略的だが本品種は侵略性が低いと NCSU が明記。MBG の「地域により侵略的」は優先順位で不採用（conflicts 参照）"
   },
   "invasive_note": {
-   "value": "原種ススキは米国南東部で侵略的になっているが、本品種は稔性のある種子を作らず侵略性はかなり低い。",
+   "value": "原種ススキは米国南東部で侵略的になっているが、本品種は稔性のある種子を作らず侵略性はかなり低い（NCSU）。ただし MBG はこぼれ種でやや広がりすぎることがあり、米国東部の多くの地域で侵略的としている。",
    "method": "記載",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -276,10 +290,11 @@
    ],
    "method": "記載",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "RHS・NCSU とも通常は病害虫なし。NCSU が可能性として挙げたもの"
+   "note": "RHS・NCSU とも通常は病害虫なし。NCSU が可能性として挙げたもの。MBG は一部地域でコナカイガラムシ・葉枯れ病が大きな問題になりつつあるとする"
   },
   "pruning": {
    "value": "晩冬〜早春まで刈らずに株元を守り、春に枯れ葉と古い花茎を取り除く（Walters は10cmまで切り戻す）。",
@@ -287,7 +302,8 @@
    "sources": [
     "s01",
     "s06",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -330,7 +346,9 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02",
+    "s18"
    ],
    "level": "cultivar",
    "note": "RHS は実生も挙げるが、NCSU が稔性種子を作らないと明記しているため除外"
@@ -376,8 +394,38 @@
   {
    "field": "propagation",
    "detail": "RHS 実生または株分け／NCSU 稔性種子を作らない"
+  },
+  {
+   "field": "sun",
+   "detail": "MBG 日なた〜半日陰／RHS・NCSU・stauden.de 日なた。RHS を採用"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "MBG Water: Medium・stauden.de 適湿（frisch）／RHS・NCSU 冬の過湿を避ける。RHS を採用"
+  },
+  {
+   "field": "self_seed_level",
+   "detail": "NCSU 本品種は稔性のある種子を作らない（0）／MBG こぼれ種でやや広がりすぎるほど増える（3相当）／stauden.de こぼれ種で増える・芽生えに注意。優先順位（s06 > s02 > s18）で NCSU を採用"
+  },
+  {
+   "field": "mixing",
+   "detail": "NCSU 本品種の侵略性はかなり低い（普通）／MBG 地域によっては侵略的・米国東部の多くで侵略的（侵略的相当）。優先順位で NCSU を採用"
   }
  ],
  "name_review": null,
- "notes": "品種レベルで揃う。開花は暑い長い生育期が必要との記述あり（冷涼地では咲かないことも）。"
+ "notes": "品種レベルで揃う。開花は暑い長い生育期が必要との記述あり（冷涼地では咲かないことも）。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "ススキ",
+   "reason": "新設。s04（YList）の種の和名"
+  },
+  {
+   "field": "invasive_note",
+   "old": "原種ススキは米国南東部で侵略的になっているが、本品種は稔性のある種子を作らず侵略性はかなり低い。",
+   "new": "原種ススキは米国南東部で侵略的になっているが、本品種は稔性のある種子を作らず侵略性はかなり低い（NCSU）。ただし MBG はこぼれ種でやや広がりすぎることがあり、米国東部の多くの地域で侵略的としている。",
+   "reason": "s02 の侵略性の注意を追記（区分の値は優先順位で s06 のまま）"
+  }
+ ]
 }

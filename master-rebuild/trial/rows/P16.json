@@ -5,7 +5,8 @@
    "value": "Heuchera 'Green Spice'",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -19,6 +20,10 @@
    ],
    "level": "cultivar",
    "note": "Walters が (='Eco-Improved') と併記"
+  },
+  "common_name_ja": {
+   "value": null,
+   "note": "YList に該当なし（種が決まらない交配品種のため検索対象外）"
   },
   "flower_color_detail": {
    "value": "淡いピンク",
@@ -98,16 +103,18 @@
    "method": "判定",
    "sources": [
     "s08",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar",
-   "note": "シカゴ Mounded、Walters sturdy mound。RHS は Bushy だが株の全体の形はマウンドに近い"
+   "note": "シカゴ Mounded、Walters sturdy mound、stauden.de kissenartig; halbkugelig。RHS は Bushy だが株の全体の形はマウンドに近い"
   },
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -115,16 +122,18 @@
    "value": 4,
    "method": "記載",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "Walters も 4-9"
+   "note": "Walters・MBG も 4-9"
   },
   "usda_max": {
    "value": 9,
    "method": "記載",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -140,21 +149,22 @@
    "value": "中",
    "method": "判定",
    "sources": [
-    "s08",
+    "s02",
     "s10"
    ],
    "level": "cultivar",
-   "note": "USDA上限から（9）。NC State（属）の『多くは比較的乾いた空気を好む』は暑さに弱いという明記とまでは言えないため①に当てはめなかった"
+   "note": "MBG（品種ページ、交配種全般の説明）: 暖地では午後の暑い時間に日陰を好む／Walters: 暖地では半日陰が最適。条件つきで育つ記述のみ（③）。以前は USDA上限から決めていたが、記述で決め直しても 中。NC State（属）の『多くは比較的乾いた空気を好む』は暑さに弱いという明記とまでは言えないため①に当てはめなかった"
   },
   "heat_note": {
-   "value": "暖地では半日陰が最適。属として多くは比較的乾いた空気を好み、高温乾燥期に日向だと葉焼けしやすい",
+   "value": "暖地では半日陰（午後の暑い時間に日陰になる所）が最適。属として多くは比較的乾いた空気を好み、高温乾燥期に日向だと葉焼けしやすい",
    "method": "記載",
    "sources": [
+    "s02",
     "s10",
     "s06"
    ],
    "level": "cultivar",
-   "note": "前半は Walters（品種）、後半は NC State（属）"
+   "note": "前半は MBG・Walters（品種）、後半は NC State（属）"
   },
   "drought": {
    "value": "強",
@@ -169,10 +179,11 @@
    "value": "適湿",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "Moist but well-drained"
+   "note": "RHS Moist but well-drained、MBG Water: Medium"
   },
   "soil_ph_type": {
    "value": "中性、ローム・砂質",
@@ -192,10 +203,6 @@
    "level": "cultivar",
    "note": "RHS Coastal のみ"
   },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし（シカゴ植物園は温暖地で冬も葉が観賞できるとのみ記載）"
-  },
   "evergreen_warm": {
    "value": "常緑",
    "method": "記載",
@@ -203,7 +210,8 @@
     "s01",
     "s10"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "RHS・Walters（品種）Evergreen。MBG は属の説明として常緑〜半常緑。s18 は wintergrün（半常緑相当）だが文章の記述を採用"
   },
   "native_range": {
    "value": "園芸品種（交配親の記載なし）。属として北米・ロシア極東原産",
@@ -221,25 +229,32 @@
    "method": "判定",
    "sources": [
     "s08",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar",
-   "note": "マウンド状で広がる記述なし"
+   "note": "マウンド状で広がる記述なし。stauden.de horstig（株立ち）"
   },
   "self_seed_level": {
    "value": null,
    "note": "記述なし"
   },
   "rhizome_level": {
-   "value": null,
-   "note": "clump-forming の明記も広がりの記述もなし"
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "s18: horstig（株立ち）。他の文献に記述なし"
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
     "s08",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar",
    "note": "マウンド状で広がり・侵略性の記述なし"
@@ -265,51 +280,57 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "前3つは RHS（品種）、残りは NC State（属）"
+   "note": "前3つは RHS（品種）、残りは NC State（属）。MBG（品種ページ）もうどんこ病・さび病・斑点細菌病・ゾウムシ・葉のセンチュウを挙げる"
   },
   "pruning": {
-   "value": "早春に徒長・木質化した茎を葉芽まで切り戻し、春に傷んだ古葉を取り除いて整える。秋には刈り込まない",
+   "value": "早春に徒長・木質化した茎を葉芽まで切り戻し、春に傷んだ古葉を取り除いて整える。咲き終わった花茎は株元の葉の上で切る。秋には刈り込まない",
    "method": "記載",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar"
   },
   "pruning_codes": {
    "value": [
-    "早春"
+    "早春",
+    "花後"
    ],
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar",
-   "note": "地際で刈るのではなく、春に古葉を取り除く・徒長茎を切り戻す内容"
+   "note": "早春は地際で刈るのではなく、春に古葉を取り除く・徒長茎を切り戻す内容。花後は s18（咲き終わった花茎を切る）のみ"
   },
   "management_type": {
-   "value": "A 放任型",
+   "value": "B 花後刈込型",
    "method": "判定",
    "sources": [
+    "s18",
     "s01",
     "s10"
    ],
    "level": "cultivar",
-   "note": "春の手入れのみ。RHS は根茎が持ち上がるので毎年マルチか掘り上げて植え直すと記載（毎年の株更新の明記ではないため D にしなかった）"
+   "note": "pruning_codes に 花後（s18 のみが根拠の花茎切り）が入ったため、上から順の判定で B。s18 を除けば春の手入れのみで A。RHS は根茎が持ち上がるので毎年マルチか掘り上げて植え直すと記載、MBG は3〜4年ごとの株分け（いずれも毎年の株更新の明記ではないため D にしなかった）"
   },
   "division_interval": {
-   "value": "3〜4年ごと（属として）、秋",
+   "value": "3〜4年ごと、秋（MBG は春）",
    "method": "記載",
    "sources": [
+    "s02",
     "s06",
     "s01"
    ],
-   "level": "genus",
-   "note": "間隔は NC State（属：定期的に株分けしないと短命）、時期は RHS（秋の株分け）"
+   "level": "cultivar",
+   "note": "間隔は MBG（品種ページ）と NC State（属：定期的に株分けしないと短命）、時期は RHS（秋の株分け）を優先"
   },
   "propagation": {
    "value": [
@@ -321,7 +342,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "Walters：COPF 登録品種で増殖にはロイヤリティが必要"
+   "note": "Walters：COPF 登録品種で増殖にはロイヤリティが必要。s18（種）の種まきは交配品種の増やし方として採らなかった"
   },
   "cut_flower": {
    "value": null
@@ -343,17 +364,72 @@
   },
   {
    "field": "spread",
-   "detail": "Walters 45-60cm／シカゴ植物園 41cm（16インチ）／RHS 0.1-0.5m。Walters を採用"
+   "detail": "Walters 45-60cm／シカゴ植物園 41cm（16インチ）／MBG 1〜1.5フィート（30〜46cm）／RHS 0.1-0.5m。Walters を採用"
   },
   {
    "field": "sun",
-   "detail": "RHS Full sun, Partial shade／シカゴ植物園 Full Sun, Partial Shade／Walters Partial Shade or Full Shade。RHS を採用"
+   "detail": "RHS Full sun, Partial shade／シカゴ植物園 Full Sun, Partial Shade／MBG Full sun to part shade／Walters Partial Shade or Full Shade／stauden.de halbschattig。RHS を採用"
   },
   {
    "field": "soil_ph_type",
    "detail": "RHS pH Neutral／Walters Neutral or Alkaline or Acid／NC State（属）弱酸性。RHS を採用"
+  },
+  {
+   "field": "accepted_name",
+   "detail": "RHS・MBG Heuchera 'Green Spice'／stauden.de Heuchera americana 'Green Spice'。RHS を採用"
+  },
+  {
+   "field": "evergreen_warm",
+   "detail": "RHS・Walters 常緑／stauden.de wintergrün（半常緑相当）、MBG は属として常緑〜半常緑。品種レベルの文章の記述（RHS・Walters）を採用"
+  },
+  {
+   "field": "division_interval",
+   "detail": "RHS 秋に株分け／MBG 3〜4年ごとに春／stauden.de 春・冬〜春。時期は RHS を採用"
   }
  ],
  "name_review": null,
- "notes": "マスターの花色『目立たない』はどの文献とも一致しない（淡ピンク〜クリームの花を記載）。耐潮性は直接の記述がなく RHS の Coastal のみ。"
+ "notes": "マスターの花色『目立たない』はどの文献とも一致しない（淡ピンク〜クリームの花を記載）。耐潮性は直接の記述がなく RHS の Coastal のみ。 耐暑性は MBG・Walters の『暖地では半日陰・午後の日陰』の記述で 中（USDA上限からの判定をやめた）。管理タイプは s18 の花茎切りだけを根拠に A から B に変わっているので要確認。",
+ "changes_20261119": [
+  {
+   "field": "heat_note",
+   "old": "暖地では半日陰が最適。属として多くは比較的乾いた空気を好み、高温乾燥期に日向だと葉焼けしやすい",
+   "new": "暖地では半日陰（午後の暑い時間に日陰になる所）が最適。属として多くは比較的乾いた空気を好み、高温乾燥期に日向だと葉焼けしやすい",
+   "reason": "MBG（s02）の「暖地では午後の暑い時間に日陰を好む」を加えた"
+  },
+  {
+   "field": "rhizome_level",
+   "old": null,
+   "new": 0,
+   "reason": "s18 に株立ち（horstig）。他の文献に記述なし"
+  },
+  {
+   "field": "pruning",
+   "old": "早春に徒長・木質化した茎を葉芽まで切り戻し、春に傷んだ古葉を取り除いて整える。秋には刈り込まない",
+   "new": "早春に徒長・木質化した茎を葉芽まで切り戻し、春に傷んだ古葉を取り除いて整える。咲き終わった花茎は株元の葉の上で切る。秋には刈り込まない",
+   "reason": "s18 の「咲き終わった茎を株元の葉の上まで切り戻す」を加えた（秋に切らない点は s18 も同じ）"
+  },
+  {
+   "field": "pruning_codes",
+   "old": [
+    "早春"
+   ],
+   "new": [
+    "早春",
+    "花後"
+   ],
+   "reason": "s18「咲き終わった茎を株元の葉の上まで切り戻す」で 花後 を追加"
+  },
+  {
+   "field": "management_type",
+   "old": "A 放任型",
+   "new": "B 花後刈込型",
+   "reason": "pruning_codes に 花後（s18）が加わったため連動して A → B。根拠は s18 のみ"
+  },
+  {
+   "field": "division_interval",
+   "old": "3〜4年ごと（属として）、秋",
+   "new": "3〜4年ごと、秋（MBG は春）",
+   "reason": "MBG（s02）の品種ページに「3〜4年ごとに春に株分け」。間隔が品種レベルで裏づけられ「（属として）」を外した。時期は RHS 優先で秋、MBG の春を併記"
+  }
+ ]
 }

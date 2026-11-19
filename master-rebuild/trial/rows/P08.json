@@ -23,6 +23,10 @@
    "level": "cultivar",
    "note": "'Stricta' は RHS のシノニム。NCSU は別品種扱い（evidence notes）"
   },
+  "common_name_ja": {
+   "value": null,
+   "note": "YList に該当なし"
+  },
   "flower_color_detail": {
    "value": "ブロンズの花穂が淡褐色に褪せる",
    "method": "記載",
@@ -89,7 +93,7 @@
     "s06"
    ],
    "level": "cultivar",
-   "note": "紅葉の色は記載なし"
+   "note": "紅葉の色は記載なし。s18 は紅葉なし・冬も立ち姿が残るとする"
   },
   "fragrance": {
    "value": null,
@@ -112,21 +116,24 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "RHS Full sun, Partial shade"
+   "note": "RHS Full sun, Partial shade。NCSU も日なた〜半日陰。MBG・Walters・stauden.de は日なたのみ"
   },
   "usda_min": {
-   "value": 4,
+   "value": 5,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02",
+    "s06"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "耐寒の優先順位で MBG（5〜9）が Walters（4〜8）より上。NCSU 5a〜9b とも一致"
   },
   "usda_max": {
-   "value": 8,
+   "value": 9,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02",
+    "s06"
    ],
    "level": "cultivar"
   },
@@ -145,13 +152,14 @@
     "s06"
    ],
    "level": "cultivar",
-   "note": "hot, humid, or wet summers で弱ると明記"
+   "note": "NCSU: hot, humid, or wet summers で弱ると明記。MBG は「暑い地域では午後の日陰を好む」（中に相当）だが、暑さの優先順位で NCSU を採用"
   },
   "heat_note": {
-   "value": "暑く湿った・雨の多い夏には弱り、さび病にかかりやすい。猛暑時は十分に水を与える。",
+   "value": "暑く湿った・雨の多い夏には弱り、さび病にかかりやすい。夏が暑い地域では午後に少し日陰になる所を好む。猛暑時は十分に水を与える。",
    "method": "記載",
    "sources": [
     "s06",
+    "s02",
     "s10"
    ],
    "level": "cultivar"
@@ -173,7 +181,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "RHS Moist but well-drained or Well-drained。NCSU は湿った土・乾燥の両方に耐えるとする"
+   "note": "RHS Moist but well-drained or Well-drained。NCSU は湿った土・乾燥の両方に耐えるとする。MBG は中〜湿、s18 は乾燥〜適湿"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
@@ -193,10 +201,6 @@
    ],
    "level": "cultivar",
    "note": "Walters Salt Tolerant"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -224,7 +228,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "地下茎でゆっくり広がる。不稔でこぼれ種はしない"
+   "note": "地下茎でゆっくり広がる。不稔でこぼれ種はしない（NCSU・Walters）。s18 は株立ち・こぼれ種で増えるとするが文章の記述を優先"
   },
   "self_seed_level": {
    "value": 0,
@@ -234,7 +238,7 @@
     "s10"
    ],
    "level": "cultivar",
-   "note": "sterile and does not self-seed"
+   "note": "sterile and does not self-seed。s18 の versamend は採らない"
   },
   "rhizome_level": {
    "value": 1,
@@ -270,18 +274,20 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
    "note": "害虫はほぼなし"
   },
   "pruning": {
-   "value": "早春、新芽が動く前に古い茎葉を切り戻す（RHS は地際まで。NCSU は1/3ほど残し強く切りすぎない、Walters は15cmに）。",
+   "value": "早春、新芽が動く前に古い茎葉を切り戻す（RHS は地際まで。NCSU は1/3ほど残し強く切りすぎない、Walters は15cmに）。秋は切り戻さず冬の姿を残す。",
    "method": "記載",
    "sources": [
     "s01",
     "s06",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -293,7 +299,8 @@
    "sources": [
     "s01",
     "s06",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -345,11 +352,11 @@
  "conflicts": [
   {
    "field": "usda",
-   "detail": "Walters 4〜8／NCSU 5a〜9b。優先順位により Walters を採用"
+   "detail": "MBG 5〜9／Walters 4〜8／NCSU 5a〜9b。耐寒の優先順位により MBG を採用（stauden.de の Z3 は値に使わない）"
   },
   {
    "field": "spread",
-   "detail": "Walters 2ft(61cm)／NCSU 1〜1.5ft(30〜46cm)／RHS 0.5〜1m。品種の具体値で優先の Walters を採用"
+   "detail": "Walters 2ft(61cm)／NCSU 1〜1.5ft(30〜46cm)／RHS 0.5〜1m。品種の具体値で優先の Walters を採用。MBG は 1.5〜2.5ft(46〜76cm)"
   },
   {
    "field": "pruning",
@@ -361,9 +368,55 @@
   },
   {
    "field": "soil_moisture",
-   "detail": "RHS 湿り気〜水はけよい／NCSU 湿った土・乾燥・粘土に耐える（幅広く適応寄り）。RHS を採用"
+   "detail": "RHS 湿り気〜水はけよい／NCSU 湿った土・乾燥・粘土に耐える（幅広く適応寄り）。RHS を採用。MBG は中〜湿（湿った土に耐える）、stauden.de は乾燥〜適湿"
+  },
+  {
+   "field": "heat",
+   "detail": "NCSU 高温多湿の夏に弱る（弱）／MBG 夏が暑い地域では午後の日陰を好む（中に相当）。暑さの優先順位により NCSU を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS・NCSU 日なた〜半日陰／MBG・Walters・stauden.de 日なた。RHS を採用"
+  },
+  {
+   "field": "spread_modes",
+   "detail": "NCSU 地下茎でゆっくり広がる／stauden.de 株立ち（horstig）。文章の記述（NCSU）を採用"
+  },
+  {
+   "field": "self_seed_level",
+   "detail": "NCSU 不稔でこぼれ種しない・Walters will not reseed／stauden.de こぼれ種で増える（versamend）。文章の記述（NCSU・Walters）を採用"
+  },
+  {
+   "field": "seasonal_foliage",
+   "detail": "Walters 見どころに Fall Color／stauden.de 紅葉なし。優先順位により Walters を採用"
   }
  ],
  "name_review": null,
- "notes": "品種レベルの記述が揃っている。暑さは NCSU の『高温多湿の夏に弱る』で弱とした（Walters のゾーン上限8とも整合）。シルエットはイネ科だが直立性が明記されているため直立。"
+ "notes": "品種レベルの記述が揃っている。暑さは NCSU の『高温多湿の夏に弱る』で弱とした。USDA は優先順位により MBG の 5〜9 に変更（MBG の位置は仮置きのため要確認）。シルエットはイネ科だが直立性が明記されているため直立。",
+ "changes_20261119": [
+  {
+   "field": "usda_min",
+   "old": 4,
+   "new": 5,
+   "reason": "耐寒の優先順位で s02（5〜9）が s10（4〜8）より上のため s02 を採用（s06 も 5a〜9b）"
+  },
+  {
+   "field": "usda_max",
+   "old": 8,
+   "new": 9,
+   "reason": "耐寒の優先順位で s02（5〜9）が s10（4〜8）より上のため s02 を採用（s06 も 5a〜9b）"
+  },
+  {
+   "field": "heat_note",
+   "old": "暑く湿った・雨の多い夏には弱り、さび病にかかりやすい。猛暑時は十分に水を与える。",
+   "new": "暑く湿った・雨の多い夏には弱り、さび病にかかりやすい。夏が暑い地域では午後に少し日陰になる所を好む。猛暑時は十分に水を与える。",
+   "reason": "s02「夏が暑い地域では午後に少し日陰を好む」を加えた"
+  },
+  {
+   "field": "pruning",
+   "old": "早春、新芽が動く前に古い茎葉を切り戻す（RHS は地際まで。NCSU は1/3ほど残し強く切りすぎない、Walters は15cmに）。",
+   "new": "早春、新芽が動く前に古い茎葉を切り戻す（RHS は地際まで。NCSU は1/3ほど残し強く切りすぎない、Walters は15cmに）。秋は切り戻さず冬の姿を残す。",
+   "reason": "s18「秋は切り戻さない」を加えた"
+  }
+ ]
 }

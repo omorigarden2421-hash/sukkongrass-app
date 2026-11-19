@@ -5,7 +5,8 @@
    "value": "Sedum spurium 'Schorbuser Blut'",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar",
    "note": "RHS では 'Dragon's Blood' はシノニム、正名は 'Schorbuser Blut'。種の属は Kew・NC State・シカゴ植物園が Phedimus spurius、RHS は Sedum spurium で割れている（ルールどおり RHS を採用）"
@@ -23,6 +24,10 @@
    ],
    "level": "cultivar",
    "note": "流通名 'Dragon's Blood' を含む。種名 Phedimus spurius は Kew の正名（Sedum spurium は Kew ではシノニム）"
+  },
+  "common_name_ja": {
+   "value": null,
+   "note": "YList に該当なし（Sedum spurium で検索）"
   },
   "flower_color_detail": {
    "value": "濃い赤みのピンク",
@@ -46,19 +51,19 @@
    "note": "RHS deep reddish-pink（赤みの強いピンク）、シカゴ植物園 cherry-red／Red のため両方"
   },
   "spread_min": {
-   "value": 10,
+   "value": 30,
    "method": "記載",
    "sources": [
-    "s01"
+    "s02"
    ],
    "level": "cultivar",
-   "note": "品種レベルの具体的な cm/インチ値がないため RHS の幅 0.1-0.5m を使用"
+   "note": "MBG（品種ページ）1〜1.5フィート。品種レベルの具体的な数値が出たため RHS の幅（0.1-0.5m）から切り替えた。s02 は数値の優先順位の並びに入っていないため要確認"
   },
   "spread_max": {
-   "value": 50,
+   "value": 46,
    "method": "記載",
    "sources": [
-    "s01"
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -87,14 +92,15 @@
    "level": "cultivar"
   },
   "seasonal_foliage": {
-   "value": "春は緑に紫赤色がのり、秋は赤く色づく。冬の葉色は緑・紫",
+   "value": "春は緑に紫赤色がのり、秋は茎先の葉が赤〜深い赤紫（バーガンディ）に色づいて冬を越す。冬の葉色は緑・紫",
    "method": "記載",
    "sources": [
     "s06",
+    "s02",
     "s01"
    ],
    "level": "cultivar",
-   "note": "NC State の品種一覧の1行記述と RHS の Winter 葉色"
+   "note": "NC State の品種一覧の1行記述、MBG（品種）、RHS の Winter 葉色"
   },
   "fragrance": {
    "value": null
@@ -113,7 +119,8 @@
    "value": "日向",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -143,13 +150,8 @@
    "level": "cultivar"
   },
   "heat": {
-   "value": "中",
-   "method": "判定",
-   "sources": [
-    "s08"
-   ],
-   "level": "cultivar",
-   "note": "暑さの記述なし。USDA上限から（9）"
+   "value": null,
+   "note": "暑さの記述なし"
   },
   "heat_note": {
    "value": null,
@@ -160,20 +162,22 @@
    "method": "判定",
    "sources": [
     "s06",
-    "s08"
+    "s08",
+    "s02"
    ],
-   "level": "species",
-   "note": "NC State（種）tolerant of drought、シカゴ（品種）乾いた場所のグラウンドカバー向き"
+   "level": "cultivar",
+   "note": "MBG（品種）Drought tolerant、NC State（種）tolerant of drought、シカゴ（品種）乾いた場所のグラウンドカバー向き"
   },
   "soil_moisture": {
    "value": "乾燥寄り",
    "method": "判定",
    "sources": [
     "s06",
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "species",
-   "note": "NC State（種）prefers very dry soil, do not overwater。RHS（品種）は Well-drained のみ"
+   "note": "NC State（種）prefers very dry soil, do not overwater。MBG（品種）Dry to medium。RHS（品種）は Well-drained のみ"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性（中性〜アルカリ性を好む）、ローム・砂質",
@@ -188,18 +192,15 @@
    "value": null,
    "note": "記述なし"
   },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での常緑性の記述なし"
-  },
   "evergreen_warm": {
    "value": "半常緑",
    "method": "記載",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species",
-   "note": "NC State（種）：茎の基部側は落葉、先端側は常緑"
+   "note": "NC State（種）・MBG（品種）：茎の基部側の葉は落ち、先端側は常緑"
   },
   "native_range": {
    "value": "コーカサス地方（トルコ北東部〜イラン北部）",
@@ -217,10 +218,11 @@
    ],
    "method": "判定",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "root along the nodes（茎の節から発根）"
+   "note": "root along the nodes／root where nodes touch the ground（茎の節から発根）"
   },
   "self_seed_level": {
    "value": null,
@@ -231,14 +233,15 @@
    "method": "判定",
    "sources": [
     "s08",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "節から発根して30cm以上のパッチになる（地下茎ではなく節発根による広がり）。程度の形容なしのため2"
+   "note": "節から発根して30cm以上のパッチになる（地下茎ではなく節発根による広がり）。MBG は spread easily。aggressive などの強い形容はないため2"
   },
   "mixing": {
    "value": null,
-   "note": "clump-forming でなく、vigorous／crowd out などの記述もないため判定できず"
+   "note": "clump-forming でなく、vigorous／crowd out などの記述もないため判定できず（MBG の spread easily だけでは 強い に当てはめなかった）"
   },
   "invasive_note": {
    "value": null,
@@ -263,7 +266,8 @@
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -294,7 +298,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "剪定不要の明記のみ"
+   "note": "剪定不要の明記のみ。heat を空欄にしたが A の判定には影響しない"
   },
   "division_interval": {
    "value": "春（間隔の記載なし）",
@@ -312,9 +316,11 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "s18（種）の種まきは品種の増やし方として採らなかった"
   },
   "cut_flower": {
    "value": null
@@ -348,11 +354,35 @@
   },
   {
    "field": "evergreen_warm",
-   "detail": "NC State（種）semi-evergreen／RHS（品種）Evergreen。暑さ側の優先順位で NC State を採用"
+   "detail": "NC State（種）semi-evergreen・MBG（品種）下葉は落葉で茎先は常緑／RHS（品種）Evergreen。暑さ側の優先順位で NC State・MBG を採用（stauden.de wintergrün も半常緑相当）"
   },
   {
    "field": "pests",
    "detail": "NC State（種）No significant problems（白絹病の記載あり）／RHS は病害虫を列挙。RHS を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "シカゴ植物園 3〜9／MBG 4〜9。耐寒の優先順位でシカゴ植物園を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "MBG 1〜1.5フィート（30〜46cm）／RHS 0.1-0.5m。品種レベルの具体的な数値がある MBG を採用（2026-11-19）"
+  },
+  {
+   "field": "sun",
+   "detail": "stauden.de（種）sonnig; halbschattig; absonnig／RHS・MBG Full sun。RHS を採用"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "stauden.de（種）frisch（適湿）／NC State とても乾いた土・MBG Dry to medium。文章の記述を採用"
+  },
+  {
+   "field": "accepted_name",
+   "detail": "MBG は 'Schorbuser Blut'（英名 DRAGON'S BLOOD）で RHS と同じ／stauden.de は Sedum spurium 'Dragon's Blood'。RHS を採用"
+  },
+  {
+   "field": "pests",
+   "detail": "MBG No serious insect or disease problems（ナメクジ・カタツムリ・カイガラムシは出ることがある）。RHS の列挙のまま"
   }
  ],
  "name_review": {
@@ -361,5 +391,31 @@
   "reason": "RHS では 'Dragon's Blood' は 'Schorbuser Blut' のシノニム扱い。種については Kew・NC State・シカゴ植物園が Phedimus spurius を正名としており、属の扱いも要判断。マスターの引用符が全角の ‛’ になっているので半角 ' に直す必要あり",
   "source": "s01 / Kew"
  },
- "notes": "流通名 'Dragon's Blood' と RHS 正名 'Schorbuser Blut' のどちらを表示名にするかはユーザー判断が必要。株張りは品種レベルの具体値がなく RHS の幅を使用。"
+ "notes": "流通名 'Dragon's Blood' と RHS 正名 'Schorbuser Blut' のどちらを表示名にするかはユーザー判断が必要。株張りは品種レベルの具体値がなく RHS の幅を使用。 耐暑性は暑さの記述がなく空欄（2026-11-19）。株張りは MBG の品種レベルの数値に切り替えた。",
+ "changes_20261119": [
+  {
+   "field": "spread_min",
+   "old": 10,
+   "new": 30,
+   "reason": "MBG（s02）の品種ページに具体的な株張り 1〜1.5フィート。具体的な数値がある文献を RHS の幅より優先するルールによる"
+  },
+  {
+   "field": "spread_max",
+   "old": 50,
+   "new": 46,
+   "reason": "MBG（s02）の品種ページに具体的な株張り 1〜1.5フィート（1.5ft＝46cm）"
+  },
+  {
+   "field": "seasonal_foliage",
+   "old": "春は緑に紫赤色がのり、秋は赤く色づく。冬の葉色は緑・紫",
+   "new": "春は緑に紫赤色がのり、秋は茎先の葉が赤〜深い赤紫（バーガンディ）に色づいて冬を越す。冬の葉色は緑・紫",
+   "reason": "MBG（s02）の「茎先の葉は秋に深い赤紫色になって冬を越す」を加えた"
+  },
+  {
+   "field": "heat",
+   "old": "中",
+   "new": null,
+   "reason": "以前は USDA上限から決めていた。暑さの記述がなく（s02 に該当なし、s18 の exposure だけでは決めない）空欄に"
+  }
+ ]
 }

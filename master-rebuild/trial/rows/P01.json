@@ -101,7 +101,8 @@
    "sources": [
     "s01",
     "s10",
-    "s08"
+    "s08",
+    "s18"
    ],
    "level": "cultivar",
    "note": "RHS low spreading mound／Walters cushion／CBG Mounded。RHS の Habit 欄は Matforming だが全体の形はドームと判断"
@@ -111,7 +112,8 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -139,6 +141,15 @@
    ],
    "level": "cultivar"
   },
+  "common_name_ja": {
+   "value": "アサギリソウ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "YList 標準和名（Artemisia schmidtiana Maxim.、種レベル）"
+  },
   "heat": {
    "value": "弱",
    "method": "判定",
@@ -162,9 +173,11 @@
    "value": "強",
    "method": "判定",
    "sources": [
+    "s02",
     "s10"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "MBG: Tolerate 欄に Drought、根付けば乾燥に耐える。Walters: Drought Tolerant"
   },
   "soil_moisture": {
    "value": "排水必須",
@@ -185,19 +198,23 @@
    "level": "cultivar"
   },
   "salt": {
-   "value": null
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "MBG: Tolerant of drought once established, as well as salt and pollution（塩分に耐えると明記）"
   },
   "evergreen_warm": {
    "value": "半常緑",
    "method": "記載",
    "sources": [
+    "s02",
     "s01"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "MBG・RHS とも半常緑。stauden.de（s18）は sommergrün（落葉）だが文章の記述を優先"
   },
   "native_range": {
    "value": "ロシア極東南東部・サハリン〜日本（北海道・本州）",
@@ -209,26 +226,26 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち（広がらない）"
+    "地下茎"
    ],
    "method": "判定",
    "sources": [
-    "s08"
+    "s02"
    ],
    "level": "cultivar",
-   "note": "CBG clump-forming。広がる記述なし"
+   "note": "MBG（品種ページ内の種の説明）: 這う地下茎でゆっくり広がる。CBG の clump-forming・s18 の horstig は「広がる記述がない」場合の区分なので、広がる記述が出たため地下茎とした"
   },
   "self_seed_level": {
    "value": null
   },
   "rhizome_level": {
-   "value": 0,
+   "value": 1,
    "method": "判定",
    "sources": [
-    "s08"
+    "s02"
    ],
    "level": "cultivar",
-   "note": "clump-forming の記述のみ（広がらないとの明記まではない）"
+   "note": "MBG: spread slowly by creeping rhizomes（slowly spreading 相当）。CBG は clump-forming とのみ記載"
   },
   "mixing": {
    "value": "普通（混植可）",
@@ -236,7 +253,8 @@
    "sources": [
     "s08"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "CBG clump-forming。MBG の地下茎はゆっくり広がる程度で、vigorous／invasive の記述はない"
   },
   "invasive_note": {
    "value": null
@@ -347,8 +365,54 @@
   {
    "field": "silhouette",
    "detail": "RHS Habit 欄 Matforming／RHS 本文・Walters・CBG はマウンド・クッション。ドームを採用"
+  },
+  {
+   "field": "usda",
+   "detail": "CBG 4-9／MBG 4-8／Walters 1-9。耐寒の優先順位で CBG を採用"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "MBG Dry to medium・stauden.de trocken; frisch（乾燥寄り）／RHS 湿り気があり水はけのよい〜水はけのよい土（排水不良で枯れ込む）。RHS を採用（s18 も冬の過湿・滞水を避けるとする）"
+  },
+  {
+   "field": "spread_modes",
+   "detail": "CBG clump-forming・stauden.de horstig（株立ち）／MBG 這う地下茎でゆっくり広がる。広がる記述がある MBG を採って 地下茎・rhizome_level 1 とした"
+  },
+  {
+   "field": "evergreen_warm",
+   "detail": "RHS・MBG 半常緑／stauden.de sommergrün（落葉）。文章の記述（RHS・MBG）を採用"
   }
  ],
  "name_review": null,
- "notes": "草丈は RHS 10cm／Walters 25-30cm／CBG 1フィートと食い違う（マスター項目外）。native_range は文献になく Kew から。"
+ "notes": "草丈は RHS 10cm／Walters 25-30cm／CBG 1フィートと食い違う（マスター項目外）。native_range は文献になく Kew から。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "アサギリソウ",
+   "reason": "新設項目。YList（s04）の標準和名"
+  },
+  {
+   "field": "salt",
+   "old": null,
+   "new": "◎",
+   "reason": "MBG（s02）に塩分に耐えるとの明記があり ◎"
+  },
+  {
+   "field": "spread_modes",
+   "old": [
+    "株立ち（広がらない）"
+   ],
+   "new": [
+    "地下茎"
+   ],
+   "reason": "MBG（s02）に「這う地下茎でゆっくり広がる」の記述。株立ち（広がらない）の条件（広がる記述がない）に当たらなくなった"
+  },
+  {
+   "field": "rhizome_level",
+   "old": 0,
+   "new": 1,
+   "reason": "MBG（s02）の spread slowly by creeping rhizomes により 1（ゆっくり広がる）"
+  }
+ ]
 }

@@ -10,8 +10,19 @@
    "level": "cultivar"
   },
   "synonyms": {
+   "value": [
+    "Hemerocallis × cultorum 'Stella de Oro'"
+   ],
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "stauden.de での表記。'Stella D'Oro' の表記ゆれがあると evidence notes にある"
+  },
+  "common_name_ja": {
    "value": null,
-   "note": "文献のシノニム欄なし（'Stella D'Oro' の表記ゆれがあると evidence notes にある）"
+   "note": "YList（s04）の記録なし"
   },
   "flower_color_detail": {
    "value": "カナリアイエロー、喉はオレンジ（丸い花、径7cmまで）",
@@ -70,7 +81,7 @@
   },
   "seasonal_foliage": {
    "value": null,
-   "note": "記述なし"
+   "note": "記述なし（stauden.de は紅葉なし・冬の立ち姿なしとする）"
   },
   "fragrance": {
    "value": "花",
@@ -95,27 +106,29 @@
    "value": "日向",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar",
    "note": "日陰では花つきが悪い"
   },
   "usda_min": {
-   "value": 2,
+   "value": 3,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "cultivar",
-   "note": "perennials.com"
+   "note": "MBG Zone 3 to 10"
   },
   "usda_max": {
-   "value": 9,
+   "value": 10,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "MBG Zone 3 to 10"
   },
   "rhs_h": {
    "value": "H6",
@@ -126,26 +139,30 @@
    "level": "cultivar"
   },
   "heat": {
-   "value": "中",
-   "method": "判定",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar",
-   "note": "USDA上限から（上限9）。暑さ・高温多湿の記述なし"
-  },
-  "heat_note": {
-   "value": null,
-   "note": "暑さ・蒸れの記述なし"
-  },
-  "drought": {
    "value": "強",
    "method": "判定",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "cultivar",
-   "note": "Drought Tolerant、乾いた痩せ地にも耐える。RHS は乾燥時は春〜初夏の水やりで開花を確保とする"
+   "note": "MBG tolerant of summer heat and humidity"
+  },
+  "heat_note": {
+   "value": "夏の暑さと湿気に耐える。乾燥が続くときはたっぷり水をやると葉がきれいに保てる。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "MBG Water: Medium、乾燥が続くときはたっぷり水やり（Tolerate 欄に Drought なし）。RHS も乾燥時は春〜初夏の水やりで開花を確保とする。perennials.com・Walters は Drought Tolerant（conflicts 参照）"
   },
   "soil_moisture": {
    "value": "幅広く適応",
@@ -155,7 +172,7 @@
     "s10"
    ],
    "level": "cultivar",
-   "note": "RHS For Wet & Dry Conditions、Walters やや湿り〜乾燥までどんな土でも"
+   "note": "RHS For Wet & Dry Conditions、Walters やや湿り〜乾燥までどんな土でも。MBG Water: Medium、stauden.de frisch（conflicts 参照）"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質（重粘土・痩せ地にも耐える）",
@@ -174,10 +191,6 @@
    ],
    "level": "cultivar",
    "note": "Walters Salt Tolerant（融雪塩をまく舗装の近くでも）。RHS は Coastal のみ"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -202,18 +215,29 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar",
    "note": "Clump forming。数年は株分け不要（perennials.com）"
   },
   "self_seed_level": {
-   "value": null,
-   "note": "記述なし"
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "stauden.de MS-Generativer Ausbreitungsdrang: nicht versamend"
   },
   "rhizome_level": {
-   "value": null,
-   "note": "品種の記述なし（Walters の『新しい交配種は広がりが遅い』は属の一般論）"
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "stauden.de MS-Vegetativer Ausbreitungsdrang: horstig。Walters の『新しい交配種は広がりが遅い』は属の一般論。用語選択式の1件だけが根拠なので要確認"
   },
   "mixing": {
    "value": "普通（混植可）",
@@ -249,16 +273,20 @@
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "MBG は病害虫は少なく、ダニ・アブラムシ・アザミウマがときどき、地域によりさび病とする"
   },
   "pruning": {
    "value": "花後に花茎を切り、枯れ葉は随時・晩秋に取り除く。花がら摘みで返り咲きがよくなる。",
    "method": "記載",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -270,7 +298,9 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -279,7 +309,8 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "cultivar",
    "note": "花後の花茎切り・返り咲き"
@@ -289,7 +320,8 @@
    "method": "記載",
    "sources": [
     "s10",
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -299,7 +331,8 @@
    ],
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar",
    "note": "実生は品種が固定しないと RHS が明記しているため除外"
@@ -343,8 +376,80 @@
   {
    "field": "salt",
    "detail": "RHS Coastal のみ（○相当）／Walters Salt Tolerant 明記。明記のある Walters を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "MBG 3〜10／perennials.com 2〜9／Walters 3〜9。優先順位で MBG を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "MBG 日なた〜半日陰／RHS・stauden.de 日なた。RHS を採用"
+  },
+  {
+   "field": "drought",
+   "detail": "MBG Water: Medium・乾燥時は水やり（中）／perennials.com・Walters Drought Tolerant（強）。優先順位（s02 > s10）で MBG を採用"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "MBG Water: Medium・stauden.de 適湿（frisch）／RHS 乾湿両方に対応・Walters やや湿り〜乾燥まで。RHS を採用（幅広く適応）"
+  },
+  {
+   "field": "silhouette",
+   "detail": "stauden.de 弓なり・傾く・横に張り出す（bogig; geneigt; ausladend）／RHS Clump forming・perennials.com dense clump。文章の方を採用（株立ち）"
   }
  ],
  "name_review": null,
- "notes": "暑さの記述がなく USDA上限で中。NCSU は品種ページなし。"
+ "notes": "暑さは MBG の「夏の暑さと湿気に耐える」で 強。耐寒ゾーンは MBG 3〜10 に変更。乾燥は MBG（中）と s10（強）が食い違い、優先順位で 中。こぼれ種・広がりの度合いは stauden.de のみが根拠。NCSU は品種ページなし。",
+ "changes_20261119": [
+  {
+   "field": "synonyms",
+   "old": null,
+   "new": [
+    "Hemerocallis × cultorum 'Stella de Oro'"
+   ],
+   "reason": "s18（stauden.de）が Hemerocallis × cultorum 'Stella de Oro' の名で掲載"
+  },
+  {
+   "field": "usda_min",
+   "old": 2,
+   "new": 3,
+   "reason": "s02（MBG）3〜10。耐寒の優先順位で s02 > s10"
+  },
+  {
+   "field": "usda_max",
+   "old": 9,
+   "new": 10,
+   "reason": "s02（MBG）3〜10。耐寒の優先順位で s02 > s10"
+  },
+  {
+   "field": "heat",
+   "old": "中",
+   "new": "強",
+   "reason": "USDA上限からの判定をやめ、s02（MBG）「夏の暑さと湿気に耐える」で決め直し（ルール②）"
+  },
+  {
+   "field": "heat_note",
+   "old": null,
+   "new": "夏の暑さと湿気に耐える。乾燥が続くときはたっぷり水をやると葉がきれいに保てる。",
+   "reason": "新しく埋まった。s02（MBG）"
+  },
+  {
+   "field": "drought",
+   "old": "強",
+   "new": "中",
+   "reason": "s02（MBG）Water: Medium・乾燥が続くときは水やり。優先順位で s02 > s10（Drought Tolerant）"
+  },
+  {
+   "field": "self_seed_level",
+   "old": null,
+   "new": 0,
+   "reason": "新しく埋まった。s18（stauden.de 品種）「こぼれ種で増えない（nicht versamend）」。他の文献に記述なし"
+  },
+  {
+   "field": "rhizome_level",
+   "old": null,
+   "new": 0,
+   "reason": "新しく埋まった。s18（stauden.de 品種）「株の広がり方：株立ち（horstig）」。他の文献に品種の記述なし"
+  }
+ ]
 }

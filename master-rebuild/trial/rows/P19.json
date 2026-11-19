@@ -92,7 +92,8 @@
    "sources": [
     "s01",
     "s06",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "species",
    "note": "RHS Bushy、NC State Clumping・Erect（根生葉のマウンドから高い茎が立つ）、Walters bushy upright clumps"
@@ -106,18 +107,20 @@
    "level": "species"
   },
   "usda_min": {
-   "value": 4,
+   "value": 5,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02",
+    "s06"
    ],
    "level": "species"
   },
   "usda_max": {
-   "value": 9,
+   "value": 8,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02",
+    "s06"
    ],
    "level": "species"
   },
@@ -129,25 +132,36 @@
    ],
    "level": "species"
   },
+  "common_name_ja": {
+   "value": "オミナエシ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "YList 標準和名（Patrinia scabiosifolia Link）"
+  },
   "heat": {
    "value": "強",
    "method": "判定",
    "sources": [
     "s06",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "species",
-   "note": "heat tolerant／tolerates summer heat and humidity well"
+   "note": "heat tolerant／tolerates summer heat and humidity well／MBG tolerant of hot and humid summers"
   },
   "heat_note": {
    "value": "夏の暑さと湿気によく耐える",
    "method": "記載",
    "sources": [
     "s10",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species",
-   "note": "NC State も耐暑・耐湿のタグあり"
+   "note": "NC State も耐暑・耐湿のタグあり。MBG も高温多湿の夏に耐えると明記"
   },
   "drought": {
    "value": "強",
@@ -162,10 +176,12 @@
    "value": "適湿",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18"
    ],
    "level": "species",
-   "note": "Moist but well-drained"
+   "note": "Moist but well-drained。MBG Medium、stauden.de frisch（適湿）"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・ローム（肥沃で腐植質に富む土）",
@@ -179,10 +195,6 @@
   "salt": {
    "value": null,
    "note": "記述なし"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -226,7 +238,7 @@
   },
   "rhizome_level": {
    "value": null,
-   "note": "NC State は Clumping、RHS は A spreading perennial で表現が割れ、広がり方の記述もないため"
+   "note": "NC State は Clumping、stauden.de も horstig（株立ち）だが、優先順位が上の RHS が A spreading perennial とし、広がり方の記述もないため"
   },
   "mixing": {
    "value": "普通（混植可）",
@@ -292,7 +304,8 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "species"
   },
@@ -304,7 +317,8 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s18"
    ],
    "level": "species"
   },
@@ -335,17 +349,49 @@
   },
   {
    "field": "sun",
-   "detail": "RHS・Walters 日向〜半日陰／NC State 日当たりが重要、日陰では育たない。RHS を採用"
+   "detail": "RHS・Walters 日向〜半日陰／NC State 日当たりが重要、日陰では育たない／MBG Full sun／stauden.de sonnig。優先順位で RHS を採用"
   },
   {
    "field": "usda",
-   "detail": "Walters 4-9／NC State 5a-8b。耐寒側の優先順位で Walters を採用"
+   "detail": "MBG 5-8・NC State 5a-8b／Walters 4-9。耐寒側の優先順位で MBG を採用"
   },
   {
    "field": "cut_flower",
    "detail": "Walters excellent for cutting（◎）／NC State cutting garden・dried arrangements のタグ（○相当）。食い違いではなく具体性の差とみて Walters を採用"
+  },
+  {
+   "field": "drought",
+   "detail": "NC State drought tolerant（強）／MBG Water: Medium（中 相当）。優先順位で NC State を採用"
+  },
+  {
+   "field": "pests",
+   "detail": "RHS・NC State ナメクジ・カタツムリ、NC State・Walters ヘメロカリスさび病の中間宿主／MBG 重大な病害虫はない。優先順位で RHS・NC State を採用"
+  },
+  {
+   "field": "pruning",
+   "detail": "RHS 剪定不要／stauden.de 秋〜晩秋に茎を切り戻す。用語選択式の stauden.de より RHS を採って 不要"
   }
  ],
  "name_review": null,
- "notes": "種そのものの商品のため種レベルの記述を品種レベル扱い。ヘメロカリスさび病の中間宿主（Walters は植栽非推奨）はデイリリーを扱う生産者に重要。"
+ "notes": "種そのものの商品のため種レベルの記述を品種レベル扱い。ヘメロカリスさび病の中間宿主（Walters は植栽非推奨）はデイリリーを扱う生産者に重要。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "オミナエシ",
+   "reason": "新設項目。YList（s04）の標準和名"
+  },
+  {
+   "field": "usda_min",
+   "old": 4,
+   "new": 5,
+   "reason": "耐寒の優先順位で MBG（s02、5〜8）が Walters（s10、4〜9）より上のため MBG を採用。NC State（s06）も 5a〜8b"
+  },
+  {
+   "field": "usda_max",
+   "old": 9,
+   "new": 8,
+   "reason": "同上（MBG s02 の 5〜8 を採用）"
+  }
+ ]
 }

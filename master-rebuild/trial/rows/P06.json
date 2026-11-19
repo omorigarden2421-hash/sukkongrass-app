@@ -19,6 +19,10 @@
    ],
    "level": "cultivar"
   },
+  "common_name_ja": {
+   "value": null,
+   "note": "YList に該当なし"
+  },
   "flower_color_detail": {
    "value": "濃いピンク",
    "method": "記載",
@@ -85,7 +89,8 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar",
    "note": "RHS Bushy、Walters compact bush"
@@ -95,7 +100,8 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar",
    "note": "日当たりがよく風の当たらない場所"
@@ -126,13 +132,8 @@
    "level": "cultivar"
   },
   "heat": {
-   "value": "中",
-   "method": "判定",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar",
-   "note": "USDA上限から（上限9）。暑さの記述は文献になし"
+   "value": null,
+   "note": "暑さの記述なし"
   },
   "heat_note": {
    "value": null
@@ -147,7 +148,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "Moist but well-drained or Well-drained"
+   "note": "Moist but well-drained or Well-drained。s18 は乾燥（trocken）・冬の過湿から守る"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、砂質・ローム・白亜質",
@@ -159,10 +160,6 @@
   },
   "salt": {
    "value": null
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -176,23 +173,44 @@
    "value": "メキシコ（A. mexicana として）",
    "method": "記載",
    "sources": [
-    "Kew"
+    "Kew",
+    "s18"
    ],
    "level": "species",
    "note": "Walters は北米原産種を使った交配品種と説明しており、親の扱いが文献で異なる"
   },
   "spread_modes": {
-   "value": null
+   "value": [
+    "株立ち（広がらない）"
+   ],
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "s18: horstig。他の文献に記述なし"
   },
   "self_seed_level": {
-   "value": null
+   "value": null,
+   "note": "s18（種レベル）に「種の穂を残してこぼれ種で維持する」との手入れの記述はあるが、こぼれ種の程度の記述ではないため空欄"
   },
   "rhizome_level": {
-   "value": null
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "s18: horstig（株でまとまる）"
   },
   "mixing": {
-   "value": null,
-   "note": "clump-forming や広がりの記述なし"
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "s18 株立ち。侵略的・強勢の記述なし"
   },
   "invasive_note": {
    "value": null
@@ -213,10 +231,11 @@
    "note": "RHS: Generally pest-free; Generally disease-free"
   },
   "pruning": {
-   "value": "シーズン中、咲き終わった花穂を取り除く。",
+   "value": "シーズン中、咲き終わった花穂を取り除く。一番花の後に切り戻すと、たいてい二番花が咲く。",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -226,7 +245,8 @@
    ],
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -243,14 +263,16 @@
   },
   "propagation": {
    "value": [
-    "株分け"
+    "株分け",
+    "挿し木"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar",
-   "note": "特許品種（USPP#11816, CPBR#1659）、無許可増殖禁止（Walters）"
+   "note": "挿し木は s18（春〜夏に株元の芽で）。s18 の種まきは種レベルの記述で、品種名のある商品のため入れなかった。特許品種（USPP#11816, CPBR#1659）、無許可増殖禁止（Walters）"
   },
   "cut_flower": {
    "value": "◎",
@@ -282,11 +304,15 @@
   },
   {
    "field": "usda",
-   "detail": "Walters USDA 4-9／RHS H2（凍結に耐えない）で耐寒性が大きく食い違う。USDA は Walters のみのため採用"
+   "detail": "Walters USDA 4-9／RHS H2（凍結に耐えない）で耐寒性が大きく食い違う。USDA は Walters のみのため採用（参考: stauden.de は Z9＝0〜-5℃・防寒推奨で RHS 寄り。s18 の耐寒ゾーンは値に使わない）"
   },
   {
    "field": "native_range",
    "detail": "RHS は A. mexicana の品種／Walters は北米原産種を使った交配品種。RHS の学名に従い A. mexicana の原産地を採用"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "RHS 湿り気があり水はけよい〜水はけよい／stauden.de 乾燥（trocken）・冬の過湿と滞水から守る。RHS を採用"
   }
  ],
  "name_review": {
@@ -295,5 +321,50 @@
   "reason": "品種名の大文字小文字の誤り（Fortune の F は大文字）。RHS で Accepted、Agastache 'Red Fortune' はシノニム。Kew で種名 Agastache mexicana は Accepted",
   "source": "s01 / Kew"
  },
- "notes": "耐寒性（H2 と USDA 4-9）の食い違いが大きく要確認。暑さ・乾燥の記述は文献になし。"
+ "notes": "耐寒性（H2 と USDA 4-9）の食い違いが大きく要確認。暑さ・乾燥の記述は文献になし（MBG・YList に該当ページなし。s18 の wärmeliebend だけでは heat を決めない）。",
+ "changes_20261119": [
+  {
+   "field": "heat",
+   "old": "中",
+   "new": null,
+   "reason": "以前は USDA上限から決めていた。暑さの記述がなく（s02 該当なし、s18 の exposure だけでは決めない）空欄に"
+  },
+  {
+   "field": "spread_modes",
+   "old": null,
+   "new": [
+    "株立ち（広がらない）"
+   ],
+   "reason": "s18 に株立ち（horstig）。他の文献に記述なし"
+  },
+  {
+   "field": "rhizome_level",
+   "old": null,
+   "new": 0,
+   "reason": "s18 に株立ち（horstig）。他の文献に記述なし"
+  },
+  {
+   "field": "mixing",
+   "old": null,
+   "new": "普通（混植可）",
+   "reason": "s18 の株立ちから。侵略的・強勢の記述なし"
+  },
+  {
+   "field": "pruning",
+   "old": "シーズン中、咲き終わった花穂を取り除く。",
+   "new": "シーズン中、咲き終わった花穂を取り除く。一番花の後に切り戻すと、たいてい二番花が咲く。",
+   "reason": "s18「一番花の後に切り戻すと二番花」を加えた"
+  },
+  {
+   "field": "propagation",
+   "old": [
+    "株分け"
+   ],
+   "new": [
+    "株分け",
+    "挿し木"
+   ],
+   "reason": "s18 に株元の芽の挿し木の記載があり 挿し木 を追加"
+  }
+ ]
 }

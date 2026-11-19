@@ -25,6 +25,15 @@
    "level": "cultivar",
    "note": "'Bravado' は RHS のシノニム欄の記載どおり（別品種として流通しており要確認）。（種）は種の旧名"
   },
+  "common_name_ja": {
+   "value": "ムラサキバレンギク",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "種 Echinacea purpurea の和名（YList 標準）"
+  },
   "flower_color_detail": {
    "value": "濃い赤みのピンクの舌状花が水平に開き、中心はオレンジ褐色の球果（花径10cmまで）",
    "method": "記載",
@@ -93,7 +102,8 @@
    "method": "判定",
    "sources": [
     "s10",
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar",
    "note": "upright clump／（属）erect, clump-forming"
@@ -102,7 +112,8 @@
    "value": "日向",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar",
    "note": "RHS Full sun"
@@ -111,19 +122,20 @@
    "value": 3,
    "method": "記載",
    "sources": [
+    "s02",
     "s10"
    ],
    "level": "cultivar",
-   "note": "perennials.com"
+   "note": "MBG Zone 3 to 8"
   },
   "usda_max": {
-   "value": 9,
+   "value": 8,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "cultivar",
-   "note": "perennials.com"
+   "note": "MBG Zone 3 to 8"
   },
   "rhs_h": {
    "value": "H5",
@@ -137,17 +149,19 @@
    "value": "強",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species",
-   "note": "heat, humidity resistant（種）"
+   "note": "heat, humidity resistant（NCSU 種）。MBG 品種ページも tolerant of drought, heat, humidity"
   },
   "heat_note": {
    "value": "暑さ・湿気に強い（種）。日当たりと暑さを好み、暑く風の強い条件にも適応する。",
    "method": "記載",
    "sources": [
     "s06",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "species"
   },
@@ -155,11 +169,12 @@
    "value": "強",
    "method": "判定",
    "sources": [
+    "s02",
     "s10",
     "s06"
    ],
    "level": "cultivar",
-   "note": "定着後はかなり乾燥に強い"
+   "note": "MBG Tolerate: Drought、定着後はかなり乾燥に強い（Walters）"
   },
   "soil_moisture": {
    "value": "排水必須",
@@ -168,7 +183,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "水はけのよい土、冬の過湿を避けると明記"
+   "note": "水はけのよい土、冬の過湿を避けると明記（RHS）。MBG は Dry to medium、stauden.de は frisch（conflicts 参照）"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、白亜質・ローム・砂質",
@@ -188,10 +203,6 @@
    "level": "species",
    "note": "salt resistant（種）。RHS は Coastal のみ"
   },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
-  },
   "evergreen_warm": {
    "value": "落葉",
    "method": "記載",
@@ -206,7 +217,8 @@
    "sources": [
     "s06",
     "s09",
-    "Kew"
+    "Kew",
+    "s18"
    ],
    "level": "species"
   },
@@ -219,24 +231,28 @@
    "sources": [
     "s01",
     "s06",
-    "s10"
+    "s10",
+    "s02",
+    "s18"
    ],
    "level": "cultivar",
-   "note": "株立ち（RHS、属は地下茎を持つ株立ちとする）。こぼれ種の苗ができる（perennials.com、NCSU 種）"
+   "note": "株立ち（RHS、stauden.de。属は地下茎を持つ株立ちとする）。こぼれ種で増える（MBG、perennials.com、NCSU 種、stauden.de）"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 2,
    "method": "判定",
    "sources": [
+    "s02",
     "s06",
-    "s10"
+    "s10",
+    "s18"
    ],
-   "level": "species",
-   "note": "will reseed itself／self-sown plants。freely 等の強い表現はない"
+   "level": "cultivar",
+   "note": "MBG Freely self-seeds if seed heads are left。NCSU（種）will reseed itself、stauden.de versamend"
   },
   "rhizome_level": {
    "value": null,
-   "note": "広がりの程度の記述なし"
+   "note": "広がりの程度の記述なし。stauden.de は株の広がり方を 株立ち（horstig）とするが、Walters「群落を作る」・Wildflower Center（種）「非常に攻撃的になりうる」があり決めなかった"
   },
   "mixing": {
    "value": "普通（混植可）",
@@ -248,10 +264,11 @@
    "note": "RHS は強健な株立ち。Wildflower Center（種）の『非常に攻撃的になりうる』は優先順位で不採用（conflicts 参照）"
   },
   "invasive_note": {
-   "value": "原種は非常に攻撃的になりうる（Wildflower Center）。庭でこぼれ種で増える。",
+   "value": "原種は非常に攻撃的になりうる（Wildflower Center）。種穂を残しておくとよくこぼれ種で増える（MBG）。",
    "method": "記載",
    "sources": [
     "s09",
+    "s02",
     "s06"
    ],
    "level": "species"
@@ -270,10 +287,11 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "RHS はナメクジ以外ほぼなし。他は NCSU（種）"
+   "note": "RHS はナメクジ以外ほぼなし。他は MBG（品種ページ）・NCSU（種）"
   },
   "pruning": {
    "value": "花がらを切ると返り咲き・花期が延びる。種穂は冬の観賞や鳥の餌に一部残してもよい。枯れ茎は30〜60cmで切り、茎に営巣する蜂のため立てたまま残す（種）。",
@@ -307,10 +325,11 @@
    "note": "花がら切りで返り咲き"
   },
   "division_interval": {
-   "value": "春か秋（移植を嫌う）。perennials.com は早春。間隔の記載なし",
+   "value": "混み合ったら株分け（およそ4年ごと、MBG）。時期は春か秋で移植を嫌う（RHS）。perennials.com は早春",
    "method": "記載",
    "sources": [
     "s01",
+    "s02",
     "s10"
    ],
    "level": "cultivar"
@@ -324,10 +343,11 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s18"
    ],
    "level": "cultivar",
-   "note": "根挿しと株分けは RHS 品種ページ。実生は NCSU（種）"
+   "note": "根挿しと株分けは RHS 品種ページ。実生は NCSU（種）・stauden.de"
   },
   "cut_flower": {
    "value": "◎",
@@ -368,8 +388,60 @@
   {
    "field": "soil_ph_type",
    "detail": "RHS に粘土なし／perennials.com 粘土可。RHS を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "MBG 3〜8／perennials.com 3〜9／Walters 3〜8／NCSU（種）3a〜8b。優先順位で MBG を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "MBG 日なた〜半日陰／RHS・stauden.de 日なた。RHS を採用"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "MBG Water: Dry to medium（乾燥寄り）・stauden.de 適湿（frisch）／RHS 水はけのよい土・冬の過湿を避ける（排水必須）。RHS を採用"
+  },
+  {
+   "field": "pruning",
+   "detail": "stauden.de 秋〜晩秋に茎を切り戻す／RHS 種穂を冬の観賞に残してもよい・NCSU（種）枯れ茎は立てたまま残す。文章の RHS・NCSU を採用（pruning_codes に 秋 を入れない）"
+  },
+  {
+   "field": "rhizome_level",
+   "detail": "stauden.de 株の広がり方は株立ち（0相当）／Walters 群落を作る・Wildflower Center（種）非常に攻撃的になりうる。決められず null"
   }
  ],
  "name_review": null,
- "notes": "RHS のシノニム欄に 'Bravado' があり、別品種として流通しているため要確認。暑さ・耐塩・原産地は種レベル。混植性は Wildflower Center（種）の『攻撃的』と食い違い、優先順位で普通とした。"
+ "notes": "RHS のシノニム欄に 'Bravado' があり、別品種として流通しているため要確認。暑さは NCSU（種）と MBG（品種ページ）が一致して 強。耐塩・原産地は種レベル。耐寒ゾーンは MBG 3〜8 に変更。こぼれ種は MBG の Freely self-seeds で 2。混植性は Wildflower Center（種）の『攻撃的』と食い違い、優先順位で普通とした。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "ムラサキバレンギク",
+   "reason": "新設。s04（YList）の種の和名"
+  },
+  {
+   "field": "usda_max",
+   "old": 9,
+   "new": 8,
+   "reason": "s02（MBG）3〜8。耐寒の優先順位で s02 > s10"
+  },
+  {
+   "field": "self_seed_level",
+   "old": 1,
+   "new": 2,
+   "reason": "s02（MBG 品種ページ）「種穂を残すとよくこぼれ種で増える（Freely self-seeds）」。s06・s10 は程度の記述なし"
+  },
+  {
+   "field": "invasive_note",
+   "old": "原種は非常に攻撃的になりうる（Wildflower Center）。庭でこぼれ種で増える。",
+   "new": "原種は非常に攻撃的になりうる（Wildflower Center）。種穂を残しておくとよくこぼれ種で増える（MBG）。",
+   "reason": "s02 のこぼれ種の記述を反映"
+  },
+  {
+   "field": "division_interval",
+   "old": "春か秋（移植を嫌う）。perennials.com は早春。間隔の記載なし",
+   "new": "混み合ったら株分け（およそ4年ごと、MBG）。時期は春か秋で移植を嫌う（RHS）。perennials.com は早春",
+   "reason": "s02（MBG）「およそ4年ごと」で間隔が埋まった"
+  }
+ ]
 }

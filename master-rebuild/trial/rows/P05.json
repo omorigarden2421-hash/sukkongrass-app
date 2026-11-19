@@ -19,6 +19,15 @@
    ],
    "level": "cultivar"
   },
+  "common_name_ja": {
+   "value": "シュムシュノコギリソウ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "YList が synonym とする学名（Achillea sibirica subsp. camtschatica）に付いた和名"
+  },
   "flower_color_detail": {
    "value": "柔らかいピンク",
    "method": "記載",
@@ -76,7 +85,8 @@
    "level": "cultivar"
   },
   "seasonal_foliage": {
-   "value": null
+   "value": null,
+   "note": "s18 の「紅葉なし」は種レベルの記述のため使わない"
   },
   "fragrance": {
    "value": null
@@ -85,7 +95,8 @@
    "value": "直立",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar",
    "note": "RHS: upright, clump-forming。Habit 欄 Bushy、Walters bushy clump で株立ちとも取れる"
@@ -97,21 +108,22 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "RHS は Position に Partial shade も挙げるが、栽培は日なたと記載"
+   "note": "RHS は Position に Partial shade も挙げるが、栽培は日なたと記載。MBG・stauden.de は日なたのみ"
   },
   "usda_min": {
-   "value": 3,
+   "value": 5,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "耐寒の優先順位で MBG（5〜8）が Walters（3〜9）より上"
   },
   "usda_max": {
-   "value": 9,
+   "value": 8,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -127,15 +139,17 @@
    "value": "強",
    "method": "判定",
    "sources": [
+    "s02",
     "s10"
    ],
    "level": "cultivar",
-   "note": "Walters: Heat tolerant"
+   "note": "MBG: tolerate hot, humid summers／Walters: Heat tolerant"
   },
   "heat_note": {
-   "value": "耐暑性があり、暑く乾いた日なたに最適な宿根草の一つとされる。",
+   "value": "高温多湿の夏と乾燥に耐える。暑く乾いた日なたに最適な宿根草の一つとされる。茎腐れがときどき出る。",
    "method": "記載",
    "sources": [
+    "s02",
     "s10"
    ],
    "level": "cultivar"
@@ -145,7 +159,8 @@
    "method": "判定",
    "sources": [
     "s10",
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -154,10 +169,11 @@
    "method": "判定",
    "sources": [
     "s10",
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "RHS Well-drained・やせた乾いた土に耐える、Walters Dry"
+   "note": "RHS Well-drained・やせた乾いた土に耐える、Walters Dry、MBG Dry to medium"
   },
   "soil_ph_type": {
    "value": "中性〜アルカリ性、砂質・ローム・白亜質",
@@ -169,10 +185,6 @@
   },
   "salt": {
    "value": null
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -193,10 +205,16 @@
   },
   "spread_modes": {
    "value": null,
-   "note": "Walters は「広がってパッチ状になる」とするが、地下茎かどうか等の広がり方の記載なし"
+   "note": "RHS は clump-forming、s18 は株立ち（horstig）とするが、Walters は「広がってパッチ状になる」と文章で書いており食い違う。広がり方（地下茎か等）の記載もないため空欄のまま"
   },
   "self_seed_level": {
-   "value": null
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "species",
+   "note": "s18（種レベル）: nicht versamend（こぼれ種で増えない）。他の文献に記述なし"
   },
   "rhizome_level": {
    "value": 2,
@@ -231,61 +249,77 @@
   "pests": {
    "value": [
     "アブラムシ",
-    "うどんこ病"
+    "うどんこ病",
+    "茎腐れ",
+    "さび病"
    ],
-   "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": "cultivar"
-  },
-  "pruning": {
-   "value": "こまめに花がらを摘むと花期が延びる。",
    "method": "記載",
    "sources": [
     "s01",
-    "s10"
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "アブラムシ・うどんこ病は RHS、茎腐れ・うどんこ病・さび病は MBG（ときどき出る）"
+  },
+  "pruning": {
+   "value": "こまめに花がらを摘む（脇芽の上で切る）と花期が延びる。茎が倒れたり絡んだりしたら切り戻せる。秋〜晩秋に茎を切り戻す。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10",
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋"
    ],
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02",
+    "s18"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "秋は s18（秋〜晩秋に茎を切り戻す）のみ"
   },
   "management_type": {
    "value": "B 花後刈込型",
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "cultivar"
   },
   "division_interval": {
-   "value": "秋または早春（間隔の記載なし）",
+   "value": "3〜4年ごと（混み合ったら）、秋または早春",
    "method": "記載",
    "sources": [
+    "s02",
     "s10"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "間隔は MBG、時期は Walters"
   },
   "propagation": {
    "value": [
     "実生",
-    "株分け"
+    "株分け",
+    "挿し木"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "挿し木は s18（春のかき取り挿し Risslinge）のみ"
   },
   "cut_flower": {
    "value": "◎",
@@ -310,15 +344,27 @@
  "conflicts": [
   {
    "field": "spread",
-   "detail": "RHS 0.1-0.5m／Walters 45-60cm。Walters を採用"
+   "detail": "RHS 0.1-0.5m／Walters 45-60cm。Walters を採用。MBG は 1〜2フィート（30〜61cm）"
   },
   {
    "field": "sun",
-   "detail": "RHS 日なた・半日陰／Walters 日なた。RHS を採用"
+   "detail": "RHS 日なた・半日陰／Walters 日なた。RHS を採用（MBG・stauden.de も日なたのみ）"
   },
   {
    "field": "soil_ph_type",
    "detail": "RHS 中性〜アルカリ性／Walters 酸性も可。RHS を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "MBG 5〜8／Walters 3〜9。耐寒の優先順位により MBG を採用（stauden.de の Z6 は値に使わない）"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "RHS 水はけよい・MBG 乾燥〜中・Walters 乾燥／stauden.de 適湿〜湿り気（frisch; feucht）。RHS・MBG・Walters を採用"
+  },
+  {
+   "field": "spread_modes",
+   "detail": "stauden.de 株立ち（horstig）／Walters 広がってパッチ状になる。文章の記述（Walters）を優先し、rhizome_level は 2 のまま、spread_modes は空欄"
   }
  ],
  "name_review": {
@@ -327,5 +373,87 @@
   "reason": "subsp. の後にスペースがない表記ゆれ。RHS では subsp. camschatica 付きが Accepted で、Achillea sibirica 'Love Parade' はシノニム。なお Kew では Achillea sibirica 自体が Achillea alpina subsp. alpina のシノニム扱い（部分一致）だが、RHS を優先",
   "source": "s01 / Kew"
  },
- "notes": "育種元（s12）は未調査。原産地は文献になく Kew の部分一致から。"
+ "notes": "育種元（s12）は未調査。原産地は文献になく Kew の部分一致から。 学名の亜種名は YList・stauden.de では camtschatica（stauden.de は var.）とつづる。USDA は MBG の位置が仮置きのため要確認。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "シュムシュノコギリソウ",
+   "reason": "YList（s04）の和名。synonym 扱いの学名に付いた和名"
+  },
+  {
+   "field": "usda_min",
+   "old": 3,
+   "new": 5,
+   "reason": "耐寒の優先順位で s02（5〜8）が s10（3〜9）より上のため s02 を採用"
+  },
+  {
+   "field": "usda_max",
+   "old": 9,
+   "new": 8,
+   "reason": "耐寒の優先順位で s02（5〜8）が s10（3〜9）より上のため s02 を採用"
+  },
+  {
+   "field": "heat_note",
+   "old": "耐暑性があり、暑く乾いた日なたに最適な宿根草の一つとされる。",
+   "new": "高温多湿の夏と乾燥に耐える。暑く乾いた日なたに最適な宿根草の一つとされる。茎腐れがときどき出る。",
+   "reason": "暑さで優先の s02「高温多湿の夏と乾燥に耐える」「茎腐れ」を加えた（s10 も併記）"
+  },
+  {
+   "field": "self_seed_level",
+   "old": null,
+   "new": 0,
+   "reason": "s18（種レベル）に「こぼれ種で増えない」。他の文献に記述なし"
+  },
+  {
+   "field": "pests",
+   "old": [
+    "アブラムシ",
+    "うどんこ病"
+   ],
+   "new": [
+    "アブラムシ",
+    "うどんこ病",
+    "茎腐れ",
+    "さび病"
+   ],
+   "reason": "s02 の茎腐れ・さび病を追加（s01 の2つは維持）"
+  },
+  {
+   "field": "pruning",
+   "old": "こまめに花がらを摘むと花期が延びる。",
+   "new": "こまめに花がらを摘む（脇芽の上で切る）と花期が延びる。茎が倒れたり絡んだりしたら切り戻せる。秋〜晩秋に茎を切り戻す。",
+   "reason": "s02 の切り方と s18 の秋の切り戻しを加えた"
+  },
+  {
+   "field": "pruning_codes",
+   "old": [
+    "花後"
+   ],
+   "new": [
+    "花後",
+    "秋"
+   ],
+   "reason": "s18「秋〜晩秋に茎を切り戻す」で 秋 を追加"
+  },
+  {
+   "field": "division_interval",
+   "old": "秋または早春（間隔の記載なし）",
+   "new": "3〜4年ごと（混み合ったら）、秋または早春",
+   "reason": "s02 に「3〜4年ごと」の記載。時期は s10 のまま"
+  },
+  {
+   "field": "propagation",
+   "old": [
+    "実生",
+    "株分け"
+   ],
+   "new": [
+    "実生",
+    "株分け",
+    "挿し木"
+   ],
+   "reason": "s18 に春のかき取り挿しの記載があり 挿し木 を追加"
+  }
+ ]
 }

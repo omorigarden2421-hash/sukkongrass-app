@@ -20,6 +20,10 @@
    ],
    "level": "cultivar"
   },
+  "common_name_ja": {
+   "value": null,
+   "note": "YList に該当なし（Salvia nemorosa で検索）"
+  },
   "flower_color_detail": {
    "value": "バイオレットパープル（花茎は紫黒）",
    "method": "記載",
@@ -80,7 +84,7 @@
   },
   "seasonal_foliage": {
    "value": null,
-   "note": "記述なし"
+   "note": "季節変化の記述なし（s18 は紅葉なし・冬の立ち姿なしと記録）"
   },
   "fragrance": {
    "value": "葉",
@@ -89,17 +93,18 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "RHS Fragrance Foliage。Walters は花と葉のタグ"
+   "note": "RHS Fragrance Foliage。Walters は花と葉のタグ。s18 は「葉または花に香り」で区別できない"
   },
   "silhouette": {
    "value": "直立",
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar",
-   "note": "Columnar upright／rigidly upright。シカゴ植物園は Mounded"
+   "note": "Columnar upright／rigidly upright／stauden.de aufrecht bis straff aufrecht。シカゴ植物園は Mounded"
   },
   "sun": {
    "value": "日向〜半日陰",
@@ -114,7 +119,8 @@
    "value": 4,
    "method": "記載",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -122,7 +128,8 @@
    "value": 8,
    "method": "記載",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -141,12 +148,13 @@
     "s10"
    ],
    "level": "cultivar",
-   "note": "tolerates heat and humidity"
+   "note": "tolerates heat and humidity（perennials.com）。MBG は「湿度の高い気候では夏が進むと倒れて株が開くことがある」とするが、姿が乱れるという記述で、暑さに弱い・枯れるという明記ではないため①には当てはめなかった"
   },
   "heat_note": {
-   "value": "暑さと湿気にも耐える。",
+   "value": "暑さと湿気には耐えるが、湿度の高い気候では夏が進むと茎が倒れて株が開くことがある。",
    "method": "記載",
    "sources": [
+    "s02",
     "s10"
    ],
    "level": "cultivar"
@@ -155,7 +163,8 @@
    "value": "強",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar",
    "note": "Drought-tolerant once established"
@@ -187,15 +196,12 @@
    "level": "cultivar",
    "note": "Walters Salt Tolerant。RHS は Coastal のみ"
   },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
-  },
   "evergreen_warm": {
    "value": "落葉",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -208,20 +214,43 @@
    "level": "species"
   },
   "spread_modes": {
-   "value": null,
-   "note": "増え方の記述なし"
+   "value": [
+    "株立ち（広がらない）",
+    "こぼれ種"
+   ],
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "s18: horstig（株立ち）、mäßig versamend（こぼれ種でほどほどに増える）。他の文献に記述なし"
   },
   "self_seed_level": {
-   "value": null,
-   "note": "記述なし"
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "s18: mäßig versamend（ほどほどにこぼれ種）。freely／readily に当たる強い表現ではないため 1 とした。他の文献に記述なし"
   },
   "rhizome_level": {
-   "value": null,
-   "note": "記述なし"
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "s18: horstig（株立ち）。他の文献に記述なし"
   },
   "mixing": {
-   "value": null,
-   "note": "株立ちの記述も強勢の記述もなく判断できない"
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "s18 で株立ち。強勢・侵略性の記述なし"
   },
   "invasive_note": {
    "value": null,
@@ -239,44 +268,56 @@
     "ナラタケ病（まれ）",
     "うどんこ病",
     "バーティシリウム萎凋病",
-    "株元・根腐れ"
+    "株元・根腐れ",
+    "斑点病",
+    "さび病",
+    "アブラムシ",
+    "コナジラミ",
+    "カイガラムシ"
    ],
-   "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": "cultivar",
-   "note": "シカゴ植物園は害虫に強いとする"
-  },
-  "pruning": {
-   "value": "咲き終わった花穂を切ると花期が延び返り咲く。花後や徒長したときは新しい葉まで強く切り戻すと葉が若返り、秋に返り咲くことがある。",
    "method": "記載",
    "sources": [
     "s01",
-    "s10"
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "前7つは RHS、後5つは MBG（うどんこ病は両方）。シカゴ植物園は害虫に強いとする"
+  },
+  "pruning": {
+   "value": "咲き終わった花穂を切ると花期が延び返り咲く。花後や、夏に徒長・倒伏して見苦しくなったときは株元の新しい葉まで強く切り戻すと葉が若返り、秋に返り咲くことがある。秋〜晩秋に茎を切り戻す。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10",
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋"
    ],
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02",
+    "s18"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "秋は s18（秋〜晩秋に茎を切り戻す）のみ"
   },
   "management_type": {
-   "value": "B",
+   "value": "C",
    "method": "判定",
    "sources": [
-    "s01",
+    "s02",
     "s10"
    ],
    "level": "cultivar",
-   "note": "花後の切り戻しで返り咲き"
+   "note": "MBG: 夏に倒れたり見苦しくなったら株元の葉まで切り戻す（「夏に葉が傷むので切り戻す記述」に当たると判断）。Walters も徒長したら新しい葉まで切り戻すとする。花後の切り戻し（B）より上の C を採用"
   },
   "division_interval": {
    "value": "春（RHS）。早春または秋（perennials.com）。間隔の記載なし",
@@ -295,7 +336,8 @@
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar",
    "note": "RHS 品種ページの記載どおり（春に実生・株分け、夏に半熟枝挿し）"
@@ -335,8 +377,109 @@
   {
    "field": "silhouette",
    "detail": "RHS Columnar upright・Walters rigidly upright／シカゴ植物園 Mounded。直立を採用"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "MBG Dry to medium・stauden.de trocken; frisch（乾燥寄り）／RHS moist but well-drained（適湿）。RHS を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "MBG 1〜2フィート（30〜61cm）。数値の優先順位で perennials.com 45〜60cm のまま"
+  },
+  {
+   "field": "sun",
+   "detail": "MBG・stauden.de も日なたのみ。RHS（日なたが最適、軽い半日陰に耐える）を採用のまま"
+  },
+  {
+   "field": "heat",
+   "detail": "perennials.com tolerates heat and humidity／MBG 湿度の高い気候では夏に倒れて株が開くことがある。MBG は姿の乱れの記述で耐暑性の否定ではないと判断し 強 のまま（heat_note に併記）"
   }
  ],
  "name_review": null,
- "notes": "増え方・混植性の記述がなく関連項目は null。暑さは perennials.com の『暑さと湿気に耐える』のみで強とした。"
+ "notes": "暑さは perennials.com の『暑さと湿気に耐える』で強。MBG の『湿度の高い気候では夏に倒れて株が開く』は heat_note と管理タイプ（C）に反映した。増え方・混植性は s18（株立ち・ほどほどにこぼれ種）のみが根拠。YList に和名なし。",
+ "changes_20261119": [
+  {
+   "field": "heat_note",
+   "old": "暑さと湿気にも耐える。",
+   "new": "暑さと湿気には耐えるが、湿度の高い気候では夏が進むと茎が倒れて株が開くことがある。",
+   "reason": "暑さで優先の MBG（s02）「湿度の高い気候では夏に倒れて株が開く」を加えた（s10 の内容は維持）"
+  },
+  {
+   "field": "spread_modes",
+   "old": null,
+   "new": [
+    "株立ち（広がらない）",
+    "こぼれ種"
+   ],
+   "reason": "s18 に株立ち（horstig）とこぼれ種（mäßig versamend）の記録。他の文献に記述なし"
+  },
+  {
+   "field": "self_seed_level",
+   "old": null,
+   "new": 1,
+   "reason": "s18「こぼれ種でほどほどに増える（mäßig versamend）」から 1。他の文献に記述なし"
+  },
+  {
+   "field": "rhizome_level",
+   "old": null,
+   "new": 0,
+   "reason": "s18 に株立ち（horstig）。他の文献に記述なし"
+  },
+  {
+   "field": "mixing",
+   "old": null,
+   "new": "普通（混植可）",
+   "reason": "s18 の株立ち（horstig）により、株立ちで強勢の記述なし → 普通"
+  },
+  {
+   "field": "pests",
+   "old": [
+    "ナメクジ",
+    "カタツムリ",
+    "ヨコバイ",
+    "ナラタケ病（まれ）",
+    "うどんこ病",
+    "バーティシリウム萎凋病",
+    "株元・根腐れ"
+   ],
+   "new": [
+    "ナメクジ",
+    "カタツムリ",
+    "ヨコバイ",
+    "ナラタケ病（まれ）",
+    "うどんこ病",
+    "バーティシリウム萎凋病",
+    "株元・根腐れ",
+    "斑点病",
+    "さび病",
+    "アブラムシ",
+    "コナジラミ",
+    "カイガラムシ"
+   ],
+   "reason": "MBG（s02）の斑点病・さび病・アブラムシ・コナジラミ・カイガラムシを追加（s01 の内容は維持）"
+  },
+  {
+   "field": "pruning",
+   "old": "咲き終わった花穂を切ると花期が延び返り咲く。花後や徒長したときは新しい葉まで強く切り戻すと葉が若返り、秋に返り咲くことがある。",
+   "new": "咲き終わった花穂を切ると花期が延び返り咲く。花後や、夏に徒長・倒伏して見苦しくなったときは株元の新しい葉まで強く切り戻すと葉が若返り、秋に返り咲くことがある。秋〜晩秋に茎を切り戻す。",
+   "reason": "MBG（s02）の「夏に倒れて見苦しくなったら株元の葉まで切り戻す」と s18 の「秋〜晩秋に茎を切り戻す」を加えた"
+  },
+  {
+   "field": "pruning_codes",
+   "old": [
+    "花後"
+   ],
+   "new": [
+    "花後",
+    "秋"
+   ],
+   "reason": "s18「秋〜晩秋に茎を切り戻す」で 秋 を追加"
+  },
+  {
+   "field": "management_type",
+   "old": "B",
+   "new": "C",
+   "reason": "MBG（s02）に「夏に倒れて見苦しくなったら株元の葉まで切り戻す」の記述。上から順の判定で C（夏に傷むので切り戻す）に当たる"
+  }
+ ]
 }

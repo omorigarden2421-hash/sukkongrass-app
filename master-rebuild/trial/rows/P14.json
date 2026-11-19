@@ -21,6 +21,15 @@
    ],
    "level": "species"
   },
+  "common_name_ja": {
+   "value": "ハマカンザシ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "YList 標準和名（Armeria maritima (Mill.) Willd.、種レベル）"
+  },
   "flower_color_detail": {
    "value": null,
    "note": "品種レベルの記述なし（種は白・ピンク・赤紫）"
@@ -61,23 +70,28 @@
    "value": "日向",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18"
    ],
    "level": "species",
-   "note": "RHS Full sun（種）"
+   "note": "RHS・MBG Full sun、stauden.de sonnig（種）"
   },
   "usda_min": {
    "value": 4,
    "method": "記載",
    "sources": [
+    "s02",
     "s06"
    ],
-   "level": "species"
+   "level": "species",
+   "note": "MBG 4〜8、NCSU 4a〜8b（いずれも種）"
   },
   "usda_max": {
    "value": 8,
    "method": "記載",
    "sources": [
+    "s02",
     "s06"
    ],
    "level": "species"
@@ -100,10 +114,11 @@
    "note": "冷涼な海岸環境を好む（種）"
   },
   "heat_note": {
-   "value": "冷涼な海岸環境を好む。水のやりすぎ・過湿で根腐れする（種）。",
+   "value": "冷涼な海岸環境を好む。水のやりすぎ・過湿で根腐れし、湿った肥えた土や重い粘土では株の中心が腐りやすい（種）。",
    "method": "記載",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -112,20 +127,22 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species",
-   "note": "Drought Resistance Yes"
+   "note": "RHS Drought Resistance Yes、MBG Tolerate: Drought"
   },
   "soil_moisture": {
    "value": "排水必須",
    "method": "判定",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species",
-   "note": "水はけのよい土。水のやりすぎで根腐れ"
+   "note": "水はけのよい土。水のやりすぎで根腐れ、湿った土・重い粘土で株の中心が腐る（MBG）"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
@@ -145,10 +162,6 @@
    "level": "species",
    "note": "salt tolerant, tolerates moderate salt spray"
   },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
-  },
   "evergreen_warm": {
    "value": "常緑",
    "method": "記載",
@@ -156,7 +169,8 @@
     "s01",
     "s06"
    ],
-   "level": "species"
+   "level": "species",
+   "note": "RHS・NCSU 常緑。s18 は wintergrün（半常緑相当）だが文章の記述を採用"
   },
   "native_range": {
    "value": "北半球の海岸の岩崖・道端・塩性湿地（ヨーロッパ・北米・グリーンランド、英国・アイルランドにも自生）。Kew：亜寒帯〜北半球温帯",
@@ -174,18 +188,25 @@
    ],
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "species",
-   "note": "Clump forming（種）。NCSU の Spreading・mat forming は形のタグ"
+   "note": "RHS Clump forming・stauden.de horstig（種）。NCSU の Spreading・mat forming は形のタグ"
   },
   "self_seed_level": {
    "value": null,
    "note": "記述なし"
   },
   "rhizome_level": {
-   "value": null,
-   "note": "記述なし"
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s18",
+    "s01"
+   ],
+   "level": "species",
+   "note": "s18 horstig（株立ち）、RHS Clump forming。MBG の「株はゆっくり広がり幅20〜30cmになる」は株の最終的な幅の説明で、地下茎などで広がる記述ではないと判断した（1 とする読み方もありうる）"
   },
   "mixing": {
    "value": "普通（混植可）",
@@ -217,13 +238,15 @@
     "s06"
    ],
    "level": "species",
-   "note": "RHS（種）は病害虫ほぼなし"
+   "note": "RHS（種）は病害虫ほぼなし、MBG（種）も重大な病害虫なし"
   },
   "pruning": {
-   "value": "剪定不要。",
+   "value": "剪定不要。咲き終わった花茎を株元の葉の上で切ると次の花が咲く。",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18"
    ],
    "level": "species"
   },
@@ -235,7 +258,8 @@
    "sources": [
     "s01"
    ],
-   "level": "species"
+   "level": "species",
+   "note": "MBG・s18 は咲き終わった花茎を切るとするが、RHS の No pruning required を優先"
   },
   "management_type": {
    "value": "A",
@@ -247,8 +271,13 @@
    "note": "剪定不要の記述のみ"
   },
   "division_interval": {
-   "value": null,
-   "note": "記述なし"
+   "value": "花後（間隔の記載なし）",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "species",
+   "note": "s18: Teilung nach der Blüte。他の文献に時期・間隔の記述なし"
   },
   "propagation": {
    "value": [
@@ -259,7 +288,8 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s18"
    ],
    "level": "species",
    "note": "基部挿し。実生は種レベルの記載"
@@ -282,8 +312,60 @@
   {
    "field": "sun",
    "detail": "RHS 日なた／NCSU 日なた〜半日陰・木漏れ日（いずれも種）。RHS を採用"
+  },
+  {
+   "field": "pruning_codes",
+   "detail": "RHS 剪定不要／MBG・stauden.de 咲き終わった花茎を切る（花後 相当。MBG は次の花が咲くとする）。優先順位で RHS を採って 不要、management_type も A のまま（pruning の文章には併記）"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "MBG Water: Dry・stauden.de trocken（乾燥寄り）／RHS well-drained・NCSU 水はけ良、過湿で根腐れ（排水必須）。RHS・NCSU を採用"
+  },
+  {
+   "field": "evergreen_warm",
+   "detail": "RHS・NCSU 常緑／stauden.de wintergrün（半常緑相当）。文章の記述を採用"
+  },
+  {
+   "field": "rhizome_level",
+   "detail": "stauden.de horstig・RHS Clump forming／MBG Tufts will spread slowly to 8-12\" wide。MBG は株の幅の説明と読んで 0 とした"
+  },
+  {
+   "field": "pests",
+   "detail": "NCSU アブラムシ・ナメクジ・カタツムリ・うどんこ病・根腐れ／RHS・MBG 重大な病害虫なし。以前の判断（NCSU の列挙）のまま"
   }
  ],
  "name_review": null,
- "notes": "'Variegata' の品種ページはどの文献にもなく、全項目が種レベル。品種レベル必須の項目（花色・株張り・葉色・シルエット等）は null。斑入りの特徴を裏づける文献がなく、RHS の斑入りアルメリア 'Stephen Taffler' (v) などとの同一性も不明。学名はマスターと同じため name_review は null だが、正式な品種名の確認が必要。"
+ "notes": "'Variegata' の品種ページはどの文献にもなく、全項目が種レベル。品種レベル必須の項目（花色・株張り・葉色・シルエット等）は null。斑入りの特徴を裏づける文献がなく、RHS の斑入りアルメリア 'Stephen Taffler' (v) などとの同一性も不明。学名はマスターと同じため name_review は null だが、正式な品種名の確認が必要。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "ハマカンザシ",
+   "reason": "新設項目。YList（s04）の標準和名"
+  },
+  {
+   "field": "heat_note",
+   "old": "冷涼な海岸環境を好む。水のやりすぎ・過湿で根腐れする（種）。",
+   "new": "冷涼な海岸環境を好む。水のやりすぎ・過湿で根腐れし、湿った肥えた土や重い粘土では株の中心が腐りやすい（種）。",
+   "reason": "MBG（s02）の「湿った肥えた土や重い粘土では株の中心が腐りやすい」を加えた（s06 の内容は維持）"
+  },
+  {
+   "field": "rhizome_level",
+   "old": null,
+   "new": 0,
+   "reason": "s18 に株立ち（horstig）、RHS（s01）も Clump forming。MBG（s02）の「ゆっくり幅20〜30cmまで」は株の大きさの説明と判断"
+  },
+  {
+   "field": "pruning",
+   "old": "剪定不要。",
+   "new": "剪定不要。咲き終わった花茎を株元の葉の上で切ると次の花が咲く。",
+   "reason": "MBG（s02）・s18 の「咲き終わった花茎を切る（次の花が咲く）」を追記。pruning_codes は RHS 優先で 不要 のまま"
+  },
+  {
+   "field": "division_interval",
+   "old": null,
+   "new": "花後（間隔の記載なし）",
+   "reason": "s18 に「花後に株分け」。他の文献に記述なし"
+  }
+ ]
 }

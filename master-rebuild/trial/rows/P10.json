@@ -12,14 +12,20 @@
   },
   "synonyms": {
    "value": [
-    "Funkia（属の旧名）"
+    "Funkia（属の旧名）",
+    "Hosta × fortunei 'Gold Standard'"
    ],
    "method": "記載",
    "sources": [
-    "s06"
+    "s06",
+    "s18"
    ],
    "level": "genus",
-   "note": "品種の別名は文献になし"
+   "note": "Funkia は属の旧名（NCSU）。Hosta × fortunei 'Gold Standard' は stauden.de での表記"
+  },
+  "common_name_ja": {
+   "value": null,
+   "note": "YList（s04）の記録なし"
   },
   "flower_color_detail": {
    "value": "ラベンダーがかったピンク",
@@ -82,10 +88,11 @@
    "level": "cultivar"
   },
   "seasonal_foliage": {
-   "value": "葉の中央は春は明るい緑で、初夏にかけて黄金色に変わる。朝日で黄色が強まる",
+   "value": "葉の中央は春は明るい緑で、初夏にかけて黄金色に変わる。朝日で黄色が強まる。秋に葉が色づく",
    "method": "記載",
    "sources": [
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -106,7 +113,8 @@
    "value": "半日陰",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar",
    "note": "RHS Partial shade"
@@ -115,17 +123,20 @@
    "value": 3,
    "method": "記載",
    "sources": [
+    "s02",
     "s10"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "MBG Zone 3 to 8"
   },
   "usda_max": {
-   "value": 9,
+   "value": 8,
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "MBG Zone 3 to 8"
   },
   "rhs_h": {
    "value": "H7",
@@ -139,10 +150,11 @@
    "value": "中",
    "method": "判定",
    "sources": [
+    "s06",
     "s10"
    ],
-   "level": "cultivar",
-   "note": "USDA上限から（上限9）。暑さ・高温多湿の明記なし"
+   "level": "genus",
+   "note": "条件つきの記述のみ（ルール③）: NCSU（属）南部では日陰か木漏れ日に植えると葉焼けしない／Walters 午後の強い日差しは致命的。heat tolerant 等の明記も、暑さに弱いとの明記もない。MBG に暑さの記述なし"
   },
   "heat_note": {
    "value": "高温多湿の明記はない。暖地では葉焼けを防ぐため日陰〜木漏れ日に植え、午後の強い日差しは避ける。排水不良で根腐れ・株腐れが起きる（属）。",
@@ -154,17 +166,24 @@
    "level": "genus"
   },
   "drought": {
-   "value": null,
-   "note": "乾燥耐性の記述なし"
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "MBG Water: Medium。Tolerate 欄に Dry Soil はあるが Drought はない"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18"
    ],
    "level": "cultivar",
-   "note": "Moist but well-drained。NCSU（属）は特に冬の過湿に弱いとする"
+   "note": "Moist but well-drained（RHS）。MBG Water: Medium、stauden.de frisch。NCSU（属）は特に冬の過湿に弱いとする"
   },
   "soil_ph_type": {
    "value": "酸性〜中性（pH5.5〜7.5）、粘土・ローム（砂質ロームが粘土よりよい）",
@@ -183,10 +202,6 @@
    ],
    "level": "genus",
    "note": "slightly salt tolerant"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし（NCSU 属に28°F以下で地上部が枯れるとあるが寒冷地の文献ではない）"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -212,7 +227,8 @@
    ],
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar",
    "note": "RHS Clump forming。NCSU（属）は地下茎で育つとする"
@@ -223,7 +239,7 @@
   },
   "rhizome_level": {
    "value": null,
-   "note": "広がらない・広がるの明記なし"
+   "note": "広がらない・広がるの明記なし（stauden.de の horstig は株立ちの区分で、広がらないとの明記とはしなかった）"
   },
   "mixing": {
    "value": "普通（混植可）",
@@ -251,49 +267,56 @@
     "ナメクジ",
     "カタツムリ",
     "キンケクチブトゾウムシ（鉢植え）",
-    "ウイルス病"
+    "ウイルス病",
+    "葉センチュウ"
    ],
    "method": "記載",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "NCSU（属）は線虫、根腐れ、HVX、炭疽病、シカ・ウサギも挙げる"
+   "note": "MBG はウイルスとして HVX 等を挙げ、斑点病・株腐れは少ないとする。シカ・ウサギの食害（MBG・NCSU 属）は病害虫に入れていない。NCSU（属）は根腐れ、炭疽病も挙げる"
   },
   "pruning": {
-   "value": "傷んだ葉は随時取り除き、秋に地上部が枯れたら片付ける。",
+   "value": "傷んだ葉は随時取り除き、秋に地上部が枯れたら片付ける。咲き終わった花茎は株元の葉の上で切る。",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar"
   },
   "pruning_codes": {
    "value": [
+    "花後",
     "秋"
    ],
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar"
   },
   "management_type": {
-   "value": "A",
+   "value": "B",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "cultivar",
-   "note": "枯れ葉の片付けのみ。株分けは3〜5年ごと（属）で毎年更新ではない"
+   "note": "花後の花茎切り（stauden.de）。株分けは3〜5年ごと（属）で毎年更新ではない。s18 の1件だけが根拠なので要確認"
   },
   "division_interval": {
-   "value": "3〜5年ごと、早春の芽出し時（属）。RHS は晩夏または早春、Walters は数年育ててから3芽以上で",
+   "value": "3〜5年ごと、早春の芽出し時（属）。RHS は晩夏または早春、MBG は必要に応じて春か秋（早春が最も楽）、Walters は数年育ててから3芽以上で",
    "method": "記載",
    "sources": [
     "s06",
     "s01",
+    "s02",
     "s10"
    ],
    "level": "genus"
@@ -307,7 +330,8 @@
    "sources": [
     "s01",
     "s10",
-    "s06"
+    "s06",
+    "s18"
    ],
    "level": "genus",
    "note": "実生は親と同じにならない（NCSU 属）ため除外"
@@ -316,10 +340,11 @@
    "value": "○",
    "method": "判定",
    "sources": [
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar",
-   "note": "Walters Cut Foliage（切り葉）のみ"
+   "note": "Walters Cut Foliage（切り葉）、stauden.de 切り花・アレンジ向き。good/excellent の明記はない"
   },
   "pollinator": {
    "value": "○",
@@ -343,6 +368,18 @@
   {
    "field": "spread_modes",
    "detail": "RHS 株立ち／NCSU（属）地下茎で育つ。RHS を採用"
+  },
+  {
+   "field": "usda",
+   "detail": "MBG 3〜8／Walters 3〜9／NCSU（属）3a〜9b。優先順位で MBG を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "MBG 半日陰〜日陰／RHS・stauden.de 半日陰。RHS を採用"
+  },
+  {
+   "field": "silhouette",
+   "detail": "stauden.de 弓なり・横に張り出す（bogig; ausladend）／Walters large mound。文章の Walters を採用（ドーム）"
   }
  ],
  "name_review": {
@@ -351,5 +388,88 @@
   "reason": "属名と品種名の間の半角スペースが抜けている。RHS では Hosta 'Gold Standard' (fortunei) (v)（フォーチュネイ群の斑入り品種）",
   "source": "s01 / Kew"
  },
- "notes": "暑さの記述が品種・属ともなく、USDA上限で中とした。NCSU は属ページのみ（耐塩・毒性・株分け間隔・送粉者は属レベル）。"
+ "notes": "暑さは条件つきの記述（暖地は日陰・午後の日差しを避ける）だけなので 中（ルール③）。耐寒ゾーンは MBG 3〜8 に変更。NCSU は属ページのみ（耐塩・毒性・株分け間隔・送粉者は属レベル）。花後の花茎切りは stauden.de のみが根拠で、これにより管理タイプが A→B になった（要確認）。",
+ "changes_20261119": [
+  {
+   "field": "synonyms",
+   "old": [
+    "Funkia（属の旧名）"
+   ],
+   "new": [
+    "Funkia（属の旧名）",
+    "Hosta × fortunei 'Gold Standard'"
+   ],
+   "reason": "s18（stauden.de）が Hosta × fortunei 'Gold Standard' の名で掲載"
+  },
+  {
+   "field": "usda_max",
+   "old": 9,
+   "new": 8,
+   "reason": "s02（MBG）3〜8。耐寒の優先順位で s02 > s10"
+  },
+  {
+   "field": "heat",
+   "old": "中",
+   "new": "中",
+   "reason": "USDA上限からの判定をやめ、暑さの記述で決め直し。s06（属）「南部では日陰か木漏れ日で葉焼けしない」・s10「午後の強い日差しは致命的」は条件つきの記述（ルール③）。値は同じ"
+  },
+  {
+   "field": "drought",
+   "old": null,
+   "new": "中",
+   "reason": "新しく埋まった。s02（MBG）Water: Medium"
+  },
+  {
+   "field": "pests",
+   "old": [
+    "ナメクジ",
+    "カタツムリ",
+    "キンケクチブトゾウムシ（鉢植え）",
+    "ウイルス病"
+   ],
+   "new": [
+    "ナメクジ",
+    "カタツムリ",
+    "キンケクチブトゾウムシ（鉢植え）",
+    "ウイルス病",
+    "葉センチュウ"
+   ],
+   "reason": "s02（MBG）が葉のセンチュウに注意と記載（s06 属も線虫）"
+  },
+  {
+   "field": "seasonal_foliage",
+   "old": "葉の中央は春は明るい緑で、初夏にかけて黄金色に変わる。朝日で黄色が強まる",
+   "new": "葉の中央は春は明るい緑で、初夏にかけて黄金色に変わる。朝日で黄色が強まる。秋に葉が色づく",
+   "reason": "s18（stauden.de 品種）Blattschmuck: herbstfärbend を追記"
+  },
+  {
+   "field": "pruning",
+   "old": "傷んだ葉は随時取り除き、秋に地上部が枯れたら片付ける。",
+   "new": "傷んだ葉は随時取り除き、秋に地上部が枯れたら片付ける。咲き終わった花茎は株元の葉の上で切る。",
+   "reason": "s18（stauden.de）の花茎の切り戻しを追記（他の文献に花茎の記述なし）"
+  },
+  {
+   "field": "pruning_codes",
+   "old": [
+    "秋"
+   ],
+   "new": [
+    "花後",
+    "秋"
+   ],
+   "reason": "s18 の「咲き終わった茎を切り戻す」から 花後 を追加"
+  },
+  {
+   "field": "management_type",
+   "old": "A",
+   "new": "B",
+   "reason": "pruning_codes に 花後 が入ったため（s18）。上から順の判定で B"
+  },
+  {
+   "field": "division_interval",
+   "old": "3〜5年ごと、早春の芽出し時（属）。RHS は晩夏または早春、Walters は数年育ててから3芽以上で",
+   "new": "3〜5年ごと、早春の芽出し時（属）。RHS は晩夏または早春、MBG は必要に応じて春か秋（早春が最も楽）、Walters は数年育ててから3芽以上で",
+   "reason": "s02（MBG）の株分け時期を追記"
+  }
+ ]
 }
