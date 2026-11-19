@@ -43,12 +43,14 @@ def sentences(t):
 
 
 # ---------- 言い回しの照合（RULES.md の heat / muggy / west_sun） ----------
-P_HEAT_WEAK = r"dislike[s]? (the )?(hot|heat)|intolerant of the heat|not recommended for growing south|require[s]? a cool|prefer[s]? cool[- ](summer|weather|climate|temperature|night|condition)|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)"
+P_HEAT_WEAK = r"dislike[s]? (the )?(hot|heat)|dislike[s]? [^.]*hot, humid summer|intolerant of (the )?(high |extreme )?heat|cool weather plant|not recommended for planting south|do(es)? not grow well in the deep south|not recommended for growing south|require[s]? a cool|prefer[s]? cool[- ](summer|weather|climate|temperature|night|condition)|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)"
 P_HEAT_MID = r"afternoon shade|decline[s]? .*hot summer|interrupts? in the heat|foliage may (decline|scorch|burn)|scorch|in hot summer climates|best in cool northern summer|full sun is best in cool|leaf burn|in the south it is best"
-P_HEAT_STRONG = r"tolerates? (the )?(hot|heat)|heat tolerant|tolerant of [^.]*heat|tolerates hot and humid"
-P_MUGGY_WEAK = r"dislike[s]? (the )?hot and humid|intolerant of the heat and humidity|dislike[s]? .*humidity|melt[s]? out|not .*tolerant of .*humid|do(es)? not (do|perform) well in [^.]*hot and humid"
+P_HEAT_STRONG = r"tolerates? (the )?(hot|heat)|heat tolerant|(?<!in)tolerant of [^.]*heat|tolerates hot and humid"
+P_MUGGY_WEAK = r"dislike[s]? (the )?hot and humid|dislike[s]? [^.]*hot, humid|intolerant of (the )?(high )?heat and humidity|dislike[s]? .*humidity|melt[s]? out|not .*tolerant of .*humid|do(es)? not (do|perform) well in [^.]*hot and humid"
 P_MUGGY_MID = r"(mildew|rust|leaf spot)[^.]*humid|humid[^.]*(mildew|rust|leaf spot|flop)|good air circulation|prefer[s]? .*dry air"
-P_MUGGY_STRONG = r"tolerates? hot and humid|tolerant of .*humidity|tolerates? .*heat and humidity"
+P_MUGGY_STRONG = r"tolerates? hot and humid|(?<!in)tolerant of .*humidity|tolerates? .*heat and humidity"
+# 2026-11-20: 「intolerant of high heat and humidity」が tolerant of … heat に当たって 強 になっていた（スカビオサ）。in- の付く形を 強 から外し、弱 の言い回しに足した。
+#   トロリウスの「cool weather plant」「dislikes dry soils and hot, humid summers」「not recommended for planting south of …」も 弱 に足した。
 P_AFTERNOON = r"afternoon shade|afternoon sun|scorch|leaf burn|protected from hot sun"
 
 

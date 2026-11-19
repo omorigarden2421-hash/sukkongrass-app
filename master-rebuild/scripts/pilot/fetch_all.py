@@ -143,7 +143,8 @@ def ylist(key, q):
 GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "Galatella"],
                "Persicaria": ["Persicaria", "Bistorta", "Koenigia", "Aconogonon", "Polygonum"],
                "Sedum": ["Sedum", "Hylotelephium", "Phedimus"], "Hylotelephium": ["Hylotelephium", "Sedum"],
-               "Stachys": ["Stachys", "Betonica"], "Potentilla": ["Potentilla", "Sibbaldiopsis"]}
+               "Stachys": ["Stachys", "Betonica"], "Potentilla": ["Potentilla", "Sibbaldiopsis"],
+               "Scabiosa": ["Scabiosa", "Lomelosia"], "Sanguisorba": ["Sanguisorba", "Poterium"]}
 SPECIES_ALIAS = {
  "Aster novae-angliae": ["Symphyotrichum novae-angliae"], "Aster novi-belgii": ["Symphyotrichum novi-belgii"],
  "Aster dumosus": ["Symphyotrichum dumosum"], "Aster cordifolius": ["Symphyotrichum cordifolium"],
@@ -161,13 +162,19 @@ SPECIES_ALIAS = {
  "Stachys macrantha": ["Betonica macrantha"], "Stachys officinalis": ["Betonica officinalis"], "Stachys monieri": ["Betonica officinalis"],
  "Potentilla tridentata": ["Sibbaldiopsis tridentata"], "Potentilla verna": ["Potentilla neumanniana"],
  "Potentilla hopwoodiana": ["Potentilla x hopwoodiana"], "Potentilla tonguei": ["Potentilla x tonguei"],
+ # マスターの 'Scabiosa caucasia' はつづり違い（caucasica）
+ "Scabiosa caucasia": ["Scabiosa caucasica", "Lomelosia caucasica"], "Scabiosa caucasica": ["Lomelosia caucasica"],
+ "Trollius cultorum": ["Trollius x cultorum"], "Filipendula multijuga": ["Filipendula palmata"],
+ "Polemonium yezoense": ["Polemonium caeruleum subsp. yezoense", "Polemonium yezoense var. hidakanum"],
 }
 # 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
 CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],
             "Autumn Joy": ["Herbstfreude"], "Dragon's Blood": ["Schorbuser Blut"],
-            "Walter Funcke": ["Walther Funcke"], "Firefly": ["Leuchtkäfer"], "Dallas Blue": ["Dallas Blues"], "Blue Giants": ["Blue Giant"],}
+            "Walter Funcke": ["Walther Funcke"], "Firefly": ["Leuchtkäfer"], "Dallas Blue": ["Dallas Blues"], "Blue Giants": ["Blue Giant"],
+            "Blue Perfection": ["Perfecta", "Perfecta Blue"], "Compliment": ["Kompliment"], "Moon Dance": ["Moondance"], "Fama": ["Fama Deep Blue", "Fama Blue"],
+            "Venusta Magnifica": ["Venusta"], "Filigree Clouds": ["Filigree Cloud"], "Golden Queen": ["Goldkönigin"], "Lemon Queen": ["Zitronenkönigin"],}
 GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra", "white",
-           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata"}
+           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta"}
 
 
 def slug(s):

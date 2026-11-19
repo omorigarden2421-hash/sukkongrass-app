@@ -44,6 +44,7 @@ for r in rows[1:]:
     words = [w for w in head[1:] if w != "x"]
     hybrid = "x" in head[1:] or not words
     species = f"{g} {words[0]}" if words and re.fullmatch(r"[a-z\-]+", words[0]) else f"{g} hybrid"
+    species = {"Scabiosa caucasia": "Scabiosa caucasica"}.get(species, species)  # マスターのつづり違い（学名の列はそのまま残す）
     items.append({"商品番号": d["商品番号"], "植物名": clean(d["植物名"]), "学名": sci, "属": g, "species": species,
                   "交配種": hybrid, "品種名": cv.group(1) if cv else None, "別名": clean(d["別名"]) if d.get("別名") else None,
                   "在庫あり": isinstance(d.get("在庫数"), (int, float)) and d["在庫数"] > 0,
