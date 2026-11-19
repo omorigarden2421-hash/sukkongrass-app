@@ -40,10 +40,17 @@ OGIHARA = [
  (["S09"], 696, "サルビア プラテンシス ‘スカイダンス’ Salvia pratensis 'Sky Dance'", "cultivar", "強", "やや半日陰", []),
  (["S10"], 694, "サルビア プラテンシス ‘スイートエスメラルダ’ Salvia pratensis 'Sweet Esmeralda'", "cultivar", "強", "日向～やや半日陰", []),
  (["S11"], 695, "サルビア プラテンシス ‘トワイライトセレナーデ’ Salvia pratensis 'Twilight Serenade'", "cultivar", "強", "日向～やや半日陰", []),
- # マスターは 'Queen Blue'。図鑑は 'Blue Queen'（同じ品種の語順違いとして当てた。学名の検討に残す）
+ # マスターは 'Queen Blue'。図鑑は 'Blue Queen'。2026-11-19 ユーザーの決定で同じ品種として扱う（マスターの 濃い紫・45〜60cm・初夏〜盛夏 と、
+ #   'Blaukönigin' の 青紫・シカゴ植物園の草丈 18〜24 in〔46〜61cm〕・初夏〜夏 が合う。Jelitto のサルビア73件に 'Queen Blue' はなく、その検索語では 'Blaukönigin' だけが出る）
  (["S12"], 723, "サルビア ‘ブルークイーン’ Salvia x superba 'Blue Queen'", "cultivar", "強", "日向",
   [("pruning", "花後に短く地際まで剪定すると姿良く繰り返し花をつける")]),
  # 図鑑の 693「サルビア プラテンシス ‘ラプソディ イン ブルー’ Salvia pratensis 'Rhapsody in Blue'」は、マスターの S15（Salvia × sylvestris 'Rhapsody in Blue'）とは
- #   別の品種と見て当てていない（stauden.de と MBG に nemorosa／× sylvestris の 'Rhapsody in Blue' が別にある）。どちらを売っているかはユーザーに確認
+ #   別の品種と見て当てていない（stauden.de と MBG に nemorosa／× sylvestris の 'Rhapsody in Blue' が別にある）。ユーザーの回答（2026-11-19）: 売っているのは × シルベストリスの方
  (["S16"], 2796, "サルビア バーチキリアタ Salvia verticillata", "species", "強", "日向～やや半日陰", [("drought", "乾いた場所や痩せ地にも強く、丈夫で咲かせやすい")]),
 ]
+# 同じ種の別品種の値を、載っていない同種の品種に使う種（2026-11-19 ユーザーの決定。「強判定にしてみよう。あとで見返せるように」）。
+# 種: (耐暑性, 根拠にした品種の試行ID)。対象は R04・R06・R07・R08・R10・R13（欧米の文献だけなら 中）。下書きの「耐暑性の決め方」の列で見分けられる。
+# 宿根フロックス（paniculata）も同じ扱いにする（2026-11-19 ユーザーの回答「強にする」）。根拠は 'Blue Paradise'・'David' の2品種、
+#   対象は F06・F07・F09〜F18 の12品種（欧米の文献だけなら空欄）。
+SIBLING = {"Persicaria amplexicaulis": ("強", ["R03", "R05", "R09", "R11", "R12"]),
+           "Phlox paniculata": ("強", ["F05", "F08"])}

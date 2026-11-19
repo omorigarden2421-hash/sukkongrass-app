@@ -117,7 +117,7 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
   - 直した後の結果（55品種）：耐暑性 強 26・中 5・弱 8・空欄 16、蒸れ耐性 強 18・弱 2・空欄 35、西日耐性 ◎5・○24・△8・×3・空欄 15。品種のページがどの文献にもないのは11品種（C06・C14・C15・C16・M11・M12・M15・X06・X08・X11・X12）
   - アスターと3属の試行を同じスクリプトで作り直して比べた：値の違いは「品種ページのある文献」の列だけ（RHS の名前だけの登録を数えなくなった分。アスター4品種、試行9品種）。ユーザーの手元の Excel は作り直していない
   - ユーザーに見てもらうもの（要注意）：耐暑性 弱 の8品種（上の7品種と C13 パーシシフォリア 'モーハイミ'）、蒸れ耐性 弱 の2品種（C24、X07 'エバーゴールド'）、おぎはらとの食い違い6品種（C09・C18・C22・C24・C25・X07）
-  - ユーザーに聞くこと：おぎはらが同じ種の別品種を 強 としているホタルブクロ（punctata）の品種（C17・C19・C20・C21）を、MBG の種の記述どおり 弱 にするか、おぎはらの同種の品種に合わせるか
+  - （回答済み）ホタルブクロの C17・C19・C20・C21 は、おぎはらの同じ種の品種に合わせて 強 にした。耐暑性 弱 は4品種（C07・C10・C13・C15）になった
 - 気づいた点：カレックスの一部（ブキャナニー、'フロステッドカール'、'エバーゴールド'）は、おぎはらが耐寒性「約 -12℃」、Jelitto がゾーン6〜9 としている。商品「カレックス 'バーグレニーアイ'」はマスターの学名が Carex talbotii だが、RHS・Jelitto には Carex berggrenii がある。カレックス 'Kiwi'・'Blue Ridge' は Jelitto が発表元
 - シカゴ植物園の評価報告を追加（2026-11-19）：Plant Evaluation Notes 31 Bellflowers から8品種（C07・C08・C09・C12・C13・C22・C23・C24）の株幅と注意を batch_02/jelitto_cbg_data.py の CBG_V に入れた。'Sarastro' は試験で最高評価、'Moerheimii' は2年目の夏に根腐れで枯れた、という記録を「文献の注意」に出している。ヘメロカリスとカレックスの号はない
 
@@ -135,11 +135,13 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
   - 宿根フロックスの蒸れ耐性 中 は「風通しを良くするとうどんこ病が減る」という記述から（アスターと同じ）。宿根フロックスの耐暑性は、おぎはらにページのある2品種（'Blue Paradise'・'David'）だけ 強、ほかは空欄（欧米の文献に暑さの記述がない）
   - 根拠を確認して直したこと：(1) S07 'Madeline' の MBG がローズマリーの 'Madeline Hill' に当たっていた → fetch_all.py で、品種名の前半だけが合う候補は種小名も一致するときだけ採るようにした (2) S15 'Rhapsody in Blue' に、おぎはらのプラテンシスの同名品種を当てていた → 別の品種と見て外した（stauden.de・MBG に nemorosa／× sylvestris の 'Rhapsody in Blue' がある） (3) ペルシカリアも GENUS_MBG_SKIP に追加（MBG のアンプレクシカウリスの文を、アフィニスやミクロセファラに広げない）
   - ユーザーに伝えること：'Red Dragon' は Gaißmayer が Z8・「冬越ししない宿根草」の扱い（冬は落ち葉などで覆う、春植えを勧める）、RHS は H4。'Blue Paradise' は Gaißmayer が「涼しい地域で特によく育つことが多い」、シカゴ植物園が「葉の斑点病で下葉が落ちやすい」。斑入りの宿根フロックス（'Harlequin'・'Norah Leigh'）はシカゴ植物園で晩夏に葉焼け
-  - ユーザーに聞くこと：(a) おぎはらが同じ種の別品種をどれも 強 としているとき、載っていない同種の品種（ホタルブクロ4品種、アンプレクシカウリス6品種）にも同じ値を使うか (b) S15 はプラテンシスの 'Rhapsody in Blue'（バレエシリーズ）か、× sylvestris の同名品種か (c) S12 'Queen Blue' は 'Blue Queen'（'Blaukönigin'）でよいか
+  - ユーザーの回答（2026-11-19、DECISIONS.md に記録）：(a) 同じ種のおぎはらの値を使う（試し。見返せるように「耐暑性の決め方」「耐暑性（欧米の文献だけなら）」の2列を下書きの右端に追加。assemble_pilot.py と各 batch の ogihara_data.py の SIBLING）(b) S15 は × シルベストリス (c) S12 は 'Blue Queen' と同じ品種として扱う。反映後：batch_02 の耐暑性は 強 30・中 5・弱 4・空欄 16、batch_03 は 強 32・中 2・空欄 18
+  - 宿根フロックス（paniculata）にも同じ扱いをする、と回答（'Blue Paradise'・'David' が根拠、ほか12品種を 強 に）。反映後の batch_03：耐暑性 強 44・中 2・空欄 6
 - 名前で気づいた点（学名の検討に出る）：'Laura' は RHS では 'Uspekh' の別名（シカゴ植物園は別の品種として両方載せている）／'Red Riding Hood' は RHS では 'Miss Mary' の別名／'Merleau' の3品種は RHS では Salvia × digenea（マスターは nemorosa）／'Queen Blue' は 'Blue Queen'（'Blaukönigin'）の語順違いと見て当てた／'Rhapsody in Blue' はおぎはらでは pratensis の品種（マスターは × sylvestris）／'Brushstrokes' は RHS では Persicaria filiformis／'Silver Dragon' は RHS では種小名なし／ポリモーファは RHS ではシノニム扱い
 - その次の属の候補（在庫の多い順）：セダム、エキナセア、アスチルベ、ヒューケラ、ポテンティラ
 
 ## 新しいセッションで続けるとき
+- 耐暑性は今の決め方のまま進め、全部の属が終わってから最後にもう一度検討する（2026-11-19 ユーザーの指示。DECISIONS.md）。新しい属でも「同じ種のおぎはらの値」を使うときは、その batch の ogihara_data.py の SIBLING に書く
 - このファイルと DECISIONS.md・trial/RULES.md を読めば、決まったことと手順が分かる
 - 文献ごとの読める場所：stauden.de・MBG・NC State・YList・Walters・RHS の詳細ページ・シカゴ植物園の PDF・おぎはら植物園は curl。RHS の検索はブラウザー（アプリ内のブラウザーでよい）。Gaißmayer と Jelitto はユーザーのパソコンの Chrome（Claude in Chrome）
 - ユーザーはスマホで見ることがある。確認ページは非公開の Artifact で作り、チェックリストは選ぶと「1A、2B…」の文ができる形にして、チャットに貼ってもらう
