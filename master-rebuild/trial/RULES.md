@@ -9,15 +9,18 @@
 - trial/kew.json … Kew（英国王立植物園）の学名データの照合結果
 
 ## 文献の優先順位（文献どうしが食い違うとき）
-- 文献ID: s01=RHS、s08=シカゴ植物園、s07=ミネソタ大、s06=NC State、s09=Wildflower Center、s10=perennials.com／Walters、s12=育種会社
-- **耐寒・越冬に関わる項目**（usda、evergreen_cold）: s08 > s07 > s01 > s10 > s06 > その他
-- **暑さ・蒸れに関わる項目**（heat、heat_note、evergreen_warm）: s06 > s01 > s10 > s08 > その他
-- **それ以外**: s01 > s08 > s06 > s07 > s09 > s10 > s12
+- 文献ID: s01=RHS、s02=MBG（ミズーリ植物園）、s04=YList、s08=シカゴ植物園、s07=ミネソタ大、s06=NC State、s09=Wildflower Center、s10=perennials.com／Walters、s12=育種会社、s18=stauden.de 無料データベース（ドイツ宿根草生産者協会 BdS）
+- **耐寒・越冬に関わる項目**（usda）: s08 > s07 > s01 > s02 > s10 > s06 > その他
+- **暑さ・蒸れに関わる項目**（heat、heat_note、evergreen_warm）: s06 > s02 > s01 > s10 > s08 > その他
+- **それ以外**: s01 > s08 > s06 > s02 > s07 > s09 > s10 > s12 > s18
+- s02・s18 の位置は 2026-11-19 の仮置き（ユーザー確認待ち）。MBG はセントルイス（夏が高温多湿）の植物園なので、暑さの項目では NC State の次に置いた。
+- s18（ドイツ）の耐寒ゾーン（hardiness_zone_de）・花の高さ・花期は値に使わない（耐寒性・草丈・花期は今のマスターの値を使う決定のため）。s18 の exposure・function_type・vigor・trial_rating・care・ornamental・uses も値には使わない（記録のみ）。
+- s18 は用語を選ぶ形式のデータなので、他の文献に記述がない項目を埋めるのに使い、他の文献の文章による記述と食い違うときは文章の方を採って conflicts に書く。
 - 数値（株張り）だけは例外: 品種レベルの具体的な数値（cm・インチ）を出している文献を優先（s10 > s08 > s06 > s12）。具体的な数値がなく RHS の幅（例 0.1〜0.5m）しかなければ RHS を使う。
 - 採用しなかった食い違いは conflicts に書く。
 
 ## 種・属レベルの情報を品種に使ってよい項目
-- **使ってよい**（level が species／genus でも採用。level をそのまま記録）: accepted_name の種部分、synonyms、native_range、sun、usda、rhs_h、heat、heat_note、drought、soil_moisture、soil_ph_type、salt、evergreen_cold、evergreen_warm、spread_modes、self_seed_level、rhizome_level、mixing、invasive_note、toxicity、pests、pruning、pruning_codes、management_type、division_interval、propagation、pollinator
+- **使ってよい**（level が species／genus でも採用。level をそのまま記録）: accepted_name の種部分、synonyms、common_name_ja、native_range、sun、usda、rhs_h、heat、heat_note、drought、soil_moisture、soil_ph_type、salt、evergreen_warm、spread_modes、self_seed_level、rhizome_level、mixing、invasive_note、toxicity、pests、pruning、pruning_codes、management_type、division_interval、propagation、pollinator
 - **使わない**（品種レベルの記述がなければ null）: flower_color_detail、flower_color_class、spread_min/max、foliage_class、foliage_features、seasonal_foliage、fragrance、silhouette、cut_flower
 - ただし商品が種そのもの（品種名なし。例 Sagina subulata、Alchemilla saxatilis、Lysimachia nummularia、Patrinia scabiosifolia、Geranium phaeum）なら、種レベルの記述は「品種レベル」と同じ扱いでよい。
 
@@ -49,14 +52,14 @@
 | sun | 文字列 | 日向（full sun のみ）／日向〜半日陰（full sun to part shade）／半日陰（part shade, partial shade, dappled）／日陰（full shade）。RHS の Full sun + Partial shade は 日向〜半日陰 |
 | usda_min, usda_max | 整数 | 3a などは数字部分。食い違いは優先順位で1つ選び conflicts へ |
 | rhs_h | 文字列 | H1a〜H7 |
-| heat | 強／中／弱 | ①暑さ・高温多湿に弱い・冷涼な夏を好む・南部で弱る等の明記 → 弱 ②heat tolerant／tolerates heat and humidity の明記（①がない）→ 強 ③記述がなければ USDA上限で: 9以上→中、8→中、7以下→弱。③は method=判定、note に「USDA上限から」 |
+| common_name_ja | 文字列 | YList（s04）の和名。種レベルでよい。YList が synonym とする学名に付いた和名は note にその旨を書く。YList にない → null |
+| heat | 強／中／弱 | ①暑さ・高温多湿に弱い・冷涼な夏を好む・南部で弱る等の明記 → 弱 ②heat tolerant／tolerates heat and humidity の明記（①がない）→ 強 ③「暑い地域では午後の日陰を好む」「暑い所で日なただと葉が焼ける」のように、条件つきで育つ記述だけ → 中 ④暑さの記述がなければ null（USDA上限からは決めない。2026-11-18 決定）。s18 の exposure（wärmeliebend／kühleliebend）だけでは決めない |
 | heat_note | 日本語文字列 | 暑さ・蒸れ・株腐れに関する記述の要約（1〜2文） |
 | drought | 強／中／弱 | drought tolerant（定着後含む）→強。average／medium moisture→中。乾かさない・水切れに弱い→弱 |
 | soil_moisture | 文字列 | 乾燥寄り（dry, dry to medium）／適湿（moist but well-drained, medium, average）／湿潤寄り（moist to wet, consistently moist, boggy）／排水必須（sharp drainage, must be well-drained, rots in wet/winter wet）／幅広く適応（wet から dry まで幅広く） |
 | soil_ph_type | 日本語文字列 | pH（酸性／中性／アルカリ性）と土質（粘土／砂質／ローム／白亜質）を列挙。例「酸性〜アルカリ性、粘土・砂質・ローム」 |
 | salt | ◎／○／△／× | salt tolerant・tolerates salt spray・seaside の明記→◎。moderate／some salt tolerance→○。RHS の植栽場所に Coastal があるだけ→○（note に「RHS Coastal のみ」）。low／poor→△。not salt tolerant→×。記述なし→null |
-| evergreen_cold | 常緑／半常緑／落葉 | 寒冷地（シカゴ・ミネソタ・寒冷地での記述、「寒冷地では落葉」等）の記述のみ。なければ null |
-| evergreen_warm | 常緑／半常緑／落葉 | RHS（英国）・NC State・「温暖地では常緑」等の記述 |
+| evergreen_warm | 常緑／半常緑／落葉 | 常緑性は1列（温暖地の値。2026-11-18 決定）。RHS（英国）・NC State・MBG・「温暖地では常緑」等の記述。s18 の Blattphase は immergrün→常緑、wintergrün→半常緑、sommergrün→落葉 と読む（他の文献に記述がないときだけ使う）。evergreen_cold は廃止（rows に残っていたら消す） |
 | native_range | 日本語文字列 | 原種の原産地。交配種は「園芸品種（交配親：…）」。Kew の geographic_area を日本語に訳してよい（source は "Kew"） |
 | spread_modes | 配列 | 株立ち（広がらない）／地下茎／ランナー／こぼれ種。rhizomes, suckers→地下茎。stolons, runners, roots at nodes→ランナー。self-seeds→こぼれ種。clump-forming で広がる記述がない→株立ち（広がらない） |
 | self_seed_level | 0〜3 | 0: 不稔・種ができない・こぼれ種しないと明記。1: may self-seed、少し。2: self-seeds freely／readily。3: aggressively、weedy、種で侵略的。記述なし→null |
@@ -72,6 +75,11 @@
 | propagation | 配列 | 株分け／挿し木／実生／その他（日本語） |
 | cut_flower | ◎／○ | good／excellent cut flower→◎。can be used／dried flowers／cut stems の記述→○。記述なし→null |
 | pollinator | ◎／○ | RHS Plants for Pollinators のバッジ、または bee/butterfly magnet、highly attractive →◎。attracts bees／butterflies／pollinators →○。記述なし→null |
+
+## 2026-11-18 の決定でマスターから外した項目
+寿命、支柱の要否、品種群、合わせやすい植物、ポット規格、出荷時期、植え付け適期。rows には作らない。
+蒸れ耐性・西日耐性は以前のルールが見つかるまで保留（rows には作らない）。
+切り戻し時期は pruning_codes から assemble.py が作る（「花後」は月を入れない）。管理難易度も assemble.py が作る（耐暑性が弱だけでは「難」にしない）。
 
 ## 注意
 - 文献の言葉は意味で判断する（キーワードの一致だけで決めない）。

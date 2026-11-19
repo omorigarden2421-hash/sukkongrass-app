@@ -1,13 +1,17 @@
 import json, glob, re, sys, openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
-sys.path.insert(0, '/tmp/claude-0/scripts')
+import os
+# 使い方: python3 scripts/assemble.py <出力.xlsx> <元のマスター.xlsx>
+# 元のマスターと出力は価格・在庫を含むので、リポジトリの外に置く。
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
 import ias
 
-T = '/tmp/claude-0/-home-user-sukkongrass-app/40078efc-ec4a-5210-9a53-642e54c6f0c7/scratchpad/trial'
+T = os.path.join(HERE, '..', 'trial')
 OUT = sys.argv[1]
 
-wb0 = openpyxl.load_workbook('/tmp/claude-0/x/m.xlsx', read_only=True)
+wb0 = openpyxl.load_workbook(sys.argv[2], read_only=True)
 ws0 = wb0['Sheet1']; R = list(ws0.iter_rows(values_only=True)); H = R[0]
 M = {r[1]: dict(zip(H, r)) for r in R[1:] if r[1]}
 kewd = json.load(open(T + '/kew.json'))
@@ -18,7 +22,7 @@ FAM = {'Asteraceae': 'キク科', 'Ranunculaceae': 'キンポウゲ科', 'Lamiac
        'Primulaceae': 'サクラソウ科', 'Fabaceae': 'マメ科', 'Caprifoliaceae': 'スイカズラ科', 'Liliaceae': 'ユリ科',
        'Geraniaceae': 'フウロソウ科', 'Polemoniaceae': 'ハナシノブ科', 'Hydrangeaceae': 'アジサイ科', 'Cornaceae': 'ミズキ科',
        'Valerianaceae': 'オミナエシ科（旧）'}
-SRCNAME = {'s01': 'RHS', 's06': 'NC State', 's07': 'ミネソタ大', 's08': 'シカゴ植物園', 's09': 'Wildflower Center',
+SRCNAME = {'s02': 'MBG', 's04': 'YList', 's18': 'stauden.de', 's01': 'RHS', 's06': 'NC State', 's07': 'ミネソタ大', 's08': 'シカゴ植物園', 's09': 'Wildflower Center',
            's10': 'perennials.com／Walters', 's12': '育種会社', 'Kew': 'Kew（WCVP）', 's05': '環境省 外来種リスト'}
 
 def fmt_name(s):
@@ -57,10 +61,6 @@ def height(s):
     if not n: return None, None, paren
     return n[0], n[-1], paren
 
-def months_after(end, add):
-    if not end: return '花後'
-    m = (end + add - 1) % 12 + 1
-    return f'花後（{m}月頃）'
 PR = {'早春': ('雪解け後（4月下旬〜5月上旬）', '2〜3月'), '秋': ('10月', '11〜12月'),
       '初夏': ('6月下旬〜7月上旬', '5月下旬〜6月上旬'), '不要': ('不要', '不要')}
 
@@ -72,10 +72,10 @@ COLS = ['商品番号', '植物名', '学名（正名）', '属', '種小名', '
         '花色（分類）', '花色（詳細）', '花期 開始月', '花期 終了月', '草丈 最小(cm)', '草丈 最大(cm)', '草丈 括弧内の値',
         '株張り 最小(cm)', '株張り 最大(cm)', '葉色（分類）', '葉の特徴', '紅葉・冬の葉', '香り', '成株シルエット',
         '日照', '耐寒性', 'USDA 下限', 'USDA 上限', 'RHS 耐寒性', '耐暑性', '蒸れ耐性', '暑さ・蒸れの注意', '西日耐性',
-        '乾燥耐性', '土壌水分', 'pH・土質', '耐潮性', '常緑性（寒冷地）', '常緑性（温暖地）', '原産地', '増え方',
+        '乾燥耐性', '土壌水分', 'pH・土質', '耐潮性', '常緑性', '原産地', '増え方',
         'こぼれ種の量(0-3)', '地下茎で広がる程度(0-3)', '混植適性', '広がりすぎの注意', '外来種リスト', '毒性', '主な病害虫',
         '管理タイプ', '管理難易度', '切り戻しの方法', '切り戻し時期（広尾町）', '切り戻し時期（関東）',
-        '植え付け適期（広尾町）', '植え付け適期（関東）', '株分けの間隔', '繁殖方法',
+        '株分けの間隔', '繁殖方法',
         '景観構成用途', '切り花適性', '蜜源価値', '機能用途タグ', 'デザイン系タグ']
 # column -> (field key in rows json or None, how)
 LIT = {'旧学名・別名': 'synonyms', '花色（分類）': 'flower_color_class', '花色（詳細）': 'flower_color_detail',
@@ -83,7 +83,7 @@ LIT = {'旧学名・別名': 'synonyms', '花色（分類）': 'flower_color_cla
        '葉の特徴': 'foliage_features', '紅葉・冬の葉': 'seasonal_foliage', '香り': 'fragrance', '成株シルエット': 'silhouette',
        '日照': 'sun', 'USDA 下限': 'usda_min', 'USDA 上限': 'usda_max', 'RHS 耐寒性': 'rhs_h', '耐暑性': 'heat',
        '暑さ・蒸れの注意': 'heat_note', '乾燥耐性': 'drought', '土壌水分': 'soil_moisture', 'pH・土質': 'soil_ph_type',
-       '耐潮性': 'salt', '常緑性（寒冷地）': 'evergreen_cold', '常緑性（温暖地）': 'evergreen_warm', '原産地': 'native_range',
+       '耐潮性': 'salt', '常緑性': 'evergreen_warm', '和名': 'common_name_ja', '原産地': 'native_range',
        '増え方': 'spread_modes', 'こぼれ種の量(0-3)': 'self_seed_level', '地下茎で広がる程度(0-3)': 'rhizome_level',
        '混植適性': 'mixing', '広がりすぎの注意': 'invasive_note', '毒性': 'toxicity', '主な病害虫': 'pests',
        '管理タイプ': 'management_type', '切り戻しの方法': 'pruning', '株分けの間隔': 'division_interval',
@@ -92,10 +92,9 @@ HOW = {}
 for c in COLS: HOW[c] = '文献'
 for c in ['商品番号', '植物名', '流通名・別名', '耐寒性', '花期 開始月', '花期 終了月', '草丈 最小(cm)', '草丈 最大(cm)', '草丈 括弧内の値']:
     HOW[c] = '今のマスター'
-for c in ['属', '種小名', '品種名', '管理難易度', '切り戻し時期（広尾町）', '切り戻し時期（関東）', '植え付け適期（広尾町）',
-          '植え付け適期（関東）', '景観構成用途', '機能用途タグ', 'デザイン系タグ']:
+for c in ['属', '種小名', '品種名', '管理難易度', '切り戻し時期（広尾町）', '切り戻し時期（関東）', '景観構成用途', '機能用途タグ', 'デザイン系タグ']:
     HOW[c] = '自動'
-HOW['科名'] = '文献（Kew）'; HOW['外来種リスト'] = '文献（環境省）'; HOW['和名'] = '文献（YList・未取得）'
+HOW['科名'] = '文献（Kew）'; HOW['外来種リスト'] = '文献（環境省）'; HOW['和名'] = '文献（YList）'; HOW['常緑性'] = '文献（温暖地の値）'
 HOW['蒸れ耐性'] = '保留（ルール待ち）'; HOW['西日耐性'] = '保留（ルール待ち）'
 
 def j(x):
@@ -132,20 +131,18 @@ for p in sorted(glob.glob(T + '/rows/P*.json')):
     # auto
     mt = v(f, 'management_type') or ''
     heat = v(f, 'heat'); cold = row['耐寒性']
-    if mt.startswith('E') or heat == '弱' or cold in ('中の弱', '弱', '一年草扱い'): diff = '難'
-    elif mt.startswith('A') and heat in ('強', '中') and cold in ('強', '中の強'): diff = '易'
+    # 2026-11-18 決定: 耐暑性が弱だけでは「難」にしない。耐暑性が空欄（記述なし）でも「易」になりうる
+    if mt.startswith('E') or cold in ('中の弱', '弱', '一年草扱い'): diff = '難'
+    elif mt.startswith('A') and heat != '弱' and cold in ('強', '中の強'): diff = '易'
     else: diff = '中'
     row['管理難易度'] = diff
     codes = v(f, 'pruning_codes') or []
     hk, kt = [], []
     for c in codes:
-        if c == '花後': hk.append(months_after(b1, 1)); kt.append(months_after(b1, 0))
+        if c == '花後': hk.append('花後'); kt.append('花後')  # 2026-11-18 決定: 月は入れない
         elif c in PR: hk.append(PR[c][0]); kt.append(PR[c][1])
     row['切り戻し時期（広尾町）'] = '、'.join(dict.fromkeys(hk)) or None
     row['切り戻し時期（関東）'] = '、'.join(dict.fromkeys(kt)) or None
-    if cold in ('強', '中の強'): row['植え付け適期（広尾町）'] = '5月中旬〜6月、8月下旬〜9月上旬'
-    elif cold: row['植え付け適期（広尾町）'] = '5月下旬〜6月（春植えのみ）'
-    row['植え付け適期（関東）'] = '10〜11月（秋植え推奨）、3月' if heat == '弱' else '3〜4月、10〜11月'
     sil = v(f, 'silhouette'); modes = v(f, 'spread_modes') or []; smax = v(f, 'spread_max')
     use = []
     if h1:
@@ -244,19 +241,30 @@ for r in master_rows:
     own.append([r['商品番号'], r['植物名'], m.get('特徴') if m else None, m.get('コメント') if m else None, None])
 sheet('自社の文章', ['商品番号', '植物名', '特徴（専務作成）', 'コメント', '文献との食い違い（全件作成時に記入）'], own, {'植物名': 30, '特徴（専務作成）': 70, 'コメント': 30, '文献との食い違い（全件作成時に記入）': 40})
 srcs = [['s01', 'RHS（英国王立園芸協会）Plant Finder', '公的機関DB', 'rhs.org.uk', '使用'],
-        ['s02', 'Missouri Botanical Garden Plant Finder', '植物園DB', 'missouribotanicalgarden.org', 'この環境では読めず（パソコン側で対応予定）'],
+        ['s02', 'Missouri Botanical Garden Plant Finder', '植物園DB', 'missouribotanicalgarden.org', '使用（2026-11-19 から）'],
         ['s03', 'Kew World Checklist of Vascular Plants（WCVP）', '植物園DB', 'sftp.kew.org（一括データ）', '使用（学名・科名・原産地）'],
-        ['s04', 'YList', '公的機関DB', 'ylist.info', 'この環境では読めず（パソコン側で対応予定）'],
+        ['s04', 'YList', '公的機関DB', 'ylist.info', '使用（和名。2026-11-19 から）'],
         ['s05', '環境省 生態系被害防止外来種リスト（植物）', '公的機関', 'env.go.jp', '使用'],
         ['s06', 'NC State Extension Plant Toolbox', '大学', 'plants.ces.ncsu.edu', '使用'],
         ['s07', 'University of Minnesota Extension', '大学', 'extension.umn.edu', '使用'],
         ['s08', 'Chicago Botanic Garden（Plant Finder・品種評価）', '植物園DB', 'chicagobotanic.org', '使用'],
         ['s09', 'Lady Bird Johnson Wildflower Center', '大学', 'wildflower.org', '使用'],
         ['s10', 'perennials.com（Valleybrook／Perennial Resource）・Walters Gardens', '生産・品種情報会社', 'perennials.com／waltersgardens.com', '使用'],
-        ['s11', 'Jelitto カタログ', '種苗会社', 'jelitto.com', 'この環境では読めず（パソコン側で対応予定）'],
+        ['s11', 'Jelitto カタログ', '種苗会社', 'jelitto.com', 'クラウドからは読めない（Cloudflare）。パソコンの Chrome で読む予定'],
         ['s12', '育種会社の品種情報（Proven Winners など）', '育種会社', '各社', '使用'],
-        ['s13', 'Beth Chatto', '育種・生産会社', 'bethchatto.co.uk', 'この環境では読めず']]
+        ['s13', 'Staudensichtung（ドイツの宿根草品種評価）', '公的機関', 'staudensichtung.de', '参考資料'],
+        ['s14', 'Mt. Cuba Center', '植物園', 'mtcubacenter.org', '使わない'],
+        ['s16', '道総研', '公的機関', 'hro.or.jp', '参考資料'],
+        ['s17', 'Gaißmayer', 'ナーサリー', 'gaissmayer.de', 'クラウドからは読めない（Cloudflare）。パソコンの Chrome で読む予定'],
+        ['s18', 'stauden.de 無料データベース（BdS ドイツ宿根草生産者協会）', '業界団体DB', 'stauden.de', '使用（2026-11-19 から。有料版は未契約）'],
+        ['s19', 'Beth Chatto', '育種・生産会社', 'bethchatto.co.uk', '未使用']]
 sheet('文献リスト', ['文献ID', '文献', '種類', 'サイト', '状態'], srcs, {'文献': 50, 'サイト': 30, '状態': 40})
+chg = []
+for p in sorted(glob.glob(T + '/rows/P*.json')):
+    d = json.load(open(p)); inp = inputs[d['id']]
+    for c in d.get('changes_20261119', []):
+        chg.append([inp['商品番号'], fmt_name(inp['植物名']), c.get('field'), j(c.get('old')), j(c.get('new')), c.get('reason')])
+sheet('今回の変更点', ['商品番号', '植物名', '項目（field）', '前の値', '新しい値', '理由'], chg, {'植物名': 30, '前の値': 30, '新しい値': 30, '理由': 60})
 rules = [[c, HOW[c]] for c in COLS]
 sheet('列の決め方', ['列', '決め方'], rules, {'列': 30, '決め方': 30})
 wb.save(OUT)
