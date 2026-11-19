@@ -160,11 +160,22 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - プルモナリアは全品種が 日照 半日陰・西日耐性 ×・乾燥耐性 弱。シカゴ植物園では 'Blue Ensign'・'Lewis Palmer'・'Spilled Milk' が評価の低い一覧に入っている（うどんこ病、冬に全株が枯れた等。「文献の注意」に出している）
 - ユーザーに聞くこと・伝えること：(a) Me05 は学名が Mentha × piperita だけで、商品名はグレープフルーツミント（RHS の 'Grapefruit' を当てた）(b) Me08 ストロベリーミントは RHS では × piperita 'Strawberry'（マスターは spicata subsp. citrata）(c) ビンカ マジョール 'Variegata' は Gaißmayer が Z7・「霜にやや弱い、厳しい土地では冬の保護が要る」(d) Vi03 と Vi04 は学名が同じ 'Atropurpurea'（商品名は別）
 
-## 6つ目のまとまり：ポテンティラ・パニカム・アキレア・スタキス・ヒューケラ（2026-11-19 に開始、作業中）
+## 6つ目のまとまり：ポテンティラ・パニカム・アキレア・スタキス・ヒューケラ（2026-11-19、下書きまで完了）
 - 入力は batch_06/input（49品種：Po=ポテンティラ12、Pa=パニカム8、Ac=アキレア9、St=スタキス8、He=ヒューケラ12）
-- 済み：おぎはら（17ページ、23品種。SIBLING にパニカム バーゲタムとポテンティラ ネパレンシス）、RHS の番号（43品種）、Gaißmayer（21ページ。Chrome）
-- まだ：Jelitto（Chrome）、シカゴ植物園（no5 yarrow＝アキレア、no21 coralbells＝ヒューケラ、no27 stachys の号がある）、fetch_all.py・fetch_walters.py・fetch_rhs.py、組み立てと確認
+- 文献：おぎはら 17ページ（23品種）、RHS 43品種、Gaißmayer 21ページ・Jelitto 24ページ（Chrome）、シカゴ植物園 no27 Stachys から5品種・no21 Coral bells から2品種（no5 Yarrow は PDF が画像だけで読めなかった）
+- fetch_all.py に足したもの：スタキスの別の属名（Betonica）、ポテンティラ トライデンタータ＝Sibbaldiopsis、ベルナ＝neumanniana、'Walter Funcke'＝'Walther Funcke'、'Firefly'＝'Leuchtkäfer'、'Dallas Blue'＝'Dallas Blues'
+- 下書き：`ClaudeWork/下書き_ポテンティラ・パニカム・アキレア・スタキス・ヒューケラ49品種_1119.xlsx`。耐暑性 強 24・中 15・空欄 10、蒸れ耐性 強 2・中 17・空欄 30、西日耐性 ◎11・○11・△6・×11・空欄 10。品種のページがどの文献にもないのは4品種（He09・Po06・Po11・St06）
+- 根拠を確認した：同名の別品種への当たり違いは見つからなかった。直したところはない
+- 同じ種のおぎはらの値：パニカム バーゲタムの5品種（Pa01〜Pa04・Pa08）とポテンティラ ネパレンシスの2品種（Po06・Po07）を 強 にした（batch_06/ogihara_data.py の SIBLING）
+- ヒューケラは全品種が 耐暑性 中・西日耐性 ×（MBG：土が乾くと葉が焼けて傷む。おぎはらも 中）。パニカムとヒューケラの蒸れ耐性 中 は「高温多湿でさび病が出やすい」「乾いた空気を好む」から
+- ユーザーに伝えること：スタキス 'Primrose Heron' はシカゴ植物園で冬の傷みが繰り返し出た／ヒューケラ 'Dale's Strain' は同じ試験で冬に株元が腐って枯れた／'Hummelo' と ヒューケラ 'White Cloud' は最高評価
 - Gaißmayer は商品ページを1秒おきに続けて開くと、10ページほどで確認画面に切り替わった（待つと自動で通った）。1ページごとに6秒あけると出なかった
+
+## 次にやること（7つ目のまとまりから）
+- batch_06 までで 916品種中 404品種の下書きができた。残りは約510品種
+- 次の5属の候補（在庫のある品種が多い順）：スカビオサ、ポレモニウム、フィリペンデュラ、サンギソルバ、トロリウス。その次：スピレア、コレオプシス、トラデスカンティア、リシマキア、エリンジウム、モナルダ、タリクトラム、ミスカンサス、リアトリス、モリニア、ベロニカストラム…（順番は元のマスターの在庫数から数え直す）
+- 1つのまとまりの手順（batch_05・06 と同じ）：make_input.py → fetch_all.py と fetch_walters.py を裏で実行 → おぎはら（curl）→ RHS の番号（アプリ内のブラウザー）→ Gaißmayer・Jelitto（Chrome。1ページごとに6秒あける）→ シカゴ植物園の号を探す → fetch_rhs.py → digest.py → assemble_pilot.py → 根拠を読んで当たり違いを直す → HANDOFF.md → コミット
+- 生データ（b2_raw〜b6_raw と digest）はこのパソコンの一時フォルダにあり、消えることがある。消えていたら fetch_all.py などで取り直せる
 
 ## 新しいセッションで続けるとき
 - 耐暑性は今の決め方のまま進め、全部の属が終わってから最後にもう一度検討する（2026-11-19 ユーザーの指示。DECISIONS.md）。新しい属でも「同じ種のおぎはらの値」を使うときは、その batch の ogihara_data.py の SIBLING に書く
