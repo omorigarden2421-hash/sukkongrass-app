@@ -214,7 +214,6 @@
   },
   "spread_modes": {
    "value": [
-    "こぼれ種",
     "地下茎"
    ],
    "method": "判定",
@@ -223,17 +222,11 @@
     "s02"
    ],
    "level": "cultivar",
-   "note": "aggressive self-seeder、suckering で細い茎の密な茂みを作る（NCSU 種）。MBG の品種ページもこぼれ種とひこばえで広がるとする"
+   "note": "こぼれ種は種の記述のみで品種では未確認のため外した。ひこばえ（地下茎）は MBG 品種ページ・NCSU（種）"
   },
   "self_seed_level": {
-   "value": 3,
-   "method": "判定",
-   "sources": [
-    "s06",
-    "s02"
-   ],
-   "level": "cultivar",
-   "note": "can be an aggressive self-seeder（NCSU 種）／Plants can be aggressive self-seeders（MBG 品種ページ）"
+   "value": null,
+   "note": "2026-11-19 ユーザー判断：種（Spiraea japonica）の記述だけで、品種 'Goldflame' がこぼれ種で増えるかは文献で確認できないため空欄。自社の観察で確認する"
   },
   "rhizome_level": {
    "value": 2,
@@ -246,17 +239,11 @@
    "note": "suckering で密な茂み（thicket）を作る（NCSU 種）。MBG 品種ページ: ひこばえでも庭の中で広がる"
   },
   "mixing": {
-   "value": "侵略的（隔離推奨）",
-   "method": "判定",
-   "sources": [
-    "s06",
-    "s02"
-   ],
-   "level": "species",
-   "note": "種 S. japonica が NC Invasive Plant Council で侵略種に分類（NCSU）。MBG の品種ページにも侵略性の注意表示と「こぼれ種で強く増え、米国東部で逸出・野生化」の記述がある（品種固有の評価ではなく種としての説明）"
+   "value": null,
+   "note": "2026-11-19 ユーザー判断：種（Spiraea japonica）の記述だけで、品種 'Goldflame' がこぼれ種で増えるかは文献で確認できないため空欄。自社の観察で確認する"
   },
   "invasive_note": {
-   "value": "種 S. japonica は米国東部で逸出・野生化し、NC侵略的植物協議会が侵略種に分類（VA・GA・SC・TN・KY などでもリスト掲載）。こぼれ種で旺盛に増え、吸枝でも密な茂みを作るため代替植物の検討が勧められている。",
+   "value": "（種についての記述。この品種で同じかは未確認）種 S. japonica は米国東部で逸出・野生化し、NC侵略的植物協議会が侵略種に分類（VA・GA・SC・TN・KY などでもリスト掲載）。こぼれ種で旺盛に増え、吸枝でも密な茂みを作るため代替植物の検討が勧められている。",
    "method": "記載",
    "sources": [
     "s06",
@@ -311,14 +298,13 @@
    "note": "MBG: 咲き終わった花房を取る（花後）、剪定は必要なら晩冬〜早春（早春）。RHS は時期の記載なし"
   },
   "management_type": {
-   "value": "E 隔離推奨型",
+   "value": "B 花後刈込型",
    "method": "判定",
    "sources": [
-    "s06",
     "s02"
    ],
-   "level": "species",
-   "note": "mixing が 侵略的（種レベル）。heat を 強 に変え pruning_codes も埋まったが、上から順の判定で E のまま"
+   "level": "cultivar",
+   "note": "隔離推奨型を外したため、上から順の判定で pruning_codes の「花後」（MBG）により B"
   },
   "division_interval": {
    "value": null,
@@ -430,6 +416,35 @@
     "早春"
    ],
    "reason": "新しく埋まった。MBG（s02）に花がら取りと晩冬〜早春の剪定の記述"
+  },
+  {
+   "field": "mixing",
+   "old": "侵略的（隔離推奨）",
+   "new": null,
+   "reason": "2026-11-19 ユーザー判断：種（Spiraea japonica）の記述だけで、品種 'Goldflame' がこぼれ種で増えるかは文献で確認できないため空欄。自社の観察で確認する"
+  },
+  {
+   "field": "self_seed_level",
+   "old": 3,
+   "new": null,
+   "reason": "2026-11-19 ユーザー判断：種（Spiraea japonica）の記述だけで、品種 'Goldflame' がこぼれ種で増えるかは文献で確認できないため空欄。自社の観察で確認する"
+  },
+  {
+   "field": "management_type",
+   "old": "E 隔離推奨型",
+   "new": "B 花後刈込型",
+   "reason": "隔離推奨型を外したため、上から順の判定で pruning_codes の「花後」（MBG）により B"
+  },
+  {
+   "field": "spread_modes",
+   "old": [
+    "こぼれ種",
+    "地下茎"
+   ],
+   "new": [
+    "地下茎"
+   ],
+   "reason": "2026-11-19 ユーザー判断：種（Spiraea japonica）の記述だけで、品種 'Goldflame' がこぼれ種で増えるかは文献で確認できないため空欄。自社の観察で確認する"
   }
  ]
 }
