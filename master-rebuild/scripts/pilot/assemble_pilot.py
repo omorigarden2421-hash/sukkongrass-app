@@ -150,6 +150,18 @@ def rhs(k):
         m = re.search(lab + r"\s*</h\d>\s*(.*?)</(?:div|section)>", t, re.S)
         if m:
             f[lab] = cl(m.group(1))
+    # 「Colour & scent」の表（季節ごとの 花・葉 の色）
+    i = t.find("Colour &")
+    m = re.search(r"<table.*?</table>", t[i:] if i >= 0 else "", re.S)
+    if m:
+        fl, fo = [], []
+        for row in re.findall(r"<tr[^>]*>(.*?)</tr>", m.group(0), re.S)[1:]:
+            c = [cl(x) for x in re.findall(r"<t[hd][^>]*>(.*?)</t[hd]>", row, re.S)]
+            if len(c) >= 4:
+                fl += [x.strip() for x in c[2].split(",") if x.strip()]
+                fo += [x.strip() for x in c[3].split(",") if x.strip()]
+        f["FlowerColour"] = list(dict.fromkeys(fl))
+        f["FoliageColour"] = list(dict.fromkeys(fo))
     return {"name": name, "memo": memo, "url": f"https://www.rhs.org.uk/plants/{pid}/x/details", "f": f}
 
 
@@ -179,7 +191,7 @@ def main():
         D.setdefault("ge_" + g, {})["mbg"] = m
     rows = []
     cols = ["ID", "商品番号", "植物名", "学名（マスター）", "学名（RHS）", "文献での表記", "和名", "花色（分類）", "花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照",
-            "USDA", "RHS 耐寒性", "原産地", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "紅葉", "切り花", "蜜源", "花色（自社の値）", "株張り（自社の値・cm）", "葉色（自社の値）",
+            "USDA", "RHS 耐寒性", "原産地", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "紅葉", "文献の注意", "切り花", "蜜源", "花色（自社の値）", "株張り（自社の値・cm）", "葉色（自社の値）",
             "品種ページのある文献", "使った文献", "空欄の数"]
     for it in ITEMS:
         k = it["id"]
@@ -376,17 +388,34 @@ def main():
                 codes = ["不要"]
             if codes:
                 r["切り戻し"] = "、".join(codes) + "（RHS）"
+            # 花色・葉色（RHS の Colour & scent の表）。Walters・Gaißmayer で入っていないときに使う
+            RC = {"Blue": "青・紫", "Purple": "青・紫", "Pink": "ピンク", "White": "白", "Cream": "白", "Red": "赤", "Yellow": "黄", "Orange": "オレンジ・アプリコット"}
+            if f.get("FlowerColour"):
+                if not r["花色（文献の語）"]:
+                    r["花色（文献の語）"] = "、".join(f["FlowerColour"]) + "（RHS）"
+                if not r["花色（分類）"]:
+                    r["花色（分類）"] = "、".join(dict.fromkeys(RC[c] for c in f["FlowerColour"] if c in RC)) or None
+            fo = f.get("FoliageColour") or []
+            if fo and not r["葉色（分類）"]:
+                lc = ("斑入り" if "Variegated" in fo else "ブルー系" if "Blue" in fo else "ゴールド・ライム系" if ("Yellow" in fo or "Gold" in fo)
+                      else "シルバー系" if ("Grey" in fo or "Silver" in fo) else "パープル・ブラック系" if "Purple" in fo
+                      else "ブロンズ・レッド系" if ("Bronze" in fo or "Red" in fo) else "グリーン系" if "Green" in fo else None)
+                if lc:
+                    r["葉色（分類）"] = lc
+                    r["_leaf_src"] = "RHS: " + ", ".join(fo)
             pg = f.get("Propagation", "").lower()
             ways = [ja for en, ja in (("division", "株分け"), ("cutting", "挿し木"), ("seed", "実生")) if en in pg]
             r["繁殖"] = "、".join(ways) + "（RHS）" if ways else None
             used.add("RHS")
         # --- シカゴ植物園の評価報告（ゲラニウム）: 品種ごとの株幅・秋の葉色・花後の切り戻し
-        cb = JC.CBG.get(k)
+        cb = JC.CBG.get(k) or JC.CBG_V.get(k)
         if cb:
             if cb[3] and not (w and w["f"].get("Spread")):
                 r["株張り(cm)"] = f"{round(cb[3] * 2.54)}（シカゴ植物園の試験での株幅）"
             if cb[4] and cb[4] != "none observed":
                 r["紅葉"] = "秋に" + "・".join(JC.AUTUMN.get(c.strip(), c.strip()) for c in cb[4].split(",")) + "（シカゴ植物園）"
+            if len(cb) > 7 and cb[7]:
+                r["文献の注意"] = "シカゴ植物園: " + cb[7]
             if cb[5] == "Yes+" and not r["切り戻し"]:
                 r["切り戻し"] = "花後（シカゴ植物園: 花後に切り戻すと姿が良くなった）"
             used.add("シカゴ植物園")

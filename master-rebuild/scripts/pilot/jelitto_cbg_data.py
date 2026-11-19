@@ -64,5 +64,21 @@ CBG = {
  "G26": ("sanguineum var. striatum", "cultivar", 6, 17, "red", "No+"),
 }
 AUTUMN = {"red": "赤", "burgundy": "バーガンディ", "orange": "オレンジ", "purple": "紫", "purplish": "紫がかる", "yellow": "黄", "golden-yellow": "黄金色"}
-# ベロニカの報告（Plant Evaluation Notes 33, no33_veronica.pdf）もあるが、表が文字として崩れて取り出せなかった。PDF を目で読む必要がある。
+# ---------- シカゴ植物園 Plant Evaluation Notes 33 Veronica ----------
+# https://www.chicagobotanic.org/downloads/planteval_notes/no33_veronica.pdf の Table 1（草姿・草丈・株幅）。
+# pdftotext の -layout では表が崩れたが、-raw で取り出すと「名前の行」の次に「花期・花つき・草姿・草丈・株幅」の行が来る形で読めた。
+# 試行ID: (報告での表記, level, 草丈 in, 株幅 in, 秋の葉色, 切り戻し, 草姿, メモ)
+CBG_V = {
+ "V03": ("chamaedrys 'Miffy Brute'", "cultivar", 6, 36, None, None, "prostrate", ""),
+ "V04": ("'Sunny Border Blue'", "cultivar", 22, 22, None, None, "upright",
+         "Table 3（冬の傷み 1999-2009）: 5年のうち4年で冬の傷みが記録され、試験の終わりまでに枯れた品種の一つ（試験地は USDA 5b）"),
+ "V05": ("spicata ssp. incana", "species", 20, 27, None, None, "upright", "冬の傷みは6年のうち1年"),
+ "V07": ("prostrata 'Aztec Gold'", "cultivar", 9, 24, None, None, "prostrate", "冬の傷みは4年のうち2年"),
+ "V09": ("prostrata 'Mrs. Holt'", "cultivar", 3, 22, None, None, "prostrate", ""),
+ "V11": ("spicata 'Alba'", "cultivar", 28, 24, None, None, "upright", "冬の傷みは6年のうち1年"),
+ "V15": ("'Pink Damask'", "cultivar", 36, 36, None, None, "upright", ""),
+ "V16": ("spicata 'Rotfuchs' (Red Fox)", "cultivar", 20, 24, None, None, "upright", ""),
+ "V18": ("umbrosa 'Georgia Blue'", "cultivar", 6, 20, None, None, "prostrate", "冬の傷みは6年のうち1年。本文に「毎年 robust だった」とある"),
+}
+# 使っていない: 'Eveline'（試行の V06 は 'Pink Eveline' で別品種）、spicata 'Blauteppich'・'Rosenrot'（V14 'Nana'・V17 'Rose' と同じか不明）
 # ホスタの評価報告は見つからなかった。'Bevan's Variety' は報告で「incorrect plant（別の植物だった）」とされ、値がない。
