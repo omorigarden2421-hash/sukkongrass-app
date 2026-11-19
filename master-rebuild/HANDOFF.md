@@ -150,10 +150,21 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - ユーザーに聞くこと・伝えること：(a) D10 は学名が Sedum 'Vera Jameson'、商品名が「セダム レフレクサム」で食い違う（今は学名のとおり 'Vera Jameson' の文献を当てている。D09 と同じ内容）(b) セダム 'Mediovariegatum' は Gaißmayer が Z7・「冬越ししない宿根草」の扱い、RHS は H3 (c) 'Autumn Joy' は RHS では Hylotelephium × mottramianum 'Herbstfreude'（マスターは Hylotelephium spectabile）
 
 ## 5つ目のまとまり：ミント・ゲウム・ビンカ・プルモナリア・ペンステモン（2026-11-19 に開始、作業中）
-- 残りの属は1属あたり10品種前後なので、5属ずつ（約50品種）にまとめる。順番は在庫のある品種が多い属から（残りの上位：ポテンティラ、パニカム、アキレア、スタキス、ヒューケラ、スカビオサ、ポレモニウム、フィリペンデュラ、サンギソルバ、トロリウス…）。ここまでで 916品種中 305品種の下書きができた（batch_05 を除く）
+- 残りの属は1属あたり10品種前後なので、5属ずつ（約50品種）にまとめる。順番は在庫のある品種が多い属から（残りの上位：ポテンティラ、パニカム、アキレア、スタキス、ヒューケラ、スカビオサ、ポレモニウム、フィリペンデュラ、サンギソルバ、トロリウス…）。batch_05 までで 916品種中 355品種の下書きができた
 - 入力は batch_05/input（50品種：Me=ミント11、Ge=ゲウム10、Vi=ビンカ9、Pu=プルモナリア11、Pe=ペンステモン9。ID は2文字の頭文字）
-- 済み：おぎはら（batch_05/ogihara_data.py。16ページ、24品種。ミントは掲載なし）
-- 途中：RHS の番号（アプリ内のブラウザーで検索済み。番号の選定と rhs_ids.py はまだ）、Gaißmayer（Chrome で16ページ読んだ。gaissmayer_data.py への書き込みはまだ）、Jelitto（まだ）、fetch_all.py・fetch_walters.py（まだ）
+- 文献：おぎはら 16ページ（ミントは掲載なし）、RHS 46品種、Gaißmayer 16ページ・Jelitto 13ページ（Chrome）、シカゴ植物園 no17 Pulmonaria から6品種（batch_05/jelitto_cbg_data.py の CBG_V）
+- 下書きまで完了（2026-11-19）：`ClaudeWork/下書き_ミント・ゲウム・ビンカ・プルモナリア・ペンステモン50品種_1119.xlsx`。耐暑性 強 21・中 16・空欄 13（ミント11品種とペンステモン バルバタス2品種は暑さの記述なし）、西日耐性 ◎2・○11・△10・×14・空欄 13。品種のページがどの文献にもないのは3品種（Me02・Vi06・Vi07）
+- 根拠を確認して直したこと（assemble_pilot.py。前の batch にも効く）
+  - 「Prefers cool, organically rich, humusy soils」（涼しい土を好む）を「涼しい気候を好む」と取り違えて、プルモナリア8品種が 弱 になっていた → cool の後ろが summer・weather・climate などのときだけ 弱 にする。8品種は 中 になった（おぎはらの 中 とそろった）
+  - 属の代表（MBG の品種ページの文をほかの品種に広げる）は、同じ書き出しのページが2つ以上あるときだけ作る。ミントは1ページ（'Kentucky Colonel'）だけだったので、ほかのミントの USDA などは空欄に戻った。batch_04 の D01 'Mr Goodbud' も同じ理由で空欄に戻った（batch_02・03 は変化なし）
+- プルモナリアは全品種が 日照 半日陰・西日耐性 ×・乾燥耐性 弱。シカゴ植物園では 'Blue Ensign'・'Lewis Palmer'・'Spilled Milk' が評価の低い一覧に入っている（うどんこ病、冬に全株が枯れた等。「文献の注意」に出している）
+- ユーザーに聞くこと・伝えること：(a) Me05 は学名が Mentha × piperita だけで、商品名はグレープフルーツミント（RHS の 'Grapefruit' を当てた）(b) Me08 ストロベリーミントは RHS では × piperita 'Strawberry'（マスターは spicata subsp. citrata）(c) ビンカ マジョール 'Variegata' は Gaißmayer が Z7・「霜にやや弱い、厳しい土地では冬の保護が要る」(d) Vi03 と Vi04 は学名が同じ 'Atropurpurea'（商品名は別）
+
+## 6つ目のまとまり：ポテンティラ・パニカム・アキレア・スタキス・ヒューケラ（2026-11-19 に開始、作業中）
+- 入力は batch_06/input（49品種：Po=ポテンティラ12、Pa=パニカム8、Ac=アキレア9、St=スタキス8、He=ヒューケラ12）
+- 済み：おぎはら（17ページ、23品種。SIBLING にパニカム バーゲタムとポテンティラ ネパレンシス）、RHS の番号（43品種）、Gaißmayer（21ページ。Chrome）
+- まだ：Jelitto（Chrome）、シカゴ植物園（no5 yarrow＝アキレア、no21 coralbells＝ヒューケラ、no27 stachys の号がある）、fetch_all.py・fetch_walters.py・fetch_rhs.py、組み立てと確認
+- Gaißmayer は商品ページを1秒おきに続けて開くと、10ページほどで確認画面に切り替わった（待つと自動で通った）。1ページごとに6秒あけると出なかった
 
 ## 新しいセッションで続けるとき
 - 耐暑性は今の決め方のまま進め、全部の属が終わってから最後にもう一度検討する（2026-11-19 ユーザーの指示。DECISIONS.md）。新しい属でも「同じ種のおぎはらの値」を使うときは、その batch の ogihara_data.py の SIBLING に書く

@@ -43,7 +43,7 @@ def sentences(t):
 
 
 # ---------- 言い回しの照合（RULES.md の heat / muggy / west_sun） ----------
-P_HEAT_WEAK = r"dislike[s]? (the )?(hot|heat)|intolerant of the heat|not recommended for growing south|require[s]? a cool|prefer[s]? cool|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)"
+P_HEAT_WEAK = r"dislike[s]? (the )?(hot|heat)|intolerant of the heat|not recommended for growing south|require[s]? a cool|prefer[s]? cool[- ](summer|weather|climate|temperature|night|condition)|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)"
 P_HEAT_MID = r"afternoon shade|decline[s]? .*hot summer|interrupts? in the heat|foliage may (decline|scorch|burn)|scorch|in hot summer climates|best in cool northern summer|full sun is best in cool|leaf burn|in the south it is best"
 P_HEAT_STRONG = r"tolerates? (the )?(hot|heat)|heat tolerant|tolerant of [^.]*heat|tolerates hot and humid"
 P_MUGGY_WEAK = r"dislike[s]? (the )?hot and humid|intolerant of the heat and humidity|dislike[s]? .*humidity|melt[s]? out|not .*tolerant of .*humid|do(es)? not (do|perform) well in [^.]*hot and humid"
@@ -201,7 +201,7 @@ def main():
         for it in ITEMS:
             if it["属"] == g and "mbg" in D.get(it["id"], {}):
                 c[D[it["id"]]["mbg"]["f"].get("Culture", "")[:80]] += 1
-        if g not in GENUS_MBG_SKIP and c and c.most_common(1)[0][1] >= 0.7 * sum(c.values()):  # 属のどの品種ページもほぼ同じ文のときだけ、属の記述として使う
+        if g not in GENUS_MBG_SKIP and c and c.most_common(1)[0][1] >= 2 and c.most_common(1)[0][1] >= 0.7 * sum(c.values()):  # 属のどの品種ページもほぼ同じ文のときだけ、属の記述として使う
             top = c.most_common(1)[0][0]
             for it in ITEMS:
                 if it["属"] == g and D.get(it["id"], {}).get("mbg", {}).get("f", {}).get("Culture", "")[:80] == top:
