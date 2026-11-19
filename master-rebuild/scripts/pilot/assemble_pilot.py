@@ -1,0 +1,333 @@
+"""3属の試行: 集めた文献から、品種ごとの値の下書きを作る（Excel。リポジトリの外に出す）。
+
+使い方: python3 -X utf8 scripts/pilot/assemble_pilot.py pilot/input <digest.json> <生データのフォルダ> <出力.xlsx>
+考え方
+- 品種のページがあればそれを使い、なければ同じ種のページ、それもなければ同じ属で最も多い書き方（属レベル）を使う。
+  どの階層の記述かを「レベル」に残す（品種／種／属）。
+- 耐暑性・蒸れ耐性・西日耐性は、RULES.md の決め方を言い回しの照合で下書きする（PATTERNS）。根拠の文を横に出すので、人が確認する。
+- 花色・葉色・株張りは品種のページからだけ取る（種のページからは入れない）。
+- 文献にない値は空欄のまま。
+"""
+import glob
+import html
+import json
+import os
+import re
+import sys
+from collections import Counter
+
+import openpyxl
+from openpyxl.styles import Alignment, Font, PatternFill
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import gaissmayer_data as GA  # noqa: E402
+import ogihara_data as OG  # noqa: E402
+
+IN, DIGEST, RAW, OUT = sys.argv[1:5]
+D = json.load(open(DIGEST, encoding="utf-8"))
+ITEMS = [json.load(open(f, encoding="utf-8")) for f in sorted(glob.glob(IN + "/*.json"))]
+OGI = {i: rec for rec in OG.OGIHARA for i in rec[0]}
+
+
+def slug(s):
+    return re.sub(r"[^a-z0-9]+", "-", s.lower().replace("'", "")).strip("-")
+
+
+def sentences(t):
+    return [s.strip() for s in re.split(r"(?<=[.!?])\s+", t or "") if s.strip()]
+
+
+# ---------- 言い回しの照合（RULES.md の heat / muggy / west_sun） ----------
+P_HEAT_WEAK = r"dislike[s]? (the )?(hot|heat)|intolerant of the heat|not recommended for growing south|require[s]? a cool|prefer[s]? cool|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat"
+P_HEAT_MID = r"afternoon shade|decline[s]? .*hot summer|interrupts? in the heat|foliage may (decline|scorch|burn)|scorch|in hot summer climates|best in cool northern summer|full sun is best in cool|leaf burn|in the south it is best"
+P_HEAT_STRONG = r"tolerates? (the )?(hot|heat)|heat tolerant|tolerant of [^.]*heat|tolerates hot and humid"
+P_MUGGY_WEAK = r"dislike[s]? (the )?hot and humid|intolerant of the heat and humidity|dislike[s]? .*humidity|melt[s]? out|not .*tolerant of .*humid"
+P_MUGGY_MID = r"(mildew|rust|leaf spot)[^.]*humid|humid[^.]*(mildew|rust|leaf spot|flop)|good air circulation|prefer[s]? .*dry air"
+P_MUGGY_STRONG = r"tolerates? hot and humid|tolerant of .*humidity|tolerates? .*heat and humidity"
+P_AFTERNOON = r"afternoon shade|afternoon sun|scorch|leaf burn|protected from hot sun"
+
+
+def judge(texts):
+    """texts: [(文献名, レベル, 文)] → (耐暑性, 蒸れ, 午後の日陰の記述あり, 根拠)"""
+    heat = muggy = None
+    aft = False
+    why = []
+    hlv = set()
+    rank = {"弱": 0, "中": 1, "強": 2}
+    for src, lv, s in texts:
+        low = s.lower()
+        h = "弱" if re.search(P_HEAT_WEAK, low) else "中" if re.search(P_HEAT_MID, low) else "強" if re.search(P_HEAT_STRONG, low) else None
+        m = "弱" if re.search(P_MUGGY_WEAK, low) else "強" if re.search(P_MUGGY_STRONG, low) else "中" if re.search(P_MUGGY_MID, low) else None
+        if "better than most" in low:  # 「同属の中では強い」という比較の書き方は 強 にしない
+            h = "中" if h == "強" else h
+            m = "中" if m == "強" else m
+        if re.search(P_AFTERNOON, low):
+            aft = True
+        if h or m or re.search(P_AFTERNOON, low):
+            why.append(f"[{src}/{lv}] {s}")
+        if h:
+            hlv.add(lv)
+        if h and (heat is None or rank[h] < rank[heat]):  # 割れたら控えめな側
+            heat = h
+        if m and (muggy is None or rank[m] < rank[muggy]):
+            muggy = m
+    return heat, muggy, aft, why, hlv
+
+
+SUN_MBG = {"Full sun": "日向", "Full sun to part shade": "日向〜半日陰", "Part shade to full shade": "半日陰", "Part shade": "半日陰", "Full shade": "日陰"}
+WATER_MBG = {"Dry to medium": "乾燥寄り", "Medium": "適湿", "Medium to wet": "湿潤寄り", "Dry": "乾燥寄り", "Wet": "湿潤寄り"}
+LEAF_W = {"Blue": "ブルー系", "Yellow": "ゴールド・ライム系", "Gold": "ゴールド・ライム系", "Chartreuse": "ゴールド・ライム系", "Variegated": "斑入り",
+          "Silvery Grey": "シルバー系", "Grey": "シルバー系", "Deep Green": "グリーン系", "Light Green": "グリーン系", "Green": "グリーン系",
+          "Burgundy": "パープル・ブラック系", "Purple": "パープル・ブラック系", "Bronze": "ブロンズ・レッド系", "Red": "ブロンズ・レッド系"}
+COLOR_W = {"Mauve/Lilac": "青・紫", "Deep Blue": "青・紫", "Light Blue": "青・紫", "Purple": "青・紫", "Deep Purple": "青・紫", "Blue": "青・紫",
+           "Violet": "青・紫", "White": "白", "Cream": "白", "Light Pink": "ピンク", "Deep Pink": "ピンク", "Pink": "ピンク", "Rose": "ピンク",
+           "Magenta": "ピンク", "Red": "赤", "Yellow": "黄", "Orange": "オレンジ・アプリコット", "Lavender": "青・紫"}
+LICHT = {"sonnig": "日向", "absonnig": "半日陰", "halbschattig": "半日陰", "schattig": "日陰"}
+PEST = [("slug", "ナメクジ"), ("snail", "カタツムリ"), ("leaf spot", "斑点病"), ("rust", "さび病"), ("powdery mildew", "うどんこ病"),
+        ("downy mildew", "べと病"), ("root rot", "根腐れ"), ("crown rot", "株腐れ"), ("nematode", "葉センチュウ"), ("scale", "カイガラムシ"),
+        ("virus", "ウイルス病"), ("deer", None), ("rabbit", None)]
+
+
+def walters(k):
+    p = f"{RAW}/walters/{k}.html"
+    if not os.path.exists(p):
+        return None
+    t = open(p, encoding="utf-8").read()
+    url, t = t.split("\n", 1)
+    t = re.sub(r"<script.*?</script>|<style.*?</style>", "", t, flags=re.S)
+    x = re.sub(r"[ \t\xa0]+", " ", html.unescape(re.sub(r"<[^>]+>", "\n", t)))
+    lines = [s.strip() for s in x.split("\n") if s.strip()]
+    r = {"url": url, "f": {}}
+    try:
+        i = next(n for n, s in enumerate(lines) if s.startswith("USDA Zone:"))
+    except StopIteration:
+        return None
+    r["zone"] = lines[i].split(":")[1].strip()
+    r["name"] = lines[i - 2] if i >= 2 else ""
+    r["text"] = lines[i + 2] if "Plant number" in lines[i + 1] else lines[i + 1]
+    labels = ["Sun Exposure", "Soil Type", "Soil pH", "Soil Moisture", "Care Level", "Flower Colour", "Blooming Time", "Foliage Color",
+              "Plant Uses & Characteristics", "Flower Head Size", "Height", "Spread", "Foot Traffic", "Growth Rate", "Print this Plant"]
+    cur = None
+    for s in lines[i + 2:]:
+        if s in labels:
+            if s == "Print this Plant":
+                break
+            cur = s
+            r["f"][cur] = []
+        elif cur and s not in ("Optimal Growing Conditions", "Appearance and Characteristics"):
+            r["f"][cur].append(re.sub(r"\s+or$", "", s))
+    return r
+
+
+def pick(k, sk, gk, src):
+    """品種 → 種 → 属 の順に、その文献のページを探す"""
+    for key, lv in ((k, "品種"), (sk, "種"), (gk, "属")):
+        if key and src in D.get(key, {}):
+            return D[key][src], lv
+    return None, None
+
+
+def main():
+    # 属レベルの代表: その属の MBG 品種ページでいちばん多い Culture の書き出し
+    genus_mbg = {}
+    for g in ("Hosta", "Geranium", "Veronica"):
+        c = Counter()
+        for it in ITEMS:
+            if it["属"] == g and "mbg" in D.get(it["id"], {}):
+                c[D[it["id"]]["mbg"]["f"].get("Culture", "")[:80]] += 1
+        if c and c.most_common(1)[0][1] >= 0.7 * sum(c.values()):  # 属のどの品種ページもほぼ同じ文のときだけ、属の記述として使う
+            top = c.most_common(1)[0][0]
+            for it in ITEMS:
+                if it["属"] == g and D.get(it["id"], {}).get("mbg", {}).get("f", {}).get("Culture", "")[:80] == top:
+                    genus_mbg[g] = D[it["id"]]["mbg"]
+                    break
+    for g, m in genus_mbg.items():
+        D.setdefault("ge_" + g, {})["mbg"] = m
+    rows = []
+    cols = ["ID", "商品番号", "植物名", "学名（マスター）", "文献での表記", "和名", "花色（分類）", "花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照",
+            "USDA", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "切り花", "蜜源",
+            "品種ページのある文献", "使った文献", "空欄の数"]
+    for it in ITEMS:
+        k = it["id"]
+        sk = "sp_" + slug(it["species"])
+        gk = "ge_" + it["属"]
+        own = D.get(k, {})
+        w = walters(k)
+        og = OGI.get(k)
+        ga = GA.GAISS.get(k)
+        r = dict.fromkeys(cols)
+        r.update({"ID": k, "商品番号": it["商品番号"], "植物名": it["植物名"], "学名（マスター）": it["学名"]})
+        names = [f"{lab}: {x['name']}" for lab, x in (("stauden.de", own.get("sdb")), ("MBG", own.get("mbg")), ("Walters", w)) if x]
+        if ga:
+            names.append("Gaißmayer: " + ga[1])
+        if og:
+            names.append("おぎはら: " + og[2])
+        r["文献での表記"] = " ／ ".join(names) or None
+        y = D.get(sk, {}).get("yl")
+        if y:
+            std = [x for x in y["rows"] if x["status"] == "標準"]
+            r["和名"] = (std or y["rows"])[0]["ja"] + "（種）"
+        used, cv_src = set(), []
+        for lab, x in (("stauden.de", own.get("sdb")), ("MBG", own.get("mbg")), ("Walters", w), ("Gaißmayer", ga), ("おぎはら", og and og[3] == "cultivar")):
+            if x:
+                cv_src.append(lab)
+        # --- 品種のページからだけ取る項目
+        if w:
+            fc = w["f"].get("Flower Colour", [])
+            r["花色（文献の語）"] = "、".join(fc) or None
+            r["花色（分類）"] = "、".join(dict.fromkeys(COLOR_W[c] for c in fc if c in COLOR_W)) or None
+            sp_cm = next((s for s in w["f"].get("Spread", []) if "cm" in s), None)
+            r["株張り(cm)"] = sp_cm.replace(" cm", "").replace("-", "〜") if sp_cm else None
+            lf = [LEAF_W[c] for c in w["f"].get("Foliage Color", []) if c in LEAF_W]
+            r["葉色（分類）"] = "斑入り" if "斑入り" in lf else (lf[0] if lf else None)
+            used.add("Walters")
+        if ga and not r["花色（文献の語）"]:
+            r["花色（文献の語）"] = ga[3]
+            used.add("Gaißmayer")
+        # --- 日照・USDA・水分（品種 → 種 → 属）
+        m, mlv = pick(k, sk, gk, "mbg")
+        s, slv = pick(k, sk, None, "sdb")
+        if m:
+            f = m["f"]
+            r["日照"] = SUN_MBG.get(f.get("Sun", "")[5:].strip())
+            z = re.search(r"(\d+) to (\d+)", f.get("Zone", ""))
+            r["USDA"] = f"{z[1]}〜{z[2]}（MBG・{mlv}）" if z else None
+            r["土壌水分"] = WATER_MBG.get(f.get("Water", "")[7:].strip())
+            used.add("MBG")
+        if not r["日照"] and w and w["f"].get("Sun Exposure"):
+            se = w["f"]["Sun Exposure"]
+            r["日照"] = "日向〜半日陰" if "Full Sun" in se and "Partial Shade" in se else "日向" if "Full Sun" in se else "半日陰" if "Partial Shade" in se else "日陰"
+        if not r["日照"] and s and "Lichtansprüche" in s["f"]:
+            L = [LICHT.get(v) for v, _ in s["f"]["Lichtansprüche"]]
+            r["日照"] = "日向〜半日陰" if "日向" in L and "半日陰" in L else "日向" if "日向" in L else "半日陰" if "半日陰" in L else "日陰"
+            used.add("stauden.de")
+        if not r["USDA"] and w:
+            r["USDA"] = w["zone"].replace("-", "〜") + "（Walters・品種）"
+        # --- 暑さ・蒸れ・西日
+        texts = []
+        if m:
+            for sct in ("Culture", "Problems", "Noteworthy"):
+                texts += [("MBG", mlv, x) for x in sentences(m["f"].get(sct, ""))]
+        n, nlv = pick(k, sk, None, "ncsu")
+        if n:
+            nl = "属" if n["url"].rstrip("/").split("/")[-1] == it["属"].lower() else nlv
+            for key in ("Description", "Insects, Diseases, and Other Plant Problems"):
+                texts += [("NC State", nl, x) for x in sentences(n["f"].get(key, ""))]
+            used.add("NC State")
+        if w:
+            texts += [("Walters", "品種", x) for x in sentences(w["text"])]
+        heat, muggy, aft, why, hlv = judge(texts)
+        if heat is None and og:
+            heat = og[4]
+            why.append(f"[おぎはら/{'品種' if og[3] == 'cultivar' else '種'}] 耐暑性；{og[4]}（欧米の文献に暑さの記述がないので使用）")
+            used.add("おぎはら")
+        elif og and heat and og[4] != heat and hlv == {"属"}:
+            # 2026-11-19 決定: 欧米の文献が属についての記述しかないときは、おぎはら植物園の品種・種のページを採る
+            why.append(f"[おぎはら/{'品種' if og[3] == 'cultivar' else '種'}] 耐暑性；{og[4]}（欧米の文献は属の記述だけで {heat} 相当。品種・種のページを優先）")
+            heat = og[4]
+            used.add("おぎはら")
+        elif og and heat and og[4] != heat:
+            why.append(f"[食い違い] おぎはら植物園は 耐暑性；{og[4]}")
+        r["耐暑性"], r["蒸れ耐性"] = heat, muggy
+        drought = None
+        alltext = " ".join(x for _, _, x in texts).lower()
+        if m and "Drought" in m["f"].get("Tolerate", ""):
+            drought = "強"
+        elif re.search(r"some drought|tolerance for (some )?dry", alltext) and not re.search(r"intolerant of dry", alltext):
+            drought = "中"
+        elif re.search(r"intolerant of dry|never be allowed to dry out|should not be allowed to dry", alltext):
+            drought = "弱"
+        elif re.search(r"tolerates drought|drought tolerant", alltext) or (w and "Drought Tolerant" in w["f"].get("Plant Uses & Characteristics", [])):
+            drought = "強"
+        elif re.search(r"some drought|tolerance for (some )?dry", alltext):
+            drought = "中"
+        r["乾燥耐性"] = drought
+        sun = r["日照"]
+        if sun in ("半日陰", "日陰") or re.search(r"scorch|leaf burn|afternoon sun is", alltext):
+            west = "×"
+        elif aft or heat == "弱":
+            west = "△"
+        elif sun and sun.startswith("日向") and heat == "強" and drought == "強":
+            west = "◎"
+        elif heat in ("中", "強"):
+            west = "○"
+        else:
+            west = None
+        r["西日耐性"] = west
+        r["暑さ・蒸れ・西日の根拠"] = "\n".join(why[:6]) or None
+        # --- 常緑性・増え方（stauden.de）
+        if s:
+            f = s["f"]
+            ph = [v for v, _ in f.get("Blattphase", [])]
+            r["常緑性"] = {"immergrün": "常緑", "wintergrün": "半常緑", "sommergrün": "落葉"}.get(ph[0]) + f"（stauden.de・{slv}）" if ph and ph[0] in ("immergrün", "wintergrün", "sommergrün") else None
+            wv = [v for v, _ in f.get("Wuchsverhalten", [])]
+            modes = []
+            if any("horst" in v for v in wv):
+                modes.append("株立ち")
+            if any("rhizom" in v for v in wv):
+                modes.append("地下茎")
+            if any("ausläufer" in v or "kriechend" in v for v in wv):
+                modes.append("ランナー")
+            gen = [v for v, _ in f.get("MS-Generativer Ausbreitungsdrang", [])]
+            if gen and "nicht" not in gen[0] and "steril" not in gen[0]:
+                modes.append("こぼれ種")
+            r["増え方"] = "、".join(dict.fromkeys(modes)) or None
+            used.add("stauden.de")
+            uses = [v for v, _ in f.get("Allgemeine Verwendungsmöglichkeiten", [])]
+            if any("Schnitt" in v for v in uses):
+                r["切り花"] = "○"
+            if any("Insekten" in v for v in uses):
+                r["蜜源"] = "○"
+        if w:
+            u = w["f"].get("Plant Uses & Characteristics", [])
+            if "Cut Flower" in u:
+                r["切り花"] = "○"
+            if any("Attracts" in x for x in u):
+                r["蜜源"] = "○"
+        # --- 病害虫・切り戻し（MBG の Problems / Culture）
+        if m:
+            pr = m["f"].get("Problems", "").lower()
+            ps = [ja for en, ja in PEST if ja and en in pr]
+            r["病害虫"] = ("、".join(dict.fromkeys(ps)) or ("特になし" if "no serious" in pr else None))
+            if r["病害虫"]:
+                r["病害虫"] += f"（MBG・{mlv}）"
+            cu = m["f"].get("Culture", "").lower()
+            codes = []
+            if re.search(r"after flowering|spent flower|deadhead|after bloom", cu):
+                codes.append("花後")
+            if re.search(r"do not need to be cut back", cu):
+                codes = ["不要"]
+            r["切り戻し"] = "、".join(codes) + f"（MBG・{mlv}）" if codes else None
+        r["品種ページのある文献"] = "、".join(cv_src) or "なし"
+        r["使った文献"] = "、".join(sorted(used)) or None
+        core = ["花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照", "USDA", "耐暑性", "蒸れ耐性", "西日耐性", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫",
+                "切り戻し", "切り花", "蜜源", "和名"]
+        r["空欄の数"] = sum(1 for c in core if r[c] in (None, ""))
+        r["_core"] = core
+        rows.append(r)
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.title = "試行（3属78品種）"
+    ws.append(cols)
+    for r in rows:
+        ws.append([r[c] for c in cols])
+    for c in ws[1]:
+        c.font = Font(bold=True, color="FFFFFF")
+        c.fill = PatternFill("solid", fgColor="2F6B4A")
+    for row in ws.iter_rows(min_row=1):
+        for c in row:
+            c.alignment = Alignment(wrap_text=True, vertical="top")
+    for i, wd in enumerate([6, 8, 30, 30, 40, 16, 10, 16, 9, 12, 12, 16, 7, 7, 7, 70, 7, 10, 16, 16, 24, 14, 6, 6, 22, 22, 7], 1):
+        ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = wd
+    ws.freeze_panes = "D2"
+    wb.save(OUT)
+    core = rows[0]["_core"]
+    print("品種", len(rows))
+    print("項目ごとの空欄:", {c: sum(1 for r in rows if r[c] in (None, "")) for c in core})
+    print("属ごとの平均空欄:", {g: round(sum(r["空欄の数"] for r in rows if r["ID"][0] == g[0]) / sum(1 for r in rows if r["ID"][0] == g[0]), 1) for g in ("Hosta", "Geranium", "Veronica")})
+    print("耐暑", Counter(str(r["耐暑性"]) for r in rows), "蒸れ", Counter(str(r["蒸れ耐性"]) for r in rows), "西日", Counter(str(r["西日耐性"]) for r in rows))
+    print("品種ページのある文献がない:", [r["ID"] for r in rows if r["品種ページのある文献"] == "なし"])
+    json.dump([{c: r[c] for c in cols} for r in rows], open(OUT[:-5] + ".json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+
+main()
