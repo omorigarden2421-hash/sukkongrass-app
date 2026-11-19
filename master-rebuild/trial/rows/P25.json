@@ -23,6 +23,15 @@
    "level": "species",
    "note": "var. yezoensis は RHS のシノニム。var. yesoensis は Kew の正名（マスター現行名）。NCSU の旧名 H. macrophylla var. serrata 等は種 H. serrata 全体のシノニムなので入れない"
   },
+  "common_name_ja": {
+   "value": "エゾアジサイ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "YList 標準和名（Hydrangea serrata (Thunb.) Ser. var. yesoensis (Koidz.) H.Ohba）。商品の変種そのものの和名"
+  },
   "flower_color_detail": {
    "value": "淡いピンクまたは青（ガクアジサイ型）",
    "method": "記載",
@@ -106,28 +115,31 @@
    "value": "半日陰",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "species",
-   "note": "RHS Position: Partial shade。土が常に湿っていれば日向も可"
+   "note": "RHS Position: Partial shade。土が常に湿っていれば日向も可。MBG（種）も Part shade"
   },
   "usda_min": {
    "value": 6,
    "method": "記載",
    "sources": [
+    "s02",
     "s06"
    ],
    "level": "species",
-   "note": "種 H. serrata のゾーン"
+   "note": "種 H. serrata のゾーン。MBG 6-9、NCSU 6a-9b で一致（耐寒の優先順位では MBG が上）"
   },
   "usda_max": {
    "value": 9,
    "method": "記載",
    "sources": [
+    "s02",
     "s06"
    ],
    "level": "species",
-   "note": "種 H. serrata のゾーン"
+   "note": "種 H. serrata のゾーン。MBG 6-9、NCSU 6a-9b で一致（耐寒の優先順位では MBG が上）"
   },
   "rhs_h": {
    "value": "H4",
@@ -144,7 +156,7 @@
     "s06"
    ],
    "level": "species",
-   "note": "prefers cool growing conditions（冷涼な条件を好む）の明記。種 H. serrata の記述"
+   "note": "prefers cool growing conditions（冷涼な条件を好む）の明記。種 H. serrata の記述。MBG（s02）には暑さの記述なし。USDA上限から決めた値ではないので変更なし"
   },
   "heat_note": {
    "value": "冷涼な条件を好む。暖地では強い日差しを避けないと葉や花が早く色あせたり葉焼けしたりする。",
@@ -155,17 +167,23 @@
    "level": "species"
   },
   "drought": {
-   "value": null,
-   "note": "乾燥耐性の直接の記述なし（NCSU は夏に安定して水やりすると花つきがよい、RHS は土が常に湿っていれば日向も可）。迷ったため null"
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "species",
+   "note": "MBG（種 H. serrata）Water: Medium。乾燥耐性の明記はない。NCSU（種）は夏に安定して水やりすると花つきがよい"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "species",
-   "note": "Moist but well-drained"
+   "note": "Moist but well-drained。MBG（種）Water: Medium"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・ローム（白亜質土は有機物で改良）",
@@ -178,10 +196,6 @@
   "salt": {
    "value": null,
    "note": "使用可能文献に記述なし（マスター出典の MDPI 論文は対象外）"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -259,7 +273,8 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species",
    "note": "NCSU（種）: 葉が薄くアジサイよりうどんこ病にかかりやすい"
@@ -269,7 +284,8 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -280,7 +296,8 @@
    ],
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -341,6 +358,10 @@
   {
    "field": "soil_ph_type",
    "detail": "NCSU（種）は酸性〜中性。RHS の酸性〜アルカリ性を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "MBG（種 H. serrata）2-4フィート（61-122cm）／RHS（亜種ページ）0.5-1m。RHS を採用のまま"
   }
  ],
  "name_review": {
@@ -349,5 +370,19 @@
   "reason": "RHS では亜種 subsp. yezoensis が正名で var. yezoensis はシノニム扱い。綴りも yesoensis ではなく yezoensis。ただし Kew は var. yesoensis (Koidz.) H.Ohba を Accepted としており、ランクと綴りが文献間で異なるので確認が必要",
   "source": "s01 / Kew"
  },
- "notes": "商品はエゾアジサイ（変種そのもの、品種名なし）なので RHS の subsp. yezoensis ページの記述を品種レベル扱いで採用。NCSU は種 H. serrata 全体のページで yezoensis の記載がないため、種レベル可の項目（USDA・暑さ・毒性・病害虫・剪定・繁殖・送粉）のみに使用。USDA 6-9 は種 H. serrata の値で、北海道にも分布するエゾアジサイには保守的な可能性。RHS 高さ100cmまでで、マスターの100～150cm より小さい。"
+ "notes": "商品はエゾアジサイ（変種そのもの、品種名なし）なので RHS の subsp. yezoensis ページの記述を品種レベル扱いで採用。NCSU は種 H. serrata 全体のページで yezoensis の記載がないため、種レベル可の項目（USDA・暑さ・毒性・病害虫・剪定・繁殖・送粉）のみに使用。USDA 6-9 は種 H. serrata の値で、北海道にも分布するエゾアジサイには保守的な可能性。RHS 高さ100cmまでで、マスターの100～150cm より小さい。【2026-11-19】MBG（s02）は種 H. serrata のページ（yezoensis の記載なし）なので種レベル可の項目だけに使用。YList（s04）で和名エゾアジサイを追加。evergreen_cold は廃止により削除。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "エゾアジサイ",
+   "reason": "新設項目。YList（s04）の標準和名"
+  },
+  {
+   "field": "drought",
+   "old": null,
+   "new": "中",
+   "reason": "MBG（s02、種）の Water: Medium を RULES の「medium moisture→中」に当てはめた。以前は記述なしで null"
+  }
+ ]
 }

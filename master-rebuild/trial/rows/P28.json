@@ -15,6 +15,10 @@
    "value": null,
    "note": "記述なし"
   },
+  "common_name_ja": {
+   "value": null,
+   "note": "YList（s04）の記録なし。種が特定されていない"
+  },
   "flower_color_detail": {
    "value": null,
    "note": "品種専用項目で、属レベルの記述は使えない（属としては白・青・紫）"
@@ -69,7 +73,7 @@
   },
   "heat": {
    "value": null,
-   "note": "記述なし。USDA も不明のため判定できない"
+   "note": "暑さの記述なし"
   },
   "heat_note": {
    "value": null,
@@ -90,10 +94,6 @@
   "salt": {
    "value": null,
    "note": "記述なし"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "常緑",
@@ -172,5 +172,6 @@
  },
  "conflicts": [],
  "name_review": null,
- "notes": "学名が Prostanthera sp. で種が特定されていないため、属レベルで確実なもの（常緑、オーストラリア原産）だけを登録。RHS 13927（マスターの冬の情報源）は P. rotundifolia の種ページで H2・高さ2m・日向・SE Australia 等の値があるが別種の可能性があるため使用せず。マスターのシルエット参照は P. ovalifolia 'Variegata'（gardenia.net、未使用）でマスター内でも想定種が不一致。属ページの花色（白・青・紫）・芳香のある葉・こんもりした常緑低木は、RULES 上品種専用項目のため null とし note に記載。種が特定できれば耐寒性（P. rotundifolia なら H2＝霜に耐えない）などを再判定する必要がある。"
+ "notes": "学名が Prostanthera sp. で種が特定されていないため、属レベルで確実なもの（常緑、オーストラリア原産）だけを登録。RHS 13927（マスターの冬の情報源）は P. rotundifolia の種ページで H2・高さ2m・日向・SE Australia 等の値があるが別種の可能性があるため使用せず。マスターのシルエット参照は P. ovalifolia 'Variegata'（gardenia.net、未使用）でマスター内でも想定種が不一致。属ページの花色（白・青・紫）・芳香のある葉・こんもりした常緑低木は、RULES 上品種専用項目のため null とし note に記載。種が特定できれば耐寒性（P. rotundifolia なら H2＝霜に耐えない）などを再判定する必要がある。【2026-11-19】s02・s04・s18 の追加記録はなし。ルール変更の反映として evergreen_cold を削除し、heat の note を「暑さの記述なし」に統一した（値は null のまま）。",
+ "changes_20261119": []
 }

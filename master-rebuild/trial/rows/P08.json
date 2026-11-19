@@ -305,7 +305,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "A",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s01"

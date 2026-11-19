@@ -24,6 +24,15 @@
    "level": "cultivar",
    "note": "RHS 原文の 'Late Red' は Lonicera pereiclymenum と誤綴り"
   },
+  "common_name_ja": {
+   "value": "ニオイニンドウ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "YList 標準和名（Lonicera periclymenum L.、種レベル）"
+  },
   "flower_color_detail": {
    "value": "外側が濃い赤紫、内側が黄色",
    "method": "記載",
@@ -93,7 +102,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "Fragrance Flower。NCSU（種）は夜により強く香る"
+   "note": "Fragrance Flower。NCSU（種）は夜により強く香る。stauden.de（s18、種）の「葉または花に香り」は種レベルかつ選択式のため使わない"
   },
   "silhouette": {
    "value": "つる",
@@ -108,7 +117,8 @@
    "value": "日向〜半日陰",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar",
    "note": "Full sun, Partial shade（半日陰が最適、日向にも耐える）"
@@ -117,17 +127,21 @@
    "value": 5,
    "method": "記載",
    "sources": [
+    "s02",
     "s06"
    ],
-   "level": "species"
+   "level": "cultivar",
+   "note": "MBG（品種ページ）5-9。NCSU（種）5a-9b と一致"
   },
   "usda_max": {
    "value": 9,
    "method": "記載",
    "sources": [
+    "s02",
     "s06"
    ],
-   "level": "species"
+   "level": "cultivar",
+   "note": "MBG（品種ページ）5-9。NCSU（種）5a-9b と一致"
   },
   "rhs_h": {
    "value": "H6",
@@ -144,30 +158,34 @@
     "s06"
    ],
    "level": "species",
-   "note": "suitable for cooler regions（冷涼な地域向き）の明記。USDA上限は9b"
+   "note": "NCSU（種）suitable for cooler regions（冷涼な地域向き）の明記。MBG（品種）は「夏が暑い地域では午後の日陰」で 中 相当だが、暑さの優先順位（s06 > s02）で NCSU を採用。USDA上限から決めた値ではない"
   },
   "heat_note": {
-   "value": "冷涼な地域向き。根元は日陰に、つるは日の当たる方へ伸ばすのを好む。",
+   "value": "冷涼な地域向き。夏が暑い地域では午後に日陰になる場所がよく、高温多湿の夏にはうどんこ病・斑点病が出やすい。",
    "method": "記載",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
-   "level": "species"
+   "level": "species",
+   "note": "前半は NCSU（種）、後半は MBG（品種ページ）"
   },
   "drought": {
    "value": "強",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species",
-   "note": "Once established, it is fairly drought-tolerant"
+   "note": "Once established, it is fairly drought-tolerant。MBG（品種）も根付けばある程度乾燥に耐える（Water は Medium）"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar",
    "note": "Moist but well-drained、肥沃な土"
@@ -188,10 +206,6 @@
    ],
    "level": "cultivar",
    "note": "RHS Coastal のみ"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -225,11 +239,16 @@
   },
   "mixing": {
    "value": null,
-   "note": "広がり方の記述なし（vigorous は生育の旺盛さで広がりの記述ではない）ため null"
+   "note": "広がり方の記述なし（vigorous は生育の旺盛さで広がりの記述ではない）。MBG（s02）の侵略性の注意表示と北米での野生化は、どこで・どう広がるかの明記がないので区分に当てはめず null（invasive_note に記録）"
   },
   "invasive_note": {
-   "value": null,
-   "note": "記述なし"
+   "value": "北米に導入され、点在するいくつかの地域で野生化している。MBG は侵略性の注意表示を付け、地域の外来種情報の確認を案内している。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "MBG 品種ページの記述。庭での広がり方（invasive／aggressive）の明記ではない"
   },
   "toxicity": {
    "value": "果実は観賞用で食べないこと（人・ペットとも）",
@@ -237,11 +256,13 @@
    "sources": [
     "s01"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "RHS（品種）の記述を採用。stauden.de（s18、種）も「全体または一部に毒」とするが部位の明記がなく、文章の記述がある RHS を使った"
   },
   "pests": {
    "value": [
     "アブラムシ（スイカズラアブラムシ）",
+    "カイガラムシ",
     "アザミウマ",
     "オンシツコナジラミ",
     "うどんこ病",
@@ -251,16 +272,19 @@
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "cultivar",
+   "note": "RHS（品種）のリストに、MBG（s02、品種ページ）が注意を促すカイガラムシを加えた。アブラムシは RHS・MBG 共通"
   },
   "pruning": {
-   "value": "剪定グループ11。花後に剪定する（旧枝に咲く点に留意）。",
+   "value": "剪定グループ11。必要に応じて花の直後に剪定する（旧枝に咲く点に留意）。",
    "method": "記載",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -270,7 +294,8 @@
    ],
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -327,8 +352,73 @@
   {
    "field": "pests",
    "detail": "NCSU（種）は深刻な病害虫なし。RHS の病害虫リストを採用"
+  },
+  {
+   "field": "heat",
+   "detail": "NCSU（種）冷涼な地域向き（弱）／MBG（品種）夏が暑い地域では午後の日陰がよい（中に相当）。暑さの優先順位により NCSU を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "MBG（品種）3-6フィート（91-183cm）／RHS 1-1.5m。RHS を採用のまま（数値の優先文献 s10・s08・s06・s12 に MBG は入っていない）"
+  },
+  {
+   "field": "pests",
+   "detail": "MBG は重大な病害虫なし（アブラムシ・カイガラムシに注意）／RHS は病害虫リストあり。RHS のリストを採り、MBG のカイガラムシを追加"
+  },
+  {
+   "field": "native_range",
+   "detail": "stauden.de（種）ヨーロッパのみ／NCSU・Kew ヨーロッパ・北アフリカ（モロッコ）。NCSU・Kew を採用"
   }
  ],
  "name_review": null,
- "notes": "学名は RHS で Accepted、マスターと一致。つる性の落葉樹。USDA・暑さ・乾燥は種 L. periclymenum（NCSU）レベル。マスター出典の耐潮性ブログは対象外で未使用、耐塩は RHS Coastal のみ。マスターの花色『赤（花喉は白）』は RHS（内側黄色）と食い違う。"
+ "notes": "学名は RHS で Accepted、マスターと一致。つる性の落葉樹。USDA・暑さ・乾燥は種 L. periclymenum（NCSU）レベル。マスター出典の耐潮性ブログは対象外で未使用、耐塩は RHS Coastal のみ。マスターの花色『赤（花喉は白）』は RHS（内側黄色）と食い違う。【2026-11-19】MBG（s02）は品種ページ。YList（s04）で和名ニオイニンドウ（種レベル）。stauden.de（s18）は種のページで、学名表記が Lonicera periclyneum とつづり違い。s18 の香り・毒性・原産地は既存の値を変える内容ではなく、耐寒ゾーン・花期・exposure は値に使っていない。evergreen_cold は廃止により削除。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "ニオイニンドウ",
+   "reason": "新設項目。YList（s04）の標準和名（種レベル）"
+  },
+  {
+   "field": "heat_note",
+   "old": "冷涼な地域向き。根元は日陰に、つるは日の当たる方へ伸ばすのを好む。",
+   "new": "冷涼な地域向き。夏が暑い地域では午後に日陰になる場所がよく、高温多湿の夏にはうどんこ病・斑点病が出やすい。",
+   "reason": "MBG（s02）の暑さの記述（午後の日陰、高温多湿でうどんこ病・斑点病）を加えた。暑さと関係の薄い「根元は日陰に」の文は外した"
+  },
+  {
+   "field": "invasive_note",
+   "old": null,
+   "new": "北米に導入され、点在するいくつかの地域で野生化している。MBG は侵略性の注意表示を付け、地域の外来種情報の確認を案内している。",
+   "reason": "MBG（s02）に北米での野生化の記述と侵略性の注意表示があり、新しく記入"
+  },
+  {
+   "field": "pests",
+   "old": [
+    "アブラムシ（スイカズラアブラムシ）",
+    "アザミウマ",
+    "オンシツコナジラミ",
+    "うどんこ病",
+    "斑点病",
+    "銀葉病",
+    "ナラタケ病"
+   ],
+   "new": [
+    "アブラムシ（スイカズラアブラムシ）",
+    "カイガラムシ",
+    "アザミウマ",
+    "オンシツコナジラミ",
+    "うどんこ病",
+    "斑点病",
+    "銀葉病",
+    "ナラタケ病"
+   ],
+   "reason": "MBG（s02）が注意する害虫としてカイガラムシを追加（スイカズラアブラムシは RHS と共通）"
+  },
+  {
+   "field": "pruning",
+   "old": "剪定グループ11。花後に剪定する（旧枝に咲く点に留意）。",
+   "new": "剪定グループ11。必要に応じて花の直後に剪定する（旧枝に咲く点に留意）。",
+   "reason": "MBG（s02）の「必要に応じて花の直後に」を反映して表現を補った（内容は同じ）"
+  }
+ ]
 }

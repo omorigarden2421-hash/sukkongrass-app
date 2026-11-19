@@ -310,7 +310,7 @@
    "note": "秋は s18（秋〜晩秋に茎を切り戻す）のみ"
   },
   "management_type": {
-   "value": "C",
+   "value": "C 夏前切戻型",
    "method": "判定",
    "sources": [
     "s02",

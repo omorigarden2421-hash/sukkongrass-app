@@ -98,13 +98,14 @@
     "s01"
    ],
    "level": "species",
-   "note": "RHS は Full sun, Partial shade に加え Full shade も可（Walters も日陰可）"
+   "note": "RHS は Full sun, Partial shade に加え Full shade も可（Walters も日陰可）。MBG は半日陰〜日陰、stauden.de は半日陰・明るい日陰とするが、優先順位で RHS"
   },
   "usda_min": {
    "value": 5,
    "method": "記載",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "species"
   },
@@ -112,7 +113,8 @@
    "value": 7,
    "method": "記載",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "species"
   },
@@ -124,18 +126,31 @@
    ],
    "level": "species"
   },
+  "common_name_ja": {
+   "value": "クロバナフウロ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "YList 標準和名（Geranium phaeum L.）"
+  },
   "heat": {
    "value": "弱",
    "method": "判定",
    "sources": [
-    "s08"
+    "s02"
    ],
    "level": "species",
-   "note": "暑さの記述なし。USDA上限から（7、シカゴ植物園）。Walters の上限9を使えば中"
+   "note": "MBG: 米国深南部の暑さと湿気には耐えない（①）。以前は USDA上限から決めていたが、記述で決め直しても 弱。s18 の wärmeliebend は exposure なので使わない"
   },
   "heat_note": {
-   "value": null,
-   "note": "暑さ・蒸れの記述なし"
+   "value": "米国深南部のような高温多湿には耐えない。夏が暑い地域では花後に葉が傷むことがある。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "drought": {
    "value": "強",
@@ -151,10 +166,11 @@
    "value": "適湿",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "species",
-   "note": "Moist but well-drained。過湿でなければ大抵の土に耐え、湿った日陰で特によい（Walters は Average or Dry or Moist）"
+   "note": "Moist but well-drained。過湿でなければ大抵の土に耐え、湿った日陰で特によい（Walters は Average or Dry or Moist）。stauden.de は frisch（適湿）。MBG は Medium to wet"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、白亜質・粘土・ローム・砂質",
@@ -167,10 +183,6 @@
   "salt": {
    "value": null,
    "note": "記述なし"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -191,18 +203,27 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち（広がらない）"
+    "株立ち（広がらない）",
+    "こぼれ種"
    ],
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18"
    ],
    "level": "species",
-   "note": "clump-forming"
+   "note": "clump-forming（RHS・MBG）、horstig（s18）。MBG・s18 は地下茎を持つ（rhizomatous／rhizombildend）とするが、地下茎で広がるという記述はなく株立ちと併記されているため 地下茎 には入れなかった。こぼれ種は MBG（花がらを切らないと少しこぼれ種）、s18 もこぼれ種を避ける切り戻しを勧める"
   },
   "self_seed_level": {
-   "value": null,
-   "note": "記述なし"
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "species",
+   "note": "MBG: some self-seeding may occur in ideal growing conditions（少し）。s18 はこぼれ種を避けるため種が熟す前に切り戻すとする"
   },
   "rhizome_level": {
    "value": 0,
@@ -211,7 +232,7 @@
     "s01"
    ],
    "level": "species",
-   "note": "clump-forming で広がる記述なし"
+   "note": "clump-forming で広がる記述なし。MBG・s18 は地下茎を持つ株立ちとするが、広がる記述はない"
   },
   "mixing": {
    "value": "普通（混植可）",
@@ -244,36 +265,46 @@
    "sources": [
     "s01"
    ],
-   "level": "species"
+   "level": "species",
+   "note": "MBG は重大な病害虫はないとするが、優先順位で RHS の列挙を採用"
   },
   "pruning": {
-   "value": "花後に花の終わった茎と古葉を根元から切ると、新しい葉と花が出る",
+   "value": "花後に花の終わった茎と古葉を根元から切ると、新しい葉と花が出る。秋〜晩秋に茎を切り戻す。",
    "method": "記載",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02",
+    "s18"
    ],
-   "level": "species"
+   "level": "species",
+   "note": "MBG も花茎を取り葉を刈り込んで株を若返らせるとする。秋〜晩秋の切り戻しは s18 のみ"
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋"
    ],
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02",
+    "s18"
    ],
-   "level": "species"
+   "level": "species",
+   "note": "秋は s18（秋〜晩秋に茎を切り戻す）のみ"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "C 夏前切戻型",
    "method": "判定",
    "sources": [
+    "s02",
     "s01",
     "s10"
    ],
-   "level": "species"
+   "level": "species",
+   "note": "MBG: 夏が暑い地域では花後に葉が傷むことがあり、花茎を取って葉を刈り込み株を若返らせる（「夏に葉が傷むので切り戻す記述」に当たると判断）。上から順の判定で B（花後）より上の C。MBG の2つの記述を同じ文脈と読んだ判断なので要確認"
   },
   "division_interval": {
    "value": "春または初秋（間隔の記載なし）",
@@ -292,7 +323,8 @@
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "species",
    "note": "春の株分け、早春〜中春の基部挿し、種子"
@@ -321,11 +353,35 @@
   },
   {
    "field": "usda",
-   "detail": "シカゴ植物園 5-7／Walters 4-9。耐寒側の優先順位でシカゴ植物園を採用（heat の判定にも影響）"
+   "detail": "シカゴ植物園 5-7／MBG 5-7／Walters 4-9。耐寒側の優先順位でシカゴ植物園を採用（MBG も同じ値）"
   },
   {
    "field": "silhouette",
    "detail": "RHS erect, clump-forming・Bushy／Walters mound。RHS を採用"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS Full shade, Full sun, Partial shade・Walters 日向〜日陰／MBG Part shade to full shade／stauden.de halbschattig; absonnig。優先順位で RHS（日向〜半日陰）のまま"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "RHS Moist but well-drained・stauden.de frisch（適湿）／MBG Water: Medium to wet（湿潤寄り）。優先順位で RHS を採用"
+  },
+  {
+   "field": "drought",
+   "detail": "Walters Drought Tolerant・RHS 乾湿両方に耐える（強）／MBG Water: Medium to wet（乾燥耐性の記載なし）。乾燥耐性の明記を採って 強 のまま"
+  },
+  {
+   "field": "spread",
+   "detail": "MBG 1〜1.5フィート（30〜46cm）。数値の優先順位で Walters 60-70cm のまま"
+  },
+  {
+   "field": "pests",
+   "detail": "RHS は害虫・病気を列挙／MBG No serious insect or disease problems。優先順位で RHS を採用"
+  },
+  {
+   "field": "native_range",
+   "detail": "RHS 南・中央・西ヨーロッパ／stauden.de 中欧・東欧・南欧。優先順位で RHS を採用"
   }
  ],
  "name_review": {
@@ -334,5 +390,59 @@
   "reason": "'Mourning Widow' は品種名ではなく種の一般名（RHS の Other common names、Walters の一般名 Mourning Widow Cranesbill）。品種の記録は使用可文献にない。ユーザー判断で種 Geranium phaeum として登録",
   "source": "s01 / Kew"
  },
- "notes": "ユーザー判断により種として登録。種レベルの記述を品種レベルと同じ扱いにした（level は species のまま記録）。"
+ "notes": "ユーザー判断により種として登録。種レベルの記述を品種レベルと同じ扱いにした（level は species のまま記録）。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "クロバナフウロ",
+   "reason": "新設項目。YList（s04）の標準和名"
+  },
+  {
+   "field": "heat_note",
+   "old": null,
+   "new": "米国深南部のような高温多湿には耐えない。夏が暑い地域では花後に葉が傷むことがある。",
+   "reason": "MBG（s02）に暑さ・湿気の記述が追加された"
+  },
+  {
+   "field": "spread_modes",
+   "old": [
+    "株立ち（広がらない）"
+   ],
+   "new": [
+    "株立ち（広がらない）",
+    "こぼれ種"
+   ],
+   "reason": "MBG（s02）に「花がらを切らないと条件が良ければ少しこぼれ種で増える」の記述。こぼれ種 を追加（s18 も裏づけ）"
+  },
+  {
+   "field": "self_seed_level",
+   "old": null,
+   "new": 1,
+   "reason": "MBG（s02）の some self-seeding may occur により 1"
+  },
+  {
+   "field": "pruning",
+   "old": "花後に花の終わった茎と古葉を根元から切ると、新しい葉と花が出る",
+   "new": "花後に花の終わった茎と古葉を根元から切ると、新しい葉と花が出る。秋〜晩秋に茎を切り戻す。",
+   "reason": "s18 の「秋〜晩秋に茎を切り戻す」を追記（花後の切り戻しは s02 も裏づけ）"
+  },
+  {
+   "field": "pruning_codes",
+   "old": [
+    "花後"
+   ],
+   "new": [
+    "花後",
+    "秋"
+   ],
+   "reason": "s18 の秋〜晩秋の切り戻しで 秋 を追加"
+  },
+  {
+   "field": "management_type",
+   "old": "B 花後刈込型",
+   "new": "C 夏前切戻型",
+   "reason": "heat の見直しに連動。MBG（s02）の「暑い夏は花後に葉が傷む→葉を刈り込んで若返らせる」を夏に葉が傷むので切り戻す記述と判断し B → C"
+  }
+ ]
 }

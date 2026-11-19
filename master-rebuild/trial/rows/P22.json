@@ -94,7 +94,8 @@
    "sources": [
     "s01",
     "s08",
-    "s06"
+    "s06",
+    "s18"
    ],
    "level": "cultivar",
    "note": "RHS: bushy, upright／CBG: Upright／NCSU: Clumping Erect Mounding。成株の形は直立に最も近いと判断"
@@ -103,7 +104,8 @@
    "value": "日向〜半日陰",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar",
    "note": "RHS: Full sun, Partial shade"
@@ -112,7 +114,8 @@
    "value": 4,
    "method": "記載",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -120,7 +123,8 @@
    "value": 8,
    "method": "記載",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -132,40 +136,53 @@
    ],
    "level": "cultivar"
   },
-  "heat": {
-   "value": "中",
-   "method": "判定",
-   "sources": [
-    "s08"
-   ],
-   "level": "cultivar",
-   "note": "耐暑性の明記なし。USDA上限から（8→中）"
-  },
-  "heat_note": {
-   "value": "耐暑性の直接の記述はない。高温乾燥時にハダニ・カスミカメが問題になりやすい。",
+  "common_name_ja": {
+   "value": "クサキョウチクトウ",
    "method": "記載",
    "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "YList 標準和名（Phlox paniculata L.、種レベル）"
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "species",
+   "note": "MBG（種）: 非常に暑く湿った条件より夏が穏やかな気候を好む（①冷涼な夏を好む）。NCSU・RHS に暑さの記述なし。以前は USDA上限から 中 としていた。s18 の kühleliebend は exposure なので値の根拠にしていない"
+  },
+  "heat_note": {
+   "value": "非常に暑く湿った条件より、夏が穏やかな気候を好む（種として）。高温乾燥時にハダニ・カスミカメが問題になりやすい。",
+   "method": "記載",
+   "sources": [
+    "s02",
     "s08"
    ],
-   "level": "cultivar"
+   "level": "species",
+   "note": "前半は MBG（種）、後半は CBG（品種）"
   },
   "drought": {
    "value": "弱",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "NCSU: Phlox need watering during dry spells（乾燥期には水やりが必要）"
+   "note": "NCSU: Phlox need watering during dry spells（乾燥期には水やりが必要）。MBG（種）: Intolerant of drought"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "Moist but well-drained"
+   "note": "Moist but well-drained。MBG Water: Medium、stauden.de（品種）frisch"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、白亜質・粘土・ローム",
@@ -178,10 +195,6 @@
   "salt": {
    "value": null,
    "note": "文献に記載なし"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -204,19 +217,21 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち（広がらない）"
+    "株立ち（広がらない）",
+    "こぼれ種"
    ],
    "method": "判定",
    "sources": [
     "s10",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "clump／Clumping のみで広がる記述なし"
+   "note": "clump／Clumping のみで栄養繁殖で広がる記述なし。こぼれ種は MBG（種）: 花がらを取ると望まないこぼれ種を防げる。s18（品種）は horstig に加え ausläufertreibend（ランナーを出す）とするが、文章の記述を優先して採らなかった"
   },
   "self_seed_level": {
    "value": null,
-   "note": "記述なし"
+   "note": "MBG（種）にこぼれ種をするとの記述はあるが、程度（少し／よく）の記述がないため空欄"
   },
   "rhizome_level": {
    "value": null,
@@ -236,7 +251,8 @@
    "value": "種 P. paniculata は自生域外で栽培からの逸出とみられる個体がある。",
    "method": "記載",
    "sources": [
-    "s09"
+    "s09",
+    "s02"
    ],
    "level": "species"
   },
@@ -258,7 +274,8 @@
    "sources": [
     "s01",
     "s08",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
    "note": "RHS は害虫は通常なし。'David' はうどんこ病に強い（CBG・perennials.com）が NCSU は病害にうどんこ病を挙げる。シカ・ウサギの食害は NCSU のみ（CBG はシカに強い）"
@@ -268,7 +285,9 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -280,7 +299,9 @@
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -292,7 +313,7 @@
     "s10"
    ],
    "level": "cultivar",
-   "note": "pruning_codes に 花後"
+   "note": "pruning_codes に 花後。heat を 弱 に変えたが B の判定には影響しない"
   },
   "division_interval": {
    "value": "間隔の記載なし。秋または春（早春）に株分け",
@@ -313,7 +334,8 @@
    "sources": [
     "s01",
     "s06",
-    "s09"
+    "s09",
+    "s18"
    ],
    "level": "cultivar",
    "note": "挿し木は春の根元挿し・茎挿し・根挿し（s01/s06）。実生は種レベル（s09）"
@@ -354,8 +376,47 @@
   {
    "field": "pests",
    "detail": "CBG・perennials.com は『うどんこ病に強い』、NCSU はうどんこ病を病害に挙げる"
+  },
+  {
+   "field": "spread_modes",
+   "detail": "perennials.com・NCSU clump／stauden.de（品種）horstig; ausläufertreibend（株立ち、ランナーを出す）。文章の記述を採り、ランナーは入れなかった"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "stauden.de は品種 frisch（適湿）／種 feucht（湿り気）。RHS の Moist but well-drained（適湿）のまま"
   }
  ],
  "name_review": null,
- "notes": "学名は RHS で Accepted、マスターと一致。2002年 Perennial Plant of the Year。支柱は perennials.com『May need staking』と NCSU『seldom need staking』で食い違い（マスター項目外）。"
+ "notes": "学名は RHS で Accepted、マスターと一致。2002年 Perennial Plant of the Year。支柱は perennials.com『May need staking』と NCSU『seldom need staking』で食い違い（マスター項目外）。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "クサキョウチクトウ",
+   "reason": "新設項目。YList（s04）の標準和名"
+  },
+  {
+   "field": "heat",
+   "old": "中",
+   "new": "弱",
+   "reason": "USDA上限からの判定をやめ、MBG（s02、種）の「夏が穏やかな気候を好む」で決め直した"
+  },
+  {
+   "field": "heat_note",
+   "old": "耐暑性の直接の記述はない。高温乾燥時にハダニ・カスミカメが問題になりやすい。",
+   "new": "非常に暑く湿った条件より、夏が穏やかな気候を好む（種として）。高温乾燥時にハダニ・カスミカメが問題になりやすい。",
+   "reason": "MBG（s02）の暑さの記述を追加し、「直接の記述はない」を削除"
+  },
+  {
+   "field": "spread_modes",
+   "old": [
+    "株立ち（広がらない）"
+   ],
+   "new": [
+    "株立ち（広がらない）",
+    "こぼれ種"
+   ],
+   "reason": "MBG（s02、種）に「望まないこぼれ種を防ぐため花がらを取る」の記述。こぼれ種 を追加"
+  }
+ ]
 }

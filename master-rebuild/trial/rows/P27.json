@@ -28,6 +28,15 @@
    "level": "cultivar",
    "note": "Cornus pumila・Swida alba は種 C. alba の旧名（s06、種レベル）"
   },
+  "common_name_ja": {
+   "value": "シラタマミズキ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": "species",
+   "note": "YList 標準和名（Cornus alba L.、種レベル）"
+  },
   "flower_color_detail": {
    "value": "クリーム色",
    "method": "記載",
@@ -111,7 +120,8 @@
    "value": "日向〜半日陰",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -119,7 +129,8 @@
    "value": 3,
    "method": "記載",
    "sources": [
-    "s07"
+    "s07",
+    "s02"
    ],
    "level": "species"
   },
@@ -127,10 +138,11 @@
    "value": 7,
    "method": "記載",
    "sources": [
-    "s07"
+    "s07",
+    "s02"
    ],
    "level": "species",
-   "note": "NCSU も 3a-7b で一致"
+   "note": "NCSU も 3a-7b、MBG（品種ページ）も 3-7 で一致"
   },
   "rhs_h": {
    "value": "H7",
@@ -144,28 +156,36 @@
    "value": "弱",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species",
-   "note": "暑い夏の気候（特に USDA ゾーン7より南）で病気にかかりやすい＝南部で弱る記述"
+   "note": "暑い夏の気候（特に USDA ゾーン7より南）で病気にかかりやすい＝南部で弱る記述（NCSU 種）。MBG（品種ページ）も同じ地域で株が弱り病気にかかりやすいと明記。USDA上限から決めた値ではない"
   },
   "heat_note": {
-   "value": "暑い夏の地域（特にUSDAゾーン7より南）では病気にかかりやすい。",
+   "value": "夏が暑い地域（特にUSDAゾーン7より南）では株が弱り、胴枯れなどの病気にかかりやすい。",
    "method": "記載",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
   "drought": {
-   "value": null,
-   "note": "記述なし"
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "MBG（品種ページ）Water: Medium。根付いた株はやや乾いた土や一時的な滞水にも耐えるとあるが、drought tolerant の明記ではないので 強 にはしなかった"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar",
    "note": "Moist but well-drained or Well-drained、たいていの土で育つ"
@@ -181,10 +201,6 @@
   "salt": {
    "value": null,
    "note": "記述なし"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での常緑・落葉の記述なし（UMN にも記載なし）"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -212,10 +228,11 @@
    "sources": [
     "s01",
     "s06",
-    "s07"
+    "s07",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "suckering（吸枝）"
+   "note": "suckering（吸枝）。MBG も root suckers・colonial spread"
   },
   "self_seed_level": {
    "value": null,
@@ -227,7 +244,8 @@
    "sources": [
     "s01",
     "s06",
-    "s07"
+    "s07",
+    "s02"
    ],
    "level": "cultivar",
    "note": "吸枝で広がり大きな群落を作る（s06）。隔離推奨・invasive の明記はない"
@@ -247,7 +265,8 @@
    "method": "記載",
    "sources": [
     "s06",
-    "s07"
+    "s07",
+    "s02"
    ],
    "level": "species"
   },
@@ -272,21 +291,23 @@
    "sources": [
     "s01",
     "s06",
-    "s07"
+    "s07",
+    "s02"
    ],
    "level": "cultivar",
    "note": "RHS（品種）はカイガラムシ（horse chestnut scale）・炭疽病・ナラタケ病。他は種レベル（s06/s07、斑点病がよく出る）"
   },
   "pruning": {
-   "value": "剪定グループ7。若い茎ほど色が鮮やかなので、春に毎年〜隔年で最も古い1/3の茎を地際から除き新梢を促す。",
+   "value": "剪定グループ7。若い茎ほど色が鮮やかなので、春に毎年〜隔年で最も古い1/3の茎を地際から除き新梢を促す。2〜3年ごとに早春に全ての茎を地際近く（約20cm）まで切って更新する方法もある。",
    "method": "記載",
    "sources": [
     "s01",
     "s06",
-    "s07"
+    "s07",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "グループ7は s01（品種）、具体的方法は種レベル（s06/s07）"
+   "note": "グループ7は s01（品種）、具体的方法は種レベル（s06/s07）。全体を切り戻す方法は MBG（s02、品種ページ）"
   },
   "pruning_codes": {
    "value": [
@@ -295,7 +316,8 @@
    "method": "判定",
    "sources": [
     "s06",
-    "s07"
+    "s07",
+    "s02"
    ],
    "level": "species",
    "note": "春に古い茎を地際から除く"
@@ -307,7 +329,7 @@
     "s07"
    ],
    "level": "species",
-   "note": "毎年〜隔年で古い茎の1/3を地際から除く更新が必要と明記（UMN）。木本の更新剪定を D に当てはめたので要確認"
+   "note": "毎年〜隔年で古い茎の1/3を地際から除く更新が必要と明記（UMN）。木本の更新剪定を D に当てはめたので要確認。MBG（s02）は 2〜3年ごとに全体を切る方法も「そうする人もいる」として挙げるだけなので、判定は UMN のまま"
   },
   "division_interval": {
    "value": null,
@@ -359,8 +381,38 @@
   {
    "field": "spread",
    "detail": "RHS 1.5-2.5m／NCSU 5-10ft・UMN 3-10ft（種）。RHS を採用"
+  },
+  {
+   "field": "spread",
+   "detail": "MBG（品種）3-5フィート（91-152cm）／RHS 1.5-2.5m。RHS を採用のまま（数値の優先文献 s10・s08・s06・s12 に MBG は入っていない）"
   }
  ],
  "name_review": null,
- "notes": "学名は RHS で Accepted、マスターと一致（シノニム 'Westonbirt'、Cornus sibirica 等）。落葉低木。NCSU・UMN は種 C. alba のページ。management_type を D としたのは UMN の『毎年〜隔年で古い茎を除く』更新剪定によるもので、草本の株分け型とは性質が違う点に注意。"
+ "notes": "学名は RHS で Accepted、マスターと一致（シノニム 'Westonbirt'、Cornus sibirica 等）。落葉低木。NCSU・UMN は種 C. alba のページ。management_type を D としたのは UMN の『毎年〜隔年で古い茎を除く』更新剪定によるもので、草本の株分け型とは性質が違う点に注意。【2026-11-19】MBG（s02）は品種ページで、USDA・暑さ・吸枝・病害虫は既存の値を裏づける内容。YList（s04）で和名シラタマミズキ（種レベル）。evergreen_cold は廃止により削除。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "シラタマミズキ",
+   "reason": "新設項目。YList（s04）の標準和名（種レベル）"
+  },
+  {
+   "field": "heat_note",
+   "old": "暑い夏の地域（特にUSDAゾーン7より南）では病気にかかりやすい。",
+   "new": "夏が暑い地域（特にUSDAゾーン7より南）では株が弱り、胴枯れなどの病気にかかりやすい。",
+   "reason": "MBG（s02）の「弱り、胴枯れなどの病気にかかりやすくなる」を加えた"
+  },
+  {
+   "field": "drought",
+   "old": null,
+   "new": "中",
+   "reason": "MBG（s02）の Water: Medium を「medium moisture→中」に当てはめた。以前は記述なしで null"
+  },
+  {
+   "field": "pruning",
+   "old": "剪定グループ7。若い茎ほど色が鮮やかなので、春に毎年〜隔年で最も古い1/3の茎を地際から除き新梢を促す。",
+   "new": "剪定グループ7。若い茎ほど色が鮮やかなので、春に毎年〜隔年で最も古い1/3の茎を地際から除き新梢を促す。2〜3年ごとに早春に全ての茎を地際近く（約20cm）まで切って更新する方法もある。",
+   "reason": "MBG（s02）の更新方法（2〜3年ごとに早春に地際近くまで切る）を併記"
+  }
+ ]
 }

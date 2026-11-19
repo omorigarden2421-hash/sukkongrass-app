@@ -262,7 +262,7 @@
    "note": "MBG・s18 は咲き終わった花茎を切るとするが、RHS の No pruning required を優先"
   },
   "management_type": {
-   "value": "A",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s01"

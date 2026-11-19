@@ -40,22 +40,22 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 50,
+   "value": 91,
    "method": "記載",
    "sources": [
-    "s01"
+    "s02"
    ],
    "level": "cultivar",
-   "note": "品種レベルの具体値なし。RHS Max Spread 0.5-1m"
+   "note": "MBG（品種ページ）3〜4フィート。品種レベルの具体的な数値が出たため RHS の幅（0.5-1m）から切り替えた。s02 は数値の優先順位の並びに入っておらず、RHS 本文は高さ75cmのコンパクトな低木とするので要確認"
   },
   "spread_max": {
-   "value": 100,
+   "value": 122,
    "method": "記載",
    "sources": [
-    "s01"
+    "s02"
    ],
    "level": "cultivar",
-   "note": "RHS Max Spread 0.5-1m"
+   "note": "MBG 3〜4フィート（4ft＝122cm）"
   },
   "foliage_class": {
    "value": "季節変化型",
@@ -104,23 +104,25 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "Full sun, Partial shade"
+   "note": "Full sun, Partial shade。MBG は Full sun のみ"
   },
   "usda_min": {
-   "value": 3,
+   "value": 4,
    "method": "記載",
    "sources": [
-    "s06"
+    "s02"
    ],
-   "level": "species"
+   "level": "cultivar",
+   "note": "MBG（品種）Zone 4 to 8。耐寒の優先順位で MBG が NCSU（種、3a〜8b）より上"
   },
   "usda_max": {
    "value": 8,
    "method": "記載",
    "sources": [
+    "s02",
     "s06"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhs_h": {
    "value": "H6",
@@ -130,18 +132,31 @@
    ],
    "level": "cultivar"
   },
-  "heat": {
-   "value": "中",
-   "method": "判定",
+  "common_name_ja": {
+   "value": "シモツケ",
+   "method": "記載",
    "sources": [
-    "s06"
+    "s04"
    ],
    "level": "species",
-   "note": "耐暑性の記述なし。USDA上限から（8→中）"
+   "note": "YList 標準和名（Spiraea japonica L.f.、種レベル）"
+  },
+  "heat": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "MBG（品種）: 'Goldflame' is noted for having good heat tolerance（②）。以前は USDA上限から 中 としていた"
   },
   "heat_note": {
-   "value": null,
-   "note": "暑さ・蒸れの記述なし"
+   "value": "'Goldflame' は暑さによく耐えることで知られる。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "drought": {
    "value": "強",
@@ -150,16 +165,17 @@
     "s06"
    ],
    "level": "species",
-   "note": "Resistance To Challenges: Drought"
+   "note": "Resistance To Challenges: Drought（NCSU 種）。MBG（品種）は Water: Medium で Tolerate 欄に Drought はないが、優先順位で NCSU"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "Moist but well-drained or Well-drained。たいていの湿った土で容易、極端な条件以外に耐える"
+   "note": "Moist but well-drained or Well-drained。たいていの湿った土で容易、極端な条件以外に耐える。MBG Water: Medium"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、白亜質・粘土・ローム・砂質",
@@ -177,10 +193,6 @@
    ],
    "level": "cultivar",
    "note": "RHS Coastal のみ"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -207,43 +219,48 @@
    ],
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
-   "level": "species",
-   "note": "aggressive self-seeder、suckering で細い茎の密な茂みを作る"
+   "level": "cultivar",
+   "note": "aggressive self-seeder、suckering で細い茎の密な茂みを作る（NCSU 種）。MBG の品種ページもこぼれ種とひこばえで広がるとする"
   },
   "self_seed_level": {
    "value": 3,
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
-   "level": "species",
-   "note": "can be an aggressive self-seeder"
+   "level": "cultivar",
+   "note": "can be an aggressive self-seeder（NCSU 種）／Plants can be aggressive self-seeders（MBG 品種ページ）"
   },
   "rhizome_level": {
    "value": 2,
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
-   "level": "species",
-   "note": "suckering で密な茂み（thicket）を作る"
+   "level": "cultivar",
+   "note": "suckering で密な茂み（thicket）を作る（NCSU 種）。MBG 品種ページ: ひこばえでも庭の中で広がる"
   },
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species",
-   "note": "種 S. japonica が NC Invasive Plant Council で侵略種に分類。品種 'Goldflame' 固有の記述ではない"
+   "note": "種 S. japonica が NC Invasive Plant Council で侵略種に分類（NCSU）。MBG の品種ページにも侵略性の注意表示と「こぼれ種で強く増え、米国東部で逸出・野生化」の記述がある（品種固有の評価ではなく種としての説明）"
   },
   "invasive_note": {
    "value": "種 S. japonica は米国東部で逸出・野生化し、NC侵略的植物協議会が侵略種に分類（VA・GA・SC・TN・KY などでもリスト掲載）。こぼれ種で旺盛に増え、吸枝でも密な茂みを作るため代替植物の検討が勧められている。",
    "method": "記載",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -265,32 +282,43 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "RHS（品種）は害虫・病気とも通常なし、ナラタケ病の可能性のみ。他は NCSU 種ページ。シカの食害あり（s06）"
+   "note": "RHS（品種）は害虫・病気とも通常なし、ナラタケ病の可能性のみ。他は NCSU 種ページと MBG（シモツケ類一般）。MBG も品種には重大な病害虫は知られていないとする。シカの食害あり（s06）、MBG はシカに耐えるとする"
   },
   "pruning": {
-   "value": "剪定グループ6。全枝を地際から15cm以内まで切り詰めると整った姿を保てる。",
+   "value": "剪定グループ6。全枝を地際から15cm以内まで切り詰めると整った姿を保てる。咲き終わった花房を取る（軽い刈り込みでもよい）と次の花が咲く。新しい枝に咲くので、剪定は必要なら晩冬〜早春に行う。",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar",
-   "note": "時期は文献に書かれていない"
+   "note": "前半は RHS、花がら取りと剪定時期は MBG（品種）"
   },
   "pruning_codes": {
-   "value": null,
-   "note": "剪定の時期が文献に書かれていないため null（RHS は剪定グループ6・地際15cmまでの切り詰めのみ）"
+   "value": [
+    "花後",
+    "早春"
+   ],
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "MBG: 咲き終わった花房を取る（花後）、剪定は必要なら晩冬〜早春（早春）。RHS は時期の記載なし"
   },
   "management_type": {
    "value": "E 隔離推奨型",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species",
-   "note": "mixing が 侵略的（種レベル）"
+   "note": "mixing が 侵略的（種レベル）。heat を 強 に変え pruning_codes も埋まったが、上から順の判定で E のまま"
   },
   "division_interval": {
    "value": null,
@@ -331,8 +359,77 @@
   {
    "field": "pests",
    "detail": "RHS（品種）は Generally pest-free／disease-free、NCSU（種）は多数の病害虫を挙げる"
+  },
+  {
+   "field": "spread",
+   "detail": "MBG（品種）3〜4フィート（91〜122cm）／RHS（品種）0.5-1m。品種レベルの具体的な数値がある MBG を採用（2026-11-19）。高さも MBG 3〜4フィート／RHS 75cm で食い違う"
+  },
+  {
+   "field": "usda",
+   "detail": "MBG（品種）4〜8／NCSU（種）3a〜8b。耐寒の優先順位で MBG を採用（2026-11-19、以前は NCSU）"
+  },
+  {
+   "field": "sun",
+   "detail": "RHS Full sun, Partial shade／MBG Full sun のみ。優先順位で RHS を採用"
+  },
+  {
+   "field": "drought",
+   "detail": "NCSU（種）Resistance: Drought（強）／MBG（品種）Water: Medium（中相当、Tolerate 欄に Drought なし）。優先順位（s06 > s02）で 強 のまま"
   }
  ],
  "name_review": null,
- "notes": "学名は RHS で Accepted、マスターと一致（旧名 Spiraea × bumalda 'Goldflame' はシノニム）。侵略性・こぼれ種・乾燥耐性・USDA は種 S. japonica（NCSU）レベルの記述で、種の高さ4-6ftは品種（RHS 75cm）と大きく異なるため品種への当てはめには注意。'Goldflame' 自体の侵略性は文献にない。"
+ "notes": "学名は RHS で Accepted、マスターと一致（旧名 Spiraea × bumalda 'Goldflame' はシノニム）。侵略性・こぼれ種・乾燥耐性・USDA は種 S. japonica（NCSU）レベルの記述で、種の高さ4-6ftは品種（RHS 75cm）と大きく異なるため品種への当てはめには注意。'Goldflame' 固有の侵略性の評価は文献にない（MBG の品種ページの侵略性の記述も種としての説明）。【2026-11-19】MBG（s02）の品種ページを反映：暑さによく耐える（heat 強）、USDA 4〜8、株張り 3〜4フィート、剪定時期。stauden.de（s18）は学名だけで項目の記載がなく値に使っていない。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "シモツケ",
+   "reason": "新設項目。YList（s04）の標準和名"
+  },
+  {
+   "field": "spread_min",
+   "old": 50,
+   "new": 91,
+   "reason": "MBG（s02）の品種ページに具体的な株張り 3〜4フィート。具体的な数値がある文献を RHS の幅より優先するルールによる（要確認）"
+  },
+  {
+   "field": "spread_max",
+   "old": 100,
+   "new": 122,
+   "reason": "MBG（s02）の品種ページに具体的な株張り 3〜4フィート（4ft＝122cm）"
+  },
+  {
+   "field": "usda_min",
+   "old": 3,
+   "new": 4,
+   "reason": "耐寒の優先順位で s02（品種、4〜8）が s06（種、3a〜8b）より上"
+  },
+  {
+   "field": "heat",
+   "old": "中",
+   "new": "強",
+   "reason": "USDA上限からの判定をやめ、MBG（s02）の「'Goldflame' は暑さによく耐える」で決め直した"
+  },
+  {
+   "field": "heat_note",
+   "old": null,
+   "new": "'Goldflame' は暑さによく耐えることで知られる。",
+   "reason": "新しく埋まった。MBG（s02）の品種ページの記述"
+  },
+  {
+   "field": "pruning",
+   "old": "剪定グループ6。全枝を地際から15cm以内まで切り詰めると整った姿を保てる。",
+   "new": "剪定グループ6。全枝を地際から15cm以内まで切り詰めると整った姿を保てる。咲き終わった花房を取る（軽い刈り込みでもよい）と次の花が咲く。新しい枝に咲くので、剪定は必要なら晩冬〜早春に行う。",
+   "reason": "MBG（s02）の花がら取りと剪定時期（晩冬〜早春）を追記"
+  },
+  {
+   "field": "pruning_codes",
+   "old": null,
+   "new": [
+    "花後",
+    "早春"
+   ],
+   "reason": "新しく埋まった。MBG（s02）に花がら取りと晩冬〜早春の剪定の記述"
+  }
+ ]
 }

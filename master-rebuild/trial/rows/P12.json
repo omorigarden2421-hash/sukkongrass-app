@@ -315,7 +315,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B",
+   "value": "B 花後刈込型",
    "method": "判定",
    "sources": [
     "s01",

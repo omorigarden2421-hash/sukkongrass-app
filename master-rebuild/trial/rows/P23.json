@@ -41,11 +41,11 @@
   },
   "seasonal_foliage": {
    "value": null,
-   "note": "品種レベルの記述なし（種レベルの記述は品種に使わない項目）"
+   "note": "品種レベルの記述なし（s18 の「紅葉なし」は種レベルで、品種に使わない項目）"
   },
   "fragrance": {
    "value": null,
-   "note": "品種レベルの記述なし（種レベルの記述は品種に使わない項目）"
+   "note": "品種レベルの記述なし（MBG の「花に香り」は種レベルで、品種に使わない項目）"
   },
   "silhouette": {
    "value": null,
@@ -64,7 +64,8 @@
    "value": 4,
    "method": "記載",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "species"
   },
@@ -72,7 +73,8 @@
    "value": 8,
    "method": "記載",
    "sources": [
-    "s08"
+    "s08",
+    "s02"
    ],
    "level": "species"
   },
@@ -84,14 +86,18 @@
    ],
    "level": "species"
   },
-  "heat": {
-   "value": "中",
-   "method": "判定",
+  "common_name_ja": {
+   "value": "オオバナイチゲ",
+   "method": "記載",
    "sources": [
-    "s08"
+    "s04"
    ],
    "level": "species",
-   "note": "耐暑性の明記なし（夏の暑さで開花が止まる記述のみ）。USDA上限から（8→中）"
+   "note": "YList 標準和名（Anemone sylvestris L.、種レベル）"
+  },
+  "heat": {
+   "value": null,
+   "note": "暑さの記述なし（CBG の「夏の暑さで開花が止まる」は耐暑性の記述ではない。MBG・NCSU・RHS にも記述なし）"
   },
   "heat_note": {
    "value": "夏の暑さで開花がいったん止まり、9月に少し返り咲く。",
@@ -102,17 +108,23 @@
    "level": "species"
   },
   "drought": {
-   "value": null,
-   "note": "記述なし"
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "species",
+   "note": "MBG Water: Medium（Tolerate 欄に Drought なし）。stauden.de は trocken; frisch"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "species",
-   "note": "Moist but well-drained or Well-drained、腐植に富み水はけのよい土"
+   "note": "Moist but well-drained or Well-drained、腐植に富み水はけのよい土。MBG Water: Medium"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・ローム",
@@ -125,10 +137,6 @@
   "salt": {
    "value": null,
    "note": "記述なし"
-  },
-  "evergreen_cold": {
-   "value": null,
-   "note": "寒冷地での記述なし"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -149,29 +157,38 @@
   },
   "spread_modes": {
    "value": [
-    "地下茎"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02",
+    "s18"
    ],
    "level": "species",
-   "note": "root suckers（根からの吸枝）で広がる"
+   "note": "root suckers（根からの吸枝）で広がる（RHS）、地下茎で広がって群生する（MBG）。こぼれ種は s18（stark versamend）のみ。s18 の horstig（株立ち）は文章の記述と食い違うため採らない"
   },
   "self_seed_level": {
-   "value": null,
-   "note": "記述なし"
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "species",
+   "note": "s18（種）MS-Generativer Ausbreitungsdrang: stark versamend（こぼれ種でよく増える）。侵略的とまでの表現ではないため 2。他の文献に記述なし"
   },
   "rhizome_level": {
    "value": 2,
    "method": "判定",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "species",
-   "note": "spreading rapidly by root suckers／spreader。隔離推奨や invasive の記述はない"
+   "note": "spreading rapidly by root suckers／spreader（RHS・Walters）。MBG は「やわらかい土では非常に強く（very aggressive）広がる、粘土質ではあまり広がらない」と条件つきで書く。条件つきの記述なので 3 には上げず、優先順位が上の RHS の表現で 2 のまま（要確認）"
   },
   "mixing": {
    "value": "強い（周囲を圧迫、配置注意）",
@@ -181,14 +198,15 @@
     "s10"
    ],
    "level": "species",
-   "note": "急速に広がる・場所を十分とるか毎春縁切りを"
+   "note": "急速に広がる・場所を十分とるか毎春縁切りを。MBG の very aggressive は「やわらかい土では」の条件つきで、粘土質では広がりにくいとするため、侵略的（隔離推奨）には上げなかった（要確認）"
   },
   "invasive_note": {
-   "value": "根からの吸枝で急速に広がる。場所を十分にとるか、毎春縁を切って範囲を抑える。",
+   "value": "根からの吸枝・地下茎で急速に広がる。やわらかい土では非常に強く広がり、粘土質ではあまり広がらない。場所を十分にとるか、毎春縁を切って範囲を抑える。",
    "method": "記載",
    "sources": [
     "s01",
-    "s10"
+    "s10",
+    "s02"
    ],
    "level": "species"
   },
@@ -196,7 +214,8 @@
    "value": "有害の可能性：摂取で軽い胃の不調、触れると皮膚刺激",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
    "level": "species"
   },
@@ -212,7 +231,7 @@
     "s01"
    ],
    "level": "species",
-   "note": "シカ・ウサギに強い（s08/s10）"
+   "note": "シカ・ウサギに強い（s08/s10）。MBG は重大な病害虫はないとするが、優先順位で RHS の列挙を採用"
   },
   "pruning": {
    "value": "花後に切り戻す。",
@@ -239,7 +258,7 @@
     "s01"
    ],
    "level": "species",
-   "note": "mixing は 強い（侵略的ではない）、毎年の株分け・更新の記述なし（s10 の毎春の縁切りは株更新ではない）、pruning_codes に 花後"
+   "note": "mixing は 強い（侵略的ではない）、毎年の株分け・更新の記述なし（s10 の毎春の縁切りは株更新ではない）、pruning_codes に 花後。heat を空欄にしたが B の判定には影響しない"
   },
   "division_interval": {
    "value": "間隔の記載なし。早春（s01）、春か秋（s10）に株分け",
@@ -252,13 +271,16 @@
   },
   "propagation": {
    "value": [
-    "株分け"
+    "株分け",
+    "実生"
    ],
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
-   "level": "species"
+   "level": "species",
+   "note": "株分けは RHS・s18。実生は s18（種が熟したらすぐまく）のみ。種レベルの記述で、品種 'Madonna' が種から同じに育つかは文献にない"
   },
   "cut_flower": {
    "value": null,
@@ -268,7 +290,8 @@
    "value": "○",
    "method": "判定",
    "sources": [
-    "s08"
+    "s08",
+    "s18"
    ],
    "level": "species",
    "note": "Attracts Butterflies"
@@ -281,13 +304,83 @@
   },
   {
    "field": "sun",
-   "detail": "CBG は Partial Shade（日陰に耐える）。RHS の Full sun, Partial shade を採用"
+   "detail": "CBG は Partial Shade（日陰に耐える）、MBG も Part shade。RHS の Full sun, Partial shade を採用（stauden.de は sonnig; halbschattig; absonnig）"
   },
   {
    "field": "soil_moisture",
    "detail": "perennials.com は Average or Moist or Wet。RHS の Moist but well-drained or Well-drained を採用"
+  },
+  {
+   "field": "spread_modes",
+   "detail": "RHS 根からの吸枝で急速に広がる・MBG 地下茎で広がって群生／stauden.de horstig（株立ち、広がらない）。文章の記述を採用"
+  },
+  {
+   "field": "mixing",
+   "detail": "RHS spreading rapidly・Walters spreader（強い）／MBG Can be very aggressive in loose soils, but spreads less in clay soils（条件つきで侵略的相当）。優先順位と条件つきであることから 強い・rhizome_level 2 のまま"
+  },
+  {
+   "field": "pests",
+   "detail": "RHS は線虫・ナメクジ・イモムシ・うどんこ病／MBG No serious insect or disease problems。優先順位で RHS を採用"
+  },
+  {
+   "field": "soil_moisture",
+   "detail": "stauden.de trocken; frisch（乾燥〜適湿）／perennials.com Average or Moist or Wet／RHS・MBG は適湿。RHS を採用"
   }
  ],
  "name_review": null,
- "notes": "品種 'Madonna' の記述は使用可能文献でほぼ得られず（RHS 品種ページは Unresolved で科・属説明のみ、CBG 品種ページは名前のみ、perennials.com・NCSU に品種ページなし）。値はすべて種 Anemone sylvestris レベル。品種専用項目（花色・株張り・葉・香り・樹形・切り花）は null。マスター出典（gardenia.net、North Creek）は対象外で未使用。"
+ "notes": "品種 'Madonna' の記述は使用可能文献でほぼ得られず（RHS 品種ページは Unresolved で科・属説明のみ、CBG 品種ページは名前のみ、perennials.com・NCSU に品種ページなし）。値はすべて種 Anemone sylvestris レベル。品種専用項目（花色・株張り・葉・香り・樹形・切り花）は null。マスター出典（gardenia.net、North Creek）は対象外で未使用。",
+ "changes_20261119": [
+  {
+   "field": "common_name_ja",
+   "old": null,
+   "new": "オオバナイチゲ",
+   "reason": "新設項目。YList（s04）の標準和名"
+  },
+  {
+   "field": "heat",
+   "old": "中",
+   "new": null,
+   "reason": "USDA上限から決めていたため取り消し。s02 を含め耐暑性の記述がなく null"
+  },
+  {
+   "field": "drought",
+   "old": null,
+   "new": "中",
+   "reason": "新しく埋まった。MBG（s02）Water: Medium"
+  },
+  {
+   "field": "spread_modes",
+   "old": [
+    "地下茎"
+   ],
+   "new": [
+    "地下茎",
+    "こぼれ種"
+   ],
+   "reason": "s18 に「こぼれ種でよく増える（stark versamend）」の記録。他の文献にこぼれ種の記述がないため こぼれ種 を追加（地下茎は s02 も裏づけ）"
+  },
+  {
+   "field": "self_seed_level",
+   "old": null,
+   "new": 2,
+   "reason": "新しく埋まった。s18 の stark versamend により 2（他の文献に記述なし）"
+  },
+  {
+   "field": "invasive_note",
+   "old": "根からの吸枝で急速に広がる。場所を十分にとるか、毎春縁を切って範囲を抑える。",
+   "new": "根からの吸枝・地下茎で急速に広がる。やわらかい土では非常に強く広がり、粘土質ではあまり広がらない。場所を十分にとるか、毎春縁を切って範囲を抑える。",
+   "reason": "MBG（s02）の「やわらかい土では非常に強く広がる、粘土質では広がりにくい」を追記"
+  },
+  {
+   "field": "propagation",
+   "old": [
+    "株分け"
+   ],
+   "new": [
+    "株分け",
+    "実生"
+   ],
+   "reason": "s18 に種まき（取りまき）の記載があり 実生 を追加"
+  }
+ ]
 }
