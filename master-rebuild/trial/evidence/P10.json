@@ -49,17 +49,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/index.php?cl=search",
+   "status": "not_found",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "「Hosta」で検索。'Gold Standard' の掲載なし（種子の会社で、栄養繁殖の品種は扱わない）。ユーザーのパソコンの Chrome で Jelitto のサイト内検索を使った"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "品種ページ：Hosta Hybride 'Gold Standard'。ユーザーのパソコンの Chrome で読んだ"
   }
  ],
  "evidence": [
@@ -847,6 +847,166 @@
    "quote": "Sichtungswerte BdS: ** (sehr gut); Jahr der letzten Sichtung: 1995",
    "source": "s18",
    "url": "https://www.stauden.de/staudendatenbank.html?relid=2811",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Gaißmayer での学名表記：Hosta Hybride 'Gold Standard'",
+   "quote": "Hosta Hybride 'Gold Standard'",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Hostaceae",
+   "quote": "Familie: Hostaceae",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "藤色",
+   "quote": "Blütenfarbe: lila",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "葉色：模様入り、黄、明るい緑",
+   "quote": "Blattfarbe: gezeichnet, gelb, hellgrün",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "6月〜7月",
+   "quote": "Blütezeit: VI–VII",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "高さ 40cm〜75cm",
+   "quote": "Höhe: 40 cm–75 cm",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰、日陰",
+   "quote": "Lichtverhältnisse: halbschattig, schattig",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Lebensbereich: GR/G2（frischer Boden）",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン5（-28.8〜-23.4℃）",
+   "quote": "Winterhärtezone: Z5 (-28,8 °C bis -23,4 °C)",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジの食害：比較的少ない",
+   "quote": "Schneckenfraß: relativ geringe Gefahr",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Schnittgeeignet: ja",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "group",
+   "value_ja": "育種者：Banyai (USA) 1976",
+   "quote": "Züchter: Banyai (USA) 1976",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "黄緑色で葉脈の目立つ葉に、不規則で細い緑の縁取り",
+   "quote": "Die chartreusefarbenen, geaderten Blätter der Sorte 'Gold Standard' werden unregelmäßig-schmal von einem grünen Rand eingefasst.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "日が当たると葉が黄金色になる",
+   "quote": "Bei Sonneneinstrahlung färben sich die Blätter goldgelb.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "比較的日なたに耐えるが、強い日なたでは葉が色あせる",
+   "quote": "ist relativ sonnenverträglich. Volle Sonne lässt die Blätter jedoch ausbleichen.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "肥料が十分なら大きな株になる",
+   "quote": "Diese Hosta bildet bei ausreichender Nährstoffzufuhr große Horste",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/hosta-funkie/hosta-mit-relativ-geringer-schneckenfrassgefahr/272/hosta-hybride-gold-standard/6342/",
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"

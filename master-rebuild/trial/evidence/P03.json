@@ -49,17 +49,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "種のページ：AJUGA reptans。ユーザーのパソコンの Chrome で読んだ"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "種のページ：Ajuga reptans。ユーザーのパソコンの Chrome で読んだ"
   }
  ],
  "evidence": [
@@ -1082,6 +1082,286 @@
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Jelitto での学名表記：AJUGA reptans",
+   "quote": "AJUGA reptans",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Lamiaceae",
+   "quote": "Family: Lamiaceae",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ヨーロッパ、イラン、コーカサス",
+   "quote": "Origin: Europe, Iran, Caucasus",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "青",
+   "quote": "Flower Colour: blue",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "5月〜6月",
+   "quote": "Natural Flowering Period: May - June",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "ゾーン3〜9",
+   "quote": "Winter Hardiness Zones: Z3 - Z9",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "ほふく茎（ランナー）で広がる、マット状、常緑",
+   "quote": "Growth Habit: stoloniferous / mat-forming / evergreen",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "ほふく茎（ランナー）で広がる",
+   "quote": "Growth Habit: stoloniferous / mat-forming / evergreen",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "常緑",
+   "quote": "Growth Habit: stoloniferous / mat-forming / evergreen",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花を含む高さ 15cm",
+   "quote": "Height with Flowers: 15 cm",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気のある土、普通の土",
+   "quote": "Soil Requirements: moist / average",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた、半日陰、日陰",
+   "quote": "Location: full sun, semi-shade, shade",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "薬用植物、グラウンドカバー",
+   "quote": "Characteristics: medicinal plant / groundcover",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "ミツバチの蜜源",
+   "quote": "Usage: honey-bee food plant",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Herbs/AJUGA+reptans+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Lamiaceae",
+   "quote": "Familie: Lamiaceae",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "藤色がかった青",
+   "quote": "Blütenfarbe: lilablau",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "5月〜6月",
+   "quote": "Blütezeit: V–VI",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "高さ 15cm",
+   "quote": "Höhe: 15 cm",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた、明るい日陰（直射は当たらないが明るい）",
+   "quote": "Lichtverhältnisse: sonnig, absonnig",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）、湿り気",
+   "quote": "Lebensbereich: GR/Fr2-3（frischer Boden / feuchter Boden）",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン6（-23.4〜-17.8℃）",
+   "quote": "Winterhärtezone: Z6 (-23,4 °C bis -17,8 °C)",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "冬緑（冬も葉が残る）",
+   "quote": "Wintergrün: ja",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジの食害：心配なし",
+   "quote": "Schneckenfraß: keine Gefahr",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "生育が早く、ロゼットを作りながら短期間で一面のじゅうたん状になる（種の説明）",
+   "quote": "Die rasch wachsende, Rosetten bildende Staude wächst schnell zu einem geschlossenen Teppich heran.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "function_type",
+   "value_ja": "原種は自然風の庭の優れたグラウンドカバー",
+   "quote": "Die reine Art des Günsels ist ein wertvoller Bodendecker für den Naturgarten.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ドイツに広く分布し、草地・やぶ・森に生える",
+   "quote": "Die kriechende Staude ist bei uns weit verbreitet und in Wiesen, Gebüschen und Wäldern anzutreffen.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "花は花粉が多く、蜜がとても多い（マルハナバチ・ハナバチ・チョウが訪れる）",
+   "quote": "Die Blüten des Günsels halten reichlich Pollen uns sehr viel Nektar bereit.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "冬も葉が残るが、切り戻しを勧める（傷んだ葉を除き、新しい芽吹きを促す）",
+   "quote": "Auch wenn Ajuga reptans wintergrün ist, ist ein Rückschnitt empfehlenswert.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-a-bis-d/ajuga-guensel/366/ajuga-reptans/4545/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
@@ -1094,5 +1374,5 @@
   "toxicity",
   "cut_flower"
  ],
- "notes": "RHS では 'Burgundy Glow' (v)（斑入り表記）で Accepted。株張りは RHS 0.5-1m、Walters 30-45cm と食い違う。日照も CBG は日なた〜日陰、Walters は半日陰〜日陰、RHS は半日陰（葉焼け防止）と幅あり。Walters は斑が戻った緑・ブロンズの芽の除去を指示（先祖返りしやすい点に注意）。NCSU は種ページで侵略性・攻撃的な広がりに言及。"
+ "notes": "RHS では 'Burgundy Glow' (v)（斑入り表記）で Accepted。株張りは RHS 0.5-1m、Walters 30-45cm と食い違う。日照も CBG は日なた〜日陰、Walters は半日陰〜日陰、RHS は半日陰（葉焼け防止）と幅あり。Walters は斑が戻った緑・ブロンズの芽の除去を指示（先祖返りしやすい点に注意）。NCSU は種ページで侵略性・攻撃的な広がりに言及。\n\n【2026-11-19 追記：Jelitto・Gaißmayer（Chrome で確認）】Jelitto・Gaißmayer とも 'Burgundy Glow' の掲載はなく、種（Ajuga reptans）のページを読んだ。耐寒ゾーンは Jelitto Z3-Z9、Gaißmayer Z6 と食い違う"
 }

@@ -49,17 +49,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/Seed/Ornamental+Grasses/MISCANTHUS+sinensis+Portion+s.html",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "種のページ：MISCANTHUS sinensis。ユーザーのパソコンの Chrome で読んだ"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "品種ページ：Miscanthus sinensis 'Morning Light'。ユーザーのパソコンの Chrome で読んだ"
   }
  ],
  "evidence": [
@@ -1109,6 +1109,276 @@
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Jelitto での学名表記：MISCANTHUS sinensis",
+   "quote": "MISCANTHUS sinensis",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Ornamental+Grasses/MISCANTHUS+sinensis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Poaceae",
+   "quote": "Family: Poaceae",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Ornamental+Grasses/MISCANTHUS+sinensis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "9月〜10月",
+   "quote": "Natural Flowering Period: September - October",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Ornamental+Grasses/MISCANTHUS+sinensis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "ゾーン4〜9",
+   "quote": "Winter Hardiness Zones: Z4 - Z9",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Ornamental+Grasses/MISCANTHUS+sinensis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "直立、生育旺盛、背が高い",
+   "quote": "Growth Habit: erect / vigorous / tall",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Ornamental+Grasses/MISCANTHUS+sinensis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花を含む高さ 250cm",
+   "quote": "Height with Flowers: 250 cm",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Ornamental+Grasses/MISCANTHUS+sinensis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通の土",
+   "quote": "Soil Requirements: average",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Ornamental+Grasses/MISCANTHUS+sinensis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Location: full sun",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Ornamental+Grasses/MISCANTHUS+sinensis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "単植向き（種の説明）",
+   "quote": "Characteristics: solitary plant / beneficial plant",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Ornamental+Grasses/MISCANTHUS+sinensis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Poaceae",
+   "quote": "Familie: Poaceae",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "銀色",
+   "quote": "Blütenfarbe: silbrig",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "9月〜10月",
+   "quote": "Blütezeit: IX–X",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "高さ 120cm〜150cm",
+   "quote": "Höhe: 120 cm–150 cm",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Lichtverhältnisse: sonnig",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Lebensbereich: Fr/B2（frischer Boden）",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン6（-23.4〜-17.8℃）",
+   "quote": "Winterhärtezone: Z6 (-23,4 °C bis -17,8 °C)",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジの食害：心配なし",
+   "quote": "Schneckenfraß: keine Gefahr",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Schnittgeeignet: ja",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "細い葉に白い縁取り",
+   "quote": "erinnert mit den schmalen, weißgerandeten Blättern an einen 'Gracillimus Variegatus'",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "美しく弓なりに垂れる草姿",
+   "quote": "Mit ihrer schön überhängenden Wuchsform",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "vigor",
+   "value_ja": "ドイツ南部では生育がやや遅く、ほとんど咲かない",
+   "quote": "wächst bei uns eher langsam, blüht kaum",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "咲くには多くの暖かさが必要で、ドイツの夏では足りないことが多い",
+   "quote": "benötigt für eine Blüte sehr viel Wärme, die sie oft in unseren Sommern nicht bekommt",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "winter_care",
+   "value_ja": "念のため最初の冬は少し保護する",
+   "quote": "Zur Sicherheit sollte man diesem Chinaschilf im ersten Winter etwas Schutz geben.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "幅のある株立ちで、ほふく枝は出さない（根止めは不要）",
+   "quote": "Miscanthus sinensis 'Morning Light' wächst breit horstig, macht aber keine Ausläufer.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株の直径は最大130（ページの表記は「130m」。cm の誤記と思われる）",
+   "quote": "kann einen Durchmesser von bis zu 130m erreichen",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "年に1回、地面から約15cmで切り戻す。時期は春（4月ごろ）",
+   "quote": "müssen einmal im Jahr ca. 15 cm über dem Boden zurückgeschnitten werden. Der beste Zeitpunkt dafür ist im Frühjahr (ca. April).",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "15リットル以上の鉢植えにとても向く。単植、中くらいの高さの生け垣にも",
+   "quote": "für Pflanzgefäße ab 15 Liter Erdvolumen bestens geeignet",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/verwendungsschwerpunkte/historische-stauden-stauden-mit-geschichte/154/miscanthus-sinensis-morning-light/3985/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
@@ -1117,5 +1387,5 @@
   "lifespan",
   "toxicity"
  ],
- "notes": "学名は Miscanthus sinensis 'Morning Light' で各文献一致（RHSは斑入り表記(v)）。RHSは 'Gracillimus Variegatus' をシノニムとする。開花は文献により『冷涼な夏の地域では咲かないことも』(perennials.com)、『開花には長く暑い生育期が必要』(Walters)とあり、日本の地域で開花に差が出る可能性。マスターの耐潮性の出典 NCSU 品種ページには耐塩の記述はなく『Coastal』の植栽場所のみ。耐塩の明記はWalters（Salt Tolerant）のみ。NCSUの侵略性記述は種について（本品種は稔性種子なし）。成株シルエット_参照URLは文献名のみ。マスター冬_情報源の RHS advice ページ(pid=434)はPlant Finderでないため読んでいない。"
+ "notes": "学名は Miscanthus sinensis 'Morning Light' で各文献一致（RHSは斑入り表記(v)）。RHSは 'Gracillimus Variegatus' をシノニムとする。開花は文献により『冷涼な夏の地域では咲かないことも』(perennials.com)、『開花には長く暑い生育期が必要』(Walters)とあり、日本の地域で開花に差が出る可能性。マスターの耐潮性の出典 NCSU 品種ページには耐塩の記述はなく『Coastal』の植栽場所のみ。耐塩の明記はWalters（Salt Tolerant）のみ。NCSUの侵略性記述は種について（本品種は稔性種子なし）。成株シルエット_参照URLは文献名のみ。マスター冬_情報源の RHS advice ページ(pid=434)はPlant Finderでないため読んでいない。\n\n【2026-11-19 追記：Jelitto・Gaißmayer（Chrome で確認）】Jelitto は種（Miscanthus sinensis）の種子のページで、草丈 250cm などは 'Morning Light' の値ではない。Gaißmayer は品種ページ。Gaißmayer の回答にある株の直径「130m」は cm の誤記と思われる"
 }

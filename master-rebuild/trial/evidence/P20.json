@@ -61,17 +61,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/Seed/GOLD+NUGGET+SEED/TRICYRTIS+hirta+Seeds.html",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "種のページ：TRICYRTIS hirta。ユーザーのパソコンの Chrome で読んだ"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/tricyrtis-kroetenlilie/490/tricyrtis-hirta/4591/",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "種のページ：Tricyrtis hirta。ユーザーのパソコンの Chrome で読んだ"
   }
  ],
  "evidence": [
@@ -736,6 +736,226 @@
    "level": "species",
    "from_master_source": false,
    "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Jelitto での学名表記：TRICYRTIS hirta",
+   "quote": "TRICYRTIS hirta",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/GOLD+NUGGET+SEED/TRICYRTIS+hirta+Seeds.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Convallariaceae",
+   "quote": "Family: Convallariaceae",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/GOLD+NUGGET+SEED/TRICYRTIS+hirta+Seeds.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "淡い藤色に大きな紫の斑点",
+   "quote": "Flower Colour: soft lilac with large purple spots",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/GOLD+NUGGET+SEED/TRICYRTIS+hirta+Seeds.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "8月〜10月",
+   "quote": "Natural Flowering Period: August - October",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/GOLD+NUGGET+SEED/TRICYRTIS+hirta+Seeds.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "ゾーン4〜8",
+   "quote": "Winter Hardiness Zones: Z4 - Z8",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/GOLD+NUGGET+SEED/TRICYRTIS+hirta+Seeds.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "ほふく茎（ランナー）で広がる",
+   "quote": "Growth Habit: stoloniferous",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/GOLD+NUGGET+SEED/TRICYRTIS+hirta+Seeds.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "ほふく茎（ランナー）で広がる",
+   "quote": "Growth Habit: stoloniferous",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/GOLD+NUGGET+SEED/TRICYRTIS+hirta+Seeds.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花を含む高さ 50cm",
+   "quote": "Height with Flowers: 50 cm",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/GOLD+NUGGET+SEED/TRICYRTIS+hirta+Seeds.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通の土",
+   "quote": "Soil Requirements: average",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/GOLD+NUGGET+SEED/TRICYRTIS+hirta+Seeds.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰",
+   "quote": "Location: semi-shade",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/GOLD+NUGGET+SEED/TRICYRTIS+hirta+Seeds.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Usage: suitable for cutting",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/GOLD+NUGGET+SEED/TRICYRTIS+hirta+Seeds.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Convallariaceae",
+   "quote": "Familie: Convallariaceae",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/tricyrtis-kroetenlilie/490/tricyrtis-hirta/4591/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "白っぽい藤色に赤い斑点",
+   "quote": "Blütenfarbe: weißlich-lila, rot gepunktet",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/tricyrtis-kroetenlilie/490/tricyrtis-hirta/4591/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "8月〜10月",
+   "quote": "Blütezeit: VIII–X",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/tricyrtis-kroetenlilie/490/tricyrtis-hirta/4591/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "高さ 50cm",
+   "quote": "Höhe: 50 cm",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/tricyrtis-kroetenlilie/490/tricyrtis-hirta/4591/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰",
+   "quote": "Lichtverhältnisse: halbschattig",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/tricyrtis-kroetenlilie/490/tricyrtis-hirta/4591/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Lebensbereich: GR2（frischer Boden）",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/tricyrtis-kroetenlilie/490/tricyrtis-hirta/4591/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン5（-28.8〜-23.4℃）",
+   "quote": "Winterhärtezone: Z5 (-28,8 °C bis -23,4 °C)",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/tricyrtis-kroetenlilie/490/tricyrtis-hirta/4591/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Schnittgeeignet: ja",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/tricyrtis-kroetenlilie/490/tricyrtis-hirta/4591/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "湿り気があり、石灰分が少なく、ふかふかで腐植のある土（種の説明）",
+   "quote": "schattige Rabatten mit feuchten, kalkarmen, locker-humosen Böden",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/tricyrtis-kroetenlilie/490/tricyrtis-hirta/4591/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "樹木のそばの、他の植物との競合が少ない場所を好む",
+   "quote": "bevorzugt konkurrenzarme Standorte im Umfeld von Gehölzen",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/tricyrtis-kroetenlilie/490/tricyrtis-hirta/4591/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "winter_care",
+   "value_ja": "冬は落ち葉で覆うことを勧める（植え付けは春を勧める）",
+   "quote": "ebenso wie ihn im Winter mit einer Laubabdeckung zu versehen",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/tricyrtis-kroetenlilie/490/tricyrtis-hirta/4591/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
@@ -749,5 +969,5 @@
   "toxicity",
   "invasive_note"
  ],
- "notes": "学名の問題：マスターは Tricyrtis hirta 'Lightning Strike' だが、RHSの正名は種小名なしの Tricyrtis 'Lightning Strike' (v)（(v)=斑入り）で、シノニムは T. latifolia 'Lightning Strike'。Walters・Chicago Botanic も種小名なし。NCSUだけが T. hirta の品種一覧に入れている。よって T. hirta 種ページの値（原産地・草丈など）は品種に当てはまらない可能性がある。葉色も文献で割れる：NCSU『黄金色に緑の筋』、Chicago Botanic『緑に金の筋』、Walters『緑と金の筋』。Walters は寒冷地では早霜で開花しにくいので保護が必要と記載（'In colder zones this may need protection from early frosts to bloom reliably.'）。RHSの品種ページには H値なし。マスターの Plant Delights・Wisconsin Extension は使用不可文献のため読んでいない。\n\n【2026-11-19 追記】MBG は Tricyrtis 'Lightning Strike'（種小名なし）として掲載"
+ "notes": "学名の問題：マスターは Tricyrtis hirta 'Lightning Strike' だが、RHSの正名は種小名なしの Tricyrtis 'Lightning Strike' (v)（(v)=斑入り）で、シノニムは T. latifolia 'Lightning Strike'。Walters・Chicago Botanic も種小名なし。NCSUだけが T. hirta の品種一覧に入れている。よって T. hirta 種ページの値（原産地・草丈など）は品種に当てはまらない可能性がある。葉色も文献で割れる：NCSU『黄金色に緑の筋』、Chicago Botanic『緑に金の筋』、Walters『緑と金の筋』。Walters は寒冷地では早霜で開花しにくいので保護が必要と記載（'In colder zones this may need protection from early frosts to bloom reliably.'）。RHSの品種ページには H値なし。マスターの Plant Delights・Wisconsin Extension は使用不可文献のため読んでいない。\n\n【2026-11-19 追記】MBG は Tricyrtis 'Lightning Strike'（種小名なし）として掲載\n\n【2026-11-19 追記：Jelitto・Gaißmayer（Chrome で確認）】Jelitto・Gaißmayer とも 'Lightning Strike' の掲載はなく、Tricyrtis hirta のページを読んだ（MBG はこの品種を種小名なしで掲載しているので、種のページの値を使うかは要検討）"
 }

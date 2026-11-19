@@ -250,12 +250,12 @@ srcs = [['s01', 'RHS（英国王立園芸協会）Plant Finder', '公的機関DB
         ['s08', 'Chicago Botanic Garden（Plant Finder・品種評価）', '植物園DB', 'chicagobotanic.org', '使用'],
         ['s09', 'Lady Bird Johnson Wildflower Center', '大学', 'wildflower.org', '使用'],
         ['s10', 'perennials.com（Valleybrook／Perennial Resource）・Walters Gardens', '生産・品種情報会社', 'perennials.com／waltersgardens.com', '使用'],
-        ['s11', 'Jelitto カタログ', '種苗会社', 'jelitto.com', 'クラウドからは読めない（Cloudflare）。パソコンの Chrome で読む予定'],
+        ['s11', 'Jelitto カタログ', '種苗会社', 'jelitto.com', 'クラウドからは読めない（Cloudflare）。パソコンの Chrome で読んだ（2026-11-19）'],
         ['s12', '育種会社の品種情報（Proven Winners など）', '育種会社', '各社', '使用'],
         ['s13', 'Staudensichtung（ドイツの宿根草品種評価）', '公的機関', 'staudensichtung.de', '参考資料'],
         ['s14', 'Mt. Cuba Center', '植物園', 'mtcubacenter.org', '使わない'],
         ['s16', '道総研', '公的機関', 'hro.or.jp', '参考資料'],
-        ['s17', 'Gaißmayer', 'ナーサリー', 'gaissmayer.de', 'クラウドからは読めない（Cloudflare）。パソコンの Chrome で読む予定'],
+        ['s17', 'Gaißmayer', 'ナーサリー', 'gaissmayer.de', 'クラウドからは読めない（Cloudflare）。パソコンの Chrome で読んだ（2026-11-19）'],
         ['s18', 'stauden.de 無料データベース（BdS ドイツ宿根草生産者協会）', '業界団体DB', 'stauden.de', '使用（2026-11-19 から。有料版は未契約）'],
         ['s19', 'Beth Chatto', '育種・生産会社', 'bethchatto.co.uk', '未使用']]
 sheet('文献リスト', ['文献ID', '文献', '種類', 'サイト', '状態'], srcs, {'文献': 50, 'サイト': 30, '状態': 40})

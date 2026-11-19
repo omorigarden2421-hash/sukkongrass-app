@@ -55,17 +55,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/index.php?cl=search",
+   "status": "not_found",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "「Phlox paniculata」で検索。あるのは実生の 'New Hybrids' だけ。ユーザーのパソコンの Chrome で Jelitto のサイト内検索を使った"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "品種ページ：Phlox paniculata 'David'。ユーザーのパソコンの Chrome で読んだ"
   }
  ],
  "evidence": [
@@ -1068,14 +1068,223 @@
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Polemoniaceae",
+   "quote": "Familie: Polemoniaceae",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "純白",
+   "quote": "Blütenfarbe: reinweiß",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "7月〜9月（中〜遅咲き）",
+   "quote": "Blütezeit: VII–IX (mittel–spät)",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "高さ 100cm〜120cm",
+   "quote": "Höhe: 100 cm–120 cm",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた、明るい日陰（直射は当たらないが明るい）、半日陰",
+   "quote": "Lichtverhältnisse: sonnig, absonnig, halbschattig",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）、湿り気",
+   "quote": "Lebensbereich: B/Fr2-3（frischer Boden / feuchter Boden）",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン4（-34.5〜-28.9℃）",
+   "quote": "Winterhärtezone: Z4 (-34,5 °C bis -28,9 °C)",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジの食害：比較的少ない",
+   "quote": "Schneckenfraß: relativ geringe Gefahr",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "香りあり",
+   "quote": "Duftend: ja",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Schnittgeeignet: ja",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "group",
+   "value_ja": "育種者：Simon & Mooberry (US) 1978",
+   "quote": "Züchter: Simon & Mooberry (US) 1978",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "synonyms",
+   "value_ja": "以前の表記：Phlox amplifolia 'David'",
+   "quote": "ehemals: Phlox amplifolia 'David'",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "7月から9月遅くまで咲く",
+   "quote": "Von Juli bis weit in den September hinein erscheinen die makellosen reinweißen Blüten.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "短いほふく枝で少しずつ大きく密な株になる",
+   "quote": "der durch kurze Ausläufer allmählich große, dichte Horste bildet",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "うどんこ病にとても強い。背の高いフロックスの中でおそらく最も強い",
+   "quote": "Er hat eine exzellente Mehltauresistenz - wohl die beste unter allen hohen Phloxen.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "フロックスの中でも特に良い香り",
+   "quote": "Unter den Phloxenn fällt er deutlich durch seinen besonders angenehmen Duft auf.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "米国宿根草協会（PPA）の2002年 Plant of the Year",
+   "quote": "Von der amerikanischen Perennial Plant Association wurde 'David' zur Pflanze des Jahres 2002 gekürt.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread",
+   "value_ja": "株の幅は50〜60cmを見込む",
+   "quote": "Was die Breitenentwicklung von Phlox 'David' angeht, können Sie schon mit 50-60 cm rechnen.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "drought",
+   "value_ja": "ときどき乾く程度ならよく耐える（鉢植えについての回答）",
+   "quote": "Gelegentliche trockene Phasen werden gut toleriert.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花後に手のひらの幅ほど残して切り戻してよい（種が熟すのを防ぎ、望まない実生も防げる）",
+   "quote": "darf nach der Blüte bis auf eine Handbreite zurück geschnitten werden",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "propagation",
+   "value_ja": "株分けでよく増やせる。葉がまだ少ない春が最適",
+   "quote": "lassen sich gut durch Teilung vermehren. Ideal ist dazu das Frühjahr, wenn noch nicht viel Laub vorhanden ist.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/phlox/halbschattenvertraegliche-phloxe/332/phlox-paniculata-david/6200/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
-  "synonyms",
   "seasonal_foliage",
   "salt",
   "lifespan",
   "toxicity"
  ],
- "notes": "学名 Phlox paniculata 'David' は RHS で Accepted、問題なし。2002年 Perennial Plant of the Year（CBG・perennials.com）。支柱について perennials.com は『May need staking』、NCSU は『seldom need staking』と食い違い。耐病性も CBG/perennials.com は『うどんこ病に強い』、NCSU は病気としてうどんこ病を挙げる、RHS はべと病・斑点病を挙げる。USDAゾーンは CBG 4-8、perennials.com 3-9、NCSU 3-8。perennials.com のページは Valleybrook（Perennial Resource）名義で Walters Gardens ではない点に注意。日本語名・寿命・耐塩・毒性は見つからず。"
+ "notes": "学名 Phlox paniculata 'David' は RHS で Accepted、問題なし。2002年 Perennial Plant of the Year（CBG・perennials.com）。支柱について perennials.com は『May need staking』、NCSU は『seldom need staking』と食い違い。耐病性も CBG/perennials.com は『うどんこ病に強い』、NCSU は病気としてうどんこ病を挙げる、RHS はべと病・斑点病を挙げる。USDAゾーンは CBG 4-8、perennials.com 3-9、NCSU 3-8。perennials.com のページは Valleybrook（Perennial Resource）名義で Walters Gardens ではない点に注意。日本語名・寿命・耐塩・毒性は見つからず。\n\n【2026-11-19 追記：Jelitto・Gaißmayer（Chrome で確認）】Gaißmayer は以前 Phlox amplifolia 'David' と表記していた（ehemals）"
 }

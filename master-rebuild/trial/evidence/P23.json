@@ -85,17 +85,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "種のページ：ANEMONE sylvestris [Madonna]。ユーザーのパソコンの Chrome で読んだ"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "種のページ：Anemone sylvestris。ユーザーのパソコンの Chrome で読んだ"
   }
  ],
  "evidence": [
@@ -891,15 +891,384 @@
    "level": "species",
    "from_master_source": false,
    "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Jelitto での学名表記：ANEMONE sylvestris [Madonna]",
+   "quote": "ANEMONE sylvestris [Madonna]",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Ranunculaceae",
+   "quote": "Family: Ranunculaceae",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ヨーロッパからコーカサス",
+   "quote": "Origin: Europe to the Caucasus",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "白",
+   "quote": "Flower Colour: white",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "4月〜6月",
+   "quote": "Natural Flowering Period: April - June",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "ゾーン3〜9",
+   "quote": "Winter Hardiness Zones: Z3 - Z9",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "掌状（3〜5裂）",
+   "quote": "Foliage: palmate (3-5 parts)",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "ほふく茎（ランナー）で広がる",
+   "quote": "Growth Habit: stoloniferous",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "ほふく茎（ランナー）で広がる",
+   "quote": "Growth Habit: stoloniferous",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花を含む高さ 30cm",
+   "quote": "Height with Flowers: 30 cm",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "乾いた土",
+   "quote": "Soil Requirements: dry / lime-loving, calcareous / humus rich, fertile / poor, lean / warm",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "石灰質を好む、腐植に富む肥えた土、やせた土、暖かい土",
+   "quote": "Soil Requirements: dry / lime-loving, calcareous / humus rich, fertile / poor, lean / warm",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた、半日陰",
+   "quote": "Location: full sun, semi-shade",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "甘い香りの純白の花。種の穂は綿毛状",
+   "quote": "Sweet smelling, pure white blossoms and wooly seed heads, large flowering.",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "夏が涼しい地域では日なた、それ以外では半日陰",
+   "quote": "Full sun in cool summer climates to semi-shade elsewhere.",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "夏が涼しい地域では日なた、それ以外では半日陰（暑い地域では半日陰にする）",
+   "quote": "Full sun in cool summer climates to semi-shade elsewhere.",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "有毒植物",
+   "quote": "Characteristics: toxic plant / groundcover",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "ミツバチの蜜源",
+   "quote": "Usage: honey-bee food plant",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "早春咲きの球根の間に植える季節のグラウンドカバーに向く",
+   "quote": "Good candidate for seasonal groundcover for planting among early-flowering spring bulbs.",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ANEMONE+sylvestris+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Ranunculaceae",
+   "quote": "Familie: Ranunculaceae",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "白",
+   "quote": "Blütenfarbe: weiß",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "5月〜6月",
+   "quote": "Blütezeit: V–VI",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "高さ 20cm〜40cm",
+   "quote": "Höhe: 20 cm–40 cm",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた、明るい日陰（直射は当たらないが明るい）、半日陰",
+   "quote": "Lichtverhältnisse: sonnig, absonnig, halbschattig",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）、乾燥",
+   "quote": "Lebensbereich: Fr/SH/GR1-2（frischer Boden / trockener Boden）",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン4（-34.5〜-28.9℃）",
+   "quote": "Winterhärtezone: Z4 (-34,5 °C bis -28,9 °C)",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジの食害：心配なし",
+   "quote": "Schneckenfraß: keine Gefahr",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "毒あり（+）",
+   "quote": "Giftklasse: giftig +",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "香りあり",
+   "quote": "Duftend: ja",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Schnittgeeignet: ja",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "ほふく枝を出して広がる（種の説明）",
+   "quote": "Die Ausläufer treibende Anemone für warme, kalkreiche Böden",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "暖かく石灰分の多い土に向く",
+   "quote": "Die Ausläufer treibende Anemone für warme, kalkreiche Böden",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "普通の土でも育つ。わざわざ石灰をまく必要はない",
+   "quote": "Die Anemone sylvestris wächst auch auf normalen Boden, daher müssen Sie nicht extra kalken.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "花にほのかな香り。種の穂は綿毛状",
+   "quote": "hat zart duftende Blüten und charakteristische wollige Samenstände",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥と日なたにとてもよく耐える",
+   "quote": "Trotz ihres \"schattigen\" Namens verträgt sie Trockenheit und Sonne hervorragend.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "夏緑（夏の間も葉が残り、冬は枯れる）。極端に日が強く乾く場所では夏に早めに葉が枯れることもある",
+   "quote": "Anemone sylvestris ist (anders als Anemone nemorosa) sommergrün",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ふつうナメクジに食べられない",
+   "quote": "Anemone sylvestris wird in der Regel nicht von Schnecken gefressen.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/anemone/weisse-anemonen-von-fruehjahr-bis-herbst/209/anemone-sylvestris/7426/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
   "synonyms",
   "group",
-  "drought",
   "salt",
   "lifespan",
   "staking"
  ],
- "notes": "品種 'Madonna' の情報は使用可能文献ではほぼ得られなかった：RHS の品種ページは科と属説明のみで Name Status が Unresolved（未確定）、CBG の品種ページは名前のみ（ゾーン 0-0 で空）、perennials.com は品種ページなし、NCSU は種も品種もなし。記録した値は科以外すべて種 Anemone sylvestris レベル。マスター出典2件（gardenia.net、North Creek Nurseries）は使用対象外のため読んでいない。シノニム Anemonoides sylvestris は今回読んだ文献では記載なし（RHS は Anemone sylvestris を Correct 扱い）。RHS H6 と CBG ゾーン4-8・perennials.com 2-9 は種レベル。"
+ "notes": "品種 'Madonna' の情報は使用可能文献ではほぼ得られなかった：RHS の品種ページは科と属説明のみで Name Status が Unresolved（未確定）、CBG の品種ページは名前のみ（ゾーン 0-0 で空）、perennials.com は品種ページなし、NCSU は種も品種もなし。記録した値は科以外すべて種 Anemone sylvestris レベル。マスター出典2件（gardenia.net、North Creek Nurseries）は使用対象外のため読んでいない。シノニム Anemonoides sylvestris は今回読んだ文献では記載なし（RHS は Anemone sylvestris を Correct 扱い）。RHS H6 と CBG ゾーン4-8・perennials.com 2-9 は種レベル。\n\n【2026-11-19 追記：Jelitto・Gaißmayer（Chrome で確認）】Jelitto は種（ANEMONE sylvestris）の種子に [Madonna] という別名を付けている。Gaißmayer は種のページ（'Madonna' の名前なし）"
 }

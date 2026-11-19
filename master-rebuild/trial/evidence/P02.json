@@ -49,17 +49,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "品種ページ：AQUILEGIA chrysantha 'Yellow Queen'。ユーザーのパソコンの Chrome で読んだ"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/suche/produkte/",
+   "status": "not_found",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "「Aquilegia chrysantha」で検索、該当なし。ユーザーのパソコンの Chrome で Gaißmayer のサイト内検索を使った"
   }
  ],
  "evidence": [
@@ -1063,6 +1063,146 @@
    "quote": "Sichtungswerte BdS: * (gut); Jahr der letzten Sichtung: 1988",
    "source": "s18",
    "url": "https://www.stauden.de/staudendatenbank.html?relid=504",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Jelitto での学名表記：AQUILEGIA chrysantha 'Yellow Queen'",
+   "quote": "AQUILEGIA chrysantha 'Yellow Queen'",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Ranunculaceae",
+   "quote": "Family: Ranunculaceae",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "米国南西部",
+   "quote": "Origin: Southwestern USA",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "黄金色",
+   "quote": "Flower Colour: golden",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "6月〜8月",
+   "quote": "Natural Flowering Period: June - August",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "ゾーン3〜8",
+   "quote": "Winter Hardiness Zones: Z3 - Z8",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "丸く、いくつにも裂け、灰緑色",
+   "quote": "Foliage: rounded, multi-lobed, grey-green",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "株立ち",
+   "quote": "Growth Habit: clumping",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株立ち",
+   "quote": "Growth Habit: clumping",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花を含む高さ 80cm",
+   "quote": "Height with Flowers: 80 cm",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水はけの良い土、普通の土",
+   "quote": "Soil Requirements: well-drained / average",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Location: full sun",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Usage: suitable for cutting",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "距の長い大きな花をたくさん咲かせる",
+   "quote": "Special Features: Dozens of graceful, large, handsome long-spurred blooms.",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/AQUILEGIA+chrysantha+Yellow+Queen+Portion+s.html",
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"

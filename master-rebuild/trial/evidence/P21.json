@@ -61,17 +61,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/Seed/Perennials/GERANIUM+phaeum+Portion+s.html",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "種のページ：GERANIUM phaeum。ユーザーのパソコンの Chrome で読んだ"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "種のページ：Geranium phaeum。ユーザーのパソコンの Chrome で読んだ"
   }
  ],
  "evidence": [
@@ -718,6 +718,236 @@
    "level": "species",
    "from_master_source": false,
    "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Jelitto での学名表記：GERANIUM phaeum",
+   "quote": "GERANIUM phaeum",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/GERANIUM+phaeum+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Geraniaceae",
+   "quote": "Family: Geraniaceae",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/GERANIUM+phaeum+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "濃い紫",
+   "quote": "Flower Colour: dark purple",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/GERANIUM+phaeum+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "5月〜9月",
+   "quote": "Natural Flowering Period: May - September",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/GERANIUM+phaeum+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "ゾーン5〜8",
+   "quote": "Winter Hardiness Zones: Z5 - Z8",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/GERANIUM+phaeum+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花を含む高さ 60cm",
+   "quote": "Height with Flowers: 60 cm",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/GERANIUM+phaeum+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "湿り気のある土、普通の土",
+   "quote": "Soil Requirements: moist / average",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/GERANIUM+phaeum+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰、日陰、明るい日陰",
+   "quote": "Location: semi-shade, shade, light shade",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/GERANIUM+phaeum+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "グラウンドカバー",
+   "quote": "Characteristics: groundcover",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/GERANIUM+phaeum+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Geraniaceae",
+   "quote": "Familie: Geraniaceae",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "茶色がかった紫",
+   "quote": "Blütenfarbe: braunviolett",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "5月〜7月",
+   "quote": "Blütezeit: V–VII",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "高さ 50cm〜70cm",
+   "quote": "Höhe: 50 cm–70 cm",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "明るい日陰（直射は当たらないが明るい）、半日陰",
+   "quote": "Lichtverhältnisse: absonnig, halbschattig",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Lebensbereich: Fr/GR2（frischer Boden）",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン5（-28.8〜-23.4℃）",
+   "quote": "Winterhärtezone: Z5 (-28,8 °C bis -23,4 °C)",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥によく耐え、植えにくい日陰の乾いた場所に特に勧められる（種の説明）",
+   "quote": "verträgt viel Trockenheit und ist besonders für schwierig zu bepflanzende schattige, trockene Plätze zu empfehlen",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "よく咲き、まっすぐ直立する",
+   "quote": "Die üppig blühende, straff aufrechte Staude",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種が多く、野生化させる植え方に向く",
+   "quote": "Durch reichliche Selbstaussaat ist Geranium phaeum zur Verwilderung gut geeignet.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "こぼれ種を避けたいなら、花後すぐに全体を切り戻す。葉はすぐにまた出る",
+   "quote": "sollte die Pflanze unmittelbar nach der Blüte komplett zurückschneiden. Das Laub treibt in kurzer Zeit wieder neu aus.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "invasive_note",
+   "value_ja": "「きちんと整った」庭には勧められない（こぼれ種で増えるため）",
+   "quote": "Für \"aufgeräumten\" Gärten ist diese Art nicht zu empfehlen.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "強い日なたは、土が乾きすぎないときだけ耐える",
+   "quote": "Geranium phaeum verträgt volle Sonne nur dann, wenn der Boden nicht zu trocken ist.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "exposure",
+   "value_ja": "とても丈夫で、冬の寒さによく耐える",
+   "quote": "Geranium phaeum ist sehr robust und gut winterhart.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/geranium-storchschnabel/geranium-zum-verwildern/247/geranium-phaeum/2027/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
@@ -729,8 +959,7 @@
   "lifespan",
   "staking",
   "toxicity",
-  "cut_flower",
-  "invasive_note"
+  "cut_flower"
  ],
- "notes": "学名の問題：'Mourning Widow' は品種名ではなく Geranium phaeum の一般名（英名）。RHSは 'Other common names: black widow, dusky-flowered cranesbill, mourning widow' と記載し、Walters(perennials.com) も種ページの一般名を 'Mourning Widow Cranesbill' としている。Chicago Botanic のURLに mourning-widow が入るが、見出しは Geranium phaeum で品種表記はない。'Mourning Widow' という品種の記録は使用可文献に見つからない。正しくは Geranium phaeum（種）とするのが文献と合う。全て level=species。USDAゾーンは Chicago Botanic 5～7、Walters 4～9 で食い違う。株張りも RHS 0.1～0.5m、Walters 60～70cm で食い違う。マスター出典 promessedefleurs.ie はナーサリーのため読んでいない。"
+ "notes": "学名の問題：'Mourning Widow' は品種名ではなく Geranium phaeum の一般名（英名）。RHSは 'Other common names: black widow, dusky-flowered cranesbill, mourning widow' と記載し、Walters(perennials.com) も種ページの一般名を 'Mourning Widow Cranesbill' としている。Chicago Botanic のURLに mourning-widow が入るが、見出しは Geranium phaeum で品種表記はない。'Mourning Widow' という品種の記録は使用可文献に見つからない。正しくは Geranium phaeum（種）とするのが文献と合う。全て level=species。USDAゾーンは Chicago Botanic 5～7、Walters 4～9 で食い違う。株張りも RHS 0.1～0.5m、Walters 60～70cm で食い違う。マスター出典 promessedefleurs.ie はナーサリーのため読んでいない。\n\n【2026-11-19 追記：Jelitto・Gaißmayer（Chrome で確認）】Jelitto・Gaißmayer とも 'Mourning Widow' の名前の掲載はなく、種（Geranium phaeum）のページを読んだ"
 }

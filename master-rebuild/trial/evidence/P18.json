@@ -55,17 +55,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/Seed/JET/LUPINUS+perennis+Russell+Band+of+Nobles+Series+Fraeulein+Portion+s.html",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "品種ページ：LUPINUS perennis Russell Band of Nobles Series 'Fräulein' [Noble Maiden]。ユーザーのパソコンの Chrome で読んだ"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "品種ページ：Lupinus Polyphyllus-Hybride 'Fräulein'。ユーザーのパソコンの Chrome で読んだ"
   }
  ],
  "evidence": [
@@ -814,15 +814,254 @@
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Jelitto での学名表記：LUPINUS perennis Russell Band of Nobles Series 'Fräulein' [Noble Maiden]",
+   "quote": "LUPINUS perennis Russell Band of Nobles Series 'Fräulein' [Noble Maiden]",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/JET/LUPINUS+perennis+Russell+Band+of+Nobles+Series+Fraeulein+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Papilionaceae",
+   "quote": "Family: Papilionaceae",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/JET/LUPINUS+perennis+Russell+Band+of+Nobles+Series+Fraeulein+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "クリーム白",
+   "quote": "Flower Colour: creamy-white",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/JET/LUPINUS+perennis+Russell+Band+of+Nobles+Series+Fraeulein+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "6月〜8月",
+   "quote": "Natural Flowering Period: June - August",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/JET/LUPINUS+perennis+Russell+Band+of+Nobles+Series+Fraeulein+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "ゾーン3〜8",
+   "quote": "Winter Hardiness Zones: Z3 - Z8",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/JET/LUPINUS+perennis+Russell+Band+of+Nobles+Series+Fraeulein+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花を含む高さ 100cm",
+   "quote": "Height with Flowers: 100 cm",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/JET/LUPINUS+perennis+Russell+Band+of+Nobles+Series+Fraeulein+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水はけの良い土、普通の土",
+   "quote": "Soil Requirements: well-drained / average",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/JET/LUPINUS+perennis+Russell+Band+of+Nobles+Series+Fraeulein+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた、半日陰",
+   "quote": "Location: full sun, semi-shade",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/JET/LUPINUS+perennis+Russell+Band+of+Nobles+Series+Fraeulein+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Usage: suitable for cutting",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/JET/LUPINUS+perennis+Russell+Band+of+Nobles+Series+Fraeulein+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "group",
+   "value_ja": "ラッセル系 Band of Nobles シリーズ。英名 Noble Maiden",
+   "quote": "LUPINUS perennis Russell Band of Nobles Series 'Fräulein' [Noble Maiden]",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/JET/LUPINUS+perennis+Russell+Band+of+Nobles+Series+Fraeulein+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "熱処理した種子は炭疽病菌（Colletotrichum）がほぼないが、後からの感染はありうるので予防する",
+   "quote": "Heat-treated seed is virtually Colletotrichum free, a secondary infection is still possible, please prevent!",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/JET/LUPINUS+perennis+Russell+Band+of+Nobles+Series+Fraeulein+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Fabaceae",
+   "quote": "Familie: Fabaceae",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "クリーム白",
+   "quote": "Blütenfarbe: cremeweiß",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "6月〜8月",
+   "quote": "Blütezeit: VI–VIII",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "高さ 80cm",
+   "quote": "Höhe: 80 cm",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Lichtverhältnisse: sonnig",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）",
+   "quote": "Lebensbereich: B/Fr2（frischer Boden）",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン3（-40.1〜-34.5℃）",
+   "quote": "Winterhärtezone: Z3 (-40,1 °C bis -34,5 °C)",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "toxicity",
+   "value_ja": "強い毒（++）",
+   "quote": "Giftklasse: stark giftig ++",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "香りあり",
+   "quote": "Duftend: ja",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Schnittgeeignet: ja",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "group",
+   "value_ja": "育種者：Benary (Deutschland) 1958",
+   "quote": "Züchter: Benary (Deutschland) 1958",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Gaißmayer での学名表記：Lupinus Polyphyllus-Hybride 'Fräulein'",
+   "quote": "Lupinus Polyphyllus-Hybride 'Fräulein'",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "クリーム白の品種で、花が長く続く",
+   "quote": "Die zart schmeichelnde, cremeweiße Sorte überzeugt durch ihre lang ausdauernde Blüte.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-e-bis-o/lupinus-lupine/444/lupinus-polyphyllus-hybride-fraeulein/3564/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
   "common_name_ja",
-  "group",
   "seasonal_foliage",
   "drought",
   "salt",
   "invasive_note"
  ],
- "notes": "使用可文献に 'Fräulein'（Fraulein）の品種ページが見つからなかった。'Fräulein' を Band of Nobles Series の一色とする根拠はマスター出典の Jelitto URL（LUPINUS perennis Russell Band of Nobles Series Fraeulein）だけで、この環境では読めず未確認。したがって RHS の値は全て Band of Nobles Series（混色シリーズ）レベルで、花色（混色の列挙）は 'Fräulein' の色の根拠にならない。学名もマスターは Lupinus × hybrida、Jelitto URL は L. perennis、RHS シリーズのシノニムは L. polyphyllus 'Band of Nobles' と3通りに割れている。マスター成株シルエット出典 addenbrooke.co.nz は Lupinus polyphyllus 'Fraulein' 表記（使用不可文献のため未読）。\n\n【2026-11-19 追記】stauden.de は Lupinus polyphyllus 'Fräulein' として掲載"
+ "notes": "使用可文献に 'Fräulein'（Fraulein）の品種ページが見つからなかった。'Fräulein' を Band of Nobles Series の一色とする根拠はマスター出典の Jelitto URL（LUPINUS perennis Russell Band of Nobles Series Fraeulein）だけで、この環境では読めず未確認。したがって RHS の値は全て Band of Nobles Series（混色シリーズ）レベルで、花色（混色の列挙）は 'Fräulein' の色の根拠にならない。学名もマスターは Lupinus × hybrida、Jelitto URL は L. perennis、RHS シリーズのシノニムは L. polyphyllus 'Band of Nobles' と3通りに割れている。マスター成株シルエット出典 addenbrooke.co.nz は Lupinus polyphyllus 'Fraulein' 表記（使用不可文献のため未読）。\n\n【2026-11-19 追記】stauden.de は Lupinus polyphyllus 'Fräulein' として掲載\n\n【2026-11-19 追記：Jelitto・Gaißmayer（Chrome で確認）】Jelitto は LUPINUS perennis Russell Band of Nobles Series 'Fräulein' [Noble Maiden]、Gaißmayer は Lupinus Polyphyllus-Hybride 'Fräulein' と表記（学名の検討シートで確認する）。草丈は Jelitto 100cm、Gaißmayer 80cm"
 }

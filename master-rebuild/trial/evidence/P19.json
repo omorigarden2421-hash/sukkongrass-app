@@ -49,17 +49,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/Seed/Perennials/PATRINIA+scabiosifolia+Portion+s.html",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "種のページ：PATRINIA scabiosifolia (Golden Valerian)。ユーザーのパソコンの Chrome で読んだ"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "種のページ：Patrinia scabiosifolia。ユーザーのパソコンの Chrome で読んだ"
   }
  ],
  "evidence": [
@@ -845,12 +845,271 @@
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Jelitto での学名表記：PATRINIA scabiosifolia (Golden Valerian)",
+   "quote": "PATRINIA scabiosifolia (Golden Valerian)",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/PATRINIA+scabiosifolia+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Valerianaceae",
+   "quote": "Family: Valerianaceae",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/PATRINIA+scabiosifolia+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "黄",
+   "quote": "Flower Colour: yellow",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/PATRINIA+scabiosifolia+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "7月〜8月",
+   "quote": "Natural Flowering Period: July - August",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/PATRINIA+scabiosifolia+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "ゾーン5〜8",
+   "quote": "Winter Hardiness Zones: Z5 - Z8",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/PATRINIA+scabiosifolia+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花を含む高さ 70cm",
+   "quote": "Height with Flowers: 70 cm",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/PATRINIA+scabiosifolia+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "普通の土",
+   "quote": "Soil Requirements: average",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/PATRINIA+scabiosifolia+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Location: full sun",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/PATRINIA+scabiosifolia+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Usage: honey-bee food plant / suitable for cutting",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/PATRINIA+scabiosifolia+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "薬用植物、食用ハーブ、グラウンドカバー",
+   "quote": "Characteristics: medicinal plant / culinary herb / groundcover",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/PATRINIA+scabiosifolia+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "ミツバチの蜜源",
+   "quote": "Usage: honey-bee food plant / suitable for cutting",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/PATRINIA+scabiosifolia+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Valerianaceae",
+   "quote": "Familie: Valerianaceae",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "黄",
+   "quote": "Blütenfarbe: gelb",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "7月〜8月",
+   "quote": "Blütezeit: VII–VIII",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "高さ 60cm〜100cm",
+   "quote": "Höhe: 60 cm–100 cm",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Lichtverhältnisse: sonnig",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）、乾燥",
+   "quote": "Lebensbereich: Fr/GR1-2（frischer Boden / trockener Boden）",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン5（-28.8〜-23.4℃）",
+   "quote": "Winterhärtezone: Z5 (-28,8 °C bis -23,4 °C)",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Schnittgeeignet: ja",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "東アジアの野生種。中国・日本・朝鮮半島・台湾の日当たりの良い草地に生える",
+   "quote": "Diese hübsche, ostasiatische Wildart stammt von sonnigen Wiesen in China, Japan, Korea und Taiwan.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "はしご状に裂けた明るい緑の葉の株から、細い茎が立ち、枝分かれした花房を付ける",
+   "quote": "Über dem Horst aus leiterartig geteilten, hellgrünen Blättern erheben sich schlanke Stängel mit lockeren, verzweigten Trugdolden",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "fragrance",
+   "value_ja": "花のにおいは好みが分かれる",
+   "quote": "doch der \"Blütenduft\" ist nicht jedermanns Sache",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花にしても長持ちして美しい",
+   "quote": "Eigentlich auch eine gut haltbare und attraktive Schnittstaude",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "日なたの、粘土質で腐植のある土に合う",
+   "quote": "passt hervorragend in sonnige Naturgartenpartien mit lehmig-humosen Böden",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "drought",
+   "value_ja": "乾燥を好む他の野草と一緒に植えるのが最も良い",
+   "quote": "am besten in Gesellschaft mit anderen trockenheitsliebenden Wildstauden",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "こぼれ種でよく増える",
+   "quote": "Patrinia scabiosifolia versamt sich gut.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/stauden-von-p-bis-z/p-sonstige/467/patrinia-scabiosifolia/6659/",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
   "synonyms",
   "group",
-  "fragrance",
   "salt",
   "lifespan",
   "toxicity",

@@ -67,17 +67,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/index.php?cl=search",
+   "status": "not_found",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "「Salvia nemorosa」で検索。'Caradonna' の掲載なし（別の実生品種だけ）。ユーザーのパソコンの Chrome で Jelitto のサイト内検索を使った"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "品種ページ：Salvia nemorosa 'Caradonna'。ユーザーのパソコンの Chrome で読んだ"
   }
  ],
  "evidence": [
@@ -1008,11 +1008,200 @@
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Lamiaceae",
+   "quote": "Familie: Lamiaceae",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "濃い紫",
+   "quote": "Blütenfarbe: dunkelviolett",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "6月と9月",
+   "quote": "Blütezeit: VI + IX",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "高さ 50cm〜60cm",
+   "quote": "Höhe: 50 cm–60 cm",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Lichtverhältnisse: sonnig",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）、乾燥",
+   "quote": "Lebensbereich: Fr/B1-2（frischer Boden / trockener Boden）",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン5（-28.8〜-23.4℃）",
+   "quote": "Winterhärtezone: Z5 (-28,8 °C bis -23,4 °C)",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Schnittgeeignet: ja",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "group",
+   "value_ja": "育種者：Zillmer (DE) 1996",
+   "quote": "Züchter: Zillmer (DE) 1996",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "濃い紫の花が、さらに暗い色の花茎に付く",
+   "quote": "die sehr wirkungsvolle dunkelviolette Blüte an noch dunkleren Blütenstielen",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "細身で上に伸びる姿。雷雨でも倒れない",
+   "quote": "hat eine schlanke, aufstrebende Figur, die kein Gewittersturm zu Fall bringt",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "8月中旬からの二番花も多い",
+   "quote": "Auch die reiche Nachblüte ab Mitte August kann sich sehen lassen.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "ISU（国際宿根草連合）の賞を受けた",
+   "quote": "Nicht zu Unrecht bekam diese Sorte eine ISU-Auszeichnung.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "lifespan",
+   "value_ja": "合った場所なら5〜6年は生きる",
+   "quote": "Steppen-Salbei können gut 5-6 Jahre alt werden am richtigen Standort.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "日なたの、ふかふかで粘土質すぎない土を好む",
+   "quote": "Sie bevorzugen lockere, nicht zu lehmige Böden in der Sonne.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "division",
+   "value_ja": "5〜6年たったら掘り上げて株分けすると、また元気になりよく咲く",
+   "quote": "Danach könnte man sie aufnehmen und teilen, so werden die wieder vitaler und blühfreudiger.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "花後に地際で切ると、もう一度よく咲く",
+   "quote": "dass er nach der Blüte bodeneben abgeschnitten werden sollte, damit er nochmal schön zur Nachblüte kommt",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "花後に切り戻さないと、サルビア・ネモローサの品種はこぼれ種で増える",
+   "quote": "Ja, wenn der Rückschnitt unterbleibt, säen sich Salvia nemorosa-Sorten aus.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジの食害に注意。特に早春の芽吹きのころ",
+   "quote": "Achten Sie aber beim Steppen-Salbei auf Schneckenfraß, vor allem im zeitigen Frühjahr, wenn er frisch austreibt.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/pflanzen-sortiment/stauden/salvia-salbei/472/salvia-nemorosa-caradonna/4076/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
   "common_name_ja",
-  "lifespan",
   "staking",
   "toxicity",
   "invasive_note"

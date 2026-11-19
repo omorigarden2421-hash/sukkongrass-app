@@ -49,17 +49,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "種のページ：ALCHEMILLA saxatilis。ユーザーのパソコンの Chrome で読んだ"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/suche/produkte/",
+   "status": "not_found",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "「Alchemilla」で検索。A. saxatilis の掲載なし。ユーザーのパソコンの Chrome で Gaißmayer のサイト内検索を使った"
   }
  ],
  "evidence": [
@@ -671,6 +671,156 @@
    "source": "s18",
    "url": "https://www.stauden.de/staudendatenbank.html?relid=9289",
    "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Jelitto での学名表記：ALCHEMILLA saxatilis",
+   "quote": "ALCHEMILLA saxatilis",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Rosaceae",
+   "quote": "Family: Rosaceae",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "ピレネー山脈の高地",
+   "quote": "Origin: High Pyrenees",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "黄",
+   "quote": "Flower Colour: yellow",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "6月〜8月",
+   "quote": "Natural Flowering Period: June - August",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "ゾーン3〜8",
+   "quote": "Winter Hardiness Zones: Z3 - Z8",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "濃い緑で縁が銀色",
+   "quote": "Foliage: deep green with silvery edge",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "ほふく茎（ランナー）で広がる、クッション状",
+   "quote": "Growth Habit: stoloniferous / cushion-forming",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "ほふく茎（ランナー）で広がる",
+   "quote": "Growth Habit: stoloniferous / cushion-forming",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花を含む高さ 15cm",
+   "quote": "Height with Flowers: 15 cm",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水はけの良い土、普通の土",
+   "quote": "Soil Requirements: well-drained / average",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "半日陰",
+   "quote": "Location: semi-shade",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "縁が波形の濃い緑の葉に、目立つ銀色の縁取り",
+   "quote": "Scalloped dark green leaves with an striking silver edge.",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "heat_humidity",
+   "value_ja": "よく似た A. alpina より、高山でない条件でよく育つ",
+   "quote": "Grows in non-alpine conditions better than A. alpina which is almost identical.",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "葉を観賞する植物、グラウンドカバー",
+   "quote": "Characteristics: ornamental foliage plant / groundcover",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ALCHEMILLA+saxatilis+Portion+s.html",
+   "level": "species",
    "from_master_source": false,
    "checked": "2026-11-19"
   }

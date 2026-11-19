@@ -2,7 +2,8 @@
 
 使い方: python3 -I scripts/sources/merge.py <取得結果のフォルダ> <trial フォルダ>
 取得結果のフォルダには fetch_*.py が作る mbg/ yl/ sdb/ がある。
-追記した記録には checked（確認日）を付ける。何度実行しても同じ結果になる（s02・s04・s18 と s11・s17 の記録を入れ直す）。
+追記した記録には checked（確認日）を付ける。何度実行しても同じ結果になる（s02・s04・s18 の記録を入れ直す）。
+Jelitto(s11)・Gaißmayer(s17) は merge_chrome.py が追記する（merge.py の後に実行する）。
 """
 import glob
 import json
@@ -15,7 +16,7 @@ from mbg_curated import CURATED  # noqa: E402
 
 RAW, TRIAL = sys.argv[1], sys.argv[2]
 CHECKED = "2026-11-19"
-NEW_SOURCES = {"s02", "s04", "s18", "s11", "s17"}
+NEW_SOURCES = {"s02", "s04", "s18"}
 
 # ---------- stauden.de の用語 → 日本語 ----------
 MON = {"Januar": "1月", "Februar": "2月", "März": "3月", "April": "4月", "Mai": "5月", "Juni": "6月", "Juli": "7月",
@@ -346,15 +347,13 @@ def main():
         else:
             d["access_log"].append({"source": "s18", "url": "https://www.stauden.de/staudendatenbank.html", "status": "not_found",
                                     "checked": CHECKED, "note": "無料版を検索したが掲載なし"})
-        # --- 読めなかった文献
-        d["access_log"].append({"source": "s11", "url": "https://www.jelitto.com/", "status": "blocked", "checked": CHECKED,
-                                "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"})
-        d["access_log"].append({"source": "s17", "url": "https://www.gaissmayer.de/", "status": "blocked", "checked": CHECKED,
-                                "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"})
+        # --- Jelitto(s11)・Gaißmayer(s17) はクラウドから読めない。merge_chrome.py が追記する
         found = {e["field"] for e in d["evidence"]}
         d["not_found"] = [x for x in d.get("not_found", []) if x not in found]
-        base = re.split(r"\n\n【2026-11-19 追記】", d.get("notes", ""))[0]
-        d["notes"] = base + ("\n\n【2026-11-19 追記】" + "。".join(notes) if notes else "")
+        chrome_mark = "\n\n【2026-11-19 追記：Jelitto・Gaißmayer（Chrome で確認）】"
+        text, _, chrome = d.get("notes", "").partition(chrome_mark)
+        base = re.split(r"\n\n【2026-11-19 追記】", text)[0]
+        d["notes"] = base + ("\n\n【2026-11-19 追記】" + "。".join(notes) if notes else "") + (chrome_mark + chrome if chrome else "")
         json.dump(d, open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         n = {s: sum(1 for e in d["evidence"] if e["source"] == s) for s in ("s02", "s04", "s18")}
         print(pid, n, "残りの not_found:", len(d["not_found"]))

@@ -55,17 +55,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "品種ページ：ECHINACEA purpurea 'Magnus'。ユーザーのパソコンの Chrome で読んだ"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/suche/produkte/",
+   "status": "not_found",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "「Magnus」で検索。あるのは 'Magnus Superior'（別の品種名）だけなので使っていない。ユーザーのパソコンの Chrome で Gaißmayer のサイト内検索を使った"
   }
  ],
  "evidence": [
@@ -1140,13 +1140,202 @@
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"
+  },
+  {
+   "field": "accepted_name",
+   "value_ja": "Jelitto での学名表記：ECHINACEA purpurea 'Magnus'",
+   "quote": "ECHINACEA purpurea 'Magnus'",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Asteraceae",
+   "quote": "Family: Asteraceae",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "native_range",
+   "value_ja": "北米（オハイオ・ミシガンから南はジョージア、西はオクラホマ、テキサス北東部まで）",
+   "quote": "Origin: North America (Ohio and Michigan south to Georgia, west to Oklahoma and northeast to Texas)",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "ローズがかった紫",
+   "quote": "Flower Colour: rose-purple",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "7月〜9月",
+   "quote": "Natural Flowering Period: July - September",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "usda_zone",
+   "value_ja": "ゾーン3〜8",
+   "quote": "Winter Hardiness Zones: Z3 - Z8",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "卵状披針形、20×10cm",
+   "quote": "Foliage: ovate-lanceolate, 20 x 10 cm (8'' x 3'')",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "直立、株立ち",
+   "quote": "Growth Habit: erect / clumping",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "spread_mode",
+   "value_ja": "株立ち",
+   "quote": "Growth Habit: erect / clumping",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "花を含む高さ 100cm",
+   "quote": "Height with Flowers: 100 cm",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "水はけの良い土、普通の土",
+   "quote": "Soil Requirements: well-drained / average",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Location: full sun",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花に向く",
+   "quote": "Usage: honey-bee food plant / suitable for cutting",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "group",
+   "value_ja": "スウェーデンの種苗家 Magnus B. Nilsson が10年以上かけて選抜した品種",
+   "quote": "The result of over ten years of careful selection by Swedish nurseryman, Magnus B. Nilsson.",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "花びらは野生種や他の実生系統のように垂れず、水平に近く開く",
+   "quote": "The rose-purple flowers are arranged more horizontally than the pendulous, or drooping, habit of the wild species and other seed strains.",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "care",
+   "value_ja": "丈夫で手のかからない宿根草",
+   "quote": "Durable, low maintenance perennial.",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "cut_flower",
+   "value_ja": "切り花でとても長持ちする",
+   "quote": "Very long lasting as cut-flower.",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pollinators",
+   "value_ja": "ミツバチの蜜源",
+   "quote": "Usage: honey-bee food plant / suitable for cutting",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "trial_rating",
+   "value_ja": "RHS の Award of Garden Merit 受賞。PPA（米国宿根草協会）の1998年 Perennial Plant of the Year",
+   "quote": "Distinction: Award of Garden Merit (A.G.M.) from the Royal Horticultural Society.",
+   "source": "s11",
+   "url": "https://www.jelitto.com/Seed/Perennials/ECHINACEA+purpurea+Magnus+Portion+s.html",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
   }
  ],
  "not_found": [
-  "group",
   "fragrance",
   "staking",
   "toxicity"
  ],
- "notes": "RHSの品種ページで 'Magnus' のシノニム欄に 'Bravado' が載っている（別品種として流通しているため要確認。文献の記載どおり記録）。耐潮性はNCSUの種ページ（salt resistant）のみで品種レベルの記述なし。耐寒ゾーンは perennials.com 3-9、Walters 3-8、NCSU(種) 3a-8b で差。RHS H5。Lady Bird Johnson は種ページのみで『非常に攻撃的になりうる』『CaCO3耐性 低』など。高温多湿は NCSU(種)で heat, humidity resistant。マスターの耐暑性情報源 Plant Delights、冬_情報源の hardy-plant.org.uk・promessedefleurs は範囲外のため読んでいない。"
+ "notes": "RHSの品種ページで 'Magnus' のシノニム欄に 'Bravado' が載っている（別品種として流通しているため要確認。文献の記載どおり記録）。耐潮性はNCSUの種ページ（salt resistant）のみで品種レベルの記述なし。耐寒ゾーンは perennials.com 3-9、Walters 3-8、NCSU(種) 3a-8b で差。RHS H5。Lady Bird Johnson は種ページのみで『非常に攻撃的になりうる』『CaCO3耐性 低』など。高温多湿は NCSU(種)で heat, humidity resistant。マスターの耐暑性情報源 Plant Delights、冬_情報源の hardy-plant.org.uk・promessedefleurs は範囲外のため読んでいない。\n\n【2026-11-19 追記：Jelitto・Gaißmayer（Chrome で確認）】Jelitto は 'Magnus' を発表した会社（1985年のカタログで発表）。Gaißmayer にあるのは 'Magnus Superior' で、別の品種名なので使っていない"
 }

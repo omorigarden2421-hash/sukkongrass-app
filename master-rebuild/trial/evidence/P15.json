@@ -55,17 +55,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/index.php?cl=search",
+   "status": "not_found",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "「Sedum spurium」で検索。'Dragon's Blood'／'Schorbuser Blut' の名前の掲載なし（var. coccineum、'Voodoo' など別の名前だけ）。ユーザーのパソコンの Chrome で Jelitto のサイト内検索を使った"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/suche/produkte/",
+   "status": "not_found",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "「spurium」で検索。あるのは 'Album Superbum'、'Fuldaglut' だけ。ユーザーのパソコンの Chrome で Gaißmayer のサイト内検索を使った"
   }
  ],
  "evidence": [

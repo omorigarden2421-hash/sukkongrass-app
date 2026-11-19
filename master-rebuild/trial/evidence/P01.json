@@ -79,17 +79,17 @@
   },
   {
    "source": "s11",
-   "url": "https://www.jelitto.com/",
-   "status": "blocked",
+   "url": "https://www.jelitto.com/index.php?cl=search",
+   "status": "not_found",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "「Artemisia schmidtiana」で検索、該当なし。ユーザーのパソコンの Chrome で Jelitto のサイト内検索を使った"
   },
   {
    "source": "s17",
-   "url": "https://www.gaissmayer.de/",
-   "status": "blocked",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "status": "ok",
    "checked": "2026-11-19",
-   "note": "Cloudflare の確認画面で止まる（クラウドからは読めない）"
+   "note": "品種ページ：Artemisia schmidtiana 'Nana'。ユーザーのパソコンの Chrome で読んだ"
   }
  ],
  "evidence": [
@@ -958,6 +958,176 @@
    "quote": "Sichtungswerte BdS: ** (sehr gut); Jahr der letzten Sichtung: 1991",
    "source": "s18",
    "url": "https://www.stauden.de/staudendatenbank.html?relid=565",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "family",
+   "value_ja": "Asteraceae",
+   "quote": "Familie: Asteraceae",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "flower_color",
+   "value_ja": "淡い黄",
+   "quote": "Blütenfarbe: hellgelb",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "葉色：銀色",
+   "quote": "Blattfarbe: silber",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "bloom_time",
+   "value_ja": "6月〜7月",
+   "quote": "Blütezeit: VI–VII",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "height",
+   "value_ja": "高さ 20cm〜25cm",
+   "quote": "Höhe: 20 cm–25 cm",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "sun",
+   "value_ja": "日なた",
+   "quote": "Lichtverhältnisse: sonnig",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "適湿（frisch）、乾燥",
+   "quote": "Lebensbereich: St/M/FS1-2（frischer Boden / trockener Boden）",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "hardiness_zone_de",
+   "value_ja": "ゾーン4（-34.5〜-28.9℃）",
+   "quote": "Winterhärtezone: Z4 (-34,5 °C bis -28,9 °C)",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pests_diseases",
+   "value_ja": "ナメクジの食害：心配なし",
+   "quote": "Schneckenfraß: keine Gefahr",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "foliage",
+   "value_ja": "繊細な銀灰色の葉に、銀色の毛が密に生える",
+   "quote": "mit filigranen silbergrauen Blättern und dichter, silbriger Behaarung",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "habit",
+   "value_ja": "クッション状になるロックガーデン向きの宿根草",
+   "quote": "Sehr hübsche, polsterbildende Steingartenstaude",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "winter_care",
+   "value_ja": "冬の過湿から守るのが望ましい",
+   "quote": "Schutz vor Winternässe ist empfehlenswert.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_type_ph",
+   "value_ja": "石灰質に耐える。ただし、やせた場所がよい",
+   "quote": "Kalk wird vertragen. Der Standort sollte jedoch nährstoffarm sein.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "soil_moisture",
+   "value_ja": "乾いてやせた場所を好む",
+   "quote": "Artemisia schmidtiana 'Nana' liebt es trocken und nährstoffarm.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "evergreen",
+   "value_ja": "葉は冬の間に下から枯れるが、春に株元から新しく芽吹く",
+   "quote": "Das Laub stirbt über den Winter von unten her ab. Die Pflanze treibt aber im Frühjahr aus dem Wurzelstock neu aus.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "pruning",
+   "value_ja": "春に芽吹いたら古い茎を取り除く",
+   "quote": "Dann können Sie die alten Triebe entfernen.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
+   "level": "cultivar",
+   "from_master_source": false,
+   "checked": "2026-11-19"
+  },
+  {
+   "field": "uses",
+   "value_ja": "鉢植えにしても見栄えがする",
+   "quote": "Sehr dekorativ als Kübelpflanze.",
+   "source": "s17",
+   "url": "https://www.gaissmayer.de/web/shop/gestaltung/lebensbereiche/steingaerten/stauden-fuer-steinfugen-und-mauerkronen/192/artemisia-schmidtiana-nana/8083/",
    "level": "cultivar",
    "from_master_source": false,
    "checked": "2026-11-19"
