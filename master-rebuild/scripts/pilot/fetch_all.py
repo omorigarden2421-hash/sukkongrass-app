@@ -146,7 +146,8 @@ GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "
                "Stachys": ["Stachys", "Betonica"], "Potentilla": ["Potentilla", "Sibbaldiopsis"],
                "Scabiosa": ["Scabiosa", "Lomelosia"], "Sanguisorba": ["Sanguisorba", "Poterium"],
                "Anemone": ["Anemone", "Eriocapitella"], "Centaurea": ["Centaurea", "Psephellus"],
-               "Pennisetum": ["Pennisetum", "Cenchrus"]}
+               "Pennisetum": ["Pennisetum", "Cenchrus"],
+               "Eupatorium": ["Eupatorium", "Eutrochium", "Conoclinium", "Eupatoriadelphus"], "Deschampsia": ["Deschampsia", "Avenella"]}
 SPECIES_ALIAS = {
  "Aster novae-angliae": ["Symphyotrichum novae-angliae"], "Aster novi-belgii": ["Symphyotrichum novi-belgii"],
  "Aster dumosus": ["Symphyotrichum dumosum"], "Aster cordifolius": ["Symphyotrichum cordifolium"],
@@ -177,6 +178,12 @@ SPECIES_ALIAS = {
  "Pennisetum alopecuroides": ["Cenchrus alopecuroides"], "Pennisetum macrourum": ["Cenchrus macrourus"],
  "Euphorbia polychroma": ["Euphorbia epithymoides"], "Thymus citriodorus": ["Thymus x citriodorus"],
  "Thymus serpyllum": ["Thymus praecox", "Thymus Coccineus Group"],
+ "Calamagrostis acutiflora": ["Calamagrostis x acutiflora"], "Calamagrostis brachytricha": ["Calamagrostis arundinacea var. brachytricha"],
+ "Deschampsia flexuosa": ["Avenella flexuosa"], "Digitalis mertonensis": ["Digitalis x mertonensis"],
+ "Eupatorium coelestinum": ["Conoclinium coelestinum"], "Eupatorium fistulosum": ["Eutrochium fistulosum"],
+ "Eupatorium maculatum": ["Eutrochium maculatum", "Eupatoriadelphus maculatus", "Eupatorium purpureum subsp. maculatum"],
+ "Lonicera americana": ["Lonicera x americana"], "Lonicera italica": ["Lonicera x italica"], "Lonicera tellmanniana": ["Lonicera x tellmanniana"],
+ "Primula polyanthus": ["Primula x polyantha", "Primula Polyanthus Group"],
 }
 # 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
 CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],
@@ -189,7 +196,10 @@ CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blu
             "Blue Stocking": ["Blaustrumpf"], "Panorama Red Shades": ["Panorama Red"], "Bee-Bright": ["Bee Bright"], "Dropmore": ["Dropmore Hybrid"],
             "Genpei": ["Shirobana"], "Pink Lanterns": ["Pink Lantern"],
             "Mardi gras": ["Mardi Gras", "Helbro"], "Tie dye": ["Tie Dye"], "Fairy tails": ["Fairy Tails"], "Goldsturm": ["Goldsturm"],
-            "Moerheim Beauty": ["Moerheim Beauty"], "St Mary's": ["Saint Mary's", "St. Mary's"], "Aureus": ["Aureus", "Golden Lemon"],}
+            "Moerheim Beauty": ["Moerheim Beauty"], "St Mary's": ["Saint Mary's", "St. Mary's"], "Aureus": ["Aureus", "Golden Lemon"],
+            "Millers Crimson": ["Miller's Crimson"], "Appleblossom": ["Apple Blossom"], "Goldtau": ["Golden Dew"], "Ivory Towers": ["Ivory Tower"],
+            "Snow Time": ["Snowtime"], "Excelsior": ["Excelsior Group", "Excelsior Hybrids"], "Apricot": ["Sutton's Apricot", "Apricot Beauty"],
+            "Honey Baby": ["Novso"], "Black Form": ["black-flowered", "Black"], "Primadiente Rose": ["Primadiente"],}
 GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra", "white",
            "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta", "major", "aureus", "coccineus", "rubrifolia", "french"}
 

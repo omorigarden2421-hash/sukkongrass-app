@@ -236,16 +236,39 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - おぎはらと欧米の文献の食い違い：ダイアンサス デルトイデス・ユーフォルビア ポリクロマ・クニフォフィア（おぎはら 強／欧米は「暑い夏の気候では午後の日陰」などで 中 相当）
 - ユーザーに聞くこと・伝えること（学名の検討に出る）：(a) ユーフォルビア ポリクロマは RHS・Jelitto・Gaißmayer とも epithymoides が正名 (b) 'Mardi Gras'・'Undaunted' は RHS では流通名（品種名は 'Helbro'・'Pund01s'） (c) タイム 'Coccineus' は RHS では Coccineus Group、'Magic Carpet'・'Cheviot'・'Tie Dye' は RHS が種小名なし、フレンチタイムは RHS が「Thymus vulgaris French, summer」 (d) ルドベキア 'Goldsturm'・'Little Goldstar' は、おぎはら・Gaißmayer が var. sullivantii の品種（RHS は 'Little Goldstar' に変種名を付けない） (e) ペニセタム 'Fairy Tails' は、おぎはら・stauden.de が orientale の品種（マスターは種小名なし） (f) ダイアンサス sp. 'Lion Rock'・ヘリアンセマム 'St Mary's'・'Dazzler'・クニフォフィア 'Bees' Lemon'・ペニセタム 'Black Beauty'・ユーフォルビア 'Golden Glory' は RHS で見つからなかった (g) Gaißmayer：クニフォフィア 'Ice Queen' とレモンタイム 'Aureus' は Z7（'Aureus' は「いつも冬越しできるとは限らない」）、カシュジアノーラムは短命だがこぼれ種でよく増える、キパリシアスは地下茎で強く広がる（Jelitto も「はびこる」と注意）
 
-## 次にやること（11個目のまとまりから）
-- batch_10 までで 916品種中 543品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54＋51＋50）。残りは 373品種・168属
-- 残りの属はどれも10品種以下なので、1回 50品種前後（8〜10属）にまとめる。在庫のある品種が3つ以下の小さな属ばかりになるので、まとまりの中の属の数が増えていく（検索の回数が増える）
-- 残りの属（在庫のある品種が多い順。在庫あり／全品種。2026-11-20 に元のマスターから数えた）：ジギタリス 3/10、プリムラ 3/7、ユーパトリウム 3/6、ベルゲニア 3/5、カラマグロスティス 3/5、デスカンプシア 3/5、フクシア 3/5、アイリス 3/5、ロニセラ 3/5、シレネ 3/5、ゲンチアナ 3/4、プルサティラ 3/4、ティアレラ 3/4、アルケミラ 3/3、アンドロポゴン 3/3、ヘデラ 3/3、リグラリア 3/3、パトリニア 3/3、プルネラ 3/3 …（次のセッションでは数え直す。数え方：元のマスターの学名の最初の語を属とし、batch_*/input と pilot/input にある属を除いて、在庫のある品種の数・全品種の数の順に並べる）
-- 11個目の案：ジギタリス・プリムラ・ユーパトリウム・ベルゲニア・カラマグロスティス・デスカンプシア・フクシア・アイリス・ロニセラ（53品種）。ID の頭文字は、これまでに使ったもの（H G V A M C X F R S D E B Me Ge Vi Pu Pe Po Pa Ac St He Sc Pl Fi Sa Tr Th Co Li Ly Vs Er Mi Mo Mn Td Sp Ne An Aq Ce Aj Di Hl Mu Ar Eu Hm Kn Pn Ru Ty、試作の P）と重ならないようにする
+## 11個目のまとまり：ジギタリス・プリムラ・ユーパトリウム・ベルゲニア・カラマグロスティス・デスカンプシア・フクシア・アイリス・ロニセラ（2026-11-20、下書きまで完了）
+- 入力は batch_11/input（53品種：Dg=ジギタリス10、Pr=プリムラ7、Ep=ユーパトリウム6、Bg=ベルゲニア5、Cg=カラマグロスティス5、Ds=デスカンプシア5、Fu=フクシア5、Ir=アイリス5、Lo=ロニセラ5。種のまとまり 32）
+- 文献：おぎはら 24ページ（24品種。デスカンプシア・フクシア・アイリスは掲載なし）、RHS 50品種、Gaißmayer 15ページ（17品種）・Jelitto 31ページ（38品種。どちらも Chrome、6秒おき）、シカゴ植物園 no37 Joe-Pye weeds から3品種（セレスチナム・'Ivory Towers'・'Gateway'）
+- 確認画面：Gaißmayer も Jelitto も最初の1ページで確認画面が出た。どちらも操作せずに置き、1〜3分後に自動で通った（その間は RHS の結果を読んでいた）。そのあとは出なかった
+- Jelitto の商品ページのアドレスは、商品ごとに置き場所が違う（/Seed/Perennials/…、/Seed/Ornamental+Grasses/…、/Jelitto+Perennial+Seeds/New+Varieties/… など）。名前から作ると Error になるものがあるので、検索結果のリンクから拾う（JavaScript の結果に = ? & を含めると遮断されるので、pathname だけを返す）
+- fetch_all.py に足したもの：ユーパトリウムの別の属名（Eutrochium・Conoclinium）、デスカンプシア フレクシオーサ＝Avenella、アクティフローラ・マートネンシス・ロニセラ3種の × 表記、'Millers Crimson'＝'Miller's Crimson'、'Appleblossom'＝'Apple Blossom'、'Goldtau'＝'Golden Dew'、'Snow Time'＝'Snowtime'、'Apricot'＝'Sutton's Apricot' など
+- 下書き：`ClaudeWork/下書き_ジギタリス・プリムラ・ユーパトリウム・ベルゲニア・カラマグロスティス・デスカンプシア・フクシア・アイリス・ロニセラ53品種_1120.xlsx`。耐暑性 強 15・中 20・弱 3・空欄 15、蒸れ耐性 中 6・弱 1・空欄 46、西日耐性 ○10・△15・×21・空欄 7。品種のページがどの文献にもないのは1品種（Fu02 'Enstone'）。学名の検討は27品種
+- 根拠を確認して直したこと（assemble_pilot.py。前の batch にも効く）
+  - 読む欄を増やした：MBG の「Uses」（GardenUses）、NC State の「Flower Description」「Leaf Description」。暑さの文がここにだけ書かれていることがあった
+  - 弱 に足した：「Plants dislike high heat and humidity」（デスカンプシア フレクシオーサ。蒸れだけ 弱 で耐暑性が空欄だった）、「shrub for cool summer climates」（ロニセラ ペリクリメナム）
+  - 中 に足した：「Flowering may decline and foliage may wilt in the heat of the summer」（フクシア）、「protect from hot afternoon sun」（シベリアアヤメ）、「foliage typically depreciates in the heat」（プリムラ ベリス）
+  - 「more tolerant of heat and humidity than other types of primroses」のような、ほかとの比較は 強 にしない（「better than most」と同じ扱いで 中）。プリムラ ベリスの蒸れ耐性が 強 → 中
+  - カラマグロスティスを GENUS_MBG_SKIP に追加（MBG の品種ページは × アクティフローラだけ。エピジジョスに当てない）。Cg05 の耐暑性・USDA は空欄に戻った
+  - フクシアの「It does best in cool moist conditions with some shade」は、気候ではなく場所の条件とも読めるので当てていない（当てれば 弱）。最後の検討で見る
+  - 前の batch（02〜10）を作り直して比べたが、変化はなかった
+- 同名の別品種への当たり違いは見つからなかった。stauden.de は 'Gateway'・'Red Dwarf'・'Ivory Towers' を Eupatorium fistulosum、'Hawkshead' を Fuchsia magellanica var. gracilis と書いているが、品種名は同じ
+- 同じ種のおぎはらの値（batch_11/ogihara_data.py の SIBLING）：ジギタリス プルプレアの 'Elsie Kelsey'・'Excelsior'（Dg06・Dg07）を 中（根拠の5ページがどれも 中）、ユーパトリウム マクラツム 'Gateway'（Ep05）・カラマグロスティス 'Avalanche'（Cg01）・ロニセラ 'Honey Baby'（Lo03）を 強。【見返すこと】同じ種の値を 中 で使ったのは batch_07 のスカビオサに続いて2回目
+- 当てなかったもの：ベルゲニア コーディフォリアの Bg01〜Bg03（同じ種のページが 'Snow Time' の1つだけ。図鑑の「実生系」は Bergenia ×Hybrids）
+- 耐暑性 弱 の3品種：デスカンプシア フレクシオーサ（Ds05。MBG：高温多湿を嫌い、ゾーン7より南ではよく育たないことが多い。蒸れ耐性も 弱）、プリムラ 'Primadiente Rose'（Pr01。Walters：涼しい夏の地域が最もよい）、プリムラ 'Green Lace'（Pr06。NC State のポリアンサの記述：涼しい気候が要る）
+- おぎはらと欧米の文献の食い違い：ロニセラ ペリクリメナム（おぎはら 強／MBG：涼しい夏の気候向きのつる＝弱 相当）、カラマグロスティス・ユーパトリウム フィスツローサム・マクラツム（強／暑い夏の気候では午後の日陰、土が乾くと葉が焼ける＝中 相当）
+- 耐暑性が空欄の15品種：ベルゲニア4（Bg01〜Bg03・Bg05）、デスカンプシア セスピトーサ4（Ds01〜Ds04）、アイリス4（Ir01〜Ir04）、Cg05・Ep01・Pr02。欧米の文献に暑さの記述がなく、おぎはらにもページがない。ベルゲニア エメイエンシス・ユーパトリウム アルブム・アイリスの4品種は、ほかの項目も空欄が多い
+- ユーザーに聞くこと・伝えること（学名の検討に出る）：(a) 'Elsie Kelsey' は Jelitto が 'Pam's Choice' の別名として載せている（RHS は 'Elsie Kelsey' を独立した名前、種小名なしで掲載）。Jelitto の 'Pam's Choice' のページを当てたが、同じ品種として扱ってよいかは要確認 (b) 北米のユーパトリウムは RHS では Eutrochium（'Gateway'・'Red Dwarf'・'Ivory Towers'）と Conoclinium（セレスチナム）。'Pink Frost' は、おぎはらが Eupatorium × arakianum（サワフジバカマ）、RHS・Walters が fortunei (c) フクシア 'Genii'・'Hawkshead'、ロニセラ 'Honey Baby'、プリムラ 'Primadiente Rose'・'Green Lace' は RHS が種小名なし。'Enstone' は RHS が var. molinae の品種。'Variegata' は RHS に2つあり（var. gracilis と var. macrostema）、どちらを売っているかは要確認 (d) ロニセラ 'Harlequin' は RHS では流通名（品種名は 'Sherlite'）。ジギタリス 'Apricot' は RHS では 'Sutton's Apricot' が正名、'Excelsior' は Excelsior Group (e) アイリス 'Red Flare' は RHS でシベリアアヤメの品種として確かめられなかった（同名の丈の高いジャーマンアイリスがある）。'Black Form' は RHS では「黒花の系統」 (f) Bg02「ニューウィンターフラワリング Hybs」は Jelitto の 'New Hybrids' [New Winterflowering Hybrids]（実生の交配系統）。'Redstart' は Jelitto では 'Rotblum' [Red Beauty, Red Start] (g) Ep01「ユーパトリウム 白花」は学名が Eupatorium album。売っているものがこの種か（フジバカマの白花などではないか）は要確認 (h) Jelitto が発表した品種（育種会社と同じ扱いにできる）：'Monstrosa Purple'・'Monstrosa White'（2022）、'Blue Selection'（1994）、'Primadiente Rose'（2014）、'Ivory Towers'（2010）、'Rotblum'（1978）、'Snowtime'（2023）、'Pixie Fountain'（2010） (i) シカゴ植物園：'Gateway'・'Ivory Towers' はうどんこ病に poor、セレスチナムは冬にほとんど枯れたように見えても地下茎と実生で戻った (j) Gaißmayer：フクシア 'Hawkshead' は Z7・春植えを勧める、ジギタリス プルプレアは二年草でこぼれ種で続く・石灰の多い土ではだめ
+
+## 次にやること（12個目のまとまりから）
+- batch_11 までで 916品種中 596品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54＋51＋50＋53）。残りは 320品種・159属
+- 残りの属はどれも7品種以下なので、1回 50品種前後にまとめる。在庫のある品種が3つ以下の小さな属ばかりになるので、まとまりの中の属の数が増えていく（次は13属。検索の回数が増える）
+- 残りの属（在庫のある品種が多い順。在庫あり／全品種。2026-11-20 に元のマスターから数えた）：シレネ 3/5、ゲンチアナ 3/4、プルサティラ 3/4、ティアレラ 3/4、アルケミラ 3/3、アンドロポゴン 3/3、ヘデラ 3/3、リグラリア 3/3、パトリニア 3/3、プルネラ 3/3、トリキルティス 3/3、ハイドランジア 2/7、アストランティア 2/6、ガウラ 2/6、ジプソフィラ 2/6、アシリウム 2/5、コルヌス 2/4、フェスツーカ 2/4、ハコネクロア 2/4、パパベル 2/4、アンジェリカ 2/3、エノテラ 2/3、バーバスカム 2/3、バーベナ 2/3 …（数え方：元のマスターの学名の最初の語を属とし、batch_*/input と pilot/input にある属を除いて、在庫のある品種の数・全品種の数の順に並べる）
+- 12個目の案：シレネ・ゲンチアナ・プルサティラ・ティアレラ・アルケミラ・アンドロポゴン・ヘデラ・リグラリア・パトリニア・プルネラ・トリキルティス・ハイドランジア・アストランティア（51品種）。ID の頭文字は、これまでに使ったもの（H G V A M C X F R S D E B Me Ge Vi Pu Pe Po Pa Ac St He Sc Pl Fi Sa Tr Th Co Li Ly Vs Er Mi Mo Mn Td Sp Ne An Aq Ce Aj Di Hl Mu Ar Eu Hm Kn Pn Ru Ty Dg Pr Ep Bg Cg Ds Fu Ir Lo、試作の P）と重ならないようにする
 - シカゴ植物園の評価報告がある属（一覧より）：no37 ユーパトリウム、no24 アルケミラ、no30 レウカンセマム、no32 プラティコドン、no18 アムソニア、no19 アルテミシア、no20 エピメディウム、no23 ラミウム、no26 オエノセラ、no15 ソリダゴ、no16 トリキルティス、no39 シダ、no40 ロジャーシア ほか。画像だけで読めない号：no5 アキレア、no8 ルドベキア、no9 リアトリス（古い号は読めないことが多い）
 - 1つのまとまりの手順：make_input.py → fetch_all.py と fetch_walters.py（裏で。10分で切れるので、あとで同じコマンドをもう一度実行して done と Walters の一覧を確かめる）→ おぎはら（scripts/tools/ogi_search.py で検索、ogi_page2.py でページを1行ずつに）→ RHS の番号（アプリ内のブラウザーで検索を順に開く。50件で20分ほど → 候補を scripts/tools/rhs_check.py で読んで Name Status を見る）→ Gaißmayer・Jelitto（Chrome。1ページごとに6秒あける。最初の1ページの題名で確認画面でないことを確かめてからまとめて開く。確認画面が出たら操作せず、もう一方のサイトや別の作業を先にしてからタブを見直す。それでも出たままなら飛ばして、ここに書く）→ シカゴ植物園の号（pdftotext -raw）→ scripts/tools/clean_raw.py → fetch_rhs.py → digest.py → assemble_pilot.py → scripts/tools/show.py で当たり先と根拠を読む → MBG・NC State の hot・heat・humid・cool を含む文を全部出して拾い漏れを見る → scripts/tools/rediff.py で前の batch を作り直して比べる（新しい batch は rediff.py の RAW・KEY に足す）→ HANDOFF.md → コミット → GitHub に送る
 - scripts/tools/ の補助スクリプトは、作業中に一時フォルダで使っていたものをそのまま入れた（生データの場所が書き込まれているものがある。別のパソコンやフォルダでは書き換えて使う）
 - Jelitto・Gaißmayer を飛ばしたまとまり：なし（batch_10 の Gaißmayer のミューレンベルギアだけ検索していない）
-- 生データ（b2_raw〜b10_raw と digest）はこのパソコンの一時フォルダ（AppData/Local/Temp/claude/ の下。b7〜b10 は 5942321c1c0f279d/ea463099-…/scratchpad）にあり、消えることがある。消えていたら fetch_all.py などで取り直せる
+- 生データ（b2_raw〜b11_raw と digest）はこのパソコンの一時フォルダ（AppData/Local/Temp/claude/ の下。b7〜b10 は 5942321c1c0f279d/ea463099-…/scratchpad、b11 は 0f02706c790fef35/9e6508df-…/scratchpad。場所は scripts/tools/rediff.py にも書いてある）にあり、消えることがある。消えていたら fetch_all.py などで取り直せる
 - Windows の Git Bash では、長い日本語と引用符を含むヒアドキュメントが「unexpected EOF」で失敗することがある。データのファイルやスクリプトは、ファイルを書く道具で直接書く
 - 2026-11-20 のセッションは、7つ目から10個目まで（189品種）を1つの会話で進めた。会話が長くなると遅くなるので、2〜3個ごとに新しいセッションに切り替えるとよい
 

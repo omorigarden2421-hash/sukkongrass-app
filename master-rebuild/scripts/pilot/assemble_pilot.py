@@ -43,8 +43,8 @@ def sentences(t):
 
 
 # ---------- 言い回しの照合（RULES.md の heat / muggy / west_sun） ----------
-P_HEAT_WEAK = r"intolerant of (the )?hot|(performs?|grows?) poorly in [^.]*hot|dislike[s]? (the )?(hot|heat)|dislike[s]? [^.]*hot, humid summer|intolerant of (the )?(high |extreme )?heat|cool weather plant|not recommended for planting south|do(es)? not grow well in the deep south|not recommended for growing south|require[s]? a cool|prefer[s]? cool[- ](summer|weather|climate|temperature|night|condition)|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)"
-P_HEAT_MID = r"shade is helpful if summers are hot|stress in hot|foliage (tends to|will|can) (decline|burn)|heat of the summer sets in|some tolerance for hot|afternoon shade|decline[s]? .*hot summer|interrupts? in the heat|foliage may (decline|scorch|burn)|scorch|in hot summer climates|best in cool northern summer|full sun is best in cool|leaf burn|in the south it is best"
+P_HEAT_WEAK = r"intolerant of (the )?hot|(performs?|grows?) poorly in [^.]*hot|dislike[s]? (the |high )?(hot|heat)|for cool summer climates|dislike[s]? [^.]*hot, humid summer|intolerant of (the )?(high |extreme )?heat|cool weather plant|not recommended for planting south|do(es)? not grow well in the deep south|not recommended for growing south|require[s]? a cool|prefer[s]? cool[- ](summer|weather|climate|temperature|night|condition)|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)"
+P_HEAT_MID = r"foliage may wilt in the heat|hot afternoon sun|depreciates in the heat|shade is helpful if summers are hot|stress in hot|foliage (tends to|will|can) (decline|burn)|heat of the summer sets in|some tolerance for hot|afternoon shade|decline[s]? .*hot summer|interrupts? in the heat|foliage may (decline|scorch|burn)|scorch|in hot summer climates|best in cool northern summer|full sun is best in cool|leaf burn|in the south it is best"
 P_HEAT_STRONG = r"heat-tolerant|bears up under hot|good heat tolerance|tolerates? (the )?(hot|heat)|heat tolerant|(?<!in)tolerant of [^.]*heat|tolerates hot and humid"
 P_MUGGY_WEAK = r"intolerant of (the )?hot and humid|(performs?|grows?) poorly in [^.]*hot,? (and )?humid|dislike[s]? (the )?hot and humid|dislike[s]? [^.]*hot, humid|intolerant of (the )?(high )?heat and humidity|dislike[s]? .*humidity|melt[s]? out|not .*tolerant of .*humid|do(es)? not (do|perform) well in [^.]*hot and humid"
 P_MUGGY_MID = r"stress in hot and humid|bothered by humidity|some tolerance for hot and humid|(mildew|rust|leaf spot)[^.]*humid|humid[^.]*(mildew|rust|leaf spot|flop)|good air circulation|prefer[s]? .*dry air"
@@ -57,6 +57,10 @@ P_MUGGY_STRONG = r"bears up under hot, humid|tolerates? hot and humid|(?<!in)tol
 #   「the foliage will decline」（トラデスカンティア）を 中、「good heat tolerance」（シモツケ）を 強、「may be bothered by humidity」（ネペタ）を蒸れ 中 に足した。
 #   2026-11-20（batch_10）: 「drought- and heat-tolerant」「bears up under hot, humid summers」（ルドベキア フルギダ）を 強、
 #   「Light shade is helpful if summers are hot」（クニフォフィア）「may show some stress in hot and humid summers」（ユーフォルビア）を 中 に足した。
+#   2026-11-20（batch_11）: 「Plants dislike high heat and humidity」（デスカンプシア フレクシオーサ）「shrub for cool summer climates」（ロニセラ ペリクリメナム）を 弱、
+#   「Flowering may decline and foliage may wilt in the heat of the summer」（フクシア）「protect from hot afternoon sun」（シベリアアヤメ）
+#   「foliage typically depreciates in the heat」（プリムラ ベリス）を 中 に足した。「more tolerant of heat and humidity than other types of primroses」のような
+#   ほかとの比較は 強 にしない（「better than most」と同じ扱いで 中）。フクシアの「does best in cool moist conditions」は気候ではなく場所の条件とも読めるので当てていない。
 P_AFTERNOON = r"shade is helpful if summers are hot|foliage (tends to|can) burn|afternoon shade|afternoon sun|scorch|leaf burn|protected from hot sun"
 
 
@@ -65,7 +69,8 @@ P_AFTERNOON = r"shade is helpful if summers are hot|foliage (tends to|can) burn|
 # その文をラクティフローラやポルテンシュラギアナなど性質の違う種に当てると、推測で埋めることになるため。
 # ペルシカリアも同じ（MBG の品種ページはアンプレクシカウリスだけで、アフィニスやミクロセファラに当てない）。
 # セダムも同じ（MBG の品種ページは背の高いベンケイソウの仲間だけで、ミセバヤやウスリーの仲間に当てない）。
-GENUS_MBG_SKIP = {"Campanula", "Persicaria", "Sedum"}
+# カラマグロスティスも同じ（MBG の品種ページは × アクティフローラだけで、エピジジョスに当てない）。
+GENUS_MBG_SKIP = {"Campanula", "Persicaria", "Sedum", "Calamagrostis"}
 
 # 学名で、ユーザーが個別に決めたもの（2026-11-19 のチェックリスト）
 NAME_OVERRIDE = {
@@ -89,7 +94,7 @@ def judge(texts):
         low = s.lower()
         h = "弱" if re.search(P_HEAT_WEAK, low) else "中" if re.search(P_HEAT_MID, low) else "強" if re.search(P_HEAT_STRONG, low) else None
         m = "弱" if re.search(P_MUGGY_WEAK, low) else "強" if re.search(P_MUGGY_STRONG, low) else "中" if re.search(P_MUGGY_MID, low) else None
-        if "better than most" in low:  # 「同属の中では強い」という比較の書き方は 強 にしない
+        if "better than most" in low or re.search(r"more tolerant of [^.]* than", low):  # 「同属の中では強い」という比較の書き方は 強 にしない
             h = "中" if h == "強" else h
             m = "中" if m == "強" else m
         if re.search(P_AFTERNOON, low):
@@ -287,12 +292,13 @@ def main():
         # --- 暑さ・蒸れ・西日
         texts = []
         if m:
-            for sct in ("Culture", "Problems", "Noteworthy"):
+            for sct in ("Culture", "Problems", "Noteworthy", "GardenUses"):  # GardenUses は 2026-11-20（batch_11）に追加: ロニセラの「shrub for cool summer climates」
                 texts += [("MBG", mlv, x) for x in sentences(m["f"].get(sct, ""))]
         n, nlv = pick(k, sk, None, "ncsu")
         if n:
             nl = "属" if n["url"].rstrip("/").split("/")[-1] == it["属"].lower() else nlv
-            for key in ("Description", "Insects, Diseases, and Other Plant Problems"):
+            # Flower Description・Leaf Description は 2026-11-20（batch_11）に追加: フクシアの「Flowering may decline and foliage may wilt in the heat of the summer」
+            for key in ("Description", "Insects, Diseases, and Other Plant Problems", "Flower Description", "Leaf Description"):
                 texts += [("NC State", nl, x) for x in sentences(n["f"].get(key, ""))]
             used.add("NC State")
         if w:
