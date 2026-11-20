@@ -166,13 +166,17 @@ SPECIES_ALIAS = {
  "Scabiosa caucasia": ["Scabiosa caucasica", "Lomelosia caucasica"], "Scabiosa caucasica": ["Lomelosia caucasica"],
  "Trollius cultorum": ["Trollius x cultorum"], "Filipendula multijuga": ["Filipendula palmata"],
  "Polemonium yezoense": ["Polemonium caeruleum subsp. yezoense", "Polemonium yezoense var. hidakanum"],
+ "Thalictrum rochebrunianum": ["Thalictrum rochebruneanum"], "Thalictrum flavum": ["Thalictrum flavum subsp. glaucum"],
+ "Molinia caerulea": ["Molinia caerulea subsp. caerulea", "Molinia arundinacea", "Molinia caerulea subsp. arundinacea"],
 }
 # 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
 CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],
             "Autumn Joy": ["Herbstfreude"], "Dragon's Blood": ["Schorbuser Blut"],
             "Walter Funcke": ["Walther Funcke"], "Firefly": ["Leuchtkäfer"], "Dallas Blue": ["Dallas Blues"], "Blue Giants": ["Blue Giant"],
             "Blue Perfection": ["Perfecta", "Perfecta Blue"], "Compliment": ["Kompliment"], "Moon Dance": ["Moondance"], "Fama": ["Fama Deep Blue", "Fama Blue"],
-            "Venusta Magnifica": ["Venusta"], "Filigree Clouds": ["Filigree Cloud"], "Golden Queen": ["Goldkönigin"], "Lemon Queen": ["Zitronenkönigin"],}
+            "Venusta Magnifica": ["Venusta"], "Filigree Clouds": ["Filigree Cloud"], "Golden Queen": ["Goldkönigin"], "Lemon Queen": ["Zitronenkönigin"],
+            "Lavendelturm": ["Lavender Towers"], "Erika": ["Erica"], "Moorhex": ["Moorhexe"], "Floristan Violet": ["Floristan Violett"],
+            "Floristan White": ["Floristan Weiss", "Floristan Weiß"], "Blue Hobbit": ["Blauer Zwerg"], "Thundercloud": ["Thunder Cloud"],}
 GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra", "white",
            "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta"}
 
