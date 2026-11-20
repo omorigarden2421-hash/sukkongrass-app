@@ -1,0 +1,48 @@
+# RHS（s01）の植物ページの番号: エピメディウム・フラガリア・ヘレボルス・イベリス・リリオペ・リクニス・ムクデニア・ファラリス・フィソカルプス・ロジャーシア・ソリダゴと、
+#   アクタエア・エゴポディウム・アルテア・アンペロプシス・アンドロサセ・アレナセルム・アルンクス・アスチルボイデス・オーブリエタ・ビゲロウィア・ブルネラ・ブフタルムム・ケラトスティグマ・
+#   コルタデリア・ダルメラ・デンドランセマ・エルショルチア・エラグロスティス・エリカ・エリオゴヌム・エリシマム・ユーオニマス・ゴニオリモン・ヘリアンサス・ヘリクトトリコン・インペラータ・ラミアストラム。
+# 探し方は scripts/pilot/rhs_ids.py と同じ（2026-11-20。アプリ内のブラウザーで検索ページ60件を順に開いた）。候補69ページを scripts/tools/rhs_check.py で読み、Name Status と栽培の項目の有無を見て選んだ。
+# 試行ID: (番号, RHS の表記, メモ)
+RHS = {
+ "Ae01": (368354, "Actaea japonica 'Silver Dance'", "名前だけの登録"),
+ "Ai01": (27487, "Astilboides tabularis", ""),
+ "Ao01": (92914, "Aegopodium podagraria 'Variegatum' (v)", ""),
+ "Ap01": (188073, "Ampelopsis brevipedunculata 'Elegans' (v)", "RHS の正名は Ampelopsis brevipedunculata 'Elegans'（glandulosa var. brevipedunculata 'Elegans' はシノニム扱い）"),
+ "Au01": (192968, "Aruncus 'Noble Spirit'", "名前だけの登録。RHS で未確定（Unresolved）。種小名なし（aethusifolius 'Noble Spirit' はシノニム扱い）"),
+ "Aw01": (47006, "Arrhenatherum elatius var. bulbosum 'Variegatum' (v)", "RHS は var. bulbosum（マスターは ssp. bulbosum）"),
+ "Ax01": (1024, "Althaea officinalis", ""), "Ay01": (1200, "Androsace villosa", ""),
+ "Az01": (100927, "Aubrieta deltoidea Variegata Group (v)", "RHS は品種ではなく Variegata Group"),
+ "Bi01": (376591, "Bigelowia nuttallii", "名前だけの登録"),
+ "Br01": (351184, "Brunnera macrophylla 'Silver Spear'", "RHS で未確定（Unresolved）"),
+ "Bu01": (55013, "Buphthalmum salicifolium 'Alpengold'", "名前だけの登録"),
+ "Cd01": (388457, "Cortaderia 'Mini Pampas'", "名前だけの登録。RHS ではシノニム扱い（正名は要確認）"),
+ "Ct01": (3410, "Ceratostigma plumbaginoides", ""), "Da01": (5347, "Darmera peltata", ""),
+ "De01": (122812, "Chrysanthemum weyrichii", "RHS の正名は Chrysanthemum weyrichii（Dendranthema weyrichii はシノニム扱い）"),
+ "Ei01": (90949, "Erica carnea 'Vivellii'", "RHS のつづりは 'Vivellii'"),
+ "Em01": (93397, "Epimedium × rubrum", ""), "Em02": (99350, "Epimedium × versicolor 'Sulphureum'", ""),
+ "En01": (97545, "Euonymus fortunei 'Emerald Gaiety' (v)", ""),
+ "Eo01": (289992, "Eriogonum alleni 'Little Rascal'", "名前だけの登録。RHS のつづりは alleni"),
+ "Es01": (47716, "Elsholtzia stauntonii", ""), "Et01": (151922, "Eragrostis spectabilis", ""),
+ "Ey01": (91397, "Erysimum 'Orange Flame'", "名前だけの登録。RHS は種小名なし（マスターは kotschyanum）"),
+ "Fr01": (357928, "Fragaria vesca 'Alexandria' (F)", ""), "Fr02": (328296, "Fragaria vesca 'Alpine Yellow' (F)", "栽培の項目が少ないページ"),
+ "Go01": (251968, "Goniolimon collinum 'Sea Spray'", "名前だけの登録。RHS で未確定（Unresolved）"),
+ "Hb01": (172967, "Helleborus argutifolius 'Janet Starnes' (v)", "栽培の項目が少ないページ"),
+ "Hb02": (101214, "Helleborus orientalis Lam.", "種（Helleborus orientalis）のページ。マスターの花色は「白系他」で、交配種（× hybridus）の実生の可能性がある"),
+ "Hc01": (8555, "Helictotrichon sempervirens", ""), "Hn01": (252897, "Helianthus 'Happy Days'", ""),
+ "Ib01": (9066, "Iberis sempervirens", ""), "Ib02": (183829, "Iberis sempervirens 'Snow Cushion'", "名前だけの登録"),
+ "Im01": (94352, "Imperata cylindrica 'Rubra'", "RHS の正名は 'Rubra'（'Red Baron' はシノニム扱い）"),
+ "Lc01": (518088, "Silene coronaria 'Alba'", "RHS の正名は Silene coronaria 'Alba'（Lychnis coronaria 'Alba' はシノニム扱い）"),
+ "Lc02": (81196, "Lychnis coronaria 'Angel's Blush'", "RHS ではシノニム扱い（Lychnis oculata 'Angel Blush' もシノニム。正名は Silene の側）"),
+ "Lc03": (182435, "Lychnis × haageana 'Molten Lava'", "RHS ではシノニム扱い（Lychnis 'Molten Lava' もシノニム。正名は Silene の側）"),
+ "Lm01": (72666, "Lamium galeobdolon 'Hermann's Pride'", "RHS は Lamium galeobdolon、品種名のつづりは 'Hermann's Pride'"),
+ "Lr01": (194455, "Liriope muscari 'Okina' (v)", ""),
+ "Lr02": (139112, "Liriope spicata 'Gin-ryū' (v)", "'Silver Dragon' は RHS でシノニム扱い"),
+ "Mk01": (11224, "Mukdenia rossii", ""), "Mk02": (254732, "Mukdenia rossii 'Karasuba'", "'Crimson Fans' は RHS でシノニム扱い"),
+ "Pi01": (71403, "Phalaris arundinacea var. picta 'Tricolor' (v)", "名前だけの登録。RHS で未確定（Unresolved）"),
+ "Pi02": (125211, "Phalaris arundinacea var. picta", ""),
+ "Pz01": (105625, "Physocarpus opulifolius 'Diabolo'", "'Monlo' は RHS でシノニム扱い"),
+ "Pz02": (256736, "Physocarpus opulifolius [Summer Wine] ('Seward')", "Summer Wine は流通名、品種名は 'Seward'"),
+ "So01": (164002, "Solidago 'Gold Spangles' (v)", "名前だけの登録。RHS は種小名なし（マスターは flexicaulis）"),
+ "So02": (101910, "Solidago rugosa 'Fireworks'", ""),
+}
+# 見つからなかったもの・当てていないもの: Rg01 ロジャーシア ピンナータ 'Scarlet'・Rg02 ポドフィラ 'Bronze Beauty'（どちらも RHS に名前がない。種のページは当てていない）。
