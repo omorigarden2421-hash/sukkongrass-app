@@ -14,10 +14,11 @@ A = T + "/803dcd3d003c6b53/4b6386d0-6448-4907-be7f-4c2938beba51/scratchpad"
 B = T + "/9eda375844c6e6aa/a4823c38-e78a-46f6-b54c-9f8733f815df/scratchpad"
 C = T + "/5942321c1c0f279d/ea463099-8b77-426c-a604-bb613db7757b/scratchpad"
 D = T + "/0f02706c790fef35/9e6508df-d005-4099-9883-c3e6eff4df83/scratchpad"
-RAW = {2: A, 3: B, 4: B, 5: B, 6: B, 7: C, 8: C, 9: C, 10: C, 11: D, 12: D}
+E = T + "/803dcd3d003c6b53/15533220-637a-4fd6-bea9-bf815c2d2368/scratchpad"
+RAW = {2: A, 3: B, 4: B, 5: B, 6: B, 7: C, 8: C, 9: C, 10: C, 11: D, 12: D, 13: E}
 KEY = {2: "下書き_ヘメロカリス*1119b.json", 3: "下書き_フロックス*.json", 4: "下書き_セダム*.json", 5: "下書き_ミント*.json", 6: "下書き_ポテンティラ*.json",
        7: "下書き_スカビオサ*.json", 8: "下書き_タリクトラム*.json", 9: "下書き_モナルダ*.json", 10: "下書き_ダイアンサス*.json",
-       11: "下書き_ジギタリス*.json", 12: "下書き_シレネ*.json"}
+       11: "下書き_ジギタリス*.json", 12: "下書き_シレネ*.json", 13: "下書き_ガウラ*.json"}
 for n in sorted(RAW):
     if len(sys.argv) > 3 and str(n) not in sys.argv[3:]:
         continue

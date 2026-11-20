@@ -148,7 +148,8 @@ GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "
                "Anemone": ["Anemone", "Eriocapitella"], "Centaurea": ["Centaurea", "Psephellus"],
                "Pennisetum": ["Pennisetum", "Cenchrus"],
                "Eupatorium": ["Eupatorium", "Eutrochium", "Conoclinium", "Eupatoriadelphus"], "Deschampsia": ["Deschampsia", "Avenella"],
-               "Andropogon": ["Andropogon", "Schizachyrium"]}
+               "Andropogon": ["Andropogon", "Schizachyrium"],
+               "Gaura": ["Gaura", "Oenothera"], "Calamintha": ["Calamintha", "Clinopodium"]}
 SPECIES_ALIAS = {
  "Aster novae-angliae": ["Symphyotrichum novae-angliae"], "Aster novi-belgii": ["Symphyotrichum novi-belgii"],
  "Aster dumosus": ["Symphyotrichum dumosum"], "Aster cordifolius": ["Symphyotrichum cordifolium"],
@@ -187,6 +188,11 @@ SPECIES_ALIAS = {
  "Primula polyanthus": ["Primula x polyantha", "Primula Polyanthus Group"],
  "Andropogon scoparius": ["Schizachyrium scoparium"], "Silene uniflora": ["Silene maritima"], "Tiarella wherryi": ["Tiarella cordifolia var. collina"],
  "Hydrangea serrata": ["Hydrangea macrophylla subsp. serrata"], "Patrinia scabiosifolia": ["Patrinia scabiosaefolia"],
+ "Gaura lindheimeri": ["Oenothera lindheimeri"], "Calamintha nepeta": ["Clinopodium nepeta", "Calamintha nepeta subsp. nepeta"],
+ "Calamintha grandiflora": ["Clinopodium grandiflorum"], "Festuca gautieri": ["Festuca scoparia"], "Festuca glauca": ["Festuca cinerea"],
+ "Oenothera macrocarpa": ["Oenothera missouriensis", "Oenothera macrocarpa subsp. fremontii"], "Oenothera speciosa": ["Oenothera berlandieri"],
+ "Athyrium niponicum": ["Athyrium niponicum var. pictum", "Athyrium nipponicum"], "Cornus sericea": ["Cornus stolonifera"],
+ "Papaver orientale": ["Papaver Oriental Group", "Papaver (Oriental Group)"],
 }
 # 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
 CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],
@@ -203,9 +209,12 @@ CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blu
             "Millers Crimson": ["Miller's Crimson"], "Appleblossom": ["Apple Blossom"], "Goldtau": ["Golden Dew"], "Ivory Towers": ["Ivory Tower"],
             "Snow Time": ["Snowtime"], "Excelsior": ["Excelsior Group", "Excelsior Hybrids"], "Apricot": ["Sutton's Apricot", "Apricot Beauty"],
             "Honey Baby": ["Novso"], "Black Form": ["black-flowered", "Black"], "Primadiente Rose": ["Primadiente"],
-            "Togen": ["Tojen"], "Sugar and Spice": ["Sugar & Spice"], "Robin Whitebreast": ["Weisskehlchen", "Weißkehlchen"], "Cheju-do": ["Chejudo", "Cheju Do"],}
+            "Togen": ["Tojen"], "Sugar and Spice": ["Sugar & Spice"], "Robin Whitebreast": ["Weisskehlchen", "Weißkehlchen"], "Cheju-do": ["Chejudo", "Cheju Do"],
+            "Princess Victoria Louise": ["Prinzessin Victoria Louise"], "May queen": ["May Queen"], "Blue spires": ["Blue Spires"],
+            "Janlim": ["Oriental Limelight"], "Snowflake": ["Schneeflocke"], "All Gold": ["Allgold"], "Sibirica": ["Westonbirt"],
+            "Brilliant": ["Brillant"], "Nana": ["Silver Mound"],"Silver Wings": ["Silver Wing"]}
 GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra", "white",
-           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta", "major", "aureus", "coccineus", "rubrifolia", "french", "grandiflora", "albiflora"}
+           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta", "major", "aureus", "coccineus", "rubrifolia", "french", "grandiflora", "albiflora", "elegantissima", "brilliant", "snowflake", "metallicum"}
 
 
 def slug(s):

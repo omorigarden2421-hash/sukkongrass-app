@@ -43,11 +43,11 @@ def sentences(t):
 
 
 # ---------- 言い回しの照合（RULES.md の heat / muggy / west_sun） ----------
-P_HEAT_WEAK = r"intolerant of (the )?hot|(performs?|grows?) poorly in [^.]*hot|dislike[s]? (the |high )?(hot|heat)|for cool summer climates|dislike[s]? [^.]*hot, humid summer|intolerant of (the )?(high |extreme )?heat|cool weather plant|not recommended for planting south|do(es)? not grow well in the deep south|not recommended for growing south|require[s]? a cool|prefer[s]? cool[- ](summer|weather|climate|temperature|night|condition|growing condition)|best performance (occurs |is seen )?in (cool|climates with cool)|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)"
+P_HEAT_WEAK = r"intolerant of (the )?hot|(performs?|grows?) poorly in [^.]*hot|dislike[s]? (the |high )?(hot|heat)|for cool summer climates|dislike[s]? [^.]*hot, humid summer|intolerant of (the )?(high |extreme )?heat|cool weather plant|not recommended for planting south|do(es)? not (grow|perform|do) well in the deep south|don.t do well in heat|does not tolerate hot|not recommended for growing south|require[s]? a cool|prefer[s]? cool[- ](summer|weather|climate|temperature|night|condition|growing condition)|best performance (occurs |is seen )?in (cool|climates with cool)|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)"
 P_HEAT_MID = r"from hot summer temperatures|foliage may wilt in the heat|hot afternoon sun|depreciates in the heat|shade is helpful if summers are hot|stress in hot|foliage (tends to|will|can) (decline|burn)|heat of the summer sets in|some tolerance for hot|afternoon shade|decline[s]? .*hot summer|interrupts? in the heat|foliage may (decline|scorch|burn)|scorch|in hot summer climates|best in cool northern summer|full sun is best in cool|leaf burn|in the south it is best"
-P_HEAT_STRONG = r"heat-tolerant|bears up under hot|good heat tolerance|tolerates?,? (the |high )?(hot|heat)|heat tolerant|(?<!in)tolerant of [^.]*(heat|hot)|tolerates hot and humid"
-P_MUGGY_WEAK = r"intolerant of (the )?hot and humid|(performs?|grows?) poorly in [^.]*hot,? (and )?humid|dislike[s]? (the )?hot and humid|dislike[s]? [^.]*hot, humid|intolerant of (the )?(high )?heat and humidity|dislike[s]? .*humidity|melt[s]? out|not .*tolerant of .*humid|do(es)? not (do|perform) well in [^.]*hot and humid"
-P_MUGGY_MID = r"stress in hot and humid|bothered by humidity|some tolerance for hot and humid|(mildew|rust|leaf spot)[^.]*humid|humid[^.]*(mildew|rust|leaf spot|flop)|good air circulation|prefer[s]? .*dry air"
+P_HEAT_STRONG = r"heat-tolerant|bears up under hot|good heat tolerance|tolerates?,? (the |high |summer )?(hot|heat)|heat tolerant|(?<!in)tolerant of [^.]*(heat|hot)|tolerates hot and humid"
+P_MUGGY_WEAK = r"intolerant of (the )?hot and humid|(performs?|grows?) poorly in [^.]*hot,? (and )?humid|dislike[s]? (the )?hot and humid|dislike[s]? [^.]*hot, humid|intolerant of (the )?(high )?heat and humidity|dislike[s]? .*humidity|melt[s]? out|not .*tolerant of .*humid|do(es)? not (do|perform) well in [^.]*hot and humid|don.t do well in heat and humidity|does not tolerate hot or humid"
+P_MUGGY_MID = r"decline [^.]*high humidity|stress in hot and humid|bothered by humidity|some tolerance for hot and humid|(mildew|rust|leaf spot)[^.]*humid|humid[^.]*(mildew|rust|leaf spot|flop)|good air circulation|prefer[s]? .*dry air"
 P_MUGGY_STRONG = r"bears up under hot, humid|tolerates? hot and humid|(?<!in)tolerant of [^.]*hot and humid|(?<!in)tolerant of .*humidity|tolerates? .*heat and humidity"
 # 2026-11-20: 「intolerant of high heat and humidity」が tolerant of … heat に当たって 強 になっていた（スカビオサ）。in- の付く形を 強 から外し、弱 の言い回しに足した。
 #   トロリウスの「cool weather plant」「dislikes dry soils and hot, humid summers」「not recommended for planting south of …」も 弱 に足した。
@@ -74,7 +74,7 @@ P_AFTERNOON = r"shade is helpful if summers are hot|foliage (tends to|can) burn|
 # ペルシカリアも同じ（MBG の品種ページはアンプレクシカウリスだけで、アフィニスやミクロセファラに当てない）。
 # セダムも同じ（MBG の品種ページは背の高いベンケイソウの仲間だけで、ミセバヤやウスリーの仲間に当てない）。
 # カラマグロスティスも同じ（MBG の品種ページは × アクティフローラだけで、エピジジョスに当てない）。
-GENUS_MBG_SKIP = {"Campanula", "Persicaria", "Sedum", "Calamagrostis"}
+GENUS_MBG_SKIP = {"Campanula", "Persicaria", "Sedum", "Calamagrostis", "Festuca"}
 
 # 学名で、ユーザーが個別に決めたもの（2026-11-19 のチェックリスト）
 NAME_OVERRIDE = {
