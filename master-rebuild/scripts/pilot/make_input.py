@@ -35,6 +35,7 @@ for r in rows[1:]:
         continue
     sci = clean(d["学名"])
     sci = re.sub(r"^(\w+)'", r"\1 '", sci)  # Hosta'Gold Standard'
+    sci = re.sub(r"^(\w+)×(\w)", r"\1 × \2", sci)  # Lychnis×haageana のように × が属名にくっついている学名
     g = re.sub(r"^[×x]\s+", "", sci).split()[0]  # 属間交配（× Heucherella など）は × を外した語を属とする。学名の列はそのまま
     if g not in GENERA:
         continue
