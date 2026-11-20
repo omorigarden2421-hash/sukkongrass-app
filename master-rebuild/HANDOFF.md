@@ -221,17 +221,33 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - 耐暑性が空欄の5品種：An05・Aq02・Ce02・Mn05・Ne08（暑さの記述がどの文献にもない）
 - ユーザーに聞くこと・伝えること（学名の検討に出る）：(a) ネペタは文献ごとに種の扱いが違う。'Felix' は RHS・Jelitto とも racemosa（マスターは × faassenii）、'Blue Wonder' は RHS が × faassenii（マスターは racemosa）、'Walker's Low' は おぎはらが × faassenii、'Pink Candy' は RHS が種小名なし・おぎはらが hybrida（マスターは nervosa）、ムッシーニアイは RHS・Jelitto とも racemosa が正名 (b) モナルダ 'Blue Stocking'・'Fireball'・'Panorama Red Shades' は RHS では種小名なし、'Bee-Bright' は流通名で品種名は 'Monbebr' (c) 'Magic Carpet'・'Junior Walker'・'Black Scallop' も RHS では流通名（品種名は 'Walbuma'・'Novanepjun'・'Binblasca'） (d) アジュガ 'Chocolate Chip' は、おぎはらが Ajuga tenorii、RHS は reptans 'Chocolate Chip' をシノニム扱い (e) スピレア 'Goldflame' は、おぎはらが × bumalda（RHS は japonica が正名） (f) トラデスカンティアは RHS がどれも Andersoniana Group (g) シカゴ植物園：トラデスカンティア 'Little Doll' は葉の斑点病が最も重い区分、'Red Cloud' は勢いが強いが咲き始めに倒れやすい、モナルダ フィッツローサはうどんこ病に very poor、シュウメイギク 'Pamina' は冬の傷みで株を失い再試験
 
-## 次にやること（10個目のまとまりから）
-- batch_09 までで 916品種中 493品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54＋51）。残りは 423品種・178属
-- 残りの属はどれも11品種以下なので、1回 50品種前後（8〜10属）にまとめる
-- 残りの属（在庫のある品種が多い順。在庫あり／全品種。2026-11-20 に元のマスターから数えた）：ダイアンサス 4/5、ヘレニウム 4/5、ミューレンベルギア 4/5、アルメリア 4/4、ユーフォルビア 4/4、ヘリアンセマム 4/4、クニフォフィア 4/4、ペニセタム 4/4、ルドベキア 4/4、タイム 3/11、ジギタリス 3/10、プリムラ 3/7、ユーパトリウム 3/6、ベルゲニア 3/5、カラマグロスティス 3/5、デスカンプシア 3/5、フクシア 3/5、アイリス 3/5、ロニセラ 3/5、シレネ 3/5 …（数え方：元のマスターの学名の最初の語を属とし、batch_*/input と pilot/input にある属を除く。数えるコードは 2026-11-20 の作業のとおりで、次のセッションでは数え直す）
-- 10個目：ダイアンサス・ヘレニウム・ミューレンベルギア・アルメリア・ユーフォルビア・ヘリアンセマム・クニフォフィア・ペニセタム・ルドベキア・タイム（50品種）。ID の頭文字は、これまでに使ったもの（H G V A M C X F R S D E B Me Ge Vi Pu Pe Po Pa Ac St He Sc Pl Fi Sa Tr Th Co Li Ly Vs Er Mi Mo Mn Td Sp Ne An Aq Ce Aj、試作の P）と重ならないようにする
-- シカゴ植物園の評価報告がある属（一覧より）：no8 ルドベキア、no37 ユーパトリウム、no24 アルケミラ、no30 レウカンセマム、no32 プラティコドン、no18 アムソニア、no19 アルテミシア、no20 エピメディウム、no23 ラミウム、no26 オエノセラ、no15 ソリダゴ、no16 トリキルティス ほか。画像だけで読めない号：no5、no9
-- 1つのまとまりの手順：make_input.py → fetch_all.py と fetch_walters.py（裏で。10分で切れたらもう一度）→ おぎはら（scripts/tools/ogi_search.py で検索、ogi_page2.py でページを1行ずつに）→ RHS の番号（アプリ内のブラウザーで検索を順に開く → 候補を scripts/tools/rhs_check.py で読んで Name Status を見る）→ Gaißmayer・Jelitto（Chrome。1ページごとに6秒あける。最初の1ページで確認画面でないことを確かめる。確認画面が出たら操作せず、別の作業をしてからタブを見直す。それでも出たままなら飛ばして、ここに書く）→ シカゴ植物園の号（pdftotext -raw）→ scripts/tools/clean_raw.py（壊れた生データを消す）→ fetch_rhs.py → digest.py → assemble_pilot.py → scripts/tools/show.py で当たり先と根拠を読む → MBG・NC State の hot・heat・humid・cool を含む文を全部出して拾い漏れを見る → scripts/tools/rediff.py で前の batch を作り直して比べる → HANDOFF.md → コミット → GitHub に送る
+## 10個目のまとまり：ダイアンサス・ヘレニウム・ミューレンベルギア・アルメリア・ユーフォルビア・ヘリアンセマム・クニフォフィア・ペニセタム・ルドベキア・タイム（2026-11-20、下書きまで完了）
+- 入力は batch_10/input（50品種：Di=ダイアンサス5、Hl=ヘレニウム5、Mu=ミューレンベルギア5、Ar=アルメリア4、Eu=ユーフォルビア4、Hm=ヘリアンセマム4、Kn=クニフォフィア4、Pn=ペニセタム4、Ru=ルドベキア4、Ty=タイム11。種のまとまり 30）
+- 文献：おぎはら 17ページ（19品種）、RHS 44品種、Gaißmayer 16ページ（20品種）・Jelitto 23ページ（どちらも Chrome、6秒おき）。シカゴ植物園は no8 Rudbeckia だけ号があるが、PDF が画像だけで読めなかった
+- 【未実施】Gaißmayer でミューレンベルギアを検索し忘れた（掲載があるかは未確認）。Jelitto の 'Goldsturm' のページは本文が長く、表の後半（ゾーン・高さ・土）を読み取れなかった
+- 確認画面：Gaißmayer が最初の検索で確認画面になったが、操作せずに Jelitto を先に読んでいる間に自動で通った。Jelitto は出なかった
+- fetch_all.py に足したもの：ペニセタムの別の属名（Cenchrus）、polychroma＝epithymoides、タイムの × 表記と Coccineus Group、'Mardi gras'＝'Helbro' など。'Aureus'・'Coccineus'・'Rubrifolia'・'French' をありふれた品種名に追加
+- 下書き：`ClaudeWork/下書き_ダイアンサス・ヘレニウム・ミューレンベルギア・アルメリア・ユーフォルビア・ヘリアンセマム・クニフォフィア・ペニセタム・ルドベキア・タイム50品種_1120.xlsx`。耐暑性 強 21・中 4・弱 3・空欄 22、蒸れ耐性 強 1・中 11・空欄 38、西日耐性 ◎3・○11・△15・空欄 21。品種のページがどの文献にもないのは6品種（Ar01・Ar04・Di05・Eu01・Hm02・Kn01）
+- 【このまとまりの特徴】耐暑性の空欄が22品種と多い。タイム9品種（ロンギカウリスとシトリオドラス以外）、アルメリア3品種、ペニセタム2品種、ミューレンベルギア2品種、ヘレニウム2品種など。欧米の文献に暑さの記述がなく、おぎはらにもページがない。ミューレンベルギア デュモーサ・リジェンスは MBG・stauden.de にもほとんど記述がなく、空欄の項目が特に多い（属の平均で12.6項目）
+- 根拠を確認して直したこと（assemble_pilot.py）：MBG・NC State の暑さの文を全部出して、当たっていない文を足した。「drought- and heat-tolerant」「bears up under hot, humid summers」（ルドベキア フルギダ）を 強、「Light shade is helpful if summers are hot」（クニフォフィア）「may show some stress in hot and humid summers」（ユーフォルビア アミグダロイデス）を 中。前の batch（02〜09）を作り直して比べたが、変化はなかった
+- 同名の別品種への当たり違いは見つからなかった。stauden.de は 'Blue Hills' を Dianthus gratianopolitanus、'Ice Queen' を Kniphofia uvaria、'Peter Davis' を Thymus richardii、ヘレニウムの交配品種を Helenium x cultorum と書いている
+- 同じ種のおぎはらの値（batch_10/ogihara_data.py の SIBLING）：ヘレニウム オータムナーレの 'Salsa'・'Sombrero' を 強（根拠は 'Tie Dye' と、同じマリアッチのシリーズの 'Siesta'。図鑑は種小名を書いていないので、ほかより根拠が弱い）
+- 耐暑性 弱 の3品種：ヘリアンセマム（Hm01・Hm03・Hm04。MBG：涼しい夏と暖かい冬を好む）
+- おぎはらと欧米の文献の食い違い：ダイアンサス デルトイデス・ユーフォルビア ポリクロマ・クニフォフィア（おぎはら 強／欧米は「暑い夏の気候では午後の日陰」などで 中 相当）
+- ユーザーに聞くこと・伝えること（学名の検討に出る）：(a) ユーフォルビア ポリクロマは RHS・Jelitto・Gaißmayer とも epithymoides が正名 (b) 'Mardi Gras'・'Undaunted' は RHS では流通名（品種名は 'Helbro'・'Pund01s'） (c) タイム 'Coccineus' は RHS では Coccineus Group、'Magic Carpet'・'Cheviot'・'Tie Dye' は RHS が種小名なし、フレンチタイムは RHS が「Thymus vulgaris French, summer」 (d) ルドベキア 'Goldsturm'・'Little Goldstar' は、おぎはら・Gaißmayer が var. sullivantii の品種（RHS は 'Little Goldstar' に変種名を付けない） (e) ペニセタム 'Fairy Tails' は、おぎはら・stauden.de が orientale の品種（マスターは種小名なし） (f) ダイアンサス sp. 'Lion Rock'・ヘリアンセマム 'St Mary's'・'Dazzler'・クニフォフィア 'Bees' Lemon'・ペニセタム 'Black Beauty'・ユーフォルビア 'Golden Glory' は RHS で見つからなかった (g) Gaißmayer：クニフォフィア 'Ice Queen' とレモンタイム 'Aureus' は Z7（'Aureus' は「いつも冬越しできるとは限らない」）、カシュジアノーラムは短命だがこぼれ種でよく増える、キパリシアスは地下茎で強く広がる（Jelitto も「はびこる」と注意）
+
+## 次にやること（11個目のまとまりから）
+- batch_10 までで 916品種中 543品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54＋51＋50）。残りは 373品種・168属
+- 残りの属はどれも10品種以下なので、1回 50品種前後（8〜10属）にまとめる。在庫のある品種が3つ以下の小さな属ばかりになるので、まとまりの中の属の数が増えていく（検索の回数が増える）
+- 残りの属（在庫のある品種が多い順。在庫あり／全品種。2026-11-20 に元のマスターから数えた）：ジギタリス 3/10、プリムラ 3/7、ユーパトリウム 3/6、ベルゲニア 3/5、カラマグロスティス 3/5、デスカンプシア 3/5、フクシア 3/5、アイリス 3/5、ロニセラ 3/5、シレネ 3/5、ゲンチアナ 3/4、プルサティラ 3/4、ティアレラ 3/4、アルケミラ 3/3、アンドロポゴン 3/3、ヘデラ 3/3、リグラリア 3/3、パトリニア 3/3、プルネラ 3/3 …（次のセッションでは数え直す。数え方：元のマスターの学名の最初の語を属とし、batch_*/input と pilot/input にある属を除いて、在庫のある品種の数・全品種の数の順に並べる）
+- 11個目の案：ジギタリス・プリムラ・ユーパトリウム・ベルゲニア・カラマグロスティス・デスカンプシア・フクシア・アイリス・ロニセラ（53品種）。ID の頭文字は、これまでに使ったもの（H G V A M C X F R S D E B Me Ge Vi Pu Pe Po Pa Ac St He Sc Pl Fi Sa Tr Th Co Li Ly Vs Er Mi Mo Mn Td Sp Ne An Aq Ce Aj Di Hl Mu Ar Eu Hm Kn Pn Ru Ty、試作の P）と重ならないようにする
+- シカゴ植物園の評価報告がある属（一覧より）：no37 ユーパトリウム、no24 アルケミラ、no30 レウカンセマム、no32 プラティコドン、no18 アムソニア、no19 アルテミシア、no20 エピメディウム、no23 ラミウム、no26 オエノセラ、no15 ソリダゴ、no16 トリキルティス、no39 シダ、no40 ロジャーシア ほか。画像だけで読めない号：no5 アキレア、no8 ルドベキア、no9 リアトリス（古い号は読めないことが多い）
+- 1つのまとまりの手順：make_input.py → fetch_all.py と fetch_walters.py（裏で。10分で切れるので、あとで同じコマンドをもう一度実行して done と Walters の一覧を確かめる）→ おぎはら（scripts/tools/ogi_search.py で検索、ogi_page2.py でページを1行ずつに）→ RHS の番号（アプリ内のブラウザーで検索を順に開く。50件で20分ほど → 候補を scripts/tools/rhs_check.py で読んで Name Status を見る）→ Gaißmayer・Jelitto（Chrome。1ページごとに6秒あける。最初の1ページの題名で確認画面でないことを確かめてからまとめて開く。確認画面が出たら操作せず、もう一方のサイトや別の作業を先にしてからタブを見直す。それでも出たままなら飛ばして、ここに書く）→ シカゴ植物園の号（pdftotext -raw）→ scripts/tools/clean_raw.py → fetch_rhs.py → digest.py → assemble_pilot.py → scripts/tools/show.py で当たり先と根拠を読む → MBG・NC State の hot・heat・humid・cool を含む文を全部出して拾い漏れを見る → scripts/tools/rediff.py で前の batch を作り直して比べる（新しい batch は rediff.py の RAW・KEY に足す）→ HANDOFF.md → コミット → GitHub に送る
 - scripts/tools/ の補助スクリプトは、作業中に一時フォルダで使っていたものをそのまま入れた（生データの場所が書き込まれているものがある。別のパソコンやフォルダでは書き換えて使う）
-- Jelitto・Gaißmayer を飛ばしたまとまり：なし
-- 生データ（b2_raw〜b9_raw と digest）はこのパソコンの一時フォルダ（AppData/Local/Temp/claude/ の下。b7〜b9 は 5942321c1c0f279d/ea463099-…/scratchpad）にあり、消えることがある。消えていたら fetch_all.py などで取り直せる
-- Windows の Git Bash では、長い日本語と引用符を含むヒアドキュメントが「unexpected EOF」で失敗することがある。データのファイルは、ファイルを書く道具で直接書く
+- Jelitto・Gaißmayer を飛ばしたまとまり：なし（batch_10 の Gaißmayer のミューレンベルギアだけ検索していない）
+- 生データ（b2_raw〜b10_raw と digest）はこのパソコンの一時フォルダ（AppData/Local/Temp/claude/ の下。b7〜b10 は 5942321c1c0f279d/ea463099-…/scratchpad）にあり、消えることがある。消えていたら fetch_all.py などで取り直せる
+- Windows の Git Bash では、長い日本語と引用符を含むヒアドキュメントが「unexpected EOF」で失敗することがある。データのファイルやスクリプトは、ファイルを書く道具で直接書く
+- 2026-11-20 のセッションは、7つ目から10個目まで（189品種）を1つの会話で進めた。会話が長くなると遅くなるので、2〜3個ごとに新しいセッションに切り替えるとよい
 
 ## 新しいセッションで続けるとき
 - 耐暑性は今の決め方のまま進め、全部の属が終わってから最後にもう一度検討する（2026-11-19 ユーザーの指示。DECISIONS.md）。新しい属でも「同じ種のおぎはらの値」を使うときは、その batch の ogihara_data.py の SIBLING に書く

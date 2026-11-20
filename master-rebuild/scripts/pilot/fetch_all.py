@@ -145,7 +145,8 @@ GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "
                "Sedum": ["Sedum", "Hylotelephium", "Phedimus"], "Hylotelephium": ["Hylotelephium", "Sedum"],
                "Stachys": ["Stachys", "Betonica"], "Potentilla": ["Potentilla", "Sibbaldiopsis"],
                "Scabiosa": ["Scabiosa", "Lomelosia"], "Sanguisorba": ["Sanguisorba", "Poterium"],
-               "Anemone": ["Anemone", "Eriocapitella"], "Centaurea": ["Centaurea", "Psephellus"]}
+               "Anemone": ["Anemone", "Eriocapitella"], "Centaurea": ["Centaurea", "Psephellus"],
+               "Pennisetum": ["Pennisetum", "Cenchrus"]}
 SPECIES_ALIAS = {
  "Aster novae-angliae": ["Symphyotrichum novae-angliae"], "Aster novi-belgii": ["Symphyotrichum novi-belgii"],
  "Aster dumosus": ["Symphyotrichum dumosum"], "Aster cordifolius": ["Symphyotrichum cordifolium"],
@@ -173,6 +174,9 @@ SPECIES_ALIAS = {
  "Nepeta faassenii": ["Nepeta x faassenii"], "Nepeta mussinii": ["Nepeta racemosa"], "Spiraea vanhouttei": ["Spiraea x vanhouttei"],
  "Tradescantia andersoniana": ["Tradescantia x andersoniana", "Tradescantia (Andersoniana Group)", "Tradescantia virginiana"],
  "Centaurea dealbata": ["Psephellus dealbatus"], "Centaurea pulcherrima": ["Psephellus pulcherrimus"],
+ "Pennisetum alopecuroides": ["Cenchrus alopecuroides"], "Pennisetum macrourum": ["Cenchrus macrourus"],
+ "Euphorbia polychroma": ["Euphorbia epithymoides"], "Thymus citriodorus": ["Thymus x citriodorus"],
+ "Thymus serpyllum": ["Thymus praecox", "Thymus Coccineus Group"],
 }
 # 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
 CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],
@@ -183,9 +187,11 @@ CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blu
             "Lavendelturm": ["Lavender Towers"], "Erika": ["Erica"], "Moorhex": ["Moorhexe"], "Floristan Violet": ["Floristan Violett"],
             "Floristan White": ["Floristan Weiss", "Floristan Weiß"], "Blue Hobbit": ["Blauer Zwerg"], "Thundercloud": ["Thunder Cloud"],
             "Blue Stocking": ["Blaustrumpf"], "Panorama Red Shades": ["Panorama Red"], "Bee-Bright": ["Bee Bright"], "Dropmore": ["Dropmore Hybrid"],
-            "Genpei": ["Shirobana"], "Pink Lanterns": ["Pink Lantern"],}
+            "Genpei": ["Shirobana"], "Pink Lanterns": ["Pink Lantern"],
+            "Mardi gras": ["Mardi Gras", "Helbro"], "Tie dye": ["Tie Dye"], "Fairy tails": ["Fairy Tails"], "Goldsturm": ["Goldsturm"],
+            "Moerheim Beauty": ["Moerheim Beauty"], "St Mary's": ["Saint Mary's", "St. Mary's"], "Aureus": ["Aureus", "Golden Lemon"],}
 GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra", "white",
-           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta", "major"}
+           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta", "major", "aureus", "coccineus", "rubrifolia", "french"}
 
 
 def slug(s):

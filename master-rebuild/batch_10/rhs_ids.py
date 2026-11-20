@@ -1,0 +1,42 @@
+# RHS（s01）の植物ページの番号: ダイアンサス・ヘレニウム・ミューレンベルギア・アルメリア・ユーフォルビア・ヘリアンセマム・クニフォフィア・ペニセタム・ルドベキア・タイム。
+# 探し方は scripts/pilot/rhs_ids.py と同じ（2026-11-20。アプリ内のブラウザーで検索ページ47件を順に開いた）。候補46ページを scripts/tools/rhs_check.py で読み、Name Status と栽培の項目の有無を見て選んだ。
+# RHS はペニセタムを Pennisetum のまま載せている（Cenchrus で検索しても Pennisetum の名前で出る）。
+# 試行ID: (番号, RHS の表記, メモ)
+RHS = {
+ "Ar01": (318634, "Armeria maritima subsp. maritima", "名前だけの登録。RHS のページは亜種（種そのもののページの番号は未確認）"),
+ "Ar02": (98199, "Armeria maritima 'Alba'", "RHS で未確定（Unresolved）"),
+ "Ar03": (175135, "Armeria maritima 'Rubrifolia'", "RHS ではシノニム扱い（正名は要確認）"),
+ "Ar04": (522635, "Armeria maritima 'Variegata'", "RHS で未確定（Unresolved）。名前だけの登録"),
+ "Di01": (5704, "Dianthus carthusianorum", ""),
+ "Di02": (237093, "Dianthus carthusianorum 'Rupert's Pink' (p)", "RHS の Name Status は「Not established」（正式に確立していない名前）"),
+ "Di03": (168892, "Dianthus deltoides 'Arctic Fire' (p)", "RHS で未確定（Unresolved）"),
+ "Di04": (95189, "Dianthus 'Blue Hills' (p)", "RHS で未確定（Unresolved）。名前だけの登録"),
+ "Eu02": (78613, "Euphorbia cyparissias 'Clarice Howard'", "RHS ではシノニム扱い（正名は要確認）"),
+ "Eu03": (89512, "Euphorbia griffithii 'Fireglow'", ""),
+ "Eu04": (7053, "Euphorbia epithymoides", "RHS の正名は epithymoides（マスターの polychroma は別名）"),
+ "Hl01": (336034, "Helenium autumnale 'Salsa' (Mariachi Series)", ""), "Hl02": (343798, "Helenium autumnale 'Sombrero' (Mariachi Series)", ""),
+ "Hl03": (316385, "Helenium 'Tie Dye'", "RHS で未確定（Unresolved）。RHS は種小名なし（マスターは autumnale）"),
+ "Hl04": (205594, "Helenium [Mardi Gras] ('Helbro')", "RHS では Mardi Gras は流通名で、品種名は 'Helbro'"),
+ "Hl05": (89456, "Helenium 'Moerheim Beauty'", ""),
+ "Hm01": (96938, "Helianthemum 'Henfield Brilliant'", ""),
+ "Hm03": (65729, "Helianthemum 'Cheviot'", "RHS は種小名なし（マスターは nummularium）"),
+ "Kn02": (72005, "Kniphofia 'Ice Queen'", ""), "Kn03": (322092, "Kniphofia 'Orange Vanilla Popsicle' (Popsicle Series)", ""),
+ "Kn04": (61001, "Kniphofia 'Shining Sceptre' Bloom", "RHS には同名の誤用（misapplied）のページ 327993 もある"),
+ "Mu01": (170542, "Muhlenbergia capillaris", ""), "Mu02": (102445, "Muhlenbergia dumosa", "名前だけの登録"),
+ "Mu03": (115149, "Muhlenbergia lindheimeri", "名前だけの登録"),
+ "Mu04": (374258, "Muhlenbergia reverchonii [Undaunted] ('Pund01s')", "名前だけの登録。RHS では Undaunted は流通名で、品種名は 'Pund01s'"),
+ "Mu05": (108252, "Muhlenbergia rigens", "名前だけの登録"),
+ "Pn02": (82409, "Pennisetum alopecuroides f. viridescens", ""), "Pn03": (270958, "Pennisetum 'Fairy Tails'", ""),
+ "Ru01": (44596, "Rudbeckia fulgida var. sullivantii 'Goldsturm'", ""),
+ "Ru02": (306281, "Rudbeckia fulgida 'Little Goldstar'", "RHS は変種名を付けない（var. sullivantii 'Little Goldstar' はシノニム扱い）"),
+ "Ru03": (268913, "Rudbeckia subtomentosa 'Henry Eilers'", ""), "Ru04": (328133, "Rudbeckia subtomentosa 'Little Henry'", ""),
+ "Ty01": (90739, "Thymus citriodorus (Pers.) Schreb. 'Aureus' [1]", "RHS ではシノニム扱い（正名は要確認。同名で別の種の 'Aureus' もある）"),
+ "Ty02": (131387, "Thymus 'Peter Davis'", ""), "Ty03": (99824, "Thymus longicaulis", ""),
+ "Ty04": (46486, "Thymus mastichina", "名前だけの登録"), "Ty05": (121573, "Thymus pulegioides 'Foxley' (v)", ""),
+ "Ty06": (178657, "Thymus serpyllum L.", ""), "Ty07": (44837, "Thymus serpyllum var. albus", "白花の変種のページ（マスターは「クリーピングタイム 白花」で、学名は serpyllum だけ）"),
+ "Ty10": (178657, "Thymus serpyllum L.", ""),
+ "Ty08": (178656, "Thymus Coccineus Group", "RHS は品種ではなく Coccineus Group として掲載（マスターは serpyllum 'Coccineus'）"),
+ "Ty09": (235986, "Thymus 'Magic Carpet'", "名前だけの登録。RHS は種小名なし"),
+ "Ty11": (102263, "Thymus vulgaris French", "RHS ではシノニム扱い（正名の「French, summer」124246 は名前だけの登録）"),
+}
+# 見つからなかったもの: Di05 'Lion Rock'、Eu01 'Golden Glory'、Hm02 'St Mary's'、Hm04 'Dazzler'、Kn01 'Bees' Lemon'、Pn01 'Black Beauty'、Pn04 macrourum（青葉の系統のページだけ）
