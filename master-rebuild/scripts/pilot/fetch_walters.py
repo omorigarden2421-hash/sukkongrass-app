@@ -17,7 +17,9 @@ IN, OUT = sys.argv[1], sys.argv[2]
 os.makedirs(OUT + "/walters", exist_ok=True)
 ALT = {"Aster novae-angliae": "symphyotrichum-novae-angliae", "Aster novi-belgii": "symphyotrichum-novi-belgii", "Aster dumosus": "symphyotrichum-dumosum",
        "Aster cordifolius": "symphyotrichum-cordifolium", "Aster ericoides": "symphyotrichum-ericoides", "Aster divaricatus": "eurybia-divaricata",
-       "Aster macrophyllus": "eurybia-macrophylla", "Aster umbellatus": "doellingeria-umbellata"}
+       "Aster macrophyllus": "eurybia-macrophylla", "Aster umbellatus": "doellingeria-umbellata",
+       "Ageratina altissima": "eupatorium-rugosum", "Polygonum bistorta": "persicaria-bistorta", "Tovara virginiana": "persicaria-virginiana",
+       "Thermopsis caroliniana": "thermopsis-villosa", "Limonium latifolium": "limonium-platyphyllum", "Ranunculus ficaria": "ficaria-verna"}
 
 
 def slug(s):

@@ -155,7 +155,11 @@ GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "
                "Cimicifuga": ["Cimicifuga", "Actaea"], "Chrysanthemum": ["Chrysanthemum", "Nipponanthemum", "Dendranthema"],
                "Caryopteris": ["Caryopteris", "Tripora"], "Chamaemelum": ["Chamaemelum", "Anthemis"],
                "Lychnis": ["Lychnis", "Silene"], "Dendranthema": ["Dendranthema", "Chrysanthemum"], "Lamiastrum": ["Lamiastrum", "Lamium"],
-               "Actaea": ["Actaea", "Cimicifuga"], "Goniolimon": ["Goniolimon", "Limonium"]}
+               "Actaea": ["Actaea", "Cimicifuga"], "Goniolimon": ["Goniolimon", "Limonium"],
+               "Tovara": ["Tovara", "Persicaria", "Polygonum"], "Polygonum": ["Polygonum", "Bistorta", "Persicaria"], "Ranunculus": ["Ranunculus", "Ficaria"],
+               "Leptinella": ["Leptinella", "Cotula"], "Ageratina": ["Ageratina", "Eupatorium"], "Anthemis": ["Anthemis", "Cota"],
+               "Chamerion": ["Chamerion", "Epilobium", "Chamaenerion"], "Gillenia": ["Gillenia", "Porteranthus"], "Perovskia": ["Perovskia", "Salvia"],
+               "Leucosceptrum": ["Leucosceptrum", "Comanthosphace"]}
 SPECIES_ALIAS = {
  "Aster novae-angliae": ["Symphyotrichum novae-angliae"], "Aster novi-belgii": ["Symphyotrichum novi-belgii"],
  "Aster dumosus": ["Symphyotrichum dumosum"], "Aster cordifolius": ["Symphyotrichum cordifolium"],
@@ -217,6 +221,16 @@ SPECIES_ALIAS = {
  "Ampelopsis glandulosa": ["Ampelopsis glandulosa var. brevipedunculata", "Ampelopsis brevipedunculata"],
  "Arrhenatherum elatius": ["Arrhenatherum elatius subsp. bulbosum", "Arrhenatherum elatius var. bulbosum"],
  "Phalaris arundinacea": ["Phalaris arundinacea var. picta"], "Mukdenia rossii": ["Aceriphyllum rossii"], "Astilboides tabularis": ["Rodgersia tabularis"],
+ "Tovara virginiana": ["Persicaria virginiana", "Persicaria filiformis", "Polygonum virginianum"],
+ "Polygonum bistorta": ["Bistorta officinalis", "Persicaria bistorta"], "Ranunculus ficaria": ["Ficaria verna"],
+ "Thermopsis caroliniana": ["Thermopsis villosa"], "Limonium latifolium": ["Limonium platyphyllum"], "Baptisia variicolor": ["Baptisia x variicolor"],
+ "Leontopodium alpinum": ["Leontopodium nivale subsp. alpinum", "Leontopodium nivale"], "Leptinella squalida": ["Cotula squalida"],
+ "Heliopsis helianthoides": ["Heliopsis helianthoides var. scabra"],
+ "Ageratina altissima": ["Eupatorium rugosum"], "Anthemis tinctoria": ["Cota tinctoria"],
+ "Chamerion angustifolium": ["Epilobium angustifolium", "Chamaenerion angustifolium"],
+ "Convallaria keiskei": ["Convallaria majalis var. keiskei", "Convallaria majalis var. manshurica"], "Gillenia trifoliata": ["Porteranthus trifoliatus"],
+ "Perovskia atriplicifolia": ["Salvia yangii"], "Leucosceptrum japonicum": ["Comanthosphace japonica"], "Satureja spicigera": ["Satureja repanda"],
+ "Koeleria glauca": ["Koeleria macrantha subsp. glauca"], "Selinum wallichianum": ["Selinum tenuifolium"],
 }
 # 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
 CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],
@@ -239,9 +253,11 @@ CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blu
             "Brilliant": ["Brillant"], "Nana": ["Silver Mound"], "Pink Jewel": ["Rosa Juwel"], "Broadway Lights": ["Leumayel"], "Silver Wings": ["Silver Wing"],
             "Goblin": ["Kobold"], "Burgundy": ["Burgunder"], "Fraulein": ["Fräulein"], "Chandelier": ["Kronleuchter"], "Kinlochrue": ["Kinlochruel"],
             "Diabolo": ["Monlo", "Diablo"], "Summer Wine": ["Seward"], "Gin-ryū": ["Gin-ryu", "Gin Ryu", "Silver Dragon"], "Herman's Pride": ["Hermann's Pride"], "Vivelli": ["Vivellii"],
-            "Rubra": ["Red Baron"], "Karasuba": ["Crimson Fans"]}
+            "Rubra": ["Red Baron"], "Karasuba": ["Crimson Fans"],
+            "Twilite": ["Twilite Prairieblues"], "Rosenelfe": ["Rose Fairy"], "Superbum": ["Superba"], "Blue Hills": ["Blauhügel"],
+            "Purpureum": ["Bronze", "Rubrum", "Giant Bronze"], "Summer Nights": ["Sommernacht"]}
 GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra", "white",
-           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta", "major", "aureus", "coccineus", "rubrifolia", "french", "grandiflora", "albiflora", "elegantissima", "brilliant", "snowflake", "metallicum", "atropurpureum", "albaplena", "roseaplena", "mariesii"}
+           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta", "major", "aureus", "coccineus", "rubrifolia", "french", "grandiflora", "albiflora", "elegantissima", "brilliant", "snowflake", "metallicum", "atropurpureum", "albaplena", "roseaplena", "mariesii", "purpureum", "aureum", "superbum", "bronze", "rubrum", "chocolate"}
 
 
 def slug(s):

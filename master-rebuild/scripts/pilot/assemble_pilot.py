@@ -43,12 +43,12 @@ def sentences(t):
 
 
 # ---------- 言い回しの照合（RULES.md の heat / muggy / west_sun） ----------
-P_HEAT_WEAK = r"intolerant of (the )?hot|(performs?|grows?) poorly in [^.]*hot|dislike[s]? (the |high )?(hot|heat)|for cool summer climates|dislike[s]? [^.]*hot, humid summer|intolerant of (the )?(high |extreme )?heat|cool weather plant|not recommended for planting south|do(es)? not (grow|perform|do) well in the deep south|don.t do well in heat|does not tolerate hot|will not do well in the hot|not recommended for growing south|require[s]? a cool|prefer[s]? cool[- ](summer|weather|climate|temperature|night|condition|growing condition)|best performance (occurs |is seen )?in (cool|climates with cool)|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)|(decline|suffer) in summer heat south of|not (terribly |very |particularly )?tolerant of [^.]*(hot|heat)|struggles? in (the )?hot|sensitive to (high )?heat|intolerant of [^.]*hot and humid|will not perform well [^.]*hot|not recommended for the southeastern"
-P_HEAT_MID = r"hot summer weather[^.]*dormant|full sun in cooler climates|from hot summer temperatures|foliage may wilt in the heat|hot afternoon sun|depreciates in the heat|shade is helpful if summers are hot|stress in hot|foliage (tends to|will|can) (decline|burn)|heat of the summer sets in|some tolerance for hot|afternoon shade|decline[s]? .*hot summer|interrupts? in the heat|foliage may (decline|scorch|burn)|scorch|in hot summer climates|best in cool northern summer|full sun is best in cool|leaf burn|in the south it is best|shade at the heat of the day|in hot summer locations|moderately resistant to [^.]*heat"
-P_HEAT_STRONG = r"adaptable to [^.]*hot, humid|heat-tolerant|bears up under hot|good heat tolerance|tolerates?,? (the |high |summer )?(hot|heat)|heat tolerant|(?<!in)tolerant of [^.]*(heat|hot)|tolerates hot and humid|good heat and drought tolerance|grows? well in hot|good tolerance for heat|tolerates [a-z ]+, heat\b"
-P_MUGGY_WEAK = r"intolerant of (the )?hot and humid|(performs?|grows?) poorly in [^.]*hot,? (and )?humid|dislike[s]? (the )?hot and humid|dislike[s]? [^.]*hot, humid|intolerant of (the )?(high )?heat and humidity|dislike[s]? .*humidity|melt[s]? out|not .*tolerant of .*humid|do(es)? not (do|perform) well in [^.]*hot and humid|don.t do well in heat and humidity|does not tolerate hot or humid|not do well in the hot humid|because of winter stresses and high summer humidity|high summer humidity in the st\b|struggles? in (the )?heat and humidity|struggles? in (the )?hot and humid|sensitive to (high )?heat and humidity|intolerant of [^.]*hot and humid|will not perform well in [^.]*hot and humid"
+P_HEAT_WEAK = r"intolerant of (the )?hot|(performs?|grows?) poorly in [^.]*hot|dislike[s]? (the |high )?(hot|heat)|for cool summer climates|dislike[s]? [^.]*hot, humid summer|intolerant of (the )?(high |extreme )?heat|cool weather plant|not recommended for planting south|do(es)? not (grow|perform|do) well in the deep south|don.t do well in heat|does not tolerate hot|will not do well in the hot|not recommended for growing south|require[s]? a cool|prefer[s]? cool[- ](summer|weather|climate|temperature|night|condition|growing condition)|best performance (occurs |is seen )?in (cool|climates with cool)|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)|(decline|suffer) in summer heat south of|not (terribly |very |particularly )?tolerant of [^.]*(hot|heat)|struggles? in (the )?hot|sensitive to (high )?heat|intolerant of [^.]*hot and humid|will not perform well [^.]*hot|not recommended for the southeastern|intolerant of (high )?summer heat|did not do well [^.]*hot and humid|(does|do) poorly in hot|poorly in hot climates|will not do well in hot|best in regions with cool summers|in hot, humid summer regions, plants do not usually last|less successful in the high summer heat|struggles? in our hot|thrive in cool summer climates|prefers cooler weather"
+P_HEAT_MID = r"hot summer weather[^.]*dormant|full sun in cooler climates|from hot summer temperatures|foliage may wilt in the heat|hot afternoon sun|depreciates in the heat|shade is helpful if summers are hot|stress in hot|foliage (tends to|will|can) (decline|burn)|heat of the summer sets in|some tolerance for hot|afternoon shade|decline[s]? .*hot summer|interrupts? in the heat|foliage may (decline|scorch|burn)|scorch|in hot summer climates|best in cool northern summer|full sun is best in cool|leaf burn|in the south it is best|shade at the heat of the day|in hot summer locations|moderately resistant to [^.]*heat|flop in [^.]*hot (summer )?temperatures|dormant in hot weather"
+P_HEAT_STRONG = r"adaptable to [^.]*hot, humid|heat-tolerant|bears up under hot|good heat tolerance|tolerates?,? (the |high |summer )?(hot|heat)|heat tolerant|(?<!in)tolerant of [^.]*(heat|hot)|tolerates hot and humid|good heat and drought tolerance|grows? well in hot|good tolerance for heat|tolerates [a-z ]+, heat\b|perform beautifully in the piedmont and coastal plain|heat and frost-tolerant|ground cover for hot, dry areas|loves hot, sunny sites"
+P_MUGGY_WEAK = r"intolerant of (the )?hot and humid|(performs?|grows?) poorly in [^.]*hot,? (and )?humid|dislike[s]? (the )?hot and humid|dislike[s]? [^.]*hot, humid|intolerant of (the )?(high )?heat and humidity|dislike[s]? .*humidity|melt[s]? out|not .*tolerant of .*humid|do(es)? not (do|perform) well in [^.]*hot and humid|don.t do well in heat and humidity|does not tolerate hot or humid|not do well in the hot humid|because of winter stresses and high summer humidity|high summer humidity in the st\b|struggles? in (the )?heat and humidity|struggles? in (the )?hot and humid|sensitive to (high )?heat and humidity|intolerant of [^.]*hot and humid|will not perform well in [^.]*hot and humid|intolerant of (high )?summer heat and humidity|did not do well [^.]*hot and humid|in hot, humid summer regions, plants do not usually last|challenge to grow [^.]*humid summer|less successful in the high summer heat and humidity|does not perform well in climates with high humidity"
 P_MUGGY_MID = r"decline [^.]*high humidity|stress in hot and humid|bothered by humidity|some tolerance for hot and humid|(mildew|rust|leaf spot)[^.]*humid|humid[^.]*(mildew|rust|leaf spot|flop)|good air circulation|prefer[s]? .*dry air|tolerates humidity better than|blight[^.]*hot and humid"
-P_MUGGY_STRONG = r"tolerates? heat, humidity|adaptable to [^.]*hot, humid|bears up under hot, humid|tolerates? hot and humid|(?<!in)tolerant of [^.]*hot and humid|(?<!in)tolerant of .*humidity|tolerates? .*heat and humidity|tolerance for heat, humidity|tolerates hot, humid"
+P_MUGGY_STRONG = r"tolerates? heat, humidity|adaptable to [^.]*hot, humid|bears up under hot, humid|tolerates? hot and humid|(?<!in)tolerant of [^.]*hot and humid|(?<!in)tolerant of .*humidity|tolerates? .*heat and humidity|tolerance for heat, humidity|tolerates hot, humid|(?<!in)tolerant of [^.]*hot, humid|good selection for humid climates"
 # 2026-11-20: 「intolerant of high heat and humidity」が tolerant of … heat に当たって 強 になっていた（スカビオサ）。in- の付く形を 強 から外し、弱 の言い回しに足した。
 #   トロリウスの「cool weather plant」「dislikes dry soils and hot, humid summers」「not recommended for planting south of …」も 弱 に足した。
 #   タリクトラムの「Performs poorly in hot and humid summer climates」「Intolerant of hot and humid conditions」「May grow poorly in climates with hot, humid summers」を 弱、
@@ -65,6 +65,18 @@ P_MUGGY_STRONG = r"tolerates? heat, humidity|adaptable to [^.]*hot, humid|bears 
 #   「Best performance occurs in cool climates」（プルサティラ）「prefers cool growing conditions」（ヤマアジサイ・エゾアジサイ。試作の P25 と同じ 弱）を 弱、
 #   「protection … from hot summer temperatures」（ヘデラ）を 中、「Tolerates high heat and humidity」（アンドロポゴン スコパリウス）
 #   「Tolerant of hot and humid summers」（オミナエシ・オトコエシ。試作の P19 と同じ 強）「tolerates, heat, humidity」（ノリウツギ）を 強 に足した。
+#   2026-11-20（batch_17）: 「Somewhat intolerant of high summer heat and humidity」「did not do well … in the hot and humid St. Louis」（セスレリア オータムナリス）
+#   「It does poorly in hot, dry sites」「grows slowly and poorly in hot climates」「will not do well in hot, dry sites」（スポディオポゴン）
+#   「Best in regions with cool summers」（Walters のエーデルワイス）「In hot, humid summer regions, plants do not usually last more than 2 to 3 years」
+#   （Walters のデルフィニウム。蒸れも 弱）を 弱、「Stems tend to flop in … hot summer temperatures」（フィソステギア）を 中、
+#   「perform beautifully in the Piedmont and coastal plain, where true Lupines don't grow well because of the heat」（サーモプシス）
+#   「Roses are heat and frost-tolerant」（NC State のバラの属のページ）を 強 に足した。蒸れ 弱:「It can be a challenge to grow them in humid summer climates
+#   south of USDA Zone 7」（NC State のデルフィニウムの属のページ）。蒸れ 強:「Tolerant of hot, humid summer regions」（Walters のアムソニア フブリヒティ）
+#   「a particularly good selection for humid climates」（MBG のバラ 'Sir Thomas Lipton'）。
+#   2026-11-20（batch_18）: 「less successful in the high summer heat and humidity of the deep South」「Does not perform well in climates with high humidity」
+#   （NC State のセラスチウム。蒸れも 弱）「It can struggle in our hot southern summers」（NC State のヤナギラン）「Plants generally thrive in cool summer climates」
+#   「prefers cooler weather」（バレリアン）を 弱、「may go partially dormant in hot weather」（コエレリア）を 中、「Ground cover for hot, dry areas」（スポロボルス）
+#   「loves hot, sunny sites」（Walters のロシアンセージ）を 強 に足した。ヤナギランの「It is absent from the hot and humid southeastern U.S.」は分布の説明なので当てていない。
 P_AFTERNOON = r"shade is helpful if summers are hot|foliage (tends to|can) burn|afternoon shade|afternoon sun|scorch|leaf burn|protected from hot sun"
 
 
@@ -85,6 +97,27 @@ NAME_OVERRIDE = {
 }
 # 自社の観察（文献の値とは別に持つ）
 OWN_NOTES = {"V04": "越冬：傷む年がある（2026-11-19 ユーザーの回答。シカゴ植物園の冬の傷みの記録と合う）"}
+
+
+def yl_pick(rows, sp, sci=None):
+    """YList の行から和名を選ぶ。種そのものの行（変種・亜種・品種でない）を先に採る（標準 → 広義 → synonym の順）。
+    2026-11-20（batch_17・18）: 前は「標準」の最初の行を採っていたので、アマドコロがオオアマドコロ（var. maximowiczii）、
+    ヤナギランがヤエザキヤナギラン（f. pleniflorum）、テンニンソウがミカエリテンニンソウ、イブキトラノオがオホーツクイブキトラノオになっていた。"""
+    g, e = sp.split()[:2]
+    # マスターの学名に変種・亜種・品種の名前があるときは、その行を先に採る（Athyrium niponicum var. pictum → ニシキシダ）
+    inf = re.search(r"\b(?:var|subsp|ssp|f)\.\s*([a-z-]+)", sci or "")
+    if inf and inf.group(1) != e:
+        c = [x for x in rows if (x["sci"] + " ").startswith(f"{g} {e} ") and re.search(r" (var|subsp|ssp|f)\. " + inf.group(1) + r"\b", x["sci"])]
+        c.sort(key=lambda x: x["status"] != "標準")
+        if c:
+            return c[0]
+    plain = [x for x in rows if (x["sci"] + " ").startswith(f"{g} {e} ") and not re.search(r" (var|subsp|ssp|f)\. ", x["sci"] + " ")]
+    for st in ("標準", "広義", "synonym"):
+        c = [x for x in plain if x["status"] == st]
+        if c:
+            return c[0]
+    std = [x for x in rows if x["status"] == "標準"]
+    return (std or rows)[0]
 
 
 def judge(texts):
@@ -253,8 +286,7 @@ def main():
         r["文献での表記"] = " ／ ".join(names) or None
         y = D.get(sk, {}).get("yl")
         if y:
-            std = [x for x in y["rows"] if x["status"] == "標準"]
-            r["和名"] = (std or y["rows"])[0]["ja"] + "（種）"
+            r["和名"] = yl_pick(y["rows"], it["species"], it["学名"])["ja"] + "（種）"
         used, cv_src = set(), []
         if rh:
             # 名前だけの登録（栽培・色の項目が1つもないページ）は品種ページに数えない
@@ -314,7 +346,7 @@ def main():
         r["耐暑性（欧米の文献だけなら）"] = heat
         r["耐暑性の決め方"] = "欧米の文献" if heat else None
         sib = getattr(OG, "SIBLING", {}).get(it["species"])
-        if og:
+        if og and og[4]:  # 図鑑の耐暑性の欄が空欄のページ（1〜2年草扱いのオルラヤなど）は、耐暑性には使わない
             r["耐暑性の決め方"] = "おぎはら（" + ("品種" if og[3] == "cultivar" else "種") + "のページ）"
             # 2026-11-19 の最後の決定: おぎはら植物園にページがあれば、耐暑性はおぎはらの値を採る（日本の条件での評価）
             lab = "品種" if og[3] == "cultivar" else "種"

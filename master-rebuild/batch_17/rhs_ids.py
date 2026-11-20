@@ -1,0 +1,44 @@
+# RHS（s01）の植物ページの番号: 在庫のある1品種の属20（レオントポディウムからウンキニアまで）と、在庫のない2〜3品種の属12（アムソニアからビオラまで）。
+# 探し方は scripts/pilot/rhs_ids.py と同じ（2026-11-20。アプリ内のブラウザーで検索ページを順に開いた。18個目のまとまりの分と合わせて78件）。
+#   候補71ページを scripts/tools/rhs_check.py で読み、Name Status と栽培の項目の有無を見て選んだ。
+# 試行ID: (番号, RHS の表記, メモ)
+RHS = {
+ "Ln01": (218589, "Leontopodium alpinum subsp. alpinum", "RHS には Leontopodium nivale subsp. alpinum（番号 353775）のページもあり、どちらも Correct"),
+ "Lp01": (122048, "Leptinella squalida 'Platt's Black'", ""), "Ms01": (11040, "Melissa officinalis", ""),
+ "Ml01": (91154, "Milium effusum 'Aureum'", ""),
+ "Op01": (377774, "Ophiopogon planiscapus 'Kokuryū'", "RHS の正名は 'Kokuryū'（'Nigrescens'・'Nigra'・'Black Dragon' はシノニム扱い）"),
+ "Pm01": (84694, "Parthenium integrifolium", ""), "Pf01": (24404, "Phyteuma scheuchzeri", ""), "Pj01": (45208, "Pimpinella major 'Rosea'", ""),
+ "Pw01": (369314, "Poa glauca 'Blue Hills'", "名前だけの登録"),
+ "Pd01": (13415, "Polygonatum odoratum", ""),
+ "Pk01": (513876, "Bistorta officinalis 'Superba'", "RHS の正名は Bistorta officinalis 'Superba'（Persicaria bistorta 'Superba'・Polygonum bistorta 'Superbum' はシノニム扱い）"),
+ "Rn01": (337255, "Ficaria verna 'Brazen Hussy'", "RHS の正名は Ficaria verna 'Brazen Hussy'（Ranunculus ficaria 'Brazen Hussy' はシノニム扱い）"),
+ "Rt01": (111312, "Ratibida pinnata", ""), "Rl01": (102424, "Ruellia humilis", "名前だけの登録"),
+ "Ss01": (27299, "Seseli gummiferum", ""),
+ "Se01": (71002, "Sesleria argentea", "名前だけの登録。RHS は Sesleria argentea と Sesleria autumnalis（番号 71003）を別の種として載せている（マスターは autumnalis ssp. argentea）"),
+ "Sq01": (57507, "Spodiopogon sibiricus", ""), "Sk01": (17856, "Succisa pratensis", ""),
+ "Tm01": (18110, "Thermopsis villosa", "名前だけの登録。RHS の正名は Thermopsis villosa（Thermopsis caroliniana はシノニム扱い）"),
+ "Un01": (18608, "Uncinia rubra", "RHS ではシノニム扱い（Uncinia uncinata 'Rubra' もシノニム。正名は要確認）。耐寒性は H3"),
+ "Av01": (137924, "Amsonia hubrichtii", ""), "Av02": (1096, "Amsonia tabernaemontana", ""),
+ "Av03": (235905, "Amsonia 'Blue Ice'", "RHS は種小名なし（マスターは tabernaemontana）"),
+ "Ba01": (1980, "Baptisia australis", ""), "Ba02": (154632, "Baptisia australis var. minor", ""),
+ "Ba03": (278109, "Baptisia × variicolor 'Twilite' (Prairieblues Series)", "'Twilight Prairie Blues' は RHS でシノニム扱い"),
+ "Dl01": (101296, "Delphinium Astolat Group", "RHS は品種ではなく Astolat Group。RHS で未確定（Unresolved）"),
+ "Dl02": (101297, "Delphinium Black Knight Group", "RHS は品種ではなく Black Knight Group（'Black Knight' はシノニム扱い）"),
+ "Dl03": (271848, "Delphinium 'Galahad' (Pacific Hybrid Series)", "Galahad Group（番号 101304）は RHS で未確定"),
+ "Fo01": (24472, "Foeniculum vulgare", ""),
+ "Fo02": (43739, "Foeniculum vulgare 'Purpureum'", "'Bronze'・'Rubrum' は RHS でシノニム扱い"),
+ "Hp01": (211135, "Heliopsis helianthoides var. scabra 'Summer Nights'", "'Sommernächte' は RHS でシノニム扱い"),
+ "Hp02": (360600, "Heliopsis helianthoides var. scabra 'Burning Hearts'", ""),
+ "Lh01": (524775, "Lathyrus vernus 'Heavenly Blues'", "RHS のつづりは 'Heavenly Blues'。耐寒性は H3"),
+ "Lh02": (47078, "Lathyrus vernus 'Rosenelfe'", "RHS で未確定（Unresolved）"),
+ "Lj01": (269598, "Limonium platyphyllum 'Blue Diamond'", "名前だけの登録。RHS ではシノニム扱い（Limonium speciosum 'Blue Diamond' もシノニム。正名は要確認）"),
+ "Lj02": (71750, "Limonium platyphyllum", "RHS では Limonium latifolium・Limonium platyphyllum のどちらもシノニム扱い（正名は要確認）"),
+ "Pq02": (61622, "Physostegia virginiana var. speciosa 'Variegata' (v)", "RHS は var. speciosa の品種（Physostegia virginiana 'Variegata' はシノニム扱い）"),
+ "To01": (297746, "Persicaria virginiana 'Compton's Form'", "RHS ではシノニム扱い（Persicaria virginiana var. filiformis 'Compton's Red' もシノニム。正名は要確認）"),
+ "To02": (49200, "Persicaria virginiana Variegated Group (v)", "RHS は品種ではなく Variegated Group。RHS で未確定（Unresolved）。'Painter's Palette'（番号 47092）は別の名前なので当てていない"),
+ "Vr01": (104816, "Vernonia noveboracensis", ""), "Vr02": (343849, "Vernonia noveboracensis 'White Lightning'", ""),
+ "Vo01": (57565, "Viola labradorica ambig.", "RHS の表記は Viola labradorica ambig.（あいまいな名前）。紫葉の「Viola labradorica misapplied purpurea」（番号 91862）はシノニム扱い"),
+ "Vo02": (189297, "Viola 'Mars'", "RHS は種小名なし（Viola mandshurica 'Mars' はシノニム扱い）。Name Status は Not established"),
+}
+# 見つからなかったもの・当てていないもの: Pq01 フィソステギア 'Deep pink'（RHS に名前がない。種のページは当てていない）、
+#   Ro01 ロサ 'Adelaide Hoodless'・Ro02 'Sir Thomas Lipton'（RHS の検索に出ない）。
