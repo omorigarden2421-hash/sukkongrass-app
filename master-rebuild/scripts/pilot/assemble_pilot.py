@@ -43,12 +43,12 @@ def sentences(t):
 
 
 # ---------- 言い回しの照合（RULES.md の heat / muggy / west_sun） ----------
-P_HEAT_WEAK = r"intolerant of (the )?hot|(performs?|grows?) poorly in [^.]*hot|dislike[s]? (the |high )?(hot|heat)|for cool summer climates|dislike[s]? [^.]*hot, humid summer|intolerant of (the )?(high |extreme )?heat|cool weather plant|not recommended for planting south|do(es)? not grow well in the deep south|not recommended for growing south|require[s]? a cool|prefer[s]? cool[- ](summer|weather|climate|temperature|night|condition)|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)"
-P_HEAT_MID = r"foliage may wilt in the heat|hot afternoon sun|depreciates in the heat|shade is helpful if summers are hot|stress in hot|foliage (tends to|will|can) (decline|burn)|heat of the summer sets in|some tolerance for hot|afternoon shade|decline[s]? .*hot summer|interrupts? in the heat|foliage may (decline|scorch|burn)|scorch|in hot summer climates|best in cool northern summer|full sun is best in cool|leaf burn|in the south it is best"
-P_HEAT_STRONG = r"heat-tolerant|bears up under hot|good heat tolerance|tolerates? (the )?(hot|heat)|heat tolerant|(?<!in)tolerant of [^.]*heat|tolerates hot and humid"
+P_HEAT_WEAK = r"intolerant of (the )?hot|(performs?|grows?) poorly in [^.]*hot|dislike[s]? (the |high )?(hot|heat)|for cool summer climates|dislike[s]? [^.]*hot, humid summer|intolerant of (the )?(high |extreme )?heat|cool weather plant|not recommended for planting south|do(es)? not grow well in the deep south|not recommended for growing south|require[s]? a cool|prefer[s]? cool[- ](summer|weather|climate|temperature|night|condition|growing condition)|best performance (occurs |is seen )?in (cool|climates with cool)|best in cool summer|struggles? in (the )?heat|does not (do well|tolerate) .*heat|do(es)? not (do|perform) well [^.]*(night ?time temperatures|night temperatures|hot and humid|hot summer)"
+P_HEAT_MID = r"from hot summer temperatures|foliage may wilt in the heat|hot afternoon sun|depreciates in the heat|shade is helpful if summers are hot|stress in hot|foliage (tends to|will|can) (decline|burn)|heat of the summer sets in|some tolerance for hot|afternoon shade|decline[s]? .*hot summer|interrupts? in the heat|foliage may (decline|scorch|burn)|scorch|in hot summer climates|best in cool northern summer|full sun is best in cool|leaf burn|in the south it is best"
+P_HEAT_STRONG = r"heat-tolerant|bears up under hot|good heat tolerance|tolerates?,? (the |high )?(hot|heat)|heat tolerant|(?<!in)tolerant of [^.]*(heat|hot)|tolerates hot and humid"
 P_MUGGY_WEAK = r"intolerant of (the )?hot and humid|(performs?|grows?) poorly in [^.]*hot,? (and )?humid|dislike[s]? (the )?hot and humid|dislike[s]? [^.]*hot, humid|intolerant of (the )?(high )?heat and humidity|dislike[s]? .*humidity|melt[s]? out|not .*tolerant of .*humid|do(es)? not (do|perform) well in [^.]*hot and humid"
 P_MUGGY_MID = r"stress in hot and humid|bothered by humidity|some tolerance for hot and humid|(mildew|rust|leaf spot)[^.]*humid|humid[^.]*(mildew|rust|leaf spot|flop)|good air circulation|prefer[s]? .*dry air"
-P_MUGGY_STRONG = r"bears up under hot, humid|tolerates? hot and humid|(?<!in)tolerant of .*humidity|tolerates? .*heat and humidity"
+P_MUGGY_STRONG = r"bears up under hot, humid|tolerates? hot and humid|(?<!in)tolerant of [^.]*hot and humid|(?<!in)tolerant of .*humidity|tolerates? .*heat and humidity"
 # 2026-11-20: 「intolerant of high heat and humidity」が tolerant of … heat に当たって 強 になっていた（スカビオサ）。in- の付く形を 強 から外し、弱 の言い回しに足した。
 #   トロリウスの「cool weather plant」「dislikes dry soils and hot, humid summers」「not recommended for planting south of …」も 弱 に足した。
 #   タリクトラムの「Performs poorly in hot and humid summer climates」「Intolerant of hot and humid conditions」「May grow poorly in climates with hot, humid summers」を 弱、
@@ -61,6 +61,10 @@ P_MUGGY_STRONG = r"bears up under hot, humid|tolerates? hot and humid|(?<!in)tol
 #   「Flowering may decline and foliage may wilt in the heat of the summer」（フクシア）「protect from hot afternoon sun」（シベリアアヤメ）
 #   「foliage typically depreciates in the heat」（プリムラ ベリス）を 中 に足した。「more tolerant of heat and humidity than other types of primroses」のような
 #   ほかとの比較は 強 にしない（「better than most」と同じ扱いで 中）。フクシアの「does best in cool moist conditions」は気候ではなく場所の条件とも読めるので当てていない。
+#   2026-11-20（batch_12）: 「Best performance occurs in cool summer climates」（アストランティア）「Best performance in climates with cool summers」（リグラリア デンタータ）
+#   「Best performance occurs in cool climates」（プルサティラ）「prefers cool growing conditions」（ヤマアジサイ・エゾアジサイ。試作の P25 と同じ 弱）を 弱、
+#   「protection … from hot summer temperatures」（ヘデラ）を 中、「Tolerates high heat and humidity」（アンドロポゴン スコパリウス）
+#   「Tolerant of hot and humid summers」（オミナエシ・オトコエシ。試作の P19 と同じ 強）「tolerates, heat, humidity」（ノリウツギ）を 強 に足した。
 P_AFTERNOON = r"shade is helpful if summers are hot|foliage (tends to|can) burn|afternoon shade|afternoon sun|scorch|leaf burn|protected from hot sun"
 
 

@@ -147,7 +147,8 @@ GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "
                "Scabiosa": ["Scabiosa", "Lomelosia"], "Sanguisorba": ["Sanguisorba", "Poterium"],
                "Anemone": ["Anemone", "Eriocapitella"], "Centaurea": ["Centaurea", "Psephellus"],
                "Pennisetum": ["Pennisetum", "Cenchrus"],
-               "Eupatorium": ["Eupatorium", "Eutrochium", "Conoclinium", "Eupatoriadelphus"], "Deschampsia": ["Deschampsia", "Avenella"]}
+               "Eupatorium": ["Eupatorium", "Eutrochium", "Conoclinium", "Eupatoriadelphus"], "Deschampsia": ["Deschampsia", "Avenella"],
+               "Andropogon": ["Andropogon", "Schizachyrium"]}
 SPECIES_ALIAS = {
  "Aster novae-angliae": ["Symphyotrichum novae-angliae"], "Aster novi-belgii": ["Symphyotrichum novi-belgii"],
  "Aster dumosus": ["Symphyotrichum dumosum"], "Aster cordifolius": ["Symphyotrichum cordifolium"],
@@ -184,6 +185,8 @@ SPECIES_ALIAS = {
  "Eupatorium maculatum": ["Eutrochium maculatum", "Eupatoriadelphus maculatus", "Eupatorium purpureum subsp. maculatum"],
  "Lonicera americana": ["Lonicera x americana"], "Lonicera italica": ["Lonicera x italica"], "Lonicera tellmanniana": ["Lonicera x tellmanniana"],
  "Primula polyanthus": ["Primula x polyantha", "Primula Polyanthus Group"],
+ "Andropogon scoparius": ["Schizachyrium scoparium"], "Silene uniflora": ["Silene maritima"], "Tiarella wherryi": ["Tiarella cordifolia var. collina"],
+ "Hydrangea serrata": ["Hydrangea macrophylla subsp. serrata"], "Patrinia scabiosifolia": ["Patrinia scabiosaefolia"],
 }
 # 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
 CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],
@@ -199,9 +202,10 @@ CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blu
             "Moerheim Beauty": ["Moerheim Beauty"], "St Mary's": ["Saint Mary's", "St. Mary's"], "Aureus": ["Aureus", "Golden Lemon"],
             "Millers Crimson": ["Miller's Crimson"], "Appleblossom": ["Apple Blossom"], "Goldtau": ["Golden Dew"], "Ivory Towers": ["Ivory Tower"],
             "Snow Time": ["Snowtime"], "Excelsior": ["Excelsior Group", "Excelsior Hybrids"], "Apricot": ["Sutton's Apricot", "Apricot Beauty"],
-            "Honey Baby": ["Novso"], "Black Form": ["black-flowered", "Black"], "Primadiente Rose": ["Primadiente"],}
+            "Honey Baby": ["Novso"], "Black Form": ["black-flowered", "Black"], "Primadiente Rose": ["Primadiente"],
+            "Togen": ["Tojen"], "Sugar and Spice": ["Sugar & Spice"], "Robin Whitebreast": ["Weisskehlchen", "Weißkehlchen"], "Cheju-do": ["Chejudo", "Cheju Do"],}
 GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra", "white",
-           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta", "major", "aureus", "coccineus", "rubrifolia", "french"}
+           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta", "major", "aureus", "coccineus", "rubrifolia", "french", "grandiflora", "albiflora"}
 
 
 def slug(s):
