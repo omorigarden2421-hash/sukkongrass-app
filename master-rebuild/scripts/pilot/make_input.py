@@ -35,7 +35,7 @@ for r in rows[1:]:
         continue
     sci = clean(d["学名"])
     sci = re.sub(r"^(\w+)'", r"\1 '", sci)  # Hosta'Gold Standard'
-    g = sci.split()[0]
+    g = re.sub(r"^[×x]\s+", "", sci).split()[0]  # 属間交配（× Heucherella など）は × を外した語を属とする。学名の列はそのまま
     if g not in GENERA:
         continue
     cv = re.search(r"'(.+)'", sci)  # 品種名の中のアポストロフィ（Cat's Eyes など）を切らない
@@ -46,7 +46,7 @@ for r in rows[1:]:
     species = f"{g} {words[0]}" if words and re.fullmatch(r"[a-z\-]+", words[0]) else f"{g} hybrid"
     species = {"Scabiosa caucasia": "Scabiosa caucasica"}.get(species, species)  # マスターのつづり違い（学名の列はそのまま残す）
     items.append({"商品番号": d["商品番号"], "植物名": clean(d["植物名"]), "学名": sci, "属": g, "species": species,
-                  "交配種": hybrid, "品種名": cv.group(1) if cv else None, "別名": clean(d["別名"]) if d.get("別名") else None,
+                  "交配種": hybrid, "品種名": cv.group(1).split("'(")[0] if cv else None,  # 'Pink Jewel'('Rosa Juwel') は最初の名前だけ "別名": clean(d["別名"]) if d.get("別名") else None,
                   "在庫あり": isinstance(d.get("在庫数"), (int, float)) and d["在庫数"] > 0,
                   "花時期": d.get("花時期"), "高さ(cm)": d.get("高さ(cm)"), "耐寒性": d.get("耐寒性"),
                   # 文献に品種のページがないときに「自社の値」として使う（2026-11-19 決定）

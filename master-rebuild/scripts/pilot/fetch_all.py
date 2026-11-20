@@ -149,7 +149,9 @@ GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "
                "Pennisetum": ["Pennisetum", "Cenchrus"],
                "Eupatorium": ["Eupatorium", "Eutrochium", "Conoclinium", "Eupatoriadelphus"], "Deschampsia": ["Deschampsia", "Avenella"],
                "Andropogon": ["Andropogon", "Schizachyrium"],
-               "Gaura": ["Gaura", "Oenothera"], "Calamintha": ["Calamintha", "Clinopodium"]}
+               "Gaura": ["Gaura", "Oenothera"], "Calamintha": ["Calamintha", "Clinopodium"],
+               "Symphyotrichum": ["Symphyotrichum", "Aster"], "Stipa": ["Stipa", "Nassella", "Jarava"], "Kalimeris": ["Kalimeris", "Aster"],
+               "Phlomis": ["Phlomis", "Phlomoides"], "Elymus": ["Elymus", "Agropyron"], "Galium": ["Galium", "Asperula"]}
 SPECIES_ALIAS = {
  "Aster novae-angliae": ["Symphyotrichum novae-angliae"], "Aster novi-belgii": ["Symphyotrichum novi-belgii"],
  "Aster dumosus": ["Symphyotrichum dumosum"], "Aster cordifolius": ["Symphyotrichum cordifolium"],
@@ -193,6 +195,12 @@ SPECIES_ALIAS = {
  "Oenothera macrocarpa": ["Oenothera missouriensis", "Oenothera macrocarpa subsp. fremontii"], "Oenothera speciosa": ["Oenothera berlandieri"],
  "Athyrium niponicum": ["Athyrium niponicum var. pictum", "Athyrium nipponicum"], "Cornus sericea": ["Cornus stolonifera"],
  "Papaver orientale": ["Papaver Oriental Group", "Papaver (Oriental Group)"],
+ "Symphyotrichum ericoides": ["Aster ericoides"], "Symphyotrichum novi-belgii": ["Aster novi-belgii"],
+ "Leucanthemum superbum": ["Leucanthemum x superbum", "Chrysanthemum maximum"],
+ "Stipa tenuissima": ["Nassella tenuissima"], "Stipa ichu": ["Jarava ichu"], "Kalimeris incisa": ["Aster incisus"],
+ "Elymus magellanicus": ["Agropyron magellanicum"], "Echinops ritro": ["Echinops ritro subsp. ruthenicus"], "Galium odoratum": ["Asperula odorata"],
+ "Phlomis tuberosa": ["Phlomoides tuberosa"], "Viburnum plicatum": ["Viburnum plicatum f. tomentosum", "Viburnum plicatum var. tomentosum"],
+ "Chasmanthium latifolium": ["Uniola latifolia"], "Sagina subulata": ["Sagina subulata var. glabrata"],
 }
 # 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
 CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],
@@ -212,9 +220,9 @@ CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blu
             "Togen": ["Tojen"], "Sugar and Spice": ["Sugar & Spice"], "Robin Whitebreast": ["Weisskehlchen", "Weißkehlchen"], "Cheju-do": ["Chejudo", "Cheju Do"],
             "Princess Victoria Louise": ["Prinzessin Victoria Louise"], "May queen": ["May Queen"], "Blue spires": ["Blue Spires"],
             "Janlim": ["Oriental Limelight"], "Snowflake": ["Schneeflocke"], "All Gold": ["Allgold"], "Sibirica": ["Westonbirt"],
-            "Brilliant": ["Brillant"], "Nana": ["Silver Mound"],"Silver Wings": ["Silver Wing"]}
+            "Brilliant": ["Brillant"], "Nana": ["Silver Mound"], "Pink Jewel": ["Rosa Juwel"], "Broadway Lights": ["Leumayel"], "Silver Wings": ["Silver Wing"]}
 GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra", "white",
-           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta", "major", "aureus", "coccineus", "rubrifolia", "french", "grandiflora", "albiflora", "elegantissima", "brilliant", "snowflake", "metallicum"}
+           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta", "major", "aureus", "coccineus", "rubrifolia", "french", "grandiflora", "albiflora", "elegantissima", "brilliant", "snowflake", "metallicum", "atropurpureum", "albaplena", "roseaplena", "mariesii"}
 
 
 def slug(s):
