@@ -206,15 +206,31 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - おぎはらと欧米の文献の食い違い：タリクトラム アキレジフォリウム・デラバイ（おぎはら 中／MBG 弱 相当）、モリニア 'Variegata'（強／弱 相当）、リシマキア・西洋クガイソウ（強／中 相当）
 - ユーザーに聞くこと・伝えること（学名の検討に出る）：(a) Vs01「ベロニカストラム シビリクム（クガイソウ）」は、おぎはらのクガイソウ（Veronicastrum japonicum）のページを和名で当てた。売っているのがどちらかは要確認 (b) Vs02 エゾクガイソウは、おぎはらでは Veronicastrum sachalinense (c) ススキ 'Purpurascens' は RHS・MBG とも種小名なし、'Cosmopolitan' は RHS では var. condensatus の品種 (d) コレオプシス 'Star Cluster' は RHS・おぎはらとも種小名なし（マスターは × verticillata） (e) リアトリス 'Kobold' は、おぎはらでは 'Goblin'（英語名）(f) シカゴ植物園：デラバイは試験地（日なた）で根づきが悪く冬に枯れた、'Elin' は最高評価だがうどんこ病が2年出た (g) Gaißmayer：エリンジウム ユッキフォリウムは Z7、プンクタータは地下茎で広がりはびこる
 
-## 次にやること（9つ目のまとまりから）
-- batch_08 までで 916品種中 442品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54）。残りは 474品種・186属。これまでの HANDOFF の「404品種」は数え違いだった
-- 残りの属はどれも11品種以下なので、1回 50品種前後（8属ほど）にまとめる
-- 残りの属（在庫のある品種が多い順。在庫あり／全品種。2026-11-20 に元のマスターから数えた）：モナルダ 5/6、トラデスカンティア 5/6、スピレア 5/5、ネペタ 4/11、アネモネ 4/6、アクイレギア 4/6、セントーレア 4/6、アジュガ 4/5、ダイアンサス 4/5、ヘレニウム 4/5、ミューレンベルギア 4/5、アルメリア 4/4、ユーフォルビア 4/4、ヘリアンセマム 4/4、クニフォフィア 4/4、ペニセタム 4/4、ルドベキア 4/4、タイム 3/11、ジギタリス 3/10、プリムラ 3/7、ユーパトリウム 3/6、ベルゲニア 3/5、カラマグロスティス 3/5、デスカンプシア 3/5、フクシア 3/5、アイリス 3/5、ロニセラ 3/5、シレネ 3/5 …（数え方は 2026-11-20 の作業のとおり：元のマスターの学名の最初の語を属とし、batch_*/input と pilot/input にある属を除く）
-- 9つ目：モナルダ・トラデスカンティア・スピレア・ネペタ・アネモネ・アクイレギア・セントーレア・アジュガ（51品種）。試作28品種に入っている品種（アネモネ 'Madonna'、アジュガ 'Burgundy Glow'、スピレア 'Goldflame' など）も、ほかと同じ形で下書きに入れる
-- シカゴ植物園の評価報告がある属（一覧より）：no12 モナルダ、no34 トラデスカンティア、no29 ネペタ、no25 アネモネ、no8 ルドベキア、no37 ユーパトリウム、no24 アルケミラ、no30 レウカンセマム、no32 プラティコドン、no18 アムソニア、no19 アルテミシア、no20 エピメディウム、no23 ラミウム、no26 オエノセラ、no15 ソリダゴ、no16 トリキルティス ほか。画像だけで読めない号：no5、no9
-- 1つのまとまりの手順（batch_05〜08 と同じ）：make_input.py → fetch_all.py と fetch_walters.py を裏で実行 → おぎはら（curl）→ RHS の番号（アプリ内のブラウザー。候補を curl で読んで Name Status を見る）→ Gaißmayer・Jelitto（Chrome。1ページごとに6秒あける。確認画面が出たら操作せず、別の作業をしてからタブを見直す。それでも出たままなら飛ばして、ここに書く）→ シカゴ植物園の号を探す → fetch_rhs.py → digest.py → assemble_pilot.py → 根拠を読んで当たり違いを直す → MBG・NC State の暑さの文の拾い漏れを見る → 前の batch を作り直して比べる → HANDOFF.md → コミット → GitHub に送る
+## 9つ目のまとまり：モナルダ・トラデスカンティア・スピレア・ネペタ・アネモネ・アクイレギア・セントーレア・アジュガ（2026-11-20、下書きまで完了）
+- 入力は batch_09/input（51品種：Mn=モナルダ6、Td=トラデスカンティア6、Sp=スピレア5、Ne=ネペタ11、An=アネモネ6、Aq=アクイレギア6、Ce=セントーレア6、Aj=アジュガ5。種のまとまり 25）。試作28品種と重なる品種（アジュガ 'Burgundy Glow'、スピレア 'Goldflame' など）も同じ形で入れてある
+- 文献：おぎはら 24ページ（29品種）、RHS 50品種、Gaißmayer 14ページ（18品種）・Jelitto 23ページ（どちらも Chrome、6秒おき）、シカゴ植物園 no12 モナルダ 2品種・no34 トラデスカンティア 5品種・no29 ネペタ 5品種・no25 アネモネ 2品種
+- 確認画面：Jelitto が途中で一度確認画面に戻った（気づかずに検索を8回続けて開いてしまった）。操作せずに10分ほど別の作業をしている間に自動で通った。まとめて開く前に、最初の1ページの題名で確認画面でないことを確かめる
+- 裏で動かす取得（fetch_all.py）は10分で打ち切られることがある。止まっていたら、同じコマンドをもう一度実行すれば続きから取れる。そのあと fetch_walters.py も忘れずに実行する（最後の行が done になっているか、walters の一覧が出たかを見る）
+- fetch_all.py に足したもの：アネモネ（Eriocapitella）・セントーレア（Psephellus）の別の属名、シュウメイギク・ネペタ・コデマリ・トラデスカンティアの × 表記、mussinii＝racemosa、'Blue Stocking'＝'Blaustrumpf'、'Genpei'＝'Shirobana' など。'Major' をありふれた品種名に追加
+- 下書き：`ClaudeWork/下書き_モナルダ・トラデスカンティア・スピレア・ネペタ・アネモネ・アクイレギア・セントーレア・アジュガ51品種_1120.xlsx`。耐暑性 強 25・中 18・弱 3・空欄 5、蒸れ耐性 中 11・弱 6・空欄 34、西日耐性 ◎4・○21・△15・×6・空欄 5。品種のページがどの文献にもない品種はなし
+- 根拠を確認して直したこと（assemble_pilot.py）：MBG・NC State の暑さの文を全部出して、当たっていない文を足した。「Foliage tends to burn in hot, dry, sunny summer conditions」（シュウメイギク）、「As the heat of the summer sets in, foliage tends to decline」「the foliage will decline」（トラデスカンティア）を 中、「good heat tolerance」（シモツケ 'Goldflame'）を 強、「may be bothered by humidity」（ネペタ）を蒸れ 中。前の batch（02〜08）を作り直して比べたが、変化はなかった
+- 同名の別品種への当たり違いは見つからなかった。stauden.de はモナルダの交配品種を「Monarda fistulosa '…'」、'Pink Candy' を Nepeta subsessilis と書いているが、品種名は同じ
+- 同じ種のおぎはらの値（batch_09/ogihara_data.py の SIBLING）：モナルダ ディディマの4品種（Mn01〜Mn04。根拠は図鑑の色別の「Monarda didyma×hybridus」4ページ。品種名のあるページではないので、ほかより根拠が弱い）、トラデスカンティア アンダーソニアナの Td01・Td02、シモツケの Sp01・Sp03 を 強、オダマキ 'Bordeaux Barlow'（Aq05）を 中
+- 耐暑性 弱 の3品種：ネペタ ムッシーニアイ（Ne05）・'Alba'（Ne06）・'Blue Wonder'（Ne09）。MBG の文は「Somewhat intolerant of the heat and humidity of the deep South（深南部の高温多湿にはやや弱い）」で、「やや」が付く。同じ文のある 'Six Hills Giant'・'Walker's Low' は、おぎはらにページがあるので 強（食い違いの記録つき）。最後の検討で見る
+- おぎはらと欧米の文献の食い違い：セントーレア ディールバータ（おぎはら 強／MBG：涼しい夏の気候を好み、ゾーン7より南ではよく育たない＝弱 相当）、ネペタ（上のとおり）、モナルダ ディディマ・トラデスカンティア（強／中 相当）
+- 耐暑性が空欄の5品種：An05・Aq02・Ce02・Mn05・Ne08（暑さの記述がどの文献にもない）
+- ユーザーに聞くこと・伝えること（学名の検討に出る）：(a) ネペタは文献ごとに種の扱いが違う。'Felix' は RHS・Jelitto とも racemosa（マスターは × faassenii）、'Blue Wonder' は RHS が × faassenii（マスターは racemosa）、'Walker's Low' は おぎはらが × faassenii、'Pink Candy' は RHS が種小名なし・おぎはらが hybrida（マスターは nervosa）、ムッシーニアイは RHS・Jelitto とも racemosa が正名 (b) モナルダ 'Blue Stocking'・'Fireball'・'Panorama Red Shades' は RHS では種小名なし、'Bee-Bright' は流通名で品種名は 'Monbebr' (c) 'Magic Carpet'・'Junior Walker'・'Black Scallop' も RHS では流通名（品種名は 'Walbuma'・'Novanepjun'・'Binblasca'） (d) アジュガ 'Chocolate Chip' は、おぎはらが Ajuga tenorii、RHS は reptans 'Chocolate Chip' をシノニム扱い (e) スピレア 'Goldflame' は、おぎはらが × bumalda（RHS は japonica が正名） (f) トラデスカンティアは RHS がどれも Andersoniana Group (g) シカゴ植物園：トラデスカンティア 'Little Doll' は葉の斑点病が最も重い区分、'Red Cloud' は勢いが強いが咲き始めに倒れやすい、モナルダ フィッツローサはうどんこ病に very poor、シュウメイギク 'Pamina' は冬の傷みで株を失い再試験
+
+## 次にやること（10個目のまとまりから）
+- batch_09 までで 916品種中 493品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54＋51）。残りは 423品種・178属
+- 残りの属はどれも11品種以下なので、1回 50品種前後（8〜10属）にまとめる
+- 残りの属（在庫のある品種が多い順。在庫あり／全品種。2026-11-20 に元のマスターから数えた）：ダイアンサス 4/5、ヘレニウム 4/5、ミューレンベルギア 4/5、アルメリア 4/4、ユーフォルビア 4/4、ヘリアンセマム 4/4、クニフォフィア 4/4、ペニセタム 4/4、ルドベキア 4/4、タイム 3/11、ジギタリス 3/10、プリムラ 3/7、ユーパトリウム 3/6、ベルゲニア 3/5、カラマグロスティス 3/5、デスカンプシア 3/5、フクシア 3/5、アイリス 3/5、ロニセラ 3/5、シレネ 3/5 …（数え方：元のマスターの学名の最初の語を属とし、batch_*/input と pilot/input にある属を除く。数えるコードは 2026-11-20 の作業のとおりで、次のセッションでは数え直す）
+- 10個目：ダイアンサス・ヘレニウム・ミューレンベルギア・アルメリア・ユーフォルビア・ヘリアンセマム・クニフォフィア・ペニセタム・ルドベキア・タイム（50品種）。ID の頭文字は、これまでに使ったもの（H G V A M C X F R S D E B Me Ge Vi Pu Pe Po Pa Ac St He Sc Pl Fi Sa Tr Th Co Li Ly Vs Er Mi Mo Mn Td Sp Ne An Aq Ce Aj、試作の P）と重ならないようにする
+- シカゴ植物園の評価報告がある属（一覧より）：no8 ルドベキア、no37 ユーパトリウム、no24 アルケミラ、no30 レウカンセマム、no32 プラティコドン、no18 アムソニア、no19 アルテミシア、no20 エピメディウム、no23 ラミウム、no26 オエノセラ、no15 ソリダゴ、no16 トリキルティス ほか。画像だけで読めない号：no5、no9
+- 1つのまとまりの手順：make_input.py → fetch_all.py と fetch_walters.py（裏で。10分で切れたらもう一度）→ おぎはら（scripts/tools/ogi_search.py で検索、ogi_page2.py でページを1行ずつに）→ RHS の番号（アプリ内のブラウザーで検索を順に開く → 候補を scripts/tools/rhs_check.py で読んで Name Status を見る）→ Gaißmayer・Jelitto（Chrome。1ページごとに6秒あける。最初の1ページで確認画面でないことを確かめる。確認画面が出たら操作せず、別の作業をしてからタブを見直す。それでも出たままなら飛ばして、ここに書く）→ シカゴ植物園の号（pdftotext -raw）→ scripts/tools/clean_raw.py（壊れた生データを消す）→ fetch_rhs.py → digest.py → assemble_pilot.py → scripts/tools/show.py で当たり先と根拠を読む → MBG・NC State の hot・heat・humid・cool を含む文を全部出して拾い漏れを見る → scripts/tools/rediff.py で前の batch を作り直して比べる → HANDOFF.md → コミット → GitHub に送る
+- scripts/tools/ の補助スクリプトは、作業中に一時フォルダで使っていたものをそのまま入れた（生データの場所が書き込まれているものがある。別のパソコンやフォルダでは書き換えて使う）
 - Jelitto・Gaißmayer を飛ばしたまとまり：なし
-- 生データ（b2_raw〜b8_raw と digest）はこのパソコンの一時フォルダ（AppData/Local/Temp/claude/ の下。b7・b8 は 5942321c1c0f279d/ea463099-…/scratchpad）にあり、消えることがある。消えていたら fetch_all.py などで取り直せる
+- 生データ（b2_raw〜b9_raw と digest）はこのパソコンの一時フォルダ（AppData/Local/Temp/claude/ の下。b7〜b9 は 5942321c1c0f279d/ea463099-…/scratchpad）にあり、消えることがある。消えていたら fetch_all.py などで取り直せる
 - Windows の Git Bash では、長い日本語と引用符を含むヒアドキュメントが「unexpected EOF」で失敗することがある。データのファイルは、ファイルを書く道具で直接書く
 
 ## 新しいセッションで続けるとき

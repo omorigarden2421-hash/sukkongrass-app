@@ -144,7 +144,8 @@ GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "
                "Persicaria": ["Persicaria", "Bistorta", "Koenigia", "Aconogonon", "Polygonum"],
                "Sedum": ["Sedum", "Hylotelephium", "Phedimus"], "Hylotelephium": ["Hylotelephium", "Sedum"],
                "Stachys": ["Stachys", "Betonica"], "Potentilla": ["Potentilla", "Sibbaldiopsis"],
-               "Scabiosa": ["Scabiosa", "Lomelosia"], "Sanguisorba": ["Sanguisorba", "Poterium"]}
+               "Scabiosa": ["Scabiosa", "Lomelosia"], "Sanguisorba": ["Sanguisorba", "Poterium"],
+               "Anemone": ["Anemone", "Eriocapitella"], "Centaurea": ["Centaurea", "Psephellus"]}
 SPECIES_ALIAS = {
  "Aster novae-angliae": ["Symphyotrichum novae-angliae"], "Aster novi-belgii": ["Symphyotrichum novi-belgii"],
  "Aster dumosus": ["Symphyotrichum dumosum"], "Aster cordifolius": ["Symphyotrichum cordifolium"],
@@ -168,6 +169,10 @@ SPECIES_ALIAS = {
  "Polemonium yezoense": ["Polemonium caeruleum subsp. yezoense", "Polemonium yezoense var. hidakanum"],
  "Thalictrum rochebrunianum": ["Thalictrum rochebruneanum"], "Thalictrum flavum": ["Thalictrum flavum subsp. glaucum"],
  "Molinia caerulea": ["Molinia caerulea subsp. caerulea", "Molinia arundinacea", "Molinia caerulea subsp. arundinacea"],
+ "Anemone hupehensis": ["Anemone hupehensis var. japonica", "Eriocapitella hupehensis"], "Anemone hybrida": ["Anemone x hybrida", "Eriocapitella x hybrida"],
+ "Nepeta faassenii": ["Nepeta x faassenii"], "Nepeta mussinii": ["Nepeta racemosa"], "Spiraea vanhouttei": ["Spiraea x vanhouttei"],
+ "Tradescantia andersoniana": ["Tradescantia x andersoniana", "Tradescantia (Andersoniana Group)", "Tradescantia virginiana"],
+ "Centaurea dealbata": ["Psephellus dealbatus"], "Centaurea pulcherrima": ["Psephellus pulcherrimus"],
 }
 # 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
 CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],
@@ -176,9 +181,11 @@ CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blu
             "Blue Perfection": ["Perfecta", "Perfecta Blue"], "Compliment": ["Kompliment"], "Moon Dance": ["Moondance"], "Fama": ["Fama Deep Blue", "Fama Blue"],
             "Venusta Magnifica": ["Venusta"], "Filigree Clouds": ["Filigree Cloud"], "Golden Queen": ["Goldkönigin"], "Lemon Queen": ["Zitronenkönigin"],
             "Lavendelturm": ["Lavender Towers"], "Erika": ["Erica"], "Moorhex": ["Moorhexe"], "Floristan Violet": ["Floristan Violett"],
-            "Floristan White": ["Floristan Weiss", "Floristan Weiß"], "Blue Hobbit": ["Blauer Zwerg"], "Thundercloud": ["Thunder Cloud"],}
+            "Floristan White": ["Floristan Weiss", "Floristan Weiß"], "Blue Hobbit": ["Blauer Zwerg"], "Thundercloud": ["Thunder Cloud"],
+            "Blue Stocking": ["Blaustrumpf"], "Panorama Red Shades": ["Panorama Red"], "Bee-Bright": ["Bee Bright"], "Dropmore": ["Dropmore Hybrid"],
+            "Genpei": ["Shirobana"], "Pink Lanterns": ["Pink Lantern"],}
 GENERIC = {"album", "alba", "rose", "rosea", "nana", "variegated", "variegata", "albomarginata", "aurea", "rubra", "white",
-           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta"}
+           "mediovariegatum", "variegatum", "tricolor", "superba", "atropurpurea", "aureovariegata", "elegans", "venusta", "major"}
 
 
 def slug(s):
