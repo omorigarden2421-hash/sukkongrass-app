@@ -1,0 +1,180 @@
+<title>暑さに弱い品種の確認</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* レイアウト: スマホ1列の確認帳。上に説明、質問カード、見るだけの一覧、最後に回答の文。色は苗札の緑と、注意の橙 */
+:root {
+  --bg: #f3f5f0; --surface: #ffffff; --fg: #1d2620; --muted: #5d6b61; --line: #d5dcd2;
+  --accent: #2c6b4a; --accent-soft: #e1eee5; --warn: #a8550c; --warn-soft: #fbead6; --on-accent: #ffffff;
+  --font: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic UI", "Meiryo", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141a16; --surface: #1d2620; --fg: #e8eee8; --muted: #a3b0a6; --line: #34413a;
+  --accent: #7fc79d; --accent-soft: #24382d; --warn: #f0a85c; --warn-soft: #3d2c18; --on-accent: #10231a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141a16; --surface: #1d2620; --fg: #e8eee8; --muted: #a3b0a6; --line: #34413a;
+  --accent: #7fc79d; --accent-soft: #24382d; --warn: #f0a85c; --warn-soft: #3d2c18; --on-accent: #10231a; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 16px; line-height: 1.7;
+  padding-block: 20px 120px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+main { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+h1 { font-size: 1.5rem; line-height: 1.35; margin: 0; text-wrap: balance; }
+h2 { font-size: 1.15rem; margin: 12px 0 0; padding-top: 16px; border-top: 2px solid var(--fg); text-wrap: balance; }
+h3 { font-size: 1.02rem; margin: 0; line-height: 1.45; display: flex; gap: 10px; align-items: baseline; }
+p { margin: 0; }
+.lead { color: var(--muted); font-size: .95rem; }
+.how { background: var(--accent-soft); border-radius: 10px; padding: 12px 14px; font-size: .93rem; }
+.how ol { margin: 4px 0 0; padding-left: 1.3em; }
+.num { flex: none; min-width: 1.7em; height: 1.7em; border-radius: 50%; background: var(--accent); color: var(--on-accent); font-size: .85rem; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; }
+.q { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+.q.done { border-color: var(--accent); }
+.plants, .list, .src { list-style: none; margin: 0; padding: 0; }
+.plants { display: flex; flex-direction: column; gap: 4px; }
+.plants li, .nm { display: flex; flex-direction: column; min-width: 0; }
+.plants b, .nm b { font-weight: 500; font-size: .95rem; overflow-wrap: anywhere; }
+.no { color: var(--muted); font-size: .78rem; overflow-wrap: anywhere; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: .8rem; border: 1px solid var(--line); border-radius: 999px; padding: 1px 10px; white-space: nowrap; }
+.chip i { font-style: normal; color: var(--muted); margin-right: 6px; }
+.chip.warn { background: var(--warn-soft); border-color: transparent; color: var(--warn); font-weight: 700; }
+.chip.warn i { color: var(--warn); font-weight: 400; }
+.chip.now { background: var(--accent-soft); border-color: transparent; font-weight: 700; }
+.chip.both { background: var(--warn); color: var(--surface); border-color: transparent; }
+.ev { margin: 0; font-size: .9rem; display: grid; gap: 2px; }
+.ev dt { color: var(--muted); font-size: .78rem; margin-top: 4px; }
+.ev dd { margin: 0; }
+.opts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.opt { position: relative; }
+.opt input { position: absolute; opacity: 0; inset: 0; }
+.opt span { display: flex; flex-direction: column; align-items: center; gap: 0; border: 1.5px solid var(--line); border-radius: 10px; padding: 8px 4px; font-size: .88rem; min-height: 56px; justify-content: center; text-align: center; cursor: pointer; }
+.opt span b { font-size: 1rem; }
+.opt input:checked + span { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.opt input:focus-visible + span, .flag input:focus-visible + span { outline: 3px solid var(--warn); outline-offset: 2px; }
+.memo { display: flex; flex-direction: column; gap: 2px; font-size: .8rem; color: var(--muted); }
+textarea { font: inherit; font-size: 1rem; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; resize: vertical; min-height: 44px; width: 100%; box-sizing: border-box; }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: .9rem; }
+.tools label { display: inline-flex; gap: 6px; align-items: center; min-height: 44px; }
+.list { display: flex; flex-direction: column; }
+.row { padding: 12px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 6px; }
+.rowhead { display: flex; gap: 10px; justify-content: space-between; align-items: flex-start; }
+.flag { position: relative; flex: none; }
+.flag input { position: absolute; opacity: 0; inset: 0; }
+.flag span { display: inline-flex; align-items: center; justify-content: center; min-width: 58px; min-height: 40px; border: 1.5px solid var(--line); border-radius: 10px; font-size: .88rem; cursor: pointer; }
+.flag input:checked + span { background: var(--warn); border-color: var(--warn); color: var(--surface); font-weight: 700; }
+details { font-size: .82rem; color: var(--muted); }
+summary { cursor: pointer; min-height: 32px; display: flex; align-items: center; }
+.src { display: flex; flex-direction: column; gap: 4px; padding: 4px 0 4px 10px; border-left: 2px solid var(--line); overflow-wrap: anywhere; }
+.answer { background: var(--surface); border: 2px solid var(--accent); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+#out { min-height: 120px; font-size: .95rem; }
+button { font: inherit; font-weight: 700; background: var(--accent); color: var(--on-accent); border: 0; border-radius: 10px; min-height: 48px; padding: 0 18px; cursor: pointer; }
+button:focus-visible { outline: 3px solid var(--warn); outline-offset: 2px; }
+.bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--surface); border-top: 1px solid var(--line);
+  padding: 8px max(16px, env(safe-area-inset-right, 0px)) calc(8px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.bar div { max-width: 680px; margin: 0 auto; display: flex; gap: 12px; align-items: center; justify-content: space-between; font-size: .88rem; }
+.bar a { color: var(--accent); font-weight: 700; padding: 10px 0; }
+#status { color: var(--muted); font-size: .85rem; }
+</style>
+<main>
+<header>
+<h1>暑さに弱い品種の確認</h1>
+<p class="lead">新マスターの下書き（916品種）のうち、本州のお客様に出すときに気をつけたい品種です。2026年11月21日の下書きの値です。</p>
+</header>
+<div class="how">
+<b>使い方</b>
+<ol>
+<li>上の{{NQ}}問（{{N22}}品種）は、A・B・C のどれかを選んでください。</li>
+<li>下の一覧は見るだけで大丈夫です。値が違うと思う品種だけ「違う」を押してください。</li>
+<li>いちばん下にできる回答の文をコピーして、チャットに貼ってください。</li>
+</ol>
+</div>
+
+<h2>耐暑性が「強」のまま残っている{{N22}}品種</h2>
+<p class="lead">おぎはら植物園は「強」、欧米の文献は「弱」にあたる書き方をしている品種です。おぎはらの楽天のページに蒸れや日かげの注意がないので、今は「強」のままにしてあります。耐暑性の意味は「暖地で夏越しできるか」です。</p>
+{{QUESTIONS}}
+
+<h2>耐暑性が「弱」の{{NH}}品種</h2>
+<p class="lead">暖地では夏越しがむずかしく、寒冷地向きとした品種です（在庫あり {{NHS}}品種）。学名の順に並んでいます。根拠の文は、文献のことば（英語）のままです。</p>
+<div class="tools"><label><input type="checkbox" id="stockH"> 在庫のある品種だけ</label></div>
+<ul class="list" id="listH">
+{{HW}}
+</ul>
+
+<h2>蒸れ耐性が「弱」の{{NM}}品種</h2>
+<p class="lead">夏の高温多湿で株がくずれやすいとした品種です（在庫あり {{NMS}}品種）。耐暑性も「弱」の品種は、上の一覧にも出ています。</p>
+<div class="tools"><label><input type="checkbox" id="stockM"> 在庫のある品種だけ</label></div>
+<ul class="list" id="listM">
+{{MW}}
+</ul>
+
+<section class="answer" id="answer">
+<h3>回答の文</h3>
+<p class="lead">選ぶと、ここに文ができます。コピーしてチャットに貼ってください。</p>
+<textarea id="out" readonly aria-label="回答の文"></textarea>
+<button type="button" id="copy">回答の文をコピー</button>
+<span id="status" role="status"></span>
+</section>
+</main>
+<div class="bar"><div><span id="prog">0 / {{NQ}} 問</span><a href="#answer">回答の文へ</a></div></div>
+<script>
+(function () {
+  var NQ = {{NQ}}, KEY = "atsusa-kakunin-1121";
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  function clean(t) { return (t || "").replace(/\s+/g, " ").trim(); }
+  function build() {
+    var parts = [], n = 0, memos = [];
+    for (var i = 1; i <= NQ; i++) {
+      var c = $('input[name="q' + i + '"]:checked');
+      if (c) { parts.push(i + c.value); n++; }
+      var m = clean($("#m" + i).value);
+      if (m) memos.push(i + "（" + m + "）");
+      $('.q[data-q="' + i + '"]').classList.toggle("done", !!c);
+    }
+    var flags = { h: [], m: [] };
+    $$(".row").forEach(function (row) {
+      var k = row.dataset.kind, no = row.dataset.no, on = $("#f" + k + no).checked;
+      var memo = $(".memo", row);
+      memo.hidden = !on;
+      if (on) { var t = clean($("#n" + k + no).value); flags[k].push(no + (t ? "（" + t + "）" : "")); }
+    });
+    var s = "暑さの確認の回答：" + (parts.length ? parts.join("、") : "（まだ選んでいません）");
+    if (memos.length) s += "\n備考：" + memos.join("、");
+    s += "\n耐暑性 弱 で違うと思う品種（商品番号）：" + (flags.h.length ? flags.h.join("、") : "なし");
+    s += "\n蒸れ耐性 弱 で違うと思う品種（商品番号）：" + (flags.m.length ? flags.m.join("、") : "なし");
+    $("#out").value = s;
+    $("#prog").textContent = n + " / " + NQ + " 問";
+    save();
+  }
+  function save() {
+    try {
+      var st = {};
+      $$("input[type=radio]:checked, input[type=checkbox]:checked").forEach(function (x) { st[x.id] = 1; });
+      $$("textarea").forEach(function (x) { if (x.id !== "out" && x.value) st[x.id] = x.value; });
+      localStorage.setItem(KEY, JSON.stringify(st));
+    } catch (e) {}
+  }
+  function load() {
+    try {
+      var st = JSON.parse(localStorage.getItem(KEY) || "{}");
+      Object.keys(st).forEach(function (id) {
+        var x = document.getElementById(id);
+        if (!x) return;
+        if (x.tagName === "TEXTAREA") x.value = st[id]; else x.checked = true;
+      });
+    } catch (e) {}
+  }
+  function filter(box, list) {
+    var on = $(box).checked;
+    $$(".row", $(list)).forEach(function (r) { r.hidden = on && r.dataset.stock !== "1"; });
+  }
+  document.addEventListener("input", build);
+  document.addEventListener("change", function () { filter("#stockH", "#listH"); filter("#stockM", "#listM"); build(); });
+  $("#copy").addEventListener("click", function () {
+    var out = $("#out"), st = $("#status");
+    function fallback() { out.focus(); out.select(); st.textContent = "文を選びました。長押しでコピーしてください。"; }
+    try {
+      navigator.clipboard.writeText(out.value).then(function () { st.textContent = "コピーしました。チャットに貼ってください。"; }, fallback);
+    } catch (e) { fallback(); }
+  });
+  load(); filter("#stockH", "#listH"); filter("#stockM", "#listM"); build();
+})();
+</script>
