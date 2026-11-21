@@ -239,9 +239,9 @@ for m in master:
         mt_how = f"{mt_how or ''}。ユーザーの確認で保留（{ua['日付']}。あとで見直す）"
     if ua and ua.get("備考"):
         mt_note = "。".join(x for x in (mt_note, f"ユーザーの備考：{ua['備考']}") if x)
-    # 混植適性を見直した管理タイプにそろえる: 文を読んで E にしなかった品種で、混植適性の「侵略的」が地下茎・こぼれ種の 3 だけによるものは「強い」に下げる
-    #   （広がりやすいことは文献にあるので 強い は残す。invasive／aggressive の明記ではないと見直しで読んだ）
-    if rv and not (mt or "").startswith("E") and (r.get("混植適性") or "").startswith("侵略的") and (r.get("混植適性の根拠") or "").startswith("地下茎かこぼれ種が 3"):
+    # 混植適性を見直した管理タイプにそろえる: 文を読んで E にしなかった品種で、混植適性が「侵略的」なら「強い」に下げる
+    #   （広がりやすいことは文献にあるので 強い は残す。見直しで、invasive／aggressive の明記ではない・種のこぼれ種の話・地域の話と読んだもの）
+    if rv and not (mt or "").startswith("E") and (r.get("混植適性") or "").startswith("侵略的"):
         r["混植適性"] = "強い（周囲を圧迫、配置注意）"
         r["混植適性の根拠"] += "\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた"
     cold = m.get("耐寒性")

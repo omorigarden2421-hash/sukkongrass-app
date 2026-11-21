@@ -31,6 +31,17 @@
 "quote": "伸びたら短く切り戻すと草姿良く作れる"
 },
 {
+"no": 13,
+"type": "E 隔離推奨型",
+"codes": [
+"不要",
+"花後"
+],
+"confidence": "中",
+"reason": "RHS・品種: すばやく広がり、場所によっては厄介者になりうる。NC State・品種: aggressive に広がる（他州で侵略的とされるのは地域の話だが、庭での広がり方も明記）。stauden.de: ランナーで広がるので抑える。同種の 'Vanilla Chip' と同じ扱い",
+"quote": "Excellent for ground cover and will spread quickly, has the potential to become a nuisance in some areas"
+},
+{
 "no": 14,
 "type": "E 隔離推奨型",
 "codes": [
@@ -51,6 +62,18 @@
 "confidence": "中",
 "reason": "stauden.de・種の決まった文: 種が熟す前に切り戻す（花後）、秋に茎を切る。NC State は花がらが秋冬も観賞できるとするだけ。種の文のみなので 中",
 "quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden"
+},
+{
+"no": 19,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に切り戻す。おぎはら楽天・品種: 花後は早めに花茎を切る、冬に枯れた葉茎を切る。stauden.de: 種が熟す前に切る、秋に茎を切る。株分けは2〜3年・3〜4年ごとで D ではない",
+"quote": "Cut back after flowering"
 },
 {
 "no": 25,
@@ -118,6 +141,28 @@
 "no_prune_and_deadhead": true
 },
 {
+"no": 41,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花が終わるごとに茎を切るとさらに咲く（種穂を冬に残してもよい）。MBG・品種: 花がら摘みで見た目がよくなる。おぎはら楽天: 花後に花茎を切る。stauden.de は秋。calibration の 'Magnus' と同じ B",
+"quote": "Cutting back stems as the blooms fade may encourage further flowering"
+},
+{
+"no": 42,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花が終わるごとに茎を切るとさらに咲く。Walters・品種: 花がら摘みで花期が大きく延びる。stauden.de は秋の切り戻し",
+"quote": "Removing faded flowers regularly will greatly increase the flowering period."
+},
+{
 "no": 45,
 "type": "A 放任型",
 "codes": [
@@ -139,6 +184,41 @@
 "quote": "Remove faded flower clusters as practicable (light shearing is an option) to encourage additional bloom."
 },
 {
+"no": 48,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"早春",
+"秋"
+],
+"confidence": "低",
+"reason": "MBG・品種: 開花前に定期的に刈り込んで姿を整え新葉を出させる（夏咲きなので夏前の刈り込みと読んだ）。'Herrenhausen' と同じ読みで低（そう読まなければ B）。Gaißmayer のこぼれ種で殖える記述は種の記述。品種で同じかは不明なので E にしない",
+"quote": "Best to shear plants back regularly before flowering to keep the planting tidy and to induce growth of new leaves."
+},
+{
+"no": 49,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋"
+],
+"confidence": "低",
+"reason": "MBG・品種: 開花前に定期的に刈り込んで姿を整え新葉を出させる（夏前の刈り込みと読んだ）。'Aureum' と同じ読みで低。こぼれ種で殖える記述は種の記述。品種で同じかは不明なので E にしない",
+"quote": "Best to shear plants back regularly before flowering to keep the planting tidy and to induce growth of new leaves."
+},
+{
+"no": 53,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "Walters・Gaißmayer・おぎはら楽天（品種）: 花後に強く刈り込む。RHS: 定期的に刈る。MBG・種の「条件がよいとはびこりうる」は条件つきなので E にしない（種 Chamaemelum nobile と同じ扱い）。機械の空欄から B",
+"quote": "Nach der Blüte hart zurückschneiden."
+},
+{
 "no": 59,
 "type": "A 放任型",
 "codes": [
@@ -148,6 +228,16 @@
 "confidence": "中",
 "reason": "MBG・NC State（種）: 晩冬に地際まで刈る。stauden.de・種: 秋〜晩秋に茎を切る。花後・夏前の記述はない",
 "quote": "Cut back to ground in late winter to make room for new growth in spring."
+},
+{
+"no": 64,
+"type": "E 隔離推奨型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "NC State・種: 地下茎で aggressively に広がると明記（商品は種そのもの）。同種の 'Beautiful Trust' と同じ E。根拠は種の1文なので 中。RHS: 花後に切り戻す",
+"quote": "It can spread aggressively."
 },
 {
 "no": 65,
@@ -194,6 +284,25 @@
 "quote": "Can be an aggressive spreader."
 },
 {
+"no": 73,
+"type": "A 放任型",
+"codes": [],
+"confidence": "低",
+"reason": "stauden.de・種の「適地ではほぼ手入れ不要」だけ。MBG・種: ほふく茎ですばやく広がるが、茎を切れば簡単に抑えられる（侵略的の明記ではない）。切り戻しの記述はない。機械は null",
+"quote": "Spreads quickly from root crowns by prostrate stems, but is generally easily controlled"
+},
+{
+"no": 76,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に切り戻す。stauden.de・品種: 秋に茎を切る。株分けは5年ごとで D ではない。地下茎（rhizomatous）は性質の説明で侵略的の明記なし",
+"quote": "Cut back after flowering"
+},
+{
 "no": 79,
 "type": "A 放任型",
 "codes": [
@@ -215,6 +324,16 @@
 "quote": "deadhead regularly and cut back after flowering"
 },
 {
+"no": 81,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "RHS・品種: 花後に切り戻す。Walters・stauden.de: 花がら摘み・一番花後の切り戻しで返り咲き。MBG の「夏に花が減ったら切り戻して秋に咲かせる」は花の減りの話で、葉が傷む・姿が乱れる記述ではないので C にしなかった。機械の C から変更",
+"quote": "Cut back after flowering"
+},
+{
 "no": 91,
 "type": "C 夏前切戻型",
 "codes": [
@@ -224,6 +343,17 @@
 "confidence": "中",
 "reason": "MBG・品種: 盛夏〜晩夏に刈り込み、乱れた・倒れた茎葉を除いて秋の返り咲きを促す（夏に姿が乱れるので切り戻す記述）。'スタークラスター' と同じ文なので同じ C。機械の B から変更。「somewhat aggressively」は種の株についての弱い書き方で mixing も「強い」なので E にしない",
 "quote": "Plants may be sheared in mid to late summer to promote a fall rebloom and to remove any sprawling or unkempt foliage."
+},
+{
+"no": 96,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花穂を切ると花期が延びる。stauden.de・おぎはら: 花後の切り戻しで返り咲く。機械は空欄",
+"quote": "Cut back flower spikes to prolong flowering"
 },
 {
 "no": 101,
@@ -236,6 +366,16 @@
 "quote": "deadhead to promote more blooms, and cut back old stems after flowering"
 },
 {
+"no": 102,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 咲き終わりの主花穂を切ると脇の花穂が咲く。おぎはら楽天: 種がこぼれた後に花茎を切る。機械の空欄から B",
+"quote": "Cut back main flower spike as it fades to encourage the growth of flowering side shoots"
+},
+{
 "no": 108,
 "type": "A 放任型",
 "codes": [
@@ -244,6 +384,26 @@
 "confidence": "高",
 "reason": "RHS・品種: 剪定不要。stauden.de・種: 適地ではほぼ手入れ不要。花後・夏の切り戻しの記述はない",
 "quote": "No pruning required"
+},
+{
+"no": 109,
+"type": "A 放任型",
+"codes": [],
+"confidence": "中",
+"reason": "stauden.de・種: 手入れほぼ不要、の1文だけ。機械は空欄だが決まった文の読み方で A",
+"quote": "An optimalen Standorten kaum Pflege nötig."
+},
+{
+"no": 110,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"不要"
+],
+"confidence": "中",
+"reason": "RHS・品種: 剪定不要だが花後に花がらを摘むと二番花。Walters・品種: 花の直後に軽く刈る。花後の記述があるので上から順の判定で B。機械の A から変更",
+"quote": "Clip plants lightly immediately after blooming.",
+"no_prune_and_deadhead": true
 },
 {
 "no": 120,
@@ -329,6 +489,19 @@
 "quote": "Cut back after flowering"
 },
 {
+"no": 131,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春",
+"不要"
+],
+"confidence": "中",
+"reason": "MBG・種／Walters・品種: 花後に刈り込む・刈る。MBG の「必要なら毎年株分けして締まった姿に」は条件つきで、毎年の更新が必要との明記ではないので D にしない（NC State は数年ごと）。ランナーで広がり「必要に応じて抑える」（stauden.de）は侵略的の明記ではない。機械の D から変更",
+"quote": "Plants should be clipped hard or mowed (to 2 inches) after blooming to maintain a tidy habit.",
+"no_prune_and_deadhead": true
+},
+{
 "no": 135,
 "type": "B 花後刈込型",
 "codes": [
@@ -338,6 +511,17 @@
 "confidence": "高",
 "reason": "RHS: 咲き終わった茎と古葉を取る。おぎはら楽天: 花後に1/3ほどに切って姿を整える。MBG・種: 花後に軽く刈り込む（夏の傷みの話はない）。RHS の「管理しないと厄介になりうる」は侵略的の明記ではないので E にしない",
 "quote": "花後に3分に1ほどに短くカットし姿を整える"
+},
+{
+"no": 138,
+"type": "E 隔離推奨型",
+"codes": [
+"不要",
+"花後"
+],
+"confidence": "中",
+"reason": "MBG・種: 節から根を出す走出枝で急速に広がり、やや侵略的（特に肥えた湿った土）と明記。走出枝による広がりなので種の記述を品種に当てた。おぎはら・品種も繁殖枝で広がる。「やや」なので中",
+"quote": "It can be somewhat invasive, particularly when grown in rich moist soils."
 },
 {
 "no": 139,
@@ -377,6 +561,17 @@
 "quote": null
 },
 {
+"no": 145,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS: 花後に強く切り戻してコンパクトに保つ。Walters: 早春に刈ってよい。夏前・夏の傷みの記述はないので C ではなく B（機械は C）",
+"quote": "Cut back hard after flowering to retain compactness"
+},
+{
 "no": 146,
 "type": "B 花後刈込型",
 "codes": [
@@ -386,6 +581,16 @@
 "confidence": "高",
 "reason": "RHS: 花後に強く切り戻してコンパクトに保つ。Walters: 早春に刈ってよい。夏前・夏の傷みの記述はないので C ではなく B（機械は C）",
 "quote": "Cut back hard after flowering to retain compactness"
+},
+{
+"no": 148,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "中",
+"reason": "RHS・品種: 剪定グループ10、春に。stauden.de: 時々の剪定、適地では手入れほぼ不要。花後・夏前の記述はない（機械と同じ A）",
+"quote": "pruning group 10 , in spring"
 },
 {
 "no": 150,
@@ -408,6 +613,19 @@
 "quote": "Plants will spread, sometimes aggressively, by rhizomes and self-seeding to form large colonies."
 },
 {
+"no": 155,
+"type": "A 放任型",
+"codes": [
+"不要",
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "RHS: 剪定不要。stauden.de: 秋に茎を切る、適地ではほぼ手入れ不要。Walters の花がら摘みはあるが、例のアルメリア（剪定不要＋花茎切り）と同じ形なので A。こぼれ種は適条件で殖える程度",
+"quote": "No pruning required",
+"no_prune_and_deadhead": true
+},
+{
 "no": 157,
 "type": "A 放任型",
 "codes": [],
@@ -424,6 +642,17 @@
 "confidence": "高",
 "reason": "MBG・品種: 花後に花穂を取ると葉の姿がよくなる",
 "quote": "Removal of flower spikes after bloom will improve the appearance of the foliage mound."
+},
+{
+"no": 165,
+"type": "E 隔離推奨型",
+"codes": [
+"不要",
+"秋"
+],
+"confidence": "低",
+"reason": "MBG・種: aggressive に広がることがある。NC State・種: 地下茎とこぼれ種で広がり、品種によっては aggressive に広がる。地下茎を含む広がりと読んで品種にも当てた（'Brushstrokes' と同じ）。どの手段ではびこるか明記がないので低",
+"quote": "Can be an aggressive spreader."
 },
 {
 "no": 166,
@@ -454,6 +683,28 @@
 "confidence": "低",
 "reason": "MBG・種: 適した条件ではこぼれ種で攻撃的に殖えることがあると明記。商品は種そのものなので E。NC State の「不稔の交雑種」は交雑種の話で、この種の記述ではない。ただし「適条件では・ことがある」と条件付きなので低（E でなければ花後の刈り込みで B）。機械は B",
 "quote": "May aggressively self-seed in optimum growing conditions."
+},
+{
+"no": 171,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "stauden.de・品種: 咲き終わった茎を株元の葉まで切る（花後）。RHS・Gaißmayer: 緑の先祖返りを取り除く。ほふく・根付く茎で広がり必要なら抑える程度で侵略的の明記なし。機械は null",
+"quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf"
+},
+{
+"no": 176,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"不要"
+],
+"confidence": "低",
+"reason": "RHS・品種: 剪定不要、花がら摘みで花期が延びる（上から順で B、機械は A）。MBG・種の「ほふく茎とこぼれ種で時に aggressive に広がる」は E に当たりうるが、mixing は「強い」で侵略的ではなく、sometimes の書き方なので E にしなかった。迷う",
+"quote": "No pruning required. deadhead to prolong flowering",
+"no_prune_and_deadhead": true
 },
 {
 "no": 184,
@@ -527,6 +778,27 @@
 "quote": "Can spread aggressively into adjacent lawns or garden areas."
 },
 {
+"no": 202,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "高",
+"reason": "MBG・品種: 必要なら花の直後に（8月半ばまでに）剪定。早春に地際近くまで切って若返らせてもよい。木本の花後剪定なので B（'Summer Wine' と同じ）。夏前・夏の傷みの記述はないので機械の C を B に変更",
+"quote": "Prune as needed immediately after bloom and no later than mid-August."
+},
+{
+"no": 205,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・MBG・NC State（品種）: 晩冬〜早春に地際近くまで刈るだけ。おぎはら楽天の決まった文では C にしない。地下茎は「攻撃的ではない」と打ち消し。機械の B から変更",
+"quote": "Prune to nearly ground level in late winter to early spring before new growth appears."
+},
+{
 "no": 206,
 "type": "C 夏前切戻型",
 "codes": [
@@ -538,6 +810,17 @@
 "quote": "Clumps may decline in hot, humid summers, and should be cut back if such occurs."
 },
 {
+"no": 209,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 秋〜冬に枯れ茎を切り、こぼれ種を防ぐため咲き終わった花を取る。MBG・品種: 種ができる前に花茎を取る。おぎはら楽天: 花後に花茎を切る。侵略的の明記はない",
+"quote": "Remove faded flowers to prevent self-seeding"
+},
+{
 "no": 210,
 "type": "A 放任型",
 "codes": [
@@ -546,6 +829,17 @@
 ],
 "confidence": "中",
 "reason": "stauden.de・種: 秋〜晩秋に茎を切る。NC State・種: 枯れ込まなければ春に地際まで切って更新してもよい。RHS は剪定グループ6とあるだけ。機械は空欄",
+"quote": "Rückschnitt der Stängel im Herbst bis Spätherbst"
+},
+{
+"no": 211,
+"type": "A 放任型",
+"codes": [
+"秋",
+"早春"
+],
+"confidence": "中",
+"reason": "stauden.de・種: 秋〜晩秋に茎を切る。NC State・種: 枯れ込まなければ春に地際まで切って更新してもよい。RHS は剪定グループ6だけ。種 Fuchsia magellanica と同じ扱い。機械の空欄から A",
 "quote": "Rückschnitt der Stängel im Herbst bis Spätherbst"
 },
 {
@@ -588,6 +882,26 @@
 "confidence": "高",
 "reason": "MBG・NC State・品種: 花後に花茎を切る、Walters: 花後すぐ強く切り戻して葉を更新。夏の傷みの記述はないので機械の C ではなく B。おぎはら楽天: 冬に枯れた花茎・葉を切る",
 "quote": "Remove flower stems immediately after bloom."
+},
+{
+"no": 222,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "MBG・NC State（種）: 花後に茎を切り戻すとうどんこ病を抑えやすい。stauden.de・種: 咲き終わった花穂を切る。はびこるとの記述はない。種の文だけなので中。機械は空欄",
+"quote": "Cutting back stems after flowering helps combat mildew."
+},
+{
+"no": 223,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "MBG・NC State（種）: 花後に茎を切り戻すとうどんこ病を抑えやすい。stauden.de・種: 咲き終わった花穂を切る。はびこるとの記述はない。種の文だけなので中。機械は空欄",
+"quote": "Cutting back stems after flowering helps combat mildew."
 },
 {
 "no": 224,
@@ -667,6 +981,16 @@
 "confidence": "高",
 "reason": "Walters・品種: 花後に半分以下で軽く刈り込む、ほかは剪定不要。RHS: 剪定グループ10（花後）。MBG・種: 花後に刈り込む",
 "quote": "Shear lightly after flowering, by no more than half."
+},
+{
+"no": 236,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 咲き終わった花穂を取り除く。MBG・NC State（種）: 咲き終わった花茎をすぐ取る。stauden.de・種: 咲き終わった茎を株元の葉まで切る",
+"quote": "Remove faded flower spikes"
 },
 {
 "no": 237,
@@ -865,6 +1189,17 @@
 "quote": "it spreads too aggressively and is difficult to control"
 },
 {
+"no": 270,
+"type": "E 隔離推奨型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "Gaißmayer・品種: 走出枝を出してはびこる（wuchernd）。RHS・品種: 湿った土では勢いが強くしつこく広がり厄介になりうる。stauden.de も広がりを区切るよう指示。地下茎・走出枝による広がりで商品は種そのもの。同じ種の 'Alexander' と同じ E。機械の B から変更",
+"quote": "Die Ausläufer treibende, wuchernde Staude"
+},
+{
 "no": 271,
 "type": "B 花後刈込型",
 "codes": [
@@ -908,6 +1243,17 @@
 "quote": "This cultivar can be cut or pinched back in early summer to encourage a bushier, compact form and later flowers"
 },
 {
+"no": 285,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・Walters・stauden.de（品種）、MBG（種）: こぼれ種を防ぐため種が熟す前に花がらを摘む、咲き終わった茎を株元の葉まで切る。広がり方は non-invasive と明記で E ではない",
+"quote": "deadhead before seed is ripe to prevent self-seeding"
+},
+{
 "no": 286,
 "type": "A 放任型",
 "codes": [
@@ -931,6 +1277,16 @@
 "quote": "花後に短くカットすると夏越しが行い易い 冬は落葉するので短く切っておく"
 },
 {
+"no": 289,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "RHS・Walters（品種）: 花後に軽く刈り込む。MBG・NC State（種）: 花後に1/3切り戻す。同種 'Snow Cushion' と同じ B。RHS に「侵略的になりうる」とあるが広がり方の記述がなく、はびこる仕組みも書かれていないので E にしなかった（要確認）",
+"quote": "Trim lightly after flowering to maintain compactness"
+},
+{
 "no": 294,
 "type": "B 花後刈込型",
 "codes": [
@@ -942,6 +1298,37 @@
 "quote": "花後に3〜4節残して短くカットすると姿が整う 冬は短く切り戻して株を休ませる"
 },
 {
+"no": 296,
+"type": "A 放任型",
+"codes": [],
+"confidence": "低",
+"reason": "RHS・品種: 夏に枯れ葉を取り除く、だけ。夏の切り戻しではなく枯れ葉の掃除と読んだ。花後・夏前の刈り込みの記述はない。機械の空欄から A（迷い）",
+"quote": "In summer cut out any dead leaves"
+},
+{
+"no": 297,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に株元まで切ると二番花が咲く。MBG・Walters・stauden.de（品種）: 花後に株元の葉まで切る、花がらを取ると花期が延びる。地下茎でよく広がる（MBG）が侵略的の明記なし。機械の A から変更",
+"quote": "After flowering cut back to the base to encourage a second flowering"
+},
+{
+"no": 298,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"不要"
+],
+"confidence": "高",
+"reason": "Walters・品種: 花がらを取ると返り咲く。stauden.de・品種: 種が熟す前に切る。RHS・品種は剪定不要。not aggressive と明記。花後の記述があるので機械の A ではなく B",
+"quote": "Remove faded flowers to encourage repeat blooming.",
+"no_prune_and_deadhead": true
+},
+{
 "no": 299,
 "type": "A 放任型",
 "codes": [
@@ -950,6 +1337,27 @@
 "confidence": "中",
 "reason": "stauden.de・種: 秋〜晩秋に茎を切る（決まった文1件のみ）。機械は空欄",
 "quote": "Rückschnitt der Stängel im Herbst bis Spätherbst"
+},
+{
+"no": 302,
+"type": "C 夏前切戻型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・品種: 盛夏〜晩夏に刈り込み、乱れた茎葉を除いて秋の返り咲きを促す（'Zagreb' と同じ扱い）。MBG の「somewhat aggressively」は種の株の話で、品種は不稔、Gaißmayer は「ランナーは決して厄介にならない」ので E にしない。機械の B から変更",
+"quote": "Plants may be sheared in mid to late summer to promote a fall rebloom and to remove any sprawling or unkempt foliage."
+},
+{
+"no": 307,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "RHS・品種: 花後に花がら摘み。おぎはら: 花後に短く剪定すると蒸れにくい。おぎはら楽天の「蒸れ・伸びすぎ・花後など」は夏・暑さの明記がなく C にしなかった（機械は C、'Rosea' と同じ扱い）",
+"quote": "deadhead after flowering"
 },
 {
 "no": 309,
@@ -984,12 +1392,85 @@
 "quote": "Foliage may decline in hot summer climates after flowering, at which point flowering stems can be removed and foliage trimmed"
 },
 {
+"no": 314,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 咲き終わった茎と古葉を取ると新しい葉と花が出る。MBG・種: 一番花の後に切ると返り咲く。stauden.de: 種が熟す前に切る、秋に茎を切る。夏の傷みの話はない。こぼれ種は「管理に注意」程度",
+"quote": "Remove flowered stems and old leaves to encourage the production of fresh leaves and flowers"
+},
+{
+"no": 317,
+"type": "E 隔離推奨型",
+"codes": [],
+"confidence": "中",
+"reason": "NC State・種: 節から発根して aggressively に広がる。ほふく茎によるものなので種の記述でも品種に当てる。Walters の真夏の刈り込みより E が優先（'Wheatfen' と同じ）",
+"quote": "spreads aggressively by rooting at nodes forming mats up to 12 inches wide."
+},
+{
+"no": 319,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "RHS・MBG・おぎはら・品種: 花後に刈り込むと返り咲く。NC State・品種: 不稔でこぼれ種なし、花壇を占領しない。MBG・品種の「こぼれ種で攻撃的に殖えることがある」は NC State と食い違い、こぼれ種なので E にしない（MBG が品種ページなので中）。NC State の「夏半ばに切ると返り咲く」は花後の切り戻し",
+"quote": "Trim after flowering to keep plants compact and to encourage a second flowering"
+},
+{
+"no": 321,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に切り戻す。NC State・種の摘心は時期の記述がなく C にしない。ゆっくり広がるだけで侵略的ではない",
+"quote": "Cut down after flowering"
+},
+{
+"no": 323,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 種が要らなければ花がら摘みで花期が延びる",
+"quote": "deadhead to prolong flowering unless seed is required"
+},
+{
 "no": 330,
 "type": "E 隔離推奨型",
 "codes": [],
 "confidence": "高",
 "reason": "MBG・NC State（種）: 隣の芝生や庭にはびこる（aggressively）と明記。根づく茎で広がるので種の記述を品種に当てる。品種の文はなく、切り戻しは毎年ではなく必要に応じて（stauden.de・種）で区分に当たるものなし",
 "quote": "Can spread aggressively into adjacent lawns or garden areas."
+},
+{
+"no": 331,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・Walters・stauden.de・品種: 花がらを摘むと花期が延び二番花が咲く、晩秋に地際まで刈る",
+"quote": "deadhead to prolong flowering then cut down to the base in late autumn"
+},
+{
+"no": 332,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・Walters・品種: 花がらを摘むと花期が延び返り咲く、晩秋に地際まで刈る",
+"quote": "deadhead to prolong flowering then cut down to the base in late autumn"
 },
 {
 "no": 333,
@@ -1110,6 +1591,41 @@
 "quote": "Consider pinching back the stem ends in spring to reduce mature plant height"
 },
 {
+"no": 351,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花がらを摘んで花期を延ばし、こぼれ種を防ぐ。MBG・NC State・stauden.de（種）も花後の花茎切り。NC State の「こぼれ種で侵略的になりうる」は種の記述。品種で同じかは不明なので E にしない。短命（2〜3年）だが毎年更新の明記はない",
+"quote": "deadhead to prolong flowering or to prevent unwanted self-seeding"
+},
+{
+"no": 352,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "Walters・品種: 咲き終わった花を定期的に取ると次の蕾がつく。おぎはら楽天の「蒸れ・伸びすぎ・花後など」は夏・暑さの明記がなく C にしなかった（機械は C）",
+"quote": "Remove faded flowers regularly"
+},
+{
+"no": 353,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春",
+"秋",
+"不要"
+],
+"confidence": "中",
+"reason": "stauden.de・種: 咲き終わった花序を切る（花後）。RHS は剪定不要・春に枯れ葉を除くだけなので A とも読めるが、上から順で B（'Constance' と同じ扱い）。分球は2〜3年ごとで D ではない。機械の A から変更",
+"quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern",
+"no_prune_and_deadhead": true
+},
+{
 "no": 354,
 "type": "B 花後刈込型",
 "codes": [
@@ -1130,6 +1646,17 @@
 "quote": "Cut back old, flowered stems to the ground in autumn"
 },
 {
+"no": 362,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に切り戻す。おぎはら楽天: 花後に花茎を切る。stauden.de は秋に茎を切る。こぼれ種は「することがある」程度",
+"quote": "Cut back after flowering"
+},
+{
 "no": 363,
 "type": "C 夏前切戻型",
 "codes": [
@@ -1140,6 +1667,19 @@
 "quote": "Cut back to ground level in mid-summer"
 },
 {
+"no": 364,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋",
+"早春"
+],
+"confidence": "中",
+"reason": "MBG・種: 晩春に半分に切り戻して草丈を抑えられる（夏前に草丈を詰める）。花穂を取ると花期が延びる。秋に花穂を切り、春に枯れ葉を取る。'Sunset Dreams' と同じ扱い。機械の B から変更",
+"quote": "Plants (particularly those which typically grow tall) may be cut back in late spring by 1/2 to control size."
+},
+{
 "no": 367,
 "type": "A 放任型",
 "codes": [
@@ -1148,6 +1688,17 @@
 "confidence": "高",
 "reason": "RHS・品種: 剪定不要。stauden.de・品種: 秋は切らない、ほぼ手入れ不要。短い走出枝でゆるく広がるだけ",
 "quote": "No pruning required"
+},
+{
+"no": 368,
+"type": "E 隔離推奨型",
+"codes": [
+"不要",
+"早春"
+],
+"confidence": "中",
+"reason": "NC State・種: 攻撃的に広がり、雑草化して一度定着すると取り除きにくい（地下茎による広がりなので種の記述を品種に当てた）。MBG は 1 相当と食い違うので中。手入れは RHS 剪定不要、早春に古葉を刈る",
+"quote": "An aggressive spreader, it can be weedy and difficult to remove once established."
 },
 {
 "no": 369,
@@ -1220,6 +1771,28 @@
 "quote": "Best to shear plants back regularly before flowering to keep the planting tidy and to induce growth of new leaves."
 },
 {
+"no": 386,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・種: 咲き終わった花穂を切ると次の花、花後に株元まで切れる。RHS・品種: 早春に古い茎を切る。花後は種の文だけなので中（機械は A）",
+"quote": "Remove spent flower spikes to encourage additional bloom."
+},
+{
+"no": 393,
+"type": "E 隔離推奨型",
+"codes": [
+"不要"
+],
+"confidence": "中",
+"reason": "NC State・種: 節から発根して aggressively に広がる。ほふく茎によるものなので種の記述でも品種に当てる。RHS・品種は剪定不要（'Wheatfen' と同じ）",
+"quote": "spreads aggressively by rooting at nodes forming mats up to 12 inches wide."
+},
+{
 "no": 395,
 "type": "B 花後刈込型",
 "codes": [
@@ -1241,6 +1814,17 @@
 "quote": "Removal of flower spikes after bloom will encourage a secondary bloom."
 },
 {
+"no": 403,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "MBG・NC State（種）、Walters・stauden.de（品種）: 花がらを摘むと返り咲く、咲き終わった茎を株元の葉まで切る。株分けは2〜4年・3〜4年ごとで D ではない。not invasive と明記",
+"quote": "Remove spent blooms to encourage more buds to form."
+},
+{
 "no": 406,
 "type": "A 放任型",
 "codes": [
@@ -1257,6 +1841,38 @@
 "confidence": "高",
 "reason": "文献の文が1つもない",
 "quote": null
+},
+{
+"no": 425,
+"type": "A 放任型",
+"codes": [
+"不要"
+],
+"confidence": "高",
+"reason": "RHS・品種: 剪定不要",
+"quote": "No pruning required"
+},
+{
+"no": 426,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "高",
+"reason": "MBG・品種: 花後に花穂を取ると葉の姿がよくなる。RHS: 咲き終わった花と葉を取る。おぎはら楽天: 花後の花茎を切る、春の芽吹き前に短くカット",
+"quote": "Removal of flower spikes after bloom will improve the appearance of the foliage mound."
+},
+{
+"no": 431,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 咲き終わった茎と古葉を取る。MBG・品種: 花後に軽く刈り込んで若返らせる（夏の傷みの話はない）。stauden.de は種が熟す前・秋に切る。同種 'Max Frei' と同じ B",
+"quote": "Foliage may be lightly sheared back and shaped to revitalize after flowering."
 },
 {
 "no": 434,
@@ -1279,6 +1895,28 @@
 "confidence": "高",
 "reason": "MBG・種: 咲き終わった花をすぐ取ると次の花が咲く。RHS: 花後に花茎を切れる。stauden.de・種は秋に茎を切る。こぼれ種は「条件がよければ出ることがある」程度で E ではない",
 "quote": "Promptly remove spent flowers to promote additional bloom."
+},
+{
+"no": 441,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "高",
+"reason": "Walters・品種: 咲き終わった花茎を株元で切ると返り咲く。秋は刈らず春に傷んだ葉を取る。夏の切り戻しの記述はなく、機械の C は取り違え",
+"quote": "Remove faded flower stems at the base to encourage repeat blooming."
+},
+{
+"no": 442,
+"type": "E 隔離推奨型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・NC State（種）: aggressive に広がる、地下茎でも広がると明記（地下茎によるものなので種の記述を品種に当てる）。交配種の品種に種の文を当てているので 中（同属の 'Pink Octopus' と同じ扱い）。stauden.de・品種: 花後の茎切り、秋に茎を切る",
+"quote": "It can spread aggressively."
 },
 {
 "no": 450,
@@ -1336,12 +1974,41 @@
 "quote": "Can be an aggressive spreader."
 },
 {
+"no": 458,
+"type": "A 放任型",
+"codes": [
+"不要"
+],
+"confidence": "中",
+"reason": "RHS・品種: 剪定不要。MBG・NC State・種: 姿・広がり・木質化のため必要に応じて切る（時期の記述なし）。夏前・花後の明記がないので機械の C ではなく A（'Magic Carpet' と同じ扱い）。ほふくして広がるが侵略的の明記なし",
+"quote": "No pruning required"
+},
+{
 "no": 460,
 "type": "A 放任型",
 "codes": [],
 "confidence": "中",
 "reason": "stauden.de・品種: 適地ではほぼ手入れ不要（決まった文）。切り戻しの記述はない。機械は空欄",
 "quote": "An optimalen Standorten kaum Pflege nötig."
+},
+{
+"no": 464,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花が終わったら茎を切る。stauden.de: 咲き終わった花穂を切る。Walters: 晩秋に地際で刈る。株分けは3〜4年ごと。機械は空欄",
+"quote": "Cut down stems once flowering is over"
+},
+{
+"no": 465,
+"type": null,
+"codes": [],
+"confidence": "高",
+"reason": "文献の文がない",
+"quote": null
 },
 {
 "no": 467,
@@ -1352,6 +2019,28 @@
 "confidence": "高",
 "reason": "RHS・品種: 花後に古い茎を切る。MBG・品種: 花がらを取ると返り咲く。stauden.de・品種: 咲き終わった茎を株元の葉まで切る。株分けは数年ごとで D ではない",
 "quote": "Remove spent flowers to encourage additional bloom"
+},
+{
+"no": 468,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "中",
+"reason": "MBG・NC State（種）: 早春の芽出し前に剪定する（古株は間延びするので毎年春に剪定するとよい）。花後・夏前の剪定や株の更新の記述はない。同種の 'Loch Turret' と同じ A。機械は null",
+"quote": "Prune the shrub in early spring to prevent legginess."
+},
+{
+"no": 471,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋",
+"早春"
+],
+"confidence": "高",
+"reason": "おぎはら楽天・品種と stauden.de・品種: 花後に花茎を切る。RHS は秋に枯れ葉を片付ける。文が同じ 'Wide Brim' と同じ。地下茎 2 は「根茎状の株元」の描写で、はびこる記述ではない。機械の A から変更",
+"quote": "花後に花茎を切る、傷んだ葉があれば切る（夏〜秋）"
 },
 {
 "no": 472,
@@ -1407,6 +2096,17 @@
 "quote": "Can be an aggressive spreader."
 },
 {
+"no": 508,
+"type": "E 隔離推奨型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・NC State（種）: 地下茎とこぼれ種で攻撃的に広がる。stauden.de・品種: 走出枝・地下茎で広がるので区切る。地下茎による広がりなので種の記述を品種に当てた。MBG は「Species plants」と書き品種で同じとは限らず、Walters・品種は3〜4年ごとの株分けなので中",
+"quote": "Species plants can be an aggressive spreader."
+},
+{
 "no": 518,
 "type": "B 花後刈込型",
 "codes": [
@@ -1427,6 +2127,27 @@
 "confidence": "中",
 "reason": "MBG・品種: 花がら摘みで返り咲き、花後に切り戻す。おぎはら・stauden.de も花後の切り戻しで再開花。夏に倒れる・傷むので切るという文は sentences にないので機械の C ではなく B",
 "quote": "In any event, cut plants back after flowering has concluded."
+},
+{
+"no": 528,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "MBG・NC State（種）: 花後に刈り込むと姿が丸く保てる、種莢が要らなければ花後に剪定。おぎはら楽天・品種: 花後に軽く剪定して姿を整える、冬枯れしたら株元で切る。株分けは4〜5年ごとで D ではない",
+"quote": "花後に軽く剪定して姿を整える、 冬枯れしたら株元で強剪定"
+},
+{
+"no": 529,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・MBG・NC State: 晩冬〜早春に地際まで刈るだけ。おぎはら楽天の「伸びすぎて姿が乱れたら…」は決まった文なので C にしない。地下茎は「侵略的ではない」と打ち消し。同種 'All Gold' と同じ A。機械の B から変更",
+"quote": "The foliage should be cut back to the ground in late winter or early spring."
 },
 {
 "no": 530,
@@ -1472,6 +2193,27 @@
 "confidence": "低",
 "reason": "MBG・種: 花後に葉が傷んだら切り戻してよい。葉の傷みの記述はあるが、夏・暑さの明記がないので C にせず B（機械は C）。stauden.de・種: 咲き終わった花穂を切る。花後＝夏と読めば C",
 "quote": "Plants may be cut back after bloom if foliage depreciates."
+},
+{
+"no": 536,
+"type": "A 放任型",
+"codes": [
+"不要"
+],
+"confidence": "高",
+"reason": "RHS・品種: 剪定不要。stauden.de・種: 長命で植え替え不要、手入れほぼ不要",
+"quote": "No pruning required,"
+},
+{
+"no": 539,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "Walters・品種: 花後に刈り込んで葉を若返らせる。stauden.de・品種: 咲き終わった茎を切る、秋に茎を切る。夏の傷み・夏前の記述はなく、花後の更新なので機械の C を B に変更（'Miss Willmott' と同じ）。RHS は剪定不要とするので中",
+"quote": "Plants should be sheared back after blooming, to rejuvenate the foliage."
 },
 {
 "no": 540,
@@ -1550,6 +2292,39 @@
 "quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern"
 },
 {
+"no": 566,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に切り戻してコンパクトに保つ。Walters: 早春に刈ってよい。夏前・夏の傷みの記述はないので機械の C ではなく B",
+"quote": "Cut back after flowering to maintain compactness"
+},
+{
+"no": 567,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "NC State・種: 花後に切ると花が増える。stauden.de・種: 咲き終わった花序を切る。侵略的は五大湖周辺など地域の話だけなので E にしない。種の文だけなので中。機械は空欄",
+"quote": "Cut it back after flowering to encourage more blooms."
+},
+{
+"no": 569,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春",
+"秋"
+],
+"confidence": "中",
+"reason": "おぎはら・品種: 花後は短く切って樹形を整える（木本の花後剪定で B）。MBG・NC State は早春に強く切り戻す。'Worcester Gold' は花後の文がなく A だったが、この品種には花後の文がある。機械の空欄から B",
+"quote": "花後は短く切り、樹形を整えるとよい"
+},
+{
 "no": 570,
 "type": "B 花後刈込型",
 "codes": [
@@ -1612,6 +2387,18 @@
 "quote": "spreads aggressively by rooting at nodes forming mats up to 12 inches wide."
 },
 {
+"no": 583,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"不要"
+],
+"confidence": "中",
+"reason": "RHS・品種: 剪定不要だが花茎を切る花がら摘みで翌年の生育がよくなる。MBG（種）: 花穂を取ると二番花。おぎはら楽天: 種がこぼれた後に花茎を切る。こぼれ種でよく殖えるのは侵略的の明記ではない。機械の A から変更",
+"quote": "No pruning required, but deadheading , cutting down the dead flowering stems, may encourage growth the following year",
+"no_prune_and_deadhead": true
+},
+{
 "no": 585,
 "type": "E 隔離推奨型",
 "codes": [
@@ -1642,6 +2429,16 @@
 "confidence": "中",
 "reason": "stauden.de・種: 咲き終わった花序を上の茎葉まで切る、秋〜晩秋に茎を切る（種の決まった文のみ）。機械は空欄",
 "quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern"
+},
+{
+"no": 592,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・品種: 春に枯れ葉と古い花茎を除く。Walters・品種: 晩冬に刈る。MBG の「花後」は穂の色の説明で剪定の話ではなく、おぎはら楽天は決まった文。機械の B は取り違え（同じ種の他品種と同じ A）",
+"quote": "Trim back in late winter."
 },
 {
 "no": 593,
@@ -1696,6 +2493,17 @@
 "quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf"
 },
 {
+"no": 600,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花が終わるごとに茎を切ると次の花が咲く。Walters・品種: 花がら摘みで花期が大きく延びる。stauden.de は秋の切り戻し",
+"quote": "Removing faded flowers regularly will greatly increase the flowering period."
+},
+{
 "no": 601,
 "type": "A 放任型",
 "codes": [
@@ -1717,6 +2525,38 @@
 "quote": "Promptly remove spent flower spikes."
 },
 {
+"no": 603,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・Walters・品種: 咲き終わった花穂を切ると返り咲く。stauden.de・Gaißmayer: 一番花の後の切り戻しで返り咲く。夏の傷み・夏前の記述はないので機械の C ではなく B（同シリーズ 'Sweet Esmeralda' と同じ）",
+"quote": "Cut back faded flower spikes to prolong flowering"
+},
+{
+"no": 604,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "RHS・品種: 種が要らなければ花後に花がら摘み。MBG: 花穂を取ると二番花。Gaißmayer: こぼれ種で残るが厄介にならない。晩夏の乱れは二年草として抜く話で C ではない",
+"quote": "deadhead after flowering unless seed is required"
+},
+{
+"no": 605,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "RHS・品種: 花がら摘みで花が増える。MBG・NC State（種）: 花後に花穂を取ると二番花・こぼれ種を抑える。晩夏の乱れは C の切り戻しではない",
+"quote": "deadhead to encourage more flowers"
+},
+{
 "no": 606,
 "type": "B 花後刈込型",
 "codes": [
@@ -1726,6 +2566,16 @@
 "confidence": "高",
 "reason": "RHS: 咲き終わった茎と古葉を取る。おぎはら楽天: 花後に1/3ほどに切って姿を整える。MBG・種: 花後に軽く刈り込む（夏の傷みの話はない）。RHS の「管理しないと厄介になりうる」は侵略的の明記ではないので E にしない（no.135 と同じ文）",
 "quote": "花後に3分に1ほどに短くカットし姿を整える"
+},
+{
+"no": 608,
+"type": "E 隔離推奨型",
+"codes": [
+"秋"
+],
+"confidence": "低",
+"reason": "MBG・種: aggressive に広がることがある。NC State・種: 地下茎とこぼれ種で広がり、品種によっては aggressive。地下茎を含む広がりと読んで品種にも当て E（'Brushstrokes' と同じ扱い）。どの手段ではびこるかの明記がないので迷う。E でなければ秋の切り戻しのみで A",
+"quote": "Can be an aggressive spreader."
 },
 {
 "no": 612,
@@ -1740,6 +2590,16 @@
 "no_prune_and_deadhead": true
 },
 {
+"no": 613,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "RHS・品種、NC State・種、stauden.de・品種: 花後に切り戻す・咲き終わった花穂を切る。初夏に切って丈を抑えるおぎはら楽天の文がこの品種にはないので、機械の C ではなく B（'Firetail' と同じ扱い）",
+"quote": "Cut back after flowering"
+},
+{
 "no": 614,
 "type": "B 花後刈込型",
 "codes": [
@@ -1748,6 +2608,17 @@
 "confidence": "高",
 "reason": "RHS・品種: 花後に花がら摘み。MBG・種も花後の刈り込み",
 "quote": "deadhead after flowering"
+},
+{
+"no": 615,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "RHS・MBG・品種: 花がら摘みで花期が延びる、秋に地際まで切る。MBG・品種は地下茎でゆっくり広がる程度と明記。NC State・種「地下の走出枝で急速に広がる」は侵略的・攻撃的との明記ではないので機械の E は採らない（'Cranberry Lace' と同じ読み）。株分けは3〜4年ごとで D ではない",
+"quote": "deadheading regularly may prolong flowering; cut back to ground level in autumn"
 },
 {
 "no": 616,
@@ -1783,6 +2654,28 @@
 "quote": "After flowering cut back stems to prevent seeding and encourage further flowers and fresh growth."
 },
 {
+"no": 619,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に切り戻す。MBG・品種: 咲き終わった花茎を取ると見た目が整う。stauden.de・品種: 種が熟す前に切る、秋に茎を切る。株分けは3〜4年ごとで D ではない",
+"quote": "Cut back after flowering"
+},
+{
+"no": 620,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・種: 見た目を整えるため花後に茎を1/2〜1/3切り戻す。NC State・種: こぼれ種を防ぐため花がら摘み。RHS は晩秋に切る。日向では剪定不要とも（MBG）。種の文なので 中",
+"quote": "For a neater appearance, particularly for shade-grown plants, consider cutting back stems by 1/2 to 1/3 after flowering to promote bushy growth"
+},
+{
 "no": 621,
 "type": "C 夏前切戻型",
 "codes": [
@@ -1813,6 +2706,14 @@
 "confidence": "中",
 "reason": "MBG・種: 花後に株元の葉まで切り戻すと、姿が整い、こぼれ種を防ぎ、晩夏の返り咲きを促す。stauden.de・品種: 咲き終わった花穂を切る、秋に茎を切る。夏の傷み・暑さ・夏前の記述はなく「花後に切ると整う」なので、機械の C を B に変更",
 "quote": "Plants may be cut back to basal foliage after bloom to tidy the planting, to prevent any unwanted self-seeding and to encourage a possible late summer rebloom."
+},
+{
+"no": 630,
+"type": null,
+"codes": [],
+"confidence": "中",
+"reason": "文は NC State の殖やし方だけで、切り戻し・手入れの記述がないので決められない",
+"quote": null
 },
 {
 "no": 639,
@@ -1876,6 +2777,17 @@
 "quote": "Shear flower spikes after initial flowering to promote continued bloom."
 },
 {
+"no": 673,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・Walters・stauden.de・品種: 花がらを摘むと花期が延び二番花が咲く、晩秋に地際まで刈る。Gaißmayer: 短い走出枝でゆっくり大株になる（はびこる記述ではない）。人が決めた例と同じ",
+"quote": "deadhead to prolong flowering then cut down to the base in late autumn"
+},
+{
 "no": 675,
 "type": "C 夏前切戻型",
 "codes": [
@@ -1885,6 +2797,17 @@
 "confidence": "中",
 "reason": "MBG・種: 夏に葉が傷んだら強く切り戻す。NC State・種: 乾いて葉が焼けたら強く切り戻す。RHS・品種: 花がら摘み。「こぼれ種で手に負えなくなる」は種の記述で品種で同じかは不明（RHS も実生は親と同じにならないとする）ので E にしない。走出枝は「強く広がる・wuchernd」で invasive の明記ではないと読んだ",
 "quote": "If foliage depreciates in summer, cut back hard to promote new growth."
+},
+{
+"no": 677,
+"type": "C 夏前切戻型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "MBG・品種: 夏の暑さで葉がかなり傷み花も止まるので、その時点で強く切り戻す（新しい葉と返り咲き）。Walters: 真夏に乱れたら刈る",
+"quote": "As the heat of the summer sets in, foliage tends to decline considerably and flowering slows down or stops entirely, at which point plants should be cut back hard."
 },
 {
 "no": 679,
@@ -1907,6 +2830,17 @@
 "confidence": "中",
 "reason": "おぎはら楽天: 花後に花茎を切る程度。RHS: 春に芽が出たら刈る、種が要らなければ秋に花がらを取る。初夏の切り戻し・夏の傷みの記述はないので C ではなく B（機械は C）。こぼれ種は RHS「管理しないと厄介になりうる」、NC State「侵略的とする資料もある（自然地へ広げない）」で、庭ではびこるとの明記とまでは読まず E にしなかった",
 "quote": "deadhead in autumn if seed is not required"
+},
+{
+"no": 693,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"早春"
+],
+"confidence": "中",
+"reason": "おぎはら楽天・品種: 春〜初夏に切り戻すと低く咲く（夏前に草丈を詰める）。冬は短く切っておく。文献は1つだけ",
+"quote": "春〜初夏に切り戻すと低く咲く"
 },
 {
 "no": 704,
@@ -1973,6 +2907,32 @@
 "quote": "Cut back faded flower spikes to prolong flowering"
 },
 {
+"no": 727,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋",
+"早春"
+],
+"confidence": "高",
+"reason": "MBG・品種: 花がら摘みと花後に株元の葉まで切り戻す。stauden.de・品種: 花後の茎切り、秋に茎を切る。RHS は春に傷んだ葉を切る。夏前・夏の傷みの記述はないので機械の C ではなく B（'Terracotta' と同じ扱い）。株分けは3〜4年（2〜4年）ごとで D ではない",
+"quote": "Deadhead spent flower heads to lateral buds to promote additional bloom."
+},
+{
+"no": 733,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春",
+"秋",
+"不要"
+],
+"confidence": "高",
+"reason": "stauden.de・品種: 咲き終わった花序を切る（花後）。おぎはら楽天: 花後に花茎を切る。RHS は剪定不要・春に枯れ葉を除く。Walters の3年ごとの株分けは D にしない。機械の A から変更",
+"quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern",
+"no_prune_and_deadhead": true
+},
+{
 "no": 736,
 "type": "D 毎年株更新型",
 "codes": [
@@ -1995,6 +2955,16 @@
 "quote": "Deadhead spent flowers to encourage additional bloom."
 },
 {
+"no": 743,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 咲き終わりの主花穂を切ると脇の花穂が咲く。おぎはら楽天: 種がこぼれた後に花茎を切る。機械の空欄から B",
+"quote": "Cut back main flower spike as it fades to encourage the growth of flowering side shoots"
+},
+{
 "no": 748,
 "type": "B 花後刈込型",
 "codes": [
@@ -2004,6 +2974,27 @@
 "confidence": "高",
 "reason": "stauden.de・品種: 咲き終わった花穂を切る、秋に茎を切る。おぎはら・品種: 花後に花茎を切る程度。RHS: 季節の終わりに地際まで刈る。機械は空欄",
 "quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern"
+},
+{
+"no": 751,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS: こまめに花がら摘みで花期が延びる。stauden.de: 咲き終わった茎を株元の葉まで切る。Walters は「全く侵略的でない」",
+"quote": "deadhead regularly to prolong flowering"
+},
+{
+"no": 753,
+"type": "A 放任型",
+"codes": [
+"不要",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・品種: 剪定不要、春の芽吹き前に枯れ葉と花茎を除くだけ。「管理しないと厄介になりうる」は侵略的の明記ではない",
+"quote": "No pruning required, except the removal of dead leaves and flower stems before new growth starts in spring."
 },
 {
 "no": 755,
@@ -2049,6 +3040,48 @@
 "quote": "Cut back after flowering or fruiting"
 },
 {
+"no": 770,
+"type": "C 夏前切戻型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "Walters・品種: 盛夏にうどんこ病にかかりやすく、強く切り戻すと新しい葉が出る（夏に葉が傷むので切り戻す）。RHS: 花後に地際まで切ると秋に二番花",
+"quote": "Plants are often attacked by mildew in mid summer; simply cut back hard to encourage fresh foliage."
+},
+{
+"no": 778,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花がらを摘むと二番花。stauden.de・品種: 咲き終わった花序を切る、秋に茎を切る（秋は切らないの文もある）。こぼれ種は「注意して管理」程度",
+"quote": "deadhead to encourage a second flush of flowers"
+},
+{
+"no": 779,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 種が要らなければ花がらを摘むと花が増える。NC State・種の短い地下茎とこぼれ種での広がりは、はびこるとは書いていない",
+"quote": "deadhead to encourage more flowers, unless seeds are required"
+},
+{
+"no": 785,
+"type": "A 放任型",
+"codes": [
+"不要",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 剪定不要。stauden.de: 秋に茎を切る、適地ではほぼ手入れ不要",
+"quote": "No pruning required"
+},
+{
 "no": 787,
 "type": "A 放任型",
 "codes": [
@@ -2078,6 +3111,27 @@
 "confidence": "中",
 "reason": "RHS: 花がら摘みと秋の切り戻し。MBG・stauden.de: 花後に花茎を切る。Gaißmayer: 一番花の後に強く切ると秋に返り咲く。Walters の「盛夏に強く切って形を保つ」は初夏の花の後の話で、夏の傷み・倒伏の記述ではないので C にしない",
 "quote": "Cut flowering stems back after bloom is completed."
+},
+{
+"no": 799,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "stauden.de・品種: 一番花の後に切ると二番花、咲き終わった茎を株元の葉まで切る。NC State: 花がら摘みで長く咲く。機械の空欄から B",
+"quote": "Rückschnitt nach der ersten Blühphase bewirkt meist eine Nachblüte"
+},
+{
+"no": 801,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS: 花後に切り戻す。MBG・種: 花がら摘み、花期の終わりに花茎を地際まで切る。おぎはら楽天の「初夏の満開後に短めにカット」も花後の切り戻し。こぼれ種は多いが切り戻しで抑えられるとあり侵略的の明記はない",
+"quote": "Cut back after flowering"
 },
 {
 "no": 802,
@@ -2124,6 +3178,18 @@
 "quote": "pruning group 11 immediately after flowering each year if required"
 },
 {
+"no": 816,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"秋",
+"早春"
+],
+"confidence": "中",
+"reason": "Walters・品種: 肥えた土では6月に1〜2回摘心して倒れを防ぐ（夏前の切り詰め）。条件付きの書き方なので中。RHS・品種は秋に地際まで切る、おぎはらは冬に枯れ枝を切る。機械の A から変更",
+"quote": "In rich soils, plants should be pinched once or twice in June to prevent floppiness."
+},
+{
 "no": 817,
 "type": "A 放任型",
 "codes": [
@@ -2133,6 +3199,17 @@
 "confidence": "高",
 "reason": "MBG・NC State（種）: 晩冬に地際まで刈る。stauden.de・品種: 秋〜晩秋に茎を切る。RHS は夏に枯れ葉を取るだけ",
 "quote": "Cut back to ground in late winter to make room for new growth in spring."
+},
+{
+"no": 824,
+"type": "E 隔離推奨型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・種: 地下茎とこぼれ種で広がる侵略的になりうる多年草。NC State: 雑草化・侵略的になりうる（州の有害雑草指定は地域の話なので根拠にしない）。地下茎を含み、商品は種なので E。potentially の書き方なので中",
+"quote": "This is a potentially invasive perennial that spreads by rhizomes and often freely self-seeds."
 },
 {
 "no": 825,
@@ -2145,6 +3222,43 @@
 "confidence": "高",
 "reason": "MBG・品種: 晩春に切り戻して草丈を抑える。NC State・品種: 夏に茎を切ると低く茂るが開花が遅れる。RHS は花後、おぎはらは冬の落葉後に枯れ枝を切る",
 "quote": "Plants may be cut back in late spring to control height."
+},
+{
+"no": 826,
+"type": "A 放任型",
+"codes": [
+"秋",
+"早春"
+],
+"confidence": "中",
+"reason": "stauden.de・種: 秋〜晩秋に茎を切る。NC State・種: 春に地際まで切って更新してもよい。種の文だけ。機械の空欄から A",
+"quote": "Rückschnitt der Stängel im Herbst bis Spätherbst"
+},
+{
+"no": 829,
+"type": null,
+"codes": [],
+"confidence": "高",
+"reason": "文献の文がない",
+"quote": null
+},
+{
+"no": 831,
+"type": "A 放任型",
+"codes": [],
+"confidence": "中",
+"reason": "RHS・品種: 古く傷んだ葉は必要なら切ってよい。stauden.de・品種: 適地ではほぼ手入れ不要。花後・夏の切り戻しの記述はないので機械の B を A に変更（ssp. cevennensis と同じ）",
+"quote": "Old, faded foliage can be trimmed if required."
+},
+{
+"no": 832,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 咲き終わった花茎を株元まで切る。MBG・品種: こぼれ種を防ぐため花がらを摘む。おぎはら楽天: 花後早めに切ると再び開花。こぼれ種と地下茎で速く広がる（MBG）とあるが invasive／aggressive の明記ではない",
+"quote": "Cut back faded flower stems to base"
 },
 {
 "no": 834,
@@ -2198,6 +3312,28 @@
 "quote": "Cut back in winter"
 },
 {
+"no": 851,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に切り戻すか種穂を冬まで残す。stauden.de: 秋は切らない。夏前の切り詰めの記述はない",
+"quote": "Cut back after flowering or leave seedheads over winter"
+},
+{
+"no": 853,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春",
+"秋"
+],
+"confidence": "中",
+"reason": "stauden.de・種: 種が熟す前に切る（決まった文で B）。RHS: 早春に花穂を取る。MBG: 花茎は秋に取るか冬まで残す。D. cespitosa と同じ扱い。機械の A から変更",
+"quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden"
+},
+{
 "no": 855,
 "type": "C 夏前切戻型",
 "codes": [
@@ -2206,6 +3342,16 @@
 "confidence": "高",
 "reason": "MBG・品種: 真夏までに株が衰えたら、その時に葉を切り戻す。RHS・Walters: 花後に刈ると新しい葉が出る",
 "quote": "If plants decline by mid-summer, cut back the foliage at that time."
+},
+{
+"no": 856,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に刈り込むと締まり、二番花が咲く。MBG・NC State も花後の刈り込みで返り咲き。MBG の「こぼれ種で攻撃的に殖えることがある」は種の記述。品種で同じかは不明なので E にしない",
+"quote": "Trim after flowering to keep plants compact and to encourage a second flowering"
 },
 {
 "no": 861,
@@ -2273,6 +3419,17 @@
 "quote": "Cut back after flowering"
 },
 {
+"no": 868,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・MBG・品種: 花がら摘み・花後に株元の葉まで切り戻す。NC State・種: 花後に刈ると秋に返り咲く。stauden.de: 花後と秋",
+"quote": "Remove spent flower spikes to encourage additional bloom."
+},
+{
 "no": 869,
 "type": "B 花後刈込型",
 "codes": [
@@ -2314,6 +3471,17 @@
 "quote": "clear up dead foliage when it dies back at the end of the growing season"
 },
 {
+"no": 873,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "stauden.de・品種: 咲き終わった花茎を株元の葉まで切る（試作のホスタ 'Gold Standard' と同じ線引き）。RHS は傷んだ葉の除去と秋の片付けのみ。文が同じ 'Abiqua Drinking Gourd' と同じ。花後の根拠は stauden.de の1件だけ。機械の A から変更",
+"quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf"
+},
+{
 "no": 874,
 "type": "A 放任型",
 "codes": [
@@ -2326,6 +3494,38 @@
 "no_prune_and_deadhead": true
 },
 {
+"no": 875,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "中",
+"reason": "Walters・品種: 咲き終わった花茎を切るとつぼみが増える、花後に刈り込んで葉を若返らせる、春に地際まで切る。夏の傷み・夏前の記述はないので機械の C を B に変更。RHS は剪定不要とするので中",
+"quote": "Trim off faded flower stems to encourage more buds to form."
+},
+{
+"no": 876,
+"type": "E 隔離推奨型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "MBG・種: 庭ではしつこく、はびこる（aggressive）と明記。NC State: 根茎性。RHS: 広がりやすく抑える必要がある場合も。種そのものの商品なので種の記述を当てる。管理は花後の花茎切り（B 相当）。機械の A から変更",
+"quote": "This plant can be both persistent and aggressive in garden areas."
+},
+{
+"no": 878,
+"type": "E 隔離推奨型",
+"codes": [
+"花後",
+"初夏"
+],
+"confidence": "高",
+"reason": "MBG・種: 根茎とこぼれ種で aggressively に広がる。NC State: aggressive なので小さな植栽には不向き。mixing も侵略的。夏に倒れないよう切り戻す（MBG）、花後強剪定（おぎはら楽天）",
+"quote": "Mistflower is a vigorous plant that spreads aggressively by rhizomes and self-seeding."
+},
+{
 "no": 879,
 "type": "E 隔離推奨型",
 "codes": [
@@ -2334,6 +3534,17 @@
 "confidence": "中",
 "reason": "NC State・種: 節から発根する茎で広がり、条件が良いと aggressive（ほふく茎によるものなので種の記述でも品種に当てる）。MBG・stauden.de は中程度で食い違いあり。切り戻しは RHS・品種: 咲き終わった花茎を切る",
 "quote": "It spreads by stems rooting at the nodes and can be aggressive in good conditions."
+},
+{
+"no": 883,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: こぼれ種を防ぎ二番花を促すため花後に切り戻す。stauden.de・品種: 秋に茎を切る",
+"quote": "Cut back after flowering to prevent self-seeding and to encourage a second flush of flowers"
 },
 {
 "no": 887,
@@ -2401,6 +3612,54 @@
 "quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden"
 },
 {
+"no": 907,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋",
+"早春"
+],
+"confidence": "中",
+"reason": "MBG・種: 草丈の高くなる株は晩春に半分に切り詰めて大きさを抑えてよい（夏前に草丈を詰める）。B（花がら摘み）より上の C。同じ種の 'Summer Breeze' と同じ。種の文なので中",
+"quote": "Plants (particularly those which typically grow tall) may be cut back in late spring by 1/2 to control size."
+},
+{
+"no": 910,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"早春"
+],
+"confidence": "中",
+"reason": "おぎはら楽天・品種: 初夏頃に切ると花丈が低くまとまる（夏前に草丈を詰める）。花後剪定でも繰り返し咲く（B）より上の C。RHS は剪定不要とするので中",
+"quote": "初夏頃に切ると花丈が低くまとまる。"
+},
+{
+"no": 911,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋",
+"早春"
+],
+"confidence": "高",
+"reason": "おぎはら楽天・品種: 花後に花茎を切る、冬に枯葉を切る。RHS・品種: 秋に枯れ葉を片付ける。同属 'Wide Brim' と同じ。機械の A から変更",
+"quote": "花後に花茎を切る、傷んだ葉があれば切る（夏〜秋）"
+},
+{
+"no": 912,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "おぎはら楽天・品種: 花後に花茎を切る、冬に落葉後の葉を掃除。stauden.de・品種も花茎切り。RHS は秋に枯れ葉を片付ける。機械の A から変更",
+"quote": "花後に花茎をカット 傷んだ葉を取る"
+},
+{
 "no": 914,
 "type": "C 夏前切戻型",
 "codes": [
@@ -2422,6 +3681,17 @@
 "quote": "Cut back after flowering to maintain shape or leave seedheads overwinter"
 },
 {
+"no": 917,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花が終わったら茎を切る。stauden.de・品種: 咲き終わった花穂を切る、秋に茎を切る。機械は空欄",
+"quote": "Cut down stems once flowering is over"
+},
+{
 "no": 918,
 "type": "C 夏前切戻型",
 "codes": [
@@ -2432,6 +3702,17 @@
 "confidence": "中",
 "reason": "MBG・種: 晩春〜初夏に茎を約15cmに詰めて草丈を抑え枝数を増やす（初夏に草丈を詰める記述）。花後の切り戻し（MBG・stauden.de）と晩秋の刈り取り（RHS・品種）もある。株分けは数年ごと／2〜4年ごとで D ではない。機械の B は初夏の切り詰めを拾えていない。種の文なので 中",
 "quote": "Prune stems to 6\" in late spring or early summer to encourage a bushier habit, stronger stems, and shorter height if desired."
+},
+{
+"no": 919,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "低",
+"reason": "MBG・品種: 7月半ばまでの摘心は草丈を抑えるが、このコンパクトな品種では重要でないとされるので C にしなかった。花後に地際まで切れる（MBG）、晩秋に切る（RHS）。株分けは3年ごとで D ではない。摘心の記述を重く見れば C",
+"quote": "Plants may be cut to the ground after flowering."
 },
 {
 "no": 920,
@@ -2507,6 +3788,17 @@
 "quote": "Remove faded flowers to encourage more buds, also to prevent plants from self seeding all over."
 },
 {
+"no": 929,
+"type": "A 放任型",
+"codes": [
+"不要",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・品種: 剪定不要（新しい葉が出るころ古い葉を取ってよい）。stauden.de・種: 秋は切り戻さない、手入れはほとんど不要。not aggressive と明記",
+"quote": "No pruning required but can remove older fading leaves if necessary as new fronds appear"
+},
+{
 "no": 930,
 "type": "A 放任型",
 "codes": [],
@@ -2545,6 +3837,18 @@
 "confidence": "高",
 "reason": "RHS: 晩冬〜早春に刈る。stauden.de・種: 秋に茎を切る。枯れた茎葉の刈り取りのみ。NC State は株立ちで侵略的でないと明記",
 "quote": "Cut back in late winter or early spring"
+},
+{
+"no": 937,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春",
+"秋"
+],
+"confidence": "中",
+"reason": "stauden.de・種: こぼれ種を防ぐため種が熟す前に切る（決まった文で B）。RHS: 早春に古い茎を刈る。MBG: 花茎は秋に取るか冬まで残す（'Goldtau' と同じ扱い）。機械の A から変更",
+"quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden"
 },
 {
 "no": 939,
@@ -2642,6 +3946,31 @@
 "quote": "Prune stems to 6\" in late spring or early summer to encourage a bushier habit, stronger stems, and shorter height if desired."
 },
 {
+"no": 954,
+"type": "A 放任型",
+"codes": [
+"不要",
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "RHS・品種: 剪定不要。花茎切りは stauden.de（種）の決まった文と、おぎはら楽天の「伸びすぎた場合、花後に切り戻す」だけなので、例のアルメリアと同じ線引きで A",
+"quote": "No pruning required",
+"no_prune_and_deadhead": true
+},
+{
+"no": 955,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"不要"
+],
+"confidence": "高",
+"reason": "おぎはら楽天・品種: 初夏頃に切ると花丈が低くまとまる（初夏に草丈を詰める記述）、花後剪定で繰り返し咲く。RHS・品種は剪定不要としつつ花後に切り戻す。'Blackfield'・'Golden Arrow' と同じ C",
+"quote": "初夏頃に切ると花丈が低くまとまる。花後剪定により 繰り返し咲く"
+},
+{
 "no": 960,
 "type": "B 花後刈込型",
 "codes": [
@@ -2664,6 +3993,16 @@
 "reason": "RHS・品種: 剪定不要。stauden.de とおぎはら楽天は「花後に花茎を切る程度」で、例のアルメリア・セダムと同じ線引きで A。花茎切りを重く見れば B",
 "quote": "No pruning required",
 "no_prune_and_deadhead": true
+},
+{
+"no": 965,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・Walters（品種）・NC State: 晩冬〜早春に古い葉を切る、だけ。stauden.de: 手入れほぼ不要。ausläufertreibend だが Gaißmayer は短い根茎で締まった株と書き、侵略的の明記はない",
+"quote": "Cut back old foliage in late winter or early spring for the best display of new foliage and flowers"
 },
 {
 "no": 966,
@@ -2741,6 +4080,19 @@
 "quote": "Cut back after flowering"
 },
 {
+"no": 979,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋",
+"早春"
+],
+"confidence": "中",
+"reason": "MBG・種: 晩春に半分に切り戻して草丈を抑えられる（夏前に草丈を詰める）。花穂を取ると花期が延びる。秋に花穂を切り、春に枯れ葉を取る（NC State）。'Sunset Dreams' と同じ扱い。種の文なので 中。機械の B から変更",
+"quote": "Plants (particularly those which typically grow tall) may be cut back in late spring by 1/2 to control size."
+},
+{
 "no": 980,
 "type": "A 放任型",
 "codes": [
@@ -2772,6 +4124,27 @@
 "quote": "Cut back after flowering"
 },
 {
+"no": 986,
+"type": "A 放任型",
+"codes": [
+"秋"
+],
+"confidence": "高",
+"reason": "stauden.de・品種: 秋〜晩秋に茎を切る、だけ。機械の空欄から A",
+"quote": "Rückschnitt der Stängel im Herbst bis Spätherbst"
+},
+{
+"no": 987,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "RHS・MBG・Walters・品種: 花後に花穂を切る・強く刈ると葉が若返る。NC State・種の「倒れたり見苦しくなったら株元の葉まで切る」は夏・暑さの明記がないので C にしなかった（機械は C）",
+"quote": "Can be clipped back hard after blooming, to rejuvenate the foliage."
+},
+{
 "no": 988,
 "type": "B 花後刈込型",
 "codes": [
@@ -2782,6 +4155,18 @@
 "confidence": "高",
 "reason": "RHS・Walters・品種: 咲き終わった花穂を切ると返り咲く。stauden.de: 一番花の後の切り戻し。夏の傷み・夏前の記述はないので機械の C ではなく B。Walters: 暖地では早春に強く刈る",
 "quote": "Remove faded blooms to encourage repeat flowering."
+},
+{
+"no": 989,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・Walters・品種: 咲き終わった花穂を切ると返り咲く。stauden.de: 一番花の後の切り戻し。夏の傷み・夏前の記述はないので機械の C ではなく B（同シリーズ 'Sweet Esmeralda' と同じ）",
+"quote": "Cut back faded flower spikes to prolong flowering"
 },
 {
 "no": 991,
@@ -2806,6 +4191,39 @@
 "quote": "Foliage may decline in hot summer climates after flowering, at which point flowering stems can be removed and foliage trimmed"
 },
 {
+"no": 997,
+"type": "C 夏前切戻型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "Walters・品種: 盛夏にうどんこ病、強く切り戻して新しい葉を出す。RHS: 花がら摘み、晩秋に地際まで切る",
+"quote": "Plants are often attacked by mildew in mid summer; simply cut back hard to encourage fresh foliage."
+},
+{
+"no": 999,
+"type": "A 放任型",
+"codes": [
+"不要"
+],
+"confidence": "高",
+"reason": "RHS・品種: 剪定不要",
+"quote": "No pruning required"
+},
+{
+"no": 1000,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋",
+"早春"
+],
+"confidence": "中",
+"reason": "MBG・品種: 咲き終わった花をすぐ取ると次の花。RHS・品種: 花がら摘み、秋か春に茎を切る。おぎはら楽天の「初夏の満開後に短めに切ると秋も姿よく咲く」は花後の切り戻しで、夏の傷み・夏前の草丈詰めの話ではないので B と読んだ。こぼれ種は「条件がよければ」程度。機械の A から変更",
+"quote": "Promptly remove spent flowers to promote additional bloom."
+},
+{
 "no": 1001,
 "type": "B 花後刈込型",
 "codes": [
@@ -2815,6 +4233,17 @@
 "confidence": "高",
 "reason": "RHS: 花が終わったら花茎を切る。おぎはら・品種: 花後に花茎を切る程度。stauden.de・種: 秋に茎を切る。機械は空欄",
 "quote": "Cut down flowering stems when faded"
+},
+{
+"no": 1003,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・MBG・品種: 花がらを摘むと花が続く、晩秋〜初冬に地際まで刈る",
+"quote": "deadhead to promote continous flowering and cut back to the base in late autumn or early winter"
 },
 {
 "no": 1004,
@@ -2867,6 +4296,18 @@
 "quote": null
 },
 {
+"no": 1009,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・NC State（種）: 5月下旬に茎を1/3〜1/2切り戻して草丈を抑える。品種の RHS・Walters は花がら摘み。種の文なので中。株分けは2〜3年ごとで D ではない。機械の B から変更",
+"quote": "Plant stems may be cut back by 1/3 to 1/2 in late May to reduce overall plant height."
+},
+{
 "no": 1013,
 "type": "B 花後刈込型",
 "codes": [
@@ -2889,6 +4330,26 @@
 "quote": "Cut back after flowering to encourage a second flush of flowers."
 },
 {
+"no": 1018,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "stauden.de・品種: 咲き終わった茎を株元の葉まで切る。おぎはら: 花茎を切る程度。RHS の「花が終わり葉が乱れたら刈る」は花後の休眠の片付けと読み、C にしなかった（'Brilliant' と同じ）。機械は空欄",
+"quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf"
+},
+{
+"no": 1019,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "stauden.de・品種: 咲き終わった茎を株元の葉まで切る。おぎはら: 花茎を切る程度。RHS の「花が終わり葉が乱れたら刈る」は花後の休眠の片付けで、刈ると新しい葉が出る・夏の傷みの記述ではないので機械の C を B に変更（'Brilliant' と同じ）",
+"quote": "Cut down once flowers fade and foliage looks untidy"
+},
+{
 "no": 1020,
 "type": "A 放任型",
 "codes": [
@@ -2897,6 +4358,17 @@
 "confidence": "高",
 "reason": "RHS: 春に枯れ葉と花を梳く・刈る。Walters: 春の刈り込みはふつう不要",
 "quote": "Plants usually do not require cutting back in the spring."
+},
+{
+"no": 1021,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: こまめに花がらを摘み花後に地際まで切る。stauden.de・品種: 咲き終わった花序を切る、秋に茎を切る。株分けは3〜4年ごとで D ではない",
+"quote": "deadhead regularly, cut down all stems to ground level after flowering."
 },
 {
 "no": 1022,
@@ -2921,6 +4393,16 @@
 "quote": "Remove faded flower spikes to prolong flowering"
 },
 {
+"no": 1124,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・MBG・品種: 種ができる前に咲き終わった花穂を取ると次の花が咲く",
+"quote": "Remove faded flower spikes to prolong flowering"
+},
+{
 "no": 1126,
 "type": "B 花後刈込型",
 "codes": [
@@ -2941,6 +4423,17 @@
 "confidence": "高",
 "reason": "RHS: こまめに花がらを摘み、冬に茎を地際で切る。stauden.de・種: 咲き終わった花序を切る、秋に茎を切る",
 "quote": "deadhead regularly then cut stems down to the ground in winter"
+},
+{
+"no": 1128,
+"type": "C 夏前切戻型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "Walters・品種: 盛夏にうどんこ病、強く切り戻して新しい葉を出す。RHS: 花がら摘み、生育期の終わりに地際まで切る",
+"quote": "Plants are often attacked by mildew in mid summer; simply cut back hard to encourage fresh foliage."
 },
 {
 "no": 1129,
@@ -3008,6 +4501,64 @@
 "confidence": "高",
 "reason": "RHS・stauden.de（品種）: 花が終わったら花茎を切る。長命で植え替え不要（D ではない）",
 "quote": "Cut back flower stems after flowering has finished."
+},
+{
+"no": 1142,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・品種: 晩春に摘心すると草丈が低くなる（開花は遅れる）。初夏に草丈を詰める記述に当たる。ほかは花がら摘み・晩秋に切る（RHS）、花後に花茎を切る（おぎはら楽天）",
+"quote": "Pinching back stems in late spring will lower overall plant height, but will also delay bloom onset."
+},
+{
+"no": 1143,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花が終わったら花茎を切ってよい（冬の観賞に残してもよい）。stauden.de・品種: 種が熟す前に切る、秋に茎を切る。株分けは約4年ごとで D ではない",
+"quote": "Flowering stems may be cut back when flowers fade, or left standing for winter interest"
+},
+{
+"no": 1144,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・NC State（種）: 花後に茎を15cmほど切り戻すと茎が立ち、倒れにくい。夏の傷み・夏前の話ではなく花後の切り戻しなので機械の C ではなく B。RHS は晩秋に切る。根拠が種の文なので 中",
+"quote": "Consider cutting back the stems by about 6\" after flowering to help keep stems upright and to shape plants into a nice foliage mound."
+},
+{
+"no": 1145,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・種: 咲き終わった花穂を切ると次の花、花後に株元まで切れる。stauden.de・種: 秋に茎を切る。種の文だけなので中",
+"quote": "Remove spent flower spikes to encourage additional bloom."
+},
+{
+"no": 1146,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋",
+"早春"
+],
+"confidence": "中",
+"reason": "MBG・種: 晩春に半分に切り詰めて大きさを抑えてよい。RHS・品種: 花が減ったら生育期に半分に刈ると次の花が咲く、春に強く切る。同じ種の 'Summer Breeze' と同じ C。機械の A から変更",
+"quote": "Plants (particularly those which typically grow tall) may be cut back in late spring by 1/2 to control size."
 },
 {
 "no": 1147,
@@ -3105,6 +4656,17 @@
 "no_prune_and_deadhead": true
 },
 {
+"no": 1162,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "高",
+"reason": "stauden.de・おぎはら楽天（品種）: 花後の花茎を切る。Walters・品種: 秋は刈らず春に傷んだ葉を取る。夏前・夏の切り戻しの記述はなく、機械の C は取り違え",
+"quote": "花後の花茎を切る程度"
+},
+{
 "no": 1164,
 "type": "C 夏前切戻型",
 "codes": [
@@ -3167,6 +4729,16 @@
 "confidence": "高",
 "reason": "RHS・品種: 剪定グループ11、花後に伸びた枝を詰め古枝を1/3まで除く。MBG・種も花の直後に剪定",
 "quote": "trim back lanky stems after flowering and remove up to a third of the oldest stems"
+},
+{
+"no": 1176,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・Walters・stauden.de（品種）: 早春（3月）の芽出し前に古い茎を地際で刈るだけ、秋は切らない。not invasive と明記（Walters・NC State）",
+"quote": "Cut back old stems to the ground in early spring before growth resumes"
 },
 {
 "no": 1178,
@@ -3238,6 +4810,17 @@
 "confidence": "高",
 "reason": "RHS・Walters・stauden.de・おぎはら楽天（いずれも品種）: 花がらを摘み、花後に古い茎を切る。株分けは3年ごと・3〜4年ごとで D ではない。夏の傷みの記述はない",
 "quote": "deadhead to promote more blooms, and cut back old stems after flowering"
+},
+{
+"no": 1202,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "中",
+"reason": "RHS・品種: 花後に刈り込んで形を保つ。Walters: 春に刈ってよい。NC State・種の「マット状に速く広がる」は invasive／aggressive の明記ではないので機械の E にしなかった",
+"quote": "Trim back after flowering to maintain shape"
 },
 {
 "no": 1203,
@@ -3347,6 +4930,17 @@
 "quote": "Cut back the flowering stalks to encourage reblooming."
 },
 {
+"no": 1228,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "stauden.de・品種: 咲き終わった花穂を切る。おぎはら楽天: 花後に花茎を切る。RHS: 晩秋〜初冬に花茎を地際で切る",
+"quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern"
+},
+{
 "no": 1230,
 "type": "B 花後刈込型",
 "codes": [
@@ -3420,6 +5014,18 @@
 "confidence": "中",
 "reason": "おぎはら楽天・品種: 晩春〜初夏に短く切るとより低く開花する（夏前に草丈を詰める）。RHS・stauden.de: 晩秋に刈る。'Gateway' にはこの文がないので値が違う。機械は空欄",
 "quote": "晩春〜初夏に短く切ると、より低く開花する"
+},
+{
+"no": 1256,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "NC State・種: 初夏に切り戻して分枝と花数を増やすべき。MBG・種: 6月初めに切り戻すと草丈が抑えられる。種の記述だけ（品種の RHS は花がら摘みだけ）なので中。同シリーズ 'Sombrero' と同じ C。株分けは3〜4年ごとで D ではない。機械の B から変更",
+"quote": "It should be cut back in early summer to encourage branching and increase the number of flowers."
 },
 {
 "no": 1257,
@@ -3553,6 +5159,18 @@
 "quote": "Unless seed is needed, deadhead after flowering to maintain vigour"
 },
 {
+"no": 1271,
+"type": "A 放任型",
+"codes": [
+"不要",
+"花後"
+],
+"confidence": "中",
+"reason": "RHS・品種: 剪定不要（花が終わったら花がらを摘むか切ってよい）。おぎはら楽天: タネがこぼれた後に茎を切る程度。例のアルメリアと同じ形で A。こぼれ種で殖えるが「決して厄介にならない」（Gaißmayer）",
+"quote": "No pruning required but deadhead or cut down flowers when finished",
+"no_prune_and_deadhead": true
+},
+{
 "no": 1272,
 "type": "B 花後刈込型",
 "codes": [
@@ -3596,6 +5214,17 @@
 "quote": "Rückschnitt der Stängel im Herbst bis Spätherbst"
 },
 {
+"no": 1276,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・種: 花がらを早めに取るとこぼれ種を防げる。stauden.de: 秋に茎を切る。こぼれ種は freely self-seeds だが侵略的の明記なし。種の文だけなので中",
+"quote": "Prompt removal of spent flowers will prevent unwanted self-seeding."
+},
+{
 "no": 1283,
 "type": "B 花後刈込型",
 "codes": [
@@ -3626,6 +5255,17 @@
 "confidence": "高",
 "reason": "RHS・品種: 花後に切り戻せる（種穂を冬に残してもよい）。おぎはら楽天・品種: 花後に花茎を切る程度。stauden.de・種も花後",
 "quote": "Can be cut back after flowering, though seed heads persist well"
+},
+{
+"no": 1289,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後"
+],
+"confidence": "低",
+"reason": "おぎはら楽天・品種: 春に切って分岐させると低くたくさん咲く（草丈を詰める摘心と読んだ。ただし「初夏」ではなく「春」なので幅がある。B とも読める）。ほかは花がら摘みで返り咲き（RHS・MBG・NC State・Walters・stauden.de）。短命だが D の明記なし。機械の B から変更",
+"quote": "春に切って分岐させておくと、低くたくさん咲く"
 },
 {
 "no": 1290,
@@ -3660,6 +5300,17 @@
 "confidence": "高",
 "reason": "RHS・品種: 花がらを摘んで多量のこぼれ種を防ぐ、初秋に地際近くまで切る。おぎはら: 花後に花茎を切る。Gaißmayer はよくこぼれ種で殖えるとするが invasive／aggressive の明記はなく E にしない。二年草だが D の明記なし",
 "quote": "deadhead to prevent prolific self-seeding"
+},
+{
+"no": 1294,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花が終わるごとに茎を切ると次の花が咲く。MBG・品種: 花がら摘みで見た目がよくなる。stauden.de は秋の切り戻し。4年ごとの株分けは D ではない",
+"quote": "Cut back stems as the blooms fade to encourage further flower production"
 },
 {
 "no": 1295,
@@ -3721,6 +5372,18 @@
 "quote": "Rückschnitt der Stängel im Herbst bis Spätherbst"
 },
 {
+"no": 1301,
+"type": "C 夏前切戻型",
+"codes": [
+"花後",
+"初夏",
+"秋"
+],
+"confidence": "高",
+"reason": "MBG・品種: 盛夏〜晩夏に刈り込み、広がって乱れた茎葉を除き秋に返り咲かせる。Walters: 倒れて開いたら7月に半分に刈る（'Redshift' と同じ扱い）。RHS: 花がら摘み、秋に地際まで切る",
+"quote": "Plants may be sheared in mid to late summer to promote a fall rebloom and to remove any sprawling or unkempt foliage."
+},
+{
 "no": 1302,
 "type": "B 花後刈込型",
 "codes": [
@@ -3754,6 +5417,38 @@
 "quote": "Cut back flower spikes to prolong flowering"
 },
 {
+"no": 1305,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・Walters・品種: 花がら摘み・花後に半分に切ると返り咲く。stauden.de: 一番花の後の切り戻し。夏の傷み・夏前の記述はないので機械の C ではなく B",
+"quote": "Deadhead or cut back by half after blooming to encourage repeat flowering."
+},
+{
+"no": 1306,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "Walters・品種: 花後に強く切り戻すと秋に二番花。stauden.de: 咲き終わった花穂を切る、秋に茎を切る。株分けは2〜3年ごとで D ではない（'Party Girl' と同じ）。機械は空欄",
+"quote": "Prune back hard after blooming, and plants may flower a second time in the fall."
+},
+{
+"no": 1307,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "おぎはら楽天・品種: 花後に花茎を切る程度（'Morning Blush' と同じ扱い）。機械は空欄。根拠は1件のみ",
+"quote": "花後に花茎をカットする程度"
+},
+{
 "no": 1308,
 "type": "A 放任型",
 "codes": [
@@ -3762,6 +5457,18 @@
 "confidence": "中",
 "reason": "stauden.de・種: 秋に茎を切る、の記述のみ（種の文だけ）。花後の切り戻しの記述はない。機械は null",
 "quote": "Rückschnitt der Stängel im Herbst bis Spätherbst"
+},
+{
+"no": 1309,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"早春"
+],
+"confidence": "中",
+"reason": "Walters・品種: 肥えた土では6月に摘心して倒れを防ぐ。NC State・種: 早春に切るか摘心して茎を太くする（夏に切ると開花が遅れる）。RHS・品種は花後。条件付きの書き方なので中。機械の B から変更",
+"quote": "In rich soils, plants may be pinched in June to prevent floppiness."
 },
 {
 "no": 1310,
@@ -3796,6 +5503,17 @@
 "quote": "Cut back hard after flowering"
 },
 {
+"no": 1315,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に刈り込むと整い二番花が咲く。stauden.de・品種: 一番花の後の切り戻しで返り咲き、秋に茎を切る",
+"quote": "Trim after flowering to keep plants neat and encourage a second flowering"
+},
+{
 "no": 1316,
 "type": "A 放任型",
 "codes": [
@@ -3818,6 +5536,18 @@
 "confidence": "高",
 "reason": "おぎはら楽天・品種: 初夏頃に切ると花丈が低くまとまる（初夏に草丈を詰める記述）、花後剪定で繰り返し咲く。RHS・品種は剪定不要、NC State・stauden.de（種）は花後に切るとする",
 "quote": "初夏頃に切ると花丈が低くまとまる 花後剪定により繰り返し咲く"
+},
+{
+"no": 1319,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"不要",
+"花後"
+],
+"confidence": "中",
+"reason": "おぎはら楽天・品種: 初夏頃に切ると花丈が低くまとまる（夏前に草丈を詰める）。RHS は剪定不要・花後に切り戻す。Walters の「こぼれ種で広がらない」は打ち消し。機械の A から変更、RHS の剪定不要もあるので中",
+"quote": "初夏頃に切ると花丈が低くまとまる"
 },
 {
 "no": 1321,
@@ -3894,6 +5624,49 @@
 "quote": "花後に花穂を切る程度"
 },
 {
+"no": 1328,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・品種: こまめに花がらを摘み冬に地際まで切る。stauden.de・品種: 咲き終わった花序を切る、秋に茎を切る。おぎはら: 花後に花穂を切る。こぼれ種は「出ることがある」程度",
+"quote": "deadhead regularly then cut stems down to the ground in winter"
+},
+{
+"no": 1329,
+"type": "D 毎年株更新型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "MBG・種: 2年ごとに株分けする（毎年〜2年ごとの更新に当たる）。ほかに花がら摘み・花後の切り戻し（MBG・Gaißmayer）。根拠が種の文なので 中",
+"quote": "Divide every two years."
+},
+{
+"no": 1330,
+"type": "A 放任型",
+"codes": [
+"不要"
+],
+"confidence": "高",
+"reason": "RHS・品種: 剪定不要。stauden.de・品種: 適地ではほぼ手入れ不要。こぼれ種のことはある（MBG）が侵略的の明記なし",
+"quote": "No pruning required"
+},
+{
+"no": 1332,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 咲き終わった花茎は花後に切れる、秋に枯れ葉を取る。stauden.de・種: 咲き終わった茎を株元の葉まで切る",
+"quote": "old flower stems can be cut down after flowering"
+},
+{
 "no": 1333,
 "type": "B 花後刈込型",
 "codes": [
@@ -3938,12 +5711,41 @@
 "quote": "When foliage depreciates, plants may be cut to the ground."
 },
 {
+"no": 1337,
+"type": "C 夏前切戻型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "MBG・NC State（種）: 葉が傷んだら地際まで切る。Walters・品種: 見苦しい葉を切ると新しい葉が出る。花後に花茎を切ると返り咲く。「夏」の明記がないので 中（同種 'Corbett' と同じ）。よくこぼれ種で殖える（MBG）が invasive の明記ではない",
+"quote": "Simply trim off the ugly foliage and the plants will grow fresh leaves."
+},
+{
+"no": 1339,
+"type": "A 放任型",
+"codes": [],
+"confidence": "中",
+"reason": "stauden.de・品種: 秋は切り戻さない、適地ではほぼ手入れ不要。RHS・品種: 枯れた葉は必要に応じて取る。おぎはら楽天: 落葉後の枯葉を切る程度。花後・夏の切り戻しの記述はない。機械は null",
+"quote": "Kein Rückschnitt im Herbst, Winteraspekt der Struktur, Blätter, Samenstände oder wegen der Schutzwir"
+},
+{
 "no": 1340,
 "type": null,
 "codes": [],
 "confidence": "高",
 "reason": "文献の文が1つもない（sentences が空）。機械の B には根拠がないので null",
 "quote": null
+},
+{
+"no": 1341,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花がらを摘んで整え、晩秋に地際で切る。stauden.de・品種: 種が熟す前に切る、秋に茎を切る",
+"quote": "deadhead spent flowers to tidy, cut back stem close to the ground in late autumn"
 },
 {
 "no": 1342,
@@ -3968,6 +5770,28 @@
 "confidence": "高",
 "reason": "おぎはら楽天・品種: 花後は早めに花茎を切る、冬に枯れた葉茎を切る。stauden.de・種: 種が熟す前に切り戻す。RHS・品種は春の芽出し前に茎葉を刈る。株分けは約4年ごとで D ではない",
 "quote": "花後は早めに花茎を切る、冬に枯れた葉茎を切る"
+},
+{
+"no": 1346,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "stauden.de・種の決まった文のみ: 種が熟す前に切り戻す（花後）、秋に茎を切る。ほかの文献の記述はないので 中",
+"quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden"
+},
+{
+"no": 1349,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "おぎはら楽天・品種: 花後に花茎を切る程度。RHS・品種: 晩秋に切り戻す。MBG・品種は花後の切り戻しは不要とし、stauden.de はほぼ手入れ不要なので読み方に幅がある",
+"quote": "花後に花茎を切る程度"
 },
 {
 "no": 1350,
@@ -4170,6 +5994,35 @@
 "quote": "Trim back after blooming to encourage repeat flowering."
 },
 {
+"no": 1391,
+"type": "E 隔離推奨型",
+"codes": [],
+"confidence": "低",
+"reason": "MBG・品種: 近くの管理されていない場所へ侵略的に広がることがあると明記。広がる仕組み（つる・種）は書かれておらず「ことがある」なので低（E でなければ範囲に収める刈り込みだけで A）。RHS は剪定グループ11（初冬、必要なら夏）",
+"quote": "This vine may invasively spread to nearby unmanaged areas."
+},
+{
+"no": 1393,
+"type": "E 隔離推奨型",
+"codes": [
+"秋"
+],
+"confidence": "高",
+"reason": "MBG・種: 地下茎とこぼれ種で広がり抑えにくく、密な単一群落を作る。NC State・種: aggressive に広がる。stauden.de も広がりを区切るよう指示。地下茎による広がりなので品種にも当てる（var. picta と同じ）",
+"quote": "It spreads aggressively to form dense monocultures."
+},
+{
+"no": 1395,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に刈り込むと締まり二番花が咲く。stauden.de・MBG・NC State も同じ。MBG の攻撃的なこぼれ種は種の記述。品種で同じかは不明なので E にしない",
+"quote": "Trim after flowering to keep plants compact and to encourage a second flowering"
+},
+{
 "no": 1397,
 "type": "B 花後刈込型",
 "codes": [
@@ -4194,12 +6047,86 @@
 "quote": "Cut back clumps to the ground in late winter to early spring."
 },
 {
+"no": 1399,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "MBG・品種: 花後に葉を刈り込むと姿が丸く保てる。おぎはら楽天・品種: 花後に軽く剪定して姿を整える、冬枯れしたら株元で切る。RHS・品種: 霜で葉が黒くなったら切る",
+"quote": "Trimming or shearing foliage after bloom helps maintain rounded plant appearance"
+},
+{
+"no": 1400,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "MBG・NC State・おぎはら楽天（種）: 花後に刈り込む・剪定して姿を整える。RHS・品種: 霜で葉が黒くなったら切る。株分けは4〜5年ごとで D ではない",
+"quote": "Prune after flowering if seed pods are not desired and to shape."
+},
+{
+"no": 1401,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・MBG・stauden.de・品種: 花がらを取る、秋に枯れたら茎葉を切る。長年植え替えない。'Paula Fay' と同じ B。機械の A から変更",
+"quote": "Remove dead flowers as they fade, then cut back plant as the foliage dies down in autumn"
+},
+{
+"no": 1402,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "RHS・MBG・品種: 花がらを取る、秋に茎葉を切る。MBG の「見苦しければ葉をこの時期に切ってよい」は時期が文から読めず、夏の傷み・夏前の話と確かめられないので機械の C を B に変更",
+"quote": "Remove dead flowers as they fade, then cut back plant after the foliage has died down in autumn"
+},
+{
 "no": 1408,
 "type": "E 隔離推奨型",
 "codes": [],
 "confidence": "高",
 "reason": "NC State・種: 庭で攻撃的に広がり隣接地へ侵入すると明記。RHS・品種も放っておくと厄介になるおそれ。MBG の「一部地域で侵略的」は地域の話なので根拠にせず、NC State の庭での広がりで判定。茎で広がるので種の記述を品種に当てる。切り戻しは毎年ではなく必要に応じて（stauden.de）で、区分に当たるものなし",
 "quote": "This evergreen can spread aggressively, becoming invasive as it spreads to adjacen"
+},
+{
+"no": 1409,
+"type": "E 隔離推奨型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "MBG・種: 地下茎とこぼれ種で攻撃的に広がると明記。NC State・種: 肥えた湿った土では攻撃的で、抑えるため毎年〜2年ごとの株分けが必要。stauden.de も広がりを区切るよう指示。商品は種そのもの",
+"quote": "Species plants are noted for being aggressive spreaders in the landscape by both rhizomes and self-seeding."
+},
+{
+"no": 1410,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS: 秋〜冬に枯れ茎を切り、こぼれ種を防ぐため咲き終わった花を取る。MBG・NC State: 種ができる前に花茎を取る。「管理しないと厄介になりうる」「よくこぼれる」は侵略的の明記ではないので E にしない",
+"quote": "Remove faded flowers to prevent self-seeding"
+},
+{
+"no": 1411,
+"type": null,
+"codes": [],
+"confidence": "高",
+"reason": "文献の文がない（sentences が空）",
+"quote": null
 },
 {
 "no": 1413,
@@ -4222,6 +6149,27 @@
 "confidence": "高",
 "reason": "MBG・品種: 花後すぐ花茎を取る、Walters: 花後に約8cmまで切り戻して葉を更新。夏の傷みの記述はないので機械の C ではなく B",
 "quote": "Remove flower stems immediately after bloom."
+},
+{
+"no": 1416,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "MBG・品種: 花後すぐ花茎を取る。地下茎はゆっくり広がる程度",
+"quote": "Remove flower stems immediately after bloom."
+},
+{
+"no": 1419,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・NC State（種）: 咲き終わった花房を取ると花期が延び、こぼれ種も防げる。冬に地際で刈る。種の文だけなので中。同じ種のほかの品種と同じ B。機械は空欄",
+"quote": "Remove faded flower panicles to prolong bloom period and to prevent unwanted self-seeding"
 },
 {
 "no": 1421,
@@ -4253,6 +6201,14 @@
 "quote": "Cut back old, flowered stems and dead foliage at the base in late winter"
 },
 {
+"no": 1424,
+"type": null,
+"codes": [],
+"confidence": "高",
+"reason": "文献の文がない（機械の B は根拠になる文がないので null）",
+"quote": null
+},
+{
 "no": 1425,
 "type": "B 花後刈込型",
 "codes": [
@@ -4273,6 +6229,17 @@
 "quote": "Remove faded flower spikes and leaves to keep plants tidy"
 },
 {
+"no": 1427,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後か晩冬〜早春に切り戻す。stauden.de・品種: 咲き終わった花穂を切る。NC State も花後に花を切る。夏の傷み・夏前の切り戻しの記述はないので機械の C を B に変更（'Taurus' と同じ）",
+"quote": "Cut back after flowering or in late winter/early spring"
+},
+{
 "no": 1428,
 "type": "B 花後刈込型",
 "codes": [
@@ -4281,6 +6248,19 @@
 "confidence": "中",
 "reason": "RHS・NC State・stauden.de（いずれも品種）: 花後に切り戻す・花がらを切って整える。この品種には初夏に切って丈を抑える文（ブラックフィールド・ゴールデンアローに付くおぎはら楽天の文）がなく、夏前の切り戻しの根拠がないので、機械の C ではなく B。同じ種のほかの2品種は C なので 中",
 "quote": "Cut back flowers after blooming to keep tidy."
+},
+{
+"no": 1429,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春",
+"不要"
+],
+"confidence": "中",
+"reason": "NC State・種、stauden.de・品種: 花後に花を切る・咲き終わった花穂を切る。RHS・品種: 剪定不要、傷んだ茎は早春に切ってよい。初夏の切り詰めの文がないので機械の C ではなく B（'Firetail' と同じ扱い）",
+"quote": "Cut back flowers after blooming to keep tidy.",
+"no_prune_and_deadhead": true
 },
 {
 "no": 1430,
@@ -4292,6 +6272,16 @@
 "confidence": "高",
 "reason": "RHS・品種: 花後に花がら摘み、秋に咲き終わった花茎を除く。MBG・NC State（種）: 花後に花穂を切る／株元の葉まで刈ると返り咲く。stauden.de は花後と秋の切り戻し。夏前の刈り込みの記述はない",
 "quote": "deadhead after flowering , remove faded flower stems in the autumn"
+},
+{
+"no": 1431,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "MBG・品種: 花後に半分に刈ると広がった葉がまとまり、晩夏〜秋に返り咲く。RHS: 咲き終わった花を取る。夏の傷み・夏前の記述はないので機械の C ではなく B（Veronica austriaca と同じ）",
+"quote": "Plants may be trimmed back by 1/2 after flowering"
 },
 {
 "no": 1432,
@@ -4316,6 +6306,17 @@
 "quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf"
 },
 {
+"no": 1436,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "stauden.de・種: 咲き終わった茎を株元の葉まで切る、秋に茎を切る。剪定不要の明記はなく、根拠は種の決まった文だけ。機械は空欄",
+"quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf"
+},
+{
 "no": 1437,
 "type": "A 放任型",
 "codes": [
@@ -4337,6 +6338,17 @@
 "reason": "RHS・品種: 剪定不要だが咲き終わった花穂は摘む。おぎはら楽天・品種: 花後に花茎を切る程度。Gaißmayer: はびこらず、よく返り咲く。花がら摘みの明記があるので上から順の判定で B（機械は A）。試作のアルメリアは似た組み合わせで A なので、線引きは要確認",
 "quote": "No pruning required. deadhead faded spikes",
 "no_prune_and_deadhead": true
+},
+{
+"no": 1439,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 咲き終わった花房をこまめに摘む。stauden.de: 咲き終わった花穂を切る、秋に茎を切る。おぎはら: 花後に花茎を切る程度",
+"quote": "deadhead faded flowerheads regularly"
 },
 {
 "no": 1442,
@@ -4438,6 +6450,38 @@
 "quote": "No pruning required"
 },
 {
+"no": 1453,
+"type": "A 放任型",
+"codes": [
+"不要"
+],
+"confidence": "高",
+"reason": "RHS・品種: 剪定不要。stauden.de・種: 手入れほぼ不要。同シリーズ 'Little Mango' と同じ A",
+"quote": "No pruning required"
+},
+{
+"no": 1455,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・種: 花後に花茎を切る。stauden.de・種: 秋に茎を切る、ほぼ手入れ不要。地下茎で群落になるが侵略的の明記なし。種の文だけなので中",
+"quote": "Deadhead spent flower stalks after bloom."
+},
+{
+"no": 1456,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "高",
+"reason": "おぎはら楽天・品種: 剪定は花後のみ。RHS・品種は剪定グループ4、MBG・NC State（種）も花後に剪定、冬傷みの枝は早春に除く",
+"quote": "Prune after flowering by cutting back flowering stems to a pair of healthy buds."
+},
+{
 "no": 1457,
 "type": "B 花後刈込型",
 "codes": [
@@ -4446,6 +6490,17 @@
 ],
 "confidence": "中",
 "reason": "MBG・種と NC State・種: 剪定は花後に軽く行い、弱い枝・冬傷みの枝は早春に除く。種の文だけ",
+"quote": "Prune after flowering by cutting back flowering stems to a pair of healthy buds."
+},
+{
+"no": 1458,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "中",
+"reason": "MBG・NC State（種）: 剪定はほとんど要らないが、行うなら花後（前年枝に咲く）。弱い枝・冬傷みの枝は早春に除く。文が同じ 'Albiflora' と同じ。種の文だけ",
 "quote": "Prune after flowering by cutting back flowering stems to a pair of healthy buds."
 },
 {
@@ -4480,6 +6535,29 @@
 "quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden"
 },
 {
+"no": 1464,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"不要"
+],
+"confidence": "中",
+"reason": "RHS・品種: 剪定不要だが花茎を切る花がら摘みで翌年の生育がよくなる。MBG・NC State（種）: 花後に花穂を取ると二番花・こぼれ種を抑える。晩夏の乱れは二年草として抜く話で C ではない。機械の A から変更",
+"quote": "No pruning required, but deadheading , cutting down the dead flowering stem, will encourage growth the following year",
+"no_prune_and_deadhead": true
+},
+{
+"no": 1466,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後"
+],
+"confidence": "高",
+"reason": "おぎはら楽天・品種: 初夏頃に切ると花丈が低くまとまる（初夏に草丈を詰める記述）、花後剪定で繰り返し咲く。RHS・品種: 花後に切り戻す",
+"quote": "初夏頃に切ると花丈が低くまとまる 花後剪定により繰り返し咲く"
+},
+{
 "no": 1467,
 "type": "B 花後刈込型",
 "codes": [
@@ -4502,6 +6580,28 @@
 "confidence": "中",
 "reason": "MBG・種と NC State・種: 地下茎と種で aggressively に広がり、放置すると大きな群落になる。地下茎による広がりなので種の記述を品種に当てた（品種の文は stauden.de の「必要なら広がりを抑える」のみ）。ほかに晩春の切り詰め（MBG・種）、花後に10cmまで切る（Walters・品種）の記述あり",
 "quote": "Plants spread aggressively by rhizomes and self-seeding, and can naturalize into substantial colonies if left unchecked."
+},
+{
+"no": 1469,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "おぎはら楽天・品種: 花後に短く切ると繰り返し咲く。ほかは stauden.de の「適地ではほぼ手入れ不要」のみ。機械は null（同種 'Milkmaid' とは文が違う）",
+"quote": "花後短くカットすると繰り返し咲く"
+},
+{
+"no": 1470,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・種: 7月半ばまでに数回摘心して草丈を抑える（夏前に草丈を詰める記述）。NC State・種: 晩夏に葉が傷むので地際で切れる。花後に切る（MBG・stauden.de）。種の文なので 中。こぼれ種で雑草化しうる（NC State・種）は種の記述で品種に当てない",
+"quote": "Pinching back stems several times before mid-July will help control plant height, promote bushiness"
 },
 {
 "no": 1471,
@@ -4546,6 +6646,16 @@
 "quote": "it will often spread, albeit somewhat invasively at times, by creeping roots, self-seeding or stem-rooting"
 },
 {
+"no": 1482,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: こまめに花がら摘み、咲き終わったら切り戻す。Walters: 花がら摘みで咲き続ける",
+"quote": "deadhead regularly, then cut back once flowering has finished"
+},
+{
 "no": 1484,
 "type": "B 花後刈込型",
 "codes": [
@@ -4580,6 +6690,38 @@
 "no_prune_and_deadhead": true
 },
 {
+"no": 1487,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 咲き終わった花を除き、秋に枯れる葉を切る。stauden.de: 咲き終わった茎を切る。こぼれ種は「注意して管理」程度で侵略的の明記なし",
+"quote": "Remove faded flowerheads and cut back dying foliage in autumn"
+},
+{
+"no": 1488,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "MBG・品種: 花後すぐに刈り込んで形を保つ。NC State・stauden.de: 手入れほぼ不要",
+"quote": "Trim back immediately after flowering to maintain shape."
+},
+{
+"no": 1490,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後"
+],
+"confidence": "低",
+"reason": "MBG・NC State（種）: 春に新しい伸びを軽く切り詰めると締まった茂った姿になる（秋咲きの草丈を夏前に詰める摘心と読んだ）。花がら摘みで返り咲き（B）より上の C。「spring」で初夏とは書かれていないので低（そう読まなければ B）。株分けは2〜3年ごとで D ではない",
+"quote": "New growth may be cut back slightly in spring to maintain plant compactness and encourage bushy form."
+},
+{
 "no": 1492,
 "type": "B 花後刈込型",
 "codes": [
@@ -4588,6 +6730,18 @@
 "confidence": "中",
 "reason": "Walters・品種: 花後に約8cmまで切り戻して葉を更新。夏の傷み・夏前の話ではないので機械の C ではなく B。根拠はこの1文だけ",
 "quote": "Cut plants back to 3 inches after blooming, to rejuvenate the foliage."
+},
+{
+"no": 1493,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "NC State・種: 草丈を抑えるため5月下旬に茎を切り戻せる（夏前の切り詰め）。品種の RHS・MBG・おぎはらは花がら摘み・花茎切り。種の文なので中。株分けは2〜3年ごとで D ではない。こぼれ種は群生する程度で侵略的の明記なし。機械の B から変更",
+"quote": "To reduce the plant height, the stems may be cut back in late May."
 },
 {
 "no": 1494,
@@ -4609,6 +6763,17 @@
 "confidence": "中",
 "reason": "Walters・品種: 望むなら6月半ばに半分の高さに摘心して締まった株にする。MBG・品種: 必須ではないが開花6週間前までに切り戻すと草丈が抑えられ支柱が減る。初夏に草丈を詰める記述なので C（どちらも任意の扱いなので中）。花がら摘みもあり",
 "quote": "If desired, pinch plants by pruning to half their height in mid June to keep them more bushy and compact."
+},
+{
+"no": 1496,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "中",
+"reason": "おぎはら・品種: 花後と冬に短くカット。ほかは早春の強い切り戻し（RHS・MBG・NC State・Walters）。夏前・夏の傷みの記述はないので機械の C ではなく B。花後の根拠はおぎはら1件のみ",
+"quote": "花後と冬は短くカットすると姿が美しく育つ"
 },
 {
 "no": 1498,
@@ -4666,6 +6831,26 @@
 "no_prune_and_deadhead": true
 },
 {
+"no": 1506,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に花がらを摘む。stauden.de は手入れほぼ不要。機械と同じ B",
+"quote": "deadhead after flowering"
+},
+{
+"no": 1508,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "中",
+"reason": "NC State・品種・MBG・種: 新枝咲きなので晩冬〜春に強く剪定できる。おぎはらの「花後から冬まで剪定可能」は時期の幅の話で、花後の切り戻しを勧める文ではないと読んだ。機械は空欄",
+"quote": "It can be severely pruned in late winter or spring as it blooms on the current season's new growth, not on the woody stems formed during the previous year."
+},
+{
 "no": 1509,
 "type": "E 隔離推奨型",
 "codes": [],
@@ -4683,6 +6868,16 @@
 "confidence": "中",
 "reason": "RHS・品種: はびこるおそれがあり、深い容器に植えて地中に埋めるなど根域を制限するよう明記（隔離の勧め）。invasive/aggressive の語そのものはなく、ほかの文献もないので確かさは中。機械は A。剪定は秋の花後に切り戻す（1821 と同じ文なので同じ値）",
 "quote": "restrict the root run in a deep container and plunge into the ground"
+},
+{
+"no": 1512,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に切り戻す。stauden.de・品種も花茎切り。株分けは約3年・3〜4年ごとで D ではない。根茎はゆっくり広がる程度",
+"quote": "Cut back after flowering"
 },
 {
 "no": 1513,
@@ -4708,6 +6903,16 @@
 "confidence": "中",
 "reason": "MBG・種と NC State・種: 地下茎と種で aggressively に広がり、放置すると大きな群落になる。地下茎による広がりなので種の記述を品種に当てた（品種の文は stauden.de の「必要なら広がりを抑える」のみ）。ほかに晩春の切り詰め（MBG・種）、花後の強い切り戻し（Walters・品種）の記述あり",
 "quote": "Plants spread aggressively by rhizomes and self-seeding, and can naturalize into substantial colonies if left unchecked."
+},
+{
+"no": 1515,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・品種: 冬か春の芽出し前に枯れた葉を取り除く。stauden.de・品種: 秋は切り戻さない、手入れはほとんど不要。おぎはら楽天: 落葉後の枯葉を切る程度。not aggressive と明記",
+"quote": "Remove any dead or damaged fronds in winter or in spring before new fronds emerge"
 },
 {
 "no": 1516,
@@ -4799,6 +7004,16 @@
 "quote": "Cut back the old stems after flowering"
 },
 {
+"no": 1529,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・品種: 早〜中春に地際近くまで切る。NC State: 春に整える。stauden.de: 秋は切らない。こぼれ種しないと明記。機械は空欄",
+"quote": "Cut back to near ground in early to mid-spring"
+},
+{
 "no": 1530,
 "type": "B 花後刈込型",
 "codes": [
@@ -4809,6 +7024,24 @@
 "confidence": "高",
 "reason": "RHS・品種: 花後に切り戻して形を保つ。おぎはら楽天・品種: 花がらを切ると二番花。Walters は早春、stauden.de は秋に茎を切る。夏前の切り詰めの記述はない",
 "quote": "Cut back after flowering to maintain shape or leave seedheads overwinter"
+},
+{
+"no": 1531,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: こまめな花がら摘みで花期が延びる。stauden.de・おぎはら楽天: 花後に花茎を切る。Gaißmayer の「よくこぼれる」は種の記述で侵略的の明記でもない。5年ごとの株分けは D ではない",
+"quote": "deadhead regularly to prolong flowering"
+},
+{
+"no": 1533,
+"type": "A 放任型",
+"codes": [],
+"confidence": "中",
+"reason": "RHS・品種: 剪定グループ10のみ。stauden.de・品種: 適地ではほぼ手入れ不要、時々の剪定。機械は空欄",
+"quote": "An optimalen Standorten kaum Pflege nötig."
 },
 {
 "no": 1534,
@@ -4841,6 +7074,17 @@
 "quote": "deadhead to promote more flowers"
 },
 {
+"no": 1538,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・種: 咲き終わった花をすぐ取ると次の花が咲く。stauden.de・品種: 秋に茎を切る。花後の根拠が種の文だけなので中。こぼれ種は「適地ではこぼれ種でも殖える」程度で E ではない",
+"quote": "Promptly remove spent flowers to promote additional bloom."
+},
+{
 "no": 1539,
 "type": "E 隔離推奨型",
 "codes": [
@@ -4861,12 +7105,33 @@
 "quote": "It can spread aggressively and is difficult to remove."
 },
 {
+"no": 1541,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "低",
+"reason": "stauden.de・種: 咲き終わった花茎を切る、種が熟す前に切ってこぼれ種を防ぐ。Walters・品種: 晩秋に切る。RHS の剪定不要の文がないので上から順の判定で B（'White Bells' と同じ。同じ種で剪定不要のある No.1160・1316 は A）。機械は空欄",
+"quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf"
+},
+{
 "no": 1542,
 "type": null,
 "codes": [],
 "confidence": "中",
 "reason": "NC State・種の文は地下茎で広がるが not aggressive という記述だけで、切り戻し・手入れの記述がない。E ではなく、ほかのタイプを決める根拠もない",
 "quote": null
+},
+{
+"no": 1543,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 咲き終わった花穂を取る。stauden.de・種: 咲き終わった茎を切る、秋は切らない。株分けは3〜4年ごとで D ではない",
+"quote": "Remove faded flower spikes"
 },
 {
 "no": 1544,
@@ -4896,6 +7161,14 @@
 "confidence": "高",
 "reason": "MBG・NC State（種）: 隣の芝生や庭にはびこる（aggressively）と明記。根づく茎で広がるので種の記述を品種に当てる。Walters・品種: 2年おきほどに花後に低く刈ると密になる",
 "quote": "Can spread aggressively into adjacent lawns or garden areas."
+},
+{
+"no": 1547,
+"type": null,
+"codes": [],
+"confidence": "高",
+"reason": "文献の文がない（sentences が空）",
+"quote": null
 },
 {
 "no": 1548,
@@ -5056,6 +7329,16 @@
 "quote": "The plant spreads aggressively."
 },
 {
+"no": 1566,
+"type": "A 放任型",
+"codes": [
+"不要"
+],
+"confidence": "高",
+"reason": "RHS: 剪定不要。stauden.de: 適地ではほぼ手入れ不要。こぼれ種は「適条件で殖えることがある」程度",
+"quote": "No pruning required"
+},
+{
 "no": 1567,
 "type": "B 花後刈込型",
 "codes": [
@@ -5065,6 +7348,17 @@
 "confidence": "高",
 "reason": "RHS・MBG: 花がら摘みで花が続く、秋に地際で切る。こぼれ種は「しがち」程度、走出枝も侵略的の記述なし",
 "quote": "Deadhead flowers to prolong summer bloom."
+},
+{
+"no": 1568,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: こまめに花がらを摘み秋に地際まで切る。おぎはら楽天・品種: 花後に軽く剪定。こぼれ種は「厄介にならない程度」と打ち消し",
+"quote": "deadhead regularly then cut stems down to the ground in autumn"
 },
 {
 "no": 1569,
@@ -5086,6 +7380,17 @@
 "confidence": "中",
 "reason": "NC State・種: 攻撃的に広がりうると明記。RHS・品種は節から発根しながら広がるとし、這う茎（ランナー）による広がりなので種の記述を品種に当てた。広がり方の仕組みは NC State の文には書かれておらず、MBG は弱い評価なので中",
 "quote": "Can spread aggressively."
+},
+{
+"no": 1574,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 剪定グループ11、花後に剪定（木本の花後剪定）。おぎはら楽天は秋",
+"quote": "pruning group 11 after flowering"
 },
 {
 "no": 1577,
@@ -5121,12 +7426,33 @@
 "quote": "Pinch out tips to encourage bushy compact growth."
 },
 {
+"no": 1580,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "高",
+"reason": "MBG・NC State（種）: 花後に花茎を切ると新しい葉が出る。RHS・品種: 古葉を除き花がらを摘む。stauden.de: 春に刈る、秋は切らない。夏の傷み・夏前の話はないので C ではない（アルケミラの例と同じ）。こぼれ種は「ゆっくり広がる」程度。機械の C から変更",
+"quote": "Cut back flowering stems after bloom to promote new foliage growth."
+},
+{
 "no": 1581,
 "type": null,
 "codes": [],
 "confidence": "低",
 "reason": "文献の記述なし",
 "quote": null
+},
+{
+"no": 1582,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS: 花がら摘み。MBG・種: 花後に花茎を地際まで切ると返り咲く。おぎはら楽天: 花後に花茎を切る",
+"quote": "Remove flower stalks to the ground after bloom to promote additional bloom."
 },
 {
 "no": 1584,
@@ -5169,6 +7495,17 @@
 "quote": null
 },
 {
+"no": 1588,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花が終わるごとに茎を切ると次の花が咲く。MBG・品種: 花がら摘みで見た目がよくなる。stauden.de は秋の切り戻し",
+"quote": "Cut back stems as the blooms fade to encourage further flower production"
+},
+{
 "no": 1589,
 "type": "B 花後刈込型",
 "codes": [
@@ -5178,6 +7515,17 @@
 "confidence": "高",
 "reason": "RHS: 花がら摘みで花期が延びる。stauden.de・品種: 秋〜晩秋に茎を切る",
 "quote": "deadhead to extend flowering"
+},
+{
+"no": 1590,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花が終わるごとに茎を切ると次の花が咲く。おぎはら楽天・品種: 花後に花茎を切る。stauden.de は秋の切り戻し",
+"quote": "Cut back stems as the blooms fade to encourage further flower production"
 },
 {
 "no": 1592,
@@ -5202,6 +7550,16 @@
 "quote": "Pinching back stems several times before mid-July will help control plant height, promote bushiness and perhaps obviate the need for staking."
 },
 {
+"no": 1595,
+"type": "D 毎年株更新型",
+"codes": [
+"早春"
+],
+"confidence": "低",
+"reason": "MBG・品種: 毎年早春に古い茎の20〜25%を除いて新しい茎を出させる（Cornus alba と同じ文）。NC State: 樹形と茎の色を保つため剪定が必要な場合がある。Cornus alba の品種（calibration の人の判断 D）に合わせた。文だけなら A とも読める。stoloniferous は侵略的の明記ではない",
+"quote": "Pruning may be required to maintain the plant's shape and stem color."
+},
+{
 "no": 1596,
 "type": "A 放任型",
 "codes": [
@@ -5223,6 +7581,17 @@
 "quote": "If bloom interrupts in the heat of the summer, plants can be cut back to rejuvenate"
 },
 {
+"no": 1601,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・品種: 花後に花穂を切る・切り戻す。NC State・種の「倒れたり見苦しくなったら」は夏の明記がないので C にしなかった（機械は C）",
+"quote": "Remove spent flower spikes to help extend the bloom period."
+},
+{
 "no": 1602,
 "type": "A 放任型",
 "codes": [
@@ -5234,12 +7603,34 @@
 "quote": "Cut back after flowering; stems may optionally be left until shortly before new growth begins the following season"
 },
 {
+"no": 1606,
+"type": "A 放任型",
+"codes": [
+"秋",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・品種: 古い茎を秋か早春に地際まで切る、だけ。stauden.de: 手入れほぼ不要",
+"quote": "Cut old stems back to ground level in autumn or early spring"
+},
+{
 "no": 1607,
 "type": "A 放任型",
 "codes": [],
 "confidence": "中",
 "reason": "stauden.de・品種: 手入れほぼ不要、の1文だけ",
 "quote": "An optimalen Standorten kaum Pflege nötig."
+},
+{
+"no": 1608,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花がら摘みで花期が延びる。stauden.de: 秋に茎を切る",
+"quote": "deadhead to prolong flowering"
 },
 {
 "no": 1609,
@@ -5251,6 +7642,30 @@
 "confidence": "低",
 "reason": "RHS・MBG・stauden.de・品種: 花後に刈り込むと締まり、花が続く。MBG の「こぼれ種で攻撃的に殖えることがある」は種のページと同じ文で、こぼれ種による広がりは品種で同じか不明なので E にしない（MBG では品種のページの文なので低）",
 "quote": "Shear flower spikes after initial flowering to promote continued bloom."
+},
+{
+"no": 1610,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "MBG・種: 晩春に茎を地際近くまで切ると草丈を抑えられる。おぎはら楽天・品種: 低く咲かせるなら初夏に強剪定（初夏に草丈を詰める記述）。花後の切り戻しもあるが上から順で C（機械は B）",
+"quote": "低く咲かせる場合は初夏頃に強剪定"
+},
+{
+"no": 1611,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・種: 晩春に茎を地際近くまで切ると草丈を抑えられる（初夏に草丈を詰める記述）。品種の文は花がら摘みのみなので中。上から順で C（機械は B）",
+"quote": "Overall plant height may be reduced by cutting back stems nearly to the ground in late spring."
 },
 {
 "no": 1614,
@@ -5274,6 +7689,36 @@
 "quote": "If foliage depreciates in late summer, cut it back after bloom."
 },
 {
+"no": 1616,
+"type": "A 放任型",
+"codes": [],
+"confidence": "中",
+"reason": "stauden.de・品種: 手入れほぼ不要。RHS: 余分なランナーを取る（剪定の型ではない）。Gaißmayer: この品種はランナーを出さない、とあり E にしない。機械の空欄から A",
+"quote": "An optimalen Standorten kaum Pflege nötig."
+},
+{
+"no": 1617,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に切り戻す。stauden.de・品種: 咲き終わった茎を切る。こぼれ種で群落になる程度で、はびこる記述ではない",
+"quote": "Cut back after flowering"
+},
+{
+"no": 1619,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"不要"
+],
+"confidence": "中",
+"reason": "stauden.de・品種: 咲き終わった花茎を株元の葉まで切る。RHS・品種は剪定不要、MBG は手間いらず。花後の記述があるので上から順の判定で B だが、根拠は stauden.de の1件だけ。地下茎 2 は株元の描写で、はびこる記述ではない。機械の A から変更",
+"quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf",
+"no_prune_and_deadhead": true
+},
+{
 "no": 1620,
 "type": null,
 "codes": [],
@@ -5293,6 +7738,22 @@
 "quote": "Best grown in a container as it spreads rampantly."
 },
 {
+"no": 1622,
+"type": null,
+"codes": [],
+"confidence": "中",
+"reason": "文献の文がなく決められない",
+"quote": null
+},
+{
+"no": 1623,
+"type": "E 隔離推奨型",
+"codes": [],
+"confidence": "中",
+"reason": "NC State・種: 攻撃的に広がりうると明記。同種 'Midnight Sun'（no.1572）と同じ扱いで、這う茎による広がりとして種の記述を品種に当てた。広がり方の仕組みはこの文には書かれておらず、MBG は 1 相当なので中。切り戻しの記述はない",
+"quote": "Can spread aggressively."
+},
+{
 "no": 1624,
 "type": "B 花後刈込型",
 "codes": [
@@ -5302,6 +7763,14 @@
 "confidence": "中",
 "reason": "RHS・MBG・品種: こまめに花がらを摘むと花が続く。秋に切り戻してもよい。おぎはら楽天の「春に軽く切ると低く咲く」は春の話で初夏の切り詰めとは書いていないので C にしなかった。Gaißmayer は花後はなるべく切らないとする",
 "quote": "Deadhead spent flowers to encourage additional bloom."
+},
+{
+"no": 1625,
+"type": "A 放任型",
+"codes": [],
+"confidence": "低",
+"reason": "stauden.de・種: 秋は切り戻さない（冬の姿を残す）。RHS は落葉性グラスの刈り方のページを参照するだけ。stauden.de・種は「wuchernd（はびこる）」、ランナーで広がるので抑えるとするが、mixing は「強い」で侵略的ではないので E にしなかった。機械は null",
+"quote": "Kein Rückschnitt im Herbst, Winteraspekt der Struktur, Blätter, Samenstände oder wegen der Schutzwir"
 },
 {
 "no": 1626,
@@ -5396,6 +7865,17 @@
 "quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden"
 },
 {
+"no": 1647,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "RHS・品種、NC State・種: 花後に古い茎を切る。stauden.de・種: 秋に茎を切る。秋咲きなので実質は秋の片付けとも読めるため 中（'Pamina' と同じ B）。吸枝で群落になる（NC State）が侵略的の明記なし",
+"quote": "Cut back old stems after flowering"
+},
+{
 "no": 1651,
 "type": "B 花後刈込型",
 "codes": [
@@ -5485,6 +7965,16 @@
 "quote": "many gardeners choose to remove 20-25% of the oldest stems in early spring of each year"
 },
 {
+"no": 1685,
+"type": "D 毎年株更新型",
+"codes": [
+"早春"
+],
+"confidence": "低",
+"reason": "'Elegantissima' と同じ文なので同じ D（calibration の 'Sibirica' の人の判断に合わせたもの）。文だけ読むと MBG は「剪定は必須でないが、多くの人が毎年早春に古い茎の20〜25%を除く」で必要の明記はなく A とも読める。吸枝・weedy（NC State）は invasive／aggressive の明記ではないので E にしない",
+"quote": "many gardeners choose to remove 20-25% of the oldest stems in early spring of each year"
+},
+{
 "no": 1690,
 "type": "B 花後刈込型",
 "codes": [
@@ -5520,6 +8010,44 @@
 "quote": "No pruning required"
 },
 {
+"no": 1696,
+"type": "C 夏前切戻型",
+"codes": [
+"早春"
+],
+"confidence": "低",
+"reason": "おぎはら楽天・品種: 夏に短く切ると夏越ししやすい（暑さ対策の夏の刈り込みと読んで C。同じ文の Geum rivale no.991 と同じ扱い）。この1文だけが根拠で、採らなければ根拠なし",
+"quote": "夏に短くカットすると夏越しが行い易い"
+},
+{
+"no": 1697,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "'Monstrosa Purple' と同じ文なので同じ B。MBG・NC State（種）: 花後に花穂を取ると二番花。品種の文はおぎはら楽天の「種がこぼれた後に花茎を切る程度」",
+"quote": "Removal of flower spikes after bloom will encourage a secondary bloom."
+},
+{
+"no": 1699,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・MBG・Walters（品種）: 花後に切り戻すと返り咲く。MBG の侵略的はオーストラリアや米国など地域の話だけなので E にしない",
+"quote": "Cut back or shear after flowering to promote rebloom."
+},
+{
+"no": 1701,
+"type": null,
+"codes": [],
+"confidence": "高",
+"reason": "文献の文がない（sentences が空）",
+"quote": null
+},
+{
 "no": 1702,
 "type": "B 花後刈込型",
 "codes": [
@@ -5548,6 +8076,39 @@
 "quote": null
 },
 {
+"no": 1706,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後"
+],
+"confidence": "中",
+"reason": "NC State・品種: 春に摘心して茎を太くする（夏前の切り詰めと読んだ）。RHS・品種: 花後に切り戻して形を保つ。「晩春」とまでは書いていないので中。同属 'Vera Jameson' も春の摘心で C。機械の B から変更",
+"quote": "Site in full sun and pinch back in spring to force thicker stems."
+},
+{
+"no": 1707,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "RHS・品種: 花後に形を整える剪定ができる。stauden.de: 秋に茎を切る。おぎはら楽天: 冬に枯れ枝を切る",
+"quote": "May be pruned to shape after flowering"
+},
+{
+"no": 1708,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に刈り込んで形を保つ。Gaißmayer: 冬の後に地際で切る。這って広がるが侵略的の明記なし",
+"quote": "Clip back to maintain a compact shape after flowering"
+},
+{
 "no": 1709,
 "type": "E 隔離推奨型",
 "codes": [
@@ -5567,6 +8128,56 @@
 "confidence": "高",
 "reason": "RHS・品種: 花がら摘みと一番花の後の切り戻しで花期が延びる。MBG・stauden.de（種）も花後。株分けは2〜3年ごとで D ではない",
 "quote": "deadhead regularly, and cut back after first flush, to prolong flowering"
+},
+{
+"no": 1715,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "中",
+"reason": "RHS・品種: 春に切り戻す。MBG・NC State（種）: 木質化を抑える・徒長したら刈る（時期の記述なし）。stauden.de: 時々の剪定。夏前・花後の明記がないので機械の C ではなく A",
+"quote": "Cut back in spring"
+},
+{
+"no": 1716,
+"type": null,
+"codes": [],
+"confidence": "低",
+"reason": "文献の文がない",
+"quote": null
+},
+{
+"no": 1723,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に刈り込んで締める。stauden.de・品種: 秋に茎を切る、適地ではほぼ手入れ不要",
+"quote": "Trim after flowering to keep plants compact"
+},
+{
+"no": 1726,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "中",
+"reason": "MBG・品種・NC State: 新枝咲きなので晩冬に地際近くまで切れる（毎年切ると茎が丈夫になる）。早春の剪定だけで花後の記述はない。毎年の地際剪定は「してもよい」の書き方で、株更新が必要との明記ではないので D にしない。機械は空欄",
+"quote": "Bloom occurs on new wood, so plants may be pruned back close to the ground in late winter to revitalize and to encourage vigorous stem growth and best form."
+},
+{
+"no": 1735,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・品種: 枯れ葉を取り花がらを摘む。stauden.de・おぎはら楽天（品種）: 咲き終わった花茎を切る。Walters: 春に冬傷みの葉を取る。株分けは3〜4年ごとで D ではない",
+"quote": "Remove any dead leaves and deadhead"
 },
 {
 "no": 1746,
@@ -5692,6 +8303,26 @@
 "quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf"
 },
 {
+"no": 1781,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "中",
+"reason": "RHS・品種: 春に枯れ葉と古い花茎を除く。NC State: 晩冬〜早春に刈る。stauden.de: 秋は切らない。MBG・NC State の侵略性はこぼれ種によるもので種の記述。品種で同じかは不明。「一部地域で侵略的」も地域の話なので E にしない（'Little Zebra' と同じ）",
+"quote": "Remove dead foliage and old flowered stems in spring"
+},
+{
+"no": 1782,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "中",
+"reason": "RHS・品種: 春に咲き終わった花茎を刈る（時期は春で、花後すぐの切り戻しではない）。おぎはら楽天の「姿が乱れたら」は決まった文。機械の B から変更",
+"quote": "Trim back spent flower stems in spring"
+},
+{
 "no": 1784,
 "type": "E 隔離推奨型",
 "codes": [
@@ -5701,6 +8332,14 @@
 "confidence": "高",
 "reason": "NC State・種: 猛烈に広がる・攻撃的に広がると明記（地下茎によるので品種にも当てる）。RHS・品種も容器で広がりを抑えるとする",
 "quote": "Best grown in a container as it spreads rampantly."
+},
+{
+"no": 1785,
+"type": null,
+"codes": [],
+"confidence": "中",
+"reason": "文献の文がなく決められない（人が決めた例と同じ null）",
+"quote": null
 },
 {
 "no": 1786,
@@ -5745,6 +8384,36 @@
 "quote": "deadhead to encourage further flowers"
 },
 {
+"no": 1803,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "中",
+"reason": "おぎはら楽天・品種: 花後・冬に短く切り戻して姿を整える。根拠はこの1文だけなので中。機械は空欄",
+"quote": "花後、冬は短く切り戻して姿を整える"
+},
+{
+"no": 1809,
+"type": null,
+"codes": [],
+"confidence": "低",
+"reason": "文献の文がない",
+"quote": null
+},
+{
+"no": 1810,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "高",
+"reason": "MBG・品種: 咲き終わった花を取ると返り咲く。剪定は晩冬〜早春に必要に応じて",
+"quote": "Remove spent flowers to encourage rebloom."
+},
+{
 "no": 1811,
 "type": "A 放任型",
 "codes": [
@@ -5753,6 +8422,40 @@
 "confidence": "中",
 "reason": "stauden.de・種: 秋〜晩秋に茎を切り戻す、適地ではほぼ手入れ不要、長命で植え替えない。広がりは「必要に応じて抑える」程度で侵略的の明記なし（機械は null）",
 "quote": "Rückschnitt der Stängel im Herbst bis Spätherbst"
+},
+{
+"no": 1813,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 剪定グループ11、花後に剪定（木本の花後剪定）。おぎはら楽天は秋",
+"quote": "pruning group 11 after flowering"
+},
+{
+"no": 1817,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花がら摘みで花期が延び、秋に切り戻す。MBG・NC State（種）も花がら摘み。3年ごとの株分けは D ではない",
+"quote": "deadhead to prolong flowering. Cut back after flowering in autumn"
+},
+{
+"no": 1818,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋"
+],
+"confidence": "低",
+"reason": "MBG・種: 最初の開花前に切り戻すと締まった姿になる（夏咲きなので夏前に草丈を詰めると読んだ）。Walters・品種: 7月に強く切り戻すと葉が若返り秋に返り咲く。B（花後・花がら摘み）より上の C。開花前の時期が書かれていないので低（そう読まなければ B）",
+"quote": "Plants may be cut back before first flowering to promote more compact size."
 },
 {
 "no": 1819,
@@ -5782,11 +8485,51 @@
 "quote": "restrict the root run in a deep container and plunge into the ground"
 },
 {
+"no": 1822,
+"type": "C 夏前切戻型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "Walters・品種: 盛夏に強く切り戻すと新しい葉が出る（夏の切り戻し）。Gaißmayer: 花後に全体を切ると締まって芽吹く。stauden.de の wuchernd はあるが Gaißmayer は「はびこらずに広がる」、mixing も「強い」なので E にしない",
+"quote": "Plants need to be cut back hard in midsummer to encourage fresh new foliage."
+},
+{
+"no": 1824,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・MBG・Walters・stauden.de（品種）: こぼれ種を防ぎ花を増やすため花がらを摘む、咲き終わった茎を株元の葉まで切る。non-invasive と明記で E ではない",
+"quote": "Remove faded flowers to encourage more buds, also to prevent plants from self seeding all over."
+},
+{
+"no": 1825,
+"type": "C 夏前切戻型",
+"codes": [
+"花後",
+"早春"
+],
+"confidence": "低",
+"reason": "おぎはら楽天・品種: 伸びすぎたり蒸れて姿が乱れたら株元まで短く切ると再び芽吹く（決まった文に「蒸れて」が加わり、夏の傷みで切り戻す記述と読んで C）。RHS・品種は種ができる前か秋に花茎を切る、MBG・NC State は晩冬〜4月初めに刈る。おぎはらの文を決まった文と見れば B",
+"quote": "伸びすぎたり、蒸れて姿が乱れた際は、株元まで短く 切ると、再び芽吹き、姿が整う"
+},
+{
 "no": 1827,
 "type": null,
 "codes": [],
 "confidence": "低",
 "reason": "文献の文がない（sentences も spread_evidence も空）ので決められない",
+"quote": null
+},
+{
+"no": 1829,
+"type": null,
+"codes": [],
+"confidence": "高",
+"reason": "文献の文がない（同属の 'Blue Magic' 等と同じく null）。機械の B は根拠なし",
 "quote": null
 },
 {
@@ -5798,6 +8541,26 @@
 "confidence": "高",
 "reason": "RHS: 剪定不要。stauden.de・品種: 適地ではほぼ手入れ不要",
 "quote": "No pruning required"
+},
+{
+"no": 1833,
+"type": "A 放任型",
+"codes": [
+"不要"
+],
+"confidence": "高",
+"reason": "RHS・品種: 剪定不要。ほかの切り戻しの記述はない",
+"quote": "No pruning required"
+},
+{
+"no": 1840,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "stauden.de・種: 咲き終わった茎を株元の葉まで切る。ランナーで広がる（中程度）が、はびこるとは書いていない。種の文だけなので中。機械は空欄",
+"quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf"
 },
 {
 "no": 1847,
@@ -5829,6 +8592,16 @@
 "confidence": "高",
 "reason": "RHS: 花がら摘みで花期が延びる",
 "quote": "deadhead to extend flowering"
+},
+{
+"no": 1865,
+"type": "A 放任型",
+"codes": [
+"早春"
+],
+"confidence": "中",
+"reason": "MBG・NC State（種）: 新枝咲きなので晩冬〜早春に必要に応じて剪定する。種の文だけなので中。機械は空欄",
+"quote": "Bloom occurs on current season’s growth, so prune as needed in late winter to early spring."
 },
 {
 "no": 1866,
@@ -5912,6 +8685,16 @@
 "no_prune_and_deadhead": true
 },
 {
+"no": 1874,
+"type": "C 夏前切戻型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "MBG・種: 葉はたいてい盛夏までに傷むので地際まで切る。RHS・品種: 花後に葉を切り戻すと晩夏に新しい葉が出る。花がら摘み（RHS）。'Nora Barlow' と同じ C。こぼれ種は「よく」程度で侵略的の明記なし",
+"quote": "Foliage usually declines by mid-summer at which point it should be cut to the ground."
+},
+{
 "no": 1878,
 "type": "C 夏前切戻型",
 "codes": [
@@ -5922,6 +8705,16 @@
 "confidence": "中",
 "reason": "RHS: 晩春〜初夏に半分まで刈り込める（夏前の刈り込み）。MBG・種は「条件が合えばこぼれ種ではびこりうる」と条件つきで、mixing も「強い」なので E にしなかった。機械の A から変更",
 "quote": "can be cut back by up to half in late spring or early summer"
+},
+{
+"no": 1879,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 咲き終わった花穂を取る。stauden.de・種: 咲き終わった茎を株元の葉まで切る、秋は切らない。株分けは3〜4年ごとで D ではない",
+"quote": "Remove faded flower spikes"
 },
 {
 "no": 1880,
@@ -5984,6 +8777,24 @@
 "confidence": "中",
 "reason": "MBG・品種: 種ができる前に花がらを切る、晩夏の花後に切り戻すと新しい葉が出る。RHS は「晩夏以降に乱れたら刈る」。夏の暑さ・傷みの話ではないので B。こぼれ種と地下茎で広がる（MBG）が侵略的の明記なし",
 "quote": "Cut back plants in late summer after blooming to encourage a new flush of foliage."
+},
+{
+"no": 1886,
+"type": null,
+"codes": [],
+"confidence": "高",
+"reason": "文献の文がない",
+"quote": null
+},
+{
+"no": 1887,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に切り戻す。stauden.de・品種: 咲き終わった茎を切る。おぎはら: 花後に花茎を切る程度",
+"quote": "Cut back after flowering"
 },
 {
 "no": 1892,
@@ -6061,6 +8872,16 @@
 "quote": "Ein Rückschnitt im Juli führt zu einer erneuten Blüte im Frühherbst."
 },
 {
+"no": 1901,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "MBG・NC State（種）: 花後に茎を切り戻すとうどんこ病を抑えやすい。stauden.de・品種: 咲き終わった花穂を切る。地表を這って群落になるが、はびこるとの記述はない（'Montrose Tricolor' と同じ）。機械は空欄",
+"quote": "Cutting back stems after flowering helps combat mildew."
+},
+{
 "no": 1903,
 "type": "B 花後刈込型",
 "codes": [
@@ -6072,6 +8893,19 @@
 "quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden"
 },
 {
+"no": 1904,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春",
+"不要"
+],
+"confidence": "中",
+"reason": "stauden.de・種: 咲き終わった茎を切る・種が熟す前に切る（決まった文で B）。RHS: 春に枯れ葉をかき出す。2〜3年ごとの株分けは D ではない。おぎはら楽天の「伸びすぎたら株元まで切る」はグラスの決まった文なので C の根拠にしない。機械の A から変更",
+"quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf",
+"no_prune_and_deadhead": true
+},
+{
 "no": 1905,
 "type": "B 花後刈込型",
 "codes": [
@@ -6080,6 +8914,28 @@
 "confidence": "中",
 "reason": "stauden.de・品種: 咲き終わった花序を上の茎葉まで切る（決まった文1件のみ）",
 "quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern"
+},
+{
+"no": 1907,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: シーズン中、咲き終わった花穂を取り除く。stauden.de・品種: 一番花後の切り戻しで返り咲き。人が決めた例の 'Red fortune'（B）と同じ",
+"quote": "Remove spent flowering spikes through the season"
+},
+{
+"no": 1908,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋",
+"早春"
+],
+"confidence": "高",
+"reason": "RHS・MBG・おぎはら楽天（品種）: 花後は早めに花茎を切る（見た目のため。残してもよい）、冬に枯れた葉茎を切る。stauden.de: 種が熟す前に切る、秋に茎を切る。株分けは3〜4年ごとで D ではない",
+"quote": "花後は早めに花茎を切る、冬に枯れた葉茎を切る"
 },
 {
 "no": 1910,
@@ -6102,6 +8958,29 @@
 "confidence": "中",
 "reason": "RHS・品種: チェルシーチョップで開花を遅らせたり、ずらしたりできると明記（初夏に草丈を詰める記述）。任意の技法としての書き方なので確かさは中。花後の花穂切り・秋の切り戻しもある",
 "quote": "You can delay or stagger flowering using the Chelsea chop technique"
+},
+{
+"no": 1912,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花がら摘みで花期が延びる。stauden.de・おぎはら楽天: 花後に花茎を切る",
+"quote": "deadhead to prolong flowering"
+},
+{
+"no": 1913,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"不要"
+],
+"confidence": "中",
+"reason": "stauden.de・品種: こぼれ種を防ぐため種が熟す前に切る（花後）。RHS・品種は剪定不要。こぼれ種は「確認して抑える」程度で侵略的の明記なし。機械の A から変更（同種 'Vicar's Mead' も B）",
+"quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden",
+"no_prune_and_deadhead": true
 },
 {
 "no": 1914,
@@ -6138,6 +9017,17 @@
 "quote": "Flowering stems may be cut back when flowers fade, or left standing for winter interest"
 },
 {
+"no": 1917,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に切り戻すと整い新しい葉が出る（夏の傷み・夏前の話はないので、人が決めた例のアルケミラと同じく B）。Walters・MBG・stauden.de（品種）: 花がら摘み、咲き終わった茎を切る。機械の C から変更",
+"quote": "Cut back after flowers have faded to tidy and encourage a fresh flush of leaf growth"
+},
+{
 "no": 1918,
 "type": "A 放任型",
 "codes": [
@@ -6156,6 +9046,16 @@
 "confidence": "高",
 "reason": "RHS・品種: 花後に整える。stauden.de・品種: 花後の茎を株元の葉まで切る。秋は刈らない",
 "quote": "Tidy plants after flowering"
+},
+{
+"no": 1920,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "高",
+"reason": "RHS・品種: 花後に整える。stauden.de・品種: 咲き終わった茎を株元の葉まで切る、秋は切らずに冬姿を残す。NC State の「夏の終わりの花後に切り戻す」は花後の切り戻しで夏の傷みの話ではない",
+"quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf"
 },
 {
 "no": 1921,
@@ -6177,12 +9077,34 @@
 "quote": "Cut back plants after flowering to both shape and encourage additional bloom."
 },
 {
+"no": 1923,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春",
+"秋"
+],
+"confidence": "高",
+"reason": "おぎはら楽天・品種: 花後は短く切り戻す。stauden.de: 種が熟す前に切る。RHS: 晩冬に切る。NC State: aggressive ではないと明記。株分け2〜3年ごとで D ではない。夏前の記述はないので機械の C ではなく B",
+"quote": "花後は短く切り戻し、来年に備える"
+},
+{
 "no": 1924,
 "type": "A 放任型",
 "codes": [],
 "confidence": "低",
 "reason": "MBG・NC State・種: 姿を保つ・広がりを抑える・木質化を減らすため必要に応じて切る（時期の記述なし）。stauden.de・品種: 手入れほぼ不要。夏前・花後の明記がないので C にも B にもせず A（機械は C）。ほふくして広がるが侵略的の明記なし",
 "quote": "Cut back stems as necessary to maintain plant appearance, to control growth/spread or to limit unsightly woody stem growth."
+},
+{
+"no": 1925,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "低",
+"reason": "おぎはら楽天・品種: 剪定時期は花後と落葉期（木本の花後剪定）。MBG・NC State（種）: ほとんど手がかからないが範囲に収めるため定期的に刈る。No.157（同じ種）は花後の文がなく A。おぎはらの1文だけで B にしたので低",
+"quote": "花後、落葉期"
 },
 {
 "no": 1926,
@@ -6194,6 +9116,16 @@
 "confidence": "高",
 "reason": "RHS・品種と stauden.de・品種: 咲き終わった花穂を切る。春に古葉を整える。RHS の「毎年マルチか植え直し」は毎年の株更新の明記ではなく、株分けは3〜4年ごとなので D にしない",
 "quote": "Remove faded flower spikes"
+},
+{
+"no": 1927,
+"type": "B 花後刈込型",
+"codes": [
+"花後"
+],
+"confidence": "中",
+"reason": "stauden.de・種: 咲き終わった花茎を株元の葉まで切る。剪定不要の明記はなく、根拠は種の決まった文だけ（'Primadiente Rose' と同じ扱い）。機械は空欄",
+"quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf"
 },
 {
 "no": 1928,
@@ -6216,6 +9148,18 @@
 "quote": "Remove faded flower spikes and leaves to keep plants tidy"
 },
 {
+"no": 1930,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"不要"
+],
+"confidence": "高",
+"reason": "RHS・品種: 剪定不要としつつ、咲き終わった花穂を取り除く。stauden.de・品種・おぎはら楽天: 花後の花茎を切る。花後の記述があるので機械の A ではなく B（同種の 'Redstart' も B）",
+"quote": "No pruning required. Remove faded flower spikes",
+"no_prune_and_deadhead": true
+},
+{
 "no": 1931,
 "type": "A 放任型",
 "codes": [
@@ -6224,6 +9168,28 @@
 "confidence": "高",
 "reason": "RHS・品種: 春に枯れ葉と古い花茎を除くだけ。stauden.de・品種: 秋は切らない。MBG の「花後」は穂の色の説明で剪定の話ではなく、機械の B は取り違え",
 "quote": "Remove dead foliage and old flowered stems in spring"
+},
+{
+"no": 1932,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "RHS・品種: こまめに花がらを摘み花後に切り戻す。stauden.de は秋に茎を切る。こぼれ種は「厄介にならない程度」と打ち消し",
+"quote": "deadhead regularly and cut back after flowering"
+},
+{
+"no": 1933,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "MBG・stauden.de・おぎはら楽天（いずれも種）: 花後に花がらを摘む・咲き終わった茎を株元の葉まで切る、秋に茎を切る。種の文だけなので 中。non-invasive と明記",
+"quote": "Deadhead flowerheads after bloom if self-seeding is unwanted (deadheading may also prolong bloom)."
 },
 {
 "no": 1934,
@@ -6296,6 +9262,18 @@
 "confidence": "低",
 "reason": "RHS・品種: 花後に刈り込んで形を保つ。MBG・種と stauden.de・品種も花後。MBG の aggressive は「たぶん、繊細なロックガーデン植物のそばでは強すぎる」という限定つきなので E にしなかった（要確認）",
 "quote": "Clip back after flowering to maintain a compact shape"
+},
+{
+"no": 1946,
+"type": "C 夏前切戻型",
+"codes": [
+"初夏",
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "おぎはら楽天・品種: 晩春〜初夏に短く切るとより低く咲く（夏前に草丈を詰める）。おぎはら: 初夏の花後に切り戻すと秋も咲く。RHS・stauden.de は秋に切る。文献はおぎはらだけ",
+"quote": "晩春〜初夏に短く切ると、より低く開花する"
 },
 {
 "no": 1947,
@@ -6384,6 +9362,20 @@
 "quote": "Foliage may decline after flowering in hot summer climates, at which point it should be cut back and shaped to revitalize"
 },
 {
+"no": 1956,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"早春",
+"秋",
+"不要"
+],
+"confidence": "中",
+"reason": "Gaißmayer・品種: 花後の切り戻しで二番花。Walters: 花後に葉が疲れたら刈る（夏の傷み・暑さの明記なし、アルケミラと同じ扱い）。RHS は剪定不要・早春に地際で切る。機械の C ではなく B",
+"quote": "Ein beherzter Rückschnitt nach der Blüte fördert einen zweiten Flor.",
+"no_prune_and_deadhead": true
+},
+{
 "no": 1957,
 "type": "B 花後刈込型",
 "codes": [
@@ -6403,6 +9395,17 @@
 "confidence": "中",
 "reason": "おぎはら楽天: 花後に穂を切り戻す程度。RHS: 晩冬〜早春に枯れた茎葉を刈る。花後に穂を切る記述があるので、上から順の判定で B（機械は A）。株分けは「数年ごと」で D ではない",
 "quote": "花後に穂を切り戻す程度"
+},
+{
+"no": 1959,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "高",
+"reason": "stauden.de・品種: 一番花の後に切り戻すと返り咲く。おぎはら・品種: 花後短くカットすると繰り返し咲く。機械は空欄",
+"quote": "花後短くカットすると繰り返し花を咲かせ初夏から秋まで長く楽しめる"
 },
 {
 "no": 1961,
@@ -6589,6 +9592,17 @@
 "confidence": "高",
 "reason": "文献の文がない",
 "quote": null
+},
+{
+"no": 1983,
+"type": "B 花後刈込型",
+"codes": [
+"花後",
+"秋"
+],
+"confidence": "中",
+"reason": "おぎはら楽天・品種: 花後に花茎を切る程度。RHS・品種: 晩秋に切り戻す。RHS の「定着すると速く広がる」は侵略的の明記ではない。機械は null",
+"quote": "花後に花茎を切る程度"
 },
 {
 "no": 1984,
