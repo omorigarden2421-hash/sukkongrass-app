@@ -13,6 +13,8 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const QUERIES = ['アルミブリッジ', 'アルミラダー', 'ラダーレール', '重機 ブリッジ', 'ユンボ ブリッジ', 'トラクター ブリッジ', 'アルミ 歩み板', '昭和ブリッジ', 'アルミブリッジ 3t', 'アルミブリッジ 360'];
 const MIN_LEN_CM = 360;
 const MIN_CAP_T = 3;
+const MAX_PRICE = 100000; // 予算上限（円）。価格不明は通知対象に含める
+const EXCLUDE_NEW = true; // 新品（業者の新品販売）は通知しない
 
 const norm = (s) => (s || '').normalize('NFKC');
 
@@ -54,6 +56,7 @@ const RELEVANT = /ブリッジ|ラダー|歩み板|あゆみ板|渡り板/;
 // 重機・農機用らしさ（タイトルにどれか必要）
 const HEAVY = /アルミ|重機|農機|トラクター|ユンボ|建機|コンバイン|バックホ|積載|昭和ブリッジ|日軽|パワーブリッジ|アルインコ|ピカ|PICA|ハセガワ|長谷川|ブリッジ\s*2本|2本\s*セット|\d(?:\.\d)?\s*(?:t|トン)/i;
 const IRRELEVANT = /シャツ|ニット|セーター|眼鏡|メガネ|サングラス|クレストブリッジ|タワーブリッジ|トレーニング|インレー|クラウン|コミック|キャンバス|ギター|ベース|ネックレス|指輪|プラスチック|カースロープ|ジャッキ|バイク用|自転車|車椅子|車いす|犬|ペット|ドッグ|脚立|はしご|梯子|キャンピング|スノーボード|ブリッジ\s*(?:ピン|ベース)|ラダーラック|ラダーフレーム|ルーフ|プラモデル|トミカ|ミニカー|ラダーテーブル|ラダーシェルフ|ハンガー/;
+const NEW_ITEM = /新品|未使用|メーカー直送|法人様お届け|送料無料.*新品/;
 const PICKUP_ONLY = /引き?取り?限定|引取限定|直接引き?取り?のみ|手渡し(?:のみ|限定)|発送不可|発送できません|配送不可/;
 const HOKKAIDO = /北海道|十勝|帯広|広尾|札幌|旭川|釧路|函館|苫小牧|北見/;
 
@@ -85,7 +88,7 @@ async function yahoo() {
           url: `https://auctions.yahoo.co.jp/jp/auction/${it.auctionId}`,
           area: it.prefectureCode === 1 ? '北海道' : `都道府県コード${it.prefectureCode}`,
           hokkaido: it.prefectureCode === 1,
-          end: it.endTime, start: it.startTime,
+          end: it.endTime, start: it.startTime, isNew: it.itemCondition === 'NEW',
         });
       }
     } catch (e) { console.error('yahoo', q, e.message); }
@@ -252,36 +255,67 @@ async function arudaDetail(item, page) {
   console.error(`タイトルで候補: ${stage1.length}`);
 
   // 2次判定（詳細ページ）
-  for (const it of stage1) {
+  await m.browser.close().catch(() => {});
+
+  // 詳細ページを開くのは見込みのあるものだけ（未通知で、タイトルに寸法か荷重の条件を満たす記載がある / 北海道の引き取り物件）
+  const promising = (it) => {
+    const s = parseSpec(it.title);
+    return s.len !== null || s.cap !== null || it.site === 'アルーダ' || (it.site === 'ジモティー' && it.hokkaido);
+  };
+  const toCheck = stage1.filter((it) => (showAll || !seen[it.id]) && promising(it));
+  console.error(`詳細確認: ${toCheck.length}`);
+
+  // ブラウザが落ちても作り直して続行する
+  const { chromium } = require('playwright');
+  let br = null, pg = null, arudaWarm = false;
+  const page = async () => {
+    if (!br || !br.isConnected() || !pg || pg.isClosed()) {
+      await br?.close().catch(() => {});
+      br = await chromium.launch();
+      pg = await br.newPage({ locale: 'ja-JP', userAgent: UA });
+      arudaWarm = false;
+    }
+    return pg;
+  };
+
+  for (const it of toCheck) {
     if (it.site === 'ヤフオク') await yahooDetail(it);
     else if (it.site === 'ジモティー') await jimotyDetail(it);
-    else if (it.site === 'アルーダ') await arudaDetail(it, a.page);
-    else if (m.page) await mercariDetail(it, m.page);
+    else if (it.site === 'アルーダ') {
+      const p = await page();
+      if (!arudaWarm) { await p.goto('https://www.hokuren.or.jp/aruda/', { waitUntil: 'networkidle', timeout: 60000 }).catch(() => {}); arudaWarm = true; }
+      await arudaDetail(it, p);
+    } else await mercariDetail(it, await page());
     const tSpec = parseSpec(it.title);
     const dSpec = parseSpec(it.detailText || '');
     it.len = tSpec.len ?? dSpec.len;
     it.cap = tSpec.cap ?? dSpec.cap;
     it.verdict = judge({ len: it.len, cap: it.cap });
+    it.isNew = it.isNew || NEW_ITEM.test(it.title);
     if (it.pickupOnly === undefined) it.pickupOnly = PICKUP_ONLY.test(it.title);
     // 地域条件: 引き取りのみ → 北海道のみ
     it.areaOk = !it.pickupOnly || it.hokkaido;
     delete it.detailText;
   }
-  await m.browser.close().catch(() => {});
+  await br?.close().catch(() => {});
+  await a.page?.context().browser()?.close().catch(() => {});
 
-  const matched = stage1.filter((it) => it.verdict !== 'ng' && it.areaOk);
-  matched.sort((a, b) => (a.verdict === b.verdict ? 0 : a.verdict === 'ok' ? -1 : 1));
+  // 長さ・荷重とも不明なものは通知しない（ノイズが多いため）。片方だけ不明なものは「要確認」で通知。
+  const matched = toCheck.filter((it) => it.verdict !== 'ng' && it.areaOk && (it.len !== null || it.cap !== null)
+    && !(EXCLUDE_NEW && it.isNew) && !(it.price != null && it.price > MAX_PRICE));
+  matched.sort((a, b) => (a.isNew - b.isNew) || ((a.verdict === 'ok' ? 0 : 1) - (b.verdict === 'ok' ? 0 : 1)) || ((a.price ?? 1e9) - (b.price ?? 1e9)));
   const fresh = matched.filter((it) => showAll || !seen[it.id]);
 
   const now = new Date().toISOString();
-  for (const it of matched) if (!seen[it.id]) seen[it.id] = now;
+  // 確認済みのものは条件外でも記録（毎日同じ物を開き直さないため）
+  for (const it of toCheck) if (!seen[it.id]) seen[it.id] = now;
   fs.writeFileSync(SEEN, JSON.stringify(seen, null, 1));
   fs.writeFileSync(path.join(DIR, 'result.json'), JSON.stringify({ at: now, matched, fresh }, null, 1));
 
   const fmt = (it) => {
     const spec = `長さ${it.len ? it.len + 'cm' : '不明'}・耐荷重${it.cap ? it.cap + 't' : '不明'}`;
     const how = it.pickupOnly ? `引き取りのみ（${it.area || '北海道'}）` : `発送可/発送元:${it.area || '不明'}`;
-    return `- [${it.verdict === 'ok' ? '条件一致' : '要確認'}] ${it.site} ${it.title}\n  ${it.price != null ? it.price.toLocaleString() + '円' : '価格不明'} ${it.priceNote || ''} / ${spec} / ${how}${it.end ? ' / 終了 ' + it.end.slice(0, 16).replace('T', ' ') : ''}\n  ${it.url}`;
+    return `- [${it.verdict === 'ok' ? '条件一致' : '要確認'}]${it.isNew ? '[新品]' : '[中古]'} ${it.site} ${it.title}\n  ${it.price != null ? it.price.toLocaleString() + '円' : '価格不明'} ${it.priceNote || ''} / ${spec} / ${how}${it.end ? ' / 終了 ' + it.end.slice(0, 16).replace('T', ' ') : ''}\n  ${it.url}`;
   };
   const md = `# アルミラダー検索結果 ${now.slice(0, 10)}\n\n新着 ${fresh.length} 件（候補合計 ${matched.length} 件）\n\n${fresh.map(fmt).join('\n') || '新着なし'}\n`;
   fs.writeFileSync(path.join(DIR, 'result.md'), md);
