@@ -34,6 +34,12 @@ function parseSpec(text) {
   for (const m of t.matchAll(/(?:PX|PXF|PF|NP|PK)(\d{2,3})-(\d{3})-(\d{2})/g)) { caps.push(+m[1] / 10); lens.push(+m[2]); }
   // アルーダ等「長さ360」（単位なし3桁）
   for (const m of t.matchAll(/(?:全長|長さ)\s*[:：]?\s*(\d{3})(?!\d)/g)) lens.push(+m[1]);
+  // 「長さ3m60cm」
+  for (const m of t.matchAll(/(\d)\s*m\s*(\d{2})\s*(?:cm|センチ)/gi)) lens.push(+m[1] * 100 + +m[2]);
+  // 「3600x370mm」
+  for (const m of t.matchAll(/(?<!\d)(\d{4})\s*[x×*]\s*\d{2,3}\s*mm/gi)) lens.push(Math.round(+m[1] / 10));
+  // 「全長約3600mm」「3000mm」など
+  for (const m of t.matchAll(/(?<!\d)(\d{4})\s*mm/gi)) { const v = +m[1]; if (v >= 1000 && v <= 8000) lens.push(Math.round(v / 10)); }
   // 「全長3,620」のように単位なしの4桁
   for (const m of t.matchAll(/全長\s*[:：]?\s*(\d{4})(?!\s*\d)/g)) lens.push(Math.round(+m[1] / 10));
   const plausibleLen = lens.filter((x) => x >= 100 && x <= 800);
@@ -140,6 +146,13 @@ async function jimotyDetail(item) {
     const html = norm(await get(item.url));
     const text = html.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
     item.detailText = text.slice(0, 20000);
+    // 一覧のタイトルは途中で切れるので、ページの<title>から全文と地域を取る
+    const tt = html.match(/<title[^>]*>([^<]+)<\/title>/);
+    if (tt) {
+      const full = tt[1].replace(/｜ジモティー.*$/, '');
+      const mm = full.match(/^(.*)\s\(([^)]*)\)\s*(\S+?)の/);
+      if (mm) { item.title = mm[1].trim(); item.area = mm[3]; }
+    }
     // ジモティーは基本手渡し。配送対応の記載がある場合のみ発送可扱い
     item.shipOk = /(?:配送|発送)(?:可|可能|対応|します|いたします)|ジモティーで配送|ジモティー便|宅配便で/.test(text) && !PICKUP_ONLY.test(text);
     item.pickupOnly = !item.shipOk;
@@ -152,7 +165,7 @@ async function mercari() {
   const browser = await chromium.launch();
   const out = new Map();
   try {
-    const page = await browser.newPage({ locale: 'ja-JP', userAgent: UA });
+    const page = await browser.newPage({ locale: 'ja-JP' });
     let batch = [];
     page.on('response', async (r) => {
       if (r.url().includes('/v2/entities:search')) { try { batch.push(...((await r.json()).items || [])); } catch {} }
@@ -191,13 +204,20 @@ async function mercariDetail(item, page) {
 // ---------------- アルーダ（ホクレン中古農機・北海道のみ） ----------------
 async function aruda(browser) {
   const out = new Map();
-  const page = await browser.newPage({ locale: 'ja-JP', userAgent: UA });
+  const page = await browser.newPage({ locale: 'ja-JP' });
   try {
     await page.goto('https://www.hokuren.or.jp/aruda/', { waitUntil: 'networkidle', timeout: 60000 });
     for (const q of ['ブリッジ', 'ラダー', '歩み板', 'あゆみ板']) {
       await page.goto('https://www.hokuren.or.jp/aruda/machine/search?init=1', { waitUntil: 'networkidle', timeout: 60000 });
-      const box = page.locator('input[name="where[anyword]"]').last();
-      await box.fill(q);
+      let box = page.locator('input[name="where[anyword]"]').last();
+      if (!(await box.isVisible().catch(() => false))) {
+        // 防御ページに当たった場合はトップを経由してやり直す
+        await page.goto('https://www.hokuren.or.jp/aruda/', { waitUntil: 'networkidle', timeout: 60000 }).catch(() => {});
+        await page.waitForTimeout(3000);
+        await page.goto('https://www.hokuren.or.jp/aruda/machine/search?init=1', { waitUntil: 'networkidle', timeout: 60000 });
+        box = page.locator('input[name="where[anyword]"]').last();
+      }
+      await box.fill(q, { timeout: 15000 });
       await box.press('Enter');
       await page.waitForLoadState('networkidle').catch(() => {});
       for (let pg = 1; pg <= 10; pg++) {
@@ -233,7 +253,9 @@ async function arudaDetail(item, page) {
     await page.goto(item.url, { waitUntil: 'networkidle', timeout: 60000 });
     const text = norm(await page.evaluate(() => document.body.innerText)).replace(/\s+/g, ' ');
     const i = text.indexOf('照会No');
-    item.detailText = text.slice(i, i + 1500);
+    item.detailText = text.slice(i, i + 400);
+    const addr = text.match(/〒\d{3}-\d{4}\s*北海道(\S+?[市町村])/);
+    if (addr) item.area += `（${addr[1]}）`;
     const spec = item.detailText.match(/規格\s*(.*?)\s*年式/);
     if (spec) item.title += ` [規格: ${spec[1]}]`;
   } catch (e) { console.error('aruda detail', item.url, e.message); }
@@ -272,7 +294,7 @@ async function arudaDetail(item, page) {
     if (!br || !br.isConnected() || !pg || pg.isClosed()) {
       await br?.close().catch(() => {});
       br = await chromium.launch();
-      pg = await br.newPage({ locale: 'ja-JP', userAgent: UA });
+      pg = await br.newPage({ locale: 'ja-JP' });
       arudaWarm = false;
     }
     return pg;
