@@ -3,7 +3,7 @@
  "植物名": "セスレリア オータムナリス ssp.アルジェンティア",
  "学名": "Sesleria autumnalis ssp. argentea",
  "属": "Sesleria",
- "species": "Sesleria autumnalis",
+ "species": "Sesleria argentea",
  "交配種": false,
  "品種名": null,
  "在庫あり": true,
@@ -13,5 +13,6 @@
  "花色": "銀色がかった白",
  "広がり(cm)": "30～50",
  "葉色主分類": "② ゴールド／ライム系",
- "id": "Se01"
+ "id": "Se01",
+ "手で直した": "2026-11-21 ユーザーの回答: おぎはらの楽天のページ（Sesleria autumnalis ssp. argentea(=Sesleria argentea)）を参照、との回答。Sesleria autumnalis の文献を当てないように species を直した"
 }

@@ -56,9 +56,6 @@ GAISS = {
           [("spread_mode", "Im Gegensatz zur Art wuchert sie aber nicht und remontiert gut."),
            ("soil", "Für große Uferrandbepflanzungen auf kühlen, ausreichend feuchten, lehmigen oder tonigen, meist kalkarmen Böden geeignet."),
            ("pollinator", "Honigbienen sind die häufigsten Besucher der Blüten. Sie sammeln Nektar und Pollen.")]),
- "Se01": (6146, "Sesleria autumnalis", "species", "silbrig-weiß", "VIII–X", "30 cm–50 cm", S3, "Fr/GR1-2", "Z4", KG, None,
-          {"Schnittgeeignet": "ja", "Wintergrün": "ja"},
-          [("soil", "Wärmeliebendes, gut Trockenheit und Wurzeldruck vertragendes, spät blühendes Gras mit dekorativem frischgrünem Laub und horstiger Wuchsform. Sehr robust!")]),
  "Sk01": (6899, "Succisa pratensis", "cultivar", "blauviolett", "VII–IX", "30 cm–80 cm", "sonnig", "Fr2-3", "Z5", None, None,
           {"Wildstaude": "ja", "Schnittgeeignet": "ja"},
           [("soil", "Der Teufelsabbiss wächst bevorzugt auf wechselfeuchten, neutralen bis mäßig sauren Lehm- oder Tonböden und ist deshalb in der Natur auf Moorwiesen, "

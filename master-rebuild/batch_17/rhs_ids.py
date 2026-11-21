@@ -35,10 +35,11 @@ RHS = {
  "Lj02": (71750, "Limonium platyphyllum", "RHS では Limonium latifolium・Limonium platyphyllum のどちらもシノニム扱い（正名は要確認）"),
  "Pq02": (61622, "Physostegia virginiana var. speciosa 'Variegata' (v)", "RHS は var. speciosa の品種（Physostegia virginiana 'Variegata' はシノニム扱い）"),
  "To01": (297746, "Persicaria virginiana 'Compton's Form'", "RHS ではシノニム扱い（Persicaria virginiana var. filiformis 'Compton's Red' もシノニム。正名は要確認）"),
- "To02": (49200, "Persicaria virginiana Variegated Group (v)", "RHS は品種ではなく Variegated Group。RHS で未確定（Unresolved）。'Painter's Palette'（番号 47092）は別の名前なので当てていない"),
  "Vr01": (104816, "Vernonia noveboracensis", ""), "Vr02": (343849, "Vernonia noveboracensis 'White Lightning'", ""),
  "Vo01": (57565, "Viola labradorica ambig.", "RHS の表記は Viola labradorica ambig.（あいまいな名前）。紫葉の「Viola labradorica misapplied purpurea」（番号 91862）はシノニム扱い"),
  "Vo02": (189297, "Viola 'Mars'", "RHS は種小名なし（Viola mandshurica 'Mars' はシノニム扱い）。Name Status は Not established"),
+ "To02": (47092, "Persicaria virginiana (Variegated Group) 'Painter's Palette' (v)", "2026-11-21 のユーザーの回答: 売っているのは 'Painter's Palette' と同じ"),
+ "Pq01": (12881, "Physostegia virginiana", "2026-11-21 のユーザーの回答: 'Deep pink' は花色の意味で品種名ではない。種のページ"),
 }
 # 見つからなかったもの・当てていないもの: Pq01 フィソステギア 'Deep pink'（RHS に名前がない。種のページは当てていない）、
 #   Ro01 ロサ 'Adelaide Hoodless'・Ro02 'Sir Thomas Lipton'（RHS の検索に出ない）。

@@ -29,6 +29,9 @@ JELITTO = [
  (["E11"], "ECHINACEA purpurea 'Magnus'", "cultivar", "North America (Ohio and Michigan south to Georgia, west to Oklahoma and northeast to Texas)", "", "", "", "", "", "", "",
   "Award of Garden Merit (A.G.M.). Perennial Plant of the Year 1998 (PPA). The rose-purple flowers are arranged more horizontally than the pendulous, or drooping, habit of the wild species. Durable, low maintenance perennial. Very long lasting as cut-flower. The result of over ten years of careful selection by Swedish nurseryman, Magnus B. Nilsson.",
   "北アメリカ（オハイオ・ミシガンからジョージア、西はオクラホマ、テキサス北東部。種の原産地）"),
+ # 2026-11-21 に追加（ユーザーの回答: D10 は Sedum reflexum）
+ (["D10"], "SEDUM reflexum (rupestre, PETROSEDUM)", "cultivar", None, "yellow", "June - August", "Z4 - Z9", "stoloniferous", "30 cm", "dry", "",
+  "Foliage: grey. medicinal plant / beneficial plant / culinary herb / groundcover; honey-bee food plant / for the rock garden / for green roofs", None),
 ]
 AUTUMN = {}
 CBG = {}

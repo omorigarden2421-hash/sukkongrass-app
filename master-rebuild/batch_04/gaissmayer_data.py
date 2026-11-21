@@ -46,4 +46,8 @@ GAISS = {
  "E14": (8323, "Echinacea purpurea 'Virgin' ®", "cultivar", "weiß, grüne Mitte", "VII–IX", "50 cm–60 cm", "sonnig", "B/Fr1-2", "Z3", None, "Piet Oudolf (NL)",
          {"Schnittgeeignet": "ja"}, [("habit", "mit ihrem kompakten Wuchs und ihren nahezu reinweißen Blüten eine deutliche Verbesserung der Sorte 'Jade'")]),
  "E15": _PUR,
+ # 2026-11-21 に追加（ユーザーの回答: D10 は Sedum reflexum）。Gaißmayer は Sedum rupestre（Tripmadam）。Chrome で「rupestre」を検索して読んだ
+ "D10": (9235, "Sedum rupestre", "cultivar", "gelb", "VI–VII", "20 cm", "sonnig", "Fr/St1", "Z4", "keine Gefahr", None, {"Wildstaude": "ja", "Wintergrün": "ja"},
+         [("soil", "Die locker-horstig wachsende Wildpflanze braucht sehr warme, fast immer vollsonnige Standorte."),
+          ("habit", "Die alte Würzpflanze hat liegend-aufsteigende Triebe, die ganz dicht mit fleischigen, nadelartigen Blättern besetzt sind.")]),
 }

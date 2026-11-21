@@ -142,7 +142,7 @@ def ylist(key, q):
 # 属が分けられて、文献によって別の属名で載っているもの（アスターの仲間）
 GENUS_ALIAS = {"Aster": ["Aster", "Symphyotrichum", "Eurybia", "Doellingeria", "Galatella"],
                "Persicaria": ["Persicaria", "Bistorta", "Koenigia", "Aconogonon", "Polygonum"],
-               "Sedum": ["Sedum", "Hylotelephium", "Phedimus"], "Hylotelephium": ["Hylotelephium", "Sedum"],
+               "Sedum": ["Sedum", "Hylotelephium", "Phedimus", "Petrosedum"], "Hylotelephium": ["Hylotelephium", "Sedum"],
                "Stachys": ["Stachys", "Betonica"], "Potentilla": ["Potentilla", "Sibbaldiopsis"],
                "Scabiosa": ["Scabiosa", "Lomelosia"], "Sanguisorba": ["Sanguisorba", "Poterium"],
                "Anemone": ["Anemone", "Eriocapitella"], "Centaurea": ["Centaurea", "Psephellus"],
@@ -230,7 +230,8 @@ SPECIES_ALIAS = {
  "Chamerion angustifolium": ["Epilobium angustifolium", "Chamaenerion angustifolium"],
  "Convallaria keiskei": ["Convallaria majalis var. keiskei", "Convallaria majalis var. manshurica"], "Gillenia trifoliata": ["Porteranthus trifoliatus"],
  "Perovskia atriplicifolia": ["Salvia yangii"], "Leucosceptrum japonicum": ["Comanthosphace japonica"], "Satureja spicigera": ["Satureja repanda"],
- "Koeleria glauca": ["Koeleria macrantha subsp. glauca"], "Selinum wallichianum": ["Selinum tenuifolium"],
+ "Koeleria glauca": ["Koeleria macrantha subsp. glauca"],
+ "Sedum reflexum": ["Sedum rupestre", "Petrosedum rupestre", "Petrosedum reflexum"], "Selinum wallichianum": ["Selinum tenuifolium"],
 }
 # 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
 CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],

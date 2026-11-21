@@ -30,6 +30,7 @@ RHS = {
  "E11": (97560, "Echinacea purpurea 'Magnus'", ""), "E13": (176980, "Echinacea purpurea 'Vintage Wine'", ""),
  "E14": (285913, "Echinacea purpurea 'Virgin'", "RHS ではシノニム扱い（正名は要確認）"),
  "E15": (69049, "Echinacea purpurea 'White Swan'", ""),
+ "D10": (16983, "Sedum reflexum L.", "RHS ではシノニム扱い（Sedum rupestre subsp. albescens・Sedum albescens もシノニム。正名は要確認）。2026-11-21 に追加"),
 }
 # 見つからなかったもの: B03 'Grande'、B08・B09・B10 'Vision in Pink／Red／White'、D18 ussuriense 'Pink Beacon'、E12 'Playful Meadow Mama'。
 # D10（学名は 'Vera Jameson'、商品名は「セダム レフレクサム」）は、どちらの植物か分からないので番号を入れていない。

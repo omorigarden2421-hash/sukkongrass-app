@@ -51,7 +51,10 @@ JELITTO = [
   "ornamental foliage plant; for the rock garden", "ヨーロッパ・アジア・南北アメリカ（種の原産地）"),
  (["Pk01"], "POLYGONUM bistorta (BISTORTA officinalis)", "species", None, "pink", "May - August", "Z3 - Z9", "stoloniferous", "70 cm", "moist / average", "",
   "medicinal plant / culinary herb; honey-bee food plant / suitable for cutting", None),
- (["To01", "To02"],) + _TOV,
+ (["To01"],) + _TOV,
+ # 2026-11-21 のユーザーの回答: To02 は 'Painter's Palette' と同じ → Jelitto の品種のページを当てる
+ (["To02"], "POLYGONUM virginianum 'Variegatum' (filiforme) (PERSICARIA … [Painter's Palette]", "cultivar", None, "red", "July - August", "Z4 - Z9", "", "50 cm", "average", "",
+  "Foliage: white-green-yellow marbled. ornamental foliage plant; suitable for cutting", None),
  (["Rt01"], "RATIBIDA pinnata", "cultivar", None, "light yellow with brown disk", "July - September", "Z3 - Z8", "", "120 cm", "dry / average", "", "suitable for cutting", None),
  (["Rl01"], "RUELLIA humilis", "cultivar", "North America: Pennsylvania to Florida, west to Nebraska and Texas", "pale blue-violet", "July - September", "Z4 - Z8", "", "40 cm", "dry", "",
   "A colorful, underused species with clusters of lavender-blue flowers. Large flowering. Drought resistant species adapted to open, dry woodlands, rocky slopes and dry prairies. "

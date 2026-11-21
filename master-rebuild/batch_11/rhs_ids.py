@@ -18,7 +18,6 @@ RHS = {
  "Ds01": (5638, "Deschampsia cespitosa", ""), "Ds02": (114437, "Deschampsia cespitosa 'Goldtau'", ""),
  "Ds03": (152204, "Deschampsia cespitosa 'Northern Lights' (v)", "名前だけの登録"), "Ds04": (297976, "Deschampsia cespitosa 'Pixie Fountain'", ""),
  "Ds05": (5640, "Deschampsia flexuosa", ""),
- "Ep01": (65150, "Eupatorium album L.", "栽培の項目が少ないページ"),
  "Ep02": (158038, "Conoclinium coelestinum", "名前だけの登録。RHS の正名は Conoclinium coelestinum（Eupatorium coelestinum はシノニム扱い）"),
  "Ep03": (501158, "Eutrochium fistulosum (Albidum Group) 'Ivory Towers'", "RHS の正名は Eutrochium（マスターは Eupatorium fistulosum f. albidum）"),
  "Ep04": (270953, "Eupatorium fortunei 'Pink Frost' (v)", ""),

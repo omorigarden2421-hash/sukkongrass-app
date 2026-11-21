@@ -27,11 +27,11 @@ RHS = {
  "Pt01": (82273, "Patrinia scabiosifolia", ""), "Pt03": (88825, "Patrinia villosa", "名前だけの登録"),
  "Pv01": (370985, "Prunella grandiflora 'Bella Blue'", "名前だけの登録"), "Pv02": (137142, "Prunella grandiflora 'Rubra'", ""), "Pv03": (13944, "Prunella vulgaris", ""),
  "Si01": (164001, "Silene dioica 'Jade Valley' (v)", "名前だけの登録"), "Si02": (85303, "Silene uniflora 'Druett's Variegated' (v)", ""),
- "Si03": (117393, "Silene uniflora 'Robin Whitebreast' (d)", "RHS は八重咲き (d) としている（Jelitto の 'Weißkehlchen' は一重。要確認）"),
  "Si04": (59446, "Silene uniflora 'Rosea'", ""), "Si05": (179058, "Silene uniflora 'Swan Lake' (d)", "名前だけの登録"),
  "Tc01": (175814, "Tricyrtis formosana 'Gilt Edge' (v)", ""),
  "Tc02": (163991, "Tricyrtis 'Lightning Strike' (v)", "名前だけの登録。RHS は種小名なし（マスターは hirta）"),
  "Tc03": (83140, "Tricyrtis 'Tojen'", "RHS のつづりは 'Tojen'（マスターは 'Togen'）"),
  "Ti02": (176933, "Tiarella 'Pink Skyrocket'", ""), "Ti03": (253778, "Tiarella 'Sugar and Spice'", ""), "Ti04": (18217, "Tiarella wherryi", ""),
+ # Si03 の Silene uniflora 'Robin Whitebreast' (d)（番号 117393。八重咲き）は、2026-11-21 のユーザーの回答（売っているのは一重咲き）で外した
 }
 # 見つからなかったもの・当てていないもの: Gn01 'Blue Cross'（種のページ 7776 だけ）、Hy02 'Aurea'・Hy04 'Cheju-do'・Hy07 エゾアジサイの白花、Pt02 'Nana'、Ti01 'Lacquer Leaf'、As04 'Vanilla Edge'

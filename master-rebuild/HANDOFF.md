@@ -469,11 +469,31 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
   - 「耐暑性 強・欧米だけなら 弱」のまま残る23品種：ロニセラ ペリクリメナム2、リグラリア デンタータ2、カラミンサ 'Blue Cloud'、フェスツーカ グラウカ2、スティパ テヌイッシマ、ビバーナム 'Onondaga'、クナウティア マケドニカ2、ムクデニア 'Karasuba'、セスレリア、バレリアン、ホタルブクロの仲間6、カレックス 'Evergold'、トロリウス チネンシス 'Golden Queen'、モリニア1（ID は Lo03・Lo04・Lg01・Lg02・Ca02・Fe02・Fe03・Su02・Vu02・Kt01・Kt03・Mk02・Se01・Va01・C17〜C22・X07・Tr01・Mo06）
   - 下書きは、列を足した形で末尾 _1121b の名前で作り直した（値は _1121 と同じ。最新は _1121b）
 
+## 2026-11-21：「現物と学名の確認」の回答を反映
+- チェックリスト（非公開の Artifact。24件。備考欄つき）の回答は DECISIONS.md「現物と学名の確認」の回答。ここには、調べたことと直した場所を書く
+- 【input を手で直した】4品種。どれも学名の列はマスターのままで、JSON に「手で直した」の欄を足してある。make_input.py で作り直すと元に戻る
+  - batch_04/input/D10.json：species を Sedum reflexum、品種名なしに
+  - batch_11/input/Ep01.json：species を「Eupatorium hybrid」に（種が未確定で、種の文献を当てないため）
+  - batch_17/input/Se01.json：species を Sesleria argentea に
+  - batch_17/input/Pq01.json：品種名なしに
+  （前からの1品種：batch_17/input/To01.json の species を Tovara virginiana に）
+- セダム レフレクサム（D10）で読んだ文献：おぎはら「セダム レフレクサム Sedum reflexum(rupestre)」（図鑑のID 2881。耐暑性 強）、RHS「Sedum reflexum L.」（番号 16983。シノニム扱い）、MBG「Sedum rupestre」、NC State（sedum-rupestre）、stauden.de「Sedum reflexum」、Walters（sedum-reflexum）、Gaißmayer「Sedum rupestre（Tripmadam）」（商品 9235。Z4）、Jelitto「SEDUM reflexum (rupestre, PETROSEDUM)」。Gaißmayer と Jelitto は Chrome で4ページだけ読んだ（最初の1ページで確認画面が出たが、数秒で通った）。fetch_all.py にセダム レフレクサム＝Sedum rupestre・Petrosedum を足した。D10 の耐暑性は 中 → 強（'Vera Jameson' の文献が外れ、おぎはらの値になった）
+- ミスカンサス 'Purpurascens'（Mi05）で確かめたこと：MBG は「Miscanthus sinensis 'Purpurascens' と同じもので、その名前で売られることもある。ただし、sinensis の品種でも変種でもなく、親の分からない交配種で、M. 'Purpurascens' と書くべきだとする専門家もいる」と書いている。RHS は Miscanthus 'Purpurascens'（種小名なし）で、シノニムに Miscanthus oligostachyus 'Purpurascens'・Miscanthus sinensis 'Purpureus' などを挙げている。マスターの学名（Miscanthus sinensis 'Purpurascens'）は流通している書き方の1つ。ユーザーの回答どおり、ススキの仲間として扱う（耐暑性は同じ種の別品種から。信頼度：低）。学名（採用）は RHS の表記の Miscanthus 'Purpurascens'
+- ジプソフィラ「ローザス コーンヘッド」（Gy03）：Web で「Rosa's Conehead」「Rosas Conehead」「ローザス コーンヘッド」を検索したが、この名前の品種のページは見つからなかった（2026-11-21）。種の記述だけを当てたまま
+- アスクレピアス 'Milkmaid'（Ak03）：ユーザーが指定したページ（plantlust。Select Seeds の説明を載せている）は、Asclepias incarnata 'Milkmaid' を白花・香りのある品種として載せている（高さ 36〜60 in、花期は夏）。'Ice Ballet' と同じかどうかは書いていない。Jelitto は 'Iceballet' の別名に Milkmaid を挙げている。当て方は変えていない
+- セスレリア（Se01）：Sesleria argentea として、MBG・NC State・stauden.de・YList を探したがページはなかった。使っている文献は、おぎはら（図鑑と楽天）・Jelitto（SESLERIA argentea）・RHS（名前だけ）。蒸れ耐性 弱 と「欧米の文献だけなら 弱」は消えた（どちらも autumnalis の記述だった）
+- 値が変わったのは3品種：D10（耐暑性 中 → 強、西日 ○ → ◎）、Vs01（耐暑性 強 → 空欄、西日 ○ → 空欄、乾燥耐性 弱 → 空欄。おぎはらのクガイソウを外したため）、Se01（蒸れ耐性 弱 → 空欄、西日 ◎ → ○、乾燥耐性 強 → 中）
+- 学名（採用）の決め方を変えた（assemble_pilot.py の adopt_name。チェックリスト 21〜24）。前は、RHS が正名でも rhs_ids.py にメモのある品種は直していなかった。今は直す
+  - 学名（採用）が変わったのは 126品種（RHS の表記にしたもの：属が変わる、種小名を付けない、流通名 → 品種名、つづり、× の書き方など。ユーザーの回答で直した D10・Pq01・To02 を含む）
+  - 直さずに検討に残したのは 22品種（学名（採用）の列に理由を書いてある）：RHS が別の品種名を正名としているもの（Dg05・Dg08・Dg09・Ps02・Gy04・Eg01・Gl03・Op01・F14・S14・Fi04・Li06・Mn01）、RHS の種がマスターと違い、ほかの文献で確かめられないもの（Hd02・S04・D02・Me08・Sa04・Ne09・A05・A07）、フクシア 'Variegata'（Fu05）。ユーパトリウム 白花（Ep01）は学名を直さず、種が未確定と書いてある
+  - 「2つ以上の文献がそろえば直す」で種が変わったのは8品種：ガイラルディア3（aristata → × grandiflora）、カレックス X12（talbotii → berggrenii）、ポレモニウム 'Apricot Delight'（caeruleum → carneum）、スカビオサ オクロレウカ2（→ columbaria subsp. ochroleuca）、ネペタ 'Felix'（× faassenii → racemosa）。【まだ】学名（採用）を直しただけで、当てる文献（種のページ）は元の種のまま。当て直すには input の species を直して取得し直す必要がある
+- 下書きは末尾 _1121c の名前で作り直した（最新は _1121c）
+
 ## 次にやること（全部の属の下書きが終わった）
 - batch_18 までで、全916品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54＋51＋50＋53＋51＋51＋51＋51＋50＋47＋19＝916）。2026-11-20 に、batch_*/input と pilot/input の商品番号（916件・重複なし）を元のマスターの商品番号（916件）と照らし、もれ・重複がないことを確かめた
 - 耐暑性の決め方は 2026-11-21 に確定し、全品種に反映した（上の節）。次は、ユーザーの確認（各節の「ユーザーに聞くこと・伝えること」「要確認」。ユーザーは「確認は全部終わってからまとめて見る」と回答済み）
 - 耐暑性の最終検討で見るもの：各下書きの「耐暑性の決め方」と「耐暑性（欧米の文献だけなら）」の列、根拠の「[食い違い]」、各 batch の ogihara_data.py の SIBLING（同じ種の別品種の値を使った試し。中 で使ったのは batch_07・11・12・14・15・16 の6回）
-- 残っている未決：ミントブッシュ（プロスタンテラ）の種（ユーザーの確認待ち。batch_18 の Pb01 は文献を当てていない）
+- 残っている未決は DECISIONS.md の「未決」（ミントブッシュの種〔保留〕、フクシア 'Variegata'、ユーパトリウム 白花の種、RHS が別の品種名を正名としている15品種）。ほかに、種が変わった8品種の文献の当て直し（上の節の【まだ】）
 - 下書きは、まとまりごとに別の Excel（ClaudeWork の「下書き_….xlsx」。同じまとまりに複数あるときは、名前の末尾が新しいものが最新。どれが最新かは scripts/tools/rediff.py の KEY で探せる）。1つの表にまとめる作業、試作と同じ形（rows・根拠の JSON）への統合は、まだしていない
 - 3属の試行（78品種）とアスター（23品種）の下書きも、2026-11-21 に今の assemble_pilot.py で作り直した（rediff.py の対象に入れた）
 - まとまりを作り直す手順：`python -X utf8 scripts/pilot/assemble_pilot.py batch_NN/input <digest.json> <raw> <出力.xlsx> batch_NN`。前の下書きと比べるのは scripts/tools/rediff.py（耐暑性・蒸れ耐性・西日耐性・乾燥耐性・「欧米の文献だけなら」・和名を比べる。ほかの列は比べない）

@@ -37,6 +37,8 @@ OGIHARA = [
  (["E10"], 163, "エキナセア ‘グリーンジュエル’ Echinacea purpurea 'Green Jewel'", "cultivar", "強", "日向", [("cut_flower", "夏の切花にとてもおしゃれ")]),
  (["E14"], 173, "エキナセア ‘バージン’ Echinacea purpurea 'Virgin'", "cultivar", "強", "日向", []),
  (["E07", "E11", "E12", "E13", "E15"], 152, "エキナセア パープレア Echinacea purpurea", "species", "強", "日向", [("heat_humidity", "暑さに強く夏によく咲く")]),
+ (["D10"], 2881, "セダム レフレクサム Sedum reflexum(rupestre)", "cultivar", "強", "日向",
+  [("evergreen", "常緑～半常緑"), ("habit", "数あるシルバーグレーのセダムの中でも群を抜いて丈夫なので広く使われている 株がよく殖えて、たくさんの黄花を咲かせる")]),  # 2026-11-21 に追加（ユーザーの回答: D10 は Sedum reflexum）
 ]
 # 同じ種の別品種の値を、載っていない同種の品種に使う種（2026-11-19 のユーザーの決定に沿った試し。DECISIONS.md）。
 # アレンジー（arendsii）は 'Color Flash Lime'・'Fanal' の2品種が 強。対象は B03・B04・B05。宿根フロックス（根拠2品種）と同じ形。

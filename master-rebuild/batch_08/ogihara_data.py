@@ -32,7 +32,6 @@ OGIHARA = [
   [("spread_mode", "生育旺盛で、グランドカバーや雑草除けに良い"), ("soil", "特に多湿、日陰に強いので半日陰の湿気が多い場所など、他の植物が育ちにくい環境にも耐える")]),
  (["Ly05"], 639, "リシマキア プンクタータ Lysimachia punctata", "cultivar", "強", "やや半日陰", [("habit", "丈夫で土質も選ばないので、やや半日陰のグランドカバーに最適")]),
  (["Vs02"], 553, "エゾクガイソウ Veronicastrum sachalinense", "cultivar", "強", "日向", [("heat_humidity", "北海道産だが、耐暑性もあり強健な性質で育て易い")]),
- (["Vs01"], 552, "クガイソウ Veronicastrum japonicum", "cultivar", "強", "日向", [("native_range", "本州に広く分布し、山地や高原の日当たりの良い草地に生育する")]),
  (["Vs04"], 556, "西洋クガイソウ ‘エリカ’ Veronicastrum virginicum 'Erica'", "cultivar", "強", "日向", [("habit", "日本のクガイソウに比べてコンパクトに育ち、性質も丈夫")]),
  (["Vs05"], 554, "西洋クガイソウ ‘ファシネーション’ Veronicastrum virginicum 'Fascination'", "cultivar", "強", "日向",
   [("heat_humidity", "日本のクガイソウに比べ性質が強健で耐暑性に優れ、暖地でも栽培が可能")]),
@@ -44,6 +43,7 @@ OGIHARA = [
   [("habit", "株が広がりすぎずコンパクトで植栽に使いやすい"), ("evergreen", "落葉性")]),
  (["Mo06"], 1585, "モリニア ‘バリエガータ’ Molinia caerulea 'Variegata'", "cultivar", "強", "日向",
   [("seasonal_foliage", "秋冬になると茎がさらに黄色く染まる"), ("evergreen", "落葉性")]),
+ # Vs01 のクガイソウ（Veronicastrum japonicum、図鑑のID 552。強）は、2026-11-21 のユーザーの回答（売っているのはシビリクムで別の種）で外した
 ]
 # 同じ種の別品種の値を、載っていない同種の品種に使う種（2026-11-19 のユーザーの決定に沿った試し。DECISIONS.md）。
 # 西洋クガイソウ（virginicum）は 'Erica'・'Fascination'・'Lavendeltrum' がどれも 強（対象は Vs03 'Adoration'・Vs07 アルビフローラム）。

@@ -147,6 +147,14 @@ NAME_OVERRIDE = {
  "V05": ("Veronica spicata subsp. incana", "RHS の表記に合わせた。商品名はそのまま"),
  "V10": ("Veronica spicata", "RHS のページは亜種 subsp. spicata。種として売っているので今の学名のまま"),
 }
+NAME_OVERRIDE.update({
+ "Lu02": ("Lupinus 'Fräulein'", "2026-11-19 の決定（試作のとき）。RHS は 'Noble Maiden' (Band of Nobles Series)"),
+ "To02": ("Persicaria virginiana (Variegated Group) 'Painter's Palette'", "2026-11-21 ユーザーの回答: 売っているのは 'Painter's Palette' と同じ。RHS の表記"),
+ "D10": ("Sedum reflexum", "2026-11-21 ユーザーの回答: マスターの学名（Sedum 'Vera Jameson'）は誤り。RHS では Sedum reflexum はシノニム扱い（Sedum rupestre の仲間）"),
+ "Pq01": ("Physostegia virginiana", "2026-11-21 ユーザーの回答: 'Deep pink' は花色の意味で、品種名ではない"),
+ "Ep01": ("Eupatorium album L.", "2026-11-21 ユーザーの回答: この種ではなく、フジバカマの白花など別のもの。種は未確定で、学名は直していない"),
+ "Fu05": ("Fuchsia magellanica 'Variegata'", "RHS に同じ名前が2つあり（var. gracilis と var. macrostema）、どちらか分からない（2026-11-21 ユーザーの回答）"),
+})
 # 自社の観察（文献の値とは別に持つ）
 OWN_NOTES = {"V04": "越冬：傷む年がある（2026-11-19 ユーザーの回答。シカゴ植物園の冬の傷みの記録と合う）"}
 
@@ -255,6 +263,66 @@ RHS_PEST = [("slug", "ナメクジ"), ("snail", "カタツムリ"), ("vine weevi
             ("aphid", "アブラムシ"), ("virus", "ウイルス病"), ("leaf spot", "斑点病"), ("powdery mildew", "うどんこ病"), ("downy mildew", "べと病"),
             ("rust", "さび病"), ("honey fungus", "ナラタケ病"), ("leafhopper", "ヨコバイ"), ("caterpillar", "イモムシ"), ("eelworm", "線虫"),
             ("root rot", "根腐れ"), ("crown rot", "株腐れ")]
+
+
+def _species_alias():
+    """fetch_all.py の SPECIES_ALIAS（同じ種の別の書き方）を読む。fetch_all.py は読み込むと動き出すので、辞書の部分だけ取り出す"""
+    import ast
+    t = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "fetch_all.py"), encoding="utf-8").read()
+    a = t.index("SPECIES_ALIAS = {") + len("SPECIES_ALIAS = ")
+    return ast.literal_eval(t[a:t.index("\n}\n", a) + 2])
+
+
+SPECIES_ALIAS = _species_alias()
+
+
+def adopt_name(it, rh, others):
+    """学名（採用）を決める（2026-11-21 のチェックリスト 21〜24 の回答）。返すのは (採用する学名, メモ)。
+    RHS が正名（Accepted／Correct）のときは RHS の表記にする: 別の属名が正名（Lychnis → Silene など）、流通名（[流通名] ('品種名') → 品種名にして流通名を残す）、つづりの違い。
+    RHS の種がマスターと違う種のとき（同じ種の別の書き方ではないとき）は、ほかの文献（others）にも同じ種小名があるときだけ直す。
+    マスターに品種名があるのに RHS の名前に品種名がないとき（Group、種のページ、ambig. など）は直さない。"""
+    master = it["学名"]
+    if not rh or rh["f"].get("Name Status") not in ("Accepted", "Correct"):
+        return master, None
+    name = re.sub(r"\s+", " ", re.sub(r"\((v|d|F|Pe|[a-z ]+)\)", "", rh["name"])).strip()
+    name = re.sub(r" (L\.|Lam\.|Schrank \[\d+\])$", "", name)
+    if re.search(r"ambig\.|misapplied", name):
+        return master, None
+    note = None
+    m = re.match(r"^(.*?)\s*\[(.+?)\]\s*\('(.+)'\)", name)
+    if m:
+        name, note = f"{m.group(1)} '{m.group(3)}'", f"流通名 {m.group(2)}"
+    if "'" in master and "'" not in name:
+        return master, None
+    if "'" in name:
+        # 品種名のあとの付け足し（著者名、(G)・(Pf) のような区分の記号）は落とす。シリーズ名だけ残す
+        last = name.rindex("'")
+        ser = re.findall(r"\([^)]*Series\)", name[last + 1:])
+        name = name[:last + 1] + (" " + ser[0] if ser else "")
+        mc, rc = re.search(r"'(.+?)'(?!\w)", master), re.search(r"'(.+)'", name)
+        if mc and rc and not m:
+            import difflib
+            import unicodedata
+            nrm = lambda x: re.sub(r"[^a-z]", "", unicodedata.normalize("NFKD", x).encode("ascii", "ignore").decode().lower())
+            if difflib.SequenceMatcher(None, nrm(mc.group(1)), nrm(rc.group(1))).ratio() < 0.8:
+                return master, f"RHS の正名は {name}（品種名が違う。今の学名のまま）"
+    else:
+        # 品種名のない名前は、属・種小名・亜種／変種／品種までにする（著者名や説明の語を落とす）
+        g = re.match(r"^([A-Z][a-z]+(?: ×)? [a-z-]+(?: (?:subsp\.|var\.|f\.) [a-z-]+)*)", name)
+        if not g:
+            return master, None
+        name = g.group(1)
+    low = lambda x: re.findall(r"\b[a-z][a-z-]{2,}\b", re.sub(r"'.*", "", x).replace("×", " "))
+    rw = [w for w in low(name) if w not in ("subsp", "var", "ssp")]
+    sp = it["species"]
+    if not sp.endswith("hybrid") and rw:
+        me = sp.split()[1]
+        same = [me] + [w for a in SPECIES_ALIAS.get(sp, []) for w in low(a)]
+        if rw[0] not in same and rw[0][:5] != me[:5]:  # 語尾だけの違い（caucasica／caucasia、-us／-um）は同じ種とみる
+            if not any(rw[0] in (o or "").lower() for o in others):
+                return master, f"RHS は {name}（種が違う。ほかの文献で確かめられないので今の学名のまま）"
+            note = (note + "。" if note else "") + "RHS とほかの文献が同じ種"
+    return name, note
 
 
 def rhs(k):
@@ -641,11 +709,13 @@ def main():
             r["葉色（自社の値）"] = it["葉色主分類"]
         # --- 学名（採用）: 2026-11-19 決定。RHS が正名（Accepted／Correct）としていれば RHS の表記に合わせる。
         #     RHS で未確定・シノニム・掲載なしのときは今の学名のまま（学名の検討シートに残す）
+        #     2026-11-21: メモのある品種も RHS の正名に合わせる。決め方は adopt_name()
         adopted, note = it["学名"], None
         if k in NAME_OVERRIDE:
             adopted, note = NAME_OVERRIDE[k]
-        elif rh and rh["f"].get("Name Status") in ("Accepted", "Correct") and not rh["memo"]:
-            adopted = re.sub(r"\s+", " ", re.sub(r"\((v|[a-z ]+)\)", "", rh["name"])).strip()
+        else:
+            je0 = JEL.get(k)
+            adopted, note = adopt_name(it, rh, [r["文献での表記"], je0[1] if je0 else None])
         r["学名（採用）"] = adopted + (f"（{note}）" if note else "")
         if k in OWN_NOTES:
             r["自社の観察"] = OWN_NOTES[k]
