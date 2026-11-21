@@ -230,3 +230,59 @@ def extra(it, rh, m, mlv, n, nl, s, slv, w, ga, ga_own, je, texts):
                 why.append(f"[{lab}の食い違い] " + "、".join(f"{a} は {b} 相当" for a, b in other))
     r["こぼれ種・地下茎の根拠"] = "\n".join(why) or None
     return r
+
+
+# ---------- 夏前の切り戻し（管理タイプ C）と、毎年〜2年ごとの更新（管理タイプ D）。2026-11-21 ----------
+# trial/RULES.md: C 夏前切戻型＝初夏に草丈を詰める・夏前に刈り込む、または夏に葉が傷むので切り戻す記述。D 毎年株更新型＝毎年〜2年ごとの株分け・植え替え・更新が必要と明記。
+_BAD = r"declin|flop|sprawl|leggy|ragged|unsightly|tired|depreciat|scorch|tatter|untidy|open up|lodg|rangy|shabby|brown"
+_NEW = r"rejuvenat|refresh|fresh (new )?(foliage|growth|leaves)|new (foliage|growth|leaves)|second flush of (foliage|leaves)|tidy"
+_CUT = r"(shear(ed|ing)?|cut(ting)?|trim(med|ming)?|mow(ed|ing)?|clip(ped|ping)?)( them| it| plants?| foliage| stems| clumps)?( back| down| to the ground| to basal| hard| by (one-|a )?(half|third))"
+C_EN = [
+ _CUT + r"[^.]*(" + _BAD + "|" + _NEW + ")",
+ r"(" + _BAD + r")[^.]*" + _CUT,
+ r"chelsea chop|pinch(ed|ing)? (back|out)[^.]*(late spring|early summer|may|june)|" + _CUT + r"[^.]*(in|by|before|until) (late spring|early summer|may|june|mid-?summer|early july)[^.]*(height|compact|bush|flop|staking|delay|shorter|sturdier)",
+ r"(in|by|before) (late spring|early summer|may|june)[^.]*" + _CUT + r"[^.]*(height|compact|bush|flop|staking|delay|shorter|sturdier)",
+]
+C_DE = r"vorblütenschnitt|chelsea chop|pinzier|(juni|juli|sommer|frühsommer)[^.]*(rückschnitt|zurückschneiden|zurückgeschnitten|einkürzen)|(rückschnitt|zurückschneiden|einkürzen)[^.]*(juni|juli|frühsommer|im sommer)"
+C_JA = r"梅雨前|梅雨入り前|夏前|初夏に[^。]*切り|蒸れ[^。]*(切り戻|刈り込|透か)|(切り戻|刈り込)[^。]*(蒸れ|夏越し)"
+D_EN = (r"(divid(e|ed|ing)|replac(e|ed|ing)|renew(ed|ing)?|replant(ed|ing)?|lift(ed|ing)? and divid\w+|coppic(e|ed|ing)|cut(ting)? (back )?(hard |all stems )?to (the |near (the )?)?ground)[^.]*"
+        r"(every (year|1-2 years|1 to 2 years|one to two years|two years|2 years|other year|spring)|each (year|spring)|annually|yearly)"
+        r"")
+D_JA = r"(毎年|1〜2年ごと|1～2年ごと|2年ごと)[^。]*(株分け|植え替え|更新|挿し木で更新)|(株分け|植え替え|更新)[^。]*(毎年|1〜2年ごと|1～2年ごと)"
+
+
+def prune_extra(texts, rh, ga, ga_own, og, sh):
+    """返すのは {"夏前の切り戻し", "毎年〜2年ごとの更新", "切り戻し・更新の根拠"}。属のページの記述は使わない"""
+    c_hit, d_hit = [], []
+    sents = [(a, lv, x) for a, lv, x in texts if lv != "属"]
+    if rh:
+        for key in ("Pruning", "Cultivation"):
+            for x in re.split(r"(?<=[.;])\s+", rh["f"].get(key, "")):
+                if x.strip():
+                    sents.append(("RHS", "品種", x.strip()))
+    for a, lv, x in sents:
+        low = x.lower().replace("\xa0", " ")
+        if any(re.search(pat, low) for pat in C_EN) and not re.search(r"in (late )?(fall|autumn|winter)|late winter|early spring|after (the first )?frost", low):
+            c_hit.append((a, lv, x))
+        if re.search(D_EN, low):
+            d_hit.append((a, lv, x))
+    if ga:
+        glv = "品種" if ga_own else "種"
+        for field, v in ga[12]:
+            if field == "pruning" and re.search(C_DE, v.lower()):
+                c_hit.append(("Gaißmayer", glv, v))
+    ja = []
+    if og:
+        olv = "品種" if og[3] == "cultivar" else "種"
+        ja += [("おぎはら", olv, v) for field, v in og[6] if field in ("pruning", "heat_humidity")]
+        if sh and sh.get("status") == "ok" and sh.get("pruning"):
+            ja.append(("おぎはら楽天", olv, sh["pruning"]))
+    for a, lv, v in ja:
+        if re.search(C_JA, v):
+            c_hit.append((a, lv, v))
+        if re.search(D_JA, v):
+            d_hit.append((a, lv, v))
+    why = [f"[夏前の切り戻し／{a}・{lv}] {x[:230]}" for a, lv, x in c_hit[:2]] + [f"[毎年〜2年ごとの更新／{a}・{lv}] {x[:230]}" for a, lv, x in d_hit[:2]]
+    return {"夏前の切り戻し": ("あり（" + "・".join(dict.fromkeys(a for a, _, _ in c_hit)) + "）") if c_hit else None,
+            "毎年〜2年ごとの更新": ("あり（" + "・".join(dict.fromkeys(a for a, _, _ in d_hit)) + "）") if d_hit else None,
+            "切り戻し・更新の根拠": "\n".join(why) or None}
