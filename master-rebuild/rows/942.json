@@ -1,0 +1,338 @@
+{
+ "id": "Eu03",
+ "product_no": 942,
+ "name_ja": "ユーホルビア 'ファイヤーグロー'",
+ "fields": {
+  "accepted_name": {
+   "value": "Euphorbia griffithii 'Fireglow'",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Euphorbia griffithii 'Fireglow' [Accepted]"
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "トウダイグサ科（Euphorbiaceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "Orange",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
+  },
+  "flower_color_class": {
+   "value": [
+    "オレンジ・アプリコット"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
+  },
+  "spread_min": {
+   "value": 60,
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
+  },
+  "spread_max": {
+   "value": 75,
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
+  },
+  "foliage_features": {
+   "value": [
+    "柔らかい"
+   ],
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": "ドーム",
+   "method": "判定",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：低"
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "west_sun": {
+   "value": "△",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "中",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・ローム",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "salt": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "native_range": {
+   "value": "ヒマラヤ",
+   "method": "記載",
+   "sources": [
+    "s11"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "ランナー"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
+  },
+  "self_seed_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s18",
+    "s17"
+   ],
+   "level": "cultivar"
+  },
+  "mixing": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": "人・ペット：食べると有害、皮膚にかぶれ・刺激、目に刺激／ペット：食べると有害、皮膚にかぶれ・刺激、目に刺激",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "さび病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pruning_codes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "management_type": {
+   "value": "A 放任型",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "文を読んで見直し（確かさ：中）"
+  },
+  "division_interval": {
+   "value": "4〜5年ごと、早春（Walters・品種）",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "挿し木"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "cut_flower": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
+  }
+ },
+ "review": {
+  "management_type_reason": "RHS・品種: 晩夏〜秋に花茎を地際で切る。stauden.de・品種: 秋〜晩秋に茎を切る。季節の終わりの刈り取りと読み A（花後すぐの切り戻しの記述ではない）。走出枝で広がるが「厄介になりうる」止まりで E ではない。株分けは4〜5年ごと。機械は空欄",
+  "management_type_quote": "Rückschnitt der Stängel im Herbst bis Spätherbst",
+  "management_type_by_matching": null,
+  "heat_west_only": "中",
+  "muggy_west_only": "中",
+  "heat_muggy_west_evidence": "[NC State/属] While the preferred environment varies among species, most are best grown in full sun or bright indirect light and appreciate some afternoon shade.\n[NC State/属] These plants prefer warm, dry conditions, and good air circulation.\n[RHS/品種] Aspect: North-facing or West-facing or East-facing or South-facing",
+  "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend\n[地下茎の食い違い] Gaißmayer は 1 相当",
+  "mixing_evidence": null,
+  "silhouette_evidence": "[Walters・品種] Plants form a bushy, upright mound of dark green leaves with the appearance of a small shrub.",
+  "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer",
+  "sources_used": "Jelitto、NC State、RHS、Walters、stauden.de"
+ }
+}

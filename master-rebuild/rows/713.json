@@ -1,0 +1,350 @@
+{
+ "id": "A03",
+ "product_no": 713,
+ "name_ja": "アスター ディバリケータス",
+ "fields": {
+  "accepted_name": {
+   "value": "Eurybia divaricata",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Eurybia divaricata [Correct]"
+  },
+  "synonyms": {
+   "value": [
+    "Aster divaricatus"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "family": {
+   "value": "キク科（Asteraceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "White",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "flower_color_class": {
+   "value": [
+    "白"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "spread_min": {
+   "value": 45,
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "spread_max": {
+   "value": 60,
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "foliage_features": {
+   "value": [
+    "縁に鋸歯",
+    "ハート形",
+    "ざらつく"
+   ],
+   "method": "記載",
+   "sources": [
+    "s18",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": "ドーム",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "sun": {
+   "value": "半日陰",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "usda_min": {
+   "value": 3,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 8,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "heat": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "heat_note": {
+   "value": "シカゴ植物園: 総合評価 ★5（excellent）。うどんこ病・さび病とも excellent（発生なし）",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "muggy": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "west_sun": {
+   "value": "×",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "強",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・砂質・ローム",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "salt": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "native_range": {
+   "value": "米国東部",
+   "method": "記載",
+   "sources": [
+    "s11"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち",
+    "こぼれ種"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "self_seed_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s18",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s18",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "mixing": {
+   "value": "強い（周囲を圧迫、配置注意）",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーでよく広がる（NC State・種）",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "特になし"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "management_type": {
+   "value": "C 夏前切戻型",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s01",
+    "s18"
+   ],
+   "level": "species",
+   "note": "文を読んで見直し（確かさ：高）"
+  },
+  "division_interval": {
+   "value": "春（間隔の記載なし。NC State・種）",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "実生"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "cut_flower": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  }
+ },
+ "review": {
+  "management_type_reason": "NC State・種: 初夏に15cmまで刈り込むとコンパクトになる（夏前に草丈を詰める）。RHS: 花後に切り戻す。stauden.de: 種が熟す前に切る。地下茎で勢いよく広がるが侵略的の明記はない。機械の B から変更",
+  "management_type_quote": "Shearing the plant to 6 inches in early summer produces a more compact plant.",
+  "management_type_by_matching": "B 花後刈込型",
+  "heat_west_only": null,
+  "muggy_west_only": "中",
+  "heat_muggy_west_evidence": "[MBG/種] Good air circulation and some morning sun help reduce incidence of foliar diseases.\n[NC State/種] Insects, Diseases, and Other Plant Problems:  This plant has some susceptibility to powdery mildew so give it good air circulation.\n[NC State/種] mproving drainage and good air circulation helps reduce the incidence of foliar diseases.\n[RHS/品種] Aspect: North-facing or West-facing or South-facing or East-facing",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] Woodland aster can grow to a mounding height of 3 feet and spread vigorously by rhizomes reaching its full growth in 2 to 5 years.",
+  "mixing_evidence": "[NC State・種] Woodland aster can grow to a mounding height of 3 feet and spread vigorously by rhizomes reaching its full growth in 2 to 5 years.",
+  "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Mounding",
+  "sources_with_cultivar_page": "RHS、Walters、Gaißmayer",
+  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園"
+ }
+}

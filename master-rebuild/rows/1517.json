@@ -1,0 +1,324 @@
+{
+ "id": "Ax01",
+ "product_no": 1517,
+ "name_ja": "アルセア オフィシナリス（マシュマロウ）",
+ "fields": {
+  "accepted_name": {
+   "value": "Althaea officinalis",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Althaea officinalis [Correct]"
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "アオイ科（Malvaceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": "ウスベニタチアオイ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "weißlich-lilarosa",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+  },
+  "flower_color_class": {
+   "value": [
+    "ピンク"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+  },
+  "spread_min": {
+   "value": 100,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "spread_max": {
+   "value": 150,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+  },
+  "foliage_features": {
+   "value": [
+    "綿毛がある（フェルト状）"
+   ],
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": "あり",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": null
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+  },
+  "usda_min": {
+   "value": 3,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "heat": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "west_sun": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "drought": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "soil_moisture": {
+   "value": "湿潤寄り",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "salt": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s17"
+   ],
+   "level": "cultivar"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "native_range": {
+   "value": "西ヨーロッパ・中央アジア",
+   "method": "記載",
+   "sources": [
+    "s11"
+   ],
+   "level": "cultivar"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+  },
+  "self_seed_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "rhizome_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "さび病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pruning_codes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s18"
+   ],
+   "level": "species",
+   "note": "文を読んで見直し（確かさ：中）"
+  },
+  "division_interval": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "propagation": {
+   "value": [
+    "実生"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "cut_flower": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+  }
+ },
+ "review": {
+  "management_type_reason": "RHS: 花が終わったら地際まで切る。stauden.de・種: 秋に茎を切る。目的（返り咲きなど）の記述はなく、実質は秋の片付けとも読めるので確かさは中。機械は null",
+  "management_type_quote": "Cut down to ground once flowering is over",
+  "management_type_by_matching": null,
+  "heat_west_only": null,
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
+  "spread_evidence": null,
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "[RHS・品種] Habit: Bushy",
+  "sources_with_cultivar_page": "RHS、Gaißmayer、Jelitto",
+  "sources_used": "Gaißmayer、Jelitto、MBG、RHS、stauden.de"
+ }
+}

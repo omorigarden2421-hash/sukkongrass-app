@@ -1,0 +1,316 @@
+{
+ "id": "B03",
+ "product_no": 18,
+ "name_ja": "アスチルベ アレンジー 'グランデ'",
+ "fields": {
+  "accepted_name": {
+   "value": "Astilbe × arendsii 'Grande'",
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "ユキノシタ科（Saxifragaceae）",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": "アスチルベ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "flower_color_class": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_min": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_max": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "foliage_class": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "foliage_features": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "sun": {
+   "value": "半日陰",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、stauden.de、おぎはら）"
+  },
+  "usda_min": {
+   "value": 3,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "genus"
+  },
+  "usda_max": {
+   "value": 8,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "genus"
+  },
+  "rhs_h": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "heat": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s20"
+   ],
+   "level": "species",
+   "note": "おぎはら（同じ種の別品種から。信頼度：低）。信頼度：低"
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "west_sun": {
+   "value": "×",
+   "method": "判定",
+   "sources": [
+    "s20",
+    "s02",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": "弱",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、stauden.de、おぎはら）"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、stauden.de、おぎはら）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、ローム・腐植質",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "salt": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
+  },
+  "native_range": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、stauden.de、おぎはら）"
+  },
+  "self_seed_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s18",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s18",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "mixing": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "うどんこ病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "genus"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "genus"
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s18",
+    "s06"
+   ],
+   "level": "species",
+   "note": "文を読んで見直し（確かさ：中）"
+  },
+  "division_interval": {
+   "value": "4年ごと、春または秋（NC State・種）",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "propagation": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "cut_flower": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、stauden.de、おぎはら）"
+  },
+  "pollinator": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  }
+ },
+ "review": {
+  "management_type_reason": "stauden.de・種の決まった文: 種が熟す前に切り戻す（花後）、秋に茎を切る。NC State は花がらが秋冬も観賞できるとするだけ。種の文のみなので 中",
+  "management_type_quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden",
+  "management_type_by_matching": "B 花後刈込型",
+  "heat_west_only": "中",
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（B01・B02）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/属] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.\n[NC State/種] In hot summer or periods of drought, the foliage may decline if the soil is not kept moist.\n[食い違い] 欧米の文献（属・種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] Their root system is rhizomatous.",
+  "mixing_evidence": null,
+  "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Mounding",
+  "sources_with_cultivar_page": "なし",
+  "sources_used": "MBG、NC State、stauden.de、おぎはら"
+ }
+}

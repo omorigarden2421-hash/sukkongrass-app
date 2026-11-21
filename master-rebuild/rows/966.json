@@ -1,0 +1,334 @@
+{
+ "id": "Em02",
+ "product_no": 966,
+ "name_ja": "エピメディウム バーシカラー 'サルファレウム'（イカリソウ）",
+ "fields": {
+  "accepted_name": {
+   "value": "Epimedium × versicolor 'Sulphureum'",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Epimedium × versicolor 'Sulphureum' [Accepted]"
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "メギ科（Berberidaceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "Creamy Yellow",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "flower_color_class": {
+   "value": [
+    "黄"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "spread_min": {
+   "value": 30,
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "spread_max": {
+   "value": 45,
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "foliage_features": {
+   "value": [
+    "縁にとげ状の鋸歯",
+    "縁に鋸歯"
+   ],
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": "ドーム",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "sun": {
+   "value": "半日陰",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "usda_min": {
+   "value": 5,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "heat": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "heat_note": {
+   "value": "シカゴ植物園: 花は黄、花つき 20〜40%、花期は4月下旬〜5月下旬。試験の間に、冬の傷みで1株が枯れた（近縁の 'Neosulphureum' は冬の強さが excellent、との比較の記述）。総合評価の星は読み取れなかった（no20）",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "muggy": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "west_sun": {
+   "value": "×",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "強",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "soil_ph_type": {
+   "value": "中性〜アルカリ性、砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "salt": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "native_range": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち",
+    "地下茎"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "self_seed_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "mixing": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーでよく広がる（MBG・品種）",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": "弱い毒",
+   "method": "記載",
+   "sources": [
+    "s17"
+   ],
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "キンケクチブトゾウムシ",
+    "ウイルス病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pruning_codes": {
+   "value": [
+    "不要"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "management_type": {
+   "value": "A 放任型",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s02",
+    "s10",
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "文を読んで見直し（確かさ：高）"
+  },
+  "division_interval": {
+   "value": "花後または秋（間隔の記載なし。RHS・品種）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "cut_flower": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+  }
+ },
+ "review": {
+  "management_type_reason": "RHS・品種: 剪定不要。MBG/Walters/stauden.de: 晩冬〜早春に古葉を刈るだけ。地下茎で広がるが侵略的の記述はない",
+  "management_type_quote": "No pruning required.",
+  "management_type_by_matching": "A 放任型",
+  "heat_west_only": null,
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
+  "spread_evidence": "[地下茎 2／MBG・品種] Rhizomatous perennial which spreads faster than most other epimediums.",
+  "mixing_evidence": null,
+  "silhouette_evidence": "[MBG・品種] Compound, medium green leaves with pointed, spiny-toothed, heart-shaped leaflets (to 3\" long) on wiry stems form attractive foliage mounds.",
+  "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、シカゴ植物園",
+  "sources_used": "MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園"
+ }
+}

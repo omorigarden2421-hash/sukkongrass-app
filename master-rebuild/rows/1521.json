@@ -1,0 +1,332 @@
+{
+ "id": "Cu02",
+ "product_no": 1521,
+ "name_ja": "カルーナ ブルガリス 'ロックターレット'",
+ "fields": {
+  "accepted_name": {
+   "value": "Calluna vulgaris 'Loch Turret'",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Calluna vulgaris 'Loch Turret' [Accepted]"
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "ツツジ科（Ericaceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": "ギョリュウモドキ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "White",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "flower_color_class": {
+   "value": [
+    "白"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "spread_min": {
+   "value": 10,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "spread_max": {
+   "value": 50,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de）"
+  },
+  "foliage_features": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de）"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 6,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：中"
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "west_sun": {
+   "value": "△",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "弱",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de）"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de）"
+  },
+  "soil_ph_type": {
+   "value": "酸性、粘土・砂質・ローム",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "salt": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "species"
+  },
+  "evergreen_warm": {
+   "value": "常緑",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "native_range": {
+   "value": "北アメリカ西部・アゾレス諸島・ヨーロッパ北部と西部〜シベリア（種の原産地）",
+   "method": "記載",
+   "sources": [
+    "s11"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "self_seed_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "rhizome_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "mixing": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "invasive_note": {
+   "value": "米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": null
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "ナラタケ病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pruning_codes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "management_type": {
+   "value": "A 放任型",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": null,
+   "note": "文を読んで見直し（確かさ：中）"
+  },
+  "division_interval": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "propagation": {
+   "value": [
+    "挿し木"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "cut_flower": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de）"
+  }
+ },
+ "review": {
+  "management_type_reason": "MBG・NC State（種）: 早春の芽出し前に剪定する（古株は間延びするので毎年春に剪定するとよい）。花後・夏前の剪定や株の更新（植え替え・挿し木更新）の記述はなく、早春の刈り込みだけなので A。機械は null。木本の毎年の春剪定を A に当てたので 中",
+  "management_type_quote": "Prune in spring before new growth appears.",
+  "management_type_by_matching": null,
+  "heat_west_only": "弱",
+  "muggy_west_only": "弱",
+  "heat_muggy_west_evidence": "[MBG/種] Plants perform best in full sun (better flowering), but may appreciate some part afternoon light shade in hot summer climates.\n[MBG/種] It generally dislikes the high heat/humidity of the Midwest and deep South and is not recommended for planting south of USDA Zone 6.\n[NC State/種] Heather is intolerant of heat and humidity and should not be planted south of zone 6.\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
+  "spread_evidence": null,
+  "mixing_evidence": null,
+  "silhouette_evidence": "[RHS・品種] Habit: Bushy",
+  "sources_with_cultivar_page": "RHS",
+  "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de"
+ }
+}

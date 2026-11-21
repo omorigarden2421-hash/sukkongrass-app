@@ -1,0 +1,336 @@
+{
+ "id": "Ty08",
+ "product_no": 458,
+ "name_ja": "タイム セパイラム 'コクシネウス'（クリーピングタイム 紅花）",
+ "fields": {
+  "accepted_name": {
+   "value": "Thymus serpyllum 'Coccineus'",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Thymus Coccineus Group（RHS は品種ではなく Coccineus Group として掲載（マスターは serpyllum 'Coccineus'）） [Accepted]"
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "シソ科（Lamiaceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": "イブキジャコウソウ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "karminrot",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de）"
+  },
+  "flower_color_class": {
+   "value": [
+    "ピンク",
+    "赤"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de）"
+  },
+  "spread_min": {
+   "value": 10,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "spread_max": {
+   "value": 50,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de）"
+  },
+  "foliage_features": {
+   "value": [
+    "葉に香りがある"
+   ],
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": "葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "silhouette": {
+   "value": "マット",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de）"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 8,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H5",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "heat": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "west_sun": {
+   "value": "△",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "強",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de）"
+  },
+  "soil_moisture": {
+   "value": "排水必須",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de）"
+  },
+  "soil_ph_type": {
+   "value": "中性〜アルカリ性、砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "salt": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "evergreen_warm": {
+   "value": "常緑",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "native_range": {
+   "value": "ヨーロッパ",
+   "method": "記載",
+   "sources": [
+    "s11"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "ランナー",
+    "こぼれ種"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de）"
+  },
+  "self_seed_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "mixing": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "特になし"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pruning_codes": {
+   "value": [
+    "不要"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "management_type": {
+   "value": "A 放任型",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s02",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "文を読んで見直し（確かさ：中）"
+  },
+  "division_interval": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "propagation": {
+   "value": [
+    "挿し木"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "cut_flower": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de）"
+  }
+ },
+ "review": {
+  "management_type_reason": "RHS・品種: 剪定不要。MBG・NC State・種: 姿・広がり・木質化のため必要に応じて切る（時期の記述なし）。夏前・花後の明記がないので機械の C ではなく A（'Magic Carpet' と同じ扱い）。ほふくして広がるが侵略的の明記なし",
+  "management_type_quote": "No pruning required",
+  "management_type_by_matching": "C 夏前切戻型",
+  "heat_west_only": null,
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or South-facing（西向きが入っていない）",
+  "spread_evidence": "[地下茎 2／stauden.de・品種] kriechend, teils wurzelnd",
+  "mixing_evidence": null,
+  "silhouette_evidence": "[RHS・品種] Habit: Matforming",
+  "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer",
+  "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de"
+ }
+}

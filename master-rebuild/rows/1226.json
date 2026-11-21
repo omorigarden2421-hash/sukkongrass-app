@@ -1,0 +1,317 @@
+{
+ "id": "St08",
+ "product_no": 1226,
+ "name_ja": "スタキス オフィシナリス",
+ "fields": {
+  "accepted_name": {
+   "value": "Stachys officinalis",
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "シソ科（Lamiaceae）",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": "カッコウソウ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "dunkelrosa",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、stauden.de、シカゴ植物園）"
+  },
+  "flower_color_class": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_min": {
+   "value": 76,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": null
+  },
+  "spread_max": {
+   "value": 76,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": null
+  },
+  "foliage_class": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "foliage_features": {
+   "value": [
+    "ざらつく",
+    "縁に鋸歯"
+   ],
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": "ドーム",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、stauden.de、シカゴ植物園）"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 8,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "species",
+   "note": "欧米の文献。信頼度：中"
+  },
+  "heat_note": {
+   "value": "シカゴ植物園: 花つき 80〜100%（no27）",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、stauden.de、シカゴ植物園）"
+  },
+  "muggy": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "west_sun": {
+   "value": "△",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": "中",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、stauden.de、シカゴ植物園）"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、stauden.de、シカゴ植物園）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜中性、粘土・砂質・ローム",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "salt": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "native_range": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_modes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "self_seed_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "mixing": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーでよく広がる（MBG・種）。こぼれ種でよく増える（NC State・種）",
+   "method": "記載",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "ナメクジ",
+    "カタツムリ"
+   ],
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "pruning_codes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "species",
+   "note": "文を読んで見直し（確かさ：高）"
+  },
+  "division_interval": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "propagation": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "cut_flower": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、stauden.de、シカゴ植物園）"
+  }
+ },
+ "review": {
+  "management_type_reason": "MBG・種: 花茎を切り戻すと返り咲く。ほふく茎で広がる・こぼれ種は侵略的の明記なし。機械は null",
+  "management_type_quote": "Cut back the flowering stalks to encourage reblooming.",
+  "management_type_by_matching": null,
+  "heat_west_only": "中",
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[MBG/種] Appreciates some light afternoon shade in hot, humid climates.",
+  "spread_evidence": "[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.\n[地下茎 2／MBG・種] Spreads by creeping stems (stolons) that root as they go along the ground.",
+  "mixing_evidence": null,
+  "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Mounding; Spreading",
+  "sources_with_cultivar_page": "Gaißmayer",
+  "sources_used": "Gaißmayer、Jelitto、MBG、NC State、stauden.de、シカゴ植物園"
+ }
+}

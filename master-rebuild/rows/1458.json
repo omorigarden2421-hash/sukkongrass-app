@@ -1,0 +1,297 @@
+{
+ "id": "Hy04",
+ "product_no": 1458,
+ "name_ja": "ハイドランジア セラタ '済州島'（ヤマアジサイ'済州島'）",
+ "fields": {
+  "accepted_name": {
+   "value": "Hydrangea serrata 'Cheju-do'",
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "アジサイ科（Hydrangeaceae）",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": "サワアジサイ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "flower_color_class": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_min": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_max": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "foliage_class": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "foliage_features": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "sun": {
+   "value": "半日陰",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State）"
+  },
+  "usda_min": {
+   "value": 6,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "欧米の文献。信頼度：中"
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "west_sun": {
+   "value": "×",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜中性、粘土・砂質・ローム・腐植質",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "salt": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "native_range": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_modes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "self_seed_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "rhizome_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "mixing": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "斑点病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": null,
+   "note": "文を読んで見直し（確かさ：中）"
+  },
+  "division_interval": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "propagation": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "cut_flower": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pollinator": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  }
+ },
+ "review": {
+  "management_type_reason": "MBG・NC State（種）: 剪定はほとんど要らないが、行うなら花後（前年枝に咲く）。弱い枝・冬傷みの枝は早春に除く。文が同じ 'Albiflora' と同じ。種の文だけ",
+  "management_type_quote": "Prune after flowering by cutting back flowering stems to a pair of healthy buds.",
+  "management_type_by_matching": "B 花後刈込型",
+  "heat_west_only": "弱",
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[NC State/種] Although this plant can be grown in sun or partial shade, it is a native of Asia and prefers cool growing conditions and will grow best in light to open shade.\n[NC State/種] In warmer climates, a location protected from hot sun will keep the foliage and flowers from prematurely fading or scorching and it will flower more prolifically with consistent summer watering.",
+  "spread_evidence": null,
+  "mixing_evidence": null,
+  "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Rounded",
+  "sources_with_cultivar_page": "なし",
+  "sources_used": "MBG、NC State"
+ }
+}

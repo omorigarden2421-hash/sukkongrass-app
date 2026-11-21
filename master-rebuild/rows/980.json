@@ -1,0 +1,345 @@
+{
+ "id": "Cg04",
+ "product_no": 980,
+ "name_ja": "カラマグロスティス ブラキトリカ",
+ "fields": {
+  "accepted_name": {
+   "value": "Calamagrostis brachytricha",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Calamagrostis brachytricha [Correct]"
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "イネ科（Poaceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": "ノガリヤス",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "Light Pink、White",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+  },
+  "flower_color_class": {
+   "value": [
+    "ピンク",
+    "白"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+  },
+  "spread_min": {
+   "value": 45,
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+  },
+  "spread_max": {
+   "value": 60,
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+  },
+  "foliage_features": {
+   "value": [
+    "ざらつく",
+    "帯状の葉",
+    "光沢がある"
+   ],
+   "method": "記載",
+   "sources": [
+    "s18",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": "グラス",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "heat": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s20"
+   ],
+   "level": "cultivar",
+   "note": "おぎはら（品種のページ）。信頼度：中"
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "west_sun": {
+   "value": "△",
+   "method": "判定",
+   "sources": [
+    "s20",
+    "s02",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "中",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "salt": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "native_range": {
+   "value": "中央アジアから東アジア",
+   "method": "記載",
+   "sources": [
+    "s11"
+   ],
+   "level": "cultivar"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち",
+    "こぼれ種"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+  },
+  "self_seed_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "mixing": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーでよく広がる（NC State・種）",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "さび病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pruning_codes": {
+   "value": [
+    "早春"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "management_type": {
+   "value": "A 放任型",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s18",
+    "s21"
+   ],
+   "level": "species",
+   "note": "文を読んで見直し（確かさ：高）"
+  },
+  "division_interval": {
+   "value": "4〜5年ごと、春（Walters・品種）",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "実生"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "cut_flower": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+  },
+  "pollinator": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  }
+ },
+ "review": {
+  "management_type_reason": "RHS: 早春の芽出し前に古い茎葉を約13cmに刈る。stauden.de・種: 秋は切らず春に刈る。おぎはら楽天の「姿が乱れたら株元まで切る」は決まった文なので C にしない。株分けは4〜5年ごと",
+  "management_type_quote": "Cut back old growth in early spring to about 13cm (5in) before growth resumes",
+  "management_type_by_matching": "A 放任型",
+  "heat_west_only": "中",
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Blooms in light shade, and appreciates some afternoon shade in hot summer climates.\n[NC State/種] The specific epithet, arundinacea , is Latin for \"reed-like.\" Prefers full sun, but in hot summer climates, afternoon shade is recommended.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
+  "spread_evidence": "[地下茎 2／NC State・種] This ornamental grass spreads by rhizomes and is best propagated by division.\n[地下茎の食い違い] MBG は 1 相当",
+  "mixing_evidence": null,
+  "silhouette_evidence": "[NC State・種] Habit/Form: Arching; Clumping; Dense; Erect; Mounding／イネ科・カヤツリグサ科",
+  "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",
+  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"
+ }
+}

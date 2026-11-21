@@ -1,0 +1,341 @@
+{
+ "id": "A16",
+ "product_no": 905,
+ "name_ja": "アスター ノバエアングリアエ 'パープルドーム'(ネバリノギク)",
+ "fields": {
+  "accepted_name": {
+   "value": "Aster novae-angliae 'Purple Dome'",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Symphyotrichum novae-angliae 'Purple Dome' [Not established]"
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "キク科（Asteraceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": "ネバリノギク",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "tief purpurviolett",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+  },
+  "flower_color_class": {
+   "value": [
+    "青・紫"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+  },
+  "spread_min": {
+   "value": 61,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": null
+  },
+  "spread_max": {
+   "value": 61,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": null
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+  },
+  "foliage_features": {
+   "value": [
+    "細かい毛がある",
+    "柔らかい"
+   ],
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": "直立",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+  },
+  "usda_min": {
+   "value": 5,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "usda_max": {
+   "value": 8,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "heat": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "heat_note": {
+   "value": "シカゴ植物園: 総合評価 ★3（fair）。うどんこ病 fair、さび病 excellent",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+  },
+  "muggy": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "west_sun": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "drought": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "salt": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "native_range": {
+   "value": "北米東部",
+   "method": "記載",
+   "sources": [
+    "s11"
+   ],
+   "level": "species"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち",
+    "こぼれ種"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+  },
+  "self_seed_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "rhizome_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "ナメクジ",
+    "カタツムリ",
+    "アブラムシ",
+    "うどんこ病",
+    "線虫"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "management_type": {
+   "value": "C 夏前切戻型",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s01",
+    "s18"
+   ],
+   "level": "cultivar",
+   "note": "文を読んで見直し（確かさ：高）"
+  },
+  "division_interval": {
+   "value": "3年ごと（RHS・品種）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "cut_flower": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+  }
+ },
+ "review": {
+  "management_type_reason": "MBG・品種: 7月半ばまでに数回摘心して草丈を抑え、枝数を増やす（初夏に草丈を詰める記述）。NC State・種も春の摘心。ほかは晩秋に地際で切る（RHS）、種が熟す前に切る（stauden.de）。機械の B より上の C。株分けは3年ごとで D ではない",
+  "management_type_quote": "Pinching back stems several times before mid-July will help control plant height, promote bushiness and perhaps obviate the need for staking.",
+  "management_type_by_matching": "B 花後刈込型",
+  "heat_west_only": null,
+  "muggy_west_only": "中",
+  "heat_muggy_west_evidence": "[MBG/品種] Good air circulation helps reduce incidence of foliar diseases.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden",
+  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "[MBG・品種] It is a stout, leafy plant typically growing 3-6' tall with a robust, upright habit.",
+  "sources_with_cultivar_page": "RHS、stauden.de、MBG、Gaißmayer、シカゴ植物園",
+  "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園"
+ }
+}

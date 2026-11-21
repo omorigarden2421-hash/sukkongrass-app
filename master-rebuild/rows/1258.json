@@ -1,0 +1,350 @@
+{
+ "id": "Ne02",
+ "product_no": 1258,
+ "name_ja": "ネペタ ファッシニアイ 'ドロップモア'",
+ "fields": {
+  "accepted_name": {
+   "value": "Nepeta 'Dropmore'",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Nepeta 'Dropmore'（RHS は種小名なし（× faassenii 'Dropmore' はシノニム扱い）） [Accepted]"
+  },
+  "synonyms": {
+   "value": [
+    "Nepeta × faassenii 'Dropmore'"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+  },
+  "family": {
+   "value": "シソ科（Lamiaceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "Blue、Purple",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "flower_color_class": {
+   "value": [
+    "青・紫"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "spread_min": {
+   "value": 91,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": null
+  },
+  "spread_max": {
+   "value": 91,
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": null
+  },
+  "foliage_class": {
+   "value": "シルバー系",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+  },
+  "foliage_features": {
+   "value": [
+    "しわがある",
+    "葉に香りがある",
+    "縁に丸い鋸歯",
+    "ハート形"
+   ],
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": "葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+  },
+  "usda_min": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "usda_max": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "heat": {
+   "value": "強",
+   "method": "判定",
+   "sources": [
+    "s20"
+   ],
+   "level": "species",
+   "note": "おぎはら（種のページ）。信頼度：中"
+  },
+  "heat_note": {
+   "value": "シカゴ植物園: 総合評価 good（星4つ）。花つき excellent（no29）",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+  },
+  "muggy": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s20",
+    "s21",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "west_sun": {
+   "value": "◎",
+   "method": "判定",
+   "sources": [
+    "s20",
+    "s21",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "強",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+  },
+  "soil_moisture": {
+   "value": "排水必須",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、砂質・ローム・白亜質",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "salt": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "native_range": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち",
+    "こぼれ種"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+  },
+  "self_seed_level": {
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "rhizome_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "ナメクジ",
+    "カタツムリ",
+    "うどんこ病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s18",
+    "s06"
+   ],
+   "level": "cultivar",
+   "note": "文を読んで見直し（確かさ：高）"
+  },
+  "division_interval": {
+   "value": "春または秋（間隔の記載なし。RHS・品種）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "挿し木"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "cut_flower": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+  }
+ },
+ "review": {
+  "management_type_reason": "RHS・stauden.de・品種: 花後に刈り込むと締まり、二番花が咲く。NC State も花後に刈ると返り咲く。不稔の交雑種",
+  "management_type_quote": "Trim after flowering to keep plants compact",
+  "management_type_by_matching": "B 花後刈込型",
+  "heat_west_only": null,
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[おぎはら楽天/種] 耐湿性: やや弱い 高温多湿を嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: South-facing or West-facing",
+  "spread_evidence": "[こぼれ種 0／NC State・種] It is a sterile hybrid plant, the result of a cross between Nepeta racemosa and Nepeta nepetella .",
+  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
+  "sources_with_cultivar_page": "RHS、stauden.de、シカゴ植物園",
+  "sources_used": "NC State、RHS、stauden.de、おぎはら、シカゴ植物園"
+ }
+}

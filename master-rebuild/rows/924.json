@@ -1,0 +1,336 @@
+{
+ "id": "Sm02",
+ "product_no": 924,
+ "name_ja": "センペルビビューム 'ブロンコ'（ハウスリーク）",
+ "fields": {
+  "accepted_name": {
+   "value": "Sempervivum 'Bronco'",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Sempervivum 'Bronco' [Accepted]"
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "ベンケイソウ科（Crassulaceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "Green、Red",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "flower_color_class": {
+   "value": [
+    "赤"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "spread_min": {
+   "value": 10,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "spread_max": {
+   "value": 50,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "foliage_class": {
+   "value": "ブロンズ・レッド系",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de、おぎはら）"
+  },
+  "foliage_features": {
+   "value": [
+    "多肉質"
+   ],
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": "マット",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "sun": {
+   "value": "日向",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de、おぎはら）"
+  },
+  "usda_min": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "usda_max": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "rhs_h": {
+   "value": "H5",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s20"
+   ],
+   "level": "cultivar",
+   "note": "おぎはら（品種のページ）。信頼度：高"
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s20",
+    "s21",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "west_sun": {
+   "value": "△",
+   "method": "判定",
+   "sources": [
+    "s20",
+    "s21",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": "強",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de、おぎはら）"
+  },
+  "soil_moisture": {
+   "value": "排水必須",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de、おぎはら）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、砂質・ローム",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "salt": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": "常緑",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "native_range": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de、おぎはら）"
+  },
+  "self_seed_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "rhizome_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": "毒性 弱い（部位：葉）",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "genus"
+  },
+  "pests": {
+   "value": [
+    "キンケクチブトゾウムシ",
+    "さび病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pruning_codes": {
+   "value": [
+    "不要"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "management_type": {
+   "value": "A 放任型",
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s18",
+    "s21"
+   ],
+   "level": "cultivar",
+   "note": "文を読んで見直し（確かさ：中）"
+  },
+  "division_interval": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "propagation": {
+   "value": [
+    "実生"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "cut_flower": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de、おぎはら）"
+  }
+ },
+ "review": {
+  "management_type_reason": "RHS・品種: 剪定不要、stauden.de: 適地ではほぼ手入れ不要。おぎはら楽天は「花後の花茎を切る程度」で、例のセダム・アルメリアと同じ線引きで A",
+  "management_type_quote": "No pruning required",
+  "management_type_by_matching": "A 放任型",
+  "heat_west_only": "中",
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐暑性: 普通（暖地では夏に風とおし、水はけよく）（蒸れ 中 相当）\n[NC State/属] They grow best in full to part sun, especially with some afternoon shade, and well-drained compost containing up to 50% sand or other gritty soils.\n[RHS/品種] Aspect: West-facing or East-facing or South-facing or North-facing",
+  "spread_evidence": null,
+  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "[RHS・品種] Habit: Matforming",
+  "sources_with_cultivar_page": "RHS、stauden.de、おぎはら",
+  "sources_used": "Jelitto、NC State、RHS、stauden.de、おぎはら"
+ }
+}

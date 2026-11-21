@@ -1,0 +1,328 @@
+{
+ "id": "Cn02",
+ "product_no": 1684,
+ "name_ja": "コルヌス アルバ 'エレガンティシマ'(ｷﾞﾝﾌﾐｽﾞｷ)",
+ "fields": {
+  "accepted_name": {
+   "value": "Cornus alba 'Elegantissima'",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Cornus alba 'Elegantissima' (v) [Accepted]"
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "ミズキ科（Cornaceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": "シラタマミズキ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "White",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "flower_color_class": {
+   "value": [
+    "白"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "spread_min": {
+   "value": 250,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "spread_max": {
+   "value": 400,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "foliage_class": {
+   "value": "斑入り",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS）"
+  },
+  "foliage_features": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS）"
+  },
+  "usda_min": {
+   "value": 3,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 7,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H7",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：中"
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "west_sun": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜中性、粘土・砂質・ローム",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "salt": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "native_range": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_modes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "self_seed_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "rhizome_level": {
+   "value": 2,
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "mixing": {
+   "value": "強い（周囲を圧迫、配置注意）",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "ナラタケ病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pruning_codes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "management_type": {
+   "value": "D 毎年株更新型",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": null,
+   "note": "文を読んで見直し（確かさ：低）"
+  },
+  "division_interval": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "propagation": {
+   "value": [
+    "挿し木"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "cut_flower": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pollinator": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  }
+ },
+ "review": {
+  "management_type_reason": "calibration の 'シビリカ'（人の判断で D）と同じ種・同じ文なので合わせた。ただし chunk の文だけ読むと MBG は「剪定は必須ではないが、多くの人が毎年早春に古い茎の20〜25%を除く」で、毎年の更新が必要との明記はない（人の判断の根拠 UMN の文は chunk にない）。文だけなら A。吸枝で群落を作る・weedy（NC State）は invasive／aggressive の明記ではなく mixing も「強い」ので E にしない",
+  "management_type_quote": "many gardeners choose to remove 20-25% of the oldest stems in early spring of each year",
+  "management_type_by_matching": null,
+  "heat_west_only": "中",
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[MBG/種] Plants become stressed and more vulnerable to diseases such as canker in hot summer climates south of USDA Zone 7.\n[NC State/種] This shrub is more vulnerable to diseases in hot summer climates, especially south of USDA  Zone 7.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
+  "spread_evidence": "[地下茎 2／NC State・種] It tends to sucker to form large colonies, which may be objectionable.\n[地下茎の食い違い] MBG は 0 相当",
+  "mixing_evidence": "[NC State・種] The plant is weedy, and its suckering can make it difficult to remove.",
+  "silhouette_evidence": "[RHS・品種] Habit: Suckering",
+  "sources_with_cultivar_page": "RHS",
+  "sources_used": "MBG、NC State、RHS"
+ }
+}

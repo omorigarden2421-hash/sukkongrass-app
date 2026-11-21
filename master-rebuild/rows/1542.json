@@ -1,0 +1,287 @@
+{
+ "id": "Bi01",
+ "product_no": 1542,
+ "name_ja": "ビゲロウィア ヌッタリー",
+ "fields": {
+  "accepted_name": {
+   "value": "Bigelowia nuttallii",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Bigelowia nuttallii（名前だけの登録） [Correct]"
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "キク科（Asteraceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "flower_color_class": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_min": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_max": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "foliage_class": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "foliage_features": {
+   "value": [
+    "線形の葉"
+   ],
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": "直立",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "sun": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "usda_min": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "usda_max": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "rhs_h": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "heat": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "west_sun": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "drought": {
+   "value": "中",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de）"
+  },
+  "soil_moisture": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "soil_ph_type": {
+   "value": "砂質・岩混じり",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "salt": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "native_range": {
+   "value": "北アメリカ（アメリカ南部・南東部）の砂岩の上、マツ林のふち",
+   "method": "記載",
+   "sources": [
+    "s11"
+   ],
+   "level": "cultivar"
+  },
+  "spread_modes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "self_seed_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "rhizome_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de）"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pruning_codes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "management_type": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null,
+   "note": "文を読んで見直し（確かさ：中）"
+  },
+  "division_interval": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "propagation": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "cut_flower": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pollinator": {
+   "value": "○",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de）"
+  }
+ },
+ "review": {
+  "management_type_reason": "NC State・種の文は地下茎で広がるが not aggressive という記述だけで、切り戻し・手入れの記述がない。E ではなく、ほかのタイプを決める根拠もない",
+  "management_type_quote": null,
+  "management_type_by_matching": null,
+  "heat_west_only": null,
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": null,
+  "spread_evidence": "[地下茎 1／NC State・種] It will also spread by rhizomes and can be divided, when necessary, but it is not aggressive Most of the thread-like foliage occurs at the base of the plant, with widely spaced leaves on the stems.",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
+  "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect",
+  "sources_with_cultivar_page": "Jelitto",
+  "sources_used": "Jelitto、NC State、RHS、stauden.de"
+ }
+}

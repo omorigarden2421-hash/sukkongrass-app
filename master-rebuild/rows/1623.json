@@ -1,0 +1,303 @@
+{
+ "id": "Ly02",
+ "product_no": 1623,
+ "name_ja": "リシマキア コンジェスティフロラ 'バリエガータ'",
+ "fields": {
+  "accepted_name": {
+   "value": "Lysimachia congestiflora 'Variegata'",
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "サクラソウ科（Primulaceae）",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": "タニガワコナスビ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "flower_color_class": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_min": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_max": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "foliage_class": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "foliage_features": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "sun": {
+   "value": "日向〜半日陰",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State）"
+  },
+  "usda_min": {
+   "value": 7,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 9,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "species",
+   "note": "欧米の文献。信頼度：中"
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "west_sun": {
+   "value": "△",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜中性、腐植質",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "salt": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "native_range": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_modes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "self_seed_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "rhizome_level": {
+   "value": 3,
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "mixing": {
+   "value": "侵略的（隔離推奨）",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（NC State・種）。この品種で同じかは未確認",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "斑点病",
+    "さび病"
+   ],
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "pruning_codes": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "management_type": {
+   "value": "E 隔離推奨型",
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species",
+   "note": "文を読んで見直し（確かさ：中）"
+  },
+  "division_interval": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "propagation": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "cut_flower": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pollinator": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  }
+ },
+ "review": {
+  "management_type_reason": "NC State・種: 攻撃的に広がりうると明記。同種 'Midnight Sun'（no.1572）と同じ扱いで、這う茎による広がりとして種の記述を品種に当てた。広がり方の仕組みはこの文には書かれておらず、MBG は 1 相当なので中。切り戻しの記述はない",
+  "management_type_quote": "Can spread aggressively.",
+  "management_type_by_matching": "E 隔離推奨型",
+  "heat_west_only": "中",
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[MBG/種] Plants perform best in full sun in the northern parts of their growing range, but appreciate some part afternoon shade in hot summer areas.\n[NC State/種] In very hot climates, afternoon shade is recommended.",
+  "spread_evidence": "[地下茎 3／NC State・種] Can spread aggressively.\n[地下茎の食い違い] MBG は 1 相当",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] Can spread aggressively.",
+  "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Cascading; Creeping; Dense; Prostrate; Spreading",
+  "sources_with_cultivar_page": "なし",
+  "sources_used": "MBG、NC State"
+ }
+}

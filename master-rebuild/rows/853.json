@@ -1,0 +1,350 @@
+{
+ "id": "Ds05",
+ "product_no": 853,
+ "name_ja": "デスカンプシア フレクシオーサ",
+ "fields": {
+  "accepted_name": {
+   "value": "Deschampsia flexuosa",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "RHS：Deschampsia flexuosa [Correct]"
+  },
+  "synonyms": {
+   "value": [
+    "Deschampsia flexuosa (L.) Trin."
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、stauden.de）"
+  },
+  "family": {
+   "value": "イネ科（Poaceae）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": "コメススキ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "Grey、Silver、Purple",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "flower_color_class": {
+   "value": [
+    "青・紫"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "spread_min": {
+   "value": 10,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "spread_max": {
+   "value": 50,
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "foliage_class": {
+   "value": "ブルー系",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、stauden.de）"
+  },
+  "foliage_features": {
+   "value": [
+    "ざらつく",
+    "柔らかい",
+    "草状の細い葉",
+    "帯状の葉"
+   ],
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": "グラス",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "sun": {
+   "value": "半日陰",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、stauden.de）"
+  },
+  "usda_min": {
+   "value": 4,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 7,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": "H6",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "heat": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：中"
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "west_sun": {
+   "value": "×",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "drought": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "soil_moisture": {
+   "value": "適湿",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、stauden.de）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜中性、粘土・砂質・ローム",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "salt": {
+   "value": "○",
+   "method": "判定",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": "常緑",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "native_range": {
+   "value": "ヨーロッパ、アジア、南北アメリカの温帯",
+   "method": "記載",
+   "sources": [
+    "s11"
+   ],
+   "level": "cultivar"
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、stauden.de）"
+  },
+  "self_seed_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "species"
+  },
+  "rhizome_level": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "特になし"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "pruning_codes": {
+   "value": [
+    "早春"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "management_type": {
+   "value": "B 花後刈込型",
+   "method": "判定",
+   "sources": [
+    "s18",
+    "s01",
+    "s02"
+   ],
+   "level": "species",
+   "note": "文を読んで見直し（確かさ：中）"
+  },
+  "division_interval": {
+   "value": "春または秋（間隔の記載なし。RHS・品種）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": [
+    "株分け",
+    "実生"
+   ],
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "cut_flower": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pollinator": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  }
+ },
+ "review": {
+  "management_type_reason": "stauden.de・種: 種が熟す前に切る（決まった文で B）。RHS: 早春に花穂を取る。MBG: 花茎は秋に取るか冬まで残す。D. cespitosa と同じ扱い。機械の A から変更",
+  "management_type_quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden",
+  "management_type_by_matching": "A 放任型",
+  "heat_west_only": "弱",
+  "muggy_west_only": "弱",
+  "heat_muggy_west_evidence": "[MBG/種] Plants dislike high heat and humidity and often perform poorly south of USDA Zone 7.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "spread_evidence": "[こぼれ種 1／MBG・種] May self-seed in optimum growing conditions.\n[こぼれ種の食い違い] stauden.de は 2 相当",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
+  "silhouette_evidence": "[MBG・種] Numerous flower stems rise in summer from the foliage mound to a height of 3’ bearing wide, airy panicles of tiny, purple to bronze flowers which form a cloud over the foliage that is attractive when ／イネ科・カヤツリグサ科",
+  "sources_with_cultivar_page": "RHS、Jelitto",
+  "sources_used": "Jelitto、MBG、RHS、stauden.de"
+ }
+}

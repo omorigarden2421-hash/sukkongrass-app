@@ -1,0 +1,336 @@
+{
+ "id": "G16",
+ "product_no": 313,
+ "name_ja": "ゲラニウム ファエウム 紅花",
+ "fields": {
+  "accepted_name": {
+   "value": "Geranium phaeum",
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "synonyms": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "family": {
+   "value": "フウロソウ科（Geraniaceae）",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": null
+  },
+  "common_name_ja": {
+   "value": "クロバナフウロ",
+   "method": "記載",
+   "sources": [
+    "s04"
+   ],
+   "level": null
+  },
+  "flower_color_detail": {
+   "value": "Purple",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、Walters、stauden.de、おぎはら）"
+  },
+  "flower_color_class": {
+   "value": [
+    "青・紫"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、Walters、stauden.de、おぎはら）"
+  },
+  "spread_min": {
+   "value": 60,
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、Walters、stauden.de、おぎはら）"
+  },
+  "spread_max": {
+   "value": 70,
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、Walters、stauden.de、おぎはら）"
+  },
+  "foliage_class": {
+   "value": "グリーン系",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、Walters、stauden.de、おぎはら）"
+  },
+  "foliage_features": {
+   "value": [
+    "細かい毛がある",
+    "ざらつく",
+    "切れ込みがある",
+    "浅く裂ける",
+    "縁に鋸歯",
+    "丸い葉"
+   ],
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
+  },
+  "seasonal_foliage": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "fragrance": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "silhouette": {
+   "value": "株立ち",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "sun": {
+   "value": "半日陰",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、Walters、stauden.de、おぎはら）"
+  },
+  "usda_min": {
+   "value": 5,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "usda_max": {
+   "value": 7,
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhs_h": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "heat": {
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s20"
+   ],
+   "level": "species",
+   "note": "おぎはら（種のページ）＋楽天のページの注意（強 → 中）。信頼度：中"
+  },
+  "heat_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "muggy": {
+   "value": "弱",
+   "method": "判定",
+   "sources": [
+    "s20",
+    "s21",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "west_sun": {
+   "value": "×",
+   "method": "判定",
+   "sources": [
+    "s20",
+    "s21",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "drought": {
+   "value": "強",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、Walters、stauden.de、おぎはら）"
+  },
+  "soil_moisture": {
+   "value": "湿潤寄り",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、Walters、stauden.de、おぎはら）"
+  },
+  "soil_ph_type": {
+   "value": "酸性〜アルカリ性、粘土・砂質・普通の土",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "salt": {
+   "value": null,
+   "method": "判定",
+   "sources": null,
+   "level": null
+  },
+  "evergreen_warm": {
+   "value": "落葉",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
+  },
+  "native_range": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "spread_modes": {
+   "value": [
+    "株立ち",
+    "地下茎"
+   ],
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、Walters、stauden.de、おぎはら）"
+  },
+  "self_seed_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhizome_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、Walters、stauden.de、おぎはら）"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "ias_list": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s05"
+   ],
+   "level": null
+  },
+  "toxicity": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pests": {
+   "value": [
+    "特になし"
+   ],
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "pruning_codes": {
+   "value": [
+    "花後"
+   ],
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "management_type": {
+   "value": "C 夏前切戻型",
+   "method": "判定",
+   "sources": [
+    "s02",
+    "s10",
+    "s18"
+   ],
+   "level": "species",
+   "note": "文を読んで見直し（確かさ：中）"
+  },
+  "division_interval": {
+   "value": "春または初秋（間隔の記載なし。Walters・品種）",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "propagation": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "cut_flower": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "pollinator": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  }
+ },
+ "review": {
+  "management_type_reason": "MBG・種: 夏が暑い地域では花後に葉が傷むことがあり、花茎を取って葉を刈り込み若返らせる（試作の 'Mourning Widow' と同じ文・同じ判断）。Walters: 花後に切り戻す。stauden.de: 秋に茎を切る",
+  "management_type_quote": "Foliage may decline in hot summer climates after flowering, at which point flowering stems can be removed and foliage trimmed",
+  "management_type_by_matching": "C 夏前切戻型",
+  "heat_west_only": "弱",
+  "muggy_west_only": "弱",
+  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした\n[おぎはら楽天/種] 耐湿性: 普 通 ある程度耐えますが 高温多湿は嫌います（蒸れ 中 相当）\n[おぎはら楽天/種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[MBG/種] Intolerant of the heat and humidity of the deep South.\n[MBG/種] Foliage may decline in hot summer climates after flowering, at which point flowering stems can be removed and foliage trimmed both to shape and revitalize plants.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った",
+  "spread_evidence": "[こぼれ種 1／MBG・種] If not deadheaded, some self-seeding may occur in ideal growing conditions.\n[地下茎 1／MBG・種] Noteworthy Characteristics Geranium phaeum is a tall, rhizomatous, clump-forming perennial with branching stems which typically grows 18-30\" tall with a spread of 12-18\".",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
+  "silhouette_evidence": "[MBG・種] Noteworthy Characteristics Geranium phaeum is a tall, rhizomatous, clump-forming perennial with branching stems which typically grows 18-30\" tall with a spread of 12-18\".",
+  "sources_with_cultivar_page": "Walters",
+  "sources_used": "MBG、Walters、stauden.de、おぎはら"
+ }
+}
