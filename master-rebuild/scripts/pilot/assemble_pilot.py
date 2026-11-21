@@ -27,7 +27,7 @@ import ogihara_data as OG  # noqa: E402
 import rhs_ids as RH  # noqa: E402
 import jelitto_cbg_data as JC  # noqa: E402
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from extra_cols import extra as extra_columns, prune_extra, six as six_columns  # noqa: E402
+from extra_cols import extra as extra_columns, prune_extra, prune_all, six as six_columns  # noqa: E402
 
 IN, DIGEST, RAW, OUT = sys.argv[1:5]
 D = json.load(open(DIGEST, encoding="utf-8"))
@@ -408,7 +408,7 @@ def main():
             "科名", "香り", "毒性", "pH・土質", "こぼれ種の量(0-3)", "地下茎で広がる程度(0-3)", "こぼれ種・地下茎の根拠",
             "NC State の Resistance To Challenges", "RHS の Drought Resistance", "夏前の切り戻し", "毎年〜2年ごとの更新", "切り戻し・更新の根拠",
             "成株シルエット", "成株シルエット（種の記述なら）", "成株シルエットの根拠", "葉の特徴", "葉の特徴（種の記述なら）", "耐潮性", "耐潮性の根拠",
-            "株分けの間隔", "株分けの間隔の根拠", "混植適性", "混植適性の根拠", "広がりすぎの注意"]
+            "株分けの間隔", "株分けの間隔の根拠", "混植適性", "混植適性の根拠", "広がりすぎの注意", "切り戻し・手入れの文（全部）"]
     for it in ITEMS:
         k = it["id"]
         sk = "sp_" + slug(it["species"])
@@ -747,6 +747,7 @@ def main():
         # --- 夏前の切り戻し・毎年〜2年ごとの更新（管理タイプ C・D のもと。2026-11-21）
         r.update(prune_extra(texts, rh, ga, ga_own, og, SHOP.get(str(og[1])) if og else None))
         # --- 成株シルエット・葉の特徴・耐潮性・株分けの間隔・混植適性・広がりすぎの注意（2026-11-21。scripts/pilot/extra_cols.py の six）
+        r["切り戻し・手入れの文（全部）"] = prune_all(texts, rh, ga, ga_own, og, SHOP.get(str(og[1])) if og else None, s, slv)
         r.update(six_columns(it, rh, m, mlv, n, nl, s, slv, w, ga, ga_own, og, SHOP.get(str(og[1])) if og else None, texts, r))
         # --- 学名（採用）: 2026-11-19 決定。RHS が正名（Accepted／Correct）としていれば RHS の表記に合わせる。
         #     RHS で未確定・シノニム・掲載なしのときは今の学名のまま（学名の検討シートに残す）

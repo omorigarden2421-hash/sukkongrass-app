@@ -254,6 +254,33 @@ D_EN = (r"(divid(e|ed|ing)|replac(e|ed|ing)|renew(ed|ing)?|replant(ed|ing)?|lift
 D_JA = r"(毎年|1〜2年ごと|1～2年ごと|2年ごと)[^。]*(株分け|植え替え|更新|挿し木で更新)|(株分け|植え替え|更新)[^。]*(毎年|1〜2年ごと|1～2年ごと)"
 
 
+PRUNE_ANY = (r"cut(ting)? (back|down|to)|shear|deadhead|dead-head|prun(e|ing)|trim|remov\w+ (the )?(spent|faded|old|dead|flower)|spent flower|pinch|\bmow|low maintenance|"
+             r"little (care|maintenance)|clean ?up|tidy|after (flowering|bloom)|divid|replant|renew|rejuvenat|coppic|rückschnitt|schneiden|schnitt|teilen|umpflanzen|pflege")
+
+
+def prune_all(texts, rh, ga, ga_own, og, sh, s, slv):
+    """管理タイプを人が読んで決めるための列: 切り戻し・手入れ・株分けに触れている文を、文献ごとに全部並べる（属のページは除く）"""
+    out = []
+    if rh:
+        for key in ("Pruning", "Cultivation", "Propagation"):
+            if rh["f"].get(key):
+                out.append(f"[RHS・品種／{key}] " + rh["f"][key][:300])
+    for a, lv, x in texts:
+        if lv != "属" and re.search(PRUNE_ANY, x.lower().replace("\xa0", " ")):
+            out.append(f"[{a}・{lv}] {x[:300]}")
+    if s:
+        for v, _ in s["f"].get("Pflegehinweis", []):
+            out.append(f"[stauden.de・{slv}] {v}")
+    if ga:
+        out += [f"[Gaißmayer・{'品種' if ga_own else '種'}／{field}] {v[:300]}" for field, v in ga[12] if field in ("pruning", "division", "lifespan", "self_seed", "spread_mode")]
+    if og:
+        olv = "品種" if og[3] == "cultivar" else "種"
+        out += [f"[おぎはら・{olv}／{field}] {v}" for field, v in og[6] if field in ("pruning", "spread_mode", "self_seed", "lifespan")]
+        if sh and sh.get("status") == "ok":
+            out += [f"[おぎはら楽天・{olv}／{lab}] {sh[key]}" for key, lab in (("pruning", "剪定"), ("propagation", "増殖")) if sh.get(key)]
+    return "\n".join(dict.fromkeys(out)) or None
+
+
 def prune_extra(texts, rh, ga, ga_own, og, sh):
     """返すのは {"夏前の切り戻し", "毎年〜2年ごとの更新", "切り戻し・更新の根拠"}。属のページの記述は使わない"""
     c_hit, d_hit = [], []
