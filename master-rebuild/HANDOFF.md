@@ -1,4 +1,4 @@
-# 引き継ぎ（2026-11-20 更新）
+# 引き継ぎ（2026-11-21 更新）
 
 ## 目的
 宿根草の生産者（北海道広尾町）の通販・卸用マスターデータを、文献だけを根拠に作り直している。
@@ -446,14 +446,32 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - 耐暑性が空欄の6品種：コリダリス 'Silver Spectre'、スズラン、グロブラリア、オルラヤ、ミントブッシュ、クリーピングセボリー。スズラン（17項目）・グロブラリア（15項目）・テンニンソウの黄金葉（14項目）・コリダリス（10項目）は、ほかの項目も空欄が多い
 - ユーザーに聞くこと・伝えること（学名の検討に出る）：(a) 'Chocolate' は、商品名が「ユーパトリム ルゴサム」、マスターの学名は Ageratina altissima 'Chocolate'（RHS・MBG・stauden.de・Gaißmayer と同じ。おぎはら・Walters・Jelitto は Eupatorium rugosum）。ユーパトリウムのまとまり（batch_11）とは別の属名になっている (b) アンテミス ティンクトリアは RHS の正名が Cota tinctoria（'Alba' は名前だけの登録）。'Alba' は 2006年に Jelitto が発表 (c) ヤナギランは RHS の正名が Chamaenerion angustifolium、おぎはら・Jelitto・stauden.de は Epilobium (d) ロシアンセージは RHS の正名が Salvia yangii (e) セリナム ウォリキアナムは RHS でシノニム扱い (f) コリダリス 'Silver Spectre' は RHS で未確定。MBG・stauden.de・おぎはら・Gaißmayer・Jelitto に名前がない (g) スズラン（Convallaria keiskei）は、YList の和名がスズラン。RHS は Convallaria majalis var. keiskei をシノニムとしている (h) オルラヤは1〜2年草の扱い（おぎはら：基本的に1〜2年草扱いで、こぼれ種でよく増える。Jelitto：Biennial。Gaißmayer：一年草で、こぼれ種で続く） (i) シカゴ植物園：'Chocolate' は総合評価 ★5（26種類のうち最高評価の4つの1つ）。夏のいちばん暑い日や土が乾いたときは、しおれることが多かった。こぼれ種で増えたが雑草になるほどではない。同じ試験で、緑葉の種そのものは ★2 (j) Gaißmayer：アンテミス 'Alba' は Z6・「花後に半分まで切ると株が長もちし、こぼれ種も抑えられる」、セファラリアは「合う場所ではこぼれ種でよく増える。早めの切り戻しで抑えられる」、コエレリアは「肥えた土では短命」、クリーピングセボリーは Z6・冬のあと地際まで切り戻す・芽出しが遅い、バレリアンは Z6 (k) Jelitto：ヤナギランは地下のランナーと種子で速く増える、ロシアンセージは「暑さと乾燥に強い」（記録だけ）、クリーピングセボリーはゾーン6〜9、セリナムはゾーン6〜9
 
+## 2026-11-21：耐暑性の指針と、おぎはらの楽天の商品ページ（全品種に反映済み）
+- 決まったことは DECISIONS.md「2026-11-21 の決定」。ここには、確かめたことと手順を書く
+- おぎはらの耐暑性の定義は、図鑑のサイト（ogis.co.jp の図鑑・Q&A・コラム・会社案内）にはなく、楽天のお店の商品ページに共通の説明として書いてある（原文は DECISIONS.md）。会社案内には「栽培場は高冷地ながら、栽培施設内は40℃を超える日もありますが、冷房は使用しておりません」とある
+- 楽天の商品ページの読み方：図鑑のページ（page01.php?id=）の中に「カタログ品番；31L」があり、https://item.rakuten.co.jp/ogis/31l/ で開ける（curl で読める。文字コードは EUC-JP）。図鑑から楽天へのリンクがあるのは販売中の品種だけだが、売り切れの品種もページが残っていることが多い
+  - scripts/tools/ogi_shop.py が、各 batch と scripts/pilot の ogihara_data.py にある図鑑のIDを順に読む（2.5秒おき。取得済みは飛ばす）。結果は ogihara_shop.json（図鑑のID → 耐暑性・株張り・日照〔寒冷地／暖地〕・土の水分・耐乾性・耐湿性・剪定・増殖・消毒。価格・在庫は入れていない）
+  - 2026-11-21 に読んだ結果：図鑑のページ 363 のうち、楽天にページあり 294・なし（404）69。品種では 412 のうち 323。アクセス制限のような応答は出なかった
+  - ogihara_data.py の376件で、ogihara_data.py に書いた耐暑性と、今の図鑑の値を照らした。違いは 0
+- 楽天のページで分かったこと（323品種）：耐暑性は図鑑とほぼ同じ（違いは3品種：Th04 タリクトラム デラバイ 'Album' は図鑑 中・楽天「弱い（夏期冷涼な地域に向く）」、Rn01 カラスバ ヒメリュウキンカは図鑑 強・楽天「普通（暖地では夏に風とおし、水はけよく）」、G02 ゲラニウム エンドレッシーは図鑑 中・楽天「強い」。控えめな側を採った）。「高温多湿を嫌う」などの一言がある品種 141、寒冷地と暖地で日照が違う品種 143（うち暖地が日かげ寄り 137。多いのは「昼過ぎから半日陰が理想」49）、耐乾性は全品種に5段階で書いてある
+- assemble_pilot.py に入れたこと：ogihara_shop.json を読み、DECISIONS.md の決め方で耐暑性・蒸れ耐性・西日耐性・乾燥耐性に当てる（shop_heat・shop_muggy・shop_west・shop_dry）。列を3つ足した（「蒸れ耐性（欧米の文献だけなら）」「西日耐性（おぎはらの暖地の日照を入れる前）」「乾燥耐性の出どころ」）。根拠の行は6行から9行までに増やした。西日耐性の ◎（日向・耐暑性 強・乾燥耐性 強）は、おぎはらで乾燥耐性を埋める前の値で決めている
+- 同じときに直したこと：(1) 「Foliage tends to decline by late summer」（アスター コルディフォリウス）が暑さ 中 に当たっていたので、暑さの語がないときは使わないようにした (2) 和名の拾い方で、引用符のある行（Hosta sieboldiana … 'Hypophylla'）を種そのものの行にしないようにした。どちらも、今の下書きの値は変わらない（直す前の組み立てで、3属の試行とアスターを作り直したときにだけ出た）
+- scripts/tools/rediff.py を作り直した：3属の試行（pilot）とアスター（aster）も対象に入れ、耐暑性・蒸れ耐性・西日耐性・乾燥耐性・「欧米の文献だけなら」・和名を比べる。`--save 1121` を付けると、作り直した Excel と JSON を、末尾を _1121 に替えた名前で ClaudeWork に置く
+- 確かめたこと：楽天のデータを入れる前の組み立てで、19個のまとまり（916品種）すべてが手元の下書きと同じ値になった（3属の試行とアスターは「欧米の文献だけなら」の列が増えただけ）。入れたあとに作り直した下書きは、試しの一覧（`ClaudeWork/試し_おぎはら楽天_蒸れ・西日・乾燥_323品種_1121.xlsx`）の案と同じ値になった。違いは耐暑性の6品種だけ：G02（上の「控えめな側」）と、ゲラニウム ファエウムの5品種（G16〜G20。試しの一覧を作ったとき、3属の試行の下書きに「欧米の文献だけなら」の列がなかったため。今の決め方では 強 → 中）
+- 反映した結果（916品種。かっこ内は反映する前）：耐暑性 強 399（420）・中 234（214）・弱 68（67）・空欄 215（215）、蒸れ耐性 強 74（83）・中 175（91）・弱 118（68）・空欄 549（674）、西日耐性 ◎77・○246・△203・×209・空欄 181、乾燥耐性 強 202・中 199・弱 119・空欄 396（572）。変わった数：耐暑性 22、蒸れ耐性 138、西日耐性 54、乾燥耐性 176（どれも空欄を埋めたか、控えめな側に動いた）
+- 耐暑性が 強 → 中 になった20品種は、下書きの「耐暑性の決め方」が「…＋楽天のページの注意（強 → 中）」の行
+- 下書き：19個のまとまりすべてを、末尾 _1121 の名前で作り直した（`ClaudeWork/試行_3属78品種_1121.xlsx`、`下書き_アスター23品種_1121.xlsx`、`下書き_…_1121.xlsx`。前のファイルは残してある）。3属の試行とアスターも、今の照合で作り直してある
+- まだ使っていない楽天の項目：株張り（今が空欄で、品種のページに値があるのは20品種）、土の水分、剪定、増殖、消毒
+- 楽天にページがなかった89品種は、今までどおり（図鑑の耐暑性だけ）
+
 ## 次にやること（全部の属の下書きが終わった）
 - batch_18 までで、全916品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54＋51＋50＋53＋51＋51＋51＋51＋50＋47＋19＝916）。2026-11-20 に、batch_*/input と pilot/input の商品番号（916件・重複なし）を元のマスターの商品番号（916件）と照らし、もれ・重複がないことを確かめた
-- 次は、(1) 耐暑性の決め方の最終検討（DECISIONS.md の未決。ユーザーと決める）と、(2) ユーザーの確認（各節の「ユーザーに聞くこと・伝えること」「要確認」。ユーザーは「確認は全部終わってからまとめて見る」と回答済み）
+- 耐暑性は、2026-11-21 におぎはらの定義と楽天のページの使い方まで決めて、全品種に反映した（上の節）。次は、(1) 耐暑性で残っている判断（DECISIONS.md の未決）と、(2) ユーザーの確認（各節の「ユーザーに聞くこと・伝えること」「要確認」。ユーザーは「確認は全部終わってからまとめて見る」と回答済み）
 - 耐暑性の最終検討で見るもの：各下書きの「耐暑性の決め方」と「耐暑性（欧米の文献だけなら）」の列、根拠の「[食い違い]」、各 batch の ogihara_data.py の SIBLING（同じ種の別品種の値を使った試し。中 で使ったのは batch_07・11・12・14・15・16 の6回）
 - 残っている未決：ミントブッシュ（プロスタンテラ）の種（ユーザーの確認待ち。batch_18 の Pb01 は文献を当てていない）
 - 下書きは、まとまりごとに別の Excel（ClaudeWork の「下書き_….xlsx」。同じまとまりに複数あるときは、名前の末尾が新しいものが最新。どれが最新かは scripts/tools/rediff.py の KEY で探せる）。1つの表にまとめる作業、試作と同じ形（rows・根拠の JSON）への統合は、まだしていない
-- 3属の試行（78品種）とアスター（23品種）の下書きは、そのあとに直した照合（暑さの言い回し、和名の拾い方など）で作り直していない（rediff.py の対象は batch_02〜18）。まとめるときに、今の assemble_pilot.py で作り直して比べる
-- まとまりを作り直す手順：`python -X utf8 scripts/pilot/assemble_pilot.py batch_NN/input <digest.json> <raw> <出力.xlsx> batch_NN`。前の下書きと比べるのは scripts/tools/rediff.py（耐暑性・蒸れ耐性・西日耐性と「欧米の文献だけなら」の列だけを比べる。和名などほかの列は比べない）
+- 3属の試行（78品種）とアスター（23品種）の下書きも、2026-11-21 に今の assemble_pilot.py で作り直した（rediff.py の対象に入れた）
+- まとまりを作り直す手順：`python -X utf8 scripts/pilot/assemble_pilot.py batch_NN/input <digest.json> <raw> <出力.xlsx> batch_NN`。前の下書きと比べるのは scripts/tools/rediff.py（耐暑性・蒸れ耐性・西日耐性・乾燥耐性・「欧米の文献だけなら」・和名を比べる。ほかの列は比べない）
 - 1つのまとまりの手順（記録。新しい属が増えたときに使う）：make_input.py → fetch_all.py と fetch_walters.py（裏で。あとで同じコマンドをもう一度実行して done と Walters の一覧を確かめる）→ おぎはら（scripts/tools/ogi_search.py で検索、ogi_page2.py でページを1行ずつに）→ RHS の番号（アプリ内のブラウザーで検索を順に開く → 候補を scripts/tools/rhs_check.py で読んで Name Status を見る）→ Gaißmayer・Jelitto（Chrome。タブで1ページずつ、1つのサイトにつき7秒おき。fetch で読まない。確認画面が出たら操作せず、別の作業を先にしてからタブを見直す）→ シカゴ植物園の号（pdftotext -raw）→ scripts/tools/clean_raw.py → fetch_rhs.py → digest.py → assemble_pilot.py → scripts/tools/show.py で当たり先と根拠を読む → MBG・NC State・Walters の hot・heat・humid・cool を含む文を全部出して拾い漏れを見る → scripts/tools/rediff.py で前の batch を作り直して比べる → HANDOFF.md → コミット → GitHub に送る
 - ID の頭文字（使ったもの）：H G V A M C X F R S D E B Me Ge Vi Pu Pe Po Pa Ac St He Sc Pl Fi Sa Tr Th Co Li Ly Vs Er Mi Mo Mn Td Sp Ne An Aq Ce Aj Di Hl Mu Ar Eu Hm Kn Pn Ru Ty Dg Pr Ep Bg Cg Ds Fu Ir Lo Si Gn Ps Ti Al Ad Hd Lg Pt Pv Tc Hy As Ga Gy At Cn Fe Hk Pp Ag Oe Vb Vn Ah Am Ca Ch Cl Ec El Eg Gm Gc Ka La Le Lt Pc Ph Sg Sn Sm Sl Su Sy Vu Yu Hr Tf Ak Cr Gl Aa Cy Kt Lw Lu Or Py Px Sd Ab Cu Cm Cs Ci Dr Em Fr Hb Ib Lr Lc Mk Pi Pz Rg So Ae Ao Ax Ap Ay Aw Au Ai Az Bi Br Bu Ct Cd Da De Es Et Ei Eo Ey En Go Hn Hc Im Lm Ln Lp Ms Ml Op Pm Pf Pj Pw Pd Pk Rn Rt Rl Ss Se Sq Sk Tm Un Av Ba Dl Fo Hp Lh Lj Pq Ro To Vr Vo Af Tn Cp Cz Cj Cv Cq Gi Gb Ko Ls On Ol Pg Pb Sj Sx Sb Va、試作の P
 - シカゴ植物園の評価報告（一覧 no1〜no40）で、画像だけで読めない号：no5 アキレア、no8 ルドベキア、no9 リアトリス（古い号は読めないことが多い）

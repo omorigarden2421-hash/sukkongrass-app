@@ -32,6 +32,58 @@ D = json.load(open(DIGEST, encoding="utf-8"))
 ITEMS = [json.load(open(f, encoding="utf-8")) for f in sorted(glob.glob(IN + "/*.json"))]
 OGI = {i: rec for rec in OG.OGIHARA for i in rec[0]}
 JEL = {i: rec for rec in JC.JELITTO for i in rec[0]}
+# おぎはら植物園の楽天の商品ページから読んだ項目（scripts/tools/ogi_shop.py が作る。図鑑のID → 項目）。2026-11-21 の決定で、蒸れ耐性・西日耐性・乾燥耐性にも使う
+_SHOP = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "ogihara_shop.json")
+SHOP = json.load(open(_SHOP, encoding="utf-8"))["pages"] if os.path.exists(_SHOP) else {}
+R3 = {"弱": 0, "中": 1, "強": 2}
+RW = {"×": 0, "△": 1, "○": 2, "◎": 3}
+
+
+def _nz(x):
+    return (x or "").replace(" ", "")
+
+
+def _lvl(x):
+    x = _nz(x)
+    return next((a for a in ("やや強い", "やや弱い", "強い", "弱い", "普通") if x.startswith(a)), None)
+
+
+def shop_heat(sh):
+    x = _nz(sh.get("heat"))
+    return "強" if x.startswith("強") else "中" if x.startswith(("普通", "中")) else "弱" if x.startswith("弱") else None
+
+
+def shop_muggy(sh):
+    """耐湿性の説明に「高温多湿を嫌う」があれば、耐湿性が やや弱い・弱い なら 弱、それ以外は 中。
+    耐暑性の補足が「暖地では夏に風とおし、水はけよく」だけなら 中。どちらもなければ None（書いていないことから 強 とはしない）"""
+    if re.search("高温多湿|蒸れ", _nz(sh.get("wet"))):
+        return ("弱" if _lvl(sh.get("wet")) in ("やや弱い", "弱い") else "中"), "耐湿性: " + sh["wet"]
+    if "風とおし" in _nz(sh.get("heat")):
+        return "中", "耐暑性: " + sh["heat"]
+    return None, None
+
+
+def shop_west(sh):
+    """暖地の日照。寒冷地と暖地で違うときだけ使う。西日は避ける → ×、暖地が半日陰・日陰だけ → ×、
+    昼過ぎから（夏場は）半日陰が理想 → △、寒冷地は日向で暖地は 日向〜やや半日陰 → ○"""
+    c, w = _nz(sh.get("sun_cool")), _nz(sh.get("sun_warm"))
+    if not w or c == w:
+        return None
+    if "西日" in w:
+        return "×"
+    if re.search("昼過ぎ|夏場|午後", w):
+        return "△"
+    return "○" if "日向" in w else "×"
+
+
+def shop_dry(sh):
+    return {"強い": "強", "やや強い": "強", "普通": "中", "やや弱い": "弱", "弱い": "弱"}.get(_lvl(sh.get("dry")))
+
+
+def _low(a, b, rank):
+    if a is None or b is None:
+        return a or b
+    return a if rank[a] <= rank[b] else b
 
 
 def slug(s):
@@ -111,7 +163,8 @@ def yl_pick(rows, sp, sci=None):
         c.sort(key=lambda x: x["status"] != "標準")
         if c:
             return c[0]
-    plain = [x for x in rows if (x["sci"] + " ").startswith(f"{g} {e} ") and not re.search(r" (var|subsp|ssp|f)\. ", x["sci"] + " ")]
+    # 引用符のある行（Hosta sieboldiana … 'Hypophylla' のような品種の行）は、種そのものの行にしない（2026-11-21）
+    plain = [x for x in rows if (x["sci"] + " ").startswith(f"{g} {e} ") and "'" not in x["sci"] and not re.search(r" (var|subsp|ssp|f)\. ", x["sci"] + " ")]
     for st in ("標準", "広義", "synonym"):
         c = [x for x in plain if x["status"] == st]
         if c:
@@ -133,6 +186,9 @@ def judge(texts):
         m = "弱" if re.search(P_MUGGY_WEAK, low) else "強" if re.search(P_MUGGY_STRONG, low) else "中" if re.search(P_MUGGY_MID, low) else None
         ws = "scorch" in low and "winter" in low and not re.search(r"hot|heat|summer", low)  # 冬の寒さ・日ざしによる葉の傷み（イベリス、ヘレボルス）は暑さ・西日の記述ではない
         if h == "中" and ws:
+            h = None
+        # 「Foliage tends to decline by late summer」（アスター コルディフォリウス）は、暑さの語がなく、葉の病気の話なので暑さの記述にしない（2026-11-21）
+        if h == "中" and "decline by late summer" in low and not re.search(r"hot|heat", low):
             h = None
         if "better than most" in low or re.search(r"more tolerant of [^.]* than", low):  # 「同属の中では強い」という比較の書き方は 強 にしない
             h = "中" if h == "強" else h
@@ -265,7 +321,8 @@ def main():
     rows = []
     cols = ["ID", "商品番号", "植物名", "学名（マスター）", "学名（採用）", "学名（RHS）", "文献での表記", "和名", "花色（分類）", "花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照",
             "USDA", "RHS 耐寒性", "原産地", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "紅葉", "文献の注意", "自社の観察", "切り花", "蜜源", "花色（自社の値）", "株張り（自社の値・cm）", "葉色（自社の値）",
-            "品種ページのある文献", "使った文献", "空欄の数", "耐暑性の決め方", "耐暑性（欧米の文献だけなら）"]
+            "品種ページのある文献", "使った文献", "空欄の数", "耐暑性の決め方", "耐暑性（欧米の文献だけなら）",
+            "蒸れ耐性（欧米の文献だけなら）", "西日耐性（おぎはらの暖地の日照を入れる前）", "乾燥耐性の出どころ"]
     for it in ITEMS:
         k = it["id"]
         sk = "sp_" + slug(it["species"])
@@ -404,7 +461,47 @@ def main():
                 why.append(f"[RHS/品種] Aspect: {asp}")
             used.add("RHS")
         r["西日耐性"] = west
-        r["暑さ・蒸れ・西日の根拠"] = "\n".join(why[:6]) or None
+        # --- おぎはら植物園の楽天の商品ページ（2026-11-21 の決定。DECISIONS.md）
+        #   耐暑性は図鑑の値（楽天のページと違うときは控えめな側）。おぎはら 強・欧米 弱 で、おぎはら自身も蒸れか暖地の日かげの注意を書いているときは 中。
+        #   蒸れ耐性・西日耐性は、欧米の文献からの値と、おぎはらの文からの値のうち控えめな側。乾燥耐性は、空欄のときだけおぎはらの値を入れる。
+        r["蒸れ耐性（欧米の文献だけなら）"] = muggy
+        r["西日耐性（おぎはらの暖地の日照を入れる前）"] = west
+        sh = SHOP.get(str(og[1])) if og else None
+        if sh and sh.get("status") == "ok":
+            lab = "品種" if og[3] == "cultivar" else "種"
+            extra = []
+            ho = shop_heat(sh)
+            if ho and og[4] and ho != heat:
+                if R3[ho] < R3[heat]:
+                    extra.append(f"[おぎはら楽天/{lab}] 耐暑性: {sh['heat']}（図鑑は {heat}。控えめな側を採った）")
+                    heat = ho
+                else:
+                    extra.append(f"[食い違い] おぎはらの楽天のページは 耐暑性: {sh['heat']}（図鑑は {heat}。控えめな側のまま）")
+            mo, mwhy = shop_muggy(sh)
+            wo = shop_west(sh)
+            do = shop_dry(sh)
+            if og[4] and heat == "強" and r["耐暑性（欧米の文献だけなら）"] == "弱" and (mo or wo in ("×", "△")):
+                heat = "中"
+                extra.append("[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした")
+                r["耐暑性の決め方"] += "＋楽天のページの注意（強 → 中）"
+            if mo:
+                extra.append(f"[おぎはら楽天/{lab}] {mwhy}（蒸れ {mo} 相当）")
+                if muggy == "強":
+                    extra.append("[食い違い] 蒸れ: 欧米の文献は 強 相当。控えめな側を採った")
+                muggy = _low(muggy, mo, R3)
+            if wo:
+                extra.append(f"[おぎはら楽天/{lab}] 日照 寒冷地: {sh['sun_cool']}／暖地: {sh['sun_warm']}（西日 {wo} 相当）")
+                west = _low(west, wo, RW)
+            if do and not drought:
+                drought = do
+                r["乾燥耐性の出どころ"] = f"おぎはら楽天・{lab}（耐乾性: {sh['dry']}）"
+            elif do and do != drought:
+                r["乾燥耐性の出どころ"] = f"[食い違い] おぎはら楽天・{lab}は 耐乾性: {sh['dry']}（{do} 相当）。欧米の文献の値のまま"
+            at = 1 if why and why[0].startswith("[おぎはら") else 0
+            why[at:at] = extra
+            r["耐暑性"], r["蒸れ耐性"], r["西日耐性"], r["乾燥耐性"] = heat, muggy, west, drought
+            used.add("おぎはら")
+        r["暑さ・蒸れ・西日の根拠"] = "\n".join(why[:9]) or None
         # --- 常緑性・増え方（stauden.de）
         if s:
             f = s["f"]
