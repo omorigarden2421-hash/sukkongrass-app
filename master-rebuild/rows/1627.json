@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Cornus alba 'Sibirica'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Cornus alba 'Sibirica' [Accepted]"
   },
   "synonyms": {
@@ -48,7 +50,7 @@
    "sources": [
     "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 150,
@@ -69,9 +71,10 @@
   "foliage_class": {
    "value": "ブロンズ・レッド系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": null,
@@ -102,9 +105,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS）"
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": 3,
@@ -172,9 +176,10 @@
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜中性、粘土・砂質・ローム",

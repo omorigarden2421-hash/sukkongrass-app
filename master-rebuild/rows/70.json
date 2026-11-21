@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Campanula punctata 'Wedding Bells'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Campanula punctata 'Wedding Bells' [Accepted]"
   },
   "synonyms": {
@@ -48,7 +50,7 @@
    "sources": [
     "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 10,
@@ -69,9 +71,10 @@
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -106,9 +109,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 5,
@@ -146,9 +150,10 @@
   "heat_note": {
    "value": "シカゴ植物園: 株幅は spreading（広がる）。特に勢いが強く、3年目の夏までに区画の2倍に広がった。こぼれ種の苗も出た",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s08"
+   ],
+   "level": null
   },
   "muggy": {
    "value": null,
@@ -175,9 +180,10 @@
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "中性〜アルカリ性、砂質・ローム・白亜質",
@@ -214,9 +220,10 @@
     "ランナー"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": 1,
@@ -333,9 +340,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

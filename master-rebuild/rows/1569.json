@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Ficaria verna 'Brazen Hussy'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Ficaria verna 'Brazen Hussy'（RHS の正名は Ficaria verna 'Brazen Hussy'（Ranunculus ficaria 'Brazen Hussy' はシノニム扱い）） [Accepted]"
   },
   "synonyms": {
@@ -17,7 +19,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "キンポウゲ科（Ranunculaceae）",
@@ -38,39 +40,44 @@
   "flower_color_detail": {
    "value": "Yellow",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
     "黄"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 30,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_max": {
    "value": 45,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_class": {
    "value": "ブロンズ・レッド系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": null,
@@ -101,9 +108,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 4,
@@ -169,16 +177,18 @@
   "drought": {
    "value": "弱",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s21"
+   ],
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、ローム",
@@ -321,9 +331,10 @@
   "cut_flower": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "pollinator": {
    "value": null,

@@ -8,7 +8,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "RHS：Oenothera lindheimeri 'The Bride' (G)（RHS の正名は Oenothera lindheimeri（Gaura lindheimeri 'The Bride' はシノニム扱い）） [Accepted]"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Oenothera lindheimeri 'The Bride' (G)（RHS の正名は Oenothera lindheimeri（Gaura lindheimeri 'The Bride' はシノニム扱い）） [Accepted]"
   },
   "synonyms": {
    "value": [
@@ -17,7 +17,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "アカバナ科（Onagraceae）",
@@ -52,7 +52,7 @@
    "sources": [
     "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 50,
@@ -73,9 +73,10 @@
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": null,
@@ -106,9 +107,10 @@
   "sun": {
    "value": "日向",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 5,
@@ -174,16 +176,18 @@
   "drought": {
    "value": "中",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
@@ -220,9 +224,10 @@
     "株立ち"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -325,9 +330,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s11"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

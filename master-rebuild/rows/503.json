@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Mentha suaveolens",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
    "note": "RHS：Mentha suaveolens [Correct]"
   },
   "synonyms": {
@@ -35,18 +37,20 @@
   "flower_color_detail": {
    "value": "weißlich-rosa",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "sources": [
+    "s17"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
     "青・紫"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 100,
@@ -67,9 +71,10 @@
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -110,9 +115,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 5,
@@ -171,9 +177,10 @@
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、ローム",
@@ -211,9 +218,10 @@
     "ランナー"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -233,9 +241,11 @@
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": "地下茎・ランナーで強く広がり、はびこることがある（MBG・種）。文献に「侵略的・はびこる」という記述がある（MBG・種）",
@@ -316,9 +326,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   }
  },
  "review": {

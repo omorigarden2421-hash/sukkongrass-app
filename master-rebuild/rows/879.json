@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Stachys byzantina 'Primrose Heron'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Stachys byzantina 'Primrose Heron' [Accepted]"
   },
   "synonyms": {
@@ -33,39 +35,44 @@
   "flower_color_detail": {
    "value": "Deep Pink",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
     "ピンク"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 30,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_max": {
    "value": 60,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_class": {
    "value": "ゴールド・ライム系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -101,9 +108,10 @@
   "sun": {
    "value": "日向",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": 4,
@@ -141,9 +149,10 @@
   "heat_note": {
    "value": "シカゴ植物園: 花つきは20%未満。広がるより株立ちになる。冬の傷みが繰り返し出て、春の芽吹きが遅く、勢いが弱かった。葉はライムイエローで、のちに灰緑色に変わる（no27）",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s08"
+   ],
+   "level": null
   },
   "muggy": {
    "value": null,
@@ -165,16 +174,19 @@
   "drought": {
    "value": "強",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s02",
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "排水必須",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、砂質・ローム・白亜質",
@@ -211,9 +223,10 @@
     "ランナー"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": null,
@@ -234,9 +247,12 @@
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s06",
+    "s02",
+    "s18"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（MBG・品種）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
@@ -321,9 +337,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

@@ -8,7 +8,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "RHS：Asclepias incarnata 'Cinderella'（名前だけの登録。RHS ではシノニム扱い（Asclepias 'Cinderella' は未確定。正名は要確認）） [Synonym]"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Asclepias incarnata 'Cinderella'（名前だけの登録。RHS ではシノニム扱い（Asclepias 'Cinderella' は未確定。正名は要確認）） [Synonym]"
   },
   "synonyms": {
    "value": null,
@@ -33,39 +33,44 @@
   "flower_color_detail": {
    "value": "Deep Pink",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
     "ピンク"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 60,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_max": {
    "value": 75,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -102,9 +107,10 @@
   "sun": {
    "value": "日向",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": 3,
@@ -160,16 +166,18 @@
   "drought": {
    "value": "弱",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s21"
+   ],
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "湿潤寄り",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜中性、粘土・ローム・腐植質",
@@ -208,9 +216,10 @@
     "株立ち"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": null,
@@ -295,16 +304,20 @@
   "cut_flower": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s18",
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s18",
+    "s10"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

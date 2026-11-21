@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Veronica austriaca subsp. teucrium 'Royal Blue'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Veronica austriaca subsp. teucrium 'Royal Blue' [Accepted]"
   },
   "synonyms": {
@@ -46,7 +48,7 @@
    "sources": [
     "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 10,
@@ -67,9 +69,10 @@
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": null,
@@ -100,9 +103,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": 4,
@@ -161,16 +165,18 @@
   "drought": {
    "value": "中",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、ローム",
@@ -308,9 +314,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s11"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

@@ -8,7 +8,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "RHS：Helleborus orientalis Lam.（種（Helleborus orientalis）のページ。マスターの花色は「白系他」で、交配種（× hybridus）の実生の可能性がある） [Correct]"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Helleborus orientalis Lam.（種（Helleborus orientalis）のページ。マスターの花色は「白系他」で、交配種（× hybridus）の実生の可能性がある） [Correct]"
   },
   "synonyms": {
    "value": null,
@@ -50,7 +50,7 @@
    "sources": [
     "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 10,
@@ -71,9 +71,10 @@
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -114,9 +115,10 @@
   "sun": {
    "value": "半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 4,
@@ -177,9 +179,10 @@
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "中性〜アルカリ性、粘土・ローム・白亜質",
@@ -216,9 +219,10 @@
     "株立ち"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -241,9 +245,11 @@
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -324,16 +330,18 @@
   "cut_flower": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   }
  },
  "review": {

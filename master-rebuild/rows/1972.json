@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Geranium phaeum 'Raven'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Geranium phaeum 'Raven' [Accepted]"
   },
   "synonyms": {
@@ -48,7 +50,7 @@
    "sources": [
     "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 50,
@@ -69,9 +71,10 @@
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -111,9 +114,10 @@
   "sun": {
    "value": "半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 5,
@@ -179,16 +183,18 @@
   "drought": {
    "value": "中",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s21"
+   ],
+   "level": "species"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
@@ -224,9 +230,10 @@
     "地下茎"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": 1,
@@ -247,9 +254,10 @@
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": null,

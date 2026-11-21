@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Campanula glomerata 'Emerald'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Campanula glomerata 'Emerald' [Accepted]"
   },
   "synonyms": {
@@ -48,7 +50,7 @@
    "sources": [
     "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 50,
@@ -69,9 +71,10 @@
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": null,
@@ -102,9 +105,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 3,
@@ -170,9 +174,10 @@
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "中性〜アルカリ性、砂質・白亜質",
@@ -209,9 +214,10 @@
     "こぼれ種"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -234,9 +240,11 @@
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s06",
+    "s18"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）",
@@ -319,16 +327,18 @@
   "cut_flower": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   }
  },
  "review": {

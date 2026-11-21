@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Leucanthemum × superbum 'Snowdrift'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Leucanthemum × superbum 'Snowdrift' [Accepted]"
   },
   "synonyms": {
@@ -33,9 +35,10 @@
   "flower_color_detail": {
    "value": "White、Yellow",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
@@ -43,30 +46,34 @@
     "黄"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 45,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_max": {
    "value": 60,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -101,9 +108,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": 4,
@@ -141,9 +149,10 @@
   "heat_note": {
    "value": "シカゴ植物園: 花つき excellent（80〜100%）。花期は6月下旬〜8月上旬。種子から育てた株で、花の形が一重から八重までばらついた。冬に株元が少し〜中くらい傷んだ年がある（寒さより、粘土質の土の湿りが原因とされている）。総合評価の星は読み取れなかった（no30）",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s08"
+   ],
+   "level": null
   },
   "muggy": {
    "value": "弱",
@@ -168,16 +177,18 @@
   "drought": {
    "value": "中",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s21"
+   ],
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
@@ -216,9 +227,10 @@
     "株立ち"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": null,
@@ -312,16 +324,18 @@
   "cut_flower": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Campanula takesimana",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
    "note": "RHS：Campanula takesimana [Correct]"
   },
   "synonyms": {
@@ -33,9 +35,10 @@
   "flower_color_detail": {
    "value": "Light Pink、Purple",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
@@ -43,30 +46,34 @@
     "青・紫"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 60,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_max": {
    "value": 75,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -105,9 +112,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": 4,
@@ -142,9 +150,10 @@
   "heat_note": {
    "value": "シカゴ植物園: 地下茎で広がるが punctata ほど密にならない。古い株の中心は冬に枯れやすい",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s08"
+   ],
+   "level": null
   },
   "muggy": {
    "value": null,
@@ -167,9 +176,10 @@
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、砂質・ローム・白亜質",
@@ -205,9 +215,10 @@
     "ランナー"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -232,9 +243,12 @@
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s06",
+    "s10",
+    "s18"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）。文献に「侵略的・はびこる」という記述がある（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）",
@@ -314,16 +328,18 @@
   "cut_flower": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   }
  },
  "review": {

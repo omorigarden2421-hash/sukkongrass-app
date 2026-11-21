@@ -8,7 +8,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "RHS：Hylotelephium × mottramianum 'Herbstfreude'（マスターは Hylotelephium spectabile 'Autumn Joy'（英名）。RHS は交配種 × mottramianum の 'Herbstfreude'） [Accepted]。RHS の正名は Hylotelephium × mottramianum 'Herbstfreude'（品種名が違う。今の学名のまま）"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Hylotelephium × mottramianum 'Herbstfreude'（マスターは Hylotelephium spectabile 'Autumn Joy'（英名）。RHS は交配種 × mottramianum の 'Herbstfreude'） [Accepted]。RHS の正名は Hylotelephium × mottramianum 'Herbstfreude'（品種名が違う。今の学名のまま）"
   },
   "synonyms": {
    "value": null,
@@ -35,18 +35,20 @@
   "flower_color_detail": {
    "value": "altrosa, später rostrot",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s17"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
     "ピンク"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 10,
@@ -67,9 +69,10 @@
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -110,9 +113,10 @@
   "sun": {
    "value": "日向",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": 3,
@@ -173,16 +177,18 @@
   "drought": {
    "value": "強",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "排水必須",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "中性〜アルカリ性、砂質・ローム・白亜質",
@@ -219,9 +225,10 @@
     "株立ち"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": null,
@@ -328,9 +335,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

@@ -8,7 +8,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "RHS：Nepeta × faassenii 'Blue Wonder'（RHS は × faassenii の品種としている（racemosa 'Blue Wonder' はシノニム扱い）） [Accepted]。RHS は Nepeta × faassenii 'Blue Wonder'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Nepeta × faassenii 'Blue Wonder'（RHS は × faassenii の品種としている（racemosa 'Blue Wonder' はシノニム扱い）） [Accepted]。RHS は Nepeta × faassenii 'Blue Wonder'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
   },
   "synonyms": {
    "value": null,
@@ -46,7 +46,7 @@
    "sources": [
     "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 97,
@@ -67,9 +67,10 @@
   "foliage_class": {
    "value": "シルバー系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -110,9 +111,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": 3,
@@ -151,9 +153,10 @@
   "heat_note": {
    "value": "シカゴ植物園: 総合評価 good（星4つ）。花つき excellent。'Dropmore' などと違いが見られなかった、との記述（no29）",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s08"
+   ],
+   "level": null
   },
   "muggy": {
    "value": "弱",
@@ -176,16 +179,18 @@
   "drought": {
    "value": "強",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "soil_moisture": {
    "value": "排水必須",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、砂質・ローム・白亜質",
@@ -222,9 +227,10 @@
     "株立ち"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": 0,
@@ -330,9 +336,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

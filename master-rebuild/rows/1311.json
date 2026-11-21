@@ -8,7 +8,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "RHS：Geranium phaeum 'Margaret Wilson' (v) [Accepted]"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Geranium phaeum 'Margaret Wilson' (v) [Accepted]"
   },
   "synonyms": {
    "value": null,
@@ -35,39 +35,44 @@
   "flower_color_detail": {
    "value": "Purple",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
     "青・紫"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 30,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_max": {
    "value": 40,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_class": {
    "value": "斑入り",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -107,9 +112,10 @@
   "sun": {
    "value": "半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 5,
@@ -175,16 +181,18 @@
   "drought": {
    "value": "強",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
@@ -220,9 +228,10 @@
     "地下茎"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": 1,
@@ -243,9 +252,10 @@
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": null,

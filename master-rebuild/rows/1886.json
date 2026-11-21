@@ -8,7 +8,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "RHS：Limonium platyphyllum 'Blue Diamond'（名前だけの登録。RHS ではシノニム扱い（Limonium speciosum 'Blue Diamond' もシノニム。正名は要確認）） [Synonym]"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Limonium platyphyllum 'Blue Diamond'（名前だけの登録。RHS ではシノニム扱い（Limonium speciosum 'Blue Diamond' もシノニム。正名は要確認）） [Synonym]"
   },
   "synonyms": {
    "value": null,
@@ -33,39 +33,44 @@
   "flower_color_detail": {
    "value": "Mauve/Lilac",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
     "青・紫"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 25,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_max": {
    "value": 30,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": null,
@@ -96,9 +101,10 @@
   "sun": {
    "value": "日向",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": 6,
@@ -274,16 +280,18 @@
   "cut_flower": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

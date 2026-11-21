@@ -8,7 +8,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "RHS：Campanula persicifolia 'Moerheimii' (d) [Accepted]"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Campanula persicifolia 'Moerheimii' (d) [Accepted]"
   },
   "synonyms": {
    "value": null,
@@ -35,39 +35,44 @@
   "flower_color_detail": {
    "value": "White",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
     "白"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 30,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_max": {
    "value": 45,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -103,9 +108,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 3,
@@ -142,9 +148,10 @@
   "heat_note": {
    "value": "シカゴ植物園: 試験を完了できなかった：最初の冬は越したが、2年目の夏に枯れた（土の過湿による根腐れ）。persicifolia の品種は全体に成績が悪かった",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s08"
+   ],
+   "level": null
   },
   "muggy": {
    "value": null,
@@ -170,9 +177,10 @@
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "soil_ph_type": {
    "value": "中性〜アルカリ性、砂質・ローム・腐植質",
@@ -209,9 +217,10 @@
     "こぼれ種"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": 1,
@@ -234,9 +243,11 @@
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s06",
+    "s18"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -308,16 +319,19 @@
   "cut_flower": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s18",
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

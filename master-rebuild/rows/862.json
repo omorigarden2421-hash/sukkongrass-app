@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Phlox 'Junior Surprise'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Phlox 'Junior Surprise' [Accepted]"
   },
   "synonyms": {
@@ -17,7 +19,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら）"
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "ハナシノブ科（Polemoniaceae）",
@@ -96,9 +98,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 4,
@@ -166,9 +169,10 @@
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・ローム・腐植質",
@@ -203,9 +207,10 @@
     "株立ち"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": 1,

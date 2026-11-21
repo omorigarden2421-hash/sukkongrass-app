@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Doellingeria umbellata",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
    "note": "RHS：Doellingeria umbellata [Correct]"
   },
   "synonyms": {
@@ -17,7 +19,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "キク科（Asteraceae）",
@@ -50,7 +52,7 @@
    "sources": [
     "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 140,
@@ -71,9 +73,10 @@
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": null,
@@ -104,9 +107,10 @@
   "sun": {
    "value": "日向",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s02"
+   ],
+   "level": "genus"
   },
   "usda_min": {
    "value": 4,
@@ -141,9 +145,10 @@
   "heat_note": {
    "value": "シカゴ植物園: 総合評価 ★4（good）。うどんこ病・さび病とも excellent（発生なし）",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s08"
+   ],
+   "level": null
   },
   "muggy": {
    "value": "中",
@@ -169,9 +174,10 @@
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
@@ -208,9 +214,10 @@
     "こぼれ種"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -312,9 +319,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   }
  },
  "review": {

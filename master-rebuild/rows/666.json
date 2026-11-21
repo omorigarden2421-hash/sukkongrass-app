@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Nepeta 'Six Hills Giant'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Nepeta 'Six Hills Giant' [Accepted]"
   },
   "synonyms": {
@@ -33,18 +35,20 @@
   "flower_color_detail": {
    "value": "violettblau",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s17"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
     "青・紫"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 122,
@@ -65,9 +69,10 @@
   "foliage_class": {
    "value": "シルバー系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -108,9 +113,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": 4,
@@ -148,9 +154,10 @@
   "heat_note": {
    "value": "シカゴ植物園: 総合評価 excellent（星5つ）。花つき excellent。夏の間ずっと花が多く、勢いがよかった（no29）",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s08"
+   ],
+   "level": null
   },
   "muggy": {
    "value": "弱",
@@ -177,16 +184,18 @@
   "drought": {
    "value": "強",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s06"
+   ],
+   "level": "genus"
   },
   "soil_moisture": {
    "value": "排水必須",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
@@ -222,9 +231,10 @@
     "こぼれ種"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": 0,
@@ -329,9 +339,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Astilboides tabularis",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
    "note": "RHS：Astilboides tabularis [Correct]"
   },
   "synonyms": {
@@ -35,39 +37,44 @@
   "flower_color_detail": {
    "value": "White",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
     "白"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 75,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "spread_max": {
    "value": 90,
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -106,9 +113,10 @@
   "sun": {
    "value": "半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 5,
@@ -146,9 +154,10 @@
   "heat_note": {
    "value": "シカゴ植物園: 総合評価 ★3（fair）。花はクリーム白、花期は6月中旬〜7月中旬。葉の高さ 16 in・花茎を含めて 57 in。4月の第2週ごろに芽が出るので、2004・06・08・10・13年に新葉が遅霜で中〜重く傷んだ（50〜100%）。葉の幅は、ふつうの年は約12 in、春に雨の多い年は2フィートを超えた。試験全体で、冬に枯れた株はなかった（no40）",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s08"
+   ],
+   "level": null
   },
   "muggy": {
    "value": null,
@@ -170,16 +179,18 @@
   "drought": {
    "value": "弱",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "soil_moisture": {
    "value": "湿潤寄り",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、ローム",
@@ -217,9 +228,10 @@
     "地下茎"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -313,9 +325,10 @@
   "cut_flower": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "pollinator": {
    "value": null,

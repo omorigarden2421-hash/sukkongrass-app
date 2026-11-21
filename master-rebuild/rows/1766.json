@@ -7,7 +7,8 @@
    "value": "Persicaria amplexicaulis 'Elegance Pink'",
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）"
   },
   "synonyms": {
    "value": null,
@@ -86,9 +87,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 4,
@@ -151,9 +153,10 @@
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、stauden.de、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "soil_ph_type": {
    "value": "中性、粘土・ローム",
@@ -189,9 +192,10 @@
     "地下茎"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、stauden.de、おぎはら）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -214,9 +218,11 @@
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、stauden.de、おぎはら）"
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": null,

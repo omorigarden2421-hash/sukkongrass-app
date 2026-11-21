@@ -8,7 +8,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "RHS：Gaillardia × grandiflora 'Kobold'（RHS は × grandiflora の品種、品種名はドイツ語の 'Kobold'（'Goblin' はシノニム扱い）） [Accepted]。RHS の正名は Gaillardia × grandiflora 'Kobold'（品種名が違う。今の学名のまま）"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Gaillardia × grandiflora 'Kobold'（RHS は × grandiflora の品種、品種名はドイツ語の 'Kobold'（'Goblin' はシノニム扱い）） [Accepted]。RHS の正名は Gaillardia × grandiflora 'Kobold'（品種名が違う。今の学名のまま）"
   },
   "synonyms": {
    "value": null,
@@ -33,9 +33,10 @@
   "flower_color_detail": {
    "value": "gelb mit rot",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、NC State、RHS、stauden.de）"
+   "sources": [
+    "s17"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
@@ -43,9 +44,10 @@
     "黄"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、NC State、RHS、stauden.de）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 10,
@@ -66,9 +68,10 @@
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、NC State、RHS、stauden.de）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -105,9 +108,10 @@
   "sun": {
    "value": "日向",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、NC State、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": null,
@@ -156,16 +160,18 @@
   "drought": {
    "value": "中",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、NC State、RHS、stauden.de）"
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "soil_moisture": {
    "value": "排水必須",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、NC State、RHS、stauden.de）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、砂質・ローム・白亜質",
@@ -206,9 +212,10 @@
     "こぼれ種"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、NC State、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": null,
@@ -309,9 +316,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、NC State、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

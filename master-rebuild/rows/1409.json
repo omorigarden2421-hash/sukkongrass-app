@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Physostegia virginiana",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
    "note": "RHS：Physostegia virginiana（2026-11-21 のユーザーの回答: 'Deep pink' は花色の意味で品種名ではない。種のページ） [Correct]。2026-11-21 ユーザーの回答: 'Deep pink' は花色の意味で、品種名ではない"
   },
   "synonyms": {
@@ -17,7 +19,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "シソ科（Lamiaceae）",
@@ -53,7 +55,7 @@
    "sources": [
     "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 10,
@@ -74,9 +76,10 @@
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -112,9 +115,10 @@
   "sun": {
    "value": "日向",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 3,
@@ -182,9 +186,10 @@
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",
@@ -222,9 +227,10 @@
     "ランナー"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -247,9 +253,11 @@
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": "地下茎・ランナーで強く広がり、はびこることがある（MBG・種）。文献に「侵略的・はびこる」という記述がある（MBG・種）。NC State・種 の表示: Weedy（雑草化しやすい）",
@@ -330,9 +338,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   }
  },
  "review": {

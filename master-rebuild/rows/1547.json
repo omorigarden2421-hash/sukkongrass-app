@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Festuca idahoensis",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
    "note": "RHS：Festuca idahoensis（名前だけの登録） [Correct]"
   },
   "synonyms": {

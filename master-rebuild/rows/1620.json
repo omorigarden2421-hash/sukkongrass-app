@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Potentilla neumanniana",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
    "note": "RHS：Potentilla neumanniana [Correct]"
   },
   "synonyms": {
@@ -17,7 +19,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "バラ科（Rosaceae）",
@@ -36,9 +38,10 @@
   "flower_color_detail": {
    "value": "goldgelb",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "sources": [
+    "s17"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": null,
@@ -95,9 +98,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 4,
@@ -161,9 +165,10 @@
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "soil_ph_type": {
    "value": null,
@@ -283,9 +288,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
+   "sources": [
+    "s11"
+   ],
+   "level": "species"
   }
  },
  "review": {

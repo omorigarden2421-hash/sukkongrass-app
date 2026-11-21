@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Thalictrum rochebruneanum",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
    "note": "RHS：Thalictrum rochebruneanum（マスターのつづりは rochebrunianum） [Correct]"
   },
   "synonyms": {
@@ -17,7 +19,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de、シカゴ植物園）"
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "キンポウゲ科（Ranunculaceae）",
@@ -36,9 +38,10 @@
   "flower_color_detail": {
    "value": "lilapurpur, gelbliche Staubgefäße",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s17"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": [
@@ -47,9 +50,10 @@
     "黄"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "spread_min": {
    "value": 76,
@@ -70,9 +74,10 @@
   "foliage_class": {
    "value": "グリーン系",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "foliage_features": {
    "value": [
@@ -110,9 +115,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": 4,
@@ -151,9 +157,10 @@
   "heat_note": {
    "value": "シカゴ植物園: 総合評価 good（4つ星）。花つき 60〜80%。夏に葉を落として株がすく（'Elin' との比較の記述）（no28）",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s08"
+   ],
+   "level": null
   },
   "muggy": {
    "value": "弱",
@@ -182,9 +189,10 @@
   "soil_moisture": {
    "value": "湿潤寄り",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・ローム・白亜質",
@@ -221,9 +229,10 @@
     "株立ち"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -319,9 +328,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de、シカゴ植物園）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   }
  },
  "review": {

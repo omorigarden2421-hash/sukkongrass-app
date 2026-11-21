@@ -7,7 +7,8 @@
    "value": "Primula denticulata 'Blue Selection'",
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）"
   },
   "synonyms": {
    "value": null,
@@ -34,9 +35,10 @@
   "flower_color_detail": {
    "value": "blau-violette Töne",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、NC State、stauden.de）"
+   "sources": [
+    "s17"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": null,
@@ -89,9 +91,10 @@
   "sun": {
    "value": "半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、NC State、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": null,
@@ -132,9 +135,11 @@
   "west_sun": {
    "value": "×",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、NC State、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species",
+   "note": "日照（半日陰・日陰）から"
   },
   "drought": {
    "value": null,
@@ -183,9 +188,10 @@
     "株立ち"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、NC State、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,

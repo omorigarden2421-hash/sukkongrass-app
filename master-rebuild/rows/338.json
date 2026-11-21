@@ -8,7 +8,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "RHS：Hosta 'Cat's Eyes' (venusta) (v) [Accepted]"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Hosta 'Cat's Eyes' (venusta) (v) [Accepted]"
   },
   "synonyms": {
    "value": null,
@@ -87,9 +87,10 @@
   "sun": {
    "value": "半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS）"
+   "sources": [
+    "s02"
+   ],
+   "level": "genus"
   },
   "usda_min": {
    "value": 3,
@@ -145,16 +146,18 @@
   "drought": {
    "value": "中",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS）"
+   "sources": [
+    "s02"
+   ],
+   "level": "genus"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS）"
+   "sources": [
+    "s02"
+   ],
+   "level": "genus"
   },
   "soil_ph_type": {
    "value": "酸性〜中性、腐植質",

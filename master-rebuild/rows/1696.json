@@ -7,7 +7,8 @@
    "value": "Geum 'Flame of Passion'",
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）"
   },
   "synonyms": {
    "value": null,
@@ -32,9 +33,10 @@
   "flower_color_detail": {
    "value": "hellrot, halbgefüllt",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、おぎはら）"
+   "sources": [
+    "s17"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": null,
@@ -87,9 +89,10 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "genus"
   },
   "usda_min": {
    "value": 5,
@@ -151,16 +154,18 @@
   "drought": {
    "value": "中",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、おぎはら）"
+   "sources": [
+    "s21"
+   ],
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、おぎはら）"
+   "sources": [
+    "s02"
+   ],
+   "level": "genus"
   },
   "soil_ph_type": {
    "value": "中性、砂質・ローム",

@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Erysimum 'Orange Flame'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Erysimum 'Orange Flame'（名前だけの登録。RHS は種小名なし（マスターは kotschyanum）） [Accepted]"
   },
   "synonyms": {
@@ -17,7 +19,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：RHS、stauden.de）"
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "アブラナ科（Brassicaceae）",
@@ -99,9 +101,10 @@
   "sun": {
    "value": "日向",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": null,
@@ -188,9 +191,10 @@
     "株立ち"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "self_seed_level": {
    "value": null,

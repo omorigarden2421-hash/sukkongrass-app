@@ -66,6 +66,10 @@ EVMAP = {"USDA": ("usda_min", "usda_max"), "日照": ("sun",), "乾燥耐性": (
          "葉色（分類）": ("foliage_class",), "和名": ("common_name_ja",), "原産地": ("native_range",), "増え方": ("spread_modes",),
          "切り花": ("cut_flower",), "蜜源": ("pollinator",), "常緑性": ("evergreen_warm",), "病害虫": ("pests",), "繁殖": ("propagation",),
          "切り戻し": ("pruning_codes",), "紅葉": ("seasonal_foliage",)}
+# 「項目の文献」の列（assemble_pilot.py が 2026-11-21 から残す。「日照=MBG・種」の行）の項目 → field
+PROV = {"日照": ("sun",), "土壌水分": ("soil_moisture",), "乾燥耐性": ("drought",), "増え方": ("spread_modes",), "切り花": ("cut_flower",),
+        "蜜源": ("pollinator",), "花色（文献の語）": ("flower_color_detail",), "花色（分類）": ("flower_color_class",),
+        "株張り(cm)": ("spread_min", "spread_max"), "葉色（分類）": ("foliage_class",)}
 FIXED = {"rhs_h": ["s01"], "common_name_ja": ["s04"], "ias_list": ["s05"]}  # 出どころが1つに決まっている列（RHS の H 値・YList の和名・環境省のリスト）
 
 
@@ -89,20 +93,32 @@ def main(xlsx, out):
     for r in it:
         g = lambda c: r[col[c]]
         used = g("使った文献")
+        prov = {}
+        for line in (g("項目の文献") or "").splitlines():
+            c, _, lab = line.partition("=")
+            for k in PROV.get(c, ()):
+                prov[k] = cites(lab)
         fields = {}
         for key, c, kind, evcol in FIELDS:
             v = g(c)
             method = "判定" if "判定" in (origin[col[c]] or "") else "記載"
             srcs, level, note = [], None, None
-            if isinstance(v, str) and key in ("division_interval", "invasive_note", "foliage_features"):
+            if isinstance(v, str) and key in ("division_interval", "invasive_note", "foliage_features", "heat_note"):
                 srcs, level = cites(v)  # 文の中に文献名がある。値はそのまま
             elif isinstance(v, str):
                 m = TAIL.search(v)
                 if m and SRC_RE.search(m.group(1)):  # 値の後ろの「（RHS）」などを外して、文献に
                     srcs, level = cites(m.group(1))
                     v = v[:m.start()].strip()
+            if v is not None and not srcs and key in prov:
+                srcs, level = prov[key]
             if v is not None and not srcs and evcol and g(evcol):
                 srcs, level = cites(g(evcol))
+            if v is not None and not srcs and key == "mixing" and "こぼれ種・地下茎の根拠の列" in (g("混植適性の根拠") or ""):
+                srcs, level = cites(g("こぼれ種・地下茎の根拠"))  # 地下茎・こぼれ種の程度から決めた混植適性
+            if v is not None and not srcs and key == "west_sun" and fields["sun"]["sources"]:
+                srcs, level = fields["sun"]["sources"], fields["sun"]["level"]  # 日照が半日陰・日陰なので ×
+                note = "日照（半日陰・日陰）から"
             if v is not None and not srcs and (g("商品番号"), key) in evs:
                 s, lv = evs[(g("商品番号"), key)]
                 srcs, level = s, next((x for x in ("cultivar", "species", "genus") if x in lv), None)
@@ -131,8 +147,16 @@ def main(xlsx, out):
             fields[key] = {"value": v, "method": method, "sources": srcs or None, "level": level}
             if note:
                 fields[key]["note"] = note
-        if g("学名（RHS）"):
-            fields["accepted_name"]["note"] = f"RHS：{g('学名（RHS）')}" + (f"。{g('学名のメモ')}" if g("学名のメモ") else "")
+        rn = g("学名（RHS）") or ""
+        an = fields["accepted_name"]
+        an["note"] = "。".join(x for x in (f"RHS：{rn}" if rn else None, g("学名のメモ")) if x) or None
+        # 学名（採用）は、RHS が正名（Accepted／Correct）としていれば RHS の表記（assemble_pilot.py の adopt_name）。そのときだけ s01
+        if re.search(r"\[(Accepted|Correct)", rn) and re.sub(r"[^a-z]", "", rn.split("[")[0].split("（")[0].lower()) == re.sub(r"[^a-z]", "", (an["value"] or "").lower()):
+            an["sources"], an["level"] = ["s01"], "cultivar" if "'" in an["value"] else "species"
+        else:
+            an["note"] = "。".join(x for x in ("今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）", an.get("note")) if x)
+        if fields["synonyms"]["value"]:
+            fields["synonyms"]["note"] = "今のマスターの学名（正名と表記が違うもの）"
         row = {
             "id": g("下書きのID"), "product_no": g("商品番号"), "name_ja": g("植物名"),
             "fields": fields,

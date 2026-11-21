@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Silphium mohrii",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
    "note": "RHS：Silphium mohrii（栽培の項目が少ないページ） [Correct]"
   },
   "synonyms": {
@@ -33,9 +35,10 @@
   "flower_color_detail": {
    "value": "hellgelb",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、RHS、stauden.de）"
+   "sources": [
+    "s17"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
    "value": null,
@@ -257,9 +260,10 @@
   "pollinator": {
    "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、RHS、stauden.de）"
+   "sources": [
+    "s11"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

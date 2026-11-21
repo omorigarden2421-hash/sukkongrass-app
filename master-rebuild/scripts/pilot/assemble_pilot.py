@@ -408,7 +408,7 @@ def main():
             "科名", "香り", "毒性", "pH・土質", "こぼれ種の量(0-3)", "地下茎で広がる程度(0-3)", "こぼれ種・地下茎の根拠",
             "NC State の Resistance To Challenges", "RHS の Drought Resistance", "夏前の切り戻し", "毎年〜2年ごとの更新", "切り戻し・更新の根拠",
             "成株シルエット", "成株シルエット（種の記述なら）", "成株シルエットの根拠", "葉の特徴", "葉の特徴（種の記述なら）", "耐潮性", "耐潮性の根拠",
-            "株分けの間隔", "株分けの間隔の根拠", "混植適性", "混植適性の根拠", "広がりすぎの注意", "切り戻し・手入れの文（全部）"]
+            "株分けの間隔", "株分けの間隔の根拠", "混植適性", "混植適性の根拠", "広がりすぎの注意", "切り戻し・手入れの文（全部）", "項目の文献"]
     for it in ITEMS:
         k = it["id"]
         sk = "sp_" + slug(it["species"])
@@ -421,6 +421,13 @@ def main():
         rh = rhs(k)
         r = dict.fromkeys(cols)
         r.update({"ID": k, "商品番号": it["商品番号"], "植物名": it["植物名"], "学名（マスター）": it["学名"]})
+        # 項目の文献（2026-11-21）: 値の後ろに文献名を付けていない項目について、どの文献の値かを残す（列名 → 「MBG・種」など）。値は変えない
+        prov = {}
+
+        def src(cols_, lab):
+            for c in cols_:
+                if r[c] not in (None, ""):
+                    prov[c] = lab
         names = [f"{lab}: {x['name']}" for lab, x in (("stauden.de", own.get("sdb")), ("MBG", own.get("mbg")), ("Walters", w)) if x]
         if ga:
             names.append("Gaißmayer: " + ga[1] + ("" if ga_own else "（種のページ）"))
@@ -449,9 +456,11 @@ def main():
             lf = [LEAF_W[c] for c in w["f"].get("Foliage Color", []) if c in LEAF_W]
             r["葉色（分類）"] = "斑入り" if "斑入り" in lf else (lf[0] if lf else None)
             used.add("Walters")
+            src(("花色（文献の語）", "花色（分類）", "株張り(cm)", "葉色（分類）"), "Walters・品種")
         if ga_own and not r["花色（文献の語）"]:
             r["花色（文献の語）"] = ga[3]
             used.add("Gaißmayer")
+            src(("花色（文献の語）",), "Gaißmayer・" + ("品種" if ga[2] == "cultivar" else "種"))
         # --- 日照・USDA・水分（品種 → 種 → 属）
         m, mlv = pick(k, sk, gk, "mbg")
         s, slv = pick(k, sk, None, "sdb")
@@ -462,13 +471,16 @@ def main():
             r["USDA"] = f"{z[1]}〜{z[2]}（MBG・{mlv}）" if z else None
             r["土壌水分"] = WATER_MBG.get(f.get("Water", "")[7:].strip())
             used.add("MBG")
+            src(("日照", "土壌水分"), f"MBG・{mlv}")
         if not r["日照"] and w and w["f"].get("Sun Exposure"):
             se = w["f"]["Sun Exposure"]
             r["日照"] = "日向〜半日陰" if "Full Sun" in se and "Partial Shade" in se else "日向" if "Full Sun" in se else "半日陰" if "Partial Shade" in se else "日陰"
+            src(("日照",), "Walters・品種")
         if not r["日照"] and s and "Lichtansprüche" in s["f"]:
             L = [LICHT.get(v) for v, _ in s["f"]["Lichtansprüche"]]
             r["日照"] = "日向〜半日陰" if "日向" in L and "半日陰" in L else "日向" if "日向" in L else "半日陰" if "半日陰" in L else "日陰"
             used.add("stauden.de")
+            src(("日照",), f"stauden.de・{slv}")
         if not r["USDA"] and w:
             r["USDA"] = w["zone"].replace("-", "〜") + "（Walters・品種）"
         # --- 暑さ・蒸れ・西日
@@ -511,17 +523,27 @@ def main():
         r["耐暑性"], r["蒸れ耐性"] = heat, muggy
         drought = None
         alltext = " ".join(x for _, _, x in texts).lower()
+
+        def hit(p):  # その言い回しが出てくる文献（どの文の言い回しで決めたか）
+            return "・".join(dict.fromkeys(f"{lab}・{lv}" for lab, lv, x in texts if re.search(p, x.lower()))) or None
         if m and "Drought" in m["f"].get("Tolerate", ""):
             drought = "強"
+            dsrc = f"MBG・{mlv}"
         elif re.search(r"some drought|occasional drought|tolerance for (some )?dry", alltext) and not re.search(r"intolerant of dry", alltext):
             drought = "中"
+            dsrc = hit(r"some drought|occasional drought|tolerance for (some )?dry")
         elif re.search(r"intolerant of dry|never be allowed to dry out|(should|must) not be allowed to dry", alltext):
             drought = "弱"
+            dsrc = hit(r"intolerant of dry|never be allowed to dry out|(should|must) not be allowed to dry")
         elif re.search(r"tolerates drought|drought tolerant", alltext) or (w and "Drought Tolerant" in w["f"].get("Plant Uses & Characteristics", [])):
             drought = "強"
+            dsrc = hit(r"tolerates drought|drought tolerant") or "Walters・品種"
         elif re.search(r"some drought|tolerance for (some )?dry", alltext):
             drought = "中"
+            dsrc = hit(r"some drought|tolerance for (some )?dry")
         r["乾燥耐性"] = drought
+        if drought and dsrc:
+            prov["乾燥耐性"] = dsrc
         sun = r["日照"]
         # 冬の寒さ・日ざしによる葉の傷み（scorch … winter）は西日の判定に使わない
         hot_text = " ".join(x.lower() for _, _, x in texts
@@ -582,6 +604,7 @@ def main():
             if do and not drought:
                 drought = do
                 r["乾燥耐性の出どころ"] = f"おぎはら楽天・{lab}（耐乾性: {sh['dry']}）"
+                prov["乾燥耐性"] = f"おぎはら楽天・{lab}"
             elif do and do != drought:
                 r["乾燥耐性の出どころ"] = f"[食い違い] おぎはら楽天・{lab}は 耐乾性: {sh['dry']}（{do} 相当）。欧米の文献の値のまま"
             at = 1 if why and why[0].startswith("[おぎはら") else 0
@@ -623,12 +646,15 @@ def main():
                 r["切り花"] = "○"
             if any("Insekten" in v for v in uses):
                 r["蜜源"] = "○"
+            src(("増え方", "切り花", "蜜源"), f"stauden.de・{slv}")
         if w:
             u = w["f"].get("Plant Uses & Characteristics", [])
             if "Cut Flower" in u:
                 r["切り花"] = "○"
+                prov["切り花"] = "・".join(dict.fromkeys(x for x in (prov.get("切り花"), "Walters・品種") if x))
             if any("Attracts" in x for x in u):
                 r["蜜源"] = "○"
+                prov["蜜源"] = "・".join(dict.fromkeys(x for x in (prov.get("蜜源"), "Walters・品種") if x))
         # --- 病害虫・切り戻し（MBG の Problems / Culture）
         if m:
             pr = m["f"].get("Problems", "").lower()
@@ -653,6 +679,8 @@ def main():
             mo = f.get("Moisture", "").replace("–", "-")
             if mo:
                 r["土壌水分"] = "湿潤寄り" if "Poorly-drained" in mo else "適湿" if "Moist but well-drained" in mo else "排水必須" if "Well-drained" in mo else r["土壌水分"]
+                if re.search(r"Poorly-drained|Moist but well-drained|Well-drained", mo):
+                    prov["土壌水分"] = "RHS・品種"
             if not r["株張り(cm)"] and f.get("Max Spread"):
                 mm = re.search(r"([\d.]+)-([\d.]+) metre", f["Max Spread"])
                 if mm:
@@ -682,6 +710,7 @@ def main():
                     r["花色（文献の語）"] = "、".join(f["FlowerColour"]) + "（RHS）"
                 if not r["花色（分類）"]:
                     r["花色（分類）"] = "、".join(dict.fromkeys(RC[c] for c in f["FlowerColour"] if c in RC)) or None
+                    src(("花色（分類）",), "RHS・品種")
             fo = f.get("FoliageColour") or []
             if fo and not r["葉色（分類）"]:
                 lc = ("斑入り" if "Variegated" in fo else "ブルー系" if "Blue" in fo else "ゴールド・ライム系" if ("Yellow" in fo or "Gold" in fo)
@@ -690,6 +719,7 @@ def main():
                 if lc:
                     r["葉色（分類）"] = lc
                     r["_leaf_src"] = "RHS: " + ", ".join(fo)
+                    prov["葉色（分類）"] = "RHS・品種"
             pg = f.get("Propagation", "").lower()
             ways = [ja for en, ja in (("division", "株分け"), ("cutting", "挿し木"), ("seed", "実生")) if en in pg]
             r["繁殖"] = "、".join(ways) + "（RHS）" if ways else None
@@ -716,6 +746,7 @@ def main():
                 r["原産地"] = je[12] + "（Jelitto・" + ("品種" if je[2] == "cultivar" else "種") + "）"
             if "honey-bee food plant" in je[11] and not r["蜜源"]:
                 r["蜜源"] = "○"
+                prov["蜜源"] = "Jelitto・" + ("品種" if je[2] == "cultivar" else "種")
             used.add("Jelitto")
             if je[2] == "cultivar":
                 cv_src.append("Jelitto")
@@ -739,9 +770,11 @@ def main():
             if "Drought" in tags or "Dry Soil" in tags:
                 r["乾燥耐性"] = "中"
                 r["乾燥耐性の出どころ"] = f"NC State・{nl} の Resistance To Challenges（{'・'.join(t for t in tags if t in ('Drought', 'Dry Soil'))}）"
+                prov["乾燥耐性"] = f"NC State・{nl}"
             elif (r["RHS の Drought Resistance"] or "").strip().lower().startswith("yes"):
                 r["乾燥耐性"] = "中"
                 r["乾燥耐性の出どころ"] = "RHS の Drought Resistance: Yes"
+                prov["乾燥耐性"] = "RHS・品種"
         # --- 科名・香り・毒性・pH・土質・こぼれ種・地下茎（2026-11-21。scripts/pilot/extra_cols.py）
         r.update(extra_columns(it, rh, m, mlv, n, nl, s, slv, w, ga, ga_own, JEL.get(k), texts))
         # --- 夏前の切り戻し・毎年〜2年ごとの更新（管理タイプ C・D のもと。2026-11-21）
@@ -763,6 +796,7 @@ def main():
             r["自社の観察"] = OWN_NOTES[k]
         r["品種ページのある文献"] = "、".join(cv_src) or "なし"
         r["使った文献"] = "、".join(sorted(used)) or None
+        r["項目の文献"] = "\n".join(f"{c}={v}" for c, v in prov.items() if r.get(c) not in (None, "")) or None
         core = ["花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照", "USDA", "耐暑性", "蒸れ耐性", "西日耐性", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫",
                 "切り戻し", "繁殖", "切り花", "蜜源", "和名"]
         r["空欄の数"] = sum(1 for c in core if r[c] in (None, ""))

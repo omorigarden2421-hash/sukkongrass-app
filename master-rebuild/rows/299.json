@@ -8,7 +8,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "RHS：Gentiana dahurica（栽培の項目が少ないページ。RHS に 'Nikita' の名前はなく、種のページ（Jelitto は Nikita を種の流通名としている）） [Correct]"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Gentiana dahurica（栽培の項目が少ないページ。RHS に 'Nikita' の名前はなく、種のページ（Jelitto は Nikita を種の流通名としている）） [Correct]"
   },
   "synonyms": {
    "value": null,
@@ -87,9 +87,10 @@
   "sun": {
    "value": "日向",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "usda_min": {
    "value": null,
@@ -178,9 +179,10 @@
     "株立ち"
    ],
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、RHS、stauden.de）"
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,

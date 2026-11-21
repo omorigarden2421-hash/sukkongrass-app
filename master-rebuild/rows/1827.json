@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Poa glauca 'Blue Hills'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Poa glauca 'Blue Hills'（名前だけの登録） [Accepted]"
   },
   "synonyms": {

@@ -7,7 +7,8 @@
    "value": "Rosa 'Adelaide Hoodless'",
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）"
   },
   "synonyms": {
    "value": null,
@@ -123,9 +124,10 @@
   "heat_note": {
    "value": "シカゴ植物園: Parkland シリーズ。花は赤・半八重（2¾〜3 in）、花期は6月上旬〜8月下旬（返り咲きを含む）、最盛期の花つき 60〜80%。高さ 60〜97 in。黒星病への強さ: なし、うどんこ病への強さ: あり。バラハオレタマバエ・マメコガネの害: some、冬の傷み: some（冬の保護なしの試験）。オレンジ色の実（½ in）がよくつく。本文で「Parkland のバラでいちばん良いものの1つ」「株の形が良い」（no11）",
    "method": "記載",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、シカゴ植物園）"
+   "sources": [
+    "s08"
+   ],
+   "level": null
   },
   "muggy": {
    "value": null,

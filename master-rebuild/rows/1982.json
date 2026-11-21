@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Muhlenbergia dumosa",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
    "note": "RHS：Muhlenbergia dumosa（名前だけの登録） [Correct]"
   },
   "synonyms": {

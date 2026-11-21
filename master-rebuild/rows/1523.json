@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Gentiana septemfida var. lagodechiana 'Bella Alpinella'",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
    "note": "RHS：Gentiana septemfida var. lagodechiana 'Bella Alpinella'（名前だけの登録） [Accepted]"
   },
   "synonyms": {

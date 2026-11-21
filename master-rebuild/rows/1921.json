@@ -6,8 +6,10 @@
   "accepted_name": {
    "value": "Carex shortiana",
    "method": "記載",
-   "sources": null,
-   "level": null,
+   "sources": [
+    "s01"
+   ],
+   "level": "species",
    "note": "RHS：Carex shortiana [Correct]"
   },
   "synonyms": {
