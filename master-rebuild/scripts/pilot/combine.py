@@ -46,6 +46,8 @@ for r in ias_rows[1:]:
 # 管理タイプの見直し（2026-11-21）: 品種ごとに、切り戻し・手入れの文を読んで決め直した結果（mgmt_review.json。商品番号 → type・codes・confidence・reason・quote）。
 # あれば、言い回しの照合で決めた値より優先する
 REVIEW = {str(x["no"]): x for x in json.load(open("mgmt_review.json", encoding="utf-8"))} if os.path.exists("mgmt_review.json") else {}
+# 確認ページへのユーザーの回答（scripts/tools/apply_answers.py が作る）。文献より優先する
+ANS = json.load(open("user_answers.json", encoding="utf-8")) if os.path.exists("user_answers.json") else {"耐暑性": {}, "違うとの指摘": {}, "管理タイプ": {}}
 
 
 def fmt_name(s):
@@ -228,8 +230,29 @@ for m in master:
         mt_quote = rv.get("quote")
         if rv.get("codes"):
             codes = list(rv["codes"])
+    ua = ANS["管理タイプ"].get(no)
+    if ua and ua["値"] in "AB":
+        mt = {"A": "A 放任型", "B": "B 花後刈込型"}[ua["値"]]
+        mt_how = f"ユーザーの確認（{ua['日付']}、{ua['ページ']}）"
+        codes = [c for c in codes if c != "花後"] or ["不要"] if ua["値"] == "A" else list(dict.fromkeys(codes + ["花後"]))
+    elif ua:
+        mt_how = f"{mt_how or ''}。ユーザーの確認で保留（{ua['日付']}。あとで見直す）"
+    if ua and ua.get("備考"):
+        mt_note = "。".join(x for x in (mt_note, f"ユーザーの備考：{ua['備考']}") if x)
+    # 混植適性を見直した管理タイプにそろえる: 文を読んで E にしなかった品種で、混植適性の「侵略的」が地下茎・こぼれ種の 3 だけによるものは「強い」に下げる
+    #   （広がりやすいことは文献にあるので 強い は残す。invasive／aggressive の明記ではないと見直しで読んだ）
+    if rv and not (mt or "").startswith("E") and (r.get("混植適性") or "").startswith("侵略的") and (r.get("混植適性の根拠") or "").startswith("地下茎かこぼれ種が 3"):
+        r["混植適性"] = "強い（周囲を圧迫、配置注意）"
+        r["混植適性の根拠"] += "\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた"
     cold = m.get("耐寒性")
     heat = d.get("耐暑性")
+    uh = ANS["耐暑性"].get(no)
+    if uh:
+        heat = r["耐暑性"] = uh["値"]
+        r["耐暑性の決め方"] = f"ユーザーの確認（{uh['日付']}、暑さの確認の問{uh['問題']}）" + (f"。備考：{uh['備考']}" if uh.get("備考") else "")
+    for k, v in ANS["違うとの指摘"].get(no, {}).items():  # 値は変えず、見直しの印だけ付ける（「どう違うか」は自由記述なので）
+        col = "耐暑性の決め方" if k == "耐暑性" else "暑さ・蒸れ・西日の根拠"
+        r[col] = "。".join(x for x in (r.get(col), f"【要見直し】ユーザーが{k} 弱 は違うと指摘（{v['日付']}）" + (f"：{v['どう違うか']}" if v.get("どう違うか") else "")) if x)
     if (mt or "").startswith("E") or cold in ("中の弱", "弱", "一年草扱い"):
         diff = "難"
     elif mt is None:
@@ -286,7 +309,8 @@ for m in master:
     risk = []
     if d.get("蒸れ耐性") == "弱":
         risk.append("管理難（高温多湿で崩れやすい）")
-    if wide or (d.get("混植適性") or "").startswith(("侵略的", "強い")):
+    # 要管理: 管理タイプが E か、混植適性が 侵略的・強い。言い回しの照合の「はびこる」(wide) は、文を読んで見直した品種では使わない（見直しで E から外したものに残さない）
+    if (mt or "").startswith("E") or (wide and not rv) or (d.get("混植適性") or "").startswith(("侵略的", "強い")):
         risk.append("要管理（広がりやすい）")
     r.update({"管理タイプ": mt, "管理タイプのメモ": mt_note, "管理難易度": diff, "切り戻し時期（広尾町）": "、".join(dict.fromkeys(hk)) or None,
               "切り戻し時期（関東）": "、".join(dict.fromkeys(kt)) or None, "景観構成用途": "、".join(use) or None,
