@@ -401,7 +401,8 @@ def main():
             "USDA", "RHS 耐寒性", "原産地", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "紅葉", "文献の注意", "自社の観察", "切り花", "蜜源", "花色（自社の値）", "株張り（自社の値・cm）", "葉色（自社の値）",
             "品種ページのある文献", "使った文献", "空欄の数", "耐暑性の決め方", "耐暑性（欧米の文献だけなら）",
             "蒸れ耐性（欧米の文献だけなら）", "西日耐性（おぎはらの暖地の日照を入れる前）", "乾燥耐性の出どころ", "耐暑性の信頼度",
-            "科名", "香り", "毒性", "pH・土質", "こぼれ種の量(0-3)", "地下茎で広がる程度(0-3)", "こぼれ種・地下茎の根拠"]
+            "科名", "香り", "毒性", "pH・土質", "こぼれ種の量(0-3)", "地下茎で広がる程度(0-3)", "こぼれ種・地下茎の根拠",
+            "NC State の Resistance To Challenges", "RHS の Drought Resistance"]
     for it in ITEMS:
         k = it["id"]
         sk = "sp_" + slug(it["species"])
@@ -719,6 +720,22 @@ def main():
             r["株張り（自社の値・cm）"] = str(it["広がり(cm)"])
         if not r["葉色（分類）"] and it.get("葉色主分類"):
             r["葉色（自社の値）"] = it["葉色主分類"]
+        # --- 記録だけの列（2026-11-21）: NC State の「Resistance To Challenges」（Heat・Humidity・Drought など）と RHS の「Drought Resistance」。
+        #     判定には使っていない。属のページの分は入れない
+        if n and nl != "属" and n["f"].get("Resistance To Challenges"):
+            r["NC State の Resistance To Challenges"] = n["f"]["Resistance To Challenges"] + f"（{nl}）"
+        if rh and rh["f"].get("Drought Resistance"):
+            r["RHS の Drought Resistance"] = rh["f"]["Drought Resistance"]
+        # 2026-11-21 の決定: 乾燥耐性が空欄のときだけ、NC State の項目（Drought・Dry Soil）か RHS の Drought Resistance: Yes から 中 を入れる。
+        #   強 にしないのは、本文から 中 と決めた品種の多くにもこの項目が付いているため。耐暑性・蒸れ耐性には使わない（Heat・Humidity は本文と食い違う例が多い）
+        if not r["乾燥耐性"]:
+            tags = [t.strip() for t in re.sub(r"（.*?）$", "", r["NC State の Resistance To Challenges"] or "").split(";")]
+            if "Drought" in tags or "Dry Soil" in tags:
+                r["乾燥耐性"] = "中"
+                r["乾燥耐性の出どころ"] = f"NC State・{nl} の Resistance To Challenges（{'・'.join(t for t in tags if t in ('Drought', 'Dry Soil'))}）"
+            elif (r["RHS の Drought Resistance"] or "").strip().lower().startswith("yes"):
+                r["乾燥耐性"] = "中"
+                r["乾燥耐性の出どころ"] = "RHS の Drought Resistance: Yes"
         # --- 科名・香り・毒性・pH・土質・こぼれ種・地下茎（2026-11-21。scripts/pilot/extra_cols.py）
         r.update(extra_columns(it, rh, m, mlv, n, nl, s, slv, w, ga, ga_own, JEL.get(k), texts))
         # --- 学名（採用）: 2026-11-19 決定。RHS が正名（Accepted／Correct）としていれば RHS の表記に合わせる。

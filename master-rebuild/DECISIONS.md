@@ -169,6 +169,12 @@
 ## 2026-11-21 の決定（ミントブッシュ）
 - ミントブッシュ（商品番号 1785、Prostanthera sp.）の種は分からない（ユーザー：「わからない。次へいこう」）。文献は当てず、自社の値のほかは空欄のままにする。在庫のない商品。種が分かったときに当てる
 
+## 2026-11-21 の決定（NC State の「Resistance To Challenges」と RHS の「Drought Resistance」）
+- NC State の各ページの「Resistance To Challenges」（強いものを並べた項目。Heat・Humidity・Drought・Dry Soil など）と、RHS の「Drought Resistance: Yes」の扱い（ユーザー：試しの一覧を見て「乾燥だけ中で埋める」）
+  - 乾燥耐性：空欄のときだけ、Drought・Dry Soil（NC State。品種か種のページ）か Drought Resistance: Yes（RHS）から 中 を入れる。強 にはしない（本文から 中 と決めた79品種にもこの項目が付いているため）
+  - 耐暑性・蒸れ耐性：使わない（記録だけ）。Heat・Humidity は、同じページの本文と食い違う例が多い（耐暑性は 17品種、蒸れ耐性は 18品種で今の値と食い違い）
+  - 項目そのものは、下書きの「NC State の Resistance To Challenges」「RHS の Drought Resistance」の列に記録する
+
 ## 未決
 - フクシア マジェラニカ 'Variegata' が RHS のどちらと同じか（保留）
 - ユーパトリウム 白花（Ep01）の種（フジバカマの白花など。未確定）
