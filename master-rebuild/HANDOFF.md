@@ -508,6 +508,18 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
   - このうち、読んだ文献にもとの情報があるもの：香り・毒性（Gaißmayer の Duftend・Giftklasse、Jelitto の toxic plant、RHS）、pH・土質（RHS）、こぼれ種・地下茎（stauden.de・Gaißmayer の記述）、科名（RHS の Family、Gaißmayer の Familie）
 - ミントブッシュの種は「分からない」で確定（DECISIONS.md）
 
+## 2026-11-21：科名・香り・毒性・pH・土質・こぼれ種・地下茎の列を作った
+- ユーザーの指示（「5つを先に作る」）。scripts/pilot/extra_cols.py に決め方をまとめ、assemble_pilot.py から呼ぶ。下書きに7列が増えた（科名・香り・毒性・pH・土質・こぼれ種の量(0-3)・地下茎で広がる程度(0-3)・こぼれ種・地下茎の根拠）。決め方は trial/RULES.md に合わせた
+  - 科名：RHS の Family → MBG → NC State → stauden.de の順。和名の科名は extra_cols.py の対応表（APG の科。Hosta・Liriope などはキジカクシ科、Sedum はベンケイソウ科）
+  - pH・土質：RHS（pH の欄と、Growing Conditions の Chalk・Clay・Loam・Sand）→ NC State（Soil pH・Soil Texture）→ Walters の順
+  - 香り：RHS（Colour & Scent の Fragrance）・MBG（Flower／Leaf の Fragrant）・NC State（Flower／Leaf Value To Gardener）から「花／葉／花と葉」。Walters・Gaißmayer・stauden.de は部位が分からないので「あり（部位の記述なし）」。品種のページ（品種名のない商品は種のページ）だけ使う
+  - 毒性：RHS（Potentially harmful）→ NC State（Poison Severity・Poison Part）→ Gaißmayer（Giftklasse）→ Jelitto（toxic plant）の順。種のページも使う
+  - こぼれ種・地下茎：言い回しの照合（英語は NC State → MBG → Walters、ドイツ語は stauden.de の Wuchsverhalten・Pflegehinweis と Gaißmayer の本文）。最初に記述のあった文献の値を採り、ほかの文献が違う値のときは根拠の列に「食い違い」と出す。属のページの記述は使わない。0＝広がらない・種ができないと明記、1＝少し、2＝よく、3＝はびこる
+- 値のある品種（916品種中）：科名 911、pH・土質 857、地下茎 363（0：26、1：91、2：168、3：78）、こぼれ種 362（0：22、1：288、2：47、3：5）、香り 183（葉 73・花 57・花と葉 19・部位の記述なし 34）、毒性 148
+- 【人が確かめること】こぼれ種・地下茎は言い回しの照合なので、取り違えがありうる。何度か抜き出して直した（害虫の「difficult to eradicate」、属の一般的な注意、「does not spread aggressively」、手でまき直す意味の reseeding、「ohne lästig zu werden」）。根拠の文を「こぼれ種・地下茎の根拠」の列に出してある。種のページから決めた値は、品種でも同じとは限らない（不稔の品種など）。こぼれ種 1 の多くは「花後に切るとこぼれ種を防げる」という文から
+- 【見つけたこと・まだ使っていない】NC State のページには「Resistance To Challenges」という項目があり、Heat・Humidity・Drought などが並んでいる（例：レモンバームは Deer; Drought; Dry Soil; Heat; Humidity; …）。RHS には「Drought Resistance: Yes」の項目がある。どちらも今の耐暑性・蒸れ耐性・乾燥耐性の判定には使っていない（本文の文だけを使っている）。使うかどうかはユーザーと決める
+- 下書きは末尾 _1121e の名前で作り直した（最新は _1121e。耐暑性などの値は _1121d と同じ）。まとめの表 `ClaudeWork/新マスター_下書き_916品種_1121.xlsx` も作り直した（まだ作っていない列は13）
+
 ## 次にやること（全部の属の下書きが終わった）
 - batch_18 までで、全916品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54＋51＋50＋53＋51＋51＋51＋51＋50＋47＋19＝916）。2026-11-20 に、batch_*/input と pilot/input の商品番号（916件・重複なし）を元のマスターの商品番号（916件）と照らし、もれ・重複がないことを確かめた
 - 耐暑性の決め方は 2026-11-21 に確定し、全品種に反映した（上の節）。次は、ユーザーの確認（各節の「ユーザーに聞くこと・伝えること」「要確認」。ユーザーは「確認は全部終わってからまとめて見る」と回答済み）

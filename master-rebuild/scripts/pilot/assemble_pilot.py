@@ -26,6 +26,8 @@ import gaissmayer_data as GA  # noqa: E402
 import ogihara_data as OG  # noqa: E402
 import rhs_ids as RH  # noqa: E402
 import jelitto_cbg_data as JC  # noqa: E402
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from extra_cols import extra as extra_columns  # noqa: E402
 
 IN, DIGEST, RAW, OUT = sys.argv[1:5]
 D = json.load(open(DIGEST, encoding="utf-8"))
@@ -347,6 +349,14 @@ def rhs(k):
         m = re.search(lab + r"\s*</h\d>\s*(.*?)</(?:div|section)>", t, re.S)
         if m:
             f[lab] = cl(m.group(1))
+    # 土の種類（Growing Conditions の Chalk・Clay・Loam・Sand）と香り（Colour & Scent の Fragrance）は表の項目（dt/dd）にないので、本文から拾う
+    x = cl(t)
+    sm = re.search(r"Growing Conditions (.{0,40}?) Moisture", x)
+    if sm and re.search(r"Chalk|Clay|Loam|Sand", sm.group(1)):
+        f["_soil"] = sm.group(1)
+    fm = re.search(r"Colour & Scent Fragrance (.{0,30}?) ?Season", x)
+    if fm and re.search(r"Flower|Foliage", fm.group(1)):
+        f["_frag"] = fm.group(1)
     # 「Colour & scent」の表（季節ごとの 花・葉 の色）
     i = t.find("Colour &")
     m = re.search(r"<table.*?</table>", t[i:] if i >= 0 else "", re.S)
@@ -390,7 +400,8 @@ def main():
     cols = ["ID", "商品番号", "植物名", "学名（マスター）", "学名（採用）", "学名（RHS）", "文献での表記", "和名", "花色（分類）", "花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照",
             "USDA", "RHS 耐寒性", "原産地", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "紅葉", "文献の注意", "自社の観察", "切り花", "蜜源", "花色（自社の値）", "株張り（自社の値・cm）", "葉色（自社の値）",
             "品種ページのある文献", "使った文献", "空欄の数", "耐暑性の決め方", "耐暑性（欧米の文献だけなら）",
-            "蒸れ耐性（欧米の文献だけなら）", "西日耐性（おぎはらの暖地の日照を入れる前）", "乾燥耐性の出どころ", "耐暑性の信頼度"]
+            "蒸れ耐性（欧米の文献だけなら）", "西日耐性（おぎはらの暖地の日照を入れる前）", "乾燥耐性の出どころ", "耐暑性の信頼度",
+            "科名", "香り", "毒性", "pH・土質", "こぼれ種の量(0-3)", "地下茎で広がる程度(0-3)", "こぼれ種・地下茎の根拠"]
     for it in ITEMS:
         k = it["id"]
         sk = "sp_" + slug(it["species"])
@@ -459,6 +470,7 @@ def main():
             for sct in ("Culture", "Problems", "Noteworthy", "GardenUses"):  # GardenUses は 2026-11-20（batch_11）に追加: ロニセラの「shrub for cool summer climates」
                 texts += [("MBG", mlv, x) for x in sentences(m["f"].get(sct, ""))]
         n, nlv = pick(k, sk, None, "ncsu")
+        nl = None
         if n:
             nl = "属" if n["url"].rstrip("/").split("/")[-1] == it["属"].lower() else nlv
             # Flower Description・Leaf Description は 2026-11-20（batch_11）に追加: フクシアの「Flowering may decline and foliage may wilt in the heat of the summer」
@@ -707,6 +719,8 @@ def main():
             r["株張り（自社の値・cm）"] = str(it["広がり(cm)"])
         if not r["葉色（分類）"] and it.get("葉色主分類"):
             r["葉色（自社の値）"] = it["葉色主分類"]
+        # --- 科名・香り・毒性・pH・土質・こぼれ種・地下茎（2026-11-21。scripts/pilot/extra_cols.py）
+        r.update(extra_columns(it, rh, m, mlv, n, nl, s, slv, w, ga, ga_own, JEL.get(k), texts))
         # --- 学名（採用）: 2026-11-19 決定。RHS が正名（Accepted／Correct）としていれば RHS の表記に合わせる。
         #     RHS で未確定・シノニム・掲載なしのときは今の学名のまま（学名の検討シートに残す）
         #     2026-11-21: メモのある品種も RHS の正名に合わせる。決め方は adopt_name()
