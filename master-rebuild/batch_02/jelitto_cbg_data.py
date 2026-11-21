@@ -12,7 +12,7 @@ JELITTO = [
   "Rich flowering, compact uniform habit, ideal for containers.", "ヨーロッパの草地や、石の多い石灰質のやや乾いた草原"),
  (["X02"], "CAREX albula 'Frosted Curls' (comans var. stricta, fretalis)", "cultivar", "New Zealand", "", "", "Z6 - Z9", "clumping", "20 cm",
   "well-drained / average", "full sun, semi-shade", "ornamental foliage plant; for the rock garden", "ニュージーランド"),
- (["X12"], "CAREX berggrenii", "species", None, "", "", "Z6 - Z9", "cushion-forming", "5 cm", "moist", "semi-shade, bright full shade",
+ (["X12"], "CAREX berggrenii", "cultivar", None, "", "", "Z6 - Z9", "cushion-forming", "5 cm", "moist", "semi-shade, bright full shade",
   "ornamental foliage plant; for the rock garden", None),
  (["X01"], "CAREX buchananii [Red Rooster]", "species", "New Zealand: bogs, moist meadows, riverbanks, forest margins.", "", "", "Z6 - Z9",
   "clumping / evergreen / wintergreen", "50 cm", "moist / gritty / well-drained / rocky", "", "Award of Garden Merit; Unpretentious.",

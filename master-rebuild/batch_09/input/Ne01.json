@@ -3,7 +3,7 @@
  "植物名": "ネペタ ファッシニアイ 'フェリックス'",
  "学名": "Nepeta x faassenii 'Felix'",
  "属": "Nepeta",
- "species": "Nepeta faassenii",
+ "species": "Nepeta racemosa",
  "交配種": true,
  "品種名": "Felix",
  "別名": "キャットミント（ネペタ）",
@@ -14,5 +14,6 @@
  "花色": "ラベンダーブルー",
  "広がり(cm)": "50～60",
  "葉色主分類": "④ シルバー系",
- "id": "Ne01"
+ "id": "Ne01",
+ "手で直した": "2026-11-21 チェックリスト 22A（2つ以上の文献がそろえば文献の種に直す）: RHS・Jelitto が Nepeta racemosa 'Felix'。マスターは × faassenii。species を直した（学名の列はマスターのまま）"
 }

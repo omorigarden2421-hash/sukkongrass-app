@@ -486,14 +486,21 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - 学名（採用）の決め方を変えた（assemble_pilot.py の adopt_name。チェックリスト 21〜24）。前は、RHS が正名でも rhs_ids.py にメモのある品種は直していなかった。今は直す
   - 学名（採用）が変わったのは 126品種（RHS の表記にしたもの：属が変わる、種小名を付けない、流通名 → 品種名、つづり、× の書き方など。ユーザーの回答で直した D10・Pq01・To02 を含む）
   - 直さずに検討に残したのは 22品種（学名（採用）の列に理由を書いてある）：RHS が別の品種名を正名としているもの（Dg05・Dg08・Dg09・Ps02・Gy04・Eg01・Gl03・Op01・F14・S14・Fi04・Li06・Mn01）、RHS の種がマスターと違い、ほかの文献で確かめられないもの（Hd02・S04・D02・Me08・Sa04・Ne09・A05・A07）、フクシア 'Variegata'（Fu05）。ユーパトリウム 白花（Ep01）は学名を直さず、種が未確定と書いてある
-  - 「2つ以上の文献がそろえば直す」で種が変わったのは8品種：ガイラルディア3（aristata → × grandiflora）、カレックス X12（talbotii → berggrenii）、ポレモニウム 'Apricot Delight'（caeruleum → carneum）、スカビオサ オクロレウカ2（→ columbaria subsp. ochroleuca）、ネペタ 'Felix'（× faassenii → racemosa）。【まだ】学名（採用）を直しただけで、当てる文献（種のページ）は元の種のまま。当て直すには input の species を直して取得し直す必要がある
-- 下書きは末尾 _1121c の名前で作り直した（最新は _1121c）
+  - 「2つ以上の文献がそろえば直す」で種が変わったのは8品種：ガイラルディア3（aristata → × grandiflora）、カレックス X12（talbotii → berggrenii）、ポレモニウム 'Apricot Delight'（caeruleum → carneum）、スカビオサ オクロレウカ2（→ columbaria subsp. ochroleuca）、ネペタ 'Felix'（× faassenii → racemosa）。文献の当て直しは下の項目
+- 種が変わった品種の文献を当て直した（2026-11-21。ユーザー：「当て直す」）
+  - 【input を手で直した】6品種の species（学名の列はマスターのまま。JSON の「手で直した」に理由）：batch_02 X12（Carex berggrenii）、batch_07 Pl03（Polemonium carneum）、batch_09 Ne01（Nepeta racemosa）、batch_15 Gl01・Gl02・Gl03（Gaillardia grandiflora）
+  - スカビオサ オクロレウカ（Sc06・Sc07）は、RHS の書き方（Scabiosa columbaria subsp. ochroleuca）が同じ種の別の書き方なので、種は変えていない（fetch_all.py の SPECIES_ALIAS に足した）
+  - ネペタ 'Felix'（Ne01）：おぎはらの × faassenii の種のページを外した。耐暑性は 強 → 弱（MBG の Nepeta racemosa：米国深南部の暑さと湿気にやや耐えない。暑い夏の気候では午後の軽い日かげを好む）、西日 ◎ → △
+  - ガイラルディア3品種（Gl01〜Gl03）：耐暑性 強 → 空欄、西日 → 空欄、乾燥耐性は 中（NC State の × grandiflora：根づけばいくらかの乾燥に耐える）。前の 強 は、MBG・NC State のアリスタータ（種）の記述（暑く乾いた場所でよく育つ）から来ていた。× grandiflora の種のページ（NC State・stauden.de。MBG はなし）には暑さの記述がない
+  - ポレモニウム 'Apricot Delight'（Pl03）：カエルレウムの記述が外れ、「欧米の文献だけなら 弱」が空欄、蒸れ耐性 弱 → 中、西日 × → △、和名（ヨウシュハナシノブ）が空欄になった。耐暑性 中（おぎはら）は同じ
+  - カレックス X12：stauden.de に Carex berggrenii のページがあった（MBG・NC State の種のページはなし）。値の変化はなく、空欄は15項目のまま
+- 下書きは末尾 _1121d の名前で作り直した（最新は _1121d）
 
 ## 次にやること（全部の属の下書きが終わった）
 - batch_18 までで、全916品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54＋51＋50＋53＋51＋51＋51＋51＋50＋47＋19＝916）。2026-11-20 に、batch_*/input と pilot/input の商品番号（916件・重複なし）を元のマスターの商品番号（916件）と照らし、もれ・重複がないことを確かめた
 - 耐暑性の決め方は 2026-11-21 に確定し、全品種に反映した（上の節）。次は、ユーザーの確認（各節の「ユーザーに聞くこと・伝えること」「要確認」。ユーザーは「確認は全部終わってからまとめて見る」と回答済み）
 - 耐暑性の最終検討で見るもの：各下書きの「耐暑性の決め方」と「耐暑性（欧米の文献だけなら）」の列、根拠の「[食い違い]」、各 batch の ogihara_data.py の SIBLING（同じ種の別品種の値を使った試し。中 で使ったのは batch_07・11・12・14・15・16 の6回）
-- 残っている未決は DECISIONS.md の「未決」（ミントブッシュの種〔保留〕、フクシア 'Variegata'、ユーパトリウム 白花の種、RHS が別の品種名を正名としている15品種）。ほかに、種が変わった8品種の文献の当て直し（上の節の【まだ】）
+- 残っている未決は DECISIONS.md の「未決」（ミントブッシュの種〔保留〕、フクシア 'Variegata'、ユーパトリウム 白花の種、RHS が別の品種名を正名としている15品種）。種が変わった品種の文献の当て直しは 2026-11-21 に済み
 - 下書きは、まとまりごとに別の Excel（ClaudeWork の「下書き_….xlsx」。同じまとまりに複数あるときは、名前の末尾が新しいものが最新。どれが最新かは scripts/tools/rediff.py の KEY で探せる）。1つの表にまとめる作業、試作と同じ形（rows・根拠の JSON）への統合は、まだしていない
 - 3属の試行（78品種）とアスター（23品種）の下書きも、2026-11-21 に今の assemble_pilot.py で作り直した（rediff.py の対象に入れた）
 - まとまりを作り直す手順：`python -X utf8 scripts/pilot/assemble_pilot.py batch_NN/input <digest.json> <raw> <出力.xlsx> batch_NN`。前の下書きと比べるのは scripts/tools/rediff.py（耐暑性・蒸れ耐性・西日耐性・乾燥耐性・「欧米の文献だけなら」・和名を比べる。ほかの列は比べない）

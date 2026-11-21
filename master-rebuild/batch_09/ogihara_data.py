@@ -30,7 +30,7 @@ OGIHARA = [
   [("habit", "大型で背が高くなり花茎が立つので、すっきりとした草姿が美しい 丈夫で生育も早い")]),
  (["Ne03"], 2275, "ブルーキャットミント ‘ジュニア ウォーカー’ Nepeta x faassenii 'Junior Walker'", "cultivar", "強", S2,
   [("habit", "人気種‘ウォーカーズロウ’の小型改良種で丈が低く、花穂も短く密に咲く")]),
- (["Ne01", "Ne02"], 750, "ブルーキャットミント ファッシニー Nepeta × faassenii", "species", "強", "日向", [("pruning", "キャットミントは花後短く切り戻すと姿良く繰り返し花を咲かせる")]),
+ (["Ne02"], 750, "ブルーキャットミント ファッシニー Nepeta × faassenii", "species", "強", "日向", [("pruning", "キャットミントは花後短く切り戻すと姿良く繰り返し花を咲かせる")]),
  (["An06"], 238, "アネモネ ムルチフィーダ ‘ルブラ’ Anemone multifida 'Rubra'", "cultivar", "中", S2, []),
  (["An04"], 243, "アネモネ レベイレイ Anemone leveillei", "cultivar", "中", S2, [("evergreen", "冬は完全に落葉する")]),
  (["Aq03"], 442, "オダマキ ‘イエロークイーン’ Aquilegia chrysantha 'Yerrow Queen'", "cultivar", "中", "やや半日陰", [("habit", "生育旺盛の早い強健種")]),

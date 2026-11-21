@@ -231,7 +231,8 @@ SPECIES_ALIAS = {
  "Convallaria keiskei": ["Convallaria majalis var. keiskei", "Convallaria majalis var. manshurica"], "Gillenia trifoliata": ["Porteranthus trifoliatus"],
  "Perovskia atriplicifolia": ["Salvia yangii"], "Leucosceptrum japonicum": ["Comanthosphace japonica"], "Satureja spicigera": ["Satureja repanda"],
  "Koeleria glauca": ["Koeleria macrantha subsp. glauca"],
- "Sedum reflexum": ["Sedum rupestre", "Petrosedum rupestre", "Petrosedum reflexum"], "Selinum wallichianum": ["Selinum tenuifolium"],
+ "Sedum reflexum": ["Sedum rupestre", "Petrosedum rupestre", "Petrosedum reflexum"],
+ "Scabiosa ochroleuca": ["Scabiosa columbaria subsp. ochroleuca"], "Selinum wallichianum": ["Selinum tenuifolium"],
 }
 # 品種名の別の書き方（ドイツ語の元の名前、つづりの違い）。マスターの品種名 → 文献での書き方
 CV_ALIAS = {"May Night": ["Mainacht"], "Norah Leigh": ["Nora Leigh"], "Queen Blue": ["Blue Queen", "Blaukönigin"], "David Lavender": ["David's Lavender"],

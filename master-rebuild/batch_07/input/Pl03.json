@@ -3,7 +3,7 @@
  "植物名": "ポルモニウム カエルレウム 'アプリコットディライト'",
  "学名": "Polemonium caeruleum 'Apricot Delight'",
  "属": "Polemonium",
- "species": "Polemonium caeruleum",
+ "species": "Polemonium carneum",
  "交配種": false,
  "品種名": "Apricot Delight",
  "別名": "ハナシノブ（ポルモニウム）",
@@ -14,5 +14,6 @@
  "花色": "ピンクアプリコット",
  "広がり(cm)": "20～30",
  "葉色主分類": "① グリーン系",
- "id": "Pl03"
+ "id": "Pl03",
+ "手で直した": "2026-11-21 チェックリスト 22A（2つ以上の文献がそろえば文献の種に直す）: RHS・おぎはらが Polemonium carneum 'Apricot Delight'。マスターは caeruleum。species を直した（学名の列はマスターのまま）"
 }
