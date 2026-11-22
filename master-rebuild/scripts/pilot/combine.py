@@ -335,6 +335,9 @@ for m in master:
     # 要管理: 管理タイプが E か、混植適性が 侵略的・強い。言い回しの照合の「はびこる」(wide) は、文を読んで見直した品種では使わない（見直しで E から外したものに残さない）
     if (mt or "").startswith("E") or (wide and not rv) or (d.get("混植適性") or "").startswith(("侵略的", "強い")):
         risk.append("要管理（広がりやすい）")
+    # 2026-11-23 ユーザーの回答「A2だけ入れる」: 北海道ブルーリストの A2（A1 もあれば同じ）。A3・B・D は入れない
+    if (BL.get(no, {}).get("カテゴリー") or "") in ("A1", "A2"):
+        risk.append(f"要管理（北海道ブルーリスト {BL[no]['カテゴリー']}）")
     r.update({"管理タイプ": mt, "管理タイプのメモ": mt_note, "管理難易度": diff, "切り戻し時期（広尾町）": "、".join(dict.fromkeys(hk)) or None,
               "切り戻し時期（関東）": "、".join(dict.fromkeys(kt)) or None, "景観構成用途": "、".join(use) or None,
               "切り戻し・更新の根拠": d.get("切り戻し・更新の根拠"), "切り戻し・手入れの文（全部）": d.get("切り戻し・手入れの文（全部）"), "項目の文献": d.get("項目の文献"),
