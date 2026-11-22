@@ -273,6 +273,14 @@
    ],
    "level": null
   },
+  "hokkaido_bluelist": {
+   "value": "B：定着している（影響の報告はない）（ホタルブクロ。国内外来種＝道外の国内から入ったもの。表の和名は ヤマホタルブクロ（変種）。種として当てた）",
+   "method": "記載",
+   "sources": [
+    "s22"
+   ],
+   "level": null
+  },
   "toxicity": {
    "value": null,
    "method": "記載",

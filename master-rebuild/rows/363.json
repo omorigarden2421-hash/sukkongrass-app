@@ -254,6 +254,14 @@
    ],
    "level": null
   },
+  "hokkaido_bluelist": {
+   "value": "B：定着している（影響の報告はない）（オオカニツリ。国外外来種。一覧の異名 トールオートグラス。表の和名は チョロギガヤ（変種）。種として当てた）",
+   "method": "記載",
+   "sources": [
+    "s22"
+   ],
+   "level": null
+  },
   "toxicity": {
    "value": null,
    "method": "記載",

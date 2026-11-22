@@ -248,6 +248,14 @@
    ],
    "level": null
   },
+  "hokkaido_bluelist": {
+   "value": "B：定着している（影響の報告はない）（セイヨウウツボグサ。国外外来種。表の和名は ウツボグサ（日本の亜種）。種として当てた）",
+   "method": "記載",
+   "sources": [
+    "s22"
+   ],
+   "level": null
+  },
   "toxicity": {
    "value": null,
    "method": "記載",

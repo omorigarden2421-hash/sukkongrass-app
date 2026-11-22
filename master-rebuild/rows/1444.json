@@ -249,6 +249,14 @@
    ],
    "level": null
   },
+  "hokkaido_bluelist": {
+   "value": "B：定着している（影響の報告はない）（コショウハッカ。国外外来種。一覧の異名 ペパーミント）",
+   "method": "記載",
+   "sources": [
+    "s22"
+   ],
+   "level": null
+  },
   "toxicity": {
    "value": null,
    "method": "記載",

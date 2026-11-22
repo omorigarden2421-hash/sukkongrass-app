@@ -247,6 +247,14 @@
    ],
    "level": null
   },
+  "hokkaido_bluelist": {
+   "value": "掲載なし",
+   "method": "記載",
+   "sources": [
+    "s22"
+   ],
+   "level": null
+  },
   "toxicity": {
    "value": null,
    "method": "記載",

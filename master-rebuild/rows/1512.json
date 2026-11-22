@@ -251,6 +251,14 @@
    ],
    "level": null
   },
+  "hokkaido_bluelist": {
+   "value": "D：定着ははっきりしない（影響の報告はない）（ハナショウブ。国外外来種。表の和名は ノハナショウブ（野生の変種）。種として当てた）",
+   "method": "記載",
+   "sources": [
+    "s22"
+   ],
+   "level": null
+  },
   "toxicity": {
    "value": "ペット：食べると有害",
    "method": "記載",

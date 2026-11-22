@@ -35,7 +35,7 @@ FIELDS = [
     ("salt", "耐潮性", "str", "耐潮性の根拠"), ("evergreen_warm", "常緑性", "str", None), ("native_range", "原産地", "str", None),
     ("spread_modes", "増え方", "list", None), ("self_seed_level", "こぼれ種の量(0-3)", "int", "こぼれ種・地下茎の根拠"),
     ("rhizome_level", "地下茎で広がる程度(0-3)", "int", "こぼれ種・地下茎の根拠"), ("mixing", "混植適性", "str", "混植適性の根拠"),
-    ("invasive_note", "広がりすぎの注意", "str", None), ("ias_list", "外来種リスト", "str", None), ("toxicity", "毒性", "str", None),
+    ("invasive_note", "広がりすぎの注意", "str", None), ("ias_list", "外来種リスト", "str", None), ("hokkaido_bluelist", "北海道ブルーリスト", "str", None), ("toxicity", "毒性", "str", None),
     ("pests", "主な病害虫", "list", None), ("pruning_codes", "切り戻しの方法", "list", "切り戻し・手入れの文（全部）"),
     ("management_type", "管理タイプ", "str", "管理タイプのメモ"), ("division_interval", "株分けの間隔", "str", "株分けの間隔の根拠"),
     ("propagation", "繁殖方法", "list", None), ("cut_flower", "切り花適性", "str", None), ("pollinator", "蜜源価値", "str", None),
@@ -70,7 +70,7 @@ EVMAP = {"USDA": ("usda_min", "usda_max"), "日照": ("sun",), "乾燥耐性": (
 PROV = {"日照": ("sun",), "土壌水分": ("soil_moisture",), "乾燥耐性": ("drought",), "増え方": ("spread_modes",), "切り花": ("cut_flower",),
         "蜜源": ("pollinator",), "花色（文献の語）": ("flower_color_detail",), "花色（分類）": ("flower_color_class",),
         "株張り(cm)": ("spread_min", "spread_max"), "葉色（分類）": ("foliage_class",)}
-FIXED = {"rhs_h": ["s01"], "common_name_ja": ["s04"], "ias_list": ["s05"]}  # 出どころが1つに決まっている列（RHS の H 値・YList の和名・環境省のリスト）
+FIXED = {"rhs_h": ["s01"], "common_name_ja": ["s04"], "ias_list": ["s05"], "hokkaido_bluelist": ["s22"]}  # 出どころが1つに決まっている列（RHS の H 値・YList の和名・環境省のリスト）
 
 
 def main(xlsx, out):
