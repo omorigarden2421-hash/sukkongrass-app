@@ -213,9 +213,11 @@
    "level": null
   },
   "native_range": {
-   "value": null,
+   "value": "ヨーロッパ全域、マカロネシア（カナリア諸島など）、シベリア、ロシア極東、モンゴル、北米の亜寒帯（アラスカ・カナダ北部・グリーンランド）、カナダ南部、アメリカ北西部、アメリカ南西部（種の原産地）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s03"
+   ],
    "level": null
   },
   "spread_modes": {

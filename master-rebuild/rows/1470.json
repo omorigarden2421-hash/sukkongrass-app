@@ -194,9 +194,11 @@
    "level": "cultivar"
   },
   "native_range": {
-   "value": null,
+   "value": "カナダ南部、アメリカ中北部、アメリカ北東部、アメリカ中南部、アメリカ南東部（種の原産地）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s03"
+   ],
    "level": null
   },
   "spread_modes": {

@@ -217,9 +217,11 @@
    "level": null
   },
   "native_range": {
-   "value": null,
+   "value": "交配種（交配親：G. endressii × G. versicolor）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s03"
+   ],
    "level": null
   },
   "spread_modes": {

@@ -213,9 +213,11 @@
    "level": null
   },
   "native_range": {
-   "value": null,
+   "value": "カナダ南部、アメリカ合衆国の全域（種の原産地）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s03"
+   ],
    "level": null
   },
   "spread_modes": {

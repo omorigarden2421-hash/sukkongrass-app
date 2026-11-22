@@ -202,9 +202,11 @@
    "level": null
   },
   "native_range": {
-   "value": null,
+   "value": "ヨーロッパ全域、北アフリカ、シベリア、中央アジア、コーカサス、西アジア、中国、インド亜大陸（種の原産地）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s03"
+   ],
    "level": null
   },
   "spread_modes": {

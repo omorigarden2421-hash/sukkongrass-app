@@ -208,9 +208,11 @@
    "level": null
   },
   "native_range": {
-   "value": null,
+   "value": "交配種（交配親：C. aurea × C. pottsii）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s03"
+   ],
    "level": null
   },
   "spread_modes": {

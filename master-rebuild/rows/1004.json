@@ -206,9 +206,11 @@
    "level": null
   },
   "native_range": {
-   "value": null,
+   "value": "中央ヨーロッパ、南東ヨーロッパ、東ヨーロッパ、シベリア、ロシア極東、中央アジア、コーカサス、西アジア、中国、モンゴル（種の原産地）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s03"
+   ],
    "level": null
   },
   "spread_modes": {

@@ -25,6 +25,7 @@ for k in KEYS:
     files.append(f)
     for r in json.load(open(f, encoding="utf-8")):
         draft[str(r["商品番号"])] = r
+KN = json.load(open("kew_native.json", encoding="utf-8")) if os.path.exists("kew_native.json") else {}
 stock = {}
 for f in glob.glob("batch_*/input/*.json") + glob.glob("pilot/input/*.json"):
     d = json.load(open(f, encoding="utf-8"))
@@ -198,6 +199,11 @@ for m in master:
     if hk:
         r["外来種リスト"] = f"{r['外来種リスト']}／北海道の指定外来種（{hk}。条例。栽培は野外に出ない施設で）"
         r["広がりすぎの注意"] = "。".join(x for x in (r["広がりすぎの注意"], f"北海道の指定外来種（{hk}）。道内では、野外に出ない施設（屋内、管理された庭園・公園等）で育て、地下茎や種で外に出さない。地下茎の断片が入った土を野外に捨てない") if x)
+    # 原産地（2026-11-23）: Jelitto の値がないときは Kew WCVP の自生地（kew_native.json。scripts/tools/kew_native.py）。
+    #   種の分布なので、品種でも「種の原産地」。交配種は Kew の交配式
+    kn = KN.get(no, {})
+    if not r["原産地"] and kn.get("原産地"):
+        r["原産地"] = kn["原産地"] + ("（Kew）" if kn["原産地"].startswith("交配種") else "（種の原産地）（Kew）")
     # ---------- ほかの列から決める列（試作の scripts/assemble.py・trial/RULES.md と同じ決め方。2026-11-21） ----------
     codes = [c for c in re.split(r"[、,]", re.sub(r"（.*$", "", d.get("切り戻し") or "")) if c]
     rz, sd = d.get("地下茎で広がる程度(0-3)"), d.get("こぼれ種の量(0-3)")

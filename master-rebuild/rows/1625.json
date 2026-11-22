@@ -197,9 +197,11 @@
    "level": null
   },
   "native_range": {
-   "value": null,
+   "value": "ヨーロッパ全域、中西アフリカ熱帯域、北東アフリカ熱帯域、東アフリカ熱帯域、南部アフリカ、シベリア、ロシア極東、中央アジア、コーカサス、西アジア、中国、モンゴル、日本・朝鮮半島、インド亜大陸（種の原産地）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s03"
+   ],
    "level": null
   },
   "spread_modes": {

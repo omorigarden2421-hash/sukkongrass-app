@@ -187,9 +187,11 @@
    "level": "cultivar"
   },
   "native_range": {
-   "value": null,
+   "value": "北ヨーロッパ、中央ヨーロッパ、南西ヨーロッパ、東ヨーロッパ、マカロネシア（カナリア諸島など）（種の原産地）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s03"
+   ],
    "level": null
   },
   "spread_modes": {

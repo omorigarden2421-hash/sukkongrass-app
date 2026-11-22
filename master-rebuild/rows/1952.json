@@ -176,9 +176,11 @@
    "level": "species"
   },
   "native_range": {
-   "value": null,
+   "value": "中国、日本・朝鮮半島（種の原産地）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s03"
+   ],
    "level": null
   },
   "spread_modes": {

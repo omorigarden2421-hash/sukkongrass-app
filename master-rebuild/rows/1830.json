@@ -200,9 +200,11 @@
    "level": null
   },
   "native_range": {
-   "value": null,
+   "value": "北米の亜寒帯（アラスカ・カナダ北部・グリーンランド）、カナダ南部、アメリカ北西部、アメリカ中北部、アメリカ北東部、アメリカ南西部、アメリカ中南部、南アメリカ南部（種の原産地）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s03"
+   ],
    "level": null
   },
   "spread_modes": {
