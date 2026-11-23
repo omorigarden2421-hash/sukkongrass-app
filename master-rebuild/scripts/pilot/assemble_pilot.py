@@ -236,6 +236,62 @@ PEST = [("slug", "ナメクジ"), ("snail", "カタツムリ"), ("leaf spot", "�
         ("virus", "ウイルス病"), ("deer", None), ("rabbit", None)]
 
 
+MON_DE = {"Januar": 1, "Februar": 2, "März": 3, "April": 4, "Mai": 5, "Juni": 6, "Juli": 7, "August": 8, "September": 9,
+          "Oktober": 10, "November": 11, "Dezember": 12}
+MON_EN = {m: i for i, m in enumerate(["January", "February", "March", "April", "May", "June", "July", "August", "September",
+                                      "October", "November", "December"], 1)}
+SEASON_W = {"Early Spring": "早春", "Mid Spring": "春", "Late Spring": "晩春", "Early Summer": "初夏", "Mid Summer": "盛夏",
+            "Late Summer": "晩夏", "Early Fall": "初秋", "Mid Fall": "秋", "Late Fall": "晩秋", "Winter": "冬"}
+
+
+def lit_height_bloom(w, m, mlv, s, slv, rh, is_cv):
+    """2026-11-23（ユーザーの指示「4を始める」）: 今のマスターの値と見比べる、文献の草丈・花期。値には使わない（見返し用の列）。
+    草丈は品種の数値を優先（株張りと同じ。trial/RULES.md の数値の例外）: Walters（品種）→ MBG（品種）→ stauden.de（品種）→ MBG（種）→ stauden.de（種）→ RHS の幅。
+    花期は月で書いてある stauden.de（ドイツ）→ MBG（セントルイス）。どちらもなければ Walters の季節。"""
+    ht = bl = None
+    hs = [x for x in (w["f"].get("Height", []) if w else []) if "cm" in x]
+    mh = re.search(r"([\d.]+) to ([\d.]+) feet", m["f"].get("Height", "")) if m else None
+    sh = (s["f"].get("Blüten-Höhe von") or s["f"].get("Wuchs-Höhe von"), s["f"].get("Blüten-Höhe bis") or s["f"].get("Wuchs-Höhe bis")) if s else (None, None)
+    sh = (sh[0][0][0] if sh[0] else None, sh[1][0][0] if sh[1] else None)
+    cands = []
+    if hs:
+        cands.append((0, hs[0].replace(" cm", "").replace("-", "〜") + "（Walters・品種）"))
+    if mh:
+        cands.append((1 if mlv == "品種" else 3, f"{round(float(mh[1]) * 30.48)}〜{round(float(mh[2]) * 30.48)}（MBG・{mlv}）"))
+    if sh[0] or sh[1]:
+        cands.append((2 if slv == "品種" else 4, "〜".join(x for x in dict.fromkeys(sh) if x) + f"（stauden.de・{slv}）"))
+    if rh and rh["f"].get("Max Height"):
+        mm = re.search(r"([\d.]+)-([\d.]+) metre", rh["f"]["Max Height"].replace("–", "-"))
+        if mm:
+            cands.append((5, f"{round(float(mm[1]) * 100)}〜{round(float(mm[2]) * 100)}（RHS の幅）"))
+    cands = [c for c in cands if "・属）" not in c[1]]  # 属のページの値は使わない
+    if is_cv:  # 品種の商品には、種のページの草丈を使わない（DECISIONS.md の「種のページの情報」）
+        cands = [c for c in cands if "・種）" not in c[1]]
+    if cands:
+        ht = min(cands)[1]
+    sv = s["f"].get("Blütezeit von") if s else None
+    sb = s["f"].get("Blütezeit bis") if s else None
+    mb = re.search(r"Bloom Time: (\w+) to (\w+)", m["f"].get("BloomTime", "")) if m else None
+    mb1 = re.search(r"Bloom Time: (\w+)$", m["f"].get("BloomTime", "").strip()) if m else None
+    bc = []
+    if sv and MON_DE.get(sv[0][0]):
+        a = MON_DE[sv[0][0]]
+        b = MON_DE.get(sb[0][0], a) if sb else a
+        bc.append((0 if slv == "品種" else 2, f"{a}〜{b}月（stauden.de・{slv}。ドイツ）" if a != b else f"{a}月（stauden.de・{slv}。ドイツ）"))
+    if mb and mb[1] in MON_EN and mb[2] in MON_EN:
+        bc.append((1 if mlv == "品種" else 3, f"{MON_EN[mb[1]]}〜{MON_EN[mb[2]]}月（MBG・{mlv}。セントルイス）"))
+    elif mb1 and mb1[1] in MON_EN:
+        bc.append((1 if mlv == "品種" else 3, f"{MON_EN[mb1[1]]}月（MBG・{mlv}。セントルイス）"))
+    if w and w["f"].get("Blooming Time"):
+        ss = [v for k_, v in SEASON_W.items() if k_ in w["f"]["Blooming Time"]]
+        if ss:
+            bc.append((4, "・".join(ss) + "（Walters・品種。季節）"))
+    bc = [c for c in bc if "・属。" not in c[1]]
+    if bc:
+        bl = min(bc)[1]
+    return ht, bl
+
+
 def walters(k):
     p = f"{RAW}/walters/{k}.html"
     if not os.path.exists(p):
@@ -417,7 +473,7 @@ def main():
     cols = ["ID", "商品番号", "植物名", "学名（マスター）", "学名（採用）", "学名（RHS）", "文献での表記", "和名", "花色（分類）", "花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照",
             "USDA", "RHS 耐寒性", "原産地", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "紅葉", "文献の注意", "自社の観察", "切り花", "蜜源", "花色（自社の値）", "株張り（自社の値・cm）", "葉色（自社の値）",
             "品種ページのある文献", "使った文献", "空欄の数", "耐暑性の決め方", "耐暑性（欧米の文献だけなら）",
-            "蒸れ耐性（欧米の文献だけなら）", "西日耐性（おぎはらの暖地の日照を入れる前）", "乾燥耐性の出どころ", "耐暑性の信頼度", "日照（RHS）",
+            "蒸れ耐性（欧米の文献だけなら）", "西日耐性（おぎはらの暖地の日照を入れる前）", "乾燥耐性の出どころ", "耐暑性の信頼度", "日照（RHS）", "草丈（文献）", "花期（文献）",
             "科名", "香り", "毒性", "pH・土質", "こぼれ種の量(0-3)", "地下茎で広がる程度(0-3)", "こぼれ種・地下茎の根拠",
             "NC State の Resistance To Challenges", "RHS の Drought Resistance", "夏前の切り戻し", "毎年〜2年ごとの更新", "切り戻し・更新の根拠",
             "成株シルエット", "成株シルエット（種の記述なら）", "成株シルエットの根拠", "葉の特徴", "葉の特徴（種の記述なら）", "耐潮性", "耐潮性の根拠",
@@ -516,6 +572,7 @@ def main():
         if not r["日照"] and rsun and SUN_MODE == "fill":
             r["日照"] = rsun
             src(("日照",), "RHS・品種")
+        r["草丈（文献）"], r["花期（文献）"] = lit_height_bloom(w, m, mlv, s, slv, rh, "'" in (it["学名"] or ""))
         if not r["USDA"] and w:
             r["USDA"] = w["zone"].replace("-", "〜") + "（Walters・品種）"
         # --- 暑さ・蒸れ・西日
