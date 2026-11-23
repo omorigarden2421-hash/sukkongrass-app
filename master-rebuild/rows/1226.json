@@ -47,20 +47,18 @@
    "level": null
   },
   "spread_min": {
-   "value": 76,
+   "value": 50,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：76（シカゴ植物園の試験での株幅）。【要見直し】重ならない（文献 76〜76cm／マスター 50〜60cm）"
   },
   "spread_max": {
-   "value": 76,
+   "value": 60,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：76（シカゴ植物園の試験での株幅）。【要見直し】重ならない（文献 76〜76cm／マスター 50〜60cm）"
   },
   "foliage_class": {
    "value": null,

@@ -110,12 +110,11 @@
    "level": "species"
   },
   "sun": {
-   "value": "半日陰",
+   "value": "日向〜半日陰",
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：半日陰（Walters・品種）"
   },
   "usda_min": {
    "value": 4,

@@ -151,6 +151,17 @@ def main(xlsx, out):
             fields[key] = {"value": v, "method": method, "sources": srcs or None, "level": level}
             if note:
                 fields[key]["note"] = note
+        # 2026-11-23 の方針（DECISIONS.md）: 日照・株張りは今のマスターの値（空欄だけ文献）。マスターの値のときは文献名を付けず、文献の値を note に書く
+        ls = g("日照（文献）") or ""
+        if fields["sun"]["value"] and ls.split("（")[0] != fields["sun"]["value"]:
+            fields["sun"].update({"method": "記載", "sources": None, "level": None,
+                                  "note": f"今のマスターの値。文献：{ls or 'なし'}" + (f"。【要見直し】{g('日照の食い違い')}" if g("日照の食い違い") else "")})
+        lw = [int(x) for x in re.findall(r"\d+", re.sub(r"（.*$", "", str(g("株張り（文献）") or "")))]
+        mw = (fields["spread_min"]["value"], fields["spread_max"]["value"])
+        if mw[0] is not None and (not lw or (lw[0], lw[-1]) != mw):
+            for k_ in ("spread_min", "spread_max"):
+                fields[k_].update({"method": "記載", "sources": None, "level": None,
+                                   "note": f"今のマスターの値。文献：{g('株張り（文献）') or 'なし'}" + (f"。【要見直し】{g('株張りの食い違い')}" if g("株張りの食い違い") else "")})
         rn = g("学名（RHS）") or ""
         an = fields["accepted_name"]
         an["note"] = "。".join(x for x in (f"RHS：{rn}" if rn else None, g("学名のメモ")) if x) or None

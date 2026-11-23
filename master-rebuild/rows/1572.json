@@ -53,20 +53,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 50,
+   "value": 15,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：50〜100（RHS の幅）。【要見直し】重ならない（文献 50〜100cm／マスター 15〜30cm）"
   },
   "spread_max": {
-   "value": 100,
+   "value": 30,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：50〜100（RHS の幅）。【要見直し】重ならない（文献 50〜100cm／マスター 15〜30cm）"
   },
   "foliage_class": {
    "value": "パープル・ブラック系",

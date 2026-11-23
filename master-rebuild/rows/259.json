@@ -52,20 +52,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 50,
+   "value": 25,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：50〜100（RHS の幅）。【要見直し】重ならない（文献 50〜100cm／マスター 25〜25cm）"
   },
   "spread_max": {
-   "value": 100,
+   "value": 25,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：50〜100（RHS の幅）。【要見直し】重ならない（文献 50〜100cm／マスター 25〜25cm）"
   },
   "foliage_class": {
    "value": "パープル・ブラック系",
@@ -110,12 +108,11 @@
    "level": "cultivar"
   },
   "sun": {
-   "value": "日向",
+   "value": "日向〜半日陰",
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向（stauden.de・種）"
   },
   "usda_min": {
    "value": null,

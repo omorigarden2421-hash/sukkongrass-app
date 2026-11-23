@@ -43,20 +43,18 @@
    "level": null
   },
   "spread_min": {
-   "value": 163,
+   "value": 100,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：163〜198（シカゴ植物園の試験での株幅）"
   },
   "spread_max": {
-   "value": 198,
+   "value": 200,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：163〜198（シカゴ植物園の試験での株幅）"
   },
   "foliage_class": {
    "value": null,
@@ -89,10 +87,11 @@
    "level": null
   },
   "sun": {
-   "value": null,
+   "value": "日向",
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの値。文献：なし"
   },
   "usda_min": {
    "value": null,

@@ -108,12 +108,11 @@
    "level": "cultivar"
   },
   "sun": {
-   "value": "日向〜半日陰",
+   "value": "日向",
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向〜半日陰（MBG・品種）"
   },
   "usda_min": {
    "value": 3,

@@ -45,16 +45,18 @@
    "level": null
   },
   "spread_min": {
-   "value": null,
+   "value": 40,
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの値。文献：なし"
   },
   "spread_max": {
-   "value": null,
+   "value": 50,
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの値。文献：なし"
   },
   "foliage_class": {
    "value": null,
@@ -87,12 +89,11 @@
    "level": null
   },
   "sun": {
-   "value": "半日陰",
+   "value": "日向〜半日陰",
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "genus"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：半日陰（MBG・属）"
   },
   "usda_min": {
    "value": 3,

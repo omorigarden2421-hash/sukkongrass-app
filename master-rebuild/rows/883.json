@@ -51,20 +51,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 66,
+   "value": 45,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：66（シカゴ植物園の試験での株幅）。【要見直し】重ならない（文献 66〜66cm／マスター 45〜45cm）"
   },
   "spread_max": {
-   "value": 66,
+   "value": 45,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：66（シカゴ植物園の試験での株幅）。【要見直し】重ならない（文献 66〜66cm／マスター 45〜45cm）"
   },
   "foliage_class": {
    "value": "グリーン系",
@@ -108,12 +106,11 @@
    "level": "cultivar"
   },
   "sun": {
-   "value": "日向〜半日陰",
+   "value": "半日陰",
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向〜半日陰（stauden.de・品種）"
   },
   "usda_min": {
    "value": null,

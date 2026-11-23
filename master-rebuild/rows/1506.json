@@ -50,20 +50,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 0,
+   "value": 15,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：0〜10（RHS の幅）"
   },
   "spread_max": {
-   "value": 10,
+   "value": 20,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：0〜10（RHS の幅）"
   },
   "foliage_class": {
    "value": "グリーン系",
@@ -100,12 +98,11 @@
    "level": "cultivar"
   },
   "sun": {
-   "value": "日向",
+   "value": "半日陰",
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向（RHS・品種）。【要見直し】大きく違う（文献 日向／マスター 半日陰）"
   },
   "usda_min": {
    "value": null,

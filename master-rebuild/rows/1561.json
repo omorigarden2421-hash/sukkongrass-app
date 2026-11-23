@@ -49,20 +49,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 75,
+   "value": 60,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：75〜90"
   },
   "spread_max": {
    "value": 90,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：75〜90"
   },
   "foliage_class": {
    "value": "斑入り",

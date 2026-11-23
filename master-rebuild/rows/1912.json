@@ -53,20 +53,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 0,
+   "value": 30,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：0〜10（RHS の幅）。【要見直し】重ならない（文献 0〜10cm／マスター 30〜40cm）"
   },
   "spread_max": {
-   "value": 10,
+   "value": 40,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：0〜10（RHS の幅）。【要見直し】重ならない（文献 0〜10cm／マスター 30〜40cm）"
   },
   "foliage_class": {
    "value": "グリーン系",

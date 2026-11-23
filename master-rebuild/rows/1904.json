@@ -45,20 +45,18 @@
    "level": null
   },
   "spread_min": {
-   "value": 10,
+   "value": 20,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：10〜50（RHS の幅）"
   },
   "spread_max": {
-   "value": 50,
+   "value": 20,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：10〜50（RHS の幅）"
   },
   "foliage_class": {
    "value": "ゴールド・ライム系",
@@ -101,12 +99,11 @@
    "level": "species"
   },
   "sun": {
-   "value": "日向〜半日陰",
+   "value": "日向",
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向〜半日陰（stauden.de・種）"
   },
   "usda_min": {
    "value": null,

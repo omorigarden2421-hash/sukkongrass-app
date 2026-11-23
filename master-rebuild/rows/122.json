@@ -51,20 +51,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 15,
+   "value": 30,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：15〜30"
   },
   "spread_max": {
    "value": 30,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：15〜30"
   },
   "foliage_class": {
    "value": "ゴールド・ライム系",
@@ -108,12 +106,11 @@
    "level": "cultivar"
   },
   "sun": {
-   "value": "日向〜半日陰",
+   "value": "半日陰",
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向〜半日陰（Walters・品種）"
   },
   "usda_min": {
    "value": 3,

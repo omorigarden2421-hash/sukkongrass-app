@@ -56,18 +56,16 @@
   "spread_min": {
    "value": 40,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：40〜50"
   },
   "spread_max": {
-   "value": 50,
+   "value": 40,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：40〜50"
   },
   "foliage_class": {
    "value": "ゴールド・ライム系",
@@ -108,12 +106,11 @@
    "level": "cultivar"
   },
   "sun": {
-   "value": "日向〜半日陰",
+   "value": "半日陰",
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "genus"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向〜半日陰（MBG・属）"
   },
   "usda_min": {
    "value": 4,

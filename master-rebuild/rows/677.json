@@ -54,20 +54,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 45,
+   "value": 40,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：45〜60"
   },
   "spread_max": {
    "value": 60,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：45〜60"
   },
   "foliage_class": {
    "value": "ブルー系",

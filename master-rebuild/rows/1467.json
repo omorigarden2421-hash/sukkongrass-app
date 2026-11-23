@@ -55,20 +55,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 50,
-   "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
-  },
-  "spread_max": {
    "value": 100,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：50〜100（RHS の幅）"
+  },
+  "spread_max": {
+   "value": 150,
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：50〜100（RHS の幅）"
   },
   "foliage_class": {
    "value": "ブロンズ・レッド系",

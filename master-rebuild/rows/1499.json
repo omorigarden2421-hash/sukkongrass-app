@@ -49,20 +49,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 90,
+   "value": 70,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：90〜120"
   },
   "spread_max": {
-   "value": 120,
+   "value": 80,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：90〜120"
   },
   "foliage_class": {
    "value": "ブルー系",
@@ -105,12 +103,11 @@
    "level": "cultivar"
   },
   "sun": {
-   "value": "半日陰",
+   "value": "明るい日陰",
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "genus"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：半日陰（MBG・属）"
   },
   "usda_min": {
    "value": 3,

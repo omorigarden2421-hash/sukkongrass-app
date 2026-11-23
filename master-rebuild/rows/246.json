@@ -51,20 +51,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 20,
+   "value": 45,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：20〜30。【要見直し】重ならない（文献 20〜30cm／マスター 45〜60cm）"
   },
   "spread_max": {
-   "value": 30,
+   "value": 60,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：20〜30。【要見直し】重ならない（文献 20〜30cm／マスター 45〜60cm）"
   },
   "foliage_class": {
    "value": "ゴールド・ライム系",

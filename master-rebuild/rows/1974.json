@@ -49,18 +49,16 @@
   "spread_min": {
    "value": 30,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：30〜45"
   },
   "spread_max": {
-   "value": 45,
+   "value": 60,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：30〜45"
   },
   "foliage_class": {
    "value": "グリーン系",
@@ -105,12 +103,11 @@
    "level": "species"
   },
   "sun": {
-   "value": "日向〜半日陰",
+   "value": "日向",
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向〜半日陰（MBG・種）"
   },
   "usda_min": {
    "value": 7,

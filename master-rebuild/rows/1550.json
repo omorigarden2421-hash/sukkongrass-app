@@ -51,20 +51,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 61,
+   "value": 30,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：61（シカゴ植物園の試験での株幅）。【要見直し】重ならない（文献 61〜61cm／マスター 30〜45cm）"
   },
   "spread_max": {
-   "value": 61,
+   "value": 45,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：61（シカゴ植物園の試験での株幅）。【要見直し】重ならない（文献 61〜61cm／マスター 30〜45cm）"
   },
   "foliage_class": {
    "value": "グリーン系",

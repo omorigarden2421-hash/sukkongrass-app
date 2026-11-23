@@ -49,20 +49,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 61,
+   "value": 30,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：61（シカゴ植物園の試験での株幅）。【要見直し】重ならない（文献 61〜61cm／マスター 30〜40cm）"
   },
   "spread_max": {
-   "value": 61,
+   "value": 40,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：61（シカゴ植物園の試験での株幅）。【要見直し】重ならない（文献 61〜61cm／マスター 30〜40cm）"
   },
   "foliage_class": {
    "value": "グリーン系",
@@ -104,12 +102,11 @@
    "level": "cultivar"
   },
   "sun": {
-   "value": "日向",
+   "value": "日向〜半日陰",
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向（MBG・種）"
   },
   "usda_min": {
    "value": 3,

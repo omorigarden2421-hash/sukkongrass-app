@@ -43,16 +43,18 @@
    "level": null
   },
   "spread_min": {
-   "value": null,
+   "value": 40,
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの値。文献：なし"
   },
   "spread_max": {
-   "value": null,
+   "value": 50,
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの値。文献：なし"
   },
   "foliage_class": {
    "value": null,
@@ -85,12 +87,11 @@
    "level": null
   },
   "sun": {
-   "value": "日向〜半日陰",
+   "value": "日向",
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向〜半日陰（stauden.de・種）"
   },
   "usda_min": {
    "value": null,

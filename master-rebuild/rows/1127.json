@@ -54,20 +54,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 71,
+   "value": 50,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：71（シカゴ植物園の試験での株幅）"
   },
   "spread_max": {
-   "value": 71,
+   "value": 60,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：71（シカゴ植物園の試験での株幅）"
   },
   "foliage_class": {
    "value": "グリーン系",

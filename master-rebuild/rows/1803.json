@@ -52,16 +52,18 @@
    "level": null
   },
   "spread_min": {
-   "value": null,
+   "value": 60,
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの値。文献：なし"
   },
   "spread_max": {
-   "value": null,
+   "value": 90,
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの値。文献：なし"
   },
   "foliage_class": {
    "value": null,
@@ -94,10 +96,11 @@
    "level": null
   },
   "sun": {
-   "value": null,
+   "value": "明るい日陰",
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの値。文献：なし"
   },
   "usda_min": {
    "value": null,

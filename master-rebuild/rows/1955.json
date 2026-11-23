@@ -56,20 +56,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 56,
+   "value": 30,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：56（シカゴ植物園の試験での株幅）"
   },
   "spread_max": {
-   "value": 56,
+   "value": 60,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：56（シカゴ植物園の試験での株幅）"
   },
   "foliage_class": {
    "value": "ブロンズ・レッド系",

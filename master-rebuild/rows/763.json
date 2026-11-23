@@ -51,20 +51,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 50,
+   "value": 70,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：50〜100（RHS の幅）"
   },
   "spread_max": {
-   "value": 100,
+   "value": 70,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：50〜100（RHS の幅）"
   },
   "foliage_class": {
    "value": "グリーン系",

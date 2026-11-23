@@ -55,20 +55,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 140,
+   "value": 70,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：140（シカゴ植物園の試験での株幅）。【要見直し】重ならない（文献 140〜140cm／マスター 70〜80cm）"
   },
   "spread_max": {
-   "value": 140,
+   "value": 80,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：140（シカゴ植物園の試験での株幅）。【要見直し】重ならない（文献 140〜140cm／マスター 70〜80cm）"
   },
   "foliage_class": {
    "value": "グリーン系",

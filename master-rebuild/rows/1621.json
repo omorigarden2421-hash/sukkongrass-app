@@ -53,20 +53,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 100,
+   "value": 25,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：100〜150（RHS の幅）。【要見直し】重ならない（文献 100〜150cm／マスター 25〜25cm）"
   },
   "spread_max": {
-   "value": 150,
+   "value": 25,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：100〜150（RHS の幅）。【要見直し】重ならない（文献 100〜150cm／マスター 25〜25cm）"
   },
   "foliage_class": {
    "value": "グリーン系",
@@ -113,12 +111,11 @@
    "level": "species"
   },
   "sun": {
-   "value": "日向〜半日陰",
+   "value": "日向",
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向〜半日陰（stauden.de・種）"
   },
   "usda_min": {
    "value": null,

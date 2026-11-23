@@ -47,20 +47,18 @@
    "level": null
   },
   "spread_min": {
-   "value": 30,
+   "value": 50,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：30〜45"
   },
   "spread_max": {
-   "value": 45,
+   "value": 100,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：30〜45"
   },
   "foliage_class": {
    "value": "ブロンズ・レッド系",

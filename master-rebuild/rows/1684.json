@@ -51,20 +51,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 250,
+   "value": 100,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：250〜400（RHS の幅）"
   },
   "spread_max": {
-   "value": 400,
+   "value": 300,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：250〜400（RHS の幅）"
   },
   "foliage_class": {
    "value": "斑入り",

@@ -83,10 +83,11 @@
    "level": null
   },
   "sun": {
-   "value": null,
+   "value": "半日陰",
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの値。文献：なし"
   },
   "usda_min": {
    "value": null,

@@ -51,20 +51,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 80,
+   "value": 120,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：80〜90。【要見直し】重ならない（文献 80〜90cm／マスター 120〜120cm）"
   },
   "spread_max": {
-   "value": 90,
+   "value": 120,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：80〜90。【要見直し】重ならない（文献 80〜90cm／マスター 120〜120cm）"
   },
   "foliage_class": {
    "value": "斑入り",

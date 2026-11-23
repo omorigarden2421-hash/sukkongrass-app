@@ -54,20 +54,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 30,
+   "value": 25,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：30〜45"
   },
   "spread_max": {
-   "value": 45,
+   "value": 30,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：30〜45"
   },
   "foliage_class": {
    "value": "シルバー系",
@@ -111,12 +109,11 @@
    "level": "cultivar"
   },
   "sun": {
-   "value": "日向",
+   "value": "日向〜半日陰",
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向（MBG・品種）"
   },
   "usda_min": {
    "value": 3,

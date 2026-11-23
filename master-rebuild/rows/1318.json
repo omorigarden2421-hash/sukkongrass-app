@@ -53,20 +53,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 50,
+   "value": 70,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：50〜100（RHS の幅）"
   },
   "spread_max": {
-   "value": 100,
+   "value": 80,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：50〜100（RHS の幅）"
   },
   "foliage_class": {
    "value": "斑入り",
@@ -103,12 +101,11 @@
    "level": "cultivar"
   },
   "sun": {
-   "value": "日向〜半日陰",
+   "value": "半日陰",
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向〜半日陰（MBG・品種）"
   },
   "usda_min": {
    "value": 4,

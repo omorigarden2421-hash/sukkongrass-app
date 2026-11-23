@@ -45,20 +45,18 @@
    "level": null
   },
   "spread_min": {
-   "value": 10,
+   "value": 80,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：10〜50（RHS の幅）。【要見直し】重ならない（文献 10〜50cm／マスター 80〜90cm）"
   },
   "spread_max": {
-   "value": 50,
+   "value": 90,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：10〜50（RHS の幅）。【要見直し】重ならない（文献 10〜50cm／マスター 80〜90cm）"
   },
   "foliage_class": {
    "value": "ゴールド・ライム系",

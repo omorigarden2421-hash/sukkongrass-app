@@ -51,20 +51,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 45,
+   "value": 30,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：45〜60。【要見直し】重ならない（文献 45〜60cm／マスター 30〜30cm）"
   },
   "spread_max": {
-   "value": 60,
+   "value": 30,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：45〜60。【要見直し】重ならない（文献 45〜60cm／マスター 30〜30cm）"
   },
   "foliage_class": {
    "value": "グリーン系",
@@ -109,12 +107,11 @@
    "level": "species"
   },
   "sun": {
-   "value": "半日陰",
+   "value": "日向〜半日陰",
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：半日陰（MBG・種）"
   },
   "usda_min": {
    "value": 3,

@@ -51,20 +51,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 150,
+   "value": 60,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：150〜250（RHS の幅）。【要見直し】重ならない（文献 150〜250cm／マスター 60〜60cm）"
   },
   "spread_max": {
-   "value": 250,
+   "value": 60,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：150〜250（RHS の幅）。【要見直し】重ならない（文献 150〜250cm／マスター 60〜60cm）"
   },
   "foliage_class": {
    "value": "ゴールド・ライム系",

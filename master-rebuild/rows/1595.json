@@ -51,20 +51,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 250,
+   "value": 150,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：250〜400（RHS の幅）。【要見直し】重ならない（文献 250〜400cm／マスター 150〜180cm）"
   },
   "spread_max": {
-   "value": 400,
+   "value": 180,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：250〜400（RHS の幅）。【要見直し】重ならない（文献 250〜400cm／マスター 150〜180cm）"
   },
   "foliage_class": {
    "value": "ブロンズ・レッド系",

@@ -53,20 +53,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 69,
+   "value": 35,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：69（シカゴ植物園の試験での株幅）。【要見直し】重ならない（文献 69〜69cm／マスター 35〜45cm）"
   },
   "spread_max": {
-   "value": 69,
+   "value": 45,
    "method": "記載",
-   "sources": [
-    "s08"
-   ],
-   "level": null
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：69（シカゴ植物園の試験での株幅）。【要見直し】重ならない（文献 69〜69cm／マスター 35〜45cm）"
   },
   "foliage_class": {
    "value": "ブロンズ・レッド系",
