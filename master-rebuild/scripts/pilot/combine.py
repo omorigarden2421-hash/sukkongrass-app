@@ -257,7 +257,10 @@ for m in master:
     if lb and b0:
         a, b = int(lb[1]), int(lb[2] or lb[1])
         c0, c1 = b0, b1 or b0
-        if b < c0 or a > c1:
+        # 月の集合で比べる（8〜2月 のように年をまたぐ範囲があるため。2026-11-23 修正）
+        def mset(x, y):
+            return {(x - 1 + i) % 12 + 1 for i in range((y - x) % 12 + 1)}
+        if not (mset(a, b) & mset(c0, c1)):
             r["花期の食い違い"] = f"重ならない（文献 {a}〜{b}月／マスター {c0}〜{c1}月）"
     # 原産地（2026-11-23）: Jelitto の値がないときは Kew WCVP の自生地（kew_native.json。scripts/tools/kew_native.py）。
     #   種の分布なので、品種でも「種の原産地」。交配種は Kew の交配式
