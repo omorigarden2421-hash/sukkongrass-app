@@ -148,10 +148,13 @@
    "level": "genus"
   },
   "drought": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "value": "中",
+   "method": "判定",
+   "sources": [
+    "s02"
+   ],
+   "level": "genus",
+   "note": "推定（MBG・属 の Water: Medium から。乾燥の記述ではない。信頼度：低）"
   },
   "soil_moisture": {
    "value": "適湿",

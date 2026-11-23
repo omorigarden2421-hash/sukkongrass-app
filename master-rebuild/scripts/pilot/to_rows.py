@@ -144,6 +144,10 @@ def main(xlsx, out):
             if v is not None and not srcs and key not in ("accepted_name",):
                 note = "。".join(x for x in (note, f"組み立てのとき文献名を付けていない項目（使った文献：{used}）") if x)
             stats["with_sources" if srcs else "no_sources"] += v is not None
+            # 2026-11-23 の決定: MBG の Water: Medium から推定した乾燥耐性は、判定・信頼度 低 と分かるようにする
+            if key == "drought" and str(g("乾燥耐性の出どころ") or "").startswith("推定"):
+                method = "判定"
+                note = "。".join(x for x in (note, g("乾燥耐性の出どころ")) if x)
             fields[key] = {"value": v, "method": method, "sources": srcs or None, "level": level}
             if note:
                 fields[key]["note"] = note

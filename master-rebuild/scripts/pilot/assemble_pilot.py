@@ -220,7 +220,7 @@ def judge(texts):
     return heat, muggy, aft, why, hlv
 
 
-SUN_MODE = "mbg"  # 日照の決め方（2026-11-23。下の「日照・USDA・水分」の説明）
+SUN_MODE = "fill"  # 日照の決め方（2026-11-23 ユーザーの回答「はい」で "fill"。下の「日照・USDA・水分」の説明。DECISIONS.md）
 SUNR = {"日向": 0, "日向〜半日陰": 1, "半日陰": 2, "日陰": 3}
 SUN_MBG = {"Full sun": "日向", "Full sun to part shade": "日向〜半日陰", "Part shade to full shade": "半日陰", "Part shade": "半日陰", "Full shade": "日陰"}
 WATER_MBG = {"Dry to medium": "乾燥寄り", "Medium": "適湿", "Medium to wet": "湿潤寄り", "Dry": "乾燥寄り", "Wet": "湿潤寄り"}
@@ -512,6 +512,10 @@ def main():
             r["日照"] = "日向〜半日陰" if "日向" in L and "半日陰" in L else "日向" if "日向" in L else "半日陰" if "半日陰" in L else "日陰"
             used.add("stauden.de")
             src(("日照",), f"stauden.de・{slv}")
+        #   "fill": 今まで（MBG → Walters → stauden.de）で空欄のときだけ RHS
+        if not r["日照"] and rsun and SUN_MODE == "fill":
+            r["日照"] = rsun
+            src(("日照",), "RHS・品種")
         if not r["USDA"] and w:
             r["USDA"] = w["zone"].replace("-", "〜") + "（Walters・品種）"
         # --- 暑さ・蒸れ・西日
@@ -807,6 +811,12 @@ def main():
                 r["乾燥耐性"] = "中"
                 r["乾燥耐性の出どころ"] = "RHS の Drought Resistance: Yes"
                 prov["乾燥耐性"] = "RHS・品種"
+        # 2026-11-23 の決定（ユーザー「はい」）: まだ空欄で、MBG の Water が Medium なら 中。乾燥への強さの記述ではなく土の湿りからの推定なので、
+        #   出どころに「推定」と信頼度 低 を書く（あとでこの印の品種だけ空欄に戻せる）。RHS の Moist but well-drained は使わない
+        if not r["乾燥耐性"] and m and m["f"].get("Water", "")[7:].strip() == "Medium":
+            r["乾燥耐性"] = "中"
+            r["乾燥耐性の出どころ"] = f"推定（MBG・{mlv} の Water: Medium から。乾燥の記述ではない。信頼度：低）"
+            prov["乾燥耐性"] = f"MBG・{mlv}"
         # --- 科名・香り・毒性・pH・土質・こぼれ種・地下茎（2026-11-21。scripts/pilot/extra_cols.py）
         r.update(extra_columns(it, rh, m, mlv, n, nl, s, slv, w, ga, ga_own, JEL.get(k), texts))
         # --- 夏前の切り戻し・毎年〜2年ごとの更新（管理タイプ C・D のもと。2026-11-21）

@@ -100,10 +100,12 @@
    "level": "cultivar"
   },
   "sun": {
-   "value": null,
+   "value": "半日陰",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "usda_min": {
    "value": null,
@@ -144,10 +146,12 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "×",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "drought": {
    "value": null,

@@ -668,6 +668,10 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - 【2 和名】yl_pick（YList の行から和名を選ぶ）で、種そのものの行がないときに「最初の標準の行」を採っていたため、別の変種や別の種の和名になっていた（21種）。例：Campanula punctata → ヤマホタルブクロ（var. hondoensis）、Aster ericoides → キダチコンギク（YList では Aster pilosus の和名）。基本変種・基本亜種の行（var. punctata → ホタルブクロ）を採り、なければ空欄にした。30品種の和名が変わった（ホタルブクロ6、オオバナノコギリソウ、セイヨウクサレダマ、シベリアクガイソウ、シャク2 など。空欄になったもの：Hosta sieboldiana・sieboldii、Thymus serpyllum 5、Hydrangea serrata 4、Glechoma hederacea 2、Galium verum、Viburnum plicatum、Androsace villosa、Persicaria virginiana、Achillea sibirica、Aster ericoides）。和名は 460 → 441。エゾアジサイ・ヤブデマリなどは、取ってある YList の検索結果にその行がない（検索し直せば入るかもしれない）
   - 北海道ブルーリストの照合はやり直した（113品種のまま。ホタルブクロは学名ではなく和名で当たるようになった）
 - 【3 シカゴ植物園】no5 Yarrow（1994）・no8 Rudbeckia（1995）・no9 Blazing stars（1996）の PDF（画像だけ、4ページずつ）を画面で読み、batch_06・08・10 の jelitto_cbg_data.py の CBG_V に入れた（文献の注意・株幅）。アキレア 'Coronation Gold'・'Parker's Variety'、プタルミカ（種：品種はどれもうどんこ病）、トメントーサ（種：試験地の湿りすぎで不調）／リアトリス スピカータ（種）・ピクノスタキア（種）・'Floristan Violet'・'Floristan White'・'Kobold'／ルドベキア 'Goldsturm'、サブトメントーサ（種）。株幅は品種の数値（Walters）があればそちらが優先（RULES のとおり）。サブトメントーサの種の株幅（94cm）は品種に使わない
+- 【日照と乾燥耐性の空欄（同じ日。DECISIONS.md の決定）】今のマスターと比べた：日照は RHS と 66%、MBG と 67% 一致（RHS と MBG が違う 196品種では、マスターは MBG 側 105・RHS 側 86）。乾燥耐性の空欄で MBG が Medium の品種は、今のマスターでも 中 が約半分
+  - SUN_MODE = "fill"（空欄だけ RHS）：日照の空欄 28品種が埋まった（863 → 891）
+  - MBG の Water: Medium → 中（推定・信頼度 低）：109品種（635 → 744）。前に「39品種」と伝えたのは数え違い（土壌水分の列の出どころが MBG のものだけ数えていた。RHS の値で土壌水分が上書きされた品種が 70 あった）。109品種のうち今のマスターも 中 は 63、弱 26、強 20
+  - 下書きは末尾 _1123e、まとめの表 `ClaudeWork/新マスター_下書き_916品種_1123e.xlsx`（最新）。1123d と比べて変わったのは、日照 28（空欄→値）・乾燥耐性 109（空欄→中）・西日耐性 3 だけ。rows も作り直した（推定の乾燥耐性は method 判定・note つき）
 
 ## 次にやること（全部の属の下書きが終わった）
 - 【2026-11-21 の終わりの時点】6列・暑さの確認ページ・管理タイプの見直し（在庫あり）まで済み。待っているのは、(1) 確認ページ「暑さに弱い品種の確認」の回答 (2) 「剪定不要＋花後の花茎切り」を A にするか B にするか。（夜に、回答を表に入れる仕組み〔scripts/tools/apply_answers.py〕と、在庫のない282品種の管理タイプの見直しも済んだ。上の2つの節）。残っているのは、未決（DECISIONS.md）、試作と同じ形（rows・根拠の JSON）への統合
