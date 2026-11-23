@@ -54,18 +54,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 10,
+   "value": 71,
    "method": "記載",
    "sources": [
-    "s01"
+    "s08"
    ],
    "level": null
   },
   "spread_max": {
-   "value": 50,
+   "value": 71,
    "method": "記載",
    "sources": [
-    "s01"
+    "s08"
    ],
    "level": null
   },
@@ -151,9 +151,11 @@
    "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
-   "value": null,
+   "value": "シカゴ植物園: 総合評価 good（★★★）。最も背の高い仲間で、花穂が重く茎が倒れることがある。1992年に葉の約半分がうどんこ病。湿った場所に合う（no9）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s08"
+   ],
    "level": null
   },
   "muggy": {
@@ -349,6 +351,6 @@
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming, Columnar upright",
   "sources_with_cultivar_page": "RHS、Jelitto",
-  "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de"
+  "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園"
  }
 }

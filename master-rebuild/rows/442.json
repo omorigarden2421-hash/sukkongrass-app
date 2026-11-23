@@ -30,7 +30,7 @@
    "level": null
   },
   "common_name_ja": {
-   "value": "ヤマホタルブクロ",
+   "value": "ホタルブクロ",
    "method": "記載",
    "sources": [
     "s04"
@@ -254,7 +254,7 @@
    "level": null
   },
   "hokkaido_bluelist": {
-   "value": "掲載なし",
+   "value": "B：定着している（影響の報告はない）（ホタルブクロ。国内外来種＝道外の国内から入ったもの）",
    "method": "記載",
    "sources": [
     "s22"

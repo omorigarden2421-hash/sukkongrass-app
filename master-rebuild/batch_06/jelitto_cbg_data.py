@@ -61,7 +61,8 @@ CBG = {}
 # シカゴ植物園 Plant Evaluation Notes（試験地は USDA 5b）。pdftotext -raw で読んだ。総合評価の星は記号で取り出せなかった（本文に書かれている評価だけ入れた）。
 #   no27 Stachys（https://www.chicagobotanic.org/downloads/planteval_notes/no27_stachys.pdf）Table 1 と本文。草丈は「葉の高さ／花を含む高さ」で、ここには花を含む高さを入れた
 #   no21 Coral bells（https://www.chicagobotanic.org/downloads/planteval_notes/no21_coralbells.pdf）Table 1・2 と本文
-#   no5 Yarrow（アキレア）は PDF が画像だけで、文字として読めなかった。ポテンティラ・パニカムの号はない
+#   no5 Yarrow（アキレア。https://www.chicagobotanic.org/downloads/planteval_notes/no5_yarrow.pdf、1994、試験は 1989〜1993）は PDF が画像だけ。
+#     2026-11-23 に画面で読んで Table 1 と本文から入れた。株幅は報告に記録がない（広がる品種が多く、2年目から測れなかった）。ポテンティラ・パニカムの号はない
 # 試行ID: (報告での表記, level, 草丈 in, 株幅 in, 秋の葉色, 切り戻し, 草姿, メモ)
 CBG_V = {
  "He01": ("americana 'Dale's Strain'", "cultivar", None, None, None, None, None, "評価が低かった品種の一覧（Table 2）に入っている。茎や株元の腐れで冬に枯れた品種の一つ（no21）"),
@@ -72,4 +73,12 @@ CBG_V = {
  "St04": ("macrantha", "species", 18, 24, None, None, None, "総合評価は fair（花つきが20〜40%と少なく、草姿が弱い）（no27）"),
  "St07": ("monieri 'Hummelo'", "cultivar", 24, 20, None, None, None, "総合評価 excellent（試験の中で最高評価）。花つき 80〜100%、葉が健全で草姿がそろう（no27）"),
  "St08": ("officinalis", "species", 30, 30, None, None, None, "花つき 80〜100%（no27）"),
+ "Ac02": ("'Coronation Gold'", "cultivar", None, None, None, None, None,
+          "総合評価 good（★★★）。最もよいアキレアの一つ。茎は倒れないが盛夏にややゆるむ。花つき 60〜80%、返り咲きはない。株立ちで広がらない。同じ年に 'Parker's Yellow' などで出たつぼみの病気は、この品種では出なかった（no5）"),
+ "Ac01": ("filipendulina 'Parker's Variety'", "cultivar", None, None, None, None, None,
+          "総合評価 good（★★★）。株立ちで直立。1991年に花のつぼみの病気（鳥のふんが原因とみられる）が出た（no5）"),
+ "Ac07": ("ptarmica", "species", None, None, None, None, None,
+          "種（プタルミカ）の品種はどれも毎年うどんこ病にかかり、見苦しく、やや重かった（no5）"),
+ "Ac09": ("tomentosa", "species", None, None, None, None, None,
+          "トメントーサなどの成績が悪かったのは、冬の寒さより、試験地の湿りすぎによるとみられる（no5）"),
 }

@@ -179,8 +179,12 @@ def yl_pick(rows, sp, sci=None):
         c = [x for x in plain if x["status"] == st]
         if c:
             return c[0]
-    std = [x for x in rows if x["status"] == "標準"]
-    return (std or rows)[0]
+    # 2026-11-23: 種そのものの行がないときは、基本変種・基本亜種（Campanula punctata var. punctata → ホタルブクロ）の行を採る。
+    #   それもなければ空欄（前は最初の「標準」の行を採っていて、別の変種〔ヤマホタルブクロ〕や別の種〔Aster ericoides → Aster pilosus のキダチコンギク〕になっていた）
+    auto = [x for x in rows if re.match(rf"{g} {e} .*?\b(?:var|subsp|ssp)\. {e}\b", x["sci"])
+            and not re.search(rf"\b(?:var|subsp|ssp)\. {e}\b.*\b(?:var|subsp|ssp|f)\. ", x["sci"]) and "'" not in x["sci"]]
+    auto.sort(key=lambda x: x["status"] != "標準")
+    return auto[0] if auto else None
 
 
 def judge(texts):
@@ -216,6 +220,8 @@ def judge(texts):
     return heat, muggy, aft, why, hlv
 
 
+SUN_MODE = "mbg"  # 日照の決め方（2026-11-23。下の「日照・USDA・水分」の説明）
+SUNR = {"日向": 0, "日向〜半日陰": 1, "半日陰": 2, "日陰": 3}
 SUN_MBG = {"Full sun": "日向", "Full sun to part shade": "日向〜半日陰", "Part shade to full shade": "半日陰", "Part shade": "半日陰", "Full shade": "日陰"}
 WATER_MBG = {"Dry to medium": "乾燥寄り", "Medium": "適湿", "Medium to wet": "湿潤寄り", "Dry": "乾燥寄り", "Wet": "湿潤寄り"}
 LEAF_W = {"Blue": "ブルー系", "Yellow": "ゴールド・ライム系", "Gold": "ゴールド・ライム系", "Chartreuse": "ゴールド・ライム系", "Variegated": "斑入り",
@@ -345,6 +351,13 @@ def rhs(k):
         key = cl(a).split(" (function")[0].strip()
         if key and key not in f:
             f[key] = cl(b)
+    # 日照（Position の見出しの下の Full sun・Partial shade・Full shade。表の項目 dt/dd にはない。2026-11-23 に追加）
+    a = t.find(">Aspect</dt")
+    i = t.rfind(">Position</h2>", 0, a if a >= 0 else len(t))
+    if i >= 0:
+        sp = re.findall(r"<span[^>]*>\s*(Full sun|Partial shade|Full shade)\s*</span>", t[i:a if a >= 0 else i + 5000])
+        if sp:
+            f["Position"] = "・".join(dict.fromkeys(sp))
     for lab in ("Cultivation", "Propagation", "Pruning", "Pests", "Diseases"):
         m = re.search(lab + r"\s*</h\d>\s*(.*?)</(?:div|section)>", t, re.S)
         if m:
@@ -404,7 +417,7 @@ def main():
     cols = ["ID", "商品番号", "植物名", "学名（マスター）", "学名（採用）", "学名（RHS）", "文献での表記", "和名", "花色（分類）", "花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照",
             "USDA", "RHS 耐寒性", "原産地", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "紅葉", "文献の注意", "自社の観察", "切り花", "蜜源", "花色（自社の値）", "株張り（自社の値・cm）", "葉色（自社の値）",
             "品種ページのある文献", "使った文献", "空欄の数", "耐暑性の決め方", "耐暑性（欧米の文献だけなら）",
-            "蒸れ耐性（欧米の文献だけなら）", "西日耐性（おぎはらの暖地の日照を入れる前）", "乾燥耐性の出どころ", "耐暑性の信頼度",
+            "蒸れ耐性（欧米の文献だけなら）", "西日耐性（おぎはらの暖地の日照を入れる前）", "乾燥耐性の出どころ", "耐暑性の信頼度", "日照（RHS）",
             "科名", "香り", "毒性", "pH・土質", "こぼれ種の量(0-3)", "地下茎で広がる程度(0-3)", "こぼれ種・地下茎の根拠",
             "NC State の Resistance To Challenges", "RHS の Drought Resistance", "夏前の切り戻し", "毎年〜2年ごとの更新", "切り戻し・更新の根拠",
             "成株シルエット", "成株シルエット（種の記述なら）", "成株シルエットの根拠", "葉の特徴", "葉の特徴（種の記述なら）", "耐潮性", "耐潮性の根拠",
@@ -436,7 +449,8 @@ def main():
         r["文献での表記"] = " ／ ".join(names) or None
         y = D.get(sk, {}).get("yl")
         if y:
-            r["和名"] = yl_pick(y["rows"], it["species"], it["学名"])["ja"] + "（種）"
+            yp = yl_pick(y["rows"], it["species"], it["学名"])
+            r["和名"] = yp["ja"] + "（種）" if yp else None
         used, cv_src = set(), []
         if rh:
             # 名前だけの登録（栽培・色の項目が1つもないページ）は品種ページに数えない
@@ -464,14 +478,31 @@ def main():
         # --- 日照・USDA・水分（品種 → 種 → 属）
         m, mlv = pick(k, sk, gk, "mbg")
         s, slv = pick(k, sk, None, "sdb")
+        # 2026-11-23: RHS の日照（Position）。SUN_MODE で決め方を切り替える（ユーザーの回答待ち。DECISIONS.md）
+        #   "mbg": 今まで（MBG → Walters → stauden.de。RHS は使わない） "rhs": RHS を最優先（trial/RULES.md の順位 s01 > … > s02）
+        #   "shade": RHS と MBG の両方があって違うときは、日陰寄りの側
+        rsun = None
+        if rh and rh["f"].get("Position"):
+            ps = rh["f"]["Position"]
+            rsun = ("日向〜半日陰" if "Full sun" in ps and "Partial shade" in ps else "日向" if "Full sun" in ps
+                    else "半日陰" if "Partial shade" in ps else "日陰")
+        r["日照（RHS）"] = rsun
+        if rsun and SUN_MODE == "rhs":
+            r["日照"] = rsun
+            src(("日照",), "RHS・品種")
         if m:
             f = m["f"]
-            r["日照"] = SUN_MBG.get(f.get("Sun", "")[5:].strip())
+            if not r["日照"]:
+                r["日照"] = SUN_MBG.get(f.get("Sun", "")[5:].strip())
+                src(("日照",), f"MBG・{mlv}")
+                if rsun and SUN_MODE == "shade" and r["日照"] and SUNR[rsun] > SUNR[r["日照"]]:
+                    r["日照"] = rsun
+                    src(("日照",), "RHS・品種")
             z = re.search(r"(\d+) to (\d+)", f.get("Zone", ""))
             r["USDA"] = f"{z[1]}〜{z[2]}（MBG・{mlv}）" if z else None
             r["土壌水分"] = WATER_MBG.get(f.get("Water", "")[7:].strip())
             used.add("MBG")
-            src(("日照", "土壌水分"), f"MBG・{mlv}")
+            src(("土壌水分",), f"MBG・{mlv}")
         if not r["日照"] and w and w["f"].get("Sun Exposure"):
             se = w["f"]["Sun Exposure"]
             r["日照"] = "日向〜半日陰" if "Full Sun" in se and "Partial Shade" in se else "日向" if "Full Sun" in se else "半日陰" if "Partial Shade" in se else "日陰"
@@ -529,15 +560,16 @@ def main():
         if m and "Drought" in m["f"].get("Tolerate", ""):
             drought = "強"
             dsrc = f"MBG・{mlv}"
-        elif re.search(r"some drought|occasional drought|tolerance for (some )?dry", alltext) and not re.search(r"intolerant of dry", alltext):
+        elif re.search(r"some drought|occasional drought|tolerance for (some )?dry|(moderately|somewhat) drought[- ]tolerant", alltext) and not re.search(r"intolerant of (dry|drought)", alltext):
             drought = "中"
-            dsrc = hit(r"some drought|occasional drought|tolerance for (some )?dry")
-        elif re.search(r"intolerant of dry|never be allowed to dry out|(should|must) not be allowed to dry", alltext):
+            dsrc = hit(r"some drought|occasional drought|tolerance for (some )?dry|(moderately|somewhat) drought[- ]tolerant")
+        elif re.search(r"intolerant of (dry|drought)|never be allowed to dry out|(should|must) not be allowed to dry", alltext):
             drought = "弱"
-            dsrc = hit(r"intolerant of dry|never be allowed to dry out|(should|must) not be allowed to dry")
-        elif re.search(r"tolerates drought|drought tolerant", alltext) or (w and "Drought Tolerant" in w["f"].get("Plant Uses & Characteristics", [])):
+            dsrc = hit(r"intolerant of (dry|drought)|never be allowed to dry out|(should|must) not be allowed to dry")
+        # 2026-11-23: ハイフン付き（drought-tolerant）と tolerant of drought も拾う（前は拾えていなかった）
+        elif re.search(r"tolerates drought|drought[- ]tolerant|(?<!in)tolerant of drought", alltext) or (w and "Drought Tolerant" in w["f"].get("Plant Uses & Characteristics", [])):
             drought = "強"
-            dsrc = hit(r"tolerates drought|drought tolerant") or "Walters・品種"
+            dsrc = hit(r"tolerates drought|drought[- ]tolerant|(?<!in)tolerant of drought") or "Walters・品種"
         elif re.search(r"some drought|tolerance for (some )?dry", alltext):
             drought = "中"
             dsrc = hit(r"some drought|tolerance for (some )?dry")

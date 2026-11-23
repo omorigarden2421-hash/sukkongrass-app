@@ -73,6 +73,14 @@ JELITTO = [
 ]
 AUTUMN = {}
 CBG = {}
-# シカゴ植物園 Plant Evaluation Notes: この10属では no8 Rudbeckia だけ号があるが、PDF が画像だけで文字として読めなかった（no5・no9 と同じ）。使える記録はなし。
+# シカゴ植物園 Plant Evaluation Notes: この10属では no8 Rudbeckia（https://www.chicagobotanic.org/downloads/planteval_notes/no8_rudbeckia.pdf、1995、試験は 1989〜1993）だけ号がある。
+#   PDF が画像だけなので、2026-11-23 に画面で読んで Table 2 と本文から入れた。サブトメントーサは種の記録なので、株幅は品種に使わない（メモだけ）
 # 試行ID: (報告での表記, level, 草丈 in, 株幅 in, 秋の葉色, 切り戻し, 草姿, メモ)
-CBG_V = {}
+CBG_V = {
+ "Ru01": ("fulgida var. sullivantii 'Goldsturm'", "cultivar", None, 30, None, None, None,
+          "花つきと花の大きさで最もよい評価。株姿がまとまり、フルギダとその変種より優れていた。1991〜92年に少し虫の食害（no8）"),
+ "Ru03": ("subtomentosa", "species", None, None, None, None, None,
+          "種（サブトメントーサ）は、季節が進むと株の中心が開いた。花つき 80〜100%（no8）"),
+ "Ru04": ("subtomentosa", "species", None, None, None, None, None,
+          "種（サブトメントーサ）は、季節が進むと株の中心が開いた。花つき 80〜100%（no8）"),
+}

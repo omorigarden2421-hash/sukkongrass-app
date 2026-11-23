@@ -30,11 +30,9 @@
    "level": null
   },
   "common_name_ja": {
-   "value": "サワアジサイ",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s04"
-   ],
+   "sources": null,
    "level": null
   },
   "flower_color_detail": {

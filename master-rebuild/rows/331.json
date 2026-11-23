@@ -168,7 +168,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "◎",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s20",
@@ -179,12 +179,12 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "強",
+   "value": "弱",
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "soil_moisture": {
    "value": "適湿",

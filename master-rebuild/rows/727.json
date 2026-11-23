@@ -150,9 +150,11 @@
    "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
-   "value": null,
+   "value": "シカゴ植物園: 総合評価 good（★★★）。最もよいアキレアの一つ。茎は倒れないが盛夏にややゆるむ。花つき 60〜80%、返り咲きはない。株立ちで広がらない。同じ年に 'Parker's Yellow' などで出たつぼみの病気は、この品種では出なかった（no5）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s08"
+   ],
    "level": null
   },
   "muggy": {
@@ -352,7 +354,7 @@
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
-  "sources_with_cultivar_page": "RHS、stauden.de、MBG、Gaißmayer",
-  "sources_used": "Gaißmayer、MBG、NC State、RHS、stauden.de"
+  "sources_with_cultivar_page": "RHS、stauden.de、MBG、Gaißmayer、シカゴ植物園",
+  "sources_used": "Gaißmayer、MBG、NC State、RHS、stauden.de、シカゴ植物園"
  }
 }

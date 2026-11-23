@@ -73,7 +73,8 @@ AUTUMN = {}
 CBG = {}
 # シカゴ植物園 Plant Evaluation Notes（試験地は USDA 5b、日なた）。pdftotext -raw で読んだ。
 #   no28 Meadow rues（https://www.chicagobotanic.org/downloads/planteval_notes/no28_meadowrues.pdf）Table 1 と本文。総合評価は4つ星 good・3つ星 fair・2つ星 poor
-#   no9 Blazing stars（リアトリス）は PDF が画像だけで、文字として読めなかった（no5 Yarrow と同じ）
+#   no9 Blazing stars（リアトリス。https://www.chicagobotanic.org/downloads/planteval_notes/no9_blazingstars.pdf、1996、試験は 1990〜1993）は PDF が画像だけ。
+#     2026-11-23 に画面で読んで Table 2 と本文から入れた。試験地は湿り気の多い土で、乾いた草原の種には合わなかった、と本文。scariosa は 'September Glory' だけで、こちらの商品に当たらない
 #   コレオプシス・リシマキア・ベロニカストラム・エリンジウム・ミスカンサス・モリニアの号は一覧（no1〜no40）にない
 #   'Thundercloud'・delavayi 'Album'・'Black Stockings' は試験に入っていない
 # 試行ID: (報告での表記, level, 草丈 in, 株幅 in, 秋の葉色, 切り戻し, 草姿, メモ)
@@ -86,4 +87,14 @@ CBG_V = {
  "Th07": ("'Elin'", "cultivar", 96, 42, None, None, None,
           "総合評価 good（4つ星）。花つき 60〜80%。草勢は両親をしのぎ、茎は8フィート（約2.4m）に達した。夏の間も葉を落とさずよく茂った。2001年と2003年にひどいうどんこ病が出た（no28）"),
  "Th08": ("rochebruneanum", "species", 72, 30, None, None, None, "総合評価 good（4つ星）。花つき 60〜80%。夏に葉を落として株がすく（'Elin' との比較の記述）（no28）"),
+ "Li01": ("pycnostachya", "species", None, 28, None, None, None,
+          "総合評価 good（★★★）。最も背の高い仲間で、花穂が重く茎が倒れることがある。1992年に葉の約半分がうどんこ病。湿った場所に合う（no9）"),
+ "Li04": ("spicata", "species", None, (28, 30), None, None, None,
+          "総合評価 fair（★★）。花つき 50〜60%。うどんこ病が最も多く、3年目までに約3分の1の株が枯れた（no9）"),
+ "Li05": ("spicata 'Floristan Violet'", "cultivar", None, (24, 26), None, None, None,
+          "総合評価 excellent（★★★★）。株姿がそろい、茎が直立して丈夫。花つき 80〜100%。1993年は葉が全部うどんこ病（no9）"),
+ "Li06": ("spicata 'Floristan White'", "cultivar", None, 22, None, None, None,
+          "総合評価 good（★★★）。花つき 60%。2年目の冬に約半分の株が枯れた。晩夏に株の中心が開き、倒れた茎から短い芽が出た。1992年にうどんこ病 50%（no9）"),
+ "Li07": ("spicata 'Kobold'", "cultivar", None, (20, 24), None, None, None,
+          "総合評価 excellent（★★★★）。株姿がそろい、茎が直立。草丈のばらつきは 'Floristan Violet' より大きい。1993年は葉が全部うどんこ病（no9）"),
 }

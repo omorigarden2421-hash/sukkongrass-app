@@ -153,9 +153,11 @@
    "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
-   "value": null,
+   "value": "シカゴ植物園: 総合評価 excellent（★★★★）。株姿がそろい、茎が直立して丈夫。花つき 80〜100%。1993年は葉が全部うどんこ病（no9）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s08"
+   ],
    "level": null
   },
   "muggy": {
@@ -359,7 +361,7 @@
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Liatris spicata , commonly called blazing star, dense blazing star or marsh blazing star, is a tall, upright, clump-forming perennial which is native to moist low grounds, m",
-  "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Jelitto",
-  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"
+  "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、シカゴ植物園、Jelitto",
+  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園"
  }
 }

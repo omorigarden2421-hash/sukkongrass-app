@@ -657,6 +657,18 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - rows：field「hokkaido_bluelist」。文献ID は新しく s22（北海道庁 北海道ブルーリスト2010）
 - リスクタグ（同じ日。ユーザーの回答「A2だけ入れる」、DECISIONS.md）：A2 の4品種（38・317・393・582）に「要管理（北海道ブルーリスト A2）」を足した。4品種とも前から「要管理（広がりやすい）」が付いていた。管理タイプは変えていない。まとめの表 `ClaudeWork/新マスター_下書き_916品種_1123c.xlsx`（最新）。1123b と比べて変わったのはこの4品種のリスクタグだけ。rows にはリスクタグの項目がないので変わらない
 
+## 2026-11-23：試作との食い違いの見直し・和名の当て方・シカゴ植物園の3号
+- ユーザーの指示「1.2.3を順番で」（1 試作との食い違い、2 和名、3 シカゴ植物園の読めなかった号。4〔花期・草丈・耐寒性を文献の値で作る〕は始める前に必ず確認）
+- 19個の下書きを末尾 _1123d で作り直した（1121j と比べて、変わったのは乾燥耐性・西日耐性・和名・文献の注意・株張りの一部だけ。日照は変えていない）。まとめの表 `ClaudeWork/新マスター_下書き_916品種_1123d.xlsx`（最新）、rows も作り直した
+- 【1 試作との食い違い（日照 13/24・乾燥耐性 10/24・西日耐性 12/24）の原因】
+  - 日照：試作のルール（trial/RULES.md「それ以外」の順位 s01 RHS が最優先）と違い、組み立ては MBG → Walters → stauden.de の順で、RHS を使っていなかった。RHS の日照はページの「Position」の見出しの下（表の項目 dt/dd ではない）にあり、1122ページ中 934 ページで読める。assemble_pilot.py の rhs() で取り出し、見返し用の列「日照（RHS）」に入れた（700品種）。決め方は SUN_MODE（"mbg" 今まで／"rhs" RHS 最優先／"shade" 両方あって違うときは日陰寄り）で切り替える。今は "mbg"（ユーザーの回答待ち）。RHS 最優先なら 265品種、日陰寄りなら 155品種の日照が変わる。RHS はイギリスの夏を前提に日照を広めに書く（例：クルマバソウ Galium odoratum を Full sun・Partial shade）
+  - 乾燥耐性：(a) 読み落とし。ハイフン付きの drought-tolerant と tolerant of drought を拾っていなかった → 直した（強）。moderately／somewhat drought-tolerant は 中。intolerant of drought は 弱（tolerant of drought に当たらないようにした）。(b) 試作のルールにある「MBG の Water: Medium／Walters の Average → 中」が組み立てに入っていない（P07・P17・P18・P25・P27）。入れるかはユーザーの回答待ち。乾燥耐性が空欄の 281品種のうち、土壌水分が MBG の Medium は 39、RHS の Moist but well-drained は 136。(c) 2026-11-21 のユーザーの決定（RHS の Drought Resistance: Yes・NC State の項目は 中、おぎはら楽天で空欄を埋める）による違い（P14・P16・P19・P24）は直さない。(d) 文献が割れている（P11：MBG は Water: Medium、Walters は Drought Tolerant → 今は 強）
+  - 変わった数（1121j → 1123d）：乾燥耐性 中→強 29、空欄→弱 15（フィリペンデュラなど。intolerant of drought）、空欄→強 8、強→中 4（スタキス ビザンティナ3・エリムス。moderately）、強→弱 2、弱→強 1（ベルゲニア 'Snowtime'。NC State「drought-tolerant とされる」「can tolerate drought」）、中→弱 1。西日耐性 ○→◎ 11、◎→○ 3（乾燥耐性に連動）
+  - 西日耐性は日照・耐暑性・乾燥耐性から決まるので、上の2つが決まれば一緒に動く
+- 【2 和名】yl_pick（YList の行から和名を選ぶ）で、種そのものの行がないときに「最初の標準の行」を採っていたため、別の変種や別の種の和名になっていた（21種）。例：Campanula punctata → ヤマホタルブクロ（var. hondoensis）、Aster ericoides → キダチコンギク（YList では Aster pilosus の和名）。基本変種・基本亜種の行（var. punctata → ホタルブクロ）を採り、なければ空欄にした。30品種の和名が変わった（ホタルブクロ6、オオバナノコギリソウ、セイヨウクサレダマ、シベリアクガイソウ、シャク2 など。空欄になったもの：Hosta sieboldiana・sieboldii、Thymus serpyllum 5、Hydrangea serrata 4、Glechoma hederacea 2、Galium verum、Viburnum plicatum、Androsace villosa、Persicaria virginiana、Achillea sibirica、Aster ericoides）。和名は 460 → 441。エゾアジサイ・ヤブデマリなどは、取ってある YList の検索結果にその行がない（検索し直せば入るかもしれない）
+  - 北海道ブルーリストの照合はやり直した（113品種のまま。ホタルブクロは学名ではなく和名で当たるようになった）
+- 【3 シカゴ植物園】no5 Yarrow（1994）・no8 Rudbeckia（1995）・no9 Blazing stars（1996）の PDF（画像だけ、4ページずつ）を画面で読み、batch_06・08・10 の jelitto_cbg_data.py の CBG_V に入れた（文献の注意・株幅）。アキレア 'Coronation Gold'・'Parker's Variety'、プタルミカ（種：品種はどれもうどんこ病）、トメントーサ（種：試験地の湿りすぎで不調）／リアトリス スピカータ（種）・ピクノスタキア（種）・'Floristan Violet'・'Floristan White'・'Kobold'／ルドベキア 'Goldsturm'、サブトメントーサ（種）。株幅は品種の数値（Walters）があればそちらが優先（RULES のとおり）。サブトメントーサの種の株幅（94cm）は品種に使わない
+
 ## 次にやること（全部の属の下書きが終わった）
 - 【2026-11-21 の終わりの時点】6列・暑さの確認ページ・管理タイプの見直し（在庫あり）まで済み。待っているのは、(1) 確認ページ「暑さに弱い品種の確認」の回答 (2) 「剪定不要＋花後の花茎切り」を A にするか B にするか。（夜に、回答を表に入れる仕組み〔scripts/tools/apply_answers.py〕と、在庫のない282品種の管理タイプの見直しも済んだ。上の2つの節）。残っているのは、未決（DECISIONS.md）、試作と同じ形（rows・根拠の JSON）への統合
 - batch_18 までで、全916品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54＋51＋50＋53＋51＋51＋51＋51＋50＋47＋19＝916）。2026-11-20 に、batch_*/input と pilot/input の商品番号（916件・重複なし）を元のマスターの商品番号（916件）と照らし、もれ・重複がないことを確かめた

@@ -154,9 +154,11 @@
    "level": null
   },
   "heat_note": {
-   "value": null,
+   "value": "シカゴ植物園: トメントーサなどの成績が悪かったのは、冬の寒さより、試験地の湿りすぎによるとみられる（no5）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s08"
+   ],
    "level": null
   },
   "muggy": {
@@ -356,6 +358,6 @@
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer",
-  "sources_used": "NC State、RHS、Walters、stauden.de"
+  "sources_used": "NC State、RHS、Walters、stauden.de、シカゴ植物園"
  }
 }

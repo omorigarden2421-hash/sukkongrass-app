@@ -147,9 +147,11 @@
    "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
-   "value": null,
+   "value": "シカゴ植物園: 総合評価 good（★★★）。株立ちで直立。1991年に花のつぼみの病気（鳥のふんが原因とみられる）が出た（no5）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s08"
+   ],
    "level": null
   },
   "muggy": {
@@ -354,7 +356,7 @@
   "spread_evidence": "[こぼれ種 1／MBG・品種] 'Parker's Variety' may be grown from seed and may self-seed in the garden under optimum growing conditions.",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Achillea filipendulina , commonly known as fern-leaf yarrow, is an upright, clump-forming yarrow that is native to the Caucasus, Iran and Afghanistan.",
-  "sources_with_cultivar_page": "RHS、MBG、Gaißmayer、Jelitto",
-  "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de"
+  "sources_with_cultivar_page": "RHS、MBG、Gaißmayer、シカゴ植物園、Jelitto",
+  "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園"
  }
 }

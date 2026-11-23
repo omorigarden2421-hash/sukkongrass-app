@@ -54,18 +54,18 @@
    "level": "cultivar"
   },
   "spread_min": {
-   "value": 10,
+   "value": 71,
    "method": "記載",
    "sources": [
-    "s01"
+    "s08"
    ],
    "level": null
   },
   "spread_max": {
-   "value": 50,
+   "value": 76,
    "method": "記載",
    "sources": [
-    "s01"
+    "s08"
    ],
    "level": null
   },
@@ -152,9 +152,11 @@
    "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
-   "value": null,
+   "value": "シカゴ植物園: 総合評価 fair（★★）。花つき 50〜60%。うどんこ病が最も多く、3年目までに約3分の1の株が枯れた（no9）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s08"
+   ],
    "level": null
   },
   "muggy": {
@@ -359,6 +361,6 @@
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect",
   "sources_with_cultivar_page": "RHS、Gaißmayer、Jelitto",
-  "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de"
+  "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園"
  }
 }

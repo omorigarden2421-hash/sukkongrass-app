@@ -25,7 +25,7 @@
    "level": null
   },
   "common_name_ja": {
-   "value": "エゾノコギリソウ",
+   "value": "オオバナノコギリソウ",
    "method": "記載",
    "sources": [
     "s04"
@@ -138,9 +138,11 @@
    "note": "おぎはら（品種のページ）。信頼度：中"
   },
   "heat_note": {
-   "value": null,
+   "value": "シカゴ植物園: 種（プタルミカ）の品種はどれも毎年うどんこ病にかかり、見苦しく、やや重かった（no5）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s08"
+   ],
    "level": null
   },
   "muggy": {
@@ -344,6 +346,6 @@
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、おぎはら、Jelitto",
-  "sources_used": "Jelitto、NC State、RHS、stauden.de、おぎはら"
+  "sources_used": "Jelitto、NC State、RHS、stauden.de、おぎはら、シカゴ植物園"
  }
 }

@@ -173,12 +173,12 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "弱",
+   "value": "強",
    "method": "記載",
    "sources": [
-    "s21"
+    "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "soil_moisture": {
    "value": "適湿",

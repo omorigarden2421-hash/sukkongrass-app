@@ -151,9 +151,11 @@
    "note": "おぎはら（品種のページ）。信頼度：高"
   },
   "heat_note": {
-   "value": null,
+   "value": "シカゴ植物園: 種（サブトメントーサ）は、季節が進むと株の中心が開いた。花つき 80〜100%（no8）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s08"
+   ],
    "level": null
   },
   "muggy": {
@@ -366,6 +368,6 @@
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] This forms a bushy mound, bearing tall branching stems that hold brown-eyed daisies with unusual narrow or quilled yellow petals, appearing in midsummer.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、おぎはら",
-  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"
+  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園"
  }
 }

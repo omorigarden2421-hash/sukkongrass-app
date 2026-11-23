@@ -148,9 +148,11 @@
    "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
-   "value": null,
+   "value": "シカゴ植物園: 総合評価 good（★★★）。花つき 60%。2年目の冬に約半分の株が枯れた。晩夏に株の中心が開き、倒れた茎から短い芽が出た。1992年にうどんこ病 50%（no9）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s08"
+   ],
    "level": null
   },
   "muggy": {
@@ -354,7 +356,7 @@
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright, Clump forming",
-  "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、Jelitto",
-  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"
+  "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、シカゴ植物園、Jelitto",
+  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園"
  }
 }

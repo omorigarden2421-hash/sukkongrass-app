@@ -153,9 +153,11 @@
    "note": "おぎはら（品種のページ）。信頼度：高"
   },
   "heat_note": {
-   "value": null,
+   "value": "シカゴ植物園: 花つきと花の大きさで最もよい評価。株姿がまとまり、フルギダとその変種より優れていた。1991〜92年に少し虫の食害（no8）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s08"
+   ],
    "level": null
   },
   "muggy": {
@@ -369,7 +371,7 @@
   "spread_evidence": "[地下茎 2／NC State・種] The plant spreads by underground stems called rhizomes to form large clumps.\n[地下茎の食い違い] MBG は 1 相当",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] An upright, rhizomatous, clump-forming, free-blooming coneflower which typically grows to 3' tall, often forming colonies in the wild.",
-  "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら、Jelitto",
-  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"
+  "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら、シカゴ植物園、Jelitto",
+  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園"
  }
 }
