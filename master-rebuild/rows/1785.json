@@ -126,10 +126,11 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "×",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：None）"
   },
   "drought": {
    "value": null,
@@ -269,7 +270,7 @@
   "management_type_by_matching": null,
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": null,
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 None なら 空欄）",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": null,

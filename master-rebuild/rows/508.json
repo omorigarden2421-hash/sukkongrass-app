@@ -162,7 +162,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "○",
+   "value": "×",
    "method": "判定",
    "sources": [
     "s02",
@@ -366,7 +366,7 @@
   "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[MBG/種] Stems tend to flop in rich soils, too much shade or hot summer temperatures.\n[NC State/種] Stems may flop in rich soils, shade, or hot temperatures, so staking of taller plants may be necessary.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向 なら ○）\n[MBG/種] Stems tend to flop in rich soils, too much shade or hot summer temperatures.\n[NC State/種] Stems may flop in rich soils, shade, or hot temperatures, so staking of taller plants may be necessary.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／MBG・種] Species plants are noted for being aggressive spreaders in the landscape by both rhizomes and self-seeding.\n[地下茎 3／MBG・種] Species plants can be an aggressive spreader.\n[地下茎の食い違い] Walters は 2 相当、stauden.de は 2 相当",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Species plants can be an aggressive spreader.",
   "silhouette_evidence": "[Walters・品種] Plants form an upright, bushy clump of light green leaves, splashed with creamy-white.",

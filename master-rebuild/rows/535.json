@@ -167,7 +167,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "△",
+   "value": "×",
    "method": "判定",
    "sources": [
     "s20",
@@ -357,7 +357,7 @@
   "management_type_by_matching": "C 夏前切戻型",
   "heat_west_only": "中",
   "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが、高温多湿は嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[MBG/種] Some tolerance for hot and humid summer weather.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが、高温多湿は嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[MBG/種] Some tolerance for hot and humid summer weather.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": "[地下茎 1／MBG・種] Noteworthy Characteristics Thalictrum flavum , commonly called yellow meadow rue, is a rhizomatous, clump-forming perennial of the buttercup family that typically grows on sturdy stems to 2-3’ (less frequently to 5’) tal",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",

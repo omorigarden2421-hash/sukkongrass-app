@@ -158,7 +158,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "○",
+   "value": "×",
    "method": "判定",
    "sources": [
     "s20",
@@ -349,7 +349,7 @@
   "management_type_by_matching": "C 夏前切戻型",
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや強い 少し湿った場所を好むが高温時の蒸れに注意し通気よく（蒸れ 中 相当）\n[MBG/品種] Appreciates some part shade in hot summer climates.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら ○）\n[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや強い 少し湿った場所を好むが高温時の蒸れに注意し通気よく（蒸れ 中 相当）\n[MBG/品種] Appreciates some part shade in hot summer climates.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／NC State・種] Self-seeding may occur.\n[地下茎 1／NC State・種] In optimum growing conditions, plants of this species will slowly spread in the garden making it a good ground cover.\n[地下茎の食い違い] MBG は 0 相当",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Persicaria amplexicaulis , commonly known as mountain fleece or red bistort, is an herbaceous perennial that typically grows in a dense leafy mound to 3-4’ (infrequently to ",

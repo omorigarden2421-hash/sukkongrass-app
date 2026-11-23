@@ -132,10 +132,13 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "×",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "species",
+   "note": "日照（半日陰・日陰）から"
   },
   "drought": {
    "value": null,
@@ -291,7 +294,7 @@
   "management_type_by_matching": null,
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": null,
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら 空欄）",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": null,

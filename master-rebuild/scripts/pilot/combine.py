@@ -225,6 +225,15 @@ for m in master:
     lsun = d.get("日照")
     msun = (str(m.get("日照条件")).replace("～", "〜") if m.get("日照条件") else None)
     r["日照"] = msun or lsun
+    # 西日耐性は日照で変わる（半日陰・日陰なら ×、日向で耐暑性・乾燥耐性とも 強なら ◎）。2026-11-23 から、下書きの「西日耐性（日照ごと）」から
+    #   マスターの日照の値を選ぶ（明るい日陰は 半日陰 と同じ扱い）。文献の日照のときと変わったら、根拠に書く
+    wmap = dict(x.split(":", 1) for x in (d.get("西日耐性（日照ごと）") or "").split("；") if ":" in x)
+    wkey = "半日陰" if msun in ("半日陰", "明るい日陰") else msun
+    if msun and wkey in wmap:
+        wnew = None if wmap[wkey] == "空欄" else wmap[wkey]
+        if wnew != r["西日耐性"]:
+            r["暑さ・蒸れ・西日の根拠"] = "\n".join(x for x in (f"[日照] 今のマスターの日照（{msun}）で西日耐性を決め直した（文献の日照 {lsun} なら {r['西日耐性'] or '空欄'}）", r.get("暑さ・蒸れ・西日の根拠")) if x)
+            r["西日耐性"] = wnew
     pv = [l.split("=", 1)[1] for l in (d.get("項目の文献") or "").split("\n") if l.startswith("日照=")]
     r["日照（文献）"] = f"{lsun}（{pv[0]}）" if lsun and pv else lsun
     SR = {"日向": 0, "日向〜半日陰": 1, "半日陰": 2, "明るい日陰": 2, "日陰": 3}

@@ -164,14 +164,10 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "×",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s02",
-    "s06",
-    "s01"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "drought": {
    "value": "強",
@@ -360,7 +356,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": null,
   "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[MBG/種] Good air circulation and some morning sun help reduce incidence of foliar diseases.\n[NC State/種] Insects, Diseases, and Other Plant Problems:  This plant has some susceptibility to powdery mildew so give it good air circulation.\n[NC State/種] mproving drainage and good air circulation helps reduce the incidence of foliar diseases.\n[RHS/品種] Aspect: North-facing or West-facing or South-facing or East-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[MBG/種] Good air circulation and some morning sun help reduce incidence of foliar diseases.\n[NC State/種] Insects, Diseases, and Other Plant Problems:  This plant has some susceptibility to powdery mildew so give it good air circulation.\n[NC State/種] mproving drainage and good air circulation helps reduce the incidence of foliar diseases.\n[RHS/品種] Aspect: North-facing or West-facing or South-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] Woodland aster can grow to a mounding height of 3 feet and spread vigorously by rhizomes reaching its full growth in 2 to 5 years.",
   "mixing_evidence": "[NC State・種] Woodland aster can grow to a mounding height of 3 feet and spread vigorously by rhizomes reaching its full growth in 2 to 5 years.",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Mounding",

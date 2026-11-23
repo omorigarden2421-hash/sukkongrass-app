@@ -138,7 +138,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "×",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s06"
@@ -300,7 +300,7 @@
   "management_type_by_matching": null,
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[NC State/種] Flowering may decline and foliage may wilt in the heat of the summer.",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[NC State/種] Flowering may decline and foliage may wilt in the heat of the summer.",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Arching; Irregular; Rounded; Spreading",

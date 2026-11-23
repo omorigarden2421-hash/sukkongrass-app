@@ -481,7 +481,7 @@ def main():
     cols = ["ID", "商品番号", "植物名", "学名（マスター）", "学名（採用）", "学名（RHS）", "文献での表記", "和名", "花色（分類）", "花色（文献の語）", "株張り(cm)", "葉色（分類）", "日照",
             "USDA", "RHS 耐寒性", "原産地", "耐暑性", "蒸れ耐性", "西日耐性", "暑さ・蒸れ・西日の根拠", "乾燥耐性", "土壌水分", "常緑性", "増え方", "病害虫", "切り戻し", "繁殖", "紅葉", "文献の注意", "自社の観察", "切り花", "蜜源", "花色（自社の値）", "株張り（自社の値・cm）", "葉色（自社の値）",
             "品種ページのある文献", "使った文献", "空欄の数", "耐暑性の決め方", "耐暑性（欧米の文献だけなら）",
-            "蒸れ耐性（欧米の文献だけなら）", "西日耐性（おぎはらの暖地の日照を入れる前）", "乾燥耐性の出どころ", "耐暑性の信頼度", "日照（RHS）", "草丈（文献）", "花期（文献）",
+            "蒸れ耐性（欧米の文献だけなら）", "西日耐性（おぎはらの暖地の日照を入れる前）", "乾燥耐性の出どころ", "耐暑性の信頼度", "日照（RHS）", "草丈（文献）", "花期（文献）", "西日耐性（日照ごと）",
             "科名", "香り", "毒性", "pH・土質", "こぼれ種の量(0-3)", "地下茎で広がる程度(0-3)", "こぼれ種・地下茎の根拠",
             "NC State の Resistance To Challenges", "RHS の Drought Resistance", "夏前の切り戻し", "毎年〜2年ごとの更新", "切り戻し・更新の根拠",
             "成株シルエット", "成株シルエット（種の記述なら）", "成株シルエットの根拠", "葉の特徴", "葉の特徴（種の記述なら）", "耐潮性", "耐潮性の根拠",
@@ -649,23 +649,32 @@ def main():
         # 冬の寒さ・日ざしによる葉の傷み（scorch … winter）は西日の判定に使わない
         hot_text = " ".join(x.lower() for _, _, x in texts
                             if not ("scorch" in x.lower() and "winter" in x.lower() and not re.search(r"hot|heat|summer", x.lower())))
-        if sun in ("半日陰", "日陰") or re.search(r"scorch|leaf burn|afternoon sun is", hot_text):
-            west = "×"
-        elif aft or heat == "弱":
-            west = "△"
-        elif sun and sun.startswith("日向") and heat == "強" and drought == "強":
-            west = "◎"
-        elif heat in ("中", "強"):
-            west = "○"
-        else:
-            west = None
+        # 2026-11-23：日照ごとの西日耐性も出す（日照は今のマスターの値を使うので、combine.py がマスターの日照で選び直す）
+        def west_for(sun_, heat_=heat, drought_=drought, aspect=True):
+            if sun_ in ("半日陰", "日陰") or re.search(r"scorch|leaf burn|afternoon sun is", hot_text):
+                w_ = "×"
+            elif aft or heat_ == "弱":
+                w_ = "△"
+            elif sun_ and sun_.startswith("日向") and heat_ == "強" and drought_ == "強":
+                w_ = "◎"
+            elif heat_ in ("中", "強"):
+                w_ = "○"
+            else:
+                w_ = None
+            if aspect and rh and rh["f"].get("Aspect"):
+                asp_ = rh["f"]["Aspect"].replace("–", "-")
+                if "West-facing" not in asp_ and "South-facing" not in asp_:
+                    w_ = "×"
+                elif "West-facing" not in asp_ and w_ in (None, "○", "◎"):
+                    w_ = "△"
+            return w_
+        west_by_sun = {x: west_for(x) for x in ("日向", "日向〜半日陰", "半日陰")}
+        west = west_for(sun)
         if rh and rh["f"].get("Aspect"):
             asp = rh["f"]["Aspect"].replace("–", "-")
             if "West-facing" not in asp and "South-facing" not in asp:
-                west = "×"
                 why.append(f"[RHS/品種] Aspect: {asp}（西向き・南向きが入っていない）")
-            elif "West-facing" not in asp and west in (None, "○", "◎"):
-                west = "△"
+            elif "West-facing" not in asp and west_for(sun, aspect=False) in (None, "○", "◎"):
                 why.append(f"[RHS/品種] Aspect: {asp}（西向きが入っていない）")
             else:
                 why.append(f"[RHS/品種] Aspect: {asp}")
@@ -702,6 +711,7 @@ def main():
             if wo:
                 extra.append(f"[おぎはら楽天/{lab}] 日照 寒冷地: {sh['sun_cool']}／暖地: {sh['sun_warm']}（西日 {wo} 相当）")
                 west = _low(west, wo, RW)
+                west_by_sun = {k_: _low(v_, wo, RW) for k_, v_ in west_by_sun.items()}
             if do and not drought:
                 drought = do
                 r["乾燥耐性の出どころ"] = f"おぎはら楽天・{lab}（耐乾性: {sh['dry']}）"
@@ -712,6 +722,7 @@ def main():
             why[at:at] = extra
             r["耐暑性"], r["蒸れ耐性"], r["西日耐性"], r["乾燥耐性"] = heat, muggy, west, drought
             used.add("おぎはら")
+        r["西日耐性（日照ごと）"] = "；".join(f"{k_}:{v_ or '空欄'}" for k_, v_ in west_by_sun.items())
         # --- 耐暑性の信頼度（2026-11-21 の決定。マスターだけに持ち、通販ページには出さない）
         #   高＝おぎはらのページの値と欧米の文献の値が同じ、低＝同じ種の別品種から・属の記述だけ、中＝それ以外（品種か種のページが1つ、または両方あって値が違う）
         dm = r["耐暑性の決め方"] or ""

@@ -161,7 +161,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "△",
+   "value": "×",
    "method": "判定",
    "sources": [
     "s02",
@@ -359,7 +359,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "弱",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[MBG/品種] Foliage tends to burn in hot, dry, sunny summer conditions.\n[MBG/品種] Plants do not perform well in the deep South (south of USDA Zone 7).\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[MBG/品種] Foliage tends to burn in hot, dry, sunny summer conditions.\n[MBG/品種] Plants do not perform well in the deep South (south of USDA Zone 7).\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
   "spread_evidence": "[地下茎 2／NC State・種] Windflowers spread by rhizomes and make a good ground cover when given room to spread.",
   "mixing_evidence": "[NC State・種] Windflowers spread by rhizomes and make a good ground cover when given room to spread.",
   "silhouette_evidence": "[MBG・品種] 'Honorine Jobert' is a vigorous, fibrous-rooted, mounding, compact Japanese anemone hybrid cultivar which typically grows to 3-4' tall and spreads by creeping rhizomes.",

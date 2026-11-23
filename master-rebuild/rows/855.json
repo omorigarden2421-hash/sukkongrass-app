@@ -165,7 +165,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "×",
+   "value": "△",
    "method": "判定",
    "sources": [
     "s20",
@@ -353,7 +353,7 @@
   "management_type_by_matching": "C 夏前切戻型",
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] This is a cool weather plant.\n[MBG/品種] It dislikes dry soils and hot, humid summers.\n[MBG/品種] It is not recommended for planting south of USDA Zone 7 (some say Zone 6).\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or South-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；強\n[MBG/品種] This is a cool weather plant.\n[MBG/品種] It dislikes dry soils and hot, humid summers.\n[MBG/品種] It is not recommended for planting south of USDA Zone 7 (some say Zone 6).\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or South-facing",
   "spread_evidence": "[こぼれ種 1／MBG・品種] Plants will self-sow in the garden in optimum growing conditions.",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: halbkugelig / aufrechte Stängel mit grundständigem Blattschopf",

@@ -168,7 +168,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "×",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s20",
@@ -364,7 +364,7 @@
   "management_type_by_matching": "A 放任型",
   "heat_west_only": "中",
   "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[MBG/種] Plant foliage typically depreciates in the heat of hot summer climates.\n[NC State/種] It does less well in hot summer climates, which can cause problems for the foliage.\n[NC State/種] Cowslip primrose is considered the best primrose for southern gardens because it is more tolerant of heat and humidity than other types of primroses.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing or North-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；中\n[MBG/種] Plant foliage typically depreciates in the heat of hot summer climates.\n[NC State/種] It does less well in hot summer climates, which can cause problems for the foliage.\n[NC State/種] Cowslip primrose is considered the best primrose for southern gardens because it is more tolerant of heat and humidity than other types of primroses.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing or North-facing",
   "spread_evidence": "[こぼれ種 1／NC State・種] Because it spreads by self-seeding, you can merely wait for it to form colonies.",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping",

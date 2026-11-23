@@ -158,7 +158,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "×",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s02",
@@ -342,7 +342,7 @@
   "management_type_by_matching": "A 放任型",
   "heat_west_only": "強",
   "muggy_west_only": "強",
-  "heat_muggy_west_evidence": "[MBG/種] Tolerant of a wide range of growing conditions and soil types, including dry shade, occasional drought, moist, poorly draining clay soils, sandy soils, heat and humidity.\n[NC State/種] Grassland sedge tolerates full sun to partial or full shade and a wide range of soil conditions, from dry to boggy, as well as heat and humidity.\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[MBG/種] Tolerant of a wide range of growing conditions and soil types, including dry shade, occasional drought, moist, poorly draining clay soils, sandy soils, heat and humidity.\n[NC State/種] Grassland sedge tolerates full sun to partial or full shade and a wide range of soil conditions, from dry to boggy, as well as heat and humidity.\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／NC State・種] Given the right conditions, it will self-seed and naturalize in the landscape.\n[こぼれ種の食い違い] MBG は 3 相当",
   "mixing_evidence": "[MBG・種] Can self-seed aggressively under the right conditions.",
   "silhouette_evidence": "[NC State・種] Habit/Form: Arching; Clumping／イネ科・カヤツリグサ科",

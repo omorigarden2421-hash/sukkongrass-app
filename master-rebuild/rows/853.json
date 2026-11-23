@@ -167,7 +167,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "×",
+   "value": "△",
    "method": "判定",
    "sources": [
     "s02",
@@ -354,7 +354,7 @@
   "management_type_by_matching": "A 放任型",
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
-  "heat_muggy_west_evidence": "[MBG/種] Plants dislike high heat and humidity and often perform poorly south of USDA Zone 7.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[MBG/種] Plants dislike high heat and humidity and often perform poorly south of USDA Zone 7.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／MBG・種] May self-seed in optimum growing conditions.\n[こぼれ種の食い違い] stauden.de は 2 相当",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[MBG・種] Numerous flower stems rise in summer from the foliage mound to a height of 3’ bearing wide, airy panicles of tiny, purple to bronze flowers which form a cloud over the foliage that is attractive when ／イネ科・カヤツリグサ科",

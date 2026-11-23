@@ -162,7 +162,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "×",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s20",
@@ -354,7 +354,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "弱",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[MBG/種] Best performance occurs in cool summer climates where night temperatures consistently dip below 70F degrees, which unfortunately is a cultural preference that does not fit the profile of a typical St.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: North-facing or South-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；中\n[MBG/種] Best performance occurs in cool summer climates where night temperatures consistently dip below 70F degrees, which unfortunately is a cultural preference that does not fit the profile of a typical St.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: North-facing or South-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／MBG・種] In optimum growing conditions, plants will spread by stolons and/or self-seeding in a non-invasive manner to form colonies.\n[地下茎 2／MBG・種] Noteworthy Characteristics Astrantia major , commonly called greater masterwort, is an upright, umbelliferous, stoloniferous, herbaceous perennial (carrot family) that is native to mountain meadows, grasslands, woodland ",
   "mixing_evidence": null,
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte Stängel mit grundständigem Blattschopf",

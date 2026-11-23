@@ -144,7 +144,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "×",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s02"
@@ -318,7 +318,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[MBG/属] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[MBG/属] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.",
   "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／stauden.de・種] ausläufertreibend",
   "mixing_evidence": null,
   "silhouette_evidence": "（種の記述）[stauden.de・種] Wuchsform: flach, ausgebreitet",

@@ -136,7 +136,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "△",
+   "value": "×",
    "method": "判定",
    "sources": [
     "s06"
@@ -285,7 +285,7 @@
   "management_type_by_matching": null,
   "heat_west_only": "弱",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[NC State/種] Polyanthus requires a cool climate, moist organic soil, in full sun or partial shade.\n[NC State/種] Intense afternoon sun and hot temperatures can cause problems.",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（明るい日陰）で西日耐性を決め直した（文献の日照 None なら △）\n[NC State/種] Polyanthus requires a cool climate, moist organic soil, in full sun or partial shade.\n[NC State/種] Intense afternoon sun and hot temperatures can cause problems.",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping",

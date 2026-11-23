@@ -137,7 +137,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "○",
+   "value": "×",
    "method": "判定",
    "sources": [
     "s20"
@@ -305,7 +305,7 @@
   "management_type_by_matching": null,
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の 'Chocolate Wing'・図鑑の 'Bronze Peacock'・図鑑の 'Die Schone'・図鑑の 'Fireworks'）] 耐暑性；中（この品種のページはない。信頼度：低）",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら ○）\n[おぎはら/同じ種の別品種（図鑑の 'Chocolate Wing'・図鑑の 'Bronze Peacock'・図鑑の 'Die Schone'・図鑑の 'Fireworks'）] 耐暑性；中（この品種のページはない。信頼度：低）",
   "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Rodgersia pinnata is a bold, rhizomatous perennial with pinnately compound, basal leaves which appear palmate.",
   "mixing_evidence": null,
   "silhouette_evidence": "（種の記述）[MBG・種] Clusters of apetalous, creamy pink to red flowers appear in late spring to early summer in branched, astilbe-like panicles rising above the foliage mound to 3-4' tall.",

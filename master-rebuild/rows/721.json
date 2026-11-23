@@ -169,7 +169,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "△",
+   "value": "×",
    "method": "判定",
    "sources": [
     "s02",
@@ -361,7 +361,7 @@
   "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[MBG/種] Plants like full sun in northern areas but appreciate some part afternoon shade in hot summer climates.\n[RHS/品種] Aspect: South-facing or West-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[MBG/種] Plants like full sun in northern areas but appreciate some part afternoon shade in hot summer climates.\n[RHS/品種] Aspect: South-facing or West-facing",
   "spread_evidence": "[こぼれ種 1／NC State・種] This plant self-seeds and spreads aggressively by rhizomes, so it is best to grow in a container on a patio or deck where it is unlikely to escape into the landscape.\n[こぼれ種の食い違い] stauden.de は 2 相当\n[地下茎 3／NC State・種] This plant self-seeds and spreads aggressively by rhizomes, so it is best to grow in a container on a patio or deck where it is unlikely to escape into the landscape.",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・種] Habit/Form: Erect; Mounding; Multi-stemmed; Open",

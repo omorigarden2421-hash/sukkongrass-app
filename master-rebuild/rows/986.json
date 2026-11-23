@@ -141,10 +141,13 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "×",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "日照（半日陰・日陰）から"
   },
   "drought": {
    "value": "強",
@@ -304,7 +307,7 @@
   "management_type_by_matching": null,
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": null,
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら 空欄）",
   "spread_evidence": "[地下茎 1／MBG・品種] This plant slowly forms a clump about 8-12\" tall and 12-18\" wide.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] This plant slowly forms a clump about 8-12\" tall and 12-18\" wide.",

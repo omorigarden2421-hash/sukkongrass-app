@@ -162,7 +162,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "×",
+   "value": "△",
    "method": "判定",
    "sources": [
     "s02",
@@ -340,7 +340,7 @@
   "management_type_by_matching": null,
   "heat_west_only": "弱",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[MBG/種] Best performance occurs in cool sun-dappled shady areas.\n[MBG/種] Dislikes hot summer conditions.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[MBG/種] Best performance occurs in cool sun-dappled shady areas.\n[MBG/種] Dislikes hot summer conditions.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
   "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Polygonatum odoratum , commonly called fragrant Solomon's seal, is a rhizomatous, shade-loving perennial that typically grows to 18-24” tall on low, gracefully arching, angled (as opposed to cy",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・属] Habit/Form: Arching",

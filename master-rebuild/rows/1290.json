@@ -136,13 +136,10 @@
    "level": null
   },
   "west_sun": {
-   "value": "×",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s02"
-   ],
-   "level": "species",
-   "note": "日照（半日陰・日陰）から"
+   "sources": null,
+   "level": null
   },
   "drought": {
    "value": "中",
@@ -313,7 +310,7 @@
   "management_type_by_matching": null,
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": null,
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）",
   "spread_evidence": "[こぼれ種 1／NC State・種] The plant will spread by means of rhizomes or self-seeding and will form colonies in optimum growing conditions.\n[地下茎 2／NC State・種] The plant will spread by means of rhizomes or self-seeding and will form colonies in optimum growing conditions.",
   "mixing_evidence": null,
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Ascending; Broad; Mounding",

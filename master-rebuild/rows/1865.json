@@ -139,7 +139,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "△",
+   "value": "×",
    "method": "判定",
    "sources": [
     "s20",
@@ -306,7 +306,7 @@
   "management_type_by_matching": null,
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Hy03・図鑑の 'Limelight'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[NC State/種] It prefers morning sun and afternoon shade, neutral to acidic soil with good drainage, and is air pollution-tolerant and cold hardy.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[おぎはら/同じ種の別品種（Hy03・図鑑の 'Limelight'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[NC State/種] It prefers morning sun and afternoon shade, neutral to acidic soil with good drainage, and is air pollution-tolerant and cold hardy.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Arching; Cascading; Erect; Horizontal; Irregular; Multi-stemmed; Vase",

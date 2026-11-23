@@ -153,10 +153,12 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "×",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "drought": {
    "value": null,
@@ -335,7 +337,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or East-facing or West-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら 空欄）\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: kissenartig bis kissenbildend / buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",

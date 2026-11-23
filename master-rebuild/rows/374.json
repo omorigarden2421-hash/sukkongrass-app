@@ -154,10 +154,12 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "×",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "drought": {
    "value": "中",
@@ -339,7 +341,7 @@
   "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or East-facing or West-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら 空欄）\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
   "spread_evidence": "[こぼれ種 1／MBG・種] Problems Reed canary grass is a rhizomatous, self-seeding spreader that is difficult to control.\n[地下茎 3／NC State・種] Insects, Diseases, and Other Plant Problems:  It can spread aggressively.\n[地下茎の食い違い] MBG は 2 相当",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] Listed as invasive by the NC Invasive Plant Council and by many other states.",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Open",

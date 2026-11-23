@@ -158,7 +158,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "×",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s20",
@@ -349,7 +349,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（B01・B02）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/属] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.\n[NC State/種] In hot summer or periods of drought, the foliage may decline if the soil is not kept moist.\n[食い違い] 欧米の文献（属・種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: East-facing or West-facing or North-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/同じ種の別品種（B01・B02）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/属] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.\n[NC State/種] In hot summer or periods of drought, the foliage may decline if the soil is not kept moist.\n[食い違い] 欧米の文献（属・種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: East-facing or West-facing or North-facing",
   "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] Their root system is rhizomatous.",
   "mixing_evidence": null,
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: kissenartig bis kissenbildend / ausladend bis breitausladend / buschig, dichtbuschig bis lockerbuschig / aufrechte Stängel mit grundständigem Blattschopf",

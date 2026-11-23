@@ -41,7 +41,7 @@ for x in d:
     keep, drop = [], []
     for k, lk in [("草丈の食い違い", "草丈（文献）"), ("株張りの食い違い", "株張り（文献）"), ("花期の食い違い", "花期（文献）"),
                   ("日照の食い違い", "日照（文献）"), ("耐寒性の食い違い", None)]:
-        v = x.get(k)
+        v = (x.get(k) or "").split("。")[0]  # combine.py が後ろに足す「外した：…」「ユーザーの確認：…」は除く
         if not v:
             continue
         item = {"項目": k.replace("の食い違い", ""), "内容": v, "文献": x.get(lk) if lk else f"USDA 下限 {x.get('USDA 下限')}・RHS {x.get('RHS 耐寒性')}"}

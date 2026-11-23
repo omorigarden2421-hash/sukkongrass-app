@@ -166,7 +166,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "△",
+   "value": "×",
    "method": "判定",
    "sources": [
     "s20",
@@ -353,7 +353,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが、高温多湿は嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[MBG/種] Performs poorly in hot and humid summer climates.\n[NC State/種] It is intolerant of the hot and humid summers of the deep South and would do well in areas of shade in the afternoon during the hot summer months.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or West-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが、高温多湿は嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[MBG/種] Performs poorly in hot and humid summer climates.\n[NC State/種] It is intolerant of the hot and humid summers of the deep South and would do well in areas of shade in the afternoon during the hot summer months.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",

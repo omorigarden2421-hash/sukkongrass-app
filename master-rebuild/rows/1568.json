@@ -161,7 +161,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "×",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s20",
@@ -353,7 +353,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: 普 通 高温多湿は苦手です（蒸れ 中 相当）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: 普 通 高温多湿は苦手です（蒸れ 中 相当）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／Gaißmayer・種] Sät sich moderat aus ohne lästig zu werden.",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: kissenartig bis kissenbildend / buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",

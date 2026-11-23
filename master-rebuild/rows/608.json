@@ -149,7 +149,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "○",
+   "value": "×",
    "method": "判定",
    "sources": [
     "s20",
@@ -335,7 +335,7 @@
   "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら ○）\n[おぎはら/種] 耐暑性；強\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
   "spread_evidence": "[こぼれ種 1／NC State・種] The plant self-seeds and spreads by rhizome and can be propagated by root division and seed.\n[地下茎 3／NC State・種] Some cultivars may spread aggressively.",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Can be an aggressive spreader.",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",

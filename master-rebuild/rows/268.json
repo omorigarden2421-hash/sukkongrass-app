@@ -159,7 +159,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "△",
+   "value": "×",
    "method": "判定",
    "sources": [
     "s20",
@@ -337,7 +337,7 @@
   "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Plants prefer some part afternoon shade in the St.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（明るい日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[おぎはら/品種] 耐暑性；強\n[MBG/種] Plants prefer some part afternoon shade in the St.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[地下茎 2／MBG・種] Plants spread by creeping stems in optimum growing conditions to form large colonies.",
   "mixing_evidence": "[NC State・種] Creeping Jenny can be used in containers, hanging baskets,  or as a ground cover only where its invasive spread is not a concern.\n[NC State・種] It is not a good choice for borders or near lawns as it spreads too aggressively and is difficult to control.\n[MBG・種] This plant is considered invasive in some parts of the United States.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",

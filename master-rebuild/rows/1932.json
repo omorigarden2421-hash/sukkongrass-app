@@ -153,12 +153,10 @@
    "level": null
   },
   "west_sun": {
-   "value": "×",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s01"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "drought": {
    "value": "中",
@@ -341,7 +339,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": "[こぼれ種 1／Gaißmayer・種] Sät sich moderat aus ohne lästig zu werden.",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
