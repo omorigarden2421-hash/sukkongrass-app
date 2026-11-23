@@ -98,6 +98,14 @@ def main(path):
             if re.match(r"^\d+-(日照|耐寒性|花期|草丈|株張り)$", x):
                 db.setdefault("外したものの確認", {})[x] = {"日付": today}
                 n += 1
+    if "未決の確認の回答" in raw:  # 未決の学名の確認（2026-11-23）。「Fu05=C、Ep01=A（メモ）、Dg05=B」。表への反映は回答を見てから作る
+        body = line(raw[raw.index("未決の確認の回答"):], "未決の確認の回答")
+        if not body.startswith("（まだ"):
+            for x in split_top(body):
+                m = re.match(r"^(\w+)=([A-D])?(?:（(.*)）)?$", x)
+                if m:
+                    db.setdefault("未決", {})[m[1]] = {"選択": m[2], "メモ": m[3], "日付": today}
+                    n += 1
     if not n:
         sys.exit("回答の文が見つかりません（「暑さの確認の回答：」「剪定不要と花茎切りの回答」「食い違いの確認の回答：」で始まる文を貼ってください）")
     json.dump(db, open(OUT, "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=1)
