@@ -50,6 +50,15 @@ for r in ias_rows[1:]:
 REVIEW = {str(x["no"]): x for x in json.load(open("mgmt_review.json", encoding="utf-8"))} if os.path.exists("mgmt_review.json") else {}
 # 確認ページへのユーザーの回答（scripts/tools/apply_answers.py が作る）。文献より優先する
 ANS = json.load(open("user_answers.json", encoding="utf-8")) if os.path.exists("user_answers.json") else {"耐暑性": {}, "違うとの指摘": {}, "管理タイプ": {}}
+# 食い違いの回答は {"商品番号": {項目: {...}}}、外したものの確認は "商品番号-項目" のキー。ここでタプルに直す
+ANS.setdefault("食い違い", {})
+ANS["外したものの確認"] = {tuple(k.split("-", 1)) for k in ANS.get("外したものの確認", {})}
+# 食い違いの印の仕分け（scripts/tools/kuichigai_classify.py）。外したものの理由
+KR_DROP = {}
+if os.path.exists("kuichigai_review.json"):
+    for _x in json.load(open("kuichigai_review.json", encoding="utf-8")):
+        for _i in _x["外す"]:
+            KR_DROP[(str(_x["商品番号"]), _i["項目"])] = _i["外した理由"]
 
 
 def fmt_name(s):
@@ -262,6 +271,52 @@ for m in master:
             return {(x - 1 + i) % 12 + 1 for i in range((y - x) % 12 + 1)}
         if not (mset(a, b) & mset(c0, c1)):
             r["花期の食い違い"] = f"重ならない（文献 {a}〜{b}月／マスター {c0}〜{c1}月）"
+    # 食い違いの確認ページ（2026-11-23）の回答。M＝マスターのまま、B＝文献に合わせる、C＝メモの値。
+    #   回答がない印のうち、kuichigai_review.json で「外す」にしたものは、その理由を印の後ろに書く
+    for kk in ("日照", "耐寒性", "花期", "草丈", "株張り"):
+        col = kk + "の食い違い"
+        if not r.get(col):
+            continue
+        why = KR_DROP.get((no, kk))
+        if why:
+            r[col] += f"。外した（マスターのまま）：{why}"
+            if (no, kk) in ANS.get("外したものの確認", {}):
+                r[col] += "。【要見直し】ユーザーが確認したいと回答"
+        ua_ = ANS.get("食い違い", {}).get(no, {}).get(kk)
+        if not ua_:
+            continue
+        sel, memo = ua_.get("選択"), ua_.get("メモ")
+        tag = f"ユーザーの確認（{ua_['日付']}）"
+        done = False
+        if sel == "M":
+            r[col] += f"。{tag}：マスターのまま"
+            done = True
+        elif sel in ("B", "C"):
+            src = memo if sel == "C" else {"草丈": r["草丈（文献）"], "株張り": r["株張り（文献）"], "花期": r["花期（文献）"], "日照": r["日照（文献）"]}.get(kk)
+            src = str(src or "")
+            nums = [int(x) for x in re.findall(r"\d+", re.sub(r"（.*$", "", src))]
+            if kk in ("草丈", "株張り") and nums:
+                r[f"{kk} 最小(cm)"], r[f"{kk} 最大(cm)"] = nums[0], nums[-1]
+                done = True
+            elif kk == "花期" and nums and "月" in src:
+                r["花期 開始月"], r["花期 終了月"] = nums[0], nums[-1] if len(nums) > 1 else nums[0]
+                done = True
+            elif kk == "耐寒性":
+                cv_ = re.match(r"(中の強|中の弱|強|中|弱)", str(memo or ""))
+                if cv_:
+                    r["耐寒性"] = cv_[1]
+                    done = True
+            elif kk == "日照":
+                sv = re.match(r"(日向〜半日陰|半日陰〜日陰|日向|半日陰|明るい日陰|日陰)", src)
+                if sv:
+                    r["日照"] = sv[1]
+                    done = True
+            r[col] += f"。{tag}：" + ("文献に合わせた" if sel == "B" and done and kk != "耐寒性" else f"{r['耐寒性']} にした" if kk == "耐寒性" and done else f"メモの値にした（{memo}）" if done else
+                                       f"【要見直し】{'見直す' if sel == 'B' else '別の値'}と回答（自動では直せない）")
+        if memo and sel != "C":
+            r[col] += f"。備考：{memo}"
+        if not done and sel not in ("B", "C"):
+            r[col] += f"。【要見直し】回答：{sel or ''}（{memo}）"
     # 原産地（2026-11-23）: Jelitto の値がないときは Kew WCVP の自生地（kew_native.json。scripts/tools/kew_native.py）。
     #   種の分布なので、品種でも「種の原産地」。交配種は Kew の交配式
     kn = KN.get(no, {})
@@ -319,7 +374,7 @@ for m in master:
     if rv and not (mt or "").startswith("E") and (r.get("混植適性") or "").startswith("侵略的"):
         r["混植適性"] = "強い（周囲を圧迫、配置注意）"
         r["混植適性の根拠"] += "\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた"
-    cold = m.get("耐寒性")
+    cold = r["耐寒性"]  # 食い違いの確認の回答で変わることがある
     heat = d.get("耐暑性")
     uh = ANS["耐暑性"].get(no)
     if uh:

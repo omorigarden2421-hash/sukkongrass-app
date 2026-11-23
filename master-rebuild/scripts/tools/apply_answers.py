@@ -1,4 +1,4 @@
-"""確認ページ（暑さ・剪定）の「回答の文」を読み、user_answers.json に入れる。combine.py がこれを読んで、まとめの表に反映する。
+"""確認ページ（暑さ・剪定・文献との食い違い）の「回答の文」を読み、user_answers.json に入れる。combine.py がこれを読んで、まとめの表に反映する。
 
 使い方: 回答の文をテキストファイルに貼って保存し、
   python scripts/tools/apply_answers.py 回答.txt   （master-rebuild で実行）
@@ -15,6 +15,21 @@ OUT = os.path.join(HERE, "..", "..", "user_answers.json")
 QMAP = json.load(open(os.path.join(HERE, "heat_page_map.json"), encoding="utf-8"))  # 暑さのページの問題番号 → 商品番号
 HEAT = {"A": "強", "B": "中", "C": "弱"}  # A 強 のまま・B 中 にする・C 弱 にする
 today = datetime.date.today().isoformat()
+
+
+def split_top(s):
+    """読点で切る。全角の括弧の中の読点では切らない"""
+    out, depth, cur = [], 0, ""
+    for ch in s:
+        depth += ch == "（"
+        depth -= ch == "）"
+        if ch == "、" and depth == 0:
+            out.append(cur.strip())
+            cur = ""
+        else:
+            cur += ch
+    out.append(cur.strip())
+    return [x for x in out if x]
 
 
 def items(s):
@@ -70,8 +85,21 @@ def main(path):
             for no, _, _ in items(line(text, head)):
                 db["管理タイプ"][no] = {"値": v, "備考": memos.get(no), "日付": today, "ページ": "剪定不要と花茎切りの確認"}
                 n += 1
+    if "食い違いの確認の回答" in raw:  # 文献との食い違いの確認（2026-11-23）。「25-草丈M、45-株張りC（40〜50）」
+        text = raw[raw.index("食い違いの確認の回答"):]
+        body = line(text, "食い違いの確認の回答")
+        if not body.startswith("（まだ"):
+            for x in split_top(body):
+                m = re.match(r"^(\d+)-(日照|耐寒性|花期|草丈|株張り)([MBC])?(?:（(.*)）)?$", x)
+                if m:
+                    db.setdefault("食い違い", {}).setdefault(m[1], {})[m[2]] = {"選択": m[3], "メモ": m[4], "日付": today}
+                    n += 1
+        for x in split_top(line(text, "外したもののうち確認したいもの")):
+            if re.match(r"^\d+-(日照|耐寒性|花期|草丈|株張り)$", x):
+                db.setdefault("外したものの確認", {})[x] = {"日付": today}
+                n += 1
     if not n:
-        sys.exit("回答の文が見つかりません（「暑さの確認の回答：」か「剪定不要と花茎切りの回答」で始まる文を貼ってください）")
+        sys.exit("回答の文が見つかりません（「暑さの確認の回答：」「剪定不要と花茎切りの回答」「食い違いの確認の回答：」で始まる文を貼ってください）")
     json.dump(db, open(OUT, "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=1)
     print("入れた件数:", n, {k: len(v) for k, v in db.items()})
 

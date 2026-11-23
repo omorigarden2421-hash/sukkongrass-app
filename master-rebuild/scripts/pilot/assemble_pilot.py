@@ -252,6 +252,13 @@ def lit_height_bloom(w, m, mlv, s, slv, rh, is_cv):
     hs = [x for x in (w["f"].get("Height", []) if w else []) if "cm" in x]
     mh = re.search(r"([\d.]+) to ([\d.]+) feet", m["f"].get("Height", "")) if m else None
     sh = (s["f"].get("Blüten-Höhe von") or s["f"].get("Wuchs-Höhe von"), s["f"].get("Blüten-Höhe bis") or s["f"].get("Wuchs-Höhe bis")) if s else (None, None)
+    # stauden.de は品種のページにも、種・属から引き継いだ値が載る（値ごとに "cultivar"／"species"／"genus" の印）。
+    #   2026-11-23：その印で文献の段階を決める（品種のページでも、印が species なら 種 の値として扱う）。
+    #   "cultivar" はそのページ自身の値（種のページでも cultivar と付く）なので、ページの段階のまま
+    LV = {"cultivar": slv, "species": "種", "genus": "属"}
+    shl = slv
+    if sh[0] or sh[1]:
+        shl = LV.get((sh[0] or sh[1])[0][1], slv)
     sh = (sh[0][0][0] if sh[0] else None, sh[1][0][0] if sh[1] else None)
     cands = []
     if hs:
@@ -259,7 +266,7 @@ def lit_height_bloom(w, m, mlv, s, slv, rh, is_cv):
     if mh:
         cands.append((1 if mlv == "品種" else 3, f"{round(float(mh[1]) * 30.48)}〜{round(float(mh[2]) * 30.48)}（MBG・{mlv}）"))
     if sh[0] or sh[1]:
-        cands.append((2 if slv == "品種" else 4, "〜".join(x for x in dict.fromkeys(sh) if x) + f"（stauden.de・{slv}）"))
+        cands.append((2 if shl == "品種" else 4, "〜".join(x for x in dict.fromkeys(sh) if x) + f"（stauden.de・{shl}）"))
     if rh and rh["f"].get("Max Height"):
         mm = re.search(r"([\d.]+)-([\d.]+) metre", rh["f"]["Max Height"].replace("–", "-"))
         if mm:
@@ -277,7 +284,8 @@ def lit_height_bloom(w, m, mlv, s, slv, rh, is_cv):
     if sv and MON_DE.get(sv[0][0]):
         a = MON_DE[sv[0][0]]
         b = MON_DE.get(sb[0][0], a) if sb else a
-        bc.append((0 if slv == "品種" else 2, f"{a}〜{b}月（stauden.de・{slv}。ドイツ）" if a != b else f"{a}月（stauden.de・{slv}。ドイツ）"))
+        bl_ = LV.get(sv[0][1], slv)  # 花期も値ごとの印で段階を決める
+        bc.append((0 if bl_ == "品種" else 2, f"{a}〜{b}月（stauden.de・{bl_}。ドイツ）" if a != b else f"{a}月（stauden.de・{bl_}。ドイツ）"))
     if mb and mb[1] in MON_EN and mb[2] in MON_EN:
         bc.append((1 if mlv == "品種" else 3, f"{MON_EN[mb[1]]}〜{MON_EN[mb[2]]}月（MBG・{mlv}。セントルイス）"))
     elif mb1 and mb1[1] in MON_EN:
