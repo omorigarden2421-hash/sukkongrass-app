@@ -210,12 +210,12 @@
    "level": null
   },
   "native_range": {
-   "value": "ヨーロッパ・コーカサス・ウクライナの、石灰質でやせた草地・乾いた草原・斜面（種の原産地）",
+   "value": "ヨーロッパ・コーカサス・ウクライナの、石灰質でやせた草地・乾いた草原・斜面",
    "method": "記載",
    "sources": [
     "s11"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "spread_modes": {
    "value": [

@@ -190,12 +190,12 @@
    "level": "species"
   },
   "native_range": {
-   "value": "ロシア極東、日本（種の原産地）",
+   "value": "東アジアとシベリアの湿った草地・川岸・林のふち",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

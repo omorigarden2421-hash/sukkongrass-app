@@ -195,12 +195,12 @@
    "level": null
   },
   "native_range": {
-   "value": "園芸で作られたもの",
+   "value": "北アメリカ西部の草原（種の原産地）",
    "method": "記載",
    "sources": [
     "s11"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "spread_modes": {
    "value": [

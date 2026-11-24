@@ -217,12 +217,12 @@
    "level": null
   },
   "native_range": {
-   "value": "西ヨーロッパからドイツ東部の明るい林・林のふち（種の原産地）",
+   "value": "西ヨーロッパ（種の原産地）",
    "method": "記載",
    "sources": [
     "s11"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "spread_modes": {
    "value": [

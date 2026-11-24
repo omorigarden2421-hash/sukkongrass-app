@@ -193,12 +193,12 @@
    "level": "cultivar"
   },
   "native_range": {
-   "value": "アメリカ",
+   "value": "アメリカ（テネシー州・メリーランド州からフロリダ州）",
    "method": "記載",
    "sources": [
     "s11"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "spread_modes": {
    "value": [

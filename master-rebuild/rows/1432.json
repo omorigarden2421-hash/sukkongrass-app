@@ -207,12 +207,12 @@
    "level": null
   },
   "native_range": {
-   "value": "カナダ南部、アメリカ中北部、アメリカ北東部、アメリカ中南部、アメリカ南東部（種の原産地）",
+   "value": "北アメリカ東部の湿った草地・川岸・林のふち",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

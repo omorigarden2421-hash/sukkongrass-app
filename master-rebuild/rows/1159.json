@@ -189,12 +189,12 @@
    "level": "species"
   },
   "native_range": {
-   "value": "ヨーロッパから西シベリアの、湿った草地・池のふち・川岸（種の原産地）",
+   "value": "ヨーロッパから西シベリアの、湿った草地・池のふち・川岸",
    "method": "記載",
    "sources": [
     "s11"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "spread_modes": {
    "value": [

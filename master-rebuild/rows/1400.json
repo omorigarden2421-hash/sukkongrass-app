@@ -214,12 +214,12 @@
    "level": null
   },
   "native_range": {
-   "value": "アメリカ中部の一部、カナダのオンタリオ・ケベック",
+   "value": "アメリカ東部",
    "method": "記載",
    "sources": [
     "s11"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "spread_modes": {
    "value": [

@@ -44,8 +44,13 @@ for r in ias_rows[1:]:
     if d.get("商品番号"):
         ias[str(d["商品番号"])] = d
 # リストの学名（種）ごと。品種名・変種の書き方の違いは見ない（種で当てる）
-IAS_SP = {" ".join(re.sub(r"'.*$", "", str(d_["リストの学名"] or "")).replace("×", "x").split()[:2]): d_ for d_ in ias.values()
-          if len(str(d_["リストの学名"] or "").split()) >= 2}
+def sp_key(name):
+    """学名 → 「属 種小名」（交配の印 x・× と品種名は除く）。種小名がなければ None"""
+    w = [x for x in re.sub(r"'.*$", "", str(name or "")).split() if x not in ("x", "×")]
+    return " ".join(w[:2]) if len(w) >= 2 and re.fullmatch(r"[a-z-]+", w[1]) else None
+
+
+IAS_SP = {sp_key(d_["リストの学名"]): d_ for d_ in ias.values() if sp_key(d_["リストの学名"])}
 
 
 # 管理タイプの見直し（2026-11-21）: 品種ごとに、切り戻し・手入れの文を読んで決め直した結果（mgmt_review.json。商品番号 → type・codes・confidence・reason・quote）。
@@ -237,7 +242,12 @@ for m in master:
     z = re.match(r"(\d+)〜(\d+)", str(d.get("USDA") or ""))
     ia = ias.get(no)
     if not ia and g and ep:  # 2026-11-24（矛盾の洗い出し）: 学名を直した結果、リストの種と同じ種になった品種にも当てる（アスター 'Prof. Anton Kippenberg' → ユウゼンギク）
-        ia = IAS_SP.get(f"{g} {ep}".replace("× ", "x "))
+        ia = IAS_SP.get(sp_key(f"{g} {ep}"))
+    ias_note = None
+    if ia and sp_key(ia["リストの学名"]) != sp_key(adopted):
+        # 2026-11-24: リストは元のマスターの学名で当ててあった。正名（RHS）の種がリストの種と違えば当てない（クロコスミア 'Lucifer'：RHS は種小名なしの Crocosmia 'Lucifer'）
+        ias_note = f"掲載なし（元のマスターの学名ではリストの {ia['リストの学名']}（{ia.get('カテゴリ')}）に当たっていたが、正名 {adopted} はその種ではない。同じ属の園芸品種）"
+        ia = None
     r = {
      "商品番号": m["商品番号"], "植物名": fmt_name(m["植物名"]), "学名（正名）": adopted, "属": g, "種小名": ep, "品種名": cv,
      "旧学名・別名": fmt_name(m["学名"]) if re.sub(r"[^a-z]", "", fmt_name(m["学名"]).lower()) != re.sub(r"[^a-z]", "", adopted.lower()) else None,
@@ -249,7 +259,7 @@ for m in master:
      "耐暑性": d.get("耐暑性"), "蒸れ耐性": d.get("蒸れ耐性"), "暑さ・蒸れの注意": d.get("文献の注意"), "西日耐性": d.get("西日耐性"),
      "乾燥耐性": d.get("乾燥耐性"), "土壌水分": d.get("土壌水分"), "常緑性": d.get("常緑性"), "原産地": d.get("原産地"), "増え方": d.get("増え方"),
      "外来種リスト": (f"{ia.get('カテゴリ')}（{ia.get('リストの和名')}）" + (f"／特定外来生物: {ia['特定外来生物']}" if ia.get("特定外来生物") not in (None, "なし") else "")
-                if ia else "掲載なし"),
+                if ia else ias_note or "掲載なし"),
      "主な病害虫": d.get("病害虫"), "切り戻しの方法": d.get("切り戻し"), "繁殖方法": d.get("繁殖"),
      "切り花適性": d.get("切り花"), "蜜源価値": d.get("蜜源"),
      "科名": d.get("科名"), "香り": d.get("香り"), "毒性": d.get("毒性"), "pH・土質": d.get("pH・土質"), "こぼれ種の量(0-3)": d.get("こぼれ種の量(0-3)"),
@@ -557,6 +567,24 @@ for m in master:
               "機能用途タグ": "、".join(tags) or None, "デザイン系タグ": "、".join(dz) or None, "リスクタグ": "、".join(risk) or None})
     rows.append(r)
 assert not miss, miss
+# 原産地を同じ種の中でそろえる（2026-11-24 ユーザー：「jelittoに合わせて」）。同じ種（属＋種小名）の商品のどれかに Jelitto の原産地があれば、
+# その種の全部の商品を Jelitto の値にする（いちばん多い値。種のページの値を先に。「園芸で作られた」「交配」など品種の生まれの話は種の原産地ではないので使わない）。
+# Jelitto の値がない種は今のまま（Kew の自生地）
+_grp = {}
+for r in rows:
+    k = sp_key(f"{r['属']} {r['種小名']}") if r.get("種小名") else None
+    if k:
+        _grp.setdefault(k, []).append(r)
+for k, rs in _grp.items():
+    cand = [(0 if "Jelitto・種" in r["原産地"] else 1, re.sub(r"（Jelitto・(品種|種)）$", "", r["原産地"])) for r in rs
+            if r.get("原産地") and re.search(r"（Jelitto・(品種|種)）$", r["原産地"]) and not re.search(r"園芸|交配", r["原産地"])]
+    if not cand:
+        continue
+    best = min(cand, key=lambda c: (c[0], -sum(1 for c2 in cand if c2[1] == c[1])))
+    for r in rs:
+        if re.sub(r"（Jelitto・(品種|種)）$", "", r.get("原産地") or "") != best[1]:
+            r["項目の文献"] = "\n".join(x for x in (r.get("項目の文献"), f"原産地=Jelitto（同じ種の別の商品のページから。前：{r.get('原産地') or '空欄'}）") if x)
+            r["原産地"] = best[1] + "（Jelitto・種。同じ種の別の商品のページから）"
 wb = openpyxl.Workbook()
 ws = wb.active
 ws.title = f"マスター（下書き{len(rows)}品種）"
@@ -626,4 +654,4 @@ sheet("この表について", ["説明"], [[x] for x in [
 wb.save(OUT)
 print("品種", len(rows), "/ 元のマスター", len(master), "根拠", len(ev), "学名の検討", len(nm))
 print("値のある品種（主な列）:", {c: filled[c] for c in ("学名（正名）", "和名", "花色（分類）", "株張り 最小(cm)", "葉色（分類）", "日照", "USDA 下限", "耐暑性", "蒸れ耐性", "西日耐性", "乾燥耐性", "土壌水分", "常緑性", "原産地", "増え方", "主な病害虫", "切り戻しの方法", "繁殖方法", "切り花適性", "蜜源価値", "花期 開始月", "草丈 最大(cm)", "景観構成用途")})
-print("外来種リスト: 掲載なし以外", sum(1 for r in rows if r["外来種リスト"] != "掲載なし"))
+print("外来種リスト: 掲載なし以外", sum(1 for r in rows if not r["外来種リスト"].startswith("掲載なし")))

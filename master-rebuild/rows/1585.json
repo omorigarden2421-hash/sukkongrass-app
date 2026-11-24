@@ -210,12 +210,12 @@
    "level": null
   },
   "native_range": {
-   "value": "中国、日本・朝鮮半島・台湾・南西諸島・小笠原諸島、インドシナ、マレーシア地域、オーストラリア（種の原産地）",
+   "value": "東アジア",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

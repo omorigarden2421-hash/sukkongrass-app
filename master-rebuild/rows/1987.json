@@ -213,12 +213,12 @@
    "level": null
   },
   "native_range": {
-   "value": "アメリカ中部のグレートプレーンズ（種の原産地）",
+   "value": "アメリカ中西部",
    "method": "記載",
    "sources": [
     "s11"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "spread_modes": {
    "value": [

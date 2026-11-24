@@ -193,12 +193,12 @@
    "level": "species"
   },
   "native_range": {
-   "value": "カナダ南部、アメリカ合衆国の全域、メキシコ、中央アメリカ、カリブ海（種の原産地）",
+   "value": "北アメリカ",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

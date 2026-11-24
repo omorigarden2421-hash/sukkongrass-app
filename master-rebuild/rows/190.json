@@ -210,12 +210,12 @@
    "level": null
   },
   "native_range": {
-   "value": "アメリカ南西部、アメリカ中南部、メキシコ（種の原産地）",
+   "value": "アメリカのアリゾナ・ニューメキシコ（種の原産地）",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

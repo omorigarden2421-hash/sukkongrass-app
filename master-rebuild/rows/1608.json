@@ -184,12 +184,12 @@
    "level": null
   },
   "native_range": {
-   "value": "ヨーロッパのほぼ全域・地中海沿岸・西アジアの乾いた草地、林のふち（種の原産地）",
+   "value": "ヨーロッパ",
    "method": "記載",
    "sources": [
     "s11"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "spread_modes": {
    "value": [

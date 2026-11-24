@@ -214,12 +214,12 @@
    "level": null
   },
   "native_range": {
-   "value": "ヨーロッパからシベリアの草地・牧草地・荒れ地・乾いた草原・道ばた（種の原産地）",
+   "value": "ヨーロッパからシベリアの草地・牧草地・荒れ地・乾いた草原・道ばた",
    "method": "記載",
    "sources": [
     "s11"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "spread_modes": {
    "value": [

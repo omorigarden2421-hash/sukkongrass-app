@@ -214,12 +214,12 @@
    "level": null
   },
   "native_range": {
-   "value": "中国、インド亜大陸（種の原産地）",
+   "value": "ヒマラヤ",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

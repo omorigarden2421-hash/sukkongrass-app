@@ -187,12 +187,12 @@
    "level": "species"
   },
   "native_range": {
-   "value": "中央ヨーロッパ、南東ヨーロッパ、東ヨーロッパ、コーカサス、西アジア（種の原産地）",
+   "value": "中央ヨーロッパ、バルカン、東ヨーロッパ〜東シベリアのやせた草地・林縁",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

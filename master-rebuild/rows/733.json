@@ -248,15 +248,13 @@
    "level": "cultivar"
   },
   "invasive_note": {
-   "value": "環境省の外来種リストに掲載（防除検討外来種（ヒメヒオウギズイセン（ヒメヒオオギズイセン、モントブレチア、クロコスミア）））",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s05"
-   ],
+   "sources": null,
    "level": null
   },
   "ias_list": {
-   "value": "防除検討外来種（ヒメヒオウギズイセン（ヒメヒオオギズイセン、モントブレチア、クロコスミア））",
+   "value": "掲載なし（元のマスターの学名ではリストの Crocosmia x crocosmiiflora（防除検討外来種）に当たっていたが、正名 Crocosmia 'Lucifer' はその種ではない。同じ属の園芸品種）",
    "method": "記載",
    "sources": [
     "s05"

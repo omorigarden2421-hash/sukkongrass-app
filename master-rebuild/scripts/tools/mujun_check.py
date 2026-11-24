@@ -130,7 +130,7 @@ for x in R:
         add("B形2", "成株シルエットが「グラス」なのに、イネ科・カヤツリグサ科などではない", "B", x, ["成株シルエット", "科名", "成株シルエットの根拠"])
     if re.search(r"Poaceae|Cyperaceae", v(x, "科名") or "") and sil and sil not in ("グラス", "直立", "マット", "アーチ"):
         add("B形3", "イネ科・カヤツリグサ科なのに、成株シルエットが グラス・直立・マット・アーチ 以外", "B", x, ["成株シルエット", "科名", "成株シルエットの根拠"])
-    if v(x, "外来種リスト") and v(x, "外来種リスト") != "掲載なし" and not (mt.startswith("E") or mix.startswith(("侵略的", "強い")) or "要管理" in risk):
+    if v(x, "外来種リスト") and not v(x, "外来種リスト").startswith("掲載なし") and not (mt.startswith("E") or mix.startswith(("侵略的", "強い")) or "要管理" in risk):
         add("B外来1", "外来種リストに載っているのに、要管理・隔離推奨のどれでもない", "B", x, ["外来種リスト", "管理タイプ", "混植適性", "リスクタグ"])
     if v(x, "耐潮性") == "×" and "海辺向き" in tags:
         add("B潮1", "耐潮性 × なのに「海辺向き」", "B", x, ["耐潮性", "機能用途タグ"])

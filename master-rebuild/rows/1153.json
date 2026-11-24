@@ -212,12 +212,12 @@
    "level": null
   },
   "native_range": {
-   "value": "中国、台湾、インドシナ（種の原産地）",
+   "value": "中国中部",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

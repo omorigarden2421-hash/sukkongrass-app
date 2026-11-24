@@ -211,12 +211,12 @@
    "level": null
   },
   "native_range": {
-   "value": "ヨーロッパ全域、北アフリカ、コーカサス、西アジア（種の原産地）",
+   "value": "ヨーロッパ、イラン、コーカサス",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

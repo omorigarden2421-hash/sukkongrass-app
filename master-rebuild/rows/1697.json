@@ -193,12 +193,12 @@
    "level": "species"
   },
   "native_range": {
-   "value": "北ヨーロッパ、中央ヨーロッパ、南西ヨーロッパ、北アフリカ（種の原産地）",
+   "value": "西ヨーロッパ（種の原産地）",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

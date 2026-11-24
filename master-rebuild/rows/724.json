@@ -188,12 +188,12 @@
    "level": null
   },
   "native_range": {
-   "value": "ヨーロッパ・アジア・中東のやせた草地・斜面・林縁（種の原産地）",
+   "value": "ヨーロッパ・アジア・中東の乾いた草地・斜面・道ばた（種の原産地）",
    "method": "記載",
    "sources": [
     "s11"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "spread_modes": {
    "value": null,

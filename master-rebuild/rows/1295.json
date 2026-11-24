@@ -207,12 +207,12 @@
    "level": null
   },
   "native_range": {
-   "value": "ヨーロッパ全域、シベリア、ロシア極東、中央アジア、コーカサス、西アジア、中国、モンゴル、日本・朝鮮半島（種の原産地）",
+   "value": "ヨーロッパの草地や、石の多い石灰質のやや乾いた草原",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

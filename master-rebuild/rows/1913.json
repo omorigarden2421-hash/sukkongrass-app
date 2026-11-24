@@ -187,12 +187,12 @@
    "level": null
   },
   "native_range": {
-   "value": "ヨーロッパ全域、シベリア、中央アジア、コーカサス、西アジア、中国、モンゴル（種の原産地）",
+   "value": "ヨーロッパ・ユーラシアの草地、道ばた、林のふち、川岸（種の原産地）",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

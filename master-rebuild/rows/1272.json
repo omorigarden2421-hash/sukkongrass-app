@@ -201,12 +201,12 @@
    "level": null
   },
   "native_range": {
-   "value": "カナダ東部、アメリカ中北部、アメリカ北東部、アメリカ南東部（種の原産地）",
+   "value": "アメリカのテネシーからウィスコンシン、東はニューイングランド（種の原産地）",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

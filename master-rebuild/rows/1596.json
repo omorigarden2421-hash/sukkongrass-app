@@ -190,12 +190,12 @@
    "level": "cultivar"
   },
   "native_range": {
-   "value": "アメリカのカンザス州・ネブラスカ州",
+   "value": "アメリカの南部大平原（オクラホマ・カンザス・ミズーリ州）",
    "method": "記載",
    "sources": [
     "s11"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "spread_modes": {
    "value": [

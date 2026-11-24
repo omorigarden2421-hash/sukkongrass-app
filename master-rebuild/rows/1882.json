@@ -207,12 +207,12 @@
    "level": null
   },
   "native_range": {
-   "value": "北アメリカから中央アメリカ（種の原産地）",
+   "value": "北アメリカ",
    "method": "記載",
    "sources": [
     "s11"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "spread_modes": {
    "value": [

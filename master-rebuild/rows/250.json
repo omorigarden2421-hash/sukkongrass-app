@@ -197,12 +197,12 @@
    "level": null
   },
   "native_range": {
-   "value": "アメリカ北西部、アメリカ南西部、アメリカ中南部、メキシコ（種の原産地）",
+   "value": "北アメリカ南部の畑の縁や明るい林（種の原産地）",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [

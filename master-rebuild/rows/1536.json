@@ -190,12 +190,12 @@
    "level": "species"
   },
   "native_range": {
-   "value": "カナダ西部、アメリカ中北部、アメリカ北東部、アメリカ南西部、アメリカ中南部、アメリカ南東部、メキシコ（種の原産地）",
+   "value": "アメリカ東部からカンザス州東部の林の斜面・湿ったやぶ",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [
