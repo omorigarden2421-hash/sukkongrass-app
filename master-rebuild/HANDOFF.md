@@ -819,7 +819,8 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - 結果を `color_reread.json`（商品番号 → 花色・決め手・食い違い・確かさ 高567・中289・低60・メモ）に置き、combine.py が 花色（分類）に使う。「花色の根拠」の列を足した（決め手・前の値・食い違い）。花色（詳細）が空なら決め手の語を入れる
 - 決め手の文献：Walters 361・RHS 244・Gaißmayer 133・stauden.de（cultivar）107・MBG 12・値なし 59
 - 変わった数（1124g → 1124h）：花色（分類）245（空欄 → 値 が多い。値のある品種 690 → 853）、花色（詳細）116
-- 今のマスターと重ならない29品種（mujun.json の D花色）の多くは stauden.de（cultivar）だけで決まったもの（'Warley White' が青紫、'White Bells' が紫、'Monstrosa White' が赤紫など。品種名とも合わない）。stauden.de の cultivar の印の花色が種の値の取り違えのおそれがある。ユーザーに扱いを確認中
+- 今のマスターと重ならない29品種（mujun.json の D花色）の多くは stauden.de（cultivar）だけで決まったもの（'Warley White' が青紫、'White Bells' が紫、'Monstrosa White' が赤紫など。品種名とも合わない）。stauden.de の cultivar の印の花色が種の値の取り違えのおそれがある。
+- ユーザーの決定（おすすめ：空欄）を反映 → `新マスター_下書き_916品種_1124i.xlsx`。stauden.de だけで決まり、今のマスターの花色と重ならない25品種の花色（分類）・花色（詳細）を空欄にした（花色の根拠に「[空欄に戻した]」）。花色（分類）の入った品種は 853 → 828。mujun の D花色は 29 → 4（残りは Walters・RHS などで決まったもの）
 - まとめの表 `ClaudeWork/新マスター_下書き_916品種_1124h.xlsx`（最新）。rows も作り直した
 
 ## 次にやること（全部の属の下書きが終わった）

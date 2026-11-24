@@ -33,22 +33,16 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": "purpurrot（Blüten-Farbgruppe rot, purpur）",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
+   "sources": null,
    "level": null
   },
   "flower_color_class": {
-   "value": [
-    "赤",
-    "青・紫"
-   ],
+   "value": null,
    "method": "記載",
    "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
+   "level": null
   },
   "spread_min": {
    "value": 40,

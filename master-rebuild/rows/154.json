@@ -35,21 +35,16 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": "zart-rosa",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
+   "sources": null,
    "level": null
   },
   "flower_color_class": {
-   "value": [
-    "ピンク"
-   ],
+   "value": null,
    "method": "記載",
    "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "level": null
   },
   "spread_min": {
    "value": 60,

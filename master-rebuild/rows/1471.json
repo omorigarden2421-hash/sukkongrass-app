@@ -31,21 +31,16 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": "weiß",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
+   "sources": null,
    "level": null
   },
   "flower_color_class": {
-   "value": [
-    "白"
-   ],
+   "value": null,
    "method": "記載",
    "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、stauden.de）"
+   "level": null
   },
   "spread_min": {
    "value": 100,

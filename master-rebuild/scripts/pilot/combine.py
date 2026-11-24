@@ -137,6 +137,8 @@ MIX_STRONG_NOWAY = {
     "1135": "NC State・種「逃げ出した雑草（escaped weed）」とあるが、どう広がるかは書いていない。強い（配置注意）",
 }
 # 花色（分類）の総当たりの読み直し（2026-11-24。商品番号 → 花色・決め手・食い違い・確かさ・メモ。scripts/tools/color_reread_note.md）
+SD_COLOR = [("白", "白"), ("ピンク", "ピンク|桃|ローズ|赤紫"), ("青・紫", "青|紫|藤|ラベンダー|すみれ"), ("黄", "黄|クリーム|レモン|ｸﾘｰﾑ"), ("赤", "赤|紅|緋|ワイン|ﾜｲﾝ"),
+            ("オレンジ・アプリコット", "オレンジ|橙|アプリコット|杏|サーモン|銅")]
 COLOR_RR = json.load(open("color_reread.json", encoding="utf-8")) if os.path.exists("color_reread.json") else {}
 MIX_FIX = {"1524": "環境省の外来種リスト（第２版）の防除検討外来種（シロガネヨシ）。MBG・種「暖かい冬の地域でこぼれ種で侵略的に増える」。侵略的・隔離推奨型"}
 # 食い違いの印の仕分け（scripts/tools/kuichigai_classify.py）。外したものの理由
@@ -536,6 +538,13 @@ for m in master:
             cw.append(f"前の値：{cold_ or '空欄'}。{crr.get('メモ') or ''}")
         if crr.get("食い違い"):
             cw.append(f"[食い違い] {crr['食い違い']}")
+        # stauden.de だけで決まり、今のマスターの花色と重ならないときは空欄（2026-11-24 ユーザー「おすすめ（空欄）」）。
+        # stauden.de は種の色を品種に付けていることがあるため。グラスの穂などの「その他」は対象外
+        if cnew and (crr.get("決め手") or "").startswith("[stauden") and set(crr["花色"]) != {"その他"}:
+            ms_ = {c for c, pat in SD_COLOR if re.search(pat, r.get("花色（自社の値）") or "")}
+            if ms_ and not ms_ & set(crr["花色"]):
+                cw.append(f"[空欄に戻した] stauden.de だけの値（{cnew}）が今のマスターの花色と重ならないため（ユーザーの決定 2026-11-24）")
+                cnew = None
         r["花色（分類）"] = cnew
         if cnew and not r.get("花色（詳細）") and crr.get("決め手"):
             mm_ = re.match(r"^\[([^\]]*)\]\s*(.*)$", crr["決め手"], re.S)

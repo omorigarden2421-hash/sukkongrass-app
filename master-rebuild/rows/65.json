@@ -33,21 +33,16 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": "blaß-blau",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
+   "sources": null,
    "level": null
   },
   "flower_color_class": {
-   "value": [
-    "青・紫"
-   ],
+   "value": null,
    "method": "記載",
    "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
+   "level": null
   },
   "spread_min": {
    "value": null,
