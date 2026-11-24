@@ -562,6 +562,12 @@ for m in master:
             lw.append(f"前の値：{lold or '空欄'}。{lrr.get('メモ') or ''}")
         if lrr.get("食い違い"):
             lw.append(f"[食い違い] {lrr['食い違い']}")
+        # stauden.de だけで決まり、今のマスターの葉色と違うときは空欄（2026-11-24 ユーザー「おすすめ（空欄）」。花色と同じ）。
+        # 今のマスターが「⑧ 季節変化型」（分類にない）のときは比べない
+        mlf = LEAF_MASTER.get(lrr.get("今のマスター") or "")
+        if lnew and (lrr.get("決め手") or "").startswith("[stauden") and mlf and mlf != "季節変化型" and mlf != lnew:
+            lw.append(f"[空欄に戻した] stauden.de だけの値（{lnew}）が今のマスターの葉色（{lrr.get('今のマスター')}）と違うため（ユーザーの決定 2026-11-24）")
+            lnew = None
         r["葉色（分類）"] = lnew
         # 自社の値（今のマスターの葉色主分類）は、文献の値がないときと、文献の値と違うときに残す
         r["葉色（自社の値）"] = lrr.get("今のマスター") if (not lnew or LEAF_MASTER.get(lrr.get("今のマスター") or "") != lnew) else None
