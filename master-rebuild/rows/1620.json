@@ -213,21 +213,28 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s17",
     "s02"
    ],
    "level": "species"
   },
   "rhizome_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s17",
+    "s02"
+   ],
+   "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s17",
+    "s02"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -316,8 +323,8 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/種] Plants often perform poorly in hot and humid summers south of USDA Zone 7.",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Will reseed in the garden in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 1／読み直し・不明] [Gaißmayer spread_mode] 節から根を出し、30cm ほどのマットになる（読み直し）\n[こぼれ種 1／MBG・種] Will reseed in the garden in optimum growing conditions.（読み直し）\n[こぼれ種 1／MBG・種] Will reseed in the garden in optimum growing conditions.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 1（[Gaißmayer spread_mode] 節から根を出し、30cm ほどのマットになる）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・種] Noteworthy Characteristics Potentilla neumanniana , commonly known as spring cinquefoil, spotted cinquefoil or alpine cinquefoil, is a vigorous, procumbent, mat-forming, herbaceous perennial of the ro",
   "sources_with_cultivar_page": "Gaißmayer",
   "sources_used": "Gaißmayer、Jelitto、MBG、RHS、stauden.de"

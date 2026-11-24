@@ -347,7 +347,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿を嫌いますので用土は水はけ良く（蒸れ 弱 相当）\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[地下茎 0／MBG・種] Plants do not spread.",
+  "spread_evidence": "[地下茎 0／MBG・種] Plants do not spread（読み直し）\n[地下茎 0／MBG・種] Plants do not spread.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、おぎはら",

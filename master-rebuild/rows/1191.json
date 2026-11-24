@@ -219,7 +219,7 @@
   },
   "spread_modes": {
    "value": [
-    "地下茎",
+    "株立ち",
     "こぼれ種"
    ],
    "method": "記載",
@@ -229,34 +229,39 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 1,
-   "method": "判定",
-   "sources": [
-    "s02"
-   ],
-   "level": "species"
-  },
-  "rhizome_level": {
    "value": 2,
    "method": "判定",
    "sources": [
+    "s01",
     "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "rhizome_level": {
+   "value": 0,
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・種）（種についての記述。この品種で同じかは未確認）",
-   "method": "記載",
    "sources": [
+    "s01",
     "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": "こぼれ種でよく増える（RHS・品種）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -354,8 +359,8 @@
   "heat_west_only": "弱",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[MBG/種] Plants generally do not perform well in the deep South below USDA Zone 7.\n[MBG/種] Foliage may decline in hot and humid summer climates such as the St.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] Foliage may decline in hot and humid summer climates such as the St. Louis）\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] May spread in the garden by rhizomes and/or self-seeding to form an interesting ground cover.\n[地下茎 2／MBG・種] May spread in the garden by rhizomes and/or self-seeding to form an interesting ground cover.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 0／RHS・品種] Does not run like mint（読み直し）\n[こぼれ種 2／RHS・品種] may self- seed freely in a good site（読み直し）\n[こぼれ種 1／MBG・種] May spread in the garden by rhizomes and/or self-seeding to form an interesting ground cover.\n[地下茎 2／MBG・種] May spread in the garden by rhizomes and/or self-seeding to form an interesting ground cover.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 2（[RHS・品種] may self- seed freely in a good site）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 0（[RHS・品種] Does not run like mint）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、Jelitto",
   "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"

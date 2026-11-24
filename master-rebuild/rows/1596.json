@@ -321,7 +321,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[こぼれ種 1／MBG・種] Easily grown from seed and will self-seed under optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／MBG・種] will self-seed under optimum growing conditions（読み直し）\n[こぼれ種 1／MBG・種] Easily grown from seed and will self-seed under optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: rosettenartig / niederliegend bis aufsteigend",
   "sources_with_cultivar_page": "stauden.de、Jelitto",

@@ -232,6 +232,7 @@
    "value": 2,
    "method": "判定",
    "sources": [
+    "s02",
     "s18"
    ],
    "level": "cultivar"
@@ -243,12 +244,12 @@
    "level": null
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
+   "value": "地下茎・ランナーでよく広がる（MBG・種）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
-    "s18"
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -348,7 +349,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／stauden.de・品種] kriechend, teils wurzelnd",
+  "spread_evidence": "[地下茎 2／MBG・種] Plants spread easily (root where nodes touch the ground)（読み直し）\n[地下茎 2／stauden.de・品種] kriechend, teils wurzelnd",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら",

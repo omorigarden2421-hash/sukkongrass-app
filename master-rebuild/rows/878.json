@@ -213,7 +213,7 @@
    "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 3,
    "method": "判定",
    "sources": [
     "s06",
@@ -222,7 +222,7 @@
    "level": "species"
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
     "s06",
@@ -234,13 +234,12 @@
    "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
-    "s02",
     "s06"
    ],
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）。文献に「侵略的・はびこる」という記述がある（MBG・種）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）。こぼれ種で強く増え、雑草化することがある（NC State・種）。文献に「侵略的・はびこる」という記述がある（MBG・種）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）",
    "method": "記載",
    "sources": [
     "s06",
@@ -339,8 +338,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強",
-  "spread_evidence": "[こぼれ種 1／NC State・種] It spreads by rhizomes and self-seeding.\n[地下茎 2／NC State・種] It spreads by rhizomes and self-seeding.\n[地下茎の食い違い] MBG は 3 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": "[MBG・種] Mistflower is a vigorous plant that spreads aggressively by rhizomes and self-seeding.\n[NC State・種] It is not recommended for smaller planting areas due to its aggressive nature.",
+  "spread_evidence": "[地下茎 3／NC State・種] aggressive nature / [MBG・種] spreads aggressively by rhizomes and self-seeding（読み直し）\n[こぼれ種 3／NC State・種] spreads by rhizomes and self-seeding / not recommended for smaller planting areas due to its aggressive nature（読み直し）\n[こぼれ種 1／NC State・種] It spreads by rhizomes and self-seeding.\n[地下茎 2／NC State・種] It spreads by rhizomes and self-seeding.\n[地下茎の食い違い] MBG は 3 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[NC State・種] spreads by rhizomes and self-seeding / not recommended for smaller planting areas due to its aggressive nature）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[NC State・種] aggressive nature / [MBG・種] spreads aggressively by rhizomes and self-seeding）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] It is not recommended for smaller planting areas due to its aggressive nature.",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Spreading",
   "sources_with_cultivar_page": "おぎはら、シカゴ植物園、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園"

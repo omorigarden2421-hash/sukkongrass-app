@@ -220,13 +220,14 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 2,
    "method": "判定",
    "sources": [
+    "s01",
     "s18",
     "s17"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -243,10 +244,12 @@
    "level": "cultivar"
   },
   "invasive_note": {
-   "value": null,
+   "value": "こぼれ種でよく増える（RHS・品種）",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -349,7 +352,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 明るい半日陰（西日 × 相当）\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Aufkeimende Selbstaussaat beachten und kontrollieren\n[こぼれ種の食い違い] Gaißmayer は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 2／RHS・品種] deadhead to prevent prolific self-seeding（読み直し）\n[こぼれ種 1／stauden.de・種] Aufkeimende Selbstaussaat beachten und kontrollieren\n[こぼれ種の食い違い] Gaißmayer は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 2（[RHS・品種] deadhead to prevent prolific self-seeding）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら、Jelitto",

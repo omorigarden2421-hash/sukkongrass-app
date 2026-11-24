@@ -227,7 +227,7 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 3,
    "method": "判定",
    "sources": [
     "s06"
@@ -241,18 +241,18 @@
    "level": null
   },
   "mixing": {
-   "value": "普通（混植可）",
-   "method": "判定",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
-  },
-  "invasive_note": {
    "value": null,
-   "method": "記載",
+   "method": "判定",
    "sources": null,
    "level": null
+  },
+  "invasive_note": {
+   "value": "こぼれ種で強く増え、雑草化することがある（NC State・種）（種についての記述。この品種で同じかは未確認）",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -357,8 +357,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の 'Burning Hearts'・図鑑の 'Asahi'・図鑑の 'Summer Pink'・図鑑の 'Bleeding Hearts'・図鑑の 'Loraine Sunshine'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] The plant can self-sow and form colonies.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "spread_evidence": "[こぼれ種 3／NC State・種] can self-sow and form colonies／Tends to become weedy in landscapes（読み直し）\n[こぼれ種 1／NC State・種] The plant can self-sow and form colonies.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[NC State・種] can self-sow and form colonies／Tends to become weedy in landscapes）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": null,
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"

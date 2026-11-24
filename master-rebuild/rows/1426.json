@@ -342,7 +342,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[RHS・品種] may struggle in hot conditions）\n[RHS/品種] Aspect: North-facing or East-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 1／NC State・種] However, it can be slow to spread.\n[地下茎の食い違い] stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 1／NC State・種] it can be slow to spread（読み直し）\n[地下茎 1／NC State・種] However, it can be slow to spread.\n[地下茎の食い違い] stauden.de は 2 相当",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、Jelitto",

@@ -199,7 +199,7 @@
   },
   "spread_modes": {
    "value": [
-    "地下茎"
+    "株立ち"
    ],
    "method": "記載",
    "sources": [
@@ -214,26 +214,24 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
-   "method": "判定",
-   "sources": [
-    "s02"
-   ],
-   "level": "species"
-  },
-  "mixing": {
    "value": null,
    "method": "判定",
    "sources": null,
    "level": null
   },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・種）",
-   "method": "記載",
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
    "sources": [
-    "s02"
+    "s18"
    ],
    "level": "species"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -321,8 +319,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強",
-  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Veronicastrum sibiricum , commonly known as Culver’s root, is a large, upright, rhizomatous perennial of the figwort family that is native to grassy slopes and thickets in China, Japan, Korea, \n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Veronicastrum sibiricum , commonly known as Culver’s root, is a large, upright, rhizomatous perennial of the figwort family that is native to grassy slopes and thickets in China, Japan, Korea, \n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 空欄（記述なし）",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": null,
   "sources_with_cultivar_page": "おぎはら",
   "sources_used": "MBG、RHS、stauden.de、おぎはら"

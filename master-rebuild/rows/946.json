@@ -208,16 +208,21 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "こぼれ種"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、おぎはら）"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 3,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "rhizome_level": {
    "value": null,
@@ -232,7 +237,7 @@
    "level": null
   },
   "invasive_note": {
-   "value": "地域によっては侵略的外来種とされている、という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）",
+   "value": "こぼれ種で強く増え、雑草化することがある（NC State・種）（種についての記述。この品種で同じかは未確認）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）",
    "method": "記載",
    "sources": [
     "s06",
@@ -332,7 +337,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 3／NC State・種] aggressive weed ... reseeding readily and becoming very difficult to remove／weedy（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 3（[NC State・種] aggressive weed ... reseeding readily and becoming very difficult to remove／weedy）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "[NC State・種] Porcelain berry is an aggressive weed in the Vitaceae (grape) family of the eastern United States that closely resembles native grapes, Porcelain berry is listed as an Invasive, Exotic Plant of the So",
   "silhouette_evidence": "[RHS・品種] Habit: Climbing",
   "sources_with_cultivar_page": "RHS、MBG、おぎはら",

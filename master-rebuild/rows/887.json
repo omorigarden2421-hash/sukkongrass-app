@@ -221,18 +221,20 @@
    "method": "判定",
    "sources": [
     "s06",
+    "s01",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": 3,
    "method": "判定",
    "sources": [
     "s06",
+    "s01",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "侵略的（隔離推奨）",
@@ -349,7 +351,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜やや半日陰／暖地: 半日陰（西日 × 相当）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[NC State・種] in warm southern summers, it prefers partial shade）\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] To propagate this plant, divide its clumps every three to four years in the fall, or with adequate growing conditions, it will self-seed and spread by rhizomes itself.\n[地下茎 3／NC State・種] It can spread aggressively.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "spread_evidence": "[地下茎 3／NC State・種] It can spread aggressively / [RHS・品種] Habit: Bushy, Suckering（読み直し）\n[こぼれ種 1／NC State・種] it will self-seed and spread by rhizomes itself（読み直し）\n[こぼれ種 1／NC State・種] To propagate this plant, divide its clumps every three to four years in the fall, or with adequate growing conditions, it will self-seed and spread by rhizomes itself.\n[地下茎 3／NC State・種] It can spread aggressively.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] It can spread aggressively.",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy, Suckering",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら",

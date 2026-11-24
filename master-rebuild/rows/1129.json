@@ -231,10 +231,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -343,7 +345,7 @@
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐暑性: 普通（暖地では夏に風とおし、水はけよく）（蒸れ 中 相当）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 弱（[Walters・品種] Plants resent hot, humid summer regions）\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 弱（[Walters・品種] Plants resent hot, humid summer regions）\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or North-facing or East-facing or West-facing",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[Walters・品種] slow-growing, well-behaved clump",
   "silhouette_evidence": "[RHS・品種] Habit: Tufted／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Jelitto、RHS、Walters、stauden.de、おぎはら"

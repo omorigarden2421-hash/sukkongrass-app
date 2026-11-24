@@ -223,7 +223,8 @@
   },
   "spread_modes": {
    "value": [
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -232,16 +233,21 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s01",
+    "s02"
+   ],
+   "level": "species"
   },
   "rhizome_level": {
    "value": 2,
    "method": "判定",
    "sources": [
     "s06",
+    "s01",
     "s02"
    ],
    "level": "species"
@@ -358,7 +364,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが、高温多湿は嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] It propagates two ways: by stolons, which rapidly form colonies when optimum growing conditions exist, or by seed.\n[地下茎の食い違い] MBG は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "spread_evidence": "[地下茎 2／NC State・種] by stolons, which rapidly form colonies（読み直し）\n[こぼれ種 1／NC State・種] deadheading controlling the seeds／[RHS] self sown seedling come fairly true（読み直し）\n[地下茎 2／NC State・種] It propagates two ways: by stolons, which rapidly form colonies when optimum growing conditions exist, or by seed.\n[地下茎の食い違い] MBG は 1 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[NC State・種] deadheading controlling the seeds／[RHS] self sown seedling come fairly true）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら",

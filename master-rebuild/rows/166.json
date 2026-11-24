@@ -219,10 +219,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -320,7 +322,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/品種] As the heat of the summer sets in, foliage tends to decline considerably and flowering slows down or stops entirely, at which point plants should be cut back hard.\n[NC State/属] They can tolerate full sun but need protection from the afternoon sun.\n[NC State/属] Too much sun may cause leaf scorch.\n[NC State/属] Too much direct sun can cause leaf scorch.",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[MBG・品種] clump-forming cultivar",
   "silhouette_evidence": "[MBG・品種] 'Red Cloud' is a clump-forming cultivar which typically grows 12-18\" tall.",
   "sources_with_cultivar_page": "MBG、Walters、シカゴ植物園",
   "sources_used": "MBG、NC State、Walters、シカゴ植物園"

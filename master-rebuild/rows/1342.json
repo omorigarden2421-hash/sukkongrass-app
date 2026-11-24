@@ -362,7 +362,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Good air circulation helps reduce incidence of foliar diseases.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 空欄（記述なし）\n[RHS/品種] Aspect: South-facing or North-facing or East-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Easily grown from seed and may self-seed in the garden in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／MBG・種] may self-seed in the garden（読み直し）\n[こぼれ種 1／MBG・種] Easily grown from seed and may self-seed in the garden in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら",

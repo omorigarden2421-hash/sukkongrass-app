@@ -206,7 +206,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -215,10 +216,12 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -340,7 +343,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら 空欄）\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 1／RHS・品種] Cut back after flowering to prevent self-seeding（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[RHS・品種] Cut back after flowering to prevent self-seeding）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、シカゴ植物園",

@@ -230,7 +230,7 @@
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -352,7 +352,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿 は嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 日向(昼過ぎから半日陰が理想）（西日 △ 相当）\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Einige Samenstände, teils kurzlebiger Pflanzen, zum Versamen und zur Arterhaltung stehen lassen",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] mäßig versamend（読み直し）\n[こぼれ種 1／stauden.de・種] Einige Samenstände, teils kurzlebiger Pflanzen, zum Versamen und zur Arterhaltung stehen lassen",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[stauden.de・種] Wuchsform: rosettenartig / aufrechte Stängel mit grundständigem Blattschopf",
   "sources_with_cultivar_page": "RHS、Gaißmayer、おぎはら、Jelitto",

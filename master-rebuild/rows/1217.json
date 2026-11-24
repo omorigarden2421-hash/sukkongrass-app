@@ -230,10 +230,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -338,7 +340,7 @@
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[MBG/属] Plants are tolerant of summer heat and humidity, but appreciate deep watering in dry spells to keep foliage attractive.\n[MBG/属] Tolerates summer heat and humidity.\n[RHS/品種] Aspect: South-facing or West-facing",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[RHS・品種] Habit: Clump forming",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、Walters",
   "sources_used": "MBG、NC State、RHS、Walters"

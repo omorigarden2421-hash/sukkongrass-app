@@ -221,7 +221,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -230,10 +231,12 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 2,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -250,10 +253,12 @@
    "level": "cultivar"
   },
   "invasive_note": {
-   "value": null,
+   "value": "こぼれ種でよく増える（Walters・品種）",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -355,7 +360,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[NC State・品種] some shade, especially in warmer climates / [Walters・品種] partial shade, particularly in warm summer regions）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 2／Walters・品種] the species Polemonium boreale, which can be short lived and seedy（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 2（[Walters・品種] the species Polemonium boreale, which can be short lived and seedy）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Clumping; Erect; Mounding",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、おぎはら",

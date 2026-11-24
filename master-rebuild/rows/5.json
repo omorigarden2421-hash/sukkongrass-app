@@ -236,6 +236,7 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s06",
     "s18"
    ],
    "level": "cultivar"
@@ -356,7 +357,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[MBG/品種] This species tolerates heat and sun better than most other species in the genus, however.\n[NC State/種] This plant will not be very tolerant of the hot humid summer areas of the southeast.\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／NC State・種] Propagation is done by seed as long as flowers are not deadheaded（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Aquilegia chrysantha , commonly known as golden columbine, canary columbine or southwestern yellow columbine, is a bushy, clump-forming perennial that typically grows to 1-3",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、おぎはら、Jelitto",

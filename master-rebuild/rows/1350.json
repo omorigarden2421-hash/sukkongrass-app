@@ -202,7 +202,8 @@
   },
   "spread_modes": {
    "value": [
-    "地下茎"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -211,35 +212,40 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
-   "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "rhizome_level": {
-   "value": 2,
+   "value": 1,
    "method": "判定",
    "sources": [
-    "s06",
-    "s02"
-   ],
-   "level": "species"
-  },
-  "mixing": {
-   "value": "侵略的（隔離推奨）",
-   "method": "判定",
-   "sources": [
+    "s01",
     "s02",
     "s06"
    ],
    "level": "cultivar"
   },
+  "rhizome_level": {
+   "value": 3,
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s02",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "mixing": {
+   "value": "侵略的（隔離推奨）",
+   "method": "判定",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（MBG・品種）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（RHS・品種）。文献に「侵略的・はびこる」という記述がある（MBG・品種）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）",
    "method": "記載",
    "sources": [
-    "s06",
-    "s02"
+    "s01",
+    "s02",
+    "s06"
    ],
    "level": "cultivar"
   },
@@ -334,8 +340,8 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/品種] General foliage decline often occurs in high humidity summer climates such as the St.\n[RHS/品種] Aspect: North-facing or West-facing or South-facing or East-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] Mugwort grows 2 to 4 feet tall and spreads by rhizomes but rarely produces viable seeds in temperate areas.\n[地下茎の食い違い] MBG は 3 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": "[MBG・品種] Plants can spread aggressively in the landscape.\n[NC State・種] It is considered an invasive weed in some areas and can be found growing along roadsides, waste places and uncultivated areas as meadows.",
+  "spread_evidence": "[地下茎 3／RHS・品種] May be invasive／[MBG・品種] spreads ... by rhizomes, often aggressively（読み直し）\n[こぼれ種 1／RHS・品種] Remove flowerheads to prevent self-seeding（読み直し）\n[地下茎 2／NC State・種] Mugwort grows 2 to 4 feet tall and spreads by rhizomes but rarely produces viable seeds in temperate areas.\n[地下茎の食い違い] MBG は 3 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[RHS・品種] Remove flowerheads to prevent self-seeding）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[RHS・品種] May be invasive／[MBG・品種] spreads ... by rhizomes, often aggressively）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] It is considered an invasive weed in some areas and can be found growing along roadsides, waste places and uncultivated areas as meadows.",
   "silhouette_evidence": "[MBG・品種] It typically grows in a mounded clump to 2-3’ tall.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de"

@@ -204,8 +204,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -213,8 +213,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -222,8 +222,8 @@
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -316,7 +316,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Easily grown from seed and self-seeds in optimum growing conditions.\n[地下茎 1／NC State・種] It will grow 2-5 feet tall and spread by short rhizomes 2 to 3 feet wide.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "spread_evidence": "[地下茎 1／NC State・種] spread by short rhizomes 2 to 3 feet wide（読み直し）\n[こぼれ種 1／MBG・種] self-seeds in optimum growing conditions（読み直し）\n[こぼれ種 1／MBG・種] Easily grown from seed and self-seeds in optimum growing conditions.\n[地下茎 1／NC State・種] It will grow 2-5 feet tall and spread by short rhizomes 2 to 3 feet wide.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Arching; Erect／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "おぎはら、Jelitto",

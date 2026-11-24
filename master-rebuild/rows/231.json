@@ -209,10 +209,12 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "rhizome_level": {
    "value": null,
@@ -323,7 +325,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[MBG/属] Plants are tolerant of summer heat and humidity, but appreciate deep watering in dry spells to keep foliage attractive.\n[MBG/属] Tolerates summer heat and humidity.",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 0／stauden.de・種] nicht versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・species] nicht versamend）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": null,
   "sources_with_cultivar_page": "stauden.de、Walters",

@@ -221,7 +221,7 @@
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "侵略的（隔離推奨）",
@@ -231,12 +231,12 @@
    "note": "組み立てのとき文献名を付けていない項目（使った文献：RHS、stauden.de）"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・種）",
+   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
    "method": "記載",
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -334,7 +334,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／stauden.de・種] ausläufertreibend\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend; Ausbreitung ... eingrenzen（読み直し）\n[地下茎 2／stauden.de・種] ausläufertreibend\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "[管理タイプの見直し] 文を読んで隔離推奨型にしたので、空欄 から 侵略的 にそろえた",
   "silhouette_evidence": "[RHS・品種] Habit: Spreading branched",
   "sources_with_cultivar_page": "RHS",

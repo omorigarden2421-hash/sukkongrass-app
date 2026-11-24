@@ -360,7 +360,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[おぎはら楽天/種] 耐湿性: 普 通 ある程度耐えますが、高温多湿を嫌います（蒸れ 中 相当）\n[おぎはら楽天/種] 日照 寒冷地: 日向／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] floppy ... particularly in humid climates）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／Gaißmayer・種] An zusagenden Plätzen ist eine moderate Selbstaussaat zu beobachten\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／読み直し・不明] [Gaißmayer] An zusagenden Plätzen ist eine moderate Selbstaussaat（読み直し）\n[こぼれ種 1／Gaißmayer・種] An zusagenden Plätzen ist eine moderate Selbstaussaat zu beobachten\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、stauden.de",

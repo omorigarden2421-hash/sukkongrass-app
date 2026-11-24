@@ -209,9 +209,11 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
+   "sources": [
+    "s17"
+   ],
    "level": null
   },
   "invasive_note": {
@@ -301,7 +303,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 明るい半日陰（西日 × 相当）",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[Gaißmayer habit] buschig-kompakte Wuchs ermöglicht viele Kombinationen",
   "silhouette_evidence": null,
   "sources_with_cultivar_page": "Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Gaißmayer、Jelitto、RHS、stauden.de、おぎはら"

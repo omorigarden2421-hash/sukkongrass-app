@@ -210,16 +210,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": [
-    "こぼれ種"
-   ],
+   "value": null,
    "method": "記載",
    "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
+   "level": null
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 0,
    "method": "判定",
    "sources": [
     "s10"
@@ -233,10 +230,13 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10",
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -343,8 +343,8 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Tolerant of heat, humidity and, once established, some drought.\n[RHS/品種] Aspect: North-facing or West-facing or East-facing or South-facing",
-  "spread_evidence": "[こぼれ種 1／Walters・品種] Does not self seed around.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": null,
+  "spread_evidence": "[こぼれ種 0／Walters・品種] Does not self seed around（読み直し）\n[こぼれ種 1／Walters・品種] Does not self seed around.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 0（[Walters・品種] Does not self seed around）",
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[Walters・品種] well behaved, clump-forming／[MBG・種] Not considered to be too aggressive",
   "silhouette_evidence": "[MBG・種] Noteworthy Characteristics Persicaria polymorpha is a shrubby, clump-forming perennial featuring plumes (panacled racemes) of creamy white flowers reminiscent of goat's beard ( Aruncus dioecus ) which",
   "sources_with_cultivar_page": "RHS、Walters、おぎはら",
   "sources_used": "MBG、RHS、Walters、stauden.de、おぎはら"

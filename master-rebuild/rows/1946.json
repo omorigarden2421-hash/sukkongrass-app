@@ -363,7 +363,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Leaves may scorch if soils are allowed to dry out.\n[NC State/種] Leaves may scorch if soil dries out.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 空欄（記述なし）\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・品種] oft Selbstaussaat\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 2／stauden.de・品種] oft Selbstaussaat（読み直し）\n[こぼれ種 2／stauden.de・品種] oft Selbstaussaat\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら、シカゴ植物園、Jelitto",

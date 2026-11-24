@@ -213,7 +213,7 @@
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": null,
@@ -222,12 +222,12 @@
    "level": null
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
    "method": "記載",
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -307,7 +307,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿が苦手です（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 日向〜やや半日陰（西日 ○ 相当）",
-  "spread_evidence": "[地下茎 2／stauden.de・種] ausläufertreibend\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend（読み直し）\n[地下茎 2／stauden.de・種] ausläufertreibend\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": null,
   "silhouette_evidence": "（種の記述）[stauden.de・種] Wuchsform: kissenartig bis kissenbildend",
   "sources_with_cultivar_page": "おぎはら、シカゴ植物園",

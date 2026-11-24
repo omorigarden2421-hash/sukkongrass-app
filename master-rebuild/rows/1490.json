@@ -225,10 +225,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -325,7 +327,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種][NC State・種] Tolerates light shade in hot climates）",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[NC State・種] Divide clumps every 2-3 years",
   "silhouette_evidence": "[NC State・種] Habit/Form: Erect",
   "sources_with_cultivar_page": "Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de"

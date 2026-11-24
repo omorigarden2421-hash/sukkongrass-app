@@ -226,7 +226,7 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 1,
    "method": "判定",
    "sources": [
     "s02"
@@ -234,18 +234,18 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・種）（種についての記述。この品種で同じかは未確認）",
-   "method": "記載",
    "sources": [
     "s02"
    ],
    "level": "species"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -336,8 +336,8 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Plants prefer cool summers and warm winters, which makes them less than ideally suited for the St.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・種] It typically grows 8-12” tall and spreads by creeping stems to 3’ wide.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 1／MBG・種] spreads by creeping stems to 3' wide（読み直し）\n[地下茎 2／MBG・種] It typically grows 8-12” tall and spreads by creeping stems to 3’ wide.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 1（[MBG・種] spreads by creeping stems to 3' wide）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters",
   "sources_used": "Jelitto、MBG、RHS、Walters、stauden.de"

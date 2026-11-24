@@ -230,34 +230,42 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
-   "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "rhizome_level": {
-   "value": 2,
+   "value": 1,
    "method": "判定",
    "sources": [
+    "s01",
+    "s18",
     "s06"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "rhizome_level": {
+   "value": 3,
+   "method": "判定",
+   "sources": [
+    "s01",
+    "s18",
+    "s06"
+   ],
+   "level": "cultivar"
   },
   "mixing": {
    "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
+    "s01",
+    "s18",
     "s06"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（RHS・品種）",
    "method": "記載",
    "sources": [
-    "s06"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -358,12 +366,12 @@
  "review": {
   "management_type_reason": "RHS・stauden.de・品種とも「晩秋に咲き終わった茎を切る」で、秋の片付けと読んだ（花がら摘み・返り咲きの記述はない）ので機械の B ではなく A。RHS の「速く広がり厄介になる可能性」は可能性の話で、侵略的の明記ではないので E にしない",
   "management_type_quote": "Cut back flowered stems in late autumn",
-  "management_type_by_matching": "B 花後刈込型",
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[MBG/品種] Foliage tends to burn in hot, dry, sunny summer conditions.\n[MBG/品種] Plants do not perform well in the deep South (south of USDA Zone 7).\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] Windflowers spread by rhizomes and make a good ground cover when given room to spread.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
-  "mixing_evidence": "[NC State・種] Windflowers spread by rhizomes and make a good ground cover when given room to spread.",
+  "spread_evidence": "[地下茎 3／RHS・品種] Can spread rapidly once established and has the potential to become a nuisance.（読み直し）\n[こぼれ種 1／stauden.de・品種] mäßig versamend（読み直し）\n[地下茎 2／NC State・種] Windflowers spread by rhizomes and make a good ground cover when given room to spread.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・cultivar] mäßig versamend）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[RHS・品種] Can spread rapidly once established and has the potential to become a nuisance.）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "[MBG・品種] 'Honorine Jobert' is a vigorous, fibrous-rooted, mounding, compact Japanese anemone hybrid cultivar which typically grows to 3-4' tall and spreads by creeping rhizomes.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、シカゴ植物園",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園"

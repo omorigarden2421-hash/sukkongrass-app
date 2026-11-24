@@ -222,16 +222,20 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": 2,
    "method": "判定",
    "sources": [
-    "s02"
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -353,7 +357,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・品種] Rhizomatous perennial which spreads faster than most other epimediums.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
+  "spread_evidence": "[地下茎 2／MBG・品種] Rhizomatous perennial which spreads faster than most other epimediums（読み直し）\n[こぼれ種 0／stauden.de・品種] nicht versamend（読み直し）\n[地下茎 2／MBG・品種] Rhizomatous perennial which spreads faster than most other epimediums.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・cultivar] nicht versamend）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] Compound, medium green leaves with pointed, spiny-toothed, heart-shaped leaflets (to 3\" long) on wiry stems form attractive foliage mounds.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、シカゴ植物園",

@@ -233,9 +233,10 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 3,
    "method": "判定",
    "sources": [
+    "s06",
     "s02",
     "s10",
     "s18"
@@ -246,6 +247,7 @@
    "value": 3,
    "method": "判定",
    "sources": [
+    "s06",
     "s02",
     "s10",
     "s18"
@@ -261,11 +263,11 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（MBG・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種で強く増え、雑草化することがある（MBG・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -373,7 +375,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向 なら ○）\n[MBG/種] Stems tend to flop in rich soils, too much shade or hot summer temperatures.\n[NC State/種] Stems may flop in rich soils, shade, or hot temperatures, so staking of taller plants may be necessary.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Species plants are noted for being aggressive spreaders in the landscape by both rhizomes and self-seeding.\n[地下茎 3／MBG・種] Species plants can be an aggressive spreader.\n[地下茎の食い違い] Walters は 2 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎、ランナー）",
+  "spread_evidence": "[地下茎 3／NC State・種] It can be aggressive in rich, moist soils／can be weedy（読み直し）\n[こぼれ種 3／MBG・種] aggressive spreaders ... by both rhizomes and self-seeding（読み直し）\n[こぼれ種 1／MBG・種] Species plants are noted for being aggressive spreaders in the landscape by both rhizomes and self-seeding.\n[地下茎 3／MBG・種] Species plants can be an aggressive spreader.\n[地下茎の食い違い] Walters は 2 相当、stauden.de は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[MBG・種] aggressive spreaders ... by both rhizomes and self-seeding）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Species plants can be an aggressive spreader.",
   "silhouette_evidence": "[Walters・品種] Plants form an upright, bushy clump of light green leaves, splashed with creamy-white.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters",

@@ -236,8 +236,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s02",
     "s18",
+    "s02",
     "s17"
    ],
    "level": "cultivar"
@@ -246,8 +246,8 @@
    "value": 2,
    "method": "判定",
    "sources": [
-    "s02",
     "s18",
+    "s02",
     "s17"
    ],
    "level": "cultivar"
@@ -370,7 +370,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Needs good air circulation (space well and thin out stems as needed) to help combat potential powdery mildew problems.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] prefers climates with mild summers compared to very hot and humid conditions）\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Remove faded flower panicles to prolong bloom period and to prevent unwanted self-seeding (cultivars generally do not come true from seed).\n[地下茎 2／stauden.de・品種] ausläufertreibend\n[地下茎の食い違い] Gaißmayer は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend（読み直し）\n[こぼれ種 1／MBG・種] to prevent unwanted self-seeding（読み直し）\n[こぼれ種 1／MBG・種] Remove faded flower panicles to prolong bloom period and to prevent unwanted self-seeding (cultivars generally do not come true from seed).\n[地下茎 2／stauden.de・品種] ausläufertreibend\n[地下茎の食い違い] Gaißmayer は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・品種] Habit/Form: Clumping; Erect; Mounding",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、おぎはら、シカゴ植物園",

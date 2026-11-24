@@ -307,7 +307,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Leaf scorch may occur in hot summer climates.",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Plant will spread by runners and may self-seed if fruit is not harvested.\n[地下茎 2／MBG・種] Plant will spread by runners and may self-seed if fruit is not harvested.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "spread_evidence": "[地下茎 2／MBG・種] spreads indefinitely by runners that root as they go（読み直し）\n[こぼれ種 1／MBG・種] may self-seed if fruit is not harvested（読み直し）\n[こぼれ種 1／MBG・種] Plant will spread by runners and may self-seed if fruit is not harvested.\n[地下茎 2／MBG・種] Plant will spread by runners and may self-seed if fruit is not harvested.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": null,
   "sources_with_cultivar_page": "RHS、Jelitto",

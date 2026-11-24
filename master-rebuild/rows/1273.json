@@ -219,7 +219,7 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 3,
    "method": "判定",
    "sources": [
     "s02",
@@ -245,7 +245,7 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（MBG・種）。地域によっては侵略的外来種とされている、という記述がある（MBG・種）。米国中西部の州で有害雑草に指定（MBG の注意書き）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（MBG・種）。こぼれ種で強く増え、雑草化することがある（MBG・種）。地域によっては侵略的外来種とされている、という記述がある（MBG・種）。米国中西部の州で有害雑草に指定（MBG の注意書き）",
    "method": "記載",
    "sources": [
     "s02"
@@ -344,7 +344,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Plants prefer some part afternoon shade in hot summer climates.\n[RHS/品種] Aspect: West-facing or East-facing or South-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] This is an aggressive perennial of wetland areas which can spread invasively by creeping rhizomes and self-seeding to form large colonies which displace native vegetation and disrupt habitat needed by certain types of wa\n[地下茎 3／MBG・種] This is an aggressive perennial of wetland areas which can spread invasively by creeping rhizomes and self-seeding to form large colonies which displace native vegetation and disrupt habitat needed by certain types of wa\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
+  "spread_evidence": "[地下茎 3／MBG・種] aggressive perennial ... spread invasively by creeping rhizomes（読み直し）\n[こぼれ種 3／MBG・種] spread invasively by creeping rhizomes and self-seeding（読み直し）\n[こぼれ種 1／MBG・種] This is an aggressive perennial of wetland areas which can spread invasively by creeping rhizomes and self-seeding to form large colonies which displace native vegetation and disrupt habitat needed by certain types of wa\n[地下茎 3／MBG・種] This is an aggressive perennial of wetland areas which can spread invasively by creeping rhizomes and self-seeding to form large colonies which displace native vegetation and disrupt habitat needed by certain types of wa\n[地下茎の食い違い] stauden.de は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[MBG・種] spread invasively by creeping rhizomes and self-seeding）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] This is an aggressive perennial of wetland areas which can spread invasively by creeping rhizomes and self-seeding to form large colonies which displace native vegetation and disrupt habitat needed by",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、Jelitto",

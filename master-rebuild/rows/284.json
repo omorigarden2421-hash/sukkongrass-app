@@ -234,10 +234,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -343,8 +345,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Good air circulation helps reduce incidence of foliar diseases.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 空欄（記述なし）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Easily grown from seed and may self-seed in the garden in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": null,
+  "spread_evidence": "[こぼれ種 1／MBG・種] may self-seed in the garden in optimum growing conditions（読み直し）\n[こぼれ種 1／MBG・種] Easily grown from seed and may self-seed in the garden in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[NC State・種] large bushy clumps（株立ちで広がりの記述なし）",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、シカゴ植物園",
   "sources_used": "Jelitto、MBG、NC State、RHS、シカゴ植物園"

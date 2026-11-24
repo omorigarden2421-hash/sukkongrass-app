@@ -229,22 +229,31 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -349,8 +358,8 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Tolerant of poor, sandy soils, heat, drought, and salt spray.\n[RHS/品種] Aspect: East-facing or South-facing（西向きが入っていない）",
-  "spread_evidence": null,
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 1／MBG・品種] Will form a small colony over time from basal offsets（読み直し）\n[こぼれ種 0／stauden.de・種] nicht versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・種] nicht versamend）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 1（[MBG・品種] Will form a small colony over time from basal offsets）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] It features a basal rosette of rigid, sword-shaped, spine-tipped green leaves (to 30” long and to 4” wide) with long filamentous (as per specific epithet) curly threads along the margins.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、おぎはら",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"

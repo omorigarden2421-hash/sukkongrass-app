@@ -248,6 +248,7 @@
    "value": 2,
    "method": "判定",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"
@@ -261,9 +262,10 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・種）。文献に「条件によっては、はびこる」という記述がある（MBG・種）",
+   "value": "地下茎・ランナーでよく広がる（NC State・種）。文献に「条件によっては、はびこる」という記述がある（MBG・種）",
    "method": "記載",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"
@@ -370,7 +372,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Best in cool summer climates.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・種] Spreads by creeping stems that root as they go.",
+  "spread_evidence": "[地下茎 2／NC State・種] roots are creeping and sturdy which allows it to spread（読み直し）\n[地下茎 2／MBG・種] Spreads by creeping stems that root as they go.",
   "mixing_evidence": "[MBG・種] Can be aggressive in optimum growing conditions.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、Jelitto",

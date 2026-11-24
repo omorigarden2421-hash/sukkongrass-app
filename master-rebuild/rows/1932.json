@@ -220,9 +220,10 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s18",
     "s17"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -344,7 +345,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／Gaißmayer・種] Sät sich moderat aus ohne lästig zu werden.",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] mäßig versamend（読み直し）\n[こぼれ種 1／Gaißmayer・種] Sät sich moderat aus ohne lästig zu werden.",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、Jelitto",

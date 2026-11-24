@@ -219,27 +219,30 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
+    "s01",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、RHS、stauden.de）"
-  },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・種）",
-   "method": "記載",
    "sources": [
+    "s01",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（RHS・品種）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -333,12 +336,12 @@
  "review": {
   "management_type_reason": "RHS・品種: はびこるおそれがあり、深い容器に植えて地中に埋めるなど根域を制限するよう明記（隔離の勧め）。stauden.de も走出枝・地下茎で広がるので囲うとする。invasive/aggressive の語そのものはないので確かさは中。機械は mixing 空欄で A。剪定は秋に古い茎を株元で切る",
   "management_type_quote": "restrict its spread by planting in deep containers and plunging them into the soil",
-  "management_type_by_matching": "A 放任型",
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／stauden.de・種] ausläufertreibend\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
-  "mixing_evidence": "[管理タイプの見直し] 文を読んで隔離推奨型にしたので、空欄 から 侵略的 にそろえた",
+  "spread_evidence": "[地下茎 3／RHS・品種] potential to become a nuisance; restrict its spread by planting in deep containers（読み直し）\n[地下茎 2／stauden.de・種] ausläufertreibend\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[RHS・品種] potential to become a nuisance; restrict its spread by planting in deep containers）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy, Spreading branched",
   "sources_with_cultivar_page": "RHS、Gaißmayer",
   "sources_used": "Gaißmayer、RHS、stauden.de"

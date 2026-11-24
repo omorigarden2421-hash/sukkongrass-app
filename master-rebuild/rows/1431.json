@@ -335,7 +335,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] If plants are not trimmed back prior to setting seed, self-seeding may occur.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "spread_evidence": "[こぼれ種 1／MBG・品種] If plants are not trimmed back prior to setting seed, self-seeding may occur（読み直し）\n[こぼれ種 1／MBG・品種] If plants are not trimmed back prior to setting seed, self-seeding may occur.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Veronica austriaca , commonly called saw-leaved speedwell, Austrian speedwell or Hungarian speedwell, is a compact, mound-forming plant with upright to sprawling stems.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、おぎはら、Jelitto",

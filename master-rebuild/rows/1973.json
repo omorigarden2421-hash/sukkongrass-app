@@ -237,18 +237,20 @@
    "level": null
   },
   "rhizome_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -353,8 +355,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿を嫌います（蒸れ 中 相当）\n[MBG/種] Tolerates some part afternoon light shade in hot summer climates such as the St.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "spread_evidence": "[地下茎 1／MBG・種] Clumps will spread over time to form a dense ground cover.（読み直し）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 1（[MBG・種] Clumps will spread over time to form a dense ground cover.）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、RHS、stauden.de、おぎはら"

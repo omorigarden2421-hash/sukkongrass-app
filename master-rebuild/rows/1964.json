@@ -225,10 +225,13 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -332,7 +335,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 明るい半日陰（西日 × 相当）\n[MBG/品種] Problems Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[MBG・品種] clump-forming, herbaceous perennials / [RHS・品種] Habit: Clump forming",
   "silhouette_evidence": "[MBG・品種] Plants are characterized by graceful, fern-like mounds of mostly basal, 2-3 ternately compound leaves, usually with sharply-toothed leaflets, and tiny flowers densely packed into erect to arching, plu",
   "sources_with_cultivar_page": "RHS、MBG、おぎはら",
   "sources_used": "MBG、RHS、おぎはら"

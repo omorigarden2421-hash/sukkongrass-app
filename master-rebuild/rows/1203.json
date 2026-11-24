@@ -232,10 +232,12 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "rhizome_level": {
    "value": null,
@@ -357,7 +359,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿を嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[RHS/品種] Aspect: East-facing or North-facing or West-facing",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・species] versamend）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] This long-blooming Cranesbill has a compact, mounding form that makes it perfect along the front edge of a border, growing from a wall or in the rock garden as well as in mixed containers.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、おぎはら",

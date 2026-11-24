@@ -223,7 +223,7 @@
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -339,7 +339,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿を嫌い、蒸れやすい（蒸れ 弱 相当）\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[stauden.de・種] Wuchsform: polsterartig bis polsterbildend / halbkugelig／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、おぎはら、Jelitto",

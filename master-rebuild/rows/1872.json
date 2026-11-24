@@ -204,13 +204,10 @@
    "level": null
   },
   "spread_modes": {
-   "value": [
-    "地下茎"
-   ],
+   "value": null,
    "method": "記載",
    "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、おぎはら）"
+   "level": null
   },
   "self_seed_level": {
    "value": null,
@@ -219,26 +216,24 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
-   "method": "判定",
-   "sources": [
-    "s02"
-   ],
-   "level": "cultivar"
-  },
-  "mixing": {
    "value": null,
    "method": "判定",
    "sources": null,
    "level": null
   },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・品種）",
-   "method": "記載",
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
    "sources": [
     "s02"
    ],
    "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -340,8 +335,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向（乾燥地は避ける）〜 明るい半日陰／暖地: 明るい半日陰（午前の日向は可、西日は避ける）（西日 × 相当）\n[NC State/属] In the south it is best to plant hosta in full shade or dappled shade so that the foliage colors will be more vibrant and won't develop leaf burn.\n[NC State/属] Hosta plantaginea  originated in China and is very fragrant and tolerates heat.\n[食い違い] 欧米の文献（属の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or North-facing or West-facing",
-  "spread_evidence": "[地下茎 2／MBG・品種] Stalked, conspicuously-veined, often dense, basal leaves in a variety of shapes, sizes, colors and textures rise up from a central rhizomatous crown to form a rounded to spreading mound of foliage.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 2／MBG・品種] Stalked, conspicuously-veined, often dense, basal leaves in a variety of shapes, sizes, colors and textures rise up from a central rhizomatous crown to form a rounded to spreading mound of foliage.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 空欄（記述なし）",
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[MBG・品種] rhizomatous, clump-forming ... central rhizomatous crown",
   "silhouette_evidence": "[MBG・品種] Stalked, conspicuously-veined, often dense, basal leaves in a variety of shapes, sizes, colors and textures rise up from a central rhizomatous crown to form a rounded to spreading mound of foliage.",
   "sources_with_cultivar_page": "RHS、MBG、Walters、おぎはら",
   "sources_used": "MBG、NC State、RHS、Walters、おぎはら"

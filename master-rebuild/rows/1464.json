@@ -230,6 +230,7 @@
    "value": 2,
    "method": "判定",
    "sources": [
+    "s06",
     "s02",
     "s17",
     "s18"
@@ -243,17 +244,19 @@
    "level": null
   },
   "mixing": {
-   "value": "普通（混植可）",
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s18",
+    "s02"
    ],
    "level": "species"
   },
   "invasive_note": {
-   "value": "こぼれ種でよく増える（MBG・種）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
+   "value": "こぼれ種でよく増える（NC State・種）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"
@@ -359,8 +362,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Dg05・Dg08・Dg09・Dg10・図鑑の 'Monstrosa'）] 耐暑性；中（この品種のページはない。信頼度：低）\n[NC State/種] Foxglove does best with afternoon shade.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 2／MBG・種] If flower spikes are left in place after flowering and allowed to go to seed, plants will act more as biennials and will, in optimum growing conditions, freely self-seed.\n[こぼれ種の食い違い] Gaißmayer は 1 相当、stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "spread_evidence": "[こぼれ種 2／NC State・種] Deadhead ... to avoid excessive numbers of seedlings / [MBG・種] freely self-seed（読み直し）\n[こぼれ種 2／MBG・種] If flower spikes are left in place after flowering and allowed to go to seed, plants will act more as biennials and will, in optimum growing conditions, freely self-seed.\n[こぼれ種の食い違い] Gaißmayer は 1 相当、stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：[読み直し] [MBG・種] often establishing large colonies",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"

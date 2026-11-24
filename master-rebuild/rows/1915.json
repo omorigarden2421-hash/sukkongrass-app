@@ -191,7 +191,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
+    "地下茎",
+    "ランナー",
     "こぼれ種"
    ],
    "method": "記載",
@@ -201,22 +202,22 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
+    "s06",
     "s02",
-    "s18",
-    "s06"
+    "s18"
    ],
    "level": "species"
   },
   "rhizome_level": {
-   "value": 3,
+   "value": 2,
    "method": "判定",
    "sources": [
+    "s06",
     "s02",
-    "s18",
-    "s06"
+    "s18"
    ],
    "level": "species"
   },
@@ -229,7 +230,7 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種でよく増える（MBG・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認。地域によっては侵略的外来種とされている、という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Invasive Species（米国ノースカロライナ州で侵略的外来種）・Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。米国ミズーリ州で有害雑草に指定され、栽培・販売できない（MBG の注意書き）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種で強く増え、雑草化することがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認。地域によっては侵略的外来種とされている、という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Invasive Species（米国ノースカロライナ州で侵略的外来種）・Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。米国ミズーリ州で有害雑草に指定され、栽培・販売できない（MBG の注意書き）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s06",
@@ -324,12 +325,12 @@
  "review": {
   "management_type_reason": "MBG・種: 種は非常に侵略的で植えるべきでない。こぼれ種による広がりで商品は品種だが、NC State が「非侵略的とされた園芸品種も交雑して急速に広がる系統を生む」と品種について明記しているので E とした。品種 'Happy Snow' そのものの文はないので低",
   "management_type_quote": "Named cultivars once thought to be non-invasive are now known to cross and develop strains that spread rapidly in the landscape.",
-  "management_type_by_matching": "E 隔離推奨型",
+  "management_type_by_matching": "C 夏前切戻型",
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の 'Happy Lights'・図鑑の 'Robert'）] 耐暑性；強（この品種のページはない。信頼度：低）",
-  "spread_evidence": "[こぼれ種 2／MBG・種] They have the potential to prolifically self-seed.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[地下茎 3／NC State・種] Named cultivars once thought to be non-invasive are now known to cross and develop strains that spread rapidly in the landscape.\n[地下茎の食い違い] MBG は 1 相当、MBG は 2 相当",
-  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Problems Species plants are very invasive and should not be planted.\n[MBG・種] Culture Species plants are classified as noxious weeds in the State of Missouri.",
+  "spread_evidence": "[地下茎 2／NC State・種] roots ... send out many runners forming an extensive underground network（読み直し）\n[こぼれ種 3／NC State・種] seeds easily dispersed by wind, water, and animals / escapes from cultivation and becomes a prolific weed in wetland areas（読み直し）\n[こぼれ種 2／MBG・種] They have the potential to prolifically self-seed.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[地下茎 3／NC State・種] Named cultivars once thought to be non-invasive are now known to cross and develop strains that spread rapidly in the landscape.\n[地下茎の食い違い] MBG は 1 相当、MBG は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 2、文を読み直して 3（[NC State・種] seeds easily dispersed by wind, water, and animals / escapes from cultivation and becomes a prolific weed in wetland areas）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 3、文を読み直して 2（[NC State・種] roots ... send out many runners forming an extensive underground network）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
+  "mixing_evidence": "[MBG・種] The problem is that it is so invasive that it can rapidly colonize wet areas and both choke out native vegetation and destroy wildlife habitat.\n[MBG・種] Problems Species plants are very invasive and should not be planted.\n[MBG・種] Culture Species plants are classified as noxious weeds in the State of Missouri.\n[管理タイプの見直し] 文を読んで隔離推奨型にしたので、強い（周囲を圧迫、配置注意） から 侵略的 にそろえた",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Erect",
   "sources_with_cultivar_page": "なし",
   "sources_used": "Jelitto、MBG、NC State、stauden.de、おぎはら"

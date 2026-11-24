@@ -200,13 +200,10 @@
    "level": null
   },
   "spread_modes": {
-   "value": [
-    "株立ち"
-   ],
+   "value": null,
    "method": "記載",
    "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：RHS、Walters、stauden.de）"
+   "level": null
   },
   "self_seed_level": {
    "value": null,
@@ -215,18 +212,17 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 0,
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s10"
+    "s10",
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -330,8 +326,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 0／Walters・品種] Not invasive.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
+  "spread_evidence": "[地下茎 0／Walters・品種] Not invasive.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 0、文を読み直して 空欄（記述なし）",
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[Walters・品種] Not invasive／[RHS・品種] Clump forming",
   "silhouette_evidence": "[Walters・品種] Plants are mounding, bearing sprays of tiny white flowers in late summer.",
   "sources_with_cultivar_page": "RHS、Walters",
   "sources_used": "RHS、Walters、stauden.de"

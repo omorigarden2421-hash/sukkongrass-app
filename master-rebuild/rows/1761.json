@@ -196,7 +196,7 @@
    "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG）"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 3,
    "method": "判定",
    "sources": [
     "s02"
@@ -220,7 +220,7 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（MBG・種）。文献に「侵略的・はびこる」という記述がある（MBG・種）。地域によっては侵略的外来種とされている、という記述がある（MBG・種）。米国の連邦有害雑草法の指定種（MBG の注意書き）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（MBG・種）。こぼれ種で強く増え、雑草化することがある（MBG・種）。文献に「侵略的・はびこる」という記述がある（MBG・種）。地域によっては侵略的外来種とされている、という記述がある（MBG・種）。米国の連邦有害雑草法の指定種（MBG の注意書き）",
    "method": "記載",
    "sources": [
     "s02"
@@ -306,7 +306,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[こぼれ種 1／MBG・種] Spreads, sometimes invasively, by self-seeding and rhizomes to form large colonies which choke out most other plants.\n[地下茎 3／MBG・種] Notwithstanding its ornamental beauty, it is noted for spreading invasively by rhizomes and self-seeding in parts of the southern U.S.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "spread_evidence": "[地下茎 3／MBG・種] large colonies which choke out most other plants（読み直し）\n[こぼれ種 3／MBG・種] Spreads, sometimes invasively, by self-seeding and rhizomes / Can be weedy and invasive.（読み直し）\n[こぼれ種 1／MBG・種] Spreads, sometimes invasively, by self-seeding and rhizomes to form large colonies which choke out most other plants.\n[地下茎 3／MBG・種] Notwithstanding its ornamental beauty, it is noted for spreading invasively by rhizomes and self-seeding in parts of the southern U.S.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[MBG・種] Spreads, sometimes invasively, by self-seeding and rhizomes / Can be weedy and invasive.）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Noxious Weed List plus the regulated lists of several states (Alabama, California, Oregon, Florida, South Carolina, North Carolina, Massachusetts and Vermont).",
   "silhouette_evidence": "[MBG・種] This is a rapid-growing, clump-forming grass that produces upright, arching, narrow, linear green leaves growing in dense clumps to 3-4' tall with unbranched stems (culms) topped by cylindrical flower／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "Jelitto",

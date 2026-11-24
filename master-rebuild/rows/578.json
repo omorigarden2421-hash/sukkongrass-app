@@ -231,8 +231,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s18",
-    "s02"
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -240,8 +240,8 @@
    "value": 2,
    "method": "判定",
    "sources": [
-    "s18",
-    "s02"
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -358,7 +358,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中\n[MBG/品種] Appreciates some afternoon shade in the St.\n[MBG/品種] Also tolerates hot and humid summers better than most other species of geranium.\n[Walters/品種] Drought and heat tolerant.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Aufkeimende Selbstaussaat beachten und kontrollieren\n[地下茎 2／MBG・品種] Plants will easily spread in the garden by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
+  "spread_evidence": "[地下茎 2／MBG・品種] Plants will easily spread in the garden by rhizomes（読み直し）\n[こぼれ種 1／MBG・品種] Plants may also self seed（読み直し）\n[こぼれ種 1／stauden.de・種] Aufkeimende Selbstaussaat beachten und kontrollieren\n[地下茎 2／MBG・品種] Plants will easily spread in the garden by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、MBG、Walters、Gaißmayer",

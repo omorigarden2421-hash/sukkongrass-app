@@ -232,30 +232,34 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s18",
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": 3,
    "method": "判定",
    "sources": [
     "s06",
-    "s02",
-    "s18"
+    "s18",
+    "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
     "s06",
-    "s02",
-    "s18"
+    "s18",
+    "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（MBG・品種）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
@@ -361,7 +365,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中\n[MBG/品種] Appreciates some light afternoon shade in hot summer climates.\n[NC State/種] The plant likes some afternoon shade, particularly in the hot summer.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 弱（[MBG・品種] Tends to rot and develop leaf diseases in humid summer climates / summer die-out ... where high humidity / [NC State・種] leaf rot with high humidity）\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[地下茎 3／NC State・種] It spreads by stems rooting at the nodes and can be aggressive in good conditions.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 3／NC State・種] spreads by stems rooting at the nodes and can be aggressive in good conditions（読み直し）\n[こぼれ種 0／stauden.de・品種] nicht versamend（読み直し）\n[地下茎 3／NC State・種] It spreads by stems rooting at the nodes and can be aggressive in good conditions.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・cultivar] nicht versamend）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、シカゴ植物園",

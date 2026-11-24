@@ -219,7 +219,8 @@
   },
   "spread_modes": {
    "value": [
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -228,10 +229,13 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s18"
+   ],
+   "level": "species"
   },
   "rhizome_level": {
    "value": 3,
@@ -352,7 +356,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/種] In the hot summer weather, it tends to become dormant.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 3／NC State・種] It spreads aggressively and is difficult to destroy without resorting to herbicides.\n[地下茎の食い違い] stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 3／NC State・種] It spreads aggressively and is difficult to destroy（読み直し）\n[こぼれ種 1／NC State・種] Reproduces by seeds and creeping stems（読み直し）\n[地下茎 3／NC State・種] It spreads aggressively and is difficult to destroy without resorting to herbicides.\n[地下茎の食い違い] stauden.de は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[NC State・種] Reproduces by seeds and creeping stems）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] It is listed as invasive by the NC Invasive Plant Council.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Gaißmayer、Jelitto",

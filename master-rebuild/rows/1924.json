@@ -226,32 +226,37 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
-   "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "rhizome_level": {
-   "value": 2,
+   "value": 1,
    "method": "判定",
    "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "rhizome_level": {
+   "value": 1,
+   "method": "判定",
+   "sources": [
+    "s02",
     "s18"
    ],
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
-   "method": "記載",
    "sources": [
+    "s02",
     "s18"
    ],
    "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -339,8 +344,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[地下茎 2／stauden.de・品種] kriechend, teils wurzelnd",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 1／MBG・種] will spread over time by rooting stems to 12-18” wide（読み直し）\n[こぼれ種 1／stauden.de・種] versamend（読み直し）\n[地下茎 2／stauden.de・品種] kriechend, teils wurzelnd\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・species] versamend）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 1（[MBG・種] will spread over time by rooting stems to 12-18” wide）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[Walters・品種] Creeping Thyme is easily divided in spring or early fall, and even small pieces will take root and grow.",
   "sources_with_cultivar_page": "stauden.de、Walters、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"

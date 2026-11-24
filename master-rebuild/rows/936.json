@@ -351,7 +351,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] It does poorly in hot, dry sites.\n[MBG/種] Problems Frost grass grows slowly and poorly in hot climates.\n[NC State/種] It will not do well in hot, dry sites and the colorful grass, which turns from green to red and burgundy in the fall, will be dull if it does not receive enough light.\n[NC State/種] It does poorly in hot, dry situations and too much shade produces floppy growth.\n[NC State/種] Frost grass does poorly in hot climates and needs to be sited where it will get daytime relief from a hot sun.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 0／NC State・種] This is a clumping grass and, unlike some ornamental grasses, is not considered invasive.",
+  "spread_evidence": "[地下茎 0／NC State・種] a clumping grass ... not considered invasive（読み直し）\n[地下茎 0／NC State・種] This is a clumping grass and, unlike some ornamental grasses, is not considered invasive.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming, Columnar upright",
   "sources_with_cultivar_page": "RHS、Jelitto",

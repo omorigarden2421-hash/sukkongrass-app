@@ -226,7 +226,8 @@
   "spread_modes": {
    "value": [
     "株立ち",
-    "地下茎"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -235,10 +236,12 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -247,9 +250,11 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "invasive_note": {
@@ -358,8 +363,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐暑性: 普通（暖地では夏に風とおし、水はけよく）（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[RHS/品種] Aspect: North-facing or East-facing or South-facing or West-facing",
-  "spread_evidence": null,
-  "mixing_evidence": null,
+  "spread_evidence": "[こぼれ種 1／Walters・品種] Also tends to self seed（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[Walters・品種] Also tends to self seed）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[stauden.de・cultivar] horstig",
   "silhouette_evidence": "[Walters・品種] An unusual form of Jacob's Ladder, this plant forms a lush mound of ferny foliage in a stunning black-purple shade, later becoming green.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、おぎはら、Jelitto",
   "sources_used": "Jelitto、RHS、Walters、stauden.de、おぎはら"

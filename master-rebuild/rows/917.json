@@ -229,10 +229,12 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "rhizome_level": {
    "value": null,
@@ -351,7 +353,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/種] Performs poorly in hot and humid summer climates.\n[NC State/種] It is intolerant of the hot and humid summers of the deep South and would do well in areas of shade in the afternoon during the hot summer months.\n[RHS/品種] Aspect: East-facing（西向き・南向きが入っていない）",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・species] versamend）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de",

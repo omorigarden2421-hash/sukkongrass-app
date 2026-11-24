@@ -351,7 +351,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜半日陰／暖地: 明るい半日陰〜半日陰（西日 × 相当）\n[MBG/品種] Plant foliage will burn in full sun locations and lose color intensity (particularly on variegated leaf cultivars) in full shade.\n[MBG/品種] Plants will grow well in deeper shade (particularly in hot summer climates), but the gold variegation changes to lime green.\n[MBG/品種] Leaves may scorch in hot summers, particularly when consistent moisture is not maintained.\n[MBG/品種] Leaves may scorch in hot summers, particularly when consistent moisture is not maintained.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 弱（[MBG・品種] Best growth occurs in climates with cool summer temperatures / Leaves may scorch in hot summers）\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った",
-  "spread_evidence": "[地下茎 1／NC State・品種] It forms clumps and spreads by short rhizomes but is not aggressive.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 1／NC State・品種] spreads by short rhizomes but is not aggressive（読み直し）\n[地下茎 1／NC State・品種] It forms clumps and spreads by short rhizomes but is not aggressive.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Arching; Cascading; Mounding／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら",

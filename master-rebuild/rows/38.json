@@ -235,8 +235,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s02",
     "s06",
+    "s02",
     "s17",
     "s18"
    ],
@@ -246,8 +246,8 @@
    "value": 3,
    "method": "判定",
    "sources": [
-    "s02",
     "s06",
+    "s02",
     "s17",
     "s18"
    ],
@@ -377,7 +377,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜半日陰／暖地: 明るい半日陰〜半日陰（西日 × 相当）\n[MBG/品種] Foliage will often scorch in hot, dry, full sun conditions.\n[MBG/品種] Problems Leaf blight is a somewhat common disease which is particularly troublesome in hot and humid summer climates.\n[NC State/種] Leaf scorch can occur in the hot summer sun.\n[NC State/種] Leaf blight is a somewhat common disease that worsens in hot and humid climates.\n[食い違い] 欧米の文献（品種・種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: North-facing or West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] Flower heads may be removed to prevent self-seeding and to maintain appearance of the ground cover.\n[地下茎 3／NC State・種] It will spread aggressively.\n[地下茎の食い違い] Gaißmayer は 1 相当、MBG は 1 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
+  "spread_evidence": "[地下茎 3／NC State・種] It will spread aggressively（読み直し）\n[こぼれ種 1／NC State・種] can be sheared to help prevent the spread of seeds（読み直し）\n[こぼれ種 1／MBG・品種] Flower heads may be removed to prevent self-seeding and to maintain appearance of the ground cover.\n[地下茎 3／NC State・種] It will spread aggressively.\n[地下茎の食い違い] Gaißmayer は 1 相当、MBG は 1 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] Goutweed is an aggressive herbaceous perennial in the carrot family (Apiaceae) native to Asia and Europe.\n[MBG・品種] This plant is considered invasive in certain areas of the United States.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら",

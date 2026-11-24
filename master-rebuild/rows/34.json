@@ -316,7 +316,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 弱（[NC State・種] prefer cooler coastal environments）",
-  "spread_evidence": "[地下茎 1／MBG・種] Tufts will spread slowly to 8-12\" wide.",
+  "spread_evidence": "[地下茎 1／MBG・種] Tufts will spread slowly（読み直し）\n[地下茎 1／MBG・種] Tufts will spread slowly to 8-12\" wide.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Rounded; Spreading",
   "sources_with_cultivar_page": "なし",

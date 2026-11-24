@@ -360,7 +360,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；中\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] Powdery mildew and leaf spot ... can depreciate foliage considerably by early to mid-summer）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing or North-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] If flower spikes are left in place after flowering, plants may self-seed.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] plants may self-seed（読み直し）\n[こぼれ種 1／MBG・種] If flower spikes are left in place after flowering, plants may self-seed.",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・種] Finely-toothed, medium green, ovate-lanceolate leaves (to 10” long and 2” wide) appear in basal rosettes and alternately up the stems.",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",

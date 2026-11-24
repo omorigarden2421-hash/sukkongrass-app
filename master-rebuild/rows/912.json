@@ -222,10 +222,12 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -347,7 +349,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/属] In the south it is best to plant hosta in full shade or dappled shade so that the foliage colors will be more vibrant and won't develop leaf burn.\n[NC State/属] Hosta plantaginea  originated in China and is very fragrant and tolerates heat.\n[食い違い] 欧米の文献（属の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or North-facing（西向き・南向きが入っていない）",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 0／stauden.de・品種] nicht versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・cultivar] nicht versamend）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] Plants form a sturdy mound of foliage, topped with lily-like blooms.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、おぎはら",

@@ -355,7 +355,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[Walters/品種] Tolerates summer heat and humidity.\n[RHS/品種] Aspect: South-facing or East-facing（西向きが入っていない）",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Easily grown from seed and will self-seed under optimum growing conditions.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] will self-seed under optimum growing conditions（読み直し）\n[こぼれ種 1／MBG・種] Easily grown from seed and will self-seed under optimum growing conditions.",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Trailing",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、シカゴ植物園、Jelitto",

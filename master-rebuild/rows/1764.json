@@ -239,9 +239,11 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "invasive_note": {
@@ -352,8 +354,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[RHS・品種] Sunflowers generally need a long hot summer to flower well; [MBG・品種] Plant foliage often depreciates as the summer progresses）\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] Plants will self-sow in the garden.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
-  "mixing_evidence": null,
+  "spread_evidence": "[こぼれ種 1／MBG・品種] Plants will self-sow in the garden.（読み直し）\n[こぼれ種 1／MBG・品種] Plants will self-sow in the garden.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[stauden.de・cultivar] horstig",
   "silhouette_evidence": "[Walters・品種] This forms an upright mound of pointy dark-green leaves.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de"

@@ -224,7 +224,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎",
+    "ランナー"
    ],
    "method": "記載",
    "sources": [
@@ -239,24 +240,26 @@
    "level": null
   },
   "rhizome_level": {
-   "value": null,
-   "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "mixing": {
-   "value": "普通（混植可）",
+   "value": 2,
    "method": "判定",
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
-  "invasive_note": {
+  "mixing": {
    "value": null,
-   "method": "記載",
+   "method": "判定",
    "sources": null,
    "level": null
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -349,8 +352,8 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿を嫌います（蒸れ 中 相当）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 強（[Walters・品種] A good choice for hot and sunny sites）\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "spread_evidence": "[地下茎 2／stauden.de・品種] Ausbreitung durch Ausläufer, Rhizome oder wurzelnde Triebe, nach Bedarf, eingrenzen（読み直し）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[stauden.de・cultivar] Ausbreitung durch Ausläufer, Rhizome oder wurzelnde Triebe, nach Bedarf, eingrenzen）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming, Spreading branched",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら",
   "sources_used": "NC State、RHS、Walters、stauden.de、おぎはら"

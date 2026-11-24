@@ -215,7 +215,7 @@
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": null,
@@ -224,12 +224,12 @@
    "level": null
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・種）",
+   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
    "method": "記載",
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -306,7 +306,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[地下茎 2／stauden.de・種] ausläufertreibend",
+  "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend（読み直し）\n[地下茎 2／stauden.de・種] ausläufertreibend",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・属] Habit/Form: Clumping; Spreading／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "Jelitto",

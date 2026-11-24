@@ -237,18 +237,20 @@
    "level": null
   },
   "rhizome_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
+   "sources": [
+    "s17"
+   ],
    "level": null
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s17"
    ],
-   "level": "cultivar"
+   "level": null
   },
   "invasive_note": {
    "value": null,
@@ -355,8 +357,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿を嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: North-facing or West-facing or East-facing or South-facing",
-  "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "spread_evidence": "[地下茎 0／Gaißmayer・habit] wächst eher aufrecht und macht keine weitstreifenden Triebe（読み直し）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 0（[Gaißmayer・habit] wächst eher aufrecht und macht keine weitstreifenden Triebe）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Trailing",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、おぎはら、シカゴ植物園",
   "sources_used": "RHS、Walters、stauden.de、おぎはら、シカゴ植物園"

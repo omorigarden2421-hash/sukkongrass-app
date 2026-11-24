@@ -208,7 +208,7 @@
   },
   "spread_modes": {
    "value": [
-    "ランナー"
+    "株立ち"
    ],
    "method": "記載",
    "sources": [
@@ -226,7 +226,7 @@
    "level": "cultivar"
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 0,
    "method": "判定",
    "sources": [
     "s02",
@@ -235,18 +235,19 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・品種）",
-   "method": "記載",
    "sources": [
-    "s02"
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -353,8 +354,8 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/品種] Prefers part shade in hot summer climates.\n[MBG/品種] Does not do well when night temperatures do not consistently cool down below 70 degrees F.\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 0／MBG・品種] This hybrid is much tamer than some other campanulas in that it does not produce seed and does not spread by rhizomes in the garden.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[地下茎 2／MBG・品種] Spreads freely by rhizomes under optimum growing conditions.",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 0／MBG・品種] does not spread by rhizomes in the garden（読み直し）\n[こぼれ種 0／MBG・品種] it does not produce seed（読み直し）\n[こぼれ種 0／MBG・品種] This hybrid is much tamer than some other campanulas in that it does not produce seed and does not spread by rhizomes in the garden.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[地下茎 2／MBG・品種] Spreads freely by rhizomes under optimum growing conditions.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 0（[MBG・品種] does not spread by rhizomes in the garden）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] ‘Summertime Blues’ is a clump-forming bellflower cultivar that is noted for its extremely long late spring to late summer (sometimes into fall) bloom of large, tubular, drooping, bell-like, silvery bl",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters",
   "sources_used": "MBG、RHS、Walters、stauden.de"

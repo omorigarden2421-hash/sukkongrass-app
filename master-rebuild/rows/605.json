@@ -239,6 +239,7 @@
    "value": 2,
    "method": "判定",
    "sources": [
+    "s06",
     "s02",
     "s18"
    ],
@@ -251,17 +252,19 @@
    "level": null
   },
   "mixing": {
-   "value": "普通（混植可）",
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s18",
+    "s02"
    ],
    "level": "cultivar"
   },
   "invasive_note": {
-   "value": "こぼれ種でよく増える（MBG・種）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
+   "value": "こぼれ種でよく増える（NC State・種）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"
@@ -363,8 +366,8 @@
   "heat_west_only": "中",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Dg05・Dg08・Dg09・Dg10・図鑑の 'Monstrosa'）] 耐暑性；中（この品種のページはない。信頼度：低）\n[NC State/種] Foxglove does best with afternoon shade.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] Powdery mildew and leaf spot ... can depreciate foliage ... by early to mid-summer）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／MBG・種] If flower spikes are left in place after flowering and allowed to go to seed, plants will act more as biennials and will, in optimum growing conditions, freely self-seed.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "spread_evidence": "[こぼれ種 2／NC State・種] avoid excessive numbers of seedlings / [MBG・種] freely self-seed（読み直し）\n[こぼれ種 2／MBG・種] If flower spikes are left in place after flowering and allowed to go to seed, plants will act more as biennials and will, in optimum growing conditions, freely self-seed.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：[読み直し] [MBG・種] often establishing large colonies in optimum growing conditions",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、Jelitto",
   "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"

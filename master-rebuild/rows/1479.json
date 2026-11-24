@@ -305,7 +305,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[地下茎 1／MBG・種] Will spread by short rhizomes, but not aggressively.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[地下茎 1／MBG・種] Will spread by short rhizomes, but not aggressively（読み直し）\n[地下茎 1／MBG・種] Will spread by short rhizomes, but not aggressively.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "Jelitto",

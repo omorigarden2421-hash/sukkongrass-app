@@ -212,7 +212,6 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
     "地下茎",
     "こぼれ種"
    ],
@@ -231,10 +230,12 @@
    "level": "species"
   },
   "rhizome_level": {
-   "value": null,
+   "value": 2,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "mixing": {
    "value": null,
@@ -243,10 +244,12 @@
    "level": null
   },
   "invasive_note": {
-   "value": null,
+   "value": "地下茎・ランナーでよく広がる（NC State・種）",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -346,7 +349,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/属] Good air circulation and consistent moist soils with good drainage helps reduce incidence of foliar diseases.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] It will naturalize by self-seeding and underground rhizomes.",
+  "spread_evidence": "[地下茎 2／NC State・種] naturalize by ... underground rhizomes（読み直し）\n[こぼれ種 1／NC State・種] It will naturalize by self-seeding（読み直し）\n[こぼれ種 1／NC State・種] It will naturalize by self-seeding and underground rhizomes.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[NC State・種] naturalize by ... underground rhizomes）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎、こぼれ種）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming, Columnar upright",
   "sources_with_cultivar_page": "RHS",

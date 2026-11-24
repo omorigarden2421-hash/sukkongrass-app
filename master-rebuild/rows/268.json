@@ -229,9 +229,10 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"
@@ -246,11 +247,11 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（NC State・種）。この品種で同じかは未確認。地域によっては侵略的外来種とされている、という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。米国中西部の州で有害雑草に指定（MBG の注意書き）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（NC State・種）。この品種で同じかは未確認。地域によっては侵略的外来種とされている、という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。米国中西部の州で有害雑草に指定（MBG の注意書き）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -344,8 +345,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（明るい日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[おぎはら/品種] 耐暑性；強\n[MBG/種] Plants prefer some part afternoon shade in the St.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・種] Plants spread by creeping stems in optimum growing conditions to form large colonies.",
-  "mixing_evidence": "[NC State・種] Creeping Jenny can be used in containers, hanging baskets,  or as a ground cover only where its invasive spread is not a concern.\n[NC State・種] It is not a good choice for borders or near lawns as it spreads too aggressively and is difficult to control.\n[MBG・種] This plant is considered invasive in some parts of the United States.",
+  "spread_evidence": "[地下茎 3／NC State・種] spreads too aggressively and is difficult to control（読み直し）\n[地下茎 2／MBG・種] Plants spread by creeping stems in optimum growing conditions to form large colonies.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[NC State・種] spreads too aggressively and is difficult to control）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] It is not a good choice for borders or near lawns as it spreads too aggressively and is difficult to control.\n[MBG・種] This plant is considered invasive in some parts of the United States.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、おぎはら",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de、おぎはら"

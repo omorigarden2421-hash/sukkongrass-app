@@ -228,8 +228,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s02",
     "s06",
+    "s02",
     "s18"
    ],
    "level": "species"
@@ -238,8 +238,8 @@
    "value": 2,
    "method": "判定",
    "sources": [
-    "s02",
     "s06",
+    "s02",
     "s18"
    ],
    "level": "species"
@@ -248,14 +248,12 @@
    "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s02",
-    "s06",
-    "s18"
+    "s06"
    ],
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s06"
@@ -354,12 +352,12 @@
  "review": {
   "management_type_reason": "RHS・品種・MBG・種: 花がら摘みで花が続く、秋に地際で切る。NC State・種「地下の走出枝で急速に広がる」は侵略的・攻撃的との明記ではなく、MBG も3〜4年ごとの株分けで広がりを抑える程度なので機械の E は採らない。「急速に」をはびこると読めば E なので低。花後に葉が衰えるとあるが切り戻しの指示はなく C にしない",
   "management_type_quote": "will spread rapidly by underground stolons",
-  "management_type_by_matching": "E 隔離推奨型",
+  "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の モナルダ レッド・パープル・ピンク・ホワイト）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/種] Prefers rich, humusy soils in full sun, although some afternoon shade is appreciated in hot summer climates.\n[MBG/種] Provide plants with good air circulation to help combat fungal leaf diseases (see Problems section below).\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 空欄（記述なし）\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: East-facing or North-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Deadhead flowers immediately after bloom to prevent self-seeding.\n[地下茎 3／NC State・種] Scarlet beebalm can reach a height of 4 feet and will spread rapidly by underground stolons.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[段階の読み直し 2026-11-24] NC State・種「地下の走出枝で急速に広がる」は速く広がる話で、侵略的・はびこるとは書いていない（RULES.md の 2：spreads／vigorous spreader）。3 → 2\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
-  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
+  "spread_evidence": "[地下茎 2／NC State・種] will spread rapidly by underground stolons（読み直し）\n[こぼれ種 1／MBG・種] Deadhead flowers immediately after bloom to prevent self-seeding（読み直し）\n[こぼれ種 1／MBG・種] Deadhead flowers immediately after bloom to prevent self-seeding.\n[地下茎 3／NC State・種] Scarlet beebalm can reach a height of 4 feet and will spread rapidly by underground stolons.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 3、文を読み直して 2（[NC State・種] will spread rapidly by underground stolons）\n[段階の読み直し 2026-11-24] NC State・種「地下の走出枝で急速に広がる」は速く広がる話で、侵略的・はびこるとは書いていない（RULES.md の 2：spreads／vigorous spreader）。3 → 2\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "mixing_evidence": "[NC State・種] Scarlet beebalm can reach a height of 4 feet and will spread rapidly by underground stolons.",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"

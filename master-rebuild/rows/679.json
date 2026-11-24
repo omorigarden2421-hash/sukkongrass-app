@@ -225,32 +225,37 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 1,
    "method": "判定",
    "sources": [
-    "s02"
+    "s02",
+    "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・種）",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -346,8 +351,8 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[MBG/種] Best performance occurs in cool sun-dappled shady areas.\n[MBG/種] Dislikes hot summer conditions.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Polygonatum odoratum , commonly called fragrant Solomon's seal, is a rhizomatous, shade-loving perennial that typically grows to 18-24” tall on low, gracefully arching, angled (as opposed to cy",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 1／MBG・種] Slowly spreads by thin rhizomes to form colonies（読み直し）\n[こぼれ種 0／stauden.de・品種] nicht versamend（読み直し）\n[地下茎 2／MBG・種] Noteworthy Characteristics Polygonatum odoratum , commonly called fragrant Solomon's seal, is a rhizomatous, shade-loving perennial that typically grows to 18-24” tall on low, gracefully arching, angled (as opposed to cy\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・cultivar] nicht versamend）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 1（[MBG・種] Slowly spreads by thin rhizomes to form colonies）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・属] Habit/Form: Arching",
   "sources_with_cultivar_page": "RHS、Gaißmayer",
   "sources_used": "Gaißmayer、MBG、NC State、RHS、stauden.de"

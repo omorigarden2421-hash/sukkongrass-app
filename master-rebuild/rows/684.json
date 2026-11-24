@@ -230,14 +230,16 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
+    "s01",
+    "s06",
     "s02",
     "s10",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -249,20 +251,19 @@
    "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18",
-    "s06",
-    "s02"
+    "s06"
    ],
    "level": "species"
   },
   "invasive_note": {
-   "value": "こぼれ種でよく増える（MBG・種）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）。米国内に侵略的とされている地域がある（MBG の表示）",
+   "value": "こぼれ種で強く増え、雑草化することがある（RHS・品種）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）。米国内に侵略的とされている地域がある（MBG の表示）",
    "method": "記載",
    "sources": [
-    "s02",
-    "s06"
+    "s01",
+    "s06",
+    "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -363,12 +364,12 @@
  "review": {
   "management_type_reason": "おぎはら楽天: 花後に花茎を切る程度。RHS: 春に芽が出たら刈る、種が要らなければ秋に花がらを取る。初夏の切り戻し・夏の傷みの記述はないので C ではなく B（機械は C）。こぼれ種は RHS「管理しないと厄介になりうる」、NC State「侵略的とする資料もある（自然地へ広げない）」で、庭ではびこるとの明記とまでは読まず E にしなかった",
   "management_type_quote": "deadhead in autumn if seed is not required",
-  "management_type_by_matching": "C 夏前切戻型",
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: West-facing or South-facing",
-  "spread_evidence": "[こぼれ種 2／MBG・種] Plants more freely self-seed where reliably hardy and they have escaped gardens and naturalized in a number of areas.\n[こぼれ種の食い違い] Walters は 1 相当、stauden.de は 1 相当",
-  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[NC State・種] Some sources have labeled it \"invasive.\" Do not allow this species to spread into natural areas and become a problem.\n[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：[こぼれ種 2／MBG・種] Plants more freely self-seed where reliably hardy and they have escaped gardens and naturalized in a number of areas.",
+  "spread_evidence": "[こぼれ種 3／RHS・品種] potential to become a nuisance due to prolific self-seeding / [NC State・種] It is a weed that spreads by volunteer seedlings（読み直し）\n[こぼれ種 2／MBG・種] Plants more freely self-seed where reliably hardy and they have escaped gardens and naturalized in a number of areas.\n[こぼれ種の食い違い] Walters は 1 相当、stauden.de は 1 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 2、文を読み直して 3（[RHS・品種] potential to become a nuisance due to prolific self-seeding / [NC State・種] It is a weed that spreads by volunteer seedlings）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] Some sources have labeled it \"invasive.\" Do not allow this species to spread into natural areas and become a problem.\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "[NC State・種] Habit/Form: Erect",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"

@@ -237,11 +237,11 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 3,
    "method": "判定",
    "sources": [
-    "s02",
     "s06",
+    "s02",
     "s18"
    ],
    "level": "species"
@@ -250,8 +250,8 @@
    "value": 3,
    "method": "判定",
    "sources": [
-    "s02",
     "s06",
+    "s02",
     "s18"
    ],
    "level": "species"
@@ -265,7 +265,7 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種で強く増え、雑草化することがある（NC State・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s06",
@@ -379,7 +379,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/種] Plants also tolerate hot, humid summers and drought.\n[Walters/品種] Heat tolerant.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] tolerate hot, humid summers / stems tend to flop in hot, humid climates）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Plants spread aggressively by rhizomes and self-seeding, and can naturalize into substantial colonies if left unchecked.\n[地下茎 3／NC State・種] Plants can spread aggressively by rhizomes and seeds and are easily divided.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "spread_evidence": "[地下茎 3／NC State・種] Spreads aggressively (rhizomes)（読み直し）\n[こぼれ種 3／NC State・種] Plants can spread aggressively by rhizomes and seeds（読み直し）\n[こぼれ種 1／MBG・種] Plants spread aggressively by rhizomes and self-seeding, and can naturalize into substantial colonies if left unchecked.\n[地下茎 3／NC State・種] Plants can spread aggressively by rhizomes and seeds and are easily divided.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[NC State・種] Plants can spread aggressively by rhizomes and seeds）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] May spread somewhat aggressively.",
   "silhouette_evidence": "[Walters・品種] This selection produces showy clusters of cherry-red flowers over a bushy mound of ferny green leaves.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Jelitto",

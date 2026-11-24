@@ -357,7 +357,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[おぎはら楽天/種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 日向（西日は避ける）〜明るい半日陰（西日 × 相当）\n[MBG/種] Provide good air circulation in hot and humid areas where crown rot is a problem.\n[MBG/種] Avoid planting in wet, heavy soils, provide good air circulation and divide when clumps become overcrowded.\n[NC State/種] Avoid planting in wet, heavy soils, and provide good air circulation.\n[RHS/品種] Aspect: East-facing or North-facing or West-facing",
-  "spread_evidence": "[地下茎 3／NC State・種] This plant is listed as invasive in other parts of the country due to its quick growth and aggressive spread; in NC, it is considered a low threat to native plant communities.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 3／NC State・種] avoid planting near perennial beds or lawns where its spreading nature could pose removal problems / [MBG・種] spread by stolons, rapidly spreading（読み直し）\n[地下茎 3／NC State・種] This plant is listed as invasive in other parts of the country due to its quick growth and aggressive spread; in NC, it is considered a low threat to native plant communities.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] This plant is listed as invasive in other parts of the country due to its quick growth and aggressive spread; in NC, it is considered a low threat to native plant communities.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de",

@@ -220,10 +220,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -325,7 +327,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 弱（[RHS・品種] dislikes extremes of heat（そろえ：暑さを嫌う＝弱））\n[RHS/品種] Aspect: North-facing or East-facing or South-facing or West-facing",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[RHS・品種] Habit: Clump forming",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、Jelitto",
   "sources_used": "Jelitto、RHS"

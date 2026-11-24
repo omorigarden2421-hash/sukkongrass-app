@@ -226,20 +226,18 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 0,
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s10"
+    "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": "米国内に侵略的とされている地域がある（MBG の表示）",
@@ -346,8 +344,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
-  "spread_evidence": "[地下茎 0／Walters・品種] Plants are not invasive or weedy in the least.",
-  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
+  "spread_evidence": "[地下茎 0／Walters・品種] Plants are not invasive or weedy in the least.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 0、文を読み直して 空欄（[Walters・品種] Plants form a clump（広がらないの明記なし））",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] Plants form a clump of coarse, light-green leaves, bearing stems of large, shaggy thistle-like flowers with bright canary-yellow petals.",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、Jelitto",
   "sources_used": "Jelitto、MBG、RHS、Walters、stauden.de"

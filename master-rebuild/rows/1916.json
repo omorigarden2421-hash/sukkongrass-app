@@ -350,7 +350,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 明るい半日陰（西日 × 相当）\n[MBG/属] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.\n[食い違い] 欧米の文献（属の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or West-facing or North-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／stauden.de・種] ausläufertreibend\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎、ランナー）",
+  "spread_evidence": "[地下茎 2／stauden.de・種] ausläufertreibend, rhizombildend（読み直し）\n[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／stauden.de・種] ausläufertreibend\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎、ランナー）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら",

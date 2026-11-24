@@ -221,6 +221,7 @@
   },
   "spread_modes": {
    "value": [
+    "地下茎",
     "こぼれ種"
    ],
    "method": "記載",
@@ -239,7 +240,7 @@
    "level": "cultivar"
   },
   "rhizome_level": {
-   "value": 0,
+   "value": 3,
    "method": "判定",
    "sources": [
     "s18",
@@ -251,17 +252,18 @@
    "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s18",
+    "s17"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "invasive_note": {
-   "value": "生育が強く、はびこる（stauden.de・種 の Wuchsstärke: wuchernd）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（stauden.de・品種）。生育が強く、はびこる（stauden.de・種 の Wuchsstärke: wuchernd）",
    "method": "記載",
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -359,12 +361,12 @@
  "review": {
   "management_type_reason": "Walters・品種: 盛夏に強く切り戻すと新しい葉が出る（夏の切り戻し）。Gaißmayer: 花後に全体を切ると締まって芽吹く。stauden.de の wuchernd はあるが Gaißmayer は「はびこらずに広がる」、mixing も「強い」なので E にしない",
   "management_type_quote": "Plants need to be cut back hard in midsummer to encourage fresh new foliage.",
-  "management_type_by_matching": "C 夏前切戻型",
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中\n[食い違い] おぎはらの楽天のページは 耐暑性: 強い（図鑑は 中。控えめな側のまま）\n[おぎはら楽天/種] 耐湿性: 普 通 ある程度耐えますが 高温多湿は嫌います（蒸れ 中 相当）\n[おぎはら楽天/種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 0／Gaißmayer・品種] Durch kurze Ausläufer breitet er sich flächig aus ohne zu wuchern.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
-  "mixing_evidence": "[stauden.de・種] Wuchsstärke: wuchernd",
+  "spread_evidence": "[地下茎 3／stauden.de・品種] rhizombildend／Wuchsstärke: wuchernd（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 0／Gaißmayer・品種] Durch kurze Ausläufer breitet er sich flächig aus ohne zu wuchern.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 0、文を読み直して 3（[stauden.de・cultivar] rhizombildend／Wuchsstärke: wuchernd）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "[Walters・品種] The plant forms a mound of glossy, deeply-cut, green foliage, bearing a summer-long display of cup-shaped, bright pink flowers.",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer",
   "sources_used": "Jelitto、RHS、Walters、stauden.de、おぎはら、シカゴ植物園"

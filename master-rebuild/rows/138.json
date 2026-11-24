@@ -217,20 +217,22 @@
    "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、おぎはら）"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 2,
    "method": "判定",
    "sources": [
-    "s02"
+    "s02",
+    "s10"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": 3,
    "method": "判定",
    "sources": [
-    "s02"
+    "s02",
+    "s10"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "侵略的（隔離推奨）",
@@ -241,7 +243,7 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（MBG・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（Walters・品種）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認。米国中西部の州で有害雑草に指定（MBG の注意書き）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（MBG・種）（種についての記述。この品種で同じかは未確認）。こぼれ種でよく増える（MBG・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（Walters・品種）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認。米国中西部の州で有害雑草に指定（MBG の注意書き）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s02",
@@ -344,7 +346,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜半日陰／暖地: 明るい半日陰〜半日陰（西日 × 相当）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Spreads rapidly by stolons rooting at the nodes and by self-seeding, sometimes forming colonies.\n[地下茎 3／MBG・種] Spreads rapidly by stolons rooting at the nodes and by self-seeding, sometimes forming colonies.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "spread_evidence": "[地下茎 3／MBG・種] can be somewhat invasive / [Walters・品種] Left unchecked it can become invasive（読み直し）\n[こぼれ種 2／MBG・種] Spreads rapidly by stolons ... and by self-seeding, sometimes forming colonies（読み直し）\n[こぼれ種 1／MBG・種] Spreads rapidly by stolons rooting at the nodes and by self-seeding, sometimes forming colonies.\n[地下茎 3／MBG・種] Spreads rapidly by stolons rooting at the nodes and by self-seeding, sometimes forming colonies.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 2（[MBG・種] Spreads rapidly by stolons ... and by self-seeding, sometimes forming colonies）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] It can be somewhat invasive, particularly when grown in rich moist soils.",
   "silhouette_evidence": "[RHS・品種] Habit: Spreading branched",
   "sources_with_cultivar_page": "RHS、Walters、おぎはら",

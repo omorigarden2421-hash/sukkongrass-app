@@ -234,32 +234,37 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s18",
+    "s17",
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": 3,
    "method": "判定",
    "sources": [
     "s06",
+    "s18",
     "s17",
-    "s02",
-    "s18"
+    "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
     "s06",
+    "s18",
     "s17",
-    "s02",
-    "s18"
+    "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）。文献に「侵略的・はびこる」という記述がある（NC State・種）",
@@ -368,7 +373,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Appreciates some afternoon shade in hot summer climates such as St.\n[NC State/種] It grows in full sun or partial shade and appreciates some afternoon shade on hot summer days, but cannot grow in full shade.\n[Walters/品種] Tolerates heat and humidity.\n[食い違い] 欧米の文献（品種・種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or South-facing",
-  "spread_evidence": "[地下茎 3／NC State・種] Plumbago is an aggressively spreading, low, herbaceous perennial ground cover and a member of the thrift family (Plumbaginaceae).\n[地下茎の食い違い] Gaißmayer は 2 相当、MBG は 2 相当、stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 3／NC State・種] an aggressively spreading ... ground cover / can spread aggressively（読み直し）\n[こぼれ種 0／stauden.de・品種] nicht versamend（読み直し）\n[地下茎 3／NC State・種] Plumbago is an aggressively spreading, low, herbaceous perennial ground cover and a member of the thrift family (Plumbaginaceae).\n[地下茎の食い違い] Gaißmayer は 2 相当、MBG は 2 相当、stauden.de は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・cultivar] nicht versamend）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・種] Noteworthy Characteristics Ceratostigma plumbaginoides , commonly called plumbago or leadwort, is a wiry, mat-forming perennial which spreads by rhizomes to form an attractive ground cover.",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら",

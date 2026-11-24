@@ -225,7 +225,7 @@
   },
   "spread_modes": {
    "value": [
-    "地下茎",
+    "株立ち",
     "こぼれ種"
    ],
    "method": "記載",
@@ -244,27 +244,24 @@
    "level": "cultivar"
   },
   "rhizome_level": {
-   "value": 2,
-   "method": "判定",
-   "sources": [
-    "s18",
-    "s02"
-   ],
-   "level": "cultivar"
-  },
-  "mixing": {
    "value": null,
    "method": "判定",
    "sources": null,
    "level": null
   },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・品種）",
-   "method": "記載",
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
    "sources": [
-    "s02"
+    "s18"
    ],
    "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -373,8 +370,8 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿を嫌います（蒸れ 中 相当）\n[MBG/品種] Good heat and drought tolerance.\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／MBG・品種] A rhizomatous, upright to sprawling, woody-based subshrub which typically grows 12-18\" tall and spreads to 24\" wide, but dies to the ground in cold winters.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
-  "mixing_evidence": null,
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] mäßig versamend／Rückschnitt vor der Samenreife（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／MBG・品種] A rhizomatous, upright to sprawling, woody-based subshrub which typically grows 12-18\" tall and spreads to 24\" wide, but dies to the ground in cold winters.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 空欄（記述なし）",
+  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Origanum laevigatum is a shrubby, woody-based marjoram or oregano that is native to rocky areas of Turkey and Cyprus.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de、おぎはら"

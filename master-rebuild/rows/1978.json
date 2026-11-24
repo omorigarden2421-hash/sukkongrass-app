@@ -226,6 +226,7 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s02",
     "s06"
    ],
    "level": "species"
@@ -234,6 +235,7 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s02",
     "s06"
    ],
    "level": "species"
@@ -242,6 +244,7 @@
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
+    "s02",
     "s06"
    ],
    "level": "species"
@@ -348,7 +351,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中\n[MBG/種] Foliage may scorch in hot summer sun.\n[MBG/種] Plants prefer cool summers, and generally will not perform well in the hot and humid summer conditions of the deep South (USDA Zones 7-9).\n[NC State/種] This plant prefers partial shade to full shade with protection from the afternoon sun, and fertile, moist, well-drained soils.\n[NC State/種] It performs best in areas with cooler nights and is not recommended for the southeastern United States.\n[NC State/種] It is intolerant of our hot and humid climate.\n[NC State/種] It is intolerant of dry soils and hot and humid climates.\n[NC State/種] Foliage can scorch in the hot sun.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った",
-  "spread_evidence": "[こぼれ種 1／NC State・種] Propagated by self-seeding or division.\n[地下茎 1／NC State・種] Siberian bugloss is a rhizomatous, clumping, herbaceous perennial in the borage family (Boraginaceae).\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[地下茎 1／MBG・種] Clumps slowly spread by creeping rhizomes to form thick ground covers.（読み直し）\n[こぼれ種 1／MBG・種] Plants may self seed in optimum growing conditions（読み直し）\n[こぼれ種 1／NC State・種] Propagated by self-seeding or division.\n[地下茎 1／NC State・種] Siberian bugloss is a rhizomatous, clumping, herbaceous perennial in the borage family (Boraginaceae).\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de",

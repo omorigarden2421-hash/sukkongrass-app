@@ -224,11 +224,11 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 3,
    "method": "判定",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -236,8 +236,8 @@
    "value": 3,
    "method": "判定",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -250,7 +250,7 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）。文献に「侵略的・はびこる」という記述がある（MBG・種）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）。生育が強く、はびこる（stauden.de・種 の Wuchsstärke: wuchernd）。米国中西部の州で有害雑草に指定（MBG の注意書き）。環境省の外来種リストに掲載（産業管理外来種（外来クサヨシ（リードカナリーグラス）））",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）。こぼれ種で強く増え、雑草化することがある（MBG・種）。文献に「侵略的・はびこる」という記述がある（MBG・種）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）。生育が強く、はびこる（stauden.de・種 の Wuchsstärke: wuchernd）。米国中西部の州で有害雑草に指定（MBG の注意書き）。環境省の外来種リストに掲載（産業管理外来種（外来クサヨシ（リードカナリーグラス）））",
    "method": "記載",
    "sources": [
     "s06",
@@ -354,7 +354,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら ○）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] cool season perennial grass; leaf blades ... tend to brown up as the summer progresses）\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Problems Reed canary grass is a rhizomatous, self-seeding spreader that is difficult to control.\n[地下茎 3／NC State・種] Insects, Diseases, and Other Plant Problems:  It can spread aggressively.\n[地下茎の食い違い] MBG は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
+  "spread_evidence": "[地下茎 3／NC State・種] spread by rhizomes and seeds and are very difficult to eradicate／It can spread aggressively（読み直し）\n[こぼれ種 3／MBG・種] rhizomatous, self-seeding spreader that is difficult to control（読み直し）\n[こぼれ種 1／MBG・種] Problems Reed canary grass is a rhizomatous, self-seeding spreader that is difficult to control.\n[地下茎 3／NC State・種] Insects, Diseases, and Other Plant Problems:  It can spread aggressively.\n[地下茎の食い違い] MBG は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[MBG・種] rhizomatous, self-seeding spreader that is difficult to control）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] Listed as invasive by the NC Invasive Plant Council and by many other states.",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Open",
   "sources_with_cultivar_page": "RHS",

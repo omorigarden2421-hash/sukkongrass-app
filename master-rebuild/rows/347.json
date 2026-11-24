@@ -320,7 +320,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/種] Appreciates some afternoon shade in hot summer climates.\n[MBG/種] Plants generally prefer a Mediterranean-type climate and may show some stress in hot and humid summers.\n[NC State/属] While the preferred environment varies among species, most are best grown in full sun or bright indirect light and appreciate some afternoon shade.\n[NC State/属] These plants prefer warm, dry conditions, and good air circulation.",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Species plants will self-seed in the garden unless spent flowers are deadheaded prior to setting seed.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] will self-seed in the garden unless spent flowers are deadheaded（読み直し）\n[こぼれ種 1／MBG・種] Species plants will self-seed in the garden unless spent flowers are deadheaded prior to setting seed.",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[MBG・種] Noteworthy Characteristics Euphorbia amygdaloides , commonly called wood spurge, is a bushy, evergreen, compact, free-branching euphorbia that typically grows in an upright rounded mound to 12-20” tal",
   "sources_with_cultivar_page": "なし",

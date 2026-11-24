@@ -234,21 +234,25 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s01",
+    "s10",
     "s02",
     "s17",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": 2,
    "method": "判定",
    "sources": [
+    "s01",
+    "s10",
     "s02",
     "s17",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "強い（周囲を圧迫、配置注意）",
@@ -259,13 +263,13 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・種）。文献に「条件によっては、はびこる」という記述がある（MBG・種）",
+   "value": "地下茎・ランナーでよく広がる（RHS・品種）。文献に「条件によっては、はびこる」という記述がある（MBG・種）",
    "method": "記載",
    "sources": [
-    "s18",
+    "s01",
     "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -361,7 +365,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐暑性: 普通（暖地では夏に風とおし、水はけよく）（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 夏はやや半日陰が理想（西日 × 相当）\n[RHS/品種] Aspect: South-facing or West-facing or North-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Spreads, sometimes aggressively, by creeping stems and by self-seeding.\n[こぼれ種の食い違い] Gaißmayer は 2 相当、stauden.de は 2 相当\n[地下茎 2／stauden.de・種] ausläufertreibend\n[地下茎の食い違い] Gaißmayer は 1 相当",
+  "spread_evidence": "[地下茎 2／RHS・品種] spreads by self-seeding and creeping stems（読み直し）\n[こぼれ種 1／RHS・品種] spreads by self-seeding and creeping stems / [Walters・品種] Self-seeds gently（読み直し）\n[こぼれ種 1／MBG・種] Spreads, sometimes aggressively, by creeping stems and by self-seeding.\n[こぼれ種の食い違い] Gaißmayer は 2 相当、stauden.de は 2 相当\n[地下茎 2／stauden.de・種] ausläufertreibend\n[地下茎の食い違い] Gaißmayer は 1 相当",
   "mixing_evidence": "[MBG・種] Spreads, sometimes aggressively, by creeping stems and by self-seeding.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",

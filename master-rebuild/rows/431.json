@@ -366,7 +366,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[NC State/種] It is also tolerant of clay soil, heat, deer and rabbits.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 強（[Walters・品種] stand up well to ... hot, humid weather）\n[RHS/品種] Aspect: North-facing or West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] It may also self-seed if conditions are right.",
+  "spread_evidence": "[こぼれ種 1／NC State・種] It may also self-seed if conditions are right（読み直し）\n[こぼれ種 1／NC State・種] It may also self-seed if conditions are right.",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Trailing",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、シカゴ植物園",

@@ -221,12 +221,12 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 2,
    "method": "判定",
    "sources": [
     "s10",
-    "s17",
-    "s18"
+    "s18",
+    "s17"
    ],
    "level": "cultivar"
   },
@@ -245,12 +245,13 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "環境省の外来種リストに掲載（防除検討外来種（ペラペラヨメナ(ペラペラヒメジョオン、メキシコヒナギク、エリゲロン・カルビンスキアヌス、ゲンペイコギク)））",
+   "value": "こぼれ種でよく増える（Walters・品種）。環境省の外来種リストに掲載（防除検討外来種（ペラペラヨメナ(ペラペラヒメジョオン、メキシコヒナギク、エリゲロン・カルビンスキアヌス、ゲンペイコギク)））",
    "method": "記載",
    "sources": [
+    "s10",
     "s05"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "防除検討外来種（ペラペラヨメナ(ペラペラヒメジョオン、メキシコヒナギク、エリゲロン・カルビンスキアヌス、ゲンペイコギク)）",
@@ -348,7 +349,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／Walters・品種] Even in cold regions this will act as a self-seeding annual and bloom all season long.\n[こぼれ種の食い違い] Gaißmayer は 2 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 2／Walters・品種] act as a self-seeding annual / [stauden.de・cultivar] oft Selbstaussaat（読み直し）\n[こぼれ種 1／Walters・品種] Even in cold regions this will act as a self-seeding annual and bloom all season long.\n[こぼれ種の食い違い] Gaißmayer は 2 相当、stauden.de は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 2（[Walters・品種] act as a self-seeding annual / [stauden.de・cultivar] oft Selbstaussaat）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、Jelitto",

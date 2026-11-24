@@ -228,7 +228,7 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
     "s06",
@@ -240,12 +240,13 @@
    "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s06"
@@ -338,12 +339,12 @@
  "review": {
   "management_type_reason": "calibration の 'シビリカ'（人の判断で D）と同じ種・同じ文なので合わせた。ただし chunk の文だけ読むと MBG は「剪定は必須ではないが、多くの人が毎年早春に古い茎の20〜25%を除く」で、毎年の更新が必要との明記はない（人の判断の根拠 UMN の文は chunk にない）。文だけなら A。吸枝で群落を作る・weedy（NC State）は invasive／aggressive の明記ではなく mixing も「強い」ので E にしない",
   "management_type_quote": "many gardeners choose to remove 20-25% of the oldest stems in early spring of each year",
-  "management_type_by_matching": null,
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Plants become stressed and more vulnerable to diseases such as canker in hot summer climates south of USDA Zone 7.\n[NC State/種] This shrub is more vulnerable to diseases in hot summer climates, especially south of USDA  Zone 7.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] It tends to sucker to form large colonies, which may be objectionable.\n[地下茎の食い違い] MBG は 0 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": "[NC State・種] The plant is weedy, and its suckering can make it difficult to remove.",
+  "spread_evidence": "[地下茎 3／NC State・種] The plant is weedy, and its suckering can make it difficult to remove.（読み直し）\n[地下茎 2／NC State・種] It tends to sucker to form large colonies, which may be objectionable.\n[地下茎の食い違い] MBG は 0 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[NC State・種] The plant is weedy, and its suckering can make it difficult to remove.）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "[RHS・品種] Habit: Suckering",
   "sources_with_cultivar_page": "RHS",
   "sources_used": "MBG、NC State、RHS"

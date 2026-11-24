@@ -204,16 +204,21 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "こぼれ種"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 3,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": 3,
@@ -232,7 +237,7 @@
    "level": "cultivar"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・品種）。文献に「侵略的・はびこる」という記述がある（MBG・品種）。地域によっては侵略的外来種とされている、という記述がある（MBG・品種）。NC State・品種 の表示: Invasive Species（米国ノースカロライナ州で侵略的外来種）。米国内に侵略的とされている地域がある（MBG の表示）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・品種）。こぼれ種で強く増え、雑草化することがある（NC State・品種）。文献に「侵略的・はびこる」という記述がある（MBG・品種）。地域によっては侵略的外来種とされている、という記述がある（MBG・品種）。NC State・品種 の表示: Invasive Species（米国ノースカロライナ州で侵略的外来種）。米国内に侵略的とされている地域がある（MBG の表示）",
    "method": "記載",
    "sources": [
     "s06",
@@ -334,7 +339,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or East-facing or West-facing",
-  "spread_evidence": "[地下茎 3／NC State・品種] The plant can spread aggressively with stems that root where they touch the ground.",
+  "spread_evidence": "[地下茎 3／NC State・品種] can spread aggressively with stems that root where they touch the ground（読み直し）\n[こぼれ種 3／NC State・品種] birds spread the seeds widely ... can overgrow native plants（読み直し）\n[地下茎 3／NC State・品種] The plant can spread aggressively with stems that root where they touch the ground.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 3（[NC State・品種] birds spread the seeds widely ... can overgrow native plants）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・品種] Can spread invasively into lawns or adjacent garden areas or can climb adjacent structures.",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Dense; Erect; Rounded; Spreading",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG",

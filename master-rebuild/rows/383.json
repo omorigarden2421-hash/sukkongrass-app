@@ -226,9 +226,10 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
+    "s01",
     "s02"
    ],
    "level": "cultivar"
@@ -236,15 +237,17 @@
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s01",
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・品種）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（RHS・品種）",
    "method": "記載",
    "sources": [
-    "s02"
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -339,12 +342,12 @@
  "review": {
   "management_type_reason": "RHS・品種: 広がり方が aggressive で、開けた場所では厄介になりうる。MBG・品種: 地下茎・ランナーで際限なく広がる。品種についての明記なので、機械の A から E に変更。mixing の列は空欄で、RHS は壁や敷石の間ならよいともするので要確認。剪定は不要（RHS）、花後に花茎を切る（おぎはら）",
   "management_type_quote": "aggressive spreading means it has potential to become a nuisance in more open spaces",
-  "management_type_by_matching": "A 放任型",
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが、高温多湿を嫌います 水はけの良い用土、場所を選んでください（蒸れ 弱 相当）\n[MBG/品種] Tolerates light shade, particularly in hot summer climates.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・品種] Plants spread indefinitely by rhizomes/runners.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": "[管理タイプの見直し] 文を読んで隔離推奨型にしたので、空欄 から 侵略的 にそろえた",
+  "spread_evidence": "[地下茎 3／RHS・品種] aggressive spreading means it has potential to become a nuisance（読み直し）\n[地下茎 2／MBG・品種] Plants spread indefinitely by rhizomes/runners.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[RHS・品種] aggressive spreading means it has potential to become a nuisance）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、MBG、Walters、Gaißmayer、おぎはら",
   "sources_used": "MBG、RHS、Walters、stauden.de、おぎはら"

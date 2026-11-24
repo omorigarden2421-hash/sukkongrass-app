@@ -347,7 +347,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら 空欄）\n[RHS/品種] Aspect: South-facing or West-facing or North-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Will self-seed in moist soils.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Will self-seed in moist soils（読み直し）\n[こぼれ種 1／MBG・種] Will self-seed in moist soils.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、Jelitto",

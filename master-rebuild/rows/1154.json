@@ -343,7 +343,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿は苦手です（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 日向〜やや半日陰（西日 ○ 相当）\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat（読み直し）\n[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら",

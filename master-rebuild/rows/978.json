@@ -230,6 +230,7 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"
@@ -355,7 +356,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or South-facing（西向きが入っていない）",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Self-seeds in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／NC State・種] It will self seed in optimal conditions（読み直し）\n[こぼれ種 1／MBG・種] Self-seeds in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、Jelitto",

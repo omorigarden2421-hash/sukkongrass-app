@@ -355,7 +355,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 高温多湿は苦手です（蒸れ 中 相当）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 1／MBG・品種] Over time, plants form slowly expanding clumps with deep and extensive root systems, and should not be disturbed once established.",
+  "spread_evidence": "[地下茎 1／MBG・品種] plants form slowly expanding clumps（読み直し）\n[地下茎 1／MBG・品種] Over time, plants form slowly expanding clumps with deep and extensive root systems, and should not be disturbed once established.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] 'Twilite' is an upright, mounded perennial that typically grows to 3-5' tall with a mature spread to 5' wide.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Gaißmayer、おぎはら",

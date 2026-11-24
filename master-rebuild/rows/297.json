@@ -358,7 +358,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/品種] Prefers part shade in hot summer climates.\n[MBG/品種] Does not do well when night temperatures do not consistently cool down below 70 degrees F.\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 0／MBG・品種] This cultivar is sterile and accordingly will not self-seed.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[地下茎 2／MBG・品種] Spreads freely by rhizomes under optimum growing conditions.",
+  "spread_evidence": "[地下茎 2／MBG・品種] Spreads freely by rhizomes under optimum growing conditions（読み直し）\n[こぼれ種 0／MBG・品種] This cultivar is sterile and accordingly will not self-seed（読み直し）\n[こぼれ種 0／MBG・品種] This cultivar is sterile and accordingly will not self-seed.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[地下茎 2／MBG・品種] Spreads freely by rhizomes under optimum growing conditions.",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] Large, drooping, tubular, glossy violet, bell-like flowers (to 2\" long) with inside spotting appear in terminal racemes atop erect to slightly arching stems.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、シカゴ植物園",

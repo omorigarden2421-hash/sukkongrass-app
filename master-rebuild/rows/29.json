@@ -241,8 +241,8 @@
    "method": "判定",
    "sources": [
     "s06",
-    "s17",
     "s02",
+    "s17",
     "s10",
     "s18"
    ],
@@ -259,8 +259,8 @@
    "method": "判定",
    "sources": [
     "s06",
-    "s17",
     "s02",
+    "s17",
     "s10",
     "s18"
    ],
@@ -374,7 +374,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[MBG/種] Prefers part afternoon shade in hot summer climates.\n[MBG/種] In hot summer climates such as St.\n[MBG/種] Louis, leaves may scorch in full sun exposures or if soils are permitted to dry out.\n[NC State/種] In drier areas, the leaves may scorch in full sun.\n[RHS/品種] Aspect: South-facing or North-facing or East-facing or West-facing",
-  "spread_evidence": "[こぼれ種 3／NC State・種] The flowers do set seed and self-seeding can be a problem if it is growing in optimum conditions.\n[こぼれ種の食い違い] Gaißmayer は 2 相当、MBG は 1 相当、MBG は 2 相当、Walters は 1 相当、stauden.de は 1 相当、stauden.de は 2 相当",
+  "spread_evidence": "[こぼれ種 3／NC State・種] self-seeding can be a problem / [MBG・種] Can be an aggressive self-seeder（読み直し）\n[こぼれ種 3／NC State・種] The flowers do set seed and self-seeding can be a problem if it is growing in optimum conditions.\n[こぼれ種の食い違い] Gaißmayer は 2 相当、MBG は 1 相当、MBG は 2 相当、Walters は 1 相当、stauden.de は 1 相当、stauden.de は 2 相当",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "[NC State・種] Habit/Form: Dense; Mounding; Spreading",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、シカゴ植物園、Jelitto",

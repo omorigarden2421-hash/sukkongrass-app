@@ -375,7 +375,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[MBG/品種] Tolerant of heat, humidity and drought.\n[Walters/品種] Tolerant of hot, dry sites, once established.\n[Walters/品種] Tolerates heat and humidity.\n[RHS/品種] Aspect: East-facing or South-facing or North-facing or West-facing",
-  "spread_evidence": "[こぼれ種 0／NC State・品種] The seeds are sterile but the plant can spread by rhizomes.\n[こぼれ種の食い違い] MBG は 1 相当\n[地下茎 2／NC State・品種] The seeds are sterile but the plant can spread by rhizomes.\n[地下茎の食い違い] MBG は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "spread_evidence": "[地下茎 2／NC State・品種] the plant can spread by rhizomes（読み直し）\n[こぼれ種 0／NC State・品種] The seeds are sterile（読み直し）\n[こぼれ種 0／NC State・品種] The seeds are sterile but the plant can spread by rhizomes.\n[こぼれ種の食い違い] MBG は 1 相当\n[地下茎 2／NC State・品種] The seeds are sterile but the plant can spread by rhizomes.\n[地下茎の食い違い] MBG は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "[MBG・品種] Species plants can spread somewhat aggressively in the garden by both rhizomes and self-seeding.",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Mounding",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer",

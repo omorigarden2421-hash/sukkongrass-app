@@ -209,7 +209,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "地下茎"
    ],
    "method": "記載",
    "sources": [
@@ -224,7 +225,7 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 0,
+   "value": 1,
    "method": "判定",
    "sources": [
     "s06",
@@ -335,7 +336,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[RHS/品種] Aspect: North-facing or East-facing（西向き・南向きが入っていない）",
-  "spread_evidence": "[地下茎 0／NC State・種] This easy-to-grow fern produces new fronds late in the spring and is not aggressive.\n[地下茎の食い違い] MBG は 1 相当、MBG は 2 相当",
+  "spread_evidence": "[地下茎 1／NC State・種] spread by compact, creeping and branching rhizomes ... not aggressive（読み直し）\n[地下茎 0／NC State・種] This easy-to-grow fern produces new fronds late in the spring and is not aggressive.\n[地下茎の食い違い] MBG は 1 相当、MBG は 2 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 0、文を読み直して 1（[NC State・種] spread by compact, creeping and branching rhizomes ... not aggressive）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] pictum , commonly known as Japanese painted fern, is a rhizomatous, deciduous fern with an arching habit that typically grows to 18” tall.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Gaißmayer",

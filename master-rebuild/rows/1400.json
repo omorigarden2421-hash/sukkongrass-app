@@ -233,26 +233,31 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": 1,
    "method": "判定",
    "sources": [
-    "s02"
+    "s02",
+    "s10"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s02"
+    "s02",
+    "s10"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": "NC State・種 の表示: Weedy（雑草化しやすい）",
@@ -367,7 +372,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[おぎはら楽天/種] 耐湿性: 普 通 高温多湿は苦手です（蒸れ 中 相当）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 1／MBG・種] Over time, plants develop slowly expanding clumps with deep and extensive root systems, and should not be disturbed once established.",
+  "spread_evidence": "[地下茎 1／MBG・種] plants develop slowly expanding clumps（読み直し）\n[こぼれ種 1／Walters・品種] moving any seedlings that may appear（読み直し）\n[地下茎 1／MBG・種] Over time, plants develop slowly expanding clumps with deep and extensive root systems, and should not be disturbed once established.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[Walters・品種] moving any seedlings that may appear）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・種] It features purple, lupine-like flowers in erect racemes (to 12\") atop flower spikes extending well above a foliage mound of clover-like, trifoliate, bluish-green leaves (leaflets to 2\" long).",
   "sources_with_cultivar_page": "RHS、Walters、Jelitto",

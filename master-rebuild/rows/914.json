@@ -240,6 +240,7 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s18",
     "s17"
    ],
    "level": "cultivar"
@@ -375,7 +376,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[おぎはら楽天/種] 耐湿性: 普 通 ある程度耐えますが、高温多湿を嫌います（蒸れ 中 相当）\n[RHS/品種] Aspect: West-facing or South-facing",
-  "spread_evidence": "[こぼれ種 1／Gaißmayer・品種] Nach der Blüte sollten die Pflanzen komplett zurückgeschnitten werden. Dies fördert ein kräftiges Remontieren und verhindert die Selbstaussaat.",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] mäßig versamend（読み直し）\n[こぼれ種 1／Gaißmayer・品種] Nach der Blüte sollten die Pflanzen komplett zurückgeschnitten werden. Dies fördert ein kräftiges Remontieren und verhindert die Selbstaussaat.",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] Whorls of small, two-lipped, lilac-blue flowers in terminal racemes atop erect to arching stems bloom throughout the summer.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、シカゴ植物園",

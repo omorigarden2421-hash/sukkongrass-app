@@ -228,6 +228,7 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s10",
     "s18"
    ],
    "level": "cultivar"
@@ -346,7 +347,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[Walters・品種] In warm regions this often will go dormant during the summer）\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／Walters・品種] Seedlings that appear are usually true（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] Plants form a dense mound of beautiful chartreuse-yellow foliage in spring, bearing short spikes of green flowers in early summer.／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、おぎはら、Jelitto",

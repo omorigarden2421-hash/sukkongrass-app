@@ -229,10 +229,12 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "rhizome_level": {
    "value": null,
@@ -355,7 +357,7 @@
   "heat_west_only": null,
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/品種] Louis area, primarily because of winter stresses and high summer humidity.\n[MBG/品種] High summer humidity in the St.\n[NC State/種] Providing good air circulation helps prevent leaf spot.\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・species] versamend）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] Lavender is actually a low-growing shrub, native to the Mediterranean region.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer",

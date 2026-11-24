@@ -215,7 +215,7 @@
   },
   "spread_modes": {
    "value": [
-    "地下茎"
+    "株立ち"
    ],
    "method": "記載",
    "sources": [
@@ -230,26 +230,24 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
-   "method": "判定",
-   "sources": [
-    "s06"
-   ],
-   "level": "species"
-  },
-  "mixing": {
    "value": null,
    "method": "判定",
    "sources": null,
    "level": null
   },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）",
-   "method": "記載",
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
    "sources": [
-    "s06"
+    "s18"
    ],
    "level": "species"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -342,8 +340,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] Yellow coneflower is a rhizomatous perennial herb native to central and eastern USA in the daisy family (Asteraceae).\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 2／NC State・種] Yellow coneflower is a rhizomatous perennial herb native to central and eastern USA in the daisy family (Asteraceae).\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 空欄（[NC State・種] a rhizomatous perennial herb（広がる明記なし））",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de"

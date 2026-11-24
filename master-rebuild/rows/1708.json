@@ -204,7 +204,7 @@
   },
   "spread_modes": {
    "value": [
-    "ランナー"
+    "株立ち"
    ],
    "method": "記載",
    "sources": [
@@ -219,26 +219,24 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
-   "method": "判定",
-   "sources": [
-    "s17"
-   ],
-   "level": "cultivar"
-  },
-  "mixing": {
    "value": null,
    "method": "判定",
    "sources": null,
    "level": null
   },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（Gaißmayer・品種）",
-   "method": "記載",
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
    "sources": [
-    "s17"
+    "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -334,8 +332,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／Gaißmayer・品種] Das kriechende Berg-Bohnenkraut macht als wüchsiger, wertvoller, weißer Spätblüher im Steingarten, auf Mauerkronen etc. viel her.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 2／Gaißmayer・品種] Das kriechende Berg-Bohnenkraut macht als wüchsiger, wertvoller, weißer Spätblüher im Steingarten, auf Mauerkronen etc. viel her.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 空欄（[Gaißmayer habit] das kriechende Berg-Bohnenkraut（呼び名。根づく茎・地下茎の記述なし））",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Gaißmayer、Jelitto",
   "sources_used": "Gaißmayer、Jelitto、MBG、RHS、stauden.de"

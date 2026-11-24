@@ -361,7 +361,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] An adaptable plant that is tolerant of drought, heat, humidity and poor soils.\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／MBG・種] Freely self-seeds if at least some of the seed heads are left in place.",
+  "spread_evidence": "[こぼれ種 2／MBG・種] Freely self-seeds if at least some of the seed heads are left in place（読み直し）\n[こぼれ種 2／MBG・種] Freely self-seeds if at least some of the seed heads are left in place.",
   "mixing_evidence": "[NC State・種] It is an aggressive plant and needs competing plants such as prairie grass to limit its spread.",
   "silhouette_evidence": "[NC State・種] Habit/Form: Erect",
   "sources_with_cultivar_page": "RHS、Gaißmayer、おぎはら",

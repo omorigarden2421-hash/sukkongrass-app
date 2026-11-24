@@ -222,10 +222,12 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -345,7 +347,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/種] Flowering may decline and foliage may wilt in the heat of the summer.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 弱（[NC State・種] It does best in cool moist conditions with some shade; Flowering may decline and foliage may wilt in the heat of the summer）\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] mäßig versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・cultivar] mäßig versamend）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] Plants form a bushy, upright clump of dark green leaves, bearing many delicate dangling bell-like white flowers.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer",

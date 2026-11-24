@@ -239,10 +239,12 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -370,7 +372,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；弱\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿は嫌います（蒸れ 弱 相当）\n[NC State/種] They generally don't do well in heat and humidity or south of zone 7 and do need an adequate cold period in the winter in order to have good seed germination.\n[RHS/品種] Aspect: South-facing or East-facing",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・cultivar] versamend）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] Because they disappear in summer, place something beside Oriental Poppies that will get bushy later in the season, such as Rudbeckia, Russian Sage, or fall-flowering grasses.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、おぎはら、Jelitto",

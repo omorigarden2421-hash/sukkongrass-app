@@ -349,7 +349,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: West-facing or South-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] Seed strains will self-seed in optimum growing conditions if flowers are not deadheaded.",
+  "spread_evidence": "[こぼれ種 1／MBG・品種] Seed strains will self-seed in optimum growing conditions if flowers are not deadheaded（読み直し）\n[こぼれ種 1／MBG・品種] Seed strains will self-seed in optimum growing conditions if flowers are not deadheaded.",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] Plants form a low mound of light-green leaves, bearing upright stems of large daisy-type flowers.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、Jelitto",

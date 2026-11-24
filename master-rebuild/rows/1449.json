@@ -347,7 +347,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の 'Britt-Marie Crawford'・図鑑の 'Midnight Lady'・図鑑の 'Pandora'・図鑑の 'Garden Confetti'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/種] Best performance in climates with cool summers.\n[MBG/種] Probably best in partially shaded (afternoon shade) or dappled shade locations in climates with hot, humid summers.\n[MBG/種] Even with adequate soil moisture, leaf wilting may occur in hot summer climates (foliage droops in afternoons with recovery at night), particularly when the plant is exposed to too much sun.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、Jelitto",

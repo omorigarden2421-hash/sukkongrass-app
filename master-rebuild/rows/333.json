@@ -211,6 +211,8 @@
   },
   "spread_modes": {
    "value": [
+    "地下茎",
+    "ランナー",
     "こぼれ種"
    ],
    "method": "記載",
@@ -222,19 +224,19 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s02",
+    "s17",
     "s06",
-    "s17"
+    "s02"
    ],
    "level": "cultivar"
   },
   "rhizome_level": {
-   "value": 0,
+   "value": 1,
    "method": "判定",
    "sources": [
-    "s02",
+    "s17",
     "s06",
-    "s17"
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -348,7 +350,7 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 強（[MBG・種] spreads invasively in warm winter locations, particularly evident in the southeastern U.S.）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] In warm winter areas, it naturalizes aggressively by both rhizomes and self-seeding to form dense monocultures which displace native species.\n[地下茎 0／NC State・品種] While the red form is not invasive, it can revert to the 4-5-foot-tall green form, which is extremely aggressive.\n[地下茎の食い違い] Gaißmayer は 1 相当、MBG は 1 相当、MBG は 3 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "spread_evidence": "[地下茎 1／読み直し・不明] [Gaißmayer] breitet sich durch kurze Ausläufer aus（読み直し）\n[こぼれ種 1／NC State・品種] It rarely produces seeds（読み直し）\n[こぼれ種 1／MBG・種] In warm winter areas, it naturalizes aggressively by both rhizomes and self-seeding to form dense monocultures which displace native species.\n[地下茎 0／NC State・品種] While the red form is not invasive, it can revert to the 4-5-foot-tall green form, which is extremely aggressive.\n[地下茎の食い違い] Gaißmayer は 1 相当、MBG は 1 相当、MBG は 3 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 0、文を読み直して 1（[Gaißmayer] breitet sich durch kurze Ausläufer aus）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）\n[MBG・種] In warm winter areas, it naturalizes aggressively by both rhizomes and self-seeding to form dense monocultures which displace native species.",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Clumping; Erect",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら",

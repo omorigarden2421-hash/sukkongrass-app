@@ -210,6 +210,7 @@
   },
   "spread_modes": {
    "value": [
+    "地下茎",
     "ランナー"
    ],
    "method": "記載",
@@ -227,6 +228,7 @@
    "value": 2,
    "method": "判定",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "cultivar"
@@ -238,10 +240,10 @@
    "level": null
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・品種）",
+   "value": "地下茎・ランナーでよく広がる（NC State・品種）",
    "method": "記載",
    "sources": [
-    "s02"
+    "s06"
    ],
    "level": "cultivar"
   },
@@ -335,7 +337,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[NC State/品種] This plant is more vulnerable to disease in hot summer climates.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[NC State・品種] may develop cankers in hot and humid climates）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・品種] It is a compact shrub which grows to a maximum size of 5-6 feet tall by 5-6 feet wide with a spreading, stoloniferous habit.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "spread_evidence": "[地下茎 2／NC State・品種] suckers that freely spread and form thickets（読み直し）\n[地下茎 2／MBG・品種] It is a compact shrub which grows to a maximum size of 5-6 feet tall by 5-6 feet wide with a spreading, stoloniferous habit.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・品種] Habit/Form: Mounding; Multi-stemmed; Rounded; Spreading",
   "sources_with_cultivar_page": "RHS、MBG",

@@ -227,20 +227,20 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
-    "s06",
-    "s18"
+    "s18",
+    "s06"
    ],
    "level": "cultivar"
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
-    "s06",
-    "s18"
+    "s18",
+    "s06"
    ],
    "level": "cultivar"
   },
@@ -248,20 +248,19 @@
    "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18",
     "s06"
    ],
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）。こぼれ種でよく増える（NC State・種）（種についての記述。この品種で同じかは未確認）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。生育が強く、はびこる（stauden.de・種 の Wuchsstärke: wuchernd）（種についての記述。この品種で同じかは未確認）。米国中西部の州で有害雑草に指定（MBG の注意書き）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（stauden.de・種）（種についての記述。この品種で同じかは未確認）。こぼれ種で強く増え、雑草化することがある（NC State・種）（種についての記述。この品種で同じかは未確認）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。生育が強く、はびこる（stauden.de・種 の Wuchsstärke: wuchernd）（種についての記述。この品種で同じかは未確認）。米国中西部の州で有害雑草に指定（MBG の注意書き）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s18",
     "s06",
     "s02"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -362,12 +361,12 @@
  "review": {
   "management_type_reason": "MBG・種: 夏に葉が傷んだら強く切り戻す。NC State・種: 乾いて葉が焼けたら強く切り戻す。RHS・品種: 花がら摘み。「こぼれ種で手に負えなくなる」は種の記述で品種で同じかは不明（RHS も実生は親と同じにならないとする）ので E にしない。走出枝は「強く広がる・wuchernd」で invasive の明記ではないと読んだ",
   "management_type_quote": "If foliage depreciates in summer, cut back hard to promote new growth.",
-  "management_type_by_matching": "C 夏前切戻型",
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/種] If plants dry out, the leaves become scorched, but the plant can be cut back hard to generate new growth.\n[RHS/品種] Aspect: East-facing or South-facing or North-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／NC State・種] It freely self-seeds and can spread out of control.\n[地下茎 2／stauden.de・品種] ausläufertreibend\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
-  "mixing_evidence": "[stauden.de・種] Wuchsstärke: wuchernd\n[NC State・種] Some Midwestern states consider this plant a noxious weed and do not allow it to be grown or transplanted where there is any danger of it spreading.",
+  "spread_evidence": "[地下茎 3／stauden.de・種] Wuchsstärke wuchernd / [stauden.de・cultivar] ausläufertreibend（読み直し）\n[こぼれ種 3／NC State・種] It freely self-seeds and can spread out of control / be aware it is weedy（読み直し）\n[こぼれ種 2／NC State・種] It freely self-seeds and can spread out of control.\n[地下茎 2／stauden.de・品種] ausläufertreibend\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 2、文を読み直して 3（[NC State・種] It freely self-seeds and can spread out of control / be aware it is weedy）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[stauden.de・species] Wuchsstärke wuchernd / [stauden.de・cultivar] ausläufertreibend）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] Some Midwestern states consider this plant a noxious weed and do not allow it to be grown or transplanted where there is any danger of it spreading.\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "[Walters・品種] Plants form a bushy clump, bearing sprays of white flowers in early summer.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"

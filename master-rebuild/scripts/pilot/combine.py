@@ -116,6 +116,8 @@ def name_answer(id_, a, adopted, note, ryu, wa, d, master_name):
 
 
 MK = ANS.get("未決", {})
+# 広がり方の総当たりの読み直し（2026-11-24。商品番号 → こぼれ種・地下茎・混植と決め手）。段階は下書き（assemble）で使い済み。ここでは混植適性の確かめに使う
+SPREAD_RR = json.load(open("spread_reread.json", encoding="utf-8")) if os.path.exists("spread_reread.json") else {}
 # 矛盾の洗い出しで、段階 3 なのに侵略的でなかった品種の読み直し（2026-11-24 ユーザー「おすすめでお願い」）。商品番号 → {列: (値, 理由)}
 _MON = "NC State・種「地下の走出枝で急速に広がる」は速く広がる話で、侵略的・はびこるとは書いていない（RULES.md の 2：spreads／vigorous spreader）。3 → 2"
 _SPI = "こぼれ種ではびこる記述（NC State・MBG）は種の記述だけ。品種がこぼれ種で増えるかは分からないので空欄（2026-11-19 のスピレア 'Goldflame' の決定と同じ）。3 → 空欄"
@@ -515,11 +517,21 @@ for m in master:
         mt_how = "ユーザーの決定（2026-11-24。矛盾の洗い出しのおすすめ）"
     # こぼれ種 2 の基準（2026-11-24 ユーザー「おすすめでお願い」）: 混植適性は 普通 のまま（「こぼれ種でよく増える」の注意は付く）。
     # ただし、こぼれ種 2 の根拠の文に「雑草化する」「大きな群落を作る」「野生化している」があれば 強い
+    rrs = SPREAD_RR.get(no, {})
     if (r.get("混植適性") or "").startswith("普通") and sd == 2:
         ev2 = [l for l in why.split("\n") if l.startswith("[こぼれ種 2")]
-        if any(re.search(r"weedy|naturaliz|colonies|escaped|verwilder", l, re.I) for l in ev2):
+        hit2 = next((l for l in ev2 if re.search(r"weedy|naturaliz|colonies|escaped|verwilder", l, re.I)), None)
+        # 総当たりの読み直し（spread_reread.json）で、同じ基準で 強い と読んだもの（群落・野生化の文が、こぼれ種の決め手とは別の文にあるとき）
+        if not hit2 and (rrs.get("混植") or "").startswith("強い"):
+            hit2 = f"[読み直し] {rrs.get('混植の決め手') or ''}"
+        if hit2:
             r["混植適性"] = "強い（周囲を圧迫、配置注意）"
-            r["混植適性の根拠"] = "\n".join(x for x in (r.get("混植適性の根拠"), "[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：" + ev2[0][:160]) if x)
+            r["混植適性の根拠"] = "\n".join(x for x in (r.get("混植適性の根拠"), "[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：" + hit2[:160]) if x)
+    # 株立ちの記述だけの品種（2026-11-24 総当たりの読み直し）: RULES.md の「普通（混植可）: clump-forming で上の記述なし」。
+    # 前は stauden.de の horstig と地下茎 0〜1 しか見ていなかったので、RHS の Habit: Clump forming や MBG の clump-forming だけの品種が空欄だった
+    if not r.get("混植適性") and (rrs.get("混植") or "").startswith("普通") and (rz or 0) < 2 and (sd or 0) < 3:
+        r["混植適性"] = "普通（混植可）"
+        r["混植適性の根拠"] = "\n".join(x for x in (r.get("混植適性の根拠"), f"[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：{rrs.get('混植の決め手') or ''}"[:220]) if x)
     cold = r["耐寒性"]  # 食い違いの確認の回答で変わることがある
     heat = d.get("耐暑性")
     uh = ANS["耐暑性"].get(no)

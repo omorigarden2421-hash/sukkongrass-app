@@ -207,17 +207,17 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -225,12 +225,13 @@
    "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。文献に「条件によっては、はびこる」という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。文献に「条件によっては、はびこる」という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s06",
@@ -319,12 +320,12 @@
  "review": {
   "management_type_reason": "MBG・種: 地下茎とこぼれ種で、ときに攻撃的に広がり大きな群落になると明記。地下茎によるので種の記述を品種に当てた。「ときに」なので中。機械は mixing 強い・タイプ空欄",
   "management_type_quote": "Plants will spread, sometimes aggressively, by rhizomes and self-seeding to form large colonies.",
-  "management_type_by_matching": null,
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[こぼれ種 1／MBG・種] Plants will spread, sometimes aggressively, by rhizomes and self-seeding to form large colonies.\n[地下茎 2／NC State・種] It spreads by stoloniferous rootstocks and seeds forming a groundcover.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
-  "mixing_evidence": "[MBG・種] Plants will spread, sometimes aggressively, by rhizomes and self-seeding to form large colonies.\n[管理タイプの見直し] 文を読んで隔離推奨型にしたので、強い（周囲を圧迫、配置注意） から 侵略的 にそろえた",
+  "spread_evidence": "[地下茎 3／NC State・種] it can take over a perennial garden（読み直し）\n[こぼれ種 1／NC State・種] spreads by stoloniferous rootstocks and seeds（読み直し）\n[こぼれ種 1／MBG・種] Plants will spread, sometimes aggressively, by rhizomes and self-seeding to form large colonies.\n[地下茎 2／NC State・種] It spreads by stoloniferous rootstocks and seeds forming a groundcover.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[NC State・種] it can take over a perennial garden）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Creeping; Erect; Spreading",
   "sources_with_cultivar_page": "シカゴ植物園",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園"

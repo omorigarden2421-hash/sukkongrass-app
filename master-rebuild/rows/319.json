@@ -252,10 +252,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": "こぼれ種などではびこる、という記述がある（MBG・品種）。この品種で同じかは未確認",
@@ -370,8 +372,8 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿を嫌います（蒸れ 弱 相当）\n[MBG/品種] Somewhat intolerant of the heat and humidity of the deep South, however, and appreciates some light afternoon shade in hot summer climates such as the St.\n[NC State/品種] If planted in the south, it may do better with some afternoon shade and may be bothered by humidity.\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 0／NC State・品種] They are sterile with no seed production and will rebloom if cut back mid-summer.\n[こぼれ種の食い違い] MBG は 3 相当",
-  "mixing_evidence": "[MBG・品種] May aggressively self-seed in optimum growing conditions.",
+  "spread_evidence": "[こぼれ種 0／NC State・品種] sterile with no seed production（読み直し）\n[こぼれ種 0／NC State・品種] They are sterile with no seed production and will rebloom if cut back mid-summer.\n[こぼれ種の食い違い] MBG は 3 相当",
+  "mixing_evidence": "[MBG・品種] May aggressively self-seed in optimum growing conditions.\n[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[MBG・品種] spreading clump",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Arching; Erect",
   "sources_with_cultivar_page": "RHS、MBG、Walters、おぎはら、シカゴ植物園",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園"

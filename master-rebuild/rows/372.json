@@ -226,36 +226,43 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s01",
     "s06",
-    "s17",
-    "s02"
+    "s02",
+    "s17"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
+    "s01",
     "s06",
-    "s17",
-    "s02"
+    "s02",
+    "s17"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
+   "sources": [
+    "s01",
+    "s06",
+    "s02",
+    "s17"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（RHS・品種）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
+    "s01",
     "s06"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -353,12 +360,12 @@
  "review": {
   "management_type_reason": "Gaißmayer・種: 走出枝を出してはびこる（wuchernd）宿根草と明記。RHS・品種も湿った土では「しつこく広がる」、stauden.de・品種も囲うとする。地下茎・走出枝によるので種の記述を品種に当てた。invasive/aggressive の語はなく wuchernd の読み方に幅があるので低（E でなければ花後の花茎切りで B）。機械は mixing 空欄で B",
   "management_type_quote": "Die Ausläufer treibende, wuchernde Staude",
-  "management_type_by_matching": "B 花後刈込型",
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Plants prefer some part afternoon shade in the St.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] It primarily spreads through rhizomes but may also self-seed.\n[地下茎 2／NC State・種] It is a tall, erect, rhizomatous plant reaching 3 feet in height, forming large mounding colonies.\n[地下茎の食い違い] Gaißmayer は 3 相当、MBG は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
-  "mixing_evidence": "[管理タイプの見直し] 文を読んで隔離推奨型にしたので、空欄 から 侵略的 にそろえた",
+  "spread_evidence": "[地下茎 3／RHS・品種] determined spreader ... potential to become a nuisance（読み直し）\n[こぼれ種 1／NC State・種] may also self-seed／[MBG・品種] only occasionally produces seed（読み直し）\n[こぼれ種 1／NC State・種] It primarily spreads through rhizomes but may also self-seed.\n[地下茎 2／NC State・種] It is a tall, erect, rhizomatous plant reaching 3 feet in height, forming large mounding colonies.\n[地下茎の食い違い] Gaißmayer は 3 相当、MBG は 1 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[RHS・品種] determined spreader ... potential to become a nuisance）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、おぎはら",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"

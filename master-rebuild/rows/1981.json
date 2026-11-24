@@ -222,10 +222,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -328,7 +330,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/属] In the south it is best to plant hosta in full shade or dappled shade so that the foliage colors will be more vibrant and won't develop leaf burn.\n[NC State/属] Hosta plantaginea  originated in China and is very fragrant and tolerates heat.\n[RHS/品種] Aspect: East-facing or North-facing or West-facing",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[RHS・品種] Habit: Clump forming",
   "silhouette_evidence": "[Walters・品種] Plants form a sturdy mound of foliage, topped with lily-like blooms.",
   "sources_with_cultivar_page": "RHS、Walters",
   "sources_used": "MBG、NC State、RHS、Walters"

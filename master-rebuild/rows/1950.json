@@ -228,21 +228,28 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
+    "s10",
     "s18"
    ],
    "level": "cultivar"
@@ -354,8 +361,8 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[MBG/品種] Plants tolerate hot, humid summers and drought.\n[Walters/品種] Heat tolerant.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 強（[MBG・品種] Plants tolerate hot, humid summers）\n[RHS/品種] Aspect: West-facing or East-facing or South-facing",
-  "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "spread_evidence": "[地下茎 1／Walters・品種] Will spread to form a patch, but the habit is not too invasive for the border.（読み直し）\n[こぼれ種 0／stauden.de・種] nicht versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・species] nicht versamend）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 1（[Walters・品種] Will spread to form a patch, but the habit is not too invasive for the border.）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[Walters・品種] This selection features clusters of soft-pink flowers, held over a bushy clump of dark-green, sawtooth foliage.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"

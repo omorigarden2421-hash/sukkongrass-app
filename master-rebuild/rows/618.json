@@ -216,7 +216,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -225,10 +226,12 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -350,7 +353,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/同じ種の別品種（Td04・図鑑の 'Sweet Kate'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[NC State/種] When planted in locations that experience hot summers, the foliage will decline, and flowering can stop completely.\n[NC State/種] This hybrid has flowers that will open in the morning and close if subject to afternoon sunshine.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 1／RHS・品種] cut back stems to prevent seeding（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[RHS・品種] cut back stems to prevent seeding）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming, Tufted",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、シカゴ植物園",

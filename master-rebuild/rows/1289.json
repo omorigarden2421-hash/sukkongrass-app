@@ -224,8 +224,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
-    "こぼれ種"
+    "株立ち"
    ],
    "method": "記載",
    "sources": [
@@ -234,10 +233,12 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -365,7 +366,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Plants tolerate heat and some dry soils once established.\n[NC State/品種] It is tolerant of dry soils and heat once established but it will not tolerate heavy clay or poorly draining soils.\n[NC State/品種] it is a good choice for the southeast gardener as it tolerates humidity better than some hyssops.\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 0／RHS・品種] This cultivar is sterile（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[RHS・品種] This cultivar is sterile）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら",

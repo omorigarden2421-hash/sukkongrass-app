@@ -243,10 +243,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -357,8 +359,8 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[NC State/種] It is also tolerant of clay soil, heat, deer and rabbits.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] It may also self-seed if conditions are right.",
-  "mixing_evidence": null,
+  "spread_evidence": "[こぼれ種 1／NC State・種] It may also self-seed if conditions are right.（読み直し）\n[こぼれ種 1／NC State・種] It may also self-seed if conditions are right.",
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[MBG・品種] clump-forming perennial",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming, Matforming",
   "sources_with_cultivar_page": "RHS、MBG、シカゴ植物園",
   "sources_used": "MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園"

@@ -214,18 +214,20 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
-   "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "rhizome_level": {
-   "value": 2,
+   "value": 1,
    "method": "判定",
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "rhizome_level": {
+   "value": 3,
+   "method": "判定",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "mixing": {
    "value": "強い（周囲を圧迫、配置注意）",
@@ -233,15 +235,15 @@
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・種）。生育が強く、はびこる（stauden.de・種 の Wuchsstärke: wuchernd）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（stauden.de・品種）。生育が強く、はびこる（stauden.de・種 の Wuchsstärke: wuchernd）",
    "method": "記載",
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -325,12 +327,12 @@
  "review": {
   "management_type_reason": "stauden.de・種: 秋は切り戻さない（冬の姿を残す）。RHS は落葉性グラスの刈り方のページを参照するだけ。stauden.de・種は「wuchernd（はびこる）」、ランナーで広がるので抑えるとするが、mixing は「強い」で侵略的ではないので E にしなかった。機械は null",
   "management_type_quote": "Kein Rückschnitt im Herbst, Winteraspekt der Struktur, Blätter, Samenstände oder wegen der Schutzwir",
-  "management_type_by_matching": null,
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／stauden.de・種] ausläufertreibend",
-  "mixing_evidence": "[stauden.de・種] Wuchsstärke: wuchernd",
+  "spread_evidence": "[地下茎 3／stauden.de・品種] ausläufertreibend／Wuchsstärke: wuchernd（読み直し）\n[こぼれ種 1／stauden.de・品種] mäßig versamend（読み直し）\n[地下茎 2／stauden.de・種] ausläufertreibend\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・cultivar] mäßig versamend）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[stauden.de・cultivar] ausläufertreibend／Wuchsstärke: wuchernd）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "[stauden.de・種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte Stängel mit grundständigem Blattschopf／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、Jelitto",
   "sources_used": "Jelitto、RHS、stauden.de"

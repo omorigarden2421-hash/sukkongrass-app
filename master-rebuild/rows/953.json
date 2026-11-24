@@ -234,10 +234,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": "環境省の外来種リストに掲載（防除検討外来種（ユウゼンギク（メリケンコンギク、シノノメギク、ユウゼンノギク）））",
@@ -348,8 +350,8 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/種] Good air circulation and consistently moist soils with good drainage help reduce incidence of foliar diseases.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Plants can be cut back after flowering to reduce self-seeding.",
-  "mixing_evidence": null,
+  "spread_evidence": "[こぼれ種 1／MBG・種] cut back after flowering to reduce self-seeding（読み直し）\n[こぼれ種 1／MBG・種] Plants can be cut back after flowering to reduce self-seeding.",
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[RHS・品種] Clump forming",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: kissenartig bis kissenbildend / halbkugelig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
   "sources_with_cultivar_page": "RHS、stauden.de、シカゴ植物園",
   "sources_used": "MBG、NC State、RHS、stauden.de、シカゴ植物園"

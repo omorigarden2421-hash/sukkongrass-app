@@ -203,7 +203,7 @@
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -316,7 +316,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] versamend; Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Erect",
   "sources_with_cultivar_page": "なし",

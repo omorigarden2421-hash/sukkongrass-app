@@ -225,24 +225,26 @@
    "level": null
   },
   "rhizome_level": {
-   "value": null,
-   "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "mixing": {
-   "value": "普通（混植可）",
+   "value": 2,
    "method": "判定",
    "sources": [
-    "s18"
+    "s02"
    ],
    "level": "cultivar"
   },
-  "invasive_note": {
+  "mixing": {
    "value": null,
-   "method": "記載",
+   "method": "判定",
    "sources": null,
    "level": null
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーでよく広がる（MBG・品種）",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -342,8 +344,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: West-facing or South-facing",
-  "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "spread_evidence": "[地下茎 2／MBG・品種] spreading indefinitely outward by prostrate to ascending stems（読み直し）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[MBG・品種] spreading indefinitely outward by prostrate to ascending stems）",
+  "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Gaißmayer、シカゴ植物園",
   "sources_used": "Gaißmayer、MBG、NC State、RHS、stauden.de、シカゴ植物園"

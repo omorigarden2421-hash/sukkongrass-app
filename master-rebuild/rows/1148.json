@@ -358,7 +358,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Full sun is best in cool northern summer climates.\n[MBG/種] Prefers part shade in hot summer climates.\n[RHS/品種] Aspect: North-facing or East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] This plant can self-seed and spread.\n[地下茎 3／NC State・種] The clustered bellflower naturalizes by rhizomes and can be invasive, particularly in moist soils.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー、こぼれ種）",
+  "spread_evidence": "[地下茎 3／NC State・種] naturalizes by rhizomes and can be invasive（読み直し）\n[こぼれ種 1／NC State・種] This plant can self-seed and spread（読み直し）\n[こぼれ種 1／NC State・種] This plant can self-seed and spread.\n[地下茎 3／NC State・種] The clustered bellflower naturalizes by rhizomes and can be invasive, particularly in moist soils.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー、こぼれ種）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS",

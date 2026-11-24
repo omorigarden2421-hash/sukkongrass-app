@@ -365,7 +365,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Needs good air circulation (space well and thin out stems as needed) to help combat potential powdery mildew problems.\n[NC State/種] Good air circulation (adequate spacing and thinning of stems as needed) will help combat powdery mildew.\n[Walters/品種] Easy to grow and mildew resistant although Summer Phlox always benefit from a location that provides good air circulation and consistent soil moisture.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[MBG・品種] prefers climates with mild summers compared to very hot and humid conditions）\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] Removing faded flower panicles will prolong blooming and prevent self-seeding as cultivars do not come true from seed.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／NC State・種] prevent self-seeding as cultivars do not come true（読み直し）\n[こぼれ種 1／NC State・種] Removing faded flower panicles will prolong blooming and prevent self-seeding as cultivars do not come true from seed.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] This is an upright perennial that grows in a clump to 2-4' tall and to 2-3' wide on stiff stems clad with conspicuously veined, opposite, pointed, elliptic, deep green leaves (to 4-6\" long).",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら、シカゴ植物園",

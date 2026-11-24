@@ -228,9 +228,10 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 3,
    "method": "判定",
    "sources": [
+    "s06",
     "s02",
     "s18"
    ],
@@ -243,16 +244,15 @@
    "level": null
   },
   "mixing": {
-   "value": "普通（混植可）",
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18",
     "s06"
    ],
    "level": "species"
   },
   "invasive_note": {
-   "value": "地域によっては侵略的外来種とされている、という記述がある（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）",
+   "value": "こぼれ種で強く増え、雑草化することがある（NC State・種）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）",
    "method": "記載",
    "sources": [
     "s06"
@@ -355,12 +355,12 @@
  "review": {
   "management_type_reason": "おぎはら楽天: 花後に穂を切り戻す程度。RHS: 枯れ葉は早春に刈る。stauden.de: 秋は切らない。花後に穂を切る記述があるので B（機械は A）。オーストラリアで侵略的は地域の話で E にしない。MBG「こぼれ種が問題になりうる」は侵略的の明記ではない",
   "management_type_quote": "花後に穂を切り戻す程度",
-  "management_type_by_matching": "A 放任型",
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/種] This plant will not do well in the hot humid conditions of the southeast.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing or North-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Self-seeding can be problematic.\n[こぼれ種の食い違い] stauden.de は 2 相当",
-  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat\n[NC State・種] In Australia, it is considered an invasive plant that threatens the eucalypt woods and pasture grazing lands for sheep and cows.",
+  "spread_evidence": "[こぼれ種 3／NC State・種] readily escapes the garden by producing 1000's of seeds / Weedy（読み直し）\n[こぼれ種 1／MBG・種] Self-seeding can be problematic.\n[こぼれ種の食い違い] stauden.de は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[NC State・種] readily escapes the garden by producing 1000's of seeds / Weedy）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] In Australia, it is considered an invasive plant that threatens the eucalypt woods and pasture grazing lands for sheep and cows.\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "[NC State・種] Habit/Form: Cascading; Clumping; Dense; Erect／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"

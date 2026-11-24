@@ -345,7 +345,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／NC State・種] It spreads by rhizomes and can be quite invasive, particularly in rich, moist soils, and freely reseeds.\n[地下茎 3／NC State・種] It grows about 12 inches tall,  can spread rapidly, and tends to invade open disturbed areas in the United States.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 3／NC State・種] spreads by rhizomes and can be quite invasive（読み直し）\n[こぼれ種 2／NC State・種] freely reseeds（読み直し）\n[こぼれ種 2／NC State・種] It spreads by rhizomes and can be quite invasive, particularly in rich, moist soils, and freely reseeds.\n[地下茎 3／NC State・種] It grows about 12 inches tall,  can spread rapidly, and tends to invade open disturbed areas in the United States.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] In the United States, cypress spurge is listed as a noxious weed in several midwestern states.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de",

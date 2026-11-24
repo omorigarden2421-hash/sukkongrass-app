@@ -210,13 +210,10 @@
    "level": null
   },
   "spread_modes": {
-   "value": [
-    "地下茎"
-   ],
+   "value": null,
    "method": "記載",
    "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters）"
+   "level": null
   },
   "self_seed_level": {
    "value": null,
@@ -225,18 +222,16 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 1,
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s02"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s02"
+    "s10"
    ],
    "level": "cultivar"
   },
@@ -345,8 +340,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/品種] Best with a full sun exposure, but tolerates some light shade in hot summer climates.\n[NC State/属] Light shade is helpful if summers are hot and the plant should be sited in a location protected from wind.\n[RHS/品種] Aspect: South-facing",
-  "spread_evidence": "[地下茎 1／MBG・品種] Noteworthy Characteristics Kniphofia is a genus of 60-70 species of evergreen to deciduous, mostly clump-forming, rhizomatous perennials featuring linear strap-shaped basal leaves and showy bottlebrush-like flower spikes\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
+  "spread_evidence": "[地下茎 1／MBG・品種] Noteworthy Characteristics Kniphofia is a genus of 60-70 species of evergreen to deciduous, mostly clump-forming, rhizomatous perennials featuring linear strap-shaped basal leaves and showy bottlebrush-like flower spikes\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 1、文を読み直して 空欄（[Walters・品種] Plants form a big clump（広がる記述なし））",
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[Walters・品種] form a big clump",
   "silhouette_evidence": "[MBG・品種] From the center of a basal tuft (rosette) of coarse, strap-shaped, linear leaves rises a succession of thick, naked flower scapes featuring dense, terminal, spike-like racemes of drooping, short-stalk",
   "sources_with_cultivar_page": "RHS、MBG、Walters",
   "sources_used": "MBG、NC State、RHS、Walters"

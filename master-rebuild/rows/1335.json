@@ -229,9 +229,10 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 2,
+   "value": 1,
    "method": "判定",
    "sources": [
+    "s02",
     "s18"
    ],
    "level": "species"
@@ -251,12 +252,10 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "こぼれ種でよく増える（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -362,7 +361,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿 は嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat",
+  "spread_evidence": "[こぼれ種 1／MBG・種] will self seed in the garden and will naturalize in the garden over time（読み直し）\n[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 2、文を読み直して 1（[MBG・種] will self seed in the garden and will naturalize in the garden over time）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[Walters・品種] This unusual selection features fluffy red, pink and green tricolored flowers over a low mound of ferny light-green foliage.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、おぎはら、Jelitto",

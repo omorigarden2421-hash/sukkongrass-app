@@ -359,7 +359,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: 普 通 高温多湿は苦手です。水はけ良い用土で（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: やや半日陰〜半日陰／暖地: 半日陰（西日 × 相当）\n[MBG/品種] Foliage may depreciate considerably in hot summer weather and may scorch if grown in too much sun.\n[MBG/品種] Although plants tolerate light morning sun, they need afternoon shade.\n[MBG/品種] Leaves can depreciate considerably in extremely hot weather and/or too much sun (scorch).\n[RHS/品種] Aspect: West-facing or North-facing or East-facing",
-  "spread_evidence": "[地下茎 1／MBG・品種] Plants spread slowly by creeping roots.",
+  "spread_evidence": "[地下茎 1／MBG・品種] Plants spread slowly by creeping roots（読み直し）\n[地下茎 1／MBG・品種] Plants spread slowly by creeping roots.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Mounding; Spreading",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、おぎはら",

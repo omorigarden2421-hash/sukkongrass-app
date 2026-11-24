@@ -336,7 +336,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の 'Purpurascens'・図鑑の 'Tint Rouge'・図鑑の 'Tint Wine'・図鑑の 'Pink&Silver'）] 耐暑性；中（この品種のページはない。信頼度：低）\n[RHS/品種] Aspect: West-facing or East-facing or South-facing or North-facing",
-  "spread_evidence": "[地下茎 3／NC State・種] Easily grown from seed, Clover responds to mowing with aggressive growth and spreads aggressively by rooting at nodes forming mats up to 12 inches wide.",
+  "spread_evidence": "[地下茎 3／NC State・種] spreads aggressively by rooting at nodes（読み直し）\n[地下茎 3／NC State・種] Easily grown from seed, Clover responds to mowing with aggressive growth and spreads aggressively by rooting at nodes forming mats up to 12 inches wide.",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] Easily grown from seed, Clover responds to mowing with aggressive growth and spreads aggressively by rooting at nodes forming mats up to 12 inches wide.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、MBG、Walters",

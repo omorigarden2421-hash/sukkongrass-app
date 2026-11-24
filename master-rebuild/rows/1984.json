@@ -235,6 +235,7 @@
    "value": 2,
    "method": "判定",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"
@@ -246,10 +247,10 @@
    "level": null
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・種）",
+   "value": "地下茎・ランナーでよく広がる（NC State・種）",
    "method": "記載",
    "sources": [
-    "s02"
+    "s06"
    ],
    "level": "species"
   },
@@ -342,7 +343,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・種] Spreads by rhizomes to form clumps.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "spread_evidence": "[地下茎 2／NC State・種] Its rhizomes form clumps that allow it to spread easily / medium amount of maintenance is required to prevent it from spreading into unwanted areas（読み直し）\n[地下茎 2／MBG・種] Spreads by rhizomes to form clumps.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Spreading",
   "sources_with_cultivar_page": "RHS、おぎはら",

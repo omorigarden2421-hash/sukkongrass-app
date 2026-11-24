@@ -234,18 +234,16 @@
    "level": "species"
   },
   "rhizome_level": {
-   "value": 1,
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s06"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s06"
+    "s18"
    ],
    "level": "species"
   },
@@ -360,8 +358,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿に注意（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 日向〜やや半日陰（西日 ○ 相当）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] It does self-seed but does not spread aggressively.\n[地下茎 1／NC State・種] It does self-seed but does not spread aggressively.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
+  "spread_evidence": "[こぼれ種 1／NC State・種] It does self-seed but does not spread aggressively（読み直し）\n[こぼれ種 1／NC State・種] It does self-seed but does not spread aggressively.\n[地下茎 1／NC State・種] It does self-seed but does not spread aggressively.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 1、文を読み直して 空欄（[NC State・種] several stems can be found growing from the same rhizome（広がる記述なし））\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Trailing",
   "sources_with_cultivar_page": "RHS、おぎはら",
   "sources_used": "Jelitto、NC State、RHS、stauden.de、おぎはら"

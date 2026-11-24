@@ -230,8 +230,8 @@
    "value": 2,
    "method": "判定",
    "sources": [
-    "s18",
-    "s02"
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -239,8 +239,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s18",
-    "s02"
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -248,8 +248,8 @@
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s18",
-    "s02"
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -353,7 +353,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/品種] Foliage may depreciate considerably in hot summer weather and may scorch if grown in too much sun.\n[MBG/品種] Although plants tolerate light morning sun, they need afternoon shade.\n[MBG/品種] Leaves can depreciate considerably in extremely hot weather and/or too much sun (scorch).\n[RHS/品種] Aspect: West-facing or East-facing or North-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 1／MBG・品種] Plants spread slowly by creeping roots.",
+  "spread_evidence": "[地下茎 1／MBG・品種] Plants spread slowly by creeping roots（読み直し）\n[こぼれ種 2／stauden.de・種] oft Selbstaussaat（読み直し）\n[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 1／MBG・品種] Plants spread slowly by creeping roots.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] Foliage mound typically grows to 12\" tall and can spread to 20\" wide.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Gaißmayer、シカゴ植物園",

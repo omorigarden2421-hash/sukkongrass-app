@@ -244,10 +244,13 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -352,8 +355,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/品種] Full sun is best in cool northern summer climates, but some part afternoon shade is appreciated in hot summer climates such as the St.\n[MBG/品種] Foliage may decline after flowering in hot summer climates, at which point it should be cut back and shaped to revitalize, with additional sporadic rebloom sometimes occurring later in summer.\n[MBG/品種] Flowers bloom in late spring (May-June) in hot summer climates such as St.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing or North-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
-  "mixing_evidence": null,
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[RHS・品種] Clump forming／[MBG・品種] clumping plants",
   "silhouette_evidence": "[MBG・品種] Cymes of pink flowers with darker veins bloom from late spring into summer on clumping plants featuring 5-lobed basal leaves.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、シカゴ植物園",
   "sources_used": "MBG、RHS、Walters、stauden.de、シカゴ植物園"

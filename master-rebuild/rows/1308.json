@@ -307,7 +307,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強",
-  "spread_evidence": "[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 2／NC State・種] it also self-seeds readily（読み直し）\n[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Erect; Mounding; Spreading",
   "sources_with_cultivar_page": "なし",

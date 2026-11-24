@@ -350,7 +350,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Avoid locations in full sun where leaves will often scorch or wilt.\n[NC State/種] The leaves will scorch or wilt in extremely hot weather or full sun.\n[RHS/品種] Aspect: West-facing or East-facing or North-facing",
-  "spread_evidence": "[地下茎 1／MBG・種] Spreads very slowly by creeping roots, but is not invasive.",
+  "spread_evidence": "[地下茎 1／MBG・種] Spreads very slowly by creeping roots, but is not invasive（読み直し）\n[地下茎 1／MBG・種] Spreads very slowly by creeping roots, but is not invasive.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming, Matforming",
   "sources_with_cultivar_page": "RHS",

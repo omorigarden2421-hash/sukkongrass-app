@@ -201,8 +201,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s18",
-    "s02"
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -210,8 +210,8 @@
    "value": 2,
    "method": "判定",
    "sources": [
-    "s18",
-    "s02"
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -319,7 +319,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／MBG・品種] Culture 'Gold Spangles' spreads by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[地下茎 2／MBG・品種] spreads by rhizomes（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／MBG・品種] Culture 'Gold Spangles' spreads by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": null,
   "sources_with_cultivar_page": "MBG",

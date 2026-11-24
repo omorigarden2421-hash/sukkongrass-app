@@ -1,5 +1,71 @@
 [
  {
+  "調べ方": "地下茎で広がる程度が 2 以上なのに、増え方が「株立ち」だけ",
+  "種類": "A",
+  "品種": [
+   {
+    "商品番号": 25,
+    "植物名": "アメリカツルマサキ 'エメラルドガイディ'",
+    "学名": "Euonymus fortunei 'Emerald Gaiety'",
+    "値": {
+     "増え方": "こぼれ種",
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種・地下茎の根拠": "[地下茎 3／NC State・品種] can spread aggressively with stems that root where they touch the ground（読み直し）\n[こぼれ種 3／NC State・品種] birds spread the seeds widely ... can overgrow native plants（読み直し）\n[地下茎 3／NC State・品種] The plant can spread aggressively with stems that root where they touch the ground.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 3（[NC State・品種] birds spread the seeds widely ... can overgrow native plants）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）"
+    }
+   },
+   {
+    "商品番号": 229,
+    "植物名": "ヘデラ 'ヘンリエッタ'",
+    "学名": "Hedera helix 'Henriette'",
+    "値": {
+     "増え方": "こぼれ種",
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種・地下茎の根拠": "[地下茎 3／NC State・種] Its aggressive and vining nature ... smothers the ground（読み直し）\n[こぼれ種 1／MBG・種] Birds help disperse seed（読み直し）\n[地下茎 0／NC State・種] The adult stage is the shrubby non-climbing stage in which stems do not spread or climb, but do produce clusters of greenish-white flowers in early fall followed by blue-black toxic berries.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[MBG・種] Birds help disperse seed）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 0、文を読み直して 3（[NC State・種] Its aggressive and vining nature ... smothers the ground）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）"
+    }
+   },
+   {
+    "商品番号": 426,
+    "植物名": "ティアレラ 'シュガーアンドスパイス'",
+    "学名": "Tiarella 'Sugar and Spice'",
+    "値": {
+     "増え方": "株立ち",
+     "地下茎で広がる程度(0-3)": "2",
+     "こぼれ種・地下茎の根拠": "[地下茎 2／RHS・品種] can spread freely（読み直し）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[RHS・品種] can spread freely）"
+    }
+   },
+   {
+    "商品番号": 1553,
+    "植物名": "ベロニカ アンブロサ 'ジョージアブルー'",
+    "学名": "Veronica umbrosa 'Georgia Blue'",
+    "値": {
+     "増え方": "株立ち",
+     "地下茎で広がる程度(0-3)": "2",
+     "こぼれ種・地下茎の根拠": "[地下茎 2／MBG・品種] spreading indefinitely outward by prostrate to ascending stems（読み直し）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[MBG・品種] spreading indefinitely outward by prostrate to ascending stems）"
+    }
+   },
+   {
+    "商品番号": 1899,
+    "植物名": "ティアレラ ウェリー",
+    "学名": "Tiarella wherryi",
+    "値": {
+     "増え方": "株立ち",
+     "地下茎で広がる程度(0-3)": "2",
+     "こぼれ種・地下茎の根拠": "[地下茎 2／RHS・品種] can tolerate a wide range of soils and can spread freely.（読み直し）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[RHS・品種] can tolerate a wide range of soils and can spread freely.）"
+    }
+   },
+   {
+    "商品番号": 1983,
+    "植物名": "アネモネ レベイエイ",
+    "学名": "Anemone leveillei",
+    "値": {
+     "増え方": "株立ち",
+     "地下茎で広がる程度(0-3)": "2",
+     "こぼれ種・地下茎の根拠": "[地下茎 2／RHS・品種] Spreads rapidly once established.（読み直し）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[RHS・品種] Spreads rapidly once established.）"
+    }
+   }
+  ]
+ },
+ {
   "調べ方": "地下茎かこぼれ種が 3 なのに、混植適性が「侵略的」でない",
   "種類": "A",
   "品種": [
@@ -12,6 +78,507 @@
      "こぼれ種の量(0-3)": "3",
      "混植適性": "強い（周囲を圧迫、配置注意）",
      "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 79,
+    "植物名": "ガリウム オドラタム（クルマバソウ）",
+    "学名": "Galium odoratum",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": "1",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "A 放任型"
+    }
+   },
+   {
+    "商品番号": 131,
+    "植物名": "セラスチウム トメントサム（スノーインサマー）",
+    "学名": "Cerastium tomentosum",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": "1",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 266,
+    "植物名": "リクニス コロナリア 'アルバ'",
+    "学名": "Silene coronaria 'Alba'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": null,
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 351,
+    "植物名": "リクニス コロナリア 'エンジェルスブラッシュ'",
+    "学名": "Lychnis coronaria 'Angel's Blush'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": null,
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 675,
+    "植物名": "フィリペンデュラ ウルマリア 'バリエガータ'",
+    "学名": "Filipendula ulmaria 'Variegata'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "C 夏前切戻型"
+    }
+   },
+   {
+    "商品番号": 684,
+    "植物名": "バーベナ ボナリエンシス（サンジャクバーベナ）",
+    "学名": "Verbena bonariensis",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 894,
+    "植物名": "ミスカンサス 'コスモポリタン'",
+    "学名": "Miscanthus sinensis var. condensatus 'Cosmopolitan'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "1",
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "A 放任型"
+    }
+   },
+   {
+    "商品番号": 946,
+    "植物名": "アンペロプシス 'エレガンス'（斑入りノブドウ）",
+    "学名": "Ampelopsis brevipedunculata 'Elegans'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": null,
+     "管理タイプ": "A 放任型"
+    }
+   },
+   {
+    "商品番号": 1009,
+    "植物名": "ヘリオプシス ヘリアンソイデス 'サマーナイト'",
+    "学名": "Heliopsis helianthoides var. scabra 'Summer Nights'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": null,
+     "管理タイプ": "C 夏前切戻型"
+    }
+   },
+   {
+    "商品番号": 1164,
+    "植物名": "フィリペンデュラ ルブラ 'ヴェヌスタ マグニフィカ'",
+    "学名": "Filipendula rubra 'Venusta Magnifica'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": null,
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "C 夏前切戻型"
+    }
+   },
+   {
+    "商品番号": 1480,
+    "植物名": "ガリウム ベラム（カワラマツバ）",
+    "学名": "Galium verum",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "A 放任型"
+    }
+   },
+   {
+    "商品番号": 1564,
+    "植物名": "ミスカンサス シネンシス 'リトルゼブラ'（ヒメヤバネススキ）",
+    "学名": "Miscanthus sinensis 'Little Zebra'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "1",
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "A 放任型"
+    }
+   },
+   {
+    "商品番号": 1625,
+    "植物名": "カラマグロスティス エピジジョス（ヤマアワ）",
+    "学名": "Calamagrostis epigejos",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": "1",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "A 放任型"
+    }
+   },
+   {
+    "商品番号": 1627,
+    "植物名": "コルヌス アルバ 'シビリカ'（サンゴミズキ シビリカ）",
+    "学名": "Cornus alba 'Sibirica'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": null,
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "D 毎年株更新型"
+    }
+   },
+   {
+    "商品番号": 1684,
+    "植物名": "コルヌス アルバ 'エレガンティシマ'(ｷﾞﾝﾌﾐｽﾞｷ)",
+    "学名": "Cornus alba 'Elegantissima'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": null,
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "D 毎年株更新型"
+    }
+   },
+   {
+    "商品番号": 1685,
+    "植物名": "コルヌス アルバ 'オーレア'（サンゴミズキ オーレア）",
+    "学名": "Cornus alba 'Aurea'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": null,
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "D 毎年株更新型"
+    }
+   },
+   {
+    "商品番号": 1781,
+    "植物名": "ミスカンサス シネンシス f.グラシリマス（イトススキ）",
+    "学名": "Miscanthus sinensis 'Gracillimus'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "1",
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "A 放任型"
+    }
+   },
+   {
+    "商品番号": 1822,
+    "植物名": "ゲラニウム エンドレッシー",
+    "学名": "Geranium endressii",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": "1",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "C 夏前切戻型"
+    }
+   },
+   {
+    "商品番号": 1962,
+    "植物名": "アネモネ 'オノリーヌジョベール'",
+    "学名": "Anemone × hybrida 'Honorine Jobert'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": "1",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "A 放任型"
+    }
+   },
+   {
+    "商品番号": 1974,
+    "植物名": "スティパ テヌイッシマ（エンジェルヘアー・ポニーテール）",
+    "学名": "Stipa tenuissima",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 1979,
+    "植物名": "ペニセタム アロペキュロイデス 'ブラックビューティー'",
+    "学名": "Pennisetum alopecuroides 'Black Beauty'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "A 放任型"
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "混植適性が「普通」なのに、地下茎かこぼれ種が 2 以上",
+  "種類": "A",
+  "品種": [
+   {
+    "商品番号": 45,
+    "植物名": "エリゲロン カルバンスキャナス 'プロフュージョン'（ｹﾞﾝﾍﾟｲｺｷﾞｸ）",
+    "学名": "Erigeron karvinskianus 'Profusion'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 220,
+    "植物名": "プルモナリア 'トレビファウンテン'",
+    "学名": "Pulmonaria 'Trevi Fountain'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "1",
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
+    }
+   },
+   {
+    "商品番号": 296,
+    "植物名": "カレックス テスタセア",
+    "学名": "Carex testacea",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 341,
+    "植物名": "ポルモニウム カエルレウム 'ブルーウァール'",
+    "学名": "Polemonium caeruleum 'Blue Whirl'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 628,
+    "植物名": "ポルモニウム カエルレウム 'アルバム'",
+    "学名": "Polemonium caeruleum 'Album'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 801,
+    "植物名": "セファラリア ギガンチア",
+    "学名": "Cephalaria gigantea",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 861,
+    "植物名": "プルモナリア 'ルイスパルマー'",
+    "学名": "Pulmonaria 'Lewis Palmer'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "1",
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
+    }
+   },
+   {
+    "商品番号": 1131,
+    "植物名": "サンギソルバ オフィシナリス 'ピンクタンナ'（ワレモコウ）",
+    "学名": "Sanguisorba 'Pink Tanna'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1147,
+    "植物名": "カレックス ブキャナニー",
+    "学名": "Carex buchananii",
+    "値": {
+     "地下茎で広がる程度(0-3)": "1",
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
+    }
+   },
+   {
+    "商品番号": 1154,
+    "植物名": "スカビオサ オクロレウカ 'ムーンダンス'",
+    "学名": "Scabiosa columbaria subsp. ochroleuca 'Moon Dance'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 1191,
+    "植物名": "カラミンサ ネペタ 'ブルークラウド'",
+    "学名": "Calamintha nepeta subsp. nepeta 'Blue Cloud'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "0",
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
+    }
+   },
+   {
+    "商品番号": 1276,
+    "植物名": "サンギソルバ オフィシナリス var.マイクロセファラ（ﾋﾒﾜﾚﾓｺｳ）",
+    "学名": "Sanguisorba officinalis var. microcephala",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1293,
+    "植物名": "アンスリカス シルベストリス 'レイブンスウィング'",
+    "学名": "Anthriscus sylvestris 'Ravenswing'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1308,
+    "植物名": "スタキス モニエリ 'アルバ'",
+    "学名": "Stachys monieri 'Alba'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1375,
+    "植物名": "サルビア オフィシナリス（セージ）",
+    "学名": "Salvia officinalis",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1378,
+    "植物名": "シレネ ディオイカ 'ジェードバーリー'",
+    "学名": "Silene dioica 'Jade Valley'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 1380,
+    "植物名": "スカビオサ オクロレウカ",
+    "学名": "Scabiosa columbaria subsp. ochroleuca",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 1557,
+    "植物名": "ペンステモン バルバタス f.ナナス 'ﾋﾟﾅｺﾞﾗｰﾀﾞ ローズイーレッドシェード'",
+    "学名": "Penstemon barbatus f. nanus 'Pinacolada Rosy Red Shades'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 1862,
+    "植物名": "プルモナリア 'シシングハースト ホワイト'",
+    "学名": "Pulmonaria 'Sissinghurst White'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "1",
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
+    }
+   },
+   {
+    "商品番号": 1896,
+    "植物名": "ポルモニウム カエルレウム 'フィリグリークラウド'",
+    "学名": "Polemonium caeruleum 'Filigree Clouds'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1897,
+    "植物名": "ポルモニウム カエルレウム 'フィリグリースカイ'",
+    "学名": "Polemonium caeruleum 'Filigree Skies'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1898,
+    "植物名": "ポルモニウム ボレアル 'ヘブンリーハビット'",
+    "学名": "Polemonium boreale 'Heavenly Habit'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1946,
+    "植物名": "ユーパトリウム 'アイボリータワー'",
+    "学名": "Eutrochium fistulosum (Albidum Group) 'Ivory Towers'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 1953,
+    "植物名": "アンスリスカス 'ゴールデンフリース'",
+    "学名": "Anthriscus sylvestris 'Golden Fleece'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
     }
    }
   ]
@@ -493,309 +1060,6 @@
   ]
  },
  {
-  "調べ方": "混植適性が「普通」なのに、地下茎かこぼれ種が 2 以上",
-  "種類": "A",
-  "品種": [
-   {
-    "商品番号": 209,
-    "植物名": "フェニキュラム ブルガレ 'プルプレウム'(ブロンズフェンネル)",
-    "学名": "Foeniculum vulgare 'Purpureum'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 220,
-    "植物名": "プルモナリア 'トレビファウンテン'",
-    "学名": "Pulmonaria 'Trevi Fountain'",
-    "値": {
-     "地下茎で広がる程度(0-3)": "1",
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
-    }
-   },
-   {
-    "商品番号": 341,
-    "植物名": "ポルモニウム カエルレウム 'ブルーウァール'",
-    "学名": "Polemonium caeruleum 'Blue Whirl'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 583,
-    "植物名": "ジギタリス プルプレア 'スノーシンブル'",
-    "学名": "Digitalis purpurea 'Snow Thimble'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 604,
-    "植物名": "ジギタリス プルプレア 'アプリコット'",
-    "学名": "Digitalis purpurea 'Apricot'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 605,
-    "植物名": "ジギタリス プルプレア 'エクセルシオール'",
-    "学名": "Digitalis purpurea 'Excelsior'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 628,
-    "植物名": "ポルモニウム カエルレウム 'アルバム'",
-    "学名": "Polemonium caeruleum 'Album'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 801,
-    "植物名": "セファラリア ギガンチア",
-    "学名": "Cephalaria gigantea",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 861,
-    "植物名": "プルモナリア 'ルイスパルマー'",
-    "学名": "Pulmonaria 'Lewis Palmer'",
-    "値": {
-     "地下茎で広がる程度(0-3)": "1",
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
-    }
-   },
-   {
-    "商品番号": 1131,
-    "植物名": "サンギソルバ オフィシナリス 'ピンクタンナ'（ワレモコウ）",
-    "学名": "Sanguisorba 'Pink Tanna'",
-    "値": {
-     "地下茎で広がる程度(0-3)": "1",
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
-    }
-   },
-   {
-    "商品番号": 1147,
-    "植物名": "カレックス ブキャナニー",
-    "学名": "Carex buchananii",
-    "値": {
-     "地下茎で広がる程度(0-3)": "1",
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
-    }
-   },
-   {
-    "商品番号": 1154,
-    "植物名": "スカビオサ オクロレウカ 'ムーンダンス'",
-    "学名": "Scabiosa columbaria subsp. ochroleuca 'Moon Dance'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
-    }
-   },
-   {
-    "商品番号": 1276,
-    "植物名": "サンギソルバ オフィシナリス var.マイクロセファラ（ﾋﾒﾜﾚﾓｺｳ）",
-    "学名": "Sanguisorba officinalis var. microcephala",
-    "値": {
-     "地下茎で広がる程度(0-3)": "1",
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
-    }
-   },
-   {
-    "商品番号": 1308,
-    "植物名": "スタキス モニエリ 'アルバ'",
-    "学名": "Stachys monieri 'Alba'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 1335,
-    "植物名": "アキレジア 'ノラバロー'",
-    "学名": "Aquilegia vulgaris var. stellata 'Nora Barlow' (Barlow Series)",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
-    }
-   },
-   {
-    "商品番号": 1377,
-    "植物名": "ジギタリス プルプレア 'モンストローサ パープル'",
-    "学名": "Digitalis purpurea 'Monstrosa Purple'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 1378,
-    "植物名": "シレネ ディオイカ 'ジェードバーリー'",
-    "学名": "Silene dioica 'Jade Valley'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
-    }
-   },
-   {
-    "商品番号": 1380,
-    "植物名": "スカビオサ オクロレウカ",
-    "学名": "Scabiosa columbaria subsp. ochroleuca",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
-    }
-   },
-   {
-    "商品番号": 1410,
-    "植物名": "フェニキュラム ブルガレ (フェンネル 緑葉）",
-    "学名": "Foeniculum vulgare",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 1464,
-    "植物名": "ジギタリス プルプレア 'エルシーケルセイ'",
-    "学名": "Digitalis 'Elsie Kelsey'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 1557,
-    "植物名": "ペンステモン バルバタス f.ナナス 'ﾋﾟﾅｺﾞﾗｰﾀﾞ ローズイーレッドシェード'",
-    "学名": "Penstemon barbatus f. nanus 'Pinacolada Rosy Red Shades'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
-    }
-   },
-   {
-    "商品番号": 1697,
-    "植物名": "ジギタリス プルプレア 'モンストローサ ホワイト'",
-    "学名": "Digitalis purpurea 'Monstrosa White'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 1874,
-    "植物名": "アキレジア 'ボルドーバロー'",
-    "学名": "Aquilegia vulgaris var. stellata plena 'Bordeaux Barlow'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
-    }
-   },
-   {
-    "商品番号": 1896,
-    "植物名": "ポルモニウム カエルレウム 'フィリグリークラウド'",
-    "学名": "Polemonium caeruleum 'Filigree Clouds'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 1897,
-    "植物名": "ポルモニウム カエルレウム 'フィリグリースカイ'",
-    "学名": "Polemonium caeruleum 'Filigree Skies'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
-    }
-   },
-   {
-    "商品番号": 1936,
-    "植物名": "アキレジア 'ブラックバロー'",
-    "学名": "Aquilegia vulgaris var. stellata 'Black Barlow' (Barlow Series)",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
-    }
-   },
-   {
-    "商品番号": 1946,
-    "植物名": "ユーパトリウム 'アイボリータワー'",
-    "学名": "Eutrochium fistulosum (Albidum Group) 'Ivory Towers'",
-    "値": {
-     "地下茎で広がる程度(0-3)": null,
-     "こぼれ種の量(0-3)": "2",
-     "混植適性": "普通（混植可）",
-     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
-    }
-   }
-  ]
- },
- {
   "調べ方": "成株シルエットが「マット」なのに、草丈が 60cm 以上",
   "種類": "B",
   "品種": [
@@ -867,42 +1131,6 @@
      "成株シルエット": "マット",
      "草丈 最大(cm)": "60",
      "成株シルエットの根拠": "[NC State・種] Habit/Form: Creeping; Erect; Multi-stemmed; Spreading"
-    }
-   }
-  ]
- },
- {
-  "調べ方": "地下茎で広がる程度が 2 以上なのに、増え方が「株立ち」だけ",
-  "種類": "A",
-  "品種": [
-   {
-    "商品番号": 450,
-    "植物名": "コレオプシス ロゼア 'アメリカンドリーム'",
-    "学名": "Coreopsis rosea 'American Dream'",
-    "値": {
-     "増え方": "株立ち、こぼれ種",
-     "地下茎で広がる程度(0-3)": "3",
-     "こぼれ種・地下茎の根拠": "[こぼれ種 1／MBG・品種] Prompt deadheading of spent flower stalks can be tedious for a large planting, but does tend to encourage additional bloom and prevent any unwanted self-seeding.\n[地下茎 3／MBG・品種] Can be an aggressive spreader.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）"
-    }
-   },
-   {
-    "商品番号": 653,
-    "植物名": "リスラム サリカリア（エゾミソハギ）",
-    "学名": "Lythrum salicaria",
-    "値": {
-     "増え方": "株立ち、こぼれ種",
-     "地下茎で広がる程度(0-3)": "3",
-     "こぼれ種・地下茎の根拠": "[こぼれ種 2／MBG・種] They have the potential to prolifically self-seed.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[地下茎 3／NC State・種] Named cultivars once thought to be non-invasive are now known to cross and develop strains that spread rapidly in the landscape.\n[地下茎の食い違い] MBG は 1 相当、MBG は 2 相当"
-    }
-   },
-   {
-    "商品番号": 1915,
-    "植物名": "リスラム サリカリア 'ハピースノー'",
-    "学名": "Lythrum salicaria 'Happy Snow'",
-    "値": {
-     "増え方": "株立ち、こぼれ種",
-     "地下茎で広がる程度(0-3)": "3",
-     "こぼれ種・地下茎の根拠": "[こぼれ種 2／MBG・種] They have the potential to prolifically self-seed.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[地下茎 3／NC State・種] Named cultivars once thought to be non-invasive are now known to cross and develop strains that spread rapidly in the landscape.\n[地下茎の食い違い] MBG は 1 相当、MBG は 2 相当"
     }
    }
   ]
@@ -2363,6 +2591,19 @@
   "種類": "C",
   "品種": [
    {
+    "まとまり": "Nepeta racemosa",
+    "値ごと": {
+     "侵略的（隔離推奨）": [
+      "169 ネペタ ムッシーニアイ"
+     ],
+     "普通（混植可）": [
+      "319 ネペタ ラセモサ 'ウォーカーズロウ'",
+      "1395 ネペタ ファッシニアイ 'フェリックス'",
+      "1609 ネペタ ラセモサ 'ブルーワンダー'"
+     ]
+    }
+   },
+   {
     "まとまり": "Filipendula ulmaria",
     "値ごと": {
      "侵略的（隔離推奨）": [
@@ -2387,6 +2628,17 @@
       "787 ミスカンサス 'モーニングライト'"
      ]
     }
+   },
+   {
+    "まとまり": "Aquilegia vulgaris var. stellata",
+    "値ごと": {
+     "強い（周囲を圧迫、配置注意）": [
+      "1936 アキレジア 'ブラックバロー'"
+     ],
+     "普通（混植可）": [
+      "1335 アキレジア 'ノラバロー'"
+     ]
+    }
    }
   ]
  },
@@ -2394,6 +2646,51 @@
   "調べ方": "同じ種で地下茎で広がる程度が違う",
   "種類": "C",
   "品種": [
+   {
+    "まとまり": "Physocarpus opulifolius",
+    "値ごと": {
+     "1": [
+      "1752 フィソカルパス 'サマーワイン'（ｱﾒﾘｶﾃﾏﾘｼﾓﾂｹ ｻﾏｰﾜｲﾝ）"
+     ],
+     "2": [
+      "202 フィソカルパス 'ディアボロ'（アメリカテマリシモツケ ディアボロ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Mentha × piperita",
+    "値ごと": {
+     "2": [
+      "1444 ミント グレープフルーツミント"
+     ],
+     "3": [
+      "259 ミント ブラックペパーミント"
+     ]
+    }
+   },
+   {
+    "まとまり": "Saponaria officinalis",
+    "値ごと": {
+     "2": [
+      "452 サポナリア オフィシナリス 'アルバプレナ'（ソープワート）"
+     ],
+     "3": [
+      "453 サポナリア オフィシナリス 'ロゼアプレナ'（ソープワート）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Astrantia major",
+    "値ごと": {
+     "1": [
+      "587 アストランティア マヨール 'ルビーウェディング'"
+     ],
+     "2": [
+      "1917 アストランティア 'ベニス'",
+      "1933 アストランティア マヨール 'バニラエッジ'"
+     ]
+    }
+   },
    {
     "まとまり": "Astilbe chinensis",
     "値ごと": {

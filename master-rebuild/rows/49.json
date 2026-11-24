@@ -214,34 +214,34 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s06",
     "s18",
     "s17",
-    "s06",
     "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": 1,
    "method": "判定",
    "sources": [
+    "s06",
     "s18",
     "s17",
-    "s06",
     "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
+    "s06",
     "s18",
     "s17",
-    "s06",
     "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -339,7 +339,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/品種] Provide some shade at the heat of the day for golden and variegated leaf forms.\n[MBG/品種] Good heat and drought tolerance.\n[NC State/種] Some varieties of Oregano have golden or variegated leaves and these plants seem to do better with some shade at the heat of the day.\n[NC State/種] In general, Oregano plants tolerate heat and drought.",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[こぼれ種の食い違い] Gaißmayer は 2 相当\n[地下茎 1／NC State・種] It can also be grown as a ground cover for sunny sites, forming a slowly spreading clump.\n[地下茎の食い違い] MBG は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[地下茎 1／NC State・種] forming a slowly spreading clump（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[こぼれ種の食い違い] Gaißmayer は 2 相当\n[地下茎 1／NC State・種] It can also be grown as a ground cover for sunny sites, forming a slowly spreading clump.\n[地下茎の食い違い] MBG は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Origanum vulgare , commonly known as oregano, is a bushy, rhizomatous, woody-branched perennial which typically grows to 1-3’ tall and to 2’ wide on square stems clad with a",
   "sources_with_cultivar_page": "MBG",

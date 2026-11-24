@@ -930,6 +930,19 @@ def main():
         # --- 成株シルエット・葉の特徴・耐潮性・株分けの間隔・混植適性・広がりすぎの注意（2026-11-21。scripts/pilot/extra_cols.py の six）
         r["切り戻し・手入れの文（全部）"] = prune_all(texts, rh, ga, ga_own, og, SHOP.get(str(og[1])) if og else None, s, slv)
         r.update(six_columns(it, rh, m, mlv, n, nl, s, slv, w, ga, ga_own, og, SHOP.get(str(og[1])) if og else None, texts, r))
+        # 2026-11-24 総当たりの読み直し用: 環境変数 DUMP_SPREAD（フォルダ）があれば、広がり方（こぼれ種・地下茎・はびこる）に関わりそうな文を全部書き出す（値は変えない）
+        if os.environ.get("DUMP_SPREAD"):
+            SPW = (r"seed|sow|spread|rhizom|stolon|runner|sucker|underground|creep|invasive|aggressive|colon|naturaliz|weed|rampant|vigorous|clump|"
+                   r"sterile|escape|thug|mat|carpet|groundcover|ground cover|crowd|form(s|ing)? (large )?(patch|drift|stand)|wander|travel")
+            rtx = [("RHS", "品種", f"{key}: {rh['f'][key]}") for key in ("Habit", "Spread") if rh and rh["f"].get(key)]
+            rtx += [("RHS", "品種", x) for key in ("Cultivation", "Propagation", "Pruning") for x in sentences(rh["f"].get(key, ""))] if rh else []
+            sdf = {key: [f"{v_}（{tg_}）" for v_, tg_ in s["f"].get(key, [])] for key in ("Wuchsverhalten", "Wuchsstärke", "MS-Generativer Ausbreitungsdrang", "Pflegehinweis")} if s else None
+            dump = {"商品番号": it["商品番号"], "植物名": it.get("植物名"), "学名": it.get("学名"), "ID": k, "品種名あり": "'" in (it["学名"] or ""),
+                    "文": [f"[{a}・{lv}] {x}" for a, lv, x in texts + rtx if re.search(SPW, x.lower())],
+                    "stauden.de（値（印））": sdf, "Gaißmayer": ([f"[{fld}] {v_}" for fld, v_ in ga[12]] if ga else None),
+                    "今の値": {c: r.get(c) for c in ("こぼれ種の量(0-3)", "地下茎で広がる程度(0-3)", "混植適性", "増え方", "広がりすぎの注意")}}
+            with open(os.path.join(os.environ["DUMP_SPREAD"], "spread_dump.jsonl"), "a", encoding="utf-8") as fh:
+                fh.write(json.dumps(dump, ensure_ascii=False, default=str) + "\n")
         # --- 学名（採用）: 2026-11-19 決定。RHS が正名（Accepted／Correct）としていれば RHS の表記に合わせる。
         #     RHS で未確定・シノニム・掲載なしのときは今の学名のまま（学名の検討シートに残す）
         #     2026-11-21: メモのある品種も RHS の正名に合わせる。決め方は adopt_name()

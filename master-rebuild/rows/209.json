@@ -254,10 +254,11 @@
    "level": null
   },
   "mixing": {
-   "value": "普通（混植可）",
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s18",
+    "s06"
    ],
    "level": "cultivar"
   },
@@ -365,8 +366,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[RHS/品種] Aspect: West-facing or South-facing",
-  "spread_evidence": "[こぼれ種 2／NC State・種] Fennel can be grown from seed sown directly in the garden in spring and it freely self-seeds in the garden.\n[こぼれ種の食い違い] MBG は 1 相当、stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "spread_evidence": "[こぼれ種 2／NC State・種] it freely self-seeds in the garden（読み直し）\n[こぼれ種 2／NC State・種] Fennel can be grown from seed sown directly in the garden in spring and it freely self-seeds in the garden.\n[こぼれ種の食い違い] MBG は 1 相当、stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：[読み直し] [NC State・種] escaped gardens and naturalized",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy, Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"

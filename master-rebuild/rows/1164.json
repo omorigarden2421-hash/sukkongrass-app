@@ -232,26 +232,30 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
+    "s01",
     "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・種）（種についての記述。この品種で同じかは未確認）",
-   "method": "記載",
    "sources": [
+    "s01",
     "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（RHS・品種）",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -346,12 +350,12 @@
  "review": {
   "management_type_reason": "MBG・種: 夏に葉が傷んだら強く切り戻して新しい葉を出させる。RHS・品種: 花後に切り戻す。地下茎で広がるが「厄介になりうる」止まりで E ではない",
   "management_type_quote": "If foliage depreciates in summer, cut back hard to promote new growth.",
-  "management_type_by_matching": "C 夏前切戻型",
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐暑性: 普通（暖地では夏に風とおし、水はけよく）（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[MBG/種] Appreciates part shade in hot summer climates and prefers full sun in cool summer climates.\n[MBG/種] Foliage may scorch in full sun if soils are allowed to dry out.\n[RHS/品種] Aspect: North-facing or East-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／MBG・種] Spreads by rhizomes and can form large colonies in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 3／RHS・品種] Can spread and has the potential to become a nuisance if not managed well／[MBG・種] Spreads by rhizomes and can form large colonies（読み直し）\n[地下茎 2／MBG・種] Spreads by rhizomes and can form large colonies in optimum growing conditions.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[RHS・品種] Can spread and has the potential to become a nuisance if not managed well／[MBG・種] Spreads by rhizomes and can form large colonies）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら",
   "sources_used": "Gaißmayer、Jelitto、MBG、RHS、stauden.de、おぎはら"

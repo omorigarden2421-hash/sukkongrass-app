@@ -218,7 +218,7 @@
   },
   "spread_modes": {
    "value": [
-    "地下茎",
+    "株立ち",
     "こぼれ種"
    ],
    "method": "記載",
@@ -237,27 +237,24 @@
    "level": "cultivar"
   },
   "rhizome_level": {
-   "value": 2,
-   "method": "判定",
-   "sources": [
-    "s18",
-    "s06"
-   ],
-   "level": "cultivar"
-  },
-  "mixing": {
    "value": null,
    "method": "判定",
    "sources": null,
    "level": null
   },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）",
-   "method": "記載",
+  "mixing": {
+   "value": "普通（混植可）",
+   "method": "判定",
    "sources": [
-    "s06"
+    "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -363,8 +360,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向から明るい半日陰／暖地: 明るい半日陰（西日 × 相当）\n[MBG/品種] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.\n[NC State/種] In hot summer or periods of drought, the foliage may decline if the soil is not kept moist.\n[食い違い] 欧米の文献（品種・種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or East-facing or North-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] Their root system is rhizomatous.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": null,
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] Their root system is rhizomatous.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 空欄（記述なし）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] They are clump-forming perennials which feature graceful, fern-like mounds of mostly basal, 2-3 ternately compound leaves, usually with sharply-toothed leaflets, and tiny flowers densely packed into e",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de、おぎはら"

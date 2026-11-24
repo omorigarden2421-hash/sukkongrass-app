@@ -241,10 +241,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -356,8 +358,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Appreciates some light afternoon shade in hot summer climates.\n[NC State/種] Afternoon shade is beneficial during southern summers, but too much shade can cause the plant to become leggy and lose the cushion shape it is known for.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] The plant self-seeds; therefore, deadheading spent flowers is recommended.\n[こぼれ種の食い違い] MBG は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": null,
+  "spread_evidence": "[こぼれ種 1／NC State・種] The plant self-seeds; therefore, deadheading spent flowers is recommended（読み直し）\n[こぼれ種 1／NC State・種] The plant self-seeds; therefore, deadheading spent flowers is recommended.\n[こぼれ種の食い違い] MBG は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[RHS・品種] Clump forming",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Mounding",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"

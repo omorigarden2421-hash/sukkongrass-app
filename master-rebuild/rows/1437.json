@@ -350,7 +350,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/種] Plants often perform poorly in hot and humid summers south of USDA Zone 7.\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Will reseed in the garden in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Will reseed in the garden in optimum growing conditions（読み直し）\n[こぼれ種 1／MBG・種] Will reseed in the garden in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・種] Noteworthy Characteristics Potentilla atrosanguinea , commonly known as Himalayan cinquefoil or ruby cinquefoil, is a vigorous herbaceous perennial of the rose family that typically grows in spreading",
   "sources_with_cultivar_page": "RHS",

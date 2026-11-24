@@ -353,7 +353,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向から明るい半日陰／暖地: 明るい半日陰（西日 × 相当）\n[MBG/品種] Foliage decline (leaf margins brown up), sometimes with significant dieback, may occur in hot summers and/or periods of drought if soils are not kept moist.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Astilbe × rosea are hybrid, clump-forming astilbes which feature graceful, fern-like mounds of mostly basal, 2-3 ternately compound leaves, usually with sharply-toothed leaf",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、おぎはら",

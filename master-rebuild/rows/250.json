@@ -346,7 +346,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] ‘Jingle Bells’ may be grown from seed and may self-seed in the garden in optimum growing conditions.\n[こぼれ種の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／MBG・品種] may self-seed in the garden in optimum growing conditions（読み直し）\n[こぼれ種 1／MBG・品種] ‘Jingle Bells’ may be grown from seed and may self-seed in the garden in optimum growing conditions.\n[こぼれ種の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、MBG",

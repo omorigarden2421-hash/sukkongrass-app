@@ -363,7 +363,7 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 強（[Walters・品種] excellent groundcover plants, particularly for hot, dry sites）\n[RHS/品種] Aspect: South-facing or East-facing（西向きが入っていない）",
-  "spread_evidence": "[地下茎 2／NC State・種] Stonecrop spreads by underground stolons.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[地下茎 2／NC State・種] Stonecrop spreads by underground stolons（読み直し）\n[地下茎 2／NC State・種] Stonecrop spreads by underground stolons.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] This variety forms a low carpet of small, burgundy-black leaves, spreading to form a small patch.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、おぎはら",

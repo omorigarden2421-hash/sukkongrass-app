@@ -225,32 +225,37 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 1,
    "method": "判定",
    "sources": [
+    "s02",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・種）",
-   "method": "記載",
    "sources": [
+    "s02",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -352,8 +357,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／stauden.de・種] kriechend, teils wurzelnd",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 1／MBG・種] will spread over time by rooting stems to 12-18\" wide（読み直し）\n[こぼれ種 1／stauden.de・品種] versamend（読み直し）\n[地下茎 2／stauden.de・種] kriechend, teils wurzelnd\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・cultivar] versamend）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 1（[MBG・種] will spread over time by rooting stems to 12-18\" wide）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"

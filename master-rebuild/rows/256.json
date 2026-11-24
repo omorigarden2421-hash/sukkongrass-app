@@ -224,6 +224,7 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "cultivar"
@@ -232,6 +233,7 @@
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "cultivar"
@@ -332,7 +334,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/品種] Foliage tends to burn if grown in full sun in hot summer climates such as the St.",
-  "spread_evidence": "[地下茎 1／MBG・品種] This is a stoloniferous plant that will colonize in the garden over time in a non-invasive manner.",
+  "spread_evidence": "[地下茎 1／NC State・種] slow forming, creeping rhizomes（読み直し）\n[地下茎 1／MBG・品種] This is a stoloniferous plant that will colonize in the garden over time in a non-invasive manner.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] 'Lightening Strike' is a compact, clump-forming cultivar that typically grows 16-24\" tall on upright-arching stems and features small, lavender, lily-like flowers (1 inch long) and broadly ovate, stem",
   "sources_with_cultivar_page": "MBG、Walters",

@@ -227,6 +227,7 @@
   },
   "spread_modes": {
    "value": [
+    "株立ち",
     "地下茎",
     "こぼれ種"
    ],
@@ -240,33 +241,36 @@
    "value": 2,
    "method": "判定",
    "sources": [
-    "s18",
     "s06",
+    "s18",
     "s02"
    ],
    "level": "species"
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 1,
    "method": "判定",
    "sources": [
-    "s18",
     "s06",
+    "s18",
     "s02"
    ],
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種でよく増える（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
-   "method": "記載",
    "sources": [
     "s06",
+    "s18",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "invasive_note": {
+   "value": "こぼれ種でよく増える（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
+   "method": "記載",
+   "sources": [
     "s18"
    ],
    "level": "species"
@@ -371,8 +375,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中\n[おぎはら楽天/種] 耐湿性: 普 通 高温多湿は苦手です。水はけ良い用土で（蒸れ 中 相当）\n[おぎはら楽天/種] 日照 寒冷地: やや半日陰〜半日陰／暖地: 半日陰（西日 × 相当）\n[MBG/品種] Foliage may depreciate considerably in hot summer weather and may scorch if grown in too much sun.\n[MBG/品種] Although plants tolerate light morning sun, they need afternoon shade.\n[MBG/品種] Leaves can depreciate considerably in extremely hot weather and/or too much sun (scorch).\n[RHS/品種] Aspect: West-facing or East-facing or North-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 2／NC State・種] The plant spreads by rhizomes but at a very slow pace.\n[地下茎の食い違い] MBG は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 1／NC State・種] spreads by rhizomes but at a very slow pace / isn't considered to be invasive（読み直し）\n[こぼれ種 2／stauden.de・種] oft Selbstaussaat（読み直し）\n[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 2／NC State・種] The plant spreads by rhizomes but at a very slow pace.\n[地下茎の食い違い] MBG は 1 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 1（[NC State・種] spreads by rhizomes but at a very slow pace / isn't considered to be invasive）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] Foliage mound typically grows to 12\" tall and can spread to 20\" wide.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、シカゴ植物園",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園"

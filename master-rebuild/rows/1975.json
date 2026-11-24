@@ -225,10 +225,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -323,7 +325,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 高温多湿は苦手です（蒸れ 中 相当）\n[NC State/種] Although native to the mountains of North Carolina and Georgia, these clump-forming plants perform beautifully in the Piedmont and coastal plain, where true Lupines don't grow well because of the heat.",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[NC State・種] these clump-forming plants",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect",
   "sources_with_cultivar_page": "おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"

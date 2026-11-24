@@ -219,7 +219,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -228,7 +229,7 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 0,
+   "value": 3,
    "method": "判定",
    "sources": [
     "s06",
@@ -252,7 +253,7 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）。文献に「侵略的・はびこる」という記述がある（MBG・種）。NC State・種 の表示: Weedy（雑草化しやすい）",
+   "value": "こぼれ種で強く増え、雑草化することがある（NC State・種）。文献に「侵略的・はびこる」という記述がある（MBG・種）。NC State・種 の表示: Weedy（雑草化しやすい）",
    "method": "記載",
    "sources": [
     "s06",
@@ -359,7 +360,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 0／NC State・種] See the four listed sterile cultivars.\n[こぼれ種の食い違い] MBG は 1 相当、MBG は 3 相当\n[地下茎 3／NC State・種] Chinese fountain grass can spread rapidly by seeds carried by wind or by attaching to clothes or fur.\n[段階の読み直し 2026-11-24] NC State・種の文は「種が風や衣服で運ばれて広がる」で、地下茎の話ではない（読み違い）。3 → 空欄",
+  "spread_evidence": "[こぼれ種 3／NC State・種] can spread rapidly by seeds carried by wind ... escaped gardens and has become problematic / Weedy.（読み直し）\n[こぼれ種 0／NC State・種] See the four listed sterile cultivars.\n[こぼれ種の食い違い] MBG は 1 相当、MBG は 3 相当\n[地下茎 3／NC State・種] Chinese fountain grass can spread rapidly by seeds carried by wind or by attaching to clothes or fur.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 0、文を読み直して 3（[NC State・種] can spread rapidly by seeds carried by wind ... escaped gardens and has become problematic / Weedy.）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 3、文を読み直して 空欄（[NC State・種] clumping herbaceous perennial（地下茎の記述なし））\n[段階の読み直し 2026-11-24] NC State・種の文は「種が風や衣服で運ばれて広がる」で、地下茎の話ではない（読み違い）。3 → 空欄\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・種] Habit/Form: Arching; Clumping; Erect; Mounding／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",

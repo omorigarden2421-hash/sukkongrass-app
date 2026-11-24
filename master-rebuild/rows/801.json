@@ -253,12 +253,12 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "こぼれ種でよく増える（Gaißmayer・品種）",
+   "value": "こぼれ種でよく増える（Gaißmayer・self_seed）",
    "method": "記載",
    "sources": [
     "s17"
    ],
-   "level": "cultivar"
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -362,7 +362,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿は苦手です（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 日向〜やや半日陰（西日 ○ 相当）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing or North-facing",
-  "spread_evidence": "[こぼれ種 2／Gaißmayer・品種] Am zusagenden Standort versamt sie sich reichlich, was durch einen rechtzeitigen Rückschnitt aber gut eingedämmt werden kann.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 2／Gaißmayer・self_seed] versamt sich reichlich, ... durch rechtzeitigen Rückschnitt gut eingedämmt（読み直し）\n[こぼれ種 2／Gaißmayer・品種] Am zusagenden Standort versamt sie sich reichlich, was durch einen rechtzeitigen Rückschnitt aber gut eingedämmt werden kann.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、Gaißmayer、おぎはら、Jelitto",

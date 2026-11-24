@@ -234,8 +234,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s06",
-    "s02"
+    "s02",
+    "s06"
    ],
    "level": "cultivar"
   },
@@ -243,8 +243,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s06",
-    "s02"
+    "s02",
+    "s06"
    ],
    "level": "cultivar"
   },
@@ -252,8 +252,8 @@
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s06",
-    "s02"
+    "s02",
+    "s06"
    ],
    "level": "cultivar"
   },
@@ -364,7 +364,7 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中\n[Walters/品種] Tolerant of hot, dry sites, and soils high in salts.\n[食い違い] 欧米の文献（品種の記述）は 強 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] The plant sometimes self-seeds, slowly moving around the garden, but it rarely becomes a problem.\n[地下茎 1／MBG・品種] Plants will slowly spread in the garden over time.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[地下茎 1／MBG・品種] Plants will slowly spread in the garden over time.（読み直し）\n[こぼれ種 1／NC State・種] sometimes self-seeds, slowly moving around the garden, but it rarely becomes a problem（読み直し）\n[こぼれ種 1／NC State・種] The plant sometimes self-seeds, slowly moving around the garden, but it rarely becomes a problem.\n[地下茎 1／MBG・品種] Plants will slowly spread in the garden over time.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] ‘Blue Hobbit’ is a dwarf sea holly that rises in a globular mound to only 8-12\" tall when in full bloom.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Jelitto",

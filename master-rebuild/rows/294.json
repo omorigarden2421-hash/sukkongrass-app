@@ -233,8 +233,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s18",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -242,8 +242,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s18",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -251,8 +251,8 @@
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s18",
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -359,7 +359,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿を嫌います（蒸れ 中 相当）\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 1／Walters・品種] This will slowly spread to form a small patch.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[地下茎 1／Walters・品種] slowly spread to form a small patch（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 1／Walters・品種] This will slowly spread to form a small patch.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[Walters・品種] This selection forms an upright, bushy mound of soft green, oval-shaped leaves, splashed with creamy-white.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、おぎはら",

@@ -204,11 +204,11 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 3,
    "method": "判定",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -216,8 +216,8 @@
    "value": 3,
    "method": "判定",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -231,7 +231,7 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認。地域によっては侵略的外来種とされている、という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。生育が強く、はびこる（stauden.de・種 の Wuchsstärke: wuchernd）（種についての記述。この品種で同じかは未確認）。米国中西部の州で有害雑草に指定（MBG の注意書き）（種についての記述。この品種で同じかは未確認）。環境省の外来種リストに掲載（産業管理外来種（外来クサヨシ（リードカナリーグラス）））",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種で強く増え、雑草化することがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認。地域によっては侵略的外来種とされている、という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。生育が強く、はびこる（stauden.de・種 の Wuchsstärke: wuchernd）（種についての記述。この品種で同じかは未確認）。米国中西部の州で有害雑草に指定（MBG の注意書き）（種についての記述。この品種で同じかは未確認）。環境省の外来種リストに掲載（産業管理外来種（外来クサヨシ（リードカナリーグラス）））",
    "method": "記載",
    "sources": [
     "s06",
@@ -322,7 +322,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] leaf blades ... tend to brown up as the summer progresses）",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Problems Reed canary grass is a rhizomatous, self-seeding spreader that is difficult to control.\n[地下茎 3／NC State・種] Insects, Diseases, and Other Plant Problems:  It can spread aggressively.\n[地下茎の食い違い] MBG は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
+  "spread_evidence": "[地下茎 3／NC State・種] It can spread aggressively／quickly crowd out native plants（読み直し）\n[こぼれ種 3／NC State・種] spread by rhizomes and seeds and are very difficult to eradicate（読み直し）\n[こぼれ種 1／MBG・種] Problems Reed canary grass is a rhizomatous, self-seeding spreader that is difficult to control.\n[地下茎 3／NC State・種] Insects, Diseases, and Other Plant Problems:  It can spread aggressively.\n[地下茎の食い違い] MBG は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[NC State・種] spread by rhizomes and seeds and are very difficult to eradicate）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] It spreads aggressively to form dense monocultures.\n[NC State・種] Listed as invasive by the NC Invasive Plant Council and by many other states.",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Erect; Open",
   "sources_with_cultivar_page": "なし",

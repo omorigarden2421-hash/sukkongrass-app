@@ -221,7 +221,7 @@
     "s18",
     "s17"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -238,12 +238,12 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "こぼれ種でよく増える（stauden.de・種）",
+   "value": "こぼれ種でよく増える（stauden.de・品種）",
    "method": "記載",
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -340,7 +340,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[こぼれ種の食い違い] Gaißmayer は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 2／stauden.de・品種] oft Selbstaussaat（読み直し）\n[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[こぼれ種の食い違い] Gaißmayer は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、Gaißmayer、Jelitto",

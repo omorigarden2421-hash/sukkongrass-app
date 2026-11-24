@@ -233,6 +233,7 @@
    "method": "判定",
    "sources": [
     "s06",
+    "s02",
     "s18"
    ],
    "level": "species"
@@ -242,6 +243,7 @@
    "method": "判定",
    "sources": [
     "s06",
+    "s02",
     "s18"
    ],
    "level": "species"
@@ -354,7 +356,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした\n[おぎはら楽天/品種] 日照 寒冷地: 日向(適湿)〜半日陰／暖地: やや半日陰〜半日陰（西日 × 相当）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 弱（[RHS・品種] dislikes extremes of heat（そろえ：暑さを嫌う＝弱））\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 1／NC State・種] However, it can be slow to spread.\n[地下茎の食い違い] stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 1／NC State・種] it can be slow to spread / [MBG・種] Spreads slowly by rhizomes.（読み直し）\n[地下茎 1／NC State・種] However, it can be slow to spread.\n[地下茎の食い違い] stauden.de は 2 相当",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら、Jelitto",

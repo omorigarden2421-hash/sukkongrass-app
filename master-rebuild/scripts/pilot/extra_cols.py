@@ -47,6 +47,11 @@ R1 = r"(does|do|will) not spread (aggressively|rapidly|quickly|very)|less (apt|l
 R2 = r"spreads? (by|via|through|from) (creeping |underground |short |slender |its )?(rhizom|stolon|runner|sucker|root|stem)|spreading by|rhizomatous|stoloniferous|(by|via) (creeping |underground )?(rhizomes|stolons|runners|suckers)|form(s|ing)? (large |dense |extensive |sizable )?colon|coloniz|suckers? (freely|to form)|root(s|ing) at the nodes|vigorous(ly)? spread|spreads? (quickly|widely|freely|readily|indefinitely|vigorously)|running (rhizom|habit)"
 
 
+import json as _json
+import os as _os
+_SRR = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "..", "..", "spread_reread.json")
+SPREAD_RR = _json.load(open(_SRR, encoding="utf-8")) if _os.path.exists(_SRR) else {}
+
 SDB_LV = {"species": "種", "genus": "属"}
 LV_RANK = {"品種": 0, "種": 1, "属": 2}
 
@@ -251,6 +256,21 @@ def extra(it, rh, m, mlv, n, nl, s, slv, w, ga, ga_own, je, texts):
             other = sorted({(c[0], c[2]) for c in cand[kind] if c[0] != first and c[2] != best[2]})
             if other:
                 why.append(f"[{lab}の食い違い] " + "、".join(f"{a} は {b} 相当" for a, b in other))
+    # 2026-11-24 総当たりの読み直し（spread_reread.json。scripts/tools/spread_reread_note.md）: こぼれ種・地下茎の段階は、全916品種の文を読み直した値を使う。
+    # 言い回しの照合の値と違えば、根拠に残す
+    rr = SPREAD_RR.get(str(it.get("商品番号")))
+    if rr:
+        for col, lab, key in (("こぼれ種の量(0-3)", "こぼれ種", "こぼれ種"), ("地下茎で広がる程度(0-3)", "地下茎", "地下茎")):
+            new = rr.get(key)
+            if new != r[col]:
+                why.append(f"[読み直し 2026-11-24] {lab}：言い回しの照合では {r[col] if r[col] is not None else '空欄'}、文を読み直して {new if new is not None else '空欄'}（{rr.get(key + 'の決め手') or '記述なし'}）")
+            if new is not None:
+                # 「[こぼれ種 3／NC State・種] 原文」の形にする（combine.py・six() が文献と段階〔種の記述か〕をここから読む）
+                q = rr.get(key + "の決め手") or ""
+                mq = re.match(r"\[([^・\]]+)・([^\]]+)\]\s*(.*)$", q, re.S)
+                src_, lv_ = (mq[1], {"cultivar": "品種", "species": "種", "genus": "属"}.get(mq[2], mq[2])) if mq else ("読み直し", "不明")
+                why.insert(0, f"[{lab} {new}／{src_}・{lv_}] {(mq[3] if mq else q)}（読み直し）"[:300])
+            r[col] = new
     r["こぼれ種・地下茎の根拠"] = "\n".join(why) or None
     return r
 

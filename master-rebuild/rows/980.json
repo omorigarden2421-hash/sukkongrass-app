@@ -231,19 +231,24 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s18",
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": 2,
    "method": "判定",
    "sources": [
     "s06",
+    "s18",
     "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": null,
@@ -354,7 +359,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Blooms in light shade, and appreciates some afternoon shade in hot summer climates.\n[NC State/種] The specific epithet, arundinacea , is Latin for \"reed-like.\" Prefers full sun, but in hot summer climates, afternoon shade is recommended.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] This ornamental grass spreads by rhizomes and is best propagated by division.\n[地下茎の食い違い] MBG は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
+  "spread_evidence": "[地下茎 2／NC State・種] This ornamental grass spreads by rhizomes（読み直し）\n[こぼれ種 1／stauden.de・品種] versamend（読み直し）\n[地下茎 2／NC State・種] This ornamental grass spreads by rhizomes and is best propagated by division.\n[地下茎の食い違い] MBG は 1 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・cultivar] versamend）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・種] Habit/Form: Arching; Clumping; Dense; Erect; Mounding／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",

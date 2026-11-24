@@ -795,6 +795,16 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - 下書きは末尾 1124e、まとめの表 `ClaudeWork/新マスター_下書き_916品種_1124e.xlsx`（最新）。rows も作り直した
 - 作業のファイル（一時フォルダ。消えることがある）：heat_dump.jsonl、batch_1〜8.jsonl、res_1〜8.jsonl、決め方の heat_rules.md
 
+## 2026-11-24：広がり方（こぼれ種・地下茎・混植適性）の総当たりの読み直し（全916品種）
+- やり方は耐暑性と同じ。assemble_pilot.py の DUMP_SPREAD で、広がり方に関わりそうな文（seed・spread・rhizome・stolon・runner・sucker・invasive・aggressive・colon・naturaliz・weed・clump・sterile など）と RHS の Habit・本文、stauden.de の Wuchsverhalten・Wuchsstärke・MS-Generativer Ausbreitungsdrang・Pflegehinweis（値ごとの印つき）、Gaißmayer の欄を書き出し、8つに分けて1品種ずつ読んだ。決め方は `scripts/tools/spread_reread_note.md`（RULES.md の self_seed_level・rhizome_level・mixing と 2026-11-24 の決定）
+- そろえた読み方：「rhizomatous」「rhizombildend」「central rhizomatous crown」だけ（広がるとは書いていない）→ 地下茎 空欄。RHS「potential to become a nuisance」・「somewhat aggressive」→ 3（lästig と同じ）。「spread aggressively by rhizomes and seeds」→ 地下茎もこぼれ種も 3。「spreads … but not invasive」・「slowly」・「by rooting stems to 12-18 in wide」→ 1。stauden.de の plain「versamend」→ 1、「oft Selbstaussaat」→ 2、「nicht versamend」→ 0、「wuchernd」→ 3。種が風・鳥で運ばれる話はこぼれ種。地域の法律上の侵略的外来種の指定は段階に使わない。stauden.de「Wuchsstärke schwach」は 弱い（埋もれやすい）にしない
+- 結果を `spread_reread.json`（商品番号 → こぼれ種・地下茎・混植と決め手・確かさ 高271・中508・低137・メモ）に置き、extra_cols.py の extra() が言い回しの照合の代わりに使う。根拠の先頭に「[こぼれ種 3／NC State・種] 原文（読み直し）」、照合と違えば「[読み直し 2026-11-24] …」
+- combine.py：こぼれ種 2 の基準（11-24 の決定）で、群落・野生化の文がこぼれ種の決め手とは別の文にあるときは、読み直しの判定を使う。読み直しで「株立ちの記述だけ」と読んだ品種（RHS Habit: Clump forming、MBG clump-forming）で混植適性が空欄なら 普通（RULES.md の「clump-forming で上の記述なし → 普通」。前は stauden.de の horstig だけ見ていた）
+- 変わった数（まとめの表 1124e → 1124f）：こぼれ種 158、地下茎 138、混植適性 150（空欄 → 普通 が多い）、増え方 106、広がりすぎの注意 176、リスクタグ 16。管理タイプは変えていない（文を読んで決めた mgmt_review.json のまま）。決定済みのもの（スピレア ジャポニカのこぼれ種 空欄、モナルダ・セダム レフレクサムの地下茎 2、アルケミラ 強い、パンパスグラス 隔離推奨型、ペニセタム 'Black Beauty' 強い）はそのまま
+- 混植適性はいま 普通 588・侵略的 98・強い 48・空欄 182
+- ユーザーに聞いていること（回答待ち）：(1) 地下茎 2（根茎・ランナーで広がるが、はびこるとは書いていない）なのに混植適性が空欄の97品種を 強い にするか (2) 読み直しで段階 3（侵略的・はびこるの明記）になったのに、管理タイプの見直し（文を読んで E にしなかった）で 強い のままの品種（クルマバソウ・セラスチウム・フィリペンデュラ ウルマリア・バーベナ ボナリエンシス・ミスカンサス4・カラマグロスティス・コルヌス アルバ3・ゲラニウム エンドレッシー・スティパ）を 侵略的（隔離推奨型）にするか (3) 仕組みの説明なしに「侵略的になりうる」「逃げ出した雑草」とだけある2品種（イベリス センパービレンス・クロコスミア 'Constance'）
+- 下書きは末尾 1124f、まとめの表 `ClaudeWork/新マスター_下書き_916品種_1124f.xlsx`（最新）。rows も作り直した
+
 ## 次にやること（全部の属の下書きが終わった）
 - 【2026-11-21 の終わりの時点】6列・暑さの確認ページ・管理タイプの見直し（在庫あり）まで済み。待っているのは、(1) 確認ページ「暑さに弱い品種の確認」の回答 (2) 「剪定不要＋花後の花茎切り」を A にするか B にするか。（夜に、回答を表に入れる仕組み〔scripts/tools/apply_answers.py〕と、在庫のない282品種の管理タイプの見直しも済んだ。上の2つの節）。残っているのは、未決（DECISIONS.md）、試作と同じ形（rows・根拠の JSON）への統合
 - batch_18 までで、全916品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54＋51＋50＋53＋51＋51＋51＋51＋50＋47＋19＝916）。2026-11-20 に、batch_*/input と pilot/input の商品番号（916件・重複なし）を元のマスターの商品番号（916件）と照らし、もれ・重複がないことを確かめた

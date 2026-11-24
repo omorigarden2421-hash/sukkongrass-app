@@ -216,8 +216,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s17",
-    "s06"
+    "s06",
+    "s17"
    ],
    "level": "species"
   },
@@ -225,8 +225,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s17",
-    "s06"
+    "s06",
+    "s17"
    ],
    "level": "species"
   },
@@ -234,8 +234,8 @@
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s17",
-    "s06"
+    "s06",
+    "s17"
    ],
    "level": "species"
   },
@@ -335,7 +335,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[NC State・種] In the southeast, the southern lady fern is a more appropriate choice; [MBG・品種] Fronds ... tattered by mid summer）\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／Gaißmayer・種] Der Wald-Frauenfarn vermehrt sich über Sporen und kann an passenden Standorten verwildern, ohne lästig zu werden.\n[地下茎 1／NC State・種] This non-aggressive fern will slowly spread to form clumps making it an easily maintained ground cover.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "spread_evidence": "[地下茎 1／NC State・種] This non-aggressive fern will slowly spread to form clumps（読み直し）\n[こぼれ種 1／読み直し・不明] [Gaißmayer self_seed] 胞子で殖え、合う場所では野生化するが lästig にならない（読み直し）\n[こぼれ種 1／Gaißmayer・種] Der Wald-Frauenfarn vermehrt sich über Sporen und kann an passenden Standorten verwildern, ohne lästig zu werden.\n[地下茎 1／NC State・種] This non-aggressive fern will slowly spread to form clumps making it an easily maintained ground cover.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、MBG、おぎはら、シカゴ植物園",

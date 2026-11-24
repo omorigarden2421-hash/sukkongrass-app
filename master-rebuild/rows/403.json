@@ -218,6 +218,7 @@
   "spread_modes": {
    "value": [
     "株立ち",
+    "ランナー",
     "こぼれ種"
    ],
    "method": "記載",
@@ -230,15 +231,17 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s02",
     "s06",
     "s18"
    ],
    "level": "species"
   },
   "rhizome_level": {
-   "value": 0,
+   "value": 1,
    "method": "判定",
    "sources": [
+    "s02",
     "s06",
     "s18"
    ],
@@ -248,6 +251,7 @@
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
+    "s02",
     "s06",
     "s18"
    ],
@@ -357,7 +361,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Plants prefer cool summer climates.\n[MBG/種] They are generally intolerant of the extreme heat of the deep South, and do not perform well south of USDA Zone 7.\n[MBG/種] They appreciate some part afternoon shade in hot summer climates.\n[NC State/種] They prefer cool-weather climates and require afternoon shade and additional water in plant hardiness zone 7.",
-  "spread_evidence": "[こぼれ種 1／NC State・種] Bellflowers will self-seed in optimal conditions, but are not invasive.\n[地下茎 0／NC State・種] Bellflowers will self-seed in optimal conditions, but are not invasive.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー、こぼれ種）",
+  "spread_evidence": "[地下茎 1／MBG・種] plants will spread both by self-seeding and offsets（読み直し）\n[こぼれ種 1／NC State・種] will self-seed in optimal conditions, but are not invasive（読み直し）\n[こぼれ種 1／NC State・種] Bellflowers will self-seed in optimal conditions, but are not invasive.\n[地下茎 0／NC State・種] Bellflowers will self-seed in optimal conditions, but are not invasive.\n[地下茎の食い違い] stauden.de は 2 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 0、文を読み直して 1（[MBG・種] plants will spread both by self-seeding and offsets）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[Walters・品種] Plants form a low mound of dark green leaves, bearing tall stems of large, frilly double white bells during the summer months.",
   "sources_with_cultivar_page": "stauden.de、Walters、シカゴ植物園",

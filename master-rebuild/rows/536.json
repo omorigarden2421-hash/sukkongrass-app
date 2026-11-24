@@ -224,10 +224,12 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -343,7 +345,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[RHS・品種] Can tolerate full sun if shaded in the hottest part of the day）\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or North-facing or East-facing",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・cultivar] versamend）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Spreading",
   "sources_with_cultivar_page": "RHS、Gaißmayer、おぎはら、Jelitto",

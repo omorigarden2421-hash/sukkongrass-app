@@ -237,6 +237,7 @@
    "value": 2,
    "method": "判定",
    "sources": [
+    "s06",
     "s02",
     "s17",
     "s10",
@@ -251,17 +252,19 @@
    "level": null
   },
   "mixing": {
-   "value": "普通（混植可）",
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s18",
+    "s02"
    ],
    "level": "species"
   },
   "invasive_note": {
-   "value": "こぼれ種でよく増える（MBG・種）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
+   "value": "こぼれ種でよく増える（NC State・種）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"
@@ -371,8 +374,8 @@
   "heat_west_only": "中",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿 は嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 日向(昼過ぎから半日陰が理想）（西日 △ 相当）\n[NC State/種] Foxglove does best with afternoon shade.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] Powdery mildew and leaf spot ... can depreciate foliage considerably by early to mid-summer）\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 2／MBG・種] If flower spikes are left in place after flowering and allowed to go to seed, plants will act more as biennials and will, in optimum growing conditions, freely self-seed.\n[こぼれ種の食い違い] Gaißmayer は 1 相当、Walters は 1 相当、stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "spread_evidence": "[こぼれ種 2／NC State・種] Deadhead after flowering to avoid excessive numbers of seedlings（読み直し）\n[こぼれ種 2／MBG・種] If flower spikes are left in place after flowering and allowed to go to seed, plants will act more as biennials and will, in optimum growing conditions, freely self-seed.\n[こぼれ種の食い違い] Gaißmayer は 1 相当、Walters は 1 相当、stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：[読み直し] こぼれ種2＋[MBG・種] often establishing large colonies",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"

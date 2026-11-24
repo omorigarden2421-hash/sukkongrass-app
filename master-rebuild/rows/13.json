@@ -239,6 +239,7 @@
    "method": "判定",
    "sources": [
     "s06",
+    "s01",
     "s02",
     "s18"
    ],
@@ -359,7 +360,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 日向（西日は避ける）〜明るい半日陰（西日 × 相当）\n[MBG/種] Provide good air circulation in hot and humid areas where crown rot is a problem.\n[MBG/種] Avoid planting in wet, heavy soils, provide good air circulation and divide when clumps become overcrowded.\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 3／NC State・品種] Bugleweed is listed as invasive in other parts of the country due to its quick growth and aggressive spread; in NC, it is considered a low threat to native plant communities.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 3／NC State・品種] It can become weedy / [RHS・品種] spread quickly, potential to become a nuisance（読み直し）\n[地下茎 3／NC State・品種] Bugleweed is listed as invasive in other parts of the country due to its quick growth and aggressive spread; in NC, it is considered a low threat to native plant communities.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・品種] Bugleweed is listed as invasive in other parts of the country due to its quick growth and aggressive spread; in NC, it is considered a low threat to native plant communities.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、おぎはら",

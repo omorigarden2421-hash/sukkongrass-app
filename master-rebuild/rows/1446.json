@@ -223,8 +223,8 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s02",
     "s06",
+    "s02",
     "s18"
    ],
    "level": "species"
@@ -233,8 +233,8 @@
    "value": 3,
    "method": "判定",
    "sources": [
-    "s02",
     "s06",
+    "s02",
     "s18"
    ],
    "level": "species"
@@ -353,7 +353,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: West-facing or East-facing or North-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Will self-seed in the garden, but cultivars may not come true to form.\n[地下茎 3／NC State・種] This plant can be quite weedy and spread aggressively through runners.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
+  "spread_evidence": "[地下茎 3／NC State・種] can be quite weedy and spread aggressively through runners（読み直し）\n[こぼれ種 1／MBG・種] Will self-seed in the garden（読み直し）\n[こぼれ種 1／MBG・種] Will self-seed in the garden, but cultivars may not come true to form.\n[地下茎 3／NC State・種] This plant can be quite weedy and spread aggressively through runners.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] It can be somewhat invasive in optimum growing conditions.\n[MBG・種] It has been declared a non-regulated Class B noxious weed in parts of the State of Washington where it cannot now be legally sold.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS",

@@ -351,7 +351,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] Stonecrop spreads by underground stolons.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[地下茎 2／NC State・種] Stonecrop spreads by underground stolons（読み直し）\n[地下茎 2／NC State・種] Stonecrop spreads by underground stolons.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Trailing",
   "sources_with_cultivar_page": "RHS",

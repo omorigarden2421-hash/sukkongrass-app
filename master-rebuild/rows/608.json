@@ -213,10 +213,11 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 3,
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -224,7 +225,8 @@
    "value": 3,
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -237,7 +239,7 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。文献に「条件によっては、はびこる」という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種で強く増え、雑草化することがある（NC State・種）（種についての記述。この品種で同じかは未確認）。文献に「条件によっては、はびこる」という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s06",
@@ -338,7 +340,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら ○）\n[おぎはら/種] 耐暑性；強\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] The plant self-seeds and spreads by rhizome and can be propagated by root division and seed.\n[地下茎 3／NC State・種] Some cultivars may spread aggressively.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[地下茎 3／NC State・種] Some cultivars may spread aggressively / [MBG・種] Can be an aggressive spreader（読み直し）\n[こぼれ種 3／NC State・種] The plant self-seeds... Can be weedy in a garden setting / [MBG・種] spread aggressively ... by both rhizomes and self-seeding（読み直し）\n[こぼれ種 1／NC State・種] The plant self-seeds and spreads by rhizome and can be propagated by root division and seed.\n[地下茎 3／NC State・種] Some cultivars may spread aggressively.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[NC State・種] The plant self-seeds... Can be weedy in a garden setting / [MBG・種] spread aggressively ... by both rhizomes and self-seeding）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Can be an aggressive spreader.",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS",

@@ -230,7 +230,7 @@
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": null,
@@ -239,12 +239,12 @@
    "level": null
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
    "method": "記載",
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -342,7 +342,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが、高温多湿は嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／stauden.de・種] ausläufertreibend",
+  "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend（読み直し）\n[地下茎 2／stauden.de・種] ausläufertreibend",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、おぎはら、Jelitto",

@@ -194,7 +194,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": null,
@@ -202,16 +202,20 @@
    "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
   },
   "self_seed_level": {
-   "value": null,
-   "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "rhizome_level": {
-   "value": 0,
+   "value": 1,
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "rhizome_level": {
+   "value": 3,
+   "method": "判定",
+   "sources": [
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -224,11 +228,11 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "文献に「侵略的・はびこる」という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。地域によっては侵略的外来種とされている、という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Invasive Species（米国ノースカロライナ州で侵略的外来種）・Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。雑草化しやすく侵略的になるおそれがあり、米国中西部の庭には勧めない（MBG の注意書き）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。文献に「侵略的・はびこる」という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。地域によっては侵略的外来種とされている、という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Invasive Species（米国ノースカロライナ州で侵略的外来種）・Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。雑草化しやすく侵略的になるおそれがあり、米国中西部の庭には勧めない（MBG の注意書き）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -317,8 +321,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[MBG/種] Louis area, plants will benefit from a placement that will provide some protection from winter wind and sun and from hot summer temperatures.",
-  "spread_evidence": "[地下茎 0／NC State・種] The adult stage is the shrubby non-climbing stage in which stems do not spread or climb, but do produce clusters of greenish-white flowers in early fall followed by blue-black toxic berries.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": "[MBG・種] Noteworthy Characteristics Hedera helix , commonly known as English ivy, is a vigorous, aggressive, fast-growing, woody evergreen perennial that is primarily grown as a climbing vine or trailing groun\n[MBG・種] In some climates it is considered highly invasive in woodlands and open areas where it aggressively displaces native vegetation by densely smothering large areas of ground with its trailing densely-le",
+  "spread_evidence": "[地下茎 3／NC State・種] Its aggressive and vining nature ... smothers the ground（読み直し）\n[こぼれ種 1／MBG・種] Birds help disperse seed（読み直し）\n[地下茎 0／NC State・種] The adult stage is the shrubby non-climbing stage in which stems do not spread or climb, but do produce clusters of greenish-white flowers in early fall followed by blue-black toxic berries.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[MBG・種] Birds help disperse seed）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 0、文を読み直して 3（[NC State・種] Its aggressive and vining nature ... smothers the ground）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] In some climates it is considered highly invasive in woodlands and open areas where it aggressively displaces native vegetation by densely smothering large areas of ground with its trailing densely-le",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Ascending; Climbing; Creeping; Prostrate",
   "sources_with_cultivar_page": "なし",
   "sources_used": "MBG、NC State、RHS、stauden.de"

@@ -218,10 +218,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -320,7 +322,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/属] In the south it is best to plant hosta in full shade or dappled shade so that the foliage colors will be more vibrant and won't develop leaf burn.\n[NC State/属] Hosta plantaginea  originated in China and is very fragrant and tolerates heat.",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[MBG・種] can be mixed with other perennials in the border front",
   "silhouette_evidence": "（種の記述）[MBG・種] Noteworthy Characteristics Hosta venusta features a dwarf mound of slightly wavy, heart-shaped, medium green leaves with racemes of funnel-shaped, violet flowers on 10\" scapes.",
   "sources_with_cultivar_page": "なし",
   "sources_used": "MBG、NC State、stauden.de"

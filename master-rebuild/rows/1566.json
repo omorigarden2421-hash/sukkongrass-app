@@ -240,16 +240,20 @@
    "level": "species"
   },
   "rhizome_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -348,8 +352,8 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/種] However, plants often struggle in the hot and humid summers of the deep South where they appreciate afternoon shade or sun dappled shade.\n[RHS/品種] Aspect: West-facing or North-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Plants may self-seed in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 1／MBG・種] spread over time by short creeping rhizomes（読み直し）\n[こぼれ種 1／MBG・種] Plants may self-seed in optimum growing conditions（読み直し）\n[こぼれ種 1／MBG・種] Plants may self-seed in optimum growing conditions.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 1（[MBG・種] spread over time by short creeping rhizomes）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS",
   "sources_used": "MBG、RHS、stauden.de"

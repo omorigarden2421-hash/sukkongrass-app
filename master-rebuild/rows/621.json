@@ -242,10 +242,12 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -375,7 +377,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが、高温多湿を嫌います（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[Walters/品種] Also tolerates heat and humidity.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 強、文を読み直して 中（[MBG・品種] become somewhat floppy ... particularly in humid climates / [Walters・品種] tolerates heat and humidity）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] mäßig versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・cultivar] mäßig versamend）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy, Columnar upright",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら",

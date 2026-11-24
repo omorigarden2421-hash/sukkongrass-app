@@ -362,7 +362,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿を嫌います（蒸れ 弱 相当）\n[MBG/種] Tolerates some part afternoon shade, particularly in hot summer climates.\n[MBG/種] Leaf spot can be troublesome in humid summers, particularly where plants are crowded.\n[NC State/種] Problems:  Leaf spot can infect plants in humid summers, where plants are crowded.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Shearing plants after bloom but before seed sets will prevent any unwanted self-seeding, will trim the foliage and may promote a possible sparse rebloom in fall.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／MBG・種] may self-seed in optimum growing conditions（読み直し）\n[こぼれ種 1／MBG・種] Shearing plants after bloom but before seed sets will prevent any unwanted self-seeding, will trim the foliage and may promote a possible sparse rebloom in fall.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、おぎはら、Jelitto",

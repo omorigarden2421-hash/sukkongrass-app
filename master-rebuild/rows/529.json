@@ -351,7 +351,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜半日陰／暖地: 明るい半日陰〜半日陰（西日 × 相当）\n[MBG/種] Plant foliage will burn in full sun locations and lose color intensity (particularly on variegated leaf cultivars) in full shade.\n[MBG/種] Leaves may scorch in hot summers, particularly when consistent moisture is not maintained.\n[NC State/種] The leaves may scorch in the heat if moisture is inconsistent.\n[NC State/種] It grows best in cool summer climates, and it may not tolerate the hot summers of the southern United States, such as zones 8 through 9.\n[NC State/種] In hot climates, the leaves may scorch if there is inadequate moisture.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った",
-  "spread_evidence": "[地下茎 1／NC State・種] This ornamental grass resembles bamboo and spreads by rhizomes and stolons but it is not considered to be invasive.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 1／NC State・種] spreads by rhizomes and stolons but it is not considered to be invasive（読み直し）\n[地下茎 1／NC State・種] This ornamental grass resembles bamboo and spreads by rhizomes and stolons but it is not considered to be invasive.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・種] Habit/Form: Arching; Cascading; Dense; Mounding／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、Gaißmayer、おぎはら",

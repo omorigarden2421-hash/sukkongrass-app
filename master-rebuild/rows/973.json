@@ -202,7 +202,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎"
    ],
    "method": "記載",
    "sources": [
@@ -217,24 +217,26 @@
    "level": null
   },
   "rhizome_level": {
-   "value": null,
-   "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "mixing": {
-   "value": "普通（混植可）",
+   "value": 2,
    "method": "判定",
    "sources": [
-    "s18"
+    "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
-  "invasive_note": {
+  "mixing": {
    "value": null,
-   "method": "記載",
+   "method": "判定",
    "sources": null,
    "level": null
+  },
+  "invasive_note": {
+   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -325,8 +327,8 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Tolerates hot dry conditions.\n[MBG/種] Plants tend to decline in summer heat south of Zone 6.\n[NC State/種] Plants tend to suffer in summer heat south of Zone 6.",
-  "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "spread_evidence": "[地下茎 2／NC State・種] ... limit the spread of its rhizomes（読み直し）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[NC State・種] ... limit the spread of its rhizomes）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": null,
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: polsterartig bis polsterbildend",
   "sources_with_cultivar_page": "stauden.de、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de"

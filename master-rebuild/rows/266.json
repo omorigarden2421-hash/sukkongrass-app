@@ -227,7 +227,7 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 3,
    "method": "判定",
    "sources": [
     "s06",
@@ -249,7 +249,7 @@
    "level": null
   },
   "invasive_note": {
-   "value": "こぼれ種などではびこる、という記述がある（NC State・種）。この品種で同じかは未確認。米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
+   "value": "こぼれ種で強く増え、雑草化することがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（NC State・種）。この品種で同じかは未確認。米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s06",
@@ -351,7 +351,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の 'Angel's Blush'・図鑑の 'Gardeners World'・図鑑の 'Private Heaven'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] The plant self-seeds and has the potential to become invasive.\n[こぼれ種の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 3／NC State・種] The plant self-seeds and has the potential to become invasive（読み直し）\n[こぼれ種 1／NC State・種] The plant self-seeds and has the potential to become invasive.\n[こぼれ種の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[NC State・種] The plant self-seeds and has the potential to become invasive）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[NC State・種] The plant self-seeds and has the potential to become invasive.",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、Jelitto",

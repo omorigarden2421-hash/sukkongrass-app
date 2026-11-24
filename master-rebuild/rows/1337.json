@@ -217,6 +217,7 @@
    "value": 2,
    "method": "判定",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"
@@ -237,10 +238,10 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "こぼれ種でよく増える（MBG・種）（種についての記述。この品種で同じかは未確認）",
+   "value": "こぼれ種でよく増える（NC State・種）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
-    "s02"
+    "s06"
    ],
    "level": "species"
   },
@@ -330,7 +331,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[こぼれ種 2／MBG・種] Freely self-seeds and will naturalize to form large colonies in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 2／NC State・種] Columbine freely self seeds（読み直し）\n[こぼれ種 2／MBG・種] Freely self-seeds and will naturalize to form large colonies in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：[こぼれ種 2／MBG・種] Freely self-seeds and will naturalize to form large colonies in optimum growing conditions.",
   "silhouette_evidence": "[Walters・品種] This makes a low mound of lacy, fern-like leaves, bearing sprays of small soft-pink flowers with a creamy-yellow centre.",
   "sources_with_cultivar_page": "Walters",

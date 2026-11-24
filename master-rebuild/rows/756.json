@@ -229,6 +229,7 @@
    "value": 1,
    "method": "判定",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"
@@ -353,7 +354,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] May self-seed if at least some of the seed heads are left in place.",
+  "spread_evidence": "[こぼれ種 1／NC State・種] The plant spreads by seeds and forms clumps / [MBG・種] May self-seed（読み直し）\n[こぼれ種 1／MBG・種] May self-seed if at least some of the seed heads are left in place.",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・種] Habit/Form: Erect",
   "sources_with_cultivar_page": "RHS、Gaißmayer、おぎはら",

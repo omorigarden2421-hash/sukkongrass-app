@@ -241,10 +241,14 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s06",
+    "s18"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": "こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認",
@@ -355,8 +359,8 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/種] Somewhat intolerant of the heat and humidity of the deep South, however, and appreciates some light afternoon shade in hot summer climates such as the St.\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
-  "spread_evidence": "[こぼれ種 0／NC State・種] It is a sterile hybrid plant, the result of a cross between Nepeta racemosa and Nepeta nepetella .\n[こぼれ種の食い違い] MBG は 3 相当",
-  "mixing_evidence": "[MBG・種] May aggressively self-seed in optimum growing conditions.",
+  "spread_evidence": "[こぼれ種 0／NC State・種] As a sterile plant it is unlikely to reseed（読み直し）\n[こぼれ種 0／NC State・種] It is a sterile hybrid plant, the result of a cross between Nepeta racemosa and Nepeta nepetella .\n[こぼれ種の食い違い] MBG は 3 相当",
+  "mixing_evidence": "[MBG・種] May aggressively self-seed in optimum growing conditions.\n[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[NC State・種] rapidly forms a clump／stauden.de horstig（cultivar）",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de"

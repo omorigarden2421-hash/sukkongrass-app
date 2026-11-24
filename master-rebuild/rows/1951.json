@@ -357,7 +357,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[MBG/品種] Plants tolerate hot and humid summers with some drought.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] 'Parker's Variety' may be grown from seed and may self-seed in the garden under optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／MBG・品種] may self-seed in the garden under optimum growing conditions（読み直し）\n[こぼれ種 1／MBG・品種] 'Parker's Variety' may be grown from seed and may self-seed in the garden under optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Achillea filipendulina , commonly known as fern-leaf yarrow, is an upright, clump-forming yarrow that is native to the Caucasus, Iran and Afghanistan.",
   "sources_with_cultivar_page": "RHS、MBG、Gaißmayer、シカゴ植物園、Jelitto",

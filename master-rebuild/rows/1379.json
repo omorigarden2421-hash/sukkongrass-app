@@ -340,7 +340,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/品種] Plants are generally intolerant of high heat and humidity, and do not grow well in the deep South (south of USDA Zone 7).\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 0／MBG・品種] ‘Vivid Violet’ does not produce viable seed.",
+  "spread_evidence": "[こぼれ種 0／MBG・品種] does not produce viable seed（読み直し）\n[こぼれ種 0／MBG・品種] ‘Vivid Violet’ does not produce viable seed.",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] ‘Vivid Violet’ is a perennial pincushion flower that grows in a low mound to 12” tall and to 18” wide.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer",

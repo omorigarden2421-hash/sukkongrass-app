@@ -222,7 +222,7 @@
    "sources": [
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -231,9 +231,11 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "invasive_note": {
@@ -340,8 +342,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
-  "mixing_evidence": null,
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[stauden.de・cultivar] horstig（株立ちで広がりの記述なし）",
   "silhouette_evidence": "[Walters・品種] This species forms a mound of bold green foliage, bearing large violet-blue flowers with a reddish cast.",
   "sources_with_cultivar_page": "RHS、Walters",
   "sources_used": "RHS、Walters、stauden.de、シカゴ植物園"

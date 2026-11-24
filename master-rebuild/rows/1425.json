@@ -211,10 +211,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -308,7 +310,7 @@
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[MBG/品種] Plants are tolerant of summer heat and humidity, but appreciate deep watering in dry spells to keep foliage attractive.",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[MBG・品種] above a clump of arching ... leaves",
   "silhouette_evidence": null,
   "sources_with_cultivar_page": "MBG",
   "sources_used": "MBG、NC State、RHS"

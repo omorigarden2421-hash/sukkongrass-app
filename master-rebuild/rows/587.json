@@ -219,6 +219,7 @@
   },
   "spread_modes": {
    "value": [
+    "株立ち",
     "ランナー",
     "こぼれ種"
    ],
@@ -232,31 +233,34 @@
    "value": 1,
    "method": "判定",
    "sources": [
-    "s02"
+    "s02",
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 1,
    "method": "判定",
    "sources": [
-    "s02"
+    "s02",
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・種）（種についての記述。この品種で同じかは未確認）",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -361,8 +365,8 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；中\n[MBG/種] Best performance occurs in cool summer climates where night temperatures consistently dip below 70F degrees, which unfortunately is a cultural preference that does not fit the profile of a typical St.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: North-facing or South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] In optimum growing conditions, plants will spread by stolons and/or self-seeding in a non-invasive manner to form colonies.\n[地下茎 2／MBG・種] Noteworthy Characteristics Astrantia major , commonly called greater masterwort, is an upright, umbelliferous, stoloniferous, herbaceous perennial (carrot family) that is native to mountain meadows, grasslands, woodland \n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 1／MBG・種] spread by stolons ... in a non-invasive manner ... May form colonies over time（読み直し）\n[こぼれ種 1／MBG・種] Deadhead ... if self-seeding is unwanted／[RHS・品種] deadhead ... to prevent self-seeding（読み直し）\n[こぼれ種 1／MBG・種] In optimum growing conditions, plants will spread by stolons and/or self-seeding in a non-invasive manner to form colonies.\n[地下茎 2／MBG・種] Noteworthy Characteristics Astrantia major , commonly called greater masterwort, is an upright, umbelliferous, stoloniferous, herbaceous perennial (carrot family) that is native to mountain meadows, grasslands, woodland \n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 1（[MBG・種] spread by stolons ... in a non-invasive manner ... May form colonies over time）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte Stängel mit grundständigem Blattschopf",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、おぎはら",
   "sources_used": "Jelitto、MBG、RHS、Walters、stauden.de、おぎはら"

@@ -247,7 +247,7 @@
    "level": "species"
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
     "s06",
@@ -256,13 +256,16 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）。米国内に侵略的とされている地域がある（MBG の表示）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）。米国内に侵略的とされている地域がある（MBG の表示）",
    "method": "記載",
    "sources": [
     "s06",
@@ -367,12 +370,12 @@
  "review": {
   "management_type_reason": "MBG・種／Walters・品種: 花後に刈り込む・刈る。MBG の「必要なら毎年株分けして締まった姿に」は条件つきで、毎年の更新が必要との明記ではないので D にしない（NC State は数年ごと）。ランナーで広がり「必要に応じて抑える」（stauden.de）は侵略的の明記ではない。機械の D から変更",
   "management_type_quote": "Plants should be clipped hard or mowed (to 2 inches) after blooming to maintain a tidy habit.",
-  "management_type_by_matching": "D 毎年株更新型",
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿を嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 乾燥した日向が理想（西日 ○ 相当）\n[MBG/種] Tends to perform poorly in climates with hot, humid sumemrs.\n[NC State/種] It does well in cool summer climates but is less successful in the high summer heat and humidity of the deep South.\n[NC State/種] Does not perform well in climates with high humidity or in a location with insufficient sunlight.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] Self-seeding will occur if the spent blooms are not removed.\n[地下茎 2／NC State・種] The plant spreads by underground runners and makes a good ground cover; however, it is a short-lived plant that may result in dead patches in a covered area.\n[地下茎の食い違い] MBG は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 3／NC State・種] spreads by underground runners ... It can be weedy in locations with cooler summer climates（読み直し）\n[こぼれ種 1／NC State・種] Self-seeding will occur if the spent blooms are not removed（読み直し）\n[こぼれ種 1／NC State・種] Self-seeding will occur if the spent blooms are not removed.\n[地下茎 2／NC State・種] The plant spreads by underground runners and makes a good ground cover; however, it is a short-lived plant that may result in dead patches in a covered area.\n[地下茎の食い違い] MBG は 1 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[NC State・種] spreads by underground runners ... It can be weedy in locations with cooler summer climates）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters、おぎはら",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de、おぎはら"

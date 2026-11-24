@@ -243,10 +243,13 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -353,7 +356,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向(適湿)〜半日陰／暖地: やや半日陰〜半日陰（西日 × 相当）\n[MBG/種] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist or if plants are grown in too much sun.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[RHS・品種] Clump forming／[stauden.de] horstig",
   "silhouette_evidence": "[MBG・種] Tiny, astilbe-like white flowers form in panicles atop flowering stems that gracefully arch above the foliage in late spring.",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、シカゴ植物園、Jelitto",
   "sources_used": "Jelitto、MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園"

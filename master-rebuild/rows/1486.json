@@ -353,7 +353,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿を嫌います（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 明るい半日陰（西日 × 相当）\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Regardless, plants will remain in the garden via self-seeding.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／MBG・種] plants will remain in the garden via self-seeding（読み直し）\n[こぼれ種 1／MBG・種] Regardless, plants will remain in the garden via self-seeding.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・種] In the first year, it features a basal rosette of succulent, finely-dissected, fern-like, silver-gray foliage that rises to 12-18\" tall and as wide.",
   "sources_with_cultivar_page": "RHS、おぎはら、Jelitto",

@@ -226,9 +226,10 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
+    "s01",
     "s18"
    ],
    "level": "cultivar"
@@ -236,15 +237,17 @@
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
-   "sources": null,
-   "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de、おぎはら）"
+   "sources": [
+    "s01",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（RHS・品種）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
-    "s18",
+    "s01",
     "s06"
    ],
    "level": "cultivar"
@@ -344,12 +347,12 @@
  "review": {
   "management_type_reason": "RHS・品種: やっかいものになる恐れがあり、広がりを抑えるよう注意して管理する。stauden.de・品種: ランナーで広がる。invasive／aggressive の語そのものはないが「手に負えなくなる」に当たると読んで E（機械は A。要確認）",
   "management_type_quote": "has the potential to become a nuisance and should be carefully managed to control spread",
-  "management_type_by_matching": "A 放任型",
+  "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[おぎはら楽天/種] 耐湿性: 普 通 ある程度耐えますが高温多湿を嫌います（蒸れ 中 相当）\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
-  "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend",
-  "mixing_evidence": "[管理タイプの見直し] 文を読んで隔離推奨型にしたので、空欄 から 侵略的 にそろえた",
+  "spread_evidence": "[地下茎 3／RHS・品種] potential to become a nuisance and should be carefully managed to control spread（読み直し）\n[地下茎 2／stauden.de・品種] ausläufertreibend\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[RHS・品種] potential to become a nuisance and should be carefully managed to control spread）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de",
   "sources_used": "Jelitto、NC State、RHS、stauden.de、おぎはら"

@@ -217,6 +217,7 @@
   },
   "spread_modes": {
    "value": [
+    "株立ち",
     "ランナー"
    ],
    "method": "記載",
@@ -232,7 +233,7 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 1,
    "method": "判定",
    "sources": [
     "s02",
@@ -241,18 +242,19 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "普通（混植可）",
    "method": "判定",
-   "sources": null,
-   "level": null
-  },
-  "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・品種）",
-   "method": "記載",
    "sources": [
-    "s02"
+    "s02",
+    "s17"
    ],
    "level": "cultivar"
+  },
+  "invasive_note": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   },
   "ias_list": {
    "value": "掲載なし",
@@ -348,8 +350,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/品種] In warmer climates, it is best to provide it with some afternoon shade.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・品種] Noteworthy Characteristics Ophiopogon planiscapus , commonly called mondo grass or lily turf, is a tuberous-rooted, often stoloniferous, grass-like perennial of the lily family.\n[地下茎の食い違い] Gaißmayer は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 1／MBG・品種] spread somewhat indefinitely but slowly／slowly spreading clumps（読み直し）\n[地下茎 2／MBG・品種] Noteworthy Characteristics Ophiopogon planiscapus , commonly called mondo grass or lily turf, is a tuberous-rooted, often stoloniferous, grass-like perennial of the lily family.\n[地下茎の食い違い] Gaißmayer は 1 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 1（[MBG・品種] spread somewhat indefinitely but slowly／slowly spreading clumps）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Clumping",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de、おぎはら"

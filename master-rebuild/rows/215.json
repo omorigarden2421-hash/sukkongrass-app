@@ -230,16 +230,20 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": 0,
    "method": "判定",
    "sources": [
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -247,7 +251,8 @@
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s10"
+    "s10",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -358,7 +363,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/種] Problems Rust may be troublesome in humid climates.\n[NC State/種] It is drought-tolerant and deer- and rabbit-resistant, but it is sensitive to high heat and humidity.\n[NC State/種] Requires good air circulation to prevent fungal diseases.\n[NC State/種] Rust can occur in wet, humid climates.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 0／Walters・品種] Non-spreading in habit, this will remain evergreen in mild winter regions.",
+  "spread_evidence": "[地下茎 0／Walters・品種] Non-spreading in habit（読み直し）\n[こぼれ種 0／stauden.de・品種] nicht versamend（読み直し）\n[地下茎 0／Walters・品種] Non-spreading in habit, this will remain evergreen in mild winter regions.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・cultivar] nicht versamend）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・種] Habit/Form: Arching; Clumping; Creeping; Erect; Mounding",
   "sources_with_cultivar_page": "RHS、Walters",

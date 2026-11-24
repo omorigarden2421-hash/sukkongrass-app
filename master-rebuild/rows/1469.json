@@ -211,7 +211,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -220,10 +221,12 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -340,7 +343,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 1／MBG・品種] releasing silky-haired seeds easily carried by the wind（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[MBG・品種] releasing silky-haired seeds easily carried by the wind）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Asclepias incarnata , commonly called swamp milkweed, is an erect, clump-forming, herbaceous perennial commonly found in swamps, river bottomlands and wet meadows throughout",
   "sources_with_cultivar_page": "stauden.de、MBG、Walters、おぎはら、Jelitto",

@@ -205,20 +205,18 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 1,
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s02"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s02"
+    "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -308,8 +306,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら 空欄）",
-  "spread_evidence": "[地下茎 1／MBG・品種] This plant slowly forms a clump about 8-12\" tall and 12-18\" wide.",
-  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
+  "spread_evidence": "[地下茎 1／MBG・品種] This plant slowly forms a clump about 8-12\" tall and 12-18\" wide.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 1、文を読み直して 空欄（記述なし）",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] This plant slowly forms a clump about 8-12\" tall and 12-18\" wide.",
   "sources_with_cultivar_page": "stauden.de、MBG、Jelitto",
   "sources_used": "Jelitto、MBG、stauden.de"

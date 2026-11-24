@@ -216,10 +216,12 @@
    "level": null
   },
   "self_seed_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -334,7 +336,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/種] The plant tolerates heat, humidity, drought and salt spray and can tolerate some cold and snow.\n[RHS/品種] Aspect: South-facing or East-facing（西向きが入っていない）",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 0／stauden.de・品種] nicht versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・cultivar] nicht versamend）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、おぎはら",

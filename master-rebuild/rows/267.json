@@ -231,9 +231,10 @@
    "level": null
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"
@@ -242,17 +243,16 @@
    "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
-    "s06",
     "s02"
    ],
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（MBG・種）。文献に「侵略的・はびこる」という記述がある（NC State・種）。地域によっては侵略的外来種とされている、という記述がある（MBG・種）。NC State・種 の表示: Weedy（雑草化しやすい）。米国中西部の州で有害雑草に指定（MBG の注意書き）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）。文献に「侵略的・はびこる」という記述がある（NC State・種）。地域によっては侵略的外来種とされている、という記述がある（MBG・種）。NC State・種 の表示: Weedy（雑草化しやすい）。米国中西部の州で有害雑草に指定（MBG の注意書き）",
    "method": "記載",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -348,8 +348,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Plants prefer some part afternoon shade in the St.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・種] Plants spread by creeping stems in optimum growing conditions to form large colonies.",
-  "mixing_evidence": "[NC State・種] Creeping Jenny can be used in containers, hanging baskets,  or as a ground cover only where its invasive spread is not a concern.\n[MBG・種] This plant is considered invasive in some parts of the United States.",
+  "spread_evidence": "[地下茎 3／NC State・種] spreads too aggressively and is difficult to control（読み直し）\n[地下茎 2／MBG・種] Plants spread by creeping stems in optimum growing conditions to form large colonies.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[NC State・種] spreads too aggressively and is difficult to control）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] This plant is considered invasive in some parts of the United States.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de"

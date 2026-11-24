@@ -239,20 +239,20 @@
    "level": "species"
   },
   "self_seed_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
   "rhizome_level": {
-   "value": 2,
+   "value": 3,
    "method": "判定",
    "sources": [
-    "s02",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -265,7 +265,7 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）。こぼれ種でよく増える（MBG・種）。文献に「侵略的・はびこる」という記述がある（NC State・種）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）。米国中西部の州で有害雑草に指定（MBG の注意書き）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）。こぼれ種で強く増え、雑草化することがある（NC State・種）。文献に「侵略的・はびこる」という記述がある（NC State・種）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）。NC State・種 の表示: Weedy（雑草化しやすい）。米国中西部の州で有害雑草に指定（MBG の注意書き）",
    "method": "記載",
    "sources": [
     "s06",
@@ -371,8 +371,8 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Plants generally thrive in cool summer climates.\n[NC State/種] It is a non-native herb that has escaped cultivation and has spread primarily in the northern US as it prefers cooler weather and abundant rainfall.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing",
-  "spread_evidence": "[こぼれ種 2／MBG・種] This is a potentially invasive perennial that spreads by rhizomes and often freely self-seeds.\n[地下茎 2／NC State・種] It spreads by rhizomes and seeds and can be weedy.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": "[NC State・種] Can become weedy and invasive.\n[NC State・種] It is listed as a noxious weed in Connecticut and Wisconsin.",
+  "spread_evidence": "[地下茎 3／NC State・種] spreads by rhizomes and seeds and can be weedy / Can become weedy and invasive（読み直し）\n[こぼれ種 3／NC State・種] It spreads by rhizomes and seeds and can be weedy（読み直し）\n[こぼれ種 2／MBG・種] This is a potentially invasive perennial that spreads by rhizomes and often freely self-seeds.\n[地下茎 2／NC State・種] It spreads by rhizomes and seeds and can be weedy.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 2、文を読み直して 3（[NC State・種] It spreads by rhizomes and seeds and can be weedy）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[NC State・種] spreads by rhizomes and seeds and can be weedy / Can become weedy and invasive）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] It is listed as a noxious weed in Connecticut and Wisconsin.",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect",
   "sources_with_cultivar_page": "RHS、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"

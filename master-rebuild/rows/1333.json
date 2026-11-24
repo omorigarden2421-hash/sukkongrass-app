@@ -220,16 +220,20 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 0,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": 2,
    "method": "判定",
    "sources": [
-    "s02"
+    "s02",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -346,7 +350,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・品種] ‘Walther Funcke’ is a rhizomatous, spreading, upright yarrow cultivar that is noted for its brick-red flowers, gray-green foliage and compact size.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[地下茎 2／MBG・品種] a rhizomatous, spreading, upright yarrow（読み直し）\n[こぼれ種 0／stauden.de・品種] nicht versamend（読み直し）\n[地下茎 2／MBG・品種] ‘Walther Funcke’ is a rhizomatous, spreading, upright yarrow cultivar that is noted for its brick-red flowers, gray-green foliage and compact size.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・cultivar] nicht versamend）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Gaißmayer",

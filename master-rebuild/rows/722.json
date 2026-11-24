@@ -318,7 +318,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[MBG/品種] Plant foliage may decline considerably in hot, humid summers.\n[MBG/品種] Tolerant of heat and drought once established.\n[NC State/種] Short-lived ornamental grass that does not tolerate hot or humid conditions.\n[食い違い] 欧米の文献（品種・種の記述）は 弱 相当。おぎはら植物園の値を採った",
-  "spread_evidence": "[地下茎 0／MBG・品種] Mass densely (plant 8-10\" apart) when planting as a ground cover since clumps do not spread outward very much and weeds may grow between clumps if spaced too far apart.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "spread_evidence": "[地下茎 0／MBG・品種] clumps do not spread outward very much（読み直し）\n[地下茎 0／MBG・品種] Mass densely (plant 8-10\" apart) when planting as a ground cover since clumps do not spread outward very much and weeds may grow between clumps if spaced too far apart.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] Foliage forms a dome-shaped, porcupine-like tuft of erect to arching, needle-like blades radiating upward and outward to a height of 6-8\" (inflorescences typically bring total clump height to 10-14\").／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "MBG",

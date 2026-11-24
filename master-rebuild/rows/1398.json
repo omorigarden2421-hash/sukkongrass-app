@@ -364,7 +364,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Pa05・Pa06・Pa07）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/品種] Some susceptibility to rust, particularly in hot and humid summer climates.\n[NC State/品種] In hot and humid climates, this grass may be susceptible to rust.\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] Plants may self-seed in optimum growing conditions but cultivars may not come true from seed.\n[地下茎 1／MBG・品種] Grows primarily in clumps, but will slowly spread by slightly creeping rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[地下茎 1／MBG・品種] will slowly spread by slightly creeping rhizomes（読み直し）\n[こぼれ種 1／MBG・品種] Plants may self-seed in optimum growing conditions（読み直し）\n[こぼれ種 1／MBG・品種] Plants may self-seed in optimum growing conditions but cultivars may not come true from seed.\n[地下茎 1／MBG・品種] Grows primarily in clumps, but will slowly spread by slightly creeping rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Clumping; Erect; Vase",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer",

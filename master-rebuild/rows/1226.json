@@ -216,8 +216,8 @@
    "value": 2,
    "method": "判定",
    "sources": [
-    "s06",
-    "s02"
+    "s02",
+    "s06"
    ],
    "level": "species"
   },
@@ -225,8 +225,8 @@
    "value": 2,
    "method": "判定",
    "sources": [
-    "s06",
-    "s02"
+    "s02",
+    "s06"
    ],
    "level": "species"
   },
@@ -331,7 +331,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Appreciates some light afternoon shade in hot, humid climates.",
-  "spread_evidence": "[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.\n[地下茎 2／MBG・種] Spreads by creeping stems (stolons) that root as they go along the ground.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "spread_evidence": "[地下茎 2／MBG・種] Spreads by creeping stems (stolons)（読み直し）\n[こぼれ種 2／NC State・種] it also self-seeds readily（読み直し）\n[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.\n[地下茎 2／MBG・種] Spreads by creeping stems (stolons) that root as they go along the ground.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Mounding; Spreading",
   "sources_with_cultivar_page": "Gaißmayer",

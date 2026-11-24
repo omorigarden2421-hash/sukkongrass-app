@@ -330,7 +330,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（F05・F08）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/種] Needs good air circulation (space well and thin out stems as needed) to help combat potential powdery mildew problems.\n[NC State/種] Good air circulation (adequate spacing and thinning of stems as needed) will help combat powdery mildew.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] prefers climates with mild summers compared to very hot and humid conditions）\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った",
-  "spread_evidence": "[こぼれ種 1／NC State・種] Removing faded flower panicles will prolong blooming and prevent self-seeding as cultivars do not come true from seed.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[こぼれ種 1／NC State・種] Removing faded flower panicles will ... prevent self-seeding（読み直し）\n[こぼれ種 1／NC State・種] Removing faded flower panicles will prolong blooming and prevent self-seeding as cultivars do not come true from seed.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Erect; Multi-stemmed; Pyramidal",
   "sources_with_cultivar_page": "stauden.de",

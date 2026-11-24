@@ -212,10 +212,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "地下茎"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら）"
   },
   "self_seed_level": {
    "value": null,
@@ -224,10 +227,13 @@
    "level": null
   },
   "rhizome_level": {
-   "value": null,
+   "value": 2,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
   },
   "mixing": {
    "value": null,
@@ -236,7 +242,7 @@
    "level": null
   },
   "invasive_note": {
-   "value": "こぼれ種で強く増え、雑草化することがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（NC State・種）。この品種で同じかは未確認。地域によっては侵略的外来種とされている、という記述がある（MBG・品種）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）",
+   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種で強く増え、雑草化することがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（NC State・種）。この品種で同じかは未確認。地域によっては侵略的外来種とされている、という記述がある（MBG・品種）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）",
    "method": "記載",
    "sources": [
     "s06",
@@ -336,7 +342,7 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] ‘Goldflame’ is noted for having good heat tolerance.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 3／NC State・種] It is a rapid grower and can be an aggressive self-seeder.\n[段階の読み直し 2026-11-24] こぼれ種ではびこる記述（NC State・MBG）は種の記述だけ。品種がこぼれ種で増えるかは分からないので空欄（2026-11-19 のスピレア 'Goldflame' の決定と同じ）。3 → 空欄",
+  "spread_evidence": "[地下茎 2／NC State・種] reproduces by ... suckering, creating a dense thicket ... that will displace other plants（読み直し）\n[こぼれ種 3／NC State・種] can be an aggressive self-seeder（読み直し）\n[こぼれ種 3／NC State・種] It is a rapid grower and can be an aggressive self-seeder.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[NC State・種] reproduces by ... suckering, creating a dense thicket ... that will displace other plants）\n[段階の読み直し 2026-11-24] こぼれ種ではびこる記述（NC State・MBG）は種の記述だけ。品種がこぼれ種で増えるかは分からないので空欄（2026-11-19 のスピレア 'Goldflame' の決定と同じ）。3 → 空欄\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "[NC State・種] It is a rapid grower and can be an aggressive self-seeder.\n[MBG・品種] Plants can be aggressive self-seeders, and have escaped gardens and naturalized in many areas of the eastern U.S.",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Spiraea japonica , commonly called Japanese spirea, is a dense, upright, mounded, deciduous shrub that typically grows 4-6’ tall with a slightly larger spread.",
   "sources_with_cultivar_page": "RHS、MBG、おぎはら",

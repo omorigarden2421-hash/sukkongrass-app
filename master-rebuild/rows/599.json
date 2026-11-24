@@ -196,7 +196,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "地下茎"
    ],
    "method": "記載",
    "sources": [
@@ -211,18 +212,20 @@
    "level": null
   },
   "rhizome_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "mixing": {
    "value": "普通（混植可）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -317,8 +320,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/種] In the southeast, protect from hot afternoon sun.",
-  "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "spread_evidence": "[地下茎 1／NC State・種] Growing from rhizomes that will spread, over time your iris will form a beautiful clump（読み直し）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 1（[NC State・種] Growing from rhizomes that will spread, over time your iris will form a beautiful clump）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: aufrecht bis straff aufrecht / aufrechte Stängel mit grundständigem Blattschopf",
   "sources_with_cultivar_page": "stauden.de",
   "sources_used": "Jelitto、NC State、stauden.de"

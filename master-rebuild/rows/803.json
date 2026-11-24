@@ -213,7 +213,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -222,10 +223,12 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": null,
+   "value": 1,
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "rhizome_level": {
    "value": null,
@@ -348,7 +351,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/属] As the heat of the summer sets in, foliage tends to decline considerably and flowering slows down or stops entirely, at which point plants should be cut back hard.\n[NC State/属] They can tolerate full sun but need protection from the afternoon sun.\n[NC State/属] Too much sun may cause leaf scorch.\n[NC State/属] Too much direct sun can cause leaf scorch.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": null,
+  "spread_evidence": "[こぼれ種 1／RHS・品種] cut back stems to prevent seeding（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[RHS・品種] cut back stems to prevent seeding）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] This selection forms a mound of grassy-looking leaves of a bright golden-yellow to chartreuse shade.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters",

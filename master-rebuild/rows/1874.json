@@ -222,6 +222,7 @@
    "value": 2,
    "method": "判定",
    "sources": [
+    "s02",
     "s18"
    ],
    "level": "species"
@@ -233,18 +234,19 @@
    "level": null
   },
   "mixing": {
-   "value": "普通（混植可）",
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s18",
+    "s02"
    ],
    "level": "species"
   },
   "invasive_note": {
-   "value": "こぼれ種でよく増える（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
+   "value": "こぼれ種でよく増える（MBG・種）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
-    "s18"
+    "s02"
    ],
    "level": "species"
   },
@@ -347,8 +349,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Aq04・Aq06・図鑑の 'Blue Barlow'・'Rose Barlow'）] 耐暑性；中（この品種のページはない。信頼度：低）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat",
-  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
+  "spread_evidence": "[こぼれ種 2／MBG・種] will self seed in the garden and will naturalize in the garden over time（読み直し）\n[こぼれ種 2／stauden.de・種] oft Selbstaussaat",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat\n[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：[こぼれ種 2／MBG・種] will self seed in the garden and will naturalize in the garden over time（読み直し）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、Jelitto",
   "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"

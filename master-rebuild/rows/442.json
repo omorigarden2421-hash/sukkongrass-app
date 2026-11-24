@@ -343,7 +343,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（C18・C22）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/種] Prefers part shade in hot summer climates.\n[MBG/種] Does not perform well in summer climates where night temperatures consistently remain above 70 degrees F.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の同じ種の品種の値を採った",
-  "spread_evidence": "[こぼれ種 1／NC State・種] To propagate this plant, divide its clumps every three to four years in the fall, or with adequate growing conditions, it will self-seed and spread by rhizomes itself.\n[地下茎 3／NC State・種] It can spread aggressively.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
+  "spread_evidence": "[地下茎 3／NC State・種] It can spread aggressively（読み直し）\n[こぼれ種 1／NC State・種] it will self-seed and spread by rhizomes（読み直し）\n[こぼれ種 1／NC State・種] To propagate this plant, divide its clumps every three to four years in the fall, or with adequate growing conditions, it will self-seed and spread by rhizomes itself.\n[地下茎 3／NC State・種] It can spread aggressively.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Can be an aggressive spreader.",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Arching; Clumping; Erect; Mounding",
   "sources_with_cultivar_page": "stauden.de",

@@ -341,7 +341,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or North-facing（西向き・南向きが入っていない）",
-  "spread_evidence": "[地下茎 1／MBG・品種] This is a stoloniferous plant that will colonize in the garden over time in a non-invasive manner.",
+  "spread_evidence": "[地下茎 1／MBG・品種] will colonize in the garden over time in a non-invasive manner（読み直し）\n[地下茎 1／MBG・品種] This is a stoloniferous plant that will colonize in the garden over time in a non-invasive manner.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、シカゴ植物園",

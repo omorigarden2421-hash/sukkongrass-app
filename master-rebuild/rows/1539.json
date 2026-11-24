@@ -234,12 +234,13 @@
    "value": 3,
    "method": "判定",
    "sources": [
+    "s01",
     "s06",
     "s17",
     "s02",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "侵略的（隔離推奨）",
@@ -250,13 +251,14 @@
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（NC State・種）。この品種で同じかは未確認。米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（RHS・品種）。こぼれ種などではびこる、という記述がある（NC State・種）。この品種で同じかは未確認。米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
+    "s01",
     "s06",
     "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -352,7 +354,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Avoid overhead watering and thin plants periodically to promote good air circulation, particularly if plants have experienced problems with leaf blight.\n[NC State/種] If pachysandra has experienced problems with leaf blight, plant thinning is recommended to promote good air circulation.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 空欄（記述なし）\n[RHS/品種] Aspect: North-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 3／NC State・種] It can spread aggressively and is difficult to remove.\n[地下茎の食い違い] Gaißmayer は 2 相当、MBG は 2 相当、stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 3／RHS・品種] can be invasive in moist soils / [NC State・種] can spread aggressively and is difficult to remove（読み直し）\n[地下茎 3／NC State・種] It can spread aggressively and is difficult to remove.\n[地下茎の食い違い] Gaißmayer は 2 相当、MBG は 2 相当、stauden.de は 2 相当",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] It can spread aggressively and is difficult to remove.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、おぎはら",

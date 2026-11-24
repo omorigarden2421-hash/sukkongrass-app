@@ -220,7 +220,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
+    "地下茎",
     "こぼれ種"
    ],
    "method": "記載",
@@ -230,7 +230,7 @@
    "level": "cultivar"
   },
   "self_seed_level": {
-   "value": 1,
+   "value": 3,
    "method": "判定",
    "sources": [
     "s02"
@@ -254,7 +254,7 @@
    "level": "cultivar"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（MBG・品種）。文献に「侵略的・はびこる」という記述がある（MBG・品種）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（MBG・品種）。こぼれ種で強く増え、雑草化することがある（MBG・品種）。文献に「侵略的・はびこる」という記述がある（MBG・品種）",
    "method": "記載",
    "sources": [
     "s02"
@@ -359,7 +359,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/品種] Performs best in cool summer climates, and can appear rather scraggly with poor flowering in the hot and humid summer conditions of the deep South.\n[Walters/品種] Tolerates heat and humidity, but prefers a moist site.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 強、文を読み直して 中（[MBG・品種] scraggly ... in the hot and humid summer conditions; stems tend to sprawl and mat ... in hot and humid climates）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] Prompt deadheading of spent flower stalks can be tedious for a large planting, but does tend to encourage additional bloom and prevent any unwanted self-seeding.\n[地下茎 3／MBG・品種] Can be an aggressive spreader.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "spread_evidence": "[地下茎 3／MBG・品種] Can be an aggressive spreader（読み直し）\n[こぼれ種 3／MBG・品種] spread ... by rhizomes and self-seeding ... to the point of being considered aggressive（読み直し）\n[こぼれ種 1／MBG・品種] Prompt deadheading of spent flower stalks can be tedious for a large planting, but does tend to encourage additional bloom and prevent any unwanted self-seeding.\n[地下茎 3／MBG・品種] Can be an aggressive spreader.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[MBG・品種] spread ... by rhizomes and self-seeding ... to the point of being considered aggressive）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] It is a rhizomatous perennial which typically grows in dense, bushy clumps to 1-2' tall.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters",

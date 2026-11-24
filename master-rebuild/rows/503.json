@@ -232,27 +232,30 @@
    "value": 3,
    "method": "判定",
    "sources": [
+    "s01",
     "s02",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
+    "s01",
     "s02",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（MBG・種）。文献に「侵略的・はびこる」という記述がある（MBG・種）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（RHS・品種）。文献に「侵略的・はびこる」という記述がある（MBG・種）",
    "method": "記載",
    "sources": [
+    "s01",
     "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -349,7 +352,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: West-facing or South-facing",
-  "spread_evidence": "[地下茎 3／MBG・種] Can be an aggressive spreader.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "spread_evidence": "[地下茎 3／RHS・品種] Can spread far and wide, and has the potential to become a nuisance（読み直し）\n[地下茎 3／MBG・種] Can be an aggressive spreader.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・種] Noteworthy Characteristics Mentha suaveolens , often called apple mint, is a rhizomatous, upright perennial which is most commonly grown as a culinary herb and/or ground cover.",
   "sources_with_cultivar_page": "RHS、Gaißmayer",
