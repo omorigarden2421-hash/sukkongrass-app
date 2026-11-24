@@ -243,10 +243,11 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：RHS、Walters、stauden.de、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
@@ -348,7 +349,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐暑性: 普通（暖地では夏に風とおし、水はけよく）（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向(適湿）〜半日陰／暖地: 半日陰（西日 × 相当）\n[RHS/品種] Aspect: West-facing or North-facing or East-facing",
   "spread_evidence": "[地下茎 2／stauden.de・種] ausläufertreibend（読み直し）\n[地下茎 2／stauden.de・種] ausläufertreibend\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、おぎはら",
   "sources_used": "RHS、Walters、stauden.de、おぎはら"

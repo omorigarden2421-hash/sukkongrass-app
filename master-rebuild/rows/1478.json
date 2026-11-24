@@ -35,16 +35,21 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": null,
+   "value": "weiß",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "白"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、stauden.de、おぎはら）"
   },
   "spread_min": {
    "value": 40,
@@ -237,10 +242,11 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、stauden.de、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（MBG・種）",
@@ -339,7 +345,7 @@
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 日向〜やや半日陰（西日 ○ 相当）\n[MBG/種] Tolerant of hot and humid summers.",
   "spread_evidence": "[地下茎 2／MBG・種] a stoloniferous, clump-forming plant（読み直し）\n[こぼれ種 1／MBG・種] May self-seed in optimum growing conditions（読み直し）\n[こぼれ種 1／MBG・種] May self-seed in optimum growing conditions.\n[地下茎 1／MBG・種] Noteworthy Characteristics Patrinia villosa is a stoloniferous, clump-forming plant which typically grows in a mound 2-3' tall.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 1、文を読み直して 2（[MBG・種] a stoloniferous, clump-forming plant）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[MBG・種] Noteworthy Characteristics Patrinia villosa is a stoloniferous, clump-forming plant which typically grows in a mound 2-3' tall.",
   "sources_with_cultivar_page": "おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、RHS、stauden.de、おぎはら"

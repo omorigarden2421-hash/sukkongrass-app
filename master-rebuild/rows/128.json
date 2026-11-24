@@ -238,10 +238,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（MBG・種）（種についての記述。この品種で同じかは未確認）",
@@ -350,7 +351,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or West-facing",
   "spread_evidence": "[地下茎 2／MBG・種] Plants spread easily (root where nodes touch the ground)（読み直し）\n[地下茎 2／stauden.de・品種] kriechend, teils wurzelnd",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら",
   "sources_used": "MBG、NC State、RHS、stauden.de、おぎはら"

@@ -31,16 +31,21 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": null,
+   "value": "gelblichweiß（Farbgruppe weiß）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "白"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、stauden.de、おぎはら）"
   },
   "spread_min": {
    "value": 100,
@@ -212,10 +217,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、stauden.de、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
@@ -311,7 +317,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら ○）\n[おぎはら/同じ種の別品種（図鑑の 'Chocolate Wing'・図鑑の 'Bronze Peacock'・図鑑の 'Die Schone'・図鑑の 'Fireworks'）] 耐暑性；中（この品種のページはない。信頼度：低）",
   "spread_evidence": "[地下茎 2／stauden.de・品種] Ausbreitung durch Ausläufer, Rhizome ... eingrenzen（読み直し）\n[地下茎 2／MBG・種] Noteworthy Characteristics Rodgersia pinnata is a bold, rhizomatous perennial with pinnately compound, basal leaves which appear palmate.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "（種の記述）[MBG・種] Clusters of apetalous, creamy pink to red flowers appear in late spring to early summer in branched, astilbe-like panicles rising above the foliage mound to 3-4' tall.",
   "sources_with_cultivar_page": "なし",
   "sources_used": "Jelitto、MBG、NC State、stauden.de、おぎはら"

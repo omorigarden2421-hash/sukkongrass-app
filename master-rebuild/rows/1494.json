@@ -31,16 +31,21 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": null,
+   "value": "rosa",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "ピンク"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：stauden.de、おぎはら）"
   },
   "spread_min": {
    "value": 45,
@@ -213,10 +218,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：stauden.de、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
@@ -308,7 +314,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中\n[おぎはら楽天/種] 耐湿性: やや弱い 高温多湿を嫌いますので用土は水はけ良く（蒸れ 弱 相当）",
   "spread_evidence": "[地下茎 2／stauden.de・品種] kriechend, teils wurzelnd; rhizombildend（読み直し）\n[地下茎 2／stauden.de・種] kriechend, teils wurzelnd",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "（種の記述）[stauden.de・種] Wuchsform: teppichartig, mattenartig",
   "sources_with_cultivar_page": "なし",
   "sources_used": "stauden.de、おぎはら"

@@ -36,16 +36,22 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": null,
+   "value": "orangegelb（Farbgruppe gelb, orange）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "オレンジ・アプリコット",
+    "黄"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：RHS、stauden.de）"
   },
   "spread_min": {
    "value": 20,

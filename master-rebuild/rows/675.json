@@ -245,7 +245,7 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": "強い（周囲を圧迫、配置注意）",
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
     "s06"
@@ -312,7 +312,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "C 夏前切戻型",
+   "value": "E 隔離推奨型",
    "method": "判定",
    "sources": [
     "s02",
@@ -320,7 +320,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "文を読んで見直し（確かさ：中）"
+   "note": "ユーザーの決定（2026-11-24。広がり方の読み直しのおすすめ）"
   },
   "division_interval": {
    "value": "春（間隔の記載なし。NC State・種）",
@@ -366,7 +366,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/種] If plants dry out, the leaves become scorched, but the plant can be cut back hard to generate new growth.\n[RHS/品種] Aspect: East-facing or South-facing or North-facing or West-facing",
   "spread_evidence": "[地下茎 3／stauden.de・種] Wuchsstärke wuchernd / [stauden.de・cultivar] ausläufertreibend（読み直し）\n[こぼれ種 3／NC State・種] It freely self-seeds and can spread out of control / be aware it is weedy（読み直し）\n[こぼれ種 2／NC State・種] It freely self-seeds and can spread out of control.\n[地下茎 2／stauden.de・品種] ausläufertreibend\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 2、文を読み直して 3（[NC State・種] It freely self-seeds and can spread out of control / be aware it is weedy）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[stauden.de・species] Wuchsstärke wuchernd / [stauden.de・cultivar] ausläufertreibend）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
-  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] Some Midwestern states consider this plant a noxious weed and do not allow it to be grown or transplanted where there is any danger of it spreading.\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] Some Midwestern states consider this plant a noxious weed and do not allow it to be grown or transplanted where there is any danger of it spreading.\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた\n[ユーザーの決定 2026-11-24] 読み直しで段階 3（[NC State・種] can spread out of control / weedy）。植物の性質として書かれているので 侵略的・隔離推奨型",
   "silhouette_evidence": "[Walters・品種] Plants form a bushy clump, bearing sprays of white flowers in early summer.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"

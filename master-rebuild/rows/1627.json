@@ -237,11 +237,10 @@
    "level": "species"
   },
   "mixing": {
-   "value": "強い（周囲を圧迫、配置注意）",
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
-    "s06",
-    "s02"
+    "s06"
    ],
    "level": "species"
   },
@@ -298,13 +297,13 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "D 毎年株更新型",
+   "value": "E 隔離推奨型",
    "method": "判定",
    "sources": [
     "s02"
    ],
    "level": "cultivar",
-   "note": "文を読んで見直し（確かさ：低）"
+   "note": "ユーザーの決定（2026-11-24。広がり方の読み直しのおすすめ）"
   },
   "division_interval": {
    "value": null,
@@ -343,7 +342,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/品種] Plants become stressed and more vulnerable to diseases such as canker in hot summer climates south of USDA Zone 7.\n[NC State/種] This shrub is more vulnerable to diseases in hot summer climates, especially south of USDA  Zone 7.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[地下茎 3／NC State・種] The plant is weedy, and its suckering can make it difficult to remove.（読み直し）\n[地下茎 2／NC State・種] It tends to sucker to form large colonies, which may be objectionable.\n[地下茎の食い違い] MBG は 0 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[NC State・種] The plant is weedy, and its suckering can make it difficult to remove.）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた\n[ユーザーの決定 2026-11-24] 読み直しで段階 3（[NC State・種] weedy ... difficult to remove）。植物の性質として書かれているので 侵略的・隔離推奨型",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Cornus alba , commonly called tatarian dogwood, is a rapid-growing, multi-stemmed, suckering, deciduous shrub that is native to eastern and central Asia in areas in part inh",
   "sources_with_cultivar_page": "RHS、MBG",
   "sources_used": "MBG、NC State、RHS"

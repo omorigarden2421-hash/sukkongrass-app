@@ -246,12 +246,13 @@
    "level": null
   },
   "mixing": {
-   "value": "普通（混植可）",
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s18",
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": null,
@@ -355,7 +356,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[ユーザーの決定 2026-11-24] RHS・品種「Can be invasive」とあるが、どう広がるかは書いていない。強い（配置注意）",
   "silhouette_evidence": "[NC State・種] Habit/Form: Dense; Mounding; Spreading",
   "sources_with_cultivar_page": "RHS、Walters、おぎはら",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de、おぎはら"

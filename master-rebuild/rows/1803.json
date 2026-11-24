@@ -46,10 +46,13 @@
    "level": "cultivar"
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "白"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、RHS、stauden.de、おぎはら）"
   },
   "spread_min": {
    "value": 60,

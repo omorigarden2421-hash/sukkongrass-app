@@ -244,10 +244,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（MBG・種）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
@@ -346,7 +347,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Leaf scorch may occur in hot summer climates.\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
   "spread_evidence": "[地下茎 2／MBG・種] spreads indefinitely by runners that root as they go／[RHS・品種] Can spread easily.（読み直し）\n[こぼれ種 1／MBG・種] may self-seed if fruit is not harvested（読み直し）\n[こぼれ種 1／MBG・種] Plant will spread by runners and may self-seed if fruit is not harvested.\n[地下茎 2／MBG・種] Plant will spread by runners and may self-seed if fruit is not harvested.\n[地下茎の食い違い] Gaißmayer は 0 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[RHS・品種] Habit: Trailing",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、Jelitto",
   "sources_used": "Gaißmayer、Jelitto、MBG、RHS、stauden.de"

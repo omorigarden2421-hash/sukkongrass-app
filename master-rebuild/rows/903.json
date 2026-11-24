@@ -47,8 +47,7 @@
   },
   "flower_color_class": {
    "value": [
-    "青・紫",
-    "黄"
+    "青・紫"
    ],
    "method": "記載",
    "sources": [
@@ -240,10 +239,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、シカゴ植物園）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（Gaißmayer・spread_mode）。環境省の外来種リストに掲載（防除検討外来種（ユウゼンギク（メリケンコンギク、シノノメギク、ユウゼンノギク）））",
@@ -355,7 +355,7 @@
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/種] Good air circulation and consistently moist soils with good drainage help reduce incidence of foliar diseases.\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
   "spread_evidence": "[地下茎 2／Gaißmayer・spread_mode] Wegen der recht starken Ausläuferbildung zur eher flächigen Pflanzung geeignet（読み直し）\n[こぼれ種 1／MBG・種] Plants can be cut back after flowering to reduce self-seeding（読み直し）\n[こぼれ種 1／MBG・種] Plants can be cut back after flowering to reduce self-seeding.\n[地下茎 2／Gaißmayer・品種] Wegen der recht starken Ausläuferbildung zur eher flächigen Pflanzung geeignet.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、Gaißmayer、シカゴ植物園",
   "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、シカゴ植物園"

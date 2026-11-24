@@ -254,10 +254,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、Walters、stauden.de、シカゴ植物園）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（stauden.de・品種）。こぼれ種でよく増える（NC State・種）",
@@ -369,7 +370,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 弱（[NC State・種] Does best in cooler summer areas）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[地下茎 2／stauden.de・品種] kriechend, teils wurzelnd（読み直し）\n[こぼれ種 2／NC State・種] Deadhead to prevent spread outside of the garden as it can be weedy（読み直し）\n[地下茎 2／stauden.de・種] kriechend, teils wurzelnd\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 2（[NC State・種] Deadhead to prevent spread outside of the garden as it can be weedy）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer",
   "sources_used": "NC State、RHS、Walters、stauden.de、シカゴ植物園"

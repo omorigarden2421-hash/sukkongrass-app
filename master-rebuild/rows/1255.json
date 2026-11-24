@@ -241,10 +241,11 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種でよく増える（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
@@ -354,7 +355,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Tolerates some light afternoon shade, particularly in hot summer climates.\n[MBG/種] Leaves may scorch if soils are allowed to dry out.\n[NC State/種] It does best in average, medium to wet soils in full sun, but tolerates some light afternoon shade in hot summer climates.\n[NC State/種] In the heat, leaves may become scorched if the soil is allowed to dry out.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: North-facing or South-facing or West-facing",
   "spread_evidence": "[地下茎 2／NC State・種] rhizomatous ... often forms small clonal colonies（読み直し）\n[こぼれ種 2／stauden.de・種] oft Selbstaussaat（読み直し）\n[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 2／NC State・種] The root system is fibrous and rhizomatous.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy, Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら",
   "sources_used": "MBG、NC State、RHS、stauden.de、おぎはら"

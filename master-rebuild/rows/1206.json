@@ -43,9 +43,13 @@
    "level": null
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "黄"
+   ],
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s01"
+   ],
    "level": null
   },
   "spread_min": {

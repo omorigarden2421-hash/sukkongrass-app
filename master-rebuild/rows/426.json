@@ -235,10 +235,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（RHS・品種）",
@@ -349,7 +350,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐暑性: 普通（暖地では夏に風とおし、水はけよく）（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向(適湿）〜半日陰／暖地: 半日陰（西日 × 相当）\n[RHS/品種] Aspect: East-facing or North-facing or West-facing",
   "spread_evidence": "[地下茎 2／RHS・品種] can spread freely（読み直し）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[RHS・品種] can spread freely）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[MBG・品種] ‘Sugar and Spice’ is a medium-sized, mounding foamflower hybrid that is primarily noted for its white to pink spring flowers and its pinnately divided green leaves with dark center marks.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、おぎはら",
   "sources_used": "MBG、RHS、Walters、stauden.de、おぎはら"

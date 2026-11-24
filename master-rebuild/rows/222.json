@@ -231,10 +231,11 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）",
@@ -336,7 +337,7 @@
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[Walters・品種] a good choice for regions with hot and humid summer / Will usually tolerate full sun ... in cool summer regions）\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 強（[Walters・品種] a good choice for regions with hot and humid summer）",
   "spread_evidence": "[地下茎 2／NC State・種] can form large colonies over time as leafy shoots spread along the ground rooting at the nodes（読み直し）\n[地下茎 2／NC State・種] They can form large colonies over time as leafy shoots spread along the ground rooting at the nodes.",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[Walters・品種] This selection has fragrant, magenta-purple flowers with a darker eye over a low, spreading mound of bright green leaves.",
   "sources_with_cultivar_page": "Walters",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de"

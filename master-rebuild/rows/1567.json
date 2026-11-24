@@ -246,10 +246,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（stauden.de・品種）。こぼれ種でよく増える（MBG・種）",
@@ -356,7 +357,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Plants need good air circulation.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 空欄（記述なし）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend（読み直し）\n[こぼれ種 2／MBG・種] Tends to self-seed（読み直し）\n[こぼれ種 1／MBG・種] Tends to self-seed.\n[地下茎 2／stauden.de・種] ausläufertreibend\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 2（[MBG・種] Tends to self-seed）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping",
   "sources_with_cultivar_page": "RHS、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園"

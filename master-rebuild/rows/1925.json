@@ -33,16 +33,21 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": null,
+   "value": "Greenish white ... ornamentally insignificant（文）",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "その他"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、stauden.de、おぎはら）"
   },
   "spread_min": {
    "value": null,

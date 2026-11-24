@@ -42,6 +42,7 @@
   },
   "flower_color_class": {
    "value": [
+    "黄",
     "赤"
    ],
    "method": "記載",
@@ -233,10 +234,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（MBG・品種）",
@@ -350,7 +352,7 @@
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Tolerant of heat, humidity and some drought.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 強、文を読み直して 中（[MBG・品種] Tolerant of heat, humidity / stems tend to sprawl, particularly in hot and humid climates）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": "[地下茎 2／MBG・品種] Plants may spread by rhizomes（読み直し）\n[地下茎 2／MBG・品種] Plants may spread by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[MBG・品種] ‘Redshift’ is a clump-forming hybrid coreopsis that grows on sturdy stems to 30-36\" tall.",
   "sources_with_cultivar_page": "RHS、MBG、Walters、おぎはら",
   "sources_used": "MBG、RHS、Walters、おぎはら"

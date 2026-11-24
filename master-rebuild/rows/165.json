@@ -42,9 +42,13 @@
    "level": null
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "その他"
+   ],
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s01"
+   ],
    "level": null
   },
   "spread_min": {

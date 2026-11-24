@@ -248,10 +248,11 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（NC State・種）。こぼれ種でよく増える（NC State・種）",
@@ -352,7 +353,7 @@
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[NC State/種] It does not do well in intense heat or drought and over watering can be a problem.\n[Walters/品種] In hot, humid summer regions this sometimes melts out and becomes unattractive in mid summer, usually reviving in the fall.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": "[地下茎 2／NC State・種] dense mat of slender stems that root at the nodes（読み直し）\n[こぼれ種 2／NC State・種] spreads by reseeding itself and it often forms small colonies（読み直し）\n[地下茎 2／stauden.de・種] kriechend, teils wurzelnd\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 2（[NC State・種] spreads by reseeding itself and it often forms small colonies）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、Jelitto",
   "sources_used": "Jelitto、NC State、RHS、Walters、stauden.de"

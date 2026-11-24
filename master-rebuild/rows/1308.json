@@ -31,16 +31,22 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": null,
+   "value": "purpurrosa（Farbgruppe rosa, purpur）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "ピンク",
+    "青・紫"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、stauden.de、おぎはら）"
   },
   "spread_min": {
    "value": 40,

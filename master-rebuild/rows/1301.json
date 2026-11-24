@@ -237,10 +237,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（MBG・品種）",
@@ -352,7 +353,7 @@
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/品種] Tolerant of heat, humidity and some drought.\n[MBG/品種] However, in hot summer climates like the St.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 強、文を読み直して 中（[MBG・品種] Tolerant of heat, humidity ... / stems tend to sprawl, particularly in hot and humid climates）\n[RHS/品種] Aspect: South-facing or West-facing",
   "spread_evidence": "[地下茎 2／MBG・品種] Plants may spread by rhizomes（読み直し）\n[こぼれ種 0／MBG・品種] sterile flowers ... produce very few if any seeds（読み直し）\n[地下茎 2／MBG・品種] Plants may spread by rhizomes.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[MBG・品種] sterile flowers ... produce very few if any seeds）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[Walters・品種] A very long-blooming perennial for sunny areas, forming a narrow, upright mound of medium-textured leaves.",
   "sources_with_cultivar_page": "RHS、MBG、Walters",
   "sources_used": "MBG、RHS、Walters"

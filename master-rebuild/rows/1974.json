@@ -41,10 +41,13 @@
    "level": "cultivar"
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "黄"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
   },
   "spread_min": {
    "value": 30,
@@ -244,7 +247,7 @@
    "level": null
   },
   "mixing": {
-   "value": "強い（周囲を圧迫、配置注意）",
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
     "s06"
@@ -305,7 +308,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "E 隔離推奨型",
    "method": "判定",
    "sources": [
     "s21",
@@ -314,7 +317,7 @@
     "s02"
    ],
    "level": null,
-   "note": "文を読んで見直し（確かさ：中）"
+   "note": "ユーザーの決定（2026-11-24。広がり方の読み直しのおすすめ）"
   },
   "division_interval": {
    "value": "春（間隔の記載なし。RHS・品種）",
@@ -360,7 +363,7 @@
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/種] This plant will not do well in the hot humid conditions of the southeast.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing or North-facing",
   "spread_evidence": "[こぼれ種 3／NC State・種] readily escapes the garden by producing 1000's of seeds / Weedy（読み直し）\n[こぼれ種 1／MBG・種] Self-seeding can be problematic.\n[こぼれ種の食い違い] stauden.de は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 3（[NC State・種] readily escapes the garden by producing 1000's of seeds / Weedy）",
-  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] In Australia, it is considered an invasive plant that threatens the eucalypt woods and pasture grazing lands for sheep and cows.\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] In Australia, it is considered an invasive plant that threatens the eucalypt woods and pasture grazing lands for sheep and cows.\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた\n[ユーザーの決定 2026-11-24] 読み直しで段階 3（[NC State・種] readily escapes the garden by producing 1000's of seeds（こぼれ種3））。植物の性質として書かれているので 侵略的・隔離推奨型",
   "silhouette_evidence": "[NC State・種] Habit/Form: Cascading; Clumping; Dense; Erect／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"

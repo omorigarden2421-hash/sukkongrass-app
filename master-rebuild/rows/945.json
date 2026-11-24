@@ -40,7 +40,8 @@
   },
   "flower_color_class": {
    "value": [
-    "赤"
+    "赤",
+    "その他"
    ],
    "method": "記載",
    "sources": [

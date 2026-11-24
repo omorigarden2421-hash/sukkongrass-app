@@ -33,16 +33,21 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": null,
+   "value": "grünlichweiß（Farbgruppe weiß）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "白"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、stauden.de）"
   },
   "spread_min": {
    "value": 80,
@@ -212,10 +217,11 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、stauden.de）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（MBG・種）（種についての記述。この品種で同じかは未確認）",
@@ -316,7 +322,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
   "spread_evidence": "[地下茎 2／MBG・種] spread by creeping rhizomes to form large colonies over time（読み直し）\n[地下茎 2／MBG・種] Plants will spread by creeping rhizomes to form large colonies over time.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "（種の記述）[MBG・種] This is a substantial perennial that typically forms a spreading foliage mound to 3' tall and as wide.",
   "sources_with_cultivar_page": "なし",
   "sources_used": "MBG、NC State、stauden.de"

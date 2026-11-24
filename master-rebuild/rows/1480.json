@@ -246,14 +246,12 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": "強い（周囲を圧迫、配置注意）",
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
-    "s01",
-    "s02",
-    "s17"
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": "地下茎・ランナーで強く広がり、はびこることがある（RHS・品種）。こぼれ種でよく増える（MBG・種）。雑草化しやすく侵略的になるおそれがあり、米国中西部の庭には勧めない（MBG の注意書き）",
@@ -309,7 +307,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "A 放任型",
+   "value": "E 隔離推奨型",
    "method": "判定",
    "sources": [
     "s01",
@@ -318,7 +316,7 @@
     "s17"
    ],
    "level": "species",
-   "note": "文を読んで見直し（確かさ：低）"
+   "note": "ユーザーの決定（2026-11-24。広がり方の読み直しのおすすめ）"
   },
   "division_interval": {
    "value": null,
@@ -360,7 +358,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Best in part shade in hot summer climates.\n[RHS/品種] Aspect: South-facing or North-facing or East-facing or West-facing",
   "spread_evidence": "[地下茎 3／RHS・品種] spreads freely with the potential to become a nuisance; [MBG・種] somewhat invasively at times, by creeping roots（読み直し）\n[こぼれ種 2／MBG・種] will often spread ... by creeping roots, self-seeding or stem-rooting（読み直し）\n[こぼれ種 1／MBG・種] Prefers moist soils where it will often spread, albeit somewhat invasively at times, by creeping roots, self-seeding or stem-rooting where the stems touch the ground.\n[地下茎 2／MBG・種] Noteworthy Characteristics Galium verum , commonly called yellow bedstraw, is a rhizomatous, somewhat weedy perennial herb that typically grows to 8-30\" tall and to 36\" wide on erect to sprawling stems.\n[地下茎の食い違い] Gaißmayer は 3 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 2（[MBG・種] will often spread ... by creeping roots, self-seeding or stem-rooting）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[RHS・品種] spreads freely with the potential to become a nuisance; [MBG・種] somewhat invasively at times, by creeping roots）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
-  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた\n[ユーザーの決定 2026-11-24] 読み直しで段階 3（[MBG・種] somewhat invasively / Somewhat weedy）。植物の性質として書かれているので 侵略的・隔離推奨型",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Gaißmayer、Jelitto",
   "sources_used": "Gaißmayer、Jelitto、MBG、RHS、stauden.de"

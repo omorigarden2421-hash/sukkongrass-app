@@ -39,10 +39,13 @@
    "level": "cultivar"
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "青・紫"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
   },
   "spread_min": {
    "value": 100,

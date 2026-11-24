@@ -248,7 +248,7 @@
    "level": null
   },
   "mixing": {
-   "value": "強い（周囲を圧迫、配置注意）",
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
     "s06"
@@ -317,7 +317,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "E 隔離推奨型",
    "method": "判定",
    "sources": [
     "s21",
@@ -325,7 +325,7 @@
     "s06"
    ],
    "level": null,
-   "note": "文を読んで見直し（確かさ：中）"
+   "note": "ユーザーの決定（2026-11-24。広がり方の読み直しのおすすめ）"
   },
   "division_interval": {
    "value": null,
@@ -369,7 +369,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: West-facing or South-facing",
   "spread_evidence": "[こぼれ種 3／RHS・品種] potential to become a nuisance due to prolific self-seeding / [NC State・種] It is a weed that spreads by volunteer seedlings（読み直し）\n[こぼれ種 2／MBG・種] Plants more freely self-seed where reliably hardy and they have escaped gardens and naturalized in a number of areas.\n[こぼれ種の食い違い] Walters は 1 相当、stauden.de は 1 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 2、文を読み直して 3（[RHS・品種] potential to become a nuisance due to prolific self-seeding / [NC State・種] It is a weed that spreads by volunteer seedlings）",
-  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] Some sources have labeled it \"invasive.\" Do not allow this species to spread into natural areas and become a problem.\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] Some sources have labeled it \"invasive.\" Do not allow this species to spread into natural areas and become a problem.\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた\n[ユーザーの決定 2026-11-24] 読み直しで段階 3（[NC State・種] a weed that spreads by volunteer seedlings / Weedy）。植物の性質として書かれているので 侵略的・隔離推奨型",
   "silhouette_evidence": "[NC State・種] Habit/Form: Erect",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"

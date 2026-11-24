@@ -256,10 +256,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（MBG・品種）",
@@ -368,7 +369,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが 高温多湿は嫌います（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[MBG/品種] Foliage may decline after flowering in hot summer climates, at which point it may be lightly sheared back and shaped to revitalize.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
   "spread_evidence": "[地下茎 2／MBG・品種] spread by trailing stems／runners extend further（読み直し）\n[こぼれ種 0／MBG・品種] sterile hybrid／sterile flowers（読み直し）\n[こぼれ種 0／MBG・品種] Geranium × cantabrigiense is a sterile hybrid geranium developed in 1974 by Dr.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[MBG・品種] spread by trailing stems／runners extend further）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎、こぼれ種）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、おぎはら、シカゴ植物園",
   "sources_used": "MBG、RHS、Walters、stauden.de、おぎはら、シカゴ植物園"

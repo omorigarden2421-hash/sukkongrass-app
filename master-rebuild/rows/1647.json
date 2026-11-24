@@ -246,10 +246,11 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（NC State・種）",
@@ -364,7 +365,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[MBG/種] Foliage tends to burn in hot, dry, sunny summer conditions.\n[NC State/種] Diseases, Insect Pests, and Other Plant Problems: Foliage can burn in hot, dry conditions.\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
   "spread_evidence": "[地下茎 2／NC State・種] naturalize ... by fibrous suckering roots to form colonies（読み直し）\n[地下茎 2／NC State・種] Japanese thimbleweed can be slow to establish, but over time, it will naturalize in the landscape by fibrous suckering roots to form colonies.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Spreading",
   "sources_with_cultivar_page": "RHS、Walters",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"

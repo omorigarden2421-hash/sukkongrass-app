@@ -235,10 +235,11 @@
    "level": null
   },
   "mixing": {
-   "value": "普通（混植可）",
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s18",
+    "s06"
    ],
    "level": "cultivar"
   },
@@ -340,7 +341,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/属] Prefers full sun, but appreciates part shade in hot summer climates.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[ユーザーの決定 2026-11-24] NC State・種「逃げ出した雑草（escaped weed）」とあるが、どう広がるかは書いていない。強い（配置注意）",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: geneigt / aufrecht bis straff aufrecht / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
   "sources_with_cultivar_page": "RHS、stauden.de",
   "sources_used": "MBG、NC State、RHS、stauden.de"

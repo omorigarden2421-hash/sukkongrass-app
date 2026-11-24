@@ -232,10 +232,12 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（MBG・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（MBG・種）。この品種で同じかは未確認",
@@ -336,7 +338,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中",
   "spread_evidence": "[地下茎 2／MBG・種] spreads by stolons and rhizomes to 18-36” wide（読み直し）\n[こぼれ種 1／MBG・種] deadheading ... may be necessary in order to prevent unwanted self-seeding（読み直し）\n[こぼれ種 1／MBG・種] Cultivars often do not come true from seed, however, so deadheading spent cultivar flowers may be necessary in order to prevent unwanted self-seeding.\n[地下茎 2／MBG・種] Noteworthy Characteristics Prunella grandiflora , commonly known as large-flowered self-heal, is a sprawling, low-growing, mat-forming, semi-evergreen perennial of the mint family that typically grows to 6-12” tall, but \n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
-  "mixing_evidence": "[MBG・種] Perhaps too aggressive to plant near choice rock garden plants.",
+  "mixing_evidence": "[MBG・種] Perhaps too aggressive to plant near choice rock garden plants.\n[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "（種の記述）[MBG・種] Noteworthy Characteristics Prunella grandiflora , commonly known as large-flowered self-heal, is a sprawling, low-growing, mat-forming, semi-evergreen perennial of the mint family that typically grows",
   "sources_with_cultivar_page": "Walters",
   "sources_used": "Jelitto、MBG、RHS、Walters、stauden.de、おぎはら"

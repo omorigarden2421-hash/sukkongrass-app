@@ -33,16 +33,21 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": null,
+   "value": "weiß",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "白"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de、おぎはら）"
   },
   "spread_min": {
    "value": 60,
@@ -218,10 +223,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（stauden.de・品種）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
@@ -322,7 +328,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[おぎはら楽天/種] 耐湿性: 普 通 ある程度耐えますが高温多湿を嫌います（蒸れ 中 相当）",
   "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend／Ausbreitung ... eingrenzen（読み直し）\n[地下茎 2／stauden.de・品種] ausläufertreibend",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Erect",
   "sources_with_cultivar_page": "stauden.de",
   "sources_used": "Jelitto、NC State、RHS、stauden.de、おぎはら"

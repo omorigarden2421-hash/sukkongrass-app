@@ -33,16 +33,21 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": null,
+   "value": "pink flowers",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "ピンク"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、シカゴ植物園）"
   },
   "spread_min": {
    "value": 30,

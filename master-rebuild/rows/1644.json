@@ -233,10 +233,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）",
@@ -348,7 +349,7 @@
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/属] Good air circulation and consistent moist soils with good drainage helps reduce incidence of foliar diseases.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": "[地下茎 2／NC State・種] The plant spreads by rhizomes.（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] The plant spreads by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎、こぼれ種）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: kissenartig bis kissenbildend / halbkugelig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
   "sources_with_cultivar_page": "RHS、stauden.de",
   "sources_used": "MBG、NC State、RHS、stauden.de"

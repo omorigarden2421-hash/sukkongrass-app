@@ -33,16 +33,21 @@
    "level": null
   },
   "flower_color_detail": {
-   "value": null,
+   "value": "rotbraun（Farbgruppe rot, braun）",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "その他"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、stauden.de、おぎはら）"
   },
   "spread_min": {
    "value": 50,

@@ -41,10 +41,13 @@
    "level": "cultivar"
   },
   "flower_color_class": {
-   "value": null,
+   "value": [
+    "ピンク"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、stauden.de、シカゴ植物園）"
   },
   "spread_min": {
    "value": 50,
@@ -231,10 +234,11 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、stauden.de、シカゴ植物園）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（MBG・種）。こぼれ種でよく増える（NC State・種）",
@@ -332,7 +336,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Appreciates some light afternoon shade in hot, humid climates.",
   "spread_evidence": "[地下茎 2／MBG・種] Spreads by creeping stems (stolons)（読み直し）\n[こぼれ種 2／NC State・種] it also self-seeds readily（読み直し）\n[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.\n[地下茎 2／MBG・種] Spreads by creeping stems (stolons) that root as they go along the ground.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Mounding; Spreading",
   "sources_with_cultivar_page": "Gaißmayer",
   "sources_used": "Gaißmayer、Jelitto、MBG、NC State、stauden.de、シカゴ植物園"

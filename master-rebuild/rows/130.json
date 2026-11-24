@@ -238,10 +238,11 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：NC State、RHS、stauden.de）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（NC State・種）",
@@ -352,7 +353,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
   "spread_evidence": "[地下茎 2／NC State・種] Stonecrop spreads by underground stolons（読み直し）\n[地下茎 2／NC State・種] Stonecrop spreads by underground stolons.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[RHS・品種] Habit: Trailing",
   "sources_with_cultivar_page": "RHS",
   "sources_used": "NC State、RHS、stauden.de"

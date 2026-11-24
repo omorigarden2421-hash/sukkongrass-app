@@ -2672,5 +2672,301 @@
     }
    }
   ]
+ },
+ {
+  "調べ方": "花色が、今のマスターの値と重ならない",
+  "種類": "D",
+  "品種": [
+   {
+    "商品番号": 65,
+    "植物名": "カンパニュラ タケシマナ 'ビューティフルトラスト'",
+    "学名": "Campanula takesimana 'Beautiful Trust'",
+    "値": {
+     "花色（自社の値）": "白",
+     "花色（分類）": "青・紫",
+     "花色（詳細）": "blaß-blau（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 154,
+    "植物名": "エノテラ スペシオーサ 'ウッドサイドホワイト'",
+    "学名": "Oenothera speciosa 'Woodside White'",
+    "値": {
+     "花色（自社の値）": "白",
+     "花色（分類）": "ピンク",
+     "花色（詳細）": "zart-rosa（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 335,
+    "植物名": "ベロニカ スピカータ 'ローズ'",
+    "学名": "Veronica spicata 'Rose'",
+    "値": {
+     "花色（自社の値）": "ピンク",
+     "花色（分類）": "青・紫",
+     "花色（詳細）": "blau（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 406,
+    "植物名": "アスター エリコイデス 'ジョリージャンパー'",
+    "学名": "Symphyotrichum ericoides 'Jolly Jumper'",
+    "値": {
+     "花色（自社の値）": "薄紫",
+     "花色（分類）": "白",
+     "花色（詳細）": "weiß（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 465,
+    "植物名": "カンパニュラ ヘイロジェンシス 'ワーリーホワイト'",
+    "学名": "Campanula × haylodgensis 'Warley White'",
+    "値": {
+     "花色（自社の値）": "白（八重咲）",
+     "花色（分類）": "青・紫",
+     "花色（詳細）": "hell-violettblau（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 567,
+    "植物名": "ジプソフィラ ローザス 'コーンヘッド'",
+    "学名": "Gypsophila paniculata 'Conehead'",
+    "値": {
+     "花色（自社の値）": "ピンク",
+     "花色（分類）": "白",
+     "花色（詳細）": "weiß（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 582,
+    "植物名": "トリフォリウム レペンス 'ウィートフェン'",
+    "学名": "Trifolium repens 'Wheatfen'",
+    "値": {
+     "花色（自社の値）": "ピンク",
+     "花色（分類）": "白",
+     "花色（詳細）": "weiß（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 644,
+    "植物名": "パルサティラ ブルガリス 'ホワイトベル'",
+    "学名": "Pulsatilla vulgaris 'White Bells'",
+    "値": {
+     "花色（自社の値）": "白",
+     "花色（分類）": "青・紫",
+     "花色（詳細）": "violett（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 646,
+    "植物名": "ビンカ ミノール 'ゴールデン'",
+    "学名": "Vinca minor 'Golden'",
+    "値": {
+     "花色（自社の値）": "白",
+     "花色（分類）": "青・紫",
+     "花色（詳細）": "violettblau（Farbgruppe blau）（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 864,
+    "植物名": "フロックス パニキュラータ 'ジュニオールドリーム'",
+    "学名": "Phlox paniculata 'Junior Dream'",
+    "値": {
+     "花色（自社の値）": "ピンク",
+     "花色（分類）": "青・紫",
+     "花色（詳細）": "purpur（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1209,
+    "植物名": "パニカム バーゲタム 'スクオー'",
+    "学名": "Panicum virgatum 'Squaw'",
+    "値": {
+     "花色（自社の値）": "緑→ピンク→ブラウン",
+     "花色（分類）": "その他",
+     "花色（詳細）": "rotbraun（Farbgruppe rot, braun）（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1308,
+    "植物名": "スタキス モニエリ 'アルバ'",
+    "学名": "Stachys monieri 'Alba'",
+    "値": {
+     "花色（自社の値）": "白",
+     "花色（分類）": "ピンク、青・紫",
+     "花色（詳細）": "purpurrosa（Farbgruppe rosa, purpur）（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1346,
+    "植物名": "アスチルベ チネンシス 'マイティプロニー'",
+    "学名": "Astilbe 'Mighty Plonie' (Mighty Series)",
+    "値": {
+     "花色（自社の値）": "白",
+     "花色（分類）": "ピンク",
+     "花色（詳細）": "violettrosa（Farbgruppe rosa）（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1350,
+    "植物名": "アルテミシア ブルガリス 'オリエンタルライムライト'（フイリヨモギ）",
+    "学名": "Artemisia vulgaris 'Janlim'",
+    "値": {
+     "花色（自社の値）": "白色（目立たない）",
+     "花色（分類）": "黄",
+     "花色（詳細）": "gelblich（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1377,
+    "植物名": "ジギタリス プルプレア 'モンストローサ パープル'",
+    "学名": "Digitalis purpurea 'Monstrosa Purple'",
+    "値": {
+     "花色（自社の値）": "ピンク",
+     "花色（分類）": "赤、青・紫",
+     "花色（詳細）": "purpurrot（Farbgruppe rot, purpur）（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1378,
+    "植物名": "シレネ ディオイカ 'ジェードバーリー'",
+    "学名": "Silene dioica 'Jade Valley'",
+    "値": {
+     "花色（自社の値）": "ピンク",
+     "花色（分類）": "赤、青・紫",
+     "花色（詳細）": "rot, purpur（purpurrot）（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1391,
+    "植物名": "ツタ ナツヅタ 'フェンウェイパーク'",
+    "学名": "Parthenocissus tricuspidata 'Fenway Park'",
+    "値": {
+     "花色（自社の値）": "緑っぽい白（目立たない",
+     "花色（分類）": "その他",
+     "花色（詳細）": "Greenish white flowers ... ornamentally insignificant（文）（MBG・品種）"
+    }
+   },
+   {
+    "商品番号": 1436,
+    "植物名": "ポテンチラ ネパレンシス 'メルトンファイヤー'",
+    "学名": "Potentilla nepalensis 'Melton Fire'",
+    "値": {
+     "花色（自社の値）": "ｸﾘｰﾑ（中心：薄赤、赤）",
+     "花色（分類）": "ピンク",
+     "花色（詳細）": "rosa（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1471,
+    "植物名": "アスター エリコイデス 'ハピーブルーミング'",
+    "学名": "Aster (symphyotrichum) ericoides 'Happy blooming'",
+    "値": {
+     "花色（自社の値）": "薄紫",
+     "花色（分類）": "白",
+     "花色（詳細）": "weiß（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1555,
+    "植物名": "ペンステモン ハシュータス var.ピグマエウス f. アルバス",
+    "学名": "Penstemon hirsutus var. pygmaeus f. albus",
+    "値": {
+     "花色（自社の値）": "白",
+     "花色（分類）": "青・紫",
+     "花色（詳細）": "hell-violett（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1697,
+    "植物名": "ジギタリス プルプレア 'モンストローサ ホワイト'",
+    "学名": "Digitalis purpurea 'Monstrosa White'",
+    "値": {
+     "花色（自社の値）": "白",
+     "花色（分類）": "赤、青・紫",
+     "花色（詳細）": "purpurrot（Blüten-Farbgruppe rot, purpur）（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1704,
+    "植物名": "セスレリア オータムナリス ssp.アルジェンティア",
+    "学名": "Sesleria argentea",
+    "値": {
+     "花色（自社の値）": "銀色がかった白",
+     "花色（分類）": "その他",
+     "花色（詳細）": "graugrün（Farbgruppe grün）（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1761,
+    "植物名": "ペニセタム マクロウルム",
+    "学名": "Pennisetum macrourum",
+    "値": {
+     "花色（自社の値）": "緑→黄緑→ベージュ",
+     "花色（分類）": "その他",
+     "花色（詳細）": "green or yellow green sometimes tinged with purple, yellow or brown（MBG・種）"
+    }
+   },
+   {
+    "商品番号": 1766,
+    "植物名": "ペルシカリア アンプレクシカウリス 'エレガンスピンク'",
+    "学名": "Persicaria amplexicaulis 'Elegance Pink'",
+    "値": {
+     "花色（自社の値）": "明るいピンク",
+     "花色（分類）": "赤",
+     "花色（詳細）": "rot（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1811,
+    "植物名": "ロジャージア ピンナータ 'スカーレット'（ロジャージア 赤花）",
+    "学名": "Rodgersia pinnata 'Scarlet'",
+    "値": {
+     "花色（自社の値）": "ピンク",
+     "花色（分類）": "白",
+     "花色（詳細）": "gelblichweiß（Farbgruppe weiß）（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1896,
+    "植物名": "ポルモニウム カエルレウム 'フィリグリークラウド'",
+    "学名": "Polemonium caeruleum 'Filigree Clouds'",
+    "値": {
+     "花色（自社の値）": "白",
+     "花色（分類）": "青・紫",
+     "花色（詳細）": "blau（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1915,
+    "植物名": "リスラム サリカリア 'ハピースノー'",
+    "学名": "Lythrum salicaria 'Happy Snow'",
+    "値": {
+     "花色（自社の値）": "白",
+     "花色（分類）": "ピンク、青・紫",
+     "花色（詳細）": "purpurrosa（Farbgruppe rosa, purpur）（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 1993,
+    "植物名": "ヘメロカリス 'ナイトビーコン'",
+    "学名": "Hemerocallis 'Night Beacon'",
+    "値": {
+     "花色（自社の値）": "深い赤ﾜｲﾝ色（花喉：黄緑）",
+     "花色（分類）": "青・紫",
+     "花色（詳細）": "purpur（stauden.de・cultivar）"
+    }
+   },
+   {
+    "商品番号": 223,
+    "植物名": "フロックス ディバリカータ 'ホワイト'",
+    "学名": "Phlox divaricata 'White'",
+    "値": {
+     "花色（自社の値）": "白",
+     "花色（分類）": "青・紫",
+     "花色（詳細）": "hell-violett（stauden.de・cultivar）"
+    }
+   }
+  ]
  }
 ]

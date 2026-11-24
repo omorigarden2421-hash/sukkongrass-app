@@ -247,10 +247,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
@@ -354,7 +355,7 @@
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした\n[おぎはら楽天/品種] 日照 寒冷地: 日向(適湿)〜半日陰／暖地: やや半日陰〜半日陰（西日 × 相当）\n[MBG/種] Leaf scorch will occur if soils are allowed to dry out.\n[MBG/種] Prefers cool summer climates, and does not perform well in the hot and humid summers of the deep South.\n[MBG/種] Leaf scorch may occur if soil moisture levels are not maintained.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
   "spread_evidence": "[地下茎 2／stauden.de・品種] rhizombildend; Ausbreitung durch ... Rhizome ... eingrenzen（読み直し）\n[地下茎 2／Gaißmayer・品種] Bildet auf lehmigem, feuchtem, nährstoffreichem Boden mit der Zeit große Bestände.",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[MBG・種] Large, rounded, medium green, toothed and lobed leaves (to 18\" across) emerge after bloom to form a foliage mound which remains attractive throughout the growing season as long as consistent moisture ",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、RHS、Walters、stauden.de、おぎはら"

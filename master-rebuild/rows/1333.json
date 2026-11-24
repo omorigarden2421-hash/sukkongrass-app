@@ -45,7 +45,7 @@
   },
   "flower_color_class": {
    "value": [
-    "白",
+    "赤",
     "オレンジ・アプリコット"
    ],
    "method": "記載",
@@ -238,10 +238,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（MBG・品種）",
@@ -351,7 +352,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[地下茎 2／MBG・品種] a rhizomatous, spreading, upright yarrow（読み直し）\n[こぼれ種 0／stauden.de・品種] nicht versamend（読み直し）\n[地下茎 2／MBG・品種] ‘Walther Funcke’ is a rhizomatous, spreading, upright yarrow cultivar that is noted for its brick-red flowers, gray-green foliage and compact size.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・cultivar] nicht versamend）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": null,
+  "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Gaißmayer",
   "sources_used": "Gaißmayer、MBG、NC State、RHS、stauden.de"
