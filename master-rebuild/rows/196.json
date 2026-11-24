@@ -143,7 +143,7 @@
     "s20"
    ],
    "level": "species",
-   "note": "おぎはら（種のページ）。信頼度：中"
+   "note": "おぎはら（種のページ）。信頼度：高"
   },
   "heat_note": {
    "value": null,
@@ -358,9 +358,9 @@
   "management_type_reason": "MBG・NC State（種）: 隣の芝生や庭にはびこる（aggressively）と明記。根づく茎で広がるので種の記述を品種に当てる。Walters・品種: 2年おきほどに花後に低く刈ると密になる",
   "management_type_quote": "Can spread aggressively into adjacent lawns or garden areas.",
   "management_type_by_matching": "E 隔離推奨型",
-  "heat_west_only": "中",
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[NC State/種] It tolerates high heat and nearly full shade but prefers full sun, partial shade, or dappled sunlight and moist soil with good drainage.\n[Walters/品種] Very shade tolerant, the leaves will sometimes scorch in too much sun.\n[食い違い] 欧米の文献（品種・種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
+  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[NC State/種] It tolerates high heat and nearly full shade but prefers full sun, partial shade, or dappled sunlight and moist soil with good drainage.\n[Walters/品種] Very shade tolerant, the leaves will sometimes scorch in too much sun.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 強（[NC State・種] It tolerates high heat）\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
   "spread_evidence": "[地下茎 3／NC State・種] Insects, Diseases, and Other Plant Problems: Vine stem canker (blight) can damage or kill large patches and periwinkle can spread aggressively into adjacent lawns, gardens and natural areas.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Can spread aggressively into adjacent lawns or garden areas.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",

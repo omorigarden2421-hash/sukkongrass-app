@@ -139,7 +139,7 @@
     "s20"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "おぎはら（品種のページ）。信頼度：高"
   },
   "heat_note": {
    "value": null,
@@ -159,6 +159,7 @@
    "sources": [
     "s20",
     "s02",
+    "s06",
     "s01"
    ],
    "level": "cultivar"
@@ -336,9 +337,9 @@
   "management_type_reason": "MBG・品種・NC State: 新枝咲きなので晩冬に地際近くまで切れる（毎年切ると茎が丈夫になる）。早春の剪定だけで花後の記述はない。毎年の地際剪定は「してもよい」の書き方で、株更新が必要との明記ではないので D にしない。機械は空欄",
   "management_type_quote": "Bloom occurs on new wood, so plants may be pruned back close to the ground in late winter to revitalize and to encourage vigorous stem growth and best form.",
   "management_type_by_matching": null,
-  "heat_west_only": "中",
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] The foliage tends to decline considerably in dry conditions.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] The foliage tends to decline considerably in dry conditions.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 強（[NC State・種] very cold-hardy species but will also grow in warmer climates）\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] It is a deciduous shrub with a rounded habit which typically grows 3-5' tall.",

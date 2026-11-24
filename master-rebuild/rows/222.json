@@ -130,10 +130,13 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "中",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -142,19 +145,20 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "強",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "west_sun": {
    "value": "×",
    "method": "判定",
    "sources": [
-    "s02"
+    "s10"
    ],
-   "level": "species",
-   "note": "日照（半日陰・日陰）から"
+   "level": "cultivar"
   },
   "drought": {
    "value": "中",
@@ -328,9 +332,9 @@
   "management_type_reason": "MBG・NC State（種）: 花後に茎を切り戻すとうどんこ病を抑えやすい。stauden.de・種: 咲き終わった花穂を切る。はびこるとの記述はない。種の文だけなので中。機械は空欄",
   "management_type_quote": "Cutting back stems after flowering helps combat mildew.",
   "management_type_by_matching": null,
-  "heat_west_only": null,
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": null,
+  "heat_west_only": "中",
+  "muggy_west_only": "強",
+  "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[Walters・品種] a good choice for regions with hot and humid summer / Will usually tolerate full sun ... in cool summer regions）\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 強（[Walters・品種] a good choice for regions with hot and humid summer）",
   "spread_evidence": "[地下茎 2／NC State・種] They can form large colonies over time as leafy shoots spread along the ground rooting at the nodes.",
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] This selection has fragrant, magenta-purple flowers with a darker eye over a low, spreading mound of bright green leaves.",

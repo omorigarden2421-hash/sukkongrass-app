@@ -117,7 +117,7 @@
    "level": null
   },
   "heat": {
-   "value": "中",
+   "value": "弱",
    "method": "判定",
    "sources": [
     "s06"
@@ -138,7 +138,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "○",
+   "value": "△",
    "method": "判定",
    "sources": [
     "s06"
@@ -304,9 +304,9 @@
   "management_type_reason": "stauden.de・種: 秋〜晩秋に茎を切る。NC State・種: 春に地際まで切って更新してもよい。種の文だけ。機械の空欄から A",
   "management_type_quote": "Rückschnitt der Stängel im Herbst bis Spätherbst",
   "management_type_by_matching": null,
-  "heat_west_only": "中",
+  "heat_west_only": "弱",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[NC State/種] Flowering may decline and foliage may wilt in the heat of the summer.",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[NC State/種] Flowering may decline and foliage may wilt in the heat of the summer.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 弱（[NC State・種] does best in cool moist conditions / Flowering may decline and foliage may wilt in the heat of the summer）",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Arching; Irregular; Rounded; Spreading",

@@ -150,7 +150,7 @@
     "s20"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "おぎはら（品種のページ）。信頼度：高"
   },
   "heat_note": {
    "value": null,
@@ -169,6 +169,8 @@
    "method": "判定",
    "sources": [
     "s20",
+    "s06",
+    "s10",
     "s01"
    ],
    "level": "cultivar"
@@ -350,9 +352,9 @@
   "management_type_reason": "NC State・Walters（品種）: 盛夏に切り戻す（必要なら半分に刈る）と株が若返る。夏に姿が乱れた株を刈って更新する記述と読んで C（人が決めた例のアキレジアに近い）。ただし「葉が傷む」とは明記されていないので中。RHS・stauden.de は花がら摘みと秋の切り戻し",
   "management_type_quote": "Clip back by half in midsummer to rejuvenate, if necessary.",
   "management_type_by_matching": "C 夏前切戻型",
-  "heat_west_only": null,
+  "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[NC State・品種] some shade, especially in warmer climates / [Walters・品種] partial shade, particularly in warm summer regions）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Clumping; Erect; Mounding",

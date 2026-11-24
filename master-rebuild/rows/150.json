@@ -146,7 +146,7 @@
     "s20"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "おぎはら（品種のページ）。信頼度：高"
   },
   "heat_note": {
    "value": null,
@@ -160,6 +160,7 @@
    "sources": [
     "s20",
     "s21",
+    "s10",
     "s01"
    ],
    "level": "cultivar"
@@ -170,6 +171,7 @@
    "sources": [
     "s20",
     "s21",
+    "s10",
     "s01"
    ],
    "level": "cultivar"
@@ -344,9 +346,9 @@
   "management_type_reason": "RHS: 花後に切り戻してコンパクトに保つ",
   "management_type_quote": "Cut back after flowering to maintain compactness",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿を嫌います（蒸れ 中 相当）\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿を嫌います（蒸れ 中 相当）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 強（[Walters・品種] A good choice for hot and sunny sites）\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming, Spreading branched",

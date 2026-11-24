@@ -135,13 +135,13 @@
    "level": null
   },
   "heat": {
-   "value": "強",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s20"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "おぎはら（品種のページ）＋楽天のページの注意（強 → 中）。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -150,7 +150,7 @@
    "level": null
   },
   "muggy": {
-   "value": "中",
+   "value": "弱",
    "method": "判定",
    "sources": [
     "s20",
@@ -346,9 +346,9 @@
   "management_type_reason": "RHS・MBG・Walters・stauden.de・おぎはら楽天（いずれも品種）: 花がらを摘み、花後に古い茎を切る。株分けは3年ごと・3〜4年ごとで D ではない。夏の傷みの記述はない",
   "management_type_quote": "Remove spent flowers to encourage additional bloom",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": "中",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[MBG/品種] Some afternoon shade is best hot summer climates.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
+  "heat_west_only": "弱",
+  "muggy_west_only": "弱",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[MBG/品種] Some afternoon shade is best hot summer climates.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 弱（[MBG・品種] struggle in climates with hot, humid summers / May be short-lived in ... hot summer climates）\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 弱（[MBG・品種] Plants tend to struggle in climates with hot, humid summers (particularly south of USDA Zone 7)）\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",

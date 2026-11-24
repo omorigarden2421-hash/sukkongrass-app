@@ -134,10 +134,14 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "中",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
    "value": "シカゴ植物園: 評価が低かった品種の一覧（Table 2）に入っている。茎や株元の腐れで冬に枯れた品種の一つ（no21）",
@@ -154,10 +158,13 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "○",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "drought": {
    "value": "強",
@@ -329,9 +336,9 @@
   "management_type_reason": "RHS・品種: 咲き終わった花穂を取る。stauden.de・種: 咲き終わった茎を株元の葉まで切る、秋は切らない。株分けは3〜4年ごとで D ではない",
   "management_type_quote": "Remove faded flower spikes",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or West-facing",
+  "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] prefers some shade (particularly in the heat of the afternoon) in climates with hot, humid summers）\n[RHS/品種] Aspect: East-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",

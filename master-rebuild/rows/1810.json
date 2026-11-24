@@ -137,7 +137,7 @@
    "level": null
   },
   "muggy": {
-   "value": "中",
+   "value": "強",
    "method": "判定",
    "sources": [
     "s02",
@@ -311,8 +311,8 @@
   "management_type_quote": "Remove spent flowers to encourage rebloom.",
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "強",
-  "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[MBG/品種] Good air circulation promotes vigorous and healthy growth and helps control foliar diseases.\n[MBG/品種] 'Sir Thomas Lipton' has excellent disease resistance and is a particularly good selection for humid climates.\n[NC State/属] Roses are heat and frost-tolerant.",
+  "muggy_west_only": "強",
+  "heat_muggy_west_evidence": "[MBG/品種] Good air circulation promotes vigorous and healthy growth and helps control foliar diseases.\n[MBG/品種] 'Sir Thomas Lipton' has excellent disease resistance and is a particularly good selection for humid climates.\n[NC State/属] Roses are heat and frost-tolerant.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 強（[MBG・品種] excellent disease resistance and is a particularly good selection for humid climates）",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Rosa is a genus of about 150 species of deciduous (occasionally evergreen) shrubs and climbers noted for their beautiful, often fragrant, single, semidouble or double flower",

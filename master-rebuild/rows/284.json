@@ -150,13 +150,10 @@
    "level": null
   },
   "muggy": {
-   "value": "中",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s02",
-    "s01"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "west_sun": {
    "value": null,
@@ -344,8 +341,8 @@
   "management_type_quote": "This cultivar can be cut or pinched back in early summer to encourage a bushier, compact form and later flowers",
   "management_type_by_matching": "C 夏前切戻型",
   "heat_west_only": null,
-  "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[MBG/種] Good air circulation helps reduce incidence of foliar diseases.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[MBG/種] Good air circulation helps reduce incidence of foliar diseases.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 空欄（記述なし）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／MBG・種] Easily grown from seed and may self-seed in the garden in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",

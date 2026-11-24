@@ -118,10 +118,13 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "弱",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "species",
+   "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -136,10 +139,12 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "△",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "drought": {
    "value": "中",
@@ -308,9 +313,9 @@
   "management_type_reason": "人が決めた例でこの品種は A（剪定不要）なのでそれに合わせた。ただし渡された文には剪定不要の記述がなく、あるのは MBG・種の花がら摘み（返り咲き）と stauden.de・種の咲き終わった茎の切り戻しだけ。文だけで順番どおりに読めば機械と同じ B。要確認",
   "management_type_quote": "Deadhead spend flower stems to encourage additional bloom.",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "弱",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": null,
+  "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 弱（[NC State・種] prefer cooler coastal environments）",
   "spread_evidence": "[地下茎 1／MBG・種] Tufts will spread slowly to 8-12\" wide.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Rounded; Spreading",

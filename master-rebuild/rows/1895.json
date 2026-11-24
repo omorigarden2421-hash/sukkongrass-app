@@ -131,13 +131,13 @@
    "level": null
   },
   "heat": {
-   "value": "強",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s20"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "おぎはら（品種のページ）＋楽天のページの注意（強 → 中）。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -151,6 +151,7 @@
    "sources": [
     "s20",
     "s21",
+    "s06",
     "s01"
    ],
    "level": "cultivar"
@@ -161,6 +162,7 @@
    "sources": [
     "s20",
     "s21",
+    "s06",
     "s01"
    ],
    "level": "cultivar"
@@ -340,9 +342,9 @@
   "management_type_reason": "RHS・品種: 花後に切り戻すと次の花。stauden.de・品種、おぎはら楽天: 花後に花茎を切る",
   "management_type_quote": "Cut back after flowering",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "弱",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 強 い 少し湿った場所を好みますが高温多湿は嫌い ますので夏は風通し良く（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした\n[おぎはら楽天/品種] 耐湿性: 強 い 少し湿った場所を好みますが高温多湿は嫌い ますので夏は風通し良く（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 弱（[NC State・種] will not do well in the summer heat of the south）\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",

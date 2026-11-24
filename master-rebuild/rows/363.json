@@ -148,10 +148,13 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "中",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "west_sun": {
    "value": "△",
@@ -334,8 +337,8 @@
   "management_type_quote": "Cut back to ground level in mid-summer",
   "management_type_by_matching": null,
   "heat_west_only": "弱",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[NC State/種] The subspecies epithet 'bulbosum' means 'bulbous', describing the swollen corms at the base of the plant It grows up to 4 feet tall and prefers cool nights and dry summers, becoming diseased or going dormant in heat but will produce new foliage in fall.\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
+  "muggy_west_only": "中",
+  "heat_muggy_west_evidence": "[NC State/種] The subspecies epithet 'bulbosum' means 'bulbous', describing the swollen corms at the base of the plant It grows up to 4 feet tall and prefers cool nights and dry summers, becoming diseased or going dormant in heat but will produce new foliage in fall.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[NC State・種] prefers cool nights and dry summers, becoming diseased ... in heat）\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Tufted／イネ科・カヤツリグサ科",

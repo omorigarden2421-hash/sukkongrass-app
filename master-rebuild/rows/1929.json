@@ -127,10 +127,13 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "弱",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -318,9 +321,9 @@
   "management_type_reason": "RHS: 咲き終わった花穂と傷んだ葉を取り除いて整える。ほかの文献の記述はない",
   "management_type_quote": "Remove faded flower spikes and leaves to keep plants tidy",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "弱",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら 空欄）\n[RHS/品種] Aspect: North-facing or East-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 弱（[RHS・品種] dislikes extremes of heat（そろえ：暑さを嫌う＝弱））\n[RHS/品種] Aspect: North-facing or East-facing or South-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",

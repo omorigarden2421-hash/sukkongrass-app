@@ -142,13 +142,13 @@
    "level": null
   },
   "heat": {
-   "value": "強",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s20"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "おぎはら（品種のページ）＋楽天のページの注意（強 → 中）。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -157,12 +157,13 @@
    "level": null
   },
   "muggy": {
-   "value": "中",
+   "value": "弱",
    "method": "判定",
    "sources": [
     "s20",
     "s21",
     "s02",
+    "s06",
     "s01"
    ],
    "level": "cultivar"
@@ -174,6 +175,7 @@
     "s20",
     "s21",
     "s02",
+    "s06",
     "s01"
    ],
    "level": "cultivar"
@@ -362,9 +364,9 @@
   "management_type_reason": "おぎはら楽天: 夏に短く切ると夏越ししやすい（暑さ対策の夏の刈り込みと読んで C）。この1文だけが根拠で、RHS・MBG・stauden.de は花後の茎切りだけなので、これを採らなければ B。Gaißmayer は「かなりよくこぼれ種で殖える」とするが、侵略的・はびこるとの明記ではないので E にしない",
   "management_type_quote": "夏に短くカットすると夏越しが行い易い",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": "中",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[MBG/種] Needs afternoon shade in hot, humid climates.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "heat_west_only": "弱",
+  "muggy_west_only": "弱",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[MBG/種] Needs afternoon shade in hot, humid climates.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 弱（[MBG・種] struggle with both summer heat and humidity south of Zone 7 where it is not recommended / short-lived in hot summer climates）\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 弱（[MBG・種] struggle with ... heat and humidity south of Zone 7 ... not recommended / [NC State・属] struggle with the heat and humidity of southern summers）\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[こぼれ種の食い違い] Gaißmayer は 3 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・属] Habit/Form: Mounding; Rounded",

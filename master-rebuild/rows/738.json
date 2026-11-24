@@ -157,7 +157,7 @@
    "level": null
   },
   "muggy": {
-   "value": "中",
+   "value": "強",
    "method": "判定",
    "sources": [
     "s20",
@@ -367,8 +367,8 @@
   "management_type_quote": "Deadhead spent flowers to encourage additional bloom.",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": "強",
-  "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Tolerates hot and humid summers and some drought.\n[MBG/品種] Appreciates good air circulation.\n[NC State/種] However, it is an easy going plant and tolerates hot and humid summers, some drought, clay soil, poor soils and is deer resistant.\n[NC State/種] It does like good air circulation and, to encourage additional blooming, you should deadhead spent flowers.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "muggy_west_only": "強",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Tolerates hot and humid summers and some drought.\n[MBG/品種] Appreciates good air circulation.\n[NC State/種] However, it is an easy going plant and tolerates hot and humid summers, some drought, clay soil, poor soils and is deer resistant.\n[NC State/種] It does like good air circulation and, to encourage additional blooming, you should deadhead spent flowers.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 強（[MBG・品種] Tolerates hot and humid summers / [NC State・種] tolerates hot and humid summers）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[地下茎 2／MBG・品種] Noteworthy Characteristics Rudbeckia subtomentosa , commonly called sweet coneflower, is a Missouri native, nonrhizomatous perennial which occurs on moist prairies, along streambanks and in low areas throughout the state\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] This forms a bushy mound, bearing tall branching stems that hold brown-eyed daisies with unusual narrow or quilled yellow petals, appearing in midsummer.",

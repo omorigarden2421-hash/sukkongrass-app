@@ -148,14 +148,10 @@
    "level": null
   },
   "muggy": {
-   "value": "中",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s20",
-    "s06",
-    "s01"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "west_sun": {
    "value": "○",
@@ -333,8 +329,8 @@
   "management_type_quote": "pruning group 11 immediately after flowering each year if required",
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": null,
-  "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/種] Tellmann’s honeysuckle is intolerant of alkaline soils and needs to be planted where there is good air circulation to help prevent downy mildew.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/種] Tellmann’s honeysuckle is intolerant of alkaline soils and needs to be planted where there is good air circulation to help prevent downy mildew.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 空欄（記述なし）\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Climbing",

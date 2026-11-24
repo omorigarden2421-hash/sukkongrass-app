@@ -152,10 +152,14 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "強",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s10",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "west_sun": {
    "value": "◎",
@@ -348,8 +352,8 @@
   "management_type_quote": "Deadhead spent flower heads to lateral buds to promote additional bloom.",
   "management_type_by_matching": "C 夏前切戻型",
   "heat_west_only": "強",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[MBG/品種] Plants tolerate hot, humid summers and drought.\n[Walters/品種] Heat tolerant.\n[RHS/品種] Aspect: West-facing or East-facing or South-facing",
+  "muggy_west_only": "強",
+  "heat_muggy_west_evidence": "[MBG/品種] Plants tolerate hot, humid summers and drought.\n[Walters/品種] Heat tolerant.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 強（[MBG・品種] Plants tolerate hot, humid summers）\n[RHS/品種] Aspect: West-facing or East-facing or South-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] This selection features clusters of soft-pink flowers, held over a bushy clump of dark-green, sawtooth foliage.",

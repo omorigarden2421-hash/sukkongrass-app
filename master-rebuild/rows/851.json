@@ -128,10 +128,14 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "強",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：低"
   },
   "heat_note": {
    "value": null,
@@ -149,6 +153,7 @@
    "value": "△",
    "method": "判定",
    "sources": [
+    "s06",
     "s01"
    ],
    "level": "cultivar"
@@ -324,9 +329,9 @@
   "management_type_reason": "RHS・品種: 花後に切り戻すか種穂を冬まで残す。stauden.de: 秋は切らない。夏前の切り詰めの記述はない",
   "management_type_quote": "Cut back after flowering or leave seedheads over winter",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or South-facing（西向きが入っていない）",
+  "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 強（[NC State・属] Stonecrops are known for their heat and drought tolerance）\n[RHS/品種] Aspect: East-facing or South-facing（西向きが入っていない）",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",

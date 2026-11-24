@@ -31,6 +31,9 @@ from extra_cols import extra as extra_columns, prune_extra, prune_all, six as si
 
 IN, DIGEST, RAW, OUT = sys.argv[1:5]
 D = json.load(open(DIGEST, encoding="utf-8"))
+# 2026-11-24 耐暑性・蒸れ耐性の総当たりの読み直し（商品番号 → 欧米耐暑・欧米蒸れ・決め手）
+_RR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "heat_reread.json")
+REREAD = json.load(open(_RR, encoding="utf-8")) if os.path.exists(_RR) else {}
 ITEMS = [json.load(open(f, encoding="utf-8")) for f in sorted(glob.glob(IN + "/*.json"))]
 OGI = {i: rec for rec in OG.OGIHARA for i in rec[0]}
 JEL = {i: rec for rec in JC.JELITTO for i in rec[0]}
@@ -58,7 +61,8 @@ def shop_heat(sh):
 def shop_muggy(sh):
     """耐湿性の説明に「高温多湿を嫌う」があれば、耐湿性が やや弱い・弱い なら 弱、それ以外は 中。
     耐暑性の補足が「暖地では夏に風とおし、水はけよく」だけなら 中。どちらもなければ None（書いていないことから 強 とはしない）"""
-    if re.search("高温多湿|蒸れ", _nz(sh.get("wet"))):
+    # 2026-11-24 読み直し: 「高温時には多湿に注意」「湿気の多い環境を嫌います」も同じ意味（空気の湿気）として拾う
+    if re.search("高温多湿|蒸れ|高温時[^。]*多湿|湿気の多い", _nz(sh.get("wet"))):
         return ("弱" if _lvl(sh.get("wet")) in ("やや弱い", "弱い") else "中"), "耐湿性: " + sh["wet"]
     if "風とおし" in _nz(sh.get("heat")):
         return "中", "耐暑性: " + sh["heat"]
@@ -599,6 +603,16 @@ def main():
         if w:
             texts += [("Walters", "品種", x) for x in sentences(w["text"])]
         heat, muggy, aft, why, hlv = judge(texts)
+        # 2026-11-24 総当たりの読み直し（ユーザー「総当たりで調べなおす」）: 欧米の文献だけでの耐暑性・蒸れ耐性は、全916品種の文を読み直した値
+        # （heat_reread.json。scripts/tools/heat_reread_note.md）を使う。言い回しの照合（judge）の値と違えば根拠に残す。おぎはら以降の決め方は今までどおり
+        rr = REREAD.get(str(it["商品番号"]))
+        if rr:
+            for lab_, old_, new_, q_ in (("耐暑性", heat, rr["欧米耐暑"], rr.get("欧米耐暑の決め手")), ("蒸れ耐性", muggy, rr["欧米蒸れ"], rr.get("欧米蒸れの決め手"))):
+                if old_ != new_:
+                    why.append(f"[読み直し 2026-11-24] 欧米の文献だけの{lab_}：言い回しの照合では {old_ or '空欄'}、文を読み直して {new_ or '空欄'}（{q_ or '記述なし'}）")
+            heat, muggy = rr["欧米耐暑"], rr["欧米蒸れ"]
+            if heat and not hlv:
+                hlv = {re.sub(r"^\[[^・\]]*・([^\]]*)\].*$", r"\1", rr.get("欧米耐暑の決め手") or "") or "種"}
         r["耐暑性（欧米の文献だけなら）"] = heat
         r["耐暑性の決め方"] = "欧米の文献" if heat else None
         sib = getattr(OG, "SIBLING", {}).get(it["species"])
@@ -708,16 +722,20 @@ def main():
                 if muggy == "強":
                     extra.append("[食い違い] 蒸れ: 欧米の文献は 強 相当。控えめな側を採った")
                 muggy = _low(muggy, mo, R3)
-            if wo:
-                extra.append(f"[おぎはら楽天/{lab}] 日照 寒冷地: {sh['sun_cool']}／暖地: {sh['sun_warm']}（西日 {wo} 相当）")
-                west = _low(west, wo, RW)
-                west_by_sun = {k_: _low(v_, wo, RW) for k_, v_ in west_by_sun.items()}
             if do and not drought:
                 drought = do
                 r["乾燥耐性の出どころ"] = f"おぎはら楽天・{lab}（耐乾性: {sh['dry']}）"
                 prov["乾燥耐性"] = f"おぎはら楽天・{lab}"
             elif do and do != drought:
                 r["乾燥耐性の出どころ"] = f"[食い違い] おぎはら楽天・{lab}は 耐乾性: {sh['dry']}（{do} 相当）。欧米の文献の値のまま"
+            # 2026-11-24（矛盾の洗い出し）: 楽天のページで耐暑性・乾燥耐性が変わったあとの値で、西日耐性を決め直す
+            # （前は変わる前の値で決めていたので、耐暑性 中 なのに西日 ◎ の品種があった。アルメリア 'Rubrifolia'）
+            west = west_for(sun, heat_=heat, drought_=drought)
+            west_by_sun = {x: west_for(x, heat_=heat, drought_=drought) for x in ("日向", "日向〜半日陰", "半日陰")}
+            if wo:
+                extra.append(f"[おぎはら楽天/{lab}] 日照 寒冷地: {sh['sun_cool']}／暖地: {sh['sun_warm']}（西日 {wo} 相当）")
+                west = _low(west, wo, RW)
+                west_by_sun = {k_: _low(v_, wo, RW) for k_, v_ in west_by_sun.items()}
             at = 1 if why and why[0].startswith("[おぎはら") else 0
             why[at:at] = extra
             r["耐暑性"], r["蒸れ耐性"], r["西日耐性"], r["乾燥耐性"] = heat, muggy, west, drought
@@ -735,6 +753,17 @@ def main():
         else:
             r["耐暑性の信頼度"] = "中"
         r["暑さ・蒸れ・西日の根拠"] = "\n".join(why[:9]) or None
+        # 2026-11-24 総当たりの読み直し用: 環境変数 DUMP_HEAT（フォルダ）があれば、暑さ・蒸れに関わりそうな文を文献ごとに全部書き出す（値は変えない）
+        if os.environ.get("DUMP_HEAT"):
+            HEATW = r"heat|hot|humid|summer|cool|warm|melt|rot\b|rots|swelter|afternoon|scorch|wilt|south|climate|zone|tropic|muggy|sultry|wet|drain"
+            rtx = [("RHS", "品種", x) for key in ("Cultivation", "Pruning", "Propagation") for x in sentences(rh["f"].get(key, ""))] if rh else []
+            dump = {"商品番号": it["商品番号"], "植物名": it.get("植物名"), "学名": it.get("学名"), "ID": k, "品種名あり": "'" in (it["学名"] or ""),
+                    "文": [f"[{a}・{lv}] {x}" for a, lv, x in texts + rtx if re.search(HEATW, x.lower())],
+                    "おぎはら図鑑": ({"耐暑性": og[4], "段階": "品種" if og[3] == "cultivar" else "種"} if og else None),
+                    "おぎはら同じ種の別品種": sib, "おぎはら楽天": ({k_: v_ for k_, v_ in sh.items() if k_ not in ("html",)} if sh else None),
+                    "今の値": {c: r.get(c) for c in ("耐暑性", "蒸れ耐性", "耐暑性（欧米の文献だけなら）", "蒸れ耐性（欧米の文献だけなら）", "耐暑性の決め方")}}
+            with open(os.path.join(os.environ["DUMP_HEAT"], "heat_dump.jsonl"), "a", encoding="utf-8") as fh:
+                fh.write(json.dumps(dump, ensure_ascii=False, default=str) + "\n")
         # --- 常緑性・増え方（stauden.de）
         if s:
             f = s["f"]

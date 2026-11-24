@@ -152,10 +152,14 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "中",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s20",
+    "s02",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "west_sun": {
    "value": "○",
@@ -348,8 +352,8 @@
   "management_type_quote": "Rejuvenate in July with a cut back if necessary and cut to the base in autumn.",
   "management_type_by_matching": "C 夏前切戻型",
   "heat_west_only": "弱",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[MBG/種] Plants generally do not perform well in the deep South below USDA Zone 7.\n[MBG/種] Foliage may decline in hot and humid summer climates such as the St.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
+  "muggy_west_only": "中",
+  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[MBG/種] Plants generally do not perform well in the deep South below USDA Zone 7.\n[MBG/種] Foliage may decline in hot and humid summer climates such as the St.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] Foliage may decline in hot and humid summer climates such as the St. Louis）\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
   "spread_evidence": "[こぼれ種 1／MBG・種] May spread in the garden by rhizomes and/or self-seeding to form an interesting ground cover.\n[地下茎 2／MBG・種] May spread in the garden by rhizomes and/or self-seeding to form an interesting ground cover.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
   "mixing_evidence": null,
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig",

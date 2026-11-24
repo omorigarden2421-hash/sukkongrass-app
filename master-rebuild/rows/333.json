@@ -139,7 +139,7 @@
     "s20"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "おぎはら（品種のページ）。信頼度：高"
   },
   "heat_note": {
    "value": null,
@@ -158,6 +158,7 @@
    "method": "判定",
    "sources": [
     "s20",
+    "s02",
     "s01"
    ],
    "level": "cultivar"
@@ -344,9 +345,9 @@
   "management_type_reason": "RHS・品種: 春に枯れ葉と古い花茎を取り除くだけ（花後の切り戻しではない）なので、機械の B から A に変更。NC State・品種は赤葉種は侵略的でないと明記、MBG の「はびこる」は種についての暖地の話なので E にしない。緑葉に先祖返りすると非常に強いとの記述はある",
   "management_type_quote": "Remove dead foliage and old flowered stems in spring",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 強（[MBG・種] spreads invasively in warm winter locations, particularly evident in the southeastern U.S.）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／MBG・種] In warm winter areas, it naturalizes aggressively by both rhizomes and self-seeding to form dense monocultures which displace native species.\n[地下茎 0／NC State・品種] While the red form is not invasive, it can revert to the 4-5-foot-tall green form, which is extremely aggressive.\n[地下茎の食い違い] Gaißmayer は 1 相当、MBG は 1 相当、MBG は 3 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）\n[MBG・種] In warm winter areas, it naturalizes aggressively by both rhizomes and self-seeding to form dense monocultures which displace native species.",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Clumping; Erect",

@@ -165,6 +165,7 @@
     "s20",
     "s21",
     "s06",
+    "s10",
     "s01"
    ],
    "level": "cultivar"
@@ -176,6 +177,7 @@
     "s20",
     "s21",
     "s06",
+    "s10",
     "s01"
    ],
    "level": "cultivar"
@@ -370,8 +372,8 @@
   "management_type_quote": "花後に3分に1ほどに短くカットし姿を整える",
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "強",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが 高温多湿は嫌います（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[NC State/種] It is also tolerant of clay soil, heat, deer and rabbits.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
+  "muggy_west_only": "強",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが 高温多湿は嫌います（蒸れ 中 相当）\n[食い違い] 蒸れ: 欧米の文献は 強 相当。控えめな側を採った\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[NC State/種] It is also tolerant of clay soil, heat, deer and rabbits.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 強（[Walters・品種] stand up well to ... hot, humid weather）\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／NC State・種] It may also self-seed if conditions are right.",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",

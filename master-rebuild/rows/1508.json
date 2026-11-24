@@ -152,10 +152,14 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "強",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s20",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "west_sun": {
    "value": "△",
@@ -347,8 +351,8 @@
   "management_type_quote": "It can be severely pruned in late winter or spring as it blooms on the current season's new growth, not on the woody stems formed during the previous year.",
   "management_type_by_matching": null,
   "heat_west_only": "中",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/品種] This hydrangea is more tolerant of full sun than other hydrangea species but prefers morning sun and afternoon shade.\n[NC State/品種] This shrub is winter hardy, tolerates, heat, humidity, salt, and thrives in urban conditions.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
+  "muggy_west_only": "強",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/品種] This hydrangea is more tolerant of full sun than other hydrangea species but prefers morning sun and afternoon shade.\n[NC State/品種] This shrub is winter hardy, tolerates, heat, humidity, salt, and thrives in urban conditions.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 強（[NC State・品種] tolerates, heat, humidity）\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 0／NC State・品種] White changing to purplish pink, almost all are sterile, yellowish white, showy, each with 4-5 normally toothed sepals, strong scent.",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・品種] Habit/Form: Arching; Erect",

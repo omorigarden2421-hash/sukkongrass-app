@@ -137,10 +137,14 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "中",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s02"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -158,7 +162,8 @@
    "value": "△",
    "method": "判定",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -344,9 +349,9 @@
   "management_type_reason": "RHS・品種: 花後に切り戻す。stauden.de・品種: 咲き終わった花を一つずつ切る、秋に茎を切る。株分けは2〜4年ごとで D ではない。こぼれ種は「する」程度で侵略的の明記なし",
   "management_type_quote": "Cut back after flowering",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing（西向きが入っていない）",
+  "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[RHS・品種] Sunflowers generally need a long hot summer to flower well; [MBG・品種] Plant foliage often depreciates as the summer progresses）\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
   "spread_evidence": "[こぼれ種 1／MBG・品種] Plants will self-sow in the garden.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] This forms an upright mound of pointy dark-green leaves.",

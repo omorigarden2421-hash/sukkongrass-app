@@ -137,7 +137,7 @@
    "level": null
   },
   "heat": {
-   "value": "中",
+   "value": "弱",
    "method": "判定",
    "sources": [
     "s06",
@@ -347,9 +347,9 @@
   "management_type_reason": "RHS・品種: 剪定不要（敷石からはみ出た分は刈ってよい）。こぼれ種は出ても簡単に取れる程度",
   "management_type_quote": "No pruning required, but may be trimmed back from paving to keep edges neat",
   "management_type_by_matching": "A 放任型",
-  "heat_west_only": "中",
+  "heat_west_only": "弱",
   "muggy_west_only": "弱",
-  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら ○）\n[NC State/品種] This plant does best in full sun in cooler climates and partial shade in the southeast in average, moist, well-drained soils.\n[Walters/品種] In hot, humid summer regions this sometimes melts out and becomes unattractive in mid summer, usually reviving in the fall.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[NC State/品種] This plant does best in full sun in cooler climates and partial shade in the southeast in average, moist, well-drained soils.\n[Walters/品種] In hot, humid summer regions this sometimes melts out and becomes unattractive in mid summer, usually reviving in the fall.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 弱（[RHS・品種] Dislikes intense heat / [NC State・品種] full sun in cooler climates and partial shade in the southeast）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": "[こぼれ種 1／NC State・品種] Self-seeding can occur, however, unwanted growth is easily removed.\n[地下茎 2／stauden.de・品種] kriechend, teils wurzelnd\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",

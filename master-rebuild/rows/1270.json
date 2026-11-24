@@ -150,16 +150,21 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "弱",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s20",
+    "s10",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "west_sun": {
    "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
+    "s10",
     "s01"
    ],
    "level": "cultivar"
@@ -345,8 +350,8 @@
   "management_type_quote": "Unless seed is needed, deadhead after flowering to maintain vigour",
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": null,
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "muggy_west_only": "弱",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 弱（[Walters・品種] grows well in most regions except for the humid South）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] It forms a low, bushy mound with green leaves that resemble pine needles.",

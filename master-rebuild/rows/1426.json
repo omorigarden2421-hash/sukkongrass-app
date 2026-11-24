@@ -124,10 +124,13 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "中",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -142,10 +145,12 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "○",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "drought": {
    "value": "強",
@@ -334,9 +339,9 @@
   "management_type_reason": "RHS・品種: 咲き終わった花穂と傷んだ葉を取り除いて整える。MBG・NC State・stauden.de（種）も咲き終わった花茎を切るとする",
   "management_type_quote": "Remove faded flower spikes and leaves to keep plants tidy",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[RHS/品種] Aspect: North-facing or East-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[RHS・品種] may struggle in hot conditions）\n[RHS/品種] Aspect: North-facing or East-facing or South-facing or West-facing",
   "spread_evidence": "[地下茎 1／NC State・種] However, it can be slow to spread.\n[地下茎の食い違い] stauden.de は 2 相当",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",

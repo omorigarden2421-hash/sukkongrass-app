@@ -781,6 +781,20 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
 - まとめの表 `ClaudeWork/新マスター_下書き_916品種_1124d.xlsx`（最新）。rows も作り直した
 - 次：項目ごとの総当たりの読み直し（ユーザーの希望。抜き取りではなく全部）
 
+## 2026-11-24：耐暑性・蒸れ耐性の総当たりの読み直し（全916品種）
+- ユーザー：「おすすめの順番で進めて」（総当たりの読み直し。最初は耐暑性・蒸れ耐性）
+- やり方：
+  1. assemble_pilot.py に、環境変数 DUMP_HEAT（フォルダ）があれば、暑さ・蒸れ・湿り・日差しに関わりそうな文（MBG・NC State・Walters・RHS の Cultivation など。heat・hot・humid・summer・cool・melt・rot・afternoon・scorch・wilt・south・wet・drain などの語を含む文を全部）と、おぎはら（図鑑・同じ種の別品種・楽天の欄）・今の値を、品種ごとに heat_dump.jsonl に書き出す仕組みを入れた（値は変えない）。916品種・7,370文
+  2. 決め方（trial/RULES.md の heat・muggy、DECISIONS.md の 2026-11-19・11-21 の決定）を1枚にまとめ、115品種ずつ8つに分けて、1品種ずつ文を意味で読んで判定した（サブエージェント。キーワードの一致では決めない）。結果は品種ごとに、欧米の文献だけの耐暑性・蒸れ耐性と決め手の原文、最終の値、確かさ（高 426・中 409・低 81）、メモ
+  3. 同じ言い回しの読み方を全品種でそろえた：「somewhat intolerant of the heat and humidity of the deep South …afternoon shade」（ネペタ）→ 弱・弱（割れたら控えめな側）。RHS「dislikes extremes of heat」「Dislikes intense heat」→ 耐暑性 弱（「暑さを嫌う」）。アジュガ「Crown rot … humid conditions of the deep South … good air circulation」→ 蒸れ 中。Walters「Stonecrop … particularly for hot, dry sites」→ 耐暑性 強
+  4. 結果を `heat_reread.json`（商品番号 → 欧米耐暑・欧米蒸れ・決め手・確かさ・メモ）に置き、assemble_pilot.py が言い回しの照合（judge）の代わりに使う。照合と違えば根拠に「[読み直し 2026-11-24] 欧米の文献だけの…：言い回しの照合では …、文を読み直して …（原文）」。おぎはら優先などの最終の決め方は今までどおり
+- 読み直しで多かった直し：「prefers climates with mild summers compared to very hot and humid」（フロックス）を拾っていなかった → 中。「does best in cool moist conditions」（フクシア）・「prefer cooler coastal environments」（アルメリア）→ 弱。土の湿り（排水の悪い粘土のアスター萎凋病、冬の湿り、根腐れ）だけで 蒸れ 中 にしていたもの → 空欄（アスター・モナルダ・パキサンドラ など）。Walters「stand up well to hot, humid weather」・NC State「bears up under hot, humid summers」→ 蒸れ 強。MBG「flop in hot, humid climates」→ 蒸れ 中（強 と割れたら 中）。ゲウム属の「struggle … heat and humidity of the deep South … short-lived in hot summer climates」→ 耐暑・蒸れとも 弱
+- 楽天の耐湿性の説明で「高温時には多湿に注意」「湿気の多い環境を嫌います」も「高温多湿を嫌う」と同じ意味として拾うようにした（shop_muggy。前は「高温多湿」「蒸れ」の語だけ）
+- 西日耐性の決め方の順番の誤りを直した（前から）：楽天のページで耐暑性が 強 → 中 に下がる・乾燥耐性が入る前の値で西日耐性を決めていた（アルメリア 'Rubrifolia' が耐暑性 中 なのに西日 ◎）。楽天の直しのあとの値で決め直す
+- 変わった数（まとめの表 1124d → 1124e）：耐暑性 41、蒸れ耐性 54、欧米の文献だけの耐暑性 80・蒸れ耐性 66、西日耐性 27（耐暑性につられたものと、順番の直し）、耐暑性の信頼度 38、リスクタグ 17（蒸れ 弱 の 管理難）、管理難易度 4。矛盾の洗い出しで新しい当たりはない
+- 下書きは末尾 1124e、まとめの表 `ClaudeWork/新マスター_下書き_916品種_1124e.xlsx`（最新）。rows も作り直した
+- 作業のファイル（一時フォルダ。消えることがある）：heat_dump.jsonl、batch_1〜8.jsonl、res_1〜8.jsonl、決め方の heat_rules.md
+
 ## 次にやること（全部の属の下書きが終わった）
 - 【2026-11-21 の終わりの時点】6列・暑さの確認ページ・管理タイプの見直し（在庫あり）まで済み。待っているのは、(1) 確認ページ「暑さに弱い品種の確認」の回答 (2) 「剪定不要＋花後の花茎切り」を A にするか B にするか。（夜に、回答を表に入れる仕組み〔scripts/tools/apply_answers.py〕と、在庫のない282品種の管理タイプの見直しも済んだ。上の2つの節）。残っているのは、未決（DECISIONS.md）、試作と同じ形（rows・根拠の JSON）への統合
 - batch_18 までで、全916品種の下書きができた（試行78＋アスター23＋55＋52＋47＋50＋49＋34＋54＋51＋50＋53＋51＋51＋51＋51＋50＋47＋19＝916）。2026-11-20 に、batch_*/input と pilot/input の商品番号（916件・重複なし）を元のマスターの商品番号（916件）と照らし、もれ・重複がないことを確かめた

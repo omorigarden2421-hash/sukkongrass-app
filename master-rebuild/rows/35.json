@@ -136,13 +136,13 @@
    "level": null
   },
   "heat": {
-   "value": "強",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s20"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "おぎはら（品種のページ）＋楽天のページの注意（強 → 中）。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -156,16 +156,18 @@
    "sources": [
     "s20",
     "s21",
+    "s06",
     "s01"
    ],
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "◎",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s20",
     "s21",
+    "s06",
     "s01"
    ],
    "level": "cultivar"
@@ -351,9 +353,9 @@
   "management_type_reason": "RHS・品種: 剪定不要。stauden.de: 適地ではほぼ手入れ不要。ただし MBG・Walters・stauden.de・おぎはらは花後に花茎を切る（返り咲き）とする。人が決めた例のアルメリア 'Variegata'（剪定不要で A）に合わせた。順番どおりに読めば B",
   "management_type_quote": "No pruning required",
   "management_type_by_matching": "A 放任型",
-  "heat_west_only": null,
+  "heat_west_only": "弱",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 耐えますが高温多湿を嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: West-facing or East-facing or South-facing",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした\n[おぎはら楽天/品種] 耐湿性: やや弱い 耐えますが高温多湿を嫌います（蒸れ 弱 相当）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 弱（[NC State・種] prefer cooler coastal environments）\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or East-facing or South-facing",
   "spread_evidence": "[地下茎 1／MBG・品種] Tufts will spread slowly to 8-12\" wide.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Armeria maritima , commonly called thrift or sea pink, is a compact, low-growing plant which forms a dense, mounded tuft of stiff, linear, grass-like, dark green leaves (to ",

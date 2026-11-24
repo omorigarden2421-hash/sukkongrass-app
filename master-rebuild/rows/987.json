@@ -138,10 +138,11 @@
    "level": null
   },
   "heat": {
-   "value": "強",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s10",
+    "s02",
     "s01"
    ],
    "level": "cultivar",
@@ -156,10 +157,11 @@
    "level": null
   },
   "muggy": {
-   "value": "強",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s10",
+    "s02",
     "s01"
    ],
    "level": "cultivar"
@@ -169,6 +171,7 @@
    "method": "判定",
    "sources": [
     "s10",
+    "s02",
     "s01"
    ],
    "level": "cultivar"
@@ -362,9 +365,9 @@
   "management_type_reason": "RHS・MBG・Walters・品種: 花後に花穂を切る・強く刈ると葉が若返る。NC State・種の「倒れたり見苦しくなったら株元の葉まで切る」は夏・暑さの明記がないので C にしなかった（機械は C）",
   "management_type_quote": "Can be clipped back hard after blooming, to rejuvenate the foliage.",
   "management_type_by_matching": "C 夏前切戻型",
-  "heat_west_only": "強",
-  "muggy_west_only": "強",
-  "heat_muggy_west_evidence": "[Walters/品種] Also tolerates heat and humidity.\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
+  "heat_west_only": "中",
+  "muggy_west_only": "中",
+  "heat_muggy_west_evidence": "[Walters/品種] Also tolerates heat and humidity.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 強、文を読み直して 中（[MBG・品種] Plants like cool night temperatures (best ... north of Zone 7) / [Walters・品種] tolerates heat）\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 強、文を読み直して 中（[MBG・品種] floppy ... particularly in hot and humid climates）\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
   "spread_evidence": "[こぼれ種 0／MBG・品種] Some hybrid wood sages are sterile, some will grow from seed but will not come true, and a few will come true from seed.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] Salvia × sylvestris plants, by and large, are branched, upright, clump-forming, perennials featuring opposite, oblong to lanceolate, medium green leaves and showy spikes of tiny, tubular, two-lipped f",

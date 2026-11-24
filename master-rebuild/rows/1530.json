@@ -149,7 +149,7 @@
     "s20"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "おぎはら（品種のページ）。信頼度：高"
   },
   "heat_note": {
    "value": null,
@@ -168,6 +168,7 @@
    "method": "判定",
    "sources": [
     "s20",
+    "s10",
     "s01"
    ],
    "level": "cultivar"
@@ -359,9 +360,9 @@
   "management_type_reason": "RHS・品種: 花後に切り戻して形を保つ。おぎはら楽天・品種: 花がらを切ると二番花。Walters は早春、stauden.de は秋に茎を切る。夏前の切り詰めの記述はない",
   "management_type_quote": "Cut back after flowering to maintain shape or leave seedheads overwinter",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or East-facing（西向きが入っていない）",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 強（[Walters・品種] excellent groundcover plants, particularly for hot, dry sites）\n[RHS/品種] Aspect: South-facing or East-facing（西向きが入っていない）",
   "spread_evidence": "[地下茎 2／NC State・種] Stonecrop spreads by underground stolons.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] This variety forms a low carpet of small, burgundy-black leaves, spreading to form a small patch.",

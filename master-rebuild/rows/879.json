@@ -154,10 +154,15 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "弱",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s20",
+    "s02",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "west_sun": {
    "value": "△",
@@ -354,8 +359,8 @@
   "management_type_quote": "It spreads by stems rooting at the nodes and can be aggressive in good conditions.",
   "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "中",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中\n[MBG/品種] Appreciates some light afternoon shade in hot summer climates.\n[NC State/種] The plant likes some afternoon shade, particularly in the hot summer.\n[RHS/品種] Aspect: South-facing or West-facing",
+  "muggy_west_only": "弱",
+  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中\n[MBG/品種] Appreciates some light afternoon shade in hot summer climates.\n[NC State/種] The plant likes some afternoon shade, particularly in the hot summer.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 弱（[MBG・品種] Tends to rot and develop leaf diseases in humid summer climates / summer die-out ... where high humidity / [NC State・種] leaf rot with high humidity）\n[RHS/品種] Aspect: South-facing or West-facing",
   "spread_evidence": "[地下茎 3／NC State・種] It spreads by stems rooting at the nodes and can be aggressive in good conditions.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",

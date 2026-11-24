@@ -145,13 +145,10 @@
    "level": null
   },
   "muggy": {
-   "value": "中",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s06",
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "west_sun": {
    "value": "○",
@@ -307,8 +304,8 @@
   "management_type_quote": null,
   "management_type_by_matching": null,
   "heat_west_only": "強",
-  "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[NC State/属] Provide good air circulation for these plants to prevent crown and root issues.\n[Walters/品種] Very tolerant of hot, dry sites once established.",
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[NC State/属] Provide good air circulation for these plants to prevent crown and root issues.\n[Walters/品種] Very tolerant of hot, dry sites once established.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 空欄（記述なし）",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] This selection forms a low mound or tuft of leathery olive-green leaves, bearing upright branching sprays of tiny papery mauve-blue flowers.",

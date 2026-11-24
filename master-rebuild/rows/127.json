@@ -137,10 +137,14 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "強",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -155,10 +159,13 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "◎",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "drought": {
    "value": "強",
@@ -340,9 +347,9 @@
   "management_type_reason": "RHS・品種: 花後に切り戻して形を保つ（または種穂を冬まで残す）。Walters: 早春に茎と枯れた花を刈る",
   "management_type_quote": "Cut back after flowering to maintain shape or leave seedheads overwinter",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 強（[Walters・品種] excellent groundcover plants, particularly for hot, dry sites）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] This variety forms a low mound of attractive green and cream-splashed leaves.",

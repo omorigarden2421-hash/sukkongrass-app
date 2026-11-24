@@ -130,10 +130,14 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "中",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "species",
+   "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -148,10 +152,13 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "○",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "species"
   },
   "drought": {
    "value": "強",
@@ -314,9 +321,9 @@
   "management_type_reason": "MBG・NC State（種）: 春に新しい伸びを軽く切り詰めると締まった茂った姿になる（秋咲きの草丈を夏前に詰める摘心と読んだ）。花がら摘みで返り咲き（B）より上の C。「spring」で初夏とは書かれていないので低（そう読まなければ B）。株分けは2〜3年ごとで D ではない",
   "management_type_quote": "New growth may be cut back slightly in spring to maintain plant compactness and encourage bushy form.",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": null,
+  "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種][NC State・種] Tolerates light shade in hot climates）",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・種] Habit/Form: Erect",

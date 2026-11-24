@@ -132,10 +132,11 @@
    "level": null
   },
   "heat": {
-   "value": "中",
+   "value": "強",
    "method": "判定",
    "sources": [
     "s02",
+    "s10",
     "s01"
    ],
    "level": "cultivar",
@@ -158,6 +159,7 @@
    "method": "判定",
    "sources": [
     "s02",
+    "s10",
     "s01"
    ],
    "level": "cultivar"
@@ -333,9 +335,9 @@
   "management_type_reason": "RHS・品種: 古く傷んだ葉は必要なら切ってよい。stauden.de・品種: 適地ではほぼ手入れ不要。花後・夏の切り戻しの記述はないので機械の B を A に変更（ssp. cevennensis と同じ）",
   "management_type_quote": "Old, faded foliage can be trimmed if required.",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": "中",
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[MBG/属] Foliage may depreciate considerably in hot summer weather and may scorch if grown in too much sun.\n[MBG/属] Although plants tolerate light morning sun, they need afternoon shade.\n[MBG/属] Leaves can depreciate considerably in extremely hot weather and/or too much sun (scorch).\n[RHS/品種] Aspect: West-facing or East-facing or North-facing",
+  "heat_muggy_west_evidence": "[MBG/属] Foliage may depreciate considerably in hot summer weather and may scorch if grown in too much sun.\n[MBG/属] Although plants tolerate light morning sun, they need afternoon shade.\n[MBG/属] Leaves can depreciate considerably in extremely hot weather and/or too much sun (scorch).\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 強（[Walters・品種] Impressive vigor and heat tolerance）\n[RHS/品種] Aspect: West-facing or East-facing or North-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] This selection forms a large clump of long, pointed, shiny silver leaves, with the occasional fleck of green, topped by clusters of large pink bells that change to bright blue as they mature.",

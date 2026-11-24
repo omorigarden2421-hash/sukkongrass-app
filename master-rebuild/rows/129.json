@@ -144,7 +144,7 @@
     "s20"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "おぎはら（品種のページ）。信頼度：高"
   },
   "heat_note": {
    "value": null,
@@ -163,6 +163,7 @@
    "method": "判定",
    "sources": [
     "s20",
+    "s10",
     "s01"
    ],
    "level": "cultivar"
@@ -350,9 +351,9 @@
   "management_type_reason": "RHS・品種: 剪定不要、Walters: 早春に茎と枯れた花を刈る",
   "management_type_quote": "No pruning required",
   "management_type_by_matching": "A 放任型",
-  "heat_west_only": null,
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: West-facing or South-facing",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 強（[Walters・品種] excellent groundcover plants, particularly for hot, dry sites）\n[RHS/品種] Aspect: West-facing or South-facing",
   "spread_evidence": "[地下茎 2／stauden.de・品種] kriechend, teils wurzelnd",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",

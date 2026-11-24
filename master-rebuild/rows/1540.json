@@ -155,14 +155,10 @@
    "level": null
   },
   "muggy": {
-   "value": "中",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s02",
-    "s06",
-    "s01"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "west_sun": {
    "value": "×",
@@ -361,8 +357,8 @@
   "management_type_quote": "It can spread aggressively and is difficult to remove.",
   "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": null,
-  "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[MBG/種] Avoid overhead watering and thin plants periodically to promote good air circulation, particularly if plants have experienced problems with leaf blight.\n[NC State/種] If pachysandra has experienced problems with leaf blight, plant thinning is recommended to promote good air circulation.\n[RHS/品種] Aspect: North-facing or East-facing（西向き・南向きが入っていない）",
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[MBG/種] Avoid overhead watering and thin plants periodically to promote good air circulation, particularly if plants have experienced problems with leaf blight.\n[NC State/種] If pachysandra has experienced problems with leaf blight, plant thinning is recommended to promote good air circulation.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 空欄（記述なし）\n[RHS/品種] Aspect: North-facing or East-facing（西向き・南向きが入っていない）",
   "spread_evidence": "[地下茎 3／NC State・種] It can spread aggressively and is difficult to remove.\n[地下茎の食い違い] Gaißmayer は 2 相当、MBG は 2 相当、stauden.de は 2 相当",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",

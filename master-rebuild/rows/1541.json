@@ -143,10 +143,13 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "中",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "species"
   },
   "west_sun": {
    "value": "△",
@@ -337,8 +340,8 @@
   "management_type_quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf",
   "management_type_by_matching": null,
   "heat_west_only": "弱",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[MBG/種] Best performance occurs in cool climates where plants are also more apt to tolerate drier conditions.\n[MBG/種] Plants need consistent moisture in hot summer climates such as the St.\n[NC State/種] Best performance is seen in cooler temperatures where plants can tolerate less humid conditoins.",
+  "muggy_west_only": "中",
+  "heat_muggy_west_evidence": "[MBG/種] Best performance occurs in cool climates where plants are also more apt to tolerate drier conditions.\n[MBG/種] Plants need consistent moisture in hot summer climates such as the St.\n[NC State/種] Best performance is seen in cooler temperatures where plants can tolerate less humid conditoins.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[NC State・種] Best performance ... in cooler temperatures where plants can tolerate less humid conditions）",
   "spread_evidence": "[こぼれ種 1／Walters・品種] Scatter these around, to encourage self-seeding to occur.",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": null,

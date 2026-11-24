@@ -133,10 +133,13 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "強",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -151,10 +154,12 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "○",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "drought": {
    "value": null,
@@ -329,9 +334,9 @@
   "management_type_reason": "stauden.de・品種: 咲き終わった茎を株元の葉まで切る（花後）。RHS・Gaißmayer: 緑の先祖返りを取り除く。ほふく・根付く茎で広がり必要なら抑える程度で侵略的の明記なし。機械は null",
   "management_type_quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf",
   "management_type_by_matching": null,
-  "heat_west_only": null,
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 強（[RHS・品種] Will tolerate hot, dry conditions）\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
   "spread_evidence": "[地下茎 2／stauden.de・品種] kriechend, teils wurzelnd\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",

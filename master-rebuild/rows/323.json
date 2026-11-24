@@ -127,10 +127,14 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "強",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：低"
   },
   "heat_note": {
    "value": null,
@@ -148,6 +152,7 @@
    "value": "×",
    "method": "判定",
    "sources": [
+    "s06",
     "s01"
    ],
    "level": "cultivar"
@@ -322,9 +327,9 @@
   "management_type_reason": "RHS・品種: 種が要らなければ花がら摘みで花期が延びる",
   "management_type_quote": "deadhead to prolong flowering unless seed is required",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": null,
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 強（[NC State・属] native to cold northern areas, but grow surprisingly well in the south）\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: rosettenartig / halbkugelig",

@@ -152,7 +152,7 @@
    "level": null
   },
   "muggy": {
-   "value": "強",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s02",
@@ -357,8 +357,8 @@
   "management_type_quote": "Can be an aggressive spreader.",
   "management_type_by_matching": "E 隔離推奨型",
   "heat_west_only": "弱",
-  "muggy_west_only": "強",
-  "heat_muggy_west_evidence": "[MBG/品種] Performs best in cool summer climates, and can appear rather scraggly with poor flowering in the hot and humid summer conditions of the deep South.\n[Walters/品種] Tolerates heat and humidity, but prefers a moist site.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "muggy_west_only": "中",
+  "heat_muggy_west_evidence": "[MBG/品種] Performs best in cool summer climates, and can appear rather scraggly with poor flowering in the hot and humid summer conditions of the deep South.\n[Walters/品種] Tolerates heat and humidity, but prefers a moist site.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 強、文を読み直して 中（[MBG・品種] scraggly ... in the hot and humid summer conditions; stems tend to sprawl and mat ... in hot and humid climates）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／MBG・品種] Prompt deadheading of spent flower stalks can be tedious for a large planting, but does tend to encourage additional bloom and prevent any unwanted self-seeding.\n[地下茎 3／MBG・品種] Can be an aggressive spreader.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] It is a rhizomatous perennial which typically grows in dense, bushy clumps to 1-2' tall.",

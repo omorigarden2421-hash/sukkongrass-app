@@ -156,10 +156,13 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "弱",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "west_sun": {
    "value": "△",
@@ -347,8 +350,8 @@
   "management_type_quote": "Remove spent flowers to encourage additional bloom",
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "弱",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[MBG/品種] Plants tend to struggle in summer with the heat and humidity of the deep South, and are not recommended for planting south of USDA Zone 7.\n[MBG/品種] Some afternoon shade is best in hot summer climates such as St.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "muggy_west_only": "弱",
+  "heat_muggy_west_evidence": "[MBG/品種] Plants tend to struggle in summer with the heat and humidity of the deep South, and are not recommended for planting south of USDA Zone 7.\n[MBG/品種] Some afternoon shade is best in hot summer climates such as St.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 弱（[MBG・品種] struggle ... with the heat and humidity of the deep South, and are not recommended for planting south of USDA Zone 7）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Geum coccineum , sometimes commonly called avens, is a clump-forming perennial which typically forms a basal foliage mound (to 6\" high) of irregularly-lobed, hairy, 5-7 foli",

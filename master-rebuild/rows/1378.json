@@ -309,7 +309,7 @@
   "management_type_by_matching": null,
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向 なら ○）\n[おぎはら/種] 耐暑性；強",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向 なら ◎）\n[おぎはら/種] 耐暑性；強",
   "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "（種の記述）[stauden.de・種] Wuchsform: rosettenartig / aufrechte Stängel mit grundständigem Blattschopf",

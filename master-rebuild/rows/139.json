@@ -119,7 +119,7 @@
    "level": null
   },
   "heat": {
-   "value": "中",
+   "value": "弱",
    "method": "判定",
    "sources": [
     "s06"
@@ -287,9 +287,9 @@
   "management_type_reason": "文献の文がない",
   "management_type_quote": null,
   "management_type_by_matching": null,
-  "heat_west_only": "中",
+  "heat_west_only": "弱",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[NC State/属] They grow best in full to part sun, especially with some afternoon shade, and well-drained compost containing up to 50% sand or other gritty soils.",
+  "heat_muggy_west_evidence": "[NC State/属] They grow best in full to part sun, especially with some afternoon shade, and well-drained compost containing up to 50% sand or other gritty soils.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 弱（[NC State・属] prefer growing zones where they can enjoy cool nights / not as heat-tolerate ... zones 8 and above）",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・属] Habit/Form: Creeping; Dense; Horizontal; Prostrate; Spreading",

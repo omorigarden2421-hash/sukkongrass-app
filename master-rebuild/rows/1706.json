@@ -147,7 +147,7 @@
     "s20"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "おぎはら（品種のページ）。信頼度：高"
   },
   "heat_note": {
    "value": null,
@@ -351,9 +351,9 @@
   "management_type_reason": "NC State・品種: 春に摘心して茎を太くする（夏前の切り詰めと読んだ）。RHS・品種: 花後に切り戻して形を保つ。「晩春」とまでは書いていないので中。同属 'Vera Jameson' も春の摘心で C。機械の B から変更",
   "management_type_quote": "Site in full sun and pinch back in spring to force thicker stems.",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": "中",
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Tolerates some light part shade in hot summer climates, but will produce weak floppy growth when grown in too much shade or in overly rich soils.\n[NC State/品種] The plant tolerates rocky and poor soils, establishes itself quickly, and is heat tolerant once established.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Tolerates some light part shade in hot summer climates, but will produce weak floppy growth when grown in too much shade or in overly rich soils.\n[NC State/品種] The plant tolerates rocky and poor soils, establishes itself quickly, and is heat tolerant once established.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 強（[NC State・品種] heat tolerant once established）\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Clumping; Erect; Spreading",

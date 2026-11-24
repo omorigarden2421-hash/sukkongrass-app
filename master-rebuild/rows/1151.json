@@ -153,10 +153,15 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "弱",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s20",
+    "s02",
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "west_sun": {
    "value": "△",
@@ -164,6 +169,7 @@
    "sources": [
     "s20",
     "s02",
+    "s06",
     "s01"
    ],
    "level": "cultivar"
@@ -344,9 +350,9 @@
   "management_type_reason": "RHS・品種: 咲き終わった茎を切るか花がらを摘むと夏の間咲く。stauden.de・品種: 咲き終わった茎を株元の葉まで切る。夏の刈り込みの文（おぎはら楽天）はこの品種には付いていない。こぼれ種が強いとの Gaißmayer の文は種の記述で、品種で同じかは不明（侵略的の明記でもない）",
   "management_type_quote": "Cut back flowered stems or deadhead to encourage flowering through the summer",
   "management_type_by_matching": "B 花後刈込型",
-  "heat_west_only": "中",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Needs afternoon shade in hot, humid climates.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or West-facing",
+  "heat_west_only": "弱",
+  "muggy_west_only": "弱",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Needs afternoon shade in hot, humid climates.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 弱（[MBG・種] struggle with both summer heat and humidity south of Zone 7 where it is not recommended / short-lived in hot summer climates）\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 弱（[MBG・種] struggle with ... heat and humidity ... not recommended / [NC State・属] struggle with the heat and humidity of southern summers）\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or West-facing",
   "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[こぼれ種の食い違い] Gaißmayer は 3 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
   "mixing_evidence": null,
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: rosettenartig / geneigt",

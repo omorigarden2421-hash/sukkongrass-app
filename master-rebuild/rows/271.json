@@ -161,7 +161,7 @@
    "level": null
   },
   "muggy": {
-   "value": "中",
+   "value": "強",
    "method": "判定",
    "sources": [
     "s20",
@@ -172,7 +172,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
@@ -365,8 +365,8 @@
   "management_type_quote": "Removing faded flowers regularly will greatly increase the blooming time.",
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "強",
-  "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Good air circulation is appreciated.\n[NC State/種] It also bears up under hot, humid summers and, once established, will tolerate drought.\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
+  "muggy_west_only": "強",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Good air circulation is appreciated.\n[NC State/種] It also bears up under hot, humid summers and, once established, will tolerate drought.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 強（[NC State・種] bears up under hot, humid summers）\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
   "spread_evidence": "[地下茎 2／NC State・種] The plant spreads by underground stems called rhizomes to form large clumps.\n[地下茎の食い違い] MBG は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー、こぼれ種）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] An upright, rhizomatous, clump-forming, free-blooming coneflower which typically grows to 3' tall, often forming colonies in the wild.",

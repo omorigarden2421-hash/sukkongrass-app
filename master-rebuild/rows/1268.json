@@ -166,6 +166,7 @@
    "method": "判定",
    "sources": [
     "s20",
+    "s06",
     "s01"
    ],
    "level": "cultivar"
@@ -344,9 +345,9 @@
   "management_type_reason": "Walters・品種: 花後に刈ると、夏じゅうもつ新しい葉が出る。RHS: 花後に強く切る。花後の更新で、夏の傷み・暑さの記述はないので B（機械は C。アルケミラの例と同じ線引き）",
   "management_type_quote": "Shear plants back after blooming to encourage a flush of new leaves to last through the summer.",
   "management_type_by_matching": "C 夏前切戻型",
-  "heat_west_only": null,
+  "heat_west_only": "弱",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Tr03・Tr06）] 耐暑性；強（この品種のページはない。信頼度：低）\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
+  "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Tr03・Tr06）] 耐暑性；強（この品種のページはない。信頼度：低）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 弱（[NC State・種] will not do well in the summer heat of the south; cool weather perennial）\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: halbkugelig / aufrechte Stängel mit grundständigem Blattschopf",

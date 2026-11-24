@@ -150,10 +150,13 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "弱",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "west_sun": {
    "value": "△",
@@ -337,8 +340,8 @@
   "management_type_quote": "deadhead to promote more blooms, and cut back old stems after flowering",
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "弱",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[MBG/属] Plants tend to struggle in summer with the heat and humidity of the deep South, and are not recommended for planting south of USDA Zone 7.\n[MBG/属] Some afternoon shade is best in hot summer climates such as St.\n[RHS/品種] Aspect: West-facing or East-facing or South-facing",
+  "muggy_west_only": "弱",
+  "heat_muggy_west_evidence": "[MBG/属] Plants tend to struggle in summer with the heat and humidity of the deep South, and are not recommended for planting south of USDA Zone 7.\n[MBG/属] Some afternoon shade is best in hot summer climates such as St.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 弱（[MBG・属] struggle in summer with the heat and humidity of the deep South ... not recommended south of USDA Zone 7）\n[RHS/品種] Aspect: West-facing or East-facing or South-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",

@@ -118,10 +118,13 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "中",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species",
+   "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -136,10 +139,12 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "○",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "drought": {
    "value": "中",
@@ -314,9 +319,9 @@
   "management_type_reason": "MBG・種: 地下茎とこぼれ種で広がり抑えにくく、密な単一群落を作る。NC State・種: aggressive に広がる。stauden.de も広がりを区切るよう指示。地下茎による広がりなので品種にも当てる（var. picta と同じ）",
   "management_type_quote": "It spreads aggressively to form dense monocultures.",
   "management_type_by_matching": "E 隔離推奨型",
-  "heat_west_only": null,
+  "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": null,
+  "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] leaf blades ... tend to brown up as the summer progresses）",
   "spread_evidence": "[こぼれ種 1／MBG・種] Problems Reed canary grass is a rhizomatous, self-seeding spreader that is difficult to control.\n[地下茎 3／NC State・種] Insects, Diseases, and Other Plant Problems:  It can spread aggressively.\n[地下茎の食い違い] MBG は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] It spreads aggressively to form dense monocultures.\n[NC State・種] Listed as invasive by the NC Invasive Plant Council and by many other states.",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Erect; Open",

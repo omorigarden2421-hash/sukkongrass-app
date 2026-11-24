@@ -146,7 +146,7 @@
    "level": null
   },
   "muggy": {
-   "value": "強",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s20",
@@ -347,8 +347,8 @@
   "management_type_quote": "simply shear by half in July if they begin to flop open.",
   "management_type_by_matching": "C 夏前切戻型",
   "heat_west_only": "強",
-  "muggy_west_only": "強",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Tolerant of heat, humidity and some drought.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "muggy_west_only": "中",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Tolerant of heat, humidity and some drought.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 強、文を読み直して 中（[MBG・品種] Tolerant of heat, humidity / stems tend to sprawl, particularly in hot and humid climates）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": "[地下茎 2／MBG・品種] Plants may spread by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] ‘Redshift’ is a clump-forming hybrid coreopsis that grows on sturdy stems to 30-36\" tall.",

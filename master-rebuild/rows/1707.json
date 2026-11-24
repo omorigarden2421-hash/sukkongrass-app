@@ -154,16 +154,21 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "中",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s20",
+    "s21",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "west_sun": {
    "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
+    "s21",
     "s01"
    ],
    "level": "cultivar"
@@ -350,7 +355,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or West-facing",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 高温時には多湿に注意する（蒸れ 中 相当）\n[RHS/品種] Aspect: South-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] This Stonecrop forms a cascading mound of succulent powdery-blue leaves, with contrasting centres of creamy yellow.",

@@ -156,10 +156,15 @@
    "level": null
   },
   "muggy": {
-   "value": null,
+   "value": "中",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s20",
+    "s06",
+    "s02",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "west_sun": {
    "value": "△",
@@ -167,6 +172,7 @@
    "sources": [
     "s20",
     "s06",
+    "s02",
     "s01"
    ],
    "level": "cultivar"
@@ -355,8 +361,8 @@
   "management_type_quote": "deadhead to encourage more flowers",
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "中",
-  "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Dg05・Dg08・Dg09・Dg10・図鑑の 'Monstrosa'）] 耐暑性；中（この品種のページはない。信頼度：低）\n[NC State/種] Foxglove does best with afternoon shade.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "muggy_west_only": "中",
+  "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Dg05・Dg08・Dg09・Dg10・図鑑の 'Monstrosa'）] 耐暑性；中（この品種のページはない。信頼度：低）\n[NC State/種] Foxglove does best with afternoon shade.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] Powdery mildew and leaf spot ... can depreciate foliage ... by early to mid-summer）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": "[こぼれ種 2／MBG・種] If flower spikes are left in place after flowering and allowed to go to seed, plants will act more as biennials and will, in optimum growing conditions, freely self-seed.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",

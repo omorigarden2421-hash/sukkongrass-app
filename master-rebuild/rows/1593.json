@@ -138,12 +138,10 @@
    "level": null
   },
   "muggy": {
-   "value": "中",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s02"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "west_sun": {
    "value": null,
@@ -323,8 +321,8 @@
   "management_type_quote": "Pinching back stems several times before mid-July will help control plant height, promote bushiness and perhaps obviate the need for staking.",
   "management_type_by_matching": "C 夏前切戻型",
   "heat_west_only": null,
-  "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[MBG/種] Good air circulation helps reduce incidence of foliar diseases.",
+  "muggy_west_only": null,
+  "heat_muggy_west_evidence": "[MBG/種] Good air circulation helps reduce incidence of foliar diseases.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 空欄（記述なし）",
   "spread_evidence": "[こぼれ種 1／MBG・種] Easily grown from seed and may self-seed in the garden in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Erect",

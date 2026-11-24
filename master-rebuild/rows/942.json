@@ -134,14 +134,10 @@
    "level": null
   },
   "heat": {
-   "value": "中",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s06",
-    "s01"
-   ],
-   "level": "cultivar",
-   "note": "欧米の文献。信頼度：低"
+   "sources": null,
+   "level": null
   },
   "heat_note": {
    "value": null,
@@ -351,9 +347,9 @@
   "management_type_reason": "RHS・品種: 晩夏〜秋に花茎を地際で切る。stauden.de・品種: 秋〜晩秋に茎を切る。季節の終わりの刈り取りと読み A（花後すぐの切り戻しの記述ではない）。走出枝で広がるが「厄介になりうる」止まりで E ではない。株分けは4〜5年ごと。機械は空欄",
   "management_type_quote": "Rückschnitt der Stängel im Herbst bis Spätherbst",
   "management_type_by_matching": null,
-  "heat_west_only": "中",
+  "heat_west_only": null,
   "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[NC State/属] While the preferred environment varies among species, most are best grown in full sun or bright indirect light and appreciate some afternoon shade.\n[NC State/属] These plants prefer warm, dry conditions, and good air circulation.\n[RHS/品種] Aspect: North-facing or West-facing or East-facing or South-facing",
+  "heat_muggy_west_evidence": "[NC State/属] While the preferred environment varies among species, most are best grown in full sun or bright indirect light and appreciate some afternoon shade.\n[NC State/属] These plants prefer warm, dry conditions, and good air circulation.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 空欄（[NC State・属] appreciate some afternoon shade（暑さと結びつかない日照の記述））\n[RHS/品種] Aspect: North-facing or West-facing or East-facing or South-facing",
   "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend\n[地下茎の食い違い] Gaißmayer は 1 相当",
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] Plants form a bushy, upright mound of dark green leaves with the appearance of a small shrub.",

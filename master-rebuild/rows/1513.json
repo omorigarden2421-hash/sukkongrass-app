@@ -146,10 +146,14 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "弱",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
    "value": "シカゴ植物園: トメントーサなどの成績が悪かったのは、冬の寒さより、試験地の湿りすぎによるとみられる（no5）",
@@ -166,10 +170,13 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "△",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "drought": {
    "value": "強",
@@ -352,9 +359,9 @@
   "management_type_reason": "RHS: 剪定不要、stauden.de・種: 適地ではほぼ手入れ不要。一方 NC State・種と Walters は花がら摘み・花後の切り戻し（返り咲き、見た目）を挙げる。剪定不要の明記があり花がら摘みは任意という、人が決めた例のアルメリア（A）と同じ線引きにした。順番どおりに読めば B",
   "management_type_quote": "No pruning required",
   "management_type_by_matching": "A 放任型",
-  "heat_west_only": null,
+  "heat_west_only": "弱",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 弱（[NC State・種] Does best in cooler summer areas）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[地下茎 2／stauden.de・種] kriechend, teils wurzelnd",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",

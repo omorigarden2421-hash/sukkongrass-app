@@ -144,7 +144,7 @@
     "s20"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "おぎはら（品種のページ）。信頼度：高"
   },
   "heat_note": {
    "value": null,
@@ -163,6 +163,8 @@
    "method": "判定",
    "sources": [
     "s20",
+    "s02",
+    "s10",
     "s01"
    ],
    "level": "cultivar"
@@ -349,9 +351,9 @@
   "management_type_reason": "RHS・品種: 花後に刈り込んで形を保つ。Walters: 春に刈ってよい。NC State・種の「マット状に速く広がる」は invasive／aggressive の明記ではないので機械の E にしなかった",
   "management_type_quote": "Trim back after flowering to maintain shape",
   "management_type_by_matching": "E 隔離推奨型",
-  "heat_west_only": null,
+  "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 強（[MBG・種] Also tolerates drought and heat / [Walters・品種] groundcover ... in hot, sunny areas）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": "[地下茎 3／NC State・種] It is a mat-forming plant that spreads rapidly.\n[地下茎の食い違い] stauden.de は 2 相当\n[段階の読み直し 2026-11-24] NC State・種「マット状に速く広がる」は速く広がる話で、侵略的とは書いていない。3 → 2\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
