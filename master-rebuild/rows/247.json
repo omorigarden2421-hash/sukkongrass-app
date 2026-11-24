@@ -189,7 +189,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "ランナー"
    ],
    "method": "記載",
    "sources": [
@@ -310,7 +310,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Veronica prostrata , sometimes commonly called harebell speedwell, is a low-growing, mat-forming ground cover which typically grows 6-8\" tall and spreads indefinitely by sterile, prostrate stem",
+  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Veronica prostrata , sometimes commonly called harebell speedwell, is a low-growing, mat-forming ground cover which typically grows 6-8\" tall and spreads indefinitely by sterile, prostrate stem\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "（種の記述）[MBG・種] Noteworthy Characteristics Veronica prostrata , sometimes commonly called harebell speedwell, is a low-growing, mat-forming ground cover which typically grows 6-8\" tall and spreads indefinitely by ste",
   "sources_with_cultivar_page": "なし",

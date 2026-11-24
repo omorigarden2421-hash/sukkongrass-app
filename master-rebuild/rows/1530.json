@@ -221,7 +221,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎",
+    "ランナー"
    ],
    "method": "記載",
    "sources": [
@@ -293,13 +294,19 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "早春",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s06",
+    "s10",
+    "s18",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -355,7 +362,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or East-facing（西向きが入っていない）",
-  "spread_evidence": "[地下茎 2／NC State・種] Stonecrop spreads by underground stolons.",
+  "spread_evidence": "[地下茎 2／NC State・種] Stonecrop spreads by underground stolons.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] This variety forms a low carpet of small, burgundy-black leaves, spreading to form a small patch.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、おぎはら",

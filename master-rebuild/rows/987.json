@@ -222,8 +222,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
-    "こぼれ種"
+    "株立ち"
    ],
    "method": "記載",
    "sources": [
@@ -298,11 +297,16 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s02"
+    "s01",
+    "s02",
+    "s06",
+    "s10",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -361,7 +365,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[Walters/品種] Also tolerates heat and humidity.\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
-  "spread_evidence": "[こぼれ種 0／MBG・品種] Some hybrid wood sages are sterile, some will grow from seed but will not come true, and a few will come true from seed.",
+  "spread_evidence": "[こぼれ種 0／MBG・品種] Some hybrid wood sages are sterile, some will grow from seed but will not come true, and a few will come true from seed.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] Salvia × sylvestris plants, by and large, are branched, upright, clump-forming, perennials featuring opposite, oblong to lanceolate, medium green leaves and showy spikes of tiny, tubular, two-lipped f",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、シカゴ植物園",

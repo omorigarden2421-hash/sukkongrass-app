@@ -212,10 +212,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "こぼれ種"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら）"
   },
   "self_seed_level": {
    "value": 3,
@@ -279,10 +282,18 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "花後",
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s02",
+    "s20",
+    "s21"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -330,7 +341,7 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] ‘Goldflame’ is noted for having good heat tolerance.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 3／NC State・種] It is a rapid grower and can be an aggressive self-seeder.",
+  "spread_evidence": "[こぼれ種 3／NC State・種] It is a rapid grower and can be an aggressive self-seeder.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "[NC State・種] It is a rapid grower and can be an aggressive self-seeder.\n[MBG・品種] Plants can be aggressive self-seeders, and have escaped gardens and naturalized in many areas of the eastern U.S.",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Spiraea japonica , commonly called Japanese spirea, is a dense, upright, mounded, deciduous shrub that typically grows 4-6’ tall with a slightly larger spread.",
   "sources_with_cultivar_page": "RHS、MBG、おぎはら",

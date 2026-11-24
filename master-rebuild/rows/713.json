@@ -217,7 +217,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
+    "地下茎",
     "こぼれ種"
    ],
    "method": "記載",
@@ -294,13 +294,17 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "初夏",
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s06",
+    "s18",
+    "s17"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",
@@ -357,7 +361,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[MBG/種] Good air circulation and some morning sun help reduce incidence of foliar diseases.\n[NC State/種] Insects, Diseases, and Other Plant Problems:  This plant has some susceptibility to powdery mildew so give it good air circulation.\n[NC State/種] mproving drainage and good air circulation helps reduce the incidence of foliar diseases.\n[RHS/品種] Aspect: North-facing or West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] Woodland aster can grow to a mounding height of 3 feet and spread vigorously by rhizomes reaching its full growth in 2 to 5 years.",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] Woodland aster can grow to a mounding height of 3 feet and spread vigorously by rhizomes reaching its full growth in 2 to 5 years.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
   "mixing_evidence": "[NC State・種] Woodland aster can grow to a mounding height of 3 feet and spread vigorously by rhizomes reaching its full growth in 2 to 5 years.",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Mounding",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer",

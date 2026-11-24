@@ -209,7 +209,8 @@
   },
   "spread_modes": {
    "value": [
-    "地下茎"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -287,10 +288,16 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "初夏",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -342,7 +349,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら 空欄）\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Problems Reed canary grass is a rhizomatous, self-seeding spreader that is difficult to control.\n[地下茎 3／NC State・種] Insects, Diseases, and Other Plant Problems:  It can spread aggressively.\n[地下茎の食い違い] MBG は 2 相当",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Problems Reed canary grass is a rhizomatous, self-seeding spreader that is difficult to control.\n[地下茎 3／NC State・種] Insects, Diseases, and Other Plant Problems:  It can spread aggressively.\n[地下茎の食い違い] MBG は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] Listed as invasive by the NC Invasive Plant Council and by many other states.",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Open",
   "sources_with_cultivar_page": "RHS",

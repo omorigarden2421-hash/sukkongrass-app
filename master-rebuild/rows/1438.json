@@ -220,10 +220,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "株立ち"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、おぎはら）"
   },
   "self_seed_level": {
    "value": null,
@@ -287,13 +290,15 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s17",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -346,7 +351,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや強い 少し湿った場所を好むが高温時の蒸れに注意し通気よく（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜やや半日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[MBG/品種] Appreciates some part afternoon shade in hot and dry summer climates.\n[RHS/品種] Aspect: West-facing or East-facing or South-facing",
-  "spread_evidence": "[地下茎 0／Gaißmayer・品種] Im Gegensatz zur Art wuchert sie aber nicht und remontiert gut.",
+  "spread_evidence": "[地下茎 0／Gaißmayer・品種] Im Gegensatz zur Art wuchert sie aber nicht und remontiert gut.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] Plants feature a low mound of dense green foliage consisting of broad-ovate, boldly-veined, medium green, mostly basal leaves (4-12” long and 3-5” wide) with white mid-ribs and pointed tips.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Gaißmayer、おぎはら",

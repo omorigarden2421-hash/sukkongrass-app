@@ -43,6 +43,9 @@ for r in ias_rows[1:]:
     d = dict(zip(IH, r))
     if d.get("商品番号"):
         ias[str(d["商品番号"])] = d
+# リストの学名（種）ごと。品種名・変種の書き方の違いは見ない（種で当てる）
+IAS_SP = {" ".join(re.sub(r"'.*$", "", str(d_["リストの学名"] or "")).replace("×", "x").split()[:2]): d_ for d_ in ias.values()
+          if len(str(d_["リストの学名"] or "").split()) >= 2}
 
 
 # 管理タイプの見直し（2026-11-21）: 品種ごとに、切り戻し・手入れの文を読んで決め直した結果（mgmt_review.json。商品番号 → type・codes・confidence・reason・quote）。
@@ -233,6 +236,8 @@ for m in master:
     sp = [int(x) for x in re.findall(r"\d+", re.sub(r"（.*$", "", str(d.get("株張り(cm)") or "")))]
     z = re.match(r"(\d+)〜(\d+)", str(d.get("USDA") or ""))
     ia = ias.get(no)
+    if not ia and g and ep:  # 2026-11-24（矛盾の洗い出し）: 学名を直した結果、リストの種と同じ種になった品種にも当てる（アスター 'Prof. Anton Kippenberg' → ユウゼンギク）
+        ia = IAS_SP.get(f"{g} {ep}".replace("× ", "x "))
     r = {
      "商品番号": m["商品番号"], "植物名": fmt_name(m["植物名"]), "学名（正名）": adopted, "属": g, "種小名": ep, "品種名": cv,
      "旧学名・別名": fmt_name(m["学名"]) if re.sub(r"[^a-z]", "", fmt_name(m["学名"]).lower()) != re.sub(r"[^a-z]", "", adopted.lower()) else None,
@@ -394,6 +399,27 @@ for m in master:
     codes = [c for c in re.split(r"[、,]", re.sub(r"（.*$", "", d.get("切り戻し") or "")) if c]
     rz, sd = d.get("地下茎で広がる程度(0-3)"), d.get("こぼれ種の量(0-3)")
     why = d.get("こぼれ種・地下茎の根拠") or ""
+    # 増え方を、こぼれ種・地下茎の段階にそろえる（2026-11-24。矛盾の洗い出し）。増え方は stauden.de（順位がいちばん下）の用語だけから作っていて、
+    # 段階はほかの文献も使っているので、食い違っていた。段階のほうに合わせる（RULES.md: self-seeds → こぼれ種、rhizomes → 地下茎、stolons・runners → ランナー）
+    m0 = [x for x in (r["増え方"] or "").split("、") if x]
+    m1 = list(m0)
+    if sd == 0:
+        m1 = [x for x in m1 if x != "こぼれ種"]
+    elif sd and "こぼれ種" not in m1:
+        m1.append("こぼれ種")
+    if rz == 0:
+        m1 = [x for x in m1 if x not in ("地下茎", "ランナー")] or ["株立ち"]
+    elif rz and not {"地下茎", "ランナー"} & set(m1):
+        ev_ = " ".join(re.findall(r"\[(?:地下茎|こぼれ種) \d／[^\]]*\] ([^\n]*)", why)).lower()  # こぼれ種の行に地下茎の話があることもある（「self-seeds and spreads by rhizome」）
+        add_ = (["地下茎"] if re.search(r"rhizom|sucker|underground|root(s|ing)? (that )?spread|wurzelausläufer|unterirdisch", ev_) else []) + \
+               (["ランナー"] if re.search(r"stolon|runner|creeping stem|prostrate stem|roots? at (the )?nodes|ausläufer|kriechend|trailing stem", ev_) else [])
+        m1 += add_
+    if (rz or 0) >= 2 and {"地下茎", "ランナー"} & set(m1):
+        m1 = [x for x in m1 if x != "株立ち"]  # 株立ちは「広がらない」の意味（RULES.md）
+    m1 = [x for x in ("株立ち", "地下茎", "ランナー", "こぼれ種") if x in m1]
+    if m1 != m0:
+        r["増え方"] = "、".join(m1) or None
+        r["こぼれ種・地下茎の根拠"] = "\n".join(x for x in (r.get("こぼれ種・地下茎の根拠"), f"[増え方] こぼれ種・地下茎の段階に合わせて直した（前：{'、'.join(m0) or '空欄'}）") if x)
     # 管理タイプ（上から順）: E 隔離推奨型＝地下茎かこぼれ種が 3（はびこる、と文献に明記）。B 花後刈込型＝切り戻しに「花後」。
     #   A 放任型＝切り戻しが「不要」「早春」「秋」だけ。切り戻しの記述がなければ空欄。
     #   D 毎年株更新型・C 夏前切戻型は、もとになる記述（毎年の株分け、初夏の切り戻し）を全品種では拾っていないので、今は付かない
@@ -442,6 +468,17 @@ for m in master:
     if rv and not (mt or "").startswith("E") and (r.get("混植適性") or "").startswith("侵略的"):
         r["混植適性"] = "強い（周囲を圧迫、配置注意）"
         r["混植適性の根拠"] += "\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた"
+    # 逆向きもそろえる（2026-11-24。矛盾の洗い出し）: 文を読んで隔離推奨型（E）にした品種は、混植適性も 侵略的（RULES.md: E は mixing が 侵略的）
+    if (mt or "").startswith("E") and not (r.get("混植適性") or "").startswith("侵略的"):
+        r["混植適性の根拠"] = "\n".join(x for x in (r.get("混植適性の根拠"), f"[管理タイプの見直し] 文を読んで隔離推奨型にしたので、{r.get('混植適性') or '空欄'} から 侵略的 にそろえた") if x)
+        r["混植適性"] = "侵略的（隔離推奨）"
+    # 切り戻しの方法を、管理タイプを決めた切り戻しの区分（見直し・回答のあと）にそろえる（2026-11-24。矛盾の洗い出し）。
+    # 前は下書きの値（言い回しの照合）のままで、見直した管理タイプ・切り戻し時期と食い違っていた。「不要」とほかの区分が両方あるときは、切る記述があるほうを残す
+    if len(codes) > 1 and "不要" in codes:
+        codes = [c for c in codes if c != "不要"]
+    c0 = re.sub(r"（.*$", "", d.get("切り戻し") or "")
+    if codes and "、".join(codes) != c0:
+        r["切り戻しの方法"] = "、".join(codes) + ("（ユーザーの確認）" if ua and ua["値"] in "AB" else "（文献の文を読んで見直し。管理タイプの決め手の列）")
     cold = r["耐寒性"]  # 食い違いの確認の回答で変わることがある
     heat = d.get("耐暑性")
     uh = ANS["耐暑性"].get(no)
@@ -462,7 +499,7 @@ for m in master:
     PR = {"早春": ("雪解け後（4月下旬〜5月上旬）", "2〜3月"), "秋": ("10月", "11〜12月"), "初夏": ("6月下旬〜7月上旬", "5月下旬〜6月上旬"), "不要": ("不要", "不要"), "花後": ("花後", "花後")}
     hk = [PR[c][0] for c in codes if c in PR]
     kt = [PR[c][1] for c in codes if c in PR]
-    modes = d.get("増え方") or ""
+    modes = r.get("増え方") or ""
     smax = sp[-1] if sp else None
     use = []
     if h1:

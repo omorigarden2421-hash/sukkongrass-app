@@ -218,10 +218,11 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：RHS、stauden.de）"
   },
   "invasive_note": {
    "value": null,
@@ -266,13 +267,14 @@
   },
   "pruning_codes": {
    "value": [
-    "秋"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
     "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -323,7 +325,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
   "spread_evidence": null,
-  "mixing_evidence": null,
+  "mixing_evidence": "[管理タイプの見直し] 文を読んで隔離推奨型にしたので、空欄 から 侵略的 にそろえた",
   "silhouette_evidence": "[RHS・品種] Habit: Spreading branched",
   "sources_with_cultivar_page": "RHS",
   "sources_used": "RHS、stauden.de"

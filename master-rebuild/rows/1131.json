@@ -215,7 +215,9 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -289,13 +291,17 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -346,7 +352,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿 は嫌います（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 2／MBG・種] Freely self-seeds.\n[地下茎 1／MBG・種] Noteworthy Characteristics Sanguisorba officinalis , called great burnet, is a clump-forming, rhizomatous perennial which typically grows to 3' tall.",
+  "spread_evidence": "[こぼれ種 2／MBG・種] Freely self-seeds.\n[地下茎 1／MBG・種] Noteworthy Characteristics Sanguisorba officinalis , called great burnet, is a clump-forming, rhizomatous perennial which typically grows to 3' tall.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら",

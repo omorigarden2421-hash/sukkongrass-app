@@ -215,10 +215,14 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "ランナー",
+    "こぼれ種"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
   },
   "self_seed_level": {
    "value": 2,
@@ -348,7 +352,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[MBG/品種] Appreciates some light afternoon shade in hot, humid climates.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.\n[地下茎 2／MBG・品種] Spreads by creeping stems (stolons) that root as they go along the ground.",
+  "spread_evidence": "[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.\n[地下茎 2／MBG・品種] Spreads by creeping stems (stolons) that root as they go along the ground.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、シカゴ植物園",

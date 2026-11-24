@@ -202,7 +202,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎"
    ],
    "method": "記載",
    "sources": [
@@ -277,13 +277,17 @@
   },
   "pruning_codes": {
    "value": [
-    "秋"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s06",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -330,7 +334,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/品種] General foliage decline often occurs in high humidity summer climates such as the St.\n[RHS/品種] Aspect: North-facing or West-facing or South-facing or East-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] Mugwort grows 2 to 4 feet tall and spreads by rhizomes but rarely produces viable seeds in temperate areas.\n[地下茎の食い違い] MBG は 3 相当",
+  "spread_evidence": "[地下茎 2／NC State・種] Mugwort grows 2 to 4 feet tall and spreads by rhizomes but rarely produces viable seeds in temperate areas.\n[地下茎の食い違い] MBG は 3 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[MBG・品種] Plants can spread aggressively in the landscape.\n[NC State・種] It is considered an invasive weed in some areas and can be found growing along roadsides, waste places and uncultivated areas as meadows.",
   "silhouette_evidence": "[MBG・品種] It typically grows in a mounded clump to 2-3’ tall.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG",

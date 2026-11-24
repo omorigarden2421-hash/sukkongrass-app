@@ -188,7 +188,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -263,10 +264,16 @@
    "level": "cultivar"
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -312,7 +319,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／MBG・品種] Culture 'Gold Spangles' spreads by rhizomes.",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／MBG・品種] Culture 'Gold Spangles' spreads by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": null,
   "sources_with_cultivar_page": "MBG",

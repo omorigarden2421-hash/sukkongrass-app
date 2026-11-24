@@ -220,7 +220,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
+    "地下茎",
     "こぼれ種"
    ],
    "method": "記載",
@@ -298,13 +298,15 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s10",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -360,7 +362,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[MBG/品種] Foliage tends to burn in hot, dry, sunny summer conditions.\n[MBG/品種] Plants do not perform well in the deep South (south of USDA Zone 7).\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] Windflowers spread by rhizomes and make a good ground cover when given room to spread.",
+  "spread_evidence": "[地下茎 2／NC State・種] Windflowers spread by rhizomes and make a good ground cover when given room to spread.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
   "mixing_evidence": "[NC State・種] Windflowers spread by rhizomes and make a good ground cover when given room to spread.",
   "silhouette_evidence": "[MBG・品種] 'Honorine Jobert' is a vigorous, fibrous-rooted, mounding, compact Japanese anemone hybrid cultivar which typically grows to 3-4' tall and spreads by creeping rhizomes.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、シカゴ植物園",

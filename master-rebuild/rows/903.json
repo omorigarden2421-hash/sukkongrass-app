@@ -212,10 +212,14 @@
    "level": "species"
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "ランナー",
+    "こぼれ種"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、シカゴ植物園）"
   },
   "self_seed_level": {
    "value": 1,
@@ -242,15 +246,16 @@
    "level": null
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（Gaißmayer・品種）",
+   "value": "地下茎・ランナーでよく広がる（Gaißmayer・品種）。環境省の外来種リストに掲載（防除検討外来種（ユウゼンギク（メリケンコンギク、シノノメギク、ユウゼンノギク）））",
    "method": "記載",
    "sources": [
-    "s17"
+    "s17",
+    "s05"
    ],
    "level": "cultivar"
   },
   "ias_list": {
-   "value": "掲載なし",
+   "value": "防除検討外来種（ユウゼンギク（メリケンコンギク、シノノメギク、ユウゼンノギク））",
    "method": "記載",
    "sources": [
     "s05"
@@ -288,13 +293,17 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "初夏",
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s17"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",
@@ -345,7 +354,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/種] Good air circulation and consistently moist soils with good drainage help reduce incidence of foliar diseases.\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Plants can be cut back after flowering to reduce self-seeding.\n[地下茎 2／Gaißmayer・品種] Wegen der recht starken Ausläuferbildung zur eher flächigen Pflanzung geeignet.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Plants can be cut back after flowering to reduce self-seeding.\n[地下茎 2／Gaißmayer・品種] Wegen der recht starken Ausläuferbildung zur eher flächigen Pflanzung geeignet.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、Gaißmayer、シカゴ植物園",

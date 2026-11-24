@@ -212,7 +212,8 @@
   },
   "spread_modes": {
    "value": [
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -291,13 +292,18 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s06",
+    "s10",
+    "s18",
+    "s17"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -352,7 +358,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: North-facing or East-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Spreads by both creeping roots and self-seeding to form an attractive ground cover in moist, shady areas.\n[地下茎 2／NC State・種] It can grow 6- 12 inches tall and up to 2 feet in length and spreads by rhizomes and seeds.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Spreads by both creeping roots and self-seeding to form an attractive ground cover in moist, shady areas.\n[地下茎 2／NC State・種] It can grow 6- 12 inches tall and up to 2 feet in length and spreads by rhizomes and seeds.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
   "mixing_evidence": "[MBG・種] Can be somewhat aggressive in optimum growing conditions.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、Jelitto",

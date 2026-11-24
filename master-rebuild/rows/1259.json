@@ -222,7 +222,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎"
    ],
    "method": "記載",
    "sources": [
@@ -292,13 +292,18 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s06",
+    "s18",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -355,7 +360,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Tolerates hot and humid summers and some drought.\n[MBG/種] Appreciates good air circulation.\n[NC State/種] However, it is an easy going plant and tolerates hot and humid summers, some drought, clay soil, poor soils and is deer resistant.\n[NC State/種] It does like good air circulation and, to encourage additional blooming, you should deadhead spent flowers.\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Rudbeckia subtomentosa , commonly called sweet coneflower, is a Missouri native, nonrhizomatous perennial which occurs on moist prairies, along streambanks and in low areas throughout the state",
+  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Rudbeckia subtomentosa , commonly called sweet coneflower, is a Missouri native, nonrhizomatous perennial which occurs on moist prairies, along streambanks and in low areas throughout the state\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、おぎはら",

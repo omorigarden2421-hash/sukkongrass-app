@@ -194,7 +194,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -270,13 +271,17 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "初夏",
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s02"
+    "s02",
+    "s06",
+    "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",
@@ -325,7 +330,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/種] Good air circulation helps reduce incidence of foliar diseases.\n[NC State/種] Good air circulation helps reduce the incidence of foliar diseases.",
-  "spread_evidence": "[こぼれ種 2／NC State・種] It will readily self-seedand can become weedy.\n[こぼれ種の食い違い] MBG は 1 相当、stauden.de は 1 相当",
+  "spread_evidence": "[こぼれ種 2／NC State・種] It will readily self-seedand can become weedy.\n[こぼれ種の食い違い] MBG は 1 相当、stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
   "sources_with_cultivar_page": "stauden.de、Gaißmayer、シカゴ植物園",

@@ -215,7 +215,8 @@
   "spread_modes": {
    "value": [
     "株立ち",
-    "地下茎"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -346,7 +347,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Needs afternoon shade in hot, humid climates.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[こぼれ種の食い違い] Gaißmayer は 3 相当",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[こぼれ種の食い違い] Gaißmayer は 3 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
   "mixing_evidence": null,
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: rosettenartig / geneigt",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら",

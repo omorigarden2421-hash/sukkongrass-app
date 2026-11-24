@@ -208,7 +208,8 @@
   "spread_modes": {
    "value": [
     "地下茎",
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -281,13 +282,18 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋",
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -343,7 +349,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 明るい半日陰（西日 × 相当）\n[MBG/品種] Problems Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or West-facing or North-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／stauden.de・種] ausläufertreibend",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／stauden.de・種] ausläufertreibend\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎、ランナー）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] Plants are characterized by graceful, fern-like mounds of mostly basal, 2-3 ternately compound leaves, usually with sharply-toothed leaflets, and tiny flowers densely packed into erect to arching, plu",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、おぎはら",

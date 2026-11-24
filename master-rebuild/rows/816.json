@@ -288,13 +288,18 @@
   },
   "pruning_codes": {
    "value": [
-    "秋"
+    "初夏",
+    "秋",
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s10",
+    "s18",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",

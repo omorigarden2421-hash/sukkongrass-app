@@ -205,10 +205,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "地下茎"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS）"
   },
   "self_seed_level": {
    "value": null,
@@ -277,11 +280,14 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s02"
+    "s01",
+    "s02",
+    "s06"
    ],
    "level": "cultivar"
   },
@@ -333,7 +339,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/品種] Good air circulation and consistent moist soils with good drainage helps reduce incidence of foliar diseases.\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] The plant spreads by rhizomes.",
+  "spread_evidence": "[地下茎 2／NC State・種] The plant spreads by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] It typically grows in a compact mound to 12-18” tall.",
   "sources_with_cultivar_page": "RHS、MBG",

@@ -198,7 +198,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -320,7 +321,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の 'Evita'・図鑑の 'Tiny Pampa'・図鑑の 'Rosea'・図鑑の 'White Feather'）] 耐暑性；強（この品種のページはない。信頼度：低）",
-  "spread_evidence": "[こぼれ種 3／MBG・種] Invasively self-seeds in some warm winter areas.",
+  "spread_evidence": "[こぼれ種 3／MBG・種] Invasively self-seeds in some warm winter areas.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[MBG・種] Invasively self-seeds in some warm winter areas.",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Arching; Clumping; Weeping／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "なし",

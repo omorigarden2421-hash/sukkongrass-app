@@ -215,7 +215,8 @@
   },
   "spread_modes": {
    "value": [
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -347,7 +348,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Cultivars often do not come true from seed, however, so deadheading spent cultivar flowers may be necessary in order to prevent unwanted self-seeding.\n[地下茎 2／MBG・種] Noteworthy Characteristics Prunella grandiflora , commonly known as large-flowered self-heal, is a sprawling, low-growing, mat-forming, semi-evergreen perennial of the mint family that typically grows to 6-12” tall, but ",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Cultivars often do not come true from seed, however, so deadheading spent cultivar flowers may be necessary in order to prevent unwanted self-seeding.\n[地下茎 2／MBG・種] Noteworthy Characteristics Prunella grandiflora , commonly known as large-flowered self-heal, is a sprawling, low-growing, mat-forming, semi-evergreen perennial of the mint family that typically grows to 6-12” tall, but \n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
   "mixing_evidence": "[MBG・種] Perhaps too aggressive to plant near choice rock garden plants.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、Jelitto",

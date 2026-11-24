@@ -211,10 +211,14 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "地下茎",
+    "こぼれ種"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園）"
   },
   "self_seed_level": {
    "value": 1,
@@ -349,7 +353,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/種] In the southeast, it will appreciate some afternoon shade.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] Deadhead spent flower heads to avoid unwanted self-seeding.\n[地下茎 2／NC State・種] This plant can spread by rhizomes or reseeding.\n[地下茎の食い違い] MBG は 3 相当",
+  "spread_evidence": "[こぼれ種 1／NC State・種] Deadhead spent flower heads to avoid unwanted self-seeding.\n[地下茎 2／NC State・種] This plant can spread by rhizomes or reseeding.\n[地下茎の食い違い] MBG は 3 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "[MBG・品種] Self-seeding and rhizomatous can spread rapidly in optimum growing conditions.",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら、シカゴ植物園",

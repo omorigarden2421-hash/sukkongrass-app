@@ -204,7 +204,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "地下茎"
    ],
    "method": "記載",
    "sources": [
@@ -339,7 +340,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 1／MBG・種] Noteworthy Characteristics Iris ensata , commonly called Japanese iris or Japanese water iris, is a rhizomatous beardless perennial iris that grows in slowly expanding clumps to 2-4’ tall.",
+  "spread_evidence": "[地下茎 1／MBG・種] Noteworthy Characteristics Iris ensata , commonly called Japanese iris or Japanese water iris, is a rhizomatous beardless perennial iris that grows in slowly expanding clumps to 2-4’ tall.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters",

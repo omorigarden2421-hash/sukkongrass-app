@@ -204,7 +204,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎"
    ],
    "method": "記載",
    "sources": [
@@ -279,13 +279,15 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s06",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -333,7 +335,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] Blood iris is a rhizomatous plant in the iris family (Iridaceae) native to damp meadows and streambanks from Russia to Korea..",
+  "spread_evidence": "[地下茎 2／NC State・種] Blood iris is a rhizomatous plant in the iris family (Iridaceae) native to damp meadows and streambanks from Russia to Korea..\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS",

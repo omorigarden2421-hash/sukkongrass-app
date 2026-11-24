@@ -199,7 +199,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -325,7 +326,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/種] Intolerant of the hot and humid conditions of the deep South.",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Deadhead to prevent self-seeding.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Deadhead to prevent self-seeding.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[MBG・種] Noteworthy Characteristics Anthemis tinctoria , commonly called golden chamomile or golden marguerite, is an erect, clump-forming, shrubby perennial growing to 3' tall which features profuse 1.5\" diam",
   "sources_with_cultivar_page": "Gaißmayer、Jelitto",

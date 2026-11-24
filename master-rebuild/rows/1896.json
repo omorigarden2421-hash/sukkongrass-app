@@ -199,7 +199,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -273,11 +274,13 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s02"
+    "s02",
+    "s18"
    ],
    "level": "species"
   },
@@ -327,7 +330,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/種] Best performance occurs in cool summer climates.\n[MBG/種] Plants are intolerant of the high heat and humidity of summers in the deep South.\n[MBG/種] Leaf spot and powdery mildew can be problems, particularly in humid climates.\n[MBG/種] Foliage may scorch in too much sun.",
-  "spread_evidence": "[こぼれ種 2／MBG・種] Easily self-seeds in optimum growing conditions.",
+  "spread_evidence": "[こぼれ種 2／MBG・種] Easily self-seeds in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[MBG・種] Noteworthy Characteristics Polemonium caeruleum , commonly called Jacob’s ladder, is a generally erect, clump-forming perennial that typically forms a foliage mound to 18-24” tall and as wide.",
   "sources_with_cultivar_page": "なし",

@@ -197,10 +197,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "地下茎"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、Walters）"
   },
   "self_seed_level": {
    "value": null,
@@ -314,7 +317,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[地下茎 1／MBG・品種] 'Lacquer Leaf' is a rhizomatous, clump-forming foamflower hybrid which is noted for its glossy (lacquered) foliage and its dense spires of light pink flowers in spring.",
+  "spread_evidence": "[地下茎 1／MBG・品種] 'Lacquer Leaf' is a rhizomatous, clump-forming foamflower hybrid which is noted for its glossy (lacquered) foliage and its dense spires of light pink flowers in spring.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] It forms a basal foliage mound of lobed, maple-like dark green leaves.",
   "sources_with_cultivar_page": "MBG、Walters",

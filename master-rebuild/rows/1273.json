@@ -209,7 +209,8 @@
   },
   "spread_modes": {
    "value": [
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -284,10 +285,15 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -338,7 +344,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Plants prefer some part afternoon shade in hot summer climates.\n[RHS/品種] Aspect: West-facing or East-facing or South-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] This is an aggressive perennial of wetland areas which can spread invasively by creeping rhizomes and self-seeding to form large colonies which displace native vegetation and disrupt habitat needed by certain types of wa\n[地下茎 3／MBG・種] This is an aggressive perennial of wetland areas which can spread invasively by creeping rhizomes and self-seeding to form large colonies which displace native vegetation and disrupt habitat needed by certain types of wa\n[地下茎の食い違い] stauden.de は 2 相当",
+  "spread_evidence": "[こぼれ種 1／MBG・種] This is an aggressive perennial of wetland areas which can spread invasively by creeping rhizomes and self-seeding to form large colonies which displace native vegetation and disrupt habitat needed by certain types of wa\n[地下茎 3／MBG・種] This is an aggressive perennial of wetland areas which can spread invasively by creeping rhizomes and self-seeding to form large colonies which displace native vegetation and disrupt habitat needed by certain types of wa\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] This is an aggressive perennial of wetland areas which can spread invasively by creeping rhizomes and self-seeding to form large colonies which displace native vegetation and disrupt habitat needed by",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、Jelitto",

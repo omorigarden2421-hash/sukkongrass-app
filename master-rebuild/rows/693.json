@@ -259,10 +259,15 @@
    "level": "cultivar"
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "初夏",
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s21"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",

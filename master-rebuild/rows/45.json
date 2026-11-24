@@ -211,7 +211,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -285,14 +286,16 @@
   },
   "pruning_codes": {
    "value": [
-    "花後",
-    "早春"
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18",
+    "s17",
+    "s20"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -345,7 +348,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／Walters・品種] Even in cold regions this will act as a self-seeding annual and bloom all season long.\n[こぼれ種の食い違い] Gaißmayer は 2 相当、stauden.de は 2 相当",
+  "spread_evidence": "[こぼれ種 1／Walters・品種] Even in cold regions this will act as a self-seeding annual and bloom all season long.\n[こぼれ種の食い違い] Gaißmayer は 2 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、Jelitto",

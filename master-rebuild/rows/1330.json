@@ -211,7 +211,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -348,7 +349,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の 'Ice Ballet'・図鑑の 'Cinderella'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] ‘Soulmate’ is available from seed and may self-seed in the garden.",
+  "spread_evidence": "[こぼれ種 1／MBG・品種] ‘Soulmate’ is available from seed and may self-seed in the garden.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Asclepias incarnata , commonly called swamp milkweed, is an erect, clump-forming, herbaceous perennial commonly found in swamps, river bottomlands and wet meadows throughout",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Jelitto",

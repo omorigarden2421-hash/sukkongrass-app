@@ -223,7 +223,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎"
    ],
    "method": "記載",
    "sources": [
@@ -298,13 +298,17 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s06",
+    "s10",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -359,7 +363,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら △）\n[MBG/種] Foliage tends to burn in hot, dry, sunny summer conditions.\n[NC State/種] Diseases, Insect Pests, and Other Plant Problems: Foliage can burn in hot, dry conditions.\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] Japanese thimbleweed can be slow to establish, but over time, it will naturalize in the landscape by fibrous suckering roots to form colonies.",
+  "spread_evidence": "[地下茎 2／NC State・種] Japanese thimbleweed can be slow to establish, but over time, it will naturalize in the landscape by fibrous suckering roots to form colonies.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Spreading",
   "sources_with_cultivar_page": "RHS、Walters",

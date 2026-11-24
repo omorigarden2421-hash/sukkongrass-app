@@ -210,7 +210,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
+    "地下茎",
     "こぼれ種"
    ],
    "method": "記載",
@@ -340,7 +340,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] Deadhead before seeds form to reduce self-seeding.\n[地下茎 2／MBG・品種] Can self-seed and spread by underground rhizomes.",
+  "spread_evidence": "[こぼれ種 1／MBG・品種] Deadhead before seeds form to reduce self-seeding.\n[地下茎 2／MBG・品種] Can self-seed and spread by underground rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] 'Gold Strike' is a compact, mounding selection of silky lady's mantle that features grey-green, lobed foliage with a soft, fuzzy texture and loose sprays of pale yellow flowers.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Jelitto",

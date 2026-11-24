@@ -219,7 +219,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎"
    ],
    "method": "記載",
    "sources": [
@@ -291,10 +291,19 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "初夏",
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s06",
+    "s18",
+    "s17"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",
@@ -351,7 +360,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[NC State/種] It is adaptable to clay soils, moist and dry conditions, and hot, humid weather.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] Kalimeris is a flowering, rhizomatous, herbaceous perennial native to Southeastern Siberia, northern China, and central and southern Japan and is a member of the daisy family (Asteraceae).",
+  "spread_evidence": "[地下茎 2／NC State・種] Kalimeris is a flowering, rhizomatous, herbaceous perennial native to Southeastern Siberia, northern China, and central and southern Japan and is a member of the daisy family (Asteraceae).\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Mounding",
   "sources_with_cultivar_page": "RHS、Gaißmayer、Jelitto",

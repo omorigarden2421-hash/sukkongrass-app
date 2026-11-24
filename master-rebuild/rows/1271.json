@@ -210,7 +210,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -280,13 +281,17 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18",
+    "s17",
+    "s20",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -337,7 +342,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Aufkeimende Selbstaussaat beachten und kontrollieren",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Aufkeimende Selbstaussaat beachten und kontrollieren\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、Gaißmayer、おぎはら、Jelitto",

@@ -216,7 +216,6 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
     "ランナー",
     "こぼれ種"
    ],
@@ -299,13 +298,18 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s06",
+    "s10",
+    "s18",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -364,7 +368,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐暑性: 普通（暖地では夏に風とおし、水はけよく）（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[MBG/種] Full sun is best in cool northern summer climates.\n[MBG/種] Prefers part shade in hot summer climates.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] This plant can self-seed and spread.\n[地下茎 3／NC State・種] The clustered bellflower naturalizes by rhizomes and can be invasive, particularly in moist soils.\n[地下茎の食い違い] stauden.de は 2 相当",
+  "spread_evidence": "[こぼれ種 1／NC State・種] This plant can self-seed and spread.\n[地下茎 3／NC State・種] The clustered bellflower naturalizes by rhizomes and can be invasive, particularly in moist soils.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー、こぼれ種）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[Walters・品種] It forms a mound of coarse green leaves low to the ground, with taller stems that bear large, unique, blue and white bi-colour flower clusters in late spring into summer.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、おぎはら",

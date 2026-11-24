@@ -220,7 +220,8 @@
    "value": [
     "株立ち",
     "地下茎",
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -296,13 +297,16 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -355,7 +359,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[MBG/品種] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 1／MBG・品種] Chinese astilbes are slowly spreading, rhizomatous plants which bloom later than the Arendsii hybrids and generally feature hairy, biserrate, elliptic-oval, 3-ternate leaflets.\n[地下茎の食い違い] stauden.de は 2 相当",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 1／MBG・品種] Chinese astilbes are slowly spreading, rhizomatous plants which bloom later than the Arendsii hybrids and generally feature hairy, biserrate, elliptic-oval, 3-ternate leaflets.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎、ランナー）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Astilbe chinensis , commonly called Chinese astilbe, is clump-forming perennials which feature graceful, fern-like mounds of mostly basal, 2-3 ternately compound leaves, usu",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG",

@@ -214,7 +214,6 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
     "ランナー"
    ],
    "method": "記載",
@@ -349,7 +348,7 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/種] It tolerates high heat and nearly full shade but prefers partial shade, or dappled sunlight and moist, fertile soil with good drainage.\n[RHS/品種] Aspect: North-facing or West-facing or South-facing or East-facing",
-  "spread_evidence": "[地下茎 3／NC State・種] Quick ID Stems vine-like, unbranched Leaves opposite, ovate, ciliate Flowers rotate, bluish Insects, Diseases, and Other Plant Problems:  This evergreen can spread aggressively, becoming invasive as it spreads to adjacen\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 3／NC State・種] Quick ID Stems vine-like, unbranched Leaves opposite, ovate, ciliate Flowers rotate, bluish Insects, Diseases, and Other Plant Problems:  This evergreen can spread aggressively, becoming invasive as it spreads to adjacen\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Louis area this plant may survive harsh winters and spread aggressively if planted in the landscape.\n[MBG・種] This plant can escape cultivation and is considered invasive in certain areas.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら",

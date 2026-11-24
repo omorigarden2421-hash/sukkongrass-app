@@ -203,7 +203,6 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
     "ランナー"
    ],
    "method": "記載",
@@ -282,11 +281,15 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s02"
+    "s01",
+    "s02",
+    "s06",
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -341,7 +344,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 3／NC State・種] Best grown in a container as it spreads rampantly.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 3／NC State・種] Best grown in a container as it spreads rampantly.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] The plant spreads aggressively.",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Mentha spicata , commonly called spearmint, is a rhizomatous, upright perennial which is most commonly grown as a culinary herb and/or ground cover.",
   "sources_with_cultivar_page": "RHS、MBG、Gaißmayer",

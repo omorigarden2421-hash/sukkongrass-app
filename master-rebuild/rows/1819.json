@@ -198,10 +198,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "株立ち"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de）"
   },
   "self_seed_level": {
    "value": null,
@@ -319,7 +322,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Louis area, plants will benefit from a placement that will provide some protection from winter wind and sun and from hot summer temperatures.",
-  "spread_evidence": "[地下茎 0／NC State・種] The adult stage is the shrubby non-climbing stage in which stems do not spread or climb, but do produce clusters of greenish-white flowers in early fall followed by blue-black toxic berries.",
+  "spread_evidence": "[地下茎 0／NC State・種] The adult stage is the shrubby non-climbing stage in which stems do not spread or climb, but do produce clusters of greenish-white flowers in early fall followed by blue-black toxic berries.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "[MBG・種] Noteworthy Characteristics Hedera helix , commonly known as English ivy, is a vigorous, aggressive, fast-growing, woody evergreen perennial that is primarily grown as a climbing vine or trailing groun\n[MBG・種] In some climates it is considered highly invasive in woodlands and open areas where it aggressively displaces native vegetation by densely smothering large areas of ground with its trailing densely-le",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Ascending; Climbing; Creeping; Prostrate",
   "sources_with_cultivar_page": "なし",

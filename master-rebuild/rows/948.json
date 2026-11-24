@@ -223,7 +223,6 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
     "ランナー"
    ],
    "method": "記載",
@@ -359,7 +358,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが、高温多湿は嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] It propagates two ways: by stolons, which rapidly form colonies when optimum growing conditions exist, or by seed.\n[地下茎の食い違い] MBG は 1 相当",
+  "spread_evidence": "[地下茎 2／NC State・種] It propagates two ways: by stolons, which rapidly form colonies when optimum growing conditions exist, or by seed.\n[地下茎の食い違い] MBG は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら",

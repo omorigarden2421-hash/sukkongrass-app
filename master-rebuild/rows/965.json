@@ -215,7 +215,6 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
     "ランナー"
    ],
    "method": "記載",
@@ -353,7 +352,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[RHS/品種] Aspect: North-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／stauden.de・種] ausläufertreibend\n[地下茎の食い違い] Gaißmayer は 1 相当",
+  "spread_evidence": "[地下茎 2／stauden.de・種] ausläufertreibend\n[地下茎の食い違い] Gaißmayer は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Mounding",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、シカゴ植物園",

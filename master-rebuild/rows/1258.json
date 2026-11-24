@@ -223,8 +223,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
-    "こぼれ種"
+    "株立ち"
    ],
    "method": "記載",
    "sources": [
@@ -296,13 +295,18 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s06",
+    "s18",
+    "s20",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -356,7 +360,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[おぎはら楽天/種] 耐湿性: やや弱い 高温多湿を嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 0／NC State・種] It is a sterile hybrid plant, the result of a cross between Nepeta racemosa and Nepeta nepetella .",
+  "spread_evidence": "[こぼれ種 0／NC State・種] It is a sterile hybrid plant, the result of a cross between Nepeta racemosa and Nepeta nepetella .\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
   "sources_with_cultivar_page": "RHS、stauden.de、シカゴ植物園",

@@ -187,7 +187,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -256,10 +257,18 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "早春",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s06",
+    "s18",
+    "s17"
+   ],
+   "level": "species"
   },
   "management_type": {
    "value": "A 放任型",
@@ -306,7 +315,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[こぼれ種 1／MBG・種] Spread by rhizomes and self-seeding.\n[地下茎 2／NC State・種] Palm sedge is a rhizomatous herbaceous perennial in the sedge family (Cyperaceae) native to the upper midwestern US and Canada.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Spread by rhizomes and self-seeding.\n[地下茎 2／NC State・種] Palm sedge is a rhizomatous herbaceous perennial in the sedge family (Cyperaceae) native to the upper midwestern US and Canada.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Arching; Clumping; Spreading／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "なし",

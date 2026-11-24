@@ -228,7 +228,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -298,13 +299,17 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s10",
+    "s18",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -362,7 +367,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿は嫌います（蒸れ 弱 相当）\n[MBG/種] Plant 18-24\" apart to promote good air circulation.\n[MBG/種] Good air circulation is the best prescription for minimizing the occurrence of these diseases.\n[NC State/種] Provide good air circulation to decrease fungal disease problems.\n[Walters/品種] Very tolerant of hot, dry sites once established.\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
-  "spread_evidence": "[こぼれ種 1／MBG・種] May self-seed.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] May self-seed.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・種] Habit/Form: Erect; Multi-stemmed",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",

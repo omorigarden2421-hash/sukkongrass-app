@@ -203,10 +203,14 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "ランナー",
+    "こぼれ種"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、stauden.de、シカゴ植物園）"
   },
   "self_seed_level": {
    "value": 2,
@@ -275,10 +279,14 @@
    "level": "species"
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -323,7 +331,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Appreciates some light afternoon shade in hot, humid climates.",
-  "spread_evidence": "[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.\n[地下茎 2／MBG・種] Spreads by creeping stems (stolons) that root as they go along the ground.",
+  "spread_evidence": "[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.\n[地下茎 2／MBG・種] Spreads by creeping stems (stolons) that root as they go along the ground.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Mounding; Spreading",
   "sources_with_cultivar_page": "Gaißmayer",

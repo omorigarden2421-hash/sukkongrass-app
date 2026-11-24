@@ -202,8 +202,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -279,10 +279,17 @@
    "level": "species"
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s06",
+    "s18"
+   ],
+   "level": "species"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -331,7 +338,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[NC State/種] It tolerates the heat and humidity of southern summers well and is an excellent choice for a late-season pollinator plant, providing nectar for butterflies, moths, bees, and other pollinators when many plants are finished blooming.",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 3／NC State・種] It can spread aggressively.\n[地下茎の食い違い] stauden.de は 2 相当",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 3／NC State・種] It can spread aggressively.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・種] Habit/Form: Ascending; Erect",
   "sources_with_cultivar_page": "なし",

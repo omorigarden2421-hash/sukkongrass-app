@@ -205,7 +205,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎"
    ],
    "method": "記載",
    "sources": [
@@ -278,13 +278,17 @@
   },
   "pruning_codes": {
    "value": [
-    "早春"
+    "花後",
+    "早春",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -335,7 +339,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Veronicastrum sibiricum , commonly known as Culver’s root, is a large, upright, rhizomatous perennial of the figwort family that is native to grassy slopes and thickets in China, Japan, Korea, ",
+  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Veronicastrum sibiricum , commonly known as Culver’s root, is a large, upright, rhizomatous perennial of the figwort family that is native to grassy slopes and thickets in China, Japan, Korea, \n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、Jelitto",

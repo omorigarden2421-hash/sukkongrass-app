@@ -222,7 +222,8 @@
   },
   "spread_modes": {
    "value": [
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -249,7 +250,7 @@
    "level": "species"
   },
   "mixing": {
-   "value": "強い（周囲を圧迫、配置注意）",
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
     "s18",
@@ -301,13 +302,19 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s06",
+    "s10",
+    "s18",
+    "s17"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -364,8 +371,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/種] If plants dry out, the leaves become scorched, but the plant can be cut back hard to generate new growth.\n[RHS/品種] Aspect: North-facing or West-facing or East-facing or South-facing",
-  "spread_evidence": "[こぼれ種 2／NC State・種] It freely self-seeds and can spread out of control.\n[地下茎 2／stauden.de・種] ausläufertreibend",
-  "mixing_evidence": "[stauden.de・種] Wuchsstärke: wuchernd\n[NC State・種] Some Midwestern states consider this plant a noxious weed and do not allow it to be grown or transplanted where there is any danger of it spreading.",
+  "spread_evidence": "[こぼれ種 2／NC State・種] It freely self-seeds and can spread out of control.\n[地下茎 2／stauden.de・種] ausläufertreibend\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
+  "mixing_evidence": "[stauden.de・種] Wuchsstärke: wuchernd\n[NC State・種] Some Midwestern states consider this plant a noxious weed and do not allow it to be grown or transplanted where there is any danger of it spreading.\n[管理タイプの見直し] 文を読んで隔離推奨型にしたので、強い（周囲を圧迫、配置注意） から 侵略的 にそろえた",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"

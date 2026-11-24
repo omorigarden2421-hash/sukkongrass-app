@@ -186,7 +186,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -253,10 +254,15 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18",
+    "s20"
+   ],
+   "level": "species"
   },
   "management_type": {
    "value": "A 放任型",
@@ -301,7 +307,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強",
-  "spread_evidence": "[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.",
+  "spread_evidence": "[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Erect; Mounding; Spreading",
   "sources_with_cultivar_page": "なし",

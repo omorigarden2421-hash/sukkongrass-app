@@ -222,7 +222,8 @@
   },
   "spread_modes": {
    "value": [
-    "地下茎"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -347,7 +348,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/種] However, plants often struggle in the hot and humid summers of the deep South where they appreciate afternoon shade or sun dappled shade.\n[RHS/品種] Aspect: West-facing or North-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Plants may self-seed in optimum growing conditions.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Plants may self-seed in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS",

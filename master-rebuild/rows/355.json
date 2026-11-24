@@ -200,10 +200,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "株立ち"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：RHS、Walters、stauden.de）"
   },
   "self_seed_level": {
    "value": null,
@@ -267,14 +270,13 @@
   },
   "pruning_codes": {
    "value": [
-    "花後",
-    "秋"
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
     "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -328,7 +330,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 0／Walters・品種] Not invasive.",
+  "spread_evidence": "[地下茎 0／Walters・品種] Not invasive.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[Walters・品種] Plants are mounding, bearing sprays of tiny white flowers in late summer.",
   "sources_with_cultivar_page": "RHS、Walters",

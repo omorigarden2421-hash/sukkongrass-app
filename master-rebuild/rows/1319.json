@@ -210,10 +210,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "こぼれ種"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
   },
   "self_seed_level": {
    "value": 1,
@@ -275,13 +278,16 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "初夏",
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s10",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",
@@ -337,7 +343,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Tolerant of heat, humidity and, once established, some drought.\n[RHS/品種] Aspect: North-facing or West-facing or East-facing or South-facing",
-  "spread_evidence": "[こぼれ種 1／Walters・品種] Does not self seed around.",
+  "spread_evidence": "[こぼれ種 1／Walters・品種] Does not self seed around.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・種] Noteworthy Characteristics Persicaria polymorpha is a shrubby, clump-forming perennial featuring plumes (panacled racemes) of creamy white flowers reminiscent of goat's beard ( Aruncus dioecus ) which",
   "sources_with_cultivar_page": "RHS、Walters、おぎはら",

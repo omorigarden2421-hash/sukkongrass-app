@@ -202,7 +202,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -333,7 +334,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿 は嫌います（蒸れ 弱 相当）\n[NC State/種] Foxglove does best with afternoon shade.",
-  "spread_evidence": "[こぼれ種 2／MBG・種] If flower spikes are left in place after flowering and allowed to go to seed, plants will act more as biennials and will, in optimum growing conditions, freely self-seed.\n[こぼれ種の食い違い] Gaißmayer は 1 相当、stauden.de は 1 相当",
+  "spread_evidence": "[こぼれ種 2／MBG・種] If flower spikes are left in place after flowering and allowed to go to seed, plants will act more as biennials and will, in optimum growing conditions, freely self-seed.\n[こぼれ種の食い違い] Gaißmayer は 1 相当、stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Dense; Erect",
   "sources_with_cultivar_page": "おぎはら、Jelitto",

@@ -220,7 +220,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -291,10 +292,16 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s06",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -344,7 +351,7 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Uses Ground cover for hot, dry areas.\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／NC State・種] It can be grown from seed but does not freely self-seed in the garden.\n[地下茎 2／NC State・種] The root system is fibrous and short-rhizomatous.",
+  "spread_evidence": "[こぼれ種 2／NC State・種] It can be grown from seed but does not freely self-seed in the garden.\n[地下茎 2／NC State・種] The root system is fibrous and short-rhizomatous.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・種] Habit/Form: Arching; Dense; Mounding／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、Gaißmayer、Jelitto",

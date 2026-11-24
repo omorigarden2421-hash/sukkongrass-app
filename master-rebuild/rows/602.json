@@ -210,10 +210,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "地下茎"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters）"
   },
   "self_seed_level": {
    "value": null,
@@ -279,13 +282,16 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s10"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -339,7 +345,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/品種] Best with a full sun exposure, but tolerates some light shade in hot summer climates.\n[NC State/属] Light shade is helpful if summers are hot and the plant should be sited in a location protected from wind.\n[RHS/品種] Aspect: South-facing",
-  "spread_evidence": "[地下茎 1／MBG・品種] Noteworthy Characteristics Kniphofia is a genus of 60-70 species of evergreen to deciduous, mostly clump-forming, rhizomatous perennials featuring linear strap-shaped basal leaves and showy bottlebrush-like flower spikes",
+  "spread_evidence": "[地下茎 1／MBG・品種] Noteworthy Characteristics Kniphofia is a genus of 60-70 species of evergreen to deciduous, mostly clump-forming, rhizomatous perennials featuring linear strap-shaped basal leaves and showy bottlebrush-like flower spikes\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] From the center of a basal tuft (rosette) of coarse, strap-shaped, linear leaves rises a succession of thick, naked flower scapes featuring dense, terminal, spike-like racemes of drooping, short-stalk",
   "sources_with_cultivar_page": "RHS、MBG、Walters",

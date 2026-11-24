@@ -218,7 +218,6 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
     "ランナー"
    ],
    "method": "記載",
@@ -295,10 +294,18 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s10",
+    "s18",
+    "s17",
+    "s21"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -354,7 +361,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[NC State/種] It tolerates high heat and nearly full shade but prefers full sun, partial shade, or dappled sunlight and moist soil with good drainage.\n[Walters/品種] Very shade tolerant, the leaves will sometimes scorch in too much sun.\n[食い違い] 欧米の文献（品種・種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or East-facing or North-facing or West-facing",
-  "spread_evidence": "[地下茎 3／NC State・種] Insects, Diseases, and Other Plant Problems: Vine stem canker (blight) can damage or kill large patches and periwinkle can spread aggressively into adjacent lawns, gardens and natural areas.\n[地下茎の食い違い] stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 3／NC State・種] Insects, Diseases, and Other Plant Problems: Vine stem canker (blight) can damage or kill large patches and periwinkle can spread aggressively into adjacent lawns, gardens and natural areas.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Can spread aggressively into adjacent lawns or garden areas.",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters",

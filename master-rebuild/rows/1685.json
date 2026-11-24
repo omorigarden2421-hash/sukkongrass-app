@@ -215,10 +215,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "地下茎"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS）"
   },
   "self_seed_level": {
    "value": null,
@@ -284,10 +287,16 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s02",
+    "s06"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "D 毎年株更新型",
@@ -335,7 +344,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Plants become stressed and more vulnerable to diseases such as canker in hot summer climates south of USDA Zone 7.\n[NC State/種] This shrub is more vulnerable to diseases in hot summer climates, especially south of USDA  Zone 7.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] It tends to sucker to form large colonies, which may be objectionable.\n[地下茎の食い違い] MBG は 0 相当",
+  "spread_evidence": "[地下茎 2／NC State・種] It tends to sucker to form large colonies, which may be objectionable.\n[地下茎の食い違い] MBG は 0 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "[NC State・種] The plant is weedy, and its suckering can make it difficult to remove.",
   "silhouette_evidence": "[RHS・品種] Habit: Suckering",
   "sources_with_cultivar_page": "RHS",

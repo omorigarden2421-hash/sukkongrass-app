@@ -222,7 +222,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -296,14 +297,18 @@
   },
   "pruning_codes": {
    "value": [
-    "花後",
-    "早春"
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s06",
+    "s10",
+    "s18",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -359,7 +364,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Some susceptibility to rust, particularly in hot and humid summer climates.\n[NC State/品種] In hot and humid climates, this grass can be susceptible to rust.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] Plants may self-seed in optimum growing conditions but cultivars may not come true from seed.\n[地下茎 2／NC State・品種] It spreads by creeping rhizomes.\n[地下茎の食い違い] MBG は 1 相当",
+  "spread_evidence": "[こぼれ種 1／MBG・品種] Plants may self-seed in optimum growing conditions but cultivars may not come true from seed.\n[地下茎 2／NC State・品種] It spreads by creeping rhizomes.\n[地下茎の食い違い] MBG は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・品種] Habit/Form: Clumping; Columnar; Dense; Erect",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら",

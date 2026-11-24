@@ -211,10 +211,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "ランナー"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、RHS、Walters、stauden.de）"
   },
   "self_seed_level": {
    "value": null,
@@ -333,7 +336,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Plants prefer cool summers and warm winters, which makes them less than ideally suited for the St.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・種] It typically grows 8-12” tall and spreads by creeping stems to 3’ wide.",
+  "spread_evidence": "[地下茎 2／MBG・種] It typically grows 8-12” tall and spreads by creeping stems to 3’ wide.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Walters",

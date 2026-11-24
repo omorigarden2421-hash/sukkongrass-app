@@ -186,10 +186,13 @@
    "level": "cultivar"
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "地下茎"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de）"
   },
   "self_seed_level": {
    "value": null,
@@ -294,7 +297,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[地下茎 1／NC State・種] It will also spread by rhizomes and can be divided, when necessary, but it is not aggressive Most of the thread-like foliage occurs at the base of the plant, with widely spaced leaves on the stems.",
+  "spread_evidence": "[地下茎 1／NC State・種] It will also spread by rhizomes and can be divided, when necessary, but it is not aggressive Most of the thread-like foliage occurs at the base of the plant, with widely spaced leaves on the stems.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect",
   "sources_with_cultivar_page": "Jelitto",

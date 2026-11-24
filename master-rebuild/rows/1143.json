@@ -216,7 +216,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -292,13 +293,16 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s02"
+    "s01",
+    "s06",
+    "s18"
    ],
-   "level": "genus"
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -350,7 +354,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/同じ種の別品種（B01・B02）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/属] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.\n[NC State/種] In hot summer or periods of drought, the foliage may decline if the soil is not kept moist.\n[食い違い] 欧米の文献（属・種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: East-facing or West-facing or North-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] Their root system is rhizomatous.",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] Their root system is rhizomatous.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: kissenartig bis kissenbildend / ausladend bis breitausladend / buschig, dichtbuschig bis lockerbuschig / aufrechte Stängel mit grundständigem Blattschopf",
   "sources_with_cultivar_page": "RHS、stauden.de、Jelitto",

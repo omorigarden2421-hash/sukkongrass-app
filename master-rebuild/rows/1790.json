@@ -215,7 +215,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -289,10 +290,16 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s06",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -345,7 +352,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Ep06・図鑑の 'Atropurpureum'・図鑑の 'Phantom'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/品種] Tolerates some light afternoon shade, particularly in hot summer climates.\n[MBG/品種] Leaves may scorch if soils are allowed to dry out.\n[NC State/種] It does best in average, medium to wet soils in full sun, but tolerates some light afternoon shade in hot summer climates.\n[NC State/種] In the heat, leaves may become scorched if the soil is allowed to dry out.\n[食い違い] 欧米の文献（品種・種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 2／NC State・種] The root system is fibrous and rhizomatous.",
+  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 2／NC State・種] The root system is fibrous and rhizomatous.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] It is an erect, clump-forming perennial that features coarsely-serrated, lance-shaped, dark green leaves (to 8” long), typically in whorls of 3-4 on sturdy, wine-red stems.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、シカゴ植物園",

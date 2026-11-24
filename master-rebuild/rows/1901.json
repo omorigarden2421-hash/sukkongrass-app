@@ -264,10 +264,16 @@
    "level": "species"
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s06",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",

@@ -208,7 +208,6 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
     "地下茎"
    ],
    "method": "記載",
@@ -281,13 +280,15 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s10",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -340,7 +341,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/種] Full sun will scorch the leaves.\n[RHS/品種] Aspect: East-facing or North-facing（西向き・南向きが入っていない）",
-  "spread_evidence": "[地下茎 2／NC State・種] The plant spreads through underground rhizomes.\n[地下茎の食い違い] MBG は 1 相当",
+  "spread_evidence": "[地下茎 2／NC State・種] The plant spreads through underground rhizomes.\n[地下茎の食い違い] MBG は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] Leafy, arching stems produce a fall display of bizarre star-shaped flowers, excellent for cutting.",
   "sources_with_cultivar_page": "RHS、MBG、Walters",

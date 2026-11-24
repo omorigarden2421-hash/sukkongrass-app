@@ -226,7 +226,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -297,13 +298,17 @@
   },
   "pruning_codes": {
    "value": [
-    "早春"
+    "花後",
+    "早春",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -355,7 +360,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[MBG/種] Plants dislike high heat and humidity and often perform poorly south of USDA Zone 7.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] May self-seed in optimum growing conditions.\n[こぼれ種の食い違い] stauden.de は 2 相当",
+  "spread_evidence": "[こぼれ種 1／MBG・種] May self-seed in optimum growing conditions.\n[こぼれ種の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[MBG・種] Numerous flower stems rise in summer from the foliage mound to a height of 3’ bearing wide, airy panicles of tiny, purple to bronze flowers which form a cloud over the foliage that is attractive when ／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、Jelitto",

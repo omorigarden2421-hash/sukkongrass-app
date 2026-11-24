@@ -212,10 +212,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "地下茎"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters）"
   },
   "self_seed_level": {
    "value": null,
@@ -281,13 +284,16 @@
   "pruning_codes": {
    "value": [
     "花後",
-    "秋"
+    "初夏",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s10"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",
@@ -343,7 +349,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[MBG/品種] Tolerant of heat, humidity and some drought.\n[MBG/品種] However, in hot summer climates like the St.\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／MBG・品種] Plants may spread by rhizomes.",
+  "spread_evidence": "[地下茎 2／MBG・品種] Plants may spread by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] A very long-blooming perennial for sunny areas, forming a narrow, upright mound of medium-textured leaves.",
   "sources_with_cultivar_page": "RHS、MBG、Walters",

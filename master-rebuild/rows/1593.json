@@ -200,7 +200,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -270,11 +271,13 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "初夏",
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s02"
+    "s02",
+    "s06"
    ],
    "level": "species"
   },
@@ -322,7 +325,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/種] Good air circulation helps reduce incidence of foliar diseases.",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Easily grown from seed and may self-seed in the garden in optimum growing conditions.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Easily grown from seed and may self-seed in the garden in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Erect",
   "sources_with_cultivar_page": "stauden.de、Gaißmayer",

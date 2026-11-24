@@ -220,8 +220,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -250,10 +250,12 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（NC State・種）。地域によっては侵略的外来種とされている、という記述がある（MBG・種）。NC State・種 の表示: Weedy（雑草化しやすい）",
@@ -298,13 +300,16 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s06",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -358,8 +363,8 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[MBG/種] Prefers part shade in hot summer climates.\n[NC State/種] It can struggle in our hot southern summers, requiring afternoon shade and moist soils and does best in the mountain region of the state.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or East-facing or South-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Promptly remove spent flower stems to encourage additional bloom and to prevent unwanted self-seeding.\n[こぼれ種の食い違い] stauden.de は 2 相当\n[地下茎 2／NC State・種] Fireweed is a rhizomatous perennial wildflower that is easy to grow in full sun to partial shade, high organic matter, and well-drained soil.",
-  "mixing_evidence": "[MBG・種] This plant can be both persistent and aggressive in garden areas.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Promptly remove spent flower stems to encourage additional bloom and to prevent unwanted self-seeding.\n[こぼれ種の食い違い] stauden.de は 2 相当\n[地下茎 2／NC State・種] Fireweed is a rhizomatous perennial wildflower that is easy to grow in full sun to partial shade, high organic matter, and well-drained soil.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "mixing_evidence": "[MBG・種] This plant can be both persistent and aggressive in garden areas.\n[管理タイプの見直し] 文を読んで隔離推奨型にしたので、空欄 から 侵略的 にそろえた",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"

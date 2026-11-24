@@ -200,10 +200,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "こぼれ種"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、おぎはら）"
   },
   "self_seed_level": {
    "value": 1,
@@ -265,10 +268,16 @@
    "level": "species"
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "species"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -312,7 +321,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（F05・F08）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/種] Needs good air circulation (space well and thin out stems as needed) to help combat potential powdery mildew problems.\n[NC State/種] Good air circulation (adequate spacing and thinning of stems as needed) will help combat powdery mildew.",
-  "spread_evidence": "[こぼれ種 1／NC State・種] Removing faded flower panicles will prolong blooming and prevent self-seeding as cultivars do not come true from seed.",
+  "spread_evidence": "[こぼれ種 1／NC State・種] Removing faded flower panicles will prolong blooming and prevent self-seeding as cultivars do not come true from seed.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Erect; Multi-stemmed; Pyramidal",
   "sources_with_cultivar_page": "なし",

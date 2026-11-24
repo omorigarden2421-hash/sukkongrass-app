@@ -217,10 +217,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "地下茎"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら）"
   },
   "self_seed_level": {
    "value": null,
@@ -342,7 +345,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の 'White Pearl'・図鑑の 'Black Negligee'・図鑑の 'Atropurpurea'・図鑑の 'Brunette'・図鑑の 'Pink Spike'）] 耐暑性；中（この品種のページはない。信頼度：低）\n[MBG/種] Foliage tends to scorch and otherwise depreciate if soils are allowed to dry out.\n[MBG/種] Leaf margins may brown up (scorch) and growth may slow down if soils are not kept consistently moist.\n[RHS/品種] Aspect: East-facing or North-facing or West-facing",
-  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Actaea simplex , commonly called bugbane, is a herbaceous, rhizomatous perennial native to forest edges, scrublands, grassy slopes, and other open habitats in eastern and central China, Japan, ",
+  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Actaea simplex , commonly called bugbane, is a herbaceous, rhizomatous perennial native to forest edges, scrublands, grassy slopes, and other open habitats in eastern and central China, Japan, \n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS",

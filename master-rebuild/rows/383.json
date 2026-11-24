@@ -210,10 +210,14 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "地下茎",
+    "ランナー"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
   },
   "self_seed_level": {
    "value": null,
@@ -230,10 +234,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、RHS、Walters、stauden.de、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（MBG・品種）",
@@ -277,13 +282,17 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s10",
+    "s17",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -334,8 +343,8 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが、高温多湿を嫌います 水はけの良い用土、場所を選んでください（蒸れ 弱 相当）\n[MBG/品種] Tolerates light shade, particularly in hot summer climates.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・品種] Plants spread indefinitely by rhizomes/runners.",
-  "mixing_evidence": null,
+  "spread_evidence": "[地下茎 2／MBG・品種] Plants spread indefinitely by rhizomes/runners.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "mixing_evidence": "[管理タイプの見直し] 文を読んで隔離推奨型にしたので、空欄 から 侵略的 にそろえた",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、MBG、Walters、Gaißmayer、おぎはら",
   "sources_used": "MBG、RHS、Walters、stauden.de、おぎはら"

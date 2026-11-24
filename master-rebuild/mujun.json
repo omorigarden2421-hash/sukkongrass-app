@@ -1,0 +1,3062 @@
+[
+ {
+  "調べ方": "地下茎かこぼれ種が 3 なのに、混植適性が「侵略的」でない",
+  "種類": "A",
+  "品種": [
+   {
+    "商品番号": 29,
+    "植物名": "アルケミラ モリス (レディースマントル)",
+    "学名": "Alchemilla mollis",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 47,
+    "植物名": "スピレア（オウゴンバシモツケ）",
+    "学名": "Spiraea japonica 'Goldflame'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": null,
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 344,
+    "植物名": "モナルダ ディディマ 'パノラマレッドシェード'",
+    "学名": "Monarda 'Panorama Red Shades' (Panorama Series)",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": "1",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 615,
+    "植物名": "モナルダ ディディマ 'ブルーストッキング'",
+    "学名": "Monarda didyma 'Blue Stocking'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": null,
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 805,
+    "植物名": "スピレア ジャポニカ 'ゲンペイ'（ゲンペイシモツケ）",
+    "学名": "Spiraea japonica 'Genpei'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": null,
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 1202,
+    "植物名": "セダム レフレクサム",
+    "学名": "Sedum reflexum",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": null,
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 1264,
+    "植物名": "モナルダ ディディマ 'クランベリーレース'",
+    "学名": "Monarda didyma 'Cranberry Lace'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": "1",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 1265,
+    "植物名": "モナルダ ディディマ 'ファイアーボール'",
+    "学名": "Monarda 'Fireball'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": null,
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 1484,
+    "植物名": "スピレア ジャポニカ（シモツケ） 'マジックカーペット'",
+    "学名": "Spiraea japonica f. 'Magic Carpet'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": null,
+     "管理タイプ": "B 花後刈込型"
+    }
+   },
+   {
+    "商品番号": 1524,
+    "植物名": "コータデリア セロアナ（パンパスグラス） 'ミニパンパス'",
+    "学名": "Cortaderia selloana 'Mini Pampas'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "3",
+     "混植適性": null,
+     "管理タイプ": "A 放任型"
+    }
+   },
+   {
+    "商品番号": 1979,
+    "植物名": "ペニセタム アロペキュロイデス 'ブラックビューティー'",
+    "学名": "Pennisetum alopecuroides 'Black Beauty'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種の量(0-3)": "0",
+     "混植適性": "強い（周囲を圧迫、配置注意）",
+     "管理タイプ": "A 放任型"
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "耐暑性 強 なのに、蒸れ耐性 弱（ありうるが、目立つ組み合わせ）",
+  "種類": "B",
+  "品種": [
+   {
+    "商品番号": 35,
+    "植物名": "アルメリア マリティマ 'ルブリフォーリア'",
+    "学名": "Armeria maritima 'Rubrifolia'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 耐えますが高温多湿を嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: West-facing or East-facing or South-facing"
+    }
+   },
+   {
+    "商品番号": 206,
+    "植物名": "フェスツーカ グラウカ 'エリジャーブルー'",
+    "学名": "Festuca glauca 'Elijah Blue'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/種] 耐暑性；強\n[MBG/品種] Plant foliage may decline considerably in hot, humid summers.\n[NC State/種] Short-lived ornamental grass that does not tolerate hot or humid conditions.\n[食い違い] 欧米の文献（品種・種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or East-facing or South-facing"
+    }
+   },
+   {
+    "商品番号": 351,
+    "植物名": "リクニス コロナリア 'エンジェルスブラッシュ'",
+    "学名": "Lychnis coronaria 'Angel's Blush'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿を嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing"
+    }
+   },
+   {
+    "商品番号": 362,
+    "植物名": "リモニウム ラティフォリウム（宿根スターチス）",
+    "学名": "Limonium latifolium",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿は嫌います（蒸れ 弱 相当）\n[MBG/種] Plant 18-24\" apart to promote good air circulation.\n[MBG/種] Good air circulation is the best prescription for minimizing the occurrence of these diseases.\n[NC State/種] Provide good air circulation to decrease fungal disease problems.\n[Walters/品種] Very tolerant of hot, dry sites once established.\n[RHS/品種] Aspect: South-facing（西向きが入っていない）"
+    }
+   },
+   {
+    "商品番号": 436,
+    "植物名": "ノウティア（クナウティア） マセドニカ",
+    "学名": "Knautia macedonica",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（同じ種の別品種から。信頼度：低）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/同じ種の別品種（図鑑の 'Mars Midget'・図鑑の 'Thunder and Lightning'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/種] Species plants in particular often struggle in the heat and humidity of the deep South where tall stems tend to twist and flop in the heat of the summer.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: South-facing or West-facing"
+    }
+   },
+   {
+    "商品番号": 722,
+    "植物名": "フェスツーカ グラウカ 'ボルダーブルー'",
+    "学名": "Festuca glauca 'Boulder Blue'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/種] 耐暑性；強\n[MBG/品種] Plant foliage may decline considerably in hot, humid summers.\n[MBG/品種] Tolerant of heat and drought once established.\n[NC State/種] Short-lived ornamental grass that does not tolerate hot or humid conditions.\n[食い違い] 欧米の文献（品種・種の記述）は 弱 相当。おぎはら植物園の値を採った"
+    }
+   },
+   {
+    "商品番号": 801,
+    "植物名": "セファラリア ギガンチア",
+    "学名": "Cephalaria gigantea",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿は苦手です（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 日向〜やや半日陰（西日 ○ 相当）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing or North-facing"
+    }
+   },
+   {
+    "商品番号": 855,
+    "植物名": "トロリウス チネンシス 'ゴールデンクィーン'",
+    "学名": "Trollius chinensis 'Golden Queen'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[日照] 今のマスターの日照（日向）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；強\n[MBG/品種] This is a cool weather plant.\n[MBG/品種] It dislikes dry soils and hot, humid summers.\n[MBG/品種] It is not recommended for planting south of USDA Zone 7 (some say Zone 6).\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or South-facing"
+    }
+   },
+   {
+    "商品番号": 934,
+    "植物名": "レウカンセマム×スーパーバム (ｼｬｽﾀｰﾃﾞｰｼﾞｰ) 'スノードリフト'",
+    "学名": "Leucanthemum × superbum 'Snowdrift'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿は嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: West-facing or South-facing or East-facing"
+    }
+   },
+   {
+    "商品番号": 940,
+    "植物名": "アンドロポゴン スコパリウス 'プレーリーブルーズ'",
+    "学名": "Schizachyrium scoparium 'Prairie Blues'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）\n[食い違い] 蒸れ: 欧米の文献は 強 相当。控えめな側を採った\n[MBG/品種] Tolerates high heat and humidity.\n[NC State/種] It is well-adapted to southern climates as it tolerates high heat, humidity, and salt.\n[RHS/品種] Aspect: South-facing or West-facing"
+    }
+   },
+   {
+    "商品番号": 1017,
+    "植物名": "エキノプス 'スターフロスト'",
+    "学名": "Echinops bannaticus 'Star Frost'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿は嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[RHS/品種] Aspect: South-facing or East-facing or West-facing"
+    }
+   },
+   {
+    "商品番号": 1154,
+    "植物名": "スカビオサ オクロレウカ 'ムーンダンス'",
+    "学名": "Scabiosa columbaria subsp. ochroleuca 'Moon Dance'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿は苦手です（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 日向〜やや半日陰（西日 ○ 相当）\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing"
+    }
+   },
+   {
+    "商品番号": 1174,
+    "植物名": "レウカンセマム×スーパーバム 'ブロードウェイライツ'",
+    "学名": "Leucanthemum ×superbum 'Broadway Lights'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿は嫌います（蒸れ 弱 相当）\n[MBG/品種] Tolerates some light shade, particularly in hot summer climates.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or East-facing"
+    }
+   },
+   {
+    "商品番号": 1258,
+    "植物名": "ネペタ ファッシニアイ 'ドロップモア'",
+    "学名": "Nepeta 'Dropmore'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/種] 耐暑性；強\n[おぎはら楽天/種] 耐湿性: やや弱い 高温多湿を嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: South-facing or West-facing"
+    }
+   },
+   {
+    "商品番号": 1315,
+    "植物名": "ネペタ ファッシニアイ 'ジュニアウォーカー'",
+    "学名": "Nepeta × faassenii 'Junior Walker'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿を嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: South-facing or West-facing"
+    }
+   },
+   {
+    "商品番号": 1325,
+    "植物名": "ミューレンベルギア レバコーニ 'アンダウンテッド'",
+    "学名": "Muhlenbergia reverchonii 'Undaunted'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）"
+    }
+   },
+   {
+    "商品番号": 1334,
+    "植物名": "アキレア 'テラコッタ'",
+    "学名": "Achillea 'Terracotta'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが、高温多湿は嫌います（蒸れ 弱 相当）\n[食い違い] 蒸れ: 欧米の文献は 強 相当。控えめな側を採った\n[MBG/品種] Tolerant of heat and humidity, but flower color may fade in extended, hot summer weather.\n[RHS/品種] Aspect: South-facing or East-facing or West-facing"
+    }
+   },
+   {
+    "商品番号": 1388,
+    "植物名": "ダイアンサス デルトイデス 'アークティックファイヤー'",
+    "学名": "Dianthus deltoides 'Arctic Fire'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿を嫌います（蒸れ 弱 相当）\n[MBG/種] Tolerates some part afternoon shade, particularly in hot summer climates.\n[MBG/種] Leaf spot can be troublesome in humid summers, particularly where plants are crowded.\n[NC State/種] Problems:  Leaf spot can infect plants in humid summers, where plants are crowded.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing"
+    }
+   },
+   {
+    "商品番号": 1468,
+    "植物名": "アキレア ミレフォリウム 'レッドベルベット'",
+    "学名": "Achillea millefolium 'Red Velvet'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが、高温多湿は嫌います（蒸れ 弱 相当）\n[MBG/種] Plants also tolerate hot, humid summers and drought.\n[Walters/品種] Heat tolerant.\n[RHS/品種] Aspect: West-facing or East-facing or South-facing"
+    }
+   },
+   {
+    "商品番号": 1502,
+    "植物名": "ミューレンベルギア リンドハイメリ",
+    "学名": "Muhlenbergia lindheimeri",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）\n[NC State/種] It is deer-resistant and drought- and heat-tolerant."
+    }
+   },
+   {
+    "商品番号": 1538,
+    "植物名": "ノウティア（ｸﾅｳﾃｨｱ） マセドニカ 'ミジェットモーヴ'",
+    "学名": "Knautia macedonica 'Midget Mauves'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（同じ種の別品種から。信頼度：低）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/同じ種の別品種（図鑑の 'Mars Midget'・図鑑の 'Thunder and Lightning'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/種] Species plants in particular often struggle in the heat and humidity of the deep South where tall stems tend to twist and flop in the heat of the summer.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の同じ種の品種の値を採った"
+    }
+   },
+   {
+    "商品番号": 1624,
+    "植物名": "ルドベキア フルギダ 'リトルゴールドスター'",
+    "学名": "Rudbeckia fulgida 'Little Goldstar'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿は嫌います（蒸れ 弱 相当）\n[MBG/品種] Good air circulation is appreciated.\n[NC State/種] It also bears up under hot, humid summers and, once established, will tolerate drought.\n[RHS/品種] Aspect: West-facing or East-facing or South-facing"
+    }
+   },
+   {
+    "商品番号": 1782,
+    "植物名": "ミューレンベルギア カピラリス",
+    "学名": "Muhlenbergia capillaris",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）\n[食い違い] 蒸れ: 欧米の文献は 強 相当。控えめな側を採った\n[MBG/種] Tolerant of heat, humidity and drought, but generally grows taller with consistent moisture.\n[NC State/種] Muhly grass tolerates heat, humidity, drought, and poor soil and is highly salt-tolerant.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing"
+    }
+   },
+   {
+    "商品番号": 1786,
+    "植物名": "ムクデニア ロッシー 'カラスバ'（イワヤツデ・タンチョウ草）",
+    "学名": "Mukdenia rossii 'Karasuba'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 日向〜やや半日陰（西日 ○ 相当）\n[MBG/品種] However, plants often struggle in the hot and humid summers of the deep South where they appreciate afternoon shade or sun dappled shade.\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: North-facing or West-facing or East-facing"
+    }
+   },
+   {
+    "商品番号": 1825,
+    "植物名": "コエレリア グラウカ",
+    "学名": "Koeleria glauca",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿を嫌い、蒸れやすい（蒸れ 弱 相当）\n[NC State/種] Large blue hair grass grows actively during the cool seasons, but it may go partially dormant in hot weather.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or East-facing or South-facing or North-facing"
+    }
+   },
+   {
+    "商品番号": 1904,
+    "植物名": "フェスツーカ スコパリア（ホビット）",
+    "学名": "Festuca gautieri",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿を嫌い、蒸れやすい（蒸れ 弱 相当）\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing"
+    }
+   },
+   {
+    "商品番号": 1943,
+    "植物名": "エキノプス リトロ 'プラチナブルー'",
+    "学名": "Echinops ritro subsp. ruthenicus 'Platinum Blue'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿は嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[RHS/品種] Aspect: South-facing or East-facing or West-facing"
+    }
+   },
+   {
+    "商品番号": 1959,
+    "植物名": "ネペタ 'ピンクキャンディ'",
+    "学名": "Nepeta 'Pink Candy'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 高温多湿を嫌います（蒸れ 弱 相当）"
+    }
+   },
+   {
+    "商品番号": 1961,
+    "植物名": "アキレア 'ノブレッサ'",
+    "学名": "Achillea ptarmica 'Noblessa'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが、高温多湿は嫌います（蒸れ 弱 相当）\n[RHS/品種] Aspect: South-facing or West-facing"
+    }
+   },
+   {
+    "商品番号": 1968,
+    "植物名": "カレックス 'エバーゴールド'",
+    "学名": "Carex oshimensis 'Evergold'",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；強\n[MBG/品種] Plants generally dislike hot and humid summer climates.\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing"
+    }
+   },
+   {
+    "商品番号": 1974,
+    "植物名": "スティパ テヌイッシマ（エンジェルヘアー・ポニーテール）",
+    "学名": "Stipa tenuissima",
+    "値": {
+     "耐暑性": "強",
+     "蒸れ耐性": "弱",
+     "耐暑性の決め方": "おぎはら（品種のページ）",
+     "暑さ・蒸れ・西日の根拠": "[おぎはら/品種] 耐暑性；強\n[NC State/種] This plant will not do well in the hot humid conditions of the southeast.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing or North-facing"
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "外来種リストに載っているのに、要管理・隔離推奨のどれでもない",
+  "種類": "B",
+  "品種": [
+   {
+    "商品番号": 45,
+    "植物名": "エリゲロン カルバンスキャナス 'プロフュージョン'（ｹﾞﾝﾍﾟｲｺｷﾞｸ）",
+    "学名": "Erigeron karvinskianus 'Profusion'",
+    "値": {
+     "外来種リスト": "防除検討外来種（ペラペラヨメナ(ペラペラヒメジョオン、メキシコヒナギク、エリゲロン・カルビンスキアヌス、ゲンペイコギク)）",
+     "管理タイプ": "A 放任型",
+     "混植適性": "普通（混植可）",
+     "リスクタグ": null
+    }
+   },
+   {
+    "商品番号": 262,
+    "植物名": "ユッカ グロリオーサ 'バリエガータ'",
+    "学名": "Yucca gloriosa 'Variegata'",
+    "値": {
+     "外来種リスト": "防除推進外来種（アツバキミガヨラン（ユッカラン、ユッカ））",
+     "管理タイプ": "A 放任型",
+     "混植適性": null,
+     "リスクタグ": null
+    }
+   },
+   {
+    "商品番号": 353,
+    "植物名": "クロコスミア 'ソルファテール'",
+    "学名": "Crocosmia × crocosmiiflora 'Solfatare'",
+    "値": {
+     "外来種リスト": "防除検討外来種（ヒメヒオウギズイセン（ヒメヒオオギズイセン、モントブレチア、クロコスミア））",
+     "管理タイプ": "B 花後刈込型",
+     "混植適性": "普通（混植可）",
+     "リスクタグ": null
+    }
+   },
+   {
+    "商品番号": 733,
+    "植物名": "クロコスミア 'ルシファー'",
+    "学名": "Crocosmia 'Lucifer'",
+    "値": {
+     "外来種リスト": "防除検討外来種（ヒメヒオウギズイセン（ヒメヒオオギズイセン、モントブレチア、クロコスミア））",
+     "管理タイプ": "B 花後刈込型",
+     "混植適性": "普通（混植可）",
+     "リスクタグ": null
+    }
+   },
+   {
+    "商品番号": 903,
+    "植物名": "アスター ノビベルギ 'プロフェサーアントンキッペンバーグ'",
+    "学名": "Symphyotrichum novi-belgii 'Professor Anton Kippenberg'",
+    "値": {
+     "外来種リスト": "防除検討外来種（ユウゼンギク（メリケンコンギク、シノノメギク、ユウゼンノギク））",
+     "管理タイプ": "C 夏前切戻型",
+     "混植適性": null,
+     "リスクタグ": null
+    }
+   },
+   {
+    "商品番号": 953,
+    "植物名": "アスター ノビベルギ 'ジェニー'",
+    "学名": "Symphyotrichum novi-belgii 'Jenny'",
+    "値": {
+     "外来種リスト": "防除検討外来種（ユウゼンギク（メリケンコンギク、シノノメギク、ユウゼンノギク））",
+     "管理タイプ": "C 夏前切戻型",
+     "混植適性": null,
+     "リスクタグ": null
+    }
+   },
+   {
+    "商品番号": 1135,
+    "植物名": "クロコスミア 'コンスタンス'",
+    "学名": "Crocosmia × crocosmiiflora 'Constance'",
+    "値": {
+     "外来種リスト": "防除検討外来種（ヒメヒオウギズイセン（ヒメヒオオギズイセン、モントブレチア、クロコスミア））",
+     "管理タイプ": "B 花後刈込型",
+     "混植適性": "普通（混植可）",
+     "リスクタグ": null
+    }
+   },
+   {
+    "商品番号": 1524,
+    "植物名": "コータデリア セロアナ（パンパスグラス） 'ミニパンパス'",
+    "学名": "Cortaderia selloana 'Mini Pampas'",
+    "値": {
+     "外来種リスト": "防除検討外来種（シロガネヨシ（パンパスグラス））",
+     "管理タイプ": "A 放任型",
+     "混植適性": null,
+     "リスクタグ": null
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "土壌水分が「湿潤寄り」なのに、乾燥耐性 強",
+  "種類": "B",
+  "品種": [
+   {
+    "商品番号": 195,
+    "植物名": "ビンカ ミノール 'アトロプルプレア'",
+    "学名": "Vinca minor 'Atropurpurea'",
+    "値": {
+     "土壌水分": "湿潤寄り",
+     "乾燥耐性": "強",
+     "乾燥耐性の出どころ": "[食い違い] おぎはら楽天・種は 耐乾性: 普 通 ある程度耐えます（中 相当）。欧米の文献の値のまま"
+    }
+   },
+   {
+    "商品番号": 196,
+    "植物名": "ビンカ ミノール（ビンカミノール ムラサキ）",
+    "学名": "Vinca minor 'Atropurpurea'",
+    "値": {
+     "土壌水分": "湿潤寄り",
+     "乾燥耐性": "強",
+     "乾燥耐性の出どころ": "[食い違い] おぎはら楽天・種は 耐乾性: 普 通 ある程度耐えます（中 相当）。欧米の文献の値のまま"
+    }
+   },
+   {
+    "商品番号": 198,
+    "植物名": "ビンカ ミノール 'アルバ'（ビンカミノール白花）",
+    "学名": "Vinca minor 'Alba'",
+    "値": {
+     "土壌水分": "湿潤寄り",
+     "乾燥耐性": "強",
+     "乾燥耐性の出どころ": "[食い違い] おぎはら楽天・種は 耐乾性: 普 通 ある程度耐えます（中 相当）。欧米の文献の値のまま"
+    }
+   },
+   {
+    "商品番号": 313,
+    "植物名": "ゲラニウム ファエウム 紅花",
+    "学名": "Geranium phaeum",
+    "値": {
+     "土壌水分": "湿潤寄り",
+     "乾燥耐性": "強",
+     "乾燥耐性の出どころ": "[食い違い] おぎはら楽天・種は 耐乾性: 普 通 ある程度耐えますが強乾燥は嫌います（中 相当）。欧米の文献の値のまま"
+    }
+   },
+   {
+    "商品番号": 832,
+    "植物名": "ユーパトリム ルゴサム 'チョコレート'",
+    "学名": "Ageratina altissima 'Chocolate'",
+    "値": {
+     "土壌水分": "湿潤寄り",
+     "乾燥耐性": "強",
+     "乾燥耐性の出どころ": "[食い違い] おぎはら楽天・品種は 耐乾性: 普 通 ある程度耐えます（中 相当）。欧米の文献の値のまま"
+    }
+   },
+   {
+    "商品番号": 1426,
+    "植物名": "ベルゲニア コーディフォリア 'レッドスタート'",
+    "学名": "Bergenia cordifolia 'Redstart'",
+    "値": {
+     "土壌水分": "湿潤寄り",
+     "乾燥耐性": "強",
+     "乾燥耐性の出どころ": null
+    }
+   },
+   {
+    "商品番号": 1539,
+    "植物名": "フッキソウ斑入り (パキサンドラ ﾀｰﾐﾅﾘｽ 'バリエガータ')",
+    "学名": "Pachysandra terminalis 'Variegata'",
+    "値": {
+     "土壌水分": "湿潤寄り",
+     "乾燥耐性": "強",
+     "乾燥耐性の出どころ": "[食い違い] おぎはら楽天・品種は 耐乾性: 普 通 ある程度耐えます（中 相当）。欧米の文献の値のまま"
+    }
+   },
+   {
+    "商品番号": 1546,
+    "植物名": "ビンカ ミノール 'イルミネーション'",
+    "学名": "Vinca minor 'Illumination'",
+    "値": {
+     "土壌水分": "湿潤寄り",
+     "乾燥耐性": "強",
+     "乾燥耐性の出どころ": "[食い違い] おぎはら楽天・種は 耐乾性: 普 通 ある程度耐えます（中 相当）。欧米の文献の値のまま"
+    }
+   },
+   {
+    "商品番号": 1979,
+    "植物名": "ペニセタム アロペキュロイデス 'ブラックビューティー'",
+    "学名": "Pennisetum alopecuroides 'Black Beauty'",
+    "値": {
+     "土壌水分": "湿潤寄り",
+     "乾燥耐性": "強",
+     "乾燥耐性の出どころ": null
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "混植適性が「普通」なのに、地下茎かこぼれ種が 2 以上",
+  "種類": "A",
+  "品種": [
+   {
+    "商品番号": 209,
+    "植物名": "フェニキュラム ブルガレ 'プルプレウム'(ブロンズフェンネル)",
+    "学名": "Foeniculum vulgare 'Purpureum'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 220,
+    "植物名": "プルモナリア 'トレビファウンテン'",
+    "学名": "Pulmonaria 'Trevi Fountain'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "1",
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
+    }
+   },
+   {
+    "商品番号": 341,
+    "植物名": "ポルモニウム カエルレウム 'ブルーウァール'",
+    "学名": "Polemonium caeruleum 'Blue Whirl'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 583,
+    "植物名": "ジギタリス プルプレア 'スノーシンブル'",
+    "学名": "Digitalis purpurea 'Snow Thimble'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 604,
+    "植物名": "ジギタリス プルプレア 'アプリコット'",
+    "学名": "Digitalis purpurea 'Apricot'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 605,
+    "植物名": "ジギタリス プルプレア 'エクセルシオール'",
+    "学名": "Digitalis purpurea 'Excelsior'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 628,
+    "植物名": "ポルモニウム カエルレウム 'アルバム'",
+    "学名": "Polemonium caeruleum 'Album'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 684,
+    "植物名": "バーベナ ボナリエンシス（サンジャクバーベナ）",
+    "学名": "Verbena bonariensis",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[NC State・種] Some sources have labeled it \"invasive.\" Do not allow this species to spread into natural areas and become a problem."
+    }
+   },
+   {
+    "商品番号": 801,
+    "植物名": "セファラリア ギガンチア",
+    "学名": "Cephalaria gigantea",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 861,
+    "植物名": "プルモナリア 'ルイスパルマー'",
+    "学名": "Pulmonaria 'Lewis Palmer'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "1",
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
+    }
+   },
+   {
+    "商品番号": 1131,
+    "植物名": "サンギソルバ オフィシナリス 'ピンクタンナ'（ワレモコウ）",
+    "学名": "Sanguisorba 'Pink Tanna'",
+    "値": {
+     "地下茎で広がる程度(0-3)": "1",
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
+    }
+   },
+   {
+    "商品番号": 1147,
+    "植物名": "カレックス ブキャナニー",
+    "学名": "Carex buchananii",
+    "値": {
+     "地下茎で広がる程度(0-3)": "1",
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
+    }
+   },
+   {
+    "商品番号": 1154,
+    "植物名": "スカビオサ オクロレウカ 'ムーンダンス'",
+    "学名": "Scabiosa columbaria subsp. ochroleuca 'Moon Dance'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 1276,
+    "植物名": "サンギソルバ オフィシナリス var.マイクロセファラ（ﾋﾒﾜﾚﾓｺｳ）",
+    "学名": "Sanguisorba officinalis var. microcephala",
+    "値": {
+     "地下茎で広がる程度(0-3)": "1",
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）"
+    }
+   },
+   {
+    "商品番号": 1308,
+    "植物名": "スタキス モニエリ 'アルバ'",
+    "学名": "Stachys monieri 'Alba'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1335,
+    "植物名": "アキレジア 'ノラバロー'",
+    "学名": "Aquilegia vulgaris var. stellata 'Nora Barlow' (Barlow Series)",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 1336,
+    "植物名": "アキレジア カナデンシス 'コルベット'",
+    "学名": "Aquilegia canadensis 'Corbett'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1337,
+    "植物名": "アキレジア カナデンシス 'ピンクランタン'",
+    "学名": "Aquilegia canadensis 'Pink Lanterns'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1377,
+    "植物名": "ジギタリス プルプレア 'モンストローサ パープル'",
+    "学名": "Digitalis purpurea 'Monstrosa Purple'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1378,
+    "植物名": "シレネ ディオイカ 'ジェードバーリー'",
+    "学名": "Silene dioica 'Jade Valley'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 1380,
+    "植物名": "スカビオサ オクロレウカ",
+    "学名": "Scabiosa columbaria subsp. ochroleuca",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 1410,
+    "植物名": "フェニキュラム ブルガレ (フェンネル 緑葉）",
+    "学名": "Foeniculum vulgare",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1464,
+    "植物名": "ジギタリス プルプレア 'エルシーケルセイ'",
+    "学名": "Digitalis 'Elsie Kelsey'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1470,
+    "植物名": "アスター コーディフォリウス 'アイデアル'",
+    "学名": "Aster cordifolius 'Ideal'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1557,
+    "植物名": "ペンステモン バルバタス f.ナナス 'ﾋﾟﾅｺﾞﾗｰﾀﾞ ローズイーレッドシェード'",
+    "学名": "Penstemon barbatus f. nanus 'Pinacolada Rosy Red Shades'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 1697,
+    "植物名": "ジギタリス プルプレア 'モンストローサ ホワイト'",
+    "学名": "Digitalis purpurea 'Monstrosa White'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1874,
+    "植物名": "アキレジア 'ボルドーバロー'",
+    "学名": "Aquilegia vulgaris var. stellata plena 'Bordeaux Barlow'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 1896,
+    "植物名": "ポルモニウム カエルレウム 'フィリグリークラウド'",
+    "学名": "Polemonium caeruleum 'Filigree Clouds'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1897,
+    "植物名": "ポルモニウム カエルレウム 'フィリグリースカイ'",
+    "学名": "Polemonium caeruleum 'Filigree Skies'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend"
+    }
+   },
+   {
+    "商品番号": 1936,
+    "植物名": "アキレジア 'ブラックバロー'",
+    "学名": "Aquilegia vulgaris var. stellata 'Black Barlow' (Barlow Series)",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   },
+   {
+    "商品番号": 1946,
+    "植物名": "ユーパトリウム 'アイボリータワー'",
+    "学名": "Eutrochium fistulosum (Albidum Group) 'Ivory Towers'",
+    "値": {
+     "地下茎で広がる程度(0-3)": null,
+     "こぼれ種の量(0-3)": "2",
+     "混植適性": "普通（混植可）",
+     "混植適性の根拠": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat"
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "成株シルエットが「マット」なのに、草丈が 60cm 以上",
+  "種類": "B",
+  "品種": [
+   {
+    "商品番号": 215,
+    "植物名": "ヘリクトトリコン センパーバイオレンス (ブルーオーツグラス)",
+    "学名": "Helictotrichon sempervirens",
+    "値": {
+     "成株シルエット": "マット",
+     "草丈 最大(cm)": "90",
+     "成株シルエットの根拠": "[NC State・種] Habit/Form: Arching; Clumping; Creeping; Erect; Mounding"
+    }
+   },
+   {
+    "商品番号": 225,
+    "植物名": "ペルシカリア ミクロセファラ 'レッドドラゴン'",
+    "学名": "Persicaria microcephala 'Red Dragon'",
+    "値": {
+     "成株シルエット": "マット",
+     "草丈 最大(cm)": "80",
+     "成株シルエットの根拠": "[RHS・品種] Habit: Trailing"
+    }
+   },
+   {
+    "商品番号": 243,
+    "植物名": "ベロニカ スピカータ（花：ブルー）",
+    "学名": "Veronica spicata",
+    "値": {
+     "成株シルエット": "マット",
+     "草丈 最大(cm)": "60",
+     "成株シルエットの根拠": "[RHS・品種] Habit: Matforming"
+    }
+   },
+   {
+    "商品番号": 431,
+    "植物名": "ゲラニウム サンギネウム 'アルバム'",
+    "学名": "Geranium sanguineum 'Album'",
+    "値": {
+     "成株シルエット": "マット",
+     "草丈 最大(cm)": "60",
+     "成株シルエットの根拠": "[RHS・品種] Habit: Trailing"
+    }
+   },
+   {
+    "商品番号": 1175,
+    "植物名": "ロニセラ 'ハニーベビー'（ハニーサックル）",
+    "学名": "Lonicera 'Honey Baby'",
+    "値": {
+     "成株シルエット": "マット",
+     "草丈 最大(cm)": "150",
+     "成株シルエットの根拠": "[RHS・品種] Habit: Bushy, Trailing"
+    }
+   },
+   {
+    "商品番号": 1468,
+    "植物名": "アキレア ミレフォリウム 'レッドベルベット'",
+    "学名": "Achillea millefolium 'Red Velvet'",
+    "値": {
+     "成株シルエット": "マット",
+     "草丈 最大(cm)": "70",
+     "成株シルエットの根拠": "[RHS・品種] Habit: Matforming"
+    }
+   },
+   {
+    "商品番号": 1621,
+    "植物名": "ミント スペアミント",
+    "学名": "Mentha spicata",
+    "値": {
+     "成株シルエット": "マット",
+     "草丈 最大(cm)": "60",
+     "成株シルエットの根拠": "[NC State・種] Habit/Form: Creeping; Erect; Multi-stemmed; Spreading"
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "地下茎で広がる程度が 2 以上なのに、増え方が「株立ち」だけ",
+  "種類": "A",
+  "品種": [
+   {
+    "商品番号": 450,
+    "植物名": "コレオプシス ロゼア 'アメリカンドリーム'",
+    "学名": "Coreopsis rosea 'American Dream'",
+    "値": {
+     "増え方": "株立ち、こぼれ種",
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種・地下茎の根拠": "[こぼれ種 1／MBG・品種] Prompt deadheading of spent flower stalks can be tedious for a large planting, but does tend to encourage additional bloom and prevent any unwanted self-seeding.\n[地下茎 3／MBG・品種] Can be an aggressive spreader.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）"
+    }
+   },
+   {
+    "商品番号": 653,
+    "植物名": "リスラム サリカリア（エゾミソハギ）",
+    "学名": "Lythrum salicaria",
+    "値": {
+     "増え方": "株立ち、こぼれ種",
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種・地下茎の根拠": "[こぼれ種 2／MBG・種] They have the potential to prolifically self-seed.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[地下茎 3／NC State・種] Named cultivars once thought to be non-invasive are now known to cross and develop strains that spread rapidly in the landscape.\n[地下茎の食い違い] MBG は 1 相当、MBG は 2 相当"
+    }
+   },
+   {
+    "商品番号": 1585,
+    "植物名": "ペニセタム アロペキュロイデス f.ビリデセンス",
+    "学名": "Pennisetum alopecuroides f. viridescens",
+    "値": {
+     "増え方": "株立ち",
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種・地下茎の根拠": "[こぼれ種 0／NC State・種] See the four listed sterile cultivars.\n[こぼれ種の食い違い] MBG は 1 相当、MBG は 3 相当\n[地下茎 3／NC State・種] Chinese fountain grass can spread rapidly by seeds carried by wind or by attaching to clothes or fur."
+    }
+   },
+   {
+    "商品番号": 1915,
+    "植物名": "リスラム サリカリア 'ハピースノー'",
+    "学名": "Lythrum salicaria 'Happy Snow'",
+    "値": {
+     "増え方": "株立ち、こぼれ種",
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種・地下茎の根拠": "[こぼれ種 2／MBG・種] They have the potential to prolifically self-seed.\n[こぼれ種の食い違い] stauden.de は 1 相当\n[地下茎 3／NC State・種] Named cultivars once thought to be non-invasive are now known to cross and develop strains that spread rapidly in the landscape.\n[地下茎の食い違い] MBG は 1 相当、MBG は 2 相当"
+    }
+   },
+   {
+    "商品番号": 1979,
+    "植物名": "ペニセタム アロペキュロイデス 'ブラックビューティー'",
+    "学名": "Pennisetum alopecuroides 'Black Beauty'",
+    "値": {
+     "増え方": "株立ち",
+     "地下茎で広がる程度(0-3)": "3",
+     "こぼれ種・地下茎の根拠": "[こぼれ種 0／NC State・種] See the four listed sterile cultivars.\n[こぼれ種の食い違い] MBG は 1 相当、MBG は 3 相当\n[地下茎 3／NC State・種] Chinese fountain grass can spread rapidly by seeds carried by wind or by attaching to clothes or fur."
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "耐暑性 弱 なのに、蒸れ耐性 強",
+  "種類": "B",
+  "品種": [
+   {
+    "商品番号": 450,
+    "植物名": "コレオプシス ロゼア 'アメリカンドリーム'",
+    "学名": "Coreopsis rosea 'American Dream'",
+    "値": {
+     "耐暑性": "弱",
+     "蒸れ耐性": "強",
+     "耐暑性の決め方": "欧米の文献",
+     "暑さ・蒸れ・西日の根拠": "[MBG/品種] Performs best in cool summer climates, and can appear rather scraggly with poor flowering in the hot and humid summer conditions of the deep South.\n[Walters/品種] Tolerates heat and humidity, but prefers a moist site.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing"
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "USDA 下限と RHS 耐寒性が大きく食い違う",
+  "種類": "B",
+  "品種": [
+   {
+    "商品番号": 1408,
+    "植物名": "ビンカ マジョール 'バリエガータ'（ビンカ マジョール斑入り）",
+    "学名": "Vinca major 'Variegata'",
+    "値": {
+     "USDA 下限": "7",
+     "RHS 耐寒性": "H6",
+     "耐寒性": "中の中"
+    }
+   },
+   {
+    "商品番号": 1707,
+    "植物名": "セダム 'メディオバリエガータム'",
+    "学名": "Sedum sieboldii 'Mediovariegatum'",
+    "値": {
+     "USDA 下限": "3",
+     "RHS 耐寒性": "H3",
+     "耐寒性": "中の中"
+    }
+   },
+   {
+    "商品番号": 1932,
+    "植物名": "ラシラス バーナス 'ヘブンリーブルー'(宿根スイートピー）",
+    "学名": "Lathyrus vernus 'Heavenly Blues'",
+    "値": {
+     "USDA 下限": "5",
+     "RHS 耐寒性": "H3",
+     "耐寒性": "中の中"
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "同じ種で原産地が違う",
+  "種類": "C",
+  "品種": [
+   {
+    "まとまり": "Ajuga reptans",
+    "値ごと": {
+     "ヨーロッパ、イラン、コーカサス": [
+      "14 アジュガ レプタンス 'バーガンディグロウ'",
+      "596 アジュガ レプタンス 'ロゼア'",
+      "1592 アジュガ 'バニラチップ'",
+      "1914 アジュガ 'ブラックスカロップ'"
+     ],
+     "ヨーロッパ全域、北アフリカ、コーカサス、西アジア（種の原産地）": [
+      "13 アジュガ 'チョコレートチップ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Armeria maritima",
+    "値ごと": {
+     "ヨーロッパ、北アフリカからトルコ、北アメリカ（種の原産地）": [
+      "286 アルメリア マリティマ 'アルバ'（アルメリア白花）"
+     ],
+     "ヨーロッパ全域、マカロネシア（カナリア諸島など）、シベリア、ロシア極東、モンゴル、北米の亜寒帯（アラスカ・カナダ北部・グリーンランド）、カナダ南部、アメリカ北西部、アメリカ南西部（種の原産地）": [
+      "34 アルメリア マリティマ 'バリエガータ'（アルメリア斑入り）",
+      "35 アルメリア マリティマ 'ルブリフォーリア'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Echinacea purpurea",
+    "値ごと": {
+     "アメリカ北西部、アメリカ中北部、アメリカ北東部、アメリカ中南部、アメリカ南東部（種の原産地）": [
+      "42 エキナセア プルプレア 'ホワイトスワン'",
+      "600 エキナセア プルプレア 'ベビースワンホワイト'",
+      "1230 エキナセア プルプレア 'グリーンジュエル'",
+      "1353 エキナセア プルプレア 'フェイタル アトラクション'",
+      "1588 エキナセア プルプレア 'ビンテージワイン'",
+      "1590 エキナセア プルプレア 'バージン'",
+      "1654 エキナセア 'プレイフル メドーママ'"
+     ],
+     "北アメリカ（オハイオ・ミシガンからジョージア、西はオクラホマ、テキサス北東部。種の原産地）": [
+      "41 エキナセア プルプレア 'マグナス'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Gaillardia × grandiflora",
+    "値ごと": {
+     "北アメリカ西部の草原（種の原産地）": [
+      "81 ゲーラーディア アリスタータ 'バーガンディ'",
+      "799 ゲーラーディア 'アンバーホイール' (ガイラルディア)"
+     ],
+     "園芸で作られたもの": [
+      "1482 ゲーラーディア 'メサピーチ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Stachys byzantina",
+    "値ごと": {
+     "コーカサス": [
+      "124 ラムズイヤー",
+      "879 ラムズイヤー 'プリムローズヘロン'"
+     ],
+     "トルコ、イラン（種の原産地）": [
+      "1942 ラムズイヤー（スタキス） 'シルキーフリース'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Heuchera sanguinea",
+    "値ごと": {
+     "アメリカのアリゾナ・ニューメキシコ（種の原産地）": [
+      "1926 ヒューケラ サンギネア 'ホワイトクラウド'"
+     ],
+     "アメリカ南西部、アメリカ中南部、メキシコ（種の原産地）": [
+      "190 ヒューケラ サンギネア 'ファイヤーフライ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Foeniculum vulgare",
+    "値ごと": {
+     "南西ヨーロッパ、南東ヨーロッパ、北アフリカ、北東アフリカ熱帯域、中央アジア、コーカサス、西アジア、アラビア半島、インド亜大陸（種の原産地）": [
+      "1410 フェニキュラム ブルガレ (フェンネル 緑葉）"
+     ],
+     "園芸で作られたもの": [
+      "209 フェニキュラム ブルガレ 'プルプレウム'(ブロンズフェンネル)"
+     ]
+    }
+   },
+   {
+    "まとまり": "Potentilla nepalensis",
+    "値ごと": {
+     "インド亜大陸（種の原産地）": [
+      "1436 ポテンチラ ネパレンシス 'メルトンファイヤー'"
+     ],
+     "ヒマラヤ西部（種の原産地）": [
+      "539 ポテンチラ ネパレンシス 'ロンマクベス'",
+      "954 ポテンチラ ネパレンシス 'ヘレンジェーン'"
+     ],
+     "ヒマラヤ（種の原産地）": [
+      "253 ポテンチラ ネパレンシス 'ミスウィルモット'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Iberis sempervirens",
+    "値ごと": {
+     "南西ヨーロッパ、南東ヨーロッパ、北アフリカ、西アジア（種の原産地）": [
+      "289 イベリス センパービレンス（キャンディタフト）"
+     ],
+     "園芸で作られたもの": [
+      "1989 イベリス センパービレンス 'スノークッション'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Verbena hastata",
+    "値ごと": {
+     "北アメリカの湿った草原・湿ったやぶ": [
+      "321 バーベナ ハスタータ（バーベインブルー）"
+     ],
+     "北アメリカの湿った草原・湿ったやぶ（種の原産地）": [
+      "1397 バーベナ ハスタータ 'ブルースピアーズ'(ﾊﾞｰﾍﾞｲﾝﾌﾞﾙｰ)"
+     ]
+    }
+   },
+   {
+    "まとまり": "Polemonium caeruleum",
+    "値ごと": {
+     "ヨーロッパ全域、シベリア、中国、日本、インド亜大陸（種の原産地）": [
+      "341 ポルモニウム カエルレウム 'ブルーウァール'"
+     ],
+     "北半球の、丘陵から山地の草地・川沿いの林・道ばた": [
+      "1896 ポルモニウム カエルレウム 'フィリグリークラウド'",
+      "1897 ポルモニウム カエルレウム 'フィリグリースカイ'"
+     ],
+     "北半球（種の原産地）": [
+      "628 ポルモニウム カエルレウム 'アルバム'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Chelone obliqua",
+    "値ごと": {
+     "アメリカ": [
+      "617 ケロネ オブリクア 'アルバ'（シェローン白花）"
+     ],
+     "アメリカ（テネシー州・メリーランド州からフロリダ州）": [
+      "350 ケロネ オブリクア（シェローン）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Knautia macedonica",
+    "値ごと": {
+     "中央ヨーロッパ": [
+      "436 ノウティア（クナウティア） マセドニカ"
+     ],
+     "中央ヨーロッパ（種の原産地）": [
+      "1000 ノウティア（クナウティア） マセドニカ 'マースミジェット'"
+     ],
+     "南東ヨーロッパ（種の原産地）": [
+      "1538 ノウティア（ｸﾅｳﾃｨｱ） マセドニカ 'ミジェットモーヴ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Digitalis purpurea",
+    "値ごと": {
+     "北ヨーロッパ、中央ヨーロッパ、南西ヨーロッパ、北アフリカ（種の原産地）": [
+      "605 ジギタリス プルプレア 'エクセルシオール'",
+      "1377 ジギタリス プルプレア 'モンストローサ パープル'",
+      "1697 ジギタリス プルプレア 'モンストローサ ホワイト'"
+     ],
+     "西ヨーロッパからドイツ東部の明るい林・林のふち（種の原産地）": [
+      "604 ジギタリス プルプレア 'アプリコット'"
+     ],
+     "西ヨーロッパ（種の原産地）": [
+      "583 ジギタリス プルプレア 'スノーシンブル'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Anemone multifida",
+    "値ごと": {
+     "アメリカ大陸（種の原産地）": [
+      "598 アネモネ マルチフィダ（ムルチフィダ） 'ルブラ'"
+     ],
+     "北米の亜寒帯（アラスカ・カナダ北部・グリーンランド）、カナダ南部、アメリカ北西部、アメリカ中北部、アメリカ北東部、アメリカ南西部、アメリカ中南部、南アメリカ南部（種の原産地）": [
+      "1830 アネモネ マルチフィダ（ムルチフィダ） 'マヨール'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Salvia pratensis",
+    "値ごと": {
+     "ヨーロッパ・コーカサス・ウクライナの、石灰質でやせた草地・乾いた草原・斜面": [
+      "1305 サルビア プラテンシス 'マドリン'"
+     ],
+     "ヨーロッパ・コーカサス・ウクライナの、石灰質でやせた草地・乾いた草原・斜面（種の原産地）": [
+      "603 サルビア プラテンシス 'ローズラプソディ'",
+      "1900 サルビア プラテンシス 'スカイダンス'"
+     ],
+     "ヨーロッパ（種の原産地）": [
+      "988 サルビア プラテンシス 'スウィートエスメラルダ'",
+      "989 サルビア プラテンシス 'トワイライトセレナーデ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Pulsatilla vulgaris",
+    "値ごと": {
+     "ヨーロッパ全域（種の原産地）": [
+      "1160 パルサティラ ブルガリス"
+     ],
+     "ヨーロッパ（イギリス・フランス西部からスウェーデン、東はウクライナ）（種の原産地）": [
+      "644 パルサティラ ブルガリス 'ホワイトベル'",
+      "1316 パルサティラ ブルガリス 'ローズベル'",
+      "1541 パルサティラ ブルガリス 'パール ベル'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Echinacea pallida",
+    "値ごと": {
+     "アメリカ中西部": [
+      "755 エキナセア パリダ"
+     ],
+     "アメリカ中部のグレートプレーンズ（種の原産地）": [
+      "1987 エキナセア 'フラダンサー'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Panicum virgatum",
+    "値ごと": {
+     "カナダ南部、アメリカ合衆国の全域、メキシコ、中央アメリカ、カリブ海（種の原産地）": [
+      "1881 パニカム バーゲタム 'ブルージャイアント'"
+     ],
+     "北アメリカ": [
+      "895 パニカム バーゲタム 'シャナンドゥー'",
+      "1209 パニカム バーゲタム 'スクオー'",
+      "1210 パニカム バーゲタム 'ノースウィンド'",
+      "1398 パニカム バーゲタム 'クラウドナイン'",
+      "1584 パニカム バーゲタム 'プレーリースカイ'",
+      "1626 パニカム バーゲタム 'ダラスブルー'"
+     ],
+     "北アメリカから中央アメリカ（種の原産地）": [
+      "1882 パニカム バーゲタム 'エメラルドチーフ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Symphyotrichum novi-belgii",
+    "値ごと": {
+     "カナダ東部、アメリカ北東部、アメリカ南東部（種の原産地）": [
+      "953 アスター ノビベルギ 'ジェニー'"
+     ],
+     "北米": [
+      "903 アスター ノビベルギ 'プロフェサーアントンキッペンバーグ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Leucanthemum × superbum",
+    "値ごと": {
+     "交配種（交配親：L. lacustre × L. maximum × L. vulgare）": [
+      "1174 レウカンセマム×スーパーバム 'ブロードウェイライツ'"
+     ],
+     "園芸で作られたもの": [
+      "934 レウカンセマム×スーパーバム (ｼｬｽﾀｰﾃﾞｰｼﾞｰ) 'スノードリフト'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Deschampsia cespitosa",
+    "値ごと": {
+     "ヨーロッパ、アジア、北アメリカ（種の原産地）": [
+      "960 デスカンプシア セスピトーサ 'ピクシーファウンテン'"
+     ],
+     "ヨーロッパ全域、中西アフリカ熱帯域、北東アフリカ熱帯域、東アフリカ熱帯域、シベリア、ロシア極東、中央アジア、コーカサス、西アジア、中国、モンゴル、日本・朝鮮半島・台湾、インド亜大陸、オーストラリア、ニュージーランド、北米の亜寒帯（アラスカ・カナダ北部・グリーンランド）、カナダ南部、アメリカ合衆国の全域、メキシコ（種の原産地）": [
+      "937 デスカンプシア セスピトーサ",
+      "1206 デスカンプシア セスピトーサ 'ゴールドタウ'",
+      "1463 デスカンプシア セスピトーサ 'ノーザンライツ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Schizachyrium scoparium",
+    "値ごと": {
+     "北アメリカとメキシコ北部（種の原産地）": [
+      "940 アンドロポゴン スコパリウス 'プレーリーブルーズ'"
+     ],
+     "北アメリカ東部の草原（種の原産地）": [
+      "939 アンドロポゴン スコパリウス 'ブレイズ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Primula japonica",
+    "値ごと": {
+     "日本の沢沿い・川沿い（種の原産地）": [
+      "1617 プリムラ ジャポニカ 'ミラーズクリムソン'",
+      "1887 プリムラ ジャポニカ 'アップルブロッサム'（ｸﾘﾝｿｳ）"
+     ],
+     "日本（種の原産地）": [
+      "962 プリムラ ジャポニカ 'アルバ'（クリンソウ白花）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Campanula glomerata",
+    "値ごと": {
+     "ヨーロッパの草地や、石の多い石灰質のやや乾いた草原": [
+      "1296 カンパニュラ グロメラータ 'ベルフルールホワイト'（ﾔﾂｼﾛｿｳ）",
+      "1297 カンパニュラ グロメラータ 'ベルフルールブルー'（ﾔﾂｼﾛｿｳ）"
+     ],
+     "ヨーロッパ全域、シベリア、ロシア極東、中央アジア、コーカサス、西アジア、中国、モンゴル、日本・朝鮮半島（種の原産地）": [
+      "981 カンパニュラ グロメラータ 'フレヤ'（ヤツシロソウ）",
+      "1148 カンパニュラ グロメラータ 'エメラルド'（ヤツシロソウ）",
+      "1295 カンパニュラ グロメラータ 'ゲンチ ツイスターベル'（ﾔﾂｼﾛｿｳ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Heliopsis helianthoides var. scabra",
+    "値ごと": {
+     "カナダ南部、アメリカ北西部、アメリカ中北部、アメリカ北東部、アメリカ中南部、アメリカ南東部（種の原産地）": [
+      "1493 ヘリオプシス ヘリアンソイデス 'バーニングハート'"
+     ],
+     "北アメリカ（カナダ南部からジョージア、西はコロラドまで。種の原産地）": [
+      "1009 ヘリオプシス ヘリアンソイデス 'サマーナイト'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Liatris spicata",
+    "値ごと": {
+     "アメリカのメイン州からフロリダ、西はルイジアナまで（種の原産地）": [
+      "1447 リアトリス スピカータ 'コボールド'"
+     ],
+     "カナダ東部、アメリカ北西部、アメリカ中北部、アメリカ北東部、アメリカ中南部、アメリカ南東部（種の原産地）": [
+      "1021 リアトリス スピカータ 'フローリスタンホワイト'",
+      "1022 リアトリス スピカータ 'フローリスタンバイオレット'",
+      "1448 リアトリス スピカータ"
+     ]
+    }
+   },
+   {
+    "まとまり": "Anemone hupehensis var. japonica",
+    "値ごと": {
+     "中国、台湾、インドシナ（種の原産地）": [
+      "1153 ｱﾈﾓﾈ ﾊﾟﾌﾟｴﾝｼｽ var.ジャポニカ 'パミナ'（シュウメイギク）"
+     ],
+     "中国中部": [
+      "1647 アネモネ ハプエンシス var.ジャポニカ ウスピンク（シュウメイギク）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Trollius europaeus",
+    "値ごと": {
+     "ヨーロッパから西シベリアの、湿った草地・池のふち・川岸": [
+      "1847 トロリウス ユーロペウス 'イエロークィーン'"
+     ],
+     "ヨーロッパから西シベリアの、湿った草地・池のふち・川岸（種の原産地）": [
+      "1159 トロリウス ユーロペウス 'レモンシュープリーム'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Chasmanthium latifolium",
+    "値ごと": {
+     "アメリカ東部からカンザス州東部の林の斜面・湿ったやぶ": [
+      "1205 チャスマンティウム ラティフォリウム (ワイルドオーツ)"
+     ],
+     "カナダ西部、アメリカ中北部、アメリカ北東部、アメリカ南西部、アメリカ中南部、アメリカ南東部、メキシコ（種の原産地）": [
+      "1536 チャスマンティウム ラティフォリウム 'リトルティックラー'（ﾜｲﾙﾄﾞｵｰﾂ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Trollius × cultorum",
+    "値ごと": {
+     "交配種（交配親：T. asiaticus × T. chinensis × T. europaeus）": [
+      "1268 トロリウス カルトラム 'レモンクイーン'"
+     ],
+     "園芸品種": [
+      "1895 トロリウス カルトラム 'ニュームーン'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Veronicastrum virginicum",
+    "値ごと": {
+     "カナダ南部、アメリカ中北部、アメリカ北東部、アメリカ中南部、アメリカ南東部（種の原産地）": [
+      "1283 ベロニカストラム バージニカム 'アドレーション'",
+      "1323 ベロニカストラム バージニカム 'ファシネーション'",
+      "1432 ベロニカストラム バージニカム 'ラベンデルターム'",
+      "1871 ベロニカストラム バージニカム 'エリカ'"
+     ],
+     "北アメリカ東部の湿った草地・川岸・林のふち": [
+      "1911 ベロニカストラム バージニカム f.アルビフローラム"
+     ]
+    }
+   },
+   {
+    "まとまり": "Anthriscus sylvestris",
+    "値ごと": {
+     "ヨーロッパ・西アジア・北アフリカ（種の原産地）": [
+      "1293 アンスリカス シルベストリス 'レイブンスウィング'"
+     ],
+     "ヨーロッパ全域、北アフリカ、中西アフリカ熱帯域、北東アフリカ熱帯域、東アフリカ熱帯域、シベリア、ロシア極東、中央アジア、コーカサス、西アジア、アラビア半島、中国、モンゴル、朝鮮半島、インド亜大陸（種の原産地）": [
+      "1953 アンスリスカス 'ゴールデンフリース'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Stachys macrantha",
+    "値ごと": {
+     "コーカサス": [
+      "1307 スタキス マクランサ"
+     ],
+     "コーカサス（種の原産地）": [
+      "1973 スタキス マクランサ 'モーニングブラッシュ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Asclepias incarnata",
+    "値ごと": {
+     "アメリカ南部・東部の湿った草地・川岸・沼地（種の原産地）": [
+      "1330 アスクレピアス インカルナータ 'ソウルメイト'",
+      "1469 アスクレピアス インカルナータ 'シンデレラ'"
+     ],
+     "北アメリカ（ケベック〜マニトバ、南はジョージア・ルイジアナ・テキサス・ニューメキシコ。種の原産地）": [
+      "1178 アスクレピアス インカルナータ 'ミルクメイド'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Aquilegia vulgaris var. stellata",
+    "値ごと": {
+     "ヨーロッパ全域（種の原産地）": [
+      "1335 アキレジア 'ノラバロー'"
+     ],
+     "ヨーロッパ西部・中部・南部（種の原産地）": [
+      "1936 アキレジア 'ブラックバロー'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Aquilegia canadensis",
+    "値ごと": {
+     "北アメリカの広い範囲": [
+      "1337 アキレジア カナデンシス 'ピンクランタン'"
+     ],
+     "北アメリカ東部（種の原産地）": [
+      "1336 アキレジア カナデンシス 'コルベット'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Achillea millefolium",
+    "値ごと": {
+     "ヨーロッパからシベリアの草地・牧草地・荒れ地・乾いた草原・道ばた": [
+      "1468 アキレア ミレフォリウム 'レッドベルベット'"
+     ],
+     "ヨーロッパからシベリアの草地・牧草地・荒れ地・乾いた草原・道ばた（種の原産地）": [
+      "1514 アキレア ミレフォリウム 'カシス'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Vernonia noveboracensis",
+    "値ごと": {
+     "アメリカ北東部、アメリカ南東部（種の原産地）": [
+      "1610 バーノニア ノベボラセンシス"
+     ],
+     "北アメリカ東部（種の原産地）": [
+      "1611 バーノニア ノベボラセンシス 'ホワイトライトニング'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Angelica sylvestris",
+    "値ごと": {
+     "ヨーロッパ・ユーラシアの草地、道ばた、林のふち、川岸（種の原産地）": [
+      "1651 アンジェリカ シルベストゥリス 'ビカーズ ミード'"
+     ],
+     "ヨーロッパ全域、シベリア、中央アジア、コーカサス、西アジア、中国、モンゴル（種の原産地）": [
+      "1913 アンジェリカ シルベストゥリス 'エボニー'"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "同じ種で和名が違う",
+  "種類": "C",
+  "品種": [
+   {
+    "まとまり": "Miscanthus sinensis",
+    "値ごと": {
+     "イトススキ": [
+      "1781 ミスカンサス シネンシス f.グラシリマス（イトススキ）"
+     ],
+     "ススキ": [
+      "787 ミスカンサス 'モーニングライト'",
+      "1485 ミスカンサス シネンシス（ススキ）",
+      "1564 ミスカンサス シネンシス 'リトルゼブラ'（ヒメヤバネススキ）"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "同じ種で常緑性が違う（品種で違うこともある）",
+  "種類": "C",
+  "品種": [
+   {
+    "まとまり": "Armeria maritima",
+    "値ごと": {
+     "半常緑": [
+      "34 アルメリア マリティマ 'バリエガータ'（アルメリア斑入り）"
+     ],
+     "常緑": [
+      "35 アルメリア マリティマ 'ルブリフォーリア'",
+      "286 アルメリア マリティマ 'アルバ'（アルメリア白花）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Origanum vulgare",
+    "値ごと": {
+     "半常緑": [
+      "49 オレガノ ブルガレ 'ジムベスト'"
+     ],
+     "落葉": [
+      "48 オレガノ ブルガレ 'オーレウム'（ゴールデンオレガノ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Gypsophila repens",
+    "値ごと": {
+     "半常緑": [
+      "110 ジプソフィラ レペンス 'ロゼア'"
+     ],
+     "落葉": [
+      "109 ジプソフィラ レペンス 'ホワイト'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Silene uniflora",
+    "値ごと": {
+     "半常緑": [
+      "120 シレネ ユニフローラ 'ロビンホワイトブレスト'",
+      "307 シレネ ユニフローラ 'ドゥルーエッツ バリエゲイテッド'",
+      "352 シレネ ユニフローラ 'ダブル'（スワンレイク）"
+     ],
+     "落葉": [
+      "121 シレネ ユニフローラ 'ロゼア'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Sedum spurium",
+    "値ごと": {
+     "半常緑": [
+      "129 セダム スプリウム 'トリカラー'"
+     ],
+     "常緑": [
+      "128 セダム スプリウム 'ドラゴンズブラッド'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Fuchsia magellanica",
+    "値ごと": {
+     "半常緑": [
+      "210 フクシャ マジェラニカ"
+     ],
+     "落葉": [
+      "211 フクシャ マジェラニカ 'バリエガータ'（フクシャ マジェラニカ 斑入り）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Bergenia cordifolia",
+    "値ごと": {
+     "半常緑": [
+      "1765 ベルゲニア コーディフォリア 'ﾆｭｰｳｨﾝﾀｰﾌﾗﾜﾘﾝｸﾞHybｓ'"
+     ],
+     "常緑": [
+      "236 ベルゲニア コーディフォリア",
+      "1426 ベルゲニア コーディフォリア 'レッドスタート'",
+      "1930 ベルゲニア コーディフォリア 'スノータイム'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Veronica prostrata",
+    "値ごと": {
+     "半常緑": [
+      "614 ベロニカ プロストラータ 'ミセスホルト'"
+     ],
+     "落葉": [
+      "246 ベロニカ プロストラータ 'アズテックゴールド'",
+      "247 ベロニカ プロストラータ 'ヘブンリーブル―'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Potentilla nepalensis",
+    "値ごと": {
+     "半常緑": [
+      "954 ポテンチラ ネパレンシス 'ヘレンジェーン'"
+     ],
+     "落葉": [
+      "253 ポテンチラ ネパレンシス 'ミスウィルモット'",
+      "539 ポテンチラ ネパレンシス 'ロンマクベス'",
+      "1436 ポテンチラ ネパレンシス 'メルトンファイヤー'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Lysimachia nummularia",
+    "値ごと": {
+     "常緑": [
+      "268 リシマキア ヌンムラリア 'オーレア'"
+     ],
+     "落葉": [
+      "267 リシマキア ヌンムラリア"
+     ]
+    }
+   },
+   {
+    "まとまり": "Eryngium planum",
+    "値ごと": {
+     "常緑": [
+      "1920 エリンジウム プラナム 'ホワイトグリター'"
+     ],
+     "落葉": [
+      "278 エリンジウム プラナム",
+      "1578 エリンジウム プラナム 'ブルーホビット'",
+      "1919 エリンジウム プラナム 'ブルーグリター'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Glechoma hederacea",
+    "値ごと": {
+     "半常緑": [
+      "279 グレコマ ヘデラセア 'バリエガータ'（グレコマ斑入り）"
+     ],
+     "常緑": [
+      "1509 グレコマ ヘデラセア ssp.（グレコマ 散り斑）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Knautia macedonica",
+    "値ごと": {
+     "半常緑": [
+      "436 ノウティア（クナウティア） マセドニカ",
+      "1000 ノウティア（クナウティア） マセドニカ 'マースミジェット'"
+     ],
+     "落葉": [
+      "1538 ノウティア（ｸﾅｳﾃｨｱ） マセドニカ 'ミジェットモーヴ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Scabiosa caucasica",
+    "値ごと": {
+     "半常緑": [
+      "549 スカビオサ コウカシカ 'パーフェクタ アルバ'"
+     ],
+     "落葉": [
+      "639 スカビオサ コウカシカ 'ファーマ'",
+      "1817 スカビオサ コウカシカ 'パーフェクタ'（ﾌﾞﾙｰﾊﾟｰﾌｪｸｼｮﾝ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Salvia pratensis",
+    "値ごと": {
+     "半常緑": [
+      "603 サルビア プラテンシス 'ローズラプソディ'",
+      "988 サルビア プラテンシス 'スウィートエスメラルダ'",
+      "1305 サルビア プラテンシス 'マドリン'"
+     ],
+     "常緑": [
+      "989 サルビア プラテンシス 'トワイライトセレナーデ'"
+     ],
+     "落葉": [
+      "1900 サルビア プラテンシス 'スカイダンス'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Bistorta amplexicaulis",
+    "値ごと": {
+     "半常緑": [
+      "1318 ペルシカリア アンプレクシカウリス 'ゴールデンアロー'",
+      "1429 ペルシカリア アンプレクシカウリス 'ＪＳ カリエント'"
+     ],
+     "落葉": [
+      "613 ペルシカリア アンプレクシカウリス 'アトロサンギネア'",
+      "955 ペルシカリア アンプレクシカウリス 'アルバ'",
+      "1260 ペルシカリア アンプレクシカウリス 'ブラックフィールド'",
+      "1428 ペルシカリア アンプレクシカウリス 'ファイヤーテール'",
+      "1466 ペルシカリア アンプレクシカウリス 'ロゼア'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Echinacea pallida",
+    "値ごと": {
+     "常緑": [
+      "1987 エキナセア 'フラダンサー'"
+     ],
+     "落葉": [
+      "755 エキナセア パリダ"
+     ]
+    }
+   },
+   {
+    "まとまり": "Deschampsia cespitosa",
+    "値ごと": {
+     "半常緑": [
+      "960 デスカンプシア セスピトーサ 'ピクシーファウンテン'",
+      "1463 デスカンプシア セスピトーサ 'ノーザンライツ'"
+     ],
+     "常緑": [
+      "937 デスカンプシア セスピトーサ",
+      "1206 デスカンプシア セスピトーサ 'ゴールドタウ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Primula japonica",
+    "値ごと": {
+     "半常緑": [
+      "962 プリムラ ジャポニカ 'アルバ'（クリンソウ白花）"
+     ],
+     "落葉": [
+      "1617 プリムラ ジャポニカ 'ミラーズクリムソン'",
+      "1887 プリムラ ジャポニカ 'アップルブロッサム'（ｸﾘﾝｿｳ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Scabiosa columbaria subsp. ochroleuca",
+    "値ごと": {
+     "半常緑": [
+      "1154 スカビオサ オクロレウカ 'ムーンダンス'"
+     ],
+     "落葉": [
+      "1380 スカビオサ オクロレウカ"
+     ]
+    }
+   },
+   {
+    "まとまり": "Anthriscus sylvestris",
+    "値ごと": {
+     "半常緑": [
+      "1953 アンスリスカス 'ゴールデンフリース'"
+     ],
+     "落葉": [
+      "1293 アンスリカス シルベストリス 'レイブンスウィング'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Angelica sylvestris",
+    "値ごと": {
+     "半常緑": [
+      "1913 アンジェリカ シルベストゥリス 'エボニー'"
+     ],
+     "落葉": [
+      "1651 アンジェリカ シルベストゥリス 'ビカーズ ミード'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Spiraea × vanhouttei",
+    "値ごと": {
+     "半常緑": [
+      "1994 コデマリ 'ゴールドファウンテン'"
+     ],
+     "落葉": [
+      "1702 スピレア バンホウテイ 'ピンクアイス'（フイリコデマリ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Prunella grandiflora",
+    "値ごと": {
+     "半常緑": [
+      "1945 プルネラ グランディフローラ 'ルブラ'"
+     ],
+     "落葉": [
+      "1944 プルネラ グランディフローラ 'ベラブルー'"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "同じ種で毒性が違う",
+  "種類": "C",
+  "品種": [
+   {
+    "まとまり": "Parthenocissus quinquefolia",
+    "値ごと": {
+     "ペット：食べると有害、皮膚にかぶれ・刺激": [
+      "157 ツタ アメリカヅタ 'バージニアクリーパー'"
+     ],
+     "毒性 強い": [
+      "1925 ツタ アメリカヅタ 'バージニアクリーパー'斑入り"
+     ]
+    }
+   },
+   {
+    "まとまり": "Hedera helix",
+    "値ごと": {
+     "ペット：食べると有害、皮膚にかぶれ・刺激": [
+      "1422 ヘデラ ヘリックス 'スペッチリー'"
+     ],
+     "毒性 中くらい": [
+      "229 ヘデラ 'ヘンリエッタ'",
+      "1819 ヘデラ ヘリックス var.バルチカ"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "同じ種で耐暑性が違う（品種で違うこともある）",
+  "種類": "C",
+  "品種": [
+   {
+    "まとまり": "Chamaemelum nobile",
+    "値ごと": {
+     "中": [
+      "53 カモミール ローマンカモミール ダブルフラワー"
+     ],
+     "弱": [
+      "1361 カモミール ローマンカモミール シングルフラワー"
+     ]
+    }
+   },
+   {
+    "まとまり": "Parthenocissus quinquefolia",
+    "値ごと": {
+     "中": [
+      "157 ツタ アメリカヅタ 'バージニアクリーパー'"
+     ],
+     "強": [
+      "1925 ツタ アメリカヅタ 'バージニアクリーパー'斑入り"
+     ]
+    }
+   },
+   {
+    "まとまり": "Nepeta racemosa",
+    "値ごと": {
+     "中": [
+      "319 ネペタ ラセモサ 'ウォーカーズロウ'"
+     ],
+     "弱": [
+      "169 ネペタ ムッシーニアイ",
+      "1395 ネペタ ファッシニアイ 'フェリックス'",
+      "1609 ネペタ ラセモサ 'ブルーワンダー'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Hakonechloa macra",
+    "値ごと": {
+     "中": [
+      "529 ハコネクロア マクラ（フウチソウ緑葉)",
+      "1423 ハコネクロア マクラ（ベニフウチソウ）",
+      "1938 ハコネクロア 'オールゴールド'（オオゴンフウチソウ）"
+     ],
+     "強": [
+      "205 ハコネクロア マクラ 'オレオラ'（フウチソウ 斑入り、キンウラハグサ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Lysimachia nummularia",
+    "値ごと": {
+     "中": [
+      "267 リシマキア ヌンムラリア"
+     ],
+     "強": [
+      "268 リシマキア ヌンムラリア 'オーレア'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Knautia macedonica",
+    "値ごと": {
+     "中": [
+      "1000 ノウティア（クナウティア） マセドニカ 'マースミジェット'"
+     ],
+     "強": [
+      "436 ノウティア（クナウティア） マセドニカ",
+      "1538 ノウティア（ｸﾅｳﾃｨｱ） マセドニカ 'ミジェットモーヴ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Thalictrum aquilegiifolium",
+    "値ごと": {
+     "中": [
+      "565 サリクトラム（タリクトラム） アキレジフォリウム 'プルプレウム'"
+     ],
+     "弱": [
+      "917 サリクトラム(タリクトラム) アキレジフォリウム 'サンダークラウド'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Molinia caerulea subsp. caerulea",
+    "値ごと": {
+     "弱": [
+      "1628 モリニア カエルレア 'ダウエルストゥロール'",
+      "1629 モリニア カエルレア 'ムアフラム'",
+      "1630 モリニア カエルレア 'ムアヘックス'",
+      "1931 モリニア カエルレア 'ハイデブラウト'"
+     ],
+     "強": [
+      "592 モリニア カエルレア 'バリエガータ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Hylotelephium spectabile",
+    "値ごと": {
+     "中": [
+      "1309 セダム スぺクタビル 'ネオン'"
+     ],
+     "強": [
+      "825 セダム スペクタビル 'オータムジョイ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Hydrangea serrata",
+    "値ごと": {
+     "中": [
+      "1456 ハイドランジア セラタ 'クレナイ'（ヤマアジサイ'クレナイ'）"
+     ],
+     "弱": [
+      "1458 ハイドランジア セラタ '済州島'（ヤマアジサイ'済州島'）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Mukdenia rossii",
+    "値ごと": {
+     "弱": [
+      "1566 ムクデニア ロッシー（イワヤツデ：タンチョウ草）"
+     ],
+     "強": [
+      "1786 ムクデニア ロッシー 'カラスバ'（イワヤツデ・タンチョウ草）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Lysimachia congestiflora",
+    "値ごと": {
+     "中": [
+      "1623 リシマキア コンジェスティフロラ 'バリエガータ'"
+     ],
+     "強": [
+      "1572 リシマキア コンジェスティフロラ 'ミッドナイトサン'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Thalictrum delavayi",
+    "値ごと": {
+     "中": [
+      "534 サリクトラム（タリクトラム） ディラバイ"
+     ],
+     "弱": [
+      "1228 サリクトラム（タリクトラム） ディラバイ 'アルバム'"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "同じ種で蒸れ耐性が違う（品種で違うこともある）",
+  "種類": "C",
+  "品種": [
+   {
+    "まとまり": "Schizachyrium scoparium",
+    "値ごと": {
+     "弱": [
+      "940 アンドロポゴン スコパリウス 'プレーリーブルーズ'"
+     ],
+     "強": [
+      "939 アンドロポゴン スコパリウス 'ブレイズ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Liatris spicata",
+    "値ごと": {
+     "中": [
+      "1447 リアトリス スピカータ 'コボールド'"
+     ],
+     "強": [
+      "1021 リアトリス スピカータ 'フローリスタンホワイト'",
+      "1022 リアトリス スピカータ 'フローリスタンバイオレット'",
+      "1448 リアトリス スピカータ"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "同じ種で乾燥耐性が違う（品種で違うこともある）",
+  "種類": "C",
+  "品種": [
+   {
+    "まとまり": "Armeria maritima",
+    "値ごと": {
+     "中": [
+      "34 アルメリア マリティマ 'バリエガータ'（アルメリア斑入り）"
+     ],
+     "強": [
+      "35 アルメリア マリティマ 'ルブリフォーリア'",
+      "286 アルメリア マリティマ 'アルバ'（アルメリア白花）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Origanum vulgare",
+    "値ごと": {
+     "中": [
+      "49 オレガノ ブルガレ 'ジムベスト'"
+     ],
+     "強": [
+      "48 オレガノ ブルガレ 'オーレウム'（ゴールデンオレガノ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Vinca minor",
+    "値ごと": {
+     "中": [
+      "197 ビンカ ミノール 'スターリングシルバー'",
+      "199 ﾋﾞﾝｶ ﾐﾉｰﾙ 'オーレオバリエガータ'（ビンカミノール斑入り）",
+      "330 ビンカ ミノール 'ダブルパープル'（ビンカミノール ダブルフラワー）",
+      "646 ビンカ ミノール 'ゴールデン'"
+     ],
+     "強": [
+      "195 ビンカ ミノール 'アトロプルプレア'",
+      "196 ビンカ ミノール（ビンカミノール ムラサキ）",
+      "198 ビンカ ミノール 'アルバ'（ビンカミノール白花）",
+      "1546 ビンカ ミノール 'イルミネーション'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Physocarpus opulifolius",
+    "値ごと": {
+     "中": [
+      "202 フィソカルパス 'ディアボロ'（アメリカテマリシモツケ ディアボロ）"
+     ],
+     "強": [
+      "1752 フィソカルパス 'サマーワイン'（ｱﾒﾘｶﾃﾏﾘｼﾓﾂｹ ｻﾏｰﾜｲﾝ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Veronica spicata",
+    "値ごと": {
+     "中": [
+      "868 ベロニカ 'ピンクダマスク'"
+     ],
+     "弱": [
+      "243 ベロニカ スピカータ（花：ブルー）",
+      "244 ベロニカ スピカータ 'ブルーブーケ'",
+      "335 ベロニカ スピカータ 'ローズ'",
+      "518 ベロニカ スピカータ 'レッドフォックス'",
+      "1430 ベロニカ スピカータ 'アルバ'",
+      "1947 ベロニカ スピカータ 'ナナ'（ヒメルリトラノオ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Eryngium planum",
+    "値ごと": {
+     "中": [
+      "278 エリンジウム プラナム",
+      "1920 エリンジウム プラナム 'ホワイトグリター'"
+     ],
+     "強": [
+      "1578 エリンジウム プラナム 'ブルーホビット'",
+      "1919 エリンジウム プラナム 'ブルーグリター'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Geranium phaeum",
+    "値ごと": {
+     "中": [
+      "1972 ゲラニウム ファエウム 'レイブン'"
+     ],
+     "強": [
+      "313 ゲラニウム ファエウム 紅花",
+      "994 ゲラニウム ファエウム 'アルバム'",
+      "1311 ゲラニウム ファエウム 'マーガレットウィルソン'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Knautia macedonica",
+    "値ごと": {
+     "中": [
+      "1538 ノウティア（ｸﾅｳﾃｨｱ） マセドニカ 'ミジェットモーヴ'"
+     ],
+     "強": [
+      "436 ノウティア（クナウティア） マセドニカ",
+      "1000 ノウティア（クナウティア） マセドニカ 'マースミジェット'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Gypsophila paniculata",
+    "値ごと": {
+     "中": [
+      "567 ジプソフィラ ローザス 'コーンヘッド'",
+      "1577 ジプソフィラ パニキュラータ 'スノーフレーク'"
+     ],
+     "強": [
+      "1699 ジプソフィラ パニキュラータ 'ブリストル フェアリー'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Bistorta amplexicaulis",
+    "値ごと": {
+     "中": [
+      "613 ペルシカリア アンプレクシカウリス 'アトロサンギネア'",
+      "955 ペルシカリア アンプレクシカウリス 'アルバ'",
+      "1429 ペルシカリア アンプレクシカウリス 'ＪＳ カリエント'"
+     ],
+     "弱": [
+      "1260 ペルシカリア アンプレクシカウリス 'ブラックフィールド'",
+      "1318 ペルシカリア アンプレクシカウリス 'ゴールデンアロー'",
+      "1466 ペルシカリア アンプレクシカウリス 'ロゼア'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Pulsatilla vulgaris",
+    "値ごと": {
+     "中": [
+      "644 パルサティラ ブルガリス 'ホワイトベル'",
+      "1316 パルサティラ ブルガリス 'ローズベル'"
+     ],
+     "強": [
+      "1160 パルサティラ ブルガリス",
+      "1541 パルサティラ ブルガリス 'パール ベル'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Miscanthus sinensis",
+    "値ごと": {
+     "中": [
+      "1485 ミスカンサス シネンシス（ススキ）",
+      "1564 ミスカンサス シネンシス 'リトルゼブラ'（ヒメヤバネススキ）",
+      "1781 ミスカンサス シネンシス f.グラシリマス（イトススキ）"
+     ],
+     "強": [
+      "787 ミスカンサス 'モーニングライト'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Persicaria amplexicaulis",
+    "値ごと": {
+     "中": [
+      "866 ペルシカリア アンプレクシカウリス 'トーラス'",
+      "1427 ペルシカリア アンプレクシカウリス 'ディッケフロスク'",
+      "1766 ペルシカリア アンプレクシカウリス 'エレガンスピンク'"
+     ],
+     "弱": [
+      "910 ペルシカリア アンプレクシカウリス 'オレンジフィールド'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Panicum virgatum",
+    "値ごと": {
+     "中": [
+      "1209 パニカム バーゲタム 'スクオー'",
+      "1626 パニカム バーゲタム 'ダラスブルー'",
+      "1881 パニカム バーゲタム 'ブルージャイアント'",
+      "1882 パニカム バーゲタム 'エメラルドチーフ'"
+     ],
+     "強": [
+      "895 パニカム バーゲタム 'シャナンドゥー'",
+      "1210 パニカム バーゲタム 'ノースウィンド'",
+      "1398 パニカム バーゲタム 'クラウドナイン'",
+      "1584 パニカム バーゲタム 'プレーリースカイ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Liatris spicata",
+    "値ごと": {
+     "中": [
+      "1448 リアトリス スピカータ"
+     ],
+     "強": [
+      "1021 リアトリス スピカータ 'フローリスタンホワイト'",
+      "1022 リアトリス スピカータ 'フローリスタンバイオレット'",
+      "1447 リアトリス スピカータ 'コボールド'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Chasmanthium latifolium",
+    "値ごと": {
+     "中": [
+      "1536 チャスマンティウム ラティフォリウム 'リトルティックラー'（ﾜｲﾙﾄﾞｵｰﾂ）"
+     ],
+     "強": [
+      "1205 チャスマンティウム ラティフォリウム (ワイルドオーツ)"
+     ]
+    }
+   },
+   {
+    "まとまり": "Aquilegia canadensis",
+    "値ごと": {
+     "中": [
+      "1336 アキレジア カナデンシス 'コルベット'"
+     ],
+     "強": [
+      "1337 アキレジア カナデンシス 'ピンクランタン'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Hydrangea serrata",
+    "値ごと": {
+     "中": [
+      "1458 ハイドランジア セラタ '済州島'（ヤマアジサイ'済州島'）"
+     ],
+     "弱": [
+      "1456 ハイドランジア セラタ 'クレナイ'（ヤマアジサイ'クレナイ'）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Lysimachia congestiflora",
+    "値ごと": {
+     "中": [
+      "1623 リシマキア コンジェスティフロラ 'バリエガータ'"
+     ],
+     "弱": [
+      "1572 リシマキア コンジェスティフロラ 'ミッドナイトサン'"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "同じ種で土壌水分が違う",
+  "種類": "C",
+  "品種": [
+   {
+    "まとまり": "Ajuga reptans",
+    "値ごと": {
+     "湿潤寄り": [
+      "14 アジュガ レプタンス 'バーガンディグロウ'",
+      "596 アジュガ レプタンス 'ロゼア'",
+      "1592 アジュガ 'バニラチップ'",
+      "1914 アジュガ 'ブラックスカロップ'"
+     ],
+     "適湿": [
+      "13 アジュガ 'チョコレートチップ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Astilbe × arendsii",
+    "値ごと": {
+     "湿潤寄り": [
+      "1143 アスチルベ アレンジー 'ショースター'",
+      "1343 アスチルベ アレンジー 'カラーフラッシュライム'"
+     ],
+     "適湿": [
+      "18 アスチルベ アレンジー 'グランデ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Armeria maritima",
+    "値ごと": {
+     "乾燥寄り": [
+      "34 アルメリア マリティマ 'バリエガータ'（アルメリア斑入り）"
+     ],
+     "排水必須": [
+      "35 アルメリア マリティマ 'ルブリフォーリア'",
+      "286 アルメリア マリティマ 'アルバ'（アルメリア白花）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Echinacea purpurea",
+    "値ごと": {
+     "乾燥寄り": [
+      "1654 エキナセア 'プレイフル メドーママ'"
+     ],
+     "排水必須": [
+      "41 エキナセア プルプレア 'マグナス'",
+      "42 エキナセア プルプレア 'ホワイトスワン'",
+      "600 エキナセア プルプレア 'ベビースワンホワイト'",
+      "1230 エキナセア プルプレア 'グリーンジュエル'",
+      "1353 エキナセア プルプレア 'フェイタル アトラクション'",
+      "1588 エキナセア プルプレア 'ビンテージワイン'",
+      "1590 エキナセア プルプレア 'バージン'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Origanum vulgare",
+    "値ごと": {
+     "乾燥寄り": [
+      "49 オレガノ ブルガレ 'ジムベスト'"
+     ],
+     "排水必須": [
+      "48 オレガノ ブルガレ 'オーレウム'（ゴールデンオレガノ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Silene uniflora",
+    "値ごと": {
+     "乾燥寄り": [
+      "120 シレネ ユニフローラ 'ロビンホワイトブレスト'"
+     ],
+     "適湿": [
+      "121 シレネ ユニフローラ 'ロゼア'",
+      "307 シレネ ユニフローラ 'ドゥルーエッツ バリエゲイテッド'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Stachys byzantina",
+    "値ごと": {
+     "乾燥寄り": [
+      "124 ラムズイヤー"
+     ],
+     "排水必須": [
+      "879 ラムズイヤー 'プリムローズヘロン'",
+      "1942 ラムズイヤー（スタキス） 'シルキーフリース'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Nepeta racemosa",
+    "値ごと": {
+     "排水必須": [
+      "319 ネペタ ラセモサ 'ウォーカーズロウ'",
+      "1395 ネペタ ファッシニアイ 'フェリックス'",
+      "1609 ネペタ ラセモサ 'ブルーワンダー'"
+     ],
+     "適湿": [
+      "169 ネペタ ムッシーニアイ"
+     ]
+    }
+   },
+   {
+    "まとまり": "Vinca minor",
+    "値ごと": {
+     "乾燥寄り": [
+      "330 ビンカ ミノール 'ダブルパープル'（ビンカミノール ダブルフラワー）",
+      "646 ビンカ ミノール 'ゴールデン'"
+     ],
+     "湿潤寄り": [
+      "195 ビンカ ミノール 'アトロプルプレア'",
+      "196 ビンカ ミノール（ビンカミノール ムラサキ）",
+      "198 ビンカ ミノール 'アルバ'（ビンカミノール白花）",
+      "1546 ビンカ ミノール 'イルミネーション'"
+     ],
+     "適湿": [
+      "197 ビンカ ミノール 'スターリングシルバー'",
+      "199 ﾋﾞﾝｶ ﾐﾉｰﾙ 'オーレオバリエガータ'（ビンカミノール斑入り）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Festuca glauca",
+    "値ごと": {
+     "乾燥寄り": [
+      "722 フェスツーカ グラウカ 'ボルダーブルー'"
+     ],
+     "適湿": [
+      "206 フェスツーカ グラウカ 'エリジャーブルー'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Bergenia cordifolia",
+    "値ごと": {
+     "湿潤寄り": [
+      "1426 ベルゲニア コーディフォリア 'レッドスタート'"
+     ],
+     "適湿": [
+      "236 ベルゲニア コーディフォリア",
+      "1765 ベルゲニア コーディフォリア 'ﾆｭｰｳｨﾝﾀｰﾌﾗﾜﾘﾝｸﾞHybｓ'",
+      "1930 ベルゲニア コーディフォリア 'スノータイム'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Veronica spicata",
+    "値ごと": {
+     "排水必須": [
+      "243 ベロニカ スピカータ（花：ブルー）"
+     ],
+     "適湿": [
+      "244 ベロニカ スピカータ 'ブルーブーケ'",
+      "335 ベロニカ スピカータ 'ローズ'",
+      "518 ベロニカ スピカータ 'レッドフォックス'",
+      "868 ベロニカ 'ピンクダマスク'",
+      "1430 ベロニカ スピカータ 'アルバ'",
+      "1947 ベロニカ スピカータ 'ナナ'（ヒメルリトラノオ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Veronica prostrata",
+    "値ごと": {
+     "排水必須": [
+      "614 ベロニカ プロストラータ 'ミセスホルト'"
+     ],
+     "適湿": [
+      "246 ベロニカ プロストラータ 'アズテックゴールド'",
+      "247 ベロニカ プロストラータ 'ヘブンリーブル―'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Potentilla nepalensis",
+    "値ごと": {
+     "排水必須": [
+      "253 ポテンチラ ネパレンシス 'ミスウィルモット'",
+      "539 ポテンチラ ネパレンシス 'ロンマクベス'"
+     ],
+     "適湿": [
+      "954 ポテンチラ ネパレンシス 'ヘレンジェーン'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Eryngium planum",
+    "値ごと": {
+     "乾燥寄り": [
+      "278 エリンジウム プラナム"
+     ],
+     "排水必須": [
+      "1578 エリンジウム プラナム 'ブルーホビット'",
+      "1919 エリンジウム プラナム 'ブルーグリター'",
+      "1920 エリンジウム プラナム 'ホワイトグリター'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Geranium phaeum",
+    "値ごと": {
+     "排水必須": [
+      "994 ゲラニウム ファエウム 'アルバム'"
+     ],
+     "湿潤寄り": [
+      "313 ゲラニウム ファエウム 紅花"
+     ],
+     "適湿": [
+      "1311 ゲラニウム ファエウム 'マーガレットウィルソン'",
+      "1972 ゲラニウム ファエウム 'レイブン'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Trifolium repens",
+    "値ごと": {
+     "排水必須": [
+      "393 トリフォリウム レペンス 'ドラゴンズブラッド'"
+     ],
+     "適湿": [
+      "317 トリフォリウム レペンス 'アトロプルプレウム'",
+      "582 トリフォリウム レペンス 'ウィートフェン'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Caryopteris × clandonensis",
+    "値ごと": {
+     "排水必須": [
+      "569 カリオプテリス 'ダークナイト'（カリガネソウ）"
+     ],
+     "適湿": [
+      "434 カリオプテリス 'ウォーセスターゴールド'（ｶﾘｶﾞﾈｿｳ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Knautia macedonica",
+    "値ごと": {
+     "排水必須": [
+      "436 ノウティア（クナウティア） マセドニカ",
+      "1000 ノウティア（クナウティア） マセドニカ 'マースミジェット'"
+     ],
+     "適湿": [
+      "1538 ノウティア（ｸﾅｳﾃｨｱ） マセドニカ 'ミジェットモーヴ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Salvia nemorosa",
+    "値ごと": {
+     "乾燥寄り": [
+      "525 サルビア ネモローサ 'ローゼンバイン'"
+     ],
+     "適湿": [
+      "621 サルビア ネモローサ 'カラドンナ'",
+      "1302 サルビア ネモローサ 'マローホワイト'",
+      "1303 サルビア ネモローサ 'マローローズ'",
+      "1304 サルビア ネモローサ 'マローブルー'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Thalictrum aquilegiifolium",
+    "値ごと": {
+     "湿潤寄り": [
+      "917 サリクトラム(タリクトラム) アキレジフォリウム 'サンダークラウド'"
+     ],
+     "適湿": [
+      "565 サリクトラム（タリクトラム） アキレジフォリウム 'プルプレウム'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Astrantia major",
+    "値ごと": {
+     "湿潤寄り": [
+      "587 アストランティア マヨール 'ルビーウェディング'",
+      "1933 アストランティア マヨール 'バニラエッジ'"
+     ],
+     "適湿": [
+      "1917 アストランティア 'ベニス'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Salvia pratensis",
+    "値ごと": {
+     "乾燥寄り": [
+      "1900 サルビア プラテンシス 'スカイダンス'"
+     ],
+     "排水必須": [
+      "603 サルビア プラテンシス 'ローズラプソディ'",
+      "988 サルビア プラテンシス 'スウィートエスメラルダ'",
+      "989 サルビア プラテンシス 'トワイライトセレナーデ'"
+     ],
+     "適湿": [
+      "1305 サルビア プラテンシス 'マドリン'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Bistorta amplexicaulis",
+    "値ごと": {
+     "湿潤寄り": [
+      "613 ペルシカリア アンプレクシカウリス 'アトロサンギネア'",
+      "955 ペルシカリア アンプレクシカウリス 'アルバ'",
+      "1260 ペルシカリア アンプレクシカウリス 'ブラックフィールド'",
+      "1318 ペルシカリア アンプレクシカウリス 'ゴールデンアロー'",
+      "1428 ペルシカリア アンプレクシカウリス 'ファイヤーテール'",
+      "1466 ペルシカリア アンプレクシカウリス 'ロゼア'"
+     ],
+     "適湿": [
+      "1429 ペルシカリア アンプレクシカウリス 'ＪＳ カリエント'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Pulsatilla vulgaris",
+    "値ごと": {
+     "排水必須": [
+      "1160 パルサティラ ブルガリス",
+      "1316 パルサティラ ブルガリス 'ローズベル'"
+     ],
+     "適湿": [
+      "644 パルサティラ ブルガリス 'ホワイトベル'",
+      "1541 パルサティラ ブルガリス 'パール ベル'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Persicaria amplexicaulis",
+    "値ごと": {
+     "湿潤寄り": [
+      "866 ペルシカリア アンプレクシカウリス 'トーラス'",
+      "910 ペルシカリア アンプレクシカウリス 'オレンジフィールド'",
+      "1427 ペルシカリア アンプレクシカウリス 'ディッケフロスク'"
+     ],
+     "適湿": [
+      "1766 ペルシカリア アンプレクシカウリス 'エレガンスピンク'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Panicum virgatum",
+    "値ごと": {
+     "排水必須": [
+      "895 パニカム バーゲタム 'シャナンドゥー'",
+      "1210 パニカム バーゲタム 'ノースウィンド'",
+      "1398 パニカム バーゲタム 'クラウドナイン'",
+      "1882 パニカム バーゲタム 'エメラルドチーフ'"
+     ],
+     "湿潤寄り": [
+      "1209 パニカム バーゲタム 'スクオー'",
+      "1881 パニカム バーゲタム 'ブルージャイアント'"
+     ],
+     "適湿": [
+      "1584 パニカム バーゲタム 'プレーリースカイ'",
+      "1626 パニカム バーゲタム 'ダラスブルー'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Schizachyrium scoparium",
+    "値ごと": {
+     "乾燥寄り": [
+      "939 アンドロポゴン スコパリウス 'ブレイズ'"
+     ],
+     "排水必須": [
+      "940 アンドロポゴン スコパリウス 'プレーリーブルーズ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Primula japonica",
+    "値ごと": {
+     "湿潤寄り": [
+      "962 プリムラ ジャポニカ 'アルバ'（クリンソウ白花）",
+      "1617 プリムラ ジャポニカ 'ミラーズクリムソン'"
+     ],
+     "適湿": [
+      "1887 プリムラ ジャポニカ 'アップルブロッサム'（ｸﾘﾝｿｳ）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Liatris spicata",
+    "値ごと": {
+     "排水必須": [
+      "1447 リアトリス スピカータ 'コボールド'"
+     ],
+     "適湿": [
+      "1021 リアトリス スピカータ 'フローリスタンホワイト'",
+      "1022 リアトリス スピカータ 'フローリスタンバイオレット'",
+      "1448 リアトリス スピカータ"
+     ]
+    }
+   },
+   {
+    "まとまり": "Scabiosa columbaria subsp. ochroleuca",
+    "値ごと": {
+     "排水必須": [
+      "1380 スカビオサ オクロレウカ"
+     ],
+     "適湿": [
+      "1154 スカビオサ オクロレウカ 'ムーンダンス'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Chasmanthium latifolium",
+    "値ごと": {
+     "湿潤寄り": [
+      "1536 チャスマンティウム ラティフォリウム 'リトルティックラー'（ﾜｲﾙﾄﾞｵｰﾂ）"
+     ],
+     "適湿": [
+      "1205 チャスマンティウム ラティフォリウム (ワイルドオーツ)"
+     ]
+    }
+   },
+   {
+    "まとまり": "Filipendula purpurea",
+    "値ごと": {
+     "湿潤寄り": [
+      "1225 フィリペンデュラ プルプレア (キョウガノコ）"
+     ],
+     "適湿": [
+      "1615 フィリペンデュラ プルプレア 'エレガンス'（キョウガノコ白花）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Eutrochium maculatum",
+    "値ごと": {
+     "排水必須": [
+      "1255 ユーパトリウム マクラツム 'レッドドワーフ'（フジバカマ）"
+     ],
+     "湿潤寄り": [
+      "1790 ユーパトリウム マクラツム 'ゲートウェイ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Stachys macrantha",
+    "値ごと": {
+     "排水必須": [
+      "1973 スタキス マクランサ 'モーニングブラッシュ'"
+     ],
+     "適湿": [
+      "1307 スタキス マクランサ"
+     ]
+    }
+   },
+   {
+    "まとまり": "Liatris scariosa",
+    "値ごと": {
+     "乾燥寄り": [
+      "1327 リアトリス スカリオーサ (花：ピンク)"
+     ],
+     "適湿": [
+      "1328 リアトリス スカリオーサ 'アルバ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Pachysandra terminalis",
+    "値ごと": {
+     "湿潤寄り": [
+      "1539 フッキソウ斑入り (パキサンドラ ﾀｰﾐﾅﾘｽ 'バリエガータ')"
+     ],
+     "適湿": [
+      "1540 フッキソウ（パキサンドラ ターミナリス）"
+     ]
+    }
+   },
+   {
+    "まとまり": "Kalimeris incisa",
+    "値ごと": {
+     "排水必須": [
+      "1579 カーリメリス インシサ 'バリエガータ'"
+     ],
+     "適湿": [
+      "1657 カーリメリス インシサ"
+     ]
+    }
+   },
+   {
+    "まとまり": "Mentha spicata",
+    "値ごと": {
+     "湿潤寄り": [
+      "1621 ミント スペアミント"
+     ],
+     "適湿": [
+      "1784 ミント ケンタッキーカーネルミント"
+     ]
+    }
+   },
+   {
+    "まとまり": "Thalictrum delavayi",
+    "値ごと": {
+     "湿潤寄り": [
+      "534 サリクトラム（タリクトラム） ディラバイ"
+     ],
+     "適湿": [
+      "1228 サリクトラム（タリクトラム） ディラバイ 'アルバム'"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "同じ種で混植適性が違う",
+  "種類": "C",
+  "品種": [
+   {
+    "まとまり": "Filipendula ulmaria",
+    "値ごと": {
+     "侵略的（隔離推奨）": [
+      "1992 フィリペンデュラ ウルマリア"
+     ],
+     "強い（周囲を圧迫、配置注意）": [
+      "675 フィリペンデュラ ウルマリア 'バリエガータ'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Miscanthus sinensis",
+    "値ごと": {
+     "侵略的（隔離推奨）": [
+      "1485 ミスカンサス シネンシス（ススキ）"
+     ],
+     "強い（周囲を圧迫、配置注意）": [
+      "1564 ミスカンサス シネンシス 'リトルゼブラ'（ヒメヤバネススキ）",
+      "1781 ミスカンサス シネンシス f.グラシリマス（イトススキ）"
+     ],
+     "普通（混植可）": [
+      "787 ミスカンサス 'モーニングライト'"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "調べ方": "同じ種で地下茎で広がる程度が違う",
+  "種類": "C",
+  "品種": [
+   {
+    "まとまり": "Astilbe chinensis",
+    "値ごと": {
+     "1": [
+      "593 アスチルベ チネンシス 'ビジョンインレッド'"
+     ],
+     "2": [
+      "906 アスチルベ チネンシス 'ビジョンインピンク'",
+      "970 アスチルベ チネンシス 'ビジョンインホワイト'"
+     ]
+    }
+   },
+   {
+    "まとまり": "Panicum virgatum",
+    "値ごと": {
+     "1": [
+      "895 パニカム バーゲタム 'シャナンドゥー'",
+      "1209 パニカム バーゲタム 'スクオー'",
+      "1398 パニカム バーゲタム 'クラウドナイン'",
+      "1584 パニカム バーゲタム 'プレーリースカイ'",
+      "1626 パニカム バーゲタム 'ダラスブルー'",
+      "1881 パニカム バーゲタム 'ブルージャイアント'",
+      "1882 パニカム バーゲタム 'エメラルドチーフ'"
+     ],
+     "2": [
+      "1210 パニカム バーゲタム 'ノースウィンド'"
+     ]
+    }
+   }
+  ]
+ }
+]

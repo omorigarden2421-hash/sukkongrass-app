@@ -224,10 +224,12 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": "地域によっては侵略的外来種とされている、という記述がある（MBG・品種）。米国内に侵略的とされている地域がある（MBG の表示）",
@@ -326,7 +328,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] However, in hot summer locations (USDA Zones 8 and 9), this vine may do best if planted on eastern or northern walls.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
   "spread_evidence": null,
-  "mixing_evidence": "[MBG・品種] This vine may invasively spread to nearby unmanaged areas.",
+  "mixing_evidence": "[MBG・品種] This vine may invasively spread to nearby unmanaged areas.\n[管理タイプの見直し] 文を読んで隔離推奨型にしたので、空欄 から 侵略的 にそろえた",
   "silhouette_evidence": "[RHS・品種] Habit: Climbing",
   "sources_with_cultivar_page": "RHS、MBG、おぎはら",
   "sources_used": "MBG、NC State、RHS、おぎはら"

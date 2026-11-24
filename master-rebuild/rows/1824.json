@@ -218,7 +218,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -290,13 +291,18 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s10",
+    "s18",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -354,7 +360,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中\n[おぎはら楽天/種] 耐湿性: 普 通 向きますが高温多湿は嫌います（蒸れ 中 相当）\n[おぎはら楽天/種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 明るい半日陰（西日 × 相当）\n[MBG/品種] Best performance occurs in cool summer climates where night temperatures consistently dip below 70F degrees, which unfortunately is a cultural preference that does not fit the profile of a typical St.\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] In optimum growing conditions, plants will spread by stolons and/or self-seeding in a non-invasive manner to form colonies.\n[地下茎 2／MBG・品種] Noteworthy Characteristics Astrantia major , commonly called greater masterwort, is an upright, umbelliferous, stoloniferous, herbaceous perennial (carrot family) that is native to mountain meadows, grasslands, woodland ",
+  "spread_evidence": "[こぼれ種 1／MBG・品種] In optimum growing conditions, plants will spread by stolons and/or self-seeding in a non-invasive manner to form colonies.\n[地下茎 2／MBG・品種] Noteworthy Characteristics Astrantia major , commonly called greater masterwort, is an upright, umbelliferous, stoloniferous, herbaceous perennial (carrot family) that is native to mountain meadows, grasslands, woodland \n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer",

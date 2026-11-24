@@ -211,7 +211,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -281,13 +282,19 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "初夏",
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s06",
+    "s18",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",
@@ -342,7 +349,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] The plant can self-sow and form colonies.",
+  "spread_evidence": "[こぼれ種 1／NC State・種] The plant can self-sow and form colonies.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Heliopsis helianthoides , commonly called oxeye sunflower or ox-eye daisy, is an upright, clump-forming, nearly glabrous, sunflower-like, short-lived perennial that is nativ",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、おぎはら、Jelitto",

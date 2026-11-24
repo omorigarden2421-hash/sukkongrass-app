@@ -213,8 +213,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
-    "こぼれ種"
+    "株立ち"
    ],
    "method": "記載",
    "sources": [
@@ -352,7 +351,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Blooms well in light shade, and actually appreciates some part afternoon shade in hot summer climates such as the St.\n[NC State/種] It blooms best in light shade, especially afternoon shade that mitigates hot summers.\n[食い違い] 欧米の文献（品種・種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or South-facing or North-facing or West-facing",
-  "spread_evidence": "[こぼれ種 0／NC State・種] It is a good container plant, but if planted in the ground, does not produce viable seed and will not become invasive.\n[地下茎 0／Walters・品種] A variegated selection of Reed Grass, suited to a multitude of uses and not invasive in any way.",
+  "spread_evidence": "[こぼれ種 0／NC State・種] It is a good container plant, but if planted in the ground, does not produce viable seed and will not become invasive.\n[地下茎 0／Walters・品種] A variegated selection of Reed Grass, suited to a multitude of uses and not invasive in any way.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] These grasses typically form large, dense, erect clumps of narrow, flattened, green leaves from which rise stiffly upright flowering stalks in summer bearing narrow flower plumes followed by often per",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら",

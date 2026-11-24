@@ -234,10 +234,11 @@
    "level": "cultivar"
   },
   "mixing": {
-   "value": null,
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、stauden.de、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（stauden.de・品種）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
@@ -285,13 +286,17 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18",
+    "s17",
+    "s20",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -344,7 +349,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[おぎはら楽天/種] 耐湿性: 普 通 ある程度耐えますが高温多湿を嫌います（蒸れ 中 相当）\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
   "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend",
-  "mixing_evidence": null,
+  "mixing_evidence": "[管理タイプの見直し] 文を読んで隔離推奨型にしたので、空欄 から 侵略的 にそろえた",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de",
   "sources_used": "Jelitto、NC State、RHS、stauden.de、おぎはら"

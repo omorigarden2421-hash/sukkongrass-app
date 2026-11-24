@@ -220,7 +220,9 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -352,7 +354,7 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/種] It is tolerant of hot dry conditions.\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Plants spread by self-seeding and by stems rooting along the ground at the nodes.\n[地下茎 1／NC State・種] It spreads slowly by rhizomes.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Plants spread by self-seeding and by stems rooting along the ground at the nodes.\n[地下茎 1／NC State・種] It spreads slowly by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、Jelitto",

@@ -203,8 +203,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -283,10 +283,17 @@
    "level": "cultivar"
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s06",
+    "s18",
+    "s21"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -335,7 +342,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜やや半日陰／暖地: 半日陰（西日 × 相当）\n[MBG/品種] Prefers part shade in hot summer climates.\n[MBG/品種] However, plants do not perform well in the hot and humid summer climates of the deep South in areas where night temperatures consistently remain above 70 degrees F.\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った",
-  "spread_evidence": "[こぼれ種 1／NC State・種] To propagate this plant, divide its clumps every three to four years in the fall, or with adequate growing conditions, it will self-seed and spread by rhizomes itself.\n[地下茎 3／NC State・種] It can spread aggressively.\n[地下茎の食い違い] MBG は 1 相当、stauden.de は 2 相当",
+  "spread_evidence": "[こぼれ種 1／NC State・種] To propagate this plant, divide its clumps every three to four years in the fall, or with adequate growing conditions, it will self-seed and spread by rhizomes itself.\n[地下茎 3／NC State・種] It can spread aggressively.\n[地下茎の食い違い] MBG は 1 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] It can spread aggressively.",
   "silhouette_evidence": "[MBG・品種] Glossy, leathery, heart-shaped, dark green leaves (to 4” long) with toothed margins form basal rosettes.",
   "sources_with_cultivar_page": "MBG、おぎはら、シカゴ植物園",

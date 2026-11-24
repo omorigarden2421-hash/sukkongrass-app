@@ -214,7 +214,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -342,7 +343,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い 夏の高温多湿を嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 日向(昼過ぎから半日陰が理想）（西日 △ 相当）\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Remove spent flower spikes before seed sets to encourage additional bloom, but leave some spikes at the end of the season to facilitate self-seeding in the garden.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Remove spent flower spikes before seed sets to encourage additional bloom, but leave some spikes at the end of the season to facilitate self-seeding in the garden.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら、Jelitto",

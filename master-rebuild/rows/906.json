@@ -205,7 +205,8 @@
   "spread_modes": {
    "value": [
     "地下茎",
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -277,13 +278,14 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s02"
+    "s18"
    ],
-   "level": "genus"
+   "level": "species"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -330,7 +332,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[MBG/属] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.",
-  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／stauden.de・種] ausläufertreibend",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／stauden.de・種] ausläufertreibend\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎、ランナー）",
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] This recent midsize selection features showy, soft-pink plumes, over a compact mound of elegant, lacy blue-green leaves.",
   "sources_with_cultivar_page": "stauden.de、Walters",

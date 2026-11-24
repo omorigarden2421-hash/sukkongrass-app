@@ -221,7 +221,8 @@
   "spread_modes": {
    "value": [
     "株立ち",
-    "地下茎"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -295,10 +296,22 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "花後",
+    "早春",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s02",
+    "s06",
+    "s10",
+    "s18",
+    "s17",
+    "s21"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -356,7 +369,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[Walters/品種] Tolerates hot, humid summer regions.\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] May be grown from seed and may self-seed in the garden.\n[地下茎 1／NC State・品種] 'Fireworks' is not aggressive and will not try to take over your garden as it spreads slowly by rhizomes.\n[地下茎の食い違い] MBG は 0 相当、MBG は 2 相当",
+  "spread_evidence": "[こぼれ種 1／MBG・品種] May be grown from seed and may self-seed in the garden.\n[地下茎 1／NC State・品種] 'Fireworks' is not aggressive and will not try to take over your garden as it spreads slowly by rhizomes.\n[地下茎の食い違い] MBG は 0 相当、MBG は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Arching; Clumping; Dense; Erect",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら、シカゴ植物園",

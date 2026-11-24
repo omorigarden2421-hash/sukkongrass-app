@@ -214,7 +214,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -352,7 +353,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Self-seeds and may spread aggressively.\n[地下茎 3／NC State・種] Watch its placement especially in smaller gardens as may spread aggressively by rhizomes and seeds.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Self-seeds and may spread aggressively.\n[地下茎 3／NC State・種] Watch its placement especially in smaller gardens as may spread aggressively by rhizomes and seeds.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",

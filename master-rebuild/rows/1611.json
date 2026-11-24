@@ -202,7 +202,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -272,13 +273,18 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "初夏",
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s06",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",
@@ -330,7 +336,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Remove flower heads before seed develops to avoid unwanted self-seeding.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Remove flower heads before seed develops to avoid unwanted self-seeding.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、stauden.de、Jelitto",

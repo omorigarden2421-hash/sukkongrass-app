@@ -214,10 +214,13 @@
    "level": "species"
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "こぼれ種"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、シカゴ植物園）"
   },
   "self_seed_level": {
    "value": 1,
@@ -283,13 +286,17 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "初夏",
+    "秋",
+    "花後（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s02"
+    "s01",
+    "s02",
+    "s06"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",
@@ -339,7 +346,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/種] Good air circulation helps reduce incidence of foliar diseases.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Easily grown from seed and may self-seed in the garden in optimum growing conditions.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Easily grown from seed and may self-seed in the garden in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、シカゴ植物園",

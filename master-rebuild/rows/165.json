@@ -204,7 +204,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -280,13 +281,15 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -332,7 +335,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[RHS/品種] Aspect: East-facing or North-facing（西向き・南向きが入っていない）",
-  "spread_evidence": "[こぼれ種 1／NC State・種] The plant self-seeds and spreads by rhizome and can be propagated by root division and seed.\n[地下茎 3／NC State・種] Some cultivars may spread aggressively.",
+  "spread_evidence": "[こぼれ種 1／NC State・種] The plant self-seeds and spreads by rhizome and can be propagated by root division and seed.\n[地下茎 3／NC State・種] Some cultivars may spread aggressively.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Can be an aggressive spreader.",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、Jelitto",

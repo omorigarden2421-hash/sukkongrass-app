@@ -200,7 +200,8 @@
   },
   "spread_modes": {
    "value": [
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -225,10 +226,11 @@
    "level": "species"
   },
   "mixing": {
-   "value": null,
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、RHS、stauden.de）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（stauden.de・種）。こぼれ種でよく増える（stauden.de・種）",
@@ -329,8 +331,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 2／stauden.de・種] kriechend, teils wurzelnd",
-  "mixing_evidence": null,
+  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 2／stauden.de・種] kriechend, teils wurzelnd\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
+  "mixing_evidence": "[管理タイプの見直し] 文を読んで隔離推奨型にしたので、空欄 から 侵略的 にそろえた",
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Gaißmayer、Jelitto",
   "sources_used": "Gaißmayer、Jelitto、RHS、stauden.de"

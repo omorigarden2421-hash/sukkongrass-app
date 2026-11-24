@@ -230,7 +230,6 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
     "ランナー",
     "こぼれ種"
    ],
@@ -368,7 +367,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Good air circulation is appreciated.\n[NC State/種] It also bears up under hot, humid summers and, once established, will tolerate drought.\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] The plant spreads by underground stems called rhizomes to form large clumps.\n[地下茎の食い違い] MBG は 1 相当",
+  "spread_evidence": "[地下茎 2／NC State・種] The plant spreads by underground stems called rhizomes to form large clumps.\n[地下茎の食い違い] MBG は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー、こぼれ種）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] An upright, rhizomatous, clump-forming, free-blooming coneflower which typically grows to 3' tall, often forming colonies in the wild.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら、シカゴ植物園、Jelitto",

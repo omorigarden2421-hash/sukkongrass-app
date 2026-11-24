@@ -220,7 +220,8 @@
   },
   "spread_modes": {
    "value": [
-    "地下茎"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -351,7 +352,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/品種] Full sun is best in cool northern summer climates, but some part afternoon shade is appreciated in hot summer climates such as the St.\n[MBG/品種] Foliage may decline after flowering in hot summer climates, at which point it should be cut back and shaped to revitalize, with additional sporadic rebloom sometimes occurring later in summer.\n[MBG/品種] Flowers bloom in late spring (May-June) in hot summer climates such as St.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing or North-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] Cymes of pink flowers with darker veins bloom from late spring into summer on clumping plants featuring 5-lobed basal leaves.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、シカゴ植物園",

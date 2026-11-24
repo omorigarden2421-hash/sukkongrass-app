@@ -289,10 +289,17 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s10",
+    "s18",
+    "s17"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",

@@ -206,10 +206,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "ランナー"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS）"
   },
   "self_seed_level": {
    "value": null,
@@ -272,10 +275,16 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s02",
+    "s06"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "D 毎年株更新型",
@@ -323,7 +332,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/品種] This plant is more vulnerable to disease in hot summer climates.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・品種] It is a compact shrub which grows to a maximum size of 5-6 feet tall by 5-6 feet wide with a spreading, stoloniferous habit.",
+  "spread_evidence": "[地下茎 2／MBG・品種] It is a compact shrub which grows to a maximum size of 5-6 feet tall by 5-6 feet wide with a spreading, stoloniferous habit.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・品種] Habit/Form: Mounding; Multi-stemmed; Rounded; Spreading",
   "sources_with_cultivar_page": "RHS、MBG",

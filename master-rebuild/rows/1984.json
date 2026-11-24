@@ -217,10 +217,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "地下茎"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、おぎはら、シカゴ植物園）"
   },
   "self_seed_level": {
    "value": null,
@@ -339,7 +342,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
-  "spread_evidence": "[地下茎 2／MBG・種] Spreads by rhizomes to form clumps.",
+  "spread_evidence": "[地下茎 2／MBG・種] Spreads by rhizomes to form clumps.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Spreading",
   "sources_with_cultivar_page": "RHS、おぎはら",

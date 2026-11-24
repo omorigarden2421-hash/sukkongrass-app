@@ -188,7 +188,6 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
     "地下茎"
    ],
    "method": "記載",
@@ -258,10 +257,14 @@
    "level": "species"
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "management_type": {
    "value": "A 放任型",
@@ -306,7 +309,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら ○）\n[おぎはら/同じ種の別品種（図鑑の 'Chocolate Wing'・図鑑の 'Bronze Peacock'・図鑑の 'Die Schone'・図鑑の 'Fireworks'）] 耐暑性；中（この品種のページはない。信頼度：低）",
-  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Rodgersia pinnata is a bold, rhizomatous perennial with pinnately compound, basal leaves which appear palmate.",
+  "spread_evidence": "[地下茎 2／MBG・種] Noteworthy Characteristics Rodgersia pinnata is a bold, rhizomatous perennial with pinnately compound, basal leaves which appear palmate.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
   "mixing_evidence": null,
   "silhouette_evidence": "（種の記述）[MBG・種] Clusters of apetalous, creamy pink to red flowers appear in late spring to early summer in branched, astilbe-like panicles rising above the foliage mound to 3-4' tall.",
   "sources_with_cultivar_page": "なし",

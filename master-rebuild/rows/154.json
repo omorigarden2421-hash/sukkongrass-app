@@ -194,8 +194,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -222,7 +222,7 @@
    "level": "species"
   },
   "mixing": {
-   "value": "強い（周囲を圧迫、配置注意）",
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
     "s02"
@@ -271,10 +271,14 @@
    "level": "species"
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -319,8 +323,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[こぼれ種 1／MBG・種] Plants will spread, sometimes aggressively, by rhizomes and self-seeding to form large colonies.\n[地下茎 2／NC State・種] It spreads by stoloniferous rootstocks and seeds forming a groundcover.",
-  "mixing_evidence": "[MBG・種] Plants will spread, sometimes aggressively, by rhizomes and self-seeding to form large colonies.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Plants will spread, sometimes aggressively, by rhizomes and self-seeding to form large colonies.\n[地下茎 2／NC State・種] It spreads by stoloniferous rootstocks and seeds forming a groundcover.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "mixing_evidence": "[MBG・種] Plants will spread, sometimes aggressively, by rhizomes and self-seeding to form large colonies.\n[管理タイプの見直し] 文を読んで隔離推奨型にしたので、強い（周囲を圧迫、配置注意） から 侵略的 にそろえた",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Creeping; Erect; Spreading",
   "sources_with_cultivar_page": "シカゴ植物園",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園"

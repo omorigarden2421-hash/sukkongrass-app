@@ -214,7 +214,6 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
     "ランナー"
    ],
    "method": "記載",
@@ -290,13 +289,16 @@
   },
   "pruning_codes": {
    "value": [
-    "秋"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "E 隔離推奨型",
@@ -347,7 +349,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: West-facing or South-facing",
-  "spread_evidence": "[地下茎 3／MBG・種] Can be an aggressive spreader.\n[地下茎の食い違い] stauden.de は 2 相当",
+  "spread_evidence": "[地下茎 3／MBG・種] Can be an aggressive spreader.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・種] Noteworthy Characteristics Mentha suaveolens , often called apple mint, is a rhizomatous, upright perennial which is most commonly grown as a culinary herb and/or ground cover.",
   "sources_with_cultivar_page": "RHS、Gaißmayer",

@@ -225,7 +225,7 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
+    "地下茎",
     "こぼれ種"
    ],
    "method": "記載",
@@ -300,14 +300,23 @@
   },
   "pruning_codes": {
    "value": [
+    "初夏",
     "花後",
-    "早春"
+    "早春",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s06",
+    "s10",
+    "s18",
+    "s17",
+    "s20",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",
@@ -364,7 +373,7 @@
   "heat_west_only": "強",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿を嫌います（蒸れ 中 相当）\n[MBG/品種] Good heat and drought tolerance.\n[RHS/品種] Aspect: South-facing（西向きが入っていない）",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／MBG・品種] A rhizomatous, upright to sprawling, woody-based subshrub which typically grows 12-18\" tall and spreads to 24\" wide, but dies to the ground in cold winters.",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／MBG・品種] A rhizomatous, upright to sprawling, woody-based subshrub which typically grows 12-18\" tall and spreads to 24\" wide, but dies to the ground in cold winters.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Origanum laevigatum is a shrubby, woody-based marjoram or oregano that is native to rocky areas of Turkey and Cyprus.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら",

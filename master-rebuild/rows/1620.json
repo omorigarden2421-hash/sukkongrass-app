@@ -201,10 +201,13 @@
    "level": "species"
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "こぼれ種"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、RHS、stauden.de）"
   },
   "self_seed_level": {
    "value": 1,
@@ -313,7 +316,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/種] Plants often perform poorly in hot and humid summers south of USDA Zone 7.",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Will reseed in the garden in optimum growing conditions.",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Will reseed in the garden in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・種] Noteworthy Characteristics Potentilla neumanniana , commonly known as spring cinquefoil, spotted cinquefoil or alpine cinquefoil, is a vigorous, procumbent, mat-forming, herbaceous perennial of the ro",
   "sources_with_cultivar_page": "Gaißmayer",

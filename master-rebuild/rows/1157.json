@@ -224,8 +224,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち",
-    "地下茎"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -361,7 +361,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；中\n[MBG/種] Appreciates some afternoon shade in the St.\n[MBG/種] Also tolerates hot and humid summers better than most other species of geranium.\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／MBG・種] Plants will easily spread in the garden by rhizomes.",
+  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／MBG・種] Plants will easily spread in the garden by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、stauden.de",

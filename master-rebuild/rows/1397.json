@@ -210,7 +210,9 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -282,13 +284,19 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "花後",
+    "早春",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s06",
+    "s18",
+    "s20",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -337,7 +345,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／NC State・種] Blue vervain is a native wildflower that spreads slowly through rhizomes and self-seeding.\n[地下茎 1／NC State・種] Blue vervain is a native wildflower that spreads slowly through rhizomes and self-seeding.",
+  "spread_evidence": "[こぼれ種 1／NC State・種] Blue vervain is a native wildflower that spreads slowly through rhizomes and self-seeding.\n[地下茎 1／NC State・種] Blue vervain is a native wildflower that spreads slowly through rhizomes and self-seeding.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら、Jelitto",

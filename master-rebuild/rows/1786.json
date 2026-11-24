@@ -217,7 +217,8 @@
   },
   "spread_modes": {
    "value": [
-    "地下茎"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -350,7 +351,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 日向〜やや半日陰（西日 ○ 相当）\n[MBG/品種] However, plants often struggle in the hot and humid summers of the deep South where they appreciate afternoon shade or sun dappled shade.\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: North-facing or West-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] Plants may self-seed in optimum growing conditions.\n[地下茎 1／Walters・品種] Clumps slowly spread to form a small patch, which may be divided carefully in the spring every 4 years or so.",
+  "spread_evidence": "[こぼれ種 1／MBG・品種] Plants may self-seed in optimum growing conditions.\n[地下茎 1／Walters・品種] Clumps slowly spread to form a small patch, which may be divided carefully in the spring every 4 years or so.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：地下茎）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[Walters・品種] It forms a low mound of large, bold maple-shaped leaves, bronze-green in spring, later becoming deep green with stunning crimson tips.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、おぎはら",

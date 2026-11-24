@@ -225,7 +225,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "株立ち",
+    "地下茎"
    ],
    "method": "記載",
    "sources": [
@@ -295,14 +296,15 @@
   },
   "pruning_codes": {
    "value": [
-    "花後",
-    "早春"
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s06",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -353,7 +355,7 @@
   "heat_west_only": "強",
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）\n[食い違い] 蒸れ: 欧米の文献は 強 相当。控えめな側を採った\n[MBG/種] Tolerant of heat, humidity and drought, but generally grows taller with consistent moisture.\n[NC State/種] Muhly grass tolerates heat, humidity, drought, and poor soil and is highly salt-tolerant.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 1／MBG・種] Does not spread by rhizomes.",
+  "spread_evidence": "[地下茎 1／MBG・種] Does not spread by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Mounding／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、おぎはら、Jelitto",

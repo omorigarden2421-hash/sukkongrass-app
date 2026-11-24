@@ -213,7 +213,8 @@
   },
   "spread_modes": {
    "value": [
-    "株立ち"
+    "地下茎",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -287,10 +288,18 @@
    "level": null
   },
   "pruning_codes": {
-   "value": null,
+   "value": [
+    "初夏",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s06",
+    "s18",
+    "s21"
+   ],
+   "level": "cultivar"
   },
   "management_type": {
    "value": "C 夏前切戻型",
@@ -344,7 +353,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Tolerates some light afternoon shade, particularly in hot summer climates.\n[MBG/種] Leaves may scorch if soils are allowed to dry out.\n[NC State/種] It does best in average, medium to wet soils in full sun, but tolerates some light afternoon shade in hot summer climates.\n[NC State/種] In the heat, leaves may become scorched if the soil is allowed to dry out.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: North-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 2／NC State・種] The root system is fibrous and rhizomatous.",
+  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 2／NC State・種] The root system is fibrous and rhizomatous.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Bushy, Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら",

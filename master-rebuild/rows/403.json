@@ -218,7 +218,6 @@
   "spread_modes": {
    "value": [
     "株立ち",
-    "ランナー",
     "こぼれ種"
    ],
    "method": "記載",
@@ -295,13 +294,17 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s02"
+    "s02",
+    "s06",
+    "s10",
+    "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -354,7 +357,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Plants prefer cool summer climates.\n[MBG/種] They are generally intolerant of the extreme heat of the deep South, and do not perform well south of USDA Zone 7.\n[MBG/種] They appreciate some part afternoon shade in hot summer climates.\n[NC State/種] They prefer cool-weather climates and require afternoon shade and additional water in plant hardiness zone 7.",
-  "spread_evidence": "[こぼれ種 1／NC State・種] Bellflowers will self-seed in optimal conditions, but are not invasive.\n[地下茎 0／NC State・種] Bellflowers will self-seed in optimal conditions, but are not invasive.\n[地下茎の食い違い] stauden.de は 2 相当",
+  "spread_evidence": "[こぼれ種 1／NC State・種] Bellflowers will self-seed in optimal conditions, but are not invasive.\n[地下茎 0／NC State・種] Bellflowers will self-seed in optimal conditions, but are not invasive.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー、こぼれ種）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[Walters・品種] Plants form a low mound of dark green leaves, bearing tall stems of large, frilly double white bells during the summer months.",
   "sources_with_cultivar_page": "stauden.de、Walters、シカゴ植物園",

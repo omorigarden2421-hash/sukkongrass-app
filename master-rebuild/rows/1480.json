@@ -216,7 +216,8 @@
   },
   "spread_modes": {
    "value": [
-    "ランナー"
+    "ランナー",
+    "こぼれ種"
    ],
    "method": "記載",
    "sources": [
@@ -290,13 +291,15 @@
   },
   "pruning_codes": {
    "value": [
-    "不要"
+    "秋（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18",
+    "s17"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -349,7 +352,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/種] Best in part shade in hot summer climates.\n[RHS/品種] Aspect: South-facing or North-facing or East-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Prefers moist soils where it will often spread, albeit somewhat invasively at times, by creeping roots, self-seeding or stem-rooting where the stems touch the ground.\n[地下茎 2／MBG・種] Noteworthy Characteristics Galium verum , commonly called yellow bedstraw, is a rhizomatous, somewhat weedy perennial herb that typically grows to 8-30\" tall and to 36\" wide on erect to sprawling stems.\n[地下茎の食い違い] Gaißmayer は 3 相当",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Prefers moist soils where it will often spread, albeit somewhat invasively at times, by creeping roots, self-seeding or stem-rooting where the stems touch the ground.\n[地下茎 2／MBG・種] Noteworthy Characteristics Galium verum , commonly called yellow bedstraw, is a rhizomatous, somewhat weedy perennial herb that typically grows to 8-30\" tall and to 36\" wide on erect to sprawling stems.\n[地下茎の食い違い] Gaißmayer は 3 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：ランナー）",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Matforming",
   "sources_with_cultivar_page": "RHS、Gaißmayer、Jelitto",

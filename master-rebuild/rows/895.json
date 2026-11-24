@@ -222,6 +222,7 @@
   "spread_modes": {
    "value": [
     "株立ち",
+    "地下茎",
     "こぼれ種"
    ],
    "method": "記載",
@@ -297,14 +298,18 @@
   },
   "pruning_codes": {
    "value": [
-    "花後",
-    "早春"
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s06",
+    "s10",
+    "s18",
+    "s21"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "A 放任型",
@@ -360,7 +365,7 @@
   "heat_west_only": null,
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Some susceptibility to rust, particularly in hot and humid summer climates.\n[RHS/品種] Aspect: West-facing or East-facing or South-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・品種] Plants may self-seed in optimum growing conditions but cultivars may not come true from seed.\n[地下茎 1／NC State・種] It forms a dense columnar foliage clump that can spread slowly through creeping rhizomes and remains attractive year-round.",
+  "spread_evidence": "[こぼれ種 1／MBG・品種] Plants may self-seed in optimum growing conditions but cultivars may not come true from seed.\n[地下茎 1／NC State・種] It forms a dense columnar foliage clump that can spread slowly through creeping rhizomes and remains attractive year-round.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、こぼれ種）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] Switch grass is generally noted for its stiff, columnar form, and typically retains its vertical shape throughout the growing season.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら",

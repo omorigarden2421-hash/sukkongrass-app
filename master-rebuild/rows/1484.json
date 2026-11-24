@@ -209,10 +209,13 @@
    "level": null
   },
   "spread_modes": {
-   "value": null,
+   "value": [
+    "こぼれ種"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら）"
   },
   "self_seed_level": {
    "value": 3,
@@ -277,13 +280,15 @@
   },
   "pruning_codes": {
    "value": [
-    "花後"
+    "花後",
+    "早春（文献の文を読んで見直し。管理タイプの決め手の列）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "management_type": {
    "value": "B 花後刈込型",
@@ -331,7 +336,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Sp02・図鑑の 'Limemound'・'White Gold'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 3／NC State・種] It is a rapid grower and can be an aggressive self-seeder.",
+  "spread_evidence": "[こぼれ種 3／NC State・種] It is a rapid grower and can be an aggressive self-seeder.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "[NC State・種] It is a rapid grower and can be an aggressive self-seeder.\n[MBG・種] Plants can be aggressive self-seeders, and have escaped gardens and naturalized in many areas of the eastern U.S.",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS",
