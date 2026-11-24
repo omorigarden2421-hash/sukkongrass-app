@@ -1,0 +1,225 @@
+<title>決め方と根拠の一覧</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* レイアウト: スマホ1列の読みもの。項目ごとのカードに「決まり・理由・だれが決めたか」。色は苗札の緑と、こちらの線引きを示す橙 */
+:root {
+  --bg: #f3f5f0; --surface: #ffffff; --fg: #1d2620; --muted: #5d6b61; --line: #d5dcd2;
+  --accent: #2c6b4a; --accent-soft: #e1eee5; --warn: #a8550c; --warn-soft: #fbead6; --on-accent: #ffffff;
+  --font: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic UI", "Meiryo", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141a16; --surface: #1d2620; --fg: #e8eee8; --muted: #a3b0a6; --line: #34413a;
+  --accent: #7fc79d; --accent-soft: #24382d; --warn: #f0a85c; --warn-soft: #3d2c18; --on-accent: #10231a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141a16; --surface: #1d2620; --fg: #e8eee8; --muted: #a3b0a6; --line: #34413a;
+  --accent: #7fc79d; --accent-soft: #24382d; --warn: #f0a85c; --warn-soft: #3d2c18; --on-accent: #10231a; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 16px; line-height: 1.75;
+  padding-block: 20px 80px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+main { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+h1 { font-size: 1.5rem; line-height: 1.35; margin: 0; text-wrap: balance; }
+h2 { font-size: 1.15rem; margin: 16px 0 0; padding-top: 16px; border-top: 2px solid var(--fg); text-wrap: balance; }
+h3 { font-size: 1rem; margin: 0; line-height: 1.5; }
+p { margin: 0; }
+.lead { color: var(--muted); font-size: .95rem; }
+.how { background: var(--accent-soft); border-radius: 10px; padding: 12px 14px; font-size: .93rem; display: flex; flex-direction: column; gap: 6px; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px; }
+nav { display: flex; flex-wrap: wrap; gap: 6px; }
+nav a { font-size: .85rem; color: var(--accent); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; text-decoration: none; background: var(--surface); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.card.mine { border-left: 4px solid var(--warn); }
+.card.user { border-left: 4px solid var(--accent); }
+.head { display: flex; gap: 8px; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; }
+.tag { font-size: .75rem; font-weight: 700; border-radius: 999px; padding: 1px 10px; white-space: nowrap; }
+.tag.user { background: var(--accent-soft); color: var(--accent); }
+.tag.mine { background: var(--warn-soft); color: var(--warn); }
+dl { margin: 0; display: grid; grid-template-columns: 4.2em 1fr; gap: 4px 10px; font-size: .92rem; }
+dt { color: var(--muted); font-size: .78rem; padding-top: 3px; }
+dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+ul { margin: 0; padding-left: 1.2em; }
+.where { font-size: .8rem; color: var(--muted); overflow-wrap: anywhere; }
+code { font-size: .85em; overflow-wrap: anywhere; }
+.tbl { overflow-x: auto; }
+table { border-collapse: collapse; font-size: .88rem; width: 100%; }
+th, td { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+th { color: var(--muted); font-weight: 500; font-size: .8rem; white-space: nowrap; }
+</style>
+<main>
+<header style="display:flex;flex-direction:column;gap:8px">
+<h1>決め方と根拠の一覧</h1>
+<p class="lead">宿根草マスター（916品種）を文献から作り直すときに使っている決まりを、項目ごとに1か所にまとめました。2026年11月24日の時点です。</p>
+</header>
+
+<div class="how">
+<p><b>このページの見方</b></p>
+<div class="legend"><span class="tag user">あなたが決めた</span><span class="tag mine">こちらで置いた線引き</span></div>
+<p>「こちらで置いた線引き」は、あなたの決定や決まりにそって、私が細かい数字や順番を決めたものです。変えたいものがあれば、チャットで言ってください。</p>
+<p>もとの記録は、リポジトリの <code>master-rebuild/DECISIONS.md</code>（あなたが決めたこと）、<code>HANDOFF.md</code>（作業の記録と理由）、<code>trial/RULES.md</code>（値の当てはめ方）です。品種ごとの根拠は、表の「…の根拠」「…の出どころ」の列にあります。</p>
+</div>
+
+<nav aria-label="目次">
+<a href="#bunken">文献の使い方</a><a href="#master">マスターを尊重する5項目</a><a href="#kuichigai">食い違いの印</a><a href="#atsusa">暑さ・蒸れ・西日・乾燥</a><a href="#fuekata">増え方・混植・管理</a><a href="#gakumei">学名・和名</a><a href="#machi">回答待ち・未決</a>
+</nav>
+
+<h2 id="bunken">1. 文献の使い方</h2>
+
+<section class="card user">
+<div class="head"><h3>文献にない値は、推測で埋めない</h3><span class="tag user">あなた 11/18</span></div>
+<dl><dt>決まり</dt><dd>文献に書いていなければ空欄にします。文献の値・自社で測った値・設計上のおすすめの値は分けて持ちます。</dd>
+<dt>例外</dt><dd>乾燥耐性だけは、MBG の土の湿り（Water: Medium）から「中」と推定して埋めています。「推定・信頼度 低」と印を付けてあり、あとで空欄に戻せます（11/23 に決定）。</dd></dl>
+</section>
+
+<section class="card user">
+<div class="head"><h3>文献の順位</h3><span class="tag user">あなた 11/19</span></div>
+<dl><dt>決まり</dt><dd><ul>
+<li>耐寒・越冬：シカゴ植物園 &gt; ミネソタ大 &gt; RHS &gt; MBG</li>
+<li>暑さ・蒸れ：NC State &gt; MBG &gt; RHS</li>
+<li>そのほか：RHS &gt; シカゴ &gt; NC State &gt; MBG &gt; … &gt; stauden.de &gt; Gaißmayer &gt; Jelitto</li></ul></dd>
+<dt>理由</dt><dd>MBG はセントルイス（夏が高温多湿）の植物園なので、暑さでは NC State の次に置きました。ドイツの3つ（stauden.de・Gaißmayer・Jelitto）は、ほかの文献に記述がない項目を埋めるのに使います。</dd>
+<dt>補足</dt><dd>ドイツの3つの耐寒ゾーン・花期・高さは、記録だけです（値には使いません）。</dd></dl>
+</section>
+
+<section class="card user">
+<div class="head"><h3>種や属のページの情報を、品種に使うか</h3><span class="tag user">あなた 11/18・11/19</span></div>
+<dl><dt>決まり</dt><dd>科・原産地・土・病害虫・増やし方など、種で共通の性質は、品種にも使います。草丈・花色・葉色など、品種で変わるものは使いません。属についての記述は「属」と書き、信頼度を 低 にします。</dd>
+<dt>見方</dt><dd>表の出どころには「（MBG・種）」のように段階が付いています。品種のページの値なら「品種」です。</dd></dl>
+</section>
+
+<section class="card mine">
+<div class="head"><h3>stauden.de の値の段階は、値ごとの印で決める</h3><span class="tag mine">こちら 11/23・11/24</span></div>
+<dl><dt>決まり</dt><dd>stauden.de の品種のページには、その品種の値と、種や属から引き継いだ値が混ざって載っています。値ごとに付いている印を見て、種から引き継いだ値は「種」として扱います。</dd>
+<dt>理由</dt><dd>前は全部を品種の値としていたため、たとえばアスター 'バイブラントドーム' の草丈に、種の値（100〜180cm）を使っていました。「品種で変わるものに種の値を使わない」という上の決まりに合わせるための直しです。</dd>
+<dt>範囲</dt><dd>草丈・花期（11/23）。日照・常緑性・増え方・香り・成株シルエット・葉の特徴・株分け・こぼれ種と地下茎（11/24）。</dd></dl>
+</section>
+
+<h2 id="master">2. マスターを尊重する5項目</h2>
+
+<section class="card user">
+<div class="head"><h3>耐寒性・花期・草丈・株張り・日照は、今のマスターの値</h3><span class="tag user">あなた 11/23</span></div>
+<dl><dt>決まり</dt><dd>この5項目は今のマスターの値を使います。マスターが空欄のときだけ、文献の値を入れます。文献の値は見比べ用の列に置き、はっきり違う品種には「…の食い違い」の印を付けます。</dd>
+<dt>あなたの言葉</dt><dd>「基本的にマスターを尊重。明らかにマスターとほかの情報先からのデータが異なる場合は、再検討」</dd>
+<dt>耐寒性</dt><dd>強・中の強・中の中・中の弱・弱 の区分は、文献の値からは作りません（区分の決め方の定義がないため）。文献の値は「USDA 下限・上限」「RHS 耐寒性」の列で見られます。</dd></dl>
+</section>
+
+<section class="card mine">
+<div class="head"><h3>文献の草丈・花期の選び方（見比べ用の列）</h3><span class="tag mine">こちら 11/23</span></div>
+<dl><dt>草丈</dt><dd>品種の数字を優先します：Walters → MBG（品種）→ stauden.de（品種）→ MBG（種）→ stauden.de（種）→ RHS の大まかな区分。品種の商品には、種の草丈を使いません。</dd>
+<dt>花期</dt><dd>月で書いてある stauden.de（ドイツ）→ MBG（セントルイス）→ Walters の季節の順です。ドイツを先にしたのは、夏が涼しく、広尾に近いと見たためです。</dd></dl>
+</section>
+
+<section class="card mine">
+<div class="head"><h3>西日耐性は、マスターの日照で決め直す</h3><span class="tag mine">こちら 11/23</span></div>
+<dl><dt>決まり</dt><dd>西日耐性は日照を使って決めます（下の「暑さ・蒸れ・西日・乾燥」）。日照をマスターの値にしたので、西日耐性もマスターの日照で決め直しました。「明るい日陰」は半日陰として扱います。</dd>
+<dt>見方</dt><dd>変わった74品種は、「暑さ・蒸れ・西日の根拠」の先頭に、文献の日照ならどうだったかを書いてあります。</dd></dl>
+</section>
+
+<h2 id="kuichigai">3. 食い違いの印</h2>
+
+<section class="card mine">
+<div class="head"><h3>印を付ける基準</h3><span class="tag mine">こちら 11/23</span></div>
+<dl><dt>草丈・株張り</dt><dd>範囲が重ならず、すき間が 10cm 以上で、しかもマスターの値の 25% 以上のとき。</dd>
+<dt>花期</dt><dd>月の範囲が重ならないとき（年をまたぐ範囲も、月の集まりとして比べます）。</dd>
+<dt>日照</dt><dd>2段以上違うとき（日向 と 半日陰・日陰）。</dd>
+<dt>耐寒性</dt><dd>マスターが 強 なのに USDA 下限 7 以上か RHS H1〜H3。マスターが 弱・中の弱 なのに USDA 下限 4 以下か RHS H6〜H7。</dd>
+<dt>理由</dt><dd>小さな差まで印を付けると、草丈だけで 130品種になり、見るのが大変になるため。</dd></dl>
+</section>
+
+<section class="card mine">
+<div class="head"><h3>印を外した（マスターのままにした）決まり</h3><span class="tag mine">こちら 11/23</span></div>
+<dl><dt>株張り</dt><dd>文献のほうが大きいとき。RHS の区分・シカゴ植物園の数年の試験・Walters の成株は、何年も育った後の幅なので、売るときの目安より大きくなるのが自然です。</dd>
+<dt>草丈</dt><dd>文献のほうが高く、葉は低くて花茎や穂だけが伸びる植物のとき（イネ科・カヤツリグサ科、ヒューケラ・ティアレラ・リグラリア・ベルゲニア・ホスタ・プルモナリア・ブルンネラ・ユッカ・アスチルベ・ムクデニア、スタキス ビザンティナ）。測り方の違い（葉の高さか花の高さか）と見ました。文献が RHS の大まかな区分で、文献のほうが高いときも外しました。</dd>
+<dt>花期</dt><dd>文献のほうが早く、ドイツなら1か月以内、セントルイスなら2か月以内の差のとき。広尾は春が遅いため、ずれて当然と見ました。</dd>
+<dt>残すもの</dt><dd>日照と耐寒性は、全部残しました（地域の差では説明できないため）。</dd>
+<dt>見方</dt><dd>外したものは、印の列に「外した（マスターのまま）：理由」と書いてあります。確認ページでも、理由ごとに折りたたんで見られます。</dd></dl>
+</section>
+
+<h2 id="atsusa">4. 暑さ・蒸れ・西日・乾燥</h2>
+
+<section class="card user">
+<div class="head"><h3>耐暑性と蒸れ耐性は、別の列</h3><span class="tag user">あなた 11/19</span></div>
+<dl><dt>決まり</dt><dd>耐暑性は気温への強さ、蒸れ耐性は空気の湿気・株の蒸れへの強さです（土の湿りすぎとは別）。文献が割れたら控えめな側にし、記述がなければ空欄です。</dd>
+<dt>強・中・弱</dt><dd>基準は「暖地での夏越し」。おぎはら植物園の定義（強＝暑さに強い、中＝暖地では涼しいところで夏越しなどの工夫が要る、弱＝暖地では夏越しが難しい）と同じ意味で使います（11/21）。</dd></dl>
+</section>
+
+<section class="card user">
+<div class="head"><h3>耐暑性は、おぎはら植物園を優先</h3><span class="tag user">あなた 11/19・11/21</span></div>
+<dl><dt>決まり</dt><dd>おぎはら植物園に品種か種のページがあれば、その値を使います。ないときだけ、欧米の文献の言い回しから決めます。欧米の文献が違うことを書いていれば、食い違いとして根拠に残します。</dd>
+<dt>理由</dt><dd>確認ページを見て、あなたが「おぎはらが結構合っている」と判断したため。日本（長野県）の条件での評価です。</dd>
+<dt>試しの扱い</dt><dd>おぎはらが同じ種の別品種をどれも 強 としているとき、ページのない同種の品種も 強 にしています（82品種。信頼度 低）。耐暑性は、全部終わったあとにもう一度見直す約束です。</dd>
+<dt>信頼度</dt><dd>高＝おぎはらと欧米の文献が同じ値。低＝同じ種の別品種から、または属の記述だけ。中＝それ以外。</dd></dl>
+</section>
+
+<section class="card user">
+<div class="head"><h3>西日耐性の決め方</h3><span class="tag user">あなた 11/19</span></div>
+<dl><dt>決まり</dt><dd>文献に直接の記述はないので、組み合わせで決めます。上から順に当てはめます。</dd></dl>
+<div class="tbl"><table>
+<tr><th>値</th><th>当てはまるとき</th></tr>
+<tr><td>×</td><td>午後や強い日差しで葉が焼けると書いてある。または日照が 半日陰・日陰</td></tr>
+<tr><td>△</td><td>暑い地域では午後の日陰を勧める記述がある。または耐暑性が 弱</td></tr>
+<tr><td>◎</td><td>日向で育ち、耐暑性も乾燥耐性も 強</td></tr>
+<tr><td>○</td><td>それ以外で、耐暑性が 中 以上</td></tr>
+<tr><td>空欄</td><td>耐暑性がわからず、日差しの記述もない</td></tr>
+</table></div>
+<dl><dt>補足</dt><dd>RHS で西向き・南向きの植え場所に入っていないときは、×か△に下げます。おぎはら楽天の暖地の日照とくらべ、低いほうを採ります（11/21）。</dd></dl>
+</section>
+
+<section class="card user">
+<div class="head"><h3>乾燥耐性の空欄の埋め方</h3><span class="tag user">あなた 11/21・11/23</span></div>
+<dl><dt>決まり</dt><dd>文献の言い回しで決めたあと、まだ空欄なら、次のものから埋めます：おぎはら楽天の耐乾性（強・中・弱）、NC State の Drought・Dry Soil か RHS の Drought Resistance: Yes（中）、MBG の Water: Medium（中。推定・信頼度 低）。</dd>
+<dt>理由</dt><dd>あなたの考え「なるべく空欄は埋めたい」。強 にしないのは、本文から 中 と決めた品種にも同じ項目が付いているためです。</dd></dl>
+</section>
+
+<h2 id="fuekata">5. 増え方・混植・管理</h2>
+
+<section class="card user">
+<div class="head"><h3>種の記述だけで「はびこる」と決めるか</h3><span class="tag user">あなた 11/19</span></div>
+<dl><dt>決まり</dt><dd>種についての記述を品種に使うときは、「品種でも同じかは未確認」と書きます。アジュガ 'バーガンディグロウ' は種の記述から隔離推奨型、スピレア 'ゴールドフレーム' はこぼれ種を空欄にしました（品種で増えるか分からないため。自社の観察で確かめる）。</dd></dl>
+</section>
+
+<section class="card user">
+<div class="head"><h3>管理タイプ（A〜E）</h3><span class="tag user">あなた 11/19・11/21</span></div>
+<dl><dt>決まり</dt><dd>上から順に決めます。E 隔離推奨型（侵略的）→ D 毎年株更新型 → C 夏前切戻型 → B 花後刈込型 → A 放任型。全916品種を1品種ずつ読み直してあります。</dd>
+<dt>回答待ち</dt><dd>RHS が「剪定不要」、ほかの文献が「花後に花茎を切る」と書いている品種を A にするか B にするか（確認ページ「剪定の確認」）。在庫のない17品種も、その答えと同じ線引きにします。</dd></dl>
+</section>
+
+<section class="card user">
+<div class="head"><h3>北海道ブルーリスト</h3><span class="tag user">あなた 11/23</span></div>
+<dl><dt>決まり</dt><dd>A2（A1 もあれば同じ）の品種だけ、リスクタグに「要管理（北海道ブルーリスト A2）」を入れます。区分そのものは、どの品種も「北海道ブルーリスト」の列に出します。</dd></dl>
+</section>
+
+<h2 id="gakumei">6. 学名・和名</h2>
+
+<section class="card user">
+<div class="head"><h3>学名の直し方</h3><span class="tag user">あなた 11/21</span></div>
+<dl><dt>決まり</dt><dd><ul>
+<li>商品名はそのまま。学名は RHS の正しい名前にそろえます。</li>
+<li>RHS が別の属名を正名としているときは、それに直します。</li>
+<li>マスターの種と文献の種が違うときは、2つ以上の文献がそろえば直します。</li>
+<li>RHS が流通名としている名前は、学名を品種名にして、流通名も残します（例：'Blogold'＝ブルーサンライズ）。</li>
+<li>RHS とつづりが少し違うだけなら、RHS のつづりに直します。</li></ul></dd></dl>
+</section>
+
+<section class="card mine">
+<div class="head"><h3>学名を直さずに残したもの</h3><span class="tag mine">こちら 11/21</span></div>
+<dl><dt>線引き</dt><dd>RHS が別の品種名を正名としているもの（'May Night' と 'Mainacht' など）は、つづりの違いではないので直さずに残しました。マスターに品種名があるのに、RHS の名前に品種名がないものも直していません。→ 確認ページ「未決の学名の確認」で選んでもらう形にしました。</dd></dl>
+</section>
+
+<section class="card mine">
+<div class="head"><h3>和名の当て方</h3><span class="tag mine">こちら 11/19・11/23</span></div>
+<dl><dt>決まり</dt><dd>YList の標準和名を入れます（あなたが決めた、11/19）。種そのものの行がないときは、基本の変種・亜種の行（var. punctata → ホタルブクロ など）を採ります。それもなければ空欄です。</dd>
+<dt>理由</dt><dd>前は最初に見つかった行を採っていたため、別の変種の和名（ヤマホタルブクロなど）が入っていました。</dd></dl>
+</section>
+
+<h2 id="machi">7. 回答待ち・未決</h2>
+
+<section class="card">
+<dl><dt>確認ページ</dt><dd><ul>
+<li>暑さに弱い品種の確認</li>
+<li>剪定の確認（剪定不要と花茎切り）</li>
+<li>文献との食い違いの確認（67品種・70か所）</li>
+<li>未決の学名の確認（23品種）</li></ul></dd>
+<dt>あとで見直す</dt><dd>耐暑性の決め方（全部終わったあとにもう一度。あなたの決定 11/19）</dd>
+<dt>保留</dt><dd>ミントブッシュの種（わかったときに文献を当てます）</dd></dl>
+<p class="where">回答の文をチャットに貼ってもらえば、表に反映します。</p>
+</section>
+</main>

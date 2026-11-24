@@ -104,10 +104,10 @@ def main(path):
             for x in split_top(body):
                 m = re.match(r"^(\w+)=([A-D])?(?:（(.*)）)?$", x)
                 if m:
-                    db.setdefault("未決", {})[m[1]] = {"選択": m[2], "メモ": m[3], "日付": today}
+                    db.setdefault("未決", {})[m[1]] = {"選択": m[2], "メモ": m[3], "日付": today}  # combine.py の name_answer が学名・流通名・和名に当てる
                     n += 1
     if not n:
-        sys.exit("回答の文が見つかりません（「暑さの確認の回答：」「剪定不要と花茎切りの回答」「食い違いの確認の回答：」で始まる文を貼ってください）")
+        sys.exit("回答の文が見つかりません（「暑さの確認の回答：」「剪定不要と花茎切りの回答」「食い違いの確認の回答：」「未決の確認の回答：」で始まる文を貼ってください）")
     json.dump(db, open(OUT, "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=1)
     print("入れた件数:", n, {k: len(v) for k, v in db.items()})
 

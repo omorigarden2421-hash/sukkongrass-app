@@ -53,6 +53,61 @@ ANS = json.load(open("user_answers.json", encoding="utf-8")) if os.path.exists("
 # 食い違いの回答は {"商品番号": {項目: {...}}}、外したものの確認は "商品番号-項目" のキー。ここでタプルに直す
 ANS.setdefault("食い違い", {})
 ANS["外したものの確認"] = {tuple(k.split("-", 1)) for k in ANS.get("外したものの確認", {})}
+# 未決の学名の確認（2026-11-24）。回答は user_answers.json の「未決」: {下書きのID: {選択, メモ, 日付}}
+FU05 = {"A": "Fuchsia magellanica var. gracilis 'Variegata'", "B": "Fuchsia magellanica var. macrostema 'Variegata'"}
+# Ep01 は選んだ和名を YList の標準（ヒヨドリバナは広義）の学名に当てる。2026-11-24 に YList（ylist.info の簡易検索）で確かめた。pass は YList の番号
+EP01 = {"A": ("Eupatorium japonicum", "フジバカマ", "5590"), "B": ("Eupatorium × arakianum", "サワフジバカマ", "23975"),
+        "C": ("Eupatorium makinoi", "ヒヨドリバナ", "7096。YList では広義")}
+
+
+def rhs_name(s):
+    """「学名（RHS）」の列の文字 → RHS の正名だけ（説明・[Accepted]・(v) などを除く）"""
+    s = re.sub(r"（.*$", "", s or "", flags=re.S)
+    s = re.sub(r"\s*\[[A-Za-z ]+\]\s*$", "", s).strip()
+    return re.sub(r"\s*\((v|d|f|m|s)\)$", "", s).strip()
+
+
+def name_answer(id_, a, adopted, note, ryu, wa, d, master_name):
+    """未決の学名の確認の回答を当てる。返すのは (学名, 学名のメモ, 流通名・別名, 和名)"""
+    v, memo, day = a.get("選択"), a.get("メモ"), a.get("日付")
+    head = f"ユーザーの確認（{day}）：" + (f"{v}" if v else "選択なし") + (f"（メモ：{memo}）" if memo else "")
+
+    def out(changed):
+        # 学名を変えたときは、前のメモ（「今の学名のまま」など）を「前のメモ」として後ろに残す
+        return "；".join(x for x in (head, note and (f"前のメモ：{note}" if changed else note)) if x)
+    if id_ == "Fu05":
+        if v in FU05:
+            adopted = FU05[v]
+            if v == "B":
+                head += "。文献は RHS の var. gracilis のページを当てたまま【要見直し】"
+        return adopted, out(v in FU05), ryu, wa
+    if id_ == "Ep01":
+        if v in EP01:
+            adopted, wa, ps = EP01[v]
+            head += f"。{wa}の白花。学名は YList の {wa}（{ps}）。種の文献はまだ当てていない【要見直し】"
+        elif v == "D":
+            head += "。種未確定"
+        return adopted, out(v in EP01), ryu, wa
+    if v in ("B", "C"):
+        new = rhs_name(d.get("学名（RHS）"))
+        if new:
+            g0, ep0, _ = split_name(master_name)
+            g1, ep1, cv1 = split_name(new)
+            hyb = lambda e: re.sub(r"^[x×]\s*", "× ", e) if e else e  # 交配の印は x と × のどちらでも同じ
+            if v == "C":
+                q0 = re.findall(r"'([^']+)'", master_name)  # 'Pink Jewel'('Rosa Juwel') のような書き方もあるので、最初の引用だけ
+                keep = q0[0] if q0 and q0[0] != cv1 else master_name  # 品種名が違えば今の品種名、種だけが違えば今の学名を流通名に残す
+                ryu = "、".join(x for x in dict.fromkeys(((ryu or "").split("、") if ryu else []) + [keep]) if x)
+            if (g0, hyb(ep0)) != (g1, hyb(ep1)):  # 種が変わった。和名と種の文献は前の種のものなので、当て直しが要る
+                wa = None
+                head += "。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】"
+            adopted = new
+            return adopted, out(True), ryu, wa
+        head += "。RHS の正名が読めないので今のまま【要見直し】"
+    return adopted, out(False), ryu, wa
+
+
+MK = ANS.get("未決", {})
 # 食い違いの印の仕分け（scripts/tools/kuichigai_classify.py）。外したものの理由
 KR_DROP = {}
 if os.path.exists("kuichigai_review.json"):
@@ -168,6 +223,10 @@ for m in master:
     mm = re.match(r"^(.*?)（(.*)）$", adopted, re.S)
     if mm:
         adopted, note = mm.group(1), mm.group(2)
+    ryu = fmt_name(m.get("別名"))
+    wa = re.sub(r"（種）$", "", d["和名"]) if d.get("和名") else None
+    if d.get("ID") in MK:
+        adopted, note, ryu, wa = name_answer(d["ID"], MK[d["ID"]], adopted, note, ryu, wa, d, fmt_name(m["学名"]))
     g, ep, cv = split_name(adopted)
     b0, b1 = bloom(m.get("花時期"))
     h0, h1, hp = height(m.get("高さ(cm)"))
@@ -177,7 +236,7 @@ for m in master:
     r = {
      "商品番号": m["商品番号"], "植物名": fmt_name(m["植物名"]), "学名（正名）": adopted, "属": g, "種小名": ep, "品種名": cv,
      "旧学名・別名": fmt_name(m["学名"]) if re.sub(r"[^a-z]", "", fmt_name(m["学名"]).lower()) != re.sub(r"[^a-z]", "", adopted.lower()) else None,
-     "和名": re.sub(r"（種）$", "", d["和名"]) if d.get("和名") else None, "流通名・別名": fmt_name(m.get("別名")),
+     "和名": wa, "流通名・別名": ryu,
      "花色（分類）": d.get("花色（分類）"), "花色（詳細）": d.get("花色（文献の語）"), "花期 開始月": b0, "花期 終了月": b1,
      "草丈 最小(cm)": h0, "草丈 最大(cm)": h1, "草丈 括弧内の値": hp, "株張り 最小(cm)": sp[0] if sp else None, "株張り 最大(cm)": sp[-1] if sp else None,
      "葉色（分類）": d.get("葉色（分類）"), "紅葉・冬の葉": d.get("紅葉"), "日照": d.get("日照"), "耐寒性": m.get("耐寒性"),
