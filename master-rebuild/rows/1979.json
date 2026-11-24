@@ -210,13 +210,10 @@
    "level": "species"
   },
   "rhizome_level": {
-   "value": 3,
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s06",
-    "s02"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "mixing": {
    "value": "強い（周囲を圧迫、配置注意）",
@@ -320,7 +317,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
-  "spread_evidence": "[こぼれ種 0／NC State・種] See the four listed sterile cultivars.\n[こぼれ種の食い違い] MBG は 1 相当、MBG は 3 相当\n[地下茎 3／NC State・種] Chinese fountain grass can spread rapidly by seeds carried by wind or by attaching to clothes or fur.",
+  "spread_evidence": "[こぼれ種 0／NC State・種] See the four listed sterile cultivars.\n[こぼれ種の食い違い] MBG は 1 相当、MBG は 3 相当\n[地下茎 3／NC State・種] Chinese fountain grass can spread rapidly by seeds carried by wind or by attaching to clothes or fur.\n[段階の読み直し 2026-11-24] NC State・種の文は「種が風や衣服で運ばれて広がる」で、地下茎の話ではない（読み違い）。3 → 空欄",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Self-seeding can be aggressive.\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Arching; Clumping; Erect; Mounding／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "stauden.de",

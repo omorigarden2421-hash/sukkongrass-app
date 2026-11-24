@@ -220,10 +220,11 @@
    "level": null
   },
   "mixing": {
-   "value": "普通（混植可）",
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s18",
+    "s06"
    ],
    "level": "cultivar"
   },
@@ -331,7 +332,7 @@
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/種] Good air circulation helps reduce incidence of foliar diseases.\n[NC State/種] Good air circulation helps reduce the incidence of foliar diseases.",
   "spread_evidence": "[こぼれ種 2／NC State・種] It will readily self-seedand can become weedy.\n[こぼれ種の食い違い] MBG は 1 相当、stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：[こぼれ種 2／NC State・種] It will readily self-seedand can become weedy.",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
   "sources_with_cultivar_page": "stauden.de、Gaißmayer、シカゴ植物園",
   "sources_used": "Gaißmayer、MBG、NC State、RHS、stauden.de、シカゴ植物園"

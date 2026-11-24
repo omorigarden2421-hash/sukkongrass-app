@@ -227,12 +227,13 @@
    "level": null
   },
   "mixing": {
-   "value": "普通（混植可）",
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s18"
+    "s18",
+    "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "invasive_note": {
    "value": "こぼれ種でよく増える（MBG・品種）",
@@ -325,7 +326,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿は嫌います（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）",
   "spread_evidence": "[こぼれ種 2／MBG・品種] Freely self-seeds and will naturalize to form large colonies in optimum growing conditions.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：[こぼれ種 2／MBG・品種] Freely self-seeds and will naturalize to form large colonies in optimum growing conditions.",
   "silhouette_evidence": "[MBG・品種] Features drooping, bell-like, 1-2\", red and yellow flowers (red sepals, yellow-limbed petals, 5 distinctive red spurs and a mass of bushy yellow stamens).",
   "sources_with_cultivar_page": "MBG、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"

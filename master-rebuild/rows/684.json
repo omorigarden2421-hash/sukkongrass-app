@@ -246,11 +246,12 @@
    "level": null
   },
   "mixing": {
-   "value": "普通（混植可）",
+   "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
     "s18",
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -367,7 +368,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: West-facing or South-facing",
   "spread_evidence": "[こぼれ種 2／MBG・種] Plants more freely self-seed where reliably hardy and they have escaped gardens and naturalized in a number of areas.\n[こぼれ種の食い違い] Walters は 1 相当、stauden.de は 1 相当",
-  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[NC State・種] Some sources have labeled it \"invasive.\" Do not allow this species to spread into natural areas and become a problem.",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[NC State・種] Some sources have labeled it \"invasive.\" Do not allow this species to spread into natural areas and become a problem.\n[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：[こぼれ種 2／MBG・種] Plants more freely self-seed where reliably hardy and they have escaped gardens and naturalized in a number of areas.",
   "silhouette_evidence": "[NC State・種] Habit/Form: Erect",
   "sources_with_cultivar_page": "RHS、Walters、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"

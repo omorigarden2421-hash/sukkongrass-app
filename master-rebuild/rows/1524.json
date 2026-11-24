@@ -222,10 +222,13 @@
    "level": null
   },
   "mixing": {
-   "value": null,
+   "value": "侵略的（隔離推奨）",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02",
+    "s05"
+   ],
+   "level": "species"
   },
   "invasive_note": {
    "value": "こぼれ種で強く増え、雑草化することがある（MBG・種）（種についての記述。この品種で同じかは未確認）。地域によっては侵略的外来種とされている、という記述がある（MBG・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）。環境省の外来種リストに掲載（防除検討外来種（シロガネヨシ（パンパスグラス）））",
@@ -276,14 +279,14 @@
    "level": null
   },
   "management_type": {
-   "value": "A 放任型",
+   "value": "E 隔離推奨型",
    "method": "判定",
    "sources": [
     "s18",
     "s02"
    ],
    "level": "species",
-   "note": "文を読んで見直し（確かさ：中）"
+   "note": "ユーザーの決定（2026-11-24。矛盾の洗い出しのおすすめ）"
   },
   "division_interval": {
    "value": "早春（間隔の記載なし。MBG・種）",
@@ -322,7 +325,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の 'Evita'・図鑑の 'Tiny Pampa'・図鑑の 'Rosea'・図鑑の 'White Feather'）] 耐暑性；強（この品種のページはない。信頼度：低）",
   "spread_evidence": "[こぼれ種 3／MBG・種] Invasively self-seeds in some warm winter areas.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
-  "mixing_evidence": "[MBG・種] Invasively self-seeds in some warm winter areas.",
+  "mixing_evidence": "[MBG・種] Invasively self-seeds in some warm winter areas.\n[ユーザーの決定 2026-11-24] 環境省の外来種リスト（第２版）の防除検討外来種（シロガネヨシ）。MBG・種「暖かい冬の地域でこぼれ種で侵略的に増える」。侵略的・隔離推奨型",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Arching; Clumping; Weeping／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "なし",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"

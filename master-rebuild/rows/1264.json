@@ -240,7 +240,7 @@
    "level": "species"
   },
   "rhizome_level": {
-   "value": 3,
+   "value": 2,
    "method": "判定",
    "sources": [
     "s02",
@@ -367,7 +367,7 @@
   "heat_west_only": "中",
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の モナルダ レッド・パープル・ピンク・ホワイト）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/種] Prefers rich, humusy soils in full sun, although some afternoon shade is appreciated in hot summer climates.\n[MBG/種] Provide plants with good air circulation to help combat fungal leaf diseases (see Problems section below).\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／MBG・種] Deadhead flowers immediately after bloom to prevent self-seeding.\n[地下茎 3／NC State・種] Scarlet beebalm can reach a height of 4 feet and will spread rapidly by underground stolons.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "spread_evidence": "[こぼれ種 1／MBG・種] Deadhead flowers immediately after bloom to prevent self-seeding.\n[地下茎 3／NC State・種] Scarlet beebalm can reach a height of 4 feet and will spread rapidly by underground stolons.\n[地下茎の食い違い] MBG は 2 相当、stauden.de は 2 相当\n[段階の読み直し 2026-11-24] NC State・種「地下の走出枝で急速に広がる」は速く広がる話で、侵略的・はびこるとは書いていない（RULES.md の 2：spreads／vigorous spreader）。3 → 2\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters",
