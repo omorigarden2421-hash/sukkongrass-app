@@ -69,7 +69,7 @@
    "note": "今のマスターの値。文献：10〜50（RHS の幅）"
   },
   "foliage_class": {
-   "value": "グリーン系",
+   "value": "斑入り",
    "method": "記載",
    "sources": [
     "s01"

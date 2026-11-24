@@ -64,10 +64,11 @@
    "note": "今のマスターの値。文献：61（シカゴ植物園の試験での株幅）"
   },
   "foliage_class": {
-   "value": null,
+   "value": "グリーン系",
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、stauden.de、おぎはら、シカゴ植物園）"
   },
   "foliage_features": {
    "value": null,

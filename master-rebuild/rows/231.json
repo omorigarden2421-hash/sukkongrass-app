@@ -64,10 +64,11 @@
    "note": "今のマスターの値。文献：60〜90"
   },
   "foliage_class": {
-   "value": null,
+   "value": "グリーン系",
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、Walters、stauden.de）"
   },
   "foliage_features": {
    "value": [

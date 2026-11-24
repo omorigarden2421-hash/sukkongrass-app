@@ -57,10 +57,11 @@
    "level": null
   },
   "foliage_class": {
-   "value": null,
+   "value": "グリーン系",
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園）"
   },
   "foliage_features": {
    "value": null,

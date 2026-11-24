@@ -68,7 +68,7 @@
    "note": "今のマスターの値。文献：150〜250（RHS の幅）"
   },
   "foliage_class": {
-   "value": "ゴールド・ライム系",
+   "value": "グリーン系",
    "method": "記載",
    "sources": [
     "s01"
