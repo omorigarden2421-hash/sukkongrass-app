@@ -76,16 +76,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "浅く裂ける",
-    "羽状の葉",
-    "ハート形"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -232,7 +226,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -252,7 +246,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -340,7 +334,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -351,7 +345,7 @@
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/種] Performs poorly in hot and humid summer climates.\n[NC State/種] It is intolerant of the hot and humid summers of the deep South and would do well in areas of shade in the afternoon during the hot summer months.\n[RHS/品種] Aspect: East-facing（西向き・南向きが入っていない）",
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de"

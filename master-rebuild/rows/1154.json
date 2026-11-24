@@ -76,16 +76,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "ざらつく",
-    "切れ込みがある",
-    "縁に丸い鋸歯"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -113,7 +107,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "usda_min": {
    "value": null,
@@ -224,7 +218,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 2,
@@ -232,7 +226,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "rhizome_level": {
    "value": null,
@@ -246,15 +240,15 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
-   "value": "こぼれ種でよく増える（stauden.de・品種）",
+   "value": "こぼれ種でよく増える（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -336,7 +330,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -346,8 +340,8 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い ある程度耐えますが高温多湿は苦手です（蒸れ 弱 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向／暖地: 日向〜やや半日陰（西日 ○ 相当）\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・品種] oft Selbstaussaat",
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
+  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら",
   "sources_used": "Gaißmayer、Jelitto、RHS、stauden.de、おぎはら"

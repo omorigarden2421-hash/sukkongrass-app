@@ -74,14 +74,12 @@
   },
   "foliage_features": {
    "value": [
-    "縁に丸い鋸歯",
-    "多肉質",
     "革質",
+    "多肉質",
     "縁に鋸歯"
    ],
    "method": "記載",
    "sources": [
-    "s18",
     "s06"
    ],
    "level": "cultivar"
@@ -228,7 +226,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -248,7 +246,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -346,7 +344,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -357,7 +355,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/品種] Tolerates some light part shade in hot summer climates, but will produce weak floppy growth when grown in too much shade or in overly rich soils.\n[NC State/品種] While the plant does well in full sun, morning or afternoon shade is desirable as well.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing",
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・品種] Habit/Form: Ascending; Clumping; Spreading",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Gaißmayer、おぎはら",
   "sources_used": "Gaißmayer、MBG、NC State、RHS、stauden.de、おぎはら"

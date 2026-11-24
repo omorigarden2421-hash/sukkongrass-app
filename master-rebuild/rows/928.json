@@ -78,19 +78,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "光沢がある",
-    "切れ込みがある",
-    "浅く裂ける",
-    "縁に鋸歯",
-    "掌状の葉",
-    "丸い葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -234,7 +225,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -353,7 +344,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {

@@ -218,7 +218,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "rhizome_level": {
    "value": null,
@@ -322,7 +322,7 @@
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐暑性: 普通（暖地では夏に風とおし、水はけよく）（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[MBG/種] Generally does not perform well in the hot and humid conditions of the deep South (USDA Zones 8-10).\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[MBG・種] Features fern-like, compound, 3-4 pinnate, dark green leaves which form a foliage mound to 4-6\" tall.",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら、Jelitto",

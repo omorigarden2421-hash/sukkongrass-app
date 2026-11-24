@@ -73,15 +73,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "しわがある",
-    "縁に丸い鋸歯"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -101,7 +96,7 @@
    "value": "株立ち",
    "method": "判定",
    "sources": [
-    "s18"
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -110,7 +105,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの値。文献：日向（stauden.de・品種）"
+   "note": "今のマスターの値。文献：日向（stauden.de・種）"
   },
   "usda_min": {
    "value": null,
@@ -212,7 +207,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -232,7 +227,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -326,7 +321,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -337,8 +332,8 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: West-facing or South-facing",
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、Jelitto",
   "sources_used": "Jelitto、NC State、RHS、stauden.de"
  }

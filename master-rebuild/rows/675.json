@@ -224,7 +224,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 2,
@@ -251,10 +251,10 @@
     "s18",
     "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）。こぼれ種でよく増える（NC State・種）（種についての記述。この品種で同じかは未確認）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。生育が強く、はびこる（stauden.de・品種 の Wuchsstärke: wuchernd）。米国中西部の州で有害雑草に指定（MBG の注意書き）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）。こぼれ種でよく増える（NC State・種）（種についての記述。この品種で同じかは未確認）。地域によっては侵略的外来種とされている、という記述がある（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）。生育が強く、はびこる（stauden.de・種 の Wuchsstärke: wuchernd）（種についての記述。この品種で同じかは未確認）。米国中西部の州で有害雑草に指定（MBG の注意書き）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s18",
@@ -350,7 +350,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -361,7 +361,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/種] If plants dry out, the leaves become scorched, but the plant can be cut back hard to generate new growth.\n[RHS/品種] Aspect: East-facing or South-facing or North-facing or West-facing",
   "spread_evidence": "[こぼれ種 2／NC State・種] It freely self-seeds and can spread out of control.\n[地下茎 2／stauden.de・品種] ausläufertreibend",
-  "mixing_evidence": "[stauden.de・品種] Wuchsstärke: wuchernd\n[NC State・種] Some Midwestern states consider this plant a noxious weed and do not allow it to be grown or transplanted where there is any danger of it spreading.",
+  "mixing_evidence": "[stauden.de・種] Wuchsstärke: wuchernd\n[NC State・種] Some Midwestern states consider this plant a noxious weed and do not allow it to be grown or transplanted where there is any danger of it spreading.",
   "silhouette_evidence": "[Walters・品種] Plants form a bushy clump, bearing sprays of white flowers in early summer.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"

@@ -75,17 +75,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "光沢がある",
-    "革質",
-    "縁が波打つ",
-    "縁に鋸歯"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -100,10 +93,10 @@
    "level": null
   },
   "silhouette": {
-   "value": "マット",
+   "value": "株立ち",
    "method": "判定",
    "sources": [
-    "s18"
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -227,7 +220,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -316,7 +309,7 @@
    "note": "文を読んで見直し（確かさ：高）"
   },
   "division_interval": {
-   "value": "春または秋（間隔の記載なし。RHS・品種）。長生きで、長年植え替えない方がよい（stauden.de・品種）",
+   "value": "春または秋（間隔の記載なし。RHS・品種）。長生きで、長年植え替えない方がよい（stauden.de・種）",
    "method": "記載",
    "sources": [
     "s01",
@@ -340,7 +333,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "pollinator": {
    "value": null,
@@ -358,7 +351,7 @@
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向(適湿)〜半日陰／暖地: やや半日陰〜半日陰（西日 × 相当）\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
   "spread_evidence": "[地下茎 1／NC State・種] However, it can be slow to spread.\n[地下茎の食い違い] stauden.de は 2 相当",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: flächig / ausladend bis breitausladend",
+  "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"
  }

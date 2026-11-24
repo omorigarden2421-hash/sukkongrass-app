@@ -71,15 +71,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "ざらつく",
-    "ハート形"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -223,7 +218,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -309,7 +304,7 @@
    "note": "文を読んで見直し（確かさ：低）"
   },
   "division_interval": {
-   "value": "早春（間隔の記載なし。RHS・品種）。長生きで、長年植え替えない方がよい（stauden.de・品種）",
+   "value": "早春（間隔の記載なし。RHS・品種）。長生きで、長年植え替えない方がよい（stauden.de・種）",
    "method": "記載",
    "sources": [
     "s01",

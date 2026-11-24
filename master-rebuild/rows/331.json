@@ -101,7 +101,7 @@
    "value": "株立ち",
    "method": "判定",
    "sources": [
-    "s18"
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -229,7 +229,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -251,7 +251,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -357,8 +357,8 @@
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（F05・F08）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/種] Needs good air circulation (space well and thin out stems as needed) to help combat potential powdery mildew problems.\n[NC State/種] Good air circulation (adequate spacing and thinning of stems as needed) will help combat powdery mildew.\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／NC State・種] Removing faded flower panicles will prolong blooming and prevent self-seeding as cultivars do not come true from seed.",
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、シカゴ植物園",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園"
  }

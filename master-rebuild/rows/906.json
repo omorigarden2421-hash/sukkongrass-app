@@ -73,17 +73,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "ざらつく",
-    "縁に鋸歯",
-    "羽状の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -199,7 +192,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "native_range": {
    "value": "中国、日本",
@@ -218,7 +211,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -226,7 +219,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "rhizome_level": {
    "value": 2,
@@ -234,7 +227,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "mixing": {
    "value": null,
@@ -243,12 +236,12 @@
    "level": null
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
+   "value": "地下茎・ランナーでよく広がる（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -337,7 +330,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[MBG/属] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／stauden.de・品種] ausläufertreibend",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／stauden.de・種] ausläufertreibend",
   "mixing_evidence": null,
   "silhouette_evidence": "[Walters・品種] This recent midsize selection features showy, soft-pink plumes, over a compact mound of elegant, lacy blue-green leaves.",
   "sources_with_cultivar_page": "stauden.de、Walters",

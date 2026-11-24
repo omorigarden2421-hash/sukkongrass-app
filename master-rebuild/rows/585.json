@@ -76,16 +76,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "しわがある",
-    "葉に香りがある",
-    "縁に鋸歯"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -115,7 +109,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "usda_min": {
    "value": null,
@@ -214,7 +208,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -228,7 +222,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "mixing": {
    "value": null,
@@ -237,12 +231,12 @@
    "level": null
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
+   "value": "地下茎・ランナーでよく広がる（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -330,7 +324,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -340,7 +334,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend",
+  "spread_evidence": "[地下茎 2／stauden.de・種] ausläufertreibend",
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Spreading branched",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer",

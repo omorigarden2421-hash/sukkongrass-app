@@ -78,17 +78,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "しわがある",
-    "縁に鋸歯",
-    "ハート形"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -97,18 +90,16 @@
    "level": null
   },
   "fragrance": {
-   "value": "あり",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
+   "sources": null,
    "level": null
   },
   "silhouette": {
    "value": "株立ち",
    "method": "判定",
    "sources": [
-    "s18"
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -234,7 +225,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -254,7 +245,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": "米国内に侵略的とされている地域がある（MBG の表示）（種についての記述。この品種で同じかは未確認）",
@@ -365,8 +356,8 @@
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[Walters/品種] Tolerates heat and humidity but appreciates a soil that does not dry out.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: aufrecht bis locker aufrecht / buschig, dichtbuschig bis lockerbuschig",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"
  }

@@ -77,16 +77,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "葉に香りがある",
-    "線形の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -228,7 +222,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -248,7 +242,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -354,7 +348,7 @@
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/品種] Louis area, primarily because of winter stresses and high summer humidity.\n[MBG/品種] High summer humidity in the St.\n[NC State/種] Providing good air circulation helps prevent leaf spot.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] ‘Hidcote’ is a compact mounded form typically growing to 20” tall and featuring deep purple-blue flowers and gray foliage.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"

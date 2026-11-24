@@ -77,16 +77,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "ざらつく",
-    "草状の細い葉",
-    "帯状の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -219,7 +213,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -242,7 +236,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -328,7 +322,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "pollinator": {
    "value": null,
@@ -345,7 +339,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
   "spread_evidence": "[こぼれ種 1／MBG・品種] May self-seed in optimum growing conditions.\n[こぼれ種の食い違い] stauden.de は 2 相当",
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[MBG・品種] Numerous flower stems rise in summer from the foliage mound to a height of 3' bearing wide, airy panicles (to 20\" long) of tiny, variably-colored flowers (tones of gold, silver, purple and green) whic／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Jelitto",
   "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"

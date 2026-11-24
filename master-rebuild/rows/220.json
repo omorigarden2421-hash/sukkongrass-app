@@ -219,7 +219,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 2,
@@ -249,12 +249,12 @@
    "level": "cultivar"
   },
   "invasive_note": {
-   "value": "こぼれ種でよく増える（stauden.de・品種）",
+   "value": "こぼれ種でよく増える（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -348,7 +348,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/品種] Foliage may depreciate considerably in hot summer weather and may scorch if grown in too much sun.\n[MBG/品種] Although plants tolerate light morning sun, they need afternoon shade.\n[MBG/品種] Leaves can depreciate considerably in extremely hot weather and/or too much sun (scorch).\n[RHS/品種] Aspect: East-facing or North-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・品種] oft Selbstaussaat\n[地下茎 1／MBG・品種] Plants spread slowly by creeping roots.",
+  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 1／MBG・品種] Plants spread slowly by creeping roots.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] ‘Trevi Fountain’ is a mounding variety that features slender, silver-spotted leaves and large cobalt-blue flowers.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer",

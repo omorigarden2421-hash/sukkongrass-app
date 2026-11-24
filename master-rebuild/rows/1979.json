@@ -65,15 +65,10 @@
    "level": null
   },
   "foliage_features": {
-   "value": [
-    "ざらつく",
-    "線形の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -88,12 +83,10 @@
    "level": null
   },
   "silhouette": {
-   "value": "グラス",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "sun": {
    "value": "日向",
@@ -187,7 +180,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "native_range": {
    "value": "東アジア",
@@ -205,7 +198,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 0,
@@ -325,7 +318,7 @@
   "heat_muggy_west_evidence": null,
   "spread_evidence": "[こぼれ種 0／NC State・種] See the four listed sterile cultivars.\n[こぼれ種の食い違い] MBG は 1 相当、MBG は 3 相当\n[地下茎 3／NC State・種] Chinese fountain grass can spread rapidly by seeds carried by wind or by attaching to clothes or fur.",
   "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[MBG・種] Self-seeding can be aggressive.\n[管理タイプの見直し] 文を読んで隔離推奨型にしなかったので、侵略的 から 強い に下げた",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: geneigt / ausladend bis breitausladend / buschig, dichtbuschig bis lockerbuschig／イネ科・カヤツリグサ科",
+  "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Arching; Clumping; Erect; Mounding／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "stauden.de",
   "sources_used": "Jelitto、MBG、NC State、stauden.de"
  }

@@ -77,17 +77,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "ざらつく",
-    "縁に鋸歯",
-    "羽状の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -102,10 +95,10 @@
    "level": null
   },
   "silhouette": {
-   "value": "ロゼット",
+   "value": "株立ち",
    "method": "判定",
    "sources": [
-    "s18"
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -230,7 +223,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -250,7 +243,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -357,8 +350,8 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[MBG/品種] Some afternoon shade is best hot summer climates.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: rosettenartig / geneigt",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、おぎはら",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de、おぎはら"
  }

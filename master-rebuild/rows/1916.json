@@ -78,17 +78,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "ざらつく",
-    "縁に鋸歯",
-    "羽状の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -103,10 +96,10 @@
    "level": null
   },
   "silhouette": {
-   "value": "マット",
+   "value": "株立ち",
    "method": "判定",
    "sources": [
-    "s18"
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -228,7 +221,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -236,7 +229,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "rhizome_level": {
    "value": 2,
@@ -244,7 +237,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "mixing": {
    "value": null,
@@ -253,12 +246,12 @@
    "level": null
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
+   "value": "地下茎・ランナーでよく広がる（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -352,9 +345,9 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 明るい半日陰（西日 × 相当）\n[MBG/属] Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.\n[食い違い] 欧米の文献（属の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or West-facing or North-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／stauden.de・品種] ausläufertreibend",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／stauden.de・種] ausläufertreibend",
   "mixing_evidence": null,
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: flach, ausgebreitet",
+  "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、おぎはら",
   "sources_used": "Jelitto、MBG、RHS、stauden.de、おぎはら"
  }

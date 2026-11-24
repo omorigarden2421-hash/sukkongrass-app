@@ -27,7 +27,7 @@ import ogihara_data as OG  # noqa: E402
 import rhs_ids as RH  # noqa: E402
 import jelitto_cbg_data as JC  # noqa: E402
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from extra_cols import extra as extra_columns, prune_extra, prune_all, six as six_columns  # noqa: E402
+from extra_cols import extra as extra_columns, prune_extra, prune_all, six as six_columns, sdb_lv  # noqa: E402
 
 IN, DIGEST, RAW, OUT = sys.argv[1:5]
 D = json.load(open(DIGEST, encoding="utf-8"))
@@ -575,7 +575,7 @@ def main():
             L = [LICHT.get(v) for v, _ in s["f"]["Lichtansprüche"]]
             r["日照"] = "日向〜半日陰" if "日向" in L and "半日陰" in L else "日向" if "日向" in L else "半日陰" if "半日陰" in L else "日陰"
             used.add("stauden.de")
-            src(("日照",), f"stauden.de・{slv}")
+            src(("日照",), f"stauden.de・{sdb_lv(s, 'Lichtansprüche', slv)}")
         #   "fill": 今まで（MBG → Walters → stauden.de）で空欄のときだけ RHS
         if not r["日照"] and rsun and SUN_MODE == "fill":
             r["日照"] = rsun
@@ -739,7 +739,7 @@ def main():
         if s:
             f = s["f"]
             ph = [v for v, _ in f.get("Blattphase", [])]
-            r["常緑性"] = {"immergrün": "常緑", "wintergrün": "半常緑", "sommergrün": "落葉"}.get(ph[0]) + f"（stauden.de・{slv}）" if ph and ph[0] in ("immergrün", "wintergrün", "sommergrün") else None
+            r["常緑性"] = {"immergrün": "常緑", "wintergrün": "半常緑", "sommergrün": "落葉"}.get(ph[0]) + f"（stauden.de・{sdb_lv(s, 'Blattphase', slv, lambda v: v == ph[0])}）" if ph and ph[0] in ("immergrün", "wintergrün", "sommergrün") else None
             wv = [v for v, _ in f.get("Wuchsverhalten", [])]
             modes = []
             if any("horst" in v for v in wv):
@@ -758,7 +758,8 @@ def main():
                 r["切り花"] = "○"
             if any("Insekten" in v for v in uses):
                 r["蜜源"] = "○"
-            src(("増え方", "切り花", "蜜源"), f"stauden.de・{slv}")
+            src(("増え方",), f"stauden.de・{sdb_lv(s, ('Wuchsverhalten', 'MS-Generativer Ausbreitungsdrang'), slv)}")
+            src(("切り花", "蜜源"), f"stauden.de・{sdb_lv(s, 'Allgemeine Verwendungsmöglichkeiten', slv)}")
         if w:
             u = w["f"].get("Plant Uses & Characteristics", [])
             if "Cut Flower" in u:

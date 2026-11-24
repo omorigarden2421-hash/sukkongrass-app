@@ -78,15 +78,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "縁に鋸歯",
-    "羽状の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -101,10 +96,10 @@
    "level": null
   },
   "silhouette": {
-   "value": "直立",
+   "value": "株立ち",
    "method": "判定",
    "sources": [
-    "s18"
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -226,7 +221,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 2,
@@ -353,7 +348,7 @@
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿 は嫌います（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい日陰／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 2／MBG・種] Freely self-seeds.\n[地下茎 1／MBG・種] Noteworthy Characteristics Sanguisorba officinalis , called great burnet, is a clump-forming, rhizomatous perennial which typically grows to 3' tall.",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: aufrecht bis straff aufrecht / aufrechte Stängel mit grundständigem Blattschopf",
+  "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら",
   "sources_used": "Gaißmayer、MBG、RHS、stauden.de、おぎはら"
  }

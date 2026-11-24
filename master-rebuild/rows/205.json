@@ -70,15 +70,11 @@
   },
   "foliage_features": {
    "value": [
-    "柔らかい",
-    "帯状の葉",
-    "多色の葉",
     "ざらつく",
     "線形の葉"
    ],
    "method": "記載",
    "sources": [
-    "s18",
     "s06"
    ],
    "level": "cultivar"

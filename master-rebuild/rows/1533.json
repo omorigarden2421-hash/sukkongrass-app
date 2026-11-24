@@ -71,14 +71,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "葉に香りがある"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -95,10 +91,10 @@
    "level": null
   },
   "silhouette": {
-   "value": "ドーム",
+   "value": "株立ち",
    "method": "判定",
    "sources": [
-    "s18"
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -108,7 +104,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "usda_min": {
    "value": null,
@@ -217,7 +213,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -237,7 +233,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -320,7 +316,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -331,8 +327,8 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[NC State/種] It is deer, rabbit, drought and heat tolerant.\n[RHS/品種] Aspect: South-facing or East-facing（西向きが入っていない）",
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: kissenartig bis kissenbildend",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer",
   "sources_used": "Gaißmayer、NC State、RHS、stauden.de"
  }

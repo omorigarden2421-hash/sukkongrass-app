@@ -69,14 +69,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "草状の細い葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -94,7 +90,7 @@
    "value": "グラス",
    "method": "判定",
    "sources": [
-    "s18"
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -209,7 +205,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -317,7 +313,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "pollinator": {
    "value": null,
@@ -335,7 +331,7 @@
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／MBG・種] Spread by rhizomes and self-seeding.\n[地下茎 2／NC State・種] Palm sedge is a rhizomatous herbaceous perennial in the sedge family (Cyperaceae) native to the upper midwestern US and Canada.",
   "mixing_evidence": null,
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig／イネ科・カヤツリグサ科",
+  "silhouette_evidence": "[RHS・品種] Habit: Clump forming, Tufted／イネ科・カヤツリグサ科",
   "sources_with_cultivar_page": "RHS、stauden.de",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de"
  }

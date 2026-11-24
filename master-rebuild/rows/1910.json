@@ -76,19 +76,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "綿毛がある（フェルト状）",
-    "浅く裂ける",
-    "縁が波打つ",
-    "縁に丸い鋸歯",
-    "ハート形"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -201,7 +192,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "native_range": {
    "value": null,
@@ -217,7 +208,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -237,7 +228,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -327,7 +318,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[Walters/品種] Best in cool summer regions.",
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[Walters・品種] It forms a low rosette of medium-green leaves, bearing open heads of star-shaped pink blooms from mid to late spring.",
   "sources_with_cultivar_page": "RHS、stauden.de、Walters、Jelitto",
   "sources_used": "Jelitto、NC State、RHS、Walters、stauden.de"

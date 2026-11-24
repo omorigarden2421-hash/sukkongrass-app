@@ -77,14 +77,12 @@
   },
   "foliage_features": {
    "value": [
-    "縁が波打つ",
     "革質",
     "縁に鋸歯",
     "ハート形"
    ],
    "method": "記載",
    "sources": [
-    "s18",
     "s06"
    ],
    "level": "cultivar"
@@ -225,7 +223,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,

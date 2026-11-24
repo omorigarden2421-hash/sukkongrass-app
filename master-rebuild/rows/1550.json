@@ -73,15 +73,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "ざらつく"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -96,10 +91,10 @@
    "level": null
   },
   "silhouette": {
-   "value": "ドーム",
+   "value": "株立ち",
    "method": "判定",
    "sources": [
-    "s18"
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -222,7 +217,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -242,7 +237,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -335,7 +330,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -346,8 +341,8 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[MBG/属] Foliage may depreciate considerably in hot summer weather and may scorch if grown in too much sun.\n[MBG/属] Although plants tolerate light morning sun, they need afternoon shade.\n[MBG/属] Leaves can depreciate considerably in extremely hot weather and/or too much sun (scorch).\n[RHS/品種] Aspect: North-facing or West-facing or East-facing or South-facing",
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: kissenartig bis kissenbildend / aufrechte Stängel mit grundständigem Blattschopf",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、シカゴ植物園",
   "sources_used": "MBG、RHS、stauden.de、シカゴ植物園"
  }

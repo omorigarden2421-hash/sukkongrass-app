@@ -47,6 +47,26 @@ R1 = r"(does|do|will) not spread (aggressively|rapidly|quickly|very)|less (apt|l
 R2 = r"spreads? (by|via|through|from) (creeping |underground |short |slender |its )?(rhizom|stolon|runner|sucker|root|stem)|spreading by|rhizomatous|stoloniferous|(by|via) (creeping |underground )?(rhizomes|stolons|runners|suckers)|form(s|ing)? (large |dense |extensive |sizable )?colon|coloniz|suckers? (freely|to form)|root(s|ing) at the nodes|vigorous(ly)? spread|spreads? (quickly|widely|freely|readily|indefinitely|vigorously)|running (rhizom|habit)"
 
 
+SDB_LV = {"species": "種", "genus": "属"}
+LV_RANK = {"品種": 0, "種": 1, "属": 2}
+
+
+def sdb_tag(tag, slv):
+    """stauden.de の値ごとの印 → 段階。"cultivar" の印は、そのページの段階（種のページなら 種）"""
+    return SDB_LV.get(tag, slv)
+
+
+def sdb_lv(s, keys, slv, use=None):
+    """stauden.de の値の段階（2026-11-24）。品種のページにも、種・属から引き継いだ値が載る（値ごとの "cultivar"／"species"／"genus" の印）。
+    keys の値（use を渡したら、use(値) が真の値だけ）のうち、いちばん広い段階を返す。値がなければ slv"""
+    lvs = [slv]
+    for key in ([keys] if isinstance(keys, str) else keys):
+        for v, tag in s["f"].get(key, []):
+            if use is None or use(v):
+                lvs.append(sdb_tag(tag, slv))
+    return max(lvs, key=lambda x: LV_RANK.get(x, 0))
+
+
 def _family(rh, m, n, s):
     for src, val in (("RHS", rh and rh["f"].get("Family")), ("MBG", m and m["f"].get("Family", "").replace("Family:", "")),
                      ("NC State", n and n["f"].get("Family")), ("stauden.de", s and s["f"].get("Familienname") and s["f"]["Familienname"][0][0])):
@@ -97,7 +117,7 @@ def _fragrance(it, rh, m, mlv, n, nl, s, slv, w, ga, ga_own):
         vague.append("Walters")
     if ga and ga_own and ga[11].get("Duftend") == "ja":
         vague.append("Gaißmayer")
-    if s and ok(slv) and any("duft" in v.lower() for v, _ in s["f"].get("Eigenschaften", [])):
+    if s and any("duft" in v.lower() for v, _ in s["f"].get("Eigenschaften", [])) and ok(sdb_lv(s, "Eigenschaften", slv, lambda v: "duft" in v.lower())):
         vague.append("stauden.de")
     parts = list(dict.fromkeys(parts))
     if parts:
@@ -204,11 +224,11 @@ def extra(it, rh, m, mlv, n, nl, s, slv, w, ga, ga_own, je, texts):
                     cand["rhiz"].append((src, lv, rz, sent))
     if s:
         for key in ("Wuchsverhalten", "Pflegehinweis"):
-            for v, _ in s["f"].get(key, []):
+            for v, tg in s["f"].get(key, []):
                 for kind, fn in (("seed", _de_seed), ("rhiz", _de_rhiz)):
                     lv = fn(v)
                     if lv is not None and not (kind == "rhiz" and key == "Pflegehinweis"):
-                        cand[kind].append(("stauden.de", slv, lv, v))
+                        cand[kind].append(("stauden.de", sdb_tag(tg, slv), lv, v))
     if ga:
         glv = "品種" if ga_own else "種"
         for field, v in ga[12]:
@@ -269,8 +289,9 @@ def prune_all(texts, rh, ga, ga_own, og, sh, s, slv):
         if lv != "属" and re.search(PRUNE_ANY, x.lower().replace("\xa0", " ")):
             out.append(f"[{a}・{lv}] {x[:300]}")
     if s:
-        for v, _ in s["f"].get("Pflegehinweis", []):
-            out.append(f"[stauden.de・{slv}] {v}")
+        for v, tg in s["f"].get("Pflegehinweis", []):
+            if sdb_tag(tg, slv) != "属":  # 属のページの文は並べない（ほかの文献と同じ）
+                out.append(f"[stauden.de・{sdb_tag(tg, slv)}] {v}")
     if ga:
         out += [f"[Gaißmayer・{'品種' if ga_own else '種'}／{field}] {v[:300]}" for field, v in ga[12] if field in ("pruning", "division", "lifespan", "self_seed", "spread_mode")]
     if og:
@@ -374,11 +395,11 @@ def _silhouette(rh, m, mlv, n, nl, s, slv, w, family, cultivar_ok):
             for k, x in hits:
                 if k == v:
                     return fin(v, f"[{lab}・{lv}] {x[:200]}")
-    if s and cultivar_ok(slv):
+    if s and cultivar_ok(sdb_lv(s, "Wuchsform", slv)):
         wf = " / ".join(v for v, _ in s["f"].get("Wuchsform", []))
         for v, pat in SIL_DE:
             if re.search(pat, wf):
-                return fin(v, f"[stauden.de・{slv}] Wuchsform: {wf}")
+                return fin(v, f"[stauden.de・{sdb_lv(s, 'Wuchsform', slv)}] Wuchsform: {wf}")
     if hab:
         if grass:
             return "グラス", f"[RHS・品種] Habit: {hab}／イネ科・カヤツリグサ科"
@@ -410,7 +431,7 @@ LEAF_NC = {
 
 def _leaf(n, nl, s, slv, cultivar_ok):
     out, src = [], []
-    if s and cultivar_ok(slv):
+    if s and cultivar_ok(sdb_lv(s, list(LEAF_DE), slv)):  # 葉の語の値に、種・属から引き継いだものが1つでもあれば、種（属）の記述として扱う
         got = []
         for key, pairs in LEAF_DE.items():
             vals = " / ".join(v for v, _ in s["f"].get(key, []))
@@ -424,7 +445,7 @@ def _leaf(n, nl, s, slv, cultivar_ok):
                 got.append(ja)
         if got:
             out += got
-            src.append(f"stauden.de・{slv}")
+            src.append(f"stauden.de・{sdb_lv(s, list(LEAF_DE), slv)}")
     if n and cultivar_ok(nl):
         got = []
         for key, pairs in LEAF_NC.items():
@@ -532,13 +553,13 @@ def _division(texts, rh, w, s, slv):
         if se and not season_only:
             season_only = (f"{se}（間隔の記載なし。{a}・{lv}）", f"[{a}・{lv}] {x[:220]}")
     if s:
-        for v, _ in s["f"].get("Pflegehinweis", []):
+        for v, tg in s["f"].get("Pflegehinweis", []):
             if "zwei- bis vierjährigem" in v:
-                return f"2〜4年ごと（stauden.de・{slv}）", f"[stauden.de・{slv}] {v}"
-        for v, _ in s["f"].get("Pflegehinweis", []):
+                return f"2〜4年ごと（stauden.de・{sdb_tag(tg, slv)}）", f"[stauden.de・{sdb_tag(tg, slv)}] {v}"
+        for v, tg in s["f"].get("Pflegehinweis", []):
             if "nicht umpflanzen" in v:
-                return ((season_only[0] + "。" if season_only else "") + f"長生きで、長年植え替えない方がよい（stauden.de・{slv}）",
-                        f"[stauden.de・{slv}] {v}" + ("\n" + season_only[1] if season_only else ""))
+                return ((season_only[0] + "。" if season_only else "") + f"長生きで、長年植え替えない方がよい（stauden.de・{sdb_tag(tg, slv)}）",
+                        f"[stauden.de・{sdb_tag(tg, slv)}] {v}" + ("\n" + season_only[1] if season_only else ""))
     return season_only or (None, None)
 
 
@@ -638,8 +659,9 @@ def six(it, rh, m, mlv, n, nl, s, slv, w, ga, ga_own, og, sh, texts, base):
     wv = [v for v, _ in s["f"].get("Wuchsverhalten", [])] if s else []
     ws = [v for v, _ in s["f"].get("Wuchsstärke", [])] if s else []
     if "wuchernd" in ws:
-        strong = strong or f"[stauden.de・{slv}] Wuchsstärke: wuchernd"
-        notes.append(f"生育が強く、はびこる（stauden.de・{slv} の Wuchsstärke: wuchernd）")
+        wlv = sdb_lv(s, "Wuchsstärke", slv, lambda v: v == "wuchernd")
+        strong = strong or f"[stauden.de・{wlv}] Wuchsstärke: wuchernd"
+        notes.append(f"生育が強く、はびこる（stauden.de・{wlv} の Wuchsstärke: wuchernd）" + (sp_note if cv and wlv == "種" else ""))
     horst_only = bool(wv) and any("horst" in v for v in wv) and not any(re.search("ausläufer|rhizom|kriechend", v) for v in wv)
     if (rz or 0) >= 3 or seed3:
         mix = "侵略的（隔離推奨）"
@@ -655,7 +677,7 @@ def six(it, rh, m, mlv, n, nl, s, slv, w, ga, ga_own, og, sh, texts, base):
         mix_why.append(weak)
     elif (rz in (0, 1) or (rz is None and horst_only)) and (sd or 0) < 3 and not inv_seed:
         mix = "普通（混植可）"
-        mix_why.append("地下茎 0〜1（こぼれ種・地下茎の根拠の列）" if rz in (0, 1) else f"[stauden.de・{slv}] Wuchsverhalten: " + " / ".join(wv))
+        mix_why.append("地下茎 0〜1（こぼれ種・地下茎の根拠の列）" if rz in (0, 1) else f"[stauden.de・{sdb_lv(s, 'Wuchsverhalten', slv)}] Wuchsverhalten: " + " / ".join(wv))
     if m and m["f"].get("Notice"):
         for en, ja in MBG_NOTICE:
             if en in m["f"]["Notice"]:

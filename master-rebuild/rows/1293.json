@@ -75,16 +75,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "切れ込みがある",
-    "羽状の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -231,7 +225,7 @@
     "s18",
     "s17"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "rhizome_level": {
    "value": null,
@@ -339,7 +333,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -349,7 +343,7 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[おぎはら楽天/品種] 日照 寒冷地: 日向〜明るい半日陰／暖地: 明るい半日陰（西日 × 相当）\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Aufkeimende Selbstaussaat beachten und kontrollieren\n[こぼれ種の食い違い] Gaißmayer は 2 相当",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Aufkeimende Selbstaussaat beachten und kontrollieren\n[こぼれ種の食い違い] Gaißmayer は 2 相当",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら、Jelitto",

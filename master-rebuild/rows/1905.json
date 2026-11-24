@@ -68,15 +68,10 @@
    "level": null
   },
   "foliage_features": {
-   "value": [
-    "綿毛がある（フェルト状）",
-    "羊毛状の毛がある"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -91,12 +86,10 @@
    "level": null
   },
   "silhouette": {
-   "value": "ドーム",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "sun": {
    "value": "日向",
@@ -104,7 +97,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "usda_min": {
    "value": null,
@@ -178,7 +171,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "native_range": {
    "value": "アメリカ（バージニア・ウェストバージニア。種の原産地）",
@@ -196,7 +189,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -216,7 +209,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -302,8 +295,8 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": null,
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: kissenartig bis kissenbildend",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "（種の記述）[stauden.de・種] Wuchsform: kissenartig bis kissenbildend",
   "sources_with_cultivar_page": "stauden.de、Jelitto",
   "sources_used": "Jelitto、RHS、stauden.de"
  }

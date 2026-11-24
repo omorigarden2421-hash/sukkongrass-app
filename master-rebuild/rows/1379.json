@@ -71,19 +71,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "ざらつく",
-    "切れ込みがある",
-    "浅く裂ける",
-    "縁に鋸歯",
-    "縁に丸い鋸歯",
-    "羽状に裂ける"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -224,7 +215,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 0,
@@ -246,7 +237,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -350,7 +341,7 @@
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[MBG/品種] Plants are generally intolerant of high heat and humidity, and do not grow well in the deep South (south of USDA Zone 7).\n[RHS/品種] Aspect: West-facing or South-facing or East-facing",
   "spread_evidence": "[こぼれ種 0／MBG・品種] ‘Vivid Violet’ does not produce viable seed.",
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] ‘Vivid Violet’ is a perennial pincushion flower that grows in a low mound to 12” tall and to 18” wide.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer",
   "sources_used": "MBG、RHS、Walters、stauden.de"

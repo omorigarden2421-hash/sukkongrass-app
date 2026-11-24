@@ -73,17 +73,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "深く切れ込む",
-    "浅く裂ける",
-    "掌状の葉",
-    "丸い葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,

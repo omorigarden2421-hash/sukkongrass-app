@@ -73,14 +73,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "縁に鋸歯"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -107,7 +103,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの値。文献：半日陰（stauden.de・品種）"
+   "note": "今のマスターの値。文献：半日陰（stauden.de・種）"
   },
   "usda_min": {
    "value": null,
@@ -218,7 +214,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -238,7 +234,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -344,7 +340,7 @@
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；中\n[おぎはら楽天/品種] 耐暑性: 普通（暖地では夏に風とおし、水はけよく）（蒸れ 中 相当）\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
   "spread_evidence": null,
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、おぎはら、Jelitto",
   "sources_used": "Gaißmayer、Jelitto、NC State、RHS、stauden.de、おぎはら"

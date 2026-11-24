@@ -77,14 +77,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "縁に鋸歯"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -225,7 +221,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 2,
@@ -234,7 +230,7 @@
     "s18",
     "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "rhizome_level": {
    "value": 2,
@@ -243,7 +239,7 @@
     "s18",
     "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "mixing": {
    "value": null,
@@ -252,13 +248,13 @@
    "level": null
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種でよく増える（stauden.de・品種）",
+   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種でよく増える（stauden.de・種）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s06",
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "ias_list": {
    "value": "掲載なし",
@@ -339,7 +335,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -349,7 +345,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Ep06・図鑑の 'Atropurpureum'・図鑑の 'Phantom'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/品種] Tolerates some light afternoon shade, particularly in hot summer climates.\n[MBG/品種] Leaves may scorch if soils are allowed to dry out.\n[NC State/種] It does best in average, medium to wet soils in full sun, but tolerates some light afternoon shade in hot summer climates.\n[NC State/種] In the heat, leaves may become scorched if the soil is allowed to dry out.\n[食い違い] 欧米の文献（品種・種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 2／stauden.de・品種] oft Selbstaussaat\n[地下茎 2／NC State・種] The root system is fibrous and rhizomatous.",
+  "spread_evidence": "[こぼれ種 2／stauden.de・種] oft Selbstaussaat\n[地下茎 2／NC State・種] The root system is fibrous and rhizomatous.",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] It is an erect, clump-forming perennial that features coarsely-serrated, lance-shaped, dark green leaves (to 8” long), typically in whorls of 3-4 on sturdy, wine-red stems.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、シカゴ植物園",

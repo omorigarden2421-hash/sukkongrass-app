@@ -69,15 +69,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "浅く裂ける",
-    "羽状の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -216,7 +211,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -302,7 +297,7 @@
    "note": "文を読んで見直し（確かさ：高）"
   },
   "division_interval": {
-   "value": "早春（間隔の記載なし。MBG・品種）。長生きで、長年植え替えない方がよい（stauden.de・品種）",
+   "value": "早春（間隔の記載なし。MBG・品種）。長生きで、長年植え替えない方がよい（stauden.de・種）",
    "method": "記載",
    "sources": [
     "s02",

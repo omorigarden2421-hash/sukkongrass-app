@@ -75,13 +75,11 @@
   "foliage_features": {
    "value": [
     "光沢がある",
-    "しわがある",
     "縁に鋸歯",
     "縁に丸い鋸歯"
    ],
    "method": "記載",
    "sources": [
-    "s18",
     "s06"
    ],
    "level": "cultivar"
@@ -228,7 +226,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
@@ -346,7 +344,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {

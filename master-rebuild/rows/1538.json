@@ -65,16 +65,10 @@
    "level": null
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "縁に鋸歯",
-    "羽状に裂ける"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -89,12 +83,10 @@
    "level": null
   },
   "silhouette": {
-   "value": "株立ち",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "sun": {
    "value": "日向〜半日陰",
@@ -193,7 +185,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "native_range": {
    "value": "南東ヨーロッパ（種の原産地）",
@@ -212,7 +204,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -234,7 +226,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -318,7 +310,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -329,8 +321,8 @@
   "muggy_west_only": "弱",
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の 'Mars Midget'・図鑑の 'Thunder and Lightning'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/種] Species plants in particular often struggle in the heat and humidity of the deep South where tall stems tend to twist and flop in the heat of the summer.\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の同じ種の品種の値を採った",
   "spread_evidence": "[こぼれ種 1／MBG・種] Species may self-seed under optimum conditions.",
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "（種の記述）[MBG・種] Noteworthy Characteristics Knautia macedonica is an upright, clump-forming, somewhat short-lived perennial which typically grows 1.5-2' tall.",
   "sources_with_cultivar_page": "stauden.de、Jelitto",
   "sources_used": "Jelitto、MBG、RHS、stauden.de、おぎはら"
  }

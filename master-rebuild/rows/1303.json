@@ -89,11 +89,9 @@
    "level": null
   },
   "fragrance": {
-   "value": "あり",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
+   "sources": null,
    "level": null
   },
   "silhouette": {

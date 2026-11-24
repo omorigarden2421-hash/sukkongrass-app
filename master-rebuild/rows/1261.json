@@ -228,7 +228,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -250,7 +250,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -357,7 +357,7 @@
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（F05・F08）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/品種] Needs good air circulation (space well and thin out stems as needed) to help combat potential powdery mildew problems.\n[NC State/種] Good air circulation (adequate spacing and thinning of stems as needed) will help combat powdery mildew.\n[Walters/品種] Space well to provide good air circulation to help curb powdery mildew.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": "[こぼれ種 1／NC State・種] Removing faded flower panicles will prolong blooming and prevent self-seeding as cultivars do not come true from seed.",
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] This is an upright perennial that grows in a clump to 2-4' tall and to 2-3' wide on stiff stems clad with conspicuously veined, opposite, pointed, elliptic, deep green leaves (to 4-6\" long).",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、Gaißmayer、シカゴ植物園",
   "sources_used": "MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園"

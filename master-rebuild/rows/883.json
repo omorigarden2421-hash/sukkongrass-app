@@ -98,10 +98,10 @@
    "level": null
   },
   "silhouette": {
-   "value": "ドーム",
+   "value": "株立ち",
    "method": "判定",
    "sources": [
-    "s18"
+    "s01"
    ],
    "level": "cultivar"
   },
@@ -110,7 +110,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの値。文献：日向〜半日陰（stauden.de・品種）"
+   "note": "今のマスターの値。文献：日向〜半日陰（stauden.de・種）"
   },
   "usda_min": {
    "value": null,
@@ -320,7 +320,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "pollinator": {
    "value": "○",
@@ -328,7 +328,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -340,7 +340,7 @@
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（半日陰）で西日耐性を決め直した（文献の日照 日向〜半日陰 なら 空欄）\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: kissenartig bis kissenbildend / buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
+  "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de、シカゴ植物園",
   "sources_used": "RHS、stauden.de、シカゴ植物園"
  }

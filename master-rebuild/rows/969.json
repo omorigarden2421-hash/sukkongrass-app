@@ -76,17 +76,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "光沢がある",
-    "細かい毛がある",
-    "縁に鋸歯",
-    "羽状の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -223,7 +216,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -232,7 +225,7 @@
     "s18",
     "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "rhizome_level": {
    "value": 2,
@@ -241,7 +234,7 @@
     "s18",
     "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "mixing": {
    "value": null,
@@ -355,7 +348,7 @@
   "heat_west_only": "中",
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/同じ種の別品種（B01・B02）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/品種] Problems Foliage decline (leaves brown up) may occur in hot summers and/or periods of drought if soils are not kept moist.\n[NC State/種] In hot summer or periods of drought, the foliage may decline if the soil is not kept moist.\n[食い違い] 欧米の文献（品種・種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: East-facing or West-facing or North-facing",
-  "spread_evidence": "[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] Their root system is rhizomatous.",
+  "spread_evidence": "[こぼれ種 1／stauden.de・種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] Their root system is rhizomatous.",
   "mixing_evidence": null,
   "silhouette_evidence": "[MBG・品種] Plants are characterized by graceful, fern-like mounds of mostly basal, 2-3 ternately compound leaves, usually with sharply-toothed leaflets, and tiny flowers densely packed into erect to arching, plu",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters",

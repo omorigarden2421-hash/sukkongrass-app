@@ -65,16 +65,10 @@
    "level": null
   },
   "foliage_features": {
-   "value": [
-    "ざらつく",
-    "縁に鋸歯",
-    "ハート形"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,

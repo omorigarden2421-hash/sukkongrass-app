@@ -72,15 +72,10 @@
    "level": null
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "柔らかい"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -193,7 +188,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "native_range": {
    "value": "北米東部",
@@ -211,7 +206,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -233,7 +228,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -317,7 +312,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {
@@ -328,7 +323,7 @@
   "muggy_west_only": "中",
   "heat_muggy_west_evidence": "[MBG/種] Good air circulation helps reduce incidence of foliar diseases.",
   "spread_evidence": "[こぼれ種 1／MBG・種] Easily grown from seed and may self-seed in the garden in optimum growing conditions.",
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Erect",
   "sources_with_cultivar_page": "stauden.de、Gaißmayer",
   "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de"

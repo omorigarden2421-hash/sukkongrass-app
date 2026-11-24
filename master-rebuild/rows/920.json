@@ -65,14 +65,10 @@
    "level": null
   },
   "foliage_features": {
-   "value": [
-    "縁に丸い鋸歯"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -87,12 +83,10 @@
    "level": null
   },
   "silhouette": {
-   "value": "株立ち",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "sun": {
    "value": "日向",
@@ -195,7 +189,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "native_range": {
    "value": "アメリカのルイジアナ州・テキサス州（種の原産地）",
@@ -213,7 +207,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": 1,
@@ -235,7 +229,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "invasive_note": {
    "value": null,
@@ -332,8 +326,8 @@
   "muggy_west_only": "強",
   "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[MBG/種] A taprooted plant which tolerates heat, humidity and some drought.\n[NC State/種] It prefers full sun and will tolerate heat and humidity.\n[NC State/種] The taproot helps make it drought and heat tolerant.",
   "spread_evidence": "[こぼれ種 1／MBG・種] May self-seed if spent flower stems are left in place in the fall.",
-  "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig",
+  "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
+  "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Erect; Open; Spreading; Vase",
   "sources_with_cultivar_page": "RHS、stauden.de",
   "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"
  }

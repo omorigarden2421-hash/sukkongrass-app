@@ -73,22 +73,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "ざらつく",
-    "柔らかい",
-    "深く切れ込む",
-    "切れ込みがある",
-    "浅く裂ける",
-    "縁に鋸歯",
-    "掌状の葉",
-    "丸い葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,

@@ -73,18 +73,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "光沢がある",
-    "葉に香りがある",
-    "切れ込みがある",
-    "縁に鋸歯",
-    "羽状の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -112,7 +104,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "usda_min": {
    "value": null,
@@ -320,7 +312,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {

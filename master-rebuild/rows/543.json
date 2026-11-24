@@ -78,20 +78,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "ざらつく",
-    "切れ込みがある",
-    "浅く裂ける",
-    "縁に鋸歯",
-    "丸い葉",
-    "2色の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": "秋に赤・紫",

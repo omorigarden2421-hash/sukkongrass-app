@@ -75,16 +75,10 @@
    "level": "cultivar"
   },
   "foliage_features": {
-   "value": [
-    "光沢がある",
-    "しわがある",
-    "縁に丸い鋸歯"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -347,7 +341,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   }
  },
  "review": {

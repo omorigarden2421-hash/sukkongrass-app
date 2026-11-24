@@ -68,15 +68,10 @@
    "level": null
   },
   "foliage_features": {
-   "value": [
-    "細かい毛がある",
-    "線形の葉"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -93,12 +88,10 @@
    "level": null
   },
   "silhouette": {
-   "value": "ドーム",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "sun": {
    "value": "日向",
@@ -301,7 +294,7 @@
   "heat_muggy_west_evidence": null,
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
-  "silhouette_evidence": "[stauden.de・品種] Wuchsform: polsterartig bis polsterbildend / kissenartig bis kissenbildend",
+  "silhouette_evidence": "（種の記述）[stauden.de・種] Wuchsform: polsterartig bis polsterbildend / kissenartig bis kissenbildend",
   "sources_with_cultivar_page": "stauden.de",
   "sources_used": "RHS、stauden.de"
  }

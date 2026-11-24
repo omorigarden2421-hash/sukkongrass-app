@@ -63,15 +63,10 @@
    "level": null
   },
   "foliage_features": {
-   "value": [
-    "光沢がある",
-    "革質"
-   ],
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "seasonal_foliage": {
    "value": null,
@@ -183,7 +178,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "native_range": {
    "value": "ヨーロッパ・小アジア・コーカサス・シベリアの山地、草地、林のふち（種の原産地）",
@@ -201,7 +196,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "self_seed_level": {
    "value": null,
