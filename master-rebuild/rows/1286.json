@@ -63,12 +63,10 @@
    "note": "今のマスターの値。文献：50〜100（RHS の幅）。【要見直し】重ならない（文献 50〜100cm／マスター 20〜25cm）。外した（マスターのまま）：文献は何年も育った後の株幅（RHS の最終的な大きさの大まかな区分）。マスターより大きく出るのは測り方の違い"
   },
   "foliage_class": {
-   "value": "シルバー系",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "foliage_features": {
    "value": null,

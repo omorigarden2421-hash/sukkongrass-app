@@ -66,12 +66,10 @@
    "note": "今のマスターの値。文献：40〜45"
   },
   "foliage_class": {
-   "value": "パープル・ブラック系",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "foliage_features": {
    "value": [

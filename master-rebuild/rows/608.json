@@ -63,12 +63,10 @@
    "note": "今のマスターの値。文献：50〜100（RHS の幅）"
   },
   "foliage_class": {
-   "value": "ブロンズ・レッド系",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s01"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "foliage_features": {
    "value": null,

@@ -558,7 +558,7 @@ for m in master:
     lrr = LEAF_RR.get(no)
     if lrr:
         lnew, lold = lrr.get("葉色"), r.get("葉色（分類）")
-        lw = [f"[読み直し 2026-11-24・確かさ {lrr.get('確かさ')}] {lrr.get('決め手') or '品種の文献に葉色の値も文もない'}"]
+        lw = [f"[読み直し {lrr.get('読み直し2') or '2026-11-24'}・確かさ {lrr.get('確かさ')}] {lrr.get('決め手') or '品種の文献に葉色の値も文もない'}"]
         if (lnew or "") != (lold or ""):
             lw.append(f"前の値：{lold or '空欄'}。{lrr.get('メモ') or ''}")
         if lrr.get("食い違い"):
@@ -569,6 +569,11 @@ for m in master:
         if lnew and (lrr.get("決め手") or "").startswith("[stauden") and mlf and mlf != "季節変化型" and mlf != lnew:
             lw.append(f"[空欄に戻した] stauden.de だけの値（{lnew}）が今のマスターの葉色（{lrr.get('今のマスター')}）と違うため（ユーザーの決定 2026-11-24）")
             lnew = None
+        # RHS の品種名に「(v)」（RHS が斑入りとしている）があれば斑入り（2026-11-25 ユーザー「3つともおすすめ」）
+        # ただし、中心・葉脈の模様（ヒューケラ型）で地の色にした品種は除く（同じ日の決定。模様は斑入りにしない）
+        if "(v)" in (r.get("学名（RHS）") or "") and lnew != "斑入り" and not re.search(r"中心|葉脈|中肋", lrr.get("メモ") or ""):
+            lw.append(f"[RHS の名前の (v)] RHS が斑入りの品種としているので斑入りにした（読み直しの値：{lnew or '空欄'}。ユーザーの決定 2026-11-25）")
+            lnew = "斑入り"
         r["葉色（分類）"] = lnew
         # 自社の値（今のマスターの葉色主分類）は、文献の値がないときと、文献の値と違うときに残す
         r["葉色（自社の値）"] = lrr.get("今のマスター") if (not lnew or LEAF_MASTER.get(lrr.get("今のマスター") or "") != lnew) else None
