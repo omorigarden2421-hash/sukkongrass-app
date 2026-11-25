@@ -150,7 +150,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
@@ -160,12 +160,12 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "中",
+   "value": "強",
    "method": "記載",
    "sources": [
-    "s21"
+    "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "soil_moisture": {
    "value": null,
@@ -316,7 +316,7 @@
   "management_type_by_matching": null,
   "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）\n[NC State/種] It is deer-resistant and drought- and heat-tolerant.",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）\n[NC State/種] It is deer-resistant and drought- and heat-tolerant.",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Dense; Erect",

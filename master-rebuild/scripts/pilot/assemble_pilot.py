@@ -992,6 +992,23 @@ def main():
                     "今の値": r.get("常緑性")}
             with open(os.path.join(os.environ["DUMP_EVER"], "ever_dump.jsonl"), "a", encoding="utf-8") as fh:
                 fh.write(json.dumps(dump, ensure_ascii=False, default=str) + "\n")
+        # 2026-11-25 総当たりの読み直し用: 環境変数 DUMP_DRY（フォルダ）があれば、乾燥耐性に関わる値と文を文献ごとに全部書き出す（値は変えない）
+        if os.environ.get("DUMP_DRY"):
+            DW = r"drought|dry|xeric|arid|moist|wet|water|trocken|feucht|乾燥|乾き|水切れ|湿"
+            sh_ = SHOP.get(str(og[1])) if og else None
+            dump = {"商品番号": it["商品番号"], "植物名": it.get("植物名"), "学名": it.get("学名"), "ID": k, "品種名あり": "'" in (it["学名"] or ""),
+                    "MBG": ({"段階": mlv, "Tolerate": m["f"].get("Tolerate"), "Water": m["f"].get("Water")} if m else None),
+                    "Walters・品種": ({"Drought Tolerant": "Drought Tolerant" in w["f"].get("Plant Uses & Characteristics", []), "Soil Moisture": w["f"].get("Soil Moisture")} if w else None),
+                    "RHS・品種": ({"Moisture": rh["f"].get("Moisture"), "Drought Resistance": rh["f"].get("Drought Resistance")} if rh else None),
+                    "NC State の Resistance To Challenges": r.get("NC State の Resistance To Challenges"),
+                    "stauden.de": ({key: [f"{v_}（{tg_}）" for v_, tg_ in vals] for key, vals in s["f"].items() if re.search(r"Feucht|Wasser|Trocken|Lebensbereich|Boden", key)} if s else None),
+                    "Gaißmayer": ({"値": [f"[{fld}] {v_}" for fld, v_ in ga[12] if re.search(DW, f"{fld} {v_}".lower())],
+                                   "段階": "品種" if ga[2] == "cultivar" else "種", "品種に使う": ga_own} if ga else None),
+                    "おぎはら楽天": ({"耐乾性": sh_.get("dry"), "段階": "品種" if og[3] == "cultivar" else "種", "相当": shop_dry(sh_)} if sh_ and sh_.get("status") == "ok" else None),
+                    "文": [f"[{a}・{lv}] {x}" for a, lv, x in texts if re.search(DW, x.lower())][:20],
+                    "今の値": r.get("乾燥耐性"), "今の出どころ": r.get("乾燥耐性の出どころ"), "今の値の文献": prov.get("乾燥耐性")}
+            with open(os.path.join(os.environ["DUMP_DRY"], "dry_dump.jsonl"), "a", encoding="utf-8") as fh:
+                fh.write(json.dumps(dump, ensure_ascii=False, default=str) + "\n")
         # --- 学名（採用）: 2026-11-19 決定。RHS が正名（Accepted／Correct）としていれば RHS の表記に合わせる。
         #     RHS で未確定・シノニム・掲載なしのときは今の学名のまま（学名の検討シートに残す）
         #     2026-11-21: メモのある品種も RHS の正名に合わせる。決め方は adopt_name()

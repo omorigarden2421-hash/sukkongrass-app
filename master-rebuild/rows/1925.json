@@ -151,7 +151,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "◎",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s20",
@@ -160,7 +160,7 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "強",
+   "value": "中",
    "method": "記載",
    "sources": [
     "s06"
@@ -329,7 +329,7 @@
   "management_type_by_matching": null,
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/種] It is pollution and salt tolerant and moderately resistant to deer damage, heat, drought, and soil compaction.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 中 になったので、西日耐性 ◎ → ○\n[おぎはら/品種] 耐暑性；強\n[NC State/種] It is pollution and salt tolerant and moderately resistant to deer damage, heat, drought, and soil compaction.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": "[NC State・種] Habit/Form: Climbing; Creeping",

@@ -169,7 +169,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
@@ -179,12 +179,12 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "中",
+   "value": "強",
    "method": "記載",
    "sources": [
-    "s21"
+    "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "soil_moisture": {
    "value": "適湿",
@@ -365,7 +365,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[RHS/品種] Aspect: West-facing or South-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[RHS/品種] Aspect: West-facing or South-facing",
   "spread_evidence": "[こぼれ種 2／NC State・種] it freely self-seeds in the garden（読み直し）\n[こぼれ種 2／NC State・種] Fennel can be grown from seed sown directly in the garden in spring and it freely self-seeds in the garden.\n[こぼれ種の食い違い] MBG は 1 相当、stauden.de は 1 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend\n[こぼれ種 2 の基準 2026-11-24] こぼれ種 2 で、雑草化・群落・野生化の記述があるので 強い：[読み直し] [NC State・種] escaped gardens and naturalized",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy, Clump forming",

@@ -157,7 +157,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "◎",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s20",
@@ -167,12 +167,12 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "強",
+   "value": "中",
    "method": "記載",
    "sources": [
-    "s06"
+    "s21"
    ],
-   "level": "genus"
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "適湿",
@@ -336,7 +336,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": null,
   "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[NC State/属] Quick ID Hints : Perennial climber or shrub Tubular flowers borne above two opposite conjoined leaves Corolla funnel-shaped, but with recurved lobes Red (or less commonly, black or blue) berries Insects, Diseases, and Other Plant Problems: Some species are troubled by powdery mildew and leaf spots in hot and humid summer climates.\n[RHS/品種] Aspect: West-facing or East-facing or South-facing or North-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 中 になったので、西日耐性 ◎ → ○\n[おぎはら/品種] 耐暑性；強\n[NC State/属] Quick ID Hints : Perennial climber or shrub Tubular flowers borne above two opposite conjoined leaves Corolla funnel-shaped, but with recurved lobes Red (or less commonly, black or blue) berries Insects, Diseases, and Other Plant Problems: Some species are troubled by powdery mildew and leaf spots in hot and humid summer climates.\n[RHS/品種] Aspect: West-facing or East-facing or South-facing or North-facing",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": "[RHS・品種] Habit: Climbing",

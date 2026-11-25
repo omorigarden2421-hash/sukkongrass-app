@@ -134,7 +134,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
     "s20"
@@ -142,7 +142,7 @@
    "level": "species"
   },
   "drought": {
-   "value": "中",
+   "value": "強",
    "method": "記載",
    "sources": [
     "s06"
@@ -307,7 +307,7 @@
   "management_type_by_matching": null,
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/種] 耐暑性；強",
   "spread_evidence": "[こぼれ種 2／NC State・種] it also self-seeds readily（読み直し）\n[こぼれ種 2／NC State・種] Propagate this plant by seeding in the late summer, fall or early spring and it also self-seeds readily.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Erect; Mounding; Spreading",

@@ -156,7 +156,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
@@ -166,12 +166,12 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "中",
+   "value": "強",
    "method": "記載",
    "sources": [
-    "s06"
+    "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "適湿",
@@ -353,7 +353,7 @@
   "management_type_by_matching": "C 夏前切戻型",
   "heat_west_only": "強",
   "muggy_west_only": "強",
-  "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の 'Variegated White'・図鑑の 'Pure Blonde'・図鑑の 'Peedee Ingot'・図鑑の 'Monroe White'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/品種] Also has good tolerance for heat, humidity and drought.\n[RHS/品種] Aspect: North-facing or East-facing or West-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/同じ種の別品種（図鑑の 'Variegated White'・図鑑の 'Pure Blonde'・図鑑の 'Peedee Ingot'・図鑑の 'Monroe White'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/品種] Also has good tolerance for heat, humidity and drought.\n[RHS/品種] Aspect: North-facing or East-facing or West-facing",
   "spread_evidence": "[地下茎 1／MBG・品種] Clumps slowly expand by short stolons, but do not spread aggressively（読み直し）\n[地下茎 1／NC State・種] It is normally not necessary to propagate liriope plants as they are aggressive growers though this plant is less aggressive than Liriope spicata  or creeping lily turf.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",

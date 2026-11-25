@@ -157,10 +157,12 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": null,
+   "value": "強",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "排水必須",

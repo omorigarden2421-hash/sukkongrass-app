@@ -163,12 +163,11 @@
   },
   "drought": {
    "value": "中",
-   "method": "判定",
+   "method": "記載",
    "sources": [
     "s02"
    ],
-   "level": "cultivar",
-   "note": "推定（MBG・品種 の Water: Medium から。乾燥の記述ではない。信頼度：低）"
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "適湿",

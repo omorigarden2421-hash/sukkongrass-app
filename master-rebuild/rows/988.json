@@ -175,10 +175,9 @@
    "value": "強",
    "method": "記載",
    "sources": [
-    "s02",
-    "s06"
+    "s10"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "排水必須",

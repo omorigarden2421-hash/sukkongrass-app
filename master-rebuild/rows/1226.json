@@ -163,10 +163,10 @@
    "level": "species"
   },
   "drought": {
-   "value": "中",
+   "value": "強",
    "method": "記載",
    "sources": [
-    "s02"
+    "s06"
    ],
    "level": "species"
   },

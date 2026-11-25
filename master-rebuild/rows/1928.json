@@ -164,7 +164,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
@@ -175,12 +175,12 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "中",
+   "value": "強",
    "method": "記載",
    "sources": [
-    "s21"
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "soil_moisture": {
    "value": "適湿",
@@ -367,7 +367,7 @@
   "management_type_by_matching": null,
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[MBG/種] Plants tolerate dry soil conditions in cool summer climates, but generally appreciate some regular moisture in hot summer climates.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[MBG/種] Plants tolerate dry soil conditions in cool summer climates, but generally appreciate some regular moisture in hot summer climates.\n[食い違い] 欧米の文献（種の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[地下茎 2／MBG・種] Plants spread quickly by rhizomes, without being invasive（読み直し）\n[こぼれ種 1／stauden.de・品種] mäßig versamend（読み直し）\n[地下茎 1／MBG・種] Plants spread quickly by rhizomes, without being invasive, to form a weed-suppressing ground cover.\n[地下茎の食い違い] stauden.de は 2 相当\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[stauden.de・cultivar] mäßig versamend）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 1、文を読み直して 2（[MBG・種] Plants spread quickly by rhizomes, without being invasive）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー、こぼれ種）",
   "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[MBG・種] Tiny, tubular, hooded, 2-lipped, pale yellow flowers in whorled clusters bloom from July to September at intervals along columnar 4-angled flowering stems which rise well above the basal foliage to 2-",

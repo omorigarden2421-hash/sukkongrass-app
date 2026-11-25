@@ -148,7 +148,7 @@
    "level": "species"
   },
   "west_sun": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
@@ -158,7 +158,7 @@
    "level": "species"
   },
   "drought": {
-   "value": "中",
+   "value": "強",
    "method": "記載",
    "sources": [
     "s06"
@@ -317,7 +317,7 @@
   "management_type_by_matching": null,
   "heat_west_only": "強",
   "muggy_west_only": "強",
-  "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（Ad03・図鑑の 'Chameleon'・図鑑の 'Ha Ha Tonka'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/種] Tolerates high heat and humidity.\n[NC State/種] It is well-adapted to southern climates as it tolerates high heat, humidity, and salt.",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/同じ種の別品種（Ad03・図鑑の 'Chameleon'・図鑑の 'Ha Ha Tonka'）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/種] Tolerates high heat and humidity.\n[NC State/種] It is well-adapted to southern climates as it tolerates high heat, humidity, and salt.",
   "spread_evidence": null,
   "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[MBG・種] upright clumps",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Clumping; Erect",

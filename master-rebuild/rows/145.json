@@ -167,10 +167,9 @@
    "method": "記載",
    "sources": [
     "s02",
-    "s06",
-    "s10"
+    "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "soil_moisture": {
    "value": "排水必須",

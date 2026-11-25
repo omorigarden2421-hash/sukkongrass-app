@@ -176,9 +176,9 @@
    "value": "中",
    "method": "記載",
    "sources": [
-    "s21"
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "soil_moisture": {
    "value": "適湿",

@@ -165,7 +165,7 @@
    "sources": [
     "s01"
    ],
-   "level": "cultivar"
+   "level": null
   },
   "soil_moisture": {
    "value": "適湿",

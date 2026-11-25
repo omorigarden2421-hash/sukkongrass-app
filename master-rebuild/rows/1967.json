@@ -155,7 +155,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "◎",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s20",
@@ -165,12 +165,12 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "強",
+   "value": "中",
    "method": "記載",
    "sources": [
-    "s02"
+    "s21"
    ],
-   "level": "genus"
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "排水必須",
@@ -330,7 +330,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "強",
   "muggy_west_only": "強",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/属] An adaptable plant that is tolerant of drought, heat, humidity and poor soils.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 中 になったので、西日耐性 ◎ → ○\n[おぎはら/品種] 耐暑性；強\n[MBG/属] An adaptable plant that is tolerant of drought, heat, humidity and poor soils.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[RHS・品種] Habit: Clump forming",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",

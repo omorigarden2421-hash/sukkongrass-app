@@ -172,9 +172,9 @@
    "value": "弱",
    "method": "記載",
    "sources": [
-    "s02"
+    "s06"
    ],
-   "level": "genus"
+   "level": "species"
   },
   "soil_moisture": {
    "value": "湿潤寄り",

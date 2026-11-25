@@ -162,7 +162,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "◎",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s02",
@@ -171,12 +171,13 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "強",
-   "method": "記載",
+   "value": "中",
+   "method": "判定",
    "sources": [
-    "s06"
+    "s02"
    ],
-   "level": "genus"
+   "level": "genus",
+   "note": "[読み直し 2026-11-25・確かさ 低] 欧米の文献に乾燥への強さの値も文もない\n埋め方：推定（MBG・属 の Water: Medium から。乾燥の記述ではない。信頼度：低）\n前の値：強。乾燥の文は MBG・属・NC State・属 のみで使わない"
   },
   "soil_moisture": {
    "value": "適湿",
@@ -347,7 +348,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "強",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[MBG/属] Plants tolerate heat and some dry soils once established.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 中 になったので、西日耐性 ◎ → ○\n[MBG/属] Plants tolerate heat and some dry soils once established.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／stauden.de・種] Einige Samenstände ... zum Versamen und zur Arterhaltung stehen lassen（読み直し）\n[こぼれ種 1／stauden.de・種] Einige Samenstände, teils kurzlebiger Pflanzen, zum Versamen und zur Arterhaltung stehen lassen\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",

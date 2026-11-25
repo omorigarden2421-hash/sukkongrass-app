@@ -155,7 +155,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "◎",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s20",
@@ -165,10 +165,10 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "強",
+   "value": "中",
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -345,7 +345,7 @@
   "management_type_by_matching": "A 放任型",
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 中 になったので、西日耐性 ◎ → ○\n[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／MBG・品種] may self-seed in the garden（読み直し）\n[こぼれ種 1／MBG・品種] Plants come respectably true from seed and may self-seed in the garden.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[MBG・品種] clump-forming",
   "silhouette_evidence": "[MBG・品種] It typically forms a compact sprawling foliage mound with erect flowering stems rising to as much as 30” tall.",

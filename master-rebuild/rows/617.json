@@ -157,10 +157,12 @@
    "note": "日照（半日陰・日陰）から"
   },
   "drought": {
-   "value": null,
+   "value": "中",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "soil_moisture": {
    "value": "湿潤寄り",

@@ -161,7 +161,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
@@ -172,13 +172,12 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "中",
+   "value": "強",
    "method": "記載",
    "sources": [
-    "s02",
-    "s06"
+    "s10"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "soil_moisture": {
    "value": "適湿",
@@ -359,7 +358,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "強",
   "muggy_west_only": "強",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] Tolerates hot and humid summers and some drought.\n[MBG/種] Appreciates good air circulation.\n[NC State/種] However, it is an easy going plant and tolerates hot and humid summers, some drought, clay soil, poor soils and is deer resistant.\n[NC State/種] It does like good air circulation and, to encourage additional blooming, you should deadhead spent flowers.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 強（[NC State・種][MBG・種] tolerates hot and humid summers）\n[RHS/品種] Aspect: South-facing or West-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/品種] 耐暑性；強\n[MBG/種] Tolerates hot and humid summers and some drought.\n[MBG/種] Appreciates good air circulation.\n[NC State/種] However, it is an easy going plant and tolerates hot and humid summers, some drought, clay soil, poor soils and is deer resistant.\n[NC State/種] It does like good air circulation and, to encourage additional blooming, you should deadhead spent flowers.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 中、文を読み直して 強（[NC State・種][MBG・種] tolerates hot and humid summers）\n[RHS/品種] Aspect: South-facing or West-facing",
   "spread_evidence": "[地下茎 0／MBG・種] nonrhizomatous perennial（読み直し）\n[地下茎 2／MBG・種] Noteworthy Characteristics Rudbeckia subtomentosa , commonly called sweet coneflower, is a Missouri native, nonrhizomatous perennial which occurs on moist prairies, along streambanks and in low areas throughout the state\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 0（[MBG・種] nonrhizomatous perennial）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",

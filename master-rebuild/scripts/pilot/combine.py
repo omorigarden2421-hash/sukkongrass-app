@@ -141,6 +141,7 @@ SD_COLOR = [("白", "白"), ("ピンク", "ピンク|桃|ローズ|赤紫"), ("�
             ("オレンジ・アプリコット", "オレンジ|橙|アプリコット|杏|サーモン|銅")]
 LEAF_PHOTO = json.load(open("leaf_photo_check.json", encoding="utf-8")) if os.path.exists("leaf_photo_check.json") else {}
 LEAF_RR = json.load(open("leaf_reread.json", encoding="utf-8")) if os.path.exists("leaf_reread.json") else {}
+DRY_RR = json.load(open("dry_reread.json", encoding="utf-8")) if os.path.exists("dry_reread.json") else {}
 EVER_RR = json.load(open("ever_reread.json", encoding="utf-8")) if os.path.exists("ever_reread.json") else {}
 LEAF_MASTER = {"① グリーン系": "グリーン系", "② ゴールド／ライム系": "ゴールド・ライム系", "③ ブルー系": "ブルー系", "④ シルバー系": "シルバー系",
                "⑤ パープル／ブラック系": "パープル・ブラック系", "⑥ ブロンズ／レッド系": "ブロンズ・レッド系", "⑦ 斑入り": "斑入り", "⑧ 季節変化型": "季節変化型"}
@@ -591,6 +592,31 @@ for m in master:
         if err.get("食い違い"):
             ew.append(f"[食い違い] {err['食い違い']}")
         r["常緑性の根拠"] = "\n".join(ew)
+    # 乾燥耐性は総当たりの読み直しの値を使う（2026-11-25）。欧米の文献で決まらないときは、決まっている順（おぎはら楽天 → NC State・RHS の項目 → MBG の Water 推定）で埋めた値
+    drr = DRY_RR.get(no)
+    if drr:
+        dold = r.get("乾燥耐性")
+        r["乾燥耐性"] = drr.get("乾燥耐性")
+        dw = [f"[読み直し 2026-11-25・確かさ {drr.get('確かさ')}] {drr.get('決め手') or '欧米の文献に乾燥への強さの値も文もない'}"]
+        if drr.get("文献の値") is None and drr.get("出どころ"):
+            dw.append(f"埋め方：{drr['出どころ']}")
+        if (r["乾燥耐性"] or "") != (dold or ""):
+            dw.append(f"前の値：{dold or '空欄'}。{drr.get('メモ') or ''}")
+        if drr.get("食い違い"):
+            dw.append(f"[食い違い] {drr['食い違い']}")
+        if drr.get("おぎはらとの食い違い"):
+            dw.append(f"[食い違い] {drr['おぎはらとの食い違い']}")
+        r["乾燥耐性の出どころ"] = "\n".join(dw)
+        # 西日耐性の ◎ は「日向・耐暑性 強・乾燥耐性 強」のとき（assemble_pilot.py の west_for）。乾燥耐性が変わったので合わせ直す
+        hsun, wv = (r.get("日照") or ""), r.get("西日耐性")
+        full = hsun.startswith("日向") and r.get("耐暑性") == "強" and r["乾燥耐性"] == "強"
+        wnote = None
+        if wv == "◎" and not full:
+            r["西日耐性"], wnote = "○", f"[乾燥耐性の読み直し] 乾燥耐性が {r['乾燥耐性'] or '空欄'} になったので、西日耐性 ◎ → ○"
+        elif wv == "○" and full and "（西日 ○ 相当）" not in (r.get("暑さ・蒸れ・西日の根拠") or ""):
+            r["西日耐性"], wnote = "◎", "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎"
+        if wnote:
+            r["暑さ・蒸れ・西日の根拠"] = "\n".join(x for x in (wnote, r.get("暑さ・蒸れ・西日の根拠")) if x)
     # 葉色の写真確認（2026-11-24。記録だけで値は変えない）
     lph = LEAF_PHOTO.get(no)
     r["葉色の写真確認"] = f"{lph['判断']}（{lph['写真']}の写真：{lph['見えた色']}）" if lph else None
@@ -657,7 +683,7 @@ for m in master:
         use.append("主役（単植向き）")
     if smax and smax <= 40 and not gc:
         use.append("群植向き")
-    sun, dr, fc = (r["日照"] or "").replace("明るい日陰", "半日陰"), d.get("乾燥耐性"), r.get("葉色（分類）")
+    sun, dr, fc = (r["日照"] or "").replace("明るい日陰", "半日陰"), r.get("乾燥耐性"), r.get("葉色（分類）")
     tags = []
     if sun in ("半日陰", "日陰"):
         tags.append("日陰庭向き")

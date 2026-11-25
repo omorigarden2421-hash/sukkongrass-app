@@ -162,10 +162,12 @@
    "level": null
   },
   "drought": {
-   "value": null,
+   "value": "弱",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "soil_moisture": {
    "value": "湿潤寄り",

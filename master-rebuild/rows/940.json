@@ -168,7 +168,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
@@ -180,10 +180,10 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "中",
+   "value": "強",
    "method": "記載",
    "sources": [
-    "s21"
+    "s02"
    ],
    "level": "cultivar"
   },
@@ -355,7 +355,7 @@
   "management_type_by_matching": "A 放任型",
   "heat_west_only": "強",
   "muggy_west_only": "強",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）\n[食い違い] 蒸れ: 欧米の文献は 強 相当。控えめな側を採った\n[MBG/品種] Tolerates high heat and humidity.\n[NC State/種] It is well-adapted to southern climates as it tolerates high heat, humidity, and salt.\n[RHS/品種] Aspect: South-facing or West-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）\n[食い違い] 蒸れ: 欧米の文献は 強 相当。控えめな側を採った\n[MBG/品種] Tolerates high heat and humidity.\n[NC State/種] It is well-adapted to southern climates as it tolerates high heat, humidity, and salt.\n[RHS/品種] Aspect: South-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] It typically matures to 2-4’ (less frequently to 5’) tall, and features upright clumps of slender, flat, linear green leaves (to 1/4“ wide), with each leaf having a tinge of blue at the base.",

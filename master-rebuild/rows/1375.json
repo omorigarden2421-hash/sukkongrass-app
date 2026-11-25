@@ -172,7 +172,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
@@ -183,12 +183,12 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "中",
+   "value": "強",
    "method": "記載",
    "sources": [
-    "s21"
+    "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "soil_moisture": {
    "value": "適湿",
@@ -368,7 +368,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": null,
   "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[NC State/種] Providing well-drained soil and good air circulation will reduce the possibility of pests and foliar diseases.\n[RHS/品種] Aspect: South-facing or West-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 耐えますが高温多湿は嫌います（蒸れ 中 相当）\n[NC State/種] Providing well-drained soil and good air circulation will reduce the possibility of pests and foliar diseases.\n[RHS/品種] Aspect: South-facing or West-facing",
   "spread_evidence": "[こぼれ種 2／Gaißmayer・self_seed] wo er sich am geeigneten Standort auch willig versamt（読み直し）\n[こぼれ種 1／Gaißmayer・品種] Schön in naturhaften Pflanzungen, wo er sich am geeigneten Standort auch willig versamt.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 2（[Gaißmayer・self_seed] wo er sich am geeigneten Standort auch willig versamt）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[NC State・種] Habit/Form: Mounding; Spreading",

@@ -172,10 +172,10 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "強",
+   "value": "弱",
    "method": "記載",
    "sources": [
-    "s10"
+    "s02"
    ],
    "level": "cultivar"
   },

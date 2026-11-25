@@ -161,7 +161,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
@@ -172,10 +172,10 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "中",
+   "value": "強",
    "method": "記載",
    "sources": [
-    "s02"
+    "s06"
    ],
    "level": "species"
   },
@@ -351,7 +351,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "強",
   "muggy_west_only": "強",
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[MBG/種] A taprooted plant which tolerates heat, humidity and some drought.\n[NC State/種] It prefers full sun and will tolerate heat and humidity.\n[NC State/種] The taproot helps make it drought and heat tolerant.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/品種] 耐暑性；強\n[MBG/種] A taprooted plant which tolerates heat, humidity and some drought.\n[NC State/種] It prefers full sun and will tolerate heat and humidity.\n[NC State/種] The taproot helps make it drought and heat tolerant.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": "[こぼれ種 1／MBG・種] May self-seed if spent flower stems are left in place（読み直し）\n[こぼれ種 1／MBG・種] May self-seed if spent flower stems are left in place in the fall.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy, Clump forming",

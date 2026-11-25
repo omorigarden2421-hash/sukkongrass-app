@@ -156,7 +156,7 @@
    "level": null
   },
   "west_sun": {
-   "value": "◎",
+   "value": "○",
    "method": "判定",
    "sources": [
     "s20",
@@ -165,12 +165,10 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "強",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s06"
-   ],
-   "level": "genus"
+   "sources": null,
+   "level": null
   },
   "soil_moisture": {
    "value": "適湿",
@@ -344,7 +342,7 @@
   "management_type_by_matching": null,
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 空欄 になったので、西日耐性 ◎ → ○\n[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
   "spread_evidence": null,
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",

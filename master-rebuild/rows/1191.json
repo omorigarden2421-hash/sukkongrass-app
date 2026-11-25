@@ -162,7 +162,7 @@
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
     "s20",
@@ -172,10 +172,10 @@
    "level": "cultivar"
   },
   "drought": {
-   "value": "中",
+   "value": "強",
    "method": "記載",
    "sources": [
-    "s02"
+    "s06"
    ],
    "level": "species"
   },
@@ -358,7 +358,7 @@
   "management_type_by_matching": "C 夏前切戻型",
   "heat_west_only": "弱",
   "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[MBG/種] Plants generally do not perform well in the deep South below USDA Zone 7.\n[MBG/種] Foliage may decline in hot and humid summer climates such as the St.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] Foliage may decline in hot and humid summer climates such as the St. Louis）\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/種] 耐暑性；強\n[MBG/種] Plants generally do not perform well in the deep South below USDA Zone 7.\n[MBG/種] Foliage may decline in hot and humid summer climates such as the St.\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] Foliage may decline in hot and humid summer climates such as the St. Louis）\n[食い違い] 欧米の文献（種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or East-facing or West-facing",
   "spread_evidence": "[地下茎 0／RHS・品種] Does not run like mint（読み直し）\n[こぼれ種 2／RHS・品種] may self- seed freely in a good site（読み直し）\n[こぼれ種 1／MBG・種] May spread in the garden by rhizomes and/or self-seeding to form an interesting ground cover.\n[地下茎 2／MBG・種] May spread in the garden by rhizomes and/or self-seeding to form an interesting ground cover.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 2（[RHS・品種] may self- seed freely in a good site）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 0（[RHS・品種] Does not run like mint）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig",
