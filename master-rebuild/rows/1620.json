@@ -191,10 +191,12 @@
    "level": null
   },
   "evergreen_warm": {
-   "value": null,
+   "value": "半常緑",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "native_range": {
    "value": "ヨーロッパの乾いた草地・斜面・石垣・道ばた",

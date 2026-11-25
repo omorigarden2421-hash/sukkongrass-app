@@ -181,10 +181,12 @@
    "level": "species"
   },
   "evergreen_warm": {
-   "value": null,
+   "value": "落葉",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "native_range": {
    "value": "ロシア極東、中国、日本・台湾（種の原産地）",

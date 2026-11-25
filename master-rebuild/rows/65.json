@@ -187,12 +187,12 @@
    "level": null
   },
   "evergreen_warm": {
-   "value": "落葉",
+   "value": "半常緑",
    "method": "記載",
    "sources": [
-    "s18"
+    "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "native_range": {
    "value": "シベリア、ロシア極東、中国、モンゴル、日本・朝鮮半島（種の原産地）",

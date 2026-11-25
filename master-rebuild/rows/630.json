@@ -170,10 +170,12 @@
    "level": null
   },
   "evergreen_warm": {
-   "value": null,
+   "value": "常緑",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "native_range": {
    "value": null,

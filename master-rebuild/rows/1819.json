@@ -184,10 +184,12 @@
    "level": "species"
   },
   "evergreen_warm": {
-   "value": null,
+   "value": "常緑",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "native_range": {
    "value": "ヨーロッパ全域、コーカサス、西アジア（種の原産地）",

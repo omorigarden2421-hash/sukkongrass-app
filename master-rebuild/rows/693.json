@@ -189,10 +189,12 @@
    "level": null
   },
   "evergreen_warm": {
-   "value": null,
+   "value": "半常緑",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "genus"
   },
   "native_range": {
    "value": "中国、日本・朝鮮半島（種の原産地）",

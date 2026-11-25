@@ -184,10 +184,10 @@
    "level": null
   },
   "evergreen_warm": {
-   "value": "落葉",
+   "value": "半常緑",
    "method": "記載",
    "sources": [
-    "s18"
+    "s06"
    ],
    "level": "species"
   },

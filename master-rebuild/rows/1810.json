@@ -192,10 +192,12 @@
    "level": null
   },
   "evergreen_warm": {
-   "value": null,
+   "value": "落葉",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "genus"
   },
   "native_range": {
    "value": null,

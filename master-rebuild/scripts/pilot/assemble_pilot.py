@@ -976,6 +976,22 @@ def main():
                     "今の値": {c: r.get(c) for c in ("葉色（分類）", "葉色（自社の値）", "葉の特徴", "紅葉")}, "今の値の文献": prov.get("葉色（分類）") or ("Walters・品種" if w and r.get("葉色（分類）") else None)}
             with open(os.path.join(os.environ["DUMP_LEAF"], "leaf_dump.jsonl"), "a", encoding="utf-8") as fh:
                 fh.write(json.dumps(dump, ensure_ascii=False, default=str) + "\n")
+        # 2026-11-25 総当たりの読み直し用: 環境変数 DUMP_EVER（フォルダ）があれば、常緑性に関わる値と文を文献ごとに全部書き出す（値は変えない）
+        if os.environ.get("DUMP_EVER"):
+            mb_, mblv_ = pick(k, sk, None, "mbg")
+            EW = r"evergreen|deciduous|semi-?evergreen|winter|immergrün|wintergrün|sommergrün|常緑|落葉|冬|dies? (back|down)|die-?back|herbaceous|persist"
+            dump = {"商品番号": it["商品番号"], "植物名": it.get("植物名"), "学名": it.get("学名"), "ID": k, "品種名あり": "'" in (it["学名"] or ""),
+                    "RHS・品種": ({key: rh["f"].get(key) for key in ("Foliage", "Hardiness")} if rh else None),
+                    "stauden.de": ({key: [f"{v_}（{tg_}）" for v_, tg_ in vals] for key, vals in s["f"].items() if re.search(r"Blattphase|Winter|Laub", key)} if s else None),
+                    "Walters・品種": ([x for x in w["f"].get("Plant Uses & Characteristics", []) if re.search(r"Evergreen|Deciduous|Winter", x)] if w else None),
+                    "Gaißmayer": ({"値": [f"[{fld}] {v_}" for fld, v_ in ga[12] if re.search(EW, f"{fld} {v_}".lower())],
+                                   "段階": "品種" if ga[2] == "cultivar" else "種", "品種に使う": ga_own} if ga else None),
+                    "MBG": ({"段階": mblv_, **{key: v_ for key, v_ in mb_["f"].items() if re.search(r"Type|Leaf|Foliage", key) and len(str(v_)) < 200}} if mb_ else None),
+                    "文": [f"[{a}・{lv}] {x}" for a, lv, x in texts if re.search(EW, x.lower())][:15],
+                    "今のマスター": it.get("常緑性"),
+                    "今の値": r.get("常緑性")}
+            with open(os.path.join(os.environ["DUMP_EVER"], "ever_dump.jsonl"), "a", encoding="utf-8") as fh:
+                fh.write(json.dumps(dump, ensure_ascii=False, default=str) + "\n")
         # --- 学名（採用）: 2026-11-19 決定。RHS が正名（Accepted／Correct）としていれば RHS の表記に合わせる。
         #     RHS で未確定・シノニム・掲載なしのときは今の学名のまま（学名の検討シートに残す）
         #     2026-11-21: メモのある品種も RHS の正名に合わせる。決め方は adopt_name()

@@ -189,12 +189,12 @@
    "level": null
   },
   "evergreen_warm": {
-   "value": "半常緑",
+   "value": "常緑",
    "method": "記載",
    "sources": [
-    "s18"
+    "s10"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "native_range": {
    "value": "コルシカ島・サルデーニャ島の明るい林（種の原産地）",

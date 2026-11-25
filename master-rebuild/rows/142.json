@@ -190,10 +190,10 @@
    "level": null
   },
   "evergreen_warm": {
-   "value": "半常緑",
+   "value": "常緑",
    "method": "記載",
    "sources": [
-    "s18"
+    "s10"
    ],
    "level": "cultivar"
   },

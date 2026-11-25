@@ -181,10 +181,12 @@
    "level": null
   },
   "evergreen_warm": {
-   "value": null,
+   "value": "半常緑",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "native_range": {
    "value": "中国、インド亜大陸、インドシナ（種の原産地）",

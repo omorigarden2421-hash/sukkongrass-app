@@ -200,10 +200,10 @@
    "level": "species"
   },
   "evergreen_warm": {
-   "value": "半常緑",
+   "value": "常緑",
    "method": "記載",
    "sources": [
-    "s18"
+    "s06"
    ],
    "level": "species"
   },

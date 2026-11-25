@@ -32,7 +32,7 @@ FIELDS = [
     ("heat", "耐暑性", "str", "暑さ・蒸れ・西日の根拠"), ("heat_note", "暑さ・蒸れの注意", "str", None),
     ("muggy", "蒸れ耐性", "str", "暑さ・蒸れ・西日の根拠"), ("west_sun", "西日耐性", "str", "暑さ・蒸れ・西日の根拠"),
     ("drought", "乾燥耐性", "str", None), ("soil_moisture", "土壌水分", "str", None), ("soil_ph_type", "pH・土質", "str", None),
-    ("salt", "耐潮性", "str", "耐潮性の根拠"), ("evergreen_warm", "常緑性", "str", None), ("native_range", "原産地", "str", None),
+    ("salt", "耐潮性", "str", "耐潮性の根拠"), ("evergreen_warm", "常緑性", "str", "常緑性の根拠"), ("native_range", "原産地", "str", None),
     ("spread_modes", "増え方", "list", None), ("self_seed_level", "こぼれ種の量(0-3)", "int", "こぼれ種・地下茎の根拠"),
     ("rhizome_level", "地下茎で広がる程度(0-3)", "int", "こぼれ種・地下茎の根拠"), ("mixing", "混植適性", "str", "混植適性の根拠"),
     ("invasive_note", "広がりすぎの注意", "str", None), ("ias_list", "外来種リスト", "str", None), ("hokkaido_bluelist", "北海道ブルーリスト", "str", None), ("toxicity", "毒性", "str", None),

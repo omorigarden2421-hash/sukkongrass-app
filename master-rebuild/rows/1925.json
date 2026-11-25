@@ -192,10 +192,12 @@
    "level": "species"
   },
   "evergreen_warm": {
-   "value": null,
+   "value": "落葉",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "native_range": {
    "value": "カナダ南部、アメリカ中北部、アメリカ北東部、アメリカ中南部、アメリカ南東部、メキシコ、中央アメリカ、カリブ海（種の原産地）",
