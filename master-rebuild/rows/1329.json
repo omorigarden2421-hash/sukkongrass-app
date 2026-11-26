@@ -165,7 +165,7 @@
    "level": "cultivar"
   },
   "soil_moisture": {
-   "value": "乾燥寄り",
+   "value": "排水必須",
    "method": "記載",
    "sources": [
     "s02"

@@ -172,9 +172,9 @@
    "value": "湿潤寄り",
    "method": "記載",
    "sources": [
-    "s02"
+    "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": null,

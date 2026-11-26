@@ -167,9 +167,9 @@
    "value": "適湿",
    "method": "記載",
    "sources": [
-    "s02"
+    "s10"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "中性、粘土・砂質・ローム",

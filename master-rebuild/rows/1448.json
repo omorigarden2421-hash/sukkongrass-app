@@ -186,12 +186,13 @@
    "note": "[読み直し 2026-11-25・確かさ 中] 欧米の文献に乾燥への強さの値も文もない\n埋め方：推定（MBG・種 の Water: Medium から。乾燥の記述ではない。信頼度：低）"
   },
   "soil_moisture": {
-   "value": "適湿",
+   "value": "排水必須",
    "method": "記載",
    "sources": [
-    "s01"
+    "s02",
+    "s17"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",

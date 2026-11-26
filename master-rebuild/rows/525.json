@@ -176,12 +176,12 @@
    "level": "cultivar"
   },
   "soil_moisture": {
-   "value": "乾燥寄り",
+   "value": "適湿",
    "method": "記載",
    "sources": [
-    "s02"
+    "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "soil_ph_type": {
    "value": "砂質・腐植質・岩混じり",

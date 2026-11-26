@@ -159,12 +159,10 @@
    "note": "[読み直し 2026-11-25・確かさ 中] 欧米の文献に乾燥への強さの値も文もない\n埋め方：推定（MBG・属 の Water: Medium から。乾燥の記述ではない。信頼度：低）"
   },
   "soil_moisture": {
-   "value": "適湿",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "genus"
+   "sources": null,
+   "level": null
   },
   "soil_ph_type": {
    "value": "腐植質",

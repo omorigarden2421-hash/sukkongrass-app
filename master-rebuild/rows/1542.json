@@ -153,10 +153,12 @@
    "level": "species"
   },
   "soil_moisture": {
-   "value": null,
+   "value": "排水必須",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   },
   "soil_ph_type": {
    "value": "砂質・岩混じり",

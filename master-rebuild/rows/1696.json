@@ -165,12 +165,10 @@
    "level": "cultivar"
   },
   "soil_moisture": {
-   "value": "適湿",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "genus"
+   "sources": null,
+   "level": null
   },
   "soil_ph_type": {
    "value": "中性、砂質・ローム",

@@ -172,7 +172,7 @@
    "level": "species"
   },
   "soil_moisture": {
-   "value": "適湿",
+   "value": "幅広く適応",
    "method": "記載",
    "sources": [
     "s01"

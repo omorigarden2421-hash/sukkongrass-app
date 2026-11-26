@@ -171,12 +171,12 @@
    "level": "species"
   },
   "soil_moisture": {
-   "value": "適湿",
+   "value": "湿潤寄り",
    "method": "記載",
    "sources": [
-    "s01"
+    "s06"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、粘土・砂質・ローム・白亜質",

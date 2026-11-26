@@ -169,10 +169,12 @@
    "level": "cultivar"
   },
   "soil_moisture": {
-   "value": null,
+   "value": "湿潤寄り",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "腐植質",

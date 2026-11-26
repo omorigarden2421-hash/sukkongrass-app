@@ -31,7 +31,7 @@ FIELDS = [
     ("usda_min", "USDA 下限", "int", None), ("usda_max", "USDA 上限", "int", None), ("rhs_h", "RHS 耐寒性", "str", None),
     ("heat", "耐暑性", "str", "暑さ・蒸れ・西日の根拠"), ("heat_note", "暑さ・蒸れの注意", "str", None),
     ("muggy", "蒸れ耐性", "str", "暑さ・蒸れ・西日の根拠"), ("west_sun", "西日耐性", "str", "暑さ・蒸れ・西日の根拠"),
-    ("drought", "乾燥耐性", "str", "乾燥耐性の出どころ"), ("soil_moisture", "土壌水分", "str", None), ("soil_ph_type", "pH・土質", "str", None),
+    ("drought", "乾燥耐性", "str", "乾燥耐性の出どころ"), ("soil_moisture", "土壌水分", "str", "土壌水分の根拠"), ("soil_ph_type", "pH・土質", "str", None),
     ("salt", "耐潮性", "str", "耐潮性の根拠"), ("evergreen_warm", "常緑性", "str", "常緑性の根拠"), ("native_range", "原産地", "str", None),
     ("spread_modes", "増え方", "list", None), ("self_seed_level", "こぼれ種の量(0-3)", "int", "こぼれ種・地下茎の根拠"),
     ("rhizome_level", "地下茎で広がる程度(0-3)", "int", "こぼれ種・地下茎の根拠"), ("mixing", "混植適性", "str", "混植適性の根拠"),
@@ -115,6 +115,9 @@ def main(xlsx, out):
                 ls = str(g(evcol)).split("\n")
                 fill = next((x for x in ls if x.startswith("埋め方：")), None)
                 srcs, level = cites(fill or ls[0].split("] ", 1)[-1])
+            # 2026-11-26 土壌水分の読み直し：文献は「土壌水分の根拠」の1行目の決め手から取る
+            if key == "soil_moisture" and v is not None and str(g(evcol) or "").startswith("[読み直し"):
+                srcs, level = cites(str(g(evcol)).split("\n")[0].split("] ", 1)[-1])
             if v is not None and not srcs and key in prov:
                 srcs, level = prov[key]
             if v is not None and not srcs and evcol and g(evcol):

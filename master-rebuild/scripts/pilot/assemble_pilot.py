@@ -1009,6 +1009,21 @@ def main():
                     "今の値": r.get("乾燥耐性"), "今の出どころ": r.get("乾燥耐性の出どころ"), "今の値の文献": prov.get("乾燥耐性")}
             with open(os.path.join(os.environ["DUMP_DRY"], "dry_dump.jsonl"), "a", encoding="utf-8") as fh:
                 fh.write(json.dumps(dump, ensure_ascii=False, default=str) + "\n")
+        # 2026-11-26 総当たりの読み直し用: 環境変数 DUMP_SOIL（フォルダ）があれば、土壌水分に関わる値と文を文献ごとに全部書き出す（値は変えない）
+        if os.environ.get("DUMP_SOIL"):
+            SW = r"drain|wet|moist|dry|bog|marsh|swamp|pond|stream|water|soggy|clay|sand|gravel|feucht|nass|trocken|frisch|staunässe|durchlässig|sumpf|水はけ|湿|乾"
+            dump = {"商品番号": it["商品番号"], "植物名": it.get("植物名"), "学名": it.get("学名"), "ID": k, "品種名あり": "'" in (it["学名"] or ""),
+                    "RHS・品種": ({"Moisture": rh["f"].get("Moisture"), "Soil": rh["f"].get("Soil")} if rh else None),
+                    "NC State": ({"段階": nl, **{key: v_ for key, v_ in n["f"].items() if re.search(r"Soil|Drainage|Moisture", key)}} if n else None),
+                    "MBG": ({"段階": mlv, "Water": m["f"].get("Water"), "Tolerate": m["f"].get("Tolerate")} if m else None),
+                    "Walters・品種": ({"Soil Moisture": w["f"].get("Soil Moisture")} if w else None),
+                    "Gaißmayer": ({"値": [f"[{fld}] {v_}" for fld, v_ in ga[12] if re.search(SW, f"{fld} {v_}".lower())],
+                                   "段階": "品種" if ga[2] == "cultivar" else "種", "品種に使う": ga_own} if ga else None),
+                    "stauden.de": ({key: [f"{v_}（{tg_}）" for v_, tg_ in vals] for key, vals in s["f"].items() if re.search(r"Feucht|Wasser|Trocken|Lebensbereich|Boden", key)} if s else None),
+                    "文": [f"[{a}・{lv}] {x}" for a, lv, x in texts if re.search(SW, x.lower())][:25],
+                    "今の値": r.get("土壌水分"), "今の値の文献": prov.get("土壌水分")}
+            with open(os.path.join(os.environ["DUMP_SOIL"], "soil_dump.jsonl"), "a", encoding="utf-8") as fh:
+                fh.write(json.dumps(dump, ensure_ascii=False, default=str) + "\n")
         # --- 学名（採用）: 2026-11-19 決定。RHS が正名（Accepted／Correct）としていれば RHS の表記に合わせる。
         #     RHS で未確定・シノニム・掲載なしのときは今の学名のまま（学名の検討シートに残す）
         #     2026-11-21: メモのある品種も RHS の正名に合わせる。決め方は adopt_name()

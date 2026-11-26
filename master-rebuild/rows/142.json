@@ -170,10 +170,12 @@
    "level": "cultivar"
   },
   "soil_moisture": {
-   "value": null,
+   "value": "乾燥寄り",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "中性、粘土・砂質・ローム",

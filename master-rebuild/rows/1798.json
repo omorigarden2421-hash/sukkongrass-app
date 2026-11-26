@@ -159,10 +159,10 @@
    "level": null
   },
   "soil_moisture": {
-   "value": "適湿",
+   "value": "排水必須",
    "method": "記載",
    "sources": [
-    "s01"
+    "s10"
    ],
    "level": "cultivar"
   },

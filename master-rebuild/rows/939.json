@@ -169,6 +169,7 @@
    "value": "乾燥寄り",
    "method": "記載",
    "sources": [
+    "s06",
     "s02"
    ],
    "level": "species"

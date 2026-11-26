@@ -192,7 +192,7 @@
    "sources": [
     "s01"
    ],
-   "level": "cultivar"
+   "level": null
   },
   "soil_ph_type": {
    "value": "酸性〜アルカリ性、砂質・ローム・白亜質",

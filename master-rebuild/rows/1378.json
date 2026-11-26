@@ -152,10 +152,12 @@
    "level": "species"
   },
   "soil_moisture": {
-   "value": null,
+   "value": "適湿",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": null,

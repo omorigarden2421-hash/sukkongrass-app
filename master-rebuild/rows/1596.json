@@ -173,9 +173,9 @@
    "value": "乾燥寄り",
    "method": "記載",
    "sources": [
-    "s02"
+    "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": null,

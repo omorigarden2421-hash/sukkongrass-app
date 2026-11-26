@@ -177,12 +177,12 @@
    "level": "species"
   },
   "soil_moisture": {
-   "value": "適湿",
+   "value": "排水必須",
    "method": "記載",
    "sources": [
-    "s01"
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "soil_ph_type": {
    "value": "酸性〜中性、砂質・ローム",

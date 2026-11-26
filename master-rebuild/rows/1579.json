@@ -178,7 +178,8 @@
    "value": "排水必須",
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s06"
    ],
    "level": "cultivar"
   },

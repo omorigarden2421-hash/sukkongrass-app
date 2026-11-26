@@ -179,7 +179,7 @@
    "level": "species"
   },
   "soil_moisture": {
-   "value": "排水必須",
+   "value": "幅広く適応",
    "method": "記載",
    "sources": [
     "s01"

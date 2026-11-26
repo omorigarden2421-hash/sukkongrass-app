@@ -168,7 +168,7 @@
    "sources": [
     "s01"
    ],
-   "level": "cultivar"
+   "level": null
   },
   "soil_ph_type": {
    "value": "酸性〜中性、ローム",

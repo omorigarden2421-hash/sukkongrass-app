@@ -169,9 +169,10 @@
    "value": "乾燥寄り",
    "method": "記載",
    "sources": [
+    "s18",
     "s02"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "粘土・砂質・ローム・腐植質・岩混じり",

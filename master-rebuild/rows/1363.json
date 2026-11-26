@@ -164,9 +164,11 @@
    "level": null
   },
   "soil_moisture": {
-   "value": null,
+   "value": "湿潤寄り",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "soil_ph_type": {

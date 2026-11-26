@@ -156,10 +156,10 @@
    "level": null
   },
   "soil_moisture": {
-   "value": "乾燥寄り",
+   "value": "適湿",
    "method": "記載",
    "sources": [
-    "s02"
+    "s06"
    ],
    "level": "species"
   },
