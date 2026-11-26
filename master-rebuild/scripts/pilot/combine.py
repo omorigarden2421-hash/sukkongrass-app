@@ -148,6 +148,8 @@ CUT_RR = json.load(open("cut_reread.json", encoding="utf-8")) if os.path.exists(
 POLL_RR = json.load(open("poll_reread.json", encoding="utf-8")) if os.path.exists("poll_reread.json") else {}
 PROP_RR = json.load(open("prop_reread.json", encoding="utf-8")) if os.path.exists("prop_reread.json") else {}
 WINTER_RR = json.load(open("winter_reread.json", encoding="utf-8")) if os.path.exists("winter_reread.json") else {}
+# 2026-11-26 ユーザー「読みやすく整えて」: winter_text() の下書きを、事実を足さず・落とさずに読みやすく整えた文（scripts/tools/winter_polish_note.md）
+WINTER_POLISH = json.load(open("winter_polish.json", encoding="utf-8")) if os.path.exists("winter_polish.json") else {}
 
 
 def winter_text(f, ever, soil, cold):
@@ -729,6 +731,9 @@ for m in master:
     # 冬の手入れ（北海道）・（温暖地）は文献から作り直す（2026-11-26 の決定）。今のマスターの文は見比べ用の列に残す
     wf = WINTER_RR.get(no)
     whk, wwm, wwhy = winter_text(wf, r.get("常緑性"), r.get("土壌水分"), r.get("耐寒性"))
+    wpo = WINTER_POLISH.get(no)
+    if wpo:
+        whk, wwm = wpo.get("北海道"), wpo.get("温暖地")
     r["冬の手入れ（北海道）"], r["冬の手入れ（温暖地）"] = whk, wwm
     r["冬の手入れ（今のマスター・北海道）"], r["冬の手入れ（今のマスター・温暖地）"] = m.get("冬の手入れ（北海道）"), m.get("冬の手入れ（温暖地）")
     if wf:
