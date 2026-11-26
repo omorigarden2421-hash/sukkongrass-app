@@ -13,7 +13,7 @@ const MIN_PRICE = 30000; // 部品・小物を除くための下限（円）
 
 const norm = (s) => (s || '').normalize('NFKC');
 // 本体以外（部品・用品・おもちゃ等）を除く
-const NOT_BODY = /パーツ|部品|ベルト|カバー|シート(?!付)|スキー板|ソリ|そり|トレーラー|ヘルメット|ウェア|ジャケット|ブーツ|グローブ|ゴーグル|ミニカー|模型|プラモ|ラジコン|おもちゃ|トミカ|ステッカー|マフラー|キャブ|ピストン|プラグ|ライト|ミラー|ハンドル|スプロケット|トラック\s*ベルト|カタログ|マニュアル|本$|DVD|ゲーム|キーホルダー|スタンド|ドリー|スキッド|クラッチ/;
+const NOT_BODY = /ワンピース|ウエア|パンツ|ビブ|スーツ|ジャケット|フーディ|パーカー|手袋|時計|クロノグラフ|腕時計|バナナボート|トーイング|チャンバー|パイプ|未開封|バンダイ|ナイトメア|フィギュア|ぬいぐるみ|レプリカ|パーツ|部品|ベルト|カバー|シート(?!付)|スキー板|ソリ|そり|トレーラー|ヘルメット|ウェア|ジャケット|ブーツ|グローブ|ゴーグル|ミニカー|模型|プラモ|ラジコン|おもちゃ|トミカ|ステッカー|マフラー|キャブ|ピストン|プラグ|ライト|ミラー|ハンドル|スプロケット|トラック\s*ベルト|カタログ|マニュアル|本$|DVD|ゲーム|キーホルダー|スタンド|ドリー|スキッド|クラッチ/;
 const BODY_HINT = /本体|実働|不動|始動|エンジン|cc|CC|スキードゥ|ski-?doo|ヤマハ|YAMAHA|ポラリス|POLARIS|アークティック|ARCTIC|Arctic|BRP|リンクス|Lynx|LYNX|SNOSCOOT|スノースクート|VK|フェーザー|ベンチャー|SRX|PZ|MXZ|サミット|Summit|RMK|インディ|Indy/i;
 
 (async () => {
@@ -48,25 +48,32 @@ const BODY_HINT = /本体|実働|不動|始動|エンジン|cc|CC|スキード�
   const toCheck = candidates.filter((it) => showAll || !seen[it.id]);
   console.error(`検索結果 ${all.length} / 本体候補 ${candidates.length} / 未確認 ${toCheck.length}`);
 
-  // 2. 新着だけ開いて発送元の地域を確認
-  let detail = null;
-  page.on('response', async (r) => {
-    if (r.url().includes('items/get')) { try { detail = (await r.json()).data; } catch {} }
-  });
-  for (const it of toCheck) {
-    detail = null;
-    await page.goto(it.url, { waitUntil: 'networkidle', timeout: 60000 }).catch(() => {});
-    await page.waitForTimeout(1500);
+  // 2. 新着だけ開いて発送元の地域を確認（取れなければ再試行。最後まで取れなければ記録せず翌日もう一度）
+  const readItem = async (it) => {
+    const resP = page.waitForResponse((r) => r.url().includes('items/get') || r.url().includes('product'), { timeout: 25000 }).catch(() => null);
+    await page.goto(it.url, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => {});
+    const res = await resP;
+    let data = null;
+    if (res && res.url().includes('items/get')) { try { data = (await res.json()).data; } catch {} }
+    await page.waitForSelector('text=発送元の地域', { timeout: 20000 }).catch(() => {});
     const text = norm(await page.evaluate(() => document.body.innerText).catch(() => '')).replace(/\s+/g, ' ');
-    it.area = detail?.shipping_from_area?.name || (text.match(/発送元の地域\s*(\S+)/) || [])[1] || '';
-    it.shippingPayer = detail?.shipping_payer?.name || '';
-    it.shippingMethod = detail?.shipping_method?.name || '';
-    it.condition = detail?.item_condition?.name || '';
-    const desc = norm(detail?.description || (text.match(/商品の説明\s*(.{0,600})/) || [])[1] || '');
+    return { data, text };
+  };
+  for (const it of toCheck) {
+    let { data, text } = await readItem(it);
+    let area = data?.shipping_from_area?.name || (text.match(/発送元の地域\s*(\S+)/) || [])[1] || '';
+    if (!area) { ({ data, text } = await readItem(it)); area = data?.shipping_from_area?.name || (text.match(/発送元の地域\s*(\S+)/) || [])[1] || ''; }
+    it.area = area;
+    it.shippingPayer = data?.shipping_payer?.name || (text.match(/(送料込み|着払い)/) || [])[1] || '';
+    it.condition = data?.item_condition?.name || '';
+    const desc = norm(data?.description || (text.match(/商品の説明\s*(.{0,600})/) || [])[1] || '');
     it.desc = desc.replace(/\s+/g, ' ').slice(0, 300);
-    it.hokkaido = /北海道/.test(it.area);
-    it.bodyLikely = BODY_HINT.test(it.title + ' ' + desc) && !/(?:部品取り?用?の?み|パーツのみ)/.test(it.title);
-    seen[it.id] = new Date().toISOString();
+    // 発送元が北海道、または発送元が取れずタイトル・説明に北海道とあるもの
+    it.hokkaido = /北海道/.test(area) || (!area && /北海道/.test(it.title + ' ' + desc));
+    it.areaUnknown = !area;
+    it.bodyLikely = BODY_HINT.test(it.title + ' ' + desc);
+    if (area) seen[it.id] = new Date().toISOString();
+    console.error('checked', area || '(不明)', it.price, it.title.slice(0, 40));
   }
   await browser.close();
 
@@ -74,7 +81,7 @@ const BODY_HINT = /本体|実働|不動|始動|エンジン|cc|CC|スキード�
   fs.writeFileSync(SEEN, JSON.stringify(seen, null, 1));
   fs.writeFileSync(path.join(DIR, 'result.json'), JSON.stringify({ at: new Date().toISOString(), checked: toCheck.length, fresh: hits }, null, 1));
   const md = `# メルカリ 北海道のスノーモービル ${new Date().toISOString().slice(0, 10)}\n\n新着 ${hits.length} 件（確認 ${toCheck.length} 件）\n\n` +
-    (hits.map((it) => `- ${it.title}\n  ${it.price.toLocaleString()}円 / ${it.shippingPayer || '送料不明'} / ${it.condition}\n  ${it.desc}\n  ${it.url}`).join('\n') || '新着なし') + '\n';
+    (hits.map((it) => `- ${it.areaUnknown ? '[発送元不明・タイトル等に北海道] ' : ''}${it.title}\n  ${it.price.toLocaleString()}円 / ${it.shippingPayer || '送料不明'} / ${it.condition}\n  ${it.desc}\n  ${it.url}`).join('\n') || '新着なし') + '\n';
   fs.writeFileSync(path.join(DIR, 'result.md'), md);
   console.log(md);
 })();
