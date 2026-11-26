@@ -1106,6 +1106,33 @@ def main():
                     "今の値": r.get("繁殖"), "今の値の文献": prov.get("繁殖")}
             with open(os.path.join(os.environ["DUMP_PROP"], "prop_dump.jsonl"), "a", encoding="utf-8") as fh:
                 fh.write(json.dumps(dump, ensure_ascii=False, default=str) + "\n")
+        # 2026-11-26 冬の手入れを文献から作り直す（ユーザー「文献から作り直して」）: 環境変数 DUMP_WINTER（フォルダ）があれば、冬・秋・春の手入れ・防寒・冬の過湿に関わる値と文を文献ごとに全部書き出す（値は変えない）
+        if os.environ.get("DUMP_WINTER"):
+            WW = (r"winter|frost|mulch|\bfall\b|autumn|late season|early spring|in spring|cut back|cut to the ground|cut down|shear|crown|wet soil|wet feet|soggy|"
+                  r"evergreen|semi-evergreen|foliage persists|winter interest|protect|snow|hardy|tender|die back|dies back|dormant|old foliage|old leaves|tatty|ragged|"
+                  r"winterschutz|winterhart|rückschnitt|frühjahr|herbst|nässe|wintergrün|immergrün|冬|防寒|雪|マルチ|切り戻|刈り込|寒さ|霜|地上部|枯れ")
+
+            def whits_(f_):
+                out_ = []
+                for key_, v_ in (f_ or {}).items():
+                    txt_ = json.dumps(v_, ensure_ascii=False) if not isinstance(v_, str) else v_
+                    for x_ in sentences(txt_) if isinstance(v_, str) and len(v_) > 120 else [txt_]:
+                        if re.search(WW, f"{key_} {x_}".lower()):
+                            out_.append(f"[{key_}] {x_[:300]}")
+                return out_
+            sh_ = SHOP.get(str(og[1])) if og else None
+            dump = {"商品番号": it["商品番号"], "植物名": it.get("植物名"), "学名": it.get("学名"), "ID": k, "品種名あり": "'" in (it["学名"] or ""),
+                    "RHS・品種": ({k2: v2 for k2, v2 in rh["f"].items() if k2 in ("Foliage", "Hardiness", "Pruning", "Cultivation", "Moisture")} | {"そのほか": whits_({a_: b_ for a_, b_ in rh["f"].items() if a_ not in ("Foliage", "Hardiness", "Pruning", "Cultivation", "Moisture")})} if rh else None),
+                    "NC State": ({"段階": nl, "値と文": whits_(n["f"])} if n else None),
+                    "MBG": ({"段階": mlv, "値と文": whits_(m["f"])} if m else None),
+                    "Walters・品種": ({"文": [x_ for x_ in sentences(w.get("text") or "") if re.search(WW, x_.lower())]} if w else None),
+                    "Gaißmayer": ({"値": [f"[{fld}] {v_}" for fld, v_ in ga[12] if re.search(WW, f"{fld} {v_}".lower())],
+                                   "段階": "品種" if ga[2] == "cultivar" else "種", "品種に使う": ga_own} if ga else None),
+                    "stauden.de": ({"段階": slv, "値": [f"[{key_}] {v_}（{tg_}）" for key_, vals in s["f"].items() for v_, tg_ in vals if re.search(WW + r"|pflege|blattphase", f"{key_} {v_}".lower())]} if s else None),
+                    "シカゴ植物園": ({"段階": "品種" if cb[1] == "cultivar" else "種", "値": [str(x_) for x_ in cb[4:8] if x_]} if cb else None),
+                    "おぎはら": ({"段階": "品種" if og[3] == "cultivar" else "種", "楽天": whits_(sh_) if sh_ else None} if og else None)}
+            with open(os.path.join(os.environ["DUMP_WINTER"], "winter_dump.jsonl"), "a", encoding="utf-8") as fh:
+                fh.write(json.dumps(dump, ensure_ascii=False, default=str) + "\n")
         # --- 学名（採用）: 2026-11-19 決定。RHS が正名（Accepted／Correct）としていれば RHS の表記に合わせる。
         #     RHS で未確定・シノニム・掲載なしのときは今の学名のまま（学名の検討シートに残す）
         #     2026-11-21: メモのある品種も RHS の正名に合わせる。決め方は adopt_name()
