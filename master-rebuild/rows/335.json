@@ -295,10 +295,12 @@
    "level": null
   },
   "cut_flower": {
-   "value": null,
+   "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "pollinator": {
    "value": "○",
