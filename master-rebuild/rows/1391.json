@@ -304,13 +304,18 @@
   "propagation": {
    "value": [
     "挿し木",
-    "実生"
+    "根挿し",
+    "実生",
+    "その他（取り木）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s06",
+    "s20"
    ],
-   "level": null
+   "level": "species"
   },
   "cut_flower": {
    "value": null,

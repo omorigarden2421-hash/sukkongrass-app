@@ -320,13 +320,15 @@
   },
   "propagation": {
    "value": [
-    "株分け"
+    "株分け",
+    "挿し木"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "cut_flower": {
    "value": "○",

@@ -320,10 +320,20 @@
    "level": null
   },
   "propagation": {
-   "value": null,
+   "value": [
+    "株分け",
+    "根挿し",
+    "実生",
+    "その他（子株）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s17",
+    "s18",
+    "s11"
+   ],
+   "level": "species"
   },
   "cut_flower": {
    "value": "◎",

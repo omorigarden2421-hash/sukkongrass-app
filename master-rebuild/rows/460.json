@@ -276,9 +276,13 @@
    "level": null
   },
   "propagation": {
-   "value": null,
+   "value": [
+    "挿し木"
+   ],
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s18"
+   ],
    "level": null
   },
   "cut_flower": {

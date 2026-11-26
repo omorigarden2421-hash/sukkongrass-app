@@ -308,13 +308,17 @@
   },
   "propagation": {
    "value": [
-    "挿し木"
+    "根挿し",
+    "実生"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s17",
+    "s18",
+    "s11"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "cut_flower": {
    "value": "○",

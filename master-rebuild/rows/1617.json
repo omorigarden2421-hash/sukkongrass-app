@@ -316,13 +316,16 @@
   },
   "propagation": {
    "value": [
-    "株分け"
+    "株分け",
+    "実生"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18",
+    "s11"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "cut_flower": {
    "value": "○",

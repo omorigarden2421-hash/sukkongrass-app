@@ -310,9 +310,10 @@
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s18"
    ],
-   "level": null
+   "level": "species"
   },
   "cut_flower": {
    "value": null,

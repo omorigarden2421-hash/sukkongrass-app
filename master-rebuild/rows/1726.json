@@ -312,13 +312,15 @@
   },
   "propagation": {
    "value": [
-    "挿し木"
+    "挿し木",
+    "その他（取り木）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s06"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "cut_flower": {
    "value": "○",

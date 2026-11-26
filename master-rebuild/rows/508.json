@@ -342,13 +342,16 @@
   },
   "propagation": {
    "value": [
-    "株分け"
+    "株分け",
+    "その他（地下茎分割）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s10",
+    "s18"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "cut_flower": {
    "value": "◎",

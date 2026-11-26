@@ -286,10 +286,14 @@
    "level": null
   },
   "propagation": {
-   "value": null,
+   "value": [
+    "株分け"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s20"
+   ],
+   "level": "species"
   },
   "cut_flower": {
    "value": null,

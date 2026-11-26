@@ -312,10 +312,16 @@
    "level": "species"
   },
   "propagation": {
-   "value": null,
+   "value": [
+    "株分け",
+    "根挿し"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
   },
   "cut_flower": {
    "value": "○",

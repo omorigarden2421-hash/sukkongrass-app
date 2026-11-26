@@ -319,10 +319,17 @@
    "level": null
   },
   "propagation": {
-   "value": null,
+   "value": [
+    "実生",
+    "その他（ランナー）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s18",
+    "s11"
+   ],
+   "level": "cultivar"
   },
   "cut_flower": {
    "value": null,

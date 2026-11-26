@@ -332,11 +332,13 @@
   },
   "propagation": {
    "value": [
-    "実生"
+    "株分け",
+    "その他（むかご）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s10"
    ],
    "level": null
   },

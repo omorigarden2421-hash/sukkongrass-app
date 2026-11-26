@@ -315,9 +315,15 @@
    "level": null
   },
   "propagation": {
-   "value": null,
+   "value": [
+    "株分け",
+    "実生"
+   ],
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s06",
+    "s11"
+   ],
    "level": null
   },
   "cut_flower": {

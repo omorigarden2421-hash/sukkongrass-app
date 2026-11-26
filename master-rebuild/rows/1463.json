@@ -315,10 +315,16 @@
    "level": "cultivar"
   },
   "propagation": {
-   "value": null,
+   "value": [
+    "株分け"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s10",
+    "s18",
+    "s06"
+   ],
+   "level": "cultivar"
   },
   "cut_flower": {
    "value": "○",

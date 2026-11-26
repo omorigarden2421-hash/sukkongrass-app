@@ -322,11 +322,14 @@
   },
   "propagation": {
    "value": [
-    "挿し木"
+    "挿し木",
+    "実生"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s06",
+    "s11"
    ],
    "level": null
   },

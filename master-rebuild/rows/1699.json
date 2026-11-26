@@ -310,10 +310,16 @@
    "level": null
   },
   "propagation": {
-   "value": null,
+   "value": [
+    "挿し木",
+    "その他（接ぎ木）"
+   ],
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01",
+    "s18"
+   ],
+   "level": "cultivar"
   },
   "cut_flower": {
    "value": "◎",

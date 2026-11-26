@@ -331,13 +331,18 @@
   "propagation": {
    "value": [
     "株分け",
-    "挿し木"
+    "根挿し",
+    "実生",
+    "その他（子株）"
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s02",
+    "s11",
+    "s06"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "cut_flower": {
    "value": "◎",

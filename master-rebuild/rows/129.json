@@ -328,9 +328,11 @@
    ],
    "method": "記載",
    "sources": [
-    "s01"
+    "s01",
+    "s10",
+    "s02"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "cut_flower": {
    "value": null,
