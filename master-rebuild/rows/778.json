@@ -333,7 +333,7 @@
    "sources": [
     "s18"
    ],
-   "level": "cultivar"
+   "level": null
   },
   "pollinator": {
    "value": null,

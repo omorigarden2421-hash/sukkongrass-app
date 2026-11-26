@@ -332,9 +332,11 @@
    "level": null
   },
   "cut_flower": {
-   "value": null,
+   "value": "○",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s20"
+   ],
    "level": null
   },
   "pollinator": {

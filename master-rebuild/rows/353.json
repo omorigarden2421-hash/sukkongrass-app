@@ -317,11 +317,10 @@
    "level": null
   },
   "cut_flower": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s18",
-    "s10"
+    "s02"
    ],
    "level": "cultivar"
   },
