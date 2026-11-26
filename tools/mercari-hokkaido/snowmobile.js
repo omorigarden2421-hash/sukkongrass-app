@@ -13,7 +13,7 @@ const MIN_PRICE = 30000; // 部品・小物を除くための下限（円）
 
 const norm = (s) => (s || '').normalize('NFKC');
 // 本体以外（部品・用品・おもちゃ等）を除く
-const NOT_BODY = /ワンピース|ウエア|パンツ|ビブ|スーツ|ジャケット|フーディ|パーカー|手袋|時計|クロノグラフ|腕時計|バナナボート|トーイング|チャンバー|パイプ|未開封|バンダイ|ナイトメア|フィギュア|ぬいぐるみ|レプリカ|パーツ|部品|ベルト|カバー|シート(?!付)|スキー板|ソリ|そり|トレーラー|ヘルメット|ウェア|ジャケット|ブーツ|グローブ|ゴーグル|ミニカー|模型|プラモ|ラジコン|おもちゃ|トミカ|ステッカー|マフラー|キャブ|ピストン|プラグ|ライト|ミラー|ハンドル|スプロケット|トラック\s*ベルト|カタログ|マニュアル|本$|DVD|ゲーム|キーホルダー|スタンド|ドリー|スキッド|クラッチ/;
+const NOT_BODY = /サイレンサー|ボンネット|バンパー|ワンピース|ウエア|パンツ|ビブ|スーツ|ジャケット|フーディ|パーカー|手袋|時計|クロノグラフ|腕時計|バナナボート|トーイング|チャンバー|パイプ|未開封|バンダイ|ナイトメア|フィギュア|ぬいぐるみ|レプリカ|パーツ|部品|ベルト|カバー|シート(?!付)|スキー板|ソリ|そり|トレーラー|ヘルメット|ウェア|ジャケット|ブーツ|グローブ|ゴーグル|ミニカー|模型|プラモ|ラジコン|おもちゃ|トミカ|ステッカー|マフラー|キャブ|ピストン|プラグ|ライト|ミラー|ハンドル|スプロケット|トラック\s*ベルト|カタログ|マニュアル|本$|DVD|ゲーム|キーホルダー|スタンド|ドリー|スキッド|クラッチ/;
 const BODY_HINT = /本体|実働|不動|始動|エンジン|cc|CC|スキードゥ|ski-?doo|ヤマハ|YAMAHA|ポラリス|POLARIS|アークティック|ARCTIC|Arctic|BRP|リンクス|Lynx|LYNX|SNOSCOOT|スノースクート|VK|フェーザー|ベンチャー|SRX|PZ|MXZ|サミット|Summit|RMK|インディ|Indy/i;
 
 (async () => {
@@ -69,8 +69,10 @@ const BODY_HINT = /本体|実働|不動|始動|エンジン|cc|CC|スキード�
     const desc = norm(data?.description || (text.match(/商品の説明\s*(.{0,600})/) || [])[1] || '');
     it.desc = desc.replace(/\s+/g, ' ').slice(0, 300);
     // 発送元が北海道、または発送元が取れずタイトル・説明に北海道とあるもの
-    it.hokkaido = /北海道/.test(area) || (!area && /北海道/.test(it.title + ' ' + desc));
-    it.areaUnknown = !area;
+    // 発送元が「未定」や空のときは、タイトル・説明文に北海道の地名があるかで判断
+    const HK = /北海道|道内|道東|道北|道央|道南|札幌|旭川|帯広|十勝|釧路|函館|北見|苫小牧|網走|根室|稚内|名寄|富良野|千歳|小樽|室蘭|岩見沢|日高|ニセコ/;
+    it.areaUnknown = !area || area === '未定';
+    it.hokkaido = /北海道/.test(area) || (it.areaUnknown && HK.test(it.title + ' ' + desc));
     it.bodyLikely = BODY_HINT.test(it.title + ' ' + desc);
     if (area) seen[it.id] = new Date().toISOString();
     console.error('checked', area || '(不明)', it.price, it.title.slice(0, 40));
@@ -81,7 +83,7 @@ const BODY_HINT = /本体|実働|不動|始動|エンジン|cc|CC|スキード�
   fs.writeFileSync(SEEN, JSON.stringify(seen, null, 1));
   fs.writeFileSync(path.join(DIR, 'result.json'), JSON.stringify({ at: new Date().toISOString(), checked: toCheck.length, fresh: hits }, null, 1));
   const md = `# メルカリ 北海道のスノーモービル ${new Date().toISOString().slice(0, 10)}\n\n新着 ${hits.length} 件（確認 ${toCheck.length} 件）\n\n` +
-    (hits.map((it) => `- ${it.areaUnknown ? '[発送元不明・タイトル等に北海道] ' : ''}${it.title}\n  ${it.price.toLocaleString()}円 / ${it.shippingPayer || '送料不明'} / ${it.condition}\n  ${it.desc}\n  ${it.url}`).join('\n') || '新着なし') + '\n';
+    (hits.map((it) => `- ${it.areaUnknown ? '[発送元未定・説明文に北海道の地名] ' : ''}${it.title}\n  ${it.price.toLocaleString()}円 / ${it.shippingPayer || '送料不明'} / ${it.condition}\n  ${it.desc}\n  ${it.url}`).join('\n') || '新着なし') + '\n';
   fs.writeFileSync(path.join(DIR, 'result.md'), md);
   console.log(md);
 })();
