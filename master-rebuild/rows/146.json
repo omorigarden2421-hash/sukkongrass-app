@@ -346,10 +346,9 @@
    "value": "○",
    "method": "記載",
    "sources": [
-    "s18",
-    "s10"
+    "s01"
    ],
-   "level": "cultivar"
+   "level": null
   }
  },
  "review": {

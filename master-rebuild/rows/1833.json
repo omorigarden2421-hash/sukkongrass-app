@@ -313,9 +313,11 @@
    "level": null
   },
   "pollinator": {
-   "value": null,
+   "value": "○",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s01"
+   ],
    "level": null
   }
  },

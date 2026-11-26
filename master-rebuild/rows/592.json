@@ -335,12 +335,10 @@
    "level": "cultivar"
   },
   "pollinator": {
-   "value": "○",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s10"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   }
  },
  "review": {

@@ -1,0 +1,9162 @@
+{
+"931": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1310": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"994": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "品種ページに虫の記述なし、種のMBGで判断",
+"前の値": null,
+"今のマスター": "○"
+},
+"135": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Bees and butterflies will visit the blooms / Attracts: Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "RHSの good in wildlife garden は蜜源の記述ではない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"338": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGは属ページのみ（使わない）。MBG属もHummingbirdsだけ",
+"前の値": null,
+"今のマスター": "△"
+},
+"1561": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページ。MBG品種はAttracts: Hummingbirdsのみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"871": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGは属ページのみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"873": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページ。MBG品種はHummingbirdsのみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"237": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Jelitto・種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページのみ。今の値○（Jelitto）は入力にない文献。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"244": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Flowers are attractive to bees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"713": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] a favorite of bees and butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateの a favorite of bees を◎の例に当てた",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1990": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGとも属ページのみ",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1342": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"981": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attracting hummingbirds, butterflies, and bees / Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"883": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "stauden.deの種の値",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1285": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1263": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGとも属ページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1008": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGとも属ページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1522": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "低",
+"メモ": "NC State種のAttracts: Butterflies; Pollinatorsは幼虫の食草（Satyr larvae）由来で花の記述なし。規則どおりなら○の読みもある",
+"前の値": null,
+"今のマスター": "—"
+},
+"1479": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは幼虫の食草（larval host）のみで花に来る虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1233": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies / [Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"862": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] It attracts hummingbirds, bees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"1494": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献に虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1429": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Provides nectar for pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"621": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Flowers are attractive to bees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1900": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attractive to bees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1343": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] The plant attracts butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"593": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献に虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"130": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Bees, butterflies, moths... are attracted to stonecrop",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"395": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies / [NC State・種] Flowers attract pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1863": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "RHSの文は[Genus]（属の説明）、MBGも属ページ。属は使わない",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1294": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Walters・品種] Flowers are very attractive to butterflies",
+"食い違い": null,
+"確かさ": "低",
+"メモ": "very attractive を highly attractive と同じに読んで◎。○の読みもある",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"101": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGは属ページ",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1151": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1565": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1272": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] a particularly valuable source of nectar for bumble bees",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "excellent nectar source 相当と読んで◎",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"861": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1408": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "害虫（aphids, moth）の記述のみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"197": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] The flowers attract bumblebees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "△"
+},
+"1950": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies / [stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1162": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGは属ページ",
+"前の値": "○",
+"今のマスター": "△"
+},
+"1626": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは幼虫の食草・成虫は別の花の蜜の話で、この草の花の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"875": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献に虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1501": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] flowers attract butterflies / Attracts: Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"1267": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] The lipped flowers are a magnet for bees",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "品種ページ（Walters: attract bees to the nectar、Gaißmayer: Bienen, Hummeln und Schmetterlinge）は○相当。一つが◎なので◎",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1898": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] Attracts butterflies / [Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1188": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献に虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1817": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1895": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] This plant attracts butterflies, bees, and hummingbirds",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "RHSの文は[Genus]で使わない",
+"前の値": "○",
+"今のマスター": "○"
+},
+"302": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] Attracts bees and butterflies / [MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"978": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts pollinator insects including wasps, flies, bees, and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1572": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "病害虫の記述のみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"894": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・種] Play Value: Attracts Pollinators",
+"確かさ": "中",
+"メモ": "根拠は Play Value の Attracts Pollinators と #pollinator plant だけで花に来る虫の文がない。nullの読みもある。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"1629": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "Attracts birdsのみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"464": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1432": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1153": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1335": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "Walters文はハチドリのみ、印のAttracts Butterfliesで○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1582": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"1258": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NCの#sterileは種子が不稔の意で花の蜜の話ではない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"319": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[NC State・品種] Walker's Low catmint is a pollinator magnet",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "◎にあたる文あり",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"618": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Honey bees are attracted to the flowers",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"34": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateの値だけで文はない",
+"前の値": null,
+"今のマスター": "○"
+},
+"942": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページ（使わない）",
+"前の値": "○",
+"今のマスター": "○"
+},
+"233": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1982": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"271": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] attractive to butterflies and other insect pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1488": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[MBG・品種] The blooms are highly attractive to bees, butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "◎にあたる文あり",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1765": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Walters] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1625": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1377": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Nectar attracts bumblebees / Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "Monstrosa（頂部が整正花）の蜜への言及はなし",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1411": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "◎"
+},
+"531": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Hummingbirds and bees are attracted to the flowers",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"1813": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページのみ",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1887": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"483": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "△"
+},
+"986": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attractive to hummingbirds, butterflies, and other pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1865": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts Pollinators",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"548": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1944": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies / Attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"340": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] It is pollinated by bees / Attracts: Bees",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "ハチドリの記述は除いて判断",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1913": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1516": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "シダ。虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1595": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] The flowers attract butterflies for pollination and nectar",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1146": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attractive to pollinators such as bumblebees, long-tongue bees, and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBGの別名 bee blossom は根拠にしない",
+"前の値": "○",
+"今のマスター": "○"
+},
+"109": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1187": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies / [stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"321": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] a high-value nectar plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "high-value nectar plant を excellent nectar source 相当と読んで◎",
+"前の値": null,
+"今のマスター": "◎"
+},
+"757": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attractive to butterflies / [stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"570": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献に虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1174": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies / [Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"122": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "害虫の記述のみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"1974": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[Walters] Attracts Butterflies",
+"確かさ": "中",
+"メモ": "イネ科だがWaltersの印どおり○。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "—"
+},
+"1608": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"973": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Butterflies are attracted to the flowers",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1361": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] This plant attracts bees, other insects and other pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"468": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] Flowers produce high-value nectar attracting a variety of bees",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "high-value nectar を excellent nectar source 相当と読んで◎",
+"前の値": "○",
+"今のマスター": "—"
+},
+"81": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Flowers are attractive to butterflies / [Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"779": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts hummingbirds, bees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1925": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Nectar from inconspicuous flowers attracts bees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"1952": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"625": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1354": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Bees are attracted to the flowers",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"1616": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBGの Insect visitors は害虫",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1989": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies / [stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1566": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "病害虫の記述のみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"140": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[MBG・品種] very attractive to bees and butterflies",
+"食い違い": null,
+"確かさ": "低",
+"メモ": "very attractive を highly attractive と同じに読んで◎。○の読みもある。NC Stateは属",
+"前の値": null,
+"今のマスター": "◎"
+},
+"770": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページ。Waltersはハチドリの印だけで、文の“bee”は花の中心の呼び名",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1568": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "Schmetterlingsblüten・schmetterlingsartig は花の形で根拠にしない",
+"前の値": "○",
+"今のマスター": "○"
+},
+"679": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献に虫の記述なし",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1224": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"1486": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1611": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Flowers are attractive to butterflies, bees and other pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"536": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] This plant attracts butterflies and pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"1708": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1822": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献に虫の記述なし（害虫の文のみ）",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1587": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1311": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→MBG種ページのAttractsで○",
+"前の値": null,
+"今のマスター": "○"
+},
+"606": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種もAttracts Butterflies; Pollinators",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"911": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBGは属ページのみ（属は使わない）",
+"前の値": null,
+"今のマスター": "△"
+},
+"1558": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG品種はAttracts: Hummingbirdsのみ。NC Stateは属",
+"前の値": null,
+"今のマスター": "○"
+},
+"1563": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "属ページのみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"339": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "属ページのみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"1322": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de Insektennährpflanze（species由来）、MBG種 Butterflies も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1947": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG種・stauden.de種も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1644": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種もAttracts Bees; Butterflies",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1248": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de品種 Insektennährpflanze も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"903": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→NC State・MBG種ページで○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1295": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "Walters品種はHummingbirdsのみ。stauden.deの値はspecies由来なので種扱い",
+"前の値": "○",
+"今のマスター": "○"
+},
+"403": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de Insektennährpflanze（species）も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"72": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "stauden.deのみ（species由来の値）",
+"前の値": "○",
+"今のマスター": "△"
+},
+"1006": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBGは属ページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1424": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "属ページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1020": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属ページのみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"1921": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属ページのみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"1419": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] It attracts hummingbirds, bees and butterflies.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今は値なし→種ページで○。MBG種「Butterflies and hummingbirds love the flowers」は◎相当とも読めるが○に留めた",
+"前の値": null,
+"今のマスター": "○"
+},
+"1261": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG品種 Attracts Butterflies も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"955": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Provides nectar for pollinators.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→種ページで○",
+"前の値": null,
+"今のマスター": "○"
+},
+"910": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1304": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"988": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attractive to both butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG種 Attractive to bees and butterflies も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"19": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種もAttracts Butterflies",
+"前の値": "○",
+"今のマスター": "○"
+},
+"970": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1530": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種 Bees; Butterflies; Moths も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"127": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "Walters品種 Attracts Butterflies も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1967": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "RHSの文は[Genus]の説明、MBGは属ページ（属は使わない）",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1230": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Walters・品種] Flowers are very attractive to butterflies.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "very attractive を highly attractive 相当と読み◎。ほかは○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"467": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属。stauden.deのみ",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1821": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献に記述なし",
+"前の値": null,
+"今のマスター": "◎"
+},
+"503": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de種 Insektennährpflanze も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"720": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] particularly valuable source of nectar for bumble bees",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "excellent nectar source 相当と読み◎（今は○）",
+"前の値": "○",
+"今のマスター": "○"
+},
+"221": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "stauden.deのみ（species由来）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"198": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種 The flowers attract bumblebees も○",
+"前の値": "○",
+"今のマスター": "△"
+},
+"1951": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts butterflies and bees.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1513": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "Walters Attracts Butterfliesも○（品種名なしの商品なので段階は種）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"441": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBGは属",
+"前の値": "○",
+"今のマスター": "△"
+},
+"1882": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State種は幼虫の食草・鳥の話のみ。Butterfly/Pollinator Gardenのテーマだけでは虫を呼ぶ記述といえない",
+"前の値": null,
+"今のマスター": "—"
+},
+"1870": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1620": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Jelitto・種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "入力に虫の記述なし。今の値の文献Jelittoは入力に含まれず確かめられない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1226": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] The lipped flowers are a magnet for bees and other pollinators.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "magnet for bees で◎（今は○）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"628": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1956": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Walters] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "品種名なしの商品なので段階は種",
+"前の値": "○",
+"今のマスター": "○"
+},
+"639": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de品種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1159": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "RHSの nectar-bearing petals は[Genus]の説明で使わない",
+"前の値": "○",
+"今のマスター": "△"
+},
+"91": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1127": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] This plant attracts bees, hummingbirds and butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→MBG種 Butterfliesも○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1623": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1564": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・種] Play Value: Attracts Pollinators",
+"確かさ": "中",
+"メモ": "Attracts欄はなく、Play Valueと#pollinator plantのみ。Wildlife Valueは鳥のみ。nullと読む余地あり。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"1630": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "鳥のみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"1691": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de（species）も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1911": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Both long and short tongued bees collect pollen and nectar",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG種・stauden.de種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1962": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1874": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "MBG種はHummingbirdsのみ、NC Stateは属。stellata plenaだが八重で蜜なしという文献の文はない",
+"前の値": null,
+"今のマスター": "△"
+},
+"615": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Walters・品種] A favourite of both butterflies and hummingbirds.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "a favourite of で◎。MBG品種 loved by bees も同旨（今は○）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1315": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種 Attracts Bees; Pollinators。#sterileのタグは虫が来ないという文ではない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1818": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"803": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属",
+"前の値": "○",
+"今のマスター": "○"
+},
+"641": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページのみ、stauden.deに虫の値なし。今の値の文献Jelittoは入力になく確かめられない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"260": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Walters] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "品種名なしの商品なので段階は種",
+"前の値": "○",
+"今のマスター": "○"
+},
+"235": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1502": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "鳥のみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"1624": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] The flowers are attractive to butterflies and other insect pollinators.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種・stauden.de種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"145": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[RHS] Attractive to bees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG種・Walters・stauden.deも○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1426": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "入力に虫の記述なし。今の値の文献Jelittoは入力になく確かめられない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"399": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Walters] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1697": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "Monstrosaについて蜜がない等の文献の文はない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"878": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] The nectar-rich flowers are attractive to butterflies and other pollinators.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今は値なし。nectar-richは◎相当とも読める。RHSのloved by pollinatorsは[Genus]で使わない",
+"前の値": null,
+"今のマスター": "◎"
+},
+"530": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Hummingbirds and bees are attracted to the flowers.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今は値なし→bees があるので○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1574": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属ページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1617": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1885": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "△"
+},
+"299": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1508": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→品種ページで○",
+"前の値": null,
+"今のマスター": "△"
+},
+"1160": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Walters] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de種も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1945": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de（species）も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"256": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] The flower is pollinated by butterflies and bees.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→Attracts Bees; Butterflies で○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1651": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "stauden.deのみ",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"929": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1904": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"979": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attractive to pollinators such as bumblebees, long-tongue bees, and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値の文献（Jelitto）とは別だが値は同じ",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"529": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1018": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de品種・NC State種も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1397": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] a high-value nectar plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "high-value nectar を excellent nectar source 相当と読み◎（今は値なし）",
+"前の値": null,
+"今のマスター": "◎"
+},
+"45": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"371": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG品種はHummingbirdsのみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"653": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "stauden.deのみ",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1602": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"406": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attractive to bees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→MBG種も○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1461": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Birds, Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。NC State種 Frequently visited by butterflies も○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"171": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"53": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] This plant attracts bees, other insects and other pollinators.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "八重咲き品種だが、品種のページに蜜・花粉がないという文はないので種ページで○",
+"前の値": "○",
+"今のマスター": "—"
+},
+"1521": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] Flowers produce high-value nectar attracting a variety of bees.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "high-value nectar を◎相当と読んだ（今は○）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"80": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1452": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1391": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] This plant attracts bees and birds.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→Attracts Beesで○",
+"前の値": null,
+"今のマスター": "○"
+},
+"971": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "△"
+},
+"1542": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Bees and butterflies are attracted to the flowers",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"965": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Walters] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "品種名なしの商品なので段階は種",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1548": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "害虫の文のみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"333": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1786": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1923": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[NC State・品種] These blooms are very attractive to various butterflies and bees.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "very attractive を highly attractive 相当と読み◎（今は○）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1128": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "Walters品種の印はAttracts Hummingbirdsのみ、NC Stateは属。今の○は根拠なし",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1886": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1614": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1569": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[RHS・品種] A good early source of pollen and nectar for insects",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし。good であり excellent ではないので○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1975": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Tags #bee friendly #pollinator plant",
+"食い違い": null,
+"確かさ": "低",
+"メモ": "Attracts欄なし。Wildlife Valueは幼虫の食草のみ。タグだけなのでnullと読む余地あり",
+"前の値": null,
+"今のマスター": "○"
+},
+"832": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "Walters品種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1825": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1487": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"499": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de（種）に値なし",
+"前の値": null,
+"今のマスター": "◎"
+},
+"312": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"1972": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1203": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "病害虫の記述のみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1772": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG は属のページのみ（使わない）",
+"前の値": null,
+"今のマスター": "○"
+},
+"1498": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG は属のページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1774": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG品種は Hummingbirds のみ、NC State は属",
+"前の値": null,
+"今のマスター": "○"
+},
+"1562": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG は属のページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"246": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属のため使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"868": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・種も Attracts Bees; Butterflies",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1247": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators／#food source nectar",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→NC State種で○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1829": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG とも属のページ",
+"前の値": null,
+"今のマスター": "◎"
+},
+"918": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG（種）も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"465": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"1298": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"70": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de は品種ページだが値は species 由来なので種とした",
+"前の値": "○",
+"今のマスター": "△"
+},
+"945": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG とも属のページ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1993": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG とも属のページ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1878": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts songbirds and pollinators",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今は値なし→NC State種で○。カヤツリグサ科だが文献どおり",
+"前の値": null,
+"今のマスター": "—"
+},
+"1363": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属のページ",
+"前の値": null,
+"今のマスター": "—"
+},
+"1003": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／Butterflies and hummingbirds love the flowers",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今は値なし→MBG品種で○。love the flowers を◎とは読まなかった",
+"前の値": null,
+"今のマスター": "◎"
+},
+"331": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG（種）も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"613": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Provides nectar for pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→NC State種で○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1466": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Provides nectar for pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→NC State種で○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1302": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Flowers attract bees, butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG・stauden.de（種）も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"989": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG種 Attractive to bees and butterflies も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"18": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] The plant attracts butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→NC State種で○",
+"前の値": null,
+"今のマスター": "△"
+},
+"619": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"816": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de品種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1707": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze／[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1589": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "RHS は Genus 欄の文、MBG は属なので使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"41": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Walters・品種] a favourite feeding station for many butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "Walters品種の favourite を◎とした（ほかは○）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1197": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属のため使わない",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1622": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"562": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG種も Attracts Butterflies",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1555": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] particularly valuable source of nectar for bumble bees",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "particularly valuable source of nectar を excellent nectar source 相当として◎",
+"前の値": "○",
+"今のマスター": "○"
+},
+"831": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"195": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種 The flowers attract bumblebees も○",
+"前の値": "○",
+"今のマスター": "△"
+},
+"727": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1879": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Bees and other pollinating insects enjoy the nectar",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→NC State種で○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1544": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG とも属のページ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1210": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・品種] Attracts birds and butterflies",
+"確かさ": "中",
+"メモ": "今は値なし。イネ科で butterfly friendly の根拠が蜜か不明だが文献どおり○。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"954": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"124": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・stauden.de（種）も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"591": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1439": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1376": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"549": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種 Attracts bees and other pollinators も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1847": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "△"
+},
+"1373": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG（種）も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1327": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Pollinators are attracted to the flowers",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→NC State・MBG種で○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"267": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"787": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[Walters・品種] Attracts Butterflies",
+"確かさ": "中",
+"メモ": "イネ科でWaltersの印1つのみ。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "—"
+},
+"592": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[Walters・品種] Attracts Butterflies",
+"確かさ": "中",
+"メモ": "イネ科でWaltersの印1つのみ。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "—"
+},
+"1690": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "—"
+},
+"1914": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種 Attracts bumblebees も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1983": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1936": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "八重咲き（plena）だが文献に蜜なしの記述はない",
+"前の値": "○",
+"今のマスター": "△"
+},
+"1264": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[MBG・種] Butterfly magnet for border fronts",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG種の butterfly magnet で◎（Walters品種は○）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"666": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"805": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attracts butterflies／[MBG・種] Flowers are attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→種のページで○",
+"前の値": null,
+"今のマスター": "○"
+},
+"167": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／Attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1531": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Jelitto・種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今の○は Jelitto・種 だが入力に Jelitto なし。NC State は属、stauden.de は Dachbegrünung のみ。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1256": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"234": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1325": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"738": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"566": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／Attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種 Bees and butterflies are attracted to the nectar も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1930": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1957": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"583": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Nectar attracts bumblebees／[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1946": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[MBG・種] Flowers are very attractive to butterflies／[NC State・種] A wonderful plant for attracting butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "stauden.de品種は○だが、種のページの very attractive を◎とした",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"211": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Hummingbirds and bees are attracted to the flowers",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→NC State種で○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1175": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Pollinated by long-tongued bees, butterflies, and moths",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→NC State種で○",
+"前の値": null,
+"今のマスター": "○"
+},
+"630": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今は値なし。Attracts 欄とタグのみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"285": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1275": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1458": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今は値なし。Attracts 欄のみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1541": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"217": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[RHS] Attract bees and other beneficial insects",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"255": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1953": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1339": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"722": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・種] Attracts: Butterflies",
+"確かさ": "中",
+"メモ": "今は値なし。イネ科で Attracts 欄のみ、ほかは Seed heads attract small birds。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"364": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attractive to pollinators such as bumblebees, long-tongue bees, and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の文献は Jelitto だが NC State種で同じ○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1423": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"1019": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1205": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・種] Attracts: Butterflies; Pollinators",
+"確かさ": "中",
+"メモ": "同じページに wind pollinated・幼虫食草とあり、蜜源の根拠は弱い。Attracts 欄どおり○（null の読みもあり）。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"1918": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・種] Attracts: Butterflies",
+"確かさ": "中",
+"メモ": "根拠は Attracts 欄と幼虫食草（Zabulon skipper）のみ。null の読みもあり。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"1747": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"1915": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1581": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今の○は Jelitto・品種 だが入力に Jelitto なし。Gaißmayer・stauden.de に値なし。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"953": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Flowers are attractive to bees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG種・stauden.de（species）も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1460": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Butterflies／[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→種のページで○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1833": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[RHS] Attractive to bees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→RHSで○。MBG（very attractive）は属のページなので使わない",
+"前の値": null,
+"今のマスター": "◎"
+},
+"733": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] attract hummingbirds and other pollinators／Flowers attract hummingbirds and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"569": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[MBG・品種] Flowers are very attractive to butterflies, bees and other beneficial insects",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→MBG品種の very attractive で◎",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1482": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・stauden.de（種）も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1453": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"1401": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今は値なし→MBG品種の Attracts で○",
+"前の値": null,
+"今のマスター": "○"
+},
+"38": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種 Attracts bees, beetles, and flies も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1978": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts bees and other pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→NC State種で○",
+"前の値": null,
+"今のマスター": "○"
+},
+"966": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "Walters の印のみ",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1299": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "Walters の印のみ",
+"前の値": "○",
+"今のマスター": "○"
+},
+"266": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] the flowers' nectar is enjoyed by butterflies and bees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→NC State種で○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1393": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"1144": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Flowers attract butterflies／[MBG・種] attractive to butterflies and other insect pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→種のページで○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"997": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属、RHS は害虫のみ",
+"前の値": null,
+"今のマスター": "◎"
+},
+"362": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／Flowers are attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・stauden.de（種）も○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1001": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／Attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1809": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属のページ",
+"前の値": null,
+"今のマスター": "○"
+},
+"608": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] they attract butterflies and bees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今は値なし→NC State種で○",
+"前の値": null,
+"今のマスター": "△"
+},
+"876": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Honeybees are attracted to the flowers and the nectar ... makes delicious honey",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "◎の言い方ではないので○（蜜源植物として強い書き方で◎の読みもあり）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1803": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1329": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1600": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1157": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"543": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"1922": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"921": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属ページで使わない。MBG は Hummingbirds のみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"472": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属。MBG 品種は Hummingbirds のみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"1560": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属。MBG 品種は Hummingbirds のみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"1770": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属。MBG 種は Hummingbirds のみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"247": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属で使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"518": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC・MBG 種も bees and butterflies",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"919": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC 種も Bees; Butterflies; Pollinators",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1290": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1985": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] great late season nectar source / excellent choice for a late-season pollinator plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "great nectar source を excellent nectar source 相当と読んだ",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"297": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"73": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"64": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1132": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属。MBG 品種は Hummingbirds のみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1425": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属で使わない",
+"前の値": null,
+"今のマスター": "○"
+},
+"1892": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"296": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属（幼虫食草の話）",
+"前の値": null,
+"今のマスター": "—"
+},
+"673": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Butterflies and hummingbirds love the flowers",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC 品種・Walters 品種は○。MBG の love を ◎ と読んだ（ハチドリと並記で弱い）。○ でもよい。MBG の決まり文句「Butterflies and hummingbirds love the flowers」だけは ○（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1421": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Butterflies and hummingbirds love the flowers",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "love を ◎ と読んだ（ハチドリと並記）。○ でもよい。MBG の決まり文句「Butterflies and hummingbirds love the flowers」だけは ○（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1260": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Provides nectar for pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"866": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1303": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC・MBG 種も bees, butterflies",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"96": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属で使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1143": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] The plant attracts butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG は属",
+"前の値": null,
+"今のマスター": "△"
+},
+"1964": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"802": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属ページのみ",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1309": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] attracts butterflies / [MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"755": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "RHS の attractive to butterflies は [Genus] 文なので使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1654": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attractive to bees, butterflies and other pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"736": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC・MBG は属",
+"前の値": "○",
+"今のマスター": "△"
+},
+"259": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1511": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"869": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属ページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1492": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"196": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC 種も attracts bumblebees",
+"前の値": "○",
+"今のマスター": "△"
+},
+"1334": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies / [stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1746": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State は属。stauden は品種ページだが値は species 由来",
+"前の値": "○",
+"今のマスター": "△"
+},
+"1543": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属で使わない",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1584": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC 種は幼虫食草・成虫が蜜を吸う一般論のみで Attracts 欄なし。風媒のイネ科",
+"前の値": null,
+"今のマスター": "—"
+},
+"1436": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"879": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden も species 値で Insektennährpflanze",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1225": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"341": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1131": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1379": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies / [Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1314": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "RHS の nectar-bearing petals は [Genus] の形態文で使わない",
+"前の値": "○",
+"今のマスター": "○"
+},
+"278": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] The flowers are much loved by bees and flies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "much loved by bees を a favourite of bees 相当と読んだ",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1328": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Pollinators are attracted to the flowers",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG 種も other pollinators",
+"前の値": null,
+"今のマスター": "◎"
+},
+"268": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1442": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[Walters・品種] Attracts Butterflies",
+"確かさ": "中",
+"メモ": "イネ科（風媒）で Walters の印だけが根拠。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "—"
+},
+"565": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC 種も Attracts: Butterflies",
+"前の値": "○",
+"今のマスター": "○"
+},
+"386": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"14": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[Gaißmayer・種] reichlich Pollen und sehr viel Nektar",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "sehr viel Nektar を excellent nectar source 相当と読んだ。stauden 品種・NC 種は○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1830": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属で使わない",
+"前の値": "○",
+"今のマスター": "○"
+},
+"793": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG 種も attractive to butterflies",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1265": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[MBG・品種] loved by bees, hummingbirds and other pollinators",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "loved by bees を ◎ と読んだ",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"169": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC の #sterile タグは蜜がないという文ではないので △ にしない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"47": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Flowers are attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"704": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属ページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1388": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC 種も Attracts bees, butterflies",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1257": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1971": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State の copious nectar は属ページなので使わない",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1820": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"1259": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC 種も Bees and other pollinators",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"458": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Gaißmayer・品種] reiche Nektarangebot ... wertvollen Trachtpflanze für Honigbienen",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "Bienenweide 相当と読んだ",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1929": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"102": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"937": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"1326": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1332": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"943": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies; Hummingbirds; Moths",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG 品種は Birds, Hummingbirds のみだが △ の文ではない",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1413": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"928": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1523": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1456": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1316": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1378": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"161": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1293": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"294": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"206": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[Walters・品種] Attracts Butterflies",
+"確かさ": "中",
+"メモ": "イネ科（風媒）。NC 種の Attracts: Butterflies と Walters の印だけ。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "—"
+},
+"108": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Flowers are attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "△"
+},
+"1938": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"1880": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attracts bees, butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "八重（plena）だが品種ページで蜜なしの記述はないので種を採った",
+"前の値": null,
+"今のマスター": "○"
+},
+"1536": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "低",
+"メモ": "NC 種の Attracts に Butterflies; Pollinators があるが、同じページが wind pollinated・幼虫食草と書くので蜜源ではないと読んだ",
+"前の値": null,
+"今のマスター": "—"
+},
+"1129": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[Walters・品種] Attracts Butterflies",
+"確かさ": "中",
+"メモ": "イネ科（風媒）で Walters の印だけが根拠。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "—"
+},
+"1657": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Butterflies and bees are attracted to the blooms",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1540": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts bees.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"139": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"999": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "入力に文献の値・文がない（今の値の Jelitto は入力にない）。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1503": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Moths / pollinated by specialized yucca moths",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "ガはユッカガ（専門の送粉者）のみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1469": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Walters・品種] a magnet to butterflies / [MBG・品種] very attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"353": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC 種は Hummingbirds のみ（Play Value の Attracts Pollinators は Attracts 欄でない）",
+"前の値": null,
+"今のマスター": "○"
+},
+"434": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Walters・品種] Extremely attractive to butterflies / [MBG・品種] very attractive to butterflies, bees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"436": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1506": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1242": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG は属",
+"前の値": "○",
+"今のマスター": "○"
+},
+"946": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1545": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "Gaißmayer 種も Pollen- und Nektarquelle",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"25": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"1767": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"351": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC 種も nectar is enjoyed by butterflies and bees",
+"前の値": "○",
+"今のマスター": "○"
+},
+"374": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"620": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1410": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] The flowers are very attractive to butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "very attractive を highly attractive 相当と読んだ（MBG 種も同文）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"39": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "△"
+},
+"1438": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Gaißmayer・品種] Honigbienen ... sammeln Nektar und Pollen",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1810": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State は属（single-flowered のみ bees）で使わない",
+"前の値": null,
+"今のマスター": "○"
+},
+"165": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] they attract butterflies and bees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "△"
+},
+"801": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1271": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "入力に文献の値・文がない（今の値の Jelitto は入力にない）。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"824": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Gaißmayer・品種] gerne von Honigbienen ... genutzt",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC 種も Attracts bees and butterflies",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1156": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献に虫の値・文なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"578": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"314": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "品種ページなし、種ページで○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1324": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属ページで使わない。MBG品種はHummingbirdsのみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"1171": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBGとも属ページ（MBGはHummingbirdsのみ）",
+"前の値": null,
+"今のマスター": "△"
+},
+"1872": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG・Waltersともハチドリのみ。NC Stateは属",
+"前の値": null,
+"今のマスター": "△"
+},
+"595": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属、MBG品種はHummingbirdsのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"238": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページ。MBG種は虫の記述なし（No serious insect...のみ）",
+"前の値": null,
+"今のマスター": "◎"
+},
+"614": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"335": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Flowers are attractive to bees and butterflies.／[MBG・種] 同文",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1903": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "種のNC Stateも Attracts Bees; Butterflies",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1249": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1291": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts pollinators.／Attracts: Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"298": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"829": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"65": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "品種ページ（MBG）は害虫の記述のみ、種のstauden.deで○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1139": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGは属ページ。stauden.de品種に虫の値なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"835": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGは属ページのみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"422": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属ページのみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"1901": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Its flowers attract hummingbirds, butterflies, and bees／[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値なし→種ページで○",
+"前の値": null,
+"今のマスター": "○"
+},
+"332": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1551": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1427": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Provides nectar for pollinators.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値なし→種ページで○",
+"前の値": null,
+"今のマスター": "○"
+},
+"225": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "おぎはらは病害虫の記述のみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"525": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Flowers are attractive to bees and butterflies.／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"724": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "入力はNC Stateの属ページのみ。今の値の文献Jelittoは入力にない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"969": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1908": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"916": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属ページのみ",
+"前の値": null,
+"今のマスター": "◎"
+},
+"128": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "RHSは害虫のみ",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1987": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "RHSの文は[Genus]で属なので使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1588": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Walters・品種] Flowers are very attractive to butterflies.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "very attractive を highly attractive 相当として◎",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1696": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBGとも属ページ",
+"前の値": null,
+"今のマスター": "○"
+},
+"585": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"250": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属、MBG品種はハチドリのみ、stauden.deに虫の値なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1270": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de種もInsektennährpflanze",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1416": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBGは害虫の記述のみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"199": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] The flowers attract bumblebees.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値なし→種ページで○",
+"前の値": null,
+"今のマスター": "△"
+},
+"1333": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1735": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "△"
+},
+"190": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"895": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State種は幼虫の食草・成虫が蜜を吸う一般論のみで、この花に来る記述・Attractsなし",
+"前の値": null,
+"今のマスター": "—"
+},
+"253": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1942": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1615": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1896": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1276": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Gaißmayer・種] 11 Tagfalter wurden mehrfach beim Besuch beobachtet",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "値は同じ○だが根拠はGaißmayer（今の文献Jelittoは入力にない）",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1380": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1300": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献なし",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1919": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies.／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "種のNC Stateに much loved by bees and flies（◎寄り）があるが品種ページを優先して○。much loved by bees・very attractive to butterflies・tremendous number of pollinators は ◎（種のページでも ◎ の文があれば ◎）（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1448": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Its flowers are attractive to butterflies, bees, and other pollinators.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"270": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1781": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・種] Play Value: Attracts Pollinators",
+"確かさ": "中",
+"メモ": "NC StateのPlay Valueに Attracts Pollinators のみ（Attracts欄なし）。文言どおり○としたが弱い。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"917": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1145": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今の値なし→種ページで○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"13": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] It attracts butterflies, hummingbirds, and pollinators／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"598": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"751": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "入力に虫の値・文なし。今の値の文献Jelittoは入力にない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"344": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[MBG・種] Uses Butterfly magnet for border fronts.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBGの butterfly magnet で◎",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"856": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Pollinators／[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "値は同じ○（今の文献Jelittoは入力にない）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1484": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attracts butterflies／[MBG・種] Flowers are attractive to butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値なし→種ページで○",
+"前の値": null,
+"今のマスター": "○"
+},
+"166": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Flowers are attractive to butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"142": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1868": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1970": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateの copious nectar は属ページなので使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1979": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・種] Play Value: Attracts Pollinators",
+"確かさ": "中",
+"メモ": "NC StateのPlay Valueのみ（Attractsは鳥）。文言どおり○としたが弱い。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"1533": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1924": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1176": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[Walters・品種] Attracts Butterflies",
+"確かさ": "中",
+"メモ": "イネ科だが文献の印どおり○（NC State種もAttracts: Butterflies）。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "—"
+},
+"743": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "入力に虫の値・文なし。今の値の文献Jelittoは入力にない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1206": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献に虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1790": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[MBG・品種] Flowers are very attractive to butterflies.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "very attractive を highly attractive 相当として◎",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1512": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"808": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attractive to butterflies and other pollinators／Attracts: Bees; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値なし→種ページで○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1519": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"587": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"229": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "—"
+},
+"1467": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今の値なし→種ページのAttractsで○。RHSは害虫のみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"644": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"307": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.deは屋上緑化のみ、おぎはらは病害虫のみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"573": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBGの pollination は交配の話で蜜源ではない",
+"前の値": null,
+"今のマスター": "○"
+},
+"12": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "—"
+},
+"1191": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Gaißmayer・品種] Die thymian-ähnlichen Blüten sind bei Bienen und anderen Insekten sehr beliebt",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "sehr beliebt（ハチにとても好まれる）を a favourite of bees 相当として◎",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1547": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1699": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"205": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1124": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属、RHSは害虫のみ",
+"前の値": "○",
+"今のマスター": "○"
+},
+"350": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1509": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Provides sping-time nector to long tongued bees and other polinators.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1579": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1539": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts bees.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今の値なし→種ページで○",
+"前の値": null,
+"今のマスター": "—"
+},
+"924": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "—"
+},
+"317": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Flowers are attractive to bees.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値なし→MBG品種で○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"262": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] bees and hummingbirds visit the flowers／Attracts: Moths",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今の値なし→種ページで○（ユッカガ・ハチの訪花）",
+"前の値": null,
+"今のマスター": "—"
+},
+"1178": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[MBG・種] Flowers are very attractive to butterflies and hummingbirds as a nectar source.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "very attractive ... as a nectar source を◎",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1135": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Play Value: Attracts Pollinators",
+"食い違い": null,
+"確かさ": "低",
+"メモ": "Attracts欄はHummingbirdsのみ、Play Valueの Attracts Pollinators だけで○。弱い",
+"前の値": null,
+"今のマスター": "○"
+},
+"693": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Flowers are attractive to hummingbirds, butterflies, bees and other beneficial insects.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値なし→MBG品種で○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1000": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"384": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1402": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "八重でも文献に蜜なしの記述はない",
+"前の値": "○",
+"今のマスター": "△"
+},
+"287": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1524": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1905": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "RHSは[Genus]の一般文で蜜源の記述なし。今の値の文献Jelittoは入力にない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1580": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Pollinators will benefit from the nectar／[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1798": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Flowers are attractive to butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"202": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts birds and bees／Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今の値なし→種ページで○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1349": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] Attracts pollinators to the flowers／[MBG・品種] attractive to butterflies and other insect pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"209": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[MBG・品種] Flowers are very attractive to butterflies.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "very attractive を◎。Gaißmayer品種も野生バチが来ると記述",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"383": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1883": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts bees, wasps, and beetles.／Attracts: Bees; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値なし→種ページで○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1586": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts pollinators, especially bees.／[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値なし→種ページで○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1966": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"425": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献なし",
+"前の値": null,
+"今のマスター": "△"
+},
+"138": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG・おぎはらとも病害虫のみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1369": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献に虫の値・文なし",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1675": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "MBG種ページのAttractsにButterflies",
+"前の値": null,
+"今のマスター": "◎"
+},
+"431": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Butterflies; Pollinators; Bees and butterflies will visit the blooms",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "品種ページ(MBG・stauden)に虫の記述なし、種ページを採用",
+"前の値": null,
+"今のマスター": "◎"
+},
+"870": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページで使えない。MBG品種はHummingbirdsのみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"1631": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGとも属ページ（MBGはHummingbirdsのみ）",
+"前の値": null,
+"今のマスター": "○"
+},
+"471": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属。MBG品種はHummingbirdsのみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"1981": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGとも属",
+"前の値": null,
+"今のマスター": "△"
+},
+"1431": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属。今の値の根拠Jelittoは入力になく、品種・種の文献に虫の記述なし。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"243": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1553": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1471": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attractive to bees and butterflies ... late season nectar",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"905": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies; Flowers are attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1297": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1193": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"455": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"887": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "stauden.deの値は種由来の注記",
+"前の値": "○",
+"今のマスター": "○"
+},
+"231": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGとも属ページ。stauden品種は空",
+"前の値": null,
+"今のマスター": "○"
+},
+"1007": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1968": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属（幼虫の食草の話）。品種ページに虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"224": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] The showy flowers attract pollinators; Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"865": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] It attracts hummingbirds, bees and butterflies; Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1168": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] It attracts hummingbirds, bees and butterflies; Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"1766": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Provides nectar for pollinators; Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"355": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "△"
+},
+"1375": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Nectar in flowers is attractive to bees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"987": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attractive to both butterflies and hummingbirds",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG品種はHummingbirdsのみ。stauden品種もInsektennährpflanze",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1346": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1965": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1706": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] This cultivar attracts butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"129": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden品種もInsektennährpflanze。RHSは害虫のみ",
+"前の値": "○",
+"今のマスター": "○"
+},
+"756": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts bees, butterflies; Attracts: Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "RHSの文は[Genus]で属なので使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1590": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Walters・品種] Flowers are very attractive to butterflies.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "very attractive を「とてもよく呼ぶ」と読んだ。○とする読みもありうる",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1137": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1444": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1557": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "低",
+"メモ": "NC Stateは属。MBG種はHummingbirdsのみ。MBGの写真見出し「Insect - Honeybee」は文でないので採らない",
+"前の値": null,
+"今のマスター": "○"
+},
+"1550": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "stauden.deの値は種由来の注記",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"220": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"330": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] The flowers attract bumblebees.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "八重咲き品種だが、品種ページに蜜・花粉なしの記述はない",
+"前の値": null,
+"今のマスター": "—"
+},
+"1514": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"184": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属。MBG品種は害虫のみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1926": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State種もnectar source for bees",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1209": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State種は幼虫の食草・成虫一般の吸蜜の話のみでAttracts欄なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"539": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1307": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"1164": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1897": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1695": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1154": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1301": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies; it attracts bees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1578": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State種に much loved by bees（◎相当）があるが、品種ページ(Walters・stauden)が○なので品種を優先。much loved by bees・very attractive to butterflies・tremendous number of pollinators は ◎（種のページでも ◎ の文があれば ◎）（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1022": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] attractive to hummingbirds, butterflies, and other pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"372": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1628": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC StateはAttracts birdsのみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"534": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1283": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] bees collect pollen and nectar; Attracts: Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"596": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[Gaißmayer・種] Die Blüten des Günsels halten reichlich Pollen uns sehr viel Nektar bereit.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "「花粉豊富・蜜がとても多い」をexcellent nectar source相当と読んだ。stauden.de(品種欄だがspecies注記)は○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1336": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Provides nectar to bumblebees, butterflies...; Attracts: Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG品種はHummingbirdsのみ（否定ではない）ので種ページを採用",
+"前の値": null,
+"今のマスター": "◎"
+},
+"558": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "Walters・stauden.deも○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1567": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts bees, butterflies; The flowers are attractive to bees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1959": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページ",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1994": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts butterflies; Attracts: Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1351": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"143": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページ",
+"前の値": null,
+"今のマスター": "—"
+},
+"1495": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] attracts butterflies and other insect pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1367": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属ページ",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1585": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・種] Play Value: Attracts Pollinators",
+"確かさ": "中",
+"メモ": "文献値はPlay ValueのAttracts Pollinatorsのみ（Attracts欄なし、イネ科）。値どおり○とした。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"148": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC Stateは属",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"146": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[RHS] Attractive to bees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG種も○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"601": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[Walters・品種] Attracts Butterflies",
+"確かさ": "中",
+"メモ": "イネ科だが文献の印どおり。NC State種もAttracts: Butterflies。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "—"
+},
+"604": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG品種はHummingbirdsのみ",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1463": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"1255": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts butterflies and honeybees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1949": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1910": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"939": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・種] Attracts: Butterflies; Pollinators",
+"確かさ": "中",
+"メモ": "文はおもに幼虫の食草としての記述。Attracts欄の値どおり○。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"1933": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1422": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "—"
+},
+"1457": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1185": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Butterflies are attracted to the flowers...; Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"120": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"426": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "△"
+},
+"1350": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫よけの記述のみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"1685": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Flowers are visited by bees, butterflies, and other pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"846": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attractive to pollinators such as bumblebees, long-tongue bees, and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値の根拠Jelittoは入力にない",
+"前の値": "○",
+"今のマスター": "○"
+},
+"567": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Flowers attract butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"155": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1123": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属なので使わない",
+"前の値": "○",
+"今のマスター": "○"
+},
+"617": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"279": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Provides spring-time nectar to long tongued bees; Attracts: Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"616": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1928": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"452": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts butterflies and moths; Attracts: Pollinators",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "八重咲き品種だが、品種ページに蜜なしの記述はない",
+"前の値": "○",
+"今のマスター": "○"
+},
+"393": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Flowers are attractive to bees.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "◎"
+},
+"1632": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] attract bees, butterflies and hummingbirds",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "Gaißmayer品種「zahlreiche Schmetterlings- und Falterarten」を◎と読む余地あり",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1330": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Walters・品種] a favourite of butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG品種も very attractive to butterflies ... as a nectar source",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"753": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State・MBGとも属ページ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1606": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"1538": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"48": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State種の a tremendous number of visitors and pollinators は◎相当だが、品種ページ(MBG・Walters)が○なので品種を優先。much loved by bees・very attractive to butterflies・tremendous number of pollinators は ◎（種のページでも ◎ の文があれば ◎）（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1912": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"363": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"1709": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1954": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "今の値の根拠Jelittoは入力になく、ほかの文献に虫の記述なし。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"215": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[Walters] Attracts Butterflies",
+"確かさ": "中",
+"メモ": "イネ科で根拠はWaltersの印のみ。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "—"
+},
+"1446": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1752": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] Attracts: Pollinators",
+"食い違い": null,
+"確かさ": "中",
+"メモ": null,
+"前の値": null,
+"今のマスター": "○"
+},
+"528": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Its flowers are attractive to butterflies, bees, and other insects",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "GaißmayerのSchmetterlingsblütenは花形の語で蜜源の根拠にしない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1009": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1443": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"1409": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts bees, butterflies, hummingbirds",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1704": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": null,
+"今のマスター": "—"
+},
+"176": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC Stateは属",
+"前の値": null,
+"今のマスター": "○"
+},
+"1701": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1785": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1955": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値は空",
+"前の値": null,
+"今のマスター": "○"
+},
+"1371": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値は空",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1673": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1435": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG は属のページのみ（MBG はハチドリだけ）",
+"前の値": null,
+"今のマスター": "○"
+},
+"369": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属。MBG 品種は Hummingbirds のみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"872": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属。MBG 品種は Hummingbirds のみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"1619": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] Attracts: Bees; Play Value: Attracts Pollinators",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "Wildlife Value の文はハチドリ・鳥だけだが Attracts に Bees、タグに nectar plant。今の値は空",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1554": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Jelitto・種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State は属のページのみ、stauden.de 種は値なし。今の値の根拠 Jelitto は入力にない。今の値 ○（Jelitto・種）から変更。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1430": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1341": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG は属なので使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1142": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値は空",
+"前の値": null,
+"今のマスター": "◎"
+},
+"284": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "品種のページに虫の記述なし。今の値は空",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1296": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1662": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"71": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1005": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG とも属のページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1169": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG とも属のページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"230": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値は空",
+"前の値": null,
+"今のマスター": "○"
+},
+"59": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "低",
+"メモ": "NC State 種の Attracts: Butterflies は幼虫の食草（supports larvae of satyrine butterflies）の意味で、花に来る記述ではない",
+"前の値": null,
+"今のマスター": "—"
+},
+"222": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] The showy flowers attract pollinators; Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値は空",
+"前の値": null,
+"今のマスター": "○"
+},
+"863": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Butterflies and hummingbirds love the flowers.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "「love the flowers」を a favourite 相当として ◎。NC State 種は Attracts の ○ 相当。今の値は空。MBG の決まり文句「Butterflies and hummingbirds love the flowers」だけは ○（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "○"
+},
+"1984": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] extremely attractive to butterflies／[MBG・種] Butterflies love the flowers.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値は空",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1428": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] Provides nectar for pollinators; Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1319": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1305": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1601": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG 品種は Hummingbirds のみ",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1916": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG は属、虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"851": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "RHS の attractive to wildlife は虫と限らないので使わない。NC State は属",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"922": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies; Attractive to butterflies and bees.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1387": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; also attracts butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"600": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "RHS の attractive to butterflies は [Genus] の文なので使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"42": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Birds, Butterflies／[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"576": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG とも属のページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1621": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"927": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Hummingbirds, Butterflies／[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1549": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"930": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State 種はハチドリのみ",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"646": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] The flowers attract bumblebees.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値は空",
+"前の値": null,
+"今のマスター": "△"
+},
+"1468": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"571": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG 品種はハチドリのみ。NC State は属",
+"前の値": "○",
+"今のマスター": "△"
+},
+"1881": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State 種は幼虫の食草の記述のみ（成虫が花蜜を吸うのは一般論）",
+"前の値": null,
+"今のマスター": "—"
+},
+"252": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"540": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1973": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1992": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze／[NC State・種] Attracts: Bees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"748": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1934": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "値なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"855": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "RHS の nectar-bearing petals は [Genus] の形態記述",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1374": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1920": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] The flowers are much loved by bees and flies.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "「much loved by bees」を a favourite of bees 相当として ◎。品種のページに虫の記述なし。今の値 ○（stauden.de・種）から変更",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1021": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[MBG・品種] Highly attractive to butterflies and other insect pollinators.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 ○（stauden.de・種・Walters・品種）から変更",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1273": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "stauden.de 種は Heil- und Medizinpflanzen のみ。今の値の根拠 Jelitto は入力にない。今の値 ○（Jelitto・品種）から変更。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1931": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は Attracts birds のみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"1228": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1871": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1592": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[Gaißmayer・種] halten reichlich Pollen und sehr viel Nektar bereit",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "「sehr viel Nektar」を excellent nectar source 相当として ◎（品種に使う false の種ページ）。今の値 ○（stauden.de・種）から変更",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1337": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attracts butterflies and hummingbirds.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"948": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）／[NC State・種] Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1789": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State の pollinator magnets・MBG の loved by bees は属のページなので使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1723": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1702": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts butterflies; Attracts: Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値は空",
+"前の値": null,
+"今のマスター": "○"
+},
+"286": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"347": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State 属の nectar glands は形態記述",
+"前の値": null,
+"今のマスター": "○"
+},
+"1321": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] attracts butterflies and other insect pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"602": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Hummingbirds, Butterflies; attractive to hummingbirds and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "Walters はハチドリのみ。NC State 属の copious nectar は使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1980": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "値なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"150": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State の rich in nectar は属のページなので使わない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1715": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] The flowers are rich in nectar and attractive to bees and butterflies.",
+"食い違い": null,
+"確かさ": "低",
+"メモ": "「rich in nectar」を excellent nectar source 相当として ◎。○ の読みもあり得る。今の値 ○（stauden.de・種）から変更",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"476": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[Walters・品種] Attracts Butterflies",
+"確かさ": "中",
+"メモ": "イネ科で花に来る文はなく、Walters の印と NC State 種の Attracts: Butterflies だけ。規則どおり ○。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "—"
+},
+"1464": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Nectar attracts bumblebees／[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"960": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "値なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"210": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State 種も bees are attracted",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1991": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "値なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1927": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属のページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"940": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "低",
+"メモ": "NC State 種の Attracts: Butterflies; Pollinators は幼虫の食草（larval host plant）の意味。花に来る記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1917": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1819": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "—"
+},
+"1450": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1274": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Butterflies are attracted to the flowers; Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"121": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "値なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1899": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "値なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1639": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "値なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1684": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Flowers are visited by bees, butterflies, and other pollinators.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値は空",
+"前の値": null,
+"今のマスター": "◎"
+},
+"907": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attractive to pollinators such as bumblebees...; Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1577": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze（species）／[NC State・種] Flowers attract butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "△"
+},
+"1596": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"1126": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1017": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Gaißmayer・品種] zahlreiche Insekten ... von den Kugelblüten magisch angezogen",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "「magisch angezogen」を magnet 相当として ◎。今の値 ○（stauden.de・品種・Walters・品種）から変更",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"79": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "△"
+},
+"264": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1004": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Birds, Butterflies／[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"453": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts butterflies and moths.; Attracts: Pollinators",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "Plena（八重）だが品種のページに虫が来ない記述はないので種の値を使う",
+"前の値": "○",
+"今のマスター": "○"
+},
+"582": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attractive to native and honey bees.／[MBG・種] Flowers are attractive to bees.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値は空",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1289": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[NC State・品種] will be covered in pollinators all day／[Gaißmayer・品種] bei Schmetterlingen und Bienen sehr beliebt",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 ○（stauden.de・品種・Walters・品種）から変更",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"763": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Pollinators",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "文はなく Attracts の値だけ。今の値は空",
+"前の値": null,
+"今のマスター": "○"
+},
+"1490": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Butterflies／[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値は空",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1607": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "値なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"778": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de の schmetterlingsartig は花の形（蝶形花）。NC State は属でハチドリのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"49": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] The flowers attract a tremendous number of visitors and pollinators.",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "品種のページ（MBG）に虫の記述なし。今の値 ○（stauden.de・種）から変更",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1986": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attractive to both butterflies and hummingbirds.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1517": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1534": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "値なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"788": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "低",
+"メモ": "NC State 種はタグ #butterfly fr...（途中切れ）のみで Attracts も文もない",
+"前の値": null,
+"今のマスター": "—"
+},
+"1764": {
+"蜜源": "△",
+"段階": "品種",
+"決め手": "[MBG・品種] The double flowers do not provide as many benefits to wildlife and pollinators",
+"食い違い": "Walters・品種 Attracts Butterflies、stauden.de・品種 Insektennährpflanze（○）",
+"確かさ": "低",
+"メモ": "上の文献 MBG の品種ページが八重で虫への益が少ないと書くので △。「少ない」程度の比較表現で、○ の読みもあり得る。今の値 ○（stauden.de・品種・Walters・品種）から変更",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1884": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "値なし",
+"前の値": null,
+"今のマスター": "△"
+},
+"1811": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "値なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1400": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; also attractive to butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "stauden.de の schmetterlingsartig は花の形",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1493": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[MBG・品種] The flowers are highly attractive to birds, butterflies, and other insect pollinators.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 ○（Jelitto・品種）から変更",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"721": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] Lemon balm is a pollinator magnet／[MBG・種] honey bees love them",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 ○（stauden.de・種）から変更",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"508": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "○"
+},
+"949": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"323": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属のページのみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"131": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Bees are attracted to the flowers.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値は空",
+"前の値": null,
+"今のマスター": "○"
+},
+"1496": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies.",
+"食い違い": null,
+"確かさ": "高",
+"メモ": null,
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1867": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "○"
+},
+"313": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1672": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[NC State・種] Bees and butterflies will visit the blooms",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1499": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG は属のページのみ（使わない）。品種ページに虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1773": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG・品種は Attracts: Hummingbirds のみ（蜜源ではない）。NC State は属",
+"前の値": null,
+"今のマスター": "○"
+},
+"1500": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG とも属のページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"912": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG とも属のページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1869": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1269": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種/MBG・種] Flowers are attractive to bees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1470": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1340": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG とも属のページのみ",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1593": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1148": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"982": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"442": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1217": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG とも属のページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"1866": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1147": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[Walters] Attracts Butterflies／[NC State・種] Attracts: Butterflies; Pollinators",
+"確かさ": "中",
+"メモ": "NC State の文は Satyr の幼虫の食草としての記述で、花に来る話ではない。印・Attracts の値に従い ○ だが確かさ低。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "—"
+},
+"817": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・種] Attracts: Butterflies",
+"確かさ": "中",
+"メモ": "根拠は satyrine の幼虫の食草（larval host）の文と Attracts 値のみ。花の蜜の記述なし。null も考えられる。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"223": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] The showy flowers attract pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"864": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] It attracts hummingbirds, bees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "○"
+},
+"612": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1318": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Birds, Butterflies／[NC State・種] Provides nectar for pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "○"
+},
+"454": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] they attract butterflies and bees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "△"
+},
+"603": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"914": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Flowers are quite attractive to butterflies and bees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "quite attractive は highly とは読まず ○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"906": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"825": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[NC State・品種] attractive to butterflies and bees and provide a fall nectar source",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1202": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1705": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属のページのみ",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1353": {
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies; very attractive to butterflies／[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "Walters の文 very attractive to butterflies を ◎（highly attractive）と読む余地あり。much loved by bees・very attractive to butterflies・tremendous number of pollinators は ◎（種のページでも ◎ の文があれば ◎）（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1525": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属（使わない）",
+"前の値": "○",
+"今のマスター": "○"
+},
+"991": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1784": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"337": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] attractive to hummingbirds, butterflies, and other pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1415": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "MBG・品種は害虫の記述のみ",
+"前の値": null,
+"今のマスター": "◎"
+},
+"1862": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1546": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[NC State・種] The flowers attract bumblebees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "△"
+},
+"1961": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属（使わない）",
+"前の値": "○",
+"今のマスター": "○"
+},
+"838": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG とも属のページのみ",
+"前の値": null,
+"今のマスター": "△"
+},
+"1398": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "鳥・小動物の記述のみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"1437": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"874": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Walters] Attracts Butterflies／[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1308": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] The lipped flowers are a magnet for bees and other pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State（種）が magnet for bees と書く",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"675": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"849": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"309": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1268": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"450": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1286": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Jelitto・種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "入力に文献の値・文なし（今の値の根拠 Jelitto は入力に含まれない）。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1447": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] attractive to hummingbirds, butterflies, and other pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1485": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・種] Play Value: Attracts Pollinators",
+"確かさ": "中",
+"メモ": "Play Value とタグのみ。Attracts 欄・花に虫が来る文はない。null も考えられる。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"1221": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "鳥の記述のみ",
+"前の値": null,
+"今のマスター": "—"
+},
+"535": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Walters] Attracts Butterflies／[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1323": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1647": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"5": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1711": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze／[NC State・種] Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1395": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Pollinators／[MBG・種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State のタグ #sterile は種子の話で、虫が来ないとは書いていない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1609": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"677": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"35": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "○"
+},
+"346": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts bees and other insects",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "○"
+},
+"834": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1782": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": "もとの値：[NC State・種] Attracts butterflies",
+"確かさ": "中",
+"メモ": "イネ科。NC State の値・文に従う。イネ科・カヤツリグサ科で、Attracts の項目・Walters の印・Play Value だけ（幼虫の食草の意味が多く、花の蜜の記述がない）は使わない（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"前の値": null,
+"今のマスター": "—"
+},
+"1761": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1716": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "NC State は属のページのみ。今の値の根拠 Jelitto は入力に含まれない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"236": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Walters] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"980": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"605": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze／[NC State・種] Nectar attracts bumblebees",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"853": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"826": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Hummingbirds and bees are attracted to the flowers",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "○"
+},
+"599": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "○"
+},
+"962": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属のページのみ",
+"前の値": null,
+"今のマスター": "○"
+},
+"29": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Walters] Attracts Butterflies／[NC State・種] Attracts butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1824": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1726": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] flowers are attractive to butterflies and other pollinators",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "種のページのみ。品種ページで虫が来ないとの記述はない",
+"前の値": null,
+"今のマスター": "×"
+},
+"1449": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"1478": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Jelitto・品種] honey-bee food plant",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "入力に文献の値・文なし（今の値の根拠 Jelitto は入力に含まれない）。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"352": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1518": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1515": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1627": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Birds, Butterflies／[NC State・種] Flowers are visited by bees, butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"920": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] attractive to pollinators such as bumblebees, long-tongue bees, and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"110": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"154": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze／[NC State・種] Butterflies and bees are attracted to the nectar",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"684": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Walters] Attracts Butterflies／[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1943": {
+"蜜源": "◎",
+"段階": "種",
+"決め手": "[NC State・種] The blooms are very attractive to bees and butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "very attractive を highly attractive 相当と読んで ◎。○ と読む余地あり（品種は stauden.de Insektennährpflanze で ○）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1480": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[RHS] the flowers provide nectar for pollinating insects such as bumblebees and butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"934": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[NC State・種] attractive to bees, butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "△"
+},
+"1": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1958": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"785": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "schmetterlingsartig は花の形で根拠にしない",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1907": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State・MBG は属（使わない）",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"76": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[RHS・品種] Flowers are attractive to butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "◎"
+},
+"354": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属のページのみ",
+"前の値": null,
+"今のマスター": "◎"
+},
+"799": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1013": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属（Hummingbirds のみ）。stauden.de の schmetterlingsartig は花の形",
+"前の値": null,
+"今のマスター": "○"
+},
+"157": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[NC State・種] Bees and other pollinators enjoy the nectar from the flowers",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "今の値 None → ○",
+"前の値": null,
+"今のマスター": "○"
+},
+"1306": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"975": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1537": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "◎"
+},
+"460": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"289": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[MBG・種] Attracts: Butterflies／[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "○"
+},
+"368": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1455": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "△"
+},
+"1399": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[MBG・品種] Attracts: Butterflies",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "NC State は属。schmetterlingsartig は花の形",
+"前の値": null,
+"今のマスター": "○"
+},
+"1932": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[stauden.de・種] Insektennährpflanze",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "Gaißmayer の Schmetterlingsblüten は花の形で根拠にしない",
+"前の値": "○",
+"今のマスター": "○"
+},
+"367": {
+"蜜源": "○",
+"段階": "品種",
+"決め手": "[Walters・品種] Attracts Butterflies",
+"食い違い": null,
+"確かさ": "中",
+"メモ": "根拠は Walters の印のみ",
+"前の値": "○",
+"今のマスター": "△"
+},
+"1827": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"936": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "虫の記述なし",
+"前の値": null,
+"今のマスター": "—"
+},
+"1610": {
+"蜜源": "○",
+"段階": "種",
+"決め手": "[Walters] Attracts Butterflies／[NC State・種] attractive to butterflies, bees and other pollinators",
+"食い違い": null,
+"確かさ": "高",
+"メモ": "",
+"前の値": "○",
+"今のマスター": "◎"
+},
+"1840": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "文献の値・文なし",
+"前の値": null,
+"今のマスター": "○"
+},
+"1529": {
+"蜜源": null,
+"段階": null,
+"決め手": null,
+"食い違い": null,
+"確かさ": "高",
+"メモ": "バッタ・ヨコバイの食害と鳥の記述のみ",
+"前の値": null,
+"今のマスター": "—"
+}
+}

@@ -38,7 +38,7 @@ FIELDS = [
     ("invasive_note", "広がりすぎの注意", "str", None), ("ias_list", "外来種リスト", "str", None), ("hokkaido_bluelist", "北海道ブルーリスト", "str", None), ("toxicity", "毒性", "str", None),
     ("pests", "主な病害虫", "list", None), ("pruning_codes", "切り戻しの方法", "list", "切り戻し・手入れの文（全部）"),
     ("management_type", "管理タイプ", "str", "管理タイプのメモ"), ("division_interval", "株分けの間隔", "str", "株分けの間隔の根拠"),
-    ("propagation", "繁殖方法", "list", None), ("cut_flower", "切り花適性", "str", "切り花の根拠"), ("pollinator", "蜜源価値", "str", None),
+    ("propagation", "繁殖方法", "list", None), ("cut_flower", "切り花適性", "str", "切り花の根拠"), ("pollinator", "蜜源価値", "str", "蜜源の根拠"),
 ]
 TAIL = re.compile(r"（([^（）]*)）$")
 
@@ -116,7 +116,7 @@ def main(xlsx, out):
                 fill = next((x for x in ls if x.startswith("埋め方：")), None)
                 srcs, level = cites(fill or ls[0].split("] ", 1)[-1])
             # 2026-11-26 土壌水分の読み直し：文献は「土壌水分の根拠」の1行目の決め手から取る
-            if key in ("soil_moisture", "cut_flower") and v is not None and str(g(evcol) or "").startswith("[読み直し"):
+            if key in ("soil_moisture", "cut_flower", "pollinator") and v is not None and str(g(evcol) or "").startswith("[読み直し"):
                 srcs, level = cites(str(g(evcol)).split("\n")[0].split("] ", 1)[-1])
             if v is not None and not srcs and key in prov:
                 srcs, level = prov[key]

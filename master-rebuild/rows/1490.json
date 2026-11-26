@@ -321,10 +321,13 @@
    "level": "species"
   },
   "pollinator": {
-   "value": null,
+   "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
   }
  },
  "review": {

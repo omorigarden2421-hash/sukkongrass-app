@@ -343,11 +343,10 @@
    "level": "cultivar"
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s18",
-    "s10"
+    "s17"
    ],
    "level": "cultivar"
   }

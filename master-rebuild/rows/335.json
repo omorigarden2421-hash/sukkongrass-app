@@ -306,7 +306,8 @@
    "value": "○",
    "method": "記載",
    "sources": [
-    "s18"
+    "s06",
+    "s02"
    ],
    "level": "species"
   }
