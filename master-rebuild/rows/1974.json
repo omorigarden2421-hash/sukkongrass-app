@@ -137,13 +137,15 @@
    "level": null
   },
   "heat": {
-   "value": "強",
+   "value": "中",
    "method": "判定",
    "sources": [
-    "s20"
+    "s20",
+    "s06",
+    "s01"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "ユーザーの確認（2026-11-27、暑さの確認の問13）。信頼度：中"
   },
   "heat_note": {
    "value": null,

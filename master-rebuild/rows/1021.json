@@ -4,17 +4,22 @@
  "name_ja": "リアトリス スピカータ 'フローリスタンホワイト'",
  "fields": {
   "accepted_name": {
-   "value": "Liatris spicata 'Floristan White'",
+   "value": "Liatris spicata 'Floristan Weiss'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS：Liatris spicata 'Floristan Weiss'（マスターは 'Floristan White'（RHS では [Floristan White] はこの品種の別名）） [Accepted]。ユーザーの確認（2026-11-27）：C；前のメモ：RHS の正名は Liatris spicata 'Floristan Weiss'（品種名が違う。今の学名のまま）"
+  },
+  "synonyms": {
+   "value": [
+    "Liatris spicata 'Floristan White'"
+   ],
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Liatris spicata 'Floristan Weiss'（マスターは 'Floristan White'（RHS では [Floristan White] はこの品種の別名）） [Accepted]。RHS の正名は Liatris spicata 'Floristan Weiss'（品種名が違う。今の学名のまま）"
-  },
-  "synonyms": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "キク科（Asteraceae）",

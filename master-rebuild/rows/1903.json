@@ -4,17 +4,22 @@
  "name_ja": "アスター デュモーサス 'シュニーケッセン'",
  "fields": {
   "accepted_name": {
-   "value": "Aster dumosus'Schneekissen'",
+   "value": "Symphyotrichum novi-belgii 'Schneekissen'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS：Symphyotrichum novi-belgii 'Schneekissen'（RHS は novi-belgii の品種として掲載（マスターは dumosus）） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】；前のメモ：RHS は Symphyotrichum novi-belgii 'Schneekissen'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
+  },
+  "synonyms": {
+   "value": [
+    "Aster dumosus 'Schneekissen'"
+   ],
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Symphyotrichum novi-belgii 'Schneekissen'（RHS は novi-belgii の品種として掲載（マスターは dumosus）） [Accepted]。RHS は Symphyotrichum novi-belgii 'Schneekissen'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
-  },
-  "synonyms": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "キク科（Asteraceae）",
@@ -197,12 +202,12 @@
    "level": "cultivar"
   },
   "native_range": {
-   "value": "カナダ東部、アメリカ中北部、アメリカ北東部、アメリカ中南部、アメリカ南東部、カリブ海（種の原産地）",
+   "value": "北米",
    "method": "記載",
    "sources": [
-    "s03"
+    "s11"
    ],
-   "level": null
+   "level": "species"
   },
   "spread_modes": {
    "value": [
@@ -241,15 +246,16 @@
    "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。環境省の外来種リストに掲載（防除検討外来種（ユウゼンギク（メリケンコンギク、シノノメギク、ユウゼンノギク）））",
    "method": "記載",
    "sources": [
-    "s06"
+    "s06",
+    "s05"
    ],
    "level": "species"
   },
   "ias_list": {
-   "value": "掲載なし",
+   "value": "防除検討外来種（ユウゼンギク（メリケンコンギク、シノノメギク、ユウゼンノギク））",
    "method": "記載",
    "sources": [
     "s05"

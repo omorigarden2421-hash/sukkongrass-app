@@ -840,8 +840,16 @@ for m in master:
     if uh:
         heat = r["耐暑性"] = uh["値"]
         r["耐暑性の決め方"] = f"ユーザーの確認（{uh['日付']}、暑さの確認の問{uh['問題']}）" + (f"。備考：{uh['備考']}" if uh.get("備考") else "")
-    for k, v in ANS["違うとの指摘"].get(no, {}).items():  # 値は変えず、見直しの印だけ付ける（「どう違うか」は自由記述なので）
+    for k, v in ANS["違うとの指摘"].get(no, {}).items():
         col = "耐暑性の決め方" if k == "耐暑性" else "暑さ・蒸れ・西日の根拠"
+        nv_ = re.match(r"^(強|中|弱)$", (v.get("どう違うか") or "").strip())
+        if nv_:  # 2026-11-27：「どう違うか」が値だけ（中・強）なら、その値にする（ユーザー「全ておすすめで」）
+            r[k] = nv_[1]
+            if k == "耐暑性":
+                heat = nv_[1]
+            r[col] = "。".join(x for x in (r.get(col), f"ユーザーの確認（{v['日付']}）：{k} 弱 は違うと指摘、{nv_[1]} にした") if x)
+            continue
+        # 値でない自由記述のときは、値は変えず、見直しの印だけ付ける
         r[col] = "。".join(x for x in (r.get(col), f"【要見直し】ユーザーが{k} 弱 は違うと指摘（{v['日付']}）" + (f"：{v['どう違うか']}" if v.get("どう違うか") else "")) if x)
     if (mt or "").startswith("E") or cold in ("中の弱", "弱", "一年草扱い"):
         diff = "難"

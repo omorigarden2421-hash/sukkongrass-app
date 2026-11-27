@@ -4,17 +4,22 @@
  "name_ja": "ネペタ ラセモサ 'ブルーワンダー'",
  "fields": {
   "accepted_name": {
-   "value": "Nepeta racemosa 'Blue Wonder'",
+   "value": "Nepeta × faassenii 'Blue Wonder'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS：Nepeta × faassenii 'Blue Wonder'（RHS は × faassenii の品種としている（racemosa 'Blue Wonder' はシノニム扱い）） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】；前のメモ：RHS は Nepeta × faassenii 'Blue Wonder'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
+  },
+  "synonyms": {
+   "value": [
+    "Nepeta racemosa 'Blue Wonder'"
+   ],
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Nepeta × faassenii 'Blue Wonder'（RHS は × faassenii の品種としている（racemosa 'Blue Wonder' はシノニム扱い）） [Accepted]。RHS は Nepeta × faassenii 'Blue Wonder'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
-  },
-  "synonyms": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "シソ科（Lamiaceae）",
@@ -131,14 +136,14 @@
    "level": null
   },
   "heat": {
-   "value": "弱",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s02",
     "s01"
    ],
    "level": "cultivar",
-   "note": "欧米の文献。信頼度：中"
+   "note": "欧米の文献。ユーザーの確認（2026-11-27）：耐暑性 弱 は違うと指摘、中 にした。信頼度：中"
   },
   "heat_note": {
    "value": "シカゴ植物園: 総合評価 good（星4つ）。花つき excellent。'Dropmore' などと違いが見られなかった、との記述（no29）",

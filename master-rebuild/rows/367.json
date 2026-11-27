@@ -4,17 +4,22 @@
  "name_ja": "コクリュウ",
  "fields": {
   "accepted_name": {
-   "value": "Ophiopogon planiscapus 'Nigrescens'",
+   "value": "Ophiopogon planiscapus 'Kokuryū'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS：Ophiopogon planiscapus 'Kokuryū'（RHS の正名は 'Kokuryū'（'Nigrescens'・'Nigra'・'Black Dragon' はシノニム扱い）） [Accepted]。ユーザーの確認（2026-11-27）：C；前のメモ：RHS の正名は Ophiopogon planiscapus 'Kokuryū'（品種名が違う。今の学名のまま）"
+  },
+  "synonyms": {
+   "value": [
+    "Ophiopogon planiscapus 'Nigrescens'"
+   ],
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Ophiopogon planiscapus 'Kokuryū'（RHS の正名は 'Kokuryū'（'Nigrescens'・'Nigra'・'Black Dragon' はシノニム扱い）） [Accepted]。RHS の正名は Ophiopogon planiscapus 'Kokuryū'（品種名が違う。今の学名のまま）"
-  },
-  "synonyms": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "キジカクシ科（Asparagaceae）",

@@ -4,17 +4,22 @@
  "name_ja": "モナルダ ディディマ 'ブルーストッキング'",
  "fields": {
   "accepted_name": {
-   "value": "Monarda didyma 'Blue Stocking'",
+   "value": "Monarda 'Blaustrumpf'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS：Monarda 'Blaustrumpf'（RHS は種小名なし・ドイツ語の元の名前（マスターは didyma 'Blue Stocking'）） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】；前のメモ：RHS の正名は Monarda 'Blaustrumpf'（品種名が違う。今の学名のまま）"
+  },
+  "synonyms": {
+   "value": [
+    "Monarda didyma 'Blue Stocking'"
+   ],
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Monarda 'Blaustrumpf'（RHS は種小名なし・ドイツ語の元の名前（マスターは didyma 'Blue Stocking'）） [Accepted]。RHS の正名は Monarda 'Blaustrumpf'（品種名が違う。今の学名のまま）"
-  },
-  "synonyms": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "シソ科（Lamiaceae）",
@@ -25,11 +30,9 @@
    "level": null
   },
   "common_name_ja": {
-   "value": "タイマツバナ",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s04"
-   ],
+   "sources": null,
    "level": null
   },
   "flower_color_detail": {

@@ -4,17 +4,22 @@
  "name_ja": "ジギタリス プルプレア 'モンストローサ ホワイト'",
  "fields": {
   "accepted_name": {
-   "value": "Digitalis purpurea 'Monstrosa White'",
+   "value": "Digitalis purpurea 'Monstrosa'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS：Digitalis purpurea 'Monstrosa'（名前だけの登録。RHS にあるのは 'Monstrosa' だけ（'Monstrosa White' のページはない）） [Accepted]。ユーザーの確認（2026-11-27）：C；前のメモ：RHS の正名は Digitalis purpurea 'Monstrosa'（品種名が違う。今の学名のまま）"
+  },
+  "synonyms": {
+   "value": [
+    "Digitalis purpurea 'Monstrosa White'"
+   ],
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Digitalis purpurea 'Monstrosa'（名前だけの登録。RHS にあるのは 'Monstrosa' だけ（'Monstrosa White' のページはない）） [Accepted]。RHS の正名は Digitalis purpurea 'Monstrosa'（品種名が違う。今の学名のまま）"
-  },
-  "synonyms": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "オオバコ科（Plantaginaceae）",

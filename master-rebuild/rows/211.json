@@ -4,17 +4,20 @@
  "name_ja": "フクシャ マジェラニカ 'バリエガータ'（フクシャ マジェラニカ 斑入り）",
  "fields": {
   "accepted_name": {
-   "value": "Fuchsia magellanica 'Variegata'",
+   "value": "Fuchsia magellanica var. gracilis 'Variegata'",
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Fuchsia magellanica var. gracilis 'Variegata' (v)（RHS には 'Variegata' が2つある（var. gracilis 'Variegata' と、名前だけの var. macrostema 'Variegata' 70057）。栽培の項目がある gracilis の方を採った。売っているのがどちらかは要確認） [Accepted]。RHS に同じ名前が2つあり（var. gracilis と var. macrostema）、どちらか分からない（2026-11-21 ユーザーの回答）"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Fuchsia magellanica var. gracilis 'Variegata' (v)（RHS には 'Variegata' が2つある（var. gracilis 'Variegata' と、名前だけの var. macrostema 'Variegata' 70057）。栽培の項目がある gracilis の方を採った。売っているのがどちらかは要確認） [Accepted]。ユーザーの確認（2026-11-27）：A；前のメモ：RHS に同じ名前が2つあり（var. gracilis と var. macrostema）、どちらか分からない（2026-11-21 ユーザーの回答）"
   },
   "synonyms": {
-   "value": null,
+   "value": [
+    "Fuchsia magellanica 'Variegata'"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "アカバナ科（Onagraceae）",

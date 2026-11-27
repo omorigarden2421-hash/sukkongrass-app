@@ -138,10 +138,12 @@
    "value": "強",
    "method": "判定",
    "sources": [
-    "s20"
+    "s20",
+    "s02",
+    "s01"
    ],
    "level": "cultivar",
-   "note": "おぎはら（品種のページ）。信頼度：中"
+   "note": "ユーザーの確認（2026-11-27、暑さの確認の問12）。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -150,7 +152,7 @@
    "level": null
   },
   "muggy": {
-   "value": "弱",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s20",
@@ -366,7 +368,7 @@
   "management_type_by_matching": null,
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
-  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；強\n[MBG/品種] Plants generally dislike hot and humid summer climates.\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；強\n[MBG/品種] Plants generally dislike hot and humid summer climates.\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: West-facing or South-facing or North-facing or East-facing。ユーザーの確認（2026-11-27）：蒸れ耐性 弱 は違うと指摘、中 にした",
   "spread_evidence": "[地下茎 1／MBG・品種] Plants spread slowly by short rhizomes.（読み直し）\n[地下茎 1／MBG・品種] Plants spread slowly by short rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[MBG・品種] Noteworthy Characteristics Carex oshimensis , commonly known as Oshima kan suge, is a fine-textured sedge that typically grows in a low, grass-like mounded clump to 10-16” tall and as wide.／イネ科・カヤツリグサ科",

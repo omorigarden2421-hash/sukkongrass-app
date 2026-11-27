@@ -4,17 +4,20 @@
  "name_ja": "ジプソフィラ パニキュラータ 'スノーフレーク'",
  "fields": {
   "accepted_name": {
-   "value": "Gypsophila paniculata 'Snowflake'",
+   "value": "Gypsophila paniculata 'Schneeflocke'",
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Gypsophila paniculata 'Schneeflocke' (d)（RHS の正名はドイツ語の 'Schneeflocke'（'Snowflake' はシノニム扱い）） [Accepted]。RHS の正名は Gypsophila paniculata 'Schneeflocke'（品種名が違う。今の学名のまま）"
+   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Gypsophila paniculata 'Schneeflocke' (d)（RHS の正名はドイツ語の 'Schneeflocke'（'Snowflake' はシノニム扱い）） [Accepted]。ユーザーの確認（2026-11-27）：C；前のメモ：RHS の正名は Gypsophila paniculata 'Schneeflocke'（品種名が違う。今の学名のまま）"
   },
   "synonyms": {
-   "value": null,
+   "value": [
+    "Gypsophila paniculata 'Snowflake'"
+   ],
    "method": "記載",
    "sources": null,
-   "level": null
+   "level": null,
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "ナデシコ科（Caryophyllaceae）",

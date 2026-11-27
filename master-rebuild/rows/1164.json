@@ -4,17 +4,22 @@
  "name_ja": "フィリペンデュラ ルブラ 'ヴェヌスタ マグニフィカ'",
  "fields": {
   "accepted_name": {
-   "value": "Filipendula rubra 'Venusta Magnifica'",
+   "value": "Filipendula rubra 'Venusta'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS：Filipendula rubra 'Venusta'（RHS は 'Venusta' を正名とし、'Venusta Magnifica'・'Magnifica' をその別名としている） [Accepted]。ユーザーの確認（2026-11-27）：C；前のメモ：RHS の正名は Filipendula rubra 'Venusta'（品種名が違う。今の学名のまま）"
+  },
+  "synonyms": {
+   "value": [
+    "Filipendula rubra 'Venusta Magnifica'"
+   ],
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Filipendula rubra 'Venusta'（RHS は 'Venusta' を正名とし、'Venusta Magnifica'・'Magnifica' をその別名としている） [Accepted]。RHS の正名は Filipendula rubra 'Venusta'（品種名が違う。今の学名のまま）"
-  },
-  "synonyms": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "バラ科（Rosaceae）",

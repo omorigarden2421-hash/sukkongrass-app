@@ -4,17 +4,22 @@
  "name_ja": "パルサティラ ブルガリス 'パール ベル'",
  "fields": {
   "accepted_name": {
-   "value": "Pulsatilla vulgaris 'Pearl Bells'",
+   "value": "Pulsatilla vulgaris 'Perlen Glocke'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS：Pulsatilla vulgaris 'Perlen Glocke'（名前だけの登録。RHS の正名は 'Perlen Glocke'（'Pearl Bells' はシノニム扱い）） [Accepted]。ユーザーの確認（2026-11-27）：C；前のメモ：RHS の正名は Pulsatilla vulgaris 'Perlen Glocke'（品種名が違う。今の学名のまま）"
+  },
+  "synonyms": {
+   "value": [
+    "Pulsatilla vulgaris 'Pearl Bells'"
+   ],
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Pulsatilla vulgaris 'Perlen Glocke'（名前だけの登録。RHS の正名は 'Perlen Glocke'（'Pearl Bells' はシノニム扱い）） [Accepted]。RHS の正名は Pulsatilla vulgaris 'Perlen Glocke'（品種名が違う。今の学名のまま）"
-  },
-  "synonyms": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "キンポウゲ科（Ranunculaceae）",

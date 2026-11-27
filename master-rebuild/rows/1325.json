@@ -127,7 +127,7 @@
    "level": null
   },
   "muggy": {
-   "value": "弱",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s20",
@@ -304,7 +304,7 @@
   "management_type_by_matching": null,
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）。ユーザーの確認（2026-11-27）：蒸れ耐性 弱 は違うと指摘、中 にした",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": null,

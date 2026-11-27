@@ -4,17 +4,22 @@
  "name_ja": "サルビア ネモローサ 'マローローズ'",
  "fields": {
   "accepted_name": {
-   "value": "Salvia nemorosa 'Merleau rose'",
+   "value": "Salvia × digenea 'Merleau Rose'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS：Salvia × digenea 'Merleau Rose'（RHS は Salvia × digenea としている。マスターは nemorosa） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】；前のメモ：RHS は Salvia × digenea 'Merleau Rose'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
+  },
+  "synonyms": {
+   "value": [
+    "Salvia nemorosa 'Merleau rose'"
+   ],
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Salvia × digenea 'Merleau Rose'（RHS は Salvia × digenea としている。マスターは nemorosa） [Accepted]。RHS は Salvia × digenea 'Merleau Rose'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
-  },
-  "synonyms": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "シソ科（Lamiaceae）",

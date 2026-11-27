@@ -4,17 +4,22 @@
  "name_ja": "ヘデラ ヘリックス 'スペッチリー'",
  "fields": {
   "accepted_name": {
-   "value": "Hedera helix 'Spetchley'",
+   "value": "Hedera hibernica 'Spetchley'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS：Hedera hibernica 'Spetchley'（RHS の正名は Hedera hibernica 'Spetchley'（helix 'Spetchley' はシノニム扱い）） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】；前のメモ：RHS は Hedera hibernica 'Spetchley'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
+  },
+  "synonyms": {
+   "value": [
+    "Hedera helix 'Spetchley'"
+   ],
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Hedera hibernica 'Spetchley'（RHS の正名は Hedera hibernica 'Spetchley'（helix 'Spetchley' はシノニム扱い）） [Accepted]。RHS は Hedera hibernica 'Spetchley'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
-  },
-  "synonyms": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "ウコギ科（Araliaceae）",
@@ -25,11 +30,9 @@
    "level": null
   },
   "common_name_ja": {
-   "value": "セイヨウキヅタ",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s04"
-   ],
+   "sources": null,
    "level": null
   },
   "flower_color_detail": {

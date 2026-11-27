@@ -152,7 +152,7 @@
    "level": null
   },
   "muggy": {
-   "value": "弱",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s20",
@@ -375,7 +375,7 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "強",
   "muggy_west_only": "強",
-  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）\n[食い違い] 蒸れ: 欧米の文献は 強 相当。控えめな側を採った\n[MBG/種] Tolerant of heat, humidity and drought, but generally grows taller with consistent moisture.\n[NC State/種] Muhly grass tolerates heat, humidity, drought, and poor soil and is highly salt-tolerant.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "heat_muggy_west_evidence": "[乾燥耐性の読み直し] 乾燥耐性が 強 になり、日向・耐暑性 強 とそろったので、西日耐性 ○ → ◎\n[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: やや弱い 緑がかります 高温多湿が 苦手です（蒸れ 弱 相当）\n[食い違い] 蒸れ: 欧米の文献は 強 相当。控えめな側を採った\n[MBG/種] Tolerant of heat, humidity and drought, but generally grows taller with consistent moisture.\n[NC State/種] Muhly grass tolerates heat, humidity, drought, and poor soil and is highly salt-tolerant.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing。ユーザーの確認（2026-11-27）：蒸れ耐性 弱 は違うと指摘、中 にした",
   "spread_evidence": "[地下茎 0／MBG・種] Does not spread by rhizomes.（読み直し）\n[地下茎 1／MBG・種] Does not spread by rhizomes.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 1、文を読み直して 0（[MBG・種] Does not spread by rhizomes.）",
   "mixing_evidence": "地下茎 0〜1（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[NC State・種] Habit/Form: Clumping; Erect; Mounding／イネ科・カヤツリグサ科",

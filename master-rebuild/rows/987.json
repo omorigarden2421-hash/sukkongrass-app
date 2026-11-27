@@ -4,17 +4,22 @@
  "name_ja": "サルビア シルベストゥリス 'メイナイト'",
  "fields": {
   "accepted_name": {
-   "value": "Salvia x sylvestris 'May Night'",
+   "value": "Salvia × sylvestris 'Mainacht'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS：Salvia × sylvestris 'Mainacht'（マスターは 'May Night'（英名）） [Accepted]。ユーザーの確認（2026-11-27）：C；前のメモ：RHS の正名は Salvia × sylvestris 'Mainacht'（品種名が違う。今の学名のまま）"
+  },
+  "synonyms": {
+   "value": [
+    "Salvia x sylvestris 'May Night'"
+   ],
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Salvia × sylvestris 'Mainacht'（マスターは 'May Night'（英名）） [Accepted]。RHS の正名は Salvia × sylvestris 'Mainacht'（品種名が違う。今の学名のまま）"
-  },
-  "synonyms": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "シソ科（Lamiaceae）",

@@ -116,13 +116,13 @@
    "level": null
   },
   "heat": {
-   "value": "弱",
+   "value": "中",
    "method": "判定",
    "sources": [
     "s06"
    ],
    "level": "species",
-   "note": "欧米の文献。信頼度：中"
+   "note": "欧米の文献。ユーザーの確認（2026-11-27）：耐暑性 弱 は違うと指摘、中 にした。信頼度：中"
   },
   "heat_note": {
    "value": null,

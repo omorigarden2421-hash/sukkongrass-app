@@ -4,17 +4,22 @@
  "name_ja": "ゲーラーディア アリスタータ 'ゴブリン'（ガイラルディア）",
  "fields": {
   "accepted_name": {
-   "value": "Gaillardia aristata 'Goblin'",
+   "value": "Gaillardia × grandiflora 'Kobold'",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar",
+   "note": "RHS：Gaillardia × grandiflora 'Kobold'（RHS は × grandiflora の品種、品種名はドイツ語の 'Kobold'（'Goblin' はシノニム扱い）） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】；前のメモ：RHS の正名は Gaillardia × grandiflora 'Kobold'（品種名が違う。今の学名のまま）"
+  },
+  "synonyms": {
+   "value": [
+    "Gaillardia aristata 'Goblin'"
+   ],
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの学名か、検討で決めた学名（RHS の正名と同じ表記ではない）。RHS：Gaillardia × grandiflora 'Kobold'（RHS は × grandiflora の品種、品種名はドイツ語の 'Kobold'（'Goblin' はシノニム扱い）） [Accepted]。RHS の正名は Gaillardia × grandiflora 'Kobold'（品種名が違う。今の学名のまま）"
-  },
-  "synonyms": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
+   "note": "今のマスターの学名（正名と表記が違うもの）"
   },
   "family": {
    "value": "キク科（Asteraceae）",
