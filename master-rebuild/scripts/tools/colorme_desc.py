@@ -1,16 +1,20 @@
 """2026-11-27 カラーミーショップの商品説明（HTML）の 5つのまとまりを、新マスターの値で書き換える。
-使い方: colorme_desc.py <新マスター.xlsx> <カラーミーの商品CSV> <出力フォルダ> [見本にする型番,型番,…]
+使い方: colorme_desc.py <新マスター.xlsx> <カラーミーの商品CSV> <出力フォルダ> [見本にする型番,型番,…|-] [一括更新用CSVの出力先]
 - 書き換えるのは 基本情報・環境適正・生育特性・庭での使い方・管理 の <ul> の中だけ。ほかの文・画像・値段・在庫には触らない
 - 商品番号・植物名・倒伏リスクは今の行をそのまま残す
 - 出し方（ユーザーの決定 2026-11-27）: 品種で確かめた値はそのまま／種からの値・確かさ 低 は 値＋（目安）／空欄は「情報なし」
-- 出力: stats.json（項目ごとの数）、sample.html（見本。今と新を並べる）。CSV はまだ作らない
+- 出力: stats.json（項目ごとの数）、sample.html（見本。今と新を並べる）
+- 一括更新用CSV: マスターと合う行だけ。60列・見出し行なし・Shift-JIS(cp932)・全部の欄を " で囲む・行の終わりは CRLF。画像URLの列（商品画像URL・その他画像1〜9URL）は空（空なら画像は上書きされない）。商品説明のほかの列は、ダウンロードしたままの値
+- Shift-JIS にない文字（学名の ö など）は、商品説明の中だけ &#数字; の形にする
+- 「管理」のまとまりがない行（低木の5行）は、管理を足さない
 - 商品CSV は値段と在庫を含むので、リポジトリに置かない。出力フォルダもリポジトリの外にする
 """
 import csv, html, json, os, re, sys, collections
 import openpyxl
 
 MASTER, CSVP, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
-SAMPLE = sys.argv[4].split(",") if len(sys.argv) > 4 else []
+SAMPLE = sys.argv[4].split(",") if len(sys.argv) > 4 and sys.argv[4] != "-" else []
+CSVOUT = sys.argv[5] if len(sys.argv) > 5 else None
 os.makedirs(OUT, exist_ok=True)
 NA = "情報なし"
 MEYASU = "（目安）"
@@ -164,6 +168,10 @@ def main():
     iD, iK, iN = H.index("商品説明"), H.index("型番"), H.index("商品名")
     stat = collections.Counter()
     res = []
+    bad = collections.Counter()
+    outrows = []
+    IMG = [i for i, x in enumerate(H) if x == "商品画像URL" or re.fullmatch(r"その他画像.+URL", x)]
+    assert len(H) == 60 and len(IMG) == 10, (len(H), IMG)
     for r in rs[1:]:
         k = r[iK].strip()
         if k not in master or "plant-info" not in r[iD]:
@@ -172,14 +180,25 @@ def main():
         new = rewrite(r[iD], master[k], st)
         stat.update(st)
         stat["行"] += 1
-        res.append((k, r[iN], r[iD], new, st))
-    bad = collections.Counter()
-    for k, nm, old, new, st in res:
+        bad_here = set()
         for ch in new:
             try:
                 ch.encode("cp932")
             except UnicodeEncodeError:
-                bad[ch] += 1
+                bad_here.add(ch)
+        for ch in bad_here:
+            bad[ch] += new.count(ch)
+            new = new.replace(ch, f"&#{ord(ch)};")
+        res.append((k, r[iN], r[iD], new, st))
+        if CSVOUT:
+            rr = list(r)
+            rr[iD] = new
+            for i in IMG:
+                rr[i] = ""
+            outrows.append(rr)
+    if CSVOUT:
+        with open(CSVOUT, "w", encoding="cp932", newline="") as f:
+            csv.writer(f, quoting=csv.QUOTE_ALL, lineterminator=chr(13) + chr(10)).writerows(outrows)
     json.dump({"数": dict(sorted(stat.items())), "Shift-JISにない文字": dict(bad),
                "商品ごと": {k: {"目安": sum(v for a, v in st.items() if a.startswith("目安")), "情報なし": sum(v for a, v in st.items() if a.startswith("情報なし"))} for k, nm, old, new, st in res}},
               open(OUT + "/stats.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
