@@ -334,6 +334,24 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は葉が枯れ落ち、地上部が枯れます。晩秋に地上部が枯れたら、地際で切ります。秋に取らなかった枯れ葉は、春の芽吹き前までに株元から切ります。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s20"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は葉が枯れ落ち、地上部が枯れます。晩秋に地上部が枯れたら、地際で切ります。秋に取らなかった枯れ葉は、春の芽吹き前までに株元から切ります。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s20"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

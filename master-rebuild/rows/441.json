@@ -317,6 +317,22 @@
     "s10"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性です。秋は刈り込まず、葉はそのまま冬を越させます。春に茶色く傷んだ葉を取って整えます。",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性です。秋は刈り込まず、葉はそのまま冬を越させます。春に茶色く傷んだ葉を取って整えます。",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

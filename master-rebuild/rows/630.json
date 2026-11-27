@@ -289,6 +289,22 @@
     "s06"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性です。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性です。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   }
  },
  "review": {

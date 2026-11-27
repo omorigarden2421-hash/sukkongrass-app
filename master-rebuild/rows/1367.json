@@ -324,6 +324,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。枯れた地上部は冬のあいだ残します。冬の過湿に弱いので、水はけのよい場所に植え、雪解け水がたまる場所は避けます。春の中ごろに、古い葉や枯れ葉を整理します。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。枯れた地上部は冬のあいだ残します。冬の過湿に弱いので、水はけのよい場所に植えます。春の中ごろに、古い葉や枯れ葉を整理します。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

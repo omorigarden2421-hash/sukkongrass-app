@@ -340,6 +340,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬に葉の一部が残る半常緑性です。秋に刈り込まず、葉はそのまま冬を越させます。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬に葉の一部が残る半常緑性です。秋に刈り込まず、葉はそのまま冬を越させます。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

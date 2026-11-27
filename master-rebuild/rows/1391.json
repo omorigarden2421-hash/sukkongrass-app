@@ -328,6 +328,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は葉を落とします。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は葉を落とします。温暖地では半常緑です。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

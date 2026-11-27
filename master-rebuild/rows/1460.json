@@ -326,6 +326,24 @@
     "s02"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は葉を落としますが、赤い実が冬まで残ります。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬は葉を落としますが、赤い実が冬まで残ります。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
   }
  },
  "review": {

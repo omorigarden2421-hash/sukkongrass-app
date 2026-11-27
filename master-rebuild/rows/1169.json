@@ -338,6 +338,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。冬に凍結と融解をくり返す地域では、春に細菌による葉や茎の腐れが出ることがある、という記録があります。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

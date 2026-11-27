@@ -339,6 +339,22 @@
     "s02"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は葉を落とします。剪定が必要な場合は、晩冬から雪解け後、新芽が出る前に行います。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は葉を落とします。剪定が必要な場合は、晩冬から早春（2〜3月）、新芽が出る前に行います。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

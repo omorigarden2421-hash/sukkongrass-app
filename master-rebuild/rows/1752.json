@@ -336,6 +336,24 @@
     "s06"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は葉を落とします。はがれる樹皮が冬の見どころになります。雪解け後に地際近くまで切って、株を若返らせてもかまいません。",
+   "method": "記載",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は葉を落とします。はがれる樹皮が冬の見どころになります。早春に地際近くまで切って、株を若返らせてもかまいません。",
+   "method": "記載",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

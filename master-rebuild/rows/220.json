@@ -343,6 +343,22 @@
     "s18"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れますが、暖かい冬には葉に色が残ることがあります。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

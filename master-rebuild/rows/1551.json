@@ -337,6 +337,24 @@
     "s10"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "晩秋に地上部が枯れたら、地際で切ってください。",
+   "method": "記載",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "晩秋に地上部が枯れたら、地際で切ってください。",
+   "method": "記載",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

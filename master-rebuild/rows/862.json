@@ -331,6 +331,26 @@
     "s06"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。晩秋に地上部が枯れたら、地際で切ります。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s02",
+    "s18"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。晩秋に地上部が枯れたら、地際で切ります。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s02",
+    "s18"
+   ],
+   "level": "species"
   }
  },
  "review": {

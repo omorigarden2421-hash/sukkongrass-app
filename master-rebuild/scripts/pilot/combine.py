@@ -188,18 +188,22 @@ def snow_note(f, hk):
     return "雪が少ない年は、" + "。また、".join(out) + "。"
 
 
-def winter_text(f, ever, soil, cold):
+WOODY_GENERA = set("Hydrangea Cornus Spiraea Lonicera Rosa Calluna Euonymus Parthenocissus Ampelopsis Hedera Physocarpus Viburnum".split())  # 2026-11-26 に文を直した低木・つるの属
+
+
+def winter_text(f, ever, soil, cold, sci=None):
     """冬の手入れ（北海道）・（温暖地）の文を、文献から抜き出した事実（winter_reread.json）と、読み直した常緑性・土壌水分、
     今のマスターの耐寒性から作る（2026-11-26 の決定。DECISIONS.md）。推測の文は足さない"""
     f = f or {}
     ev = (ever or "").split("（")[0]
     hk, wm, why = [], [], []
+    woody = bool(sci) and sci.split()[0] in WOODY_GENERA  # 低木・つるは「地上部が枯れる」「枯れた地上部を切る」と書かない
     if ev == "常緑":
         s = "冬も葉が残る常緑性です。"
     elif ev == "半常緑":
         s = "冬に葉の一部が残る半常緑性です。"
     elif ev == "落葉":
-        s = "冬は地上部が枯れます。"
+        s = "冬は葉を落とします。" if woody else "冬は地上部が枯れます。"
     else:
         s = None
     if s:
@@ -207,6 +211,8 @@ def winter_text(f, ever, soil, cold):
     fall = f.get("秋の地上部")
     if fall == "秋に切る":
         hk.append("晩秋、地上部が枯れたら地際で切ります。"); wm.append("晩秋、地上部が枯れたら地際で切ります。")
+    elif fall == "春まで残す" and woody:
+        hk.append("剪定は雪解け後、新芽が出る前に行います。"); wm.append("剪定は早春（2〜3月）、新芽が出る前に行います。")
     elif fall == "春まで残す":
         hk.append("枯れた地上部は冬のあいだ残し、雪解け後、新芽が出る前に切ります。")
         wm.append("枯れた地上部は冬のあいだ残し、早春（2〜3月）、新芽が出る前に切ります。")
@@ -231,7 +237,7 @@ def winter_text(f, ever, soil, cold):
     elif cold in ("中の弱", "弱"):
         hk.append(f"寒さにやや弱い（耐寒性：{cold}）ので、冬は株元を覆うなどの防寒をします。")
     if prot:
-        why.append(f"防寒：{prot}" + ("（北海道は株が雪の下になるので、北海道の文には書かない）" if prot == "雪がない寒さで必要" else ""))
+        why.append(f"防寒：{prot}" + ("（北海道の文には「雪が少ない年は」の一言で書く。2026-11-27）" if prot == "雪がない寒さで必要" else ""))
     elif cold in ("中の弱", "弱"):
         why.append(f"防寒：文献に記述なし。今のマスターの耐寒性が {cold} なので北海道の文に書いた")
     if f.get("冬の過湿") == "注意":
@@ -776,7 +782,7 @@ for m in master:
         r["繁殖の根拠"] = "\n".join(gw_)
     # 冬の手入れ（北海道）・（温暖地）は文献から作り直す（2026-11-26 の決定）。今のマスターの文は見比べ用の列に残す
     wf = WINTER_RR.get(no)
-    whk, wwm, wwhy = winter_text(wf, r.get("常緑性"), r.get("土壌水分"), r.get("耐寒性"))
+    whk, wwm, wwhy = winter_text(wf, r.get("常緑性"), r.get("土壌水分"), r.get("耐寒性"), r.get("学名（正名）"))
     wpo = WINTER_POLISH.get(no)
     if wpo:
         whk, wwm = wpo.get("北海道"), wpo.get("温暖地")

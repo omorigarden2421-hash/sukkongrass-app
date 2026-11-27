@@ -331,6 +331,24 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。枯れた地上部は冬のあいだ残します。新しい葉が出るころ、必要なら古い葉を取り除きます。",
+   "method": "記載",
+   "sources": [
+    "s18",
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。枯れた地上部は冬のあいだ残します。新しい葉が出るころ、必要なら古い葉を取り除きます。",
+   "method": "記載",
+   "sources": [
+    "s18",
+    "s01"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

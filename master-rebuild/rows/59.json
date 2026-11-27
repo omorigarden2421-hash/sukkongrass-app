@@ -320,6 +320,24 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れ、霜にあたるとすぐに葉が黄色くなります。枯れた地上部は冬のあいだ残し、冬の終わり（雪解け後）、新芽が出る前に地際まで切ります。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れ、霜にあたるとすぐに葉が黄色くなります。枯れた地上部は冬のあいだ残し、冬の終わりから早春（2〜3月）、新芽が出る前に地際まで切ります。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "species"
   }
  },
  "review": {

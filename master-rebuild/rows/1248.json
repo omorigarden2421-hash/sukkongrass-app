@@ -349,6 +349,24 @@
     "s02"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。花がらと茎を残しておくと、冬の見どころになります。枯れた地上部は、晩秋か雪解け後に切ってください。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。花がらと茎を残しておくと、冬の見どころになります。枯れた地上部は、晩秋か早春に切ってください。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s18"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

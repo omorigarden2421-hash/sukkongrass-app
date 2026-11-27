@@ -276,6 +276,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は葉を落とします。シカゴで冬の保護をせずに行った試験では、冬の傷みが少しあったという記録があります。",
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は葉を落とします。",
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

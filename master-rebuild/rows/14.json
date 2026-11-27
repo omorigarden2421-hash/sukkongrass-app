@@ -352,6 +352,24 @@
     "s17"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性で、秋から冬にかけて葉がブロンズや赤紫に色づきます。秋に刈り込まず、葉はそのまま冬を越させます。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性で、秋から冬にかけて葉がブロンズや赤紫に色づきます。秋に刈り込まず、葉はそのまま冬を越させます。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

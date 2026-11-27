@@ -336,6 +336,24 @@
     "s06"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性で、冬も葉が見どころになります。広がりを抑えたいときは、雪解け後に強く切り戻します。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性で、冬も葉が見どころになります。広がりを抑えたいときは、早春に強く切り戻します。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s02"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

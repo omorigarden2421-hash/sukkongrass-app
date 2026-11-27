@@ -294,6 +294,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬にも葉の一部が残る半常緑性です。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "genus"
+  },
+  "winter_care_warm": {
+   "value": "冬にも葉の一部が残る半常緑性です。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "genus"
   }
  },
  "review": {

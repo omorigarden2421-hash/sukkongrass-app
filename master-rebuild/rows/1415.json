@@ -326,6 +326,24 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬に葉の一部が残る半常緑性です。",
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬に葉の一部が残る半常緑性で、温暖地では常緑です。暖かい冬には、葉の色がある程度残ります。",
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s02"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

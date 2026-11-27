@@ -338,6 +338,22 @@
     "s18"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。秋は刈り込まず、葉はそのまま冬を越させます。寒い地域では、雪解け後に茶色く傷んだ葉を取ります。",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れますが、暖地では冬も葉が残ります。秋は刈り込まず、葉はそのまま冬を越させます。寒い地域では、早春に茶色く傷んだ葉を取ります。",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

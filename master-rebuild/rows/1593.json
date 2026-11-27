@@ -319,6 +319,22 @@
     "s18"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れますが、種（綿毛）は冬まで残ります。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れますが、種（綿毛）は冬まで残ります。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   }
  },
  "review": {

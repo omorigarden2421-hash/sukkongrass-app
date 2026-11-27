@@ -336,6 +336,24 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。晩秋に地上部が枯れたら、地際で切ります。春の芽吹き前までに、残った枯れ葉を株元から取り除きます。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s20"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。晩秋に地上部が枯れたら、地際で切ります。春の芽吹き前までに、残った枯れ葉を株元から取り除きます。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s20"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

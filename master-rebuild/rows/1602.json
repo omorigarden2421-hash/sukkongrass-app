@@ -329,6 +329,22 @@
     "s02"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。枯れた地上部は晩秋か雪解け後に切ります。残した茎は、翌シーズンの芽出し直前に切ります。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。枯れた地上部は晩秋か早春に切ります。残した茎は、翌シーズンの芽出し直前に切ります。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

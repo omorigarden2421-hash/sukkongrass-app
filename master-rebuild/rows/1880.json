@@ -337,6 +337,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "花後にいったん地上部が枯れ、秋に根元の葉が出て冬を越します。水はけの悪い土では傷みやすいので、水はけのよい場所に植えてください。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "花後にいったん地上部が枯れ、秋に根元の葉が出て冬を越します。水はけの悪い土では傷みやすいので、水はけのよい場所に植えてください。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   }
  },
  "review": {

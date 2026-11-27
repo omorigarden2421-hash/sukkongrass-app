@@ -323,6 +323,22 @@
     "s18"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性です。冬の風や日差しをある程度避けられる場所に植えるとよいとされています。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性です。冬の風や日差しをある程度避けられる場所に植えるとよいとされています。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   }
  },
  "review": {

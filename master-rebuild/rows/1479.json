@@ -308,6 +308,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬に葉の一部が残る半常緑性で、冬も葉が見どころになります。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬に葉の一部が残る半常緑性で、冬も葉が見どころになります。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   }
  },
  "review": {

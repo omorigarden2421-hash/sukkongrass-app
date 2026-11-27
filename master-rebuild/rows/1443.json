@@ -340,6 +340,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬に葉の一部が残る半常緑性です。雪解け後、新芽が出る前に、枯れ葉と古い花茎を取り除きます。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬に葉の一部が残る半常緑性です。早春（2〜3月）、新芽が出る前に、枯れ葉と古い花茎を取り除きます。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

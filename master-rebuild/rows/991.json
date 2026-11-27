@@ -361,6 +361,24 @@
     "s18"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は落葉し、地上部が枯れます。晩秋に地上部が枯れたら、地際で切ります。USDAゾーン5より北では越冬が安定しないことがある、という記録があります。",
+   "method": "記載",
+   "sources": [
+    "s20",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬は落葉し、地上部が枯れます。晩秋に地上部が枯れたら、地際で切ります。",
+   "method": "記載",
+   "sources": [
+    "s20",
+    "s02"
+   ],
+   "level": "species"
   }
  },
  "review": {

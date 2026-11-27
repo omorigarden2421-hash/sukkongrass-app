@@ -366,6 +366,24 @@
     "s10"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "夏に休眠して地上部が消え、秋から冬にかけて根生葉のロゼットが出ます。水はけの悪い土では傷みやすいので、水はけのよい場所に植えます。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "夏に休眠して地上部が消え、秋から冬にかけて根生葉のロゼットが出ます。水はけの悪い土では傷みやすいので、水はけのよい場所に植えます。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

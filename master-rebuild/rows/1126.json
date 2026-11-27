@@ -336,6 +336,22 @@
     "s18"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性で、冬も茎が立って残ります（種としての情報）。水はけの悪い土では傷みやすいので、水はけのよい場所に植えます。",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性で、冬も茎が立って残ります（種としての情報）。水はけの悪い土では傷みやすいので、水はけのよい場所に植えます。",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

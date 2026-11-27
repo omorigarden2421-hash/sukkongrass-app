@@ -334,6 +334,22 @@
     "s02"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は葉を落とします。新しい枝に花が咲くので、必要なら晩冬から早春にかけて剪定します。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬は葉を落とします。新しい枝に花が咲くので、必要なら晩冬から早春にかけて剪定します。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   }
  },
  "review": {

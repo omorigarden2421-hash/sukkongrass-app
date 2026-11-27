@@ -318,6 +318,22 @@
     "s18"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性です。水はけの悪い土では傷みやすいので、水はけのよい場所に植えます。雪が少ない年は、雪のない強い冷え込みに備えて、防寒や冬の日よけをすると安心です。",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": null
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性です。水はけの悪い土では傷みやすいので、水はけのよい場所に植えます。",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": null
   }
  },
  "review": {

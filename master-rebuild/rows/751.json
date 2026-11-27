@@ -337,6 +337,22 @@
     "s11"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。寒さにきわめて強く、プレーリー地帯（寒冷地）の庭に向くという記録があります。",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

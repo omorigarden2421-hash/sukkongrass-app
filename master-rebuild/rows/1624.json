@@ -350,6 +350,24 @@
     "s02"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れますが、茎と種子頭が冬も残って姿をつくり、根生葉のロゼットも冬を越します。枯れた地上部は晩秋か雪解け後に切ります。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れますが、茎と種子頭が冬も残って姿をつくり、根生葉のロゼットも冬を越します。枯れた地上部は晩秋か早春に切ります。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

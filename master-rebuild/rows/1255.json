@@ -348,6 +348,24 @@
     "s06"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。晩秋、地上部が枯れたら地際で切ります。水はけの悪い土では傷みやすいので、水はけのよい場所に植えてください。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s20"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。晩秋、地上部が枯れたら地際で切ります。水はけの悪い土では傷みやすいので、水はけのよい場所に植えてください。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s20"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

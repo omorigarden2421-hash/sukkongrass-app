@@ -306,6 +306,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "寒い地域では、冬に株元をマルチで覆うなどの防寒がすすめられています。耐寒性はUSDAゾーン8〜10とされ、耐寒性のない地域では鉢植えにして屋内で冬越しさせるという記録もあります。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "防寒がすすめられているのは寒い地域だけで、温暖地では特に必要ありません。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   }
  },
  "review": {

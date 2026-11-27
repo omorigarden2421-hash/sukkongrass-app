@@ -324,6 +324,24 @@
     "s11"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。晩秋、地上部が枯れたら地際で切ります。シカゴの試験では、6年のうち1年、冬に株が傷んだという記録があります。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s08"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。晩秋、地上部が枯れたら地際で切ります。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s08"
+   ],
+   "level": "species"
   }
  },
  "review": {

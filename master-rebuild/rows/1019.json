@@ -362,6 +362,22 @@
     "s18"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "夏に休眠し、秋から冬にかけて根元の葉（ロゼット）が出ます。水はけの悪い土では傷みやすいので、水はけのよい場所に植えます。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "夏に休眠し、秋から冬にかけて根元の葉（ロゼット）が出ます。水はけの悪い土では傷みやすいので、水はけのよい場所に植えます。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   }
  },
  "review": {

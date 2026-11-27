@@ -336,6 +336,24 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性で、秋から冬にかけて葉の白い縁がピンクを帯びます。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性で、秋から冬にかけて葉の白い縁がピンクを帯びます。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s02"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

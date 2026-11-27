@@ -347,6 +347,20 @@
     "s06"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "シカゴでの試験では、毎年春になると、冬のあいだにほとんどの株が枯れたように見えましたが、地下茎や実生から再生し、6月中〜下旬には区画が埋まったという記録があります。",
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   }
  },
  "review": {

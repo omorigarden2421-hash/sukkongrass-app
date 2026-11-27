@@ -346,6 +346,22 @@
     "s17"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬に葉の一部が残る半常緑性です。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬に葉の一部が残る半常緑性で、冬の穏やかな地域では冬も葉に緑が残ります。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

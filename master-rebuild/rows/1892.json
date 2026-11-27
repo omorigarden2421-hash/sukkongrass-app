@@ -309,6 +309,24 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性で、冬の庭にも使えます。秋に刈り込まず、葉はそのまま冬を越させます。-15℃（5°F）を下回る寒さが続くと枯れることがあるという記録があります。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性で、冬の庭にも使えます。秋に刈り込まず、葉はそのまま冬を越させます。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s06"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

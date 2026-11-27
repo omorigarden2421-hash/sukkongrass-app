@@ -333,6 +333,22 @@
     "s18"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": null
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": null
   }
  },
  "review": {

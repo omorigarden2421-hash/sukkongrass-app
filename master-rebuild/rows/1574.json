@@ -326,6 +326,24 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は葉を落とします。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": null
+  },
+  "winter_care_warm": {
+   "value": "冬は葉を落とします。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s01"
+   ],
+   "level": null
   }
  },
  "review": {

@@ -351,6 +351,24 @@
     "s06"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。冬に株元をマルチで覆うなどの防寒がすすめられています。雪が少ない年は、雪のない強い冷え込みに備えて、防寒や冬の日よけをすると安心です。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。冬に株元をマルチで覆うなどの防寒がすすめられています。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s18"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

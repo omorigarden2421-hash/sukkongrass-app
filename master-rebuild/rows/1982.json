@@ -273,6 +273,19 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "寒さにやや弱い（耐寒性：弱）ので、冬は株元を覆うなどの防寒をします。",
+   "method": "記載",
+   "sources": null,
+   "level": null,
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、RHS）"
+  },
+  "winter_care_warm": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   }
  },
  "review": {

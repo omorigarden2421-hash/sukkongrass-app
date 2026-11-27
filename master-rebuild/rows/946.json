@@ -332,6 +332,24 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は葉を落とします。伸びを抑えたいときは、必要に応じて晩冬から雪解け後、新芽が出る前に地際まで切ります。",
+   "method": "記載",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は葉を落とします。伸びを抑えたいときは、必要に応じて晩冬から早春（2〜3月）、新芽が出る前に地際まで切ります。",
+   "method": "記載",
+   "sources": [
+    "s02",
+    "s06"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

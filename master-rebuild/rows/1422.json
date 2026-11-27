@@ -334,6 +334,22 @@
     "s18"
    ],
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性で、冬も葉が見どころになります。寒い地域では、冬の風や日差しを避けられる場所に植えるのがすすめられています。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性で、冬も葉が見どころになります。防寒がすすめられているのは寒い地域で、温暖地では特に必要ありません。",
+   "method": "記載",
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   }
  },
  "review": {

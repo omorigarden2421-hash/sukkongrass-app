@@ -345,6 +345,24 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬に葉の一部が残る半常緑性です。花穂は黄褐色になり、冬の大半も残ります。地上部は冬のあいだ残し、雪解け後、古い花穂を取り除きます。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬に葉の一部が残る半常緑性で、暖かい冬は葉に緑が残ります。花穂は黄褐色になり、冬の大半も残ります。地上部は冬のあいだ残し、早春（2〜3月）、古い花穂を取り除きます。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s02"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

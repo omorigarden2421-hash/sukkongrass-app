@@ -350,6 +350,24 @@
     "s06"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性で、冬のあいだも葉が見どころになります。秋は刈り込まず、葉をそのまま残して冬を越させます。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s02"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性で、冬のあいだも葉が見どころになります。秋は刈り込まず、葉をそのまま残して冬を越させます。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s02"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

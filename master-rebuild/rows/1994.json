@@ -320,6 +320,22 @@
     "s06"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬に葉の一部が残る半常緑性です。株を小さく保ちたい場合は、晩冬にすべての枝を地際から30cmほどに切り詰めます。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬に葉の一部が残る半常緑性です。株を小さく保ちたい場合は、晩冬にすべての枝を地際から30cmほどに切り詰めます。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

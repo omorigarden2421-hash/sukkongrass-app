@@ -338,6 +338,22 @@
     "s18"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れますが、冬も姿が残り、見どころになります。水はけの悪い土では傷みやすいので、水はけのよい場所に植えてください。",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れますが、冬も姿が残り、見どころになります。水はけの悪い土では傷みやすいので、水はけのよい場所に植えてください。",
+   "method": "記載",
+   "sources": [
+    "s18"
+   ],
+   "level": "species"
   }
  },
  "review": {

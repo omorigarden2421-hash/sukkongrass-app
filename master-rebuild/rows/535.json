@@ -353,6 +353,22 @@
     "s18"
    ],
    "level": "species"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性です。咲き終わった花茎は、晩秋か雪解け後に切ります。秋に切らなかった花茎は、春、新芽が出る前に切ってください。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性です。咲き終わった花茎は、晩秋か早春に切ります。秋に切らなかった花茎は、春、新芽が出る前に切ってください。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": null
   }
  },
  "review": {

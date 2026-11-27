@@ -348,6 +348,22 @@
     "s18"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れますが、茎は冬も立って骨格を見せます。枯れた地上部は冬のあいだ残し、雪解け後、新芽が出る前に切ります。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れますが、茎は冬も立って骨格を見せます。枯れた地上部は冬のあいだ残し、早春（2〜3月）、新芽が出る前に切ります。",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

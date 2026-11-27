@@ -327,6 +327,24 @@
     "s10"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。枯れた地上部は晩秋か雪解け後に切りますが、種子頭を残すと冬の見どころになります。",
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s18"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。枯れた地上部は晩秋か早春に切りますが、種子頭を残すと冬の見どころになります。",
+   "method": "記載",
+   "sources": [
+    "s10",
+    "s18"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

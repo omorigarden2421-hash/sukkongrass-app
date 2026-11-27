@@ -336,6 +336,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。枯れた地上部は冬のあいだ残し、雪解け後の春、新芽が出る前に古い葉を切って、新芽を促します。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。枯れた地上部は冬のあいだ残し、早春（2〜3月）、新芽が出る前に古い葉を切って、新芽を促します。",
+   "method": "記載",
+   "sources": [
+    "s06"
+   ],
+   "level": "species"
   }
  },
  "review": {

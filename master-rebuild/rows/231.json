@@ -327,6 +327,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は休眠し、地上部の葉が枯れます。晩秋に地上部が枯れたら、地際で切ってください。",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は休眠し、地上部の葉が枯れます。晩秋に地上部が枯れたら、地際で切ってください。",
+   "method": "記載",
+   "sources": [
+    "s10"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

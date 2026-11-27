@@ -267,6 +267,18 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
+  },
+  "winter_care_warm": {
+   "value": null,
+   "method": "記載",
+   "sources": null,
+   "level": null
   }
  },
  "review": {

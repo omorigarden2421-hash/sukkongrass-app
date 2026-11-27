@@ -371,6 +371,28 @@
     "s02"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。種穂は冬のあいだ残り、見どころになります。枯れた地上部は、晩秋か雪解け後に切ってください。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10",
+    "s17",
+    "s06"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。種穂は冬のあいだ残り、見どころになります。枯れた地上部は、晩秋か早春に切ってください。",
+   "method": "記載",
+   "sources": [
+    "s01",
+    "s10",
+    "s17",
+    "s06"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

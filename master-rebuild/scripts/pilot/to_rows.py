@@ -39,6 +39,7 @@ FIELDS = [
     ("pests", "主な病害虫", "list", None), ("pruning_codes", "切り戻しの方法", "list", "切り戻し・手入れの文（全部）"),
     ("management_type", "管理タイプ", "str", "管理タイプのメモ"), ("division_interval", "株分けの間隔", "str", "株分けの間隔の根拠"),
     ("propagation", "繁殖方法", "list", "繁殖の根拠"), ("cut_flower", "切り花適性", "str", "切り花の根拠"), ("pollinator", "蜜源価値", "str", "蜜源の根拠"),
+    ("winter_care_hokkaido", "冬の手入れ（北海道）", "str", "冬の手入れの根拠"), ("winter_care_warm", "冬の手入れ（温暖地）", "str", "冬の手入れの根拠"),
 ]
 TAIL = re.compile(r"（([^（）]*)）$")
 
@@ -115,6 +116,9 @@ def main(xlsx, out):
                 ls = str(g(evcol)).split("\n")
                 fill = next((x for x in ls if x.startswith("埋め方：")), None)
                 srcs, level = cites(fill or ls[0].split("] ", 1)[-1])
+            # 2026-11-27 冬の手入れ：文献は「冬の手入れの根拠」の1行目（文献から抜き出した決め手）から取る
+            if key in ("winter_care_hokkaido", "winter_care_warm") and v is not None and str(g(evcol) or "").startswith("[文献から抜き出し"):
+                srcs, level = cites(str(g(evcol)).split("\n")[0].split("] ", 1)[-1])
             # 2026-11-26 土壌水分の読み直し：文献は「土壌水分の根拠」の1行目の決め手から取る
             if key in ("soil_moisture", "cut_flower", "pollinator", "propagation") and v is not None and str(g(evcol) or "").startswith("[読み直し"):
                 srcs, level = cites(str(g(evcol)).split("\n")[0].split("] ", 1)[-1])

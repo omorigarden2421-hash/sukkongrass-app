@@ -355,6 +355,26 @@
     "s10"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬に葉の一部が残る半常緑性です。寒さの厳しい冬には葉がかなり傷んだという記録があります。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10",
+    "s02"
+   ],
+   "level": "species"
+  },
+  "winter_care_warm": {
+   "value": "冬に葉の一部が残る半常緑性で、暖地では常緑になります。",
+   "method": "記載",
+   "sources": [
+    "s06",
+    "s10",
+    "s02"
+   ],
+   "level": "species"
   }
  },
  "review": {

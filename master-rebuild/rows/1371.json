@@ -350,6 +350,24 @@
     "s02"
    ],
    "level": "cultivar"
+  },
+  "winter_care_hokkaido": {
+   "value": "冬も葉が残る常緑性です。冬の過湿に弱いので、水はけのよい場所に植え、雪解け水がたまる場所は避けます。",
+   "method": "記載",
+   "sources": [
+    "s18",
+    "s10"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬も葉が残る常緑性です。暖地では冬も葉が残るとされています。冬の過湿に弱いので、水はけのよい場所に植えます。",
+   "method": "記載",
+   "sources": [
+    "s18",
+    "s10"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

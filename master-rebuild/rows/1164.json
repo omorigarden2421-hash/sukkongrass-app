@@ -348,6 +348,24 @@
     "s18"
    ],
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れますが、栗色の果穂が冬まで見どころになります。",
+   "method": "記載",
+   "sources": [
+    "s20",
+    "s17"
+   ],
+   "level": "cultivar"
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れますが、栗色の果穂が冬まで見どころになります。",
+   "method": "記載",
+   "sources": [
+    "s20",
+    "s17"
+   ],
+   "level": "cultivar"
   }
  },
  "review": {

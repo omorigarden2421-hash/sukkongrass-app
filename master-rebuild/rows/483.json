@@ -323,6 +323,22 @@
    "method": "記載",
    "sources": null,
    "level": null
+  },
+  "winter_care_hokkaido": {
+   "value": "冬は地上部が枯れます。シカゴの試験では、夏に衰えたあと、続く冬にすべての株で株元が傷んだという記録があります。",
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": null
+  },
+  "winter_care_warm": {
+   "value": "冬は地上部が枯れます。",
+   "method": "記載",
+   "sources": [
+    "s08"
+   ],
+   "level": null
   }
  },
  "review": {
