@@ -138,10 +138,13 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "強",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s20"
+   ],
+   "level": "cultivar",
+   "note": "おぎはら（品種のページ）。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -156,10 +159,13 @@
    "level": null
   },
   "west_sun": {
-   "value": null,
+   "value": "○",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s20",
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "drought": {
    "value": "中",
@@ -292,7 +298,8 @@
    "sources": [
     "s01",
     "s02",
-    "s18"
+    "s18",
+    "s21"
    ],
    "level": "cultivar"
   },
@@ -365,11 +372,11 @@
   "management_type_by_matching": "A 放任型",
   "heat_west_only": null,
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；強\n[RHS/品種] Aspect: South-facing or North-facing or West-facing or East-facing",
   "spread_evidence": "[こぼれ種 1／NC State・種] It self seeds（読み直し）\n[こぼれ種 1／MBG・種] May self-seed in optimum growing conditions.\n[こぼれ種の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[RHS・品種] Habit: Bushy／イネ科・カヤツリグサ科",
-  "sources_with_cultivar_page": "RHS、stauden.de",
-  "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de"
+  "sources_with_cultivar_page": "RHS、stauden.de、おぎはら",
+  "sources_used": "Jelitto、MBG、NC State、RHS、stauden.de、おぎはら"
  }
 }

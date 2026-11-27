@@ -134,10 +134,13 @@
    "level": null
   },
   "heat": {
-   "value": null,
+   "value": "強",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s20"
+   ],
+   "level": "cultivar",
+   "note": "おぎはら（品種のページ）。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -149,6 +152,8 @@
    "value": "中",
    "method": "判定",
    "sources": [
+    "s20",
+    "s21",
     "s06",
     "s01"
    ],
@@ -158,6 +163,8 @@
    "value": "△",
    "method": "判定",
    "sources": [
+    "s20",
+    "s21",
     "s06",
     "s01"
    ],
@@ -241,7 +248,7 @@
    "method": "判定",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de）"
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、NC State、RHS、Walters、stauden.de、おぎはら）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（stauden.de・品種）",
@@ -294,7 +301,8 @@
     "s01",
     "s10",
     "s18",
-    "s17"
+    "s17",
+    "s21"
    ],
    "level": "cultivar"
   },
@@ -369,11 +377,11 @@
   "management_type_by_matching": null,
   "heat_west_only": null,
   "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[NC State/属] While the preferred environment varies among species, most are best grown in full sun or bright indirect light and appreciate some afternoon shade.\n[NC State/属] These plants prefer warm, dry conditions, and good air circulation.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 空欄（[NC State・属] appreciate some afternoon shade（暑さと結びつかない日照の記述））\n[RHS/品種] Aspect: North-facing or West-facing or East-facing or South-facing",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 耐湿性: 普 通 ある程度耐えますが高温多湿を嫌います（蒸れ 中 相当）\n[NC State/属] While the preferred environment varies among species, most are best grown in full sun or bright indirect light and appreciate some afternoon shade.\n[NC State/属] These plants prefer warm, dry conditions, and good air circulation.\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 中、文を読み直して 空欄（[NC State・属] appreciate some afternoon shade（暑さと結びつかない日照の記述））\n[RHS/品種] Aspect: North-facing or West-facing or East-facing or South-facing",
   "spread_evidence": "[地下茎 2／stauden.de・品種] ausläufertreibend（読み直し）\n[地下茎 2／stauden.de・品種] ausläufertreibend\n[地下茎の食い違い] Gaißmayer は 1 相当",
   "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[Walters・品種] Plants form a bushy, upright mound of dark green leaves with the appearance of a small shrub.",
-  "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer",
-  "sources_used": "Jelitto、NC State、RHS、Walters、stauden.de"
+  "sources_with_cultivar_page": "RHS、stauden.de、Walters、Gaißmayer、おぎはら",
+  "sources_used": "Jelitto、NC State、RHS、Walters、stauden.de、おぎはら"
  }
 }

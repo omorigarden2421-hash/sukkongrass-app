@@ -50,3 +50,8 @@ OGIHARA = [
 #   図鑑はどちらにも種小名を書いていないので、ほかより根拠が弱い。
 # 当てていないもの（同じ種のページが1つだけ、または値を読んでいない）: アルメリア マリティマの Ar01・Ar02・Ar04、ペニセタム 'Black Beauty'。
 SIBLING = {"Helenium autumnale": ("強", ["Hl03", "図鑑の Mariachi 'Siesta'"])}
+# 2026-11-27 図鑑の全掲載名（3201件）と照らし合わせ直して見つけた見落とし（scripts/tools/ogi_rematch.py。カタカナの書き方の違いで漏れていた）
+OGIHARA += [
+ (["Eu03"], 2743, "ユーフォルビア ‘ファイヤー グロー’ Euphorbia griffithii 'Fire glow'", "cultivar", "強", "日向",
+  [("habit", "地下茎でよく殖える"), ("evergreen", "落葉"), ("seasonal_foliage", "気温が下がると全体の色味が深みを増し、秋色を楽しめる")]),
+]

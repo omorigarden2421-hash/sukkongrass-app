@@ -31,7 +31,7 @@ OGIHARA = [
   [("evergreen", "冬季常緑種")]),
  (["G21"], 1049, "フウロソウ プラテンセ ‘スプリッシュスプラッシュ’ Geranium pratense 'Splish Splash'", "cultivar", "中", "やや半日陰",
   [("evergreen", "冬季落葉種")]),
- (["G22", "G23", "G24"], 1061, "フウロソウ サンギネウム Geranium sanguineum", "species", "強", "日向～やや半日陰",
+ (["G22", "G24"], 1061, "フウロソウ サンギネウム Geranium sanguineum", "species", "強", "日向～やや半日陰",
   [("heat_humidity", "寒さ、比較的暑さにも耐え、性質も丈夫で育てやすく")]),
  (["G25", "G26"], 1065, "フウロソウ サンギネウム ストリアタム Geranium sanguineum var. striatum", "cultivar", "強", "日向～やや半日陰",
   [("spread_mode", "丈夫な性質で広がるように殖えて、コンパクトに姿良く咲く"), ("evergreen", "冬季半常緑種")]),
@@ -66,3 +66,16 @@ OGIHARA = [
 ]
 # 図鑑に掲載が見つからなかった試行ID（名前の照合で一致なし）
 NOTE = "H30 の ‘白カビタン’ は Hosta sieboldii 'Silver Kabitan' の和名として照合した（図鑑の学名は Hosta helonioides ‘Shiro-kabitan’）。要確認"
+# 2026-11-27 図鑑の全掲載名（3201件）と照らし合わせ直して見つけた見落とし（scripts/tools/ogi_rematch.py。カタカナの書き方の違いで漏れていた）
+OGIHARA += [
+ (["V09"], 551, "ベロニカ ‘ミセスホルツ’ Veronica prostrata 'Mrs.holt'", "cultivar", "強", "日向", [("habit", "丸い葉が這うように生育し明るいピンクの花を咲かせる")]),
+ (["G23"], 1064, "フウロソウ サンギネウム ‘マックスフレイ’ Geranium sanguineum 'Max Frei'", "cultivar", "強", "日向～やや半日陰", [("habit", "草姿はあまり乱れずコンパクトでより姿が良い")]),
+ (["H01"], 1399, "ギボウシ(ホスタ) ‘アビクア ドリンキングガード’ Hosta ‘Abiqua Drinking Gourd’", "cultivar", "強", "半日陰", []),
+ (["H03"], 1390, "ギボウシ(ホスタ) ‘ブルーキャディット’ Hosta ‘Blue Cadet’", "cultivar", "強", "半日陰", [("habit", "丈夫でよく殖え、姿がまとまって生育するので、グランドカバーなどに広く使われる")]),
+ (["H09"], 1506, "ギボウシ(ホスタ) ‘ダイヤモンドティアラ’ Hosta ‘Diamond Tiara’", "cultivar", "強", "半日陰", [("habit", "丈夫でよく殖える"), ("evergreen", "落葉性")]),
+ (["H25"], 1542, "ギボウシ(ホスタ) ‘ウォルバーリン’ Hosta ‘Wolverine’", "cultivar", "強", "半日陰", [("habit", "生育の良い強健種")]),
+ (["H27"], 1393, "ギボウシ(ホスタ) ‘ハルション’ Hosta ‘Halcyon’", "cultivar", "強", "半日陰", []),
+ # マスターは 'Diana Remembered Select'。図鑑は 'Diana Remembered'。同じ品種として扱う（ユーザー：「ダイアナリメンバードセレクト、ダイアナリメンバードは同じ」2026-11-27）
+ (["H10"], 1418, "ギボウシ(ホスタ) ‘ダイアナ リメンバード’ Hosta ‘Diana Remembered’", "cultivar", "強", "半日陰", [("fragrance", "芳香花")]),
+ (["H29"], 1426, "ギボウシ(ホスタ) ‘フランシス ウイリアムズ’ Hosta ‘Frances Williams’", "cultivar", "強", "半日陰", []),
+]

@@ -4,6 +4,7 @@
 - 対象: 各 batch と scripts/pilot の ogihara_data.py に書いてある図鑑のID（品種のページも、種のページも）
 - 図鑑のページ https://www.ogis.co.jp/gallery/page01.php?id=<ID> の中の「カタログ品番；31L」→ https://item.rakuten.co.jp/ogis/31l/
   （売り切れの品種もページが残っていることがある。ないものは 404）
+- OGI_ONLY=551,2743 のように環境変数を付けると、その図鑑のIDだけ読んで今の出力に足す
 - 2.5秒おき。取得済みは飛ばす。ページ全体は保存先だけに置き、リポジトリには入れない。出力は短い項目だけ
 - 商品ページの共通の説明（2026-11-21 に確認）:
   耐暑性「強・強い」は暑さに強い植物です「中・普通」は暖地では涼しいところで夏越しを行うなど工夫が必要「弱」は暖地では夏越し困難で寒冷地向きです。
@@ -44,6 +45,12 @@ def g(p, s):
 
 
 res = {}
+# 2026-11-27: 環境変数 OGI_ONLY（図鑑のIDをカンマ区切り）があれば、その ID だけを読み、今の出力に足す（ほかのページは読み直さない）
+if os.environ.get("OGI_ONLY"):
+    only = {int(x) for x in os.environ["OGI_ONLY"].split(",")}
+    ids = {k: v for k, v in ids.items() if k in only}
+    if os.path.exists(RES):
+        res = json.load(open(RES, encoding="utf-8"))["pages"]
 for n, gid in enumerate(sorted(ids)):
     gf = f"{OUT}/gallery/p{gid}.html"
     if not os.path.exists(gf) or os.path.getsize(gf) < 3000:

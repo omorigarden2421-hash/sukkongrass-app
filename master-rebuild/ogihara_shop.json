@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21",
+ "checked": "2026-11-27",
  "pages": {
   "1": {
    "used_by": [
@@ -5123,6 +5123,12 @@
      "H11",
      "cultivar",
      "ギボウシ(ホスタ) ‘ダイアナ リメンバード’ Hosta ‘Diana Remembered’"
+    ],
+    [
+     "scripts/pilot",
+     "H10",
+     "cultivar",
+     "ギボウシ(ホスタ) ‘ダイアナ リメンバード’ Hosta ‘Diana Remembered’"
     ]
    ],
    "catalog_no": "593D",
@@ -9198,6 +9204,291 @@
    "pruning": "花後に軽く剪定して姿を整える、 冬枯れしたら株元で強剪定",
    "propagation": "実生、株分け",
    "pests": "目立った病害虫はありません"
+  },
+  "551": {
+   "used_by": [
+    [
+     "scripts/pilot",
+     "V09",
+     "cultivar",
+     "ベロニカ ‘ミセスホルツ’ Veronica prostrata 'Mrs.holt'"
+    ]
+   ],
+   "catalog_no": "146H",
+   "on_sale_link": false,
+   "url": "https://item.rakuten.co.jp/ogis/146h/",
+   "status": "ページなし（404）"
+  },
+  "1064": {
+   "used_by": [
+    [
+     "scripts/pilot",
+     "G23",
+     "cultivar",
+     "フウロソウ サンギネウム ‘マックスフレイ’ Geranium sanguineum 'Max Frei'"
+    ]
+   ],
+   "catalog_no": "387M",
+   "on_sale_link": false,
+   "url": "https://item.rakuten.co.jp/ogis/387m/",
+   "status": "ページなし（404）"
+  },
+  "1390": {
+   "used_by": [
+    [
+     "scripts/pilot",
+     "H03",
+     "cultivar",
+     "ギボウシ(ホスタ) ‘ブルーキャディット’ Hosta ‘Blue Cadet’"
+    ]
+   ],
+   "catalog_no": "514",
+   "on_sale_link": true,
+   "url": "https://item.rakuten.co.jp/ogis/514/",
+   "status": "ok",
+   "name": "Hosta tokudama 'Blue Cadet'",
+   "heat": null,
+   "cold": null,
+   "spread": "50〜75cm前後（生育後の最大サイズ）",
+   "sun": null,
+   "sun_cool": "日向（乾燥地は避ける）〜 明るい半日陰",
+   "sun_warm": "明るい半日陰（午前の日向は可、西日は避ける）",
+   "moisture": "少し湿り気のある土壌",
+   "dry": "普 通 ある程度耐えますが、乾燥地では生育が遅く、 葉色や特徴がよく出ません",
+   "wet": "やや強い 少し湿り気のある場所に向きます （湿地や過度な多湿は避ける）",
+   "pruning": "花後に花茎を切る、傷んだ葉があれば切る（夏〜秋）、冬に落葉した枯葉を株元から切る（春の芽吹き前までに）",
+   "propagation": "株分け",
+   "pests": "ほぼ不要（食害虫、葉ダニが出た際は消毒する）"
+  },
+  "1393": {
+   "used_by": [
+    [
+     "scripts/pilot",
+     "H27",
+     "cultivar",
+     "ギボウシ(ホスタ) ‘ハルション’ Hosta ‘Halcyon’"
+    ]
+   ],
+   "catalog_no": "574",
+   "on_sale_link": true,
+   "url": "https://item.rakuten.co.jp/ogis/574/",
+   "status": "ok",
+   "name": "Hosta 'Halcyon'",
+   "heat": null,
+   "cold": null,
+   "spread": "40〜70cm前後（生育後の最大サイズ）",
+   "sun": null,
+   "sun_cool": "日向（乾燥地は避ける）〜 明るい半日陰",
+   "sun_warm": "明るい半日陰（午前の日向は可、西日は避ける）",
+   "moisture": "少し湿り気のある土壌",
+   "dry": "普 通 ある程度耐えますが、乾燥地では生育が遅く、 葉色や特徴がよく出ません",
+   "wet": "やや強い 少し湿り気のある場所に向きます （湿地や過度な多湿は避ける）",
+   "pruning": "花後に花茎を切る、傷んだ葉があれば切る（夏〜秋）、冬に落葉した枯葉を株元から切る（春の芽吹き前までに）",
+   "propagation": "株分け",
+   "pests": "ほぼ不要（食害虫、葉ダニが出た際は消毒する）"
+  },
+  "1399": {
+   "used_by": [
+    [
+     "scripts/pilot",
+     "H01",
+     "cultivar",
+     "ギボウシ(ホスタ) ‘アビクア ドリンキングガード’ Hosta ‘Abiqua Drinking Gourd’"
+    ]
+   ],
+   "catalog_no": "596D",
+   "on_sale_link": true,
+   "url": "https://item.rakuten.co.jp/ogis/596d/",
+   "status": "ok",
+   "name": "Hosta ‘Abiqua Drinking Gourd'",
+   "heat": null,
+   "cold": null,
+   "spread": "70〜90cm前後（生育後の最大サイズ）",
+   "sun": null,
+   "sun_cool": "日向（乾燥地は避ける）〜 明るい半日陰",
+   "sun_warm": "明るい半日陰（午前の日向は可、西日は避ける）",
+   "moisture": "少し湿り気のある土壌",
+   "dry": "普 通 ある程度耐えますが、乾燥地では生育が遅く、 葉色や特徴がよく出ません",
+   "wet": "やや強い 少し湿り気のある場所に向きます （湿地や過度な多湿は避ける）",
+   "pruning": "花後に花茎を切る、傷んだ葉があれば切る（夏〜秋）、冬に落葉した枯葉を株元から切る（春の芽吹き前までに）",
+   "propagation": "株分け",
+   "pests": "ほぼ不要（食害虫、葉ダニが出た際は消毒する）"
+  },
+  "1426": {
+   "used_by": [
+    [
+     "scripts/pilot",
+     "H29",
+     "cultivar",
+     "ギボウシ(ホスタ) ‘フランシス ウイリアムズ’ Hosta ‘Frances Williams’"
+    ]
+   ],
+   "catalog_no": "507",
+   "on_sale_link": true,
+   "url": "https://item.rakuten.co.jp/ogis/507/",
+   "status": "ok",
+   "name": "Hosta 'Frances Williams'",
+   "heat": null,
+   "cold": null,
+   "spread": "80〜120cm前後（生育後の最大サイズ）",
+   "sun": null,
+   "sun_cool": "日向（乾燥地は避ける）〜 明るい半日陰",
+   "sun_warm": "明るい半日陰（午前の日向は可、西日は避ける）",
+   "moisture": "少し湿り気のある土壌",
+   "dry": "普 通 ある程度耐えますが、乾燥地では生育が遅く、 葉色や特徴がよく出ません",
+   "wet": "やや強い 少し湿り気のある場所に向きます （湿地や過度な多湿は避ける）",
+   "pruning": "花後に花茎を切る、傷んだ葉があれば切る（夏〜秋）、冬に落葉した枯葉を株元から切る（春の芽吹き前までに）",
+   "propagation": "株分け",
+   "pests": "ほぼ不要（食害虫、葉ダニが出た際は消毒する）"
+  },
+  "1506": {
+   "used_by": [
+    [
+     "scripts/pilot",
+     "H09",
+     "cultivar",
+     "ギボウシ(ホスタ) ‘ダイヤモンドティアラ’ Hosta ‘Diamond Tiara’"
+    ]
+   ],
+   "catalog_no": "573D",
+   "on_sale_link": false,
+   "url": "https://item.rakuten.co.jp/ogis/573d/",
+   "status": "ok",
+   "name": "Hosta 'Diamond Tiara'",
+   "heat": null,
+   "cold": null,
+   "spread": "60〜80cm前後（生育後の最大サイズ）",
+   "sun": null,
+   "sun_cool": "日向（乾燥地は避ける）〜 明るい半日陰",
+   "sun_warm": "明るい半日陰（午前の日向は可、西日は避ける）",
+   "moisture": "少し湿り気のある土壌",
+   "dry": "普 通 ある程度耐えますが、乾燥地では生育が遅く、 葉色や特徴がよく出ません",
+   "wet": "やや強い 少し湿り気のある場所に向きます （湿地や過度な多湿は避ける）",
+   "pruning": "花後に花茎を切る、傷んだ葉があれば切る（夏〜秋）、冬に落葉した枯葉を株元から切る（春の芽吹き前までに）",
+   "propagation": "株分け",
+   "pests": "ほぼ不要（食害虫、葉ダニが出た際は消毒する）"
+  },
+  "1542": {
+   "used_by": [
+    [
+     "scripts/pilot",
+     "H25",
+     "cultivar",
+     "ギボウシ(ホスタ) ‘ウォルバーリン’ Hosta ‘Wolverine’"
+    ]
+   ],
+   "catalog_no": "592W",
+   "on_sale_link": true,
+   "url": "https://item.rakuten.co.jp/ogis/592w/",
+   "status": "ok",
+   "name": "Hosta 'Wolverine'",
+   "heat": null,
+   "cold": null,
+   "spread": "40〜60cm前後（生育後の最大サイズ）",
+   "sun": null,
+   "sun_cool": "日向（乾燥地は避ける）〜 明るい半日陰",
+   "sun_warm": "明るい半日陰（午前の日向は可、西日は避ける）",
+   "moisture": "少し湿り気のある土壌",
+   "dry": "普 通 ある程度耐えますが、乾燥地では生育が遅く、 葉色や特徴がよく出ません",
+   "wet": "やや強い 少し湿り気のある場所に向きます （湿地や過度な多湿は避ける）",
+   "pruning": "花後に花茎を切る、傷んだ葉があれば切る（夏〜秋）、冬に落葉した枯葉を株元から切る（春の芽吹き前までに）",
+   "propagation": "株分け",
+   "pests": "ほぼ不要（食害虫、葉ダニが出た際は消毒する）"
+  },
+  "2306": {
+   "used_by": [
+    [
+     "batch_11",
+     "Ds02",
+     "cultivar",
+     "ディスチャンプシア ‘ゴールドタウ’ Deschampsia cespitosa 'Goldtau'"
+    ]
+   ],
+   "catalog_no": "602GT",
+   "on_sale_link": false,
+   "url": "https://item.rakuten.co.jp/ogis/602gt/",
+   "status": "ok",
+   "name": "Deschampsia cespitosa 'Goldtau'",
+   "heat": "強い",
+   "cold": "強い（−15℃〜−25℃ ※環境差がある）",
+   "spread": "60〜80cm前後（生育後・環境差がある）",
+   "sun": "日向",
+   "sun_cool": "日向〜半日陰",
+   "sun_warm": "日向〜半日陰",
+   "moisture": "平均的な水分がよい",
+   "dry": "普 通 耐えますが、乾燥が強いと生育が遅い",
+   "wet": "普 通 ある程度耐えます",
+   "pruning": "伸びすぎて姿が乱れたら株元まで短く切ると、再び芽吹き、姿が整う 寒冷地では冬に地上部が落葉する場合があるので、冬枯れした際は春の芽吹き前には短くカットしておく",
+   "propagation": "株分け",
+   "pests": "目立った病害虫はありません"
+  },
+  "2743": {
+   "used_by": [
+    [
+     "batch_10",
+     "Eu03",
+     "cultivar",
+     "ユーフォルビア ‘ファイヤー グロー’ Euphorbia griffithii 'Fire glow'"
+    ]
+   ],
+   "catalog_no": "279FG",
+   "on_sale_link": false,
+   "url": "https://item.rakuten.co.jp/ogis/279fg/",
+   "status": "ok",
+   "name": "Euphorbia griffithii 'Fire glow'",
+   "heat": "強い",
+   "cold": "強い（−15℃〜−25℃ ※環境差がある）",
+   "spread": "100cm以上（生育後・環境差がある）",
+   "sun": "日向",
+   "sun_cool": "日向",
+   "sun_warm": "日向",
+   "moisture": "平均的な水分がよい",
+   "dry": "強 い よく育ちます",
+   "wet": "普 通 ある程度耐えますが高温多湿を嫌います",
+   "pruning": "花後に伸びすぎたら、いつでも剪定可。冬の落葉後は地際で刈り込んで春に備える",
+   "propagation": "挿し木 株分け",
+   "pests": "目立った病害虫はありません"
+  },
+  "2984": {
+   "used_by": [
+    [
+     "batch_11",
+     "Ds03",
+     "cultivar",
+     "ディスチャンプシア ‘ノーザンライツ’ Deschampsia cespitosa 'Nothern Lights'"
+    ]
+   ],
+   "catalog_no": "602NL",
+   "on_sale_link": false,
+   "url": "https://item.rakuten.co.jp/ogis/602nl/",
+   "status": "ok",
+   "name": "Deschampsia cespitosa 'Nothern Lights'",
+   "heat": "強い",
+   "cold": "強い（−15℃〜−25℃ ※環境差がある）",
+   "spread": "30〜60cm前後（生育後・環境差がある）",
+   "sun": "日向",
+   "sun_cool": "日向〜半日陰",
+   "sun_warm": "日向〜半日陰",
+   "moisture": "平均的な水分がよい",
+   "dry": "普 通 耐えますが、乾燥が強いと生育が遅い",
+   "wet": "普 通 ある程度耐えます",
+   "pruning": "伸びすぎて姿が乱れたら株元まで短く切ると、再び芽吹き、姿が整う 寒冷地では冬に地上部が落葉する場合があるので、冬枯れした際は春の芽吹き前には短くカットしておく",
+   "propagation": "株分け",
+   "pests": "目立った病害虫はありません"
+  },
+  "3459": {
+   "used_by": [
+    [
+     "batch_11",
+     "Ds04",
+     "cultivar",
+     "ディスチャンプシア ‘ピクシー ファウンテン’ Deschampsia cespitosa ‘Pixie Fountain'"
+    ]
+   ],
+   "catalog_no": "602",
+   "on_sale_link": false,
+   "url": "https://item.rakuten.co.jp/ogis/602/",
+   "status": "ページなし（404）"
   }
  }
 }

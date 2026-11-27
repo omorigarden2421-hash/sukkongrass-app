@@ -47,7 +47,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de）"
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら）"
   },
   "spread_min": {
    "value": 30,
@@ -134,13 +134,13 @@
    "level": null
   },
   "heat": {
-   "value": "中",
+   "value": "強",
    "method": "判定",
    "sources": [
-    "s10"
+    "s20"
    ],
    "level": "cultivar",
-   "note": "欧米の文献。信頼度：中"
+   "note": "おぎはら（品種のページ）。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -158,6 +158,7 @@
    "value": "○",
    "method": "判定",
    "sources": [
+    "s20",
     "s10"
    ],
    "level": "cultivar"
@@ -292,7 +293,8 @@
    "sources": [
     "s02",
     "s10",
-    "s18"
+    "s18",
+    "s21"
    ],
    "level": "cultivar"
   },
@@ -365,11 +367,11 @@
   "management_type_by_matching": null,
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[Walters・品種] In warm summer regions this grows best in partial shade）",
+  "heat_muggy_west_evidence": "[日照] 今のマスターの日照（日向〜半日陰）で西日耐性を決め直した（文献の日照 半日陰 なら ×）\n[おぎはら/品種] 耐暑性；強\n[読み直し 2026-11-24] 欧米の文献だけの耐暑性：言い回しの照合では 空欄、文を読み直して 中（[Walters・品種] In warm summer regions this grows best in partial shade）\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の値を採った",
   "spread_evidence": "[こぼれ種 1／NC State・種] It self seeds（読み直し）\n[こぼれ種 1／MBG・品種] May self-seed in optimum growing conditions.\n[こぼれ種の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・種] Wuchsverhalten: horstig, lockerhorstig, horstbildend / oft Selbstaussaat",
   "silhouette_evidence": "[MBG・品種] Numerous flower stems rise in summer from the foliage mound to a height of 3' bearing wide, airy panicles (to 20\" long) of tiny, variably-colored flowers (tones of gold, silver, purple and green) whic／イネ科・カヤツリグサ科",
-  "sources_with_cultivar_page": "stauden.de、MBG、Walters",
-  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de"
+  "sources_with_cultivar_page": "stauden.de、MBG、Walters、おぎはら",
+  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら"
  }
 }

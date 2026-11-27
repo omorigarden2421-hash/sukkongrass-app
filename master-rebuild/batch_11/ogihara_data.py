@@ -63,3 +63,11 @@ SIBLING = {"Digitalis purpurea": ("中", ["Dg05", "Dg08", "Dg09", "Dg10", "図�
            "Eupatorium maculatum": ("強", ["Ep06", "図鑑の 'Atropurpureum'", "図鑑の 'Phantom'"]),
            "Calamagrostis acutiflora": ("強", ["Cg02", "Cg03", "図鑑の 'Waldenbuch'"]),
            "Lonicera periclymenum": ("強", ["Lo04", "図鑑の 'Graham Thomas'", "図鑑の 'Belgica'"])}
+# 2026-11-27 図鑑の全掲載名（3201件）と照らし合わせ直して見つけた見落とし（scripts/tools/ogi_rematch.py。カタカナの書き方の違いで漏れていた）
+OGIHARA += [
+ (["Ds02"], 2306, "ディスチャンプシア ‘ゴールドタウ’ Deschampsia cespitosa 'Goldtau'", "cultivar", "強", "日向", [("evergreen", "常緑～半常緑")]),
+ (["Ds03"], 2984, "ディスチャンプシア ‘ノーザンライツ’ Deschampsia cespitosa 'Nothern Lights'", "cultivar", "強", "日向",
+  [("evergreen", "常緑～半常緑"), ("habit", "生育はゆっくりなので鉢や寄せ植えにも良い")]),
+ (["Ds04"], 3459, "ディスチャンプシア ‘ピクシー ファウンテン’ Deschampsia cespitosa ‘Pixie Fountain'", "cultivar", "強", "日向",
+  [("evergreen", "常緑～半常緑"), ("seasonal_foliage", "穂は秋に紅葉し、冬に枯れ残る様子もドライフラワー的に楽しめて")]),
+]

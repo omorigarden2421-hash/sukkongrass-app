@@ -133,16 +133,13 @@
    "level": null
   },
   "heat": {
-   "value": "中",
+   "value": "強",
    "method": "判定",
    "sources": [
-    "s02",
-    "s06",
-    "s10",
-    "s01"
+    "s20"
    ],
    "level": "cultivar",
-   "note": "欧米の文献。信頼度：中"
+   "note": "おぎはら（品種のページ）。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -160,6 +157,8 @@
    "value": "×",
    "method": "判定",
    "sources": [
+    "s20",
+    "s21",
     "s02",
     "s06",
     "s10",
@@ -294,7 +293,8 @@
     "s01",
     "s02",
     "s10",
-    "s18"
+    "s18",
+    "s21"
    ],
    "level": "cultivar"
   },
@@ -367,11 +367,11 @@
   "management_type_by_matching": "A 放任型",
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[MBG/品種] Greenish-yellow margins may scorch in too much sun.\n[NC State/属] In the south it is best to plant hosta in full shade or dappled shade so that the foliage colors will be more vibrant and won't develop leaf burn.\n[NC State/属] Hosta plantaginea  originated in China and is very fragrant and tolerates heat.\n[Walters/品種] Sun will cause leaf scorching.\n[RHS/品種] Aspect: East-facing or North-facing or West-facing",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向（乾燥地は避ける）〜 明るい半日陰／暖地: 明るい半日陰（午前の日向は可、西日は避ける）（西日 × 相当）\n[MBG/品種] Greenish-yellow margins may scorch in too much sun.\n[NC State/属] In the south it is best to plant hosta in full shade or dappled shade so that the foliage colors will be more vibrant and won't develop leaf burn.\n[NC State/属] Hosta plantaginea  originated in China and is very fragrant and tolerates heat.\n[Walters/品種] Sun will cause leaf scorching.\n[食い違い] 欧米の文献（品種・属の記述）は 中 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: East-facing or North-facing or West-facing",
   "spread_evidence": "[こぼれ種 0／stauden.de・品種] nicht versamend（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 0（[stauden.de・cultivar] nicht versamend）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[MBG・品種] It is a clump-forming perennial that typically matures in a spreading foliage mound to 24\" tall and to 48-60\" wide.",
-  "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters",
-  "sources_used": "MBG、NC State、RHS、Walters、stauden.de"
+  "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、おぎはら",
+  "sources_used": "MBG、NC State、RHS、Walters、stauden.de、おぎはら"
  }
 }

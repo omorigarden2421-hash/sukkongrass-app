@@ -117,13 +117,13 @@
    "level": null
   },
   "heat": {
-   "value": "中",
+   "value": "強",
    "method": "判定",
    "sources": [
-    "s06"
+    "s20"
    ],
-   "level": "genus",
-   "note": "欧米の文献。信頼度：低"
+   "level": "cultivar",
+   "note": "おぎはら（品種のページ）。信頼度：中"
   },
   "heat_note": {
    "value": null,
@@ -141,9 +141,11 @@
    "value": "×",
    "method": "判定",
    "sources": [
+    "s20",
+    "s21",
     "s06"
    ],
-   "level": "genus"
+   "level": "cultivar"
   },
   "drought": {
    "value": "中",
@@ -317,11 +319,11 @@
   "management_type_by_matching": null,
   "heat_west_only": "中",
   "muggy_west_only": null,
-  "heat_muggy_west_evidence": "[NC State/属] In the south it is best to plant hosta in full shade or dappled shade so that the foliage colors will be more vibrant and won't develop leaf burn.\n[NC State/属] Hosta plantaginea  originated in China and is very fragrant and tolerates heat.",
+  "heat_muggy_west_evidence": "[おぎはら/品種] 耐暑性；強\n[おぎはら楽天/品種] 日照 寒冷地: 日向（乾燥地は避ける）〜 明るい半日陰／暖地: 明るい半日陰（午前の日向は可、西日は避ける）（西日 × 相当）\n[NC State/属] In the south it is best to plant hosta in full shade or dappled shade so that the foliage colors will be more vibrant and won't develop leaf burn.\n[NC State/属] Hosta plantaginea  originated in China and is very fragrant and tolerates heat.\n[食い違い] 欧米の文献（属の記述）は 中 相当。おぎはら植物園の値を採った",
   "spread_evidence": null,
   "mixing_evidence": null,
   "silhouette_evidence": null,
-  "sources_with_cultivar_page": "なし",
-  "sources_used": "MBG、NC State"
+  "sources_with_cultivar_page": "おぎはら",
+  "sources_used": "MBG、NC State、おぎはら"
  }
 }
