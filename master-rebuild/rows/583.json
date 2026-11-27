@@ -324,7 +324,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s01",
@@ -386,7 +386,7 @@
   }
  },
  "review": {
-  "management_type_reason": "RHS・品種: 剪定不要だが花茎を切る花がら摘みで翌年の生育がよくなる。MBG（種）: 花穂を取ると二番花。おぎはら楽天: 種がこぼれた後に花茎を切る。こぼれ種でよく殖えるのは侵略的の明記ではない。機械の A から変更",
+  "management_type_reason": "RHS・品種: 剪定不要だが花茎を切る花がら摘みで翌年の生育がよくなる。MBG（種）: 花穂を取ると二番花。おぎはら楽天: 種がこぼれた後に花茎を切る。こぼれ種でよく殖えるのは侵略的の明記ではない。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "No pruning required, but deadheading , cutting down the dead flowering stems, may encourage growth the following year",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": "中",

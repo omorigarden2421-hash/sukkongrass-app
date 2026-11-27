@@ -292,7 +292,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s18",
@@ -359,7 +359,7 @@
   }
  },
  "review": {
-  "management_type_reason": "stauden.de・品種: 咲き終わった花茎を株元の葉まで切る。RHS・品種は剪定不要、MBG は手間いらず。花後の記述があるので上から順の判定で B だが、根拠は stauden.de の1件だけ。地下茎 2 は株元の描写で、はびこる記述ではない。機械の A から変更",
+  "management_type_reason": "stauden.de・品種: 咲き終わった花茎を株元の葉まで切る。RHS・品種は剪定不要、MBG は手間いらず。花後の記述があるので上から順の判定で B だが、根拠は stauden.de の1件だけ。地下茎 2 は株元の描写で、はびこる記述ではない。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": null,

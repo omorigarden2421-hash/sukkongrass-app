@@ -320,7 +320,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s01",
@@ -382,7 +382,7 @@
   }
  },
  "review": {
-  "management_type_reason": "RHS・品種: 剪定不要、花がら摘みで花期が延びる（上から順で B、機械は A）。MBG・種の「ほふく茎とこぼれ種で時に aggressive に広がる」は E に当たりうるが、mixing は「強い」で侵略的ではなく、sometimes の書き方なので E にしなかった。迷う",
+  "management_type_reason": "RHS・品種: 剪定不要、花がら摘みで花期が延びる（上から順で B、機械は A）。MBG・種の「ほふく茎とこぼれ種で時に aggressive に広がる」は E に当たりうるが、mixing は「強い」で侵略的ではなく、sometimes の書き方なので E にしなかった。迷う。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "No pruning required. deadhead to prolong flowering",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": null,

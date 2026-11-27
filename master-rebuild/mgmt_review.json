@@ -401,7 +401,7 @@
 "不要"
 ],
 "confidence": "中",
-"reason": "RHS・品種: 剪定不要だが花後に花がらを摘むと二番花。Walters・品種: 花の直後に軽く刈る。花後の記述があるので上から順の判定で B。機械の A から変更",
+"reason": "RHS・品種: 剪定不要だが花後に花がらを摘むと二番花。Walters・品種: 花の直後に軽く刈る。花後の記述があるので上から順の判定で B。機械の A から変更。2026-11-27 ユーザー「A」（剪定不要＋花茎を切るだけなら A）でも、株を刈り込む・切り戻す記述があるので B のまま",
 "quote": "Clip plants lightly immediately after blooming.",
 "no_prune_and_deadhead": true
 },
@@ -421,7 +421,7 @@
 "不要"
 ],
 "confidence": "低",
-"reason": "おぎはら・品種: 花が咲き進んだら株元まで剪定すると次の花が咲く（花後の切り戻し）。おぎはら楽天の「蒸れ・伸びすぎ・花後など」は夏・暑さの明記がなく C にしなかった（機械は C）。RHS は剪定不要",
+"reason": "おぎはら・品種: 花が咲き進んだら株元まで剪定すると次の花が咲く（花後の切り戻し）。おぎはら楽天の「蒸れ・伸びすぎ・花後など」は夏・暑さの明記がなく C にしなかった（機械は C）。RHS は剪定不要。2026-11-27 ユーザー「A」（剪定不要＋花茎を切るだけなら A）でも、株を刈り込む・切り戻す記述があるので B のまま",
 "quote": "花がある程度咲き進んだら株元まで剪定すると姿良く次の花もきれいに咲き",
 "no_prune_and_deadhead": true
 },
@@ -497,7 +497,7 @@
 "不要"
 ],
 "confidence": "中",
-"reason": "MBG・種／Walters・品種: 花後に刈り込む・刈る。MBG の「必要なら毎年株分けして締まった姿に」は条件つきで、毎年の更新が必要との明記ではないので D にしない（NC State は数年ごと）。ランナーで広がり「必要に応じて抑える」（stauden.de）は侵略的の明記ではない。機械の D から変更",
+"reason": "MBG・種／Walters・品種: 花後に刈り込む・刈る。MBG の「必要なら毎年株分けして締まった姿に」は条件つきで、毎年の更新が必要との明記ではないので D にしない（NC State は数年ごと）。ランナーで広がり「必要に応じて抑える」（stauden.de）は侵略的の明記ではない。機械の D から変更。2026-11-27 ユーザー「A」（剪定不要＋花茎を切るだけなら A）でも、株を刈り込む・切り戻す記述があるので B のまま",
 "quote": "Plants should be clipped hard or mowed (to 2 inches) after blooming to maintain a tidy habit.",
 "no_prune_and_deadhead": true
 },
@@ -696,13 +696,13 @@
 },
 {
 "no": 176,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "不要"
 ],
 "confidence": "低",
-"reason": "RHS・品種: 剪定不要、花がら摘みで花期が延びる（上から順で B、機械は A）。MBG・種の「ほふく茎とこぼれ種で時に aggressive に広がる」は E に当たりうるが、mixing は「強い」で侵略的ではなく、sometimes の書き方なので E にしなかった。迷う",
+"reason": "RHS・品種: 剪定不要、花がら摘みで花期が延びる（上から順で B、機械は A）。MBG・種の「ほふく茎とこぼれ種で時に aggressive に広がる」は E に当たりうるが、mixing は「強い」で侵略的ではなく、sometimes の書き方なので E にしなかった。迷う。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "No pruning required. deadhead to prolong flowering",
 "no_prune_and_deadhead": true
 },
@@ -1318,13 +1318,13 @@
 },
 {
 "no": 298,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "不要"
 ],
 "confidence": "高",
-"reason": "Walters・品種: 花がらを取ると返り咲く。stauden.de・品種: 種が熟す前に切る。RHS・品種は剪定不要。not aggressive と明記。花後の記述があるので機械の A ではなく B",
+"reason": "Walters・品種: 花がらを取ると返り咲く。stauden.de・品種: 種が熟す前に切る。RHS・品種は剪定不要。not aggressive と明記。花後の記述があるので機械の A ではなく B。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "Remove faded flowers to encourage repeat blooming.",
 "no_prune_and_deadhead": true
 },
@@ -1613,7 +1613,7 @@
 },
 {
 "no": 353,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "早春",
@@ -1621,7 +1621,7 @@
 "不要"
 ],
 "confidence": "中",
-"reason": "stauden.de・種: 咲き終わった花序を切る（花後）。RHS は剪定不要・春に枯れ葉を除くだけなので A とも読めるが、上から順で B（'Constance' と同じ扱い）。分球は2〜3年ごとで D ではない。機械の A から変更",
+"reason": "stauden.de・種: 咲き終わった花序を切る（花後）。RHS は剪定不要・春に枯れ葉を除くだけなので A とも読めるが、上から順で B（'Constance' と同じ扱い）。分球は2〜3年ごとで D ではない。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern",
 "no_prune_and_deadhead": true
 },
@@ -1702,14 +1702,14 @@
 },
 {
 "no": 369,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "不要",
 "早春"
 ],
 "confidence": "低",
-"reason": "RHS・品種は剪定不要とするが、おぎはら楽天・品種と stauden.de・品種の2つが花後に花茎を切るとするので B。試作のアルメリア（剪定不要＋花茎切りで A）の線引きなら A になるため迷った。機械の A から変更",
+"reason": "RHS・品種は剪定不要とするが、おぎはら楽天・品種と stauden.de・品種の2つが花後に花茎を切るとするので B。試作のアルメリア（剪定不要＋花茎切りで A）の線引きなら A になるため迷った。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "花後に花茎を切る、傷んだ葉があれば切る（夏〜秋）",
 "no_prune_and_deadhead": true
 },
@@ -2347,14 +2347,14 @@
 },
 {
 "no": 573,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "早春",
 "不要"
 ],
 "confidence": "中",
-"reason": "MBG・品種: 花後に花穂を取る。おぎはら楽天: 花後の花茎を切る、春の芽吹き前に短くカット。RHS は剪定不要だが、花後の記述があるので上から順の判定で B（機械は A）。ランナーは侵略的の明記なし",
+"reason": "MBG・品種: 花後に花穂を取る。おぎはら楽天: 花後の花茎を切る、春の芽吹き前に短くカット。RHS は剪定不要だが、花後の記述があるので上から順の判定で B（機械は A）。ランナーは侵略的の明記なし。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "Removal of flower spikes after bloom will improve the appearance of the foliage mound.",
 "no_prune_and_deadhead": true
 },
@@ -2388,13 +2388,13 @@
 },
 {
 "no": 583,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "不要"
 ],
 "confidence": "中",
-"reason": "RHS・品種: 剪定不要だが花茎を切る花がら摘みで翌年の生育がよくなる。MBG（種）: 花穂を取ると二番花。おぎはら楽天: 種がこぼれた後に花茎を切る。こぼれ種でよく殖えるのは侵略的の明記ではない。機械の A から変更",
+"reason": "RHS・品種: 剪定不要だが花茎を切る花がら摘みで翌年の生育がよくなる。MBG（種）: 花穂を取ると二番花。おぎはら楽天: 種がこぼれた後に花茎を切る。こぼれ種でよく殖えるのは侵略的の明記ではない。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "No pruning required, but deadheading , cutting down the dead flowering stems, may encourage growth the following year",
 "no_prune_and_deadhead": true
 },
@@ -2579,13 +2579,13 @@
 },
 {
 "no": 612,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "不要",
 "花後"
 ],
 "confidence": "低",
-"reason": "RHS は剪定不要とするが、stauden.de・種は咲き終わった茎を株元の葉まで切る、おぎはら楽天も花後に花茎を切る程度、とする。上から順の判定で花後の記述がある B にした（機械は A）。試作のアルメリアは同じ組み合わせで A なので、線引きは要確認",
+"reason": "RHS は剪定不要とするが、stauden.de・種は咲き終わった茎を株元の葉まで切る、おぎはら楽天も花後に花茎を切る程度、とする。上から順の判定で花後の記述がある B にした（機械は A）。試作のアルメリアは同じ組み合わせで A なので、線引きは要確認。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf",
 "no_prune_and_deadhead": true
 },
@@ -2920,7 +2920,7 @@
 },
 {
 "no": 733,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "早春",
@@ -2928,7 +2928,7 @@
 "不要"
 ],
 "confidence": "高",
-"reason": "stauden.de・品種: 咲き終わった花序を切る（花後）。おぎはら楽天: 花後に花茎を切る。RHS は剪定不要・春に枯れ葉を除く。Walters の3年ごとの株分けは D にしない。機械の A から変更",
+"reason": "stauden.de・品種: 咲き終わった花序を切る（花後）。おぎはら楽天: 花後に花茎を切る。RHS は剪定不要・春に枯れ葉を除く。Walters の3年ごとの株分けは D にしない。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern",
 "no_prune_and_deadhead": true
 },
@@ -3922,14 +3922,14 @@
 },
 {
 "no": 949,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "秋",
 "不要"
 ],
 "confidence": "中",
-"reason": "おぎはら楽天: 花後のタネをまめに摘み取ると繰り返し咲く（花がら摘み）ので B（機械は A）。RHS は剪定不要、stauden.de は秋に茎を切る・手入れほぼ不要",
+"reason": "おぎはら楽天: 花後のタネをまめに摘み取ると繰り返し咲く（花がら摘み）ので B（機械は A）。RHS は剪定不要、stauden.de は秋に茎を切る・手入れほぼ不要。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "花後のタネをまめに摘み取ると繰り返しよく咲きます",
 "no_prune_and_deadhead": true
 },
@@ -4470,7 +4470,7 @@
 },
 {
 "no": 1135,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "早春",
@@ -4478,7 +4478,7 @@
 "不要"
 ],
 "confidence": "中",
-"reason": "stauden.de・品種: 咲き終わった花序を上の茎葉まで切る（花後）。RHS は「剪定不要、春に枯れ葉と花茎を除くだけ」なので A とも読めるが、上から順の判定で B（ヒューケラ・ホスタの例と同じ扱い）。球茎の分球は2〜3年ごとで D ではない。機械の A から変更",
+"reason": "stauden.de・品種: 咲き終わった花序を上の茎葉まで切る（花後）。RHS は「剪定不要、春に枯れ葉と花茎を除くだけ」なので A とも読めるが、上から順の判定で B（ヒューケラ・ホスタの例と同じ扱い）。球茎の分球は2〜3年ごとで D ではない。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern",
 "no_prune_and_deadhead": true
 },
@@ -4831,7 +4831,7 @@
 "不要"
 ],
 "confidence": "低",
-"reason": "RHS・品種は「剪定不要」としつつ咲き終わった茎と古葉を取ると書く。Walters・品種: 花が衰えたら盛夏に刈り込む（葉の傷み・倒伏ではなく花の衰えが理由なので C ではなく花後の刈り込みと読んだ）。おぎはら楽天: 低く育てたいなら花後に短く切る。機械は A だが花後の刈り込みの記述が3つあるので B。剪定不要を重く見れば A",
+"reason": "RHS・品種は「剪定不要」としつつ咲き終わった茎と古葉を取ると書く。Walters・品種: 花が衰えたら盛夏に刈り込む（葉の傷み・倒伏ではなく花の衰えが理由なので C ではなく花後の刈り込みと読んだ）。おぎはら楽天: 低く育てたいなら花後に短く切る。機械は A だが花後の刈り込みの記述が3つあるので B。剪定不要を重く見れば A。2026-11-27 ユーザー「A」（剪定不要＋花茎を切るだけなら A）でも、株を刈り込む・切り戻す記述があるので B のまま",
 "quote": "Trim back in midsummer if blooming begins to wane.",
 "no_prune_and_deadhead": true
 },
@@ -6032,7 +6032,7 @@
 "不要"
 ],
 "confidence": "中",
-"reason": "おぎはら・品種: 花後に切り戻すと再び咲く、で B（機械は A）。RHS は剪定不要（早春に地際まで切る）。NC State・種の摘心は時期の記述がなく C にしない",
+"reason": "おぎはら・品種: 花後に切り戻すと再び咲く、で B（機械は A）。RHS は剪定不要（早春に地際まで切る）。NC State・種の摘心は時期の記述がなく C にしない。2026-11-27 ユーザー「A」（剪定不要＋花茎を切るだけなら A）でも、株を刈り込む・切り戻す記述があるので B のまま",
 "quote": "花後切り戻すと再び開花し、秋遅くまで長く楽しめる",
 "no_prune_and_deadhead": true
 },
@@ -6251,14 +6251,14 @@
 },
 {
 "no": 1429,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "早春",
 "不要"
 ],
 "confidence": "中",
-"reason": "NC State・種、stauden.de・品種: 花後に花を切る・咲き終わった花穂を切る。RHS・品種: 剪定不要、傷んだ茎は早春に切ってよい。初夏の切り詰めの文がないので機械の C ではなく B（'Firetail' と同じ扱い）",
+"reason": "NC State・種、stauden.de・品種: 花後に花を切る・咲き終わった花穂を切る。RHS・品種: 剪定不要、傷んだ茎は早春に切ってよい。初夏の切り詰めの文がないので機械の C ではなく B（'Firetail' と同じ扱い）。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "Cut back flowers after blooming to keep tidy.",
 "no_prune_and_deadhead": true
 },
@@ -6329,13 +6329,13 @@
 },
 {
 "no": 1438,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "不要",
 "花後"
 ],
 "confidence": "低",
-"reason": "RHS・品種: 剪定不要だが咲き終わった花穂は摘む。おぎはら楽天・品種: 花後に花茎を切る程度。Gaißmayer: はびこらず、よく返り咲く。花がら摘みの明記があるので上から順の判定で B（機械は A）。試作のアルメリアは似た組み合わせで A なので、線引きは要確認",
+"reason": "RHS・品種: 剪定不要だが咲き終わった花穂は摘む。おぎはら楽天・品種: 花後に花茎を切る程度。Gaißmayer: はびこらず、よく返り咲く。花がら摘みの明記があるので上から順の判定で B（機械は A）。試作のアルメリアは似た組み合わせで A なので、線引きは要確認。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "No pruning required. deadhead faded spikes",
 "no_prune_and_deadhead": true
 },
@@ -6424,7 +6424,7 @@
 "不要"
 ],
 "confidence": "低",
-"reason": "RHS・品種は「剪定不要、ただし花後に切り戻せる」。stauden.de・品種は咲き終わった花序を切る、こぼれ種を防ぐため種が熟す前に切る、とするので B（同じ種の 'Dark Beauty' とそろえた）。RHS の剪定不要を重く見れば A なので迷った。機械の A から変更",
+"reason": "RHS・品種は「剪定不要、ただし花後に切り戻せる」。stauden.de・品種は咲き終わった花序を切る、こぼれ種を防ぐため種が熟す前に切る、とするので B（同じ種の 'Dark Beauty' とそろえた）。RHS の剪定不要を重く見れば A なので迷った。機械の A から変更。2026-11-27 ユーザー「A」（剪定不要＋花茎を切るだけなら A）でも、株を刈り込む・切り戻す記述があるので B のまま",
 "quote": "No pruning required, but can cut back after flowering",
 "no_prune_and_deadhead": true
 },
@@ -6536,13 +6536,13 @@
 },
 {
 "no": 1464,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "不要"
 ],
 "confidence": "中",
-"reason": "RHS・品種: 剪定不要だが花茎を切る花がら摘みで翌年の生育がよくなる。MBG・NC State（種）: 花後に花穂を取ると二番花・こぼれ種を抑える。晩夏の乱れは二年草として抜く話で C ではない。機械の A から変更",
+"reason": "RHS・品種: 剪定不要だが花茎を切る花がら摘みで翌年の生育がよくなる。MBG・NC State（種）: 花後に花穂を取ると二番花・こぼれ種を抑える。晩夏の乱れは二年草として抜く話で C ではない。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "No pruning required, but deadheading , cutting down the dead flowering stem, will encourage growth the following year",
 "no_prune_and_deadhead": true
 },
@@ -7708,13 +7708,13 @@
 },
 {
 "no": 1619,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "不要"
 ],
 "confidence": "中",
-"reason": "stauden.de・品種: 咲き終わった花茎を株元の葉まで切る。RHS・品種は剪定不要、MBG は手間いらず。花後の記述があるので上から順の判定で B だが、根拠は stauden.de の1件だけ。地下茎 2 は株元の描写で、はびこる記述ではない。機械の A から変更",
+"reason": "stauden.de・品種: 咲き終わった花茎を株元の葉まで切る。RHS・品種は剪定不要、MBG は手間いらず。花後の記述があるので上から順の判定で B だが、根拠は stauden.de の1件だけ。地下茎 2 は株元の描写で、はびこる記述ではない。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf",
 "no_prune_and_deadhead": true
 },
@@ -7987,14 +7987,14 @@
 },
 {
 "no": 1691,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "秋",
 "不要"
 ],
 "confidence": "中",
-"reason": "stauden.de・品種: 咲き終わった花穂を上の茎葉まで切る、の1件で B（機械は A）。RHS は剪定不要、Walters は晩秋に地際で刈る。株分けは3〜4年ごと",
+"reason": "stauden.de・品種: 咲き終わった花穂を上の茎葉まで切る、の1件で B（機械は A）。RHS は剪定不要、Walters は晩秋に地際で刈る。株分けは3〜4年ごと。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern",
 "no_prune_and_deadhead": true
 },
@@ -8673,14 +8673,14 @@
 },
 {
 "no": 1872,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "不要",
 "早春"
 ],
 "confidence": "低",
-"reason": "RHS・品種は剪定不要とするが、おぎはら楽天・品種が花後に花茎を切るとするので B。花後の根拠はおぎはらの1件だけで、試作のアルメリアの線引きなら A になるため迷った。機械の A から変更",
+"reason": "RHS・品種は剪定不要とするが、おぎはら楽天・品種が花後に花茎を切るとするので B。花後の根拠はおぎはらの1件だけで、試作のアルメリアの線引きなら A になるため迷った。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "花後に花茎を切る、傷んだ葉があれば切る（夏〜秋）",
 "no_prune_and_deadhead": true
 },
@@ -8849,14 +8849,14 @@
 },
 {
 "no": 1899,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "早春",
 "不要"
 ],
 "confidence": "中",
-"reason": "おぎはら楽天: 花後の花茎を切る、春の芽吹き前に短くカット。この1件で B（機械は A）。RHS は剪定不要、Walters は冬前に刈らない",
+"reason": "おぎはら楽天: 花後の花茎を切る、春の芽吹き前に短くカット。この1件で B（機械は A）。RHS は剪定不要、Walters は冬前に刈らない。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "花後の花茎を切る",
 "no_prune_and_deadhead": true
 },
@@ -8894,14 +8894,14 @@
 },
 {
 "no": 1904,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "早春",
 "不要"
 ],
 "confidence": "中",
-"reason": "stauden.de・種: 咲き終わった茎を切る・種が熟す前に切る（決まった文で B）。RHS: 春に枯れ葉をかき出す。2〜3年ごとの株分けは D ではない。おぎはら楽天の「伸びすぎたら株元まで切る」はグラスの決まった文なので C の根拠にしない。機械の A から変更",
+"reason": "stauden.de・種: 咲き終わった茎を切る・種が熟す前に切る（決まった文で B）。RHS: 春に枯れ葉をかき出す。2〜3年ごとの株分けは D ではない。おぎはら楽天の「伸びすぎたら株元まで切る」はグラスの決まった文なので C の根拠にしない。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf",
 "no_prune_and_deadhead": true
 },
@@ -8972,13 +8972,13 @@
 },
 {
 "no": 1913,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "不要"
 ],
 "confidence": "中",
-"reason": "stauden.de・品種: こぼれ種を防ぐため種が熟す前に切る（花後）。RHS・品種は剪定不要。こぼれ種は「確認して抑える」程度で侵略的の明記なし。機械の A から変更（同種 'Vicar's Mead' も B）",
+"reason": "stauden.de・品種: こぼれ種を防ぐため種が熟す前に切る（花後）。RHS・品種は剪定不要。こぼれ種は「確認して抑える」程度で侵略的の明記なし。機械の A から変更（同種 'Vicar's Mead' も B）。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden",
 "no_prune_and_deadhead": true
 },
@@ -9149,13 +9149,13 @@
 },
 {
 "no": 1930,
-"type": "B 花後刈込型",
+"type": "A 放任型",
 "codes": [
 "花後",
 "不要"
 ],
 "confidence": "高",
-"reason": "RHS・品種: 剪定不要としつつ、咲き終わった花穂を取り除く。stauden.de・品種・おぎはら楽天: 花後の花茎を切る。花後の記述があるので機械の A ではなく B（同種の 'Redstart' も B）",
+"reason": "RHS・品種: 剪定不要としつつ、咲き終わった花穂を取り除く。stauden.de・品種・おぎはら楽天: 花後の花茎を切る。花後の記述があるので機械の A ではなく B（同種の 'Redstart' も B）。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
 "quote": "No pruning required. Remove faded flower spikes",
 "no_prune_and_deadhead": true
 },
@@ -9371,7 +9371,7 @@
 "不要"
 ],
 "confidence": "中",
-"reason": "Gaißmayer・品種: 花後の切り戻しで二番花。Walters: 花後に葉が疲れたら刈る（夏の傷み・暑さの明記なし、アルケミラと同じ扱い）。RHS は剪定不要・早春に地際で切る。機械の C ではなく B",
+"reason": "Gaißmayer・品種: 花後の切り戻しで二番花。Walters: 花後に葉が疲れたら刈る（夏の傷み・暑さの明記なし、アルケミラと同じ扱い）。RHS は剪定不要・早春に地際で切る。機械の C ではなく B。2026-11-27 ユーザー「A」（剪定不要＋花茎を切るだけなら A）でも、株を刈り込む・切り戻す記述があるので B のまま",
 "quote": "Ein beherzter Rückschnitt nach der Blüte fördert einen zweiten Flor.",
 "no_prune_and_deadhead": true
 },
@@ -9551,7 +9551,7 @@
 "花後"
 ],
 "confidence": "低",
-"reason": "RHS・品種は剪定不要。一方 stauden.de・品種は咲き終わった茎を株元の葉まで切る、Gaißmayer・種は切り戻すと葉が新しく出てこぼれ種を防ぐ、とする（夏の傷みの話ではないので C ではない）。花後の記述があるので上から順の判定で B（機械は A）。試作のアルメリアは似た組み合わせで A なので、線引きは要確認",
+"reason": "RHS・品種は剪定不要。一方 stauden.de・品種は咲き終わった茎を株元の葉まで切る、Gaißmayer・種は切り戻すと葉が新しく出てこぼれ種を防ぐ、とする（夏の傷みの話ではないので C ではない）。花後の記述があるので上から順の判定で B（機械は A）。試作のアルメリアは似た組み合わせで A なので、線引きは要確認。2026-11-27 ユーザー「A」（剪定不要＋花茎を切るだけなら A）でも、株を刈り込む・切り戻す記述があるので B のまま",
 "quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf",
 "no_prune_and_deadhead": true
 },

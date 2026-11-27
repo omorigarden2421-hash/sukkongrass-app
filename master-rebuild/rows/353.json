@@ -293,7 +293,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s18",
@@ -361,7 +361,7 @@
   }
  },
  "review": {
-  "management_type_reason": "stauden.de・種: 咲き終わった花序を切る（花後）。RHS は剪定不要・春に枯れ葉を除くだけなので A とも読めるが、上から順で B（'Constance' と同じ扱い）。分球は2〜3年ごとで D ではない。機械の A から変更",
+  "management_type_reason": "stauden.de・種: 咲き終わった花序を切る（花後）。RHS は剪定不要・春に枯れ葉を除くだけなので A とも読めるが、上から順で B（'Constance' と同じ扱い）。分球は2〜3年ごとで D ではない。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": "中",

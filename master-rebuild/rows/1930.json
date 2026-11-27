@@ -305,7 +305,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s01",
@@ -372,7 +372,7 @@
   }
  },
  "review": {
-  "management_type_reason": "RHS・品種: 剪定不要としつつ、咲き終わった花穂を取り除く。stauden.de・品種・おぎはら楽天: 花後の花茎を切る。花後の記述があるので機械の A ではなく B（同種の 'Redstart' も B）",
+  "management_type_reason": "RHS・品種: 剪定不要としつつ、咲き終わった花穂を取り除く。stauden.de・品種・おぎはら楽天: 花後の花茎を切る。花後の記述があるので機械の A ではなく B（同種の 'Redstart' も B）。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "No pruning required. Remove faded flower spikes",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": "弱",

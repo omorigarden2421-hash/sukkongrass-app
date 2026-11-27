@@ -301,7 +301,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s01",
@@ -365,7 +365,7 @@
   }
  },
  "review": {
-  "management_type_reason": "RHS・品種: 剪定不要だが咲き終わった花穂は摘む。おぎはら楽天・品種: 花後に花茎を切る程度。Gaißmayer: はびこらず、よく返り咲く。花がら摘みの明記があるので上から順の判定で B（機械は A）。試作のアルメリアは似た組み合わせで A なので、線引きは要確認",
+  "management_type_reason": "RHS・品種: 剪定不要だが咲き終わった花穂は摘む。おぎはら楽天・品種: 花後に花茎を切る程度。Gaißmayer: はびこらず、よく返り咲く。花がら摘みの明記があるので上から順の判定で B（機械は A）。試作のアルメリアは似た組み合わせで A なので、線引きは要確認。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "No pruning required. deadhead faded spikes",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": "弱",

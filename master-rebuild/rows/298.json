@@ -291,7 +291,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s10",
@@ -351,7 +351,7 @@
   }
  },
  "review": {
-  "management_type_reason": "Walters・品種: 花がらを取ると返り咲く。stauden.de・品種: 種が熟す前に切る。RHS・品種は剪定不要。not aggressive と明記。花後の記述があるので機械の A ではなく B",
+  "management_type_reason": "Walters・品種: 花がらを取ると返り咲く。stauden.de・品種: 種が熟す前に切る。RHS・品種は剪定不要。not aggressive と明記。花後の記述があるので機械の A ではなく B。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "Remove faded flowers to encourage repeat blooming.",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": null,

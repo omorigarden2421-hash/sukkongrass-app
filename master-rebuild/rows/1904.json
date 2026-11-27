@@ -296,7 +296,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s18",
@@ -359,7 +359,7 @@
   }
  },
  "review": {
-  "management_type_reason": "stauden.de・種: 咲き終わった茎を切る・種が熟す前に切る（決まった文で B）。RHS: 春に枯れ葉をかき出す。2〜3年ごとの株分けは D ではない。おぎはら楽天の「伸びすぎたら株元まで切る」はグラスの決まった文なので C の根拠にしない。機械の A から変更",
+  "management_type_reason": "stauden.de・種: 咲き終わった茎を切る・種が熟す前に切る（決まった文で B）。RHS: 春に枯れ葉をかき出す。2〜3年ごとの株分けは D ではない。おぎはら楽天の「伸びすぎたら株元まで切る」はグラスの決まった文なので C の根拠にしない。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "Rückschnitt abgeblühter Stängel bis zum grundständigen Blattschopf",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": null,

@@ -289,7 +289,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s18",
@@ -355,7 +355,7 @@
   }
  },
  "review": {
-  "management_type_reason": "stauden.de・品種: 咲き終わった花穂を上の茎葉まで切る、の1件で B（機械は A）。RHS は剪定不要、Walters は晩秋に地際で刈る。株分けは3〜4年ごと",
+  "management_type_reason": "stauden.de・品種: 咲き終わった花穂を上の茎葉まで切る、の1件で B（機械は A）。RHS は剪定不要、Walters は晩秋に地際で刈る。株分けは3〜4年ごと。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "Rückschnitt abgeblühter Blütenstände bis zu den oberen Stängelblättern",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": null,

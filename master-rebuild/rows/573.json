@@ -303,7 +303,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s02",
@@ -371,7 +371,7 @@
   }
  },
  "review": {
-  "management_type_reason": "MBG・品種: 花後に花穂を取る。おぎはら楽天: 花後の花茎を切る、春の芽吹き前に短くカット。RHS は剪定不要だが、花後の記述があるので上から順の判定で B（機械は A）。ランナーは侵略的の明記なし",
+  "management_type_reason": "MBG・品種: 花後に花穂を取る。おぎはら楽天: 花後の花茎を切る、春の芽吹き前に短くカット。RHS は剪定不要だが、花後の記述があるので上から順の判定で B（機械は A）。ランナーは侵略的の明記なし。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "Removal of flower spikes after bloom will improve the appearance of the foliage mound.",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": null,

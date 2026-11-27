@@ -284,7 +284,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s21",
@@ -345,7 +345,7 @@
   }
  },
  "review": {
-  "management_type_reason": "おぎはら楽天: 花後のタネをまめに摘み取ると繰り返し咲く（花がら摘み）ので B（機械は A）。RHS は剪定不要、stauden.de は秋に茎を切る・手入れほぼ不要",
+  "management_type_reason": "おぎはら楽天: 花後のタネをまめに摘み取ると繰り返し咲く（花がら摘み）ので B（機械は A）。RHS は剪定不要、stauden.de は秋に茎を切る・手入れほぼ不要。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "花後のタネをまめに摘み取ると繰り返しよく咲きます",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": null,

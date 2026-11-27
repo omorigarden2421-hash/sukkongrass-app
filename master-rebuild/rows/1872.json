@@ -285,7 +285,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s01",
@@ -349,7 +349,7 @@
   }
  },
  "review": {
-  "management_type_reason": "RHS・品種は剪定不要とするが、おぎはら楽天・品種が花後に花茎を切るとするので B。花後の根拠はおぎはらの1件だけで、試作のアルメリアの線引きなら A になるため迷った。機械の A から変更",
+  "management_type_reason": "RHS・品種は剪定不要とするが、おぎはら楽天・品種が花後に花茎を切るとするので B。花後の根拠はおぎはらの1件だけで、試作のアルメリアの線引きなら A になるため迷った。機械の A から変更。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "花後に花茎を切る、傷んだ葉があれば切る（夏〜秋）",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": "中",

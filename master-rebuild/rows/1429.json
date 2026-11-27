@@ -302,7 +302,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s06",
@@ -372,7 +372,7 @@
   }
  },
  "review": {
-  "management_type_reason": "NC State・種、stauden.de・品種: 花後に花を切る・咲き終わった花穂を切る。RHS・品種: 剪定不要、傷んだ茎は早春に切ってよい。初夏の切り詰めの文がないので機械の C ではなく B（'Firetail' と同じ扱い）",
+  "management_type_reason": "NC State・種、stauden.de・品種: 花後に花を切る・咲き終わった花穂を切る。RHS・品種: 剪定不要、傷んだ茎は早春に切ってよい。初夏の切り詰めの文がないので機械の C ではなく B（'Firetail' と同じ扱い）。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "Cut back flowers after blooming to keep tidy.",
   "management_type_by_matching": "C 夏前切戻型",
   "heat_west_only": "中",

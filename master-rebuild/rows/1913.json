@@ -277,7 +277,7 @@
    "level": "cultivar"
   },
   "management_type": {
-   "value": "B 花後刈込型",
+   "value": "A 放任型",
    "method": "判定",
    "sources": [
     "s18",
@@ -335,7 +335,7 @@
   }
  },
  "review": {
-  "management_type_reason": "stauden.de・品種: こぼれ種を防ぐため種が熟す前に切る（花後）。RHS・品種は剪定不要。こぼれ種は「確認して抑える」程度で侵略的の明記なし。機械の A から変更（同種 'Vicar's Mead' も B）",
+  "management_type_reason": "stauden.de・品種: こぼれ種を防ぐため種が熟す前に切る（花後）。RHS・品種は剪定不要。こぼれ種は「確認して抑える」程度で侵略的の明記なし。機械の A から変更（同種 'Vicar's Mead' も B）。2026-11-27 ユーザーの決定で A：RHS の剪定不要を採り、花後に花茎・花穂を切るだけの記述では B にしない",
   "management_type_quote": "Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden",
   "management_type_by_matching": "A 放任型",
   "heat_west_only": null,
