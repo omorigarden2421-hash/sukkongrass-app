@@ -974,7 +974,14 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
   - 手で読んだデータから、前の種の種のページを外した：batch_03 の Gaißmayer・おぎはら（S04 に nemorosa の種のページ）、batch_09 の Jelitto（Mn01 に didyma の種のページ）
   - 読み直しの JSON で、前の種の種のページが決め手だったものを直した（メモに「（2026-11-27 種の当て直し：…）」）：1303 切り花 ○・乾燥 強 → 空欄、冬の決め手からおぎはらを外す（文は同じ）。1422 乾燥 中 → 空欄、繁殖から株分け・根挿しを外す、冬の防寒・冬の姿を外す（文は「冬も葉が残る常緑性です。」）。1565 乾燥 弱 → 空欄、蜜源と繁殖は stauden.de の × piperita に当て直し（値は同じ）。1247 蜜源・繁殖・土壌水分は NC State の novi-belgii に当て直し（値は同じ）
   - 和名：1247・1903 ユウゼンギク、1376 ワレモコウ。交配種（615・825・1609・80・1303）と 1422 hibernica・1565 × piperita は YList の当たりがなく空欄（推測では入れていない）
-- 表：`新マスター_下書き_916品種_1127h.xlsx`（最新）
+- 表：`新マスター_下書き_916品種_1127h.xlsx`
+- 【1127i】種が変わった9品種の、Gaißmayer・Jelitto・おぎはらの新しい種のページを読んだ（ユーザー「Gaißmayer・Jelitto・おぎはら、新しい種のページを読んで」）。Gaißmayer・Jelitto はユーザーの Chrome で1ページずつ（7秒おき。どちらも最初に確認画面が出たが、待つと自動で通った）、おぎはらは curl（scripts/tools/ogi_search.py）
+  - Gaißmayer（サイト内検索）：Nepeta 21件に × faassenii の種のページも 'Blue Wonder' もない。Salvia 64件に × digenea・'Merleau' はない。Monarda 18件に 'Blaustrumpf'・'Blue Stocking' はない。Sanguisorba officinalis の種のページは 2026-11-20 に読んだもの（7522）があり、Sa04 に当てた。Hedera は前回から掲載なし。D02・Me08・A05・A07 は品種のページがすでにある
+  - Jelitto（英語のサイト内検索）：Mentha 11件に × piperita はない（aquatica・cervina・longifolia・pulegium・spicata・suaveolens）。faassenii は 'Felix' の1件だけ。digenea は0件。Merleau は 'Merleau Compact Blue／Rose／White' だけ（前回と同じく別の商品として使わない）。前に読んだ種のページ SANGUISORBA officinalis を Sa04 に、ASTER novi-belgii を A05・A07 に当てた
+  - おぎはら：メルローはクリスマスローズだけ。サンギソルバ9件に officinalis の種のページはない（品種だけ）。ミント（Mentha）・ユウゼンギク・ヘデラはない。モナルダは色別の系統だけ。ブルーキャットミント ファッシニー（750、種のページ）を Ne09 に当てた
+  - 変わった値：1609 ネペタ 'Blue Wonder' の耐暑性の決め方がおぎはら（種のページ 強）＋楽天の注意で 中（値はユーザーの確認と同じ 中）。1376 サンギソルバ 'Lemon Splash' は、切り花・蜜源の読み直しが「文献に記述がない」のままだったので確かめ直し、RHS の品種のページに Cut flowers（植える場所）と Plants for Pollinators の印があったので、切り花 ○（確かさ 中）・蜜源 ◎ にした（cut_reread.json・poll_reread.json のメモ）。ほかは文献の欄だけ。矛盾の確認の数は変わらない
+  - 【前からの抜け（未対応）】(1) assemble_pilot.py の rhs() は RHS の「Plants for Pollinators」の印と、植える場所の「Cut flowers」を拾っていない（植える場所は Coastal だけ）。poll_reread.json に Plants for Pollinators は0件。(2) Gaißmayer の表の「Schnittgeeignet: ja」は切り花の読み直しの入力（ga[12] の本文だけ）に入っていない。どちらも916品種の切り花・蜜源に関わる
+- 表：`新マスター_下書き_916品種_1127i.xlsx`（最新）
 
 ## 次にやること（全部の属の下書きが終わった）
 - 【2026-11-21 の終わりの時点】6列・暑さの確認ページ・管理タイプの見直し（在庫あり）まで済み。待っているのは、(1) 確認ページ「暑さに弱い品種の確認」の回答 (2) 「剪定不要＋花後の花茎切り」を A にするか B にするか。（夜に、回答を表に入れる仕組み〔scripts/tools/apply_answers.py〕と、在庫のない282品種の管理タイプの見直しも済んだ。上の2つの節）。残っているのは、未決（DECISIONS.md）、試作と同じ形（rows・根拠の JSON）への統合

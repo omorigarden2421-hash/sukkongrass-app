@@ -2760,12 +2760,12 @@
 "今のマスター": "○"
 },
 "1376": {
-"切り花": null,
-"段階": null,
-"決め手": null,
+"切り花": "○",
+"段階": "品種",
+"決め手": "[RHS・品種] Suggested planting locations and garden types: Cut flowers",
 "食い違い": null,
-"確かさ": "高",
-"メモ": null,
+"確かさ": "中",
+"メモ": "（2026-11-27 種の当て直し：RHS の品種のページの植える場所に Cut flowers がある〔読み直しの入力に入っていなかった〕。新しく当てた Gaißmayer officinalis の種のページも Schnittgeeignet ja）",
 "前の値": null,
 "今のマスター": "○"
 },

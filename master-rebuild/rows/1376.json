@@ -302,16 +302,20 @@
    "level": "cultivar"
   },
   "cut_flower": {
-   "value": null,
+   "value": "○",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "pollinator": {
-   "value": null,
+   "value": "◎",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は地上部が枯れます。",
@@ -341,6 +345,6 @@
   "mixing_evidence": "[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[RHS・品種] Clump forming",
   "silhouette_evidence": "[RHS・品種] Habit: Clump forming",
   "sources_with_cultivar_page": "RHS、stauden.de",
-  "sources_used": "MBG、RHS、stauden.de"
+  "sources_used": "Jelitto、MBG、RHS、stauden.de"
  }
 }

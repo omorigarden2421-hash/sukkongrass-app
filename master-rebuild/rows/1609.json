@@ -139,11 +139,10 @@
    "value": "中",
    "method": "判定",
    "sources": [
-    "s02",
-    "s01"
+    "s20"
    ],
-   "level": "cultivar",
-   "note": "欧米の文献。ユーザーの確認（2026-11-27）：耐暑性 弱 は違うと指摘、中 にした。信頼度：中"
+   "level": "species",
+   "note": "おぎはら（種のページ）＋楽天のページの注意（強 → 中）。ユーザーの確認（2026-11-27）：耐暑性 弱 は違うと指摘、中 にした。信頼度：中"
   },
   "heat_note": {
    "value": "シカゴ植物園: 総合評価 good（星4つ）。花つき excellent。'Dropmore' などと違いが見られなかった、との記述（no29）",
@@ -157,6 +156,8 @@
    "value": "弱",
    "method": "判定",
    "sources": [
+    "s20",
+    "s21",
     "s02",
     "s01"
    ],
@@ -166,6 +167,8 @@
    "value": "△",
    "method": "判定",
    "sources": [
+    "s20",
+    "s21",
     "s02",
     "s01"
    ],
@@ -304,7 +307,9 @@
     "s01",
     "s02",
     "s06",
-    "s18"
+    "s18",
+    "s20",
+    "s21"
    ],
    "level": "cultivar"
   },
@@ -376,11 +381,11 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "弱",
   "muggy_west_only": "弱",
-  "heat_muggy_west_evidence": "[MBG/品種] Somewhat intolerant of the heat and humidity of the deep South, however, and appreciates some light afternoon shade in hot summer climates such as the St.\n[RHS/品種] Aspect: South-facing or West-facing",
+  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[おぎはら 強・欧米 弱] おぎはら自身も楽天のページで蒸れ・暖地の日かげの注意を書いているので、中 にした\n[おぎはら楽天/種] 耐湿性: やや弱い 高温多湿を嫌います（蒸れ 弱 相当）\n[MBG/品種] Somewhat intolerant of the heat and humidity of the deep South, however, and appreciates some light afternoon shade in hot summer climates such as the St.\n[食い違い] 欧米の文献（品種の記述）は 弱 相当。おぎはら植物園の値を採った\n[RHS/品種] Aspect: South-facing or West-facing",
   "spread_evidence": "[こぼれ種 0／NC State・種] As a sterile plant it is unlikely to reseed／[MBG・品種] seeds are sterile（読み直し）\n[こぼれ種 0／NC State・種] It is a sterile hybrid plant, the result of a cross between Nepeta racemosa and Nepeta nepetella .\n[こぼれ種の食い違い] MBG は 3 相当",
   "mixing_evidence": "[MBG・品種] May aggressively self-seed in optimum growing conditions.\n[読み直し 2026-11-24] 株立ちの記述だけで、広がる記述がない：[MBG・品種] forms a spreading clump",
   "silhouette_evidence": "[MBG・品種] 'Blue Wonder' is a dwarf, mounding, bushy perennial growing to 12\" tall.",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、シカゴ植物園",
-  "sources_used": "MBG、NC State、RHS、stauden.de、シカゴ植物園"
+  "sources_used": "MBG、NC State、RHS、stauden.de、おぎはら、シカゴ植物園"
  }
 }

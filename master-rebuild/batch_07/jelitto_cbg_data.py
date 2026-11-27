@@ -41,7 +41,8 @@ JELITTO = [
   "medicinal plant / beneficial plant / culinary herb; honey-bee food plant / water or marshplant", None),
  (["Sa02"], "SANGUISORBA hakusanensis", "cultivar", None, "dark pink", "June - August", "Z4 - Z8", "", "60 cm", "moist / average", "", "Arching flower spikes. suitable for cutting", None),
  (["Sa03"], "SANGUISORBA menziesii", "cultivar", None, "brilliant black-red", "June - July", "Z4 - Z8", "", "80 cm", "moist / average", "", "Brilliant black-red spikes. suitable for cutting", None),
- (["Sa06"], "SANGUISORBA officinalis", "species", None, "blood-red", "June - August", "Z3 - Z8", "", "60 cm", "moist", "",
+ # 2026-11-27 Sa04 'Lemon Splash' は種が officinalis になったので、この種のページを当てた（Jelitto に品種のページはない）
+ (["Sa04", "Sa06"], "SANGUISORBA officinalis", "species", None, "blood-red", "June - August", "Z3 - Z8", "", "60 cm", "moist", "",
   "medicinal plant / beneficial plant / tea herb / culinary herb; honey-bee food plant", None),
  (["Sa07"], "SANGUISORBA tenuifolia var. tenuifolia f. alba", "cultivar", None, "white", "July - September", "Z3 - Z8", "", "120 cm", "moist / average", "",
   "Nodding flower spikes. solitary plant; suitable for cutting", None),

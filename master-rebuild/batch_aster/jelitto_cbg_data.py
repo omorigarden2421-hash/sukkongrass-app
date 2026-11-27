@@ -11,7 +11,8 @@ JELITTO = [
   "80 cm", "average", "full sun", "", "北米"),
  (["A16", "A17", "A18", "A19"], "ASTER novae-angliae (SYMPHYOTRICHUM)", "species", "Eastern North America", "pink, red, purple", "September - October",
   "Z2 - Z8", "stoloniferous", "160 cm", "average", "full sun", "suitable for cutting", "北米東部"),
- (["A20", "A21"], "ASTER novi-belgii (SYMPHYOTRICHUM)", "species", "North America", "blue, pink and white", "September - October", "Z2 - Z8", None,
+ # 2026-11-27 A05・A07 は種が novi-belgii になったので、この種のページも当てた（Jelitto に品種のページはない）
+ (["A05", "A07", "A20", "A21"], "ASTER novi-belgii (SYMPHYOTRICHUM)", "species", "North America", "blue, pink and white", "September - October", "Z2 - Z8", None,
   "140 cm", "average", "full sun", "suitable for cutting", "北米"),
  (["A22"], "ASTER tataricus (CRINITARIA)", "species", None, "lavender blue", "September - November", "Z3 - Z8", None, "140 cm", "average", "full sun",
   "medicinal plant; honey-bee food plant", None),

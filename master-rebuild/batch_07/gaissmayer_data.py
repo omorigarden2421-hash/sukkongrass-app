@@ -69,3 +69,5 @@ GAISS = {
           {"Giftklasse": "giftig +", "Schnittgeeignet": "ja"}, [("habit", "Die eher langsam wachsende, aber dennoch wirklich ausgezeichnete 'Lemon Queen'")]),
  "Tr04": _EUR, "Tr05": _EUR,
 }
+# 2026-11-27 Sa04 'Lemon Splash' は種が officinalis になったので、Sa06 と同じ種のページ（7522）を当てた（'Lemon Splash' のページは掲載なし）
+GAISS["Sa04"] = GAISS["Sa06"]

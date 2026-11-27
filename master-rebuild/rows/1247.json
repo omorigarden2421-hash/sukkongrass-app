@@ -52,7 +52,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS）"
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS）"
   },
   "spread_min": {
    "value": 40,
@@ -207,7 +207,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS）"
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS）"
   },
   "self_seed_level": {
    "value": null,
@@ -229,7 +229,7 @@
    "method": "判定",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS）"
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。環境省の外来種リストに掲載（防除検討外来種（ユウゼンギク（メリケンコンギク、シノノメギク、ユウゼンノギク）））",
@@ -343,6 +343,6 @@
   "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Cascading; Erect",
   "sources_with_cultivar_page": "Gaißmayer",
-  "sources_used": "Gaißmayer、MBG、NC State、RHS"
+  "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS"
  }
 }

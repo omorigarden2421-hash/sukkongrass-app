@@ -247,7 +247,7 @@
    "method": "判定",
    "sources": null,
    "level": null,
-   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
+   "note": "組み立てのとき文献名を付けていない項目（使った文献：Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園）"
   },
   "invasive_note": {
    "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。環境省の外来種リストに掲載（防除検討外来種（ユウゼンギク（メリケンコンギク、シノノメギク、ユウゼンノギク）））",
@@ -382,6 +382,6 @@
   "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: kissenartig bis kissenbildend / halbkugelig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、シカゴ植物園",
-  "sources_used": "Gaißmayer、MBG、NC State、RHS、stauden.de、シカゴ植物園"
+  "sources_used": "Gaißmayer、Jelitto、MBG、NC State、RHS、stauden.de、シカゴ植物園"
  }
 }
