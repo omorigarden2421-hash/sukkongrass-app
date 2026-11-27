@@ -682,7 +682,11 @@ for m in master:
             lnew = None
         # RHS の品種名に「(v)」（RHS が斑入りとしている）があれば斑入り（2026-11-25 ユーザー「3つともおすすめ」）
         # ただし、中心・葉脈の模様（ヒューケラ型）で地の色にした品種は除く（同じ日の決定。模様は斑入りにしない）
-        if "(v)" in (r.get("学名（RHS）") or "") and lnew != "斑入り" and not re.search(r"中心|葉脈|中肋", lrr.get("メモ") or ""):
+        if no == "1484":
+            # スピレア 'Magic Carpet'：RHS の名前に (v) があるが、RHS の葉色は Bronze・Red・Yellow（新芽が赤く、のちに黄金色）。季節変化型にする（ユーザー「季節変化型に」2026-11-27）
+            lw.append(f"[ユーザーの決定 2026-11-27] RHS の名前に (v) があるが、RHS の葉色は Bronze・Red・Yellow で、新芽の赤から黄金色に変わる品種なので季節変化型にした（読み直しの値：{lnew or '空欄'}。今のマスターも ⑧ 季節変化型）")
+            lnew = "季節変化型"
+        elif "(v)" in (r.get("学名（RHS）") or "") and lnew != "斑入り" and not re.search(r"中心|葉脈|中肋", lrr.get("メモ") or ""):
             lw.append(f"[RHS の名前の (v)] RHS が斑入りの品種としているので斑入りにした（読み直しの値：{lnew or '空欄'}。ユーザーの決定 2026-11-25）")
             lnew = "斑入り"
         r["葉色（分類）"] = lnew
