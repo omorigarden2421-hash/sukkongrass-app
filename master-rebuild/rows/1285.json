@@ -340,12 +340,10 @@
    "level": "cultivar"
   },
   "cut_flower": {
-   "value": "○",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s06"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "pollinator": {
    "value": "○",
