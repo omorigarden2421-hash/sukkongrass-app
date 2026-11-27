@@ -330,16 +330,18 @@
    "level": "cultivar"
   },
   "cut_flower": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
-  },
-  "pollinator": {
    "value": "○",
    "method": "記載",
    "sources": [
-    "s18"
+    "s01"
+   ],
+   "level": "cultivar"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "記載",
+   "sources": [
+    "s01"
    ],
    "level": "cultivar"
   },

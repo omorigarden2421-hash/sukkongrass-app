@@ -347,11 +347,10 @@
    "level": "species"
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s02",
-    "s06"
+    "s01"
    ],
    "level": "cultivar"
   },

@@ -357,12 +357,12 @@
    "level": "species"
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s18"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は地上部が枯れます。果穂は秋から冬じゅう、春先まで見どころとして残ります。枯れた地上部は冬のあいだ残し、雪解け後、新芽が出る前に切ります。",

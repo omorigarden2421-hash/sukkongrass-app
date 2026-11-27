@@ -324,10 +324,12 @@
    "level": null
   },
   "pollinator": {
-   "value": null,
+   "value": "◎",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は葉を落とします。",

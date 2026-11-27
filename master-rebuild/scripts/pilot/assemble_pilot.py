@@ -442,6 +442,11 @@ def rhs(k):
     cm = re.search(r"Suggested planting locations and garden types (.{0,400}?)(?: Pruning | Pests | Diseases |$)", x)
     if cm and "Coastal" in cm.group(1):
         f["_coastal"] = "Coastal"
+    # 2026-11-27 植える場所の「Cut flowers」（切り花の印）と、「For Biodiversity」の「Plants for Pollinators」（蜜源の印）。前は拾っていなかった
+    if cm and "Cut flowers" in cm.group(1):
+        f["_cutflowers"] = "Suggested planting locations: Cut flowers"
+    if re.search(r"For Bio-?[Dd]iversity Plants for Pollinators", x):
+        f["_pollinators"] = "For Biodiversity: Plants for Pollinators"
     # 「Colour & scent」の表（季節ごとの 花・葉 の色）
     i = t.find("Colour &")
     m = re.search(r"<table.*?</table>", t[i:] if i >= 0 else "", re.S)
@@ -1043,7 +1048,8 @@ def main():
                     "MBG": ({"段階": mlv, "値と文": hits_(m["f"])} if m else None),
                     "Walters・品種": ({"Cut Flower の印": "Cut Flower" in w["f"].get("Plant Uses & Characteristics", []),
                                       "文": [x_ for x_ in sentences(w.get("text") or "") if re.search(CW, x_.lower())]} if w else None),
-                    "Gaißmayer": ({"値": [f"[{fld}] {v_}" for fld, v_ in ga[12] if re.search(CW, f"{fld} {v_}".lower())],
+                    "Gaißmayer": ({"値": [f"[{fld}] {v_}" for fld, v_ in ga[12] if re.search(CW, f"{fld} {v_}".lower())]
+                                   + [f"[表] {fld}: {v_}" for fld, v_ in (ga[11] or {}).items() if fld == "Schnittgeeignet"],  # 2026-11-27 表の Schnittgeeignet も入れる
                                    "段階": "品種" if ga[2] == "cultivar" else "種", "品種に使う": ga_own} if ga else None),
                     "stauden.de": ({"段階": slv, "Verwendung": [f"{v_}（{tg_}）" for key_, vals in s["f"].items() if "Verwendung" in key_ for v_, tg_ in vals]} if s else None),
                     "おぎはら": ({"段階": "品種" if og[3] == "cultivar" else "種", "メモ": [x_ for x_ in (og[6] if len(og) > 6 else []) if re.search(CW, json.dumps(x_, ensure_ascii=False).lower())],
@@ -1079,6 +1085,14 @@ def main():
                     "Jelitto": ({"段階": "品種" if je[2] == "cultivar" else "種", "値": je[11]} if je else None),
                     "今の値": r.get("蜜源"), "今の値の文献": prov.get("蜜源")}
             with open(os.path.join(os.environ["DUMP_POLL"], "poll_dump.jsonl"), "a", encoding="utf-8") as fh:
+                fh.write(json.dumps(dump, ensure_ascii=False, default=str) + "\n")
+        # 2026-11-27 印の取り込み用: 環境変数 DUMP_MARKS（フォルダ）があれば、RHS の Cut flowers・Plants for Pollinators と Gaißmayer の表の Schnittgeeignet を書き出す（値は変えない）
+        if os.environ.get("DUMP_MARKS"):
+            dump = {"商品番号": it["商品番号"], "ID": k, "学名": it.get("学名"), "品種名あり": "'" in (it["学名"] or ""),
+                    "RHS": (RH.RHS[k][1] if rh else None), "RHS_cut": bool(rh and rh["f"].get("_cutflowers")), "RHS_poll": bool(rh and rh["f"].get("_pollinators")),
+                    "Gai": (ga[1] if ga else None), "Gai_段階": (("品種" if ga[2] == "cultivar" else "種") if ga else None),
+                    "Gai_cut": bool(ga and (ga[11] or {}).get("Schnittgeeignet") == "ja")}
+            with open(os.path.join(os.environ["DUMP_MARKS"], "marks_dump.jsonl"), "a", encoding="utf-8") as fh:
                 fh.write(json.dumps(dump, ensure_ascii=False, default=str) + "\n")
         # 2026-11-26 総当たりの読み直し用: 環境変数 DUMP_PROP（フォルダ）があれば、繁殖方法に関わる値と文を文献ごとに全部書き出す（値は変えない）
         if os.environ.get("DUMP_PROP"):

@@ -343,12 +343,12 @@
    "level": "species"
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s06"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬に葉の一部が残る半常緑性です。寒い地域では、冬に株元をマルチで覆うなどの防寒がすすめられています。雪解け後、新芽が出る前に傷んだ茎を切りそろえます。雪が少ない年は、雪のない強い冷え込みに備えて、防寒や冬の日よけをすると安心です。",

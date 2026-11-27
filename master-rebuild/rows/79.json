@@ -354,12 +354,12 @@
    "level": null
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s18"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は地上部が枯れます。枯れた地上部は冬のあいだ残し、冬の終わり（雪解け後）、新芽が出る前に古い葉を刈り取ります。",

@@ -327,13 +327,12 @@
    "level": null
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s06",
-    "s02"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は葉を落とします。新しい枝に花が咲くので、必要なら晩冬から早春にかけて剪定します。",

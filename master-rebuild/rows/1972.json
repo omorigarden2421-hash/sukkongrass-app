@@ -345,12 +345,12 @@
    "level": null
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s02"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は地上部が枯れます。晩秋に地上部が枯れたら、地際で切ります。",

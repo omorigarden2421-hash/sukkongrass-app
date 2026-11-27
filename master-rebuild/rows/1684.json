@@ -333,12 +333,12 @@
    "level": "species"
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s06"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は葉を落とします。秋から冬にかけて枝が赤くなり、冬の見どころになります（種としての記述）。雪解け後に古い枝を2〜3割間引くか、2〜3年ごとに雪解け後に地際近くまで切ります。",

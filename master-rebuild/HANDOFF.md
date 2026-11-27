@@ -981,7 +981,13 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
   - おぎはら：メルローはクリスマスローズだけ。サンギソルバ9件に officinalis の種のページはない（品種だけ）。ミント（Mentha）・ユウゼンギク・ヘデラはない。モナルダは色別の系統だけ。ブルーキャットミント ファッシニー（750、種のページ）を Ne09 に当てた
   - 変わった値：1609 ネペタ 'Blue Wonder' の耐暑性の決め方がおぎはら（種のページ 強）＋楽天の注意で 中（値はユーザーの確認と同じ 中）。1376 サンギソルバ 'Lemon Splash' は、切り花・蜜源の読み直しが「文献に記述がない」のままだったので確かめ直し、RHS の品種のページに Cut flowers（植える場所）と Plants for Pollinators の印があったので、切り花 ○（確かさ 中）・蜜源 ◎ にした（cut_reread.json・poll_reread.json のメモ）。ほかは文献の欄だけ。矛盾の確認の数は変わらない
   - 【前からの抜け（未対応）】(1) assemble_pilot.py の rhs() は RHS の「Plants for Pollinators」の印と、植える場所の「Cut flowers」を拾っていない（植える場所は Coastal だけ）。poll_reread.json に Plants for Pollinators は0件。(2) Gaißmayer の表の「Schnittgeeignet: ja」は切り花の読み直しの入力（ga[12] の本文だけ）に入っていない。どちらも916品種の切り花・蜜源に関わる
-- 表：`新マスター_下書き_916品種_1127i.xlsx`（最新）
+- 表：`新マスター_下書き_916品種_1127i.xlsx`
+- 【1127j】上の【前からの抜け】を直した（ユーザー「直す」）。決め方は scripts/tools/marks_note.md
+  - assemble_pilot.py の rhs() で RHS の Plants for Pollinators・Cut flowers を取るようにし、DUMP_MARKS で全916品種の印を書き出した（下書きの値は変わらない。rediff.py の合計 {}）。印があったのは RHS の Plants for Pollinators 303品種、Cut flowers 177品種、Gaißmayer の Schnittgeeignet 272品種
+  - scripts/tools/apply_marks.py で読み直しの JSON に入れた：蜜源 ◎ 268品種（○ から 250、空欄から 18）、切り花 ○ 93品種（空欄から。品種のページ 78、Gaißmayer の種のページ 15〔確かさ 低・草丈 30cm 超だけ〕）。△ との食い違いは0
+  - species_check.json：1391（MBG の品種のページに「花は目立たない」で蜜源を 外す にしていた）と 846（迷う）を 残す にした。RHS の品種のページに印があるため。1391 は poll_reread.json の食い違いに MBG の文を書いた
+  - 表で値のある品種：切り花 468 → 561、蜜源 639 → 658。○ → ◎ は249品種。矛盾の確認の数は変わらない
+- 表：`新マスター_下書き_916品種_1127j.xlsx`（最新）
 
 ## 次にやること（全部の属の下書きが終わった）
 - 【2026-11-21 の終わりの時点】6列・暑さの確認ページ・管理タイプの見直し（在庫あり）まで済み。待っているのは、(1) 確認ページ「暑さに弱い品種の確認」の回答 (2) 「剪定不要＋花後の花茎切り」を A にするか B にするか。（夜に、回答を表に入れる仕組み〔scripts/tools/apply_answers.py〕と、在庫のない282品種の管理タイプの見直しも済んだ。上の2つの節）。残っているのは、未決（DECISIONS.md）、試作と同じ形（rows・根拠の JSON）への統合

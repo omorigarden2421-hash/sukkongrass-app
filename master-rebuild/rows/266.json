@@ -336,18 +336,20 @@
    "level": "cultivar"
   },
   "cut_flower": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
-  },
-  "pollinator": {
    "value": "○",
    "method": "記載",
    "sources": [
-    "s06"
+    "s17"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬に葉の一部が残る半常緑性です。晩秋に地上部が枯れたら、地際で切ります。冬の過湿に弱いので、水はけのよい場所に植え、雪解け水がたまる場所は避けます。雪が少ない年は、高植えにするとよいという文献があります。",

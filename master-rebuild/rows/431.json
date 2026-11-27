@@ -357,12 +357,12 @@
    "level": null
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s06"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は地上部が枯れます。初霜のあとに葉が赤く色づきます。晩秋、地上部が枯れたら地際で切ります。",

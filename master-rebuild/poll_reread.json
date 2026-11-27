@@ -1,41 +1,41 @@
 {
 "931": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし。決め手の文献に記述あり",
+"メモ": "今は値なし。決め手の文献に記述あり（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "1310": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし。決め手の文献に記述あり",
+"メモ": "今は値なし。決め手の文献に記述あり（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
 "994": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[MBG・種] Attracts: Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "品種ページに虫の記述なし、種のMBGで判断",
+"確かさ": "高",
+"メモ": "品種ページに虫の記述なし、種のMBGで判断（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
 "135": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Bees and butterflies will visit the blooms / Attracts: Butterflies; Pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "RHSの good in wildlife garden は蜜源の記述ではない",
+"メモ": "RHSの good in wildlife garden は蜜源の記述ではない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -80,12 +80,12 @@
 "今のマスター": "△"
 },
 "237": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[Jelitto・種] honey-bee food plant",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "NC Stateは属ページのみ。今の値○（Jelitto）は入力にない文献。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"確かさ": "高",
+"メモ": "NC Stateは属ページのみ。今の値○（Jelitto）は入力にない文献。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -120,42 +120,42 @@
 "今のマスター": "◎"
 },
 "1342": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "981": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] attracting hummingbirds, butterflies, and bees / Attracts: Bees; Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "883": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "stauden.deの種の値",
+"確かさ": "高",
+"メモ": "stauden.deの種の値（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "1285": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": null,
+"確かさ": "高",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -200,12 +200,12 @@
 "今のマスター": "—"
 },
 "1233": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies / [Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -230,22 +230,22 @@
 "今のマスター": "○"
 },
 "1429": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Provides nectar for pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし。決め手の文献に記述あり",
+"メモ": "今は値なし。決め手の文献に記述あり（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
 "621": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Flowers are attractive to bees and butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -330,12 +330,12 @@
 "今のマスター": "○"
 },
 "1151": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -360,12 +360,12 @@
 "今のマスター": "◎"
 },
 "861": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -390,12 +390,12 @@
 "今のマスター": "△"
 },
 "1950": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies / [stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -470,42 +470,42 @@
 "今のマスター": "○"
 },
 "1817": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1895": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] This plant attracts butterflies, bees, and hummingbirds",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "RHSの文は[Genus]で使わない",
+"メモ": "RHSの文は[Genus]で使わない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "302": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[NC State・品種] Attracts bees and butterflies / [MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "978": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts pollinator insects including wasps, flies, bees, and butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -550,12 +550,12 @@
 "今のマスター": "○"
 },
 "1432": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -590,12 +590,12 @@
 "今のマスター": "○"
 },
 "1258": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NCの#sterileは種子が不稔の意で花の蜜の話ではない",
+"メモ": "NCの#sterileは種子が不稔の意で花の蜜の話ではない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -630,12 +630,12 @@
 "今のマスター": "○"
 },
 "942": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "NC Stateは属ページ（使わない）",
+"確かさ": "高",
+"メモ": "NC Stateは属ページ（使わない）（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -660,12 +660,12 @@
 "今のマスター": "—"
 },
 "271": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] attractive to butterflies and other insect pollinators",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -720,12 +720,12 @@
 "今のマスター": "◎"
 },
 "531": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Hummingbirds and bees are attracted to the flowers",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "今は値なし。決め手の文献に記述あり",
+"確かさ": "高",
+"メモ": "今は値なし。決め手の文献に記述あり（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -810,12 +810,12 @@
 "今のマスター": "◎"
 },
 "1913": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": null,
+"確かさ": "高",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -840,12 +840,12 @@
 "今のマスター": "◎"
 },
 "1146": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] attractive to pollinators such as bumblebees, long-tongue bees, and butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "MBGの別名 bee blossom は根拠にしない",
+"メモ": "MBGの別名 bee blossom は根拠にしない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -860,12 +860,12 @@
 "今のマスター": "○"
 },
 "1187": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies / [stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -900,12 +900,12 @@
 "今のマスター": "—"
 },
 "1174": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies / [Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -970,12 +970,12 @@
 "今のマスター": "—"
 },
 "81": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Flowers are attractive to butterflies / [Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -1010,32 +1010,32 @@
 "今のマスター": "○"
 },
 "625": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": null,
+"確かさ": "高",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "1354": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Bees are attracted to the flowers",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし。決め手の文献に記述あり",
+"メモ": "今は値なし。決め手の文献に記述あり（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
 "1616": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "MBGの Insect visitors は害虫",
+"メモ": "MBGの Insect visitors は害虫（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -1150,12 +1150,12 @@
 "今のマスター": "○"
 },
 "1822": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "文献に虫の記述なし（害虫の文のみ）",
+"メモ": "文献に虫の記述なし（害虫の文のみ）（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "◎"
 },
@@ -1170,22 +1170,22 @@
 "今のマスター": "○"
 },
 "1311": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[MBG・種] Attracts: Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし→MBG種ページのAttractsで○",
+"メモ": "今は値なし→MBG種ページのAttractsで○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
 "606": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State種もAttracts Butterflies; Pollinators",
+"メモ": "NC State種もAttracts Butterflies; Pollinators（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -1230,12 +1230,12 @@
 "今のマスター": "△"
 },
 "1322": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "stauden.de Insektennährpflanze（species由来）、MBG種 Butterflies も○",
+"メモ": "stauden.de Insektennährpflanze（species由来）、MBG種 Butterflies も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -1250,22 +1250,22 @@
 "今のマスター": "○"
 },
 "1644": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State種もAttracts Bees; Butterflies",
+"メモ": "NC State種もAttracts Bees; Butterflies（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1248": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "stauden.de品種 Insektennährpflanze も○",
+"メモ": "stauden.de品種 Insektennährpflanze も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -1280,12 +1280,12 @@
 "今のマスター": "◎"
 },
 "1295": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "Walters品種はHummingbirdsのみ。stauden.deの値はspecies由来なので種扱い",
+"メモ": "Walters品種はHummingbirdsのみ。stauden.deの値はspecies由来なので種扱い（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -1360,52 +1360,52 @@
 "今のマスター": "○"
 },
 "1261": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "MBG品種 Attracts Butterflies も○",
+"メモ": "MBG品種 Attracts Butterflies も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "955": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Provides nectar for pollinators.",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし→種ページで○",
+"メモ": "今は値なし→種ページで○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
 "910": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "1304": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State・MBG種も○",
+"メモ": "NC State・MBG種も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "988": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies; Attractive to both butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "MBG種 Attractive to bees and butterflies も○",
+"メモ": "MBG種 Attractive to bees and butterflies も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -1470,22 +1470,22 @@
 "今のマスター": "◎"
 },
 "467": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "NC Stateは属。stauden.deのみ",
+"確かさ": "高",
+"メモ": "NC Stateは属。stauden.deのみ（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "1821": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "文献に記述なし",
+"メモ": "文献に記述なし（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "◎"
 },
@@ -1510,12 +1510,12 @@
 "今のマスター": "○"
 },
 "221": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "stauden.deのみ（species由来）",
+"確かさ": "高",
+"メモ": "stauden.deのみ（species由来）（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -1530,22 +1530,22 @@
 "今のマスター": "△"
 },
 "1951": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts butterflies and bees.",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "stauden.de種も○",
+"メモ": "stauden.de種も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1513": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "Walters Attracts Butterfliesも○（品種名なしの商品なので段階は種）",
+"メモ": "Walters Attracts Butterfliesも○（品種名なしの商品なので段階は種）（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -1570,12 +1570,12 @@
 "今のマスター": "—"
 },
 "1870": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "文献なし",
+"メモ": "文献なし（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "—"
 },
@@ -1600,12 +1600,12 @@
 "今のマスター": "◎"
 },
 "628": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -1640,12 +1640,12 @@
 "今のマスター": "△"
 },
 "91": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State種も○",
+"メモ": "NC State種も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -1700,12 +1700,12 @@
 "今のマスター": "○"
 },
 "1911": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Both long and short tongued bees collect pollen and nectar",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "MBG種・stauden.de種も○",
+"メモ": "MBG種・stauden.de種も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -1740,22 +1740,22 @@
 "今のマスター": "◎"
 },
 "1315": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State種 Attracts Bees; Pollinators。#sterileのタグは虫が来ないという文ではない",
+"メモ": "NC State種 Attracts Bees; Pollinators。#sterileのタグは虫が来ないという文ではない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1818": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies.",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC Stateは属",
+"メモ": "NC Stateは属（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -1780,12 +1780,12 @@
 "今のマスター": "◎"
 },
 "260": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[Walters] Attracts Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "品種名なしの商品なので段階は種",
+"メモ": "品種名なしの商品なので段階は種（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -1810,22 +1810,22 @@
 "今のマスター": "—"
 },
 "1624": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] The flowers are attractive to butterflies and other insect pollinators.",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State種・stauden.de種も○",
+"メモ": "NC State種・stauden.de種も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "145": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[RHS] Attractive to bees",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State・MBG種・Walters・stauden.deも○",
+"メモ": "NC State・MBG種・Walters・stauden.deも○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -1840,12 +1840,12 @@
 "今のマスター": "○"
 },
 "399": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[Walters] Attracts Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "stauden.de種も○",
+"メモ": "stauden.de種も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -1870,12 +1870,12 @@
 "今のマスター": "◎"
 },
 "530": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Hummingbirds and bees are attracted to the flowers.",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "今は値なし→bees があるので○",
+"確かさ": "高",
+"メモ": "今は値なし→bees があるので○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -1960,12 +1960,12 @@
 "今のマスター": "○"
 },
 "1651": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（cultivar）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "stauden.deのみ",
+"確かさ": "高",
+"メモ": "stauden.deのみ（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -2010,12 +2010,12 @@
 "今のマスター": "—"
 },
 "1018": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "stauden.de品種・NC State種も○",
+"メモ": "stauden.de品種・NC State種も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -2030,12 +2030,12 @@
 "今のマスター": "◎"
 },
 "45": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC Stateは属",
+"メモ": "NC Stateは属（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -2050,12 +2050,12 @@
 "今のマスター": "△"
 },
 "653": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（cultivar）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "stauden.deのみ",
+"確かさ": "高",
+"メモ": "stauden.deのみ（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -2120,12 +2120,12 @@
 "今のマスター": "◎"
 },
 "80": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State種も○",
+"メモ": "NC State種も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -2140,12 +2140,12 @@
 "今のマスター": "—"
 },
 "1391": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] This plant attracts bees and birds.",
-"食い違い": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
+"食い違い": "[MBG・品種] Greenish white flowers ... ornamentally insignificant（花は目立たない。蜜源については書いていない）",
 "確かさ": "高",
-"メモ": "今は値なし→Attracts Beesで○",
+"メモ": "今は値なし→Attracts Beesで○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -2250,12 +2250,12 @@
 "今のマスター": "○"
 },
 "1569": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[RHS・品種] A good early source of pollen and nectar for insects",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし。good であり excellent ではないので○",
+"メモ": "今は値なし。good であり excellent ではないので○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -2300,42 +2300,42 @@
 "今のマスター": "○"
 },
 "499": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "stauden.de（種）に値なし",
+"メモ": "stauden.de（種）に値なし（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "312": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "1972": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[MBG・種] Attracts: Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
 "1203": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "病害虫の記述のみ",
+"メモ": "病害虫の記述のみ（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -2500,62 +2500,62 @@
 "今のマスター": "—"
 },
 "1003": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies／Butterflies and hummingbirds love the flowers",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "今は値なし→MBG品種で○。love the flowers を◎とは読まなかった",
+"確かさ": "高",
+"メモ": "今は値なし→MBG品種で○。love the flowers を◎とは読まなかった（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "331": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State・MBG（種）も○",
+"メモ": "NC State・MBG（種）も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "613": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Provides nectar for pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし→NC State種で○",
+"メモ": "今は値なし→NC State種で○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
 "1466": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Provides nectar for pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし→NC State種で○",
+"メモ": "今は値なし→NC State種で○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
 "1302": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Flowers attract bees, butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "MBG・stauden.de（種）も○",
+"メモ": "MBG・stauden.de（種）も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "989": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "MBG種 Attractive to bees and butterflies も○",
+"メモ": "MBG種 Attractive to bees and butterflies も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -2660,12 +2660,12 @@
 "今のマスター": "○"
 },
 "831": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -2680,12 +2680,12 @@
 "今のマスター": "△"
 },
 "727": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State は属",
+"メモ": "NC State は属（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -2720,12 +2720,12 @@
 "今のマスター": "—"
 },
 "954": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -2770,12 +2770,12 @@
 "今のマスター": "○"
 },
 "549": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State種 Attracts bees and other pollinators も○",
+"メモ": "NC State種 Attracts bees and other pollinators も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -2790,12 +2790,12 @@
 "今のマスター": "△"
 },
 "1373": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State・MBG（種）も○",
+"メモ": "NC State・MBG（種）も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -2810,12 +2810,12 @@
 "今のマスター": "◎"
 },
 "267": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -2850,12 +2850,12 @@
 "今のマスター": "—"
 },
 "1914": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State種 Attracts bumblebees も○",
+"メモ": "NC State種 Attracts bumblebees も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -2890,22 +2890,22 @@
 "今のマスター": "◎"
 },
 "666": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State は属",
+"メモ": "NC State は属（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "805": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] attracts butterflies／[MBG・種] Flowers are attractive to butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし→種のページで○",
+"メモ": "今は値なし→種のページで○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -2930,12 +2930,12 @@
 "今のマスター": "○"
 },
 "1256": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -2960,52 +2960,52 @@
 "今のマスター": "—"
 },
 "738": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] attractive to butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "566": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies／Attractive to butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State種 Bees and butterflies are attracted to the nectar も○",
+"メモ": "NC State種 Bees and butterflies are attracted to the nectar も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1930": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "○"
 },
 "1957": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "583": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Nectar attracts bumblebees／[stauden.de] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -3020,12 +3020,12 @@
 "今のマスター": "◎"
 },
 "211": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Hummingbirds and bees are attracted to the flowers",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし→NC State種で○",
+"メモ": "今は値なし→NC State種で○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -3090,12 +3090,12 @@
 "今のマスター": "○"
 },
 "217": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[RHS] Attract bees and other beneficial insects",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "stauden.de種も○",
+"メモ": "stauden.de種も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -3160,12 +3160,12 @@
 "今のマスター": "—"
 },
 "1019": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -3270,12 +3270,12 @@
 "今のマスター": "◎"
 },
 "1482": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State・stauden.de（種）も○",
+"メモ": "NC State・stauden.de（種）も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -3340,12 +3340,12 @@
 "今のマスター": "○"
 },
 "266": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] the flowers' nectar is enjoyed by butterflies and bees",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし→NC State種で○",
+"メモ": "今は値なし→NC State種で○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -3380,12 +3380,12 @@
 "今のマスター": "◎"
 },
 "362": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies／Flowers are attractive to butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State・stauden.de（種）も○",
+"メモ": "NC State・stauden.de（種）も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -3420,12 +3420,12 @@
 "今のマスター": "△"
 },
 "876": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Honeybees are attracted to the flowers and the nectar ... makes delicious honey",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "◎の言い方ではないので○（蜜源植物として強い書き方で◎の読みもあり）",
+"確かさ": "高",
+"メモ": "◎の言い方ではないので○（蜜源植物として強い書き方で◎の読みもあり）（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -3450,42 +3450,42 @@
 "今のマスター": "◎"
 },
 "1600": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
 "1157": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[MBG・種] Attracts: Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "543": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[MBG・種] Attracts: Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "1922": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[MBG・種] Attracts: Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -3540,22 +3540,22 @@
 "今のマスター": "◎"
 },
 "518": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC・MBG 種も bees and butterflies",
+"メモ": "NC・MBG 種も bees and butterflies（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "919": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC 種も Bees; Butterflies; Pollinators",
+"メモ": "NC 種も Bees; Butterflies; Pollinators（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
@@ -3580,12 +3580,12 @@
 "今のマスター": "◎"
 },
 "297": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -3600,12 +3600,12 @@
 "今のマスター": "○"
 },
 "64": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -3650,12 +3650,12 @@
 "今のマスター": "—"
 },
 "673": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[MBG・種] Butterflies and hummingbirds love the flowers",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "NC 品種・Walters 品種は○。MBG の love を ◎ と読んだ（ハチドリと並記で弱い）。○ でもよい。MBG の決まり文句「Butterflies and hummingbirds love the flowers」だけは ○（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"確かさ": "高",
+"メモ": "NC 品種・Walters 品種は○。MBG の love を ◎ と読んだ（ハチドリと並記で弱い）。○ でもよい。MBG の決まり文句「Butterflies and hummingbirds love the flowers」だけは ○（そろえ直し 2026-11-26：係によって割れたのでそろえた）（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -3670,42 +3670,42 @@
 "今のマスター": "◎"
 },
 "1260": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Provides nectar for pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "866": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1303": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC・MBG 種も bees, butterflies",
+"メモ": "NC・MBG 種も bees, butterflies（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "96": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State は属で使わない",
+"メモ": "NC State は属で使わない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -3740,12 +3740,12 @@
 "今のマスター": "◎"
 },
 "1309": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] attracts butterflies / [MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -3830,12 +3830,12 @@
 "今のマスター": "△"
 },
 "1334": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies / [stauden.de・品種] Insektennährpflanze（cultivar）",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -3880,12 +3880,12 @@
 "今のマスター": "○"
 },
 "879": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "stauden も species 値で Insektennährpflanze",
+"メモ": "stauden も species 値で Insektennährpflanze（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -3920,12 +3920,12 @@
 "今のマスター": "○"
 },
 "1379": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies / [Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -3960,12 +3960,12 @@
 "今のマスター": "◎"
 },
 "268": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -4020,12 +4020,12 @@
 "今のマスター": "○"
 },
 "793": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "MBG 種も attractive to butterflies",
+"メモ": "MBG 種も attractive to butterflies（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -4040,22 +4040,22 @@
 "今のマスター": "◎"
 },
 "169": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC の #sterile タグは蜜がないという文ではないので △ にしない",
+"メモ": "NC の #sterile タグは蜜がないという文ではないので △ にしない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "47": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Flowers are attractive to butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
@@ -4080,12 +4080,12 @@
 "今のマスター": "○"
 },
 "1257": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Butterflies; Pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -4110,12 +4110,12 @@
 "今のマスター": "—"
 },
 "1259": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC 種も Bees and other pollinators",
+"メモ": "NC 種も Bees and other pollinators（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -4130,22 +4130,22 @@
 "今のマスター": "◎"
 },
 "1929": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "○"
 },
 "102": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -4180,22 +4180,22 @@
 "今のマスター": "○"
 },
 "943": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Butterflies; Hummingbirds; Moths",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "MBG 品種は Birds, Hummingbirds のみだが △ の文ではない",
+"メモ": "MBG 品種は Birds, Hummingbirds のみだが △ の文ではない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "1413": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -4420,12 +4420,12 @@
 "今のマスター": "◎"
 },
 "436": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -4490,12 +4490,12 @@
 "今のマスター": "○"
 },
 "351": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attractive to butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC 種も nectar is enjoyed by butterflies and bees",
+"メモ": "NC 種も nectar is enjoyed by butterflies and bees（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -4590,42 +4590,42 @@
 "今のマスター": "○"
 },
 "824": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Gaißmayer・品種] gerne von Honigbienen ... genutzt",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC 種も Attracts bees and butterflies",
+"メモ": "NC 種も Attracts bees and butterflies（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "1156": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "文献に虫の値・文なし",
+"メモ": "文献に虫の値・文なし（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "○"
 },
 "578": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "314": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[MBG・種] Attracts: Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "品種ページなし、種ページで○",
+"確かさ": "高",
+"メモ": "品種ページなし、種ページで○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
@@ -4700,12 +4700,12 @@
 "今のマスター": "◎"
 },
 "1903": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "種のNC Stateも Attracts Bees; Butterflies",
+"メモ": "種のNC Stateも Attracts Bees; Butterflies（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -4730,12 +4730,12 @@
 "今のマスター": "◎"
 },
 "298": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -4800,12 +4800,12 @@
 "今のマスター": "○"
 },
 "332": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -4820,12 +4820,12 @@
 "今のマスター": "◎"
 },
 "1427": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Provides nectar for pollinators.",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値なし→種ページで○",
+"メモ": "今の値なし→種ページで○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -4850,12 +4850,12 @@
 "今のマスター": "○"
 },
 "724": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Jelitto・品種] honey-bee food plant",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "入力はNC Stateの属ページのみ。今の値の文献Jelittoは入力にない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"確かさ": "高",
+"メモ": "入力はNC Stateの属ページのみ。今の値の文献Jelittoは入力にない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -4940,22 +4940,22 @@
 "今のマスター": "○"
 },
 "250": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "NC Stateは属、MBG品種はハチドリのみ、stauden.deに虫の値なし",
+"確かさ": "高",
+"メモ": "NC Stateは属、MBG品種はハチドリのみ、stauden.deに虫の値なし（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "○"
 },
 "1270": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "stauden.de種もInsektennährpflanze",
+"メモ": "stauden.de種もInsektennährpflanze（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -4980,12 +4980,12 @@
 "今のマスター": "△"
 },
 "1333": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -5020,22 +5020,22 @@
 "今のマスター": "—"
 },
 "253": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "1942": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -5070,12 +5070,12 @@
 "今のマスター": "○"
 },
 "1380": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -5100,12 +5100,12 @@
 "今のマスター": "◎"
 },
 "1448": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Its flowers are attractive to butterflies, bees, and other pollinators.",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -5170,12 +5170,12 @@
 "今のマスター": "○"
 },
 "751": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Jelitto・品種] honey-bee food plant",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "入力に虫の値・文なし。今の値の文献Jelittoは入力にない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"確かさ": "高",
+"メモ": "入力に虫の値・文なし。今の値の文献Jelittoは入力にない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -5190,22 +5190,22 @@
 "今のマスター": "◎"
 },
 "856": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Pollinators／[MBG・種] Attracts: Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "値は同じ○（今の文献Jelittoは入力にない）",
+"確かさ": "高",
+"メモ": "値は同じ○（今の文献Jelittoは入力にない）（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1484": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] attracts butterflies／[MBG・種] Flowers are attractive to butterflies.",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値なし→種ページで○",
+"メモ": "今の値なし→種ページで○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -5230,12 +5230,12 @@
 "今のマスター": "○"
 },
 "1868": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -5260,12 +5260,12 @@
 "今のマスター": "—"
 },
 "1533": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -5290,12 +5290,12 @@
 "今のマスター": "—"
 },
 "743": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Jelitto・品種] honey-bee food plant",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "入力に虫の値・文なし。今の値の文献Jelittoは入力にない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"確かさ": "高",
+"メモ": "入力に虫の値・文なし。今の値の文献Jelittoは入力にない。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -5350,12 +5350,12 @@
 "今のマスター": "—"
 },
 "587": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -5390,12 +5390,12 @@
 "今のマスター": "○"
 },
 "307": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "stauden.deは屋上緑化のみ、おぎはらは病害虫のみ",
+"メモ": "stauden.deは屋上緑化のみ、おぎはらは病害虫のみ（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -5460,12 +5460,12 @@
 "今のマスター": "—"
 },
 "1124": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC Stateは属、RHSは害虫のみ",
+"メモ": "NC Stateは属、RHSは害虫のみ（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -5570,22 +5570,22 @@
 "今のマスター": "○"
 },
 "1000": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "384": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -5630,12 +5630,12 @@
 "今のマスター": "◎"
 },
 "1580": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Pollinators will benefit from the nectar／[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -5740,32 +5740,32 @@
 "今のマスター": "○"
 },
 "1369": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "文献に虫の値・文なし",
+"メモ": "文献に虫の値・文なし（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "1675": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[MBG・種] Attracts: Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "MBG種ページのAttractsにButterflies",
+"確かさ": "高",
+"メモ": "MBG種ページのAttractsにButterflies（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "431": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Butterflies; Pollinators; Bees and butterflies will visit the blooms",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "品種ページ(MBG・stauden)に虫の記述なし、種ページを採用",
+"メモ": "品種ページ(MBG・stauden)に虫の記述なし、種ページを採用（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
@@ -5820,12 +5820,12 @@
 "今のマスター": "○"
 },
 "243": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -5850,12 +5850,12 @@
 "今のマスター": "◎"
 },
 "905": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies; Flowers are attractive to butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -5870,12 +5870,12 @@
 "今のマスター": "○"
 },
 "1193": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -5980,22 +5980,22 @@
 "今のマスター": "△"
 },
 "1375": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Nectar in flowers is attractive to bees and butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "987": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies; Attractive to both butterflies and hummingbirds",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "MBG品種はHummingbirdsのみ。stauden品種もInsektennährpflanze",
+"メモ": "MBG品種はHummingbirdsのみ。stauden品種もInsektennährpflanze（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6080,32 +6080,32 @@
 "今のマスター": "◎"
 },
 "1557": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "低",
-"メモ": "NC Stateは属。MBG種はHummingbirdsのみ。MBGの写真見出し「Insect - Honeybee」は文でないので採らない",
+"確かさ": "高",
+"メモ": "NC Stateは属。MBG種はHummingbirdsのみ。MBGの写真見出し「Insect - Honeybee」は文でないので採らない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "○"
 },
 "1550": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "stauden.deの値は種由来の注記",
+"確かさ": "高",
+"メモ": "stauden.deの値は種由来の注記（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "220": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6120,12 +6120,12 @@
 "今のマスター": "—"
 },
 "1514": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6160,12 +6160,12 @@
 "今のマスター": "—"
 },
 "539": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -6210,22 +6210,22 @@
 "今のマスター": "○"
 },
 "1154": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": null,
+"確かさ": "高",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1301": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies; it attracts bees and butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6240,12 +6240,12 @@
 "今のマスター": "◎"
 },
 "1022": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] attractive to hummingbirds, butterflies, and other pollinators",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6280,12 +6280,12 @@
 "今のマスター": "○"
 },
 "1283": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] bees collect pollen and nectar; Attracts: Butterflies; Pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6310,12 +6310,12 @@
 "今のマスター": "◎"
 },
 "558": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "Walters・stauden.deも○",
+"メモ": "Walters・stauden.deも○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6370,12 +6370,12 @@
 "今のマスター": "—"
 },
 "1495": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] attracts butterflies and other insect pollinators",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6400,22 +6400,22 @@
 "今のマスター": "—"
 },
 "148": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC Stateは属",
+"メモ": "NC Stateは属（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "146": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[RHS] Attractive to bees",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State・MBG種も○",
+"メモ": "NC State・MBG種も○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6430,12 +6430,12 @@
 "今のマスター": "—"
 },
 "604": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "MBG品種はHummingbirdsのみ",
+"メモ": "MBG品種はHummingbirdsのみ（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6450,12 +6450,12 @@
 "今のマスター": "—"
 },
 "1255": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts butterflies and honeybees",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6560,22 +6560,22 @@
 "今のマスター": "—"
 },
 "1685": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Flowers are visited by bees, butterflies, and other pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "846": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] attractive to pollinators such as bumblebees, long-tongue bees, and butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値の根拠Jelittoは入力にない",
+"メモ": "今の値の根拠Jelittoは入力にない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -6590,22 +6590,22 @@
 "今のマスター": "○"
 },
 "155": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": null,
+"確かさ": "高",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "1123": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "NC Stateは属なので使わない",
+"確かさ": "高",
+"メモ": "NC Stateは属なので使わない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -6630,22 +6630,22 @@
 "今のマスター": "○"
 },
 "616": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1928": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": null,
+"確かさ": "高",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6670,12 +6670,12 @@
 "今のマスター": "◎"
 },
 "1632": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[NC State・品種] attract bees, butterflies and hummingbirds",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "Gaißmayer品種「zahlreiche Schmetterlings- und Falterarten」を◎と読む余地あり",
+"確かさ": "高",
+"メモ": "Gaißmayer品種「zahlreiche Schmetterlings- und Falterarten」を◎と読む余地あり（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6750,12 +6750,12 @@
 "今のマスター": "—"
 },
 "1709": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Butterflies; Pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -6780,12 +6780,12 @@
 "今のマスター": "—"
 },
 "1446": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": null,
+"確かさ": "高",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -6810,12 +6810,12 @@
 "今のマスター": "◎"
 },
 "1009": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6880,32 +6880,32 @@
 "今のマスター": "○"
 },
 "1955": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値は空",
+"メモ": "今の値は空（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
 "1371": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値は空",
+"メモ": "今の値は空（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "1673": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6960,12 +6960,12 @@
 "今のマスター": "○"
 },
 "1430": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -6990,12 +6990,12 @@
 "今のマスター": "◎"
 },
 "284": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Butterflies; Pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "品種のページに虫の記述なし。今の値は空",
+"メモ": "品種のページに虫の記述なし。今の値は空（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
@@ -7010,22 +7010,22 @@
 "今のマスター": "○"
 },
 "1662": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "71": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -7080,12 +7080,12 @@
 "今のマスター": "○"
 },
 "863": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[MBG・種] Butterflies and hummingbirds love the flowers.",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "「love the flowers」を a favourite 相当として ◎。NC State 種は Attracts の ○ 相当。今の値は空。MBG の決まり文句「Butterflies and hummingbirds love the flowers」だけは ○（そろえ直し 2026-11-26：係によって割れたのでそろえた）",
+"確かさ": "高",
+"メモ": "「love the flowers」を a favourite 相当として ◎。NC State 種は Attracts の ○ 相当。今の値は空。MBG の決まり文句「Butterflies and hummingbirds love the flowers」だけは ○（そろえ直し 2026-11-26：係によって割れたのでそろえた）（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -7100,12 +7100,12 @@
 "今のマスター": "◎"
 },
 "1428": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[NC State・品種] Provides nectar for pollinators; Attracts: Bees; Butterflies; Pollinators",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -7120,12 +7120,12 @@
 "今のマスター": "○"
 },
 "1305": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7180,22 +7180,22 @@
 "今のマスター": "◎"
 },
 "600": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies.",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "RHS の attractive to butterflies は [Genus] の文なので使わない",
+"メモ": "RHS の attractive to butterflies は [Genus] の文なので使わない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "42": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Birds, Butterflies／[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7210,42 +7210,42 @@
 "今のマスター": "○"
 },
 "1621": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "927": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Hummingbirds, Butterflies／[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1549": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "930": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State 種はハチドリのみ",
+"メモ": "NC State 種はハチドリのみ（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7260,12 +7260,12 @@
 "今のマスター": "△"
 },
 "1468": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7290,32 +7290,32 @@
 "今のマスター": "—"
 },
 "252": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "540": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "1973": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7350,22 +7350,22 @@
 "今のマスター": "○"
 },
 "855": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "RHS の nectar-bearing petals は [Genus] の形態記述",
+"メモ": "RHS の nectar-bearing petals は [Genus] の形態記述（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1374": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7390,12 +7390,12 @@
 "今のマスター": "◎"
 },
 "1273": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Jelitto・品種] honey-bee food plant",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "stauden.de 種は Heil- und Medizinpflanzen のみ。今の値の根拠 Jelitto は入力にない。今の値 ○（Jelitto・品種）から変更。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"確かさ": "高",
+"メモ": "stauden.de 種は Heil- und Medizinpflanzen のみ。今の値の根拠 Jelitto は入力にない。今の値 ○（Jelitto・品種）から変更。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -7420,12 +7420,12 @@
 "今のマスター": "○"
 },
 "1871": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7450,32 +7450,32 @@
 "今のマスター": "◎"
 },
 "948": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（species）／[NC State・種] Attracts: Bees; Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1789": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "NC State の pollinator magnets・MBG の loved by bees は属のページなので使わない",
+"確かさ": "高",
+"メモ": "NC State の pollinator magnets・MBG の loved by bees は属のページなので使わない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1723": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State は属",
+"メモ": "NC State は属（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7490,12 +7490,12 @@
 "今のマスター": "○"
 },
 "286": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -7510,12 +7510,12 @@
 "今のマスター": "○"
 },
 "1321": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] attracts butterflies and other insect pollinators",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7540,12 +7540,12 @@
 "今のマスター": "—"
 },
 "150": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State の rich in nectar は属のページなので使わない",
+"メモ": "NC State の rich in nectar は属のページなので使わない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7570,12 +7570,12 @@
 "今のマスター": "—"
 },
 "1464": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Nectar attracts bumblebees／[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7590,12 +7590,12 @@
 "今のマスター": "—"
 },
 "210": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State 種も bees are attracted",
+"メモ": "NC State 種も bees are attracted（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7630,12 +7630,12 @@
 "今のマスター": "—"
 },
 "1917": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze（species）",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -7670,12 +7670,12 @@
 "今のマスター": "◎"
 },
 "121": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "値なし",
+"メモ": "値なし（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -7700,22 +7700,22 @@
 "今のマスター": "—"
 },
 "1684": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Flowers are visited by bees, butterflies, and other pollinators.",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値は空",
+"メモ": "今の値は空（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "907": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] attractive to pollinators such as bumblebees...; Attracts: Bees; Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -7740,12 +7740,12 @@
 "今のマスター": "○"
 },
 "1126": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze（cultivar）",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State は属",
+"メモ": "NC State は属（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -7760,22 +7760,22 @@
 "今のマスター": "◎"
 },
 "79": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "△"
 },
 "264": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -7820,12 +7820,12 @@
 "今のマスター": "◎"
 },
 "763": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "文はなく Attracts の値だけ。今の値は空",
+"確かさ": "高",
+"メモ": "文はなく Attracts の値だけ。今の値は空（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -7980,12 +7980,12 @@
 "今のマスター": "○"
 },
 "949": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -8010,22 +8010,22 @@
 "今のマスター": "○"
 },
 "1496": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies; Attractive to butterflies.",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1867": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値 None → ○",
+"メモ": "今の値 None → ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -8040,12 +8040,12 @@
 "今のマスター": "◎"
 },
 "1672": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies／[NC State・種] Bees and butterflies will visit the blooms",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値 None → ○",
+"メモ": "今の値 None → ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -8140,22 +8140,22 @@
 "今のマスター": "◎"
 },
 "1148": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "982": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -8240,12 +8240,12 @@
 "今のマスター": "○"
 },
 "1318": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Birds, Butterflies／[NC State・種] Provides nectar for pollinators",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値 None → ○",
+"メモ": "今の値 None → ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -8260,22 +8260,22 @@
 "今のマスター": "△"
 },
 "603": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "914": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Flowers are quite attractive to butterflies and bees",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "quite attractive は highly とは読まず ○",
+"メモ": "quite attractive は highly とは読まず ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -8340,52 +8340,52 @@
 "今のマスター": "○"
 },
 "991": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "1784": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "337": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] attractive to hummingbirds, butterflies, and other pollinators",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1415": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "MBG・品種は害虫の記述のみ",
+"メモ": "MBG・品種は害虫の記述のみ（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "1862": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -8430,12 +8430,12 @@
 "今のマスター": "—"
 },
 "1437": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -8460,12 +8460,12 @@
 "今のマスター": "◎"
 },
 "675": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -8500,32 +8500,32 @@
 "今のマスター": "○"
 },
 "450": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "1286": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[Jelitto・種] honey-bee food plant",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
-"確かさ": "中",
-"メモ": "入力に文献の値・文なし（今の値の根拠 Jelitto は入力に含まれない）。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○",
+"確かさ": "高",
+"メモ": "入力に文献の値・文なし（今の値の根拠 Jelitto は入力に含まれない）。読み係の入力に Jelitto がなかったので、あとで Jelitto の honey-bee food plant の印で ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1447": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] attractive to hummingbirds, butterflies, and other pollinators",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -8550,22 +8550,22 @@
 "今のマスター": "—"
 },
 "535": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[Walters] Attracts Butterflies／[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
 "1323": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -8580,42 +8580,42 @@
 "今のマスター": "○"
 },
 "5": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Butterflies／[Walters・品種] Attracts Butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1711": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[stauden.de・種] Insektennährpflanze／[NC State・種] Attracts: Bees; Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1395": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Pollinators／[MBG・種] Attracts: Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State のタグ #sterile は種子の話で、虫が来ないとは書いていない",
+"メモ": "NC State のタグ #sterile は種子の話で、虫が来ないとは書いていない（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "1609": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -8630,22 +8630,22 @@
 "今のマスター": "○"
 },
 "35": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値 None → ○",
+"メモ": "今の値 None → ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
 "346": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[NC State・種] Attracts bees and other insects",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値 None → ○",
+"メモ": "今の値 None → ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "○"
 },
@@ -8690,12 +8690,12 @@
 "今のマスター": "◎"
 },
 "236": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[Walters] Attracts Butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -8710,12 +8710,12 @@
 "今のマスター": "—"
 },
 "605": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze／[NC State・種] Nectar attracts bumblebees",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -8770,12 +8770,12 @@
 "今のマスター": "○"
 },
 "1824": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -8840,12 +8840,12 @@
 "今のマスター": "—"
 },
 "1627": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[MBG・品種] Attracts: Birds, Butterflies／[NC State・種] Flowers are visited by bees, butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値 None → ○",
+"メモ": "今の値 None → ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
@@ -8860,12 +8860,12 @@
 "今のマスター": "◎"
 },
 "110": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -8880,12 +8880,12 @@
 "今のマスター": "○"
 },
 "684": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[Walters] Attracts Butterflies／[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -8900,12 +8900,12 @@
 "今のマスター": "◎"
 },
 "1480": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[RHS] the flowers provide nectar for pollinating insects such as bumblebees and butterflies",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
@@ -8950,32 +8950,32 @@
 "今のマスター": "◎"
 },
 "1907": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[Walters・品種] Attracts Butterflies／[stauden.de・品種] Insektennährpflanze",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State・MBG は属（使わない）",
+"メモ": "NC State・MBG は属（使わない）（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "◎"
 },
 "76": {
-"蜜源": "○",
+"蜜源": "◎",
 "段階": "品種",
-"決め手": "[RHS・品種] Flowers are attractive to butterflies",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今の値 None → ○",
+"メモ": "今の値 None → ○（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": null,
 "今のマスター": "◎"
 },
 "354": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "NC State は属のページのみ",
+"メモ": "NC State は属のページのみ（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "◎"
 },
@@ -9030,12 +9030,12 @@
 "今のマスター": "—"
 },
 "1537": {
-"蜜源": null,
-"段階": null,
-"決め手": null,
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "文献の値・文なし",
+"メモ": "文献の値・文なし（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：空欄）",
 "前の値": null,
 "今のマスター": "◎"
 },
@@ -9050,12 +9050,12 @@
 "今のマスター": "○"
 },
 "289": {
-"蜜源": "○",
-"段階": "種",
-"決め手": "[MBG・種] Attracts: Butterflies／[stauden.de・種] Insektennährpflanze",
+"蜜源": "◎",
+"段階": "品種",
+"決め手": "[RHS・品種] For Biodiversity: Plants for Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "",
+"メモ": "（2026-11-27 印の取り込み：RHS の品種のページに Plants for Pollinators の印。前の読み直し：○）",
 "前の値": "○",
 "今のマスター": "○"
 },

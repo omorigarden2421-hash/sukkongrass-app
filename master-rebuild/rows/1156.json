@@ -346,10 +346,12 @@
    "level": null
   },
   "pollinator": {
-   "value": null,
+   "value": "◎",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は地上部が枯れます。晩秋に枯れたら、地際で切ります。雪が少ない年は、雪のない強い冷え込みに備えて、防寒や冬の日よけをすると安心です。",

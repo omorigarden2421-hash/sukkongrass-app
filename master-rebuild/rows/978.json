@@ -342,12 +342,12 @@
    "level": "cultivar"
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s06"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬も葉が残る常緑性です。地上部は切らずに冬のあいだ残すと、冬の見どころになります。冬の過湿に弱いので、水はけのよい場所に植え、雪解け水がたまる場所は避けます。枯れた部分は雪解け後、新芽が出る前に切ります。",

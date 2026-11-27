@@ -335,12 +335,12 @@
    "level": "species"
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s06"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は葉を落としますが、秋〜冬に茎が赤くなり、冬の見どころになります。剪定は雪解け後、新芽が出る前に行います。剪定のときに古い枝を2〜3割間引きます。2〜3年ごとに地際近くまで切り戻して更新してもかまいません。",

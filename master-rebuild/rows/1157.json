@@ -351,12 +351,12 @@
    "level": null
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s02"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬に葉の一部が残る半常緑性です。冬の過湿に弱いので、水はけのよい場所に植え、雪解け水がたまる場所は避けてください。",

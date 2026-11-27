@@ -347,10 +347,12 @@
    "level": "species"
   },
   "pollinator": {
-   "value": null,
+   "value": "◎",
    "method": "記載",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬も葉が残る常緑性で、冬には葉が紫がかったブロンズ色になります。秋に刈り込まず、葉はそのまま冬を越させます。寒い地域では冬に葉が大きく傷むという記録があります。晩冬から雪解け後に、傷んだ葉をすべて取ります。",

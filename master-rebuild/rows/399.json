@@ -344,12 +344,12 @@
    "level": "species"
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s10"
+    "s01"
    ],
-   "level": null
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬も葉が残る常緑性で、根生葉はほぼ常緑のまま冬も残ります。秋に刈り込まず、そのまま冬を越させます。冬の過湿に弱いので、水はけのよい場所に植え、雪解け水がたまる場所は避けます。雪解け後に傷んだ葉を取り除きます。",

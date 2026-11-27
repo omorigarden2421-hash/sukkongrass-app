@@ -321,18 +321,20 @@
    "level": null
   },
   "cut_flower": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
-  },
-  "pollinator": {
    "value": "○",
    "method": "記載",
    "sources": [
-    "s18"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は地上部が枯れます。寒さにやや弱い（耐寒性：中の弱）ので、冬は株元を覆うなどの防寒をします。枯れた地上部は晩秋か雪解け後に切り、冬に残した花茎は春に取り除きます。",

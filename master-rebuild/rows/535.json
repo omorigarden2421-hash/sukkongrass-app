@@ -346,13 +346,12 @@
    "level": "cultivar"
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s10",
-    "s18"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬も葉が残る常緑性です。咲き終わった花茎は、晩秋か雪解け後に切ります。秋に切らなかった花茎は、春、新芽が出る前に切ってください。",

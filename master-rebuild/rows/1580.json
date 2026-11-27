@@ -348,13 +348,12 @@
    "level": "species"
   },
   "pollinator": {
-   "value": "○",
+   "value": "◎",
    "method": "記載",
    "sources": [
-    "s06",
-    "s18"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "常緑性ですが、寒い地域では半常緑から落葉になり、厳しい冬には葉が焼けて傷みます。晩冬から花が咲きます。古い葉は、雪解け後の春に全部、または一部を切ります。雪が少ない年は、雪に覆われないと、厳しい寒さで葉が焼けて傷みやすくなります。",

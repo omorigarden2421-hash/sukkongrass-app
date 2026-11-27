@@ -353,18 +353,20 @@
    "level": null
   },
   "cut_flower": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
-  },
-  "pollinator": {
    "value": "○",
    "method": "記載",
    "sources": [
-    "s06"
+    "s17"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬も葉が残る常緑性です。寒さにやや弱い（耐寒性：中の弱）ので、冬は株元を覆うなどの防寒をします。冬の過湿に弱いので、水はけのよい場所に植え、雪解け水がたまる場所は避けます。雪解け後、新芽が出る前に刈り込みます（剪定グループ9）。",

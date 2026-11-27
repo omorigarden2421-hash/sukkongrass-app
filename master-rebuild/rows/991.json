@@ -349,18 +349,20 @@
    "level": null
   },
   "cut_flower": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
-  },
-  "pollinator": {
    "value": "○",
    "method": "記載",
    "sources": [
-    "s18"
+    "s17"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は落葉し、地上部が枯れます。晩秋に地上部が枯れたら、地際で切ります。USDAゾーン5より北では越冬が安定しないことがある、という記録があります。",

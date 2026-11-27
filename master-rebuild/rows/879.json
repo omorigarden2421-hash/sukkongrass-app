@@ -347,18 +347,20 @@
    "level": "cultivar"
   },
   "cut_flower": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
-  },
-  "pollinator": {
    "value": "○",
    "method": "記載",
    "sources": [
-    "s06"
+    "s17"
    ],
    "level": "species"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬に葉の一部が残る半常緑性で、厳しい冬には葉がひどく傷みます。水はけの悪い土では傷みやすいので、水はけのよい場所に植えます。シカゴの試験では冬の傷みが繰り返し出て、春の芽吹きが遅かったという記録があります。",

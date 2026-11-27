@@ -358,18 +358,20 @@
    "level": null
   },
   "cut_flower": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
-  },
-  "pollinator": {
    "value": "○",
    "method": "記載",
    "sources": [
-    "s06"
+    "s17"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "秋に葉が赤からブロンズ色に色づき、冬は落葉して地上部が枯れます。晩秋に枯れたら、地際で切ります。寒い地域では、冬に株元をマルチで覆うなどの防寒をすすめる文献があります。春には、霜で傷んだ茎を地際で切ります。雪が少ない年は、雪のない強い冷え込みに備えて、防寒や冬の日よけをすると安心です。",

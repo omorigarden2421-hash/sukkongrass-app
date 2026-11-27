@@ -338,18 +338,20 @@
    "level": "cultivar"
   },
   "cut_flower": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
-  },
-  "pollinator": {
    "value": "○",
    "method": "記載",
    "sources": [
-    "s18"
+    "s01"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "冬は地上部が枯れます。晩秋、地上部が枯れたら地際で切ります。冬の過湿に弱いので、水はけのよい場所に植え、雪解け水がたまる場所は避けます。",

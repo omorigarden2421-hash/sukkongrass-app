@@ -335,18 +335,20 @@
    "level": "cultivar"
   },
   "cut_flower": {
-   "value": null,
-   "method": "記載",
-   "sources": null,
-   "level": null
-  },
-  "pollinator": {
    "value": "○",
    "method": "記載",
    "sources": [
-    "s06"
+    "s17"
    ],
-   "level": "species"
+   "level": "cultivar"
+  },
+  "pollinator": {
+   "value": "◎",
+   "method": "記載",
+   "sources": [
+    "s01"
+   ],
+   "level": "cultivar"
   },
   "winter_care_hokkaido": {
    "value": "寒くなると葉が色づき、冬は地上部が枯れます。枯れた地上部は冬のあいだ残します。文献では、冬に株元をマルチで覆うなどの防寒がすすめられています。冬の過湿に弱いので、水はけのよい場所に植え、雪解け水がたまる場所は避けます。雪解け後、新芽が出る前に、枯れた葉を取って切り戻します。雪が少ない年は、雪のない強い冷え込みに備えて、防寒や冬の日よけをすると安心です。",
