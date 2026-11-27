@@ -165,12 +165,12 @@
    "level": "species"
   },
   "soil_moisture": {
-   "value": "排水必須",
+   "value": "適湿",
    "method": "記載",
    "sources": [
-    "s02"
+    "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "soil_ph_type": {
    "value": "酸性、腐植質",

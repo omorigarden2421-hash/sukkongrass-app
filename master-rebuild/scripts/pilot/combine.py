@@ -150,6 +150,42 @@ PROP_RR = json.load(open("prop_reread.json", encoding="utf-8")) if os.path.exist
 WINTER_RR = json.load(open("winter_reread.json", encoding="utf-8")) if os.path.exists("winter_reread.json") else {}
 # 2026-11-26 ユーザー「読みやすく整えて」: winter_text() の下書きを、事実を足さず・落とさずに読みやすく整えた文（scripts/tools/winter_polish_note.md）
 WINTER_POLISH = json.load(open("winter_polish.json", encoding="utf-8")) if os.path.exists("winter_polish.json") else {}
+SPECIES_CHECK = json.load(open("species_check.json", encoding="utf-8")) if os.path.exists("species_check.json") else {}
+
+
+def snow_note(f, hk):
+    """北海道の文に足す「雪が少ない年は」の一言（2026-11-27 のユーザーの決定）。
+    雪のない寒さだけの防寒・雪の少ない地域の記録を、北海道の文の最後に一言で残す。"""
+    if not f:
+        return None
+    rec = f.get("雪・寒冷地") or ""
+    parts = [p for p in rec.split("。") if re.search(r"Kahlfrost|雪のない|雪がない|雪の少ない|雪が少ない|雪の覆いがない|雪に覆われない", p)]
+    out = []
+    def add(s):
+        if s not in out:
+            out.append(s)
+    for p in parts:
+        if "高植え" in p:
+            add("高植えにするとよいという文献があります")
+        elif "マルチ" in p:
+            add("冬に株元をマルチで覆うと安心です")
+        elif "葉が焼け" in p:
+            add("雪に覆われないと、厳しい寒さで葉が焼けて傷みやすくなります")
+        elif "−18℃" in p:
+            add("雪の覆いがないまま −18℃ を下回ると冬を越せないことがある、という記録があります")
+        elif "日差し" in p:
+            add("冬の日差しと雪のない凍結から守ると安心です")
+        elif re.search(r"傷む|弱い", p):
+            add("雪のない強い冷え込みで傷みやすくなります")
+        elif "日よけ" in p:
+            add("雪のない強い冷え込みに備えて、防寒や冬の日よけをすると安心です")
+        else:
+            add("雪のない強い冷え込みに備えて、防寒をすると安心です")
+    if not out and f.get("防寒") == "雪がない寒さで必要":
+        add("雪のない強い冷え込みに備えて、防寒や冬の日よけをすると安心です" if "Sonnenschutz" in (f.get("決め手") or "") else "雪のない強い冷え込みに備えて、防寒をすると安心です")
+    if not out or re.search(r"雪のない|雪が少ない", hk or ""):
+        return None
+    return "雪が少ない年は、" + "。また、".join(out) + "。"
 
 
 def winter_text(f, ever, soil, cold):
@@ -717,6 +753,16 @@ for m in master:
         if prr.get("食い違い"):
             pw_.append(f"[食い違い] {prr['食い違い']}")
         r["蜜源の根拠"] = "\n".join(pw_)
+    # 品種なのに種のページの値を使った切り花・蜜源の確かめ（2026-11-27。scripts/tools/species_value_check_note.md）
+    # 外す：品種の性質（八重咲き・品種のページの逆の記述）で種の値が当てはまらない → 空欄。迷う：値は残し、根拠に書く
+    for item_, col_, ev_ in (("切り花", "切り花適性", "切り花の根拠"), ("蜜源", "蜜源価値", "蜜源の根拠")):
+        sc_ = SPECIES_CHECK.get(no, {}).get(item_)
+        if sc_ and r.get(col_):
+            if sc_["判断"] == "外す":
+                r[ev_] = f"[品種の確かめ 2026-11-27] 種の値 {r[col_]} は品種に当てはまらないので外した：{sc_['理由']}\n" + (r.get(ev_) or "")
+                r[col_] = None
+            else:
+                r[ev_] = (r.get(ev_) or "") + f"\n[品種の確かめ 2026-11-27・要確認] 種の値が品種に当てはまるか迷う：{sc_['理由']}"
     # 繁殖方法は総当たりの読み直しの値を使う（2026-11-26。scripts/tools/prop_reread_note.md）
     grr = PROP_RR.get(no)
     if grr:
@@ -734,6 +780,10 @@ for m in master:
     wpo = WINTER_POLISH.get(no)
     if wpo:
         whk, wwm = wpo.get("北海道"), wpo.get("温暖地")
+    sn = snow_note(wf, whk)
+    if sn:
+        whk = (whk or "") + sn
+        wwhy.append(f"[雪が少ない年の一言 2026-11-27] {sn}")
     r["冬の手入れ（北海道）"], r["冬の手入れ（温暖地）"] = whk, wwm
     r["冬の手入れ（今のマスター・北海道）"], r["冬の手入れ（今のマスター・温暖地）"] = m.get("冬の手入れ（北海道）"), m.get("冬の手入れ（温暖地）")
     if wf:

@@ -180,12 +180,12 @@
 "今のマスター": "適湿"
 },
 "1522": {
-"土壌水分": "幅広く適応",
+"土壌水分": "適湿",
 "段階": "品種",
-"決め手": "[MBG・品種] Tolerant of occasional standing water",
+"決め手": "[RHS・品種] Moist but well–drained or Well–drained",
 "食い違い": "RHS・品種 Moist but well-drained or Well-drained（適湿）",
-"確かさ": "中",
-"メモ": "MBG品種文で停滞水に耐える・流れの縁向きと明記、Walters Dry・NC Stateも乾燥に耐える。湿潤寄りの読みもあり",
+"確かさ": "低",
+"メモ": "MBG品種文で停滞水に耐える・流れの縁向きと明記、Walters Dry・NC Stateも乾燥に耐える。湿潤寄りの読みもあり（再検証 2026-11-27：2人の係で割れたので3人目が決めた。MBG品種のTolerant of occasional standing waterは幅広く適応の読みで、下位が上位を覆せる区分ではない。stream marginsで湿潤寄りとも読め迷う）",
 "前の値": "適湿",
 "今のマスター": "適湿"
 },
@@ -230,12 +230,12 @@
 "今のマスター": "適湿"
 },
 "1429": {
-"土壌水分": "幅広く適応",
+"土壌水分": "適湿",
 "段階": "種",
-"決め手": "[MBG・種] Tolerates wet soils / [NC State・種] It will tolerate wet soil",
+"決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "RHS・品種 Moist but well-drained（適湿）",
 "確かさ": "中",
-"メモ": "種の文で湿った土に耐えると明記（bog gardens・pond marginsもあり湿潤寄りの読みもある）",
+"メモ": "種の文で湿った土に耐えると明記（bog gardens・pond marginsもあり湿潤寄りの読みもある）（再検証 2026-11-27：2人の係で割れたので3人目が決めた。tolerates wet・bog gardensはMBG・NCとも種の段階。品種段階のRHS・stauden.de(frisch)が適湿で品種を優先）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -360,12 +360,12 @@
 "今のマスター": "乾燥寄り"
 },
 "861": {
-"土壌水分": "適湿",
+"土壌水分": "湿潤寄り",
 "段階": "品種",
-"決め手": "[RHS・品種] Moist but well-drained",
+"決め手": "[MBG・品種] soils that are kept consistently moist / Soils must not be allowed to dry out",
 "食い違い": null,
-"確かさ": "高",
-"メモ": null,
+"確かさ": "低",
+"メモ": "（再検証 2026-11-27：2人の係で割れたので3人目が決めた。RHSは適湿だが下位MBG品種の文がconsistently moist（規則の湿潤寄りの語）と明記。MBG内でmedium moistureとも書き割れるので低）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -525,7 +525,7 @@
 "決め手": "[NC State・種] adaptable to all types of soil and drainage / Occasionally Dry; Occasionally Wet; Very Dry",
 "食い違い": "RHS・品種 Moist but well-drained or Well-drained（適湿）",
 "確かさ": "中",
-"メモ": "NC State種で乾〜湿の全排水条件に適応と明記",
+"メモ": "NC State種で乾〜湿の全排水条件に適応と明記（再検証 2026-11-27：2人の係で割れたので3人目が決めた。乾いた土から湿った土まで育つという文があるので、2026-11-26 のそろえ直しに合わせて 幅広く適応）",
 "前の値": "適湿",
 "今のマスター": "適湿"
 },
@@ -555,7 +555,7 @@
 "決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "MBG・種 Medium to wet、NC State・種 medium to wet, Occasionally Wet（湿潤寄り）",
 "確かさ": "中",
-"メモ": "種の文献は湿潤寄りだが湿地・水辺の明記はない",
+"メモ": "種の文献は湿潤寄りだが湿地・水辺の明記はない（再検証 2026-11-27：2人の係で割れたので3人目が決めた。medium to wetはMBG・NCとも種の段階。品種段階のRHS・stauden.de(frisch)が適湿）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -570,12 +570,12 @@
 "今のマスター": "適湿"
 },
 "1335": {
-"土壌水分": "排水必須",
+"土壌水分": "適湿",
 "段階": "種",
-"決め手": "[MBG・種] Tolerates a wide range of soils except heavy, poorly drained ones",
+"決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "RHS・品種 Moist but well-drained（適湿）",
 "確かさ": "中",
-"メモ": "MBG種文で水はけの悪い重い土には耐えないと明記",
+"メモ": "MBG種文で水はけの悪い重い土には耐えないと明記（再検証 2026-11-27：2人の係で割れたので3人目が決めた。poorly drainedを嫌う文はMBG種の段階。品種段階のRHS・Walters・stauden.deが適湿で品種を優先）",
 "前の値": "適湿",
 "今のマスター": "適湿"
 },
@@ -700,12 +700,12 @@
 "今のマスター": "幅広く適応"
 },
 "1377": {
-"土壌水分": "排水必須",
+"土壌水分": "適湿",
 "段階": "種",
-"決め手": "[MBG・種] Dense crowns may rot in soggy, poorly-drained winter soils",
+"決め手": "[stauden.de・品種] Bodenfeuchte: frisch",
 "食い違い": "NC State・種 Good Drainage; Moist（適湿）",
 "確かさ": "中",
-"メモ": "RHS値なし。MBGは乾かしてもいけないとも書き、適湿の読みもある",
+"メモ": "RHS値なし。MBGは乾かしてもいけないとも書き、適湿の読みもある（再検証 2026-11-27：2人の係で割れたので3人目が決めた。RHSなし。冠の腐りの文はMBG種の段階で、品種段階のstauden.deがfrischで適湿。NC種もGood Drainage; Moist）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -1175,7 +1175,7 @@
 "決め手": "[RHS・品種] Moist but well-drained or Well-drained",
 "食い違い": "MBG・種 Water: Medium to wet（湿潤寄り）",
 "確かさ": "中",
-"メモ": "Walters は Dry も含み適湿。MBG の湿潤寄りは値のみではっきりした文でないので採らない",
+"メモ": "Walters は Dry も含み適湿。MBG の湿潤寄りは値のみではっきりした文でないので採らない（再検証 2026-11-27：2人の係で割れたので3人目が決めた。最上位RHS品種が適湿。MBG種のMedium to wetは値だけで湿潤寄りのはっきりした文ではない）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -1275,7 +1275,7 @@
 "決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "MBG・種 Water: Medium to wet（湿潤寄り）",
 "確かさ": "中",
-"メモ": "NC State・種 Good Drainage; Moist, requires well-drained soil",
+"メモ": "NC State・種 Good Drainage; Moist, requires well-drained soil（再検証 2026-11-27：2人の係で割れたので3人目が決めた。moist to wetはMBG種の段階。NC種もGood Drainage; Moist）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -1530,12 +1530,12 @@
 "今のマスター": "幅広く適応"
 },
 "1951": {
-"土壌水分": "排水必須",
+"土壌水分": "適湿",
 "段階": "種",
-"決め手": "[NC State・種] Overwatering can lead to root rot",
+"決め手": "[RHS・品種] Moist but well-drained or Well-drained",
 "食い違い": "RHS・品種 Moist but well-drained or Well-drained（適湿）；MBG・品種 Dry to medium・NC Occasionally Dry（乾燥寄り）",
 "確かさ": "中",
-"メモ": "RHS は適湿だが NC が根腐れ、MBG も as long as drainage is good / avoid heavy clays と水はけをはっきり求める",
+"メモ": "RHS は適湿だが NC が根腐れ、MBG も as long as drainage is good / avoid heavy clays と水はけをはっきり求める（再検証 2026-11-27：2人の係で割れたので3人目が決めた。根腐れはNC種の段階で水やり過多の話。MBG品種のas long as drainage is good・Avoid heavy claysは傷む・枯れるの明記なし）",
 "前の値": "適湿",
 "今のマスター": "乾燥寄り"
 },
@@ -1615,7 +1615,7 @@
 "決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "Gaißmayer・品種 eher feuchte Böden、stauden.de・品種 feucht（湿潤寄り）",
 "確かさ": "中",
-"メモ": "Walters・品種 Average, Moist も適湿",
+"メモ": "Walters・品種 Average, Moist も適湿（再検証 2026-11-27：2人の係で割れたので3人目が決めた。Gaißmayerはeher feuchte（どちらかといえば湿った）とぼかした書き方でstauden.de feuchtは値。Waltersも適湿）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -2210,12 +2210,12 @@
 "今のマスター": "適湿"
 },
 "1923": {
-"土壌水分": "適湿",
+"土壌水分": "幅広く適応",
 "段階": "品種",
 "決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "NC State・品種 Occasionally Dry と Occasionally Wet, tolerant of dry and wet soils（幅広く適応）；MBG・品種 Medium to wet（湿潤寄り）",
 "確かさ": "中",
-"メモ": "Walters・品種 Average, Moist も適湿。RHS を採る",
+"メモ": "Walters・品種 Average, Moist も適湿。RHS を採る（再検証 2026-11-27：2人の係で割れたので3人目が決めた。乾いた土から湿った土まで育つという文があるので、2026-11-26 のそろえ直しに合わせて 幅広く適応）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -2425,7 +2425,7 @@
 "決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "MBG・種 Medium to wet・evenly moist to wet（湿潤寄り）",
 "確かさ": "低",
-"メモ": "NC種はrequires well-drained、MBG種はmoist to wet。上位RHS・NCの適湿を採る",
+"メモ": "NC種はrequires well-drained、MBG種はmoist to wet。上位RHS・NCの適湿を採る（再検証 2026-11-27：2人の係で割れたので3人目が決めた。moist to wetはMBG種の段階。品種のstauden.deもfrischありで適湿）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -2795,7 +2795,7 @@
 "決め手": "[RHS・品種] Moist but well-drained or Well-drained",
 "食い違い": "MBG・種 Dry to medium、Crown rot in moist poorly drained soils",
 "確かさ": "中",
-"メモ": null,
+"メモ": "（再検証 2026-11-27：2人の係で割れたので3人目が決めた。Crown rotの文はMBG種の段階。品種段階のRHS・Walters・stauden.deが適湿）",
 "前の値": "適湿",
 "今のマスター": "乾燥寄り"
 },
@@ -3150,12 +3150,12 @@
 "今のマスター": "乾燥寄り"
 },
 "1423": {
-"土壌水分": "適湿",
+"土壌水分": "排水必須",
 "段階": "種",
-"決め手": "[RHS] Moist but well-drained",
+"決め手": "[NC State・種] This grass will not grow in poorly drained soil",
 "食い違い": "NC・種 will not grow in poorly drained soil",
 "確かさ": "中",
-"メモ": "NCは乾燥も不可とし、湿り気と水はけの両方を求める",
+"メモ": "NCは乾燥も不可とし、湿り気と水はけの両方を求める（再検証 2026-11-27：2人の係で割れたので3人目が決めた。種の商品で、下位NCが水はけが悪いと育たないとはっきり書く。上位RHSの適湿を例外で覆す。乾燥にも弱い）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -3410,12 +3410,12 @@
 "今のマスター": "適湿"
 },
 "608": {
-"土壌水分": "湿潤寄り",
+"土壌水分": "適湿",
 "段階": "種",
-"決め手": "[NC State・種] Occasionally Wet / prefers rich, moist to wet, woodland soils",
+"決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "RHS・品種 適湿",
 "確かさ": "中",
-"メモ": "上位RHS適湿だが下位に moist to wet の明確な記述",
+"メモ": "上位RHS適湿だが下位に moist to wet の明確な記述（再検証 2026-11-27：2人の係で割れたので3人目が決めた。NC Stateのmoist to wetは種の段階。品種段階RHS・stauden.deが適湿（165と同じ扱い））",
 "前の値": "適湿",
 "今のマスター": "適湿"
 },
@@ -3995,7 +3995,7 @@
 "決め手": "[MBG・種] sharply-drained soils / Root rot may occur in wet, poorly-drained soils",
 "食い違い": "RHS 適湿、stauden.de frisch+feucht（適湿）",
 "確かさ": "中",
-"メモ": "上位RHSは適湿だがMBGが根腐れと明記",
+"メモ": "上位RHSは適湿だがMBGが根腐れと明記（再検証 2026-11-27：2人の係で割れたので3人目が決めた。種の商品で、MBGが根腐れをはっきり書くので上位RHSの適湿より採る）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -4100,12 +4100,12 @@
 "今のマスター": "排水必須"
 },
 "1820": {
-"土壌水分": "適湿",
+"土壌水分": "乾燥寄り",
 "段階": "品種",
-"決め手": "[stauden.de・品種] Bodenfeuchte: frisch",
+"決め手": "[MBG・種] Water: Dry to medium",
 "食い違い": "MBG・種 Water: Dry to medium（乾燥寄り）",
-"確かさ": "低",
-"メモ": "品種段階はstauden.deのみ。種段階のMBGは乾燥寄り",
+"確かさ": "中",
+"メモ": "品種段階はstauden.deのみ。種段階のMBGは乾燥寄り（再検証 2026-11-27：2人の係で割れたので3人目が決めた。種の商品で最上位はMBG（RHS・NCなし）。except consistently wetは腐るの明記ではなく値の乾燥寄りを採る）",
 "前の値": "乾燥寄り",
 "今のマスター": "幅広く適応"
 },
@@ -4525,7 +4525,7 @@
 "決め手": "[MBG・種][NC State・種] Stem and root rot may occur, especially in poorly-drained soils",
 "食い違い": "RHS 適湿",
 "確かさ": "中",
-"メモ": "上位RHSは適湿だがMBG・NC Stateが根腐れを明記",
+"メモ": "上位RHSは適湿だがMBG・NC Stateが根腐れを明記（再検証 2026-11-27：2人の係で割れたので3人目が決めた。種の商品で、下位2文献が排水不良で腐るとはっきり書くので上位RHSの適湿より採る）",
 "前の値": "適湿",
 "今のマスター": "適湿"
 },
@@ -4565,7 +4565,7 @@
 "決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "NC State・種 Occasionally Wet / moist to wet soils（湿潤寄り）",
 "確かさ": "中",
-"メモ": "品種段階のRHS・stauden.deは適湿",
+"メモ": "品種段階のRHS・stauden.deは適湿（再検証 2026-11-27：2人の係で割れたので3人目が決めた。NC Stateのmoist to wetは種の段階。品種段階のRHS・stauden.de(frisch)が適湿で品種を優先）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -4595,7 +4595,7 @@
 "決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "NC State・種 Dry+Wet（幅広く適応）、MBG Medium to wet・Gaißmayer feuchten, schweren Böden（湿潤寄り）",
 "確かさ": "中",
-"メモ": "下位は割れていて、はっきりした湿地の文ではない",
+"メモ": "下位は割れていて、はっきりした湿地の文ではない（再検証 2026-11-27：2人の係で割れたので3人目が決めた。下位はNC幅広く適応・MBG値Medium to wet・Gaißmayer feuchtenと割れ、湿地・いつも湿ったのはっきりした文はない）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -5675,7 +5675,7 @@
 "決め手": "[MBG・品種] Stem and root rot may occur, especially in poorly-drained soils.",
 "食い違い": "RHS・品種 Moist but well-drained（適湿）",
 "確かさ": "中",
-"メモ": "上位 RHS は適湿だが MBG・品種と NC State・種がともに排水不良で茎・根が腐るとはっきり書く",
+"メモ": "上位 RHS は適湿だが MBG・品種と NC State・種がともに排水不良で茎・根が腐るとはっきり書く（再検証 2026-11-27：2人の係で割れたので3人目が決めた。品種段階MBGと種段階NCが排水不良で腐ると明記。上位RHS適湿を例外で覆す）",
 "前の値": "適湿",
 "今のマスター": "乾燥寄り"
 },
@@ -5925,7 +5925,7 @@
 "決め手": "[RHS・品種] Moist but well-drained or Well-drained",
 "食い違い": "MBG・品種 Medium to wet・stream/pond margins（湿潤寄り）",
 "確かさ": "中",
-"メモ": "MBG は湿潤寄りだが average soils・乾きにも耐えるとも書くため RHS を採る",
+"メモ": "MBG は湿潤寄りだが average soils・乾きにも耐えるとも書くため RHS を採る（再検証 2026-11-27：2人の係で割れたので3人目が決めた。MBG品種はMedium to wetでもaverage soilや乾きにも耐えると書き割れるので、湿潤寄りのはっきりした文にならない）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -6195,7 +6195,7 @@
 "決め手": "[MBG・種] Water: Medium",
 "食い違い": "Gaißmayer・種 frische bis feuchte（湿潤寄りの手がかり）",
 "確かさ": "高",
-"メモ": "stauden.de（品種）frisch・feucht も適湿",
+"メモ": "stauden.de（品種）frisch・feucht も適湿（再検証 2026-11-27：2人の係で割れたので3人目が決めた。RHSなし。MBG・Gaißmayerは種の段階で、品種段階のstauden.deがfrischありで適湿。MBG値もMedium）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -6205,7 +6205,7 @@
 "決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "stauden.de（品種）feucht・sumpfig・WR4（湿潤寄り）",
 "確かさ": "中",
-"メモ": null,
+"メモ": "（再検証 2026-11-27：2人の係で割れたので3人目が決めた。stauden.deのsumpfig・WR4は値で文ではなく、frischもあるので上位RHSを覆せない）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -6265,7 +6265,7 @@
 "決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "NC・種 Occasionally Wet・moist to wet、MBG・種 Medium to wet（湿潤寄り）",
 "確かさ": "中",
-"メモ": "下位の文献は種の段階のみ、品種の RHS・stauden.de は適湿",
+"メモ": "下位の文献は種の段階のみ、品種の RHS・stauden.de は適湿（再検証 2026-11-27：2人の係で割れたので3人目が決めた。moist to wet・湿地は種の段階。品種段階のRHS・stauden.de(frisch)が適湿）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -6375,7 +6375,7 @@
 "決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "MBG・品種 Medium to wet・pond edges（湿潤寄り）",
 "確かさ": "中",
-"メモ": "Walters・品種 も適湿",
+"メモ": "Walters・品種 も適湿（再検証 2026-11-27：2人の係で割れたので3人目が決めた。MBG品種のMedium to wetは値、pond edgesは用途の文、Intolerant of dryは湿りの強さを示さない。湿潤寄りのはっきりした文とまでは言えない）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -6435,7 +6435,7 @@
 "決め手": "[MBG・品種] Dense crowns may rot in soggy, poorly-drained winter soils",
 "食い違い": "RHS・品種 適湿",
 "確かさ": "中",
-"メモ": "RHS は適湿だが MBG 品種が冬の排水不良で腐ると明記",
+"メモ": "RHS は適湿だが MBG 品種が冬の排水不良で腐ると明記（再検証 2026-11-27：2人の係で割れたので3人目が決めた。品種段階のMBG文が冬の排水不良で腐るとはっきり書くので上位RHSの適湿より採れる（例外））",
 "前の値": "適湿",
 "今のマスター": "適湿"
 },
@@ -6445,7 +6445,7 @@
 "決め手": "[MBG・品種] Water: Medium",
 "食い違い": "NC・種 Moist; Occasionally Wet・moist to soggy（湿潤寄り）",
 "確かさ": "低",
-"メモ": "品種段階の MBG・Walters・stauden.de は適湿、種の NC は湿潤寄り",
+"メモ": "品種段階の MBG・Walters・stauden.de は適湿、種の NC は湿潤寄り（再検証 2026-11-27：2人の係で割れたので3人目が決めた。RHSなし。NCのmoist to soggyは種の段階で、品種段階のMBG・Walters・stauden.deがそろって適湿）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -6455,7 +6455,7 @@
 "決め手": "[RHS・品種] Well-drained",
 "食い違い": "NC・MBG（種）moist to wet・Medium to wet、stauden.de・種 sumpfig（湿潤寄り）",
 "確かさ": "低",
-"メモ": "RHS 品種の値を採るが種の文献はすべて湿潤寄り",
+"メモ": "RHS 品種の値を採るが種の文献はすべて湿潤寄り（再検証 2026-11-27：2人の係で割れたので3人目が決めた。品種段階のRHS Well-drainedだけは規則で排水必須。湿潤寄りの文献はすべて種の段階で品種を優先。種とは逆向きなので低）",
 "前の値": "排水必須",
 "今のマスター": "湿潤寄り"
 },
@@ -6645,7 +6645,7 @@
 "決め手": "[RHS・品種] Moist but well-drained or Well-drained",
 "食い違い": "MBG・種 Dry to medium、stauden.de trocken（乾燥寄り）",
 "確かさ": "中",
-"メモ": "MBG の Avoid wet soils は枯れるの明記なし",
+"メモ": "MBG の Avoid wet soils は枯れるの明記なし（再検証 2026-11-27：2人の係で割れたので3人目が決めた。MBGのAvoid wet soils／excellent drainageは傷む・枯れるの明記がなく排水必須とまでは言えない。MBG値・stauden.deは乾燥寄りで割れる）",
 "前の値": "適湿",
 "今のマスター": "排水必須"
 },
@@ -6735,7 +6735,7 @@
 "決め手": "[Gaißmayer・品種] Schwere Lehmböden die zu Staunässe neigen werden ... wenig vertragen",
 "食い違い": "RHS・品種 適湿",
 "確かさ": "中",
-"メモ": "RHS は適湿だが Gaißmayer が滞水に耐えないと明記",
+"メモ": "RHS は適湿だが Gaißmayer が滞水に耐えないと明記（再検証 2026-11-27：2人の係で割れたので3人目が決めた。品種段階で滞水しやすい土に耐えないと明記＝規則の排水必須（intolerant of poorly drained）。乾燥に弱いことは別項目）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -7565,17 +7565,17 @@
 "決め手": "[RHS・品種] Moist but well-drained or Well-drained",
 "食い違い": "RHS などは 適湿 相当。NC State・種 dry to wet sites（幅広く適応）・MBG・品種 Water: Medium to wet（湿潤寄り）",
 "確かさ": "中",
-"メモ": "Walters・stauden は適湿。下位の文献が乾・湿の両側に割れる（そろえ直し 2026-11-26：欧米の文献が乾いた土から湿った土・水辺まで育つとはっきり書くときは、RHS の値より 幅広く適応 を採る。係によって割れたのでそろえた）",
+"メモ": "Walters・stauden は適湿。下位の文献が乾・湿の両側に割れる（そろえ直し 2026-11-26：欧米の文献が乾いた土から湿った土・水辺まで育つとはっきり書くときは、RHS の値より 幅広く適応 を採る。係によって割れたのでそろえた）（再検証 2026-11-27：2人の係で割れたので3人目が決めた。乾いた土から湿った土まで育つという文があるので、2026-11-26 のそろえ直しに合わせて 幅広く適応）",
 "前の値": "適湿",
 "今のマスター": "適湿"
 },
 "1464": {
-"土壌水分": "排水必須",
+"土壌水分": "適湿",
 "段階": "種",
-"決め手": "[MBG・種] Dense crowns may rot in soggy, poorly-drained winter soils",
+"決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "RHS・品種 Moist but well-drained（適湿）",
 "確かさ": "中",
-"メモ": "RHS は適湿だが MBG・種が冬の過湿で株が腐ると書く。乾かすのも不可",
+"メモ": "RHS は適湿だが MBG・種が冬の過湿で株が腐ると書く。乾かすのも不可（再検証 2026-11-27：2人の係で割れたので3人目が決めた。冠の腐りの文はMBG種の段階。品種段階のRHS・stauden.de(frisch)があるので品種を優先）",
 "前の値": "適湿",
 "今のマスター": "適湿"
 },
@@ -7585,7 +7585,7 @@
 "決め手": "[RHS・品種] Moist but well-drained or Well-drained",
 "食い違い": "NC State・種 Moist; Occasionally Wet / moist to soggy soils（湿潤寄り）",
 "確かさ": "中",
-"メモ": "MBG・品種 Medium・Walters Average/Moist も適湿なので品種の値を採る",
+"メモ": "MBG・品種 Medium・Walters Average/Moist も適湿なので品種の値を採る（再検証 2026-11-27：2人の係で割れたので3人目が決めた。NCのmoist to soggyは種の段階。品種のMBG・Waltersも適湿）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -7705,7 +7705,7 @@
 "決め手": "[RHS・品種] Moist but well-drained or Well-drained",
 "食い違い": "RHS などは 適湿 相当。NC State・種 Occasionally Dry; Occasionally Wet・MBG・種 tolerate some dry soils as well as occasional standing water（幅広く適応）",
 "確かさ": "中",
-"メモ": "（そろえ直し 2026-11-26：欧米の文献が乾いた土から湿った土・水辺まで育つとはっきり書くときは、RHS の値より 幅広く適応 を採る。係によって割れたのでそろえた）",
+"メモ": "（そろえ直し 2026-11-26：欧米の文献が乾いた土から湿った土・水辺まで育つとはっきり書くときは、RHS の値より 幅広く適応 を採る。係によって割れたのでそろえた）（再検証 2026-11-27：2人の係で割れたので3人目が決めた。乾いた土から湿った土まで育つという文があるので、2026-11-26 のそろえ直しに合わせて 幅広く適応）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -7735,7 +7735,7 @@
 "決め手": "[stauden.de・品種] Bodenfeuchte trocken",
 "食い違い": "MBG・種 Root rot may occur in wet, poorly drained soils（排水必須）",
 "確かさ": "中",
-"メモ": "RHS なし。MBG・種も Dry to medium",
+"メモ": "RHS なし。MBG・種も Dry to medium（再検証 2026-11-27：2人の係で割れたので3人目が決めた。RHS・NCなし。根腐れの文はMBG種の段階で、品種段階はstauden.deのtrockenだけなので品種を優先）",
 "前の値": "乾燥寄り",
 "今のマスター": "排水必須"
 },
@@ -7830,12 +7830,12 @@
 "今のマスター": "湿潤寄り"
 },
 "1490": {
-"土壌水分": "乾燥寄り",
+"土壌水分": "適湿",
 "段階": "種",
-"決め手": "[MBG・種] Water: Dry / as long as dry soil requirements can be met",
+"決め手": "[NC State・種] Good Drainage",
 "食い違い": "NC State・種 Good Drainage のみ（規則上は適湿）",
 "確かさ": "低",
-"メモ": "RHS なし。NC は値 Good Drainage だけで文なし、MBG は乾いた土を値と文ではっきり求める",
+"メモ": "RHS なし。NC は値 Good Drainage だけで文なし、MBG は乾いた土を値と文ではっきり求める（再検証 2026-11-27：2人の係で割れたので3人目が決めた。RHSなしで最上位NCのGood Drainageだけは規則で適湿。下位MBGの乾燥寄りは覆せる区分ではない）",
 "前の値": "乾燥寄り",
 "今のマスター": "排水必須"
 },
@@ -7975,7 +7975,7 @@
 "決め手": "[RHS・品種] Moist but well-drained",
 "食い違い": "MBG・種 Tolerates wet soils・Walters 文 tolerate wet conditions（幅広く適応）・NC State・種 Occasionally Wet（湿潤寄り）",
 "確かさ": "中",
-"メモ": "Walters・品種 Average/Moist・stauden frisch, feucht。湿った土にも耐えるとする文献あり",
+"メモ": "Walters・品種 Average/Moist・stauden frisch, feucht。湿った土にも耐えるとする文献あり（再検証 2026-11-27：2人の係で割れたので3人目が決めた。Walters品種のtolerate wet conditionsは耐えるの文（幅広く適応の型）で、値はAverage/Moist。NCのOccasionally Wetは種の段階）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -7985,7 +7985,7 @@
 "決め手": "[RHS] Moist but well-drained",
 "食い違い": "Gaißmayer wechselfeuchte... Moorwiesen（湿った側の自生地）",
 "確かさ": "中",
-"メモ": "stauden frisch, feucht。Gaißmayer は自生地の記述",
+"メモ": "stauden frisch, feucht。Gaißmayer は自生地の記述（再検証 2026-11-27：2人の係で割れたので3人目が決めた。Gaißmayerは自生地とwechselfeucht（湿ったり乾いたり）で湿潤寄りのはっきりした文ではない）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
@@ -8555,7 +8555,7 @@
 "決め手": "[RHS] Moist but well-drained",
 "食い違い": "Gaißmayer 池・小川の岸、Feuchtwiesen 向き（湿潤寄り）",
 "確かさ": "中",
-"メモ": "MBG Medium・Walters Average/Moist は適湿。Gaißmayer も nicht zu trockene Standorte も可と書く",
+"メモ": "MBG Medium・Walters Average/Moist は適湿。Gaißmayer も nicht zu trockene Standorte も可と書く（再検証 2026-11-27：2人の係で割れたので3人目が決めた。Gaißmayerは水辺・Feuchtwiesenにも乾きすぎない林縁にも向くと書き、湿潤寄り一本のはっきりした文ではない。MBG・Waltersも適湿）",
 "前の値": "適湿",
 "今のマスター": "湿潤寄り"
 },
