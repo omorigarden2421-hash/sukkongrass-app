@@ -342,10 +342,10 @@
 "1565": {
 "蜜源": "○",
 "段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators",
+"決め手": "[stauden.de・種] Mentha x piperita：Insektennährpflanze",
 "食い違い": null,
 "確かさ": "高",
-"メモ": null,
+"メモ": "（2026-11-27 種の当て直し：NC State の spicata の種のページから、stauden.de の × piperita の種のページに当て直した。値は同じ）",
 "前の値": "○",
 "今のマスター": "○"
 },
@@ -2402,10 +2402,10 @@
 "1247": {
 "蜜源": "○",
 "段階": "種",
-"決め手": "[NC State・種] Attracts: Bees; Butterflies; Pollinators／#food source nectar",
+"決め手": "[NC State・種] Symphyotrichum novi-belgii：Attracts: Bees; Butterflies; Pollinators",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "今は値なし→NC State種で○",
+"メモ": "今は値なし→NC State種で○（2026-11-27 種の当て直し：NC State の種のページを novi-belgii に当て直した。値は同じ）",
 "前の値": null,
 "今のマスター": "◎"
 },

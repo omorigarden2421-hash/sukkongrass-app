@@ -10,7 +10,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "RHS：Symphyotrichum novi-belgii 'Herbstgruss vom Bresserhof'（RHS は novi-belgii の品種として掲載（マスターは dumosus）） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】；前のメモ：RHS は Symphyotrichum novi-belgii 'Herbstgruss vom Bresserhof'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
+   "note": "RHS：Symphyotrichum novi-belgii 'Herbstgruss vom Bresserhof'（RHS は novi-belgii の品種として掲載（マスターは dumosus）） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので、種の文献と和名を新しい種で当て直した（2026-11-27）"
   },
   "synonyms": {
    "value": [
@@ -30,9 +30,11 @@
    "level": null
   },
   "common_name_ja": {
-   "value": null,
+   "value": "ユウゼンギク",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s04"
+   ],
    "level": null
   },
   "flower_color_detail": {
@@ -102,7 +104,7 @@
    "sources": [
     "s02"
    ],
-   "level": "genus"
+   "level": "species"
   },
   "usda_min": {
    "value": 4,
@@ -110,7 +112,7 @@
    "sources": [
     "s02"
    ],
-   "level": "genus"
+   "level": "species"
   },
   "usda_max": {
    "value": 8,
@@ -118,7 +120,7 @@
    "sources": [
     "s02"
    ],
-   "level": "genus"
+   "level": "species"
   },
   "rhs_h": {
    "value": null,
@@ -144,7 +146,7 @@
    "sources": [
     "s02"
    ],
-   "level": "genus"
+   "level": "species"
   },
   "west_sun": {
    "value": null,
@@ -169,7 +171,7 @@
    "level": "species"
   },
   "soil_ph_type": {
-   "value": "酸性〜アルカリ性、砂質・ローム",
+   "value": "酸性〜中性、粘土・砂質・ローム",
    "method": "記載",
    "sources": [
     "s06"
@@ -177,10 +179,12 @@
    "level": "species"
   },
   "salt": {
-   "value": null,
+   "value": "◎",
    "method": "判定",
-   "sources": null,
-   "level": null
+   "sources": [
+    "s02"
+   ],
+   "level": "species"
   },
   "evergreen_warm": {
    "value": null,
@@ -215,7 +219,8 @@
    "value": 2,
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s02"
    ],
    "level": "species"
   },
@@ -265,7 +270,7 @@
    "sources": [
     "s02"
    ],
-   "level": "genus"
+   "level": "species"
   },
   "pruning_codes": {
    "value": [
@@ -275,7 +280,7 @@
    "sources": [
     "s02"
    ],
-   "level": "genus"
+   "level": "species"
   },
   "management_type": {
    "value": null,
@@ -333,10 +338,10 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": null,
   "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[MBG/属] Good air circulation and consistent moist soils with good drainage helps reduce incidence of foliar diseases.",
-  "spread_evidence": "[地下茎 2／NC State・種] The plant spreads by rhizomes（読み直し）\n[地下茎 2／NC State・種] The plant spreads by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
+  "heat_muggy_west_evidence": "[MBG/種] Good air circulation and consistently moist soils with good drainage help reduce incidence of foliar diseases.",
+  "spread_evidence": "[地下茎 2／NC State・種] The plant spreads by rhizomes（読み直し）\n[こぼれ種 1／MBG・種] Plants can be cut back after flowering to reduce self-seeding.\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 1、文を読み直して 空欄（記述なし）\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[NC State・種] The plant spreads by rhizomes）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：空欄）",
   "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
-  "silhouette_evidence": null,
+  "silhouette_evidence": "（種の記述）[NC State・種] Habit/Form: Cascading; Erect",
   "sources_with_cultivar_page": "Gaißmayer",
   "sources_used": "Gaißmayer、MBG、NC State、RHS"
  }

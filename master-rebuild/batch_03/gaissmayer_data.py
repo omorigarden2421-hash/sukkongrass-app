@@ -52,7 +52,7 @@ GAISS = {
           ("planting", "Wir empfehlen Frühjahrspflanzung, wobei man den Buntblatt-Knöterich dann vor eventuellen Spätfrösten schützen muss!")]),
  "S01": (4076, "Salvia nemorosa 'Caradonna'", "cultivar", "dunkelviolett", "VI + IX", "50 cm–60 cm", "sonnig", "Fr/B1-2", "Z5", None, "Zillmer (DE) 1996", {"Schnittgeeignet": "ja"},
          [("habit", "'Caradonna' wird etwa 60 cm hoch und hat eine schlanke, aufstrebende Figur, die kein Gewittersturm zu Fall bringt.")]),
- "S02": _NEM, "S03": _NEM, "S04": _NEM, "S05": _NEM,
+ "S02": _NEM, "S03": _NEM, "S05": _NEM,  # 2026-11-27 S04 は種が Salvia × digenea になったので nemorosa の種のページを外した
  "S06": (3678, "Salvia officinalis", "cultivar", "violettblau", "VI–VII", "40 cm–60 cm", "sonnig", "Fr/St/FS1b", "Z6", "keine Gefahr", None,
          {"Duftend": "ja", "Schnittgeeignet": "ja", "Wintergrün": "ja"},
          [("self_seed", "Schön in naturhaften Pflanzungen, wo er sich am geeigneten Standort auch willig versamt.")]),

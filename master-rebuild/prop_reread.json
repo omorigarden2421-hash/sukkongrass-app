@@ -440,10 +440,10 @@
 "実生"
 ],
 "段階": "品種と種",
-"決め手": "[RHS・品種] seed or division／[NC State・種] Stem Cutting／[stauden.de・種] Stecklinge",
+"決め手": "[RHS・品種] seed or division／[stauden.de・種] Mentha x piperita：Stecklinge, Teilung, Aussaat",
 "食い違い": null,
 "確かさ": "高",
-"メモ": "挿し木を種のページから追加",
+"メモ": "挿し木を種のページから追加（2026-11-27 種の当て直し：NC State・stauden.de の spicata の種のページから、stauden.de の × piperita の種のページに当て直した。値は同じ）",
 "前の値": "株分け、実生（RHS）",
 "今のマスター": "株分け・挿し木"
 },
@@ -3088,10 +3088,10 @@
 "株分け"
 ],
 "段階": "種",
-"決め手": "[NC State・種] Propagation is by seed or division",
+"決め手": "[NC State・種] Symphyotrichum novi-belgii：Recommended Propagation Strategy: Division; Seed",
 "食い違い": null,
 "確かさ": "中",
-"メモ": "種のページの株分けのみ。種のページは実生も挙げる",
+"メモ": "種のページの株分けのみ。種のページは実生も挙げる（2026-11-27 種の当て直し：NC State の種のページを novi-belgii に当て直した。値は同じ（品種なので実生は入れない））",
 "前の値": null,
 "今のマスター": "株分け"
 },
@@ -8368,17 +8368,15 @@
 },
 "1422": {
 "繁殖": [
-"株分け",
 "挿し木",
-"根挿し",
 "その他（取り木）",
 "その他（接ぎ木）"
 ],
 "段階": "品種と種",
-"決め手": "[RHS・品種] softwood / semi-ripe / hardwood cuttings, layering or grafting／[NC State・種] Division; Root Cutting; Seed; Stem Cutting",
+"決め手": "[RHS・品種] softwood / semi-ripe / hardwood cuttings, layering or grafting",
 "食い違い": null,
 "確かさ": "中",
-"メモ": "RHS の layering・grafting を その他（取り木）・その他（接ぎ木）に。株分け・根挿しは NC State（種）のみ。Seed は種のページのみ",
+"メモ": "RHS の layering・grafting を その他（取り木）・その他（接ぎ木）に。株分け・根挿しは NC State（種）のみ。Seed は種のページのみ（2026-11-27 種の当て直し：NC State の helix の種のページから来ていた株分け・根挿しを外した）",
 "前の値": "挿し木（RHS）",
 "今のマスター": "挿し木・取り木"
 },

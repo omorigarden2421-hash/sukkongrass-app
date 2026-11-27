@@ -2402,10 +2402,10 @@
 "1247": {
 "土壌水分": "適湿",
 "段階": "種",
-"決め手": "[NC State・種] Moist; Occasionally Dry / dry to moist, well-drained sandy soils",
+"決め手": "[NC State・種] Symphyotrichum novi-belgii：Soil Drainage: Good Drainage; Moist",
 "食い違い": null,
 "確かさ": "中",
-"メモ": "Dry と Moist の併記→適湿と読む",
+"メモ": "Dry と Moist の併記→適湿と読む（2026-11-27 種の当て直し：NC State の種のページを novi-belgii に当て直した。値は同じ（MBG の novi-belgii は Tolerate: Wet Soil。順番で NC State を採る））",
 "前の値": "適湿",
 "今のマスター": "幅広く適応"
 },

@@ -75,6 +75,11 @@ def rhs_name(s):
     return re.sub(r"\s*\((v|d|f|m|s)\)$", "", s).strip()
 
 
+# 未決の学名の確認で種が変わり、下書きの input の species も直して文献を当て直した品種（下書きのID → いつ）
+RESPECIES_DONE = {"Gl03": "2026-11-21", "Mn01": "2026-11-27", "D02": "2026-11-27", "A05": "2026-11-27", "A07": "2026-11-27", "S04": "2026-11-27",
+                  "Sa04": "2026-11-27", "Hd02": "2026-11-27", "Me08": "2026-11-27", "Ne09": "2026-11-27"}
+
+
 def name_answer(id_, a, adopted, note, ryu, wa, d, master_name):
     """未決の学名の確認の回答を当てる。返すのは (学名, 学名のメモ, 流通名・別名, 和名)"""
     v, memo, day = a.get("選択"), a.get("メモ"), a.get("日付")
@@ -106,7 +111,9 @@ def name_answer(id_, a, adopted, note, ryu, wa, d, master_name):
                 q0 = re.findall(r"'([^']+)'", master_name)  # 'Pink Jewel'('Rosa Juwel') のような書き方もあるので、最初の引用だけ
                 keep = q0[0] if q0 and q0[0] != cv1 else master_name  # 品種名が違えば今の品種名、種だけが違えば今の学名を流通名に残す
                 ryu = "、".join(x for x in dict.fromkeys(((ryu or "").split("、") if ryu else []) + [keep]) if x)
-            if (g0, hyb(ep0)) != (g1, hyb(ep1)):  # 種が変わった。和名と種の文献は前の種のものなので、当て直しが要る
+            if (g0, hyb(ep0)) != (g1, hyb(ep1)) and id_ in RESPECIES_DONE:  # 種が変わったが、下書きの input の species も直して文献を当て直し済み
+                head += f"。種が変わったので、種の文献と和名を新しい種で当て直した（{RESPECIES_DONE[id_]}）"
+            elif (g0, hyb(ep0)) != (g1, hyb(ep1)):  # 種が変わった。和名と種の文献は前の種のものなので、当て直しが要る
                 wa = None
                 head += "。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】"
             adopted = new

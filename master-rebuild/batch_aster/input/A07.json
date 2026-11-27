@@ -3,7 +3,7 @@
  "植物名": "アスター デュモーサス 'シュニーケッセン'",
  "学名": "Aster dumosus'Schneekissen'",
  "属": "Aster",
- "species": "Aster dumosus",
+ "species": "Symphyotrichum novi-belgii",
  "交配種": false,
  "品種名": "Schneekissen",
  "別名": "シオン（アスター）",
@@ -14,5 +14,6 @@
  "花色": "白",
  "広がり(cm)": "30",
  "葉色主分類": "① グリーン系",
- "id": "A07"
+ "id": "A07",
+ "手で直した": "2026-11-27 未決の学名の確認でユーザー「全ておすすめで」（RHS の正名にする）: species を Aster dumosus → Symphyotrichum novi-belgii に直した（学名の列はマスターのまま）"
 }

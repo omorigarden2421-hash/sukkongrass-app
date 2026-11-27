@@ -3,7 +3,7 @@
  "植物名": "ミント ストロベリーミント",
  "学名": "Mentha spicata subsp. citrata 'Strawberry'",
  "属": "Mentha",
- "species": "Mentha spicata",
+ "species": "Mentha piperita",
  "交配種": false,
  "品種名": "Strawberry",
  "別名": "ハッカ（ミント）",
@@ -14,5 +14,6 @@
  "花色": "薄紫",
  "広がり(cm)": "25～",
  "葉色主分類": "① グリーン系",
- "id": "Me08"
+ "id": "Me08",
+ "手で直した": "2026-11-27 未決の学名の確認でユーザー「全ておすすめで」（RHS の正名にする）: species を Mentha spicata → Mentha piperita に直した（学名の列はマスターのまま）"
 }

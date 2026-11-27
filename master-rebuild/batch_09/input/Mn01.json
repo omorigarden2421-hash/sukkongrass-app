@@ -3,8 +3,8 @@
  "植物名": "モナルダ ディディマ 'ブルーストッキング'",
  "学名": "Monarda didyma 'Blue Stocking'",
  "属": "Monarda",
- "species": "Monarda didyma",
- "交配種": false,
+ "species": "Monarda hybrid",
+ "交配種": true,
  "品種名": "Blue Stocking",
  "別名": "ベルガモット（モナルダ） タイマツバナ（モナルダ）",
  "在庫あり": false,
@@ -14,5 +14,6 @@
  "花色": "紫",
  "広がり(cm)": "60～90",
  "葉色主分類": "① グリーン系",
- "id": "Mn01"
+ "id": "Mn01",
+ "手で直した": "2026-11-27 未決の学名の確認でユーザー「全ておすすめで」（RHS の正名にする）: species を Monarda didyma → Monarda hybrid に直した（学名の列はマスターのまま）"
 }

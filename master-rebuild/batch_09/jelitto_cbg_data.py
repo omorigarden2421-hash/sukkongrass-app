@@ -19,7 +19,7 @@ _REP = ("AJUGA reptans", "species", "Europe, Iran, Caucasus", "blue", "May - Jun
         "First year flowering. medicinal plant / groundcover; honey-bee food plant", "ヨーロッパ、イラン、コーカサス")
 _BAR = ("Z3 - Z8", "", "80 cm", "well-drained / average", "")
 JELITTO = [
- (["Mn01", "Mn02", "Mn03", "Mn04"],) + _DID,
+ (["Mn02", "Mn03", "Mn04"],) + _DID,  # 2026-11-27 Mn01 は種が交配種（RHS Monarda 'Blaustrumpf'）になったので didyma の種のページを外した
  (["Mn05"], "MONARDA fistulosa", "cultivar", None, "mostly lilac", "July - September", "Z4 - Z8", "stoloniferous", "80 cm", "dry / average", "",
   "medicinal plant / tea herb / culinary herb; honey-bee food plant / suitable for cutting", None),
  (["Ne08"], "NEPETA nervosa 'Pink Cat'", "cultivar", None, "intensive pink", "June - September", "Z3 - Z9", "", "40 cm", "dry / well-drained", "",

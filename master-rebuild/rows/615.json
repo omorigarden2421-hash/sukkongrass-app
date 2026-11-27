@@ -10,7 +10,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "RHS：Monarda 'Blaustrumpf'（RHS は種小名なし・ドイツ語の元の名前（マスターは didyma 'Blue Stocking'）） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】；前のメモ：RHS の正名は Monarda 'Blaustrumpf'（品種名が違う。今の学名のまま）"
+   "note": "RHS：Monarda 'Blaustrumpf'（RHS は種小名なし・ドイツ語の元の名前（マスターは didyma 'Blue Stocking'）） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので、種の文献と和名を新しい種で当て直した（2026-11-27）；前のメモ：RHS の正名は Monarda 'Blaustrumpf'（品種名が違う。今の学名のまま）"
   },
   "synonyms": {
    "value": [
@@ -143,13 +143,16 @@
    "level": null
   },
   "heat": {
-   "value": "強",
+   "value": "中",
    "method": "判定",
    "sources": [
-    "s20"
+    "s02",
+    "s06",
+    "s10",
+    "s01"
    ],
-   "level": "species",
-   "note": "おぎはら（同じ種の別品種から。信頼度：低）。信頼度：低"
+   "level": "cultivar",
+   "note": "欧米の文献。信頼度：中"
   },
   "heat_note": {
    "value": "シカゴ植物園: 草丈 33〜39インチ。花つき 40〜60%。うどんこ病への強さ fair（葉の発病・落葉 26〜50%）。冬の傷みが2年以上あった（no12）",
@@ -163,8 +166,8 @@
    "value": "中",
    "method": "判定",
    "sources": [
-    "s20",
     "s02",
+    "s06",
     "s10",
     "s01"
    ],
@@ -174,8 +177,8 @@
    "value": "△",
    "method": "判定",
    "sources": [
-    "s20",
     "s02",
+    "s06",
     "s10",
     "s01"
    ],
@@ -220,12 +223,12 @@
    "level": "cultivar"
   },
   "native_range": {
-   "value": "北アメリカ東部の川岸",
+   "value": "カナダ東部、アメリカ北東部、アメリカ南東部（種の原産地）",
    "method": "記載",
    "sources": [
-    "s11"
+    "s03"
    ],
-   "level": "species"
+   "level": null
   },
   "spread_modes": {
    "value": [
@@ -252,18 +255,18 @@
     "s10",
     "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "mixing": {
    "value": "強い（周囲を圧迫、配置注意）",
    "method": "判定",
    "sources": [
-    "s06"
+    "s10"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーでよく広がる（NC State・種）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s06"
@@ -388,11 +391,11 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": "中",
   "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[おぎはら/同じ種の別品種（図鑑の モナルダ レッド・パープル・ピンク・ホワイト）] 耐暑性；強（この品種のページはない。信頼度：低）\n[MBG/品種] Prefers rich, humusy soils in full sun, but appreciates some afternoon shade in hot summer climates.\n[MBG/品種] Provide plants with good air circulation to help combat fungal leaf diseases.\n[MBG/品種] Good air circulation can also help prevent foliar disease.\n[Walters/品種] Good heat tolerance.\n[食い違い] 欧米の文献（品種の記述）は 中 相当。おぎはら植物園の同じ種の品種の値を採った\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] will spread rapidly by underground stolons（読み直し）\n[地下茎 3／NC State・種] Scarlet beebalm can reach a height of 4 feet and will spread rapidly by underground stolons.\n[地下茎の食い違い] MBG は 1 相当、Walters は 2 相当、stauden.de は 2 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 3、文を読み直して 2（[NC State・種] will spread rapidly by underground stolons）\n[段階の読み直し 2026-11-24] NC State・種「地下の走出枝で急速に広がる」は速く広がる話で、侵略的・はびこるとは書いていない（RULES.md の 2：spreads／vigorous spreader）。3 → 2\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
-  "mixing_evidence": "[NC State・種] Scarlet beebalm can reach a height of 4 feet and will spread rapidly by underground stolons.",
+  "heat_muggy_west_evidence": "[MBG/品種] Prefers rich, humusy soils in full sun, but appreciates some afternoon shade in hot summer climates.\n[MBG/品種] Provide plants with good air circulation to help combat fungal leaf diseases.\n[MBG/品種] Good air circulation can also help prevent foliar disease.\n[NC State/属] Beebalm does best in full sun with good air circulation to decrease powdery mildew problems.\n[Walters/品種] Good heat tolerance.\n[RHS/品種] Aspect: South-facing or West-facing or East-facing",
+  "spread_evidence": "[地下茎 2／NC State・種] will spread rapidly by underground stolons（読み直し）\n[地下茎 1／MBG・品種] Divide clumps every 3-4 years to prevent overcrowding and to control mildly spreading tendencies (slowly spreads by rhizomes).\n[地下茎の食い違い] Walters は 2 相当、stauden.de は 2 相当\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 1、文を読み直して 2（[NC State・種] will spread rapidly by underground stolons）\n[段階の読み直し 2026-11-24] NC State・種「地下の走出枝で急速に広がる」は速く広がる話で、侵略的・はびこるとは書いていない（RULES.md の 2：spreads／vigorous spreader）。3 → 2\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "mixing_evidence": "[Walters・品種] Beebalm spreads quickly: reduce clump size in early spring.",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: buschig, dichtbuschig bis lockerbuschig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
   "sources_with_cultivar_page": "RHS、stauden.de、MBG、Walters、シカゴ植物園",
-  "sources_used": "Jelitto、MBG、NC State、RHS、Walters、stauden.de、おぎはら、シカゴ植物園"
+  "sources_used": "MBG、NC State、RHS、Walters、stauden.de、シカゴ植物園"
  }
 }

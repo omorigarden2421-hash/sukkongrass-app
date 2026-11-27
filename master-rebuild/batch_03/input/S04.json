@@ -3,7 +3,7 @@
  "植物名": "サルビア ネモローサ'マローローズ'",
  "学名": "Salvia nemorosa 'Merleau rose'",
  "属": "Salvia",
- "species": "Salvia nemorosa",
+ "species": "Salvia digenea",
  "交配種": false,
  "品種名": "Merleau rose",
  "別名": "アキギリ（サルビア）",
@@ -14,5 +14,6 @@
  "花色": "紫がかったピンク",
  "広がり(cm)": "30～40",
  "葉色主分類": "① グリーン系",
- "id": "S04"
+ "id": "S04",
+ "手で直した": "2026-11-27 未決の学名の確認でユーザー「全ておすすめで」（RHS の正名にする）: species を Salvia nemorosa → Salvia digenea に直した（学名の列はマスターのまま）"
 }

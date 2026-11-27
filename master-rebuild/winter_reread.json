@@ -5173,11 +5173,11 @@
 "冬の過湿": null,
 "冬の姿": null,
 "雪・寒冷地": null,
-"段階": "品種と種",
-"決め手": "[stauden.de・品種] Rückschnitt der Stängel im Herbst bis Spätherbst／[おぎはら・種] 冬は中央の冬芽を残し、枝や葉はすべて切り戻して株を休ませる",
+"段階": "品種",
+"決め手": "[stauden.de・品種] Rückschnitt der Stängel im Herbst bis Spätherbst",
 "食い違い": null,
 "確かさ": "中",
-"メモ": "花後の切り戻しは除外"
+"メモ": "花後の切り戻しは除外（2026-11-27 種の当て直し：おぎはらの nemorosa の種のページを外した。文は変わらない）"
 },
 "96": {
 "商品番号": 96,
@@ -9103,15 +9103,15 @@
 "商品番号": 1422,
 "秋の地上部": null,
 "春の手入れ": null,
-"防寒": "寒冷地で必要",
+"防寒": null,
 "冬の過湿": null,
-"冬の姿": "冬も葉が見どころになる",
+"冬の姿": null,
 "雪・寒冷地": null,
-"段階": "種",
-"決め手": "防寒[MBG・種] (St. Louis area) plants will benefit from a placement that will provide some protection from winter wind and sun／姿[MBG・種] Leaf: Evergreen Other: Winter Interest",
+"段階": null,
+"決め手": null,
 "食い違い": null,
 "確かさ": "低",
-"メモ": "防寒は覆いではなく冬の風と日差しを避ける場所選び。セントルイスの地域の文なので「寒冷地で必要」とした"
+"メモ": "防寒は覆いではなく冬の風と日差しを避ける場所選び。セントルイスの地域の文なので「寒冷地で必要」とした（2026-11-27 種の当て直し：防寒・冬の姿の決め手の MBG は helix の種のページ。hibernica の種のページはないので外した）"
 },
 "1457": {
 "商品番号": 1457,

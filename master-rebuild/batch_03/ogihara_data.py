@@ -32,7 +32,7 @@ OGIHARA = [
  (["S01"], 681, "サルビア ネモローサ ‘カラドンナ’ Salvia nemorosa ‘Caradonna’", "cultivar", "強", "日向", []),
  (["S05"], 682, "サルビア ネモローサ ‘ローゼンウェイン Salvia nemorosa ’Rosenwein'", "cultivar", "強", "日向～やや半日陰",
   [("pruning", "各種ネモローサの系統は花後株元まで短く切り戻すと再び開花する")]),
- (["S02", "S03", "S04"], 680, "サルビア ネモローサ Salvia nemorosa", "species", "強", "日向～やや半日陰", [("pruning", "花後短く切り戻すと繰り返し咲く")]),
+ (["S02", "S03"], 680, "サルビア ネモローサ Salvia nemorosa", "species", "強", "日向～やや半日陰", [("pruning", "花後短く切り戻すと繰り返し咲く")]),
  (["S06"], 703, "コモンセージ Salvia officinalis", "cultivar", "強", "日向～やや半日陰", []),
  (["S07"], 697, "サルビア プラテンシス ‘メイドリーン’ Salvia pratensis 'Madeline'", "cultivar", "強", "日向～やや半日陰",
   [("heat_humidity", "暑さ寒さに強く、花期の長い人気のサルビア プラテンシスの新色"), ("pruning", "花後の切り戻しにより長期間次々と開花する")]),

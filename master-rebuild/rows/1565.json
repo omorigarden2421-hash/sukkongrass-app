@@ -10,7 +10,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "RHS：Mentha × piperita 'Strawberry'（RHS は × piperita の品種としている（マスターは spicata subsp. citrata）。別に Mentha 'Strawberry Mint'（未確定）のページもある） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】；前のメモ：RHS は Mentha × piperita 'Strawberry'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
+   "note": "RHS：Mentha × piperita 'Strawberry'（RHS は × piperita の品種としている（マスターは spicata subsp. citrata）。別に Mentha 'Strawberry Mint'（未確定）のページもある） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので、種の文献と和名を新しい種で当て直した（2026-11-27）"
   },
   "synonyms": {
    "value": [
@@ -106,10 +106,9 @@
   "sun": {
    "value": "日向〜半日陰",
    "method": "記載",
-   "sources": [
-    "s18"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null,
+   "note": "今のマスターの値。文献：日向（stauden.de・種）"
   },
   "usda_min": {
    "value": null,
@@ -156,12 +155,10 @@
    "level": null
   },
   "drought": {
-   "value": "弱",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s06"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "soil_moisture": {
    "value": "適湿",
@@ -230,12 +227,13 @@
    "value": "侵略的（隔離推奨）",
    "method": "判定",
    "sources": [
-    "s06"
+    "s06",
+    "s18"
    ],
    "level": "species"
   },
   "invasive_note": {
-   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）。こぼれ種などではびこる、という記述がある（NC State・種）。この品種で同じかは未確認。NC State・種 の表示: Weedy（雑草化しやすい）（種についての記述。この品種で同じかは未確認）",
+   "value": "地下茎・ランナーで強く広がり、はびこることがある（NC State・種）（種についての記述。この品種で同じかは未確認）",
    "method": "記載",
    "sources": [
     "s06"
@@ -259,12 +257,10 @@
    "level": null
   },
   "toxicity": {
-   "value": "毒性 弱い",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s06"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "pests": {
    "value": [
@@ -287,7 +283,6 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06",
     "s18"
    ],
    "level": "cultivar"
@@ -319,7 +314,6 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06",
     "s18"
    ],
    "level": "cultivar"
@@ -334,7 +328,7 @@
    "value": "○",
    "method": "記載",
    "sources": [
-    "s06"
+    "s18"
    ],
    "level": "species"
   },
@@ -362,10 +356,10 @@
   "heat_west_only": null,
   "muggy_west_only": null,
   "heat_muggy_west_evidence": "[RHS/品種] Aspect: East-facing or North-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 3／NC State・種] spreads rampantly / The plant spreads aggressively（読み直し）\n[地下茎 3／NC State・種] Best grown in a container as it spreads rampantly.\n[地下茎の食い違い] stauden.de は 2 相当\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
-  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）\n[NC State・種] The plant spreads aggressively.",
+  "spread_evidence": "[地下茎 3／NC State・種] spreads rampantly / The plant spreads aggressively（読み直し）\n[地下茎 2／stauden.de・種] ausläufertreibend\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 2、文を読み直して 3（[NC State・種] spreads rampantly / The plant spreads aggressively）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、ランナー）",
+  "mixing_evidence": "地下茎かこぼれ種が 3（こぼれ種・地下茎の根拠の列）",
   "silhouette_evidence": "[RHS・品種] Habit: Spreading branched",
   "sources_with_cultivar_page": "RHS、Gaißmayer",
-  "sources_used": "Gaißmayer、NC State、RHS、stauden.de"
+  "sources_used": "Gaißmayer、RHS、stauden.de"
  }
 }

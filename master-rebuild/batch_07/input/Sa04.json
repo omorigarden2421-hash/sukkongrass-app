@@ -3,7 +3,7 @@
  "植物名": "サンギソルバ オブツーサ 'レモンスプラッシュ'（ワレモコウ）",
  "学名": "Sanguisorba obtusa 'Lemon Splash'",
  "属": "Sanguisorba",
- "species": "Sanguisorba obtusa",
+ "species": "Sanguisorba officinalis",
  "交配種": false,
  "品種名": "Lemon Splash",
  "別名": "ワレモコウ（サンギソルバ）",
@@ -14,5 +14,6 @@
  "花色": "濃い赤",
  "広がり(cm)": "50～60",
  "葉色主分類": "⑦ 斑入り",
- "id": "Sa04"
+ "id": "Sa04",
+ "手で直した": "2026-11-27 未決の学名の確認でユーザー「全ておすすめで」（RHS の正名にする）: species を Sanguisorba obtusa → Sanguisorba officinalis に直した（学名の列はマスターのまま）"
 }

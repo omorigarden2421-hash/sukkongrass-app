@@ -3,7 +3,7 @@
  "植物名": "ネペタ ラセモサ'ブルーワンダー'",
  "学名": "Nepeta racemosa 'Blue Wonder'",
  "属": "Nepeta",
- "species": "Nepeta racemosa",
+ "species": "Nepeta faassenii",
  "交配種": false,
  "品種名": "Blue Wonder",
  "別名": "キャットミント（ネペタ）",
@@ -14,5 +14,6 @@
  "花色": "青紫",
  "広がり(cm)": "30～40",
  "葉色主分類": "④ シルバー系",
- "id": "Ne09"
+ "id": "Ne09",
+ "手で直した": "2026-11-27 未決の学名の確認でユーザー「全ておすすめで」（RHS の正名にする）: species を Nepeta racemosa → Nepeta faassenii に直した（学名の列はマスターのまま）"
 }

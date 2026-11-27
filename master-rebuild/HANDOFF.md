@@ -967,7 +967,14 @@ Jelitto(s11)・Gaißmayer(s17) を Chrome で読み、試作28品種の trial/ev
   - 表で変わった数：耐暑性23・蒸れ耐性6・耐寒性5・日照2・草丈12・花期10・株張り1・学名21・流通名20・和名5（空欄に）
   - 【残り】学名で種が変わった10品種（80 ガイラルディア・615 モナルダ・825 セダム 'Herbstfreude'・1247/1903 アスター → Symphyotrichum novi-belgii・1303 サルビア × digenea・1376 サンギソルバ officinalis・1422 ヘデラ hibernica・1565 ミント × piperita・1609 ネペタ × faassenii）は、学名のメモに【要見直し】。和名は空欄、種のページの文献は前の種のまま。種の文献の当て直しと、和名（YList）の当て直しが要る
   - ユーパトリウム白花（1411）は種未確定のまま（DECISIONS の未決に残す）
-- 表：`新マスター_下書き_916品種_1127g.xlsx`（最新）
+- 表：`新マスター_下書き_916品種_1127g.xlsx`
+- 【1127h】種が変わった10品種の文献を当て直した（ユーザー「進む」）。80 ガイラルディア（Gl03）は 2026-11-21 に当て直し済みだったので、combine.py の RESPECIES_DONE で【要見直し】を出さないようにしただけ
+  - 9品種の input の species を直した（学名の列はマスターのまま。JSON の「手で直した」に理由）：Mn01 → Monarda hybrid（交配種）、D02 → Hylotelephium mottramianum、A05・A07 → Symphyotrichum novi-belgii、S04 → Salvia digenea、Sa04 → Sanguisorba officinalis、Hd02 → Hedera hibernica、Me08 → Mentha piperita、Ne09 → Nepeta faassenii
+  - fetch_all.py・digest.py を7つのまとまり（aster・3・4・5・7・9・12）で回し（新しい種のページ：MBG・NC State の novi-belgii、stauden.de の × piperita など。hibernica・× digenea・× mottramianum の種のページはない〔NC State は属のページだけ〕）、rediff.py --save 1127 で下書きを作り直した。変わったのはこの9品種だけ（耐暑性2・西日2・乾燥4・和名7）
+  - 手で読んだデータから、前の種の種のページを外した：batch_03 の Gaißmayer・おぎはら（S04 に nemorosa の種のページ）、batch_09 の Jelitto（Mn01 に didyma の種のページ）
+  - 読み直しの JSON で、前の種の種のページが決め手だったものを直した（メモに「（2026-11-27 種の当て直し：…）」）：1303 切り花 ○・乾燥 強 → 空欄、冬の決め手からおぎはらを外す（文は同じ）。1422 乾燥 中 → 空欄、繁殖から株分け・根挿しを外す、冬の防寒・冬の姿を外す（文は「冬も葉が残る常緑性です。」）。1565 乾燥 弱 → 空欄、蜜源と繁殖は stauden.de の × piperita に当て直し（値は同じ）。1247 蜜源・繁殖・土壌水分は NC State の novi-belgii に当て直し（値は同じ）
+  - 和名：1247・1903 ユウゼンギク、1376 ワレモコウ。交配種（615・825・1609・80・1303）と 1422 hibernica・1565 × piperita は YList の当たりがなく空欄（推測では入れていない）
+- 表：`新マスター_下書き_916品種_1127h.xlsx`（最新）
 
 ## 次にやること（全部の属の下書きが終わった）
 - 【2026-11-21 の終わりの時点】6列・暑さの確認ページ・管理タイプの見直し（在庫あり）まで済み。待っているのは、(1) 確認ページ「暑さに弱い品種の確認」の回答 (2) 「剪定不要＋花後の花茎切り」を A にするか B にするか。（夜に、回答を表に入れる仕組み〔scripts/tools/apply_answers.py〕と、在庫のない282品種の管理タイプの見直しも済んだ。上の2つの節）。残っているのは、未決（DECISIONS.md）、試作と同じ形（rows・根拠の JSON）への統合

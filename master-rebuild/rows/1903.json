@@ -10,7 +10,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "RHS：Symphyotrichum novi-belgii 'Schneekissen'（RHS は novi-belgii の品種として掲載（マスターは dumosus）） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】；前のメモ：RHS は Symphyotrichum novi-belgii 'Schneekissen'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
+   "note": "RHS：Symphyotrichum novi-belgii 'Schneekissen'（RHS は novi-belgii の品種として掲載（マスターは dumosus）） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので、種の文献と和名を新しい種で当て直した（2026-11-27）"
   },
   "synonyms": {
    "value": [
@@ -30,9 +30,11 @@
    "level": null
   },
   "common_name_ja": {
-   "value": null,
+   "value": "ユウゼンギク",
    "method": "記載",
-   "sources": null,
+   "sources": [
+    "s04"
+   ],
    "level": null
   },
   "flower_color_detail": {
@@ -106,7 +108,7 @@
    "method": "記載",
    "sources": null,
    "level": null,
-   "note": "今のマスターの値。文献：日向（MBG・属）"
+   "note": "今のマスターの値。文献：日向（MBG・種）"
   },
   "usda_min": {
    "value": 4,
@@ -114,7 +116,7 @@
    "sources": [
     "s02"
    ],
-   "level": "genus"
+   "level": "species"
   },
   "usda_max": {
    "value": 8,
@@ -122,7 +124,7 @@
    "sources": [
     "s02"
    ],
-   "level": "genus"
+   "level": "species"
   },
   "rhs_h": {
    "value": "H6",
@@ -186,12 +188,12 @@
    "level": null
   },
   "salt": {
-   "value": "○",
+   "value": "◎",
    "method": "判定",
    "sources": [
-    "s01"
+    "s02"
    ],
-   "level": null
+   "level": "species"
   },
   "evergreen_warm": {
    "value": "落葉",
@@ -225,18 +227,20 @@
    "method": "判定",
    "sources": [
     "s06",
-    "s18"
+    "s18",
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "rhizome_level": {
    "value": 2,
    "method": "判定",
    "sources": [
     "s06",
-    "s18"
+    "s18",
+    "s02"
    ],
-   "level": "cultivar"
+   "level": "species"
   },
   "mixing": {
    "value": "強い（周囲を圧迫、配置注意）",
@@ -299,7 +303,7 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s06",
+    "s02",
     "s18"
    ],
    "level": "cultivar"
@@ -373,8 +377,8 @@
   "management_type_by_matching": "B 花後刈込型",
   "heat_west_only": null,
   "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[MBG/属] Good air circulation and consistent moist soils with good drainage helps reduce incidence of foliar diseases.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[地下茎 2／NC State・種] The plant spreads by rhizomes.（読み直し）\n[こぼれ種 1／stauden.de・種] versamend / [stauden.de・cultivar] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／stauden.de・品種] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden\n[地下茎 2／NC State・種] The plant spreads by rhizomes.\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎、こぼれ種）",
+  "heat_muggy_west_evidence": "[MBG/種] Good air circulation and consistently moist soils with good drainage help reduce incidence of foliar diseases.\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "spread_evidence": "[地下茎 2／NC State・種] The plant spreads by rhizomes.（読み直し）\n[こぼれ種 1／stauden.de・種] versamend / [stauden.de・cultivar] Rückschnitt vor der Samenreife um Selbstaussaat zu vermeiden（読み直し）\n[こぼれ種 1／MBG・種] Plants can be cut back after flowering to reduce self-seeding.\n[読み直し 2026-11-24] 地下茎：言い回しの照合では 空欄、文を読み直して 2（[NC State・種] The plant spreads by rhizomes.）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち、地下茎、こぼれ種）",
   "mixing_evidence": "[ユーザーの決定 2026-11-24] 地下茎 2（根茎・ランナーで広がる記述）なので 強い",
   "silhouette_evidence": "[stauden.de・品種] Wuchsform: kissenartig bis kissenbildend / halbkugelig / aufrechte, beblätterte Stängel ohne grundständigen Blattschopf",
   "sources_with_cultivar_page": "RHS、stauden.de、Gaißmayer、シカゴ植物園",

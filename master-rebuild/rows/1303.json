@@ -10,7 +10,7 @@
     "s01"
    ],
    "level": "cultivar",
-   "note": "RHS：Salvia × digenea 'Merleau Rose'（RHS は Salvia × digenea としている。マスターは nemorosa） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので和名は空欄にした。種の文献は前の種のまま【要見直し】；前のメモ：RHS は Salvia × digenea 'Merleau Rose'（種が違う。ほかの文献で確かめられないので今の学名のまま）"
+   "note": "RHS：Salvia × digenea 'Merleau Rose'（RHS は Salvia × digenea としている。マスターは nemorosa） [Accepted]。ユーザーの確認（2026-11-27）：C。種が変わったので、種の文献と和名を新しい種で当て直した（2026-11-27）"
   },
   "synonyms": {
    "value": [
@@ -111,25 +111,21 @@
    "value": "日向",
    "method": "記載",
    "sources": [
-    "s02"
+    "s18"
    ],
-   "level": "species"
+   "level": "cultivar"
   },
   "usda_min": {
-   "value": 4,
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "usda_max": {
-   "value": 8,
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s02"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "rhs_h": {
    "value": "H7",
@@ -140,13 +136,10 @@
    "level": null
   },
   "heat": {
-   "value": "強",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s20"
-   ],
-   "level": "species",
-   "note": "おぎはら（種のページ）。信頼度：中"
+   "sources": null,
+   "level": null
   },
   "heat_note": {
    "value": null,
@@ -158,32 +151,22 @@
    "value": "中",
    "method": "判定",
    "sources": [
-    "s20",
-    "s21",
     "s02",
     "s01"
    ],
    "level": "cultivar"
   },
   "west_sun": {
-   "value": "△",
+   "value": null,
    "method": "判定",
-   "sources": [
-    "s20",
-    "s21",
-    "s02",
-    "s01"
-   ],
-   "level": "cultivar"
+   "sources": null,
+   "level": null
   },
   "drought": {
-   "value": "強",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s02",
-    "s06"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "soil_moisture": {
    "value": "適湿",
@@ -240,7 +223,7 @@
    "sources": [
     "s17"
    ],
-   "level": "species"
+   "level": null
   },
   "rhizome_level": {
    "value": null,
@@ -304,12 +287,7 @@
    "method": "記載",
    "sources": [
     "s01",
-    "s02",
-    "s06",
-    "s18",
-    "s17",
-    "s20",
-    "s21"
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -345,12 +323,10 @@
    "level": "cultivar"
   },
   "cut_flower": {
-   "value": "○",
+   "value": null,
    "method": "記載",
-   "sources": [
-    "s06"
-   ],
-   "level": "species"
+   "sources": null,
+   "level": null
   },
   "pollinator": {
    "value": "○",
@@ -364,8 +340,7 @@
    "value": "冬は地上部が枯れます。晩秋、地上部が枯れたら地際で切ります。",
    "method": "記載",
    "sources": [
-    "s18",
-    "s20"
+    "s18"
    ],
    "level": "cultivar"
   },
@@ -373,8 +348,7 @@
    "value": "冬は地上部が枯れます。晩秋、地上部が枯れたら地際で切ります。",
    "method": "記載",
    "sources": [
-    "s18",
-    "s20"
+    "s18"
    ],
    "level": "cultivar"
   }
@@ -382,14 +356,14 @@
  "review": {
   "management_type_reason": "RHS・品種: 花穂を切ると花期が延びる。MBG・種: 花後に切り戻す、stauden.de: 一番花の後の切り戻しで返り咲き。夏に倒れる・傷むので切るという文は sentences にないので機械の C ではなく B",
   "management_type_quote": "Cut back flower spikes to prolong flowering",
-  "management_type_by_matching": "C 夏前切戻型",
+  "management_type_by_matching": null,
   "heat_west_only": null,
   "muggy_west_only": "中",
-  "heat_muggy_west_evidence": "[おぎはら/種] 耐暑性；強\n[おぎはら楽天/種] 耐湿性: 普 通 ある程度耐えますが、高温多湿を嫌います（蒸れ 中 相当）\n[おぎはら楽天/種] 日照 寒冷地: 日向／暖地: 昼過ぎから半日陰が理想（西日 △ 相当）\n[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] floppy ... particularly in humid climates）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
-  "spread_evidence": "[こぼれ種 1／読み直し・不明] [Gaißmayer] An zusagenden Plätzen ist eine moderate Selbstaussaat（読み直し）\n[こぼれ種 1／Gaißmayer・種] An zusagenden Plätzen ist eine moderate Selbstaussaat zu beobachten\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
+  "heat_muggy_west_evidence": "[読み直し 2026-11-24] 欧米の文献だけの蒸れ耐性：言い回しの照合では 空欄、文を読み直して 中（[MBG・種] floppy ... particularly in humid climates）\n[RHS/品種] Aspect: East-facing or South-facing or West-facing",
+  "spread_evidence": "[こぼれ種 1／読み直し・不明] [Gaißmayer] An zusagenden Plätzen ist eine moderate Selbstaussaat（読み直し）\n[読み直し 2026-11-24] こぼれ種：言い回しの照合では 空欄、文を読み直して 1（[Gaißmayer] An zusagenden Plätzen ist eine moderate Selbstaussaat）\n[増え方] こぼれ種・地下茎の段階に合わせて直した（前：株立ち）",
   "mixing_evidence": "[stauden.de・品種] Wuchsverhalten: horstig, lockerhorstig, horstbildend",
   "silhouette_evidence": "[RHS・品種] Habit: Columnar upright",
   "sources_with_cultivar_page": "RHS、stauden.de",
-  "sources_used": "MBG、NC State、RHS、stauden.de、おぎはら"
+  "sources_used": "NC State、RHS、stauden.de"
  }
 }
