@@ -1,5 +1,6 @@
 """2026-11-28 カラーミーショップの「特性が1枚でわかる画像」（その他画像1。550×550 PNG）を、新マスターから作り直す。
-使い方: colorme_card.py <新マスター.xlsx> <カラーミーの商品CSV> <出力フォルダ> <型番,型番,…>
+使い方: colorme_card.py <新マスター.xlsx> <カラーミーの商品CSV> <出力フォルダ> <型番,型番,…|all>
+- all＝今「その他画像1」が入っている行ぜんぶ。ファイル名は <商品ID>_<型番>.png（1100×1100）。4つ同時に写す
 - 見た目と決まりは、今の画像12枚（2026-11-28 に見た）から読み取った。作った元の道具は残っていない
 - 画像は Edge（headless）で HTML を写して作る。字は Noto Serif JP / Noto Sans JP（パソコンに入っているもの）
 - 植物名は、今の商品説明の「植物名」の行のまま
@@ -10,7 +11,8 @@
 - 大きさの呼び名（草丈の最大）：〜19 超小型／〜44 小型／〜69 中型／〜149 大型／150〜 超大型（境い目は今の画像からの推定）
 - 出力フォルダはリポジトリの外にする
 """
-import csv, html, os, re, subprocess, sys, time
+import csv, html, os, re, subprocess, sys, tempfile, threading, time, unicodedata
+from concurrent.futures import ThreadPoolExecutor
 import openpyxl
 
 MASTER, CSVP, OUT, NOS = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4].split(",")
@@ -128,25 +130,48 @@ def main():
     rs = list(csv.reader(open(CSVP, encoding="cp932", newline="")))
     H = rs[0]
     iD, iK = H.index("商品説明"), H.index("型番")
+    iI = [i for i, x in enumerate(H) if unicodedata.normalize("NFKC", x).startswith("その他画像1U")][0]
+    jobs = []
     for r in rs[1:]:
         k = r[iK].strip()
-        if k not in NOS or k not in master:
+        if k not in master:
+            continue
+        if NOS == ["all"]:  # all＝今「その他画像1」が入っている行ぜんぶ
+            if not r[iI].strip().lower().endswith(".png"):  # .jpg の71行は特性画像ではない（写真）
+                continue
+        elif k not in NOS:
             continue
         mm = re.search(r"<li><b>植物名：</b>(.*?)</li>", r[iD], re.S)
         name = html.unescape(re.sub(r"<[^>]+>", "\n", mm.group(1))) if mm else r[H.index("商品名")]
-        hp = os.path.abspath(f"{OUT}/{r[0]}_{k}.html")
+        hp = os.path.abspath(f"{OUT}/html/{r[0]}_{k}.html") if NOS == ["all"] else os.path.abspath(f"{OUT}/{r[0]}_{k}.html")
         pp = os.path.abspath(f"{OUT}/{r[0]}_{k}.png")
+        os.makedirs(os.path.dirname(hp), exist_ok=True)
         open(hp, "w", encoding="utf-8").write(card(master[k], name))
-        if os.path.exists(pp):
-            os.remove(pp)
-        subprocess.run([EDGE, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=2",  # 2倍（1100×1100）で写す。550 のままだとスマホで字がぼける
-                        "--window-size=550,550", f"--screenshot={pp}", "file:///" + hp.replace("\\", "/")],
-                       capture_output=True, timeout=90)
-        for _ in range(60):  # Edge は書き終わる前に戻ることがあるので待つ
-            if os.path.exists(pp) and os.path.getsize(pp) > 1000:
-                break
-            time.sleep(0.5)
-        print(k, r[0], os.path.exists(pp))
+        jobs.append((k, r[0], hp, pp))
+
+    def shoot(j):
+        k, pid, hp, pp = j
+        prof = os.path.join(tempfile.gettempdir(), "colorme_card_edge_" + str(threading.get_ident()))
+        for _try in range(3):
+            if os.path.exists(pp):
+                os.remove(pp)
+            # 2倍（1100×1100）で写す。550 のままだとスマホで字がぼける
+            subprocess.run([EDGE, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=2",
+                            f"--user-data-dir={prof}", "--window-size=550,550", f"--screenshot={pp}",
+                            "file:///" + hp.replace("\\", "/")], capture_output=True, timeout=120)
+            for _ in range(40):  # Edge は書き終わる前に戻ることがあるので待つ
+                if os.path.exists(pp) and os.path.getsize(pp) > 1000:
+                    return k, pid, True
+                time.sleep(0.5)
+        return k, pid, False
+
+    ng = 0
+    with ThreadPoolExecutor(4) as ex:
+        for n, (k, pid, ok) in enumerate(ex.map(shoot, jobs), 1):
+            ng += not ok
+            if not ok or n % 50 == 0 or len(jobs) <= 10:
+                print(n, len(jobs), k, pid, ok, flush=True)
+    print("done", len(jobs), "ng", ng)
 
 
 main()
