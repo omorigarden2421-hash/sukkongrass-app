@@ -139,7 +139,7 @@ def main():
         open(hp, "w", encoding="utf-8").write(card(master[k], name))
         if os.path.exists(pp):
             os.remove(pp)
-        subprocess.run([EDGE, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
+        subprocess.run([EDGE, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=2",  # 2倍（1100×1100）で写す。550 のままだとスマホで字がぼける
                         "--window-size=550,550", f"--screenshot={pp}", "file:///" + hp.replace("\\", "/")],
                        capture_output=True, timeout=90)
         for _ in range(60):  # Edge は書き終わる前に戻ることがあるので待つ
